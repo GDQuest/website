@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Game Design Quest</title>
+    <link>http://www.gdquest.com/about/</link>
+    <description>Recent content in Abouts on Game Design Quest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.gdquest.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://www.gdquest.com/about/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.gdquest.com/about/</guid>
+      <description>
+
+&lt;h3 id=&#34;nathan-http-www-gravatar-com-avatar-926e28d2acbb403710576711d0fc93a8-jpg-hey-there-i-m-nathan:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;http://www.gravatar.com/avatar/926e28d2acbb403710576711d0fc93a8.jpg&#34; alt=&#34;Nathan&#34; /&gt;  &amp;lt; Hey there! I&amp;rsquo;m Nathan.&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;re wondering what GDquest is all about? You came to the right place.
+GDquest stands for &lt;strong&gt;Game Design Quest&lt;/strong&gt;. It is a &lt;a href=&#34;http://youtube.com/c/gdquest&#34; title=&#34;GDquest channel&#34;&gt;Youtube channel&lt;/a&gt; about game creation, a growing community, and a company focused on open source technologies.&lt;/p&gt;
+
+&lt;p&gt;On &lt;strong&gt;GDquest&lt;/strong&gt;, you&amp;rsquo;ll find:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Dozens&lt;/strong&gt; of &lt;a href=&#34;https://game-design-tutorials.zeef.com/nathan.lovato&#34; title=&#34;Game Design Tutorials&#34;&gt;free game design tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Many &lt;a href=&#34;http://gdquest.com/freebies/&#34; title=&#34;Open Source Game Assets&#34;&gt;Open source game assets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34; title=&#34;Game Art Quest&#34;&gt;A lovely community&lt;/a&gt; of game creation enthusiasts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;me-i-m-nathan:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Me? I&amp;rsquo;m Nathan!&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m a game designer and a tutor. I release free tutorials weekly on Youtube. I make game art, and I create premium training series like Game Art Quest.&lt;/p&gt;
+
+&lt;h3 id=&#34;but-i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;But I&amp;rsquo;m not alone!&lt;/h3&gt;
+
+&lt;p&gt;I work with 3 experienced collaborators:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Arthur Shefer&lt;/strong&gt;, the author of the open source game engine meta2d.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MagicFred&lt;/strong&gt;, a senior 2d game artist with a unique, cute art style.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clément Brard&lt;/strong&gt;, a Unity developer and the author of Lord of the Dungeon, a role playing game.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
