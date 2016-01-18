@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://gdquest.com/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/</loc>
     <lastmod>2016-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://gdquest.com/game-art-quest/roadmap/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</loc>
     <lastmod>2016-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/game-art-quest/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/game-art-quest/</loc>
     <lastmod>2016-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/post/community/vote-for-upcoming-tutorials-january-2016/</loc>
     <lastmod>2016-01-11T09:16:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/about/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/about/</loc>
     <lastmod>2015-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/post/programming/phaser-auto-completion-in-atom/</loc>
     <lastmod>2015-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/</loc>
   </url>
   
   <url>
-    <loc>http://gdquest.com/roadmap/</loc>
+    <loc>http://nathanlovato.github.io/GDquest-website/roadmap/</loc>
   </url>
   
 </urlset>

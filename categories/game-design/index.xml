@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Design on Game Design Quest</title>
-    <link>http://gdquest.com/categories/game-design/</link>
+    <link>http://nathanlovato.github.io/GDquest-website/categories/game-design/</link>
     <description>Recent content in Game Design on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Sat, 03 Oct 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://gdquest.com/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nathanlovato.github.io/GDquest-website/categories/game-design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Phaser auto completion in Atom</title>
-      <link>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</link>
+      <link>http://nathanlovato.github.io/GDquest-website/post/programming/phaser-auto-completion-in-atom/</link>
       <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</guid>
+      <guid>http://nathanlovato.github.io/GDquest-website/post/programming/phaser-auto-completion-in-atom/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
