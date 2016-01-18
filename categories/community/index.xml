@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Game Design Quest</title>
-    <link>http://gdquest.com/post/</link>
-    <description>Recent content in Posts on Game Design Quest</description>
+    <title>Community on Game Design Quest</title>
+    <link>http://gdquest.com/categories/community/</link>
+    <description>Recent content in Community on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Mon, 11 Jan 2016 09:16:10 +0100</lastBuildDate>
-    <atom:link href="http://gdquest.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://gdquest.com/categories/community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vote for Upcoming Tutorials! January 2016</title>
@@ -77,78 +77,6 @@ By the way, it’s not their first shot at game engines. The project is made by 
 &lt;p&gt;What is a game designer? How can you become a professional or an independent game designer? Based on my experience creating games with a talented engineer, working as a freelancer and now creating Game Design Quest, I will share what I learned along the way.&lt;/p&gt;
 
 &lt;p&gt;I can’t tell you which college you should pick, but I can help you to teach yourself game design. That is what this series is all about. &lt;strong&gt;It is not a series about creating a business and selling your games!&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Phaser auto completion in Atom</title>
-      <link>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</link>
-      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</guid>
-      <description>
-
-&lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;installing-tern&#34;&gt;Installing tern&lt;/h1&gt;
-
-&lt;p&gt;This first part explains how to get npm, install tern and the tern-phaser plugin. The first thing that you need to ensure is that you have Node.js installed on your computer. You can download it on &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;https://nodejs.org/en/&lt;/a&gt;. This will give you access to npm as well, a handy package manager for js libraries and plugins. It allows you to download install all sorts of packages from the command prompt.&lt;/p&gt;
-
-&lt;p&gt;Once Node.js has finished installing, we have a few commands to call from the command prompt. On windows, you can access the command line need to press the Windows R key combination, type &amp;#8220;cmd&amp;#8221; and press enter.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/HVB8KRn.png&#34; alt=&#34;&#34; width=&#34;463&#34; height=&#34;247&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then we need to install a few packages. First, there is tern, the JS analyzer that the tern-phaser plugin uses. In the command line tool, type &amp;#8220;npm install tern&amp;#8221; and press enter. Npm will take care of the install for you, it will just take a moment.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/H1xIdew.png&#34; alt=&#34;&#34; width=&#34;465&#34; height=&#34;247&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We then need the tern-phaser plugin to be installed where the tern package has been put. You can let windows find the folder for you by typing &amp;#8220;npm install -g tern-phaser&amp;#8221; in the command prompt and pressing enter.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/qqUNi8c.png&#34; alt=&#34;&#34; width=&#34;657&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;the-manual-route&#34;&gt;The manual route&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;If the automatic install of tern-phaser doesn&amp;#8217;t work&lt;/strong&gt;, you&amp;#8217;ll have to go navigate to the tern install folder manually from the command prompt. To change the folder the command prompt is in, you need to type cd (&lt;em&gt;current directory&lt;/em&gt;) followed by the path you want to reach. By default, tern should be installed to C:\Users**YourName**\AppData\Roaming\npm\node_modules.&lt;/p&gt;
-
-&lt;p&gt;In the command prompt, you then have to enter &amp;#8220;cd C:\Users**YourName**\AppData\Roaming\npm\node_modules&amp;#8221;. Note that you can copy the path from windows and paste it in the command prompt using the right mouse button (&lt;em&gt;Ctrl V doesn&amp;#8217;t work by default&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/4shbnrB.png&#34; alt=&#34;&#34; width=&#34;487&#34; height=&#34;174&#34; /&gt;&lt;figure class=&#34;thumbnail wp-caption alignnone&#34; style=&#34;width: 298px&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/rX9oAKb.png&#34; alt=&#34;&#34; width=&#34;298&#34; height=&#34;217&#34; /&gt;&lt;figcaption class=&#34;caption wp-caption-text&#34;&gt;Right click on the command line tool to paste text.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Once you got to the right folder, just type npm &amp;#8220;install tern-phaser&amp;#8221; and press enter.&lt;figure class=&#34;thumbnail wp-caption alignnone&#34; style=&#34;width: 677px&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/zJusEnO.png&#34; alt=&#34;&#34; width=&#34;677&#34; height=&#34;115&#34; /&gt;&lt;figcaption class=&#34;caption wp-caption-text&#34;&gt;Without -g, the command installs the tern-phaser package in the folder you&amp;#8217;re currently in.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h1 id=&#34;using-tern-phaser-with-atom&#34;&gt;Using tern-phaser with Atom&lt;/h1&gt;
-
-&lt;p&gt;Now, you have both tern and tern-phaser installed on your computer. Let&amp;#8217;s move to setting up atom to work with tern. There is no native integration of tern in atom. However, there is a plugin called &lt;strong&gt;atom-ternjs&lt;/strong&gt; that works like a charm. We can install the package from the command line as well. Either &lt;strong&gt;close and reopen the command&lt;/strong&gt; &lt;strong&gt;prompt&lt;/strong&gt; or navigate back to your root folder with the following command: &amp;#8220;cd C:\Users\YourName&amp;#8221;.&lt;/p&gt;
-
-&lt;p&gt;Then, to call the Atom Package Manager, you need to use the apm command. Type &amp;#8220;apm install atom-ternjs&amp;#8221; and press enter. This will add this package to atom for you. To use tern with your project, you just need to have a tern configuration file. Atom-ternjs can create a basic config file for you. In Atom, you first need to have at least one javascript file loaded. Then, go to packages -&amp;gt; Atom ternjs -&amp;gt; Configure project&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/QjFJpud.png&#34; alt=&#34;&#34; width=&#34;334&#34; height=&#34;189&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can set some parameters in the newly opened tab and click on save and restart server. This will create a new .tern-project file in your project folder. We still need to tell it to use the phaser plugin. You just have to add &amp;#8220;phaser&amp;#8221; in the plugins section. Here&amp;#8217;s the content of my .tern-project file:&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;div class=&#34;kt-simple-box&#34; style=&#34;background-color:rgba(255, 255, 255, 1); min-height:1px; padding-top:20px; padding-bottom:20px; padding-left:20px; padding-right:20px; &#34;&gt;
-  &lt;p&gt;
-    {   &amp;#8220;ecmaVersion&amp;#8221;: 5,   &amp;#8220;libs&amp;#8221;: [&amp;#8220;browser&amp;#8221;],   &amp;#8220;plugins&amp;#8221;: {     &amp;#8220;phaser&amp;#8221;: {}   } }
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/EC06Yl4.png&#34; alt=&#34;&#34; width=&#34;467&#34; height=&#34;237&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Save your file, and then go to package -&amp;gt; Atom Ternjs -&amp;gt; Restart server. If you don&amp;#8217;t get any error, you&amp;#8217;re good to go! &lt;em&gt;Note that having a phaser.js file next to your .tern-project file can prevent tern-phaser from working &amp;#8211; in which case you&amp;#8217;ll get a series of errors in Atom&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/Fd9QqM3.png&#34; alt=&#34;&#34; width=&#34;844&#34; height=&#34;403&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

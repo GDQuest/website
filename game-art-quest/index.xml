@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game-art-quests on Game Design Quest</title>
-    <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/</link>
+    <link>http://gdquest.com/game-art-quest/</link>
     <description>Recent content in Game-art-quests on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Sat, 16 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://nathanlovato.github.io/GDquest-website/game-art-quest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://gdquest.com/game-art-quest/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</link>
+      <link>http://gdquest.com/game-art-quest/roadmap/</link>
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</guid>
+      <guid>http://gdquest.com/game-art-quest/roadmap/</guid>
       <description>
 
 &lt;h2 id=&#34;to-do:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;To do&lt;/h2&gt;
@@ -95,10 +95,10 @@ This is a hub for all of the activity linked to the Game Art Quest project. Here
     
     <item>
       <title>Game Art Quest</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/</link>
+      <link>http://gdquest.com/game-art-quest/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/</guid>
+      <guid>http://gdquest.com/game-art-quest/</guid>
       <description>
 
 &lt;!-- &lt;div class=&#34;btn-toolbar&#34; role=&#34;toolbar&#34;&gt;
@@ -115,7 +115,7 @@ This is a hub for all of the activity linked to the Game Art Quest project. Here
   &lt;/div&gt;
 &lt;/div&gt; --&gt;
 
-&lt;h1 id=&#34;discover-game-art-quest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;discover-game-art-quest&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
 
 &lt;div class=&#34;row&#34;&gt;
   &lt;!-- &lt;div class=&#34;col-lg-8 col-md-12&#34;&gt; --&gt;
@@ -127,28 +127,38 @@ This is a hub for all of the activity linked to the Game Art Quest project. Here
   &lt;!-- &lt;/div&gt; --&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;If you don&amp;rsquo;t know Krita yet, check out my &lt;a href=&#34;https://www.youtube.com/playlist?list=PLhqJJNjsQ7KE3FLHIE31UgmLdcqsZfXTw&#34;&gt;19 YouTube tutorials&lt;/a&gt; dedicated to it! And &lt;a href=&#34;https://krita.org/download/krita-desktop/&#34;&gt;click here&lt;/a&gt; to download the application.&lt;/p&gt;
+&lt;p&gt;In this series, &lt;strong&gt;I will run you through the process of creating professional grade static assets for games&lt;/strong&gt;. I will share my workflow and my productivity tricks. Not only that! I will show you how Krita is becoming a solid option for professional work.&lt;/p&gt;
 
-&lt;p&gt;It was funded &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;on Kickstarter&lt;/a&gt; by 424 generous backers!&lt;/p&gt;
+&lt;p&gt;Although we’ll use Krita, the concepts you will learn apply to any painting application or medium. To become a more efficient game artist, you have to sharpen your observation skills and explore drawing techniques. These are the same regardless of the tools you are using, and that’s what we&amp;rsquo;re going to see.&lt;/p&gt;
+
+&lt;p&gt;The series will also cover the unique constraints we game artists face in our work. As a game artist, you have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, &lt;strong&gt;your art has to support the gameplay: it shapes the game experience&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know Krita yet, check out my &lt;a href=&#34;https://www.youtube.com/playlist?list=PLhqJJNjsQ7KE3FLHIE31UgmLdcqsZfXTw&#34;&gt;19 YouTube tutorials&lt;/a&gt; dedicated to it! And &lt;a href=&#34;https://krita.org/download/krita-desktop/&#34;&gt;click here&lt;/a&gt; to download the application. It&amp;rsquo;s available on Windows, Linux and Mac (&lt;em&gt;port in progress&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Game Art Quest was funded &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;on Kickstarter&lt;/a&gt; by 424 generous backers!&lt;/p&gt;
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;who-am-i-to-teach-you-game-art:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
+&lt;h2 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;I’m Nathan Lovato, a freelance game designer. I&amp;rsquo;m the founder of the &lt;a href=&#34;http://youtube.com/c/gdquest&#34;&gt;GDquest Youtube channel&lt;/a&gt;. Every week, I release a new tutorial about game art and game design.&lt;/p&gt;
+&lt;p&gt;I’m Nathan Lovato, a game designer. I the run &lt;a href=&#34;http://youtube.com/c/gdquest&#34;&gt;GDquest&lt;/a&gt; a Youtube education channel dedicated to game art and game design. Every week, I release a new tutorial. I have made dozens of tutorials already! You can find them all &lt;a href=&#34;https://game-design-tutorials.zeef.com/nathan.lovato&#34;&gt;on that page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m working &lt;strong&gt;hand in hand with the Krita developers&lt;/strong&gt;. They review my work to ensure that you get the best Krita training possible!&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s a description of the 3 volumes of Game Art Quest.&lt;/p&gt;
 
-&lt;h3 id=&#34;free-volume-1-learn-to-use-krita-for-professional-game-art:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Learn to use Krita for professional game art.&lt;/h3&gt;
+&lt;h3 id=&#34;free-volume-1-learn-to-use-krita-for-professional-game-art&#34;&gt;[FREE] Volume 1 - Learn to use Krita for professional game art.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;game-art-quest-free-krita-tutorials.png&#34; alt=&#34;Game Art Quest volume 1 banner - Free Krita tutorials&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;This training will show you what Krita has to offer to 2d game artists. It covers the tools you need to know to work efficiently, as well as some workflow related tips.
-It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter backers! It is available on both Udemy and Youtube.&lt;/p&gt;
+It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter backers! It will be available on both Udemy and Youtube.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Current progress&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
@@ -163,9 +173,9 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Game Art Quest volume 2 banner - painterly art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;In this second training, we will take a closer look at the game creation pipeline from a game artist&amp;rsquo;s standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (&lt;em&gt;Odin Sphere, Muramasa&lt;/em&gt;) and Moon Studios (&lt;em&gt;Ori and the Blind Forest&lt;/em&gt;).&lt;/p&gt;
 
@@ -182,9 +192,9 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Game Art Quest volume 3 banner - Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;This 3rd volume is dedicated to isometric game art. In this series, we will expand on the first 2 volumes, explore new drawing techniques as well as the characteristics of isometric games.&lt;/p&gt;
 
@@ -201,9 +211,9 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;h1 id=&#34;roadmap:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Roadmap&lt;/h1&gt;
+&lt;h1 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h1&gt;
 
-&lt;h2 id=&#34;i-m-currently-working-on:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m currently working on&lt;/h2&gt;
+&lt;h2 id=&#34;i-m-currently-working-on&#34;&gt;I&amp;rsquo;m currently working on&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;The Game Art Quest hub&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;)
 &lt;div class=&#34;progress&#34;&gt;
@@ -232,62 +242,7 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 
 This is a hub for all of the activity linked to the Game Art Quest project. Here, you will find open source game assets from the project, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;planning:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Planning&lt;/h2&gt;
-
-&lt;p&gt;This roadmap will tell you in which order I&amp;rsquo;m producing Game Art Quest. I will adjust it over time, depending on the workload and my progress with the videos.&lt;/p&gt;
-
-&lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;January 16 to February 15&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First part of the Krita training (about 30mn-1h)&lt;/li&gt;
-&lt;li&gt;Pre-produce game art quest volume 2&lt;/li&gt;
-&lt;li&gt;Monster design series on GDquest&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Game Art Quest Roadmap</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</link>
-      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-i-m-working-on:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;What I&amp;rsquo;m working on&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Game Art Quest hub&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;)
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;60&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 60%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-producing the Krita training&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;20&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 20%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-This is a hub for all of the activity linked to the Game Art Quest project. Here, you will find open source game assets from the project, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;roadmap:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;
 
 &lt;p&gt;This roadmap will tell you in which order I&amp;rsquo;m producing Game Art Quest. I will adjust it over time, depending on the workload and my progress with the videos.&lt;/p&gt;
 
