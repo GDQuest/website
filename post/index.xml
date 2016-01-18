@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Game Design Quest</title>
+    <link>http://www.gdquest.com/post/</link>
+    <description>Recent content in Posts on Game Design Quest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <lastBuildDate>Mon, 11 Jan 2016 09:16:10 +0100</lastBuildDate>
+    <atom:link href="http://www.gdquest.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vote for Upcoming Tutorials! January 2016</title>
+      <link>http://www.gdquest.com/2016/01/11/vote-for-upcoming-tutorials-january-2016/</link>
+      <pubDate>Mon, 11 Jan 2016 09:16:10 +0100</pubDate>
+      
+      <guid>http://www.gdquest.com/2016/01/11/vote-for-upcoming-tutorials-january-2016/</guid>
+      <description>
+
+&lt;p&gt;Up until now, the tutorials have been a bit random on GDquest. I jumped from theme to theme based on your requests or ideas I had. But now, we&amp;rsquo;re in 2016. I want us to try something new. &lt;strong&gt;It is time for you, members of the community, to choose the tutorial series you want to see on the channel.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I chose a handful of ideas based on your feedback and on what I can handle right now. There are 2 themes that I didn’t list, on purpose: animation and the Godot engine. Here&amp;rsquo;s why: there will be some animation tutorials when Krita 3.0 is released. And I am waiting for Godot 2.0 to cover it on the channel.&lt;/p&gt;
+
+&lt;h2 id=&#34;let-your-voice-be-heard:ffb53db388035195c22b87f52accec93&#34;&gt;Let your voice be heard&lt;/h2&gt;
+
+&lt;p&gt;You can pick as many series as you’d like! I will produce the 3 most popular entries.&lt;/p&gt;
+
+&lt;p&gt;&lt;button type=&#34;button&#34; class=&#34;btn btn-lg btn-default center-block&#34;&gt;
+  &lt;a class=&#34;typeform-share link&#34; href=&#34;https://gdquest.typeform.com/to/HfiMXO&#34;  target=&#34;_blank&#34;&gt;Click here to Vote!&lt;/a&gt;
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can find more information about each and every series below.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.gdquest.com/Tutorials/Banners/Small/superpowers-html5.png&#34; alt=&#34;Superpowers, the collaborative HTML5 game engine tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine:ffb53db388035195c22b87f52accec93&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
+
+&lt;p&gt;Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
+By the way, it’s not their first shot at game engines. The project is made by &lt;a href=&#34;https://sparklinlabs.com/&#34;&gt;Sparkin Labs&lt;/a&gt;, the authors of &lt;a href=&#34;http://craftstud.io/&#34;&gt;CraftStudio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.gdquest.com/Tutorials/Banners/Small/blender-vse.png&#34; alt=&#34;Blender VSE tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;introduction-to-video-editing-with-blender:ffb53db388035195c22b87f52accec93&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
+
+&lt;p&gt;Blender is an impressive piece of software. It is also my open source replacement for After Effects and a video editing tool of choice. Its sequencer has its shortcomings, but it is an efficient tool to get started making videos nonetheless. In this series, I will share what I have learned creating YouTube videos with blender for the past 6 months.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.gdquest.com/Tutorials/Banners/Small/kickstarter-tips.png&#34; alt=&#34;Game Art Quest Kickstarter tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips:ffb53db388035195c22b87f52accec93&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
+
+&lt;p&gt;As you know I ran a Kickstarter campaign that was successfully funded. Better than that, it doubled the initial goal! During those hectic weeks, struggling to keep up with the frightening workload, I learned a lot about crowdfunding. With this theme, I want to go over the preparation, the ongoing production and the communication you have to take care of during the course of a Kickstarter campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.gdquest.com/Tutorials/Banners/Small/introduction-music-scoring-for-games.png&#34; alt=&#34;Introduction to music scoring for games tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;a-primer-on-music-scoring-for-games:ffb53db388035195c22b87f52accec93&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
+
+&lt;p&gt;Believe it or not, but I write and produce &lt;a href=&#34;https://soundcloud.com/gdquest&#34;&gt;game soundtracks&lt;/a&gt;! I actually studied music scoring.&lt;/p&gt;
+
+&lt;p&gt;Writing good music takes a lot of experience! And the resources for it are sometimes overly complicated, or plain mystical. I was lucky to learn music with a teacher who’s all about analysis and clarity. I&amp;rsquo;d like to share some of what he taught me.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;166&#34;  scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240091967&amp;amp;color=ff9900&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;This isn’t a series about music production using a DAW&lt;/strong&gt; (&lt;em&gt;Digital Audio Workstation&lt;/em&gt;) like FL studio. Music scoring is a huge topic. This is but an introduction to music as a language! I will try to give you a good sense of what the building blocks of a score are, and what scoring for games is like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.gdquest.com/Tutorials/Banners/Small/rock-and-grass-tiles.png&#34; alt=&#34;Rock tiles tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games:ffb53db388035195c22b87f52accec93&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
+
+&lt;p&gt;There is one type of 2-D game asset that is rarely explained online: tiles. These are sprites that connect seamlessly to one another and that you can reuse extensively to create your game backgrounds.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial series, I will show you how to create tiles for the ground and for walls or hanging ceiling in an outdoor environment, in a side scrolling game.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.gdquest.com/Tutorials/Banners/Small/becoming-a-game-designer.png&#34; alt=&#34;Becoming a game designer tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;becoming-an-independent-game-designer:ffb53db388035195c22b87f52accec93&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
+
+&lt;p&gt;What is a game designer? How can you become a professional or an independent game designer? Based on my experience creating games with a talented engineer, working as a freelancer and now creating Game Design Quest, I will share what I learned along the way.&lt;/p&gt;
+
+&lt;p&gt;I can’t tell you which college you should pick, but I can help you to teach yourself game design. That is what this series is all about. &lt;strong&gt;It is not a series about creating a business and selling your games!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phaser auto completion in Atom</title>
+      <link>http://www.gdquest.com/2015/10/03/phaser-auto-completion-in-atom/</link>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.gdquest.com/2015/10/03/phaser-auto-completion-in-atom/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;installing-tern:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Installing tern&lt;/h1&gt;
+
+&lt;p&gt;This first part explains how to get npm, install tern and the tern-phaser plugin. The first thing that you need to ensure is that you have Node.js installed on your computer. You can download it on &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;https://nodejs.org/en/&lt;/a&gt;. This will give you access to npm as well, a handy package manager for js libraries and plugins. It allows you to download install all sorts of packages from the command prompt.&lt;/p&gt;
+
+&lt;p&gt;Once Node.js has finished installing, we have a few commands to call from the command prompt. On windows, you can access the command line need to press the Windows R key combination, type &amp;#8220;cmd&amp;#8221; and press enter.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/HVB8KRn.png&#34; alt=&#34;&#34; width=&#34;463&#34; height=&#34;247&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then we need to install a few packages. First, there is tern, the JS analyzer that the tern-phaser plugin uses. In the command line tool, type &amp;#8220;npm install tern&amp;#8221; and press enter. Npm will take care of the install for you, it will just take a moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/H1xIdew.png&#34; alt=&#34;&#34; width=&#34;465&#34; height=&#34;247&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We then need the tern-phaser plugin to be installed where the tern package has been put. You can let windows find the folder for you by typing &amp;#8220;npm install -g tern-phaser&amp;#8221; in the command prompt and pressing enter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/qqUNi8c.png&#34; alt=&#34;&#34; width=&#34;657&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-manual-route:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;The manual route&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;If the automatic install of tern-phaser doesn&amp;#8217;t work&lt;/strong&gt;, you&amp;#8217;ll have to go navigate to the tern install folder manually from the command prompt. To change the folder the command prompt is in, you need to type cd (&lt;em&gt;current directory&lt;/em&gt;) followed by the path you want to reach. By default, tern should be installed to C:\Users**YourName**\AppData\Roaming\npm\node_modules.&lt;/p&gt;
+
+&lt;p&gt;In the command prompt, you then have to enter &amp;#8220;cd C:\Users**YourName**\AppData\Roaming\npm\node_modules&amp;#8221;. Note that you can copy the path from windows and paste it in the command prompt using the right mouse button (&lt;em&gt;Ctrl V doesn&amp;#8217;t work by default&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/4shbnrB.png&#34; alt=&#34;&#34; width=&#34;487&#34; height=&#34;174&#34; /&gt;&lt;figure class=&#34;thumbnail wp-caption alignnone&#34; style=&#34;width: 298px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/rX9oAKb.png&#34; alt=&#34;&#34; width=&#34;298&#34; height=&#34;217&#34; /&gt;&lt;figcaption class=&#34;caption wp-caption-text&#34;&gt;Right click on the command line tool to paste text.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Once you got to the right folder, just type npm &amp;#8220;install tern-phaser&amp;#8221; and press enter.&lt;figure class=&#34;thumbnail wp-caption alignnone&#34; style=&#34;width: 677px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/zJusEnO.png&#34; alt=&#34;&#34; width=&#34;677&#34; height=&#34;115&#34; /&gt;&lt;figcaption class=&#34;caption wp-caption-text&#34;&gt;Without -g, the command installs the tern-phaser package in the folder you&amp;#8217;re currently in.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h1 id=&#34;using-tern-phaser-with-atom:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Using tern-phaser with Atom&lt;/h1&gt;
+
+&lt;p&gt;Now, you have both tern and tern-phaser installed on your computer. Let&amp;#8217;s move to setting up atom to work with tern. There is no native integration of tern in atom. However, there is a plugin called &lt;strong&gt;atom-ternjs&lt;/strong&gt; that works like a charm. We can install the package from the command line as well. Either &lt;strong&gt;close and reopen the command&lt;/strong&gt; &lt;strong&gt;prompt&lt;/strong&gt; or navigate back to your root folder with the following command: &amp;#8220;cd C:\Users\YourName&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Then, to call the Atom Package Manager, you need to use the apm command. Type &amp;#8220;apm install atom-ternjs&amp;#8221; and press enter. This will add this package to atom for you. To use tern with your project, you just need to have a tern configuration file. Atom-ternjs can create a basic config file for you. In Atom, you first need to have at least one javascript file loaded. Then, go to packages -&amp;gt; Atom ternjs -&amp;gt; Configure project&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/QjFJpud.png&#34; alt=&#34;&#34; width=&#34;334&#34; height=&#34;189&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can set some parameters in the newly opened tab and click on save and restart server. This will create a new .tern-project file in your project folder. We still need to tell it to use the phaser plugin. You just have to add &amp;#8220;phaser&amp;#8221; in the plugins section. Here&amp;#8217;s the content of my .tern-project file:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&#34;kt-simple-box&#34; style=&#34;background-color:rgba(255, 255, 255, 1); min-height:1px; padding-top:20px; padding-bottom:20px; padding-left:20px; padding-right:20px; &#34;&gt;
+  &lt;p&gt;
+    {   &amp;#8220;ecmaVersion&amp;#8221;: 5,   &amp;#8220;libs&amp;#8221;: [&amp;#8220;browser&amp;#8221;],   &amp;#8220;plugins&amp;#8221;: {     &amp;#8220;phaser&amp;#8221;: {}   } }
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/EC06Yl4.png&#34; alt=&#34;&#34; width=&#34;467&#34; height=&#34;237&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Save your file, and then go to package -&amp;gt; Atom Ternjs -&amp;gt; Restart server. If you don&amp;#8217;t get any error, you&amp;#8217;re good to go! &lt;em&gt;Note that having a phaser.js file next to your .tern-project file can prevent tern-phaser from working &amp;#8211; in which case you&amp;#8217;ll get a series of errors in Atom&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/Fd9QqM3.png&#34; alt=&#34;&#34; width=&#34;844&#34; height=&#34;403&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
