@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Game Design Quest</title>
-    <link>http://gdquest.com/about/</link>
+    <link>http://nathanlovato.github.io/GDquest-website/about/</link>
     <description>Recent content in Abouts on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Tue, 19 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://gdquest.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nathanlovato.github.io/GDquest-website/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>http://gdquest.com/about/</link>
+      <link>http://nathanlovato.github.io/GDquest-website/about/</link>
       <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://gdquest.com/about/</guid>
+      <guid>http://nathanlovato.github.io/GDquest-website/about/</guid>
       <description>
 
 &lt;h1 id=&#34;todo:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Todo&lt;/h1&gt;
