@@ -11,10 +11,10 @@
     
     <item>
       <title>Portfolio</title>
-      <link>http://gdquest.com/portfolio/</link>
+      <link>http://gdquest.com/portfolio/portfolio/</link>
       <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://gdquest.com/portfolio/</guid>
+      <guid>http://gdquest.com/portfolio/portfolio/</guid>
       <description>&lt;!-- TOP PICTURES --&gt;
 &lt;!-- Add a carousel? --&gt;
 
@@ -187,7 +187,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -211,7 +211,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -239,7 +239,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
       <guid>http://gdquest.com/game-art-quest/roadmap/</guid>
       <description>
 
-&lt;h2 id=&#34;to-do&#34;&gt;To do&lt;/h2&gt;
+&lt;h2 id=&#34;to-do:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;To do&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Add pictures/trailer&lt;/li&gt;
@@ -247,7 +247,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
 &lt;li&gt;Make into a single document for now&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;information-to-provide-here&#34;&gt;Information to provide here&lt;/h2&gt;
+&lt;h2 id=&#34;information-to-provide-here:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Information to provide here&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Currently working on/coming next&lt;/li&gt;
@@ -262,7 +262,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita&lt;/strong&gt;, a free and open source painting application, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis.&lt;/p&gt;
 
@@ -270,24 +270,24 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
 
 &lt;p&gt;Game Art Quest is a premium training series in 3 volumes. It was funded &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;on Kickstarter&lt;/a&gt; by 424 generous backers!&lt;/p&gt;
 
-&lt;h3 id=&#34;free-volume-1-learn-to-use-krita-for-professional-game-art&#34;&gt;[FREE] Volume 1 - Learn to use Krita for professional game art.&lt;/h3&gt;
+&lt;h3 id=&#34;free-volume-1-learn-to-use-krita-for-professional-game-art:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Learn to use Krita for professional game art.&lt;/h3&gt;
 
 &lt;p&gt;This training will show you the tools Krita has to offer to game artists. It covers the tools that you need to work efficiently, as well as some workflow related tips.
 It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter backers! It is available on both Udemy and Youtube.&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;In this second training, we will take a closer look at the game creation pipeline from a game artist&amp;rsquo;s standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (&lt;em&gt;Odin Sphere, Muramasa&lt;/em&gt;) and Moon Studios (&lt;em&gt;Ori and the Blind Forest&lt;/em&gt;).&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;This second volume focuses on isometric game with a cel shaded art style&lt;/p&gt;
 
-&lt;h2 id=&#34;what-i-m-working-on&#34;&gt;What I&amp;rsquo;m working on&lt;/h2&gt;
+&lt;h2 id=&#34;what-i-m-working-on:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;What I&amp;rsquo;m working on&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;The Game Art Quest hub&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;)
@@ -305,11 +305,11 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 This is a hub for all of the activity linked to the Game Art Quest project. Here, you will find open source game assets from the project, the free Krita training, as well as a frequently updated roadmap.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;h2 id=&#34;roadmap:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Roadmap&lt;/h2&gt;
 
 &lt;p&gt;Here&amp;rsquo;s how the project is going to unfold. This roadmap may be subject to change in the future.&lt;/p&gt;
 
-&lt;h3 id=&#34;pre-production&#34;&gt;Pre production&lt;/h3&gt;
+&lt;h3 id=&#34;pre-production:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Pre production&lt;/h3&gt;
 
 &lt;p&gt;Blablabla&lt;/p&gt;
 </description>
@@ -364,7 +364,7 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 
 &lt;!-- DISCOVER --&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;discover-game-art-quest&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;discover-game-art-quest:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -372,7 +372,7 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -390,7 +390,7 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
+&lt;h2 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -520,7 +520,7 @@ text-success
 
 &lt;p&gt;I chose a handful of ideas based on your feedback and on what I can handle right now. There are 2 themes that I didn’t list, on purpose: animation and the Godot engine. Here&amp;rsquo;s why: there will be some animation tutorials when Krita 3.0 is released. And I am waiting for Godot 2.0 to cover it on the channel.&lt;/p&gt;
 
-&lt;h2 id=&#34;let-your-voice-be-heard:ffb53db388035195c22b87f52accec93&#34;&gt;Let your voice be heard&lt;/h2&gt;
+&lt;h2 id=&#34;let-your-voice-be-heard&#34;&gt;Let your voice be heard&lt;/h2&gt;
 
 &lt;p&gt;You can pick as many series as you’d like! I will produce the 3 most popular entries.&lt;/p&gt;
 
@@ -532,14 +532,14 @@ text-success
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/superpowers-html5.png&#34; alt=&#34;Superpowers, the collaborative HTML5 game engine tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine:ffb53db388035195c22b87f52accec93&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
+&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
 
 &lt;p&gt;Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by &lt;a href=&#34;https://sparklinlabs.com/&#34;&gt;Sparkin Labs&lt;/a&gt;, the authors of &lt;a href=&#34;http://craftstud.io/&#34;&gt;CraftStudio&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;human-proportions-from-reality-to-games:ffb53db388035195c22b87f52accec93&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
+&lt;h3 id=&#34;human-proportions-from-reality-to-games&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
 
 &lt;p&gt;There are lots of tutorials available on the basics of human anatomy and proportions (I recommend &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&amp;rsquo;s videos&lt;/a&gt;).&lt;/p&gt;
 
@@ -549,13 +549,13 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/blender-vse.png&#34; alt=&#34;Blender VSE tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;introduction-to-video-editing-with-blender:ffb53db388035195c22b87f52accec93&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
+&lt;h3 id=&#34;introduction-to-video-editing-with-blender&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
 
 &lt;p&gt;Blender is an impressive piece of software. It is also my open source replacement for After Effects and a video editing tool of choice. Its sequencer has its shortcomings, but it is an efficient tool to get started making videos nonetheless. In this series, I will share what I have learned creating YouTube videos with blender for the past 6 months.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/becoming-a-game-designer.png&#34; alt=&#34;Becoming a game designer tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;becoming-an-independent-game-designer:ffb53db388035195c22b87f52accec93&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
+&lt;h3 id=&#34;becoming-an-independent-game-designer&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
 
 &lt;p&gt;What is a game designer? How can you become a professional or an independent game designer? Based on my experience creating games with a talented engineer, working as a freelancer and now creating Game Design Quest, I will share what I learned along the way.&lt;/p&gt;
 
@@ -563,7 +563,7 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/introduction-music-scoring-for-games.png&#34; alt=&#34;Introduction to music scoring for games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;a-primer-on-music-scoring-for-games:ffb53db388035195c22b87f52accec93&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
+&lt;h3 id=&#34;a-primer-on-music-scoring-for-games&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
 
 &lt;p&gt;Believe it or not, but I write and produce &lt;a href=&#34;https://soundcloud.com/gdquest&#34;&gt;game soundtracks&lt;/a&gt;! I actually studied music scoring.&lt;/p&gt;
 
@@ -575,7 +575,7 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/rock-and-grass-tiles.png&#34; alt=&#34;Rock tiles tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games:ffb53db388035195c22b87f52accec93&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
+&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
 
 &lt;p&gt;There is one type of 2-D game asset that is rarely explained online: tiles. These are sprites that connect seamlessly to one another and that you can reuse extensively to create your game backgrounds.&lt;/p&gt;
 
@@ -583,7 +583,7 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/kickstarter-tips.png&#34; alt=&#34;Game Art Quest Kickstarter tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips:ffb53db388035195c22b87f52accec93&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
+&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
 
 &lt;p&gt;As you know I ran a Kickstarter campaign that was successfully funded. Better than that, it doubled the initial goal! During those hectic weeks, struggling to keep up with the frightening workload, I learned a lot about crowdfunding. With this theme, I want to go over the preparation, the ongoing production and the communication you have to take care of during the course of a Kickstarter campaign.&lt;/p&gt;
 </description>
@@ -709,7 +709,7 @@ It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;! If you want to help with 
       <guid>http://gdquest.com/roadmap/</guid>
       <description>
 
-&lt;h1 id=&#34;in-the-making:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;In the making&lt;/h1&gt;
+&lt;h1 id=&#34;in-the-making&#34;&gt;In the making&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;GDquest website, v0.1&lt;/strong&gt; &lt;i class=&#34;fa fa-check
 text-success
