@@ -16,7 +16,6 @@
       
       <guid>http://gdquest.com/portfolio/</guid>
       <description>&lt;!-- TOP PICTURES --&gt;
-
 &lt;!-- Add a carousel? --&gt;
 
 &lt;div class=&#34;section&#34; id=portfolio-header-pictures&gt;
@@ -43,69 +42,64 @@
       &lt;/div&gt;
     &lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&amp;quot;&amp;gt;
-    &amp;lt;a&amp;gt;&amp;lt;i class=&amp;quot;fa fa-3x fa-code fa-fw text-warning&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;p class=&amp;quot;text-left&amp;quot;&amp;gt;We can answer your need for HTML5 and Unity game development. For Html5, we use
-      &amp;lt;strong&amp;gt;our open source game engine Meta2d&amp;lt;/strong&amp;gt;, offering clean and easy to edit code.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&amp;quot;&amp;gt;
-    &amp;lt;a&amp;gt;&amp;lt;i class=&amp;quot;fa fa-3x fa-fw fa-paint-brush text-info&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;p class=&amp;quot;text-left&amp;quot;&amp;gt;We design
-      &amp;lt;strong&amp;gt;appealing characters and environments, clear UI elements and polished cut-out animations&amp;lt;/strong&amp;gt; made with Spine or Photoshop to serve your creative vision.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&amp;quot;&amp;gt;
-    &amp;lt;a&amp;gt;&amp;lt;i class=&amp;quot;fa fa-3x fa-fw fa-youtube-play text-danger&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;p class=&amp;quot;text-left&amp;quot;&amp;gt;We have a library of
-      &amp;lt;strong&amp;gt;dozens of deep and instructive tutorials&amp;lt;/strong&amp;gt; to prove our expertise. Find them all on the &amp;lt;a href=&amp;quot;https://www.youtube.com/c/gdquest&amp;quot;&amp;gt;GDquest youtube channel&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-code fa-fw text-warning&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We can answer your need for HTML5 and Unity game development. For Html5, we use
+          &lt;strong&gt;our open source game engine Meta2d&lt;/strong&gt;, offering clean and easy to edit code.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-fw fa-paint-brush text-info&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We design
+          &lt;strong&gt;appealing characters and environments, clear UI elements and polished cut-out animations&lt;/strong&gt; made with Spine or Photoshop to serve your creative vision.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-fw fa-youtube-play text-danger&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We have a library of
+          &lt;strong&gt;dozens of deep and instructive tutorials&lt;/strong&gt; to prove our expertise. Find them all on the &lt;a href=&#34;https://www.youtube.com/c/gdquest&#34;&gt;GDquest youtube channel&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-  &amp;lt;a href=&amp;quot;mailto:nathan.lovato.art@gmail.com&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;button-hire-us.png&amp;quot; alt=&amp;quot;Hire Us!&amp;quot; class=&amp;quot;img-responsive center-block&amp;quot; /&amp;gt;
-  &amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;a href=&#34;mailto:nathan.lovato.art@gmail.com&#34;&gt;
+        &lt;img src=&#34;button-hire-us.png&#34; alt=&#34;Hire Us!&#34; class=&#34;img-responsive center-block&#34; /&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;!-- THE TEAM --&gt;
-
 &lt;div class=&#34;section&#34; id=&#34;portfolio-the-team&#34;&gt;
   &lt;div class=&#34;container&#34;&gt;
     &lt;div class=&#34;row&#34;&gt;
       &lt;img src=&#34;banner-the-team.png&#34; alt=&#34;The Team&#34; class=&#34;img-responsive center-block&#34; /&gt;
     &lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-3 col-md-3 col-sm-6 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Avatars/avatar-nathan.png&amp;quot; class=&amp;quot;img-responsive center-block&amp;quot;&amp;gt;
-    &amp;lt;h4&amp;gt;Nathan Lovato - Game Designer&amp;lt;/h4&amp;gt;
-    &amp;lt;p&amp;gt;
-      &amp;lt;strong&amp;gt;Nathan&amp;lt;/strong&amp;gt; is the author of the &amp;lt;a href=&amp;quot;http://youtube.com/c/gdquest&amp;quot;&amp;gt;GDquest Youtube channel&amp;lt;/a&amp;gt;. He is both a professional designer and a tutor.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-3 col-md-3 col-sm-6 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Avatars/avatar-magicfred.png&amp;quot; class=&amp;quot;img-responsive center-block&amp;quot;&amp;gt;
-    &amp;lt;h4&amp;gt;MagicFred - Game Artist&amp;lt;/h4&amp;gt;
-    &amp;lt;p&amp;gt;MagicFred is a game artist with more than 15 years working in the industry. Founder of Dijiko, he designed and released a variety of games on web and mobile platforms.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-3 col-md-3 col-sm-6 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Avatars/avatar-arthur.png&amp;quot; class=&amp;quot;img-responsive center-block&amp;quot;&amp;gt;
-    &amp;lt;h4&amp;gt;Arthur Shefer - Developer&amp;lt;/h4&amp;gt;
-    &amp;lt;p&amp;gt;Arthur is the author of the open source JS game engine meta2d. He worked on the top grossing web and mobile game My Country as a front end developer.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-3 col-md-3 col-sm-6 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Avatars/avatar-clement.png&amp;quot; class=&amp;quot;img-responsive center-block&amp;quot;&amp;gt;
-    &amp;lt;h4&amp;gt;Clement Brard - Developer&amp;lt;/h4&amp;gt;
-    &amp;lt;p&amp;gt;Clément is a Unity developer with more than 5 years of experience. He is the author of Lord of the Dungeon.&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-nathan.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Nathan Lovato - Game Designer&lt;/h4&gt;
+        &lt;p&gt;
+          &lt;strong&gt;Nathan&lt;/strong&gt; is the author of the &lt;a href=&#34;http://youtube.com/c/gdquest&#34;&gt;GDquest Youtube channel&lt;/a&gt;. He is both a professional designer and a tutor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-magicfred.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;MagicFred - Game Artist&lt;/h4&gt;
+        &lt;p&gt;MagicFred is a game artist with more than 15 years working in the industry. Founder of Dijiko, he designed and released a variety of games on web and mobile platforms.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-arthur.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Arthur Shefer - Developer&lt;/h4&gt;
+        &lt;p&gt;Arthur is the author of the open source JS game engine meta2d. He worked on the top grossing web and mobile game My Country as a front end developer.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-clement.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Clement Brard - Developer&lt;/h4&gt;
+        &lt;p&gt;Clément is a Unity developer with more than 5 years of experience. He is the author of Lord of the Dungeon.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;!-- &lt;script type=&#34;text/javascript&#34;&gt;
 for (var i = 1; i &lt; 11; i++) {
@@ -133,33 +127,32 @@ for (var i = 1; i &lt; 11; i++) {
       &lt;/div&gt;
     &lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Content/gdquest-game-design-portfolio-7.png&amp;quot; class=&amp;quot;img-responsive&amp;quot; alt=&amp;quot;Kiwitiki&#39;s Submarine&amp;quot;&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Content/gdquest-game-design-portfolio-8.png&amp;quot; class=&amp;quot;img-responsive&amp;quot; alt=&amp;quot;Kiwitiki&#39;s Submarine&amp;quot;&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Content/gdquest-game-design-portfolio-9.png&amp;quot; class=&amp;quot;img-responsive&amp;quot; alt=&amp;quot;Kiwitiki&#39;s Submarine&amp;quot;&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-7.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-8.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-9.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Content/gdquest-game-design-portfolio-1.png&amp;quot; class=&amp;quot;img-responsive&amp;quot; alt=&amp;quot;Kiwitiki&#39;s Submarine&amp;quot;&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Content/gdquest-game-design-portfolio-2.png&amp;quot; class=&amp;quot;img-responsive&amp;quot; alt=&amp;quot;Kiwitiki&#39;s Submarine&amp;quot;&amp;gt;
-  &amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;col-lg-4 col-md-4 col-sm-4 col-xs-6&amp;quot;&amp;gt;
-    &amp;lt;img src=&amp;quot;Content/gdquest-game-design-portfolio-3.png&amp;quot; class=&amp;quot;img-responsive&amp;quot; alt=&amp;quot;Kiwitiki&#39;s Submarine&amp;quot;&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;p&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
