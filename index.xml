@@ -2,35 +2,167 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Design Quest</title>
-    <link>http://nathanlovato.github.io/GDquest-website/</link>
+    <link>http://gdquest.com/</link>
     <description>Recent content on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
-    <lastBuildDate>Tue, 19 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://nathanlovato.github.io/GDquest-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://gdquest.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://gdquest.com/portfolio/</link>
+      <pubDate>Mon, 25 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gdquest.com/portfolio/</guid>
+      <description>&lt;!-- TOP PICTURES --&gt;
+&lt;!-- Add a carousel? --&gt;
+
+&lt;div class=&#34;section&#34; id=portfolio-header-pictures&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/Header/gdquest_portfolio_magicfred_kiwitiki_submarine.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/Header/gdquest-portfolio-Dan-The-Rabbit.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Dan the Rabbit&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6 hidden-xs&#34;&gt;
+        &lt;img src=&#34;Content/Header/gdquest-portfolio-The-Lumberjack.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;The Lumberjack&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;we-make-games&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-md-12&#34;&gt;
+        &lt;img src=&#34;banner-we-make-games.png&#34; alt=&#34;We Make Games!&#34; class=&#34;img-responsive center-block&#34; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-code fa-fw text-warning&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We can answer your need for HTML5 and Unity game development. For Html5, we use
+          &lt;strong&gt;our open source game engine Meta2d&lt;/strong&gt;, offering clean and easy to edit code.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-fw fa-paint-brush text-info&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We design
+          &lt;strong&gt;appealing characters and environments, clear UI elements and polished cut-out animations&lt;/strong&gt; made with Spine or Photoshop to serve your creative vision.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-fw fa-youtube-play text-danger&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We have a library of
+          &lt;strong&gt;dozens of deep and instructive tutorials&lt;/strong&gt; to prove our expertise. Find them all on the &lt;a href=&#34;https://www.youtube.com/c/gdquest&#34;&gt;GDquest youtube channel&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;a href=&#34;mailto:nathan.lovato.art@gmail.com&#34;&gt;
+        &lt;img src=&#34;button-hire-us.png&#34; alt=&#34;Hire Us!&#34; class=&#34;img-responsive center-block&#34; /&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- THE TEAM --&gt;
+&lt;div class=&#34;section&#34; id=&#34;portfolio-the-team&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;img src=&#34;banner-the-team.png&#34; alt=&#34;The Team&#34; class=&#34;img-responsive center-block&#34; /&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-nathan.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Nathan Lovato - Game Designer&lt;/h4&gt;
+        &lt;p&gt;
+          &lt;strong&gt;Nathan&lt;/strong&gt; is the author of the &lt;a href=&#34;http://youtube.com/c/gdquest&#34;&gt;GDquest Youtube channel&lt;/a&gt;. He is both a professional designer and a tutor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-magicfred.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;MagicFred - Game Artist&lt;/h4&gt;
+        &lt;p&gt;MagicFred is a game artist with more than 15 years working in the industry. Founder of Dijiko, he designed and released a variety of games on web and mobile platforms.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-arthur.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Arthur Shefer - Developer&lt;/h4&gt;
+        &lt;p&gt;Arthur is the author of the open source JS game engine meta2d. He worked on the top grossing web and mobile game My Country as a front end developer.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-clement.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Clement Brard - Developer&lt;/h4&gt;
+        &lt;p&gt;Clément is a Unity developer with more than 5 years of experience. He is the author of Lord of the Dungeon.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;script type=&#34;text/javascript&#34;&gt;
+for (var i = 1; i &lt; 11; i++) {
+  var img = document.createElement(&#39;img&#39;);
+  img.src = document.URL + &#34;/content/gdquest-game-design-portfolio-&#34; + i + &#34;.png&#34;;
+
+  console.log(img);
+  $(&#39;#portfolio-gallery&#39;).append(img)
+}
+&lt;/script&gt; --&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;portfolio-gallery&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-4.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-5.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-6.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-7.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-8.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-9.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>About</title>
-      <link>http://nathanlovato.github.io/GDquest-website/about/</link>
+      <link>http://gdquest.com/about/</link>
       <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/about/</guid>
+      <guid>http://gdquest.com/about/</guid>
       <description>
-
-&lt;h1 id=&#34;todo:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Todo&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Why GDquest?
-
-&lt;ul&gt;
-&lt;li&gt;Add pictures&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Presskit
-
-&lt;ul&gt;
-&lt;li&gt;Upload somewhere&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;div class=&#34;media&#34;&gt;
   &lt;div class=&#34;media-left&#34;&gt;
@@ -49,11 +181,11 @@
 It is also a growing community that regroups thousands of designers.
 And a company that supports open source projects!&lt;/p&gt;
 
-&lt;p&gt;If you want to talk about GDquest on your website, first of all, thanks! I put up a press kit for you. It contains text, pictures and links to make it easy for you to find the information you need.&lt;/p&gt;
+&lt;!-- If you want to talk about GDquest on your website, first of all, thanks! I put up a press kit for you. It contains text, pictures and links to make it easy for you to find the information you need.
 
-&lt;p&gt;&lt;button type=&#34;button&#34; class=&#34;btn btn-lg btn-success center-block&#34;&gt;
+  &lt;button type=&#34;button&#34; class=&#34;btn btn-lg btn-success center-block&#34;&gt;
     Presskit
-  &lt;/button&gt;&lt;/p&gt;
+  &lt;/button&gt; --&gt;
 
 &lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
@@ -73,24 +205,38 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
 &lt;li&gt;&lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34; title=&#34;Game Art Quest&#34;&gt;A lovely community&lt;/a&gt; of game creation enthusiasts.&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-lg-8 col-sm-12&#34;&gt;
+    &lt;img src=&#34;Meta-Dash-prototype.jpg&#34; alt=&#34;Meta Dash prototype picture&#34; class=&#34;img-responsive&#34; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
-&lt;p&gt;I collaborate with people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
+&lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Arthur Shefer&lt;/strong&gt;, the author of the open source HTML5 game engine &lt;a href=&#34;http://meta2d.com/&#34;&gt;Meta2d&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;MagicFred&lt;/strong&gt;, a senior 2d game artist with a unique, cute art style.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Clément Brard&lt;/strong&gt;, a Unity developer and the author of &lt;a href=&#34;http://lordofthedungeon.com/&#34;&gt;Lord of the Dungeon&lt;/a&gt;, a role playing game currently in development.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2&gt;More about… me! &lt;small&gt;Wait, are you sure you wanna know more?&lt;/small&gt;&lt;/h2&gt;
+
+&lt;p&gt;I’m a French game designer; self-taught for the most part. I studied character animation and music scoring online. I make art, educational videos, &lt;a href=&#34;https://soundcloud.com/gdquest&#34;&gt;soundtracks&lt;/a&gt;… I also code! Doing a bit of everything allows me to better collaborate with any teammate.&lt;/p&gt;
+
+&lt;p&gt;For as far as I can remember, I’ve always been interested in getting in touch with people. I’ve always loved to learn new techniques and to share them with others. I had no plans to do something like GDquest 2 years ago. My goal was to make games with the same mindset as That Game Company. But I got drawn to education very naturally, for the better! At the end of the day, I’m more interested in empowering others to create than to make games as products.&lt;/p&gt;
+
+&lt;p&gt;Aside from GDquest, I do Chinese boxing, I study Portuguese, Japanese and… ah! I write rap songs. &lt;a href=&#34;https://soundcloud.com/gdquest/souvenirs-dados&#34;&gt;Yes, for real&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</link>
+      <link>http://gdquest.com/game-art-quest/roadmap/</link>
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</guid>
+      <guid>http://gdquest.com/game-art-quest/roadmap/</guid>
       <description>
 
 &lt;h2 id=&#34;to-do&#34;&gt;To do&lt;/h2&gt;
@@ -171,10 +317,10 @@ This is a hub for all of the activity linked to the Game Art Quest project. Here
     
     <item>
       <title>Game Art Quest</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/</link>
+      <link>http://gdquest.com/game-art-quest/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/</guid>
+      <guid>http://gdquest.com/game-art-quest/</guid>
       <description>&lt;div class=&#34;col-lg-6&#34; &gt;
 
 
@@ -208,10 +354,10 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
     
     <item>
       <title>Game Art Quest Discover</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/discover/</link>
+      <link>http://gdquest.com/game-art-quest/discover/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/discover/</guid>
+      <guid>http://gdquest.com/game-art-quest/discover/</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
@@ -257,10 +403,10 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
     
     <item>
       <title>Game Art Quest Free Assets</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/free-assets/</link>
+      <link>http://gdquest.com/game-art-quest/free-assets/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/free-assets/</guid>
+      <guid>http://gdquest.com/game-art-quest/free-assets/</guid>
       <description>&lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
 
 &lt;!-- DISCOVER --&gt;
@@ -269,9 +415,9 @@ text-default
 &#34;&gt;&lt;/i&gt;
  Open source assets&lt;/h1&gt;&lt;/p&gt;
 
-&lt;p&gt;Coming soon. In the meantime, check out my existing assets on &lt;a href=&#34;http://opengameart.org/users/gdquest&#34;&gt;OpenGameArt&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Coming soon&lt;/strong&gt;. In the meantime, check out my existing assets on &lt;a href=&#34;http://opengameart.org/users/gdquest&#34;&gt;OpenGameArt&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;GDquest-Freebies-Open-Source-Art-Pack-002-Xbox-Buttons.jpg&#34; alt=&#34;Free Xbox buttons&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;GDquest-Freebies-Open-Source-Art-Pack-002-Xbox-Buttons.jpg&#34; alt=&#34;Free Xbox buttons&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
@@ -279,10 +425,10 @@ text-default
     
     <item>
       <title>Game Art Quest Roadmap</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</link>
+      <link>http://gdquest.com/game-art-quest/roadmap/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</guid>
+      <guid>http://gdquest.com/game-art-quest/roadmap/</guid>
       <description>
 
 &lt;!-- ROADMAP --&gt;
@@ -295,15 +441,18 @@ text-default
 &#34;&gt;&lt;/i&gt;
 Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;The Game Art Quest hub&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;)
+&lt;p&gt;&lt;strong&gt;The Game Art Quest hub v1&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;) &lt;i class=&#34;fa fa-check
+text-success
+&#34;&gt;&lt;/i&gt;
+
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
     progress-bar-info
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
-    aria-valuenow=&#34;80&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 80%;&#34;&gt;
+    aria-valuenow=&#34;100&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
+    style=&#34;width: 100%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -312,7 +461,7 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;The Krita training: pre-production&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
-    progress-bar-info
+    progress-bar-success
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
@@ -320,16 +469,17 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h1&gt;
     style=&#34;width: 35%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;/p&gt;
 
-Pre-production is essential to ensure that&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Pre-production is essential to ensure that the course will deliver its promises. In this case, the goal is to show how which of Krita&amp;rsquo;s tools can be used for game art, and how to structure your workflow.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;planning:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Planning&lt;/h2&gt;
+&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;
 
 &lt;p&gt;This roadmap will tell you in which order I&amp;rsquo;m producing Game Art Quest. I will adjust it over time, depending on the workload and my progress with the videos.&lt;/p&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;January 16 to February 15&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;January 16 to February 21&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;First part of the Krita training (about 30mn-1h)&lt;/li&gt;
@@ -337,46 +487,22 @@ Pre-production is essential to ensure that&lt;/p&gt;
 &lt;li&gt;Monster design series on GDquest&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h2&gt;
+&lt;h2 id=&#34;global-progress&#34;&gt;Global progress&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
-    progress-bar-info
+    progress-bar-success
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
-    aria-valuenow=&#34;2&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 2%;&#34;&gt;
+    aria-valuenow=&#34;3&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
+    style=&#34;width: 3%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Volume 2&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;0&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 0%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Volume 3&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;0&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 0%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I&amp;rsquo;m currently moving from preproduction into production. I&amp;rsquo;m constantly refining my course plan, sending it to the Krita development team for feedback, and writing the first videos in the meantime.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
@@ -384,10 +510,10 @@ Pre-production is essential to ensure that&lt;/p&gt;
     
     <item>
       <title>Vote for Upcoming Tutorials! January 2016</title>
-      <link>http://nathanlovato.github.io/GDquest-website/post/community/vote-for-upcoming-tutorials-january-2016/</link>
+      <link>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</link>
       <pubDate>Mon, 11 Jan 2016 09:16:10 +0100</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/post/community/vote-for-upcoming-tutorials-january-2016/</guid>
+      <guid>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</guid>
       <description>
 
 &lt;p&gt;Up until now, the tutorials have been a bit random on GDquest. I jumped from theme to theme based on your requests or ideas I had. But now, we&amp;rsquo;re in 2016. I want us to try something new. &lt;strong&gt;It is time for you, members of the community, to choose the tutorial series you want to see on the channel.&lt;/strong&gt;&lt;/p&gt;
@@ -404,14 +530,14 @@ Pre-production is essential to ensure that&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;You can find more information about each and every series below.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/superpowers-html5.png&#34; alt=&#34;Superpowers, the collaborative HTML5 game engine tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/superpowers-html5.png&#34; alt=&#34;Superpowers, the collaborative HTML5 game engine tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
 
 &lt;p&gt;Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by &lt;a href=&#34;https://sparklinlabs.com/&#34;&gt;Sparkin Labs&lt;/a&gt;, the authors of &lt;a href=&#34;http://craftstud.io/&#34;&gt;CraftStudio&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;human-proportions-from-reality-to-games&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
 
@@ -421,13 +547,13 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;But more importantly, we will then discuss how we can play with those proportions in games. We&amp;rsquo;ll look at what rules designers break, and which ones they respect. We will look at various examples of stylized characters in popular games, and we will then work on our own character thumbnails. It&amp;rsquo;s a pretty big topic, perfect to complement Game Art Quest!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/blender-vse.png&#34; alt=&#34;Blender VSE tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/blender-vse.png&#34; alt=&#34;Blender VSE tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;introduction-to-video-editing-with-blender&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
 
 &lt;p&gt;Blender is an impressive piece of software. It is also my open source replacement for After Effects and a video editing tool of choice. Its sequencer has its shortcomings, but it is an efficient tool to get started making videos nonetheless. In this series, I will share what I have learned creating YouTube videos with blender for the past 6 months.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/becoming-a-game-designer.png&#34; alt=&#34;Becoming a game designer tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/becoming-a-game-designer.png&#34; alt=&#34;Becoming a game designer tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;becoming-an-independent-game-designer&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
 
@@ -435,7 +561,7 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;I can’t tell you which college you should pick, but I can help you to teach yourself game design. That is what this series is all about. &lt;strong&gt;It is not a series about creating a business and selling your games!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/introduction-music-scoring-for-games.png&#34; alt=&#34;Introduction to music scoring for games tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/introduction-music-scoring-for-games.png&#34; alt=&#34;Introduction to music scoring for games tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;a-primer-on-music-scoring-for-games&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
 
@@ -447,7 +573,7 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;&lt;strong&gt;This isn’t a series about music production using a DAW&lt;/strong&gt; (&lt;em&gt;Digital Audio Workstation&lt;/em&gt;) like FL studio. Music scoring is a huge topic. This is but an introduction to music as a language! I will try to give you a good sense of what the building blocks of a score are, and what scoring for games is like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/rock-and-grass-tiles.png&#34; alt=&#34;Rock tiles tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/rock-and-grass-tiles.png&#34; alt=&#34;Rock tiles tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
 
@@ -455,7 +581,7 @@ By the way, it’s not their first shot at game engines. The project is made by 
 
 &lt;p&gt;In this tutorial series, I will show you how to create tiles for the ground and for walls or hanging ceiling in an outdoor environment, in a side scrolling game.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://nathanlovato.github.io/GDquest-website/Tutorials/Banners/Small/kickstarter-tips.png&#34; alt=&#34;Game Art Quest Kickstarter tutorial banner&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/kickstarter-tips.png&#34; alt=&#34;Game Art Quest Kickstarter tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
 
@@ -465,10 +591,10 @@ By the way, it’s not their first shot at game engines. The project is made by 
     
     <item>
       <title>Phaser auto completion in Atom</title>
-      <link>http://nathanlovato.github.io/GDquest-website/post/programming/phaser-auto-completion-in-atom/</link>
+      <link>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</link>
       <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/post/programming/phaser-auto-completion-in-atom/</guid>
+      <guid>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -537,10 +663,10 @@ By the way, it’s not their first shot at game engines. The project is made by 
     
     <item>
       <title>Homepage</title>
-      <link>http://nathanlovato.github.io/GDquest-website/</link>
+      <link>http://gdquest.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/</guid>
+      <guid>http://gdquest.com/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-game-design-quest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Welcome to Game Design Quest!&lt;/h1&gt;
@@ -567,80 +693,36 @@ It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;! If you want to help with 
 
 &lt;h2 id=&#34;highlighted-video:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Highlighted video&lt;/h2&gt;
 
-
+&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/n218lPgKWIY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
-
-
-&lt;!-- ## In the making right now
-
-**GDquest website, v0.1**
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;40&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 40%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-_Tasks:_
-
-- Build a clean [Hugo](http://gohugo.io/) theme using [Bootstrap 3](http://getbootstrap.com/). &lt;i class=&#34;fa fa-check
-text-success
-&#34;&gt;&lt;/i&gt;
-
-- Create a page for the backers of the [Game Art Quest](/game-art-quest/) Kickstarter campaign.
-- Port the GDquest team&#39;s [Portfolio](/portfolio/).
-
-**Tutorials: Introduction to monster design**
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-success
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;20&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 20%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-_Videos:_
-
-- Analysis of enemies in Mario games &lt;i class=&#34;fa fa-check
-text-success
-&#34;&gt;&lt;/i&gt;
-
-- Analysis of enemies in MMORPGs
-- Designing a monster based on gameplay requirements
-- Polishing our monster game asset --&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Homepage</title>
-      <link>http://nathanlovato.github.io/GDquest-website/roadmap/</link>
+      <link>http://gdquest.com/roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/roadmap/</guid>
+      <guid>http://gdquest.com/roadmap/</guid>
       <description>
 
 &lt;h1 id=&#34;in-the-making&#34;&gt;In the making&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;GDquest website, v0.1&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;GDquest website, v0.1&lt;/strong&gt; &lt;i class=&#34;fa fa-check
+text-success
+&#34;&gt;&lt;/i&gt;
+
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
     progress-bar-info
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
-    aria-valuenow=&#34;40&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 40%;&#34;&gt;
+    aria-valuenow=&#34;100&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
+    style=&#34;width: 100%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -656,8 +738,14 @@ text-success
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
-&lt;li&gt;Add a simple about page with a basic press kit.&lt;/li&gt;
-&lt;li&gt;Port the GDquest team&amp;rsquo;s Portfolio.&lt;/li&gt;
+&lt;li&gt;Add a simple about page. &lt;i class=&#34;fa fa-check
+text-success
+&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;li&gt;Quick port of the GDquest team&amp;rsquo;s Portfolio. &lt;i class=&#34;fa fa-check
+text-success
+&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Tutorials: Introduction to monster design&lt;/strong&gt;
@@ -667,8 +755,8 @@ text-success
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
-    aria-valuenow=&#34;20&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 20%;&#34;&gt;
+    aria-valuenow=&#34;35&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
+    style=&#34;width: 35%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -680,7 +768,11 @@ text-success
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
-&lt;li&gt;Analysis of enemies in MMORPGs&lt;/li&gt;
+&lt;li&gt;Analysis of enemies in FF XIV &lt;i class=&#34;fa fa-check
+text-success
+&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;li&gt;Some principles of monster design&lt;/li&gt;
 &lt;li&gt;Designing a monster based on gameplay requirements&lt;/li&gt;
 &lt;li&gt;Polishing our monster game asset&lt;/li&gt;
 &lt;/ul&gt;

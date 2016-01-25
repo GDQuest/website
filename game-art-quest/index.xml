@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game-art-quests on Game Design Quest</title>
-    <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/</link>
+    <link>http://gdquest.com/game-art-quest/</link>
     <description>Recent content in Game-art-quests on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Sat, 16 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://nathanlovato.github.io/GDquest-website/game-art-quest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://gdquest.com/game-art-quest/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</link>
+      <link>http://gdquest.com/game-art-quest/roadmap/</link>
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</guid>
+      <guid>http://gdquest.com/game-art-quest/roadmap/</guid>
       <description>
 
 &lt;h2 id=&#34;to-do&#34;&gt;To do&lt;/h2&gt;
@@ -95,10 +95,10 @@ This is a hub for all of the activity linked to the Game Art Quest project. Here
     
     <item>
       <title>Game Art Quest</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/</link>
+      <link>http://gdquest.com/game-art-quest/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/</guid>
+      <guid>http://gdquest.com/game-art-quest/</guid>
       <description>&lt;div class=&#34;col-lg-6&#34; &gt;
 
 
@@ -132,10 +132,10 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
     
     <item>
       <title>Game Art Quest Discover</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/discover/</link>
+      <link>http://gdquest.com/game-art-quest/discover/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/discover/</guid>
+      <guid>http://gdquest.com/game-art-quest/discover/</guid>
       <description>
 
 &lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
@@ -181,10 +181,10 @@ It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter ba
     
     <item>
       <title>Game Art Quest Free Assets</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/free-assets/</link>
+      <link>http://gdquest.com/game-art-quest/free-assets/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/free-assets/</guid>
+      <guid>http://gdquest.com/game-art-quest/free-assets/</guid>
       <description>&lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
 
 &lt;!-- DISCOVER --&gt;
@@ -193,9 +193,9 @@ text-default
 &#34;&gt;&lt;/i&gt;
  Open source assets&lt;/h1&gt;&lt;/p&gt;
 
-&lt;p&gt;Coming soon. In the meantime, check out my existing assets on &lt;a href=&#34;http://opengameart.org/users/gdquest&#34;&gt;OpenGameArt&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Coming soon&lt;/strong&gt;. In the meantime, check out my existing assets on &lt;a href=&#34;http://opengameart.org/users/gdquest&#34;&gt;OpenGameArt&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;GDquest-Freebies-Open-Source-Art-Pack-002-Xbox-Buttons.jpg&#34; alt=&#34;Free Xbox buttons&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;GDquest-Freebies-Open-Source-Art-Pack-002-Xbox-Buttons.jpg&#34; alt=&#34;Free Xbox buttons&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
@@ -203,10 +203,10 @@ text-default
     
     <item>
       <title>Game Art Quest Roadmap</title>
-      <link>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</link>
+      <link>http://gdquest.com/game-art-quest/roadmap/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlovato.github.io/GDquest-website/game-art-quest/roadmap/</guid>
+      <guid>http://gdquest.com/game-art-quest/roadmap/</guid>
       <description>
 
 &lt;!-- ROADMAP --&gt;
@@ -219,15 +219,18 @@ text-default
 &#34;&gt;&lt;/i&gt;
 Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;The Game Art Quest hub&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;)
+&lt;p&gt;&lt;strong&gt;The Game Art Quest hub v1&lt;/strong&gt; (&lt;em&gt;this page&lt;/em&gt;) &lt;i class=&#34;fa fa-check
+text-success
+&#34;&gt;&lt;/i&gt;
+
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
     progress-bar-info
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
-    aria-valuenow=&#34;80&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 80%;&#34;&gt;
+    aria-valuenow=&#34;100&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
+    style=&#34;width: 100%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -236,7 +239,7 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;The Krita training: pre-production&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
-    progress-bar-info
+    progress-bar-success
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
@@ -244,16 +247,17 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h1&gt;
     style=&#34;width: 35%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;/p&gt;
 
-Pre-production is essential to ensure that&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Pre-production is essential to ensure that the course will deliver its promises. In this case, the goal is to show how which of Krita&amp;rsquo;s tools can be used for game art, and how to structure your workflow.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;planning:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Planning&lt;/h2&gt;
+&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;
 
 &lt;p&gt;This roadmap will tell you in which order I&amp;rsquo;m producing Game Art Quest. I will adjust it over time, depending on the workload and my progress with the videos.&lt;/p&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;January 16 to February 15&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;January 16 to February 21&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;First part of the Krita training (about 30mn-1h)&lt;/li&gt;
@@ -261,46 +265,22 @@ Pre-production is essential to ensure that&lt;/p&gt;
 &lt;li&gt;Monster design series on GDquest&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h2&gt;
+&lt;h2 id=&#34;global-progress&#34;&gt;Global progress&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
   &lt;div class=&#34;progress-bar
-    progress-bar-info
+    progress-bar-success
     progress-bar-striped
     &#34;
     role=&#34;progressbar&#34;
-    aria-valuenow=&#34;2&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 2%;&#34;&gt;
+    aria-valuenow=&#34;3&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
+    style=&#34;width: 3%;&#34;&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Volume 2&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;0&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 0%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Volume 3&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;0&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 0%;&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I&amp;rsquo;m currently moving from preproduction into production. I&amp;rsquo;m constantly refining my course plan, sending it to the Krita development team for feedback, and writing the first videos in the meantime.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
