@@ -17,7 +17,7 @@
       <guid>http://gdquest.com/game-art-quest/volume1/</guid>
       <description>
 
-&lt;h1 id=&#34;game-art-quest-volume-1-learn-to-use-krita-for-professional-game-art&#34;&gt;Game Art Quest volume 1 - Learn to use Krita for professional game art&lt;/h1&gt;
+&lt;h1 id=&#34;game-art-quest-volume-1-learn-to-use-krita-for-professional-game-art:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Game Art Quest volume 1 - Learn to use Krita for professional game art&lt;/h1&gt;
 
 &lt;p&gt;This page is a living document for the 1st volume of Game Art Quest. This means that everything listed here is subject to change, based on your feedback primarily. Below, you will find the course outline .&lt;/p&gt;
 
@@ -38,17 +38,17 @@
 &lt;li&gt;&lt;strong&gt;Move tool and free transform&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
 
 &lt;p&gt;This second chapter provides an introduction to the game art workflow with Krita. It explains the iterative nature of game art, as well as the broad steps involved in creating original game assets, from design to the finished product. I will also provide you with an example to show you which tools I use the most, and how I&amp;rsquo;ve adapted my workflow to Krita.&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-3-diving-deeper&#34;&gt;Chapter 3: diving deeper&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-3-diving-deeper:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 3: diving deeper&lt;/h2&gt;
 
 &lt;p&gt;The application offers a wealth of unexpected features. Powerful deformations, wrap-around mode, flexible brush engines, drawing assistants, filter layers, and much more! In this chapter, we&amp;rsquo;ll look at some of the more advanced functions Krita offers, as well as how to use them in practice.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ll specifically look at the tools that will not change in Krita 3.0.&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
 
 &lt;h2&gt;Chapter 5: Animation &lt;small&gt;with Krita 3&lt;/small&gt;&lt;/h2&gt;
 </description>
@@ -70,7 +70,7 @@ text-default
 &#34;&gt;&lt;/i&gt;
  The training&lt;/h1&gt;
 
-&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
+&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-free-krita-tutorials.png&#34; alt=&#34;Game Art Quest volume 1 banner - Free Krita tutorials&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -88,13 +88,13 @@ text-default
 &#34;&gt;&lt;/i&gt;
  Facebook study group&lt;/a&gt;! There, we run weekly game art challenges. The goal is to become better game artists together.&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Game Art Quest volume 2 banner - painterly art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;In this second training, we will take a closer look at the game creation pipeline from a game artist&amp;rsquo;s standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (&lt;em&gt;Odin Sphere, Muramasa&lt;/em&gt;) and Moon Studios (&lt;em&gt;Ori and the Blind Forest&lt;/em&gt;).&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Game Art Quest volume 3 banner - Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -242,7 +242,7 @@ text-success
 &lt;em&gt;This first chapter will run you through Krita&amp;rsquo;s core tools. In less than an hour, it will show you everything you need to know to start working on your own art!&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;planning:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Planning&lt;/h2&gt;
+&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;
 
 &lt;p&gt;This roadmap will tell you in which order I&amp;rsquo;m producing Game Art Quest. I will adjust it over time, depending on the workload and my progress with the videos.&lt;/p&gt;
 
@@ -256,7 +256,7 @@ text-success
 &lt;li&gt;Monster design series on GDquest&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h2&gt;
+&lt;h2 id=&#34;global-progress&#34;&gt;Global progress&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;

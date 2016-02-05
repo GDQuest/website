@@ -40,6 +40,13 @@
 &lt;p&gt;Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by &lt;a href=&#34;https://sparklinlabs.com/&#34;&gt;Sparkin Labs&lt;/a&gt;, the authors of &lt;a href=&#34;http://craftstud.io/&#34;&gt;CraftStudio&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/godot-2d-engine.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;overview-of-godot-2-0-the-open-source-game-engine-for-2d-games&#34;&gt;Overview of Godot 2.0, the open source game engine, for 2d games&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.godotengine.org/projects/godot-engine&#34;&gt;Godot&lt;/a&gt; is an open source 2d and 3d game engine. It was developed in-house by an Argentinian game studio, Okam, and released open source 2 years ago. Godot 2.0 features a robust editor with built-in animation tools, a visual shader editor, and much more!
+In this series, we&amp;rsquo;ll cover the basics of 2d game development with Godot. If you want to join the community, check out its &lt;a href=&#34;https://www.facebook.com/groups/godotengine/&#34;&gt;Facebook group&lt;/a&gt;!&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;human-proportions-from-reality-to-games&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
