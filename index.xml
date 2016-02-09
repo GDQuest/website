@@ -6,8 +6,100 @@
     <description>Recent content on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
-    <lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2016 17:55:44 +0100</lastBuildDate>
     <atom:link href="http://gdquest.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>course</title>
+      <link>http://gdquest.com/game-art-quest/volume1/course/</link>
+      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
+      
+      <guid>http://gdquest.com/game-art-quest/volume1/course/</guid>
+      <description>&lt;div class=&#34;row hidden-lg hidden-md&#34;&gt;
+    &lt;h1&gt;Welcome!&lt;/h1&gt;
+    &lt;p&gt;
+      Welcome to the very first pre-release of the course! Right now, this page is only for you, who backed the campaign. It is the very first step towards the full training. I didn&#39;t build any fancy protection for this page as the course will eventually be available publicly. But as you made the campaign possible, I wanted to give you a special perk and make it accessible to you in advance!
+    &lt;/p&gt;
+    &lt;p&gt;
+      The page is a bit rough right now, but it will get better over time. If you have any questions, comments and suggestions, post right below the Youtube videos!
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-md-6&#34;&gt;
+    &lt;h1&gt;Introduction &lt;small&gt;Get to know Krita and the training&lt;/small&gt;&lt;/h1&gt;
+
+    &lt;p&gt;
+      This course introduction will give you all you need to get setup for Game Art Quest.
+    &lt;/p&gt;
+
+    &lt;ul class=&#34;list-group&#34;&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=Uc5H1ZjuQ4w&amp;list=PLhqJJNjsQ7KHP4_bi7FNPlJWIXG8ykRE5&#34; class=&#34;list-group-item&#34;&gt;&lt;span class=&#34;text-primary&#34;&gt;
+        1. Installing Krita on Windows
+      &lt;/span&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=8dMunUR7aaw&amp;list=PLhqJJNjsQ7KHP4_bi7FNPlJWIXG8ykRE5&#34; class=&#34;list-group-item&#34;&gt;&lt;span class=&#34;text-primary&#34;&gt;
+        2. Troubleshooting common issues
+      &lt;/span&gt;&lt;/a&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        3. How to take the most out of the course &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        4. Toolbox - extra resources to supplement the training &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        5. Introduction to graphic tablets &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h1&gt;Chapter I &lt;small&gt;Quickstart Guide&lt;/small&gt;&lt;/h1&gt;
+
+    &lt;p&gt;
+      This first chapter will make you familiar with Krita&#39;s most important drawing tools.
+    &lt;/p&gt;
+
+    &lt;ul class=&#34;list-group&#34;&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=jNoh7UAoZAs&amp;list=PLhqJJNjsQ7KHP4_bi7FNPlJWIXG8ykRE5&#34; class=&#34;list-group-item&#34;&gt;&lt;span class=&#34;text-primary&#34;&gt;
+        1. Quickstart Guide Intro
+      &lt;/span&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=9VwDR5JlEw4&amp;list=PLhqJJNjsQ7KHP4_bi7FNPlJWIXG8ykRE5&#34; class=&#34;list-group-item&#34;&gt;&lt;span class=&#34;text-primary&#34;&gt;
+        2. Getting to know the UI
+      &lt;/span&gt;&lt;/a&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        3. Navigation on the canvas &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        4. Painting with the freehand brush tool &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        5. Picking colors and using the pop-up palette &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        6. An introduction to layers &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        7. Working with selections &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        8. Filling outlines and selections &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;list-group-item&#34;&gt;
+        9. Move tool and free transform &lt;span class=&#34;label label-default&#34;&gt;Upcoming&lt;/span&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;col-md-6 hidden-sm hidden-xs&#34;&gt;
+    &lt;h1&gt;Welcome!&lt;/h1&gt;
+    &lt;p&gt;
+      Welcome to the very first pre-release of the course! Right now, this page is only for you, who backed the campaign. It is the very first step towards the full training. I didn&amp;rsquo;t build any fancy protection for this page as the course will eventually be available publicly. But as you made the campaign possible, I wanted to give you a special perk and make it accessible to you in advance!
+    &lt;/p&gt;
+    &lt;p&gt;
+      The page is a bit rough right now, but it will get better over time. If you have any questions, comments and suggestions, post right below the Youtube videos!
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Game Art Quest Vol. 1 - Krita</title>
@@ -232,7 +324,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -256,7 +348,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -338,7 +430,7 @@ text-default
 
 &lt;!-- DISCOVER --&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;discover-game-art-quest:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;discover-game-art-quest&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -346,7 +438,7 @@ text-default
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -364,7 +456,7 @@ text-default
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
+&lt;h2 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -669,7 +761,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
       <guid>http://gdquest.com/</guid>
       <description>
 
-&lt;h1 id=&#34;welcome-to-game-design-quest&#34;&gt;Welcome to Game Design Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;welcome-to-game-design-quest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Welcome to Game Design Quest!&lt;/h1&gt;
 
 &lt;div class=&#34;media&#34;&gt;
   &lt;div class=&#34;media-left&#34;&gt;
@@ -691,7 +783,7 @@ It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;! If you want to help with 
 
 &lt;!-- This website is a hub for all of the activity around GDquest. Here, you&#39;ll find links to dozens of tutorials, open source game assets and a roadmap for future content. --&gt;
 
-&lt;h2 id=&#34;highlighted-video&#34;&gt;Highlighted video&lt;/h2&gt;
+&lt;h2 id=&#34;highlighted-video:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Highlighted video&lt;/h2&gt;
 
 &lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -709,7 +801,7 @@ It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;! If you want to help with 
       <guid>http://gdquest.com/roadmap/</guid>
       <description>
 
-&lt;h1 id=&#34;in-the-making&#34;&gt;In the making&lt;/h1&gt;
+&lt;h1 id=&#34;in-the-making:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;In the making&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;GDquest website, v0.1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
