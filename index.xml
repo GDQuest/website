@@ -33,7 +33,7 @@
       <guid>http://gdquest.com/game-art-quest/volume1/</guid>
       <description>
 
-&lt;h1 id=&#34;game-art-quest-volume-1-learn-to-use-krita-for-professional-game-art:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Game Art Quest volume 1 - Learn to use Krita for professional game art&lt;/h1&gt;
+&lt;h1 id=&#34;game-art-quest-volume-1-learn-to-use-krita-for-professional-game-art&#34;&gt;Game Art Quest volume 1 - Learn to use Krita for professional game art&lt;/h1&gt;
 
 &lt;p&gt;This page is a living document for the 1st volume of Game Art Quest. This means that everything listed here is subject to change, based on your feedback primarily. Below, you will find the course outline .&lt;/p&gt;
 
@@ -54,17 +54,17 @@
 &lt;li&gt;&lt;strong&gt;Move tool and free transform&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
 
 &lt;p&gt;This second chapter provides an introduction to the game art workflow with Krita. It explains the iterative nature of game art, as well as the broad steps involved in creating original game assets, from design to the finished product. I will also provide you with an example to show you which tools I use the most, and how I&amp;rsquo;ve adapted my workflow to Krita.&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-3-diving-deeper:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 3: diving deeper&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-3-diving-deeper&#34;&gt;Chapter 3: diving deeper&lt;/h2&gt;
 
 &lt;p&gt;The application offers a wealth of unexpected features. Powerful deformations, wrap-around mode, flexible brush engines, drawing assistants, filter layers, and much more! In this chapter, we&amp;rsquo;ll look at some of the more advanced functions Krita offers, as well as how to use them in practice.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ll specifically look at the tools that will not change in Krita 3.0.&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
 
 &lt;h2&gt;Chapter 5: Animation &lt;small&gt;with Krita 3&lt;/small&gt;&lt;/h2&gt;
 </description>
@@ -248,7 +248,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -272,7 +272,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -354,7 +354,7 @@ text-default
 
 &lt;!-- DISCOVER --&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;discover-game-art-quest&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;discover-game-art-quest:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -362,7 +362,7 @@ text-default
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -380,7 +380,7 @@ text-default
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
+&lt;h2 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
