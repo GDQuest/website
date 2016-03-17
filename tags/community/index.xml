@@ -6,8 +6,65 @@
     <description>Recent content in Community on Game Design Quest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
-    <lastBuildDate>Mon, 11 Jan 2016 09:16:10 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 16 Mar 2016 08:25:29 +0100</lastBuildDate>
     <atom:link href="http://gdquest.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GDquest news and Krita 3.0 pre-alpha 3</title>
+      <link>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</link>
+      <pubDate>Wed, 16 Mar 2016 08:25:29 +0100</pubDate>
+      
+      <guid>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</guid>
+      <description>
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/JWwpm4hs0l0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;Hi there! I wanted to keep you posted on what is going on right now with GDquest. The video says it all, but I’m going to sum up the news below.&lt;/p&gt;
+
+&lt;p&gt;With one last contract finished last week, and the series on monster design done, I am now working full-time on Game Art Quest. My top priority is to release the first version of the GAQ Krita brush back and to finish chapter 0 in the training. Once this is done, I will start releasing videos from the training publicly, at the rate of 1 to 2 per week.&lt;/p&gt;
+
+&lt;p&gt;I released the first 5 soundtracks from the project in an album called &lt;a href=&#34;https://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space Adventures&lt;/a&gt;. They are available under the &lt;strong&gt;Creative Commons 4.0 license&lt;/strong&gt;, so you can use them in &lt;strong&gt;both personal and commercial projects&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;iframe style=&#34;border: 0; width: 700px; height: 307px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=1579881958/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/&#34; seamless&gt;&lt;a href=&#34;http://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space adventures by Nathan Lovato&lt;/a&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;your-votes-for-future-tutorials:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
+
+&lt;p&gt;Since January, I have been &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;running a vote&lt;/a&gt; to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Overview of Godot 2.0, the open source game engine, for 2d games&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Painting rock and grass tiles for 2d games&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Human proportions, from reality to games&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
+
+&lt;h2 id=&#34;krita-3-0-pre-alpha-3:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;\img\post\community\krita-gradient-map.png&#34; alt=&#34;Krita gradient map filter&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The 3rd pre-alpha of Krita 3.0 was released! The development entered a feature-frozen state, and the full release of Krita 3.0 is planned for April 27. The features that didn’t make it in this version will be available in Krita 3.1.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick list of what is new in this pre-alpha:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The improvements to the layer docker&lt;/li&gt;
+&lt;li&gt;The new grid and guides system, along with snapping&lt;/li&gt;
+&lt;li&gt;A gradient map filter&lt;/li&gt;
+&lt;li&gt;A greater alpha blending mode, useful for painting with the pixel brush engine&lt;/li&gt;
+&lt;li&gt;The foundations for 2 exporters. One is for spriter, the animation application for 2d games, and the other one is a csv-based format to exports animated sequences from krita.&lt;/li&gt;
+&lt;li&gt;A variety of improvements to the move tool, the crop tool, the assistants…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Head on to the dedicated article on the official website to find the builds along with download instructions. It also features an exhaustive list of changes in this version.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;That’s it for this update. See you soon, in the next one!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Vote for Upcoming Tutorials! January 2016</title>
