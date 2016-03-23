@@ -17,20 +17,22 @@
       <guid>http://gdquest.com/game-art-quest/brush-pack/</guid>
       <description>
 
+&lt;!-- PAGE NAVIGATION --&gt;
+
 &lt;div class=&#34;row&#34;&gt;
-    &lt;a href=&#34;#the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#the-brushes&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-paint-brush text-success&#34;&gt;&lt;/i&gt; The brushes
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#installation-guide&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#faq&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-question text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
@@ -38,6 +40,8 @@
     &lt;!-- &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
       &lt;i class=&#34;fa fa-dollar text-success&#34;&gt;&lt;/i&gt;Buy the brushes!
     &lt;/button&gt; --&gt;
+    &lt;script src=&#34;https://gumroad.com/js/gumroad.js&#34;&gt;&lt;/script&gt;
+    &lt;a class=&#34;gumroad-button&#34; href=&#34;https://gum.co/game-art-quest-brush-pack&#34; target=&#34;_blank&#34;&gt;Buy the brushes!&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;!-- Pills example --&gt;
@@ -49,7 +53,7 @@
   &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt; --&gt;
 
-&lt;h1 id=&#34;the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
+&lt;h1 id=&#34;the-brushes&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -65,7 +69,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -93,7 +97,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -125,7 +129,7 @@
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -149,7 +153,7 @@
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
@@ -181,9 +185,9 @@ text-info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
 text-info
 &#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -193,25 +197,9 @@ text-info
     </item>
     
     <item>
-      <title>course</title>
-      <link>http://gdquest.com/game-art-quest/volume-1/course/</link>
-      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
-      
-      <guid>http://gdquest.com/game-art-quest/volume-1/course/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;Welcome!&lt;/h1&gt;
-&lt;p&gt;
-  Welcome to the very first pre-release of the course! Right now, this page is only for you, who backed the campaign. It is the very first step towards the full training. This page is just hidden on the website. It is not protected, as it will be released publicly eventually. But as you made the campaign possible, I wanted to give you a special perk and make it accessible to you in advance!
-&lt;/p&gt;
-&lt;p&gt;
-  The page is a bit rough right now, but it will get better over time. If you have any questions, comments and suggestions, post right below the Youtube videos!
-&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Game Art Quest Vol. 1 - Krita</title>
       <link>http://gdquest.com/game-art-quest/volume-1/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>http://gdquest.com/game-art-quest/volume-1/</guid>
       <description>
@@ -220,22 +208,38 @@ text-info
 
 &lt;p&gt;This page is a living document for the 1st volume of Game Art Quest. This means that everything listed here is subject to change, based on your feedback primarily. Below, you will find the course outline .&lt;/p&gt;
 
-&lt;h2&gt; Chapter 1: Overview of the application &lt;small&gt;Work in Progress&lt;/small&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;introduction-how-to-get-the-most-out-of-the-training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Introduction: How to get the most out of the training&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Installing Krita on Windows&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating your first document and Troubleshooting common issues&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to take the most out of the course&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Toolbox - extra resources to add to the training&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Introduction to graphic tablets&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to setup a Wacom tablet for digital art&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Assignment 1: 5 line drawing exercises&lt;/p&gt;
+
+&lt;p&gt;Quick look at &lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt;
+Quick look at &lt;a href=&#34;http://www.pureref.com/&#34;&gt;PureRef&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-1-overview-of-krita:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 1: Overview of Krita&lt;/h2&gt;
 
 &lt;p&gt;The idea behind this first chapter is to make you comfortable with the application in as little time as possible. It focuses only on the most important tools you&amp;rsquo;ll need to produce your art.&lt;/p&gt;
 
-&lt;p&gt;The videos:&lt;/p&gt;
-
-&lt;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Quickstart Guide Chapter Introduction&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Getting to know the UI&lt;/strong&gt;: Understanding the various parts of the interface, the philosophy behind Krita&amp;rsquo;s design, the dockers.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Navigation on the canvas&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Painting with brushes&lt;/strong&gt;: brushes can do a lot of things in Krita, so I&amp;rsquo;ll try to give you a quick sense of how they work. We&amp;rsquo;ll see how Krita can turn every single brush into an eraser. We&amp;rsquo;ll also learn how to use the alpha lock painting mode&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Painting with the freehand brush tool&lt;/strong&gt;: brushes can do a lot of things in Krita, so I&amp;rsquo;ll try to give you a quick sense of how they work. We&amp;rsquo;ll see how Krita can turn every single brush into an eraser. We&amp;rsquo;ll also learn how to use the alpha lock painting mode&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Picking colors and using the pop-up palette&lt;/strong&gt;: this shortcut wheel allows you to quickly switch between the background and foreground colors, to pick colors, to access a history of the last used colors and brush presets.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A basic use of layers&lt;/strong&gt;: the layer docker is being changed a lot in Krita 3, so we&amp;rsquo;ll just look at the basics here. We&amp;rsquo;ll learn to create layers, groups, to rename them, to toggle visibility, and also we&amp;rsquo;ll see how we can pick a layer from the canvas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;An introduction to layers&lt;/strong&gt;: the layer docker is being changed a lot in Krita 3, so we&amp;rsquo;ll just look at the basics here. We&amp;rsquo;ll learn to create layers, groups, to rename them, to toggle visibility, and also we&amp;rsquo;ll see how we can pick a layer from the canvas.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Working with selections&lt;/strong&gt;: we&amp;rsquo;ll focus on the most common operations with the outline, contiguous, square and elliptical selection tools.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Filling selections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Filling outlines and selections&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Move tool and free transform&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;strong&gt;Setting your own shortcuts&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
 
@@ -250,6 +254,70 @@ text-info
 &lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
 
 &lt;h2&gt;Chapter 5: Animation &lt;small&gt;with Krita 3&lt;/small&gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>http://gdquest.com/game-art-quest/volume-1/course/</link>
+      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
+      
+      <guid>http://gdquest.com/game-art-quest/volume-1/course/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;Welcome!&lt;/h1&gt;
+
+&lt;p&gt;This page is hidden on the website. It is not protected, as it will be released publicly eventually. But as you made the campaign possible, you get to see the videos before everybody else.&lt;/p&gt;
+
+&lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
+
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;fa fa-link
+text-default
+&#34;&gt;&lt;/i&gt;
+ Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-facebook
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;Facebook study group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-dollar
+text-success
+&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pureref.com/&#34;&gt;Pureref&lt;/a&gt; (&lt;em&gt;Win, Mac, Linux&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/picasa/&#34;&gt;Picasa&lt;/a&gt; (&lt;em&gt;Win, Mac, development discontinued&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-mortar-board
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-mortar-board
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-dollar
+text-success
+&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
