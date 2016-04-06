@@ -262,7 +262,7 @@ text-info
 
 &lt;iframe style=&#34;border: 0; width: 700px; height: 307px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=1579881958/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/&#34; seamless&gt;&lt;a href=&#34;http://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space adventures by Nathan Lovato&lt;/a&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;your-votes-for-future-tutorials&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
+&lt;h2 id=&#34;your-votes-for-future-tutorials:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
 
 &lt;p&gt;Since January, I have been &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;running a vote&lt;/a&gt; to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:&lt;/p&gt;
 
@@ -274,7 +274,7 @@ text-info
 
 &lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-3-0-pre-alpha-3&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
+&lt;h2 id=&#34;krita-3-0-pre-alpha-3:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;\img\post\community\krita-gradient-map.png&#34; alt=&#34;Krita gradient map filter&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
@@ -305,11 +305,11 @@ text-info
       <guid>http://gdquest.com/game-art-quest/volume-1/</guid>
       <description>
 
-&lt;h1 id=&#34;game-art-quest-volume-1-learn-to-use-krita-for-professional-game-art:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Game Art Quest volume 1 - Learn to use Krita for professional game art&lt;/h1&gt;
+&lt;h1 id=&#34;game-art-quest-volume-1-learn-to-use-krita-for-professional-game-art&#34;&gt;Game Art Quest volume 1 - Learn to use Krita for professional game art&lt;/h1&gt;
 
 &lt;p&gt;This page is a living document for the 1st volume of Game Art Quest. This means that everything listed here is subject to change, based on your feedback primarily. Below, you will find the course outline .&lt;/p&gt;
 
-&lt;h2 id=&#34;introduction-how-to-get-the-most-out-of-the-training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Introduction: How to get the most out of the training&lt;/h2&gt;
+&lt;h2 id=&#34;introduction-how-to-get-the-most-out-of-the-training&#34;&gt;Introduction: How to get the most out of the training&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Installing Krita on Windows&lt;/strong&gt;&lt;/li&gt;
@@ -325,7 +325,7 @@ text-info
 &lt;p&gt;Quick look at &lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt;
 Quick look at &lt;a href=&#34;http://www.pureref.com/&#34;&gt;PureRef&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-1-overview-of-krita:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 1: Overview of Krita&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-1-overview-of-krita&#34;&gt;Chapter 1: Overview of Krita&lt;/h2&gt;
 
 &lt;p&gt;The idea behind this first chapter is to make you comfortable with the application in as little time as possible. It focuses only on the most important tools you&amp;rsquo;ll need to produce your art.&lt;/p&gt;
 
@@ -342,17 +342,28 @@ Quick look at &lt;a href=&#34;http://www.pureref.com/&#34;&gt;PureRef&lt;/a&gt;&
 &lt;li&gt;&lt;strong&gt;Setting your own shortcuts&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-2-the-2d-game-asset-worklow&#34;&gt;Chapter 2: the 2d game asset worklow&lt;/h2&gt;
 
 &lt;p&gt;This second chapter provides an introduction to the game art workflow with Krita. It explains the iterative nature of game art, as well as the broad steps involved in creating original game assets, from design to the finished product. I will also provide you with an example to show you which tools I use the most, and how I&amp;rsquo;ve adapted my workflow to Krita.&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-3-diving-deeper:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 3: diving deeper&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;2d Game art vs Illustration: what&amp;rsquo;s the difference?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Overview of the game asset painting workflow&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The game asset workflow: sketching thumbnails&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sketching tricks with Krita&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blocking a game sprite&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Refining or bringing out the spirit of an asset&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Techniques to refine a painting with Krita&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polishing sprites&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;chapter-3-diving-deeper&#34;&gt;Chapter 3: diving deeper&lt;/h2&gt;
 
 &lt;p&gt;The application offers a wealth of unexpected features. Powerful deformations, wrap-around mode, flexible brush engines, drawing assistants, filter layers, and much more! In this chapter, we&amp;rsquo;ll look at some of the more advanced functions Krita offers, as well as how to use them in practice.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ll specifically look at the tools that will not change in Krita 3.0.&lt;/p&gt;
 
-&lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
+&lt;h2 id=&#34;chapter-4-new-features-and-changes-in-krita-3&#34;&gt;Chapter 4: New features and changes in Krita 3&lt;/h2&gt;
 
 &lt;h2&gt;Chapter 5: Animation &lt;small&gt;with Krita 3&lt;/small&gt;&lt;/h2&gt;
 </description>
@@ -706,7 +717,7 @@ text-default
 
 &lt;!-- DISCOVER --&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;discover-game-art-quest:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;discover-game-art-quest&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -714,7 +725,7 @@ text-default
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -732,7 +743,7 @@ text-default
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
+&lt;h2 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -800,14 +811,14 @@ text-default
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h1 id=&#34;hugoshortcode-2-roadmap-small-i-m-working-on-small:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;&lt;i class=&#34;fa fa-gears
+&lt;h1 id=&#34;hugoshortcode-2-roadmap-small-i-m-working-on-small&#34;&gt;&lt;i class=&#34;fa fa-gears
 text-default
 &#34;&gt;&lt;/i&gt;
 Roadmap &lt;small&gt;I&amp;rsquo;m working on&amp;hellip;&lt;/small&gt;&lt;/h1&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;h2 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h2&gt;
+&lt;h2 id=&#34;global-progress&#34;&gt;Global progress&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
@@ -823,7 +834,7 @@ Roadmap &lt;small&gt;I&amp;rsquo;m working on&amp;hellip;&lt;/small&gt;&lt;/h1&g
 
 &lt;em&gt;The first videos are done and I finished all of my freelance contracts. I&amp;rsquo;m now working full time on the project, working on exercises, videos, and trying to help the community the best I can.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;volume-1-krita:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Volume 1 - Krita&lt;/h2&gt;
+&lt;h2 id=&#34;volume-1-krita&#34;&gt;Volume 1 - Krita&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-production&lt;/strong&gt; &lt;i class=&#34;fa fa-check
@@ -992,7 +1003,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;installing-tern&#34;&gt;Installing tern&lt;/h1&gt;
+&lt;h1 id=&#34;installing-tern:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Installing tern&lt;/h1&gt;
 
 &lt;p&gt;This first part explains how to get npm, install tern and the tern-phaser plugin. The first thing that you need to ensure is that you have Node.js installed on your computer. You can download it on &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;https://nodejs.org/en/&lt;/a&gt;. This will give you access to npm as well, a handy package manager for js libraries and plugins. It allows you to download install all sorts of packages from the command prompt.&lt;/p&gt;
 
@@ -1010,7 +1021,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/qqUNi8c.png&#34; alt=&#34;&#34; width=&#34;657&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-manual-route&#34;&gt;The manual route&lt;/h2&gt;
+&lt;h2 id=&#34;the-manual-route:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;The manual route&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;If the automatic install of tern-phaser doesn&amp;#8217;t work&lt;/strong&gt;, you&amp;#8217;ll have to go navigate to the tern install folder manually from the command prompt. To change the folder the command prompt is in, you need to type cd (&lt;em&gt;current directory&lt;/em&gt;) followed by the path you want to reach. By default, tern should be installed to C:\Users**YourName**\AppData\Roaming\npm\node_modules.&lt;/p&gt;
 
@@ -1028,7 +1039,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;h1 id=&#34;using-tern-phaser-with-atom&#34;&gt;Using tern-phaser with Atom&lt;/h1&gt;
+&lt;h1 id=&#34;using-tern-phaser-with-atom:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Using tern-phaser with Atom&lt;/h1&gt;
 
 &lt;p&gt;Now, you have both tern and tern-phaser installed on your computer. Let&amp;#8217;s move to setting up atom to work with tern. There is no native integration of tern in atom. However, there is a plugin called &lt;strong&gt;atom-ternjs&lt;/strong&gt; that works like a charm. We can install the package from the command line as well. Either &lt;strong&gt;close and reopen the command&lt;/strong&gt; &lt;strong&gt;prompt&lt;/strong&gt; or navigate back to your root folder with the following command: &amp;#8220;cd C:\Users\YourName&amp;#8221;.&lt;/p&gt;
 
@@ -1062,7 +1073,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
       <guid>http://gdquest.com/</guid>
       <description>
 
-&lt;h1 id=&#34;welcome-to-game-design-quest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Welcome to Game Design Quest!&lt;/h1&gt;
+&lt;h1 id=&#34;welcome-to-game-design-quest&#34;&gt;Welcome to Game Design Quest!&lt;/h1&gt;
 
 &lt;div class=&#34;media&#34;&gt;
   &lt;div class=&#34;media-left&#34;&gt;
@@ -1084,7 +1095,7 @@ It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;! If you want to help with 
 
 &lt;!-- This website is a hub for all of the activity around GDquest. Here, you&#39;ll find links to dozens of tutorials, open source game assets and a roadmap for future content. --&gt;
 
-&lt;h2 id=&#34;highlighted-video:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Highlighted video&lt;/h2&gt;
+&lt;h2 id=&#34;highlighted-video&#34;&gt;Highlighted video&lt;/h2&gt;
 
 &lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -1102,7 +1113,7 @@ It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;! If you want to help with 
       <guid>http://gdquest.com/roadmap/</guid>
       <description>
 
-&lt;h1 id=&#34;in-the-making&#34;&gt;In the making&lt;/h1&gt;
+&lt;h1 id=&#34;in-the-making:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;In the making&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;GDquest website, v0.2&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
