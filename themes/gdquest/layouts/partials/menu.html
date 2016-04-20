@@ -1,0 +1,71 @@
+{{ $link_facebook := add "https://www.facebook.com/" .Site.Params.facebook  }}
+{{ $link_googleplus := add "https://plus.google.com/+" .Site.Params.googleplus }}
+{{ $link_twitter := add "https://twitter.com/" .Site.Params.twitter }}
+{{ $link_youtube := add "https://www.youtube.com/c/" .Site.Params.youtube }}
+
+<!-- Navigation bar with social links -->
+<header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- Collapse support for mobile -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="{{.Site.BaseURL}}">
+          <img src="{{.Site.BaseURL}}/img/GDquest-brand-image.png" alt="Game Design Quest" height="100%" />
+        </a>
+      </div>
+
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          {{ $node := . }}
+          {{ range .Site.Menus.main }}
+
+            {{ if (not .HasChildren) }}
+              <li {{if $node.IsMenuCurrent "main" . }}class="active" {{ end }}>
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+
+        <!-- Social Links on medium and big screens -->
+        <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs" id="social-links">
+          <li><a href="{{ $link_youtube }}" target="_blank"><i class="fa fa-lg fa-fw fa-youtube"></i></a></li>
+          <li><a href="{{ $link_twitter }}" target="_blank"><i class="fa fa-lg fa-fw fa-twitter"></i></a></li>
+          <li><a href="{{ $link_facebook }}" target="_blank"><i class="fa fa-lg fa-fw fa-facebook"></i></a></li>
+          <li ><a href="{{ $link_googleplus }}" target="_blank"><i class="fa fa-lg fa-fw hub fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Social links on small screens -->
+<div class="container visible-xs visible-sm">
+  <div class="col-xs-3 text-center">
+    <button type="button" class="btn btn-link">
+      <a href="{{ $link_youtube }}" target="_blank"><i class="fa fa-2x fa-fw fa-youtube"></i></a>
+    </button>
+  </div>
+  <div class="col-xs-3 text-center">
+    <button type="button" class="btn btn-link">
+      <a href="{{ $link_twitter }}" target="_blank"><i class="fa fa-2x fa-fw fa-twitter"></i></a>
+    </button>
+  </div>
+  <div class="col-xs-3 text-center">
+    <button type="button" class="btn btn-link">
+      <a href="{{ $link_facebook }}" target="_blank"><i class="fa fa-2x fa-fw fa-facebook"></i></a>
+    </button>
+  </div>
+  <div class="col-xs-3 text-center">
+    <button type="button" class="btn btn-link">
+      <a href="{{ $link_googleplus }}" target="_blank"><i class="fa fa-2x fa-fw hub fa-google-plus"></i></a>
+    </button>
+  </div>
+</div>

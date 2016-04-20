@@ -1,0 +1,60 @@
+<div class="container">
+{{ partial "head" . }}
+
+<!-- Storing the course options in variables -->
+{{ $options := (index .Site.Data.courses .Params.course).options }}
+{{ $playlist := index $options "playlist" }}
+{{ $banner_image := index $options "banner_image" }}
+
+<!-- BANNER IMAGE -->
+<img src="{{ $banner_image }}" class="img-responsive" alt="" />
+
+<div class="row hidden-lg hidden-md">
+  {{ .Content }}
+</div>
+
+
+<div class="row">
+  <div class="col-md-6">
+
+    <!-- Page content -->
+    <!-- Ranging over individual chapters -->
+    {{ if isset .Site.Data.courses .Params.course }}
+      {{ range (index .Site.Data.courses .Params.course).chapters }}
+        {{ range . }}
+
+          <!-- Chapter title and description -->
+          <h1><i class="fa fa-book"></i> {{ index .title }} <small>{{ index .small }}</small></h1>
+          <p>{{ index .description | markdownify }}</p>
+
+          <!-- Ranging over individual videos in a chapter -->
+          <ul class="list-group">
+            {{ range $index, $content := .videos }}
+              <li class="list-group-item">
+                <!-- Video title and link -->
+                {{ if and (isset . "url") (not (eq .url "") ) }}
+                <a href="{{ index .url }}{{ $playlist }}" class="">{{ $index }}. {{ index .title }}</a>
+                {{ else }}{{ $index }}. {{ index .title }} <span class="label label-default">Upcoming</span> {{ end }}
+                <!-- Extra course material attached to a video -->
+                {{ if isset . "document" }} <a href="{{ .document }}"><i class="fa fa-book fa-lg"></i></a> {{ end }}
+                {{ if isset . "exercise" }} <a href="{{ .exercise }}"><i class="fa fa-download fa-lg"></i></a> {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <div class="col-md-6 hidden-sm hidden-xs">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ if isset .Params "author" }}
+  {{ partial "author" . }}
+{{ end }}
+
+{{ partial "footer" . }}
+</div>

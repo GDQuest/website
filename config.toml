@@ -1,0 +1,53 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "http://gdquest.com/"
+languageCode = "en-EN"
+metaDataFormat = "toml"
+title = "Game Design Quest"
+theme = "gdquest"
+
+# Pagination
+paginate = 8
+paginatePath = "page"
+
+pygmentsuseclasses = false
+pygmentsstyle = "monokai"
+
+# MENUS
+[[menu.main]]
+identifier  = "tutorials"
+name        = "Tutorials"
+url         = "https://game-design-tutorials.zeef.com/nathan.lovato"
+weight      = 2
+
+[permalinks]
+
+[taxonomies]
+tags = "tags"
+category = "category"
+
+[author]
+name = "Nathan Lovato"
+    # email = "yourname@example.com"
+
+# Site parameters
+[params]
+topline = "The Game Design Quest"
+home = "home"
+# Syntax highliting
+highlight = "default"
+# Social links in navigation bar
+# Only use profile IDs
+googleplus = "Gdquest"
+facebook = "gdquest"
+twitter = "NathanGDquest"
+# Works with /c/customName right now. Go to partials/menu.html to change the link to /channel/yourID
+youtube = "gdquest"
+
+[blackfriday]
+angledQuotes = true
+fractions = false
+hrefTargetBlank = false
+latexDashes = true
+plainIdAnchors = true
+extensions = []
+extensionmask = []

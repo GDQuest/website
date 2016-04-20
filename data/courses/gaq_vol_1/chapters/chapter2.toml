@@ -1,0 +1,31 @@
+[chapter]
+title = "Chapter II"
+small = "The 2d game asset worklow"
+description = "This second chapter provides an introduction to the game art workflow with Krita. It explains the iterative nature of game art, as well as the broad steps involved in creating original game assets, from design to the finished product."
+  [chapter.videos.0]
+  title = "The 2d game asset workflow: chapter introduction"
+  url = ""
+  [chapter.videos.1]
+  title = "2d Game art vs Illustration: what’s the difference?"
+  url = ""
+  [chapter.videos.2]
+  title = "Overview of the game asset painting workflow"
+  url = ""
+  [chapter.videos.3]
+  title = "The game asset workflow: sketching thumbnails"
+  url = ""
+  [chapter.videos.4]
+  title = "Sketching tricks with Krita"
+  url = ""
+  [chapter.videos.5]
+  title = "The game asset workflow: Blocking a game sprite"
+  url = ""
+  [chapter.videos.6]
+  title = "The game asset workflow: Refining or bringing out the spirit of an asset"
+  url = ""
+  [chapter.videos.7]
+  title = "Techniques to refine a painting with Krita"
+  url = ""
+  [chapter.videos.8]
+  title = "Polishing sprites"
+  url = ""

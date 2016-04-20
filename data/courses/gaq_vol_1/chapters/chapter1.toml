@@ -1,0 +1,37 @@
+[chapter]
+title = "Chapter I"
+small = "Quickstart Guide"
+description = "This first chapter will make you familiar with Krita's most important drawing tools."
+  [chapter.videos.0]
+  title = "Quickstart Guide Intro"
+  url = "https://www.youtube.com/watch?v=jNoh7UAoZAs"
+  [chapter.videos.1]
+  title = "Getting to know the UI"
+  url = "https://www.youtube.com/watch?v=9VwDR5JlEw4"
+  [chapter.videos.2]
+  title = "Navigation on the canvas"
+  url = "https://www.youtube.com/watch?v=ZwobU2c4TgA"
+  [chapter.videos.3]
+  title = "Painting with the freehand brush tool"
+  url = "https://www.youtube.com/watch?v=hUGEQOEDfqU"
+  [chapter.videos.4]
+  title = "Picking colors and using the pop-up palette"
+  url = "https://www.youtube.com/watch?v=jAJmPwe6IoU"
+  [chapter.videos.5]
+  title = "Introduction to layers"
+  url = "https://www.youtube.com/watch?v=g2ZoQobsSWE"
+  document = "/Course/GAQ/files/GAQ-C1-Krita-layers-cheatsheet-GDquest.png"
+  exercise = "/Course/GAQ/files/GAQ-C1-Intro-to-Layers-Exercises.kra"
+  # exercise = "https://www.dropbox.com/s/mv7kws9a618guan/GAQ-C1-Intro-to-Layers-Exercises.kra?dl=1"
+  [chapter.videos.6]
+  title = "Working with selections"
+  url = "https://www.youtube.com/watch?v=itW9wfPMyWc"
+  [chapter.videos.7]
+  title = "Filling outlines and selections"
+  url = "https://www.youtube.com/watch?v=ZEu8KxzT7Ig"
+  [chapter.videos.8]
+  title = "Move tool and free transform"
+  url = "https://www.youtube.com/watch?v=4tsL3wJtNqQ"
+  [chapter.videos.9]
+  title = "Setting your own shortcuts"
+  url = "https://www.youtube.com/watch?v=quT7mO7jinY"

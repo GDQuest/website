@@ -1,0 +1,10 @@
+<div class="progress">
+  <div class="progress-bar
+    {{ with .Params.color }}progress-bar-{{ . }}{{ end }}
+    {{ with .Params.style }}progress-bar-{{ . }}{{ end }}
+    {{ with .Params.active }}active{{ end }}"
+    role="progressbar"
+    aria-valuenow="{{ .Get "value" }}" aria-valuemin="0" aria-valuemax="100"
+    style="width: {{ .Get "value" }}%;">
+  </div>
+</div>

@@ -1,0 +1,28 @@
+[chapter]
+title = "Introduction"
+small = "Get to know Krita and the training"
+description = "This course introduction will give you all you need to get setup for Game Art Quest."
+  [chapter.videos.0]
+  title = "Installing Krita on Windows"
+  url = "https://www.youtube.com/watch?v=Uc5H1ZjuQ4w"
+  [chapter.videos.1]
+  title = "Troubleshooting common issues"
+  url = "https://www.youtube.com/watch?v=8dMunUR7aaw"
+  [chapter.videos.2]
+  title = "How to take the most out of the course"
+  url = "https://www.youtube.com/watch?v=U-8Jygti8P0"
+  [chapter.videos.3]
+  title = "Toolbox - extra resources to supplement the training"
+  url = "https://www.youtube.com/watch?v=abmYohYtmYI"
+  [chapter.videos.4]
+  title = "Introduction to graphic tablets"
+  url = "https://www.youtube.com/watch?v=RfTumTdNhho"
+  [chapter.videos.5]
+  title = "How to setup a Wacom tablet for digital art"
+  url = "https://www.youtube.com/watch?v=75lUVdq2Dto"
+  [chapter.videos.6]
+  title = "Overview of Picasa"
+  url = "https://www.youtube.com/watch?v=eWtMfwM8voo"
+  [chapter.videos.7]
+  title = "Overview of PureRef"
+  url = "https://www.youtube.com/watch?v=MkZW0r5NhxU"

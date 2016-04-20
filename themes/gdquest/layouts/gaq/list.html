@@ -1,0 +1,43 @@
+<div class="container">
+
+{{ partial "head" . }}
+
+<div id="main-content" class="container">
+
+  <!-- <div class="section"> -->
+
+    <!-- <div class="container">
+      <div class="center-block row">
+        <div class="btn-toolbar" role="toolbar">
+          <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-default">
+              Discover
+            </button>
+            <button type="button" class="btn btn-default">
+              <i class="fa fa-pencil"></i> Free assets
+            </button>
+            <button type="button" class="btn btn-primary">
+              <i class="fa fa-gears"></i> Roadmap
+            </button>
+            <button type="button" class="btn btn-success">
+              <i class="fa fa-book"></i> The training
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        {{range where .Site.Pages "Type" "=" "gaq"}} {{ .Content }} {{ end }}
+      </div>
+
+      <div class="row">
+        {{range where .Site.Pages "Type" "=" "gaq1"}} {{ .Content }} {{ end }}
+      </div>
+    </div>
+
+  </div>
+<!-- </div> -->
+{{ partial "footer" . }}
+</div>
