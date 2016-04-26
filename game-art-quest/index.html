@@ -62,7 +62,7 @@
     },
     "datePublished": "2016-01-15",
     "description": "",
-    "wordCount":  205 
+    "wordCount":  210 
   }
 </script>
 
@@ -82,11 +82,15 @@
 
 
 
-<link rel="stylesheet" href="http://gdquest.com/css/theme/gdquest.css">
+  <link rel="stylesheet" href="http://gdquest.com/css/theme/gdquest.css">
+
+
+<link rel="stylesheet" href="http://gdquest.com/css/highlight/monokai.css">
+<script src="http://gdquest.com/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 
 
-<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 
 <link rel="stylesheet" href="http://gdquest.com/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://gdquest.com/css/style.css">
@@ -139,6 +143,9 @@
               <li >
                 <a href="/portfolio/">Portfolio</a>
               </li>
+            
+          
+
             
           
 
@@ -198,10 +205,50 @@
       <div class="row">
          
 
+<!-- PAGE NAVIGATION -->
+
+<div class="row center-block">
+    <a href="#training">
+      <button type="button" class="btn btn-default btn-lg">
+        <i class="fa fa-book
+text-default
+"></i>
+ The training
+        </button>
+    </a>
+
+    <a href="#roadmap">
+      <button type="button" class="btn btn-default btn-lg">
+        <i class="fa fa-bars
+text-info
+"></i>
+ Roadmap
+      </button>
+    </a>
+
+    <a href="#discover">
+      <button type="button" class="btn btn-default btn-lg">
+        <i class="fa fa-eye
+text-default
+"></i>
+ Discover
+      </button>
+    </a>
+
+    <a href="#free-assets">
+      <button type="button" class="btn btn-default btn-lg">
+        <i class="fa fa-paint-brush
+text-success
+"></i>
+ Free assets
+      </button>
+    </a>
+</div>
+
 <div class="col-lg-6" >
 
 
-<h1><i class="fa fa-book
+<h1 id="training"><i class="fa fa-book
 text-default
 "></i>
  The training</h1>
@@ -213,16 +260,39 @@ text-default
 <p>This training will show you what Krita has to offer to 2d game artists. It covers the tools you need to know to work efficiently, as well as some workflow related tips.
 It is <strong>completely free</strong>, thanks to the Kickstarter backers! It will be available on both Udemy and Youtube.</p>
 
-<p>Click the button below to learn more about the content of this training series.</p>
+<div class="row center-block">
+    <a href="http://gdquest.com/game-art-quest/volume-1/">
+      <button type="button" class="btn btn-default btn-lg">
+        <i class="fa fa-question-circle
+text-success
+"></i>
+ Learn more
+        </button>
+    </a>
 
-<p><a href="volume1/"><button type="button" class="btn btn-lg btn-default center-block">
-    Learn more
-</button></a></p>
+    <a href="https://www.youtube.com/watch?v=Uc5H1ZjuQ4w">
+      <button type="button" class="btn btn-default btn-lg">
+        <i class="fa fa-youtube-play
+text-danger
+"></i>
+ Youtube Playlist
+        </button>
+    </a>
+</div>
+
+<hr>
 
 <p>Game Art Quest has a <a href="https://www.facebook.com/groups/GameArtQuest/"><i class="fa fa-book
 text-default
 "></i>
  Facebook study group</a>! There, we run weekly game art challenges. The goal is to become better game artists together.</p>
+
+<p>There&rsquo;s also an official <i class="fa fa-dollar
+text-success
+"></i>
+ <a href="http://gdquest.com/game-art-quest/brush-pack/">Krita brush pack</a> to supplement the training.</p>
+
+<hr>
 
 <h3 id="volume-2-painterly-game-art-and-side-scrolling-games">Volume 2 - Painterly game art and side-scrolling games</h3>
 
@@ -244,7 +314,7 @@ text-default
 <div class="col-lg-6" >
 
 
-<h1 id="hugoshortcode-2-roadmap-small-i-m-working-on-small"><i class="fa fa-gears
+<h1 id="roadmap"><i class="fa fa-gears
 text-default
 "></i>
 Roadmap <small>I&rsquo;m working on&hellip;</small></h1>
@@ -262,6 +332,7 @@ Roadmap <small>I&rsquo;m working on&hellip;</small></h1>
     role="progressbar"
     aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"
     style="width: 15%;">
+    <span class="sr-only">15 %</span>
   </div>
 </div>
 
@@ -282,6 +353,7 @@ text-success
     role="progressbar"
     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
     style="width: 100%;">
+    <span class="sr-only">100 %</span>
   </div>
 </div>
 
@@ -296,6 +368,7 @@ text-success
     role="progressbar"
     aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
     style="width: 40%;">
+    <span class="sr-only">40 %</span>
   </div>
 </div>
 
@@ -313,6 +386,7 @@ text-success
     role="progressbar"
     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
     style="width: 100%;">
+    <span class="sr-only">100 %</span>
   </div>
 </div>
 
@@ -327,6 +401,7 @@ text-success
     role="progressbar"
     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
     style="width: 50%;">
+    <span class="sr-only">50 %</span>
   </div>
 </div>
 
@@ -343,7 +418,7 @@ text-success
 
 <!-- DISCOVER --></p>
 
-<h1 id="discover-game-art-quest">Discover Game Art Quest!</h1>
+<h1 id="discover">Discover Game Art Quest!</h1>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -377,12 +452,15 @@ text-success
 
 <p>I&rsquo;m working <strong>hand in hand with the Krita developers</strong>. They review my work to ensure that you get the best Krita training possible!
 </div></p>
-  <p><div class="col-lg-6" >
- <!-- DISCOVER -->
-<h1><i class="fa fa-pencil
+  
+
+<p><div class="col-lg-6" >
+ <!-- DISCOVER --></p>
+
+<h1 id="free-assets"><i class="fa fa-pencil
 text-default
 "></i>
- Open source assets</h1></p>
+ Open source assets</h1>
 
 <div class="row">
   <div class="col-xs-6">
@@ -428,7 +506,6 @@ text-default
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
               <small>
-                
                 <div class="container copyright">
                     <span>(c) 2015-2016 <a href="https://twitter.com/NathanGDquest">Nathan Lovato</a>.</span>
                 </div>
@@ -441,6 +518,8 @@ text-default
 
     <script src="http://gdquest.com/js/jquery.min-2.1.4.js"></script>
 <script src="http://gdquest.com/js/bootstrap.min.js"></script>
+
+
 
 
 <script>
