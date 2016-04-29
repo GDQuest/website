@@ -6,5 +6,6 @@
     role="progressbar"
     aria-valuenow="{{ .Get "value" }}" aria-valuemin="0" aria-valuemax="100"
     style="width: {{ .Get "value" }}%;">
+    <span class="sr-only">{{ .Get "value" }} %</span>
   </div>
 </div>

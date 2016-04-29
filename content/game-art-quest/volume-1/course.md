@@ -7,9 +7,7 @@ course = "gaq_vol_1"
 aliases = ["game-art-quest/volume1/course"]
 +++
 
-# Welcome!
-
-This page is hidden on the website. It is not protected, as it will be released publicly eventually. But as you made the campaign possible, you get to see the videos before everybody else.
+Welcome to the course! This page is hidden on the website. It is not protected, as it will be released publicly eventually. But as you made the campaign possible, you get to see the videos before everybody else.
 
 The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!
 

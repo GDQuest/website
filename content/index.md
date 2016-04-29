@@ -20,7 +20,7 @@ type: home
   </div>
 </div>
 
-{{% md %}}It is a **Work in Progress**! If you want to help with the design or to report an error, please tell me on [Twitter](https://twitter.com/NathanGDquest) or via [email](mailto:nathan.lovato.art@gmail.com)!{{% /md %}}
+{{% md %}}It is a **Work in Progress**! If you want to help with the design or to report an error, please tell me on [Twitter](https://twitter.com/NathanGDquest) or via [email](mailto:Nathan@GDquest.com)!{{% /md %}}
 
 <!-- This website is a hub for all of the activity around GDquest. Here, you'll find links to dozens of tutorials, open source game assets and a roadmap for future content. -->
 

@@ -1,6 +1,5 @@
 ---
 title: About
-author: nathan
 layout: page
 date: 2016-01-19
 menu: main

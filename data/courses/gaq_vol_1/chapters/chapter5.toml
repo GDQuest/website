@@ -1,0 +1,34 @@
+[chapter]
+title = "Chapter 5"
+small = "Animation with Krita 3"
+description = "The traditional animation toolset expands on the already solid foundations provided by Krita 2.9. In this chapter, we are going to explore that new system, see how we can leverage it for our games, and talk a little bit about animation. However, this is not a comprehensive introduction to animation by any means. This is a project driven chapter. We will create a little animation using a character sheet is a reference. This will allow us to explore Krita's animation toolset as we go."
+[chapter.videos.1]
+title = "Introduction of the project and the character"
+description = " I will show you the character well going to work with and the little animation we will create."
+url = ""
+length = 0
+[chapter.videos.2]
+title = "working with Krita's timeline and animation layers"
+description = " we will look at the most common shortcuts and operations we need to learn about to create animation."
+url = ""
+length = 0
+[chapter.videos.3]
+title = "Creating our animation planning and rough keyframes"
+description = " let's block in a very rough version of our animation!"
+url = ""
+length = 0
+[chapter.videos.4]
+title = "Blocking the animation"
+description = " let's flesh out our character movement by adding more keyframes and in-betweens."
+url = ""
+length = 0
+[chapter.videos.5]
+title = "Refining the animation"
+description = " it is time to trace over what we have and to add fluidity our little animation."
+url = ""
+length = 0
+[chapter.videos.6]
+title = "Wrapping up and exporting our animation"
+description = " that's it! Our animation is done, now it's time to exports it and to share it with the world."
+url = ""
+length = 0

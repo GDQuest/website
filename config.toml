@@ -33,15 +33,14 @@ name = "Nathan Lovato"
 [params]
 topline = "The Game Design Quest"
 home = "home"
-# Syntax highliting
 highlight = "default"
-# Social links in navigation bar
-# Only use profile IDs
+
 googleplus = "Gdquest"
 facebook = "gdquest"
 twitter = "NathanGDquest"
-# Works with /c/customName right now. Go to partials/menu.html to change the link to /channel/yourID
 youtube = "gdquest"
+
+email = "Nathan@GDquest.com"
 
 [blackfriday]
 angledQuotes = true

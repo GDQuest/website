@@ -8,11 +8,11 @@ type: gaq1
 
 {{< div class="col-lg-6" >}}
 <!-- DISCOVER -->
-# Discover Game Art Quest! {#discover}
+<h2 id="discover">Discover Game Art Quest!</h2>
 
 {{< youtube vcKJibQckz4 >}}
 
-## Do you want to become a better 2d game artist?
+### Do you want to become a better 2d game artist?
 
 You came to the right place! Using **Krita, a free and open source painting application**, Game Art Quest will show you both **essential concepts** and **concrete techniques** professionals use on a daily basis. It is a training series in 3 volumes. The first one is **completely free**.
 
@@ -30,7 +30,7 @@ Game Art Quest was funded [on Kickstarter](https://www.kickstarter.com/projects/
 
 This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.
 
-## Who am I to teach you game art?
+### Who am I to teach you game art?
 
 <img src="i-am-nathan.jpg" alt="Nathan's picture" class="img-responsive"/>
 

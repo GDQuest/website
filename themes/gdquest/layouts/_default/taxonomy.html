@@ -1,7 +1,7 @@
 {{ partial "head" . }}
 <div id="main-content" class="container">
   <header>
-    {{ partial "bloc/content/h1-title" . }}
+    <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
   </header>
   <ul class="container content">
   {{ $baseurl := .Site.BaseURL }}

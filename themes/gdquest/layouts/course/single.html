@@ -1,59 +1,141 @@
 <div class="container">
 {{ partial "head" . }}
 
+{{ if isset .Site.Data.courses .Params.course }}
 <!-- Storing the course options in variables -->
 {{ $options := (index .Site.Data.courses .Params.course).options }}
 {{ $playlist := index $options "playlist" }}
 {{ $banner_image := index $options "banner_image" }}
 
-<!-- BANNER IMAGE -->
-<img src="{{ $banner_image }}" class="img-responsive" alt="" />
+<!-- Manually limit released videos -->
+{{ if and (isset .Params "videos_released") (ge .Params.videos_released 0) }}
+  {{ $.Scratch.Set "videos_released" .Params.videos_released }}
+{{ else }}
+  {{ $.Scratch.Set "videos_released" 10000 }}
+{{ end }}
 
-<div class="row hidden-lg hidden-md">
-  {{ .Content }}
+{{ $videos_released := $.Scratch.Get "videos_released" }}
+
+<!-- BANNER IMAGE -->
+<div class="row" id="top">
+  <img src="{{ $banner_image }}" class="img-responsive" alt="" />
 </div>
 
+<!-- Inner page navigation -->
+<div class="row">
+  <span class="Lead text-muted">
+    Navigation
+  </span>
+  <div class="btn-group btn-group-justified">
+    {{ range (index .Site.Data.courses .Params.course).chapters }}
+      {{ range . }}
+      <a href="#{{ replace .title " " "-" }}" class="btn btn-default">
+        <i class="fa fa-book"></i> {{ .title }}
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+<!-- Non-collapsible intro -->
+<div class="hidden-lg hidden-md">
+  <div class="row">
+    <h1>{{ .Title }} {{ if isset .Params "title_small" }} <small>{{ .Params.title_small }}</small> {{ end }}</h1>
+    {{ .Content }}
+  </div>
+</div>
+
+<!-- collapsible intro -->
+<!-- Make the actual title of the page collapsible -->
+<!-- <div class="hidden-lg hidden-md">
+  <div class="row">
+    <a href="#introduction" data-toggle="collapse">
+      <button type="button" class="btn btn-default btn-sm btn-block">
+        <span class="lead">{{ .Title }}</span>
+      </button>
+    </a>
+
+    <div id="introduction" class="collapse">
+      {{ .Content }}
+    </div>
+  </div>
+</div> -->
 
 <div class="row">
   <div class="col-md-6">
 
-    <!-- Page content -->
-    <!-- Ranging over individual chapters -->
-    {{ if isset .Site.Data.courses .Params.course }}
-      {{ range (index .Site.Data.courses .Params.course).chapters }}
-        {{ range . }}
+    <!-- Individual chapters -->
+    {{ $.Scratch.Set "video_count" 0 }}
 
-          <!-- Chapter title and description -->
-          <h1><i class="fa fa-book"></i> {{ index .title }} <small>{{ index .small }}</small></h1>
-          <p>{{ index .description | markdownify }}</p>
+    {{ range (index .Site.Data.courses .Params.course).chapters }}
+      {{ range . }}
 
-          <!-- Ranging over individual videos in a chapter -->
+        <!-- Chapter title and description -->
+        <h2 id="{{ replace .title " " "-" }}"><i class="fa fa-book"></i> {{ index .title }} <small>{{ index .small }}</small></h2>
+        <p>{{ index .description | markdownify }}</p>
+        {{ if isset . "duration" }}
+          <span class="text-muted">Duration: {{ div .duration 60 }} min {{ mod .duration 60 }} s </span>
+        {{ end }}
+
+        <!-- Intro video -->
+        {{ if isset . "introduction" }}
+          <!-- Add 1 to the listed video count -->
+          {{ $.Scratch.Add "video_count" 1 }}
+
           <ul class="list-group">
-            {{ range $index, $content := .videos }}
-              <li class="list-group-item">
-                <!-- Video title and link -->
-                {{ if and (isset . "url") (not (eq .url "") ) }}
-                <a href="{{ index .url }}{{ $playlist }}" class="">{{ $index }}. {{ index .title }}</a>
-                {{ else }}{{ $index }}. {{ index .title }} <span class="label label-default">Upcoming</span> {{ end }}
-                <!-- Extra course material attached to a video -->
+            <li class="list-group-item">
+              {{ if and (le ($.Scratch.Get "video_count") $videos_released ) (and (isset .introduction "url") (not (eq .url "") )) }}
+                <a href="{{ .introduction.url }}{{ $playlist }}" class="">{{ .introduction.title }}</a>
+              {{ else }} {{ .introduction.title }} <span class="label label-default">Upcoming</span> {{ end }}
+            </li>
+          </ul>
+        {{ end }}
+
+        <!-- Ranging over individual videos in a chapter -->
+        <ul class="list-group">
+          {{ range $index, $content := .videos }}
+            <!-- Add 1 to the listed video count -->
+            {{ $.Scratch.Add "video_count" 1 }}
+
+            <li class="list-group-item">
+              <!-- Video title and link -->
+              {{ if and (le ($.Scratch.Get "video_count") $videos_released ) (and (isset . "url") (not (eq .url "") )) }}
+                <a href="{{ .url }}{{ $playlist }}" class="">{{ $index }}. {{ .title }}</a>
+              {{ else }}{{ $index }}. {{ .title }} <span class="label label-default">Upcoming</span> {{ end }}
+
+              <!-- Extra course material attached to a video -->
+              {{ if le ($.Scratch.Get "video_count") $videos_released  }}
                 {{ if isset . "document" }} <a href="{{ .document }}"><i class="fa fa-book fa-lg"></i></a> {{ end }}
                 {{ if isset . "exercise" }} <a href="{{ .exercise }}"><i class="fa fa-download fa-lg"></i></a> {{ end }}
-              </li>
-            {{ end }}
-          </ul>
+              {{ end }}
 
-        {{ end }}
+              <!-- Video length -->
+              {{ if isset . "length" }}
+                {{ if ne .length 0  }}
+                  {{ $minutes := div .length 60 }}
+                  {{ $seconds := mod .length 60 }}
+                  <span class="text-muted">({{ $minutes }} min {{ $seconds }})</span>
+                {{ end }}
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
       {{ end }}
     {{ end }}
   </div>
 
   <div class="col-md-6 hidden-sm hidden-xs">
+    <h1>{{ .Title }} {{ if isset .Params "title_small" }} <small>{{ .Params.title_small }}</small> {{ end }}</h1>
     {{ .Content }}
   </div>
 </div>
+{{ end }}
 
 {{ if isset .Params "author" }}
-  {{ partial "author" . }}
+  <p class="text-muted">
+    Meet your mentor
+  </p>
+  {{ partial "modules/author" . }}
 {{ end }}
 
 {{ partial "footer" . }}

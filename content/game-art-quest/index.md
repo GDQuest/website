@@ -16,19 +16,19 @@ type: gaq
         </button>
     </a>
 
-    <a href="{{< ref "#roadmap" >}}">
+    <a href="#roadmap">
       <button type="button" class="btn btn-default btn-lg">
         {{< icon bars info >}} Roadmap
       </button>
     </a>
 
-    <a href="{{< ref "#discover" >}}">
+    <a href="#discover">
       <button type="button" class="btn btn-default btn-lg">
         {{< icon eye default >}} Discover
       </button>
     </a>
 
-    <a href="{{< ref "#free-assets" >}}">
+    <a href="#free-assets">
       <button type="button" class="btn btn-default btn-lg">
         {{< icon paint-brush success >}} Free assets
       </button>
@@ -38,7 +38,7 @@ type: gaq
 
 {{< div class="col-lg-6" >}}
 
-# {{< icon book default >}} The training {#training}
+## {{< icon book default >}} The training {#training}
 
 ### [FREE] Volume 1 - Using Krita as game artists
 
@@ -54,9 +54,9 @@ It is **completely free**, thanks to the Kickstarter backers! It will be availab
         </button>
     </a>
 
-    <a href="https://www.youtube.com/watch?v=Uc5H1ZjuQ4w">
+    <a href="{{< ref "game-art-quest/volume-1/course-public.md" >}}">
       <button type="button" class="btn btn-default btn-lg">
-        {{< icon youtube-play danger >}} Youtube Playlist
+        {{< icon book default >}} Access the course
         </button>
     </a>
 </div>

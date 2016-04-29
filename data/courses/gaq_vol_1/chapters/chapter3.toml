@@ -1,0 +1,24 @@
+[chapter]
+title = "Chapter 3"
+small = "New features and changes in Krita 3"
+description = "Krita 3 is a major update to Krita that brings both a lot of polish to the user experience and that comes with a wealth of new features. I will give you an overview of the features, and then break down the most useful ones for game art."
+[chapter.videos.1]
+title = "Overview of the new features in Krita 3"
+description = " in this video, we are going to talk about the possibilities offered by the instant preview, the new animation tools, the improved layers docker, the grid, guides and snapping options, the Spriter export filter, the gradient map filter, the greater blending mode, the improvements to the layer picking and move tools, the improvements to the assistants, the keyboard shortcut editor, the support for loading and saving gimp brushes, the improved pop-up palette, the improved color space browser, the new functions to modify colors and a few of the many tweaks that were made to the user interface."
+url = ""
+length = 0
+[chapter.videos.2]
+title = "Working with the new layers docker"
+description = " the many improvements that were brought to the layers docker allows us to better organize our documents and to do more operations using the keyboard only. We will also see how we can combine those new functions with the layer picking tool."
+url = ""
+length = 0
+[chapter.videos.3]
+title = "Using the grid, guides and snapping"
+description = " we are going to see how to use the grid for game art, and how we can leverage the new snapping options to make it easier to place UI or any other item precisely on the screen."
+url = ""
+length = 0
+[chapter.videos.4]
+title = "UI and usability changes in Krita 3"
+description = " lots of small changes were made to the application for this version. I will group all of the minor things in this video"
+url = ""
+length = 0

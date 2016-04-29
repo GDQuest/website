@@ -8,6 +8,9 @@ title = "Hugo Tips: How to concatenate node paths using variables"
 type = "post"
 +++
 
+<span class="text-muted"> This tutorial is a post I initially wrote on the Hugo forums. Hugo is the static website generator that powers GDquest.
+It is a really flexible and elegant system, based on Google's Go programming language. Sometimes, it is a bit hard to use for a non-tech-savvy user. So I decided to share some tips on things that got me stuck at some point. </span>
+
 In a template, you sometimes need to load data from a path based on a parameter in your content file’s front matter. For example, you may want to add an author to every post that tells the visitor a bit more about the writer. You want to tell Hugo who the author is, and let the template load all of that person’s info from the data folder.
 
 The first step is simple. We just have to properly set the author variable in the post’s front matter. We will use it to access the right file in our database:
@@ -53,4 +56,4 @@ You can see the resulting author banner at the bottom of this post!
 
 I hope this helps! As a non-web developer, I find it hard sometimes to wrap my head around the way go template work. It's really simple once you know how to do it, but it can take a while before you find how to use a function the right way, even with the help of the documentation.
 
-Happy Hugo coding!
+_Happy Hugo coding!_

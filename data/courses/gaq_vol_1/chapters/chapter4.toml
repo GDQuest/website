@@ -1,0 +1,54 @@
+[chapter]
+title = "Chapter 4"
+small = "going further with Krita's toolset"
+description = "The application offers a wealth of unexpected features. Powerful deformations, wrap-around mode, flexible brush engines, drawing assistants, filter layers, and much more! In this chapter, we'll look at some of the more advanced functions Krita offers, as well as how to use them in practice."
+[chapter.videos.1]
+title = "Understanding the pixel brush engine"
+description = " this is the most commonly used brush engine in the application. It allows you to create all sorts of drawing tools."
+url = ""
+length = 0
+[chapter.videos.2]
+title = "Understanding the color smudge brush engine"
+description = " this brush engine is really useful if you want to achieve painterly effects. The color smudge brushes are great when it comes to smoothly blending colors together, but also for the blocking stage of your painting."
+url = ""
+length = 0
+[chapter.videos.3]
+title = "Creating new brushes and brush presets"
+description = " creating your own tools is essential if you want to become a faster artist. In all honesty, I find that Krita's default brushes could be improved greatly. They are too soft to my liking, which is why I decided to make an entire brush set to go along with the training."
+url = ""
+length = 0
+[chapter.videos.4]
+title = "Going further with selections and deformation"
+description = " Krita provides a cage and a liquify transform tool. These can be applied to a whole group of layers at once and in combination with a selection, making them extremely powerful to tweak the proportions of your art at any time."
+url = ""
+length = 0
+[chapter.videos.5]
+title = "Wraparound mode, Multibrush and symmetry"
+description = " this video focuses on all of the tools that i've the mirror, replicate or offsets your brush strokes. In Krita, you can paint in horizontal, vertical or radial symmetry. You can also use the wraparound mode to paint beautiful tiling textures. All of these features allow you to create patterns and tiles very easily."
+url = ""
+length = 0
+[chapter.videos.6]
+title = "Understanding transparency masks"
+description = " transparency masks allow us to hide some of the pixels on a layer or inside of a group without erasing the source pixels. That way, at any point in time, we can go back and make changes to what is hidden and what is shown."
+url = ""
+length = 0
+[chapter.videos.7]
+title = "Working nondestructively with masks and special layers"
+description = " Krita comes with special masks that allow us to store transforms, to duplicate an existing layer or a group, or even to load a file from somewhere else on our computer."
+url = ""
+length = 0
+[chapter.videos.8]
+title = "Working with the assistants"
+description = " Krita comes with a tool called the assistants. It allows you to constrain your brush strokes to create parallel lines, to draw in perspective, to trace curves, concentric ellipses..."
+url = ""
+length = 0
+[chapter.extras.0]
+title = "Creating normal maps with the tangent normal brush engine"
+description = ""
+url = ""
+length = 0
+[chapter.extras.1]
+title = "Using Krita to create flow maps"
+description = ""
+url = ""
+length = 0

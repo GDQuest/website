@@ -7,7 +7,7 @@ type: gaq1
 ---
 
 {{< div class="col-lg-6" >}} <!-- DISCOVER -->
-# {{< icon pencil default >}} Open source assets {#free-assets}
+<h2 id="free-assets"> {{< icon pencil default >}} Open source assets </h2>
 
 <div class="row">
   <div class="col-xs-6">

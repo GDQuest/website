@@ -2,27 +2,49 @@
 title = "Introduction"
 small = "Get to know Krita and the training"
 description = "This course introduction will give you all you need to get setup for Game Art Quest."
-  [chapter.videos.0]
-  title = "Installing Krita on Windows"
-  url = "https://www.youtube.com/watch?v=Uc5H1ZjuQ4w"
-  [chapter.videos.1]
-  title = "Troubleshooting common issues"
-  url = "https://www.youtube.com/watch?v=8dMunUR7aaw"
-  [chapter.videos.2]
-  title = "How to take the most out of the course"
-  url = "https://www.youtube.com/watch?v=U-8Jygti8P0"
-  [chapter.videos.3]
-  title = "Toolbox - extra resources to supplement the training"
-  url = "https://www.youtube.com/watch?v=abmYohYtmYI"
-  [chapter.videos.4]
-  title = "Introduction to graphic tablets"
-  url = "https://www.youtube.com/watch?v=RfTumTdNhho"
-  [chapter.videos.5]
-  title = "How to setup a Wacom tablet for digital art"
-  url = "https://www.youtube.com/watch?v=75lUVdq2Dto"
-  [chapter.videos.6]
-  title = "Overview of Picasa"
-  url = "https://www.youtube.com/watch?v=eWtMfwM8voo"
-  [chapter.videos.7]
-  title = "Overview of PureRef"
-  url = "https://www.youtube.com/watch?v=MkZW0r5NhxU"
+duration = 3109
+[chapter.assignment]
+file = ""
+name = ""
+description = ""
+# Videos
+[chapter.videos.1]
+title = "Installing Krita on Windows"
+description = ""
+url = "https://www.youtube.com/watch?v=Uc5H1ZjuQ4w"
+length = 124
+[chapter.videos.2]
+title = "Troubleshooting common issues"
+description = ""
+url = "https://www.youtube.com/watch?v=8dMunUR7aaw"
+length = 175
+[chapter.videos.3]
+title = "How to take the most out of the course"
+description = ""
+url = "https://www.youtube.com/watch?v=U-8Jygti8P0"
+length = 306
+[chapter.videos.4]
+title = "Toolbox - extra resources to supplement the training"
+description = ""
+url = "https://www.youtube.com/watch?v=abmYohYtmYI"
+length = 326
+[chapter.videos.5]
+title = "Introduction to graphic tablets"
+description = ""
+url = "https://www.youtube.com/watch?v=RfTumTdNhho"
+length = 225
+[chapter.videos.6]
+title = "How to setup a Wacom tablet for digital art"
+description = ""
+url = "https://www.youtube.com/watch?v=75lUVdq2Dto"
+length = 473
+[chapter.videos.7]
+title = "Overview of Picasa"
+description = ""
+url = "https://www.youtube.com/watch?v=eWtMfwM8voo"
+length = 760
+[chapter.videos.8]
+title = "Overview of PureRef"
+description = ""
+url = "https://www.youtube.com/watch?v=MkZW0r5NhxU"
+length = 717
