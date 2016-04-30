@@ -211,7 +211,7 @@ text-info
     </item>
     
     <item>
-      <title>Game Art Quest</title>
+      <title>Game Art Quest course</title>
       <link>http://gdquest.com/game-art-quest/volume-1/course-public/</link>
       <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
       
@@ -356,7 +356,7 @@ text-default
         &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#roadmap:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#roadmap&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-bars
 text-info
@@ -365,7 +365,7 @@ text-info
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#discover:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#discover&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-eye
 text-default
@@ -374,7 +374,7 @@ text-default
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#free-assets:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#free-assets&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-paint-brush
 text-success
@@ -387,10 +387,10 @@ text-success
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h1 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-book
+&lt;h2 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-book
 text-default
 &#34;&gt;&lt;/i&gt;
- The training&lt;/h1&gt;
+ The training&lt;/h2&gt;
 
 &lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
 
@@ -409,12 +409,12 @@ text-success
         &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;https://www.youtube.com/watch?v=Uc5H1ZjuQ4w&#34;&gt;
+    &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/course-public/&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-youtube-play
-text-danger
+        &lt;i class=&#34;fa fa-book
+text-default
 &#34;&gt;&lt;/i&gt;
- Youtube Playlist
+ Access the course
         &lt;/button&gt;
     &lt;/a&gt;
 &lt;/div&gt;
@@ -459,9 +459,8 @@ text-success
 
 &lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
 
-&lt;!-- DISCOVER --&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;discover:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Discover Game Art Quest!&lt;/h1&gt;
+&lt;!-- DISCOVER --&gt;
+&lt;h2 id=&#34;discover&#34;&gt;Discover Game Art Quest!&lt;/h2&gt;&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -469,7 +468,7 @@ text-success
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h2&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -487,7 +486,7 @@ text-success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h2 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h2&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -504,15 +503,12 @@ text-success
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://gdquest.com/game-art-quest/free-assets/</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
- &lt;!-- DISCOVER --&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;free-assets&#34;&gt;&lt;i class=&#34;fa fa-pencil
+      <description>&lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
+ &lt;!-- DISCOVER --&gt;
+&lt;h2 id=&#34;free-assets&#34;&gt; &lt;i class=&#34;fa fa-pencil
 text-default
 &#34;&gt;&lt;/i&gt;
- Open source assets&lt;/h1&gt;
+ Open source assets &lt;/h2&gt;&lt;/p&gt;
 
 &lt;div class=&#34;row&#34;&gt;
   &lt;div class=&#34;col-xs-6&#34;&gt;
@@ -558,14 +554,14 @@ text-default
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h1 id=&#34;roadmap&#34;&gt;&lt;i class=&#34;fa fa-gears
+&lt;h2 id=&#34;roadmap&#34;&gt;&lt;i class=&#34;fa fa-gears
 text-default
 &#34;&gt;&lt;/i&gt;
-Roadmap &lt;small&gt;I&amp;rsquo;m working on&amp;hellip;&lt;/small&gt;&lt;/h1&gt;
+Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;h2 id=&#34;global-progress&#34;&gt;Global progress&lt;/h2&gt;
+&lt;h3 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
@@ -582,7 +578,7 @@ Roadmap &lt;small&gt;I&amp;rsquo;m working on&amp;hellip;&lt;/small&gt;&lt;/h1&g
 
 &lt;em&gt;The first videos are done and I finished all of my freelance contracts. I&amp;rsquo;m now working full time on the project, working on exercises, videos, and trying to help the community the best I can.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;volume-1-krita&#34;&gt;Volume 1 - Krita&lt;/h2&gt;
+&lt;h3 id=&#34;volume-1-krita:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-production&lt;/strong&gt; &lt;i class=&#34;fa fa-check
