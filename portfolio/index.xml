@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Game Design Quest</title>
+    <link>http://gdquest.com/portfolio/</link>
+    <description>Recent content in Portfolios on Game Design Quest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <lastBuildDate>Fri, 22 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://gdquest.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://gdquest.com/portfolio/</link>
+      <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gdquest.com/portfolio/</guid>
+      <description>&lt;!-- TOP PICTURES --&gt;
+&lt;!-- Add a carousel? --&gt;
+
+&lt;div class=&#34;section&#34; id=portfolio-header-pictures&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/Header/gdquest_portfolio_magicfred_kiwitiki_submarine.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/Header/gdquest-portfolio-Dan-The-Rabbit.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Dan the Rabbit&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6 hidden-xs&#34;&gt;
+        &lt;img src=&#34;Content/Header/gdquest-portfolio-The-Lumberjack.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;The Lumberjack&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;we-make-games&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-md-12&#34;&gt;
+        &lt;img src=&#34;banner-we-make-games.png&#34; alt=&#34;We Make Games!&#34; class=&#34;img-responsive center-block&#34; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-code fa-fw text-warning&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We can answer your need for HTML5 and Unity game development. For Html5, we use
+          &lt;strong&gt;our open source game engine Meta2d&lt;/strong&gt;, offering clean and easy to edit code.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-fw fa-paint-brush text-info&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We design
+          &lt;strong&gt;appealing characters and environments, clear UI elements and polished cut-out animations&lt;/strong&gt; made with Spine or Photoshop to serve your creative vision.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center&#34;&gt;
+        &lt;a&gt;&lt;i class=&#34;fa fa-3x fa-fw fa-youtube-play text-danger&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p class=&#34;text-left&#34;&gt;We have a library of
+          &lt;strong&gt;dozens of deep and instructive tutorials&lt;/strong&gt; to prove our expertise. Find them all on the &lt;a href=&#34;https://www.youtube.com/c/gdquest&#34;&gt;GDquest youtube channel&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;a href=&#34;mailto:Nathan@GDquest.com&#34;&gt;
+        &lt;img src=&#34;button-hire-us.png&#34; alt=&#34;Hire Us!&#34; class=&#34;img-responsive center-block&#34; /&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- THE TEAM --&gt;
+&lt;div class=&#34;section&#34; id=&#34;portfolio-the-team&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;img src=&#34;banner-the-team.png&#34; alt=&#34;The Team&#34; class=&#34;img-responsive center-block&#34; /&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-nathan.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Nathan Lovato - Game Designer&lt;/h4&gt;
+        &lt;p&gt;
+          &lt;strong&gt;Nathan&lt;/strong&gt; is the author of the &lt;a href=&#34;http://youtube.com/c/gdquest&#34;&gt;GDquest Youtube channel&lt;/a&gt;. He is both a professional designer and a tutor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-magicfred.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;MagicFred - Game Artist&lt;/h4&gt;
+        &lt;p&gt;MagicFred is a game artist with more than 15 years working in the industry. Founder of Dijiko, he designed and released a variety of games on web and mobile platforms.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-arthur.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Arthur Shefer - Developer&lt;/h4&gt;
+        &lt;p&gt;Arthur is the author of the open source JS game engine meta2d. He worked on the top grossing web and mobile game My Country as a front end developer.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-3 col-md-3 col-sm-6 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Avatars/avatar-clement.png&#34; class=&#34;img-responsive center-block&#34;&gt;
+        &lt;h4&gt;Clement Brard - Developer&lt;/h4&gt;
+        &lt;p&gt;Clément is a Unity developer with more than 5 years of experience. He is the author of Lord of the Dungeon.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;script type=&#34;text/javascript&#34;&gt;
+for (var i = 1; i &lt; 11; i++) {
+  var img = document.createElement(&#39;img&#39;);
+  img.src = document.URL + &#34;/content/gdquest-game-design-portfolio-&#34; + i + &#34;.png&#34;;
+
+  console.log(img);
+  $(&#39;#portfolio-gallery&#39;).append(img)
+}
+&lt;/script&gt; --&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;portfolio-gallery&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-4.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-5.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-6.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-7.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-8.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-9.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
