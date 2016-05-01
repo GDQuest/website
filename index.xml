@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game Design Quest</title>
+    <title>GDquest</title>
     <link>http://gdquest.com/</link>
-    <description>Recent content on Game Design Quest</description>
+    <description>Recent content on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Mon, 25 Apr 2016 00:00:00 +0000</lastBuildDate>
@@ -164,19 +164,19 @@ text-success
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
 &lt;div class=&#34;row&#34;&gt;
-    &lt;a href=&#34;#the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#the-brushes&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-paint-brush text-success&#34;&gt;&lt;/i&gt; The brushes
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#installation-guide&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#faq&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-question text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
@@ -197,7 +197,7 @@ text-success
   &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt; --&gt;
 
-&lt;h1 id=&#34;the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
+&lt;h1 id=&#34;the-brushes&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -213,7 +213,7 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -241,7 +241,7 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -273,7 +273,7 @@ text-success
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -297,7 +297,7 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
@@ -329,9 +329,9 @@ text-info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
 text-info
 &#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -362,7 +362,7 @@ text-info
 
 &lt;iframe style=&#34;border: 0; width: 700px; height: 307px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=1579881958/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/&#34; seamless&gt;&lt;a href=&#34;http://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space adventures by Nathan Lovato&lt;/a&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;your-votes-for-future-tutorials:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
+&lt;h2 id=&#34;your-votes-for-future-tutorials&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
 
 &lt;p&gt;Since January, I have been &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;running a vote&lt;/a&gt; to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:&lt;/p&gt;
 
@@ -374,7 +374,7 @@ text-info
 
 &lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-3-0-pre-alpha-3:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
+&lt;h2 id=&#34;krita-3-0-pre-alpha-3&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;\img\post\community\krita-gradient-map.png&#34; alt=&#34;Krita gradient map filter&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
@@ -473,7 +473,7 @@ text-success
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -637,7 +637,7 @@ for (var i = 1; i &lt; 11; i++) {
         &lt;img src=&#34;Content/gdquest-game-design-portfolio-5.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-6.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-6.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -655,13 +655,13 @@ for (var i = 1; i &lt; 11; i++) {
 
     &lt;div class=&#34;row&#34;&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -701,7 +701,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -725,7 +725,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -926,7 +926,7 @@ text-default
       5 electro-futuristic game soundtrack
     &lt;/p&gt;
     &lt;a href=&#34;https://gdquest.bandcamp.com/album/space-adventures&#34;&gt;
-      &lt;img src=&#34;https://f1.bcbits.com/img/a3140120022_10.jpg&#34; alt=&#34;Space adventures album cover&#34; class=&#34;img-responsive&#34;/&gt;
+      &lt;img src=&#34;space-adventures-free-game-soundtrack-bandcamp.jpg&#34; alt=&#34;Space adventures album cover&#34; class=&#34;img-responsive&#34;/&gt;
     &lt;/a&gt;
     &lt;p class=&#34;text-center&#34;&gt;
       &lt;!-- CC 4.0 BY LICENCE --&gt;

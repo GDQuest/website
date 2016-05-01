@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Community on Game Design Quest</title>
+    <title>Community on GDquest</title>
     <link>http://gdquest.com/category/community/</link>
-    <description>Recent content in Community on Game Design Quest</description>
+    <description>Recent content in Community on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Mon, 11 Jan 2016 09:16:10 +0100</lastBuildDate>

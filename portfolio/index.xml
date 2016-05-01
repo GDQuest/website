@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Game Design Quest</title>
+    <title>Portfolios on GDquest</title>
     <link>http://gdquest.com/portfolio/</link>
-    <description>Recent content in Portfolios on Game Design Quest</description>
+    <description>Recent content in Portfolios on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <lastBuildDate>Fri, 22 Jan 2016 00:00:00 +0000</lastBuildDate>
@@ -123,7 +123,7 @@ for (var i = 1; i &lt; 11; i++) {
         &lt;img src=&#34;Content/gdquest-game-design-portfolio-5.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-6.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-6.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -141,13 +141,13 @@ for (var i = 1; i &lt; 11; i++) {
 
     &lt;div class=&#34;row&#34;&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-1.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-2.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
       &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 col-xs-6&#34;&gt;
-        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
+        &lt;img src=&#34;Content/gdquest-game-design-portfolio-3.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
