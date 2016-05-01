@@ -268,7 +268,7 @@
 
 <p>The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!</p>
 
-<h2 id="hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4"><i class="fa fa-link
+<h2 id="hugoshortcode-1-links"><i class="fa fa-link
 text-default
 "></i>
  Links</h2>
@@ -1370,7 +1370,7 @@ text-success
 
 <p>The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!</p>
 
-<h2 id="hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4"><i class="fa fa-link
+<h2 id="hugoshortcode-1-links"><i class="fa fa-link
 text-default
 "></i>
  Links</h2>
@@ -1489,6 +1489,21 @@ text-success
 </script>
 
 <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+<script type="text/javascript">
+    function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = 'http:\/\/gdquest.com\/js\/highlight.pack.js';
+        document.body.appendChild(element);
+    }
+
+    if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script>
 
 
   </body>
