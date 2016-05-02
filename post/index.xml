@@ -72,11 +72,11 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/hardware/huion-vs-wacom.jpg&#34; alt=&#34;Huion vs Wacom graphic tablet banner&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;recommended-graphic-tablets&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
+&lt;h1 id=&#34;recommended-graphic-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
 
 &lt;p&gt;On this page, you can find a list of the graphic tablets I recommend for &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I used &lt;a href=&#34;http://frenden.com/tagged/review&#34;&gt;Frenden&amp;rsquo;s reviews&lt;/a&gt; as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don&amp;rsquo;t like it. And read reviews on Amazon or on the website you&amp;rsquo;re buying them on.&lt;/p&gt;
 
-&lt;h2 id=&#34;flat-tablets&#34;&gt;Flat tablets&lt;/h2&gt;
+&lt;h2 id=&#34;flat-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Flat tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Flat tablets are perfect for everyone to start with at a low price. Especially students and hobbyists.&lt;/em&gt;&lt;/p&gt;
 
@@ -85,7 +85,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 &lt;li&gt;Wacom Intuos Pro Medium or Large (300-500$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;screen-tablets&#34;&gt;Screen tablets&lt;/h2&gt;
+&lt;h2 id=&#34;screen-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Screen tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Screen tablets are worth a try if you&amp;rsquo;re an experienced artist already, and you do a lot of line work.&lt;/em&gt;&lt;/p&gt;
 
@@ -95,7 +95,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 &lt;li&gt;Wacom Cintiq 13HD (13&amp;raquo; HD screen, 800$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h2 id=&#34;tips:fe04af95515442dc424d63ca1b599889&#34;&gt;Tips&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Always&lt;/strong&gt; download and install the driver from the manufacturer&amp;rsquo;s official website &lt;strong&gt;before&lt;/strong&gt; you plug your device in! This will save you some trouble.&lt;/li&gt;
@@ -128,7 +128,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;iframe style=&#34;border: 0; width: 700px; height: 307px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=1579881958/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/&#34; seamless&gt;&lt;a href=&#34;http://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space adventures by Nathan Lovato&lt;/a&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;your-votes-for-future-tutorials&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
+&lt;h2 id=&#34;your-votes-for-future-tutorials:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
 
 &lt;p&gt;Since January, I have been &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;running a vote&lt;/a&gt; to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:&lt;/p&gt;
 
@@ -140,7 +140,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-3-0-pre-alpha-3&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
+&lt;h2 id=&#34;krita-3-0-pre-alpha-3:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;\img\post\community\krita-gradient-map.png&#34; alt=&#34;Krita gradient map filter&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
@@ -263,7 +263,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;installing-tern&#34;&gt;Installing tern&lt;/h2&gt;
+&lt;h2 id=&#34;installing-tern:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Installing tern&lt;/h2&gt;
 
 &lt;p&gt;This first part explains how to get npm, install tern and the tern-phaser plugin. The first thing that you need to ensure is that you have Node.js installed on your computer. You can download it on &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;https://nodejs.org/en/&lt;/a&gt;. This will give you access to npm as well, a handy package manager for js libraries and plugins. It allows you to download install all sorts of packages from the command prompt.&lt;/p&gt;
 
@@ -281,7 +281,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/qqUNi8c.png&#34; alt=&#34;&#34; width=&#34;657&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-manual-route&#34;&gt;The manual route&lt;/h2&gt;
+&lt;h2 id=&#34;the-manual-route:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;The manual route&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;If the automatic install of tern-phaser doesn&amp;#8217;t work&lt;/strong&gt;, you&amp;#8217;ll have to go navigate to the tern install folder manually from the command prompt. To change the folder the command prompt is in, you need to type cd (&lt;em&gt;current directory&lt;/em&gt;) followed by the path you want to reach. By default, tern should be installed to C:\Users**YourName**\AppData\Roaming\npm\node_modules.&lt;/p&gt;
 
@@ -299,7 +299,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;h2 id=&#34;using-tern-phaser-with-atom&#34;&gt;Using tern-phaser with Atom&lt;/h2&gt;
+&lt;h2 id=&#34;using-tern-phaser-with-atom:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Using tern-phaser with Atom&lt;/h2&gt;
 
 &lt;p&gt;Now, you have both tern and tern-phaser installed on your computer. Let&amp;#8217;s move to setting up atom to work with tern. There is no native integration of tern in atom. However, there is a plugin called &lt;strong&gt;atom-ternjs&lt;/strong&gt; that works like a charm. We can install the package from the command line as well. Either &lt;strong&gt;close and reopen the command&lt;/strong&gt; &lt;strong&gt;prompt&lt;/strong&gt; or navigate back to your root folder with the following command: &amp;#8220;cd C:\Users\YourName&amp;#8221;.&lt;/p&gt;
 
