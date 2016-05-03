@@ -34,25 +34,25 @@
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
 &lt;div class=&#34;row&#34;&gt;
-    &lt;a href=&#34;#the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#the-brushes&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-paint-brush text-success&#34;&gt;&lt;/i&gt; The brushes
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#installation-guide&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#faq&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-question text-info&#34;&gt;&lt;/i&gt; FAQ
+        &lt;i class=&#34;fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
     &lt;/a&gt;
     &lt;!-- &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-      &lt;i class=&#34;fa fa-dollar text-success&#34;&gt;&lt;/i&gt;Buy the brushes!
+      &lt;i class=&#34;fa fa-shopping-cart text-success&#34;&gt;&lt;/i&gt;Buy the brushes!
     &lt;/button&gt; --&gt;
     &lt;script src=&#34;https://gumroad.com/js/gumroad.js&#34;&gt;&lt;/script&gt;
     &lt;a class=&#34;gumroad-button&#34; href=&#34;https://gum.co/game-art-quest-brush-pack&#34; target=&#34;_blank&#34;&gt;Buy the brushes!&lt;/a&gt;
@@ -67,7 +67,7 @@
   &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt; --&gt;
 
-&lt;h1 id=&#34;the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
+&lt;h1 id=&#34;the-brushes&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -83,7 +83,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -111,7 +111,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -143,7 +143,7 @@
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -167,7 +167,7 @@
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
@@ -199,9 +199,9 @@ text-info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
 text-info
 &#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -211,14 +211,14 @@ text-info
     </item>
     
     <item>
-      <title>Game Art Quest course</title>
+      <title>Become a better Game Artist with Krita</title>
       <link>http://gdquest.com/game-art-quest/volume-1/course-public/</link>
       <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
       
       <guid>http://gdquest.com/game-art-quest/volume-1/course-public/</guid>
       <description>
 
-&lt;p&gt;Welcome to Game Art Quest volume 1. This is a complete free training dedicated to Krita. Over the course of 6 chapters, and multiple hours of content, it will run you through Krita&amp;rsquo;s most useful tools for 2-D game artists.&lt;/p&gt;
+&lt;p&gt;Welcome to Game Art Quest, vol 1. If you want to become a better 2-D game artist, this training is for you. It will teach you how to work with Krita, an open source digital painting application. Throughout the course of 6 chapters, we will explore the most important features this application has to offer to game artists.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re an illustrator or a concept artist, don&amp;rsquo;t leave just yet! There is a lot for you to learn in here as well.&lt;/p&gt;
 
@@ -239,7 +239,7 @@ text-info
 &lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-dollar
+ &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -255,18 +255,18 @@ text-success
 &lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-mortar-board
+&lt;li&gt;&lt;i class=&#34;fa fa-link
 text-info
 &#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-mortar-board
+&lt;li&gt;&lt;i class=&#34;fa fa-link
 text-info
 &#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
 &lt;li&gt;&lt;i class=&#34;fa fa-book
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-dollar
+ &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -286,7 +286,7 @@ text-success
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -301,7 +301,7 @@ text-info
 &lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-dollar
+ &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -317,18 +317,18 @@ text-success
 &lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-mortar-board
+&lt;li&gt;&lt;i class=&#34;fa fa-link
 text-info
 &#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-mortar-board
+&lt;li&gt;&lt;i class=&#34;fa fa-link
 text-info
 &#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
 &lt;li&gt;&lt;i class=&#34;fa fa-book
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-dollar
+ &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -358,7 +358,7 @@ text-default
 
     &lt;a href=&#34;#roadmap&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-bars
+        &lt;i class=&#34;fa fa-tasks
 text-info
 &#34;&gt;&lt;/i&gt;
  Roadmap
@@ -426,7 +426,7 @@ text-default
 &#34;&gt;&lt;/i&gt;
  Facebook study group&lt;/a&gt;! There, we run weekly game art challenges. The goal is to become better game artists together.&lt;/p&gt;
 
-&lt;p&gt;There&amp;rsquo;s also an official &lt;i class=&#34;fa fa-dollar
+&lt;p&gt;There&amp;rsquo;s also an official &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;Krita brush pack&lt;/a&gt; to supplement the training.&lt;/p&gt;
@@ -468,7 +468,7 @@ text-success
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -486,7 +486,7 @@ text-success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -554,7 +554,7 @@ text-default
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h2 id=&#34;roadmap&#34;&gt;&lt;i class=&#34;fa fa-gears
+&lt;h2 id=&#34;roadmap&#34;&gt;&lt;i class=&#34;fa fa-tasks
 text-default
 &#34;&gt;&lt;/i&gt;
 Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
