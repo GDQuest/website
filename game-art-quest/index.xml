@@ -286,7 +286,7 @@ text-success
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -347,7 +347,7 @@ text-success
 &lt;!-- PAGE NAVIGATION --&gt;
 
 &lt;div class=&#34;row center-block&#34;&gt;
-    &lt;a href=&#34;#training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#training&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-book
 text-default
@@ -387,12 +387,12 @@ text-success
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h2 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-book
+&lt;h2 id=&#34;training&#34;&gt;&lt;i class=&#34;fa fa-book
 text-default
 &#34;&gt;&lt;/i&gt;
  The training&lt;/h2&gt;
 
-&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
+&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-free-krita-tutorials.png&#34; alt=&#34;Game Art Quest volume 1 banner - Free Krita tutorials&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -433,13 +433,13 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Game Art Quest volume 2 banner - painterly art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;In this second training, we will take a closer look at the game creation pipeline from a game artist&amp;rsquo;s standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (&lt;em&gt;Odin Sphere, Muramasa&lt;/em&gt;) and Moon Studios (&lt;em&gt;Ori and the Blind Forest&lt;/em&gt;).&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Game Art Quest volume 3 banner - Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -468,7 +468,7 @@ text-success
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -486,7 +486,7 @@ text-success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
