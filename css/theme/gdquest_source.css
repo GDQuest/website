@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen');
+/*@import url('https://fonts.googleapis.com/css?family=Oxygen');*/
 
 .margin-top { margin-top:20px; }
 html {
@@ -7,7 +7,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    font-family: 'Oxygen', 'Trebuchet MS', 'Arial', 'sans-serif';
+    font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', 'Arial', 'sans-serif';
     font-size: 16px;
     margin: 0;
     margin-top: 60px;
@@ -312,7 +312,7 @@ hr {
     cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: Oxygen;
+    font-family: 'Calibri', 'Helvetica', 'Arial', sans-serif;
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
