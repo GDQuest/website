@@ -416,11 +416,11 @@ The problem is, we don’t always want to have the page’s author set to Admin.
       <guid>http://gdquest.com/tutorials/monster_design/</guid>
       <description>
 
-&lt;h1 id=&#34;intro-to-monster-design-for-2-d-games:10d3d24eeee1a30932586c39e5859d89&#34;&gt;Intro to monster design for 2-D games&lt;/h1&gt;
+&lt;h1 id=&#34;intro-to-monster-design-for-2-d-games&#34;&gt;Intro to monster design for 2-D games&lt;/h1&gt;
 
 &lt;p&gt;The intro to monster design is the first free training released on GDquest. In about 40 minutes, it will &lt;strong&gt;run you through the thought process a game artist might follow to design monsters&lt;/strong&gt;. It both covers the thought process behind the design of a monster and an example of monster drawing with pen, paper and Krita.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-useful-links:10d3d24eeee1a30932586c39e5859d89&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-useful-links&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Useful links&lt;/h2&gt;
@@ -496,19 +496,19 @@ text-success
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
 &lt;div class=&#34;row&#34;&gt;
-    &lt;a href=&#34;#the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#the-brushes&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-paint-brush text-success&#34;&gt;&lt;/i&gt; The brushes
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#installation-guide&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#faq&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
@@ -529,7 +529,7 @@ text-success
   &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt; --&gt;
 
-&lt;h1 id=&#34;the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
+&lt;h1 id=&#34;the-brushes&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -545,7 +545,7 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -573,7 +573,7 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -605,7 +605,7 @@ text-success
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -629,7 +629,7 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
@@ -661,9 +661,9 @@ text-info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
 text-info
 &#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -805,7 +805,7 @@ text-success
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -1033,7 +1033,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -1057,7 +1057,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -1209,7 +1209,7 @@ text-success
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -1227,7 +1227,7 @@ text-success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
