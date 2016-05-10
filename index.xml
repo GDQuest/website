@@ -229,9 +229,9 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;&lt;strong&gt;Gimp brushes support (loading and saving)&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
 
-&lt;p&gt;You can now both load and save brush tips in Gimp&amp;rsquo;s GBR format. This works just like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. You either have to drop the GBR file in your resources&amp;rsquo; brush tip folder, or to use the &amp;laquo;Import Brushes&amp;raquo; button in Krita&amp;rsquo;s Manage Resources window.&lt;/p&gt;
+&lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works just like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -692,7 +692,7 @@ text-info
 
 &lt;iframe style=&#34;border: 0; width: 700px; height: 307px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=1579881958/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/&#34; seamless&gt;&lt;a href=&#34;http://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space adventures by Nathan Lovato&lt;/a&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;your-votes-for-future-tutorials&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
+&lt;h2 id=&#34;your-votes-for-future-tutorials:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
 
 &lt;p&gt;Since January, I have been &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;running a vote&lt;/a&gt; to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:&lt;/p&gt;
 
@@ -704,7 +704,7 @@ text-info
 
 &lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-3-0-pre-alpha-3&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
+&lt;h2 id=&#34;krita-3-0-pre-alpha-3:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;\img\post\community\krita-gradient-map.png&#34; alt=&#34;Krita gradient map filter&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
@@ -741,10 +741,17 @@ text-info
 
 &lt;p&gt;This course was made possible thanks to the pledges of 424 backers.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links:c73da73a896b098b5578a7ad2084a1d5&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Krita&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;&lt;i class=&#34;fa fa-link
+text-default
+&#34;&gt;&lt;/i&gt;
+ Krita&amp;rsquo;s May 2016 Kickstarter: Let&amp;rsquo;s make vector and text awesome!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
 
@@ -1207,7 +1214,7 @@ text-success
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -1225,7 +1232,7 @@ text-success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -1300,7 +1307,7 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;h3 id=&#34;global-progress&#34;&gt;Global progress&lt;/h3&gt;
+&lt;h3 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
@@ -1317,7 +1324,7 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
 
 &lt;em&gt;The first videos are done and I finished all of my freelance contracts. I&amp;rsquo;m now working full time on the project, working on exercises, videos, and trying to help the community the best I can.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-1-krita&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
+&lt;h3 id=&#34;volume-1-krita:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-production&lt;/strong&gt; &lt;i class=&#34;fa fa-check

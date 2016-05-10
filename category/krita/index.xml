@@ -229,9 +229,9 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;&lt;strong&gt;Gimp brushes support (loading and saving)&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
 
-&lt;p&gt;You can now both load and save brush tips in Gimp&amp;rsquo;s GBR format. This works just like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. You either have to drop the GBR file in your resources&amp;rsquo; brush tip folder, or to use the &amp;laquo;Import Brushes&amp;raquo; button in Krita&amp;rsquo;s Manage Resources window.&lt;/p&gt;
+&lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works just like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
 
 &lt;figure &gt;
     
