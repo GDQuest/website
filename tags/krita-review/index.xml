@@ -17,6 +17,8 @@
       <guid>http://gdquest.com/new-features-in-krita-3</guid>
       <description>
 
+&lt;!-- introduction --&gt;
+
 &lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt;Never heard of Krita? It is a free, open source digital painting program that used to be Linux-only. Since 2 years though, there&amp;rsquo;s a Windows version, and the program is now being ported to Mac.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.&lt;/p&gt;
@@ -35,6 +37,8 @@
 &lt;/figure&gt;
 
 
+&lt;!-- Part 1 --&gt;
+
 &lt;h2 id=&#34;major-new-features:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita 3&amp;rsquo;s New Features&lt;/h2&gt;
 
 &lt;p&gt;Krita 3.0 was initially funded by a thousand of backers on Kickstarter in 2015. The campaign had 2 goals: to fund a new, faster rendering engine for digital painting and a traditional animation toolset. This major update brings those additions to the world, and more! Intriguing, right?&lt;/p&gt;
@@ -43,11 +47,11 @@
 
 &lt;h3 id=&#34;instant-preview-the-new-rendering-engine:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Instant Preview: the new rendering engine&lt;/h3&gt;
 
-&lt;p&gt;Krita&amp;rsquo;s performances used to be a major issue for professional work. Painting on large documents would be slow and painful. It&amp;rsquo;s now a matter of the past, at least for the most part: thanks to the Instant Preview, the program is now way more responsive.&lt;/p&gt;
+&lt;p&gt;Krita&amp;rsquo;s performances used to be a major issue for professional work. Painting on large documents would be slow and painful. It&amp;rsquo;s now a matter of the past, at least for the most part: thanks to the Instant Preview, the program is way more responsive.&lt;/p&gt;
 
-&lt;p&gt;It is both simple and powerful: Krita gives you a preview of your drawing operations in real time and, at the same time, it takes care of the big calculations in the background. What you get, as the artist, is instant feedback on your work. You no longer have to wait for endless seconds between large brushstrokes.&lt;/p&gt;
+&lt;p&gt;It is both simple and powerful: Krita gives you an instant preview of your drawing operations and, at the same time, it takes care of the big calculations in the background. What you get, as the artist, is better feedback on your work. You no longer have to wait for endless seconds between large brushstrokes.&lt;/p&gt;
 
-&lt;p&gt;The developers completely changed how Krita handles rendering operations under the hood. Thus, the instant preview not only affects brushstrokes, like it was already meant to. It also works with filters, with the move tool, and with animation playback right now.&lt;/p&gt;
+&lt;p&gt;The developers completely changed how Krita handles rendering operations under the hood. Thus, the instant preview not only affects brushstrokes, like it was initially meant to. It also works with filters, with the move tool, and with animation playback right now.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=c9yiBRFQnbo&#34;&gt;Overview of the Instant Preview beta in Krita 2.9&lt;/a&gt;&lt;/p&gt;
 
@@ -103,7 +107,7 @@
 &lt;li&gt;&lt;p&gt;Edit properties on multiple layers at the same time.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Last, but not least: the former 3 display modes have been merged into a single one that gives you access to all of the options you need at a glance.&lt;/p&gt;
+&lt;p&gt;Last, but not least: the former 3 display modes have been merged into a single one that gives you all of the options you need at a glance.&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -157,7 +161,7 @@
 
 &lt;h3 id=&#34;new-tablet-support-code:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;New tablet support code&lt;/h3&gt;
 
-&lt;p&gt;As I told you in the introduction, the tablet code has been rewritten from scratch. Krita 2.9 would just not recognize some tablets. Version 3 already recognizes more devices, especially Wacom alternatives! If your tablet didn&amp;rsquo;t work with the previous version, you should definitely give it a try again.&lt;/p&gt;
+&lt;p&gt;As I told you in the introduction, the tablet code has been rewritten from scratch. Krita 2.9 would just not recognize a variety of tablets. Version 3, on the other hand, already supports more devices. Especially Wacom alternatives! In case you couldn’t use your tablet in the previous version, you should definitely give it a try again.&lt;/p&gt;
 
 &lt;h3 id=&#34;improved-layer-picking-and-move-tools:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved layer picking and move tools&lt;/h3&gt;
 
@@ -207,7 +211,7 @@
 
 &lt;h3 id=&#34;greater-blending-mode:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Greater blending mode&lt;/h3&gt;
 
-&lt;p&gt;There is a new blending mode in the &amp;laquo;mix&amp;raquo; category, humbly named Greater. I&amp;rsquo;ve never seen something like that in another painting program, and you know what? It&amp;rsquo;s great! With the pixel brush engine, overlapping transparent strokes look ugly in normal mode. They don&amp;rsquo;t blend smoothly, but that&amp;rsquo;s how normal blending works.&lt;/p&gt;
+&lt;p&gt;There is a new blending mode in the &amp;laquo;mix&amp;raquo; category, humbly named Greater. I&amp;rsquo;ve never seen something like that in another painting program, but you know what? It&amp;rsquo;s great! With the pixel brush engine, overlapping transparent strokes look ugly in normal mode. They don&amp;rsquo;t blend smoothly, but that&amp;rsquo;s how normal blending works.&lt;/p&gt;
 
 &lt;p&gt;The greater blending mode solve this issue. It prevents new strokes from increasing the opacity of existing pixels on the canvas beyond your current maximum opacity setting. It may not sound intuitive, but it does feel very natural when you use it.&lt;/p&gt;
 
@@ -231,7 +235,7 @@
 
 &lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
 
-&lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works just like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
+&lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works a bit like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -321,21 +325,37 @@
 
 &lt;p&gt;I&amp;rsquo;m really picky with the programs I choose. I only work with tools that are flexible and that feel well-designed. Although I&amp;rsquo;m deeply interested in open source, I wouldn&amp;rsquo;t shoot myself in the foot just for the sake of using open source tools. I still use Microsoft office and FL studio in my work for example.&lt;/p&gt;
 
-&lt;p&gt;Yet, I&amp;rsquo;ve been working with both Krita and Photoshop side-by-side for the past 9 months. If I have done so, it is only because Krita has a few unique functions. You can draw in horizontal, vertical and radial symmetry. There is a built-in brush stabilizer. Perspective guides. It was not always great though. Performances have been a major drawback. You have to work on big documents as a 2-D game artist, and Krita 2.9 didn&amp;rsquo;t like it. But again, this is mostly fixed in Krita 3. A lot is mostly fixed in Krita 3.&lt;/p&gt;
+&lt;p&gt;Yet, I&amp;rsquo;ve been working with both Krita and Photoshop side-by-side for the past 9 months. If I have done so, it is only because the experience was satisfying. Krita has some unique tools to its name. You can draw in horizontal, vertical and radial symmetry. There is a built-in brush stabilizer. Perspective guides. It is not perfect. Performances have been a major drawback. You have to work on big documents as a 2-D game artist, and Krita 2.9 didn&amp;rsquo;t like that. But again, this is mostly fixed in Krita 3.&lt;/p&gt;
 
-&lt;p&gt;Krita is great when it comes to painting, thus for character design, environment design and hand-painted textures. Heck, even for animation! However, right now, you need an external tool to design your game&amp;rsquo;s UI and to batch export your sprites.&lt;/p&gt;
+&lt;p&gt;Krita is great when it comes to painting. As far as games are concerned, it is a great tool for character design, environment design and hand-painted textures. Heck, even for animation! If you specialize in one of those fields, I bet you’ll like it! However, right now, it is not the best tool for everything. It is far from ideal when it comes to creating user interface. And you cannot batch export your sprites directly from the program.&lt;/p&gt;
 
 &lt;h3 id=&#34;final-thoughts:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Final thoughts&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ll be honest: Krita still isn&amp;rsquo;t the ultimate solution for game artists.&lt;/p&gt;
 
-&lt;p&gt;But &lt;strong&gt;Krita is a great application&lt;/strong&gt;. And a healthy open-source project. The developers release updates almost monthly. They listen to the community, which is invaluable in my opinion. They take anyone&amp;rsquo;s feedback in account as long as it&amp;rsquo;s constructive.&lt;/p&gt;
+&lt;p&gt;Yet, it is a great application. And a healthy open-source project. The developers release updates almost monthly. They listen to the community, which is invaluable in my opinion. They take anyone&amp;rsquo;s feedback in account as long as it&amp;rsquo;s constructive.&lt;/p&gt;
 
-&lt;p&gt;As far as I&amp;rsquo;m concerned, the program is mature for professional use. It&amp;rsquo;s not perfect, yet it&amp;rsquo;s more powerful than many paid alternatives I&amp;rsquo;ve tried in the past. Give Krita 3 a try. See what it has in store for you. You won&amp;rsquo;t regret it!&lt;/p&gt;
+&lt;p&gt;As far as I&amp;rsquo;m concerned, the program is mature for professional use. It&amp;rsquo;s not perfect, but it&amp;rsquo;s powerful. It easily competes with many paid alternatives I&amp;rsquo;ve tried in the past. Give Krita 3 a try. See what it has in store for you. You won&amp;rsquo;t regret it!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://krita.org/&#34;&gt;Krita&amp;rsquo;s official website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt;
+Krita 3 is coming out at the end of the month. However, it is already out in Beta, and all of the features listed above are in.
+&lt;/span&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;The 2016 Krita Kickstarter campaign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://krita.org/item/new-development-builds-ready/&#34;&gt;&lt;i class=&#34;fa fa-link
+text-error: index out of range for positional param at position 1
+&#34;&gt;&lt;/i&gt;
+ Krita 3.0 Beta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://krita.org/&#34;&gt;&lt;i class=&#34;fa fa-link
+text-error: index out of range for positional param at position 1
+&#34;&gt;&lt;/i&gt;
+ Krita&amp;rsquo;s official website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;fa fa-link
+text-error: index out of range for positional param at position 1
+&#34;&gt;&lt;/i&gt;
+ The 2016 Krita Kickstarter campaign&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

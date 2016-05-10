@@ -17,6 +17,8 @@
       <guid>http://gdquest.com/new-features-in-krita-3</guid>
       <description>
 
+&lt;!-- introduction --&gt;
+
 &lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt;Never heard of Krita? It is a free, open source digital painting program that used to be Linux-only. Since 2 years though, there&amp;rsquo;s a Windows version, and the program is now being ported to Mac.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.&lt;/p&gt;
@@ -35,6 +37,8 @@
 &lt;/figure&gt;
 
 
+&lt;!-- Part 1 --&gt;
+
 &lt;h2 id=&#34;major-new-features:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita 3&amp;rsquo;s New Features&lt;/h2&gt;
 
 &lt;p&gt;Krita 3.0 was initially funded by a thousand of backers on Kickstarter in 2015. The campaign had 2 goals: to fund a new, faster rendering engine for digital painting and a traditional animation toolset. This major update brings those additions to the world, and more! Intriguing, right?&lt;/p&gt;
@@ -43,11 +47,11 @@
 
 &lt;h3 id=&#34;instant-preview-the-new-rendering-engine:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Instant Preview: the new rendering engine&lt;/h3&gt;
 
-&lt;p&gt;Krita&amp;rsquo;s performances used to be a major issue for professional work. Painting on large documents would be slow and painful. It&amp;rsquo;s now a matter of the past, at least for the most part: thanks to the Instant Preview, the program is now way more responsive.&lt;/p&gt;
+&lt;p&gt;Krita&amp;rsquo;s performances used to be a major issue for professional work. Painting on large documents would be slow and painful. It&amp;rsquo;s now a matter of the past, at least for the most part: thanks to the Instant Preview, the program is way more responsive.&lt;/p&gt;
 
-&lt;p&gt;It is both simple and powerful: Krita gives you a preview of your drawing operations in real time and, at the same time, it takes care of the big calculations in the background. What you get, as the artist, is instant feedback on your work. You no longer have to wait for endless seconds between large brushstrokes.&lt;/p&gt;
+&lt;p&gt;It is both simple and powerful: Krita gives you an instant preview of your drawing operations and, at the same time, it takes care of the big calculations in the background. What you get, as the artist, is better feedback on your work. You no longer have to wait for endless seconds between large brushstrokes.&lt;/p&gt;
 
-&lt;p&gt;The developers completely changed how Krita handles rendering operations under the hood. Thus, the instant preview not only affects brushstrokes, like it was already meant to. It also works with filters, with the move tool, and with animation playback right now.&lt;/p&gt;
+&lt;p&gt;The developers completely changed how Krita handles rendering operations under the hood. Thus, the instant preview not only affects brushstrokes, like it was initially meant to. It also works with filters, with the move tool, and with animation playback right now.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=c9yiBRFQnbo&#34;&gt;Overview of the Instant Preview beta in Krita 2.9&lt;/a&gt;&lt;/p&gt;
 
@@ -103,7 +107,7 @@
 &lt;li&gt;&lt;p&gt;Edit properties on multiple layers at the same time.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Last, but not least: the former 3 display modes have been merged into a single one that gives you access to all of the options you need at a glance.&lt;/p&gt;
+&lt;p&gt;Last, but not least: the former 3 display modes have been merged into a single one that gives you all of the options you need at a glance.&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -157,7 +161,7 @@
 
 &lt;h3 id=&#34;new-tablet-support-code:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;New tablet support code&lt;/h3&gt;
 
-&lt;p&gt;As I told you in the introduction, the tablet code has been rewritten from scratch. Krita 2.9 would just not recognize some tablets. Version 3 already recognizes more devices, especially Wacom alternatives! If your tablet didn&amp;rsquo;t work with the previous version, you should definitely give it a try again.&lt;/p&gt;
+&lt;p&gt;As I told you in the introduction, the tablet code has been rewritten from scratch. Krita 2.9 would just not recognize a variety of tablets. Version 3, on the other hand, already supports more devices. Especially Wacom alternatives! In case you couldn’t use your tablet in the previous version, you should definitely give it a try again.&lt;/p&gt;
 
 &lt;h3 id=&#34;improved-layer-picking-and-move-tools:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved layer picking and move tools&lt;/h3&gt;
 
@@ -207,7 +211,7 @@
 
 &lt;h3 id=&#34;greater-blending-mode:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Greater blending mode&lt;/h3&gt;
 
-&lt;p&gt;There is a new blending mode in the &amp;laquo;mix&amp;raquo; category, humbly named Greater. I&amp;rsquo;ve never seen something like that in another painting program, and you know what? It&amp;rsquo;s great! With the pixel brush engine, overlapping transparent strokes look ugly in normal mode. They don&amp;rsquo;t blend smoothly, but that&amp;rsquo;s how normal blending works.&lt;/p&gt;
+&lt;p&gt;There is a new blending mode in the &amp;laquo;mix&amp;raquo; category, humbly named Greater. I&amp;rsquo;ve never seen something like that in another painting program, but you know what? It&amp;rsquo;s great! With the pixel brush engine, overlapping transparent strokes look ugly in normal mode. They don&amp;rsquo;t blend smoothly, but that&amp;rsquo;s how normal blending works.&lt;/p&gt;
 
 &lt;p&gt;The greater blending mode solve this issue. It prevents new strokes from increasing the opacity of existing pixels on the canvas beyond your current maximum opacity setting. It may not sound intuitive, but it does feel very natural when you use it.&lt;/p&gt;
 
@@ -231,7 +235,7 @@
 
 &lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
 
-&lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works just like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
+&lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works a bit like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -321,21 +325,37 @@
 
 &lt;p&gt;I&amp;rsquo;m really picky with the programs I choose. I only work with tools that are flexible and that feel well-designed. Although I&amp;rsquo;m deeply interested in open source, I wouldn&amp;rsquo;t shoot myself in the foot just for the sake of using open source tools. I still use Microsoft office and FL studio in my work for example.&lt;/p&gt;
 
-&lt;p&gt;Yet, I&amp;rsquo;ve been working with both Krita and Photoshop side-by-side for the past 9 months. If I have done so, it is only because Krita has a few unique functions. You can draw in horizontal, vertical and radial symmetry. There is a built-in brush stabilizer. Perspective guides. It was not always great though. Performances have been a major drawback. You have to work on big documents as a 2-D game artist, and Krita 2.9 didn&amp;rsquo;t like it. But again, this is mostly fixed in Krita 3. A lot is mostly fixed in Krita 3.&lt;/p&gt;
+&lt;p&gt;Yet, I&amp;rsquo;ve been working with both Krita and Photoshop side-by-side for the past 9 months. If I have done so, it is only because the experience was satisfying. Krita has some unique tools to its name. You can draw in horizontal, vertical and radial symmetry. There is a built-in brush stabilizer. Perspective guides. It is not perfect. Performances have been a major drawback. You have to work on big documents as a 2-D game artist, and Krita 2.9 didn&amp;rsquo;t like that. But again, this is mostly fixed in Krita 3.&lt;/p&gt;
 
-&lt;p&gt;Krita is great when it comes to painting, thus for character design, environment design and hand-painted textures. Heck, even for animation! However, right now, you need an external tool to design your game&amp;rsquo;s UI and to batch export your sprites.&lt;/p&gt;
+&lt;p&gt;Krita is great when it comes to painting. As far as games are concerned, it is a great tool for character design, environment design and hand-painted textures. Heck, even for animation! If you specialize in one of those fields, I bet you’ll like it! However, right now, it is not the best tool for everything. It is far from ideal when it comes to creating user interface. And you cannot batch export your sprites directly from the program.&lt;/p&gt;
 
 &lt;h3 id=&#34;final-thoughts:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Final thoughts&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ll be honest: Krita still isn&amp;rsquo;t the ultimate solution for game artists.&lt;/p&gt;
 
-&lt;p&gt;But &lt;strong&gt;Krita is a great application&lt;/strong&gt;. And a healthy open-source project. The developers release updates almost monthly. They listen to the community, which is invaluable in my opinion. They take anyone&amp;rsquo;s feedback in account as long as it&amp;rsquo;s constructive.&lt;/p&gt;
+&lt;p&gt;Yet, it is a great application. And a healthy open-source project. The developers release updates almost monthly. They listen to the community, which is invaluable in my opinion. They take anyone&amp;rsquo;s feedback in account as long as it&amp;rsquo;s constructive.&lt;/p&gt;
 
-&lt;p&gt;As far as I&amp;rsquo;m concerned, the program is mature for professional use. It&amp;rsquo;s not perfect, yet it&amp;rsquo;s more powerful than many paid alternatives I&amp;rsquo;ve tried in the past. Give Krita 3 a try. See what it has in store for you. You won&amp;rsquo;t regret it!&lt;/p&gt;
+&lt;p&gt;As far as I&amp;rsquo;m concerned, the program is mature for professional use. It&amp;rsquo;s not perfect, but it&amp;rsquo;s powerful. It easily competes with many paid alternatives I&amp;rsquo;ve tried in the past. Give Krita 3 a try. See what it has in store for you. You won&amp;rsquo;t regret it!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://krita.org/&#34;&gt;Krita&amp;rsquo;s official website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt;
+Krita 3 is coming out at the end of the month. However, it is already out in Beta, and all of the features listed above are in.
+&lt;/span&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;The 2016 Krita Kickstarter campaign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://krita.org/item/new-development-builds-ready/&#34;&gt;&lt;i class=&#34;fa fa-link
+text-error: index out of range for positional param at position 1
+&#34;&gt;&lt;/i&gt;
+ Krita 3.0 Beta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://krita.org/&#34;&gt;&lt;i class=&#34;fa fa-link
+text-error: index out of range for positional param at position 1
+&#34;&gt;&lt;/i&gt;
+ Krita&amp;rsquo;s official website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;fa fa-link
+text-error: index out of range for positional param at position 1
+&#34;&gt;&lt;/i&gt;
+ The 2016 Krita Kickstarter campaign&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -458,7 +478,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;iframe style=&#34;border: 0; width: 700px; height: 307px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=1579881958/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/&#34; seamless&gt;&lt;a href=&#34;http://gdquest.bandcamp.com/album/space-adventures&#34;&gt;Space adventures by Nathan Lovato&lt;/a&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;your-votes-for-future-tutorials:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
+&lt;h2 id=&#34;your-votes-for-future-tutorials&#34;&gt;Your votes for future tutorials&lt;/h2&gt;
 
 &lt;p&gt;Since January, I have been &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;running a vote&lt;/a&gt; to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:&lt;/p&gt;
 
@@ -470,7 +490,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-3-0-pre-alpha-3:0ffd5e13c63a8bd067949ade6a42b50e&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
+&lt;h2 id=&#34;krita-3-0-pre-alpha-3&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;\img\post\community\krita-gradient-map.png&#34; alt=&#34;Krita gradient map filter&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
@@ -505,7 +525,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;p&gt;I chose a handful of ideas based on your feedback and on what I can handle right now. There are 2 themes that I didn’t list, on purpose: animation and the Godot engine. Here&amp;rsquo;s why: there will be some animation tutorials when Krita 3.0 is released. And I am waiting for Godot 2.0 to cover it on the channel.&lt;/p&gt;
 
-&lt;h2 id=&#34;let-your-voice-be-heard&#34;&gt;Let your voice be heard&lt;/h2&gt;
+&lt;h2 id=&#34;let-your-voice-be-heard:ffb53db388035195c22b87f52accec93&#34;&gt;Let your voice be heard&lt;/h2&gt;
 
 &lt;p&gt;You can pick as many series as you’d like! I will produce the 3 most popular entries.&lt;/p&gt;
 
@@ -519,21 +539,21 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/superpowers-html5.png&#34; alt=&#34;Superpowers, the collaborative HTML5 game engine tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
+&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine:ffb53db388035195c22b87f52accec93&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
 
 &lt;p&gt;Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by &lt;a href=&#34;https://sparklinlabs.com/&#34;&gt;Sparkin Labs&lt;/a&gt;, the authors of &lt;a href=&#34;http://craftstud.io/&#34;&gt;CraftStudio&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/godot-2d-engine.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;overview-of-godot-2-0-the-open-source-game-engine-for-2d-games&#34;&gt;Overview of Godot 2.0, the open source game engine, for 2d games&lt;/h3&gt;
+&lt;h3 id=&#34;overview-of-godot-2-0-the-open-source-game-engine-for-2d-games:ffb53db388035195c22b87f52accec93&#34;&gt;Overview of Godot 2.0, the open source game engine, for 2d games&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.godotengine.org/projects/godot-engine&#34;&gt;Godot&lt;/a&gt; is an open source 2d and 3d game engine. It was developed in-house by an Argentinian game studio, Okam, and released open source 2 years ago. Godot 2.0 features a robust editor with built-in animation tools, a visual shader editor, and much more!
 In this series, we&amp;rsquo;ll cover the basics of 2d game development with Godot. If you want to join the community, check out its &lt;a href=&#34;https://www.facebook.com/groups/godotengine/&#34;&gt;Facebook group&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;human-proportions-from-reality-to-games&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
+&lt;h3 id=&#34;human-proportions-from-reality-to-games:ffb53db388035195c22b87f52accec93&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
 
 &lt;p&gt;There are lots of tutorials available on the basics of human anatomy and proportions (I recommend &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&amp;rsquo;s videos&lt;/a&gt;).&lt;/p&gt;
 
@@ -543,13 +563,13 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/blender-vse.png&#34; alt=&#34;Blender VSE tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;introduction-to-video-editing-with-blender&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
+&lt;h3 id=&#34;introduction-to-video-editing-with-blender:ffb53db388035195c22b87f52accec93&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
 
 &lt;p&gt;Blender is an impressive piece of software. It is also my open source replacement for After Effects and a video editing tool of choice. Its sequencer has its shortcomings, but it is an efficient tool to get started making videos nonetheless. In this series, I will share what I have learned creating YouTube videos with blender for the past 6 months.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/becoming-a-game-designer.png&#34; alt=&#34;Becoming a game designer tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;becoming-an-independent-game-designer&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
+&lt;h3 id=&#34;becoming-an-independent-game-designer:ffb53db388035195c22b87f52accec93&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
 
 &lt;p&gt;What is a game designer? How can you become a professional or an independent game designer? Based on my experience creating games with a talented engineer, working as a freelancer and now creating Game Design Quest, I will share what I learned along the way.&lt;/p&gt;
 
@@ -557,7 +577,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/introduction-music-scoring-for-games.png&#34; alt=&#34;Introduction to music scoring for games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;a-primer-on-music-scoring-for-games&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
+&lt;h3 id=&#34;a-primer-on-music-scoring-for-games:ffb53db388035195c22b87f52accec93&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
 
 &lt;p&gt;Believe it or not, but I write and produce &lt;a href=&#34;https://soundcloud.com/gdquest&#34;&gt;game soundtracks&lt;/a&gt;! I actually studied music scoring.&lt;/p&gt;
 
@@ -569,7 +589,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/rock-and-grass-tiles.png&#34; alt=&#34;Rock tiles tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
+&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games:ffb53db388035195c22b87f52accec93&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
 
 &lt;p&gt;There is one type of 2-D game asset that is rarely explained online: tiles. These are sprites that connect seamlessly to one another and that you can reuse extensively to create your game backgrounds.&lt;/p&gt;
 
@@ -577,7 +597,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/kickstarter-tips.png&#34; alt=&#34;Game Art Quest Kickstarter tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
+&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips:ffb53db388035195c22b87f52accec93&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
 
 &lt;p&gt;As you know I ran a Kickstarter campaign that was successfully funded. Better than that, it doubled the initial goal! During those hectic weeks, struggling to keep up with the frightening workload, I learned a lot about crowdfunding. With this theme, I want to go over the preparation, the ongoing production and the communication you have to take care of during the course of a Kickstarter campaign.&lt;/p&gt;
 </description>
@@ -593,7 +613,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;installing-tern&#34;&gt;Installing tern&lt;/h2&gt;
+&lt;h2 id=&#34;installing-tern:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Installing tern&lt;/h2&gt;
 
 &lt;p&gt;This first part explains how to get npm, install tern and the tern-phaser plugin. The first thing that you need to ensure is that you have Node.js installed on your computer. You can download it on &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;https://nodejs.org/en/&lt;/a&gt;. This will give you access to npm as well, a handy package manager for js libraries and plugins. It allows you to download install all sorts of packages from the command prompt.&lt;/p&gt;
 
@@ -611,7 +631,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img class=&#34;alignnone&#34; src=&#34;http://i.imgur.com/qqUNi8c.png&#34; alt=&#34;&#34; width=&#34;657&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-manual-route&#34;&gt;The manual route&lt;/h2&gt;
+&lt;h2 id=&#34;the-manual-route:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;The manual route&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;If the automatic install of tern-phaser doesn&amp;#8217;t work&lt;/strong&gt;, you&amp;#8217;ll have to go navigate to the tern install folder manually from the command prompt. To change the folder the command prompt is in, you need to type cd (&lt;em&gt;current directory&lt;/em&gt;) followed by the path you want to reach. By default, tern should be installed to C:\Users**YourName**\AppData\Roaming\npm\node_modules.&lt;/p&gt;
 
@@ -629,7 +649,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;h2 id=&#34;using-tern-phaser-with-atom&#34;&gt;Using tern-phaser with Atom&lt;/h2&gt;
+&lt;h2 id=&#34;using-tern-phaser-with-atom:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Using tern-phaser with Atom&lt;/h2&gt;
 
 &lt;p&gt;Now, you have both tern and tern-phaser installed on your computer. Let&amp;#8217;s move to setting up atom to work with tern. There is no native integration of tern in atom. However, there is a plugin called &lt;strong&gt;atom-ternjs&lt;/strong&gt; that works like a charm. We can install the package from the command line as well. Either &lt;strong&gt;close and reopen the command&lt;/strong&gt; &lt;strong&gt;prompt&lt;/strong&gt; or navigate back to your root folder with the following command: &amp;#8220;cd C:\Users\YourName&amp;#8221;.&lt;/p&gt;
 
