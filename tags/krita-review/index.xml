@@ -57,7 +57,7 @@
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://gdquest.com/img/post/krita/new-in-krita-3/krita-instant-preview-2.9.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://gdquest.com/img/post/krita/new-in-krita-3/krita-instant-preview-2.9.png&#34; class=&#34;img-responsive&#34; alt=&#34;Instant preview in Krita 2.9 anim edition&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -343,17 +343,14 @@ Krita 3 is coming out at the end of the month. However, it is already out in Bet
 &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://krita.org/item/new-development-builds-ready/&#34;&gt;&lt;i class=&#34;fa fa-link
-text-error: index out of range for positional param at position 1
 &#34;&gt;&lt;/i&gt;
  Krita 3.0 Beta&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://krita.org/&#34;&gt;&lt;i class=&#34;fa fa-link
-text-error: index out of range for positional param at position 1
 &#34;&gt;&lt;/i&gt;
  Krita&amp;rsquo;s official website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;fa fa-link
-text-error: index out of range for positional param at position 1
 &#34;&gt;&lt;/i&gt;
  The 2016 Krita Kickstarter campaign&lt;/a&gt;&lt;/p&gt;
 </description>
