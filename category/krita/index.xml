@@ -23,6 +23,12 @@
 
 &lt;p&gt;Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.&lt;/p&gt;
 
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/k51OK2PlTz4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
 &lt;p&gt;That&amp;rsquo;s not all. There&amp;rsquo;s a long list of smaller, yet welcome changes. The pop-up palette looks better and the icons now scale to accommodate for more than 10 brushes. The layer picking and move tools are more flexible. There is a new gradient mapping filter for color grading, as well as an original blending mode for smooth painting with transparent pixel brushes. The keyboard shortcut editor has been redesigned and moved to Krita&amp;rsquo;s preference window.&lt;/p&gt;
 
 &lt;p&gt;The list could go on, and on. You get it: there is a lot to talk about. That&amp;rsquo;s why I wrote this overview of Krita 3. In this article, I&amp;rsquo;ll introduce you to the most important new features one at a time. At the end of the post, I&amp;rsquo;ll give you my thoughts on the program and the updates for 2-D game artists.&lt;/p&gt;
@@ -353,6 +359,185 @@ Krita 3 is coming out at the end of the month. However, it is already out in Bet
 &lt;p&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;fa fa-link
 &#34;&gt;&lt;/i&gt;
  The 2016 Krita Kickstarter campaign&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Krita brushes for game artists</title>
+      <link>http://gdquest.com/krita-brushes-for-game-artists</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
+      <description>
+
+&lt;!-- PAGE INNER NAVIGATION --&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+    &lt;a href=&#34;#installation-guide&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
+        &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
+      &lt;/button&gt;
+    &lt;/a&gt;
+
+    &lt;a href=&#34;#faq&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
+        &lt;i class=&#34;fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ
+      &lt;/button&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
+      &lt;i class=&#34;fa fa-shopping-cart text-success&#34;&gt;&lt;/i&gt;Buy the brushes!
+    &lt;/button&gt; --&gt;
+    &lt;script src=&#34;https://gumroad.com/js/gumroad.js&#34;&gt;&lt;/script&gt;
+    &lt;a class=&#34;gumroad-button&#34; href=&#34;https://gum.co/game-art-quest-brush-pack&#34; target=&#34;_blank&#34;&gt;Buy the brushes!&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- Pills example --&gt;
+
+&lt;!-- &lt;ul class=&#34;nav nav-pills nav-justified&#34;&gt;
+  &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; --&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Game Art Quest Krita brush pack was made for the backers of the eponymous &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;Kickstarter campaign&lt;/a&gt;. It is made by a 2d game artist, for game artists. Specifically, for people who create in-game assets. It also works great for digital painters in general.&lt;/p&gt;
+
+&lt;p&gt;It follows a few key concepts. The goal is to help you to work &lt;strong&gt;fast&lt;/strong&gt;, and to allow you to &lt;strong&gt;focus on your art&lt;/strong&gt;. It is a bloat free pack, filled with efficient drawing tools. I favor versatile tools and avoid brush redundancy so you don’t have to keep switching between them to achieve a variety of effects.&lt;/p&gt;
+
+&lt;p&gt;The presets are dry for the most part, so you can easily apply thick paint on the canvas. Need a softer blending effect? Use the I and O keys to tweak your opacity and make the brushes weaker. I am slowly building the pack as I draw all sorts of game assets and encounter new challenges. That way, I get to use every single preset in my work and to proof-test them in depth.&lt;/p&gt;
+
+&lt;p&gt;The first version features 6 blending and smearing brushes. Over time, I will add basic drawing and shading tools as well as reusable textured brushes to help you paint elements of nature faster (clouds, leaves, rocks…).&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how each family of presets works.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those presets are the most flexible ones in the set. They allow you to add color to the canvas, to blend colors together, and to achieve both dry and wet painting effects.&lt;/p&gt;
+
+&lt;p&gt;When you select the brush presets, the painting effect is at its maximum intensity. If you want to make it softer, you have to lower the opacity by pressing the I key 1 to 3 times. This will both reduce the amount of paint that is added to the canvas and make the blending effect duller. If you want to make the brush dry again, press the O key to increase the opacity.&lt;/p&gt;
+
+&lt;p&gt;Those brushes don’t work like usual pixel brushes with blending modes. To lighten, darken, recolor or erase pixels, use a basic brush.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can apply both dry and wet paint on the canvas&lt;/li&gt;
+&lt;li&gt;Can both push paint and blend colors on the canvas&lt;/li&gt;
+&lt;li&gt;Efficient from the blocking to polishing stage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Weaknesses:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gives your work a painterly quality&lt;/li&gt;
+&lt;li&gt;Inefficient with blending modes other than normal&lt;/li&gt;
+&lt;li&gt;Bad when used as an eraser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The smear brushes pull, push and blur pixels on the canvas. They behave a bit like your finger on charcoal or acrylic paint. They are a bit special and sometimes pointed out as bad tools by digital artists. The reason is that you can’t use them randomly. When you want to smear, you have to know exactly what you are doing. Those brushes can produce ugly results.&lt;/p&gt;
+
+&lt;p&gt;There are 2 use cases that I recommend. You can use them:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;To sculpt the silhouette of an object&lt;/li&gt;
+&lt;li&gt;Or to blur out and pull edges&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-effect.png&#34; alt=&#34;Smear effect example&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are specific cases when you can use them for shading, but mastering those presets will take a lot of practice. As they blur pixels, they will remove details in your painting. If that’s not what you’re after, they won’t work for you.&lt;/p&gt;
+
+&lt;p&gt;I designed those presets so that they don’t apply any color on the canvas. They will only modify existing pixels. Hence you can use them to sculpt silhouettes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can push, pull and soften edges&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Weaknesses:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removes details&lt;/li&gt;
+&lt;li&gt;Needs practice to master&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
+
+&lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pink brushes use the color smudge engine in dulling mode. The strokes can both add paint on the canvas and blend with existing colors.&lt;/li&gt;
+&lt;li&gt;Blue brushes use the color smudge engine in smearing mode. They drag existing pixels on the canvas, a bit like the finger tool in other drawing applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An example brush stroke is here to give you a sense of what each preset does.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A completely white stroke means that the preset doesn’t add color on the canvas. It only moves existing pixels around or blends them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A pictogram might be visible on the thumbnail. They are here to help you find certain types of brushes faster.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The water droplet is for blending brushes.&lt;/li&gt;
+&lt;li&gt;The finger indicates that the preset moves existing pixels on the canvas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
+
+&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
+text-info
+&#34;&gt;&lt;/i&gt;
+ The brushes come as a bundle. To install them, go to the &lt;strong&gt;Settings menu&lt;/strong&gt;, and to &lt;strong&gt;Manage Resources&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/1-settings-menu.png&#34; alt=&#34;Installation guide step 1&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
+text-info
+&#34;&gt;&lt;/i&gt;
+ On the window that pops up, click on &lt;strong&gt;Import bundle/resources&lt;/strong&gt; in the top right corner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/2-manage-resources.png&#34; alt=&#34;Installation guide step 2&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;strong&gt;Locate the bundle file on your computer&lt;/strong&gt;, confirm, and you will see it pop up in the Active Bundles tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/3-import-bundle.png&#34; alt=&#34;Installation guide step 3&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
+text-info
+&#34;&gt;&lt;/i&gt;
+ &lt;strong&gt;Click on the OK button&lt;/strong&gt; at the bottom of the window to save your changes. The brushes are now available in the brush preset panel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/4-confirm-changes.png&#34; alt=&#34;Installation guide step 4&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
+text-info
+&#34;&gt;&lt;/i&gt;
+ Why are there no FX preset?&lt;/h4&gt;
+
+&lt;p&gt;The pack doesn’t feature “FX” presets, that is to say variations of existing brushes set to a certain blending mode, to lighten or darken your pixels for instance. All of the most important blending modes have a keyboard shortcut by default in Krita. It is faster to use a key combination than load a different brush preset every time you need to change your blending mode. Also, there are many useful combinations of brush shapes and blending modes. Covering them all would make the set super heavy.&lt;/p&gt;
 </description>
     </item>
     

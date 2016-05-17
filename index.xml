@@ -23,6 +23,12 @@
 
 &lt;p&gt;Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.&lt;/p&gt;
 
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/k51OK2PlTz4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
 &lt;p&gt;That&amp;rsquo;s not all. There&amp;rsquo;s a long list of smaller, yet welcome changes. The pop-up palette looks better and the icons now scale to accommodate for more than 10 brushes. The layer picking and move tools are more flexible. There is a new gradient mapping filter for color grading, as well as an original blending mode for smooth painting with transparent pixel brushes. The keyboard shortcut editor has been redesigned and moved to Krita&amp;rsquo;s preference window.&lt;/p&gt;
 
 &lt;p&gt;The list could go on, and on. You get it: there is a lot to talk about. That&amp;rsquo;s why I wrote this overview of Krita 3. In this article, I&amp;rsquo;ll introduce you to the most important new features one at a time. At the end of the post, I&amp;rsquo;ll give you my thoughts on the program and the updates for 2-D game artists.&lt;/p&gt;
@@ -448,7 +454,7 @@ text-info
 &lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
+ &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -501,29 +507,23 @@ text-success
     </item>
     
     <item>
-      <title>GAQ brush set</title>
-      <link>http://gdquest.com/game-art-quest/brush-pack/</link>
+      <title>Krita brushes for game artists</title>
+      <link>http://gdquest.com/krita-brushes-for-game-artists</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://gdquest.com/game-art-quest/brush-pack/</guid>
+      <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
       <description>
 
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
-&lt;div class=&#34;row&#34;&gt;
-    &lt;a href=&#34;#the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-paint-brush text-success&#34;&gt;&lt;/i&gt; The brushes
-      &lt;/button&gt;
-    &lt;/a&gt;
-
-    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+&lt;div class=&#34;section&#34;&gt;
+    &lt;a href=&#34;#installation-guide&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
+    &lt;a href=&#34;#faq&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
@@ -544,9 +544,7 @@ text-success
   &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt; --&gt;
 
-&lt;h1 id=&#34;the-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;The Game Art Quest Krita brushes&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Game Art Quest Krita brush pack was made for the backers of the eponymous &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;Kickstarter campaign&lt;/a&gt;. It is made by a 2d game artist, for game artists. Specifically, for people who create in-game assets. It also works great for digital painters in general.&lt;/p&gt;
 
@@ -560,9 +558,9 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Those presets are the most flexible ones in the set. They allow you to add color to the canvas, to blend colors together, and to achieve both dry and wet painting effects.&lt;/p&gt;
 
@@ -588,9 +586,9 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The smear brushes pull, push and blur pixels on the canvas. They behave a bit like your finger on charcoal or acrylic paint. They are a bit special and sometimes pointed out as bad tools by digital artists. The reason is that you can’t use them randomly. When you want to smear, you have to know exactly what you are doing. Those brushes can produce ugly results.&lt;/p&gt;
 
@@ -601,7 +599,7 @@ text-success
 &lt;li&gt;Or to blur out and pull edges&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&#34;smear-effect.png&#34; alt=&#34;Smear effect example&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-effect.png&#34; alt=&#34;Smear effect example&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are specific cases when you can use them for shading, but mastering those presets will take a lot of practice. As they blur pixels, they will remove details in your painting. If that’s not what you’re after, they won’t work for you.&lt;/p&gt;
 
@@ -620,7 +618,7 @@ text-success
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -644,41 +642,41 @@ text-success
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
 &#34;&gt;&lt;/i&gt;
  The brushes come as a bundle. To install them, go to the &lt;strong&gt;Settings menu&lt;/strong&gt;, and to &lt;strong&gt;Manage Resources&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;installation-guide/1-settings-menu.png&#34; alt=&#34;Installation guide step 1&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/1-settings-menu.png&#34; alt=&#34;Installation guide step 1&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
 &#34;&gt;&lt;/i&gt;
  On the window that pops up, click on &lt;strong&gt;Import bundle/resources&lt;/strong&gt; in the top right corner.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;installation-guide/2-manage-resources.png&#34; alt=&#34;Installation guide step 2&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/2-manage-resources.png&#34; alt=&#34;Installation guide step 2&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
 &#34;&gt;&lt;/i&gt;
  &lt;strong&gt;Locate the bundle file on your computer&lt;/strong&gt;, confirm, and you will see it pop up in the Active Bundles tab.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;installation-guide/3-import-bundle.png&#34; alt=&#34;Installation guide step 3&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/3-import-bundle.png&#34; alt=&#34;Installation guide step 3&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
 text-info
 &#34;&gt;&lt;/i&gt;
  &lt;strong&gt;Click on the OK button&lt;/strong&gt; at the bottom of the window to save your changes. The brushes are now available in the brush preset panel.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;installation-guide/4-confirm-changes.png&#34; alt=&#34;Installation guide step 4&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/4-confirm-changes.png&#34; alt=&#34;Installation guide step 4&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-8-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
 text-info
 &#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -758,7 +756,7 @@ text-info
 
 &lt;p&gt;This course was made possible thanks to the pledges of 424 backers.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:c73da73a896b098b5578a7ad2084a1d5&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -780,7 +778,7 @@ text-info
 &lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
+ &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -827,7 +825,7 @@ text-success
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
 text-default
 &#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -842,7 +840,7 @@ text-info
 &lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
 text-info
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
+ &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
@@ -1055,7 +1053,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -1079,7 +1077,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -1110,7 +1108,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
 &lt;!-- PAGE NAVIGATION --&gt;
 
 &lt;div class=&#34;row center-block&#34;&gt;
-    &lt;a href=&#34;#training&#34;&gt;
+    &lt;a href=&#34;#training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-book
 text-default
@@ -1150,12 +1148,12 @@ text-success
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h2 id=&#34;training&#34;&gt;&lt;i class=&#34;fa fa-book
+&lt;h2 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-book
 text-default
 &#34;&gt;&lt;/i&gt;
  The training&lt;/h2&gt;
 
-&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
+&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-free-krita-tutorials.png&#34; alt=&#34;Game Art Quest volume 1 banner - Free Krita tutorials&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -1192,17 +1190,17 @@ text-default
 &lt;p&gt;There&amp;rsquo;s also an official &lt;i class=&#34;fa fa-shopping-cart
 text-success
 &#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/game-art-quest/brush-pack/&#34;&gt;Krita brush pack&lt;/a&gt; to supplement the training.&lt;/p&gt;
+ &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;Krita brush pack&lt;/a&gt; to supplement the training.&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Game Art Quest volume 2 banner - painterly art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;In this second training, we will take a closer look at the game creation pipeline from a game artist&amp;rsquo;s standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (&lt;em&gt;Odin Sphere, Muramasa&lt;/em&gt;) and Moon Studios (&lt;em&gt;Ori and the Blind Forest&lt;/em&gt;).&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Game Art Quest volume 3 banner - Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -1324,7 +1322,7 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;h3 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h3&gt;
+&lt;h3 id=&#34;global-progress&#34;&gt;Global progress&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
 &lt;div class=&#34;progress&#34;&gt;
@@ -1341,7 +1339,7 @@ Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
 
 &lt;em&gt;The first videos are done and I finished all of my freelance contracts. I&amp;rsquo;m now working full time on the project, working on exercises, videos, and trying to help the community the best I can.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-1-krita:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
+&lt;h3 id=&#34;volume-1-krita&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-production&lt;/strong&gt; &lt;i class=&#34;fa fa-check

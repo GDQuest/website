@@ -23,6 +23,12 @@
 
 &lt;p&gt;Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.&lt;/p&gt;
 
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/k51OK2PlTz4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
 &lt;p&gt;That&amp;rsquo;s not all. There&amp;rsquo;s a long list of smaller, yet welcome changes. The pop-up palette looks better and the icons now scale to accommodate for more than 10 brushes. The layer picking and move tools are more flexible. There is a new gradient mapping filter for color grading, as well as an original blending mode for smooth painting with transparent pixel brushes. The keyboard shortcut editor has been redesigned and moved to Krita&amp;rsquo;s preference window.&lt;/p&gt;
 
 &lt;p&gt;The list could go on, and on. You get it: there is a lot to talk about. That&amp;rsquo;s why I wrote this overview of Krita 3. In this article, I&amp;rsquo;ll introduce you to the most important new features one at a time. At the end of the post, I&amp;rsquo;ll give you my thoughts on the program and the updates for 2-D game artists.&lt;/p&gt;
