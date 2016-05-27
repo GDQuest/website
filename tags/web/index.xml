@@ -10,7 +10,7 @@
     <atom:link href="http://gdquest.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hugo Tips: How to concatenate node paths using variables</title>
+      <title>Hugo Tips: Concatenate paths with variables</title>
       <link>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</link>
       <pubDate>Wed, 20 Apr 2016 09:34:58 +0200</pubDate>
       

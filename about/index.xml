@@ -19,10 +19,10 @@
 
 &lt;div class=&#34;media&#34;&gt;
   &lt;div class=&#34;media-left&#34;&gt;
-    &lt;img style=&#34;max-height: 120px;&#34; class=&#34;media-object&#34; src=&#34;personal-avatar-2.png&#34; alt=&#34;Nathan&#39;s avatar&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;nathan-picture.jpg&#34; alt=&#34;Me&#34;&gt;
   &lt;/div&gt;
   &lt;div class=&#34;media-body&#34;&gt;
-    &lt;h2&gt;Hey there! &lt;small&gt;Beautiful day, isn&#39;t it?&lt;/small&gt;&lt;/h2&gt;
+    &lt;h2&gt;Hey there!&lt;/h2&gt;
     &lt;p&gt;
       I&#39;m Nathan, a courteous game designer with a taste for open source initiatives.&lt;br&gt;
       I&#39;m the author of GDquest, which stands for &lt;strong&gt;Game Design Quest&lt;/strong&gt;.
@@ -30,7 +30,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;It is a &lt;a href=&#34;http://youtube.com/c/gdquest&#34; title=&#34;GDquest channel&#34;&gt;Youtube channel&lt;/a&gt; about game creation.
+&lt;p&gt;GDquest is a &lt;a href=&#34;http://youtube.com/c/gdquest&#34; title=&#34;GDquest channel&#34;&gt;Youtube channel&lt;/a&gt; about game creation.
 It is also a growing community that regroups thousands of designers.
 And a company that supports open source projects!&lt;/p&gt;
 
@@ -40,7 +40,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -64,7 +64,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 

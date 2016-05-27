@@ -20,19 +20,19 @@
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
 &lt;div class=&#34;section&#34;&gt;
-    &lt;a href=&#34;#installation-guide&#34;&gt;
+    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq&#34;&gt;
+    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
     &lt;/a&gt;
     &lt;!-- &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-      &lt;i class=&#34;fa fa-shopping-cart text-success&#34;&gt;&lt;/i&gt;Buy the brushes!
+      &lt;i class=&#34;fa fa-shopping-cart text--success&#34;&gt;&lt;/i&gt;Buy the brushes!
     &lt;/button&gt; --&gt;
     &lt;script src=&#34;https://gumroad.com/js/gumroad.js&#34;&gt;&lt;/script&gt;
     &lt;a class=&#34;gumroad-button&#34; href=&#34;https://gum.co/game-art-quest-brush-pack&#34; target=&#34;_blank&#34;&gt;Buy the brushes!&lt;/a&gt;
@@ -61,7 +61,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -89,7 +89,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -121,7 +121,7 @@
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -145,43 +145,43 @@
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  The brushes come as a bundle. To install them, go to the &lt;strong&gt;Settings menu&lt;/strong&gt;, and to &lt;strong&gt;Manage Resources&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/1-settings-menu.png&#34; alt=&#34;Installation guide step 1&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  On the window that pops up, click on &lt;strong&gt;Import bundle/resources&lt;/strong&gt; in the top right corner.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/2-manage-resources.png&#34; alt=&#34;Installation guide step 2&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;strong&gt;Locate the bundle file on your computer&lt;/strong&gt;, confirm, and you will see it pop up in the Active Bundles tab.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/3-import-bundle.png&#34; alt=&#34;Installation guide step 3&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;strong&gt;Click on the OK button&lt;/strong&gt; at the bottom of the window to save your changes. The brushes are now available in the brush preset panel.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/4-confirm-changes.png&#34; alt=&#34;Installation guide step 4&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
 
 &lt;p&gt;The pack doesn’t feature “FX” presets, that is to say variations of existing brushes set to a certain blending mode, to lighten or darken your pixels for instance. All of the most important blending modes have a keyboard shortcut by default in Krita. It is faster to use a key combination than load a different brush preset every time you need to change your blending mode. Also, there are many useful combinations of brush shapes and blending modes. Covering them all would make the set super heavy.&lt;/p&gt;

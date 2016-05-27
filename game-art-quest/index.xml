@@ -17,9 +17,9 @@
       <guid>http://gdquest.com/game-art-quest/volume-1/</guid>
       <description>&lt;p&gt;This page is the roadmap for game art quest volume 1, a video training dedicated to Krita for 2-D game artists.&lt;/p&gt;
 
-&lt;p&gt;Here, you will find all of the videos that are planned for the course. The videos preceded by a checkmark (&lt;i class=&#34;fa fa-check text-success&#34;&gt;&lt;/i&gt;) are already done and scheduled for release.&lt;/p&gt;
+&lt;p&gt;Here, you will find all of the videos that are planned for the course. The videos preceded by a checkmark (&lt;i class=&#34;fa fa-check text--success&#34;&gt;&lt;/i&gt;) are already done and scheduled for release.&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re looking for the training, click here: &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/course-public/&#34; class=&#34;btn btn-lg btn-default&#34;&gt;Access the course&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for the training, click here: &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/&#34; class=&#34;btn btn-lg btn-default&#34;&gt;Access the course&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -34,19 +34,19 @@
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
 &lt;div class=&#34;section&#34;&gt;
-    &lt;a href=&#34;#installation-guide&#34;&gt;
+    &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide
       &lt;/button&gt;
     &lt;/a&gt;
 
-    &lt;a href=&#34;#faq&#34;&gt;
+    &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
       &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
         &lt;i class=&#34;fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ
       &lt;/button&gt;
     &lt;/a&gt;
     &lt;!-- &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-      &lt;i class=&#34;fa fa-shopping-cart text-success&#34;&gt;&lt;/i&gt;Buy the brushes!
+      &lt;i class=&#34;fa fa-shopping-cart text--success&#34;&gt;&lt;/i&gt;Buy the brushes!
     &lt;/button&gt; --&gt;
     &lt;script src=&#34;https://gumroad.com/js/gumroad.js&#34;&gt;&lt;/script&gt;
     &lt;a class=&#34;gumroad-button&#34; href=&#34;https://gum.co/game-art-quest-brush-pack&#34; target=&#34;_blank&#34;&gt;Buy the brushes!&lt;/a&gt;
@@ -75,7 +75,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -103,7 +103,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; class=&#34;img-responsive center-block&#34; /&gt;&lt;/p&gt;
 
@@ -135,7 +135,7 @@
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -159,117 +159,46 @@
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  The brushes come as a bundle. To install them, go to the &lt;strong&gt;Settings menu&lt;/strong&gt;, and to &lt;strong&gt;Manage Resources&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/1-settings-menu.png&#34; alt=&#34;Installation guide step 1&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  On the window that pops up, click on &lt;strong&gt;Import bundle/resources&lt;/strong&gt; in the top right corner.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/2-manage-resources.png&#34; alt=&#34;Installation guide step 2&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;strong&gt;Locate the bundle file on your computer&lt;/strong&gt;, confirm, and you will see it pop up in the Active Bundles tab.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/3-import-bundle.png&#34; alt=&#34;Installation guide step 3&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&#34;fa fa-arrow-right
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;strong&gt;Click on the OK button&lt;/strong&gt; at the bottom of the window to save your changes. The brushes are now available in the brush preset panel.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/installation-guide/4-confirm-changes.png&#34; alt=&#34;Installation guide step 4&#34; class=&#34;img-responsive center-block&#34;/&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;fa fa-question-circle
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
 
 &lt;p&gt;The pack doesn’t feature “FX” presets, that is to say variations of existing brushes set to a certain blending mode, to lighten or darken your pixels for instance. All of the most important blending modes have a keyboard shortcut by default in Krita. It is faster to use a key combination than load a different brush preset every time you need to change your blending mode. Also, there are many useful combinations of brush shapes and blending modes. Covering them all would make the set super heavy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Become a better Game Artist with Krita</title>
-      <link>http://gdquest.com/game-art-quest/volume-1/course-public/</link>
-      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
-      
-      <guid>http://gdquest.com/game-art-quest/volume-1/course-public/</guid>
-      <description>
-
-&lt;p&gt;Welcome to Game Art Quest, vol 1. If you want to become a better 2-D game artist, this training is for you. It will teach you how to work with Krita, an open source digital painting application. Throughout the course of 6 chapters, we will explore the most important features this application has to offer to game artists.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re an illustrator or a concept artist, don&amp;rsquo;t leave just yet! There is a lot for you to learn in here as well.&lt;/p&gt;
-
-&lt;p&gt;This course was made possible thanks to the pledges of 424 backers.&lt;/p&gt;
-
-&lt;h2 id=&#34;hugoshortcode-1-links:c73da73a896b098b5578a7ad2084a1d5&#34;&gt;&lt;i class=&#34;fa fa-link
-text-default
-&#34;&gt;&lt;/i&gt;
- Links&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Krita&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;fa fa-link
-text-default
-&#34;&gt;&lt;/i&gt;
- Krita&amp;rsquo;s May 2016 Kickstarter: Let&amp;rsquo;s make vector and text awesome!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-facebook
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;Facebook study group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
-text-success
-&#34;&gt;&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pureref.com/&#34;&gt;Pureref&lt;/a&gt; (&lt;em&gt;Win, Mac, Linux&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/picasa/&#34;&gt;Picasa&lt;/a&gt; (&lt;em&gt;Win, Mac, development discontinued&lt;/em&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-link
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-link
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-book
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
-text-success
-&#34;&gt;&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -285,24 +214,24 @@ text-success
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;fa fa-link
-text-default
-&#34;&gt;&lt;/i&gt;
+&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-facebook
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-facebook
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;Facebook study group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-paint-brush
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
-text-success
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-paint-brush
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;my-fa fa-shopping-cart
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -316,20 +245,91 @@ text-success
 &lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-link
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-link
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-link
-text-info
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-link
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-book
-text-info
-&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;fa fa-shopping-cart
-text-success
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-book
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;my-fa fa-shopping-cart
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Krita tutorial for Game Artists</title>
+      <link>http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/</link>
+      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
+      
+      <guid>http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;If you want to become a better 2-D game artist, this training is for you&lt;/strong&gt;. It will teach you how to work with Krita, a mature open source digital painting program. In 6 chapters, we will explore the most important features krita has to offer to game artists. Cherry on the cake: the tutorials are completely free!&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re an illustrator or a concept artist, don&amp;rsquo;t leave just yet! There is a lot for you to learn in here as well.&lt;/p&gt;
+
+&lt;p&gt;This course was made possible thanks to the pledges of 424 backers on Kickstarter.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugoshortcode-1-links:fed1aa4ca3320a3365f9f3ccac8d3d0b&#34;&gt;&lt;i class=&#34;my-fa fa-link
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Krita&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;my-fa fa-link
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Krita&amp;rsquo;s May 2016 Kickstarter: Let&amp;rsquo;s make vector and text awesome!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-facebook
+text--primary
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;Facebook study group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-paint-brush
+text--primary
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;Krita brushes for game artists&lt;/a&gt; &lt;i class=&#34;my-fa fa-shopping-cart
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pureref.com/&#34;&gt;Pureref&lt;/a&gt; (&lt;em&gt;Win, Mac, Linux&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/picasa/&#34;&gt;Picasa&lt;/a&gt; (&lt;em&gt;Win, Mac, development discontinued&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-link
+text--primary
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-link
+text--primary
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;my-fa fa-book
+text--primary
+ text--inherit&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;my-fa fa-shopping-cart
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -345,50 +345,43 @@ text-success
 
 &lt;!-- PAGE NAVIGATION --&gt;
 
-&lt;div class=&#34;row center-block&#34;&gt;
-    &lt;a href=&#34;#training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-book
-text-default
-&#34;&gt;&lt;/i&gt;
- The training
-        &lt;/button&gt;
-    &lt;/a&gt;
+&lt;h1&gt;Game Art Quest &lt;small&gt;Krita tutorial series for game artists&lt;/small&gt;&lt;/h1&gt;
 
-    &lt;a href=&#34;#roadmap&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-tasks
-text-info
-&#34;&gt;&lt;/i&gt;
- Roadmap
-      &lt;/button&gt;
-    &lt;/a&gt;
-
-    &lt;a href=&#34;#discover&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-eye
-text-default
-&#34;&gt;&lt;/i&gt;
- Discover
-      &lt;/button&gt;
-    &lt;/a&gt;
-
-    &lt;a href=&#34;#free-assets&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-paint-brush
-text-success
-&#34;&gt;&lt;/i&gt;
- Free assets
-      &lt;/button&gt;
-    &lt;/a&gt;
+&lt;div row&gt;
+  &lt;ul class=&#34;group&#34;&gt;
+    &lt;li class=&#34;group-item&#34;&gt;
+      &lt;a href=&#34;#training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-book
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
+ The training &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;group-item&#34;&gt;
+      &lt;a href=&#34;#roadmap&#34;&gt; &lt;i class=&#34;my-fa fa-tasks
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Roadmap &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;group-item&#34;&gt;
+      &lt;a href=&#34;#discover&#34;&gt; &lt;i class=&#34;my-fa fa-eye
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Discover &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;group-item&#34;&gt;
+      &lt;a href=&#34;#free-assets&#34;&gt; &lt;i class=&#34;my-fa fa-paint-brush
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Free assets &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h2 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;fa fa-book
-text-default
-&#34;&gt;&lt;/i&gt;
+&lt;h2 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-book
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
  The training&lt;/h2&gt;
 
 &lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
@@ -398,36 +391,31 @@ text-default
 &lt;p&gt;This training will show you what Krita has to offer to 2d game artists. It covers the tools you need to know to work efficiently, as well as some workflow related tips.
 It is &lt;strong&gt;completely free&lt;/strong&gt;, thanks to the Kickstarter backers! It will be available on both Udemy and Youtube.&lt;/p&gt;
 
-&lt;div class=&#34;row center-block&#34;&gt;
-    &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-question-circle
-text-success
-&#34;&gt;&lt;/i&gt;
- Learn more
-        &lt;/button&gt;
-    &lt;/a&gt;
-
-    &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/course-public/&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;btn btn-default btn-lg&#34;&gt;
-        &lt;i class=&#34;fa fa-book
-text-default
-&#34;&gt;&lt;/i&gt;
- Access the course
-        &lt;/button&gt;
-    &lt;/a&gt;
+&lt;div row class=&#34;group&#34;&gt;
+  &lt;li class=&#34;group-item&#34;&gt;
+    &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Learn more &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&#34;group-item&#34;&gt;
+    &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/&#34;&gt; &lt;i class=&#34;my-fa fa-book
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Access the course &lt;/a&gt;
+  &lt;/li&gt;
 &lt;/div&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;Game Art Quest has a &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;&lt;i class=&#34;fa fa-book
-text-default
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;Game Art Quest has a &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;&lt;i class=&#34;my-fa fa-book
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
  Facebook study group&lt;/a&gt;! There, we run weekly game art challenges. The goal is to become better game artists together.&lt;/p&gt;
 
-&lt;p&gt;There&amp;rsquo;s also an official &lt;i class=&#34;fa fa-shopping-cart
-text-success
-&#34;&gt;&lt;/i&gt;
+&lt;p&gt;There&amp;rsquo;s also an official &lt;i class=&#34;my-fa fa-shopping-cart
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
  &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;Krita brush pack&lt;/a&gt; to supplement the training.&lt;/p&gt;
 
 &lt;hr&gt;
@@ -467,7 +455,7 @@ text-success
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -485,7 +473,7 @@ text-success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -504,9 +492,9 @@ text-success
       <guid>http://gdquest.com/game-art-quest/free-assets/</guid>
       <description>&lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
  &lt;!-- DISCOVER --&gt;
-&lt;h2 id=&#34;free-assets&#34;&gt; &lt;i class=&#34;fa fa-pencil
-text-default
-&#34;&gt;&lt;/i&gt;
+&lt;h2 id=&#34;free-assets&#34;&gt; &lt;i class=&#34;my-fa fa-pencil
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
  Open source assets &lt;/h2&gt;&lt;/p&gt;
 
 &lt;div class=&#34;row&#34;&gt;
@@ -553,95 +541,95 @@ text-default
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h2 id=&#34;roadmap&#34;&gt;&lt;i class=&#34;fa fa-tasks
-text-default
-&#34;&gt;&lt;/i&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;&lt;i class=&#34;my-fa fa-tasks
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
 Roadmap &lt;small&gt;I&#39;m working on...&lt;/small&gt;&lt;/h2&gt;
 
 &lt;p&gt;The plan is to start with the free Krita to training series 1st as it is a prerequisite for the other 2 volumes. Then, I will move on to volume 2 to provide the Kickstarter backers with premium content.&lt;/p&gt;
 
-&lt;h3 id=&#34;global-progress&#34;&gt;Global progress&lt;/h3&gt;
+&lt;h3 id=&#34;global-progress:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Global progress&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Volume 1&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;15&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 15%;&#34;&gt;
-    &lt;span class=&#34;sr-only&#34;&gt;15 %&lt;/span&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;progress
+            progress--striped
+            &#34;&gt;
+    &lt;span style=&#34;width: 15%;&#34; class=&#34;bg--info&#34;
+          role=&#34;progressbar&#34;
+          aria-valuenow=&#34;15&#34;
+          aria-valuemin=&#34;0&#34;
+          aria-valuemax=&#34;100&#34;&gt;
+
+    &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;em&gt;The first videos are done and I finished all of my freelance contracts. I&amp;rsquo;m now working full time on the project, working on exercises, videos, and trying to help the community the best I can.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-1-krita&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
+&lt;h3 id=&#34;volume-1-krita:cd4a1b36ed2b93cfc52abf77a7d25d03&#34;&gt;Volume 1 - Krita&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-production&lt;/strong&gt; &lt;i class=&#34;fa fa-check
-text-success
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pre-production&lt;/strong&gt; &lt;i class=&#34;my-fa fa-check
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
 
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-success
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;100&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 100%;&#34;&gt;
-    &lt;span class=&#34;sr-only&#34;&gt;100 %&lt;/span&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;progress
+            progress--striped
+            &#34;&gt;
+    &lt;span style=&#34;width: 100%;&#34; class=&#34;bg--success&#34;
+          role=&#34;progressbar&#34;
+          aria-valuenow=&#34;100&#34;
+          aria-valuemin=&#34;0&#34;
+          aria-valuemax=&#34;100&#34;&gt;
+
+    &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;em&gt;Pre-production is essential to ensure that the course will deliver its promises. In this case, the goal is to focus on game art and improving your workflow.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Chapter 0 - All you need to get started&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-success
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;40&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 40%;&#34;&gt;
-    &lt;span class=&#34;sr-only&#34;&gt;40 %&lt;/span&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;progress
+            progress--striped
+            &#34;&gt;
+    &lt;span style=&#34;width: 40%;&#34; class=&#34;bg--success&#34;
+          role=&#34;progressbar&#34;
+          aria-valuenow=&#34;40&#34;
+          aria-valuemin=&#34;0&#34;
+          aria-valuemax=&#34;100&#34;&gt;
+
+    &lt;/span&gt;
 &lt;/div&gt;
 
 This first chapter will run you through Krita&amp;rsquo;s core tools. In about 30 minutes, it will show you everything you need to know to start working on your own art!&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chapter 1 - Overview of Krita&lt;/strong&gt; &lt;i class=&#34;fa fa-check
-text-success
-&#34;&gt;&lt;/i&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chapter 1 - Overview of Krita&lt;/strong&gt; &lt;i class=&#34;my-fa fa-check
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
 
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-success
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;100&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 100%;&#34;&gt;
-    &lt;span class=&#34;sr-only&#34;&gt;100 %&lt;/span&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;progress
+            progress--striped
+            &#34;&gt;
+    &lt;span style=&#34;width: 100%;&#34; class=&#34;bg--success&#34;
+          role=&#34;progressbar&#34;
+          aria-valuenow=&#34;100&#34;
+          aria-valuemin=&#34;0&#34;
+          aria-valuemax=&#34;100&#34;&gt;
+
+    &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;em&gt;This first chapter will run you through Krita&amp;rsquo;s core tools. In about 30 minutes, it will show you everything you need to know to start working on your own art!&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Exercises 1&lt;/strong&gt;
-&lt;div class=&#34;progress&#34;&gt;
-  &lt;div class=&#34;progress-bar
-    progress-bar-info
-    progress-bar-striped
-    &#34;
-    role=&#34;progressbar&#34;
-    aria-valuenow=&#34;50&#34; aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34;
-    style=&#34;width: 50%;&#34;&gt;
-    &lt;span class=&#34;sr-only&#34;&gt;50 %&lt;/span&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;progress
+            progress--striped
+            &#34;&gt;
+    &lt;span style=&#34;width: 50%;&#34; class=&#34;bg--info&#34;
+          role=&#34;progressbar&#34;
+          aria-valuenow=&#34;50&#34;
+          aria-valuemin=&#34;0&#34;
+          aria-valuemax=&#34;100&#34;&gt;
+
+    &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;em&gt;I&amp;rsquo;m working on exercise sheets for chapter 0 and 1, extra course material and companion video examples.&lt;/em&gt;
