@@ -6,8 +6,81 @@
     <description>Recent content on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
-    <lastBuildDate>Mon, 16 May 2016 20:29:44 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 May 2016 13:11:19 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>May update: Krita brushes and ConciseCSS</title>
+      <link>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</link>
+      <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
+      
+      <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
+      <description>
+
+&lt;p&gt;May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their &lt;a href=&#34;https://www.youtube.com/watch?v=AjIiI8uiVNM&#34;&gt;Kickstarter campaign&lt;/a&gt;&amp;hellip; But I didn&amp;rsquo;t take the time to write longer news posts like this one. Time to share the news for this month!&lt;/p&gt;
+
+&lt;p&gt;Actually, I&amp;rsquo;m still catching up with work, since I got that shoulder injury. Thankfully, I got faster in some areas, especially answering people online, thus I&amp;rsquo;m making good progress. On to the news!&lt;/p&gt;
+
+&lt;div row column=12&gt;
+  &lt;div class=&#34;card&#34;&gt;
+    
+
+    
+    &lt;h3 class=&#34;card-title&#34;&gt;
+      Krita 3 launch Youtube livestream
+    &lt;/h3&gt;
+    
+
+    
+    &lt;div class=&#34;card-content&#34;&gt;
+      &lt;p&gt;
+        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time&#34;&gt;CEST&lt;/abbr&gt; (UTC/GMT +2)
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+
+    
+    &lt;div class=&#34;card-footer lead&#34;&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=hlcHDRc-gN8&#34;&gt;
+        Youtube Livestream
+      &lt;/a&gt;
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;krita-brushes-may-update:cf3400de0272978b1aa54605b46ee678&#34;&gt;Krita brushes May update&lt;/h2&gt;
+
+&lt;p&gt;As you know, I&amp;rsquo;ve made a set of &lt;a href=&#34;https://gum.co/krita-brushes-for-game-artists&#34;&gt;Krita brushes for game artists&lt;/a&gt;, available on Gumroad. It was initially meant to just be a simple brush pack, I started adding video tutorials on top of it last week to explain what each preset was designed for. This month&amp;rsquo;s update adds 2 new blending brushes: both a round and a flat one. These work a bit like the regular mixing brushes, but they only blend existing colors on the selected layer. They are way softer than existing presets to help you shade extremely smooth surfaces like silk, skin, clouds, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/05/krita-brushes-update-may-2016.jpg&#34; alt=&#34;Picture: The brushes on the pop-up palette&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will now find 2 tutorials along with the brushes. The first one is dedicated to the mix brushes, and it will show you how to play with the opacity setting to get the most out of them. The 2nd one explains how to use the smear brushes in practice. They may seem strange at first, but trust me, they are actually quite useful! On top of that, I updated the existing brushes to make them less resource intensive. The Paint_Painterly preset comes with a new custom brush tip, and it should be at least 3 or 4 times faster now.&lt;/p&gt;
+
+&lt;h2 id=&#34;gdquest-s-upgrade:cf3400de0272978b1aa54605b46ee678&#34;&gt;Gdquest&amp;rsquo;s upgrade&lt;/h2&gt;
+
+&lt;p&gt;The new version of the website is available! I ported it to a new SASS framework, &lt;a href=&#34;http://concisecss.com/&#34;&gt;ConciseCSS&lt;/a&gt;. Some things have changed visually, hopefully for the better. But more importantly, under the hood, everything is different. With the same functionality, the website&amp;rsquo;s Go templates are about 20% shorter. The CSS is smaller, and now I have full control over everything. Not only was the port fast to do, but now I&amp;rsquo;ll be able to improve GDquest faster.&lt;/p&gt;
+
+&lt;p&gt;Before that, I was using &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt;, one of the most popular frameworks out there, made by Twitter. It is very good, but it&amp;rsquo;s also huge. It has everything you&amp;rsquo;d ever need, as well as everything you would never need. Because of that, customizing the style of your website can take a lot of time. That&amp;rsquo;s why I switched to Concise.&lt;/p&gt;
+
+&lt;p&gt;Starting with the next version, I will also release the website&amp;rsquo;s code open source. That way, those of you who want a powerful system to create a tutorial/blog oriented website will have an option based on Hugo, a blazing fast, open source static website engine. Right now, the website handles posts, course pages, course summaries, and has some simple modules if you&amp;rsquo;d like to create a blog page for instance. The next version will add templates to render a to do list, to render FAQs, to create a landing page, but also to create a tutorial/articles library!&lt;/p&gt;
+
+&lt;h2 id=&#34;next-up:cf3400de0272978b1aa54605b46ee678&#34;&gt;Next up&lt;/h2&gt;
+
+&lt;p&gt;June is going to be a busy month! From June 13 to 19, I&amp;rsquo;ll be at the Randa meetings in Switzerland to work on Krita education, and to meet dozens of passionate KDE developers. The Randa meetings are a yearly open source development sprint. Developers gather from all around the world and share experience with one another to push their respective projects forward.&lt;/p&gt;
+
+&lt;p&gt;Now that Krita 3 is coming out, I&amp;rsquo;m focusing on video tutorials dedicated to the new version. I plan to create about a dozen. Then, I&amp;rsquo;ll move on to chapter 3 of the Krita tutorial for game artists, which will run you through the game assets creation workflow. This chapter is going to be an entire little training in itself, and a great occasion to put everything you&amp;rsquo;ve learned so far in the training in practice.&lt;/p&gt;
+
+&lt;p&gt;This wraps up this month&amp;rsquo;s update. Thank you kindly for your time!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;See you soon,&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nathan&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;PS: Don&amp;rsquo;t forget the &lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;Krita 2016 Kickstarter&lt;/a&gt;. It ends in 8 days.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Game art tutorial</title>
@@ -497,11 +570,11 @@ text--success
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/hardware/huion-vs-wacom.jpg&#34; alt=&#34;Huion vs Wacom graphic tablet banner&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;recommended-graphic-tablets&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
+&lt;h1 id=&#34;recommended-graphic-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
 
 &lt;p&gt;On this page, you can find a list of the graphic tablets I recommend for &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I used &lt;a href=&#34;http://frenden.com/tagged/review&#34;&gt;Frenden&amp;rsquo;s reviews&lt;/a&gt; as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don&amp;rsquo;t like it. And read reviews on Amazon or on the website you&amp;rsquo;re buying them on.&lt;/p&gt;
 
-&lt;h2 id=&#34;flat-tablets&#34;&gt;Flat tablets&lt;/h2&gt;
+&lt;h2 id=&#34;flat-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Flat tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Flat tablets are perfect for everyone to start with at a low price. Especially students and hobbyists.&lt;/em&gt;&lt;/p&gt;
 
@@ -510,7 +583,7 @@ text--success
 &lt;li&gt;Wacom Intuos Pro Medium or Large (300-500$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;screen-tablets&#34;&gt;Screen tablets&lt;/h2&gt;
+&lt;h2 id=&#34;screen-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Screen tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Screen tablets are worth a try if you&amp;rsquo;re an experienced artist already, and you do a lot of line work.&lt;/em&gt;&lt;/p&gt;
 
@@ -520,7 +593,7 @@ text--success
 &lt;li&gt;Wacom Cintiq 13HD (13&amp;raquo; HD screen, 800$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h2 id=&#34;tips:fe04af95515442dc424d63ca1b599889&#34;&gt;Tips&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Always&lt;/strong&gt; download and install the driver from the manufacturer&amp;rsquo;s official website &lt;strong&gt;before&lt;/strong&gt; you plug your device in! This will save you some trouble.&lt;/li&gt;
@@ -549,10 +622,10 @@ text--success
         &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Get the Krita brushes&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
+        &lt;a href=&#34;#installation-guide&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
+        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
       &lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -572,7 +645,7 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; /&gt;&lt;/p&gt;
 
@@ -600,7 +673,7 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; /&gt;&lt;/p&gt;
 
@@ -632,7 +705,7 @@ text--success
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -656,7 +729,7 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
 text--info
@@ -688,9 +761,9 @@ text--info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
 text--info
  text--inherit&#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -768,7 +841,7 @@ text--info
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -832,7 +905,7 @@ text--success
 
 &lt;p&gt;This course was made possible thanks to the pledges of 424 backers on Kickstarter.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:fed1aa4ca3320a3365f9f3ccac8d3d0b&#34;&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -1055,7 +1128,7 @@ And a company that supports open source projects!&lt;/p&gt;
     Presskit
   &lt;/button&gt; --&gt;
 
-&lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
+&lt;h2 id=&#34;why-gdquest:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Why GDquest?&lt;/h2&gt;
 
 &lt;p&gt;There are lots of learning resources available online. There are lots of entertaining and informative videos about design, tons of speed painting with commentaries… But there aren’t many places where we can find carefully designed, free education for game creation and open source technologies.&lt;/p&gt;
 
@@ -1079,7 +1152,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-not-alone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 
 &lt;p&gt;I collaborate with talented people around the world in my free time. In particular, I work with 3 experienced professionals on a regular basis:&lt;/p&gt;
 
@@ -1197,54 +1270,6 @@ text--success
 &lt;p&gt;This 3rd volume is dedicated to isometric game art. In this series, we will expand on the first 2 volumes, explore new drawing techniques as well as the characteristics of isometric games.&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Game Art Quest Discover</title>
-      <link>http://gdquest.com/game-art-quest/discover/</link>
-      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://gdquest.com/game-art-quest/discover/</guid>
-      <description>
-
-&lt;p&gt;&lt;div class=&#34;col-lg-6&#34; &gt;
-
-&lt;!-- DISCOVER --&gt;
-&lt;h2 id=&#34;discover&#34;&gt;Discover Game Art Quest!&lt;/h2&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/vcKJibQckz4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
-
-&lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;In this series, &lt;strong&gt;I will run you through the process of creating professional grade static assets for games&lt;/strong&gt;. I will share my workflow and my productivity tricks. Not only that! I will show you how Krita is becoming a solid option for professional work.&lt;/p&gt;
-
-&lt;p&gt;Although we’ll use Krita, the concepts you will learn apply to any painting application or medium. To become a more efficient game artist, you have to sharpen your observation skills and explore drawing techniques. These are the same regardless of the tools you are using, and that’s what we&amp;rsquo;re going to see.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;krita-screenshot.png&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;The series will also cover the unique constraints we game artists face in our work. As a game artist, you have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, &lt;strong&gt;your art has to support the gameplay: it shapes the game experience&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t know Krita yet, check out my &lt;a href=&#34;https://www.youtube.com/playlist?list=PLhqJJNjsQ7KE3FLHIE31UgmLdcqsZfXTw&#34;&gt;19 YouTube tutorials&lt;/a&gt; dedicated to it! And &lt;a href=&#34;https://krita.org/download/krita-desktop/&#34;&gt;click here&lt;/a&gt; to download the application. It&amp;rsquo;s available on Windows, Linux and Mac (&lt;em&gt;port in progress&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;Game Art Quest was funded &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;on Kickstarter&lt;/a&gt; by 424 generous backers!&lt;/p&gt;
-
-&lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
-
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m Nathan Lovato, a game designer. I the run &lt;a href=&#34;http://youtube.com/c/gdquest&#34;&gt;GDquest&lt;/a&gt; a Youtube education channel dedicated to game art and game design. Every week, I release a new tutorial. I have made dozens of tutorials already! You can find them all &lt;a href=&#34;https://game-design-tutorials.zeef.com/nathan.lovato&#34;&gt;on that page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m working &lt;strong&gt;hand in hand with the Krita developers&lt;/strong&gt;. They review my work to ensure that you get the best Krita training possible!
-&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -41,10 +41,10 @@
         &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Get the Krita brushes&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
+        &lt;a href=&#34;#installation-guide&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
+        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
       &lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -64,7 +64,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; /&gt;&lt;/p&gt;
 
@@ -92,7 +92,7 @@
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; /&gt;&lt;/p&gt;
 
@@ -124,7 +124,7 @@
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -148,7 +148,7 @@
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
 text--info
@@ -180,9 +180,9 @@ text--info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
 text--info
  text--inherit&#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -203,7 +203,7 @@ text--info
 
 &lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:ad791bfd9ad64307d23668dd1a2ed4a4&#34;&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -267,7 +267,7 @@ text--success
 
 &lt;p&gt;This course was made possible thanks to the pledges of 424 backers on Kickstarter.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links:fed1aa4ca3320a3365f9f3ccac8d3d0b&#34;&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -444,7 +444,7 @@ text--success
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
+&lt;h3 id=&#34;do-you-want-to-become-a-better-2d-game-artist&#34;&gt;Do you want to become a better 2d game artist?&lt;/h3&gt;
 
 &lt;p&gt;You came to the right place! Using &lt;strong&gt;Krita, a free and open source painting application&lt;/strong&gt;, Game Art Quest will show you both &lt;strong&gt;essential concepts&lt;/strong&gt; and &lt;strong&gt;concrete techniques&lt;/strong&gt; professionals use on a daily basis. It is a training series in 3 volumes. The first one is &lt;strong&gt;completely free&lt;/strong&gt;.&lt;/p&gt;
 
@@ -462,7 +462,7 @@ text--success
 
 &lt;p&gt;This page is a hub for all of the activity linked to the project. Here, you will find open source game assets, the free Krita training, as well as a frequently updated roadmap.&lt;/p&gt;
 
-&lt;h3 id=&#34;who-am-i-to-teach-you-game-art:ff5942b0bce82d190fd24704bfa9752c&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
+&lt;h3 id=&#34;who-am-i-to-teach-you-game-art&#34;&gt;Who am I to teach you game art?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;i-am-nathan.jpg&#34; alt=&#34;Nathan&#39;s picture&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 

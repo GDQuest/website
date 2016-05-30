@@ -6,8 +6,81 @@
     <description>Recent content in Community on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
-    <lastBuildDate>Wed, 16 Mar 2016 08:25:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 May 2016 13:11:19 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>May update: Krita brushes and ConciseCSS</title>
+      <link>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</link>
+      <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
+      
+      <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
+      <description>
+
+&lt;p&gt;May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their &lt;a href=&#34;https://www.youtube.com/watch?v=AjIiI8uiVNM&#34;&gt;Kickstarter campaign&lt;/a&gt;&amp;hellip; But I didn&amp;rsquo;t take the time to write longer news posts like this one. Time to share the news for this month!&lt;/p&gt;
+
+&lt;p&gt;Actually, I&amp;rsquo;m still catching up with work, since I got that shoulder injury. Thankfully, I got faster in some areas, especially answering people online, thus I&amp;rsquo;m making good progress. On to the news!&lt;/p&gt;
+
+&lt;div row column=12&gt;
+  &lt;div class=&#34;card&#34;&gt;
+    
+
+    
+    &lt;h3 class=&#34;card-title&#34;&gt;
+      Krita 3 launch Youtube livestream
+    &lt;/h3&gt;
+    
+
+    
+    &lt;div class=&#34;card-content&#34;&gt;
+      &lt;p&gt;
+        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time&#34;&gt;CEST&lt;/abbr&gt; (UTC/GMT +2)
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+
+    
+    &lt;div class=&#34;card-footer lead&#34;&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=hlcHDRc-gN8&#34;&gt;
+        Youtube Livestream
+      &lt;/a&gt;
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;krita-brushes-may-update:cf3400de0272978b1aa54605b46ee678&#34;&gt;Krita brushes May update&lt;/h2&gt;
+
+&lt;p&gt;As you know, I&amp;rsquo;ve made a set of &lt;a href=&#34;https://gum.co/krita-brushes-for-game-artists&#34;&gt;Krita brushes for game artists&lt;/a&gt;, available on Gumroad. It was initially meant to just be a simple brush pack, I started adding video tutorials on top of it last week to explain what each preset was designed for. This month&amp;rsquo;s update adds 2 new blending brushes: both a round and a flat one. These work a bit like the regular mixing brushes, but they only blend existing colors on the selected layer. They are way softer than existing presets to help you shade extremely smooth surfaces like silk, skin, clouds, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/05/krita-brushes-update-may-2016.jpg&#34; alt=&#34;Picture: The brushes on the pop-up palette&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will now find 2 tutorials along with the brushes. The first one is dedicated to the mix brushes, and it will show you how to play with the opacity setting to get the most out of them. The 2nd one explains how to use the smear brushes in practice. They may seem strange at first, but trust me, they are actually quite useful! On top of that, I updated the existing brushes to make them less resource intensive. The Paint_Painterly preset comes with a new custom brush tip, and it should be at least 3 or 4 times faster now.&lt;/p&gt;
+
+&lt;h2 id=&#34;gdquest-s-upgrade:cf3400de0272978b1aa54605b46ee678&#34;&gt;Gdquest&amp;rsquo;s upgrade&lt;/h2&gt;
+
+&lt;p&gt;The new version of the website is available! I ported it to a new SASS framework, &lt;a href=&#34;http://concisecss.com/&#34;&gt;ConciseCSS&lt;/a&gt;. Some things have changed visually, hopefully for the better. But more importantly, under the hood, everything is different. With the same functionality, the website&amp;rsquo;s Go templates are about 20% shorter. The CSS is smaller, and now I have full control over everything. Not only was the port fast to do, but now I&amp;rsquo;ll be able to improve GDquest faster.&lt;/p&gt;
+
+&lt;p&gt;Before that, I was using &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt;, one of the most popular frameworks out there, made by Twitter. It is very good, but it&amp;rsquo;s also huge. It has everything you&amp;rsquo;d ever need, as well as everything you would never need. Because of that, customizing the style of your website can take a lot of time. That&amp;rsquo;s why I switched to Concise.&lt;/p&gt;
+
+&lt;p&gt;Starting with the next version, I will also release the website&amp;rsquo;s code open source. That way, those of you who want a powerful system to create a tutorial/blog oriented website will have an option based on Hugo, a blazing fast, open source static website engine. Right now, the website handles posts, course pages, course summaries, and has some simple modules if you&amp;rsquo;d like to create a blog page for instance. The next version will add templates to render a to do list, to render FAQs, to create a landing page, but also to create a tutorial/articles library!&lt;/p&gt;
+
+&lt;h2 id=&#34;next-up:cf3400de0272978b1aa54605b46ee678&#34;&gt;Next up&lt;/h2&gt;
+
+&lt;p&gt;June is going to be a busy month! From June 13 to 19, I&amp;rsquo;ll be at the Randa meetings in Switzerland to work on Krita education, and to meet dozens of passionate KDE developers. The Randa meetings are a yearly open source development sprint. Developers gather from all around the world and share experience with one another to push their respective projects forward.&lt;/p&gt;
+
+&lt;p&gt;Now that Krita 3 is coming out, I&amp;rsquo;m focusing on video tutorials dedicated to the new version. I plan to create about a dozen. Then, I&amp;rsquo;ll move on to chapter 3 of the Krita tutorial for game artists, which will run you through the game assets creation workflow. This chapter is going to be an entire little training in itself, and a great occasion to put everything you&amp;rsquo;ve learned so far in the training in practice.&lt;/p&gt;
+
+&lt;p&gt;This wraps up this month&amp;rsquo;s update. Thank you kindly for your time!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;See you soon,&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nathan&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;PS: Don&amp;rsquo;t forget the &lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;Krita 2016 Kickstarter&lt;/a&gt;. It ends in 8 days.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GDquest news and Krita 3.0 pre-alpha 3</title>
