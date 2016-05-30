@@ -24,6 +24,10 @@
 &lt;div row column=12&gt;
   &lt;div class=&#34;card&#34;&gt;
     
+    &lt;div class=&#34;card-image&#34;&gt;
+      &lt;img src=&#34;http://gdquest.com/img/post/2016/05/krita-logo.png&#34; alt=&#34;Featured picture&#34;&gt;
+    &lt;/div&gt;
+    
 
     
     &lt;h3 class=&#34;card-title&#34;&gt;
@@ -34,13 +38,13 @@
     
     &lt;div class=&#34;card-content&#34;&gt;
       &lt;p&gt;
-        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time&#34;&gt;CEST&lt;/abbr&gt; (UTC/GMT +2)
+        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time (UTC/GMT +2)&#34;&gt;CEST&lt;/abbr&gt;
       &lt;/p&gt;
     &lt;/div&gt;
     
 
     
-    &lt;div class=&#34;card-footer lead&#34;&gt;
+    &lt;div class=&#34;card-footer lead&#34; style=&#34;text-align:center&#34;&gt;
       &lt;a href=&#34;https://www.youtube.com/watch?v=hlcHDRc-gN8&#34;&gt;
         Youtube Livestream
       &lt;/a&gt;
@@ -50,7 +54,7 @@
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;krita-brushes-may-update:cf3400de0272978b1aa54605b46ee678&#34;&gt;Krita brushes May update&lt;/h2&gt;
+&lt;h2 id=&#34;krita-brushes-may-update&#34;&gt;Krita brushes May update&lt;/h2&gt;
 
 &lt;p&gt;As you know, I&amp;rsquo;ve made a set of &lt;a href=&#34;https://gum.co/krita-brushes-for-game-artists&#34;&gt;Krita brushes for game artists&lt;/a&gt;, available on Gumroad. It was initially meant to just be a simple brush pack, I started adding video tutorials on top of it last week to explain what each preset was designed for. This month&amp;rsquo;s update adds 2 new blending brushes: both a round and a flat one. These work a bit like the regular mixing brushes, but they only blend existing colors on the selected layer. They are way softer than existing presets to help you shade extremely smooth surfaces like silk, skin, clouds, etc.&lt;/p&gt;
 
@@ -58,7 +62,7 @@
 
 &lt;p&gt;You will now find 2 tutorials along with the brushes. The first one is dedicated to the mix brushes, and it will show you how to play with the opacity setting to get the most out of them. The 2nd one explains how to use the smear brushes in practice. They may seem strange at first, but trust me, they are actually quite useful! On top of that, I updated the existing brushes to make them less resource intensive. The Paint_Painterly preset comes with a new custom brush tip, and it should be at least 3 or 4 times faster now.&lt;/p&gt;
 
-&lt;h2 id=&#34;gdquest-s-upgrade:cf3400de0272978b1aa54605b46ee678&#34;&gt;Gdquest&amp;rsquo;s upgrade&lt;/h2&gt;
+&lt;h2 id=&#34;gdquest-s-upgrade&#34;&gt;Gdquest&amp;rsquo;s upgrade&lt;/h2&gt;
 
 &lt;p&gt;The new version of the website is available! I ported it to a new SASS framework, &lt;a href=&#34;http://concisecss.com/&#34;&gt;ConciseCSS&lt;/a&gt;. Some things have changed visually, hopefully for the better. But more importantly, under the hood, everything is different. With the same functionality, the website&amp;rsquo;s Go templates are about 20% shorter. The CSS is smaller, and now I have full control over everything. Not only was the port fast to do, but now I&amp;rsquo;ll be able to improve GDquest faster.&lt;/p&gt;
 
@@ -66,7 +70,7 @@
 
 &lt;p&gt;Starting with the next version, I will also release the website&amp;rsquo;s code open source. That way, those of you who want a powerful system to create a tutorial/blog oriented website will have an option based on Hugo, a blazing fast, open source static website engine. Right now, the website handles posts, course pages, course summaries, and has some simple modules if you&amp;rsquo;d like to create a blog page for instance. The next version will add templates to render a to do list, to render FAQs, to create a landing page, but also to create a tutorial/articles library!&lt;/p&gt;
 
-&lt;h2 id=&#34;next-up:cf3400de0272978b1aa54605b46ee678&#34;&gt;Next up&lt;/h2&gt;
+&lt;h2 id=&#34;next-up&#34;&gt;Next up&lt;/h2&gt;
 
 &lt;p&gt;June is going to be a busy month! From June 13 to 19, I&amp;rsquo;ll be at the Randa meetings in Switzerland to work on Krita education, and to meet dozens of passionate KDE developers. The Randa meetings are a yearly open source development sprint. Developers gather from all around the world and share experience with one another to push their respective projects forward.&lt;/p&gt;
 

@@ -24,6 +24,10 @@
 &lt;div row column=12&gt;
   &lt;div class=&#34;card&#34;&gt;
     
+    &lt;div class=&#34;card-image&#34;&gt;
+      &lt;img src=&#34;http://gdquest.com/img/post/2016/05/krita-logo.png&#34; alt=&#34;Featured picture&#34;&gt;
+    &lt;/div&gt;
+    
 
     
     &lt;h3 class=&#34;card-title&#34;&gt;
@@ -34,13 +38,13 @@
     
     &lt;div class=&#34;card-content&#34;&gt;
       &lt;p&gt;
-        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time&#34;&gt;CEST&lt;/abbr&gt; (UTC/GMT +2)
+        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time (UTC/GMT +2)&#34;&gt;CEST&lt;/abbr&gt;
       &lt;/p&gt;
     &lt;/div&gt;
     
 
     
-    &lt;div class=&#34;card-footer lead&#34;&gt;
+    &lt;div class=&#34;card-footer lead&#34; style=&#34;text-align:center&#34;&gt;
       &lt;a href=&#34;https://www.youtube.com/watch?v=hlcHDRc-gN8&#34;&gt;
         Youtube Livestream
       &lt;/a&gt;
@@ -50,7 +54,7 @@
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;krita-brushes-may-update:cf3400de0272978b1aa54605b46ee678&#34;&gt;Krita brushes May update&lt;/h2&gt;
+&lt;h2 id=&#34;krita-brushes-may-update&#34;&gt;Krita brushes May update&lt;/h2&gt;
 
 &lt;p&gt;As you know, I&amp;rsquo;ve made a set of &lt;a href=&#34;https://gum.co/krita-brushes-for-game-artists&#34;&gt;Krita brushes for game artists&lt;/a&gt;, available on Gumroad. It was initially meant to just be a simple brush pack, I started adding video tutorials on top of it last week to explain what each preset was designed for. This month&amp;rsquo;s update adds 2 new blending brushes: both a round and a flat one. These work a bit like the regular mixing brushes, but they only blend existing colors on the selected layer. They are way softer than existing presets to help you shade extremely smooth surfaces like silk, skin, clouds, etc.&lt;/p&gt;
 
@@ -58,7 +62,7 @@
 
 &lt;p&gt;You will now find 2 tutorials along with the brushes. The first one is dedicated to the mix brushes, and it will show you how to play with the opacity setting to get the most out of them. The 2nd one explains how to use the smear brushes in practice. They may seem strange at first, but trust me, they are actually quite useful! On top of that, I updated the existing brushes to make them less resource intensive. The Paint_Painterly preset comes with a new custom brush tip, and it should be at least 3 or 4 times faster now.&lt;/p&gt;
 
-&lt;h2 id=&#34;gdquest-s-upgrade:cf3400de0272978b1aa54605b46ee678&#34;&gt;Gdquest&amp;rsquo;s upgrade&lt;/h2&gt;
+&lt;h2 id=&#34;gdquest-s-upgrade&#34;&gt;Gdquest&amp;rsquo;s upgrade&lt;/h2&gt;
 
 &lt;p&gt;The new version of the website is available! I ported it to a new SASS framework, &lt;a href=&#34;http://concisecss.com/&#34;&gt;ConciseCSS&lt;/a&gt;. Some things have changed visually, hopefully for the better. But more importantly, under the hood, everything is different. With the same functionality, the website&amp;rsquo;s Go templates are about 20% shorter. The CSS is smaller, and now I have full control over everything. Not only was the port fast to do, but now I&amp;rsquo;ll be able to improve GDquest faster.&lt;/p&gt;
 
@@ -66,7 +70,7 @@
 
 &lt;p&gt;Starting with the next version, I will also release the website&amp;rsquo;s code open source. That way, those of you who want a powerful system to create a tutorial/blog oriented website will have an option based on Hugo, a blazing fast, open source static website engine. Right now, the website handles posts, course pages, course summaries, and has some simple modules if you&amp;rsquo;d like to create a blog page for instance. The next version will add templates to render a to do list, to render FAQs, to create a landing page, but also to create a tutorial/articles library!&lt;/p&gt;
 
-&lt;h2 id=&#34;next-up:cf3400de0272978b1aa54605b46ee678&#34;&gt;Next up&lt;/h2&gt;
+&lt;h2 id=&#34;next-up&#34;&gt;Next up&lt;/h2&gt;
 
 &lt;p&gt;June is going to be a busy month! From June 13 to 19, I&amp;rsquo;ll be at the Randa meetings in Switzerland to work on Krita education, and to meet dozens of passionate KDE developers. The Randa meetings are a yearly open source development sprint. Developers gather from all around the world and share experience with one another to push their respective projects forward.&lt;/p&gt;
 
@@ -151,7 +155,7 @@
 
 &lt;p&gt;I chose a handful of ideas based on your feedback and on what I can handle right now. There are 2 themes that I didn’t list, on purpose: animation and the Godot engine. Here&amp;rsquo;s why: there will be some animation tutorials when Krita 3.0 is released. And I am waiting for Godot 2.0 to cover it on the channel.&lt;/p&gt;
 
-&lt;h2 id=&#34;let-your-voice-be-heard:ffb53db388035195c22b87f52accec93&#34;&gt;Let your voice be heard&lt;/h2&gt;
+&lt;h2 id=&#34;let-your-voice-be-heard&#34;&gt;Let your voice be heard&lt;/h2&gt;
 
 &lt;p&gt;You can pick as many series as you’d like! I will produce the 3 most popular entries.&lt;/p&gt;
 
@@ -165,21 +169,21 @@
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/superpowers-html5.png&#34; alt=&#34;Superpowers, the collaborative HTML5 game engine tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine:ffb53db388035195c22b87f52accec93&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
+&lt;h3 id=&#34;overview-of-superpowers-the-collaborative-html5-game-engine&#34;&gt;Overview of Superpowers, the collaborative HTML5 game engine&lt;/h3&gt;
 
 &lt;p&gt;Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by &lt;a href=&#34;https://sparklinlabs.com/&#34;&gt;Sparkin Labs&lt;/a&gt;, the authors of &lt;a href=&#34;http://craftstud.io/&#34;&gt;CraftStudio&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/godot-2d-engine.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;overview-of-godot-2-0-the-open-source-game-engine-for-2d-games:ffb53db388035195c22b87f52accec93&#34;&gt;Overview of Godot 2.0, the open source game engine, for 2d games&lt;/h3&gt;
+&lt;h3 id=&#34;overview-of-godot-2-0-the-open-source-game-engine-for-2d-games&#34;&gt;Overview of Godot 2.0, the open source game engine, for 2d games&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.godotengine.org/projects/godot-engine&#34;&gt;Godot&lt;/a&gt; is an open source 2d and 3d game engine. It was developed in-house by an Argentinian game studio, Okam, and released open source 2 years ago. Godot 2.0 features a robust editor with built-in animation tools, a visual shader editor, and much more!
 In this series, we&amp;rsquo;ll cover the basics of 2d game development with Godot. If you want to join the community, check out its &lt;a href=&#34;https://www.facebook.com/groups/godotengine/&#34;&gt;Facebook group&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png&#34; alt=&#34;Human proportions, from reality to games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;human-proportions-from-reality-to-games:ffb53db388035195c22b87f52accec93&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
+&lt;h3 id=&#34;human-proportions-from-reality-to-games&#34;&gt;Human proportions, from reality to games&lt;/h3&gt;
 
 &lt;p&gt;There are lots of tutorials available on the basics of human anatomy and proportions (I recommend &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&amp;rsquo;s videos&lt;/a&gt;).&lt;/p&gt;
 
@@ -189,13 +193,13 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/blender-vse.png&#34; alt=&#34;Blender VSE tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;introduction-to-video-editing-with-blender:ffb53db388035195c22b87f52accec93&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
+&lt;h3 id=&#34;introduction-to-video-editing-with-blender&#34;&gt;Introduction to video editing with Blender&lt;/h3&gt;
 
 &lt;p&gt;Blender is an impressive piece of software. It is also my open source replacement for After Effects and a video editing tool of choice. Its sequencer has its shortcomings, but it is an efficient tool to get started making videos nonetheless. In this series, I will share what I have learned creating YouTube videos with blender for the past 6 months.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/becoming-a-game-designer.png&#34; alt=&#34;Becoming a game designer tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;becoming-an-independent-game-designer:ffb53db388035195c22b87f52accec93&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
+&lt;h3 id=&#34;becoming-an-independent-game-designer&#34;&gt;Becoming an independent game designer&lt;/h3&gt;
 
 &lt;p&gt;What is a game designer? How can you become a professional or an independent game designer? Based on my experience creating games with a talented engineer, working as a freelancer and now creating Game Design Quest, I will share what I learned along the way.&lt;/p&gt;
 
@@ -203,7 +207,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/introduction-music-scoring-for-games.png&#34; alt=&#34;Introduction to music scoring for games tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;a-primer-on-music-scoring-for-games:ffb53db388035195c22b87f52accec93&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
+&lt;h3 id=&#34;a-primer-on-music-scoring-for-games&#34;&gt;A primer on music scoring for games&lt;/h3&gt;
 
 &lt;p&gt;Believe it or not, but I write and produce &lt;a href=&#34;https://soundcloud.com/gdquest&#34;&gt;game soundtracks&lt;/a&gt;! I actually studied music scoring.&lt;/p&gt;
 
@@ -215,7 +219,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/rock-and-grass-tiles.png&#34; alt=&#34;Rock tiles tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games:ffb53db388035195c22b87f52accec93&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
+&lt;h3 id=&#34;painting-rock-and-grass-tiles-for-2d-games&#34;&gt;Painting rock and grass tiles for 2d games&lt;/h3&gt;
 
 &lt;p&gt;There is one type of 2-D game asset that is rarely explained online: tiles. These are sprites that connect seamlessly to one another and that you can reuse extensively to create your game backgrounds.&lt;/p&gt;
 
@@ -223,7 +227,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/Tutorials/Banners/Small/kickstarter-tips.png&#34; alt=&#34;Game Art Quest Kickstarter tutorial banner&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips:ffb53db388035195c22b87f52accec93&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
+&lt;h3 id=&#34;kickstarter-all-of-my-hard-learned-tips&#34;&gt;Kickstarter: all of my hard learned tips!&lt;/h3&gt;
 
 &lt;p&gt;As you know I ran a Kickstarter campaign that was successfully funded. Better than that, it doubled the initial goal! During those hectic weeks, struggling to keep up with the frightening workload, I learned a lot about crowdfunding. With this theme, I want to go over the preparation, the ongoing production and the communication you have to take care of during the course of a Kickstarter campaign.&lt;/p&gt;
 </description>
