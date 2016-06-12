@@ -1,0 +1,23 @@
+@mixin show-conditional
+  display: block
+  visibility: visible
+@mixin hide-conditional
+  display: none
+  visibility: hidden
+
+// Mobile - default
+.show--mobile,
+.hide--desktop
+  @include show-conditional
+.hide--mobile,
+.show--desktop
+  @include hide-conditional
+
+// Desktop - medium and bigger
+@media (min-width: $bp-medium)
+  .show--desktop,
+  .hide--mobile
+    @include show-conditional
+  .hide--desktop,
+  .show--mobile
+    @include hide-conditional
