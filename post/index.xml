@@ -122,13 +122,13 @@
 
 &lt;!-- Part 1 --&gt;
 
-&lt;h2 id=&#34;major-new-features:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita 3&amp;rsquo;s New Features&lt;/h2&gt;
+&lt;h2 id=&#34;major-new-features&#34;&gt;Krita 3&amp;rsquo;s New Features&lt;/h2&gt;
 
 &lt;p&gt;Krita 3.0 was initially funded by a thousand of backers on Kickstarter in 2015. The campaign had 2 goals: to fund a new, faster rendering engine for digital painting and a traditional animation toolset. This major update brings those additions to the world, and more! Intriguing, right?&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s explore all of Krita 3&amp;rsquo;s new features in details.&lt;/p&gt;
 
-&lt;h3 id=&#34;instant-preview-the-new-rendering-engine:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Instant Preview: the new rendering engine&lt;/h3&gt;
+&lt;h3 id=&#34;instant-preview-the-new-rendering-engine&#34;&gt;Instant Preview: the new rendering engine&lt;/h3&gt;
 
 &lt;p&gt;Krita&amp;rsquo;s performances used to be a major issue for professional work. Painting on large documents would be slow and painful. It&amp;rsquo;s now a matter of the past, at least for the most part: thanks to the Instant Preview, the program is way more responsive.&lt;/p&gt;
 
@@ -146,7 +146,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;krita-s-animation-tools:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita&amp;rsquo;s animation tools&lt;/h3&gt;
+&lt;h3 id=&#34;krita-s-animation-tools&#34;&gt;Krita&amp;rsquo;s animation tools&lt;/h3&gt;
 
 &lt;p&gt;Yes, you read well. You can now animate in Krita! Version 3 comes with a solid toolset that traditional animators will love. And the development team has plans to make it even better in the future. There are 3 new dockers: animation, timeline and onion skin. They respectively allow you to change your animation&amp;rsquo;s length, to manage your frames and your animation layers, and to control your onion skin, a popular effect to preview multiple frames on the canvas at the same time.&lt;/p&gt;
 
@@ -174,7 +174,7 @@
 
 &lt;p&gt;The &lt;a href=&#34;https://docs.krita.org/Animation&#34;&gt;official Krita docs&lt;/a&gt; will provide offer you with more information if you want to learn every function the toolset provides&lt;/p&gt;
 
-&lt;h3 id=&#34;the-new-layers-docker-small-my-favorite-feature-small:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;The new layers docker &lt;small&gt;My favorite feature&lt;/small&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;the-new-layers-docker-small-my-favorite-feature-small&#34;&gt;The new layers docker &lt;small&gt;My favorite feature&lt;/small&gt;&lt;/h3&gt;
 
 &lt;p&gt;This is the change I love the most: layer management is now both much faster and way more flexible. The team redesigned the layers docker from the ground up. It ships with a more compact look, a ton of new functions, keyboard shortcuts&amp;hellip; Almost everything a game artist needs to do his job in the best of conditions.&lt;/p&gt;
 
@@ -210,13 +210,13 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;rulers-grid-guides-and-snapping:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Rulers, grid, guides and snapping&lt;/h3&gt;
+&lt;h3 id=&#34;rulers-grid-guides-and-snapping&#34;&gt;Rulers, grid, guides and snapping&lt;/h3&gt;
 
 &lt;p&gt;These are 3 different features that work together. The grid and rulers are both managed in the same docker, called &amp;laquo;grid and guides&amp;raquo;. The grid tab replaces the toolbox&amp;rsquo;s grid tool. Is it a more flexible version of it. The guides, however, are brand new. They are horizontal or vertical lines that you can place wherever you want on the canvas. You can then use them as a reference to lay your layers out accurately.&lt;/p&gt;
 
 &lt;p&gt;The guides are not too interesting in themselves. That&amp;rsquo;s why snapping was also implemented. If you press shift S on your document, a drop-down menu will pop up. It lists a handful of snapping options for you to toggle on or off. Snapping works with grid and guides, but it doesn&amp;rsquo;t end there. It also works with vector shapes, with the geometric tools, with the free transform tool, and more. It doesn&amp;rsquo;t work in every situation just yet, but this opens up a whole new range of possibilities within Krita.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-port-to-qt-5-and-kde-frameworks-5:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;The port to Qt 5 and KDE frameworks 5&lt;/h3&gt;
+&lt;h3 id=&#34;the-port-to-qt-5-and-kde-frameworks-5&#34;&gt;The port to Qt 5 and KDE frameworks 5&lt;/h3&gt;
 
 &lt;p&gt;Under the hood, Krita&amp;rsquo;s code went through major changes. The developers ported the program to Qt 5 and the KDE frameworks 5. These popular code libraries power Krita&amp;rsquo;s interface. They are part of the application&amp;rsquo;s foundations. The port was a massive task, but it will give the team a stable ground for future updates.&lt;/p&gt;
 
@@ -238,21 +238,21 @@
 &lt;/span&gt;
 
 
-&lt;h2 id=&#34;smaller-features:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;We&amp;rsquo;re not done yet! &lt;small&gt;11 smaller new features&lt;/small&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;smaller-features&#34;&gt;We&amp;rsquo;re not done yet! &lt;small&gt;11 smaller new features&lt;/small&gt;&lt;/h2&gt;
 
 &lt;p&gt;That&amp;rsquo;s it for the big additions to Krita 3. But we are not done yet. There is a lot more we need to cover. A lot of small, welcome new features that add up to turn Krita into a better application all-round.&lt;/p&gt;
 
-&lt;h3 id=&#34;new-tablet-support-code:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;New tablet support code&lt;/h3&gt;
+&lt;h3 id=&#34;new-tablet-support-code&#34;&gt;New tablet support code&lt;/h3&gt;
 
 &lt;p&gt;As I told you in the introduction, the tablet code has been rewritten from scratch. Krita 2.9 would just not recognize a variety of tablets. Version 3, on the other hand, already supports more devices. Especially Wacom alternatives! In case you couldn’t use your tablet in the previous version, you should definitely give it a try again.&lt;/p&gt;
 
-&lt;h3 id=&#34;improved-layer-picking-and-move-tools:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved layer picking and move tools&lt;/h3&gt;
+&lt;h3 id=&#34;improved-layer-picking-and-move-tools&#34;&gt;Improved layer picking and move tools&lt;/h3&gt;
 
 &lt;p&gt;You can now pick multiple layers at the same time with the R key. Just keep the Shift key down and click on the canvas to add layers to your selection. You can also drag your cursor across the document with both the R and the Shift keys down, and Krita will pick all of the layers under your cursor.&lt;/p&gt;
 
 &lt;p&gt;The move tool got some love as well. You can now nudge your selection around with the arrow keys. If you keep the Shift key down and press an arrow, your layer will move by 10 pixels in the direction of your choice. Without Shift, it will move in one pixel increments.&lt;/p&gt;
 
-&lt;h3 id=&#34;new-ui-for-the-assistants:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;New UI for the assistants&lt;/h3&gt;
+&lt;h3 id=&#34;new-ui-for-the-assistants&#34;&gt;New UI for the assistants&lt;/h3&gt;
 
 &lt;p&gt;The assistants now have a little widget attached to them to control each and every instance separately. The little UI elements move along with the origin of the assistants to help you keep track of them more easily.&lt;/p&gt;
 
@@ -274,7 +274,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;improved-keyboard-shortcuts-editor:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved keyboard shortcuts editor&lt;/h3&gt;
+&lt;h3 id=&#34;improved-keyboard-shortcuts-editor&#34;&gt;Improved keyboard shortcuts editor&lt;/h3&gt;
 
 &lt;p&gt;The keyboard shortcut editor has moved to Krita&amp;rsquo;s preferences. It sits next to the &amp;laquo;Canvas Input Settings&amp;raquo;, where you can edit all canvas related shortcuts. It feels more natural to edit all of the program&amp;rsquo;s options in that unique pop up window.&lt;/p&gt;
 
@@ -288,11 +288,11 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;gradient-mapping:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gradient mapping&lt;/h3&gt;
+&lt;h3 id=&#34;gradient-mapping&#34;&gt;Gradient mapping&lt;/h3&gt;
 
 &lt;p&gt;You can now do quick split toning with the gradient map filter! It was not planned for this release, and it is still a work in progress. The filter doesn&amp;rsquo;t take advantage of the instant preview yet. It is not available as a filter layer, and it doesn&amp;rsquo;t preserve your layer&amp;rsquo;s alpha channel. But I&amp;rsquo;m sure game artists will love the addition regardless!&lt;/p&gt;
 
-&lt;h3 id=&#34;greater-blending-mode:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Greater blending mode&lt;/h3&gt;
+&lt;h3 id=&#34;greater-blending-mode&#34;&gt;Greater blending mode&lt;/h3&gt;
 
 &lt;p&gt;There is a new blending mode in the &amp;laquo;mix&amp;raquo; category, humbly named Greater. I&amp;rsquo;ve never seen something like that in another painting program, but you know what? It&amp;rsquo;s great! With the pixel brush engine, overlapping transparent strokes look ugly in normal mode. They don&amp;rsquo;t blend smoothly, but that&amp;rsquo;s how normal blending works.&lt;/p&gt;
 
@@ -316,7 +316,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
+&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
 
 &lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works a bit like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
 
@@ -338,7 +338,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;improved-pop-up-palette:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved pop-up palette&lt;/h3&gt;
+&lt;h3 id=&#34;improved-pop-up-palette&#34;&gt;Improved pop-up palette&lt;/h3&gt;
 
 &lt;p&gt;The pop-up palette got a little polish in this version. The brush icons are now displayed as circles, so they&amp;rsquo;ll always show most of the preset&amp;rsquo;s thumbnail. They also automatically resize based on the amount of brushes you want to display. It is easier to pick the right brush among a dozen or more now!&lt;/p&gt;
 
@@ -360,7 +360,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;stable-and-faster-gmic-on-windows:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Stable and faster GMIC on windows&lt;/h3&gt;
+&lt;h3 id=&#34;stable-and-faster-gmic-on-windows&#34;&gt;Stable and faster GMIC on windows&lt;/h3&gt;
 
 &lt;p&gt;GMIC, the open source image processor, is now stable on Windows. No more violent crashes! Not only that, it now uses all of your CPU threads for rendering, thus it is much faster.&lt;/p&gt;
 
@@ -368,11 +368,11 @@
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YigbVY9s6gU&#34;&gt;Krita 2.9 tutorial - Gmic colorize by David Revoy&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;import-and-export-pdf-windows:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Import and export PDF (Windows)&lt;/h3&gt;
+&lt;h3 id=&#34;import-and-export-pdf-windows&#34;&gt;Import and export PDF (Windows)&lt;/h3&gt;
 
 &lt;p&gt;This was already possible on Linux, but not on Microsoft&amp;rsquo;s operating system. In Krita 3, you can both load and export PDF files on Windows.&lt;/p&gt;
 
-&lt;h3 id=&#34;windows-shell-extension:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Windows shell extension&lt;/h3&gt;
+&lt;h3 id=&#34;windows-shell-extension&#34;&gt;Windows shell extension&lt;/h3&gt;
 
 &lt;p&gt;Another great addition for Windows users is the new shell extension. This tiny program gives Windows Explorer the ability to display thumbnails and metadata for your Krita files.&lt;/p&gt;
 
@@ -394,13 +394,13 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;and-more:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;And more!&lt;/h3&gt;
+&lt;h3 id=&#34;and-more&#34;&gt;And more!&lt;/h3&gt;
 
 &lt;p&gt;Since May 2015, the development team released 11 updates for Krita 2.9. These brought a wide range of improvements to the program. As you can guess, a lot has changed since last year, to the point where there is just too much to talk about! I made a video a few months ago to highlight some of those changes.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PIKfrqk09Hk&#34;&gt;Krita&amp;rsquo;s New Features since v2.9.5&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-review:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita Review: My Verdict after 9 Months&lt;/h2&gt;
+&lt;h2 id=&#34;krita-review&#34;&gt;Krita Review: My Verdict after 9 Months&lt;/h2&gt;
 
 &lt;p&gt;Now you know what Krita 3 has in store for you. But if you have never heard of Krita, or if you barely used it, you might wonder: is it good? Should I give it a try?&lt;/p&gt;
 
@@ -412,7 +412,7 @@
 
 &lt;p&gt;Krita is great when it comes to painting. As far as games are concerned, it is a great tool for character design, environment design and hand-painted textures. Heck, even for animation! If you specialize in one of those fields, I bet you’ll like it! However, right now, it is not the best tool for everything. It is far from ideal when it comes to creating user interface. And you cannot batch export your sprites directly from the program.&lt;/p&gt;
 
-&lt;h3 id=&#34;final-thoughts:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Final thoughts&lt;/h3&gt;
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ll be honest: Krita still isn&amp;rsquo;t the ultimate solution for game artists.&lt;/p&gt;
 
@@ -502,11 +502,11 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/hardware/huion-vs-wacom.jpg&#34; alt=&#34;Huion vs Wacom graphic tablet banner&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;recommended-graphic-tablets&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
+&lt;h1 id=&#34;recommended-graphic-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
 
 &lt;p&gt;On this page, you can find a list of the graphic tablets I recommend for &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I used &lt;a href=&#34;http://frenden.com/tagged/review&#34;&gt;Frenden&amp;rsquo;s reviews&lt;/a&gt; as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don&amp;rsquo;t like it. And read reviews on Amazon or on the website you&amp;rsquo;re buying them on.&lt;/p&gt;
 
-&lt;h2 id=&#34;flat-tablets&#34;&gt;Flat tablets&lt;/h2&gt;
+&lt;h2 id=&#34;flat-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Flat tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Flat tablets are perfect for everyone to start with at a low price. Especially students and hobbyists.&lt;/em&gt;&lt;/p&gt;
 
@@ -515,7 +515,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 &lt;li&gt;Wacom Intuos Pro Medium or Large (300-500$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;screen-tablets&#34;&gt;Screen tablets&lt;/h2&gt;
+&lt;h2 id=&#34;screen-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Screen tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Screen tablets are worth a try if you&amp;rsquo;re an experienced artist already, and you do a lot of line work.&lt;/em&gt;&lt;/p&gt;
 
@@ -525,7 +525,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 &lt;li&gt;Wacom Cintiq 13HD (13&amp;raquo; HD screen, 800$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h2 id=&#34;tips:fe04af95515442dc424d63ca1b599889&#34;&gt;Tips&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Always&lt;/strong&gt; download and install the driver from the manufacturer&amp;rsquo;s official website &lt;strong&gt;before&lt;/strong&gt; you plug your device in! This will save you some trouble.&lt;/li&gt;
@@ -693,7 +693,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;em&gt;This little guide will show you how to use the tern-phaser plugin by &lt;a href=&#34;https://github.com/angelozerr&#34;&gt;Angelo&lt;/a&gt; with &lt;a href=&#34;http://atom.io&#34;&gt;Atom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;installing-tern&#34;&gt;Installing tern&lt;/h2&gt;
+&lt;h2 id=&#34;installing-tern:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Installing tern&lt;/h2&gt;
 
 &lt;p&gt;This first part explains how to get npm, install tern and the tern-phaser plugin. The first thing that you need to ensure is that you have Node.js installed on your computer. You can download it on &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;https://nodejs.org/en/&lt;/a&gt;. This will give you access to npm as well, a handy package manager for js libraries and plugins. It allows you to download install all sorts of packages from the command prompt.&lt;/p&gt;
 
@@ -711,7 +711,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 
 &lt;p&gt;&lt;img src=&#34;http://i.imgur.com/qqUNi8c.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-manual-route&#34;&gt;The manual route&lt;/h2&gt;
+&lt;h2 id=&#34;the-manual-route:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;The manual route&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;If the automatic install of tern-phaser doesn&amp;#8217;t work&lt;/strong&gt;, you&amp;#8217;ll have to go navigate to the tern install folder manually from the command prompt. To change the folder the command prompt is in, you need to type cd (&lt;em&gt;current directory&lt;/em&gt;) followed by the path you want to reach. By default, tern should be installed to C:\Users**YourName**\AppData\Roaming\npm\node_modules.&lt;/p&gt;
 
@@ -727,7 +727,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
 &lt;p&gt;&lt;img src=&#34;http://i.imgur.com/zJusEnO.png&#34; alt=&#34;&#34; /&gt;
 &lt;em&gt;Without -g, the command installs the tern-phaser package in the folder you&amp;#8217;re currently in.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;using-tern-phaser-with-atom&#34;&gt;Using tern-phaser with Atom&lt;/h2&gt;
+&lt;h2 id=&#34;using-tern-phaser-with-atom:f84bfcbc5e082e525c63bea486a45c9e&#34;&gt;Using tern-phaser with Atom&lt;/h2&gt;
 
 &lt;p&gt;Now, you have both tern and tern-phaser installed on your computer. Let&amp;#8217;s move to setting up atom to work with tern. There is no native integration of tern in atom. However, there is a plugin called &lt;strong&gt;atom-ternjs&lt;/strong&gt; that works like a charm. We can install the package from the command line as well. Either &lt;strong&gt;close and reopen the command&lt;/strong&gt; &lt;strong&gt;prompt&lt;/strong&gt; or navigate back to your root folder with the following command: &amp;#8220;cd C:\Users\YourName&amp;#8221;.&lt;/p&gt;
 

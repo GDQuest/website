@@ -136,13 +136,13 @@
 
 &lt;!-- Part 1 --&gt;
 
-&lt;h2 id=&#34;major-new-features:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita 3&amp;rsquo;s New Features&lt;/h2&gt;
+&lt;h2 id=&#34;major-new-features&#34;&gt;Krita 3&amp;rsquo;s New Features&lt;/h2&gt;
 
 &lt;p&gt;Krita 3.0 was initially funded by a thousand of backers on Kickstarter in 2015. The campaign had 2 goals: to fund a new, faster rendering engine for digital painting and a traditional animation toolset. This major update brings those additions to the world, and more! Intriguing, right?&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s explore all of Krita 3&amp;rsquo;s new features in details.&lt;/p&gt;
 
-&lt;h3 id=&#34;instant-preview-the-new-rendering-engine:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Instant Preview: the new rendering engine&lt;/h3&gt;
+&lt;h3 id=&#34;instant-preview-the-new-rendering-engine&#34;&gt;Instant Preview: the new rendering engine&lt;/h3&gt;
 
 &lt;p&gt;Krita&amp;rsquo;s performances used to be a major issue for professional work. Painting on large documents would be slow and painful. It&amp;rsquo;s now a matter of the past, at least for the most part: thanks to the Instant Preview, the program is way more responsive.&lt;/p&gt;
 
@@ -160,7 +160,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;krita-s-animation-tools:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita&amp;rsquo;s animation tools&lt;/h3&gt;
+&lt;h3 id=&#34;krita-s-animation-tools&#34;&gt;Krita&amp;rsquo;s animation tools&lt;/h3&gt;
 
 &lt;p&gt;Yes, you read well. You can now animate in Krita! Version 3 comes with a solid toolset that traditional animators will love. And the development team has plans to make it even better in the future. There are 3 new dockers: animation, timeline and onion skin. They respectively allow you to change your animation&amp;rsquo;s length, to manage your frames and your animation layers, and to control your onion skin, a popular effect to preview multiple frames on the canvas at the same time.&lt;/p&gt;
 
@@ -188,7 +188,7 @@
 
 &lt;p&gt;The &lt;a href=&#34;https://docs.krita.org/Animation&#34;&gt;official Krita docs&lt;/a&gt; will provide offer you with more information if you want to learn every function the toolset provides&lt;/p&gt;
 
-&lt;h3 id=&#34;the-new-layers-docker-small-my-favorite-feature-small:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;The new layers docker &lt;small&gt;My favorite feature&lt;/small&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;the-new-layers-docker-small-my-favorite-feature-small&#34;&gt;The new layers docker &lt;small&gt;My favorite feature&lt;/small&gt;&lt;/h3&gt;
 
 &lt;p&gt;This is the change I love the most: layer management is now both much faster and way more flexible. The team redesigned the layers docker from the ground up. It ships with a more compact look, a ton of new functions, keyboard shortcuts&amp;hellip; Almost everything a game artist needs to do his job in the best of conditions.&lt;/p&gt;
 
@@ -224,13 +224,13 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;rulers-grid-guides-and-snapping:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Rulers, grid, guides and snapping&lt;/h3&gt;
+&lt;h3 id=&#34;rulers-grid-guides-and-snapping&#34;&gt;Rulers, grid, guides and snapping&lt;/h3&gt;
 
 &lt;p&gt;These are 3 different features that work together. The grid and rulers are both managed in the same docker, called &amp;laquo;grid and guides&amp;raquo;. The grid tab replaces the toolbox&amp;rsquo;s grid tool. Is it a more flexible version of it. The guides, however, are brand new. They are horizontal or vertical lines that you can place wherever you want on the canvas. You can then use them as a reference to lay your layers out accurately.&lt;/p&gt;
 
 &lt;p&gt;The guides are not too interesting in themselves. That&amp;rsquo;s why snapping was also implemented. If you press shift S on your document, a drop-down menu will pop up. It lists a handful of snapping options for you to toggle on or off. Snapping works with grid and guides, but it doesn&amp;rsquo;t end there. It also works with vector shapes, with the geometric tools, with the free transform tool, and more. It doesn&amp;rsquo;t work in every situation just yet, but this opens up a whole new range of possibilities within Krita.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-port-to-qt-5-and-kde-frameworks-5:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;The port to Qt 5 and KDE frameworks 5&lt;/h3&gt;
+&lt;h3 id=&#34;the-port-to-qt-5-and-kde-frameworks-5&#34;&gt;The port to Qt 5 and KDE frameworks 5&lt;/h3&gt;
 
 &lt;p&gt;Under the hood, Krita&amp;rsquo;s code went through major changes. The developers ported the program to Qt 5 and the KDE frameworks 5. These popular code libraries power Krita&amp;rsquo;s interface. They are part of the application&amp;rsquo;s foundations. The port was a massive task, but it will give the team a stable ground for future updates.&lt;/p&gt;
 
@@ -252,21 +252,21 @@
 &lt;/span&gt;
 
 
-&lt;h2 id=&#34;smaller-features:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;We&amp;rsquo;re not done yet! &lt;small&gt;11 smaller new features&lt;/small&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;smaller-features&#34;&gt;We&amp;rsquo;re not done yet! &lt;small&gt;11 smaller new features&lt;/small&gt;&lt;/h2&gt;
 
 &lt;p&gt;That&amp;rsquo;s it for the big additions to Krita 3. But we are not done yet. There is a lot more we need to cover. A lot of small, welcome new features that add up to turn Krita into a better application all-round.&lt;/p&gt;
 
-&lt;h3 id=&#34;new-tablet-support-code:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;New tablet support code&lt;/h3&gt;
+&lt;h3 id=&#34;new-tablet-support-code&#34;&gt;New tablet support code&lt;/h3&gt;
 
 &lt;p&gt;As I told you in the introduction, the tablet code has been rewritten from scratch. Krita 2.9 would just not recognize a variety of tablets. Version 3, on the other hand, already supports more devices. Especially Wacom alternatives! In case you couldn’t use your tablet in the previous version, you should definitely give it a try again.&lt;/p&gt;
 
-&lt;h3 id=&#34;improved-layer-picking-and-move-tools:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved layer picking and move tools&lt;/h3&gt;
+&lt;h3 id=&#34;improved-layer-picking-and-move-tools&#34;&gt;Improved layer picking and move tools&lt;/h3&gt;
 
 &lt;p&gt;You can now pick multiple layers at the same time with the R key. Just keep the Shift key down and click on the canvas to add layers to your selection. You can also drag your cursor across the document with both the R and the Shift keys down, and Krita will pick all of the layers under your cursor.&lt;/p&gt;
 
 &lt;p&gt;The move tool got some love as well. You can now nudge your selection around with the arrow keys. If you keep the Shift key down and press an arrow, your layer will move by 10 pixels in the direction of your choice. Without Shift, it will move in one pixel increments.&lt;/p&gt;
 
-&lt;h3 id=&#34;new-ui-for-the-assistants:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;New UI for the assistants&lt;/h3&gt;
+&lt;h3 id=&#34;new-ui-for-the-assistants&#34;&gt;New UI for the assistants&lt;/h3&gt;
 
 &lt;p&gt;The assistants now have a little widget attached to them to control each and every instance separately. The little UI elements move along with the origin of the assistants to help you keep track of them more easily.&lt;/p&gt;
 
@@ -288,7 +288,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;improved-keyboard-shortcuts-editor:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved keyboard shortcuts editor&lt;/h3&gt;
+&lt;h3 id=&#34;improved-keyboard-shortcuts-editor&#34;&gt;Improved keyboard shortcuts editor&lt;/h3&gt;
 
 &lt;p&gt;The keyboard shortcut editor has moved to Krita&amp;rsquo;s preferences. It sits next to the &amp;laquo;Canvas Input Settings&amp;raquo;, where you can edit all canvas related shortcuts. It feels more natural to edit all of the program&amp;rsquo;s options in that unique pop up window.&lt;/p&gt;
 
@@ -302,11 +302,11 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;gradient-mapping:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gradient mapping&lt;/h3&gt;
+&lt;h3 id=&#34;gradient-mapping&#34;&gt;Gradient mapping&lt;/h3&gt;
 
 &lt;p&gt;You can now do quick split toning with the gradient map filter! It was not planned for this release, and it is still a work in progress. The filter doesn&amp;rsquo;t take advantage of the instant preview yet. It is not available as a filter layer, and it doesn&amp;rsquo;t preserve your layer&amp;rsquo;s alpha channel. But I&amp;rsquo;m sure game artists will love the addition regardless!&lt;/p&gt;
 
-&lt;h3 id=&#34;greater-blending-mode:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Greater blending mode&lt;/h3&gt;
+&lt;h3 id=&#34;greater-blending-mode&#34;&gt;Greater blending mode&lt;/h3&gt;
 
 &lt;p&gt;There is a new blending mode in the &amp;laquo;mix&amp;raquo; category, humbly named Greater. I&amp;rsquo;ve never seen something like that in another painting program, but you know what? It&amp;rsquo;s great! With the pixel brush engine, overlapping transparent strokes look ugly in normal mode. They don&amp;rsquo;t blend smoothly, but that&amp;rsquo;s how normal blending works.&lt;/p&gt;
 
@@ -330,7 +330,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
+&lt;h3 id=&#34;gimp-brushes-support-loading-and-saving&#34;&gt;Gimp brushes support (loading and saving)&lt;/h3&gt;
 
 &lt;p&gt;You can now both load and save animated brush tips using Gimp&amp;rsquo;s GIH format. This works a bit like importing Photoshop&amp;rsquo;s ABR files: Krita will load the brush tip and add it to your library. For this to work, you have to use the &amp;laquo;Import Resources&amp;raquo; button in the brush preset editor. If your Gimp file contains multiple layers, you&amp;rsquo;ll be able to import them as an animated brush tip.&lt;/p&gt;
 
@@ -352,7 +352,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;improved-pop-up-palette:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Improved pop-up palette&lt;/h3&gt;
+&lt;h3 id=&#34;improved-pop-up-palette&#34;&gt;Improved pop-up palette&lt;/h3&gt;
 
 &lt;p&gt;The pop-up palette got a little polish in this version. The brush icons are now displayed as circles, so they&amp;rsquo;ll always show most of the preset&amp;rsquo;s thumbnail. They also automatically resize based on the amount of brushes you want to display. It is easier to pick the right brush among a dozen or more now!&lt;/p&gt;
 
@@ -374,7 +374,7 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;stable-and-faster-gmic-on-windows:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Stable and faster GMIC on windows&lt;/h3&gt;
+&lt;h3 id=&#34;stable-and-faster-gmic-on-windows&#34;&gt;Stable and faster GMIC on windows&lt;/h3&gt;
 
 &lt;p&gt;GMIC, the open source image processor, is now stable on Windows. No more violent crashes! Not only that, it now uses all of your CPU threads for rendering, thus it is much faster.&lt;/p&gt;
 
@@ -382,11 +382,11 @@
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YigbVY9s6gU&#34;&gt;Krita 2.9 tutorial - Gmic colorize by David Revoy&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;import-and-export-pdf-windows:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Import and export PDF (Windows)&lt;/h3&gt;
+&lt;h3 id=&#34;import-and-export-pdf-windows&#34;&gt;Import and export PDF (Windows)&lt;/h3&gt;
 
 &lt;p&gt;This was already possible on Linux, but not on Microsoft&amp;rsquo;s operating system. In Krita 3, you can both load and export PDF files on Windows.&lt;/p&gt;
 
-&lt;h3 id=&#34;windows-shell-extension:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Windows shell extension&lt;/h3&gt;
+&lt;h3 id=&#34;windows-shell-extension&#34;&gt;Windows shell extension&lt;/h3&gt;
 
 &lt;p&gt;Another great addition for Windows users is the new shell extension. This tiny program gives Windows Explorer the ability to display thumbnails and metadata for your Krita files.&lt;/p&gt;
 
@@ -408,13 +408,13 @@
 &lt;/figure&gt;
 
 
-&lt;h3 id=&#34;and-more:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;And more!&lt;/h3&gt;
+&lt;h3 id=&#34;and-more&#34;&gt;And more!&lt;/h3&gt;
 
 &lt;p&gt;Since May 2015, the development team released 11 updates for Krita 2.9. These brought a wide range of improvements to the program. As you can guess, a lot has changed since last year, to the point where there is just too much to talk about! I made a video a few months ago to highlight some of those changes.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PIKfrqk09Hk&#34;&gt;Krita&amp;rsquo;s New Features since v2.9.5&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;krita-review:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Krita Review: My Verdict after 9 Months&lt;/h2&gt;
+&lt;h2 id=&#34;krita-review&#34;&gt;Krita Review: My Verdict after 9 Months&lt;/h2&gt;
 
 &lt;p&gt;Now you know what Krita 3 has in store for you. But if you have never heard of Krita, or if you barely used it, you might wonder: is it good? Should I give it a try?&lt;/p&gt;
 
@@ -426,7 +426,7 @@
 
 &lt;p&gt;Krita is great when it comes to painting. As far as games are concerned, it is a great tool for character design, environment design and hand-painted textures. Heck, even for animation! If you specialize in one of those fields, I bet you’ll like it! However, right now, it is not the best tool for everything. It is far from ideal when it comes to creating user interface. And you cannot batch export your sprites directly from the program.&lt;/p&gt;
 
-&lt;h3 id=&#34;final-thoughts:b73e0cfc095e70386a472fbd8ffc7132&#34;&gt;Final thoughts&lt;/h3&gt;
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ll be honest: Krita still isn&amp;rsquo;t the ultimate solution for game artists.&lt;/p&gt;
 
@@ -539,11 +539,11 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;!-- CURRENTLY SET TO EMPTY LAYOUT! --&gt;
 
-&lt;h1 id=&#34;intro-to-monster-design-for-2-d-games:10d3d24eeee1a30932586c39e5859d89&#34;&gt;Intro to monster design for 2-D games&lt;/h1&gt;
+&lt;h1 id=&#34;intro-to-monster-design-for-2-d-games&#34;&gt;Intro to monster design for 2-D games&lt;/h1&gt;
 
 &lt;p&gt;The intro to monster design is the first free training released on GDquest. In about 40 minutes, it will &lt;strong&gt;run you through the thought process a game artist might follow to design monsters&lt;/strong&gt;. It both covers the thought process behind the design of a monster and an example of monster drawing with pen, paper and Krita.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-useful-links:10d3d24eeee1a30932586c39e5859d89&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-useful-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  Useful links&lt;/h2&gt;
@@ -574,11 +574,11 @@ text--success
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/hardware/huion-vs-wacom.jpg&#34; alt=&#34;Huion vs Wacom graphic tablet banner&#34; class=&#34;img-responsive&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;recommended-graphic-tablets&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
+&lt;h1 id=&#34;recommended-graphic-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
 
 &lt;p&gt;On this page, you can find a list of the graphic tablets I recommend for &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I used &lt;a href=&#34;http://frenden.com/tagged/review&#34;&gt;Frenden&amp;rsquo;s reviews&lt;/a&gt; as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don&amp;rsquo;t like it. And read reviews on Amazon or on the website you&amp;rsquo;re buying them on.&lt;/p&gt;
 
-&lt;h2 id=&#34;flat-tablets&#34;&gt;Flat tablets&lt;/h2&gt;
+&lt;h2 id=&#34;flat-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Flat tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Flat tablets are perfect for everyone to start with at a low price. Especially students and hobbyists.&lt;/em&gt;&lt;/p&gt;
 
@@ -587,7 +587,7 @@ text--success
 &lt;li&gt;Wacom Intuos Pro Medium or Large (300-500$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;screen-tablets&#34;&gt;Screen tablets&lt;/h2&gt;
+&lt;h2 id=&#34;screen-tablets:fe04af95515442dc424d63ca1b599889&#34;&gt;Screen tablets&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Screen tablets are worth a try if you&amp;rsquo;re an experienced artist already, and you do a lot of line work.&lt;/em&gt;&lt;/p&gt;
 
@@ -597,7 +597,7 @@ text--success
 &lt;li&gt;Wacom Cintiq 13HD (13&amp;raquo; HD screen, 800$)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h2 id=&#34;tips:fe04af95515442dc424d63ca1b599889&#34;&gt;Tips&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Always&lt;/strong&gt; download and install the driver from the manufacturer&amp;rsquo;s official website &lt;strong&gt;before&lt;/strong&gt; you plug your device in! This will save you some trouble.&lt;/li&gt;
@@ -626,10 +626,10 @@ text--success
         &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Get the Krita brushes&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#installation-guide&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
+        &lt;a href=&#34;#installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
+        &lt;a href=&#34;#faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
       &lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -649,7 +649,7 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;blending-paintbrushes&#34;&gt;Blending paintbrushes&lt;/h2&gt;
+&lt;h2 id=&#34;blending-paintbrushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Blending paintbrushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/blending-paintbrushes.png&#34; alt=&#34;Blending paintbrushes thumbnail&#34; /&gt;&lt;/p&gt;
 
@@ -677,7 +677,7 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;smear-brushes&#34;&gt;Smear brushes&lt;/h2&gt;
+&lt;h2 id=&#34;smear-brushes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Smear brushes&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/smear-brushes.png&#34; alt=&#34;Smear brushes thumbnail&#34; /&gt;&lt;/p&gt;
 
@@ -709,7 +709,7 @@ text--success
 &lt;li&gt;Needs practice to master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thumbnails&#34;&gt;Thumbnails&lt;/h2&gt;
+&lt;h2 id=&#34;thumbnails:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Thumbnails&lt;/h2&gt;
 
 &lt;p&gt;The brush thumbnails are color-coded and follow Krita’s guidelines.&lt;/p&gt;
 
@@ -733,7 +733,7 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h1 id=&#34;installation-guide&#34;&gt;Installation guide&lt;/h1&gt;
+&lt;h1 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation guide&lt;/h1&gt;
 
 &lt;p&gt;&lt;i class=&#34;my-fa fa-arrow-right
 text--info
@@ -765,9 +765,9 @@ text--info
 
 &lt;hr&gt;
 
-&lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h2 id=&#34;faq:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
+&lt;h4 id=&#34;hugoshortcode-7-why-are-there-no-fx-preset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-question-circle
 text--info
  text--inherit&#34;&gt;&lt;/i&gt;
  Why are there no FX preset?&lt;/h4&gt;
@@ -909,7 +909,7 @@ text--success
 
 &lt;p&gt;This course was made possible thanks to the pledges of 424 backers on Kickstarter.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugoshortcode-1-links:fed1aa4ca3320a3365f9f3ccac8d3d0b&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2 id=&#34;hugoshortcode-1-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  Links&lt;/h2&gt;
@@ -1191,7 +1191,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
 &lt;div row&gt;
   &lt;ul class=&#34;group&#34;&gt;
     &lt;li class=&#34;group-item&#34;&gt;
-      &lt;a href=&#34;#training&#34;&gt; &lt;i class=&#34;my-fa fa-book
+      &lt;a href=&#34;#training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt; &lt;i class=&#34;my-fa fa-book
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  The training &lt;/a&gt;
@@ -1220,12 +1220,12 @@ text--success
 &lt;div class=&#34;col-lg-6&#34; &gt;
 
 
-&lt;h2 id=&#34;training&#34;&gt;&lt;i class=&#34;my-fa fa-book
+&lt;h2 id=&#34;training:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;i class=&#34;my-fa fa-book
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
  The training&lt;/h2&gt;
 
-&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
+&lt;h3 id=&#34;free-volume-1-using-krita-as-game-artists:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;[FREE] Volume 1 - Using Krita as game artists&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-free-krita-tutorials.png&#34; alt=&#34;Game Art Quest volume 1 banner - Free Krita tutorials&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
@@ -1261,13 +1261,13 @@ text--success
 
 &lt;hr&gt;
 
-&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-2-painterly-game-art-and-side-scrolling-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 2 - Painterly game art and side-scrolling games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-painterly.png&#34; alt=&#34;Game Art Quest volume 2 banner - painterly art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;In this second training, we will take a closer look at the game creation pipeline from a game artist&amp;rsquo;s standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (&lt;em&gt;Odin Sphere, Muramasa&lt;/em&gt;) and Moon Studios (&lt;em&gt;Ori and the Blind Forest&lt;/em&gt;).&lt;/p&gt;
 
-&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
+&lt;h3 id=&#34;volume-3-cel-shaded-game-art-and-isometric-games:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Volume 3 - Cel shaded game art and isometric games&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;game-art-quest-cel-shaded.png&#34; alt=&#34;Game Art Quest volume 3 banner - Cel shaded art&#34; class=&#34;img-responsive&#34;/&gt;&lt;/p&gt;
 
