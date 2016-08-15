@@ -6,6 +6,8 @@
     <description>Recent content in Tutorials on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Mon, 16 May 2016 20:29:44 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Game art tutorial</title>
       <link>http://gdquest.com/tutorial/</link>
       <pubDate>Mon, 16 May 2016 20:29:44 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/tutorial/</guid>
       <description>&lt;!-- TODO: Sub page like &#34;Krita tutorial series&#34; for SEO --&gt;
 
@@ -27,7 +29,7 @@
       <title>Intro to monster design for 2-D games</title>
       <link>http://gdquest.com/tutorial/monster_design/</link>
       <pubDate>Fri, 15 Apr 2016 15:25:47 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/tutorial/monster_design/</guid>
       <description>
 

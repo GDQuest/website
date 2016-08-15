@@ -6,6 +6,8 @@
     <description>Recent content in Two on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Mon, 16 May 2016 20:29:44 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/tags/two/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Game art tutorial</title>
       <link>http://gdquest.com/tutorial/</link>
       <pubDate>Mon, 16 May 2016 20:29:44 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/tutorial/</guid>
       <description>&lt;!-- TODO: Sub page like &#34;Krita tutorial series&#34; for SEO --&gt;
 

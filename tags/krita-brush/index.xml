@@ -6,6 +6,8 @@
     <description>Recent content in Krita Brush on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Thu, 17 Mar 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://gdquest.com/tags/krita-brush/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,34 +15,40 @@
       <title>Krita brushes for game artists</title>
       <link>http://gdquest.com/krita-brushes-for-game-artists</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
       <description>
 
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
-&lt;section row&gt;
-  &lt;div column=&#34;12&#34;&gt;
+&lt;section row column=&#34;12&#34;&gt;
+  &lt;div &gt;
     &lt;div class=&#34;group lead&#34;&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;i class=&#34;my-fa fa-shopping-cart text--success&#34;&gt;&lt;/i&gt;
-        &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Get the Krita brushes&lt;/a&gt;
+        &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;&lt;i class=&#34;my-fa fa-shopping-cart text--success&#34;&gt;&lt;/i&gt; Get the brushes&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#installation-guide&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
+        &lt;a href=&#34;#installation-guide&#34;&gt;&lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; How to install&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
+        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ&lt;/a&gt;
       &lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/Krita brushes banner 2016-07.jpg&#34; alt=&#34;Krita brushes for game artists thumbnail&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Game Art Quest Krita brush pack was made for the backers of the eponymous &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;Kickstarter campaign&lt;/a&gt;. It is made by a 2d game artist, for game artists. Specifically, for people who create in-game assets. It also works great for digital painters in general.&lt;/p&gt;
 
 &lt;p&gt;It follows a few key concepts. The goal is to help you to work &lt;strong&gt;fast&lt;/strong&gt;, and to allow you to &lt;strong&gt;focus on your art&lt;/strong&gt;. It is a bloat free pack, filled with efficient drawing tools. I favor versatile tools and avoid brush redundancy so you don’t have to keep switching between them to achieve a variety of effects.&lt;/p&gt;
+
+&lt;p&gt;The 4th version contains (&lt;em&gt;July 2016&lt;/em&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;17 original brush presets&lt;/li&gt;
+&lt;li&gt;3 video tutorials&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The presets are dry for the most part, so you can easily apply thick paint on the canvas. Need a softer blending effect? Use the I and O keys to tweak your opacity and make the brushes weaker. I am slowly building the pack as I draw all sorts of game assets and encounter new challenges. That way, I get to use every single preset in my work and to proof-test them in depth.&lt;/p&gt;
 
@@ -168,7 +176,10 @@ text--info
 
 &lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;p&gt;#} Why are there no FX preset?&lt;/p&gt;
+&lt;h4&gt;&lt;i class=&#34;my-fa fa-question-circle
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Why are there no FX preset?&lt;/h4&gt;
 
 &lt;p&gt;The pack doesn’t feature “FX” presets, that is to say variations of existing brushes set to a certain blending mode, to lighten or darken your pixels for instance. All of the most important blending modes have a keyboard shortcut by default in Krita. It is faster to use a key combination than load a different brush preset every time you need to change your blending mode. Also, there are many useful combinations of brush shapes and blending modes. Covering them all would make the set super heavy.&lt;/p&gt;
 </description>

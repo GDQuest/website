@@ -6,6 +6,8 @@
     <description>Recent content in Portfolios on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Fri, 22 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://gdquest.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Portfolio</title>
       <link>http://gdquest.com/portfolio/</link>
       <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/portfolio/</guid>
       <description>&lt;!-- Top pictures --&gt;
 &lt;header&gt;
@@ -42,21 +44,18 @@
         &lt;!-- We make games --&gt;
         &lt;div row&gt;
             &lt;div column=&#34;4&#34;&gt;
-                &lt;i class=&#34;fa fa-3x fa-code text--primary&#34;&gt;&lt;/i&gt;
                 &lt;p&gt;
                     We can answer your need for HTML5 and Unity game development. For Html5, we use
                     &lt;strong&gt;our open source game engine Meta2d&lt;/strong&gt;, offering clean and easy to edit code.
                 &lt;/p&gt;
             &lt;/div&gt;
             &lt;div column=&#34;4&#34;&gt;
-                &lt;i class=&#34;fa fa-3x fa-paint-brush text--primary&#34;&gt;&lt;/i&gt;
                 &lt;p&gt;
                     We design
                     &lt;strong&gt;appealing characters and environments, clear UI elements and polished cut-out animations&lt;/strong&gt; made with Spine or Photoshop to serve your creative vision.
                 &lt;/p&gt;
             &lt;/div&gt;
             &lt;div column=&#34;4&#34;&gt;
-                &lt;i class=&#34;fa fa-3x fa-fw fa-youtube-play text--error&#34;&gt;&lt;/i&gt;
                 &lt;p&gt;
                     We have a library of
                     &lt;strong&gt;dozens of deep and instructive tutorials&lt;/strong&gt; to prove our expertise. Find them all on the &lt;a href=&#34;https://www.youtube.com/c/gdquest&#34;&gt;GDquest youtube channel&lt;/a&gt;.

@@ -6,6 +6,8 @@
     <description>Recent content in Roadmaps on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Thu, 21 Apr 2016 15:59:50 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/roadmap/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,9 +15,10 @@
       <title>Roadmap</title>
       <link>http://gdquest.com/roadmap/</link>
       <pubDate>Thu, 21 Apr 2016 15:59:50 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/roadmap/</guid>
-      <description></description>
+      <description>&lt;p&gt;This page is a Work in Progress.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

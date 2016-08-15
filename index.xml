@@ -6,6 +6,8 @@
     <description>Recent content on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Tue, 28 Jun 2016 11:17:06 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>June update: the Randa meetings</title>
       <link>http://gdquest.com/post/2016/06/kickstarter-news-june/</link>
       <pubDate>Tue, 28 Jun 2016 11:17:06 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/06/kickstarter-news-june/</guid>
       <description>
 
@@ -69,7 +71,7 @@
       <title>May update: Krita brushes and ConciseCSS</title>
       <link>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</link>
       <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
       <description>
 
@@ -146,7 +148,7 @@
       <title>Game art tutorial</title>
       <link>http://gdquest.com/tutorial/</link>
       <pubDate>Mon, 16 May 2016 20:29:44 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/tutorial/</guid>
       <description>&lt;!-- TODO: Sub page like &#34;Krita tutorial series&#34; for SEO --&gt;
 
@@ -160,7 +162,7 @@
       <title>What’s New in Krita 3.0? Krita Review</title>
       <link>http://gdquest.com/new-features-in-krita-3</link>
       <pubDate>Mon, 09 May 2016 17:49:09 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/new-features-in-krita-3</guid>
       <description>
 
@@ -513,7 +515,7 @@ Krita 3 is coming out at the end of the month. However, it is already out in Bet
       <title>Game Art Quest Vol. 1</title>
       <link>http://gdquest.com/game-art-quest/volume-1/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/game-art-quest/volume-1/</guid>
       <description>&lt;p&gt;This page is the roadmap for game art quest volume 1, a video training dedicated to Krita for 2-D game artists.&lt;/p&gt;
 
@@ -527,16 +529,17 @@ Krita 3 is coming out at the end of the month. However, it is already out in Bet
       <title>Roadmap</title>
       <link>http://gdquest.com/roadmap/</link>
       <pubDate>Thu, 21 Apr 2016 15:59:50 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/roadmap/</guid>
-      <description></description>
+      <description>&lt;p&gt;This page is a Work in Progress.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Hugo Tips: Concatenate paths with variables</title>
       <link>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</link>
       <pubDate>Wed, 20 Apr 2016 09:34:58 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt; This tutorial is a post I initially wrote on the &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; forums. Hugo is the static website generator that powers GDquest.
 It is a really flexible and elegant system, based on Google&amp;rsquo;s Go programming language. Sometimes, it is a bit hard to use for a non-tech-savvy user. So I decided to share some tips on things that got me stuck at some point. &lt;/span&gt;&lt;/p&gt;
@@ -589,7 +592,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
       <title>Intro to monster design for 2-D games</title>
       <link>http://gdquest.com/tutorial/monster_design/</link>
       <pubDate>Fri, 15 Apr 2016 15:25:47 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/tutorial/monster_design/</guid>
       <description>
 
@@ -621,7 +624,7 @@ text--success
       <title>Recommended graphic tablets</title>
       <link>http://gdquest.com/post/recommended-graphic-tablets/</link>
       <pubDate>Wed, 23 Mar 2016 10:08:53 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/recommended-graphic-tablets/</guid>
       <description>
 
@@ -665,34 +668,40 @@ text--success
       <title>Krita brushes for game artists</title>
       <link>http://gdquest.com/krita-brushes-for-game-artists</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
       <description>
 
 &lt;!-- PAGE INNER NAVIGATION --&gt;
 
-&lt;section row&gt;
-  &lt;div column=&#34;12&#34;&gt;
+&lt;section row column=&#34;12&#34;&gt;
+  &lt;div &gt;
     &lt;div class=&#34;group lead&#34;&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;i class=&#34;my-fa fa-shopping-cart text--success&#34;&gt;&lt;/i&gt;
-        &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Get the Krita brushes&lt;/a&gt;
+        &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;&lt;i class=&#34;my-fa fa-shopping-cart text--success&#34;&gt;&lt;/i&gt; Get the brushes&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#installation-guide&#34;&gt; &lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; Installation guide &lt;/a&gt;
+        &lt;a href=&#34;#installation-guide&#34;&gt;&lt;i class=&#34;my-fa fa-file text-info&#34;&gt;&lt;/i&gt; How to install&lt;/a&gt;
       &lt;/span&gt;
       &lt;span class=&#34;group-item&#34;&gt;
-        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ &lt;/a&gt;
+        &lt;a href=&#34;#faq&#34;&gt; &lt;i class=&#34;my-fa fa-question-circle text-info&#34;&gt;&lt;/i&gt; FAQ&lt;/a&gt;
       &lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/thumbnail-pack 0-1.png&#34; alt=&#34;GAQ Krita brushes thumbnail&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/Krita brushes banner 2016-07.jpg&#34; alt=&#34;Krita brushes for game artists thumbnail&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Game Art Quest Krita brush pack was made for the backers of the eponymous &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;Kickstarter campaign&lt;/a&gt;. It is made by a 2d game artist, for game artists. Specifically, for people who create in-game assets. It also works great for digital painters in general.&lt;/p&gt;
 
 &lt;p&gt;It follows a few key concepts. The goal is to help you to work &lt;strong&gt;fast&lt;/strong&gt;, and to allow you to &lt;strong&gt;focus on your art&lt;/strong&gt;. It is a bloat free pack, filled with efficient drawing tools. I favor versatile tools and avoid brush redundancy so you don’t have to keep switching between them to achieve a variety of effects.&lt;/p&gt;
+
+&lt;p&gt;The 4th version contains (&lt;em&gt;July 2016&lt;/em&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;17 original brush presets&lt;/li&gt;
+&lt;li&gt;3 video tutorials&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The presets are dry for the most part, so you can easily apply thick paint on the canvas. Need a softer blending effect? Use the I and O keys to tweak your opacity and make the brushes weaker. I am slowly building the pack as I draw all sorts of game assets and encounter new challenges. That way, I get to use every single preset in my work and to proof-test them in depth.&lt;/p&gt;
 
@@ -820,7 +829,10 @@ text--info
 
 &lt;h2 id=&#34;faq&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
 
-&lt;p&gt;#} Why are there no FX preset?&lt;/p&gt;
+&lt;h4&gt;&lt;i class=&#34;my-fa fa-question-circle
+text--info
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Why are there no FX preset?&lt;/h4&gt;
 
 &lt;p&gt;The pack doesn’t feature “FX” presets, that is to say variations of existing brushes set to a certain blending mode, to lighten or darken your pixels for instance. All of the most important blending modes have a keyboard shortcut by default in Krita. It is faster to use a key combination than load a different brush preset every time you need to change your blending mode. Also, there are many useful combinations of brush shapes and blending modes. Covering them all would make the set super heavy.&lt;/p&gt;
 </description>
@@ -830,7 +842,7 @@ text--info
       <title>GDquest news and Krita 3.0 pre-alpha 3</title>
       <link>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</link>
       <pubDate>Wed, 16 Mar 2016 08:25:29 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</guid>
       <description>
 
@@ -884,67 +896,10 @@ text--info
     </item>
     
     <item>
-      <title>Game Art Quest volume 1</title>
-      <link>http://gdquest.com/game-art-quest/volume-1/course/</link>
-      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
-      
-      <guid>http://gdquest.com/game-art-quest/volume-1/course/</guid>
-      <description>&lt;p&gt;Welcome to the course! This page is hidden on the website. It is not protected, as it will be released publicly eventually. But as you made the campaign possible, you get to see the videos before everybody else.&lt;/p&gt;
-
-&lt;p&gt;The page is a continuous work in progress. If you have any questions, comments and suggestions, either contact me or comment on the Youtube videos!&lt;/p&gt;
-
-&lt;p&gt;#} Links&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;my-fa fa-facebook
-text--info
- text--inherit&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34;&gt;Facebook study group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;my-fa fa-paint-brush
-text--info
- text--inherit&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://gdquest.com/krita-brushes-for-game-artists&#34;&gt;GAQ Krita brush pack&lt;/a&gt; &lt;i class=&#34;my-fa fa-shopping-cart
-text--success
- text--inherit&#34;&gt;&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pureref.com/&#34;&gt;Pureref&lt;/a&gt; (&lt;em&gt;Win, Mac, Linux&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/picasa/&#34;&gt;Picasa&lt;/a&gt; (&lt;em&gt;Win, Mac, development discontinued&lt;/em&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Extra learning resources&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;my-fa fa-link
-text--info
- text--inherit&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://www.ctrlpaint.com/library/&#34;&gt;CtrlPaint&lt;/a&gt; - Digital art tutorials&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;my-fa fa-link
-text--info
- text--inherit&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;https://www.youtube.com/user/ProkoTV&#34;&gt;Proko&lt;/a&gt; - Human drawing and anatomy courses&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;my-fa fa-book
-text--info
- text--inherit&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;http://louvus.com/&#34;&gt;Digital Painting with Krita 2.9&lt;/a&gt; &lt;i class=&#34;my-fa fa-shopping-cart
-text--success
- text--inherit&#34;&gt;&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Krita tutorial for Game Artists</title>
       <link>http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/</link>
       <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/</guid>
       <description>&lt;p&gt;&lt;strong&gt;If you want to become a better 2-D game artist, this training is for you&lt;/strong&gt;. It will teach you how to work with Krita, a mature open source digital painting program. In 6 chapters, we will explore the most important features krita has to offer to game artists. Cherry on the cake: the tutorials are completely free!&lt;/p&gt;
 
@@ -952,14 +907,10 @@ text--success
 
 &lt;p&gt;This course was made possible thanks to the pledges of 424 backers on Kickstarter.&lt;/p&gt;
 
-&lt;p&gt;#} Links&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Krita&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;&lt;i class=&#34;my-fa fa-link
+&lt;h2&gt;&lt;i class=&#34;my-fa fa-link
 text--default
  text--inherit&#34;&gt;&lt;/i&gt;
- Krita&amp;rsquo;s May 2016 Kickstarter: Let&amp;rsquo;s make vector and text awesome!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+ Links&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;GDquest&lt;/strong&gt;&lt;/p&gt;
 
@@ -1007,10 +958,32 @@ text--success
     </item>
     
     <item>
+      <title>The training has moved!</title>
+      <link>http://gdquest.com/game-art-quest/volume-1/course/</link>
+      <pubDate>Mon, 08 Feb 2016 17:55:44 +0100</pubDate>
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
+      <guid>http://gdquest.com/game-art-quest/volume-1/course/</guid>
+      <description>
+
+&lt;p&gt;Hi! If you&amp;rsquo;re here, you&amp;rsquo;re certainly a backer of the &lt;a href=&#34;https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita&#34;&gt;Game Art Quest&lt;/a&gt; Kickstarter campaign.&lt;/p&gt;
+
+&lt;p&gt;I moved the course to &lt;a href=&#34;https://gumroad.com/l/krita-tutorial-for-game-artists&#34;&gt;Gumroad&lt;/a&gt;, the same place where you got your premium brushes. Thanks to that change, you can now download the tutorials to watch offline! I sent &lt;strong&gt;your personal coupon code via email&lt;/strong&gt; so you can get an instant free access.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-redeem-your-coupon&#34;&gt;How to redeem your coupon&lt;/h2&gt;
+
+&lt;p&gt;In the email, you will find a link that will automatically apply your coupon for you. The price of the product should be crossed and replaced with &amp;laquo;€0&amp;raquo;. Click the &amp;laquo;I want this!&amp;raquo; button and enter your email address to add the course to your Gumroad library.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Course/GAQ/krita-tutorial-coupon-redeem.jpg&#34; alt=&#34;Coupon code redeem example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There you go, you can now stream the videos directly on Gumroad or download them all to watch later!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Portfolio</title>
       <link>http://gdquest.com/portfolio/</link>
       <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/portfolio/</guid>
       <description>&lt;!-- Top pictures --&gt;
 &lt;header&gt;
@@ -1039,21 +1012,18 @@ text--success
         &lt;!-- We make games --&gt;
         &lt;div row&gt;
             &lt;div column=&#34;4&#34;&gt;
-                &lt;i class=&#34;fa fa-3x fa-code text--primary&#34;&gt;&lt;/i&gt;
                 &lt;p&gt;
                     We can answer your need for HTML5 and Unity game development. For Html5, we use
                     &lt;strong&gt;our open source game engine Meta2d&lt;/strong&gt;, offering clean and easy to edit code.
                 &lt;/p&gt;
             &lt;/div&gt;
             &lt;div column=&#34;4&#34;&gt;
-                &lt;i class=&#34;fa fa-3x fa-paint-brush text--primary&#34;&gt;&lt;/i&gt;
                 &lt;p&gt;
                     We design
                     &lt;strong&gt;appealing characters and environments, clear UI elements and polished cut-out animations&lt;/strong&gt; made with Spine or Photoshop to serve your creative vision.
                 &lt;/p&gt;
             &lt;/div&gt;
             &lt;div column=&#34;4&#34;&gt;
-                &lt;i class=&#34;fa fa-3x fa-fw fa-youtube-play text--error&#34;&gt;&lt;/i&gt;
                 &lt;p&gt;
                     We have a library of
                     &lt;strong&gt;dozens of deep and instructive tutorials&lt;/strong&gt; to prove our expertise. Find them all on the &lt;a href=&#34;https://www.youtube.com/c/gdquest&#34;&gt;GDquest youtube channel&lt;/a&gt;.
@@ -1145,9 +1115,11 @@ text--success
       <title>About</title>
       <link>http://gdquest.com/about/</link>
       <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/about/</guid>
       <description>
+
+&lt;!-- menu: main --&gt;
 
 &lt;div class=&#34;media&#34;&gt;
   &lt;div class=&#34;media-left&#34;&gt;

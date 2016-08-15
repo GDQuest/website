@@ -6,6 +6,8 @@
     <description>Recent content in Development on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Wed, 20 Apr 2016 09:34:58 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/category/development/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Hugo Tips: Concatenate paths with variables</title>
       <link>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</link>
       <pubDate>Wed, 20 Apr 2016 09:34:58 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt; This tutorial is a post I initially wrote on the &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; forums. Hugo is the static website generator that powers GDquest.
 It is a really flexible and elegant system, based on Google&amp;rsquo;s Go programming language. Sometimes, it is a bit hard to use for a non-tech-savvy user. So I decided to share some tips on things that got me stuck at some point. &lt;/span&gt;&lt;/p&gt;

@@ -6,6 +6,8 @@
     <description>Recent content in News on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Mon, 30 May 2016 13:11:19 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/category/news/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>May update: Krita brushes and ConciseCSS</title>
       <link>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</link>
       <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
       <description>
 

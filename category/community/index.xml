@@ -6,6 +6,8 @@
     <description>Recent content in Community on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Tue, 28 Jun 2016 11:17:06 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/category/community/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>June update: the Randa meetings</title>
       <link>http://gdquest.com/post/2016/06/kickstarter-news-june/</link>
       <pubDate>Tue, 28 Jun 2016 11:17:06 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/06/kickstarter-news-june/</guid>
       <description>
 
@@ -69,7 +71,7 @@
       <title>Vote for future free tutorials! 2016</title>
       <link>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</link>
       <pubDate>Mon, 11 Jan 2016 09:16:10 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</guid>
       <description>
 

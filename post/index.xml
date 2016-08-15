@@ -6,6 +6,8 @@
     <description>Recent content in Posts on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
+    <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
+    <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
     <lastBuildDate>Tue, 28 Jun 2016 11:17:06 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>June update: the Randa meetings</title>
       <link>http://gdquest.com/post/2016/06/kickstarter-news-june/</link>
       <pubDate>Tue, 28 Jun 2016 11:17:06 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/06/kickstarter-news-june/</guid>
       <description>
 
@@ -69,7 +71,7 @@
       <title>May update: Krita brushes and ConciseCSS</title>
       <link>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</link>
       <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
       <description>
 
@@ -146,7 +148,7 @@
       <title>What’s New in Krita 3.0? Krita Review</title>
       <link>http://gdquest.com/new-features-in-krita-3</link>
       <pubDate>Mon, 09 May 2016 17:49:09 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/new-features-in-krita-3</guid>
       <description>
 
@@ -499,7 +501,7 @@ Krita 3 is coming out at the end of the month. However, it is already out in Bet
       <title>Hugo Tips: Concatenate paths with variables</title>
       <link>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</link>
       <pubDate>Wed, 20 Apr 2016 09:34:58 +0200</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/programming/hugo-tips-concat-node-paths-variable/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt; This tutorial is a post I initially wrote on the &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; forums. Hugo is the static website generator that powers GDquest.
 It is a really flexible and elegant system, based on Google&amp;rsquo;s Go programming language. Sometimes, it is a bit hard to use for a non-tech-savvy user. So I decided to share some tips on things that got me stuck at some point. &lt;/span&gt;&lt;/p&gt;
@@ -552,7 +554,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
       <title>Recommended graphic tablets</title>
       <link>http://gdquest.com/post/recommended-graphic-tablets/</link>
       <pubDate>Wed, 23 Mar 2016 10:08:53 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/recommended-graphic-tablets/</guid>
       <description>
 
@@ -596,7 +598,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
       <title>GDquest news and Krita 3.0 pre-alpha 3</title>
       <link>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</link>
       <pubDate>Wed, 16 Mar 2016 08:25:29 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</guid>
       <description>
 
@@ -653,7 +655,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
       <title>Vote for future free tutorials! 2016</title>
       <link>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</link>
       <pubDate>Mon, 11 Jan 2016 09:16:10 +0100</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/</guid>
       <description>
 
@@ -747,7 +749,7 @@ In this series, we&amp;rsquo;ll cover the basics of 2d game development with God
       <title>Phaser auto completion in Atom</title>
       <link>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</link>
       <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
-      
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/programming/phaser-auto-completion-in-atom/</guid>
       <description>
 
