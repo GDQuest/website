@@ -9,6 +9,11 @@
   // padding: unitSize(2);
   overflow: hidden;
   position: relative;
+
+  h3 {
+    margin-top:0;
+    margin-bottom: unitSize(2);
+  }
 }
 
 .card-image {
@@ -20,7 +25,7 @@
 }
 
 .card-content {
-  padding: 0 unitSize(2) unitSize(2) unitSize(2);
+  padding: unitSize(2);
 }
 
 // .card-content { padding: unitSize(2) 1.5em; }

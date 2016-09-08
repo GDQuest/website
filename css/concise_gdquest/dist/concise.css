@@ -1047,13 +1047,16 @@ body {
   margin-bottom: 32px;
   overflow: hidden;
   position: relative; }
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 16px; }
 
 .card-image {
   float: left;
   padding: 16px; }
 
 .card-content {
-  padding: 0 16px 16px 16px; }
+  padding: 16px; }
 
 .lead {
   font-size: 18px;
