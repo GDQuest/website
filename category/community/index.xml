@@ -8,64 +8,8 @@
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Tue, 28 Jun 2016 11:17:06 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jan 2016 09:16:10 +0100</lastBuildDate>
     <atom:link href="http://gdquest.com/category/community/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>June update: the Randa meetings</title>
-      <link>http://gdquest.com/post/2016/06/kickstarter-news-june/</link>
-      <pubDate>Tue, 28 Jun 2016 11:17:06 +0200</pubDate>
-      <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/2016/06/kickstarter-news-june/</guid>
-      <description>
-
-&lt;p&gt;We&amp;rsquo;re getting to the end of June. It&amp;rsquo;s time to sum up all that&amp;rsquo;s been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3&amp;rsquo;s new features in the &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/&#34;&gt;Krita training&lt;/a&gt;. You can find more details about what happened in Randa, and what the plans are for July, below.&lt;/p&gt;
-
-&lt;h2 id=&#34;randa&#34;&gt;Randa&lt;/h2&gt;
-
-&lt;p&gt;From June 13 to 19, I was in Randa, KDE&amp;rsquo;s biggest yearly sprint. KDE is a large community of free software developers and users. Krita is part of it, and it&amp;rsquo;s certainly the most popular multiplatform KDE program today. Sadly, no one else from the team could make it to the sprint this year. They ran a hectic Kickstarter in May, and boud, Krita&amp;rsquo;s maintainer, had too much work to do the trip.&lt;/p&gt;
-
-&lt;p&gt;Randa was an amazing experience for me. There, I didn&amp;rsquo;t get to produce Krita tutorials. I mostly jumped around projects, learned about the whole KDE ecosystem, and helped with communication and UX design. It&amp;rsquo;s incredible to get in touch with so many cultures at once. People came from all around the world. There was Joseph, from Kenya, who came to port KDEnlive on Windows. Lays and Ayrton, from Brazil, working on an open 3d printing program. Developers from India, Germany, Denmark&amp;hellip; you name it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/06/Randa-meetings-work-discussions.jpg&#34; alt=&#34;KDE Randa meetings: developers discussions&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;All those people are so different&amp;hellip; and yet they all work together to hopefully make the computer world a slightly better place. There was such a strong ambience there that we all worked very hard. I was up around 7:00 every morning, and went off to bed at 23:00. I spent the vast majority of the day working. And it was pretty much the same for everybody else.&lt;/p&gt;
-
-&lt;p&gt;The village we stayed at itself was peaceful and lovely. A perfect, undistracted place to both focus and relax.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/06/Randa-view-2.jpg&#34; alt=&#34;Randa view of the mountains&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The view was gorgeous from my office&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;time-to-make-some-money-again&#34;&gt;Time to make some money again&lt;/h2&gt;
-
-&lt;p&gt;As I told you in a previous update, Game Art Quest became bigger than what it was supposed to be. With the Kickstarter, we raised enough money for six months of full-time work.&lt;/p&gt;
-
-&lt;p&gt;These six months are getting to an end, so I have to make a bit of money again. I&amp;rsquo;m getting new offers on a weekly basis, but until now, I almost declined them all. However, I accepted one job writing Krita tutorials for a magazine this month. It is a great opportunity as they asked me to work on animation, which I haven&amp;rsquo;t covered yet in the training, thus it&amp;rsquo;s not distracting me from daily work too much.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m looking to start working on and selling the next 2 volumes of the training in early access at the end of July. If I sell enough, I&amp;rsquo;ll be able to keep working full-time on it. Otherwise, I&amp;rsquo;ll dedicate one day per week to client work, which shouldn&amp;rsquo;t slow down the production of the training noticeably.&lt;/p&gt;
-
-&lt;h2 id=&#34;one-video-a-week&#34;&gt;One video a week&lt;/h2&gt;
-
-&lt;p&gt;It&amp;rsquo;s summer time in here. The hot weather is back, and people are taking time off. I&amp;rsquo;m not! I&amp;rsquo;ll be here all summer long, working at the same pace. However, now that the tutorial series covering Krita 3&amp;rsquo;s new features is out, we&amp;rsquo;re going to move back to a rhythm of 1 tutorial per week on the channel. This will give me more time to improve the GDquest Blender add-on, and to prepare the &lt;a href=&#34;http://gdquest.com/post/community/vote-for-upcoming-tutorials-january-2016/&#34;&gt;future series&lt;/a&gt; coming to the channel.&lt;/p&gt;
-
-&lt;h2 id=&#34;this-week&#34;&gt;This week&lt;/h2&gt;
-
-&lt;p&gt;To wrap up June, I have to release a brush pack update. This new version will contain 4 new brushes, and I painted a new thumbnail for the blender brush, as the current one looks horrible.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/06/Flat-blender-brush.jpg&#34; alt=&#34;New flat blender brush icon&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, I&amp;rsquo;m working on the fourth chapter in the Krita training, to release it as soon as possible. It will introduce you to the game assets creation workflow. As soon as it is out, I will move on to the second volume of the training, which you will be able to access on Gumroad.&lt;/p&gt;
-
-&lt;p&gt;Moving into July, I have to get working again on the blender of VSE add-on. It is one of the main ways I can improve my productivity creating the video tutorials now. My goal is to add one new feature every single week, even if it&amp;rsquo;s small. This week for instance, I&amp;rsquo;m working on an import feature that loads all of the project&amp;rsquo;s video and audio files to the VSE in one click. As I get to create up to six videos in a single week, this feature will be a real time saver. And with that, I&amp;rsquo;ll be able to release the first public version of the add-on.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/06/blender-vse-add-on-code.png&#34; alt=&#34;Blender GDquest VSE add-on import code&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The import code is already there - it just needs to be refined&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;That said, it&amp;rsquo;s time to get back to work! Thank you all for reading. Thank you for constant support and your kind words. I read all of your comments on Youtube, on social networks, and the messages you send me via email. It&amp;rsquo;s really heartwarming to see some of you following everything that&amp;rsquo;s happening on a weekly basis. Big thanks!&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Vote for future free tutorials! 2016</title>

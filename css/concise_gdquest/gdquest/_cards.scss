@@ -4,16 +4,23 @@
 
 .card {
   background-color: getColor(background, light);
-  border: 1px solid getColor(base, lines);
-  margin-bottom: unitSize(2);
-  padding: unitSize(2) 1.5em;
+  // border: 1px solid getColor(base, lines);
+  margin-bottom: unitSize(4);
+  // padding: unitSize(2);
   overflow: hidden;
   position: relative;
 }
 
 .card-image {
   float:left;
-  margin-right: unitSize(2);
+  // margin-right: unitSize(2);
+  // padding-left: unitSize(2);
+  // padding-top: unitSize(2);
+  padding: unitSize(2);
+}
+
+.card-content {
+  padding: 0 unitSize(2) unitSize(2) unitSize(2);
 }
 
 // .card-content { padding: unitSize(2) 1.5em; }

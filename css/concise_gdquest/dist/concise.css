@@ -1044,15 +1044,16 @@ body {
 
 .card {
   background-color: #1f2328;
-  border: 1px solid #e0e0e0;
-  margin-bottom: 16px;
-  padding: 16px 1.5em;
+  margin-bottom: 32px;
   overflow: hidden;
   position: relative; }
 
 .card-image {
   float: left;
-  margin-right: 16px; }
+  padding: 16px; }
+
+.card-content {
+  padding: 0 16px 16px 16px; }
 
 .lead {
   font-size: 18px;
