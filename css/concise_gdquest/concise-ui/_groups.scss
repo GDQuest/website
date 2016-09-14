@@ -24,11 +24,11 @@
   
   &:not(:first-child) { margin: 0 0 0 -1px; }
 
-  &:hover { background-color: getColor(background, light); }
+  &:hover { background-color: getColor(background, dark); }
 
   &:first-child { border-radius: 3px 0 0 3px; }
 
   &:last-child { border-radius: 0 3px 3px 0; }
 
-  &.is-active { background-color: getColor(background, light); }
+  &.is-active { background-color: getColor(background, dark); }
 }

@@ -80,7 +80,7 @@
     transition: background-color $transition-duration;
   	white-space: nowrap;
 
-    &:hover { background-color: getColor(background, light); }
+    &:hover { background-color: getColor(background, dark); }
   }
 }
 

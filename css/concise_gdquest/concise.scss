@@ -32,9 +32,9 @@
 // ADD-ONS
 // CONCISE UI COMPONENTS
 @import 'concise-ui/badges';
-@import 'concise-ui/collections';
+// @import 'concise-ui/collections';
 @import 'concise-ui/dropdowns';
-@import 'concise-ui/groups';
+// @import 'concise-ui/groups';
 @import 'concise-ui/labels';
 @import 'concise-ui/progress';
 
@@ -44,3 +44,5 @@
 @import "gdquest/custom";
 @import "gdquest/nav";
 @import "gdquest/conditional-styling";
+@import 'gdquest/groups';
+@import 'gdquest/collections';

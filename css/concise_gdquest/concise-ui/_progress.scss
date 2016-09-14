@@ -4,7 +4,7 @@
 // Courtesy of Chris Coyier (http://css-tricks.com/css3-progress-bars/)
 
 .progress {
-  background-color: getColor(background, light);
+  background-color: getColor(background, dark);
   border-radius: 3px;
   box-shadow: inset 0 1px 1px rgba(getColor(base, lines), .25);
   box-sizing: initial;

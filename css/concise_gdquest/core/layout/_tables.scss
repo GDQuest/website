@@ -19,12 +19,12 @@ table {
   }
 
   thead {
-    background-color: getColor(background, light);
+    background-color: getColor(background, dark);
     text-align: left;
   }
 
   tfoot {
-    background-color: lighten(getColor(background, light), 2.5%);
+    background-color: lighten(getColor(background, dark), 2.5%);
     border-top: 1px solid getColor(base, lines);
   }
 
@@ -139,20 +139,20 @@ table {
 
 // Fill even
 .table--fillEven {
-  tbody tr:nth-child(even) { background-color: getColor(background, light); }
+  tbody tr:nth-child(even) { background-color: getColor(background, dark); }
 }
 
 // Fill odd
 .table--fillOdd {
-  tbody tr:nth-child(odd) { background-color: getColor(background, light); }
+  tbody tr:nth-child(odd) { background-color: getColor(background, dark); }
 }
 
 // Row hover
 .table--hoverRow {
-  tbody tr:hover { background-color: getColor(background, light); }
+  tbody tr:hover { background-color: getColor(background, dark); }
 }
 
 // Cell hover
 .table--hoverCell {
-  tbody td:hover { background-color: getColor(background, light); }
+  tbody td:hover { background-color: getColor(background, dark); }
 }

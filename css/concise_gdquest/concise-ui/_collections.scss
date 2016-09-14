@@ -19,9 +19,9 @@
 
   &:last-of-type { border-bottom: none; }
 
-  &.is-active { background-color: getColor(background, light); }
+  &.is-active { background-color: getColor(background, dark); }
 }
 
-a.collection-item:hover { background-color: getColor(background, light); }
+a.collection-item:hover { background-color: getColor(background, dark); }
 
 .collection-header { padding: 0 1em; }
