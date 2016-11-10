@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on GDquest</title>
-    <link>http://gdquest.com/category/development/</link>
-    <description>Recent content in Development on GDquest</description>
+    <title>GDquest</title>
+    <link>http://gdquest.com/category/development/index.xml</link>
+    <description>Recent content on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Wed, 20 Apr 2016 09:34:58 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/category/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

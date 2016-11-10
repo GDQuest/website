@@ -1,15 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on GDquest</title>
-    <link>http://gdquest.com/post/</link>
-    <description>Recent content in Posts on GDquest</description>
+    <title>Post-rsses on GDquest</title>
+    <link>http://gdquest.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Wed, 28 Sep 2016 08:24:05 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 09 Nov 2016 20:16:29 +0100</lastBuildDate>
     <atom:link href="http://gdquest.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Back from japan, back to work</title>
+      <link>http://gdquest.com/post/2016/11/back-from-japan/</link>
+      <pubDate>Wed, 09 Nov 2016 20:16:29 +0100</pubDate>
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
+      <guid>http://gdquest.com/post/2016/11/back-from-japan/</guid>
+      <description>
+
+&lt;p&gt;Yes, I’m back from Japan! Physically at least: my heart is still back there. I’ve been traveling around the country for a bit less than a month, and the experience was incredible. It was a great occasion to practice Japanese and get a better sense for the culture. I’ve read and been told a lot of things before going, and reality felt a lot subtler than what you would expect at first. Some facts were somewhat true, others plain wrong. The collectivism there felt wonderful. The french culture is a lot more individualistic, which is part of what makes me feel like a foreigner here.&lt;/p&gt;
+
+&lt;p&gt;There can be a sheer contrast between Japanese people&amp;rsquo;s behavior during daytime, and at night. When they are tipsy, or even completely drunk, you&amp;rsquo;re up for all sorts of surprises! And it&amp;rsquo;s fine for them to drink way too much and end up sleeping on the sidewalk in larger cities.&lt;/p&gt;
+
+&lt;p&gt;Anyway, Japan is beautiful. And a picture is probably worth a thousand words in that regards:&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/144749747@N03/30581295540/in/album-72157674849188902/&#34; title=&#34;Sunset on Naoshima&#34;&gt;&lt;img src=&#34;https://c5.staticflickr.com/6/5783/30581295540_8642c0298a_b.jpg&#34; width=&#34;1024&#34; height=&#34;576&#34; alt=&#34;Sunset on Naoshima&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve mostly been out hiking, meeting people, making friends&amp;hellip; enjoying the soothing nature. If you ever travel there, I would warmly recommend walking the Kumano Kodo, a pilgrimage route. At least if you’re into trekking. Oh, and when you&amp;rsquo;re on your way down to Tanabe City, be sure stop by Osaka and eat some freshly cooked okonomiyaki with cheese topping. It tastes great!&lt;/p&gt;
+
+&lt;h2 id=&#34;looking-for-a-proper-workplace&#34;&gt;Looking for a proper workplace&lt;/h2&gt;
+
+&lt;p&gt;Alright, let’s get back to the channel. Last week, I wrote a business plan and applied to a local business incubator. It’s a place where you can get an office, along with other young companies. Experienced people follow your work and are here to guide you. If they accept GDquest, this will help the project greatly in the coming year. It is getting hard for me to work at home. I need to get out of here. That’s why I took a few extra days to refine the document: I want - no, I need it to work!&lt;/p&gt;
+
+&lt;h2 id=&#34;upcoming-updates&#34;&gt;Upcoming updates&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s talk about what&amp;rsquo;s coming next on GDquest. As far as free content is concerned, until the end of December, you’ll be getting some more Krita tutorials from the Game Art Quest series. In the meantime, I’ll be hard at work on a few things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The next training product, which is very important, the game art workshop.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The Krita brushes and the Krita training series will get a little bit of love through monthly updates.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I must improve some aspects of the website. In particular, a library page is coming in the next few weeks. It will compile all of the tutorials from the channel in an appealing and organized way.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;And there will still be weekly free videos on the channel. I have to produce some new ones, in parallel to the training products. I&amp;rsquo;ve already prepared the next free series, which will be an introduction to the Godot game engine!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And hopefully we&amp;rsquo;ll find some time to do a few collabs with other artists. We got in touch with Daniel, aka &lt;a href=&#34;https://www.youtube.com/channel/UCGgpthBWDbFX2GSljMw-MdQ&#34;&gt;Borodante&lt;/a&gt; (&lt;em&gt;pronounced Borrrrr-rodante&lt;/em&gt;), and some other tutorial makers.&lt;/p&gt;
+
+&lt;h2 id=&#34;come-chat-with-the-community-on-discord&#34;&gt;Come chat with the community on Discord!&lt;/h2&gt;
+
+&lt;div class=&#34;card clearfix&#34;&gt;
+  &lt;div class=&#34;card-content&#34;&gt;
+    &lt;p&gt;I’ve opened a server on Discord for everyone in the community to join and talk about game creation with open source programs.
+      Whether you just want to drop by and say hi, showcase your artwork or share your knowledge about Krita and Godot, you’re
+      more than welcome!
+    &lt;/p&gt;
+    &lt;p class=&#34;text--center&#34;&gt;
+      &lt;a href=&#34;https://discord.gg/KVaCsSP&#34; class=&#34;button button--pill button--success button--full lead&#34;&gt;Join the Discord server&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;sara-tepes&#34;&gt;Sara Tepes&lt;/h2&gt;
+
+&lt;p&gt;Sara Tepes, a hard-working 17 years old illustrator, talked about GDquest in her last video. I’ve been following her for months now, and her message was heartwarming! So now it’s my turn: if you want to see appealing live Krita demonstrations, check out Sara’s channel on YouTube. She uploads commented time-lapses every week and she already produces very appealing art despite her young age.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCWgMcluGLnaVpCWmscaFs_Q&#34;&gt;Sara Tepes on Youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; style=&#34;max-width:100%&#34; src=&#34;https://www.youtube.com/embed/orgVs2csqbo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;that-said&#34;&gt;That said&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Time to get back to work! I&amp;rsquo;ll upload the Krita brushes update in the coming week (Nov 14-20), as well as a video overview of the new features in Krita 3.1. Yes, a new major release is right around the corner, and among other things, it&amp;rsquo;s going to be the first stable Mac version!&lt;/p&gt;
+
+&lt;p&gt;Thank you for your time!
+Nathan&lt;/p&gt;
+
+&lt;p&gt;PS: If you want to see more shots I took in Japan, click on the picture below. It&amp;rsquo;ll take you to the album on Flickr.&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/144749747@N03/30766469012/in/dateposted-public/&#34; title=&#34;highlights (40 of 44)&#34;&gt;&lt;img src=&#34;https://c5.staticflickr.com/6/5546/30766469012_1a163667d6_b.jpg&#34; width=&#34;1024&#34; height=&#34;576&#34; alt=&#34;highlights (40 of 44)&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Game Art Quest vol1 done! Off to Japan</title>
@@ -293,9 +366,7 @@ text--success
       <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
-      <description>
-
-&lt;p&gt;May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their &lt;a href=&#34;https://www.youtube.com/watch?v=AjIiI8uiVNM&#34;&gt;Kickstarter campaign&lt;/a&gt;&amp;hellip; But I didn&amp;rsquo;t take the time to write longer news posts like this one. Time to share the news for this month!&lt;/p&gt;
+      <description>&lt;p&gt;May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their &lt;a href=&#34;https://www.youtube.com/watch?v=AjIiI8uiVNM&#34;&gt;Kickstarter campaign&lt;/a&gt;&amp;hellip; But I didn&amp;rsquo;t take the time to write longer news posts like this one. Time to share the news for this month! &lt;/p&gt;
 
 &lt;p&gt;Actually, I&amp;rsquo;m still catching up with work, since I got that shoulder injury. Thankfully, I got faster in some areas, especially answering people online, thus I&amp;rsquo;m making good progress. On to the news!&lt;/p&gt;
 
@@ -360,8 +431,7 @@ text--success
 
 &lt;p&gt;&lt;em&gt;Nathan&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;PS: Don&amp;rsquo;t forget the &lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;Krita 2016 Kickstarter&lt;/a&gt;. It ends in 8 days.&lt;/em&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;em&gt;PS: Don&amp;rsquo;t forget the &lt;a href=&#34;https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome&#34;&gt;Krita 2016 Kickstarter&lt;/a&gt;. It ends in 8 days.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -816,10 +886,10 @@ The problem is, we don’t always want to have the page’s author set to Admin.
     
     <item>
       <title>GDquest news and Krita 3.0 pre-alpha 3</title>
-      <link>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</link>
+      <link>http://gdquest.com/post/community/GDquest-news-and-Krita-3/</link>
       <pubDate>Wed, 16 Mar 2016 08:25:29 +0100</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/community/GDquest-news-and-Krita-3.0-pre-alpha/</guid>
+      <guid>http://gdquest.com/post/community/GDquest-news-and-Krita-3/</guid>
       <description>
 
 

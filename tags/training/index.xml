@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Training on GDquest</title>
-    <link>http://gdquest.com/tags/training/</link>
-    <description>Recent content in Training on GDquest</description>
+    <title>GDquest</title>
+    <link>http://gdquest.com/tags/training/index.xml</link>
+    <description>Recent content on GDquest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Fri, 15 Apr 2016 15:25:47 +0200</lastBuildDate>
     <atom:link href="http://gdquest.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,7 +24,10 @@
 
 &lt;p&gt;The intro to monster design is the first free training released on GDquest. In about 40 minutes, it will &lt;strong&gt;run you through the thought process a game artist might follow to design monsters&lt;/strong&gt;. It both covers the thought process behind the design of a monster and an example of monster drawing with pen, paper and Krita.&lt;/p&gt;
 
-&lt;p&gt;#} Useful links&lt;/p&gt;
+&lt;h2 id=&#34;hahahugoshortcode-1hbhb-useful-links&#34;&gt;&lt;i class=&#34;my-fa fa-link
+text--default
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Useful links&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;my-fa fa-facebook
