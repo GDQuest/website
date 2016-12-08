@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section>
+  <header>
+    <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
+  </header>
+
+  <ul class="container content">
+
+    {{ $baseurl := .Site.BaseURL }}
+    {{ $data := .Data }}
+    {{ range $key,$value := .Data.Terms.ByCount }}
+
+    <li>
+      <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}">
+        {{ $value.Name }}
+      </a>
+      <strong>
+        {{ $value.Count }}
+      </strong>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

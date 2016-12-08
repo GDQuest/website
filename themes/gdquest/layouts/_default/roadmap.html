@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+
+<section column=12>
+  {{ if isset .Params "nav" }}
+  <header>
+    {{ partial "modules/post_nav" . }}
+  </header>
+  {{ end }}
+
+    <article row>
+        <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
+
+        {{ .Content }}
+        {{ range .Site.Data.roadmap }}
+          <!-- File level -->
+          {{ if isset . "main_title" }} <h2> {{ .main_title }} </h2> {{ end }}
+          {{ if isset . "main_description" }} <p> {{ .main_description }} </p> {{ end }}
+            {{ range sort .version "desc" }}
+              <h3> Version {{ .id }} </h3>
+              {{ if isset . "description" }} <p> {{ .description }} </p> {{ end }}
+
+              <!-- SECTION TO DO -->
+              {{ range .todo }}
+                <p class="lead"> {{ .title }} </p>
+                <ul>
+
+                <!-- TASK PROGRESS -->
+                {{ $.Scratch.Set "task_count" 0 }}
+                {{ $.Scratch.Set "task_total" 0 }}
+
+                {{ range .tasks }}
+                  {{ range $i, $k := . }}
+                    {{ if eq $i 1 }}
+                      {{ $.Scratch.Add "task_total" 1 }}
+                      {{ if eq $k "1" }}
+                        {{ $.Scratch.Add "task_count" 1 }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+
+                {{ if gt ($.Scratch.Get "task_total") 0 }}
+                  {{ $.Scratch.Set "progress" (div (mul ($.Scratch.Get "task_count") 100) ($.Scratch.Get "task_total")) }}
+                {{ else }}
+                  {{ $.Scratch.Set "progress" 0 }}
+                {{ end }}
+
+                {{ $progress := ($.Scratch.Get "progress") }}
+
+                {{ if gt $progress 0 }}
+                  <div class="progress progress--striped
+                  {{ if lt $progress 100 }}progress--animate{{ end }}">
+                    <span style="width: {{ $progress }}%;" class="{{ if eq ($.Scratch.Get "task_count") ($.Scratch.Get "task_total") }}bg--success{{ else }}bg--primary{{ end }}" role="progressbar" aria-valuenow="{{ $progress }}" aria-valuemin="0" aria-valuemax="100">
+                    </span>
+                  </div>
+                {{ end }}
+
+                {{ range .tasks }}
+                  {{ range $i, $k := . }}
+                    {{ if eq $i 0 }} <li> {{ $k }}{{ end }}
+                    {{ if eq $i 1 }}
+                      {{ if eq $k "1" }}
+                        <i class="my-fa fa-check text--success text--inherit">
+                      {{ end }} </i>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                </ul>
+              {{ end }}
+            {{ end }}
+        {{ end }}
+
+    </article>
+</section>
+
+{{ end }}

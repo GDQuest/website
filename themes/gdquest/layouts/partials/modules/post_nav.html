@@ -1,0 +1,13 @@
+<!-- Inner page navigation -->
+<ul class="group">
+    {{ $.Scratch.Set "count" 1 }}
+
+    {{ range .Params.anchors }}
+    <li class="group-item">
+      <a href="#{{ . }}">
+        {{ $.Scratch.Get "count" }}. {{ title (replace . "-" " ") }}
+      </a>
+    </li>
+    {{ $.Scratch.Add "count" 1 }}
+    {{ end }}
+</ul>

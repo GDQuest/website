@@ -1,0 +1,51 @@
+<style>
+label {
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  cursor: pointer;
+}
+#nav-button {
+  display: none;
+}
+#mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+}
+#nav-button:checked ~ #mobile-menu {
+  max-height: 500px;
+}
+</style>
+
+<header row>
+    <nav class="nav hide--print">
+        <!-- Logo -->
+        <a href="{{.Site.BaseURL}}" class="logo">
+            <img src="{{.Site.BaseURL}}/img/GDquest-brand-image.png" alt="Game Design Quest" />
+        </a>
+
+        <!-- Social links -->
+        <ul class="hide--mobile">
+            {{ $currentNode := . }} {{ range .Site.Menus.main }}
+            <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.social }}
+            <li><a href="{{.link}}" target="_blank"><i class="fa fa-lg fa-fw fa-{{.icon}}"></i></a></li>
+            {{ end }}
+        </ul>
+        
+        <label for="nav-button" class="hide--desktop"> <i class="my-fa fa-lg fa-star"></i></label>
+        <input type="checkbox" id="nav-button" />
+        <div id="mobile-menu">
+            <ul class="hide--desktop">
+                {{ $currentNode := . }} {{ range .Site.Menus.main }}
+                <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="clearfix">
+    </div>
+</header>

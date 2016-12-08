@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "concise-ui",
+      "D:\\Library\\Dropbox\\GDquest.com"
+    ]
+  ],
+  "_from": "concise-ui@*",
+  "_id": "concise-ui@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/concise-ui",
+  "_nodeVersion": "6.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/concise-ui-0.2.0.tgz_1479098102067_0.5496659989003092"
+  },
+  "_npmUser": {
+    "email": "contact@jameskolce.com",
+    "name": "jameskolce"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "concise-ui",
+    "raw": "concise-ui",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/concise-ui/-/concise-ui-0.2.0.tgz",
+  "_shasum": "6152f7a37c213f4d439652e22846c46ad1f5e082",
+  "_shrinkwrap": null,
+  "_spec": "concise-ui",
+  "_where": "D:\\Library\\Dropbox\\GDquest.com",
+  "bugs": {
+    "url": "https://github.com/ConciseCSS/concise-ui/issues"
+  },
+  "dependencies": {},
+  "description": "Basic user interface kit for Concise Framework",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "concise-cli": "^0.4.1",
+    "concise.css": "github:concisecss/concise.css#master",
+    "cssnano-cli": "^1.0.5",
+    "http-server": "^0.9.0",
+    "jake": "^8.0.15",
+    "livereload": "^0.6.0",
+    "stylestats": "^6.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6152f7a37c213f4d439652e22846c46ad1f5e082",
+    "tarball": "https://registry.npmjs.org/concise-ui/-/concise-ui-0.2.0.tgz"
+  },
+  "gitHead": "ad663b2e76d56e2a5409daf90963ba0a373a0a7c",
+  "homepage": "https://github.com/ConciseCSS/concise-ui#readme",
+  "keywords": [
+    "add-on",
+    "concise",
+    "css",
+    "framework",
+    "interface",
+    "kit",
+    "ui",
+    "user"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "jameskolce",
+      "email": "contact@jameskolce.com"
+    }
+  ],
+  "name": "concise-ui",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConciseCSS/concise-ui.git"
+  },
+  "scripts": {
+    "build": "jake build",
+    "start": "jake default",
+    "stats": "stylestats dist/concise-utils.css"
+  },
+  "version": "0.2.0"
+}

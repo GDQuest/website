@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+{{ "<!--[if lt IE 7]>" | safeHTML }} <html class="no-js lt-ie9 lt-ie8 lt-ie7"> {{ "<![endif]-->" | safeHTML }}
+{{ "<!--[if IE 7]>" | safeHTML }} <html class="no-js lt-ie9 lt-ie8"> {{ "<![endif]-->" | safeHTML }}
+{{ "<!--[if IE 8]>" | safeHTML }} <html class="no-js lt-ie9"> {{ "<![endif]-->" | safeHTML }}
+{{ "<!--[if gt IE 8]><!-->" | safeHTML }} <html class="no-js"> {{ "<!--<![endif]-->" | safeHTML }}
+
+  {{ partial "head" . }}
+  <body container>
+    {{ partial "nav" . }}
+      <!-- Promotional banner at the top of the pages -->
+      {{ if and (isset .Site.Params "ad_banner") (ne (index .Site.Params "ad_banner").src "") }} {{ partial "block/ad_banner" . }} {{ end }}
+
+      {{ block "main" . }} {{ end }}
+
+    {{ partial "footer" . }}
+  </body>
+</html>

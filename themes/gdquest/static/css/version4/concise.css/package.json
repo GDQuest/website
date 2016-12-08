@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "concise.css",
+      "D:\\Library\\Dropbox\\GDquest.com"
+    ]
+  ],
+  "_from": "concise.css@*",
+  "_id": "concise.css@4.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/concise.css",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/concise.css-4.0.1.tgz_1479509994262_0.6709361572284251"
+  },
+  "_npmUser": {
+    "email": "contact@jameskolce.com",
+    "name": "jameskolce"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "concise.css",
+    "raw": "concise.css",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/concise.css/-/concise.css-4.0.1.tgz",
+  "_shasum": "50b533947bbd270917f94303a313d49b9254c3fa",
+  "_shrinkwrap": null,
+  "_spec": "concise.css",
+  "_where": "D:\\Library\\Dropbox\\GDquest.com",
+  "bugs": {
+    "url": "https://github.com/ConciseCSS/concise.css/issues"
+  },
+  "dependencies": {},
+  "description": "A lightweight front-end framework that provides functionality without the bloat.",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "concise-cli": "^0.4.1",
+    "cssnano-cli": "^1.0.4",
+    "http-server": "^0.9.0",
+    "jake": "^8.0.15",
+    "livereload": "^0.6.0",
+    "stylestats": "^6.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "50b533947bbd270917f94303a313d49b9254c3fa",
+    "tarball": "https://registry.npmjs.org/concise.css/-/concise.css-4.0.1.tgz"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "gitHead": "7c6cba6b3a2bb2d40eca1b6a9bc438c790598812",
+  "homepage": "http://concisecss.com",
+  "keywords": [
+    "css",
+    "framework",
+    "front-end",
+    "lightweight",
+    "mobile-first",
+    "postcss",
+    "responsive",
+    "sass",
+    "scss",
+    "web"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "jameskolce",
+      "email": "contact@jameskolce.com"
+    }
+  ],
+  "name": "concise.css",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConciseCSS/concise.css.git"
+  },
+  "scripts": {
+    "build": "jake build",
+    "build:dev": "jake default",
+    "stats": "stylestats dist/concise.css",
+    "stats:min": "stylestats dist/concise.min.css"
+  },
+  "version": "4.0.1"
+}

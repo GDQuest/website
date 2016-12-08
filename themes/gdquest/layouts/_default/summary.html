@@ -1,0 +1,22 @@
+<article class="card text--center">
+    {{ if and (isset .Params "banner") (ne .Params.banner "") }}
+    <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" /></a>
+    {{ end }}
+
+    <div class="card-content">
+      <h3>
+        <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}Draft: {{ end }}{{ end }}{{ .Title }}</a>
+      </h3>
+
+      {{ if .IsPage }} {{ if .Description }}
+      <p>
+        {{ .Description }}
+      </p>
+      {{ end }} {{ end }}
+
+      <p class="text--muted">
+        <!-- {{ range .Params.tags }} <span class="label bg--muted">#{{ . }}</span> {{ end }} -->
+        {{ .Date.Format "Jan 2006" }} / {{ range .Params.category }} {{ . }} {{ end }} / {{ .WordCount }} words
+      </p>
+    </div>
+</article>
