@@ -1,0 +1,42 @@
+// TODO: try dropdown classes for nav drop-down
+
+// --------
+// Float-based nav
+// --------
+// Vertical navbar by default (mobile)
+.nav
+  // border-bottom: 1px solid lighten(getColor(background, body), 10%)
+  border-bottom: 2px solid getColor(background, dark)
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    text-align: center
+  li
+    a
+      display: block
+      height: $nav-height
+      line-height: $nav-height * 0.6
+      padding: $nav-height * 0.2 18px
+    a:hover
+      color: white
+      background-color: getColor(background, dark)
+
+// Horizontal navbar on desktop
+@media (min-width: $bp-small)
+  .nav ul
+    float: right
+  .nav li
+    float: left
+// Active and logo in navbar classes
+.active
+  color: white
+  background-color: getColor(background, dark)
+  cursor: default
+.logo
+  img
+    max-height: $nav-height
+    padding: $nav-height * 0.2
+  // img:hover
+  //   filter: brightness(110%)
+  //   transition: $transition-duration filter linear
