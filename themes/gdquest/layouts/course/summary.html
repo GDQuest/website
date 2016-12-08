@@ -1,0 +1,106 @@
+{{ define "main" }}
+
+{{ $options := (index .Site.Data.courses .Params.course).options }}
+{{ $banner_image := index $options "banner_image" }}
+
+  <!-- BANNER IMAGE -->
+  <!-- <div row id="top">
+    <img src="{{ $banner_image }}" alt="{{ .Title }} banner picture" />
+  </div> -->
+
+  <div column=12>
+    <!-- Global progress -->
+    <!-- {{ $.Scratch.Set "videos" 0 }}
+    {{ $.Scratch.Set "videos_done" 0 }}
+
+    {{ range (index .Site.Data.courses .Params.course).chapters }}
+      {{ range . }}
+        {{ range .videos }}
+          {{ $.Scratch.Add "videos" 1 }}
+          {{ if ne .url "" }} {{ $.Scratch.Add "videos_done" 1 }} {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ $videos_done := $.Scratch.Get "videos_done" }}
+    {{ $videos := $.Scratch.Get "videos" }} -->
+
+    <!-- Get approximate %, by multiplying $videos_done by 100 (int division) -->
+    <!-- {{/* $course_progress := div (mul $videos_done 100) $videos */}}
+
+    <div row>
+      <div class="progress">
+        <div class="progress-bar progress-bar-sm {{/* if ge $course_progress 100 */}}progress-bar-success{{/* else */}}progress-bar-info{{/* end */}} progress-bar-striped {{/* if ge $course_progress 100 */}}active{{/* end */}}" role="progressbar" aria-valuenow="{{/* $course_progress */}}" aria-valuemin="0" aria-valuemax="100" style="width: {{/* $course_progress */}}%;">
+          Course creation progress: {{/* $course_progress */}} %
+        </div>
+      </div>
+    </div> -->
+
+
+    <h1>{{ .Title }} <small>Course roadmap</small></h1>
+
+    <!-- Inner page navigation -->
+    <div row>
+        <ul class="group">
+          {{ range (index .Site.Data.courses .Params.course).course }}
+          <a class="group-item" href="#{{ replace .title " " "-" }}">
+            <i class="fa fa-lg fa-book"></i> {{ .title }}
+          </a>
+          {{ end }}
+        </ul>
+    </div>
+
+    <!-- Page introduction/content file -->
+    <div row>
+      {{ .Content }}
+    </div>
+
+    <!-- RANGING OVER INDIVIDUAL CHAPTERS -->
+      {{ range (index .Site.Data.courses .Params.course).course }}
+          <!-- CHAPTER TITLE AND DESCRIPTION -->
+          <h2 id="{{ replace .title " " "-" }}"><i class="fa fa-book"></i> {{ index .title }} <small>{{ index .small }}</small></h2>
+          <p>{{ index .description | markdownify }}</p>
+
+          <!-- CALCULATE % OF VIDEOS ALREADY DONE (OUT ON YOUTUBE) -->
+          {{ $.Scratch.Set "video_count" 0 }}
+          {{ $.Scratch.Set "video_count_done" 0 }}
+
+          {{ range .videos }}
+          {{ $.Scratch.Add "video_count" 1 }}
+          {{ if and (ne .url "") (isset . "url") }} {{ $.Scratch.Add "video_count_done" 1 }} {{ end }}
+          {{ end }}
+
+          {{ $video_count := $.Scratch.Get "video_count" }}
+          {{ $video_count_done := $.Scratch.Get "video_count_done" }}
+          {{ $progress := div (mul $video_count_done 100) $video_count }}
+
+          <!-- Chapter progress -->
+          <div class="progress progress--striped {{ if ge $progress 100 }}progress--animate{{ end }}">
+              <span {{ if ge $progress 100 }}class="bg--success"{{ end }}
+                    style="width: {{ $progress }}%"
+                    role="progressbar"
+                    aria-valuenow="{{ $progress }}"
+                    aria-valuemin="0"
+                    aria-valuemax="100" >
+                Chapter progress: {{ $progress }} %
+              </span>
+          </div>
+
+          <!-- RANGING OVER INDIVIDUAL VIDEOS IN A CHAPTER -->
+          <ol class="collection">
+            {{ range .videos }}
+              <li class="collection-item">
+                {{ if and (ne .url "") (isset . "url") }} <i class="fa fa-check text--success"></i> {{ end }}
+                <strong>{{ .title }}</strong>
+                {{ if and (isset . "description") (ne .description "") }} : <span class="text--muted">{{ .description | markdownify }} </span> {{ end }}
+              </li>
+            {{ end }}
+          </ol>
+      {{ end }}
+
+  {{ if isset .Params "author" }}
+    {{ partial "modules/author" . }}
+  {{ end }}
+  </div>
+
+{{ end }}

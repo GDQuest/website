@@ -1,0 +1,13 @@
+ {{ define "main" }}
+
+    <section column="8 +2">
+        <div row>
+            {{range where .Site.Pages "Type" "=" "gaq"}} {{ .Content }} {{ end }}
+        </div>
+
+        <div row>
+            {{range where .Site.Pages "Type" "=" "gaq1"}} {{ .Content }} {{ end }}
+        </div>
+    </section>
+
+{{ end }}

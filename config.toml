@@ -1,0 +1,77 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "http://gdquest.com/"
+title = "GDquest"
+theme = "gdquest"
+languageCode = "en-EN"
+metaDataFormat = "toml"
+
+# Pagination
+paginate = 8
+paginatePath = "page"
+
+# Pygments code highlighting - not used
+# pygmentsuseclasses = false
+# pygmentsstyle = "monokai"
+
+# MENUS
+[[menu.main]]
+identifier  = "tutorials"
+name        = "Tutorials"
+url         = "https://game-design-tutorials.zeef.com/nathan.lovato"
+weight      = 2
+[[menu.main]]
+identifier  = "shop"
+name        = "Shop"
+url         = "https://gumroad.com/gdquest"
+weight      = 3
+
+[permalinks]
+
+[taxonomies]
+tags = "tags"
+category = "category"
+
+[author]
+name = "Nathan Lovato"
+email = "nathan@gdquest.com"
+
+# Site parameters
+[params]
+topline = "The Game Design Quest"
+home = "home"
+highlight = "default"
+
+# Social network names for Meta tag SEO
+twitter = "NathanGDquest"
+googleplus = "Gdquest"
+
+# Banner at the top of +/- all pages
+[params.ad_banner]
+src = ""
+alt = ""
+link = ""
+
+[params.social.1]
+link = "https://www.youtube.com/c/gdquest"
+icon = "youtube-play"
+[params.social.2]
+link = "https://www.facebook.com/gdquest"
+icon = "facebook"
+[params.social.3]
+link = "https://twitter.com/NathanGDquest"
+icon = "twitter"
+[params.social.4]
+link = "https://plus.google.com/+Gdquest"
+icon = "google-plus-square"
+
+
+email = "Nathan@GDquest.com"
+
+[blackfriday]
+angledQuotes = true
+fractions = false
+hrefTargetBlank = false
+latexDashes = true
+plainIdAnchors = true
+extensions = []
+extensionmask = []
