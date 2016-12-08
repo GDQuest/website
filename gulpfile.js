@@ -1,18 +1,25 @@
-const gulp = require('gulp');
-const uncss = require('gulp-uncss');
-const htmlmin = require('gulp-htmlmin');
-const cssmin = require('gulp-cssmin');
-const imagemin = require('gulp-imagemin');
+const gulp = require('gulp')
+      uncss = require('gulp-uncss')
+      htmlmin = require('gulp-htmlmin')
+      cssmin = require('gulp-cssmin')
+      imagemin = require('gulp-imagemin')
+      ghPages = require('gulp-gh-pages')
+
+
+gulp.task('deploy', function(){
+  return gulp.src('./public/**/*')
+    .pipe(ghPages())
+})
 
 gulp.task('default', function () {
 
-});
+})
 
 gulp.task('minify', function() {
   return gulp.src('public/**/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('public'))
-});
+})
 
 gulp.task('uncss', function () {
     return gulp.src('D:/Library/Dropbox/Concise_GDquest/dist/concise.css')
@@ -20,8 +27,8 @@ gulp.task('uncss', function () {
             html: ['public/**/*.html']
         }))
         .pipe(cssmin())
-        .pipe(gulp.dest('D:/Library/Dropbox/GDquest.com/themes/gdquest/static/css/'));
-});
+        .pipe(gulp.dest('D:/Library/Dropbox/GDquest.com/themes/gdquest/static/css/'))
+})
 
 gulp.task('picsCompress', function () {
   return gulp.src('public/**/*.{png,jpg,gif,svg}')
