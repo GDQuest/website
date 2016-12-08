@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section row>
+<section grid>
 
     <article column="8 +2">
       {{ if isset .Params "nav" }}
@@ -9,9 +9,7 @@
       {{ end }}
       
       {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-        <div row>
-          <a href="{{ .Permalink }}"><img src="/{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" /></a>
-        </div>
+        <a href="{{ .Permalink }}"><img src="/{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" /></a>
       {{ end }}
         <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
 
