@@ -1,5 +1,7 @@
 # Folders #
 ###########
+
+public/**
 _other
 node_modules
 
