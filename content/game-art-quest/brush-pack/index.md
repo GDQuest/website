@@ -33,7 +33,7 @@ The premium tier adds:
 - Priority support
 
 
-<div class="card text--center">
+<div class="card-box text--center">
   <span column=6>
     <span row>
       {{< figure src="/img/page/krita-brushes/krita-brushes-icon-premium.png" alt="Brushes icon premium" >}}
