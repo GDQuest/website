@@ -45,7 +45,7 @@ And hopefully we'll find some time to do a few collabs with other artists. We go
 Come chat with the community on Discord!
 ---------------------
 
-<div class="card clearfix">
+<div class="card-box clearfix">
   <div class="card-content">
     <p>I’ve opened a server on Discord for everyone in the community to join and talk about game creation with open source programs.
       Whether you just want to drop by and say hi, showcase your artwork or share your knowledge about Krita and Godot, you’re
