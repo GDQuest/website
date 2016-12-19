@@ -32,37 +32,46 @@ The premium tier adds:
 - The **natural media brushkit**
 - Priority support
 
-
-<div class="card text--center">
-  <span column=6>
-    <span row>
-      {{< figure src="/img/page/krita-brushes/krita-brushes-icon-premium.png" alt="Brushes icon premium" >}}
-    </span>
-    <span row>            
-      <a href="https://gumroad.com/l/krita-brushes-for-game-artists" class="button button--success button--pill button--full lead">Premium brushes</a>
-    </span>
-    
-      <ul class="list--unstyled">
-        <li>{{< icon check success >}} 57 unique presets</li>
-        <li>{{< icon check success >}} 6 video tutorials</li>
-        <li>{{< icon check success >}} Natural media presets</li>
-        <li>{{< icon check success >}} Monthly updates</li>
-      </ul> 
-  </span>
-  
-  <span column=6>
+<div class="card text--center" style="padding:0">
+  <span column=4>
     <span row>
       {{< figure src="/img/page/krita-brushes/krita-brushes-icon-lite.png" alt="Brushes icon lite" >}}
     </span>
     <span row>
       <a href="https://gum.co/krita-brushes-gdquest-lite" class="button button--primary button--pill button--full lead">Lite brushes</a>
     </span>
-    
       <ul class="list--unstyled">
-        <li>16 presets</li>
-        <li>2 video tutorials</li>
-        <li>FREE</li>
-      </ul> 
+        <li>23 presets</li>
+        <li>1 tutorial</li>
+        <li>2 pdf documents</li>
+        <li><strong>FREE</strong></li>
+      </ul>
+  </span>
+  <span column=4>
+    <span row>
+      {{< figure src="/img/page/krita-brushes/krita-brushes-icon-premium.png" alt="Brushes icon premium" >}}
+    </span>
+    <span row>
+      <a href="https://gumroad.com/l/krita-brushes-for-game-artists" class="button button--success button--pill button--full lead">Standard</a>
+    </span>
+      <ul class="list--unstyled">
+        <li>57 presets</li>
+        <li>Monthly updates</li>
+      </ul>
+  </span>
+  <span column=4>
+    <span row>
+      {{< figure src="/img/page/krita-brushes/krita-brushes-icon-premium.png" alt="Brushes icon premium" >}}
+    </span>
+    <span row>
+      <a href="https://gumroad.com/l/krita-brushes-for-game-artists" class="button button--success button--pill button--full lead">Premium</a>
+    </span>
+      <ul class="list--unstyled">
+        <li>{{< icon check success >}} Natural media set</li>
+        <li>{{< icon check success >}} 6 video tutorials</li>
+        <li>{{< icon check success >}} Priority support</li>
+        <li>+ Standard content</li>
+      </ul>
   </span>
 </div>
 
