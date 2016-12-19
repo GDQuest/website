@@ -109,43 +109,8 @@ Nathan&lt;/p&gt;
 - The &lt;strong&gt;natural media brushkit&lt;/strong&gt;
 - Priority support&lt;/p&gt;
 
-&lt;div class=&#34;card text--center&#34;&gt;
-  &lt;span column=6&gt;
-    &lt;span row&gt;
-      
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/krita-brushes-icon-premium.png&#34; alt=&#34;Brushes icon premium&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-    &lt;/span&gt;
-    &lt;span row&gt;            
-      &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34; class=&#34;button button--success button--pill button--full lead&#34;&gt;Premium brushes&lt;/a&gt;
-    &lt;/span&gt;
-    
-      &lt;ul class=&#34;list--unstyled&#34;&gt;
-        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
-text--success
- text--inherit&#34;&gt;&lt;/i&gt;
- 57 unique presets&lt;/li&gt;
-        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
-text--success
- text--inherit&#34;&gt;&lt;/i&gt;
- 6 video tutorials&lt;/li&gt;
-        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
-text--success
- text--inherit&#34;&gt;&lt;/i&gt;
- Natural media presets&lt;/li&gt;
-        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
-text--success
- text--inherit&#34;&gt;&lt;/i&gt;
- Monthly updates&lt;/li&gt;
-      &lt;/ul&gt; 
-  &lt;/span&gt;
-  
-  &lt;span column=6&gt;
+&lt;div class=&#34;card text--center&#34; style=&#34;padding:0&#34;&gt;
+  &lt;span column=4&gt;
     &lt;span row&gt;
       
 &lt;figure &gt;
@@ -159,12 +124,61 @@ text--success
     &lt;span row&gt;
       &lt;a href=&#34;https://gum.co/krita-brushes-gdquest-lite&#34; class=&#34;button button--primary button--pill button--full lead&#34;&gt;Lite brushes&lt;/a&gt;
     &lt;/span&gt;
-    
       &lt;ul class=&#34;list--unstyled&#34;&gt;
-        &lt;li&gt;16 presets&lt;/li&gt;
-        &lt;li&gt;2 video tutorials&lt;/li&gt;
-        &lt;li&gt;FREE&lt;/li&gt;
-      &lt;/ul&gt; 
+        &lt;li&gt;23 presets&lt;/li&gt;
+        &lt;li&gt;1 tutorial&lt;/li&gt;
+        &lt;li&gt;2 pdf documents&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;FREE&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/span&gt;
+  &lt;span column=4&gt;
+    &lt;span row&gt;
+      
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/krita-brushes-icon-premium.png&#34; alt=&#34;Brushes icon premium&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+    &lt;/span&gt;
+    &lt;span row&gt;
+      &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34; class=&#34;button button--success button--pill button--full lead&#34;&gt;Standard&lt;/a&gt;
+    &lt;/span&gt;
+      &lt;ul class=&#34;list--unstyled&#34;&gt;
+        &lt;li&gt;57 presets&lt;/li&gt;
+        &lt;li&gt;Monthly updates&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/span&gt;
+  &lt;span column=4&gt;
+    &lt;span row&gt;
+      
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/krita-brushes-icon-premium.png&#34; alt=&#34;Brushes icon premium&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+    &lt;/span&gt;
+    &lt;span row&gt;
+      &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34; class=&#34;button button--success button--pill button--full lead&#34;&gt;Premium&lt;/a&gt;
+    &lt;/span&gt;
+      &lt;ul class=&#34;list--unstyled&#34;&gt;
+        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Natural media set&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+ 6 video tutorials&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&#34;my-fa fa-check
+text--success
+ text--inherit&#34;&gt;&lt;/i&gt;
+ Priority support&lt;/li&gt;
+        &lt;li&gt;+ Standard content&lt;/li&gt;
+      &lt;/ul&gt;
   &lt;/span&gt;
 &lt;/div&gt;
 
