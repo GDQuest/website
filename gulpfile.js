@@ -39,6 +39,7 @@ gulp.task('picsCompress', function () {
   .pipe(gulp.dest('img_compressed'))
 })
 
+
 gulp.task('picsCopy', function () {
   return gulp.src('public/**/*.{png,jpg,gif,svg}')
   .pipe(gulp.dest('img_source'))
