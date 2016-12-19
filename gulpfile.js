@@ -11,9 +11,10 @@ gulp.task('deploy', function(){
     .pipe(ghPages())
 })
 
-gulp.task('default', function () {
 
+gulp.task('default', function () {
 })
+
 
 gulp.task('minify', function() {
   return gulp.src('public/**/*.html')
@@ -21,14 +22,16 @@ gulp.task('minify', function() {
     .pipe(gulp.dest('public'))
 })
 
+
 gulp.task('uncss', function () {
-    return gulp.src('D:/Library/Dropbox/Concise_GDquest/dist/concise.css')
+    return gulp.src('D:/Library/Dropbox/GDquest.com/themes/gdquest/static/css/concise_gdquest/dist/concise.css')
         .pipe(uncss({
             html: ['public/**/*.html']
         }))
         .pipe(cssmin())
         .pipe(gulp.dest('D:/Library/Dropbox/GDquest.com/themes/gdquest/static/css/'))
 })
+
 
 gulp.task('picsCompress', function () {
   return gulp.src('public/**/*.{png,jpg,gif,svg}')
