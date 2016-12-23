@@ -8,6 +8,8 @@ type: course
 course: gaq_vol_1
 aliases:
     - game-art-quest/volume-1/course-public
+    - game-art-quest/volume1
+    - game-art-quest/volume-1
 url: game-art-quest/volume-1/krita-tutorial-for-game-artists
 
 videos_released: 51
