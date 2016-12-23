@@ -1,7 +1,6 @@
 ---
 title: Portfolio
-type: portfolio
-date: 2016-01-22
+type: post
 aliases:
   - /game-design-portfolio
 ---

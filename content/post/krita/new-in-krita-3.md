@@ -25,7 +25,7 @@ That's not all. There's a long list of smaller, yet welcome changes. The pop-up 
 
 The list could go on, and on. You get it: there is a lot to talk about. That's why I wrote this overview of Krita 3. In this article, I'll introduce you to the most important new features one at a time. At the end of the post, I'll give you my thoughts on the program and the updates for 2-D game artists.
 
-**Do you want to learn all of the new features? I'm working on a free <a href="{{< ref "game-art-quest/volume-1/krita-tutorial-for-game-artists.md" >}}">Krita tutorial series</a> that will help you to become a faster artist with Krita 3.0.**
+**Do you want to learn all of the new features? I'm working on a free <a href="{{< ref "game-art-quest/krita-tutorial-for-game-artists.md" >}}">Krita tutorial series</a> that will help you to become a faster artist with Krita 3.0.**
 
 {{< fig src="/game-art-quest/volume-1/course/bandcamp-banner.jpg" alt="Krita tutorial series: Become a better Game Artist with Krita" >}}
 
