@@ -1,10 +1,11 @@
 ---
 title: About
-layout: page
 date: 2016-01-19
 ---
 
-<!-- menu: main -->
+<!-- Remove all html -->
+<!-- Contact form -->
+<!-- Convert  -->
 
 <div class="media">
   <div class="media-left">
@@ -25,11 +26,6 @@ And a company that supports open source projects!
 
 [2d5e5423]: http://youtube.com/c/gdquest "GDquest channel"
 
-<!-- If you want to talk about GDquest on your website, first of all, thanks! I put up a press kit for you. It contains text, pictures and links to make it easy for you to find the information you need.
-
-  <button type="button" class="btn btn-lg btn-success center-block">
-    Presskit
-  </button> -->
 
 ## Why GDquest?
 
@@ -50,11 +46,7 @@ On **GDquest**, you'll find:
 [2]: https://game-design-tutorials.zeef.com/nathan.lovato "Game Design Tutorials"
 [3]: https://www.facebook.com/groups/GameArtQuest/ "Game Art Quest"
 
-<div class="row">
-  <div class="col-lg-8 col-sm-12">
-    <img src="Meta-Dash-prototype.jpg" alt="Meta Dash prototype picture" class="img-responsive" />
-  </div>
-</div>
+![Meta Dash prototype picture](Meta-Dash-prototype.jpg)
 
 ### I'm not alone!
 

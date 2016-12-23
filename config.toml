@@ -40,6 +40,7 @@ email = "nathan@gdquest.com"
 topline = "The Game Design Quest"
 home = "home"
 highlight = "default"
+stylesheet = "concise.css"
 
 # Social network names for Meta tag SEO
 twitter = "NathanGDquest"

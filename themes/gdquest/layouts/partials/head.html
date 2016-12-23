@@ -1,5 +1,8 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  {{ if .Params.redirect }}
+    <meta http-equiv="refresh" content="2; URL={{ .Site.BaseURL }}/{{ .Params.redirect }}">
+  {{ end }}
 
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="gdquest-favicon.png" />
@@ -14,14 +17,14 @@
 
   <!-- Concise.css GDquest theme -->
   <!-- <link rel="stylesheet" href="{{ "/css/" | absURL }}min.css"> -->
-   <link rel="stylesheet" href="{{ "/css/" | absURL }}concise.css"> 
+   <link rel="stylesheet" href="{{ "/css/" | absURL }}{{ .Site.Params.stylesheet }}"> 
   <!--<link rel="stylesheet" href="{{ "/css/concise_gdquest/dist/" | absURL }}concise.css">-->
   <!--<link rel="stylesheet" href="{{ "/css/concise-theme/dist/" | absURL }}gdquest.css">-->
 
   <!-- Highlight.js -->
-  {{ if .IsPage }} {{ if isset .Params "highlight" }}
+  {{ if isset .Params "highlight" }}
   <link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}monokai.css">
-  {{ end }} {{ end }}
+  {{ end }}
 
   <!-- METAS -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

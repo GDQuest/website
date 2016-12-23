@@ -1,21 +1,24 @@
-+++
-title = "Krita brushes for game artists"
-author = "nathan"
-date = "2016-11-09"
-category = ["Krita"]
-tags = ["krita brushes", "krita brush"]
-description = "Here are my Krita brushes, a complete set designed by a game artist, for game artists! I do my best to update it on a regular basis, and it comes with tutorials too."
+---
+title: Krita brushes for game artists
+description: Here are my Krita brushes, a complete set designed by a game artist, for game artists! I do my best to update it on a regular basis, and it comes with tutorials too.
+date: 2016-11-09
+author: nathan
 
-url = "krita-brushes-for-game-artists"
-aliases = ["brush-pack", "game-art-quest/brush-pack"]
+category: Krita
+tags:
+  - krita brushes
+  - krita brush
 
-banner = "img/page/krita-brushes/krita-brushes-banner.jpg"
-banner_link = "https://gumroad.com/l/krita-brushes-for-game-artists"
+url: krita-brushes-for-game-artists
+aliases:
+  - brush-pack
+  - game-art-quest/brush-pack
 
-# menu = "gaq"
-layout = "single"
-type = "product"
-+++
+banner: img/page/krita-brushes/krita-brushes-banner.jpg
+banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
+
+type: product
+---
 
 **Do you want to become a faster artist with Krita?** This brush set is designed by a professional game artist, for game artists and illustrators alike.
 

@@ -1,14 +1,20 @@
-+++
-author = "nathan"
-date = "2016-04-15T15:25:47+02:00"
-description = "This free course will give you a better sense of monster design for games. We will first look at what other games do and extract some principles of monster design from that. Then, we will create our own monster using pen, paper and Krita."
-keywords = ["monster design", "game art", "tutorials"]
-tags = ["training", "free"]
-title = "Intro to monster design for 2-D games"
-type = "course"
-layout = "empty"
-course = "monster_design"
-+++
+---
+title: "Intro to monster design for 2-D games"
+description: "This free course will give you a better sense of monster design for games. We will first look at what other games do and extract some principles of monster design from that. Then, we will create our own monster using pen, paper and Krita."
+date: "2016-04-15T15:25:47+02:00"
+author: "nathan"
+
+keywords: 
+    - "monster design"
+    - "game art"
+    - "tutorials"
+tags: 
+    - "training"
+    - "free"
+
+type: "course"
+course: "monster_design"
+---
 
 <!-- CURRENTLY SET TO EMPTY LAYOUT! -->
 
@@ -19,4 +25,4 @@ The intro to monster design is the first free training released on GDquest. In a
 ## {{< icon link default >}} Useful links
 
 - {{< icon facebook info >}} [Facebook Game Art study group](https://www.facebook.com/groups/GameArtQuest/)
-- {{< icon paint-brush info >}} [GAQ Krita brush pack]({{< ref "game-art-quest/brush-pack/index.md" >}}) {{< icon shopping-cart success >}}
+- {{< icon paint-brush info >}} [GAQ Krita brush pack]({{< ref "game-art-quest/krita-brushes.md" >}}) {{< icon shopping-cart success >}}

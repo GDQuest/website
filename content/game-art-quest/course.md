@@ -1,10 +1,11 @@
-+++
-author = ""
-date = "2016-02-08T17:55:44+01:00"
-title = "The training has moved!"
-type = ""
-aliases = ["game-art-quest/volume1/course"]
-+++
+---
+author: nathan
+date: 2016-02-08T17:55:44+01:00
+title: The training has moved!
+aliases: 
+    - game-art-quest/volume1/course
+url: game-art-quest/volume-1/course
+---
 
 Hi! If you're here, you're certainly a backer of the [Game Art Quest](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) Kickstarter campaign.
 
