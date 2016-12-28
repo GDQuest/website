@@ -55,15 +55,19 @@ link = ""
 [params.social.1]
 link = "https://www.youtube.com/c/gdquest"
 icon = "youtube-play"
+description = "GDquest Youtube channel"
 [params.social.2]
 link = "https://www.facebook.com/gdquest"
 icon = "facebook"
+description = "GDquest Facebook page"
 [params.social.3]
 link = "https://twitter.com/NathanGDquest"
 icon = "twitter"
+description = "GDquest Twitter page"
 [params.social.4]
 link = "https://plus.google.com/+Gdquest"
 icon = "google-plus-square"
+description = "GDquest Google Plus page"
 
 
 email = "Nathan@GDquest.com"
