@@ -1,6 +1,6 @@
 {{ $author := index .Site.Data.authors .Params.author }}
 
-  <div class="card clearfix">
+  <div class="card-box clearfix">
 
     <div class="card-image">
     {{ if isset $author "picture" }}
@@ -11,19 +11,21 @@
     </div>
 
     <div class="card-content">
-    {{ $author.name }}
-    {{ if eq $author.name "Nathan Lovato" }}
-        {{ range .Site.Params.social }}
-        <a href="{{.link}}"><i class="fa fa-{{.icon}}"></i></a>
-        {{ end }}
-    {{ else }}
-        {{ if isset $author "facebook" }} <a href="{{ $author.facebook }}"><i class="fa fa-facebook"></i></a> {{ end }}
-        {{ if isset $author "twitter" }} <a href="{{ $author.twitter }}"> <i class="fa fa-twitter"></i></a> {{ end }}
-        {{ if isset $author "googleplus" }} <a href="{{ $author.googleplus }}"> <i class="fa fa-google-plus-square"></i> </a> {{ end }}
-        {{ if isset $author "youtube" }} <a href="{{ $author.youtube }}"> <i class="fa fa-youtube-play"></i> </a> {{ end }}
-    {{ end }}
-        <p>
-        {{ if isset $author "description" }} {{ $author.description }} {{ end }}
-        </p>
+    <p>
+      {{ $author.name }}
+      {{ if eq $author.name "Nathan Lovato" }}
+          {{ range .Site.Params.social }}
+          <a href="{{.link}}"><i class="fa fa-{{.icon}}"></i> <span class="hidden">Mentor social page</span> </a>
+          {{ end }}
+      {{ else }}
+      <!-- TODO: simplify with RANGE -->
+          {{ if isset $author "facebook" }} <a href="{{ $author.facebook }}"><i class="fa fa-facebook"></i></a> <span class="hidden">Mentor Facebook page</span> {{ end }}
+          {{ if isset $author "twitter" }} <a href="{{ $author.twitter }}"> <i class="fa fa-twitter"></i></a> <span class="hidden">Mentor Twitter page</span> {{ end }}
+          {{ if isset $author "googleplus" }} <a href="{{ $author.googleplus }}"> <i class="fa fa-google-plus-square"></i> </a> <span class="hidden">Mentor Google Plus page</span> {{ end }}
+          {{ if isset $author "youtube" }} <a href="{{ $author.youtube }}"> <i class="fa fa-youtube-play"></i> </a> <span class="hidden">Mentor Youtube page</span> {{ end }}
+      {{ end }}
+          <br>
+          {{ if isset $author "description" }} {{ $author.description }} {{ end }}
+    </p>
     </div>
   </div>
