@@ -1,14 +1,14 @@
 {{ define "main" }}
 <section id="introduction">
 
-    <div row>
-      <div column="4">
+    <div grid>
+      <div column=4>
       {{range where .Site.Pages "Type" "home"}}
         {{.Content }}
       {{ end }}
       </div>
-      <div column="8">
-          <h2>Latest Krita update</h2>
+      <div column>
+          <!--<h2>Featured video</h2>-->
           <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
               <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
               class="youtube-player" type="text/html"
@@ -19,21 +19,21 @@
     </div>
 </section>
 
-<section row id="news">
-  <header>
-    <h2>Latest news</h2>
-  </header>
+<section id="news">
+    <!--<header><h2>The news</h2></header>-->
 
     {{ $.Scratch.Set "count" 0 }}
     {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
     {{ range $paginator.Pages }}
         {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
-        <div row>
+        <div grid>
         {{ end }}
 
-        <div column="6">
-          {{ .Render "summary" }}
-        </div>
+          <div column>
+            <div class="card-box">
+            {{ .Render "summary" }}
+            </div>
+          </div>
 
         {{ if ne (mod ($.Scratch.Get "count") 2) 0 }}
         </div>
@@ -41,26 +41,22 @@
 
         {{ $.Scratch.Add "count" 1 }}
     {{ end }}
-    <!-- Close last row -->
+    <!-- Close last grid -->
     {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
     </div>
     {{ end }}
 </section>
 
-<section id="about" style="margin-top:40px">
-  <div row>
-    <div class="card">
-      <div class="card-image">
-        <img class="img-circle" src="img/avatar/gdquest-avatar-80.png" alt="Nathan's avatar">
-      </div>
+<section id="about">
+    <div class="card-box">
       <div class="card-content">
-        <h4 style="margin-top:0">About GDquest</h4>
+        <img class="card-image img-circle" src="img/avatar/gdquest-avatar-80.png" alt="Nathan's avatar">
+        <h4 >About GDquest</h4>
         <p>
           I'm Nathan, a professional game designer. I'm the author of <a href="http://youtube.com/c/gdquest">GDquest</a>, a Youtube channel filled with tutorials about game art and game design. And I'm building a community around <strong>game creation</strong> and <strong>open source software</strong>. The website will be a hub for the community and open source assets.
         </p>
       </div>
     </div>
-  </div>
 </section>
 <!-- <div row> -->
 <!-- {{ partial "block/pagination" . }} -->
