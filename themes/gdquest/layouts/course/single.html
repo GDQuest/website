@@ -24,31 +24,31 @@
   <div column="8 +2">
 
     <header row>
+      <h1 class="text--center">{{ .Title }} 
+        <!--{{ if isset .Params "title_small" }} <small class="text--muted">{{ .Params.title_small }}</small> {{ end }}-->
+      </h1>
       <!-- BANNER -->
       <div id="banner-image">
         <img src="{{ .Params.banner }}" alt="{{ .Title }}: Course page banner" />
       </div>
 
 
-      <!-- NAVIGATION -->
-      <div class="card text--center">
-        <ul class="group"> 
+      <!-- INNER NAVIGATION -->
+      <div class="card-box text--center">
+        <ul class="card-content"> 
           <span class="text--muted">|</span>
           {{ range (index .Site.Data.courses .Params.course).course }}
             <a href="#{{ replace .title " " "-" }}">
-            <!--<i class="fa fa-lg fa-book"></i> {{ .title }}-->
             {{ .small }}
             </a>
           <span class="text--muted">|</span>
           {{ end }}
         </ul>
       </div>
-      <!--<h1 class="text--center">{{ .Title }} {{ if isset .Params "title_small" }} <br> <small>{{ .Params.title_small }}</small> {{ end }}</h1>-->
     </header>
 
 
-    <section row id="course">
-      <!--{{ .Content }}-->
+    <section id="course">
       <!-- Individual chapters -->
       {{ $.Scratch.Set "video_count" 0 }}
 
@@ -81,9 +81,9 @@
           {{ $chapter_label := $.Scratch.Get "chapter_label" }}-->
 
           <!-- Chapter title card -->
-          <div class="card text--center">
+          <div class="card-box text--center">
             <div class="card-content">
-              <h2 class="text--center" id="{{ replace .title " " "-" }}">
+              <h2 id="{{ replace .title " " "-" }}">
                 {{ .title }} 
                 <small> 
                   {{ if and ( isset .Params "wip" ) ( eq .Params.wip "true" ) }}
@@ -102,50 +102,50 @@
 
           </div>
 
-
           <!-- Ranging over individual videos in a chapter -->
-          <ul class="collection">
-            {{ range .videos }}
-              <!-- Add 1 to the listed video count -->
-              {{ $.Scratch.Add "video_count" 1 }}
-              {{ $.Scratch.Add "video_count_chapter" 1 }}
-
-              <li class="collection-item">
-                <!-- Video title and link -->
-                {{ if and (le ($.Scratch.Get "video_count") $videos_released ) (and (isset . "url") (not (eq .url "") )) }}
-                  <a href="{{ .url }}{{ $playlist }}">
-                    <!--{{ $.Scratch.Get "video_count_chapter" }}. -->
-                    {{ .title }}
-                  </a>
-                {{ else }}{{ $.Scratch.Get "video_count_chapter" }}. {{ .title }} <span class="text--muted">Upcoming</span> {{ end }}
-
-                <!-- Extra course material attached to a video -->
-                {{ if le ($.Scratch.Get "video_count") $videos_released  }}
-                  {{ if isset . "document" }} <a href="{{ .document }}"><i class="fa fa-book fa-lg"></i></a> {{ end }}
-                  {{ if isset . "exercise" }} <a href="{{ .exercise }}"><i class="fa fa-file fa-lg"></i></a> {{ end }}
-                {{ end }}
-
-                <!-- Video length -->
-                {{ if isset . "length" }}
-                  {{ if ne .length 0  }}
-                    {{ $minutes := div .length 60 }}
-                    {{ $seconds := mod .length 60 }}
-                    
-                    {{ $video_length := div .length 60 }}
-                    {{ if ( gt ( mod .length 60 ) 30 ) }}
-                      {{ $.Scratch.Set "video_length" 1 }}
-                    {{ else }}
-                      {{ $.Scratch.Set "video_length" 0 }}
-                    {{ end }}
-
-                    {{ $video_length := add $video_length ( $.Scratch.Get "video_length" ) }}
-
-                    <span class="text--muted">({{ $video_length }} min)</span>
+          
+            <ul class="collection">
+              {{ range .videos }}
+                <!-- Add 1 to the listed video count -->
+                {{ $.Scratch.Add "video_count" 1 }}
+                {{ $.Scratch.Add "video_count_chapter" 1 }}
+  
+                <li class="collection-item">
+                  <!-- Video title and link -->
+                  {{ if and (le ($.Scratch.Get "video_count") $videos_released ) (and (isset . "url") (not (eq .url "") )) }}
+                    <a href="{{ .url }}{{ $playlist }}">
+                      <!--{{ $.Scratch.Get "video_count_chapter" }}. -->
+                      {{ .title }}
+                    </a>
+                  {{ else }}{{ $.Scratch.Get "video_count_chapter" }}. {{ .title }} <span class="text--muted">Upcoming</span> {{ end }}
+  
+                  <!-- Extra course material attached to a video -->
+                  {{ if le ($.Scratch.Get "video_count") $videos_released  }}
+                    {{ if isset . "document" }} <a href="{{ .document }}"><i class="fa fa-book fa-lg"></i></a> {{ end }}
+                    {{ if isset . "exercise" }} <a href="{{ .exercise }}"><i class="fa fa-file fa-lg"></i></a> {{ end }}
                   {{ end }}
-                {{ end }}
-              </li>
-            {{ end }}
-          </ul>
+  
+                  <!-- Video length -->
+                  {{ if isset . "length" }}
+                    {{ if ne .length 0  }}
+                      {{ $minutes := div .length 60 }}
+                      {{ $seconds := mod .length 60 }}
+                      
+                      {{ $video_length := div .length 60 }}
+                      {{ if ( gt ( mod .length 60 ) 30 ) }}
+                        {{ $.Scratch.Set "video_length" 1 }}
+                      {{ else }}
+                        {{ $.Scratch.Set "video_length" 0 }}
+                      {{ end }}
+  
+                      {{ $video_length := add $video_length ( $.Scratch.Get "video_length" ) }}
+  
+                      <span class="text--muted">({{ $video_length }} min)</span>
+                    {{ end }}
+                  {{ end }}
+                </li>
+              {{ end }}
+            </ul>
       {{ end }}
     
       <aside>
