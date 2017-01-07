@@ -70,6 +70,8 @@ length = 265
 title = "An introduction to layers"
 url = "https://www.youtube.com/watch?v=g2ZoQobsSWE"
 description = "The layer docker is being changed a lot in Krita 3, so we'll just look at the basics here. We'll learn to create layers, groups, to rename them, to toggle visibility, and also we'll see how we can pick a layer from the canvas."
+exercise = "/Course/GAQ/files/GAQ-C1-Intro-to-Layers-Exercises.kra"
+document = "/Course/GAQ/files/GAQ-C1-Krita-layers-cheatsheet-GDquest.png"
 length = 380
 [Chapter2.videos.07]
 title = "Working with selections"
@@ -258,12 +260,16 @@ description = "This last chapter will get you started animating with Krita 3."
 title = "How to use Krita's animation tools"
 url = "https://www.youtube.com/watch?v=UDPvSo24vAQ"
 description = ""
+length = 677
 [Chapter6.videos.02]
 title = "Onion skinning"
 url = "https://www.youtube.com/watch?v=4c6QmEk4gRk"
+length = 212
 [Chapter6.videos.03]
 title = "Overview of the traditional animation process"
 url = "https://www.youtube.com/watch?v=0TSeBUHvhiw"
+length = 472
 [Chapter6.videos.04]
 title = "Extra tips: navigate menus faster with the keyboard"
 url = "https://www.youtube.com/watch?v=9AbVrprVVmc"
+length = 257

@@ -1,6 +1,6 @@
 <article class="card text--center">
     {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-    <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" /></a>
+    <img src="{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" />
     {{ end }}
 
     <div class="card-content">

@@ -24,6 +24,7 @@ This course was made possible thanks to the pledges of 424 backers on Kickstarte
 
 <h2>{{< icon link default >}} Links</h2>
 
+
 **GDquest**
 
 - {{< icon facebook primary >}} [Facebook study group](https://www.facebook.com/groups/GameArtQuest/)
