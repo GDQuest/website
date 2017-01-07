@@ -17,7 +17,7 @@ aliases:
 banner: img/page/krita-brushes/krita-brushes-banner.jpg
 banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
 
-type: product
+product: krita-brushes
 ---
 
 **Do you want to become a faster artist with Krita?** This brush set is designed by a professional game artist, for game artists and illustrators alike.
@@ -31,52 +31,10 @@ Version 9 (_Dec 2016_) contains (Standard version):
 - **Monthly updates**. More brushes and videos are already on your way!
 
 The premium tier adds:
+
 - **More than 30 minutes of exclusive video tutorials** to get the most out of the brushes
 - The **natural media brushkit**
 - Priority support
-
-<div class="card text--center" style="padding:0">
-  <span column=4>
-    <span row>
-      {{< figure src="/img/page/krita-brushes/krita-brushes-icon-lite.png" alt="Brushes icon lite" >}}
-    </span>
-    <span row>
-      <a href="https://gum.co/krita-brushes-gdquest-lite" class="button button--primary button--pill button--full lead">Lite brushes</a>
-    </span>
-      <ul class="list--unstyled">
-        <li>23 presets</li>
-        <li>1 tutorial</li>
-        <li>2 pdf documents</li>
-        <li><strong>FREE</strong></li>
-      </ul>
-  </span>
-  <span column=4>
-    <span row>
-      {{< figure src="/img/page/krita-brushes/krita-brushes-icon-premium.png" alt="Brushes icon premium" >}}
-    </span>
-    <span row>
-      <a href="https://gumroad.com/l/krita-brushes-for-game-artists" class="button button--success button--pill button--full lead">Standard</a>
-    </span>
-      <ul class="list--unstyled">
-        <li>57 presets</li>
-        <li>Monthly updates</li>
-      </ul>
-  </span>
-  <span column=4>
-    <span row>
-      {{< figure src="/img/page/krita-brushes/krita-brushes-icon-premium.png" alt="Brushes icon premium" >}}
-    </span>
-    <span row>
-      <a href="https://gumroad.com/l/krita-brushes-for-game-artists" class="button button--success button--pill button--full lead">Premium</a>
-    </span>
-      <ul class="list--unstyled">
-        <li>{{< icon check success >}} Natural media set</li>
-        <li>{{< icon check success >}} 6 video tutorials</li>
-        <li>{{< icon check success >}} Priority support</li>
-        <li>+ Standard content</li>
-      </ul>
-  </span>
-</div>
 
 The brushes are dry for the most part, so you can easily apply thick paint on the canvas. Need a softer blending effect? Use the I and O keys to tweak your opacity and make the brushes weaker.
 
@@ -92,7 +50,7 @@ You know the best part? There is actually a free, smaller version of this set, s
 
 ## Changelog
 
-### Version 9 - Nov 2016
+### Version 9 - Dec 2016
 
 - 10 new presets including a blur tool, splatter brushes, and a rock texture
 - 10 natural media presets, and especially a powerful cloud painting tool (premium)

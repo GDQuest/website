@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section grid>
+  <article column="8 +2">
+    {{ if and (isset .Params "banner") (ne .Params.banner "") }}
+    <img src="/{{ .Params.banner }}" alt="{{ with .Params.banner_alt }} {{.}} {{ end }}" />
+    {{ end }}
+    
+    <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
+
+    <div grid id="products">
+      {{ range (index $.Site.Data.products.krita_brushes "versions") }}
+      <div column class="card-box text--center">
+        <img src="{{ .icon.path }}" alt="{{ .icon.alt }}">
+        <a href="{{ .link }}" class="product-name">{{ .name }}</a>
+        {{ with .features }}
+        <ul class="list--unstyled">
+          {{ range . }}
+          <li>{{.}}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    {{ with .Params.author }} {{ partial "modules/author" . }} {{ end }}
+  </article>
+</section>
+{{ end }}

@@ -20,18 +20,19 @@
 <div column="8 +2">
   <header>
     <h1>{{ .Title }}</h1>
-    
+
     <div> <img src="{{ .Params.banner }}" alt="{{ .Title }}: Course page banner" /> </div>
 
     <div class="card-box text--center">
-      <ul class="card-content"> 
-        {{ range (index .Site.Data.courses .Params.course).course }}
-        <a href="#{{ replace .title " " "-" }}"> {{ .small }} </a>
-        {{ end }}
-      </ul>
+      {{ range (index .Site.Data.courses .Params.course).course }}
+      <a href="#{{ replace .title " " "-" }}"> {{ .small }} </a>
+      {{ end }}
     </div>
   </header>
 
+  <section id="intro">
+    {{ .Content }}
+  </section>
 
   <section id="course">
     {{ $.Scratch.Set "video_count" 0 }}
@@ -49,17 +50,12 @@
 
         <!-- Chapter title card -->
         <div class="card-box text--center">
-          <div class="card-content">
-            <h2 id="{{ replace .title " " "-" }}">
-              {{ .title }} 
-            </h2>
-
-            {{ $duration := ($.Scratch.Get "duration") }}
-            {{ if gt $duration 0 }}
-              <span class="text--muted">Duration: {{ div $duration 60 }} min {{ mod $duration 60 }} s </span>
-            {{ end }}
-            <p>{{ .description | markdownify }}</p>        
-          </div>
+          <h2 id="{{ replace .title " " "-" }}"> {{ .title }} </h2>
+          {{ $duration := ($.Scratch.Get "duration") }}
+          {{ if gt $duration 0 }}
+          <span class="text--muted">Duration: {{ div $duration 60 }} min {{ mod $duration 60 }} s </span>
+          {{ end }}
+          <p>{{ .description | markdownify }}</p>
         </div>
 
           <ul class="collection">
@@ -76,7 +72,7 @@
                     {{ .title }}
                   </a>
                 {{ else }}{{ $.Scratch.Get "video_count_chapter" }}. {{ .title }} <span class="text--muted">Upcoming</span> {{ end }}
-                
+
                 {{ if or (isset . "document") (isset . "exercise") }}
                 <span class="collection-icons">
                   {{ if isset . "document" }} <a href="{{ .document }}"><i class="fa fa-book"></i></a> {{ end }}
@@ -89,7 +85,7 @@
                   {{ if ne .length 0  }}
                     {{ $minutes := div .length 60 }}
                     {{ $seconds := mod .length 60 }}
-                    
+
                     {{ $video_length := div .length 60 }}
                     {{ if ( gt ( mod .length 60 ) 30 ) }}
                       {{ $.Scratch.Set "video_length" 1 }}
@@ -106,7 +102,7 @@
             {{ end }}
           </ul>
     {{ end }}
-  
+
     <aside>
       {{ if isset .Params "author" }}
       <p class="text--muted">

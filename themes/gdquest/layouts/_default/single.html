@@ -1,25 +1,18 @@
 {{ define "main" }}
 <section grid>
+  <article column="8 +2">
+    {{ with .Params.nav }}
+    <header> {{ partial "modules/post_nav" . }} </header>
+    {{ end }}
+    
+    {{ if and (isset .Params "banner") (ne .Params.banner "") }}
+    <a href="{{ .Permalink }}"><img src="/{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" /></a>
+    {{ end }}
+    <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
 
-    <article column="8 +2">
-      {{ if isset .Params "nav" }}
-      <header>
-        {{ partial "modules/post_nav" . }}
-      </header>
-      {{ end }}
-      
-      {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-        <a href="{{ .Permalink }}"><img src="/{{ .Params.banner }}" alt="{{ if isset .Params "banner_alt" }} {{ .Params.banner_alt }} {{ end }}" /></a>
-      {{ end }}
-        <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
+    {{ .Content }}
 
-        {{ .Content }}
-
-        <!-- Bottom of the page -->
-        <!-- {{/* partial "modules/share" . */}} -->
-        {{ if and (isset .Params "author") (ne .Params.author "") }}
-            {{ partial "modules/author" . }}
-        {{ end }}
-    </article>
+    {{ if and (isset .Params "author") (ne .Params.author "") }} {{ partial "modules/author" . }} {{ end }}
+  </article>
 </section>
 {{ end }}
