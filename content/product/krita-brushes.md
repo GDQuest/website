@@ -20,10 +20,6 @@ banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
 product: krita-brushes
 ---
 
-**Do you want to become a faster artist with Krita?** This brush set is designed by a professional game artist, for game artists and illustrators alike.
-
-It follows a few key concepts. The goal is to help you to work **fast**, and to allow you to **focus on your art**. It is a bloat free pack, filled with efficient drawing tools. Not only that: every month, you get a new batch of useful presets and learning material.
-
 Version 9 (_Dec 2016_) contains (Standard version):
 
 - **57 unique brush presets**
@@ -44,9 +40,8 @@ I take my time to design the presets and ensure that they are worth adding to th
 
 ## Lite version <span class="text--success">(free)</span>
 
-You know the best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
-
-[Check out the lite (free) brushes](https://gumroad.com/l/krita-brushes-gdquest-lite)
+You know the best part? There is actually a free, smaller version of this set, so you can try it out for yourself. 
+[Click here to download the free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite)
 
 ## Changelog
 
