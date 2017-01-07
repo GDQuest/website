@@ -18,7 +18,7 @@ It is **completely free**, thanks to the 424 Kickstarter backers.
     <a href="{{< ref "game-art-quest/krita-tutorial-for-game-artists.md" >}}" class="lead"> {{< icon book default >}} The course </a>
   </li>
   <li class="group-item">
-    <a href="{{< ref "game-art-quest/krita-brushes.md" >}}" class="lead"> {{< icon check success >}} Krita brushes </a>
+    <a href="{{< ref "product/krita-brushes.md" >}}" class="lead"> {{< icon check success >}} Krita brushes </a>
   </li>
 </div>
 
@@ -28,7 +28,7 @@ It is **completely free**, thanks to the 424 Kickstarter backers.
 
 Game Art Quest has a [{{< icon book default >}} Facebook study group](https://www.facebook.com/groups/GameArtQuest/)! There, we run weekly game art challenges. The goal is to become better game artists together.
 
-There's also an official {{< icon shopping-cart success >}} [Krita brush pack]({{< ref "game-art-quest/krita-brushes.md" >}}) to supplement the training.
+There's also an official {{< icon shopping-cart success >}} [Krita brush pack]({{< ref "product/krita-brushes.md" >}}) to supplement the training.
 
 <hr>
 

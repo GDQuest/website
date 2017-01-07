@@ -10,7 +10,7 @@
     {{ partial "nav" . }}
       <!-- Promotional banner at the top of the pages -->
       {{ if and (isset .Site.Params "ad_banner") (ne (index .Site.Params "ad_banner").src "") }} {{ partial "block/ad_banner" . }} {{ end }}
-
+      
       {{ block "main" . }} {{ end }}
 
     {{ partial "footer" . }}

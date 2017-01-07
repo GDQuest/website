@@ -25,4 +25,4 @@ The intro to monster design is the first free training released on GDquest. In a
 ## {{< icon link default >}} Useful links
 
 - {{< icon facebook info >}} [Facebook Game Art study group](https://www.facebook.com/groups/GameArtQuest/)
-- {{< icon paint-brush info >}} [GAQ Krita brush pack]({{< ref "game-art-quest/krita-brushes.md" >}}) {{< icon shopping-cart success >}}
+- {{< icon paint-brush info >}} [GAQ Krita brush pack]({{< ref "product/krita-brushes.md" >}}) {{< icon shopping-cart success >}}
