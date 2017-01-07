@@ -1,0 +1,31 @@
+intro = ["**Do you want to become a faster artist with Krita?** This brush set is designed by a professional game artist, for game artists and illustrators alike.", "It follows a few key concepts. The goal is to help you to work **fast**, and to allow you to **focus on your art**. It is a bloat free pack, filled with efficient drawing tools. Not only that: every month, you get a new batch of useful presets and learning material."]
+
+
+[versions.01]
+features = ["23 presets", "1 tutorial", "2 pdf documents", "FREE"]
+link = "https://gum.co/krita-brushes-gdquest-lite"
+name = "Lite"
+price = "0"
+    [versions.01.icon]
+    alt = "Brushes icon lite"
+    path = "/img/page/krita-brushes/krita-brushes-icon-lite.png"
+
+
+[versions.02]
+features = ["57 presets", "Monthly updates"]
+link = "http://gdquest.com/krita-brushes-for-game-artists/"
+name = "Standard"
+price = "9.95"
+    [versions.02.icon]
+    alt = "Brushes icon standard"
+    path = "/img/page/krita-brushes/krita-brushes-icon-premium.png"
+
+
+[versions.03]
+features = ["Natural media set", "6 video tutorials", "Priority support", "+ Standard content"]
+link = "http://gdquest.com/krita-brushes-for-game-artists/"
+name = "Premium"
+price = "24.95"
+    [versions.03.icon]
+    alt = "Brushes icon standard"
+    path = "/img/page/krita-brushes/krita-brushes-icon-premium.png"
