@@ -3,11 +3,16 @@
   
   <url>
     <loc>http://gdquest.com/</loc>
-    <lastmod>2016-11-09T20:16:29+01:00</lastmod>
+    <lastmod>2017-01-21T17:35:09+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/2016/11/back-from-japan/</loc>
+    <loc>http://gdquest.com/post/news/2017/in-the-office/</loc>
+    <lastmod>2017-01-21T17:35:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gdquest.com/post/news/2016/back-from-japan/</loc>
     <lastmod>2016-11-09T20:16:29+01:00</lastmod>
   </url>
   
@@ -17,22 +22,22 @@
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/2016/09/japan-news/</loc>
+    <loc>http://gdquest.com/post/news/2016/japan-news/</loc>
     <lastmod>2016-09-28T08:24:05+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/2016/09/summer-news/</loc>
+    <loc>http://gdquest.com/post/news/2016/summer-news/</loc>
     <lastmod>2016-09-08T13:49:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/2016/06/kickstarter-news-june/</loc>
+    <loc>http://gdquest.com/post/news/2016/kickstarter-news-june/</loc>
     <lastmod>2016-06-28T11:17:06+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</loc>
+    <loc>http://gdquest.com/post/news/2016/new-website-and-krita-brushes-update/</loc>
     <lastmod>2016-05-30T13:11:19+02:00</lastmod>
   </url>
   
@@ -44,11 +49,6 @@
   <url>
     <loc>http://gdquest.com/new-features-in-krita-3</loc>
     <lastmod>2016-05-09T17:49:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gdquest.com/game-art-quest/volume-1/</loc>
-    <lastmod>2016-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -72,38 +72,18 @@
   </url>
   
   <url>
-    <loc>http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/</loc>
+    <loc>http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists</loc>
     <lastmod>2016-02-08T17:55:44+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gdquest.com/game-art-quest/volume-1/course/</loc>
+    <loc>http://gdquest.com/game-art-quest/volume-1/course</loc>
     <lastmod>2016-02-08T17:55:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gdquest.com/portfolio/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://gdquest.com/about/</loc>
     <lastmod>2016-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gdquest.com/game-art-quest/discover/</loc>
-    <lastmod>2016-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gdquest.com/game-art-quest/free-assets/</loc>
-    <lastmod>2016-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gdquest.com/game-art-quest/</loc>
-    <lastmod>2016-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -117,7 +97,15 @@
   </url>
   
   <url>
+    <loc>http://gdquest.com/game-art-quest</loc>
+  </url>
+  
+  <url>
     <loc>http://gdquest.com/</loc>
+  </url>
+  
+  <url>
+    <loc>http://gdquest.com/portfolio/portfolio/</loc>
   </url>
   
 </urlset>

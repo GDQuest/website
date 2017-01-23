@@ -12,7 +12,7 @@
     <atom:link href="http://gdquest.com/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Game art tutorial</title>
+      <title>Tutorials</title>
       <link>http://gdquest.com/tutorial/</link>
       <pubDate>Mon, 16 May 2016 20:29:44 +0200</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
@@ -22,6 +22,8 @@
 &lt;!-- TODO: Page per type of tutorial/category --&gt;
 
 &lt;!-- Hey there, it&#39;s the tutorial page! --&gt;
+
+&lt;p&gt;If you found this page, well, it&amp;rsquo;s in construction! Please come back later :)&lt;/p&gt;
 </description>
     </item>
     
