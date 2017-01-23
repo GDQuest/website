@@ -16,6 +16,7 @@
       <div column>
         <img src="{{ .icon.path }}" alt="{{ .icon.alt }}">
         <a href="{{ .link }}" class="product-name">{{ .name }}</a>
+        
         {{ with .features }}
         <ul class="list--unstyled">
           {{ range . }}

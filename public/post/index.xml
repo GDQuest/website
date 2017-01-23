@@ -8,15 +8,35 @@
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Wed, 09 Nov 2016 20:16:29 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jan 2017 17:35:09 +0100</lastBuildDate>
     <atom:link href="http://gdquest.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>In the office - January news</title>
+      <link>http://gdquest.com/post/news/2017/in-the-office/</link>
+      <pubDate>Sat, 21 Jan 2017 17:35:09 +0100</pubDate>
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
+      <guid>http://gdquest.com/post/news/2017/in-the-office/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/aouow3pfa7Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;The past 2 months have been hectic. I’ll pass on the details, but since a few days, I’m renting an office. After so much time struggling to work from home, you can’t imagine how great it feels! I not only have access to the room 24/7, it’s also part of a local business incubator. The structure offer a lot of support, free training on accounting, management, legal stuff… All of which is quite complex in France. The building is great, and there are other entrepreneurs to share your thoughts and struggles with. Actually, the team in the office right in front of mine is into 3-D printing, and they are super nice.&lt;/p&gt;
+
+&lt;p&gt;Anyway, it’s news time. In this month’s update, we talk about the weekly releases on the premium game art tutorial, the Godot tutorial series that’s happening right now on the channel, and FOSDEM and GodotCon, 2 events taking place from February 4 to 7. I’m going to give the Godot team a hand and prepare some upcoming project, so we can meet there! To get more details about all of that, I invite you to watch the video.&lt;/p&gt;
+
+&lt;p&gt;See you in February for the next update!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Back from japan, back to work</title>
-      <link>http://gdquest.com/post/2016/11/back-from-japan/</link>
+      <link>http://gdquest.com/post/news/2016/back-from-japan/</link>
       <pubDate>Wed, 09 Nov 2016 20:16:29 +0100</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/2016/11/back-from-japan/</guid>
+      <guid>http://gdquest.com/post/news/2016/back-from-japan/</guid>
       <description>
 
 &lt;p&gt;Yes, I’m back from Japan! Physically at least: my heart is still back there. I’ve been traveling around the country for a bit less than a month, and the experience was incredible. It was a great occasion to practice Japanese and get a better sense for the culture. I’ve read and been told a lot of things before going, and reality felt a lot subtler than what you would expect at first. Some facts were somewhat true, others plain wrong. The collectivism there felt wonderful. The french culture is a lot more individualistic, which is part of what makes me feel like a foreigner here.&lt;/p&gt;
@@ -51,7 +71,7 @@
 
 &lt;h2 id=&#34;come-chat-with-the-community-on-discord&#34;&gt;Come chat with the community on Discord!&lt;/h2&gt;
 
-&lt;div class=&#34;card clearfix&#34;&gt;
+&lt;div class=&#34;card-box clearfix&#34;&gt;
   &lt;div class=&#34;card-content&#34;&gt;
     &lt;p&gt;I’ve opened a server on Discord for everyone in the community to join and talk about game creation with open source programs.
       Whether you just want to drop by and say hi, showcase your artwork or share your knowledge about Krita and Godot, you’re
@@ -86,10 +106,10 @@ Nathan&lt;/p&gt;
     
     <item>
       <title>Game Art Quest vol1 done! Off to Japan</title>
-      <link>http://gdquest.com/post/2016/09/japan-news/</link>
+      <link>http://gdquest.com/post/news/2016/japan-news/</link>
       <pubDate>Wed, 28 Sep 2016 08:24:05 +0200</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/2016/09/japan-news/</guid>
+      <guid>http://gdquest.com/post/news/2016/japan-news/</guid>
       <description>
 
 &lt;p&gt;Yes, the first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials (some are still upcoming on the channel). 7 hours if you include the first bonus series of the year: &lt;a href=&#34;https://www.youtube.com/playlist?list=PLhqJJNjsQ7KExm_EYLVhD6yf4Afax24fV&#34;&gt;Introduction to monster design for 2-D games&lt;/a&gt;. Looking back at the Kickstarter description, this is already more than the promised as far as the total length is concerned.&lt;/p&gt;
@@ -99,7 +119,7 @@ Nathan&lt;/p&gt;
 text--success
  text--inherit&#34;&gt;&lt;/i&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/&#34;&gt;Available tutorials&lt;/a&gt; (free)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists&#34;&gt;Available tutorials&lt;/a&gt; (free)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The extra premium brushes and their companion tutorials are also getting pretty big. With this month&amp;rsquo;s update, it now includes 34 presets and more than 30 minutes of video tutorials. And more coming monthly.&lt;/p&gt;
@@ -166,10 +186,10 @@ text--success
     
     <item>
       <title>Summer Update</title>
-      <link>http://gdquest.com/post/2016/09/summer-news/</link>
+      <link>http://gdquest.com/post/news/2016/summer-news/</link>
       <pubDate>Thu, 08 Sep 2016 13:49:48 +0200</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/2016/09/summer-news/</guid>
+      <guid>http://gdquest.com/post/news/2016/summer-news/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;It has been a while since the last behind the scenes news post. There&amp;rsquo;s been good progress with the tutorials and the brushes. I&amp;rsquo;ve been hard at work lately, especially changing my workflow to increase production speed, maintaining the same quality. On the other hand, I haven&amp;rsquo;t been able to update the website and social networks as often as I would&amp;rsquo;ve liked. Aside from that&amp;hellip;&lt;/em&gt;&lt;/p&gt;
@@ -216,79 +236,7 @@ text--success
 
 &lt;p&gt;Do you want to know when it&amp;rsquo;ll be available? You just have to enter your email address in the field below:&lt;/p&gt;
 
-&lt;style&gt;
-    .gumroad-follow-form-embed {
-        zoom: 1;
-    }
-
-    .gumroad-follow-form-embed:before,
-    .gumroad-follow-form-embed:after {
-        display: table;
-        line-height: 0;
-        content: &#34;&#34;;
-    }
-
-    .gumroad-follow-form-embed:after {
-        clear: both;
-    }
-
-    .gumroad-follow-form-embed * {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        outline: 0;
-        box-sizing: border-box !important;
-        float: left !important;
-    }
-
-    .gumroad-follow-form-embed input {
-        border-radius: 4px;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        font-family: -apple-system, &#34;.SFNSDisplay-Regular&#34;, &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif;
-        font-size: 15px;
-        line-height: 20px;
-        background: #fff;
-        border: 1px solid #ddd;
-        border-right: 0;
-        color: #aaa;
-        padding: 10px;
-        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
-        background-position: top right;
-        background-repeat: no-repeat;
-        text-rendering: optimizeLegibility;
-        font-smoothing: antialiased;
-        -webkit-appearance: none;
-        -moz-appearance: caret;
-        width: 65% !important;
-        height: 40px !important;
-    }
-
-    .gumroad-follow-form-embed button {
-        border-radius: 4px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-        -webkit-transition: all .05s ease-in-out;
-        transition: all .05s ease-in-out;
-        display: inline-block;
-        padding: 11px 15px 12px;
-        cursor: pointer;
-        color: #fff;
-        font-size: 15px;
-        line-height: 100%;
-        font-family: -apple-system, &#34;.SFNSDisplay-Regular&#34;, &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif;
-        background: #36a9ae;
-        border: 1px solid #31989d;
-        filter: &#34;progid:DXImageTransform.Microsoft.gradient(startColorstr=#5ccfd4, endColorstr=#329ca1, GradientType=0)&#34;;
-        background: -webkit-linear-gradient(top, #5ccfd4, #329ca1);
-        background: linear-gradient(to bottom, #5ccfd4, #329ca1);
-        height: 40px !important;
-        width: 35% !important;
-    }
-&lt;/style&gt;
-&lt;form action=&#34;https://gumroad.com/follow_from_embed_form&#34; class=&#34;form gumroad-follow-form-embed&#34; method=&#34;post&#34;&gt; &lt;input name=&#34;seller_id&#34; type=&#34;hidden&#34; value=&#34;6873367754130&#34;&gt; &lt;input name=&#34;email&#34; placeholder=&#34;Your email address&#34; type=&#34;email&#34;&gt; &lt;button data-custom-highlight-color=&#34;&#34; type=&#34;submit&#34;&gt;Sign up&lt;/button&gt; &lt;/form&gt;
-
+&lt;style&gt;.gumroad-follow-form-embed button,.gumroad-follow-form-embed input{font-size:15px;font-family:-apple-system,&#34;.SFNSDisplay-Regular&#34;,&#34;Helvetica Neue&#34;,Helvetica,Arial,sans-serif;height:40px!important}.gumroad-follow-form-embed{zoom:1}.gumroad-follow-form-embed:after,.gumroad-follow-form-embed:before{display:table;line-height:0;content:&#34;&#34;}.gumroad-follow-form-embed:after{clear:both}.gumroad-follow-form-embed *{margin:0;border:0;padding:0;outline:0;box-sizing:border-box!important;float:left!important}.gumroad-follow-form-embed input{border-radius:4px 0 0 4px;line-height:20px;background:top right no-repeat #fff;border:1px solid #ddd;border-right:0;color:#aaa;padding:10px;box-shadow:inset 0 1px 0 rgba(0,0,0,.02);text-rendering:optimizeLegibility;font-smoothing:antialiased;-webkit-appearance:none;-moz-appearance:caret;width:65%!important}.gumroad-follow-form-embed button{border-radius:0 4px 4px 0;box-shadow:0 1px 1px rgba(0,0,0,.12);-webkit-transition:all .05s ease-in-out;transition:all .05s ease-in-out;display:inline-block;padding:11px 15px 12px;cursor:pointer;color:#fff;line-height:100%;border:1px solid #31989d;filter:&#34;progid:DXImageTransform.Microsoft.gradient(startColorstr=#5ccfd4, endColorstr=#329ca1, GradientType=0)&#34;;background:-webkit-linear-gradient(top,#5ccfd4,#329ca1);background:linear-gradient(to bottom,#5ccfd4,#329ca1);width:35%!important}&lt;/style&gt;&lt;form action=&#34;https://gumroad.com/follow_from_embed_form&#34; class=&#34;form gumroad-follow-form-embed&#34; method=&#34;post&#34;&gt;&lt;input name=&#34;seller_id&#34; type=&#34;hidden&#34; value=&#34;6873367754130&#34;&gt; &lt;input name=&#34;email&#34; placeholder=&#34;Your email address&#34; type=&#34;email&#34;&gt; &lt;button data-custom-highlight-color=&#34;&#34; type=&#34;submit&#34;&gt;Sign up&lt;/button&gt;&lt;/form&gt;
 
 &lt;h2 id=&#34;off-to-japan&#34;&gt;Off to Japan&lt;/h2&gt;
 
@@ -306,13 +254,13 @@ text--success
     
     <item>
       <title>June update: the Randa meetings</title>
-      <link>http://gdquest.com/post/2016/06/kickstarter-news-june/</link>
+      <link>http://gdquest.com/post/news/2016/kickstarter-news-june/</link>
       <pubDate>Tue, 28 Jun 2016 11:17:06 +0200</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/2016/06/kickstarter-news-june/</guid>
+      <guid>http://gdquest.com/post/news/2016/kickstarter-news-june/</guid>
       <description>
 
-&lt;p&gt;We&amp;rsquo;re getting to the end of June. It&amp;rsquo;s time to sum up all that&amp;rsquo;s been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3&amp;rsquo;s new features in the &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/&#34;&gt;Krita training&lt;/a&gt;. You can find more details about what happened in Randa, and what the plans are for July, below.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re getting to the end of June. It&amp;rsquo;s time to sum up all that&amp;rsquo;s been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3&amp;rsquo;s new features in the &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists&#34;&gt;Krita training&lt;/a&gt;. You can find more details about what happened in Randa, and what the plans are for July, below.&lt;/p&gt;
 
 &lt;h2 id=&#34;randa&#34;&gt;Randa&lt;/h2&gt;
 
@@ -362,41 +310,23 @@ text--success
     
     <item>
       <title>May update: Krita brushes and ConciseCSS</title>
-      <link>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</link>
+      <link>http://gdquest.com/post/news/2016/new-website-and-krita-brushes-update/</link>
       <pubDate>Mon, 30 May 2016 13:11:19 +0200</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/post/2016/05/new-website-and-krita-brushes-update/</guid>
+      <guid>http://gdquest.com/post/news/2016/new-website-and-krita-brushes-update/</guid>
       <description>&lt;p&gt;May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their &lt;a href=&#34;https://www.youtube.com/watch?v=AjIiI8uiVNM&#34;&gt;Kickstarter campaign&lt;/a&gt;&amp;hellip; But I didn&amp;rsquo;t take the time to write longer news posts like this one. Time to share the news for this month! &lt;/p&gt;
 
 &lt;p&gt;Actually, I&amp;rsquo;m still catching up with work, since I got that shoulder injury. Thankfully, I got faster in some areas, especially answering people online, thus I&amp;rsquo;m making good progress. On to the news!&lt;/p&gt;
 
-&lt;div row column=12&gt;
-  &lt;div class=&#34;card&#34;&gt;
-    
-    &lt;div class=&#34;card-image&#34;&gt;
-      &lt;img src=&#34;http://gdquest.com/img/post/2016/05/krita-logo.png&#34; alt=&#34;Featured picture&#34;&gt;
-    &lt;/div&gt;
-    
+&lt;div grid&gt;
+  &lt;div class=&#34;card-box&#34;&gt;
+    &lt;div class=&#34;card-image&#34;&gt;&lt;img src=&#34;http://gdquest.com/img/post/2016/05/krita-logo.png&#34; alt=&#34;Featured picture&#34;&gt;&lt;/div&gt;
+    &lt;h3 class=&#34;card-title&#34;&gt;Krita 3 launch Youtube livestream&lt;/h3&gt;
+    &lt;div class=&#34;card-content&#34;&gt;&lt;p&gt;Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time (UTC/GMT +2)&#34;&gt;CEST&lt;/abbr&gt;&lt;/p&gt;&lt;/div&gt;
 
     
-    &lt;h3 class=&#34;card-title&#34;&gt;
-      Krita 3 launch Youtube livestream
-    &lt;/h3&gt;
-    
-
-    
-    &lt;div class=&#34;card-content&#34;&gt;
-      &lt;p&gt;
-        Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM &lt;abbr title=&#34;Central Europe Standard Time (UTC/GMT +2)&#34;&gt;CEST&lt;/abbr&gt;
-      &lt;/p&gt;
-    &lt;/div&gt;
-    
-
-    
-    &lt;div class=&#34;card-footer lead&#34; style=&#34;text-align:center&#34;&gt;
-      &lt;a href=&#34;https://www.youtube.com/watch?v=hlcHDRc-gN8&#34;&gt;
-        Youtube Livestream
-      &lt;/a&gt;
+    &lt;div class=&#34;card-footer text--center&#34;&gt;
+      &lt;a href=&#34;https://www.youtube.com/watch?v=hlcHDRc-gN8&#34;&gt;Youtube Livestream&lt;/a&gt;
     &lt;/div&gt;
     
   &lt;/div&gt;
@@ -442,8 +372,6 @@ text--success
       <guid>http://gdquest.com/new-features-in-krita-3</guid>
       <description>
 
-&lt;!-- introduction --&gt;
-
 &lt;p&gt;&lt;span class=&#34;text-muted&#34;&gt;Never heard of Krita? It is a free, open source digital painting program that used to be Linux-only. Since 2 years though, there&amp;rsquo;s a Windows version, and the program is now being ported to Mac.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.&lt;/p&gt;
@@ -458,7 +386,7 @@ text--success
 
 &lt;p&gt;The list could go on, and on. You get it: there is a lot to talk about. That&amp;rsquo;s why I wrote this overview of Krita 3. In this article, I&amp;rsquo;ll introduce you to the most important new features one at a time. At the end of the post, I&amp;rsquo;ll give you my thoughts on the program and the updates for 2-D game artists.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Do you want to learn all of the new features? I&amp;rsquo;m working on a free &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists/&#34;&gt;Krita tutorial series&lt;/a&gt; that will help you to become a faster artist with Krita 3.0.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do you want to learn all of the new features? I&amp;rsquo;m working on a free &lt;a href=&#34;http://gdquest.com/game-art-quest/volume-1/krita-tutorial-for-game-artists&#34;&gt;Krita tutorial series&lt;/a&gt; that will help you to become a faster artist with Krita 3.0.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -852,7 +780,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 
 &lt;h1 id=&#34;recommended-graphic-tablets&#34;&gt;Recommended graphic tablets&lt;/h1&gt;
 
-&lt;p&gt;On this page, you can find a list of the graphic tablets I recommend for &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I used &lt;a href=&#34;http://frenden.com/tagged/review&#34;&gt;Frenden&amp;rsquo;s reviews&lt;/a&gt; as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don&amp;rsquo;t like it. And read reviews on Amazon or on the website you&amp;rsquo;re buying them on.&lt;/p&gt;
+&lt;p&gt;On this page, you can find a list of the graphic tablets I recommend for &lt;a href=&#34;http://gdquest.com/game-art-quest&#34;&gt;Game Art Quest&lt;/a&gt;. I used &lt;a href=&#34;http://frenden.com/tagged/review&#34;&gt;Frenden&amp;rsquo;s reviews&lt;/a&gt; as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don&amp;rsquo;t like it. And read reviews on Amazon or on the website you&amp;rsquo;re buying them on.&lt;/p&gt;
 
 &lt;h2 id=&#34;flat-tablets&#34;&gt;Flat tablets&lt;/h2&gt;
 
@@ -916,7 +844,7 @@ The problem is, we don’t always want to have the page’s author set to Admin.
 &lt;li&gt;&lt;strong&gt;Human proportions, from reality to games&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest/&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
+&lt;p&gt;This is great, as they will reinforce &lt;a href=&#34;http://gdquest.com/game-art-quest&#34;&gt;Game Art Quest&lt;/a&gt;. I might also do the 4th one, the Overview of &lt;a href=&#34;http://superpowers-html5.com/&#34;&gt;Superpowers, the collaborative HTML5 game engine&lt;/a&gt;, as time permits.&lt;/p&gt;
 
 &lt;h2 id=&#34;krita-3-0-pre-alpha-3&#34;&gt;Krita 3.0, pre-alpha 3&lt;/h2&gt;
 

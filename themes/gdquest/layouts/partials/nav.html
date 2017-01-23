@@ -5,8 +5,7 @@
             <img src="{{.Site.BaseURL}}/img/GDquest-brand-image.png" alt="Game Design Quest" />
         </a>
 
-        <!-- Social links -->
-        <ul class="_show-m">
+        <ul id="desktop-menu">
             {{ $currentNode := . }} {{ range .Site.Menus.main }}
             <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
@@ -15,6 +14,7 @@
             {{ end }}
         </ul>
         
+
         <label for="nav-button" class="nav-button"> <i class="my-fa fa-lg fa-star"></i></label>
         <input type="checkbox" id="nav-button" />
         <ul id="mobile-menu">

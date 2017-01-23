@@ -19,7 +19,11 @@
       <guid>http://gdquest.com/about/</guid>
       <description>
 
-&lt;!-- menu: main --&gt;
+&lt;!-- Remove all html --&gt;
+
+&lt;!-- Contact form --&gt;
+
+&lt;!-- Convert  --&gt;
 
 &lt;div class=&#34;media&#34;&gt;
   &lt;div class=&#34;media-left&#34;&gt;
@@ -37,12 +41,6 @@
 &lt;p&gt;GDquest is a &lt;a href=&#34;http://youtube.com/c/gdquest&#34; title=&#34;GDquest channel&#34;&gt;Youtube channel&lt;/a&gt; about game creation.
 It is also a growing community that regroups thousands of designers.
 And a company that supports open source projects!&lt;/p&gt;
-
-&lt;!-- If you want to talk about GDquest on your website, first of all, thanks! I put up a press kit for you. It contains text, pictures and links to make it easy for you to find the information you need.
-
-  &lt;button type=&#34;button&#34; class=&#34;btn btn-lg btn-success center-block&#34;&gt;
-    Presskit
-  &lt;/button&gt; --&gt;
 
 &lt;h2 id=&#34;why-gdquest&#34;&gt;Why GDquest?&lt;/h2&gt;
 
@@ -62,11 +60,7 @@ You don&#39;t become a professional cook by following recipes. You&#39;re a cook
 &lt;li&gt;&lt;a href=&#34;https://www.facebook.com/groups/GameArtQuest/&#34; title=&#34;Game Art Quest&#34;&gt;A lovely community&lt;/a&gt; of game creation enthusiasts.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-lg-8 col-sm-12&#34;&gt;
-    &lt;img src=&#34;Meta-Dash-prototype.jpg&#34; alt=&#34;Meta Dash prototype picture&#34; class=&#34;img-responsive&#34; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;Meta-Dash-prototype.jpg&#34; alt=&#34;Meta Dash prototype picture&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;i-m-not-alone&#34;&gt;I&amp;rsquo;m not alone!&lt;/h3&gt;
 

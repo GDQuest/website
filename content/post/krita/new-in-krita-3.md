@@ -1,20 +1,26 @@
-+++
-author = "nathan"
-category = ["Krita"]
-date = "2016-05-09T17:49:09+02:00"
-description = "Krita 3.0 is a major update to an already powerful application. New rendering engine, animation toolset, grid, guides, snapping... there's a long list of new tools to discover. Let's explore them together in this article!"
-tags = ["krita review", "krita 3"]
-title = "What’s New in Krita 3.0? Krita Review"
-type = "post"
-aliases = ["new-in-krita-3"]
-url="new-features-in-krita-3"
-nav = "true"
-anchors = ["major-new-features", "smaller-features", "krita-review"]
-banner = "img/post/krita/new-in-krita-3/krita-3-release-banner.jpg"
-banner_alt = "The Krita brushes"
-+++
+---
+author: "nathan"
+category: 
+    - "Krita"
+date: "2016-05-09T17:49:09+02:00"
+description: "Krita 3.0 is a major update to an already powerful application. New rendering engine, animation toolset, grid, guides, snapping... there's a long list of new tools to discover. Let's explore them together in this article!"
+tags: 
+    - "krita review"
+    - "krita 3"
+title: "What’s New in Krita 3.0? Krita Review"
+type: "post"
+aliases: 
+    - "new-in-krita-3"
+url: "new-features-in-krita-3"
+nav: "true"
+anchors: 
+    - "major-new-features"
+    - "smaller-features"
+    - "krita-review"
+banner: "img/post/krita/new-in-krita-3/krita-3-release-banner.jpg"
+banner_alt: "The Krita brushes"
+---
 
-<!-- introduction -->
 <span class="text-muted">Never heard of Krita? It is a free, open source digital painting program that used to be Linux-only. Since 2 years though, there's a Windows version, and the program is now being ported to Mac.</span>
 
 Krita 3 is a major update to an already powerful application. It brings it to a whole new level. It ships with a new rendering engine, a traditional animation toolset, an overhauled layers docker, rulers, grid, guides, snapping support, and a brand-new tablet code, which supports more Wacom alternatives.

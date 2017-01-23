@@ -1,0 +1,33 @@
+// Concise
+@import "settings";
+@import "node_modules/concise.css/concise";
+@import "node_modules/concise-ui/concise-ui";
+// @import "node_modules/concise-utils/concise-utils";
+@import "modules/wip";
+@import "modules/nav";
+@import "modules/cards";
+@import "modules/collection";
+@import "modules/product";
+@import "modules/course";
+
+// Global code
+img {
+    max-width: 100%;
+}
+
+.lead {
+    font-size: $font-size-secondary;
+    font-weight: 300;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.my-fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 'FortAwesome';
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+}

@@ -32,9 +32,15 @@ The premium tier adds:
 - The **natural media brushkit**
 - Priority support
 
-The brushes are dry for the most part, so you can easily apply thick paint on the canvas. Need a softer blending effect? Use the I and O keys to tweak your opacity and make the brushes weaker.
-
 I take my time to design the presets and ensure that they are worth adding to the pack. I also use them in my daily work to ensure that they are tested thoroughly in all kinds of configurations.
+
+## What other artists have to say
+
+![Thumbnails painted with Krita by Živko Kondić](/img/page/krita-brushes/testimonial-zhillustrator.jpg)
+
+[Zhillustrator](https://twitter.com/zhille) writes: "Nathan's brush set has some essential brushes for digital painting that will ease your way into Krita's powerful brush engine. My favorites in the pack are the mix and smudge brushes. Honestly, if you like the Lite set, it's worth it, Krita is going somewhere."
+
+See more of Zhillustrator's work [on Artstation](https://www.artstation.com/artist/zhille)
 
 [![Krita brushes banner lite](/img/page/krita-brushes/krita-brushes-banner-lite.jpg)](https://gum.co/krita-brushes-gdquest-lite)
 

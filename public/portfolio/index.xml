@@ -8,16 +8,16 @@
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Fri, 22 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://gdquest.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Portfolio</title>
-      <link>http://gdquest.com/portfolio/</link>
-      <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
+      <link>http://gdquest.com/portfolio/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/portfolio/</guid>
+      <guid>http://gdquest.com/portfolio/portfolio/</guid>
       <description>&lt;!-- Top pictures --&gt;
+
 &lt;header&gt;
     &lt;div column=4&gt;
         &lt;img src=&#34;Content/Header/gdquest_portfolio_magicfred_kiwitiki_submarine.png&#34; class=&#34;img-responsive&#34; alt=&#34;Kiwitiki&#39;s Submarine&#34;&gt;
@@ -32,7 +32,6 @@
     &lt;div class=&#34;clearfix&#34;&gt;&lt;/div&gt;
     &lt;hr&gt;
 &lt;/header&gt;
-
 
 &lt;section class=&#34;text--center&#34;&gt;
     &lt;header&gt;
