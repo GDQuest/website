@@ -17,11 +17,20 @@
         <img src="{{ .icon.path }}" alt="{{ .icon.alt }}">
         <a href="{{ .link }}" class="product-name">{{ .name }}</a>
         
-        {{ with .features }}
+        {{ if isset . "icon"}}
+          {{ $.Scratch.Set "list_icon" .list_icon }}
+        {{ end }}
+        {{ $list_icon := $.Scratch.Get "list_icon" }}
+
+        {{ if isset . "features" }}
         <ul class="list--unstyled">
-          {{ range . }}
-          <li>{{.}}</li>
+          {{ range .features }}
+          <li> 
+            {{ if $list_icon }} <i class="fa fa-{{ $.Scratch.Get "list_icon" }}"></i> {{ end }}
+            {{.}}
+          </li>
           {{ end }}
+          {{ with .extra }} <li>{{ . }}</li> {{ end }}
         </ul>
         {{ end }}
       </div>
