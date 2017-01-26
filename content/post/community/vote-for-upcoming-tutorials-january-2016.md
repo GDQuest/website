@@ -29,21 +29,21 @@ You can pick as many series as you’d like! I will produce the 3 most popular e
 
 _You can find more information about each and every series below._
 
-![Superpowers, the collaborative HTML5 game engine tutorial banner](/Tutorials/Banners/Small/superpowers-html5.png)
+![Superpowers, the collaborative HTML5 game engine tutorial banner](/img/post/community/tutorial-banners/superpowers-html5.png)
 
 ### Overview of Superpowers, the collaborative HTML5 game engine
 
 Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by [Sparkin Labs](https://sparklinlabs.com/), the authors of [CraftStudio](http://craftstud.io/).
 
-![Human proportions, from reality to games tutorial banner](/Tutorials/Banners/Small/godot-2d-engine.png)
+![Human proportions, from reality to games tutorial banner](/img/post/community/tutorial-banners/godot-2d-engine.png)
 
 ### Overview of Godot 2.0, the open source game engine, for 2d games
 
 [Godot](http://www.godotengine.org/projects/godot-engine) is an open source 2d and 3d game engine. It was developed in-house by an Argentinian game studio, Okam, and released open source 2 years ago. Godot 2.0 features a robust editor with built-in animation tools, a visual shader editor, and much more!
 In this series, we'll cover the basics of 2d game development with Godot. If you want to join the community, check out its [Facebook group](https://www.facebook.com/groups/godotengine/)!
 
-![Human proportions, from reality to games tutorial banner](/Tutorials/Banners/Small/human-proportions-from-reality-to-games.png)
+![Human proportions, from reality to games tutorial banner](/img/post/community/tutorial-banners/human-proportions-from-reality-to-games.png)
 
 ### Human proportions, from reality to games
 
@@ -53,13 +53,13 @@ Here though, I want to create a series unlike most of what you'll find online. W
 
 But more importantly, we will then discuss how we can play with those proportions in games. We'll look at what rules designers break, and which ones they respect. We will look at various examples of stylized characters in popular games, and we will then work on our own character thumbnails. It's a pretty big topic, perfect to complement Game Art Quest!
 
-![Blender VSE tutorial banner](/Tutorials/Banners/Small/blender-vse.png)
+![Blender VSE tutorial banner](/img/post/community/tutorial-banners/blender-vse.png)
 
 ### Introduction to video editing with Blender
 
 Blender is an impressive piece of software. It is also my open source replacement for After Effects and a video editing tool of choice. Its sequencer has its shortcomings, but it is an efficient tool to get started making videos nonetheless. In this series, I will share what I have learned creating YouTube videos with blender for the past 6 months.
 
-![Becoming a game designer tutorial banner](/Tutorials/Banners/Small/becoming-a-game-designer.png)
+![Becoming a game designer tutorial banner](/img/post/community/tutorial-banners/becoming-a-game-designer.png)
 
 ### Becoming an independent game designer
 
@@ -67,7 +67,7 @@ What is a game designer? How can you become a professional or an independent gam
 
 I can’t tell you which college you should pick, but I can help you to teach yourself game design. That is what this series is all about. **It is not a series about creating a business and selling your games!**
 
-![Introduction to music scoring for games tutorial banner](/Tutorials/Banners/Small/introduction-music-scoring-for-games.png)
+![Introduction to music scoring for games tutorial banner](/img/post/community/tutorial-banners/introduction-music-scoring-for-games.png)
 
 ### A primer on music scoring for games
 
@@ -79,7 +79,7 @@ Writing good music takes a lot of experience! And the resources for it are somet
 
 **This isn’t a series about music production using a DAW** (_Digital Audio Workstation_) like FL studio. Music scoring is a huge topic. This is but an introduction to music as a language! I will try to give you a good sense of what the building blocks of a score are, and what scoring for games is like.
 
-![Rock tiles tutorial banner](/Tutorials/Banners/Small/rock-and-grass-tiles.png)
+![Rock tiles tutorial banner](/img/post/community/tutorial-banners/rock-and-grass-tiles.png)
 
 ### Painting rock and grass tiles for 2d games
 
@@ -88,7 +88,7 @@ There is one type of 2-D game asset that is rarely explained online: tiles. Thes
 In this tutorial series, I will show you how to create tiles for the ground and for walls or hanging ceiling in an outdoor environment, in a side scrolling game.
 
 
-![Game Art Quest Kickstarter tutorial banner](/Tutorials/Banners/Small/kickstarter-tips.png)
+![Game Art Quest Kickstarter tutorial banner](/img/post/community/tutorial-banners/kickstarter-tips.png)
 
 ### Kickstarter: all of my hard learned tips!
 

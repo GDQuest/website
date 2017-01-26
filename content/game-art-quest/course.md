@@ -15,6 +15,6 @@ I moved the course to [Gumroad](https://gumroad.com/l/krita-tutorial-for-game-ar
 
 In the email, you will find a link that will automatically apply your coupon for you. The price of the product should be crossed and replaced with "€0". Click the "I want this!" button and enter your email address to add the course to your Gumroad library.
 
-![Coupon code redeem example](/Course/GAQ/krita-tutorial-coupon-redeem.jpg)
+![Coupon code redeem example](/img/page/game-art-quest/krita-tutorial-coupon-redeem.jpg)
 
 There you go, you can now stream the videos directly on Gumroad or download them all to watch later!
