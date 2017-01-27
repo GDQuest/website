@@ -4,22 +4,15 @@
 				</footer>
 
 				<!-- SCRIPTS -->
-				<!-- Google Analytics -->
-				<script>
-					!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-58510266-1","auto"),ga("send","pageview");
-				</script>
-
 				<!-- Highlight.js -->
 				{{ if .IsPage }} {{ if isset .Params "highlight" }}
-				<script src="{{ " /js/ " | absURL }}highlight.py.js"></script>
+				<script async src="{{ " /js/ " | absURL }}highlight.py.js"></script>
 				<script>
 					hljs.initHighlightingOnLoad();
 				</script>
 				{{ end }} {{ end }}
 
 				<!-- Font awesome / Fort awesome -->
-				<!-- <script src="https://use.fonticons.com/09d1342f.js" async></script> -->
-				<!-- <link rel="stylesheet" href="{{ "/css/" | absURL }}fort-awesome.min.css"> -->
 				<script type="text/javascript">
 						(function() {
 							var css = document.createElement('link');
