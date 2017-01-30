@@ -1,9 +1,10 @@
 # Folders #
 ###########
 
+public/
 public
-node_modules
-_src/img
+node_modules/
+_src/img/
 
 # Packages #
 ############
