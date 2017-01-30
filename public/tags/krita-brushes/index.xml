@@ -13,15 +13,15 @@
     <item>
       <title>Krita brushes for game artists</title>
       <link>http://gdquest.com/krita-brushes-for-game-artists</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
       <author>nathan@gdquest.com (Nathan Lovato)</author>
       <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
       <description>
 
-&lt;p&gt;Version 9 (&lt;em&gt;Dec 2016&lt;/em&gt;) contains (Standard version):&lt;/p&gt;
+&lt;p&gt;Version 10 (&lt;em&gt;January 2017&lt;/em&gt;) contains:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;57 unique brush presets&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;61 unique brush presets&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;2 pdf documents&lt;/strong&gt; to help you get started with the brushes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Monthly updates&lt;/strong&gt;. More brushes and videos are already on your way!&lt;/li&gt;
 &lt;/ul&gt;
@@ -46,12 +46,41 @@
 
 &lt;p&gt;&lt;a href=&#34;https://gum.co/krita-brushes-gdquest-lite&#34;&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/krita-brushes-banner-lite.jpg&#34; alt=&#34;Krita brushes banner lite&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lite-version-span-class-text-success-free-span&#34;&gt;Lite version &lt;span class=&#34;text--success&#34;&gt;(free)&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;free-krita-brushes&#34;&gt;Free Krita brushes&lt;/h2&gt;
 
-&lt;p&gt;You know the best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
+&lt;p&gt;The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
 &lt;a href=&#34;https://gumroad.com/l/krita-brushes-gdquest-lite&#34;&gt;Click here to download the free Krita brushes&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+
+&lt;h3 id=&#34;version-10-january-2017&#34;&gt;Version 10 - January 2017&lt;/h3&gt;
+
+&lt;p&gt;Version 10 is a maintenance update. It comes with 4 new presets, but also 11 existing brushes got better! Performance improvements, improved feel&amp;hellip; a good way to prepare major changes coming over the next few updates. As on every other month, I released &lt;a href=&#34;https://gumroad.com/l/krita-brushes-gdquest-lite&#34;&gt;7 new free Krita brushes&lt;/a&gt; in the.&lt;/p&gt;
+
+&lt;h4 id=&#34;new-brushes&#34;&gt;New brushes&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paint Flat Softer: Softer version of the flat paintbrush&lt;/li&gt;
+&lt;li&gt;Paint Flat Sharper: Sharper version of the flat paintbrush, but 40% slower to render&lt;/li&gt;
+&lt;li&gt;Airbrush Shading: An airbrush taylored to block shadows in&lt;/li&gt;
+&lt;li&gt;Airbrush Softer: A subtle airbrush, extra smooth compared to the base Gdquest Airbrush&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;improved-brushes&#34;&gt;Improved brushes&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blend Flat: pen rotation support, improved tip and blend curve, new size&lt;/li&gt;
+&lt;li&gt;Blend Smoky: improved blend curver, new size&lt;/li&gt;
+&lt;li&gt;Blend Smudge: improved opacity curve, new size&lt;/li&gt;
+&lt;li&gt;Cloud Builder: new size&lt;/li&gt;
+&lt;li&gt;Cloud Builder Soft: new size&lt;/li&gt;
+&lt;li&gt;Fill Flat Directional: improved for outlines and inking, new size&lt;/li&gt;
+&lt;li&gt;Ink Brush: improved pressure curve to make lower sizes more accessible, new size. Feels more like a Japanese Ink Brush&lt;/li&gt;
+&lt;li&gt;Ink Rough: improved opacity curve, new opacity, new size. Feels more like an alcohol marker&lt;/li&gt;
+&lt;li&gt;Ink Sketch: new size&lt;/li&gt;
+&lt;li&gt;Paint Flat: 2x faster, pen rotation support, sharper short edge on the brush tip, softer long edge, improved blend curve, new size&lt;/li&gt;
+&lt;li&gt;Paint Round Dry: 25% faster, improved pressure and color blend curves&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;version-9-dec-2016&#34;&gt;Version 9 - Dec 2016&lt;/h3&gt;
 
@@ -74,7 +103,7 @@
 &lt;h3 id=&#34;version-7-oct-2016&#34;&gt;Version 7 (Oct 2016)&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;2 Rock presets: draw small, round and stylized rocks with Rock_builder_stylized, and detail them with the Rock_detail brush&lt;/li&gt;
+&lt;li&gt;2 Rock presets: draw small, round and stylized rocks with Rock builder stylized, and detail them with the Rock_detail brush&lt;/li&gt;
 &lt;li&gt;3 special presets for shading: the special_shadow brush allows you to stamp simple round shadows, to place under characters and small assets. The other 2 brushes are directional shading brushes, with a sharp and a soft side.&lt;/li&gt;
 &lt;li&gt;2 pencil-looking brushes: one for sketching, and one for shading.&lt;/li&gt;
 &lt;li&gt;Updated paint_old preset: I remade the preset from scratch. It is at least twice as fast, and strokes are more consistent.&lt;/li&gt;

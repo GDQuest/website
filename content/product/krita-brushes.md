@@ -1,12 +1,13 @@
 ---
 title: Krita brushes for game artists
 description: Here are my Krita brushes, a complete set designed by a game artist, for game artists! I do my best to update it on a regular basis, and it comes with tutorials too.
-date: 2016-11-09
+date: 2017-01-30
 author: nathan
 
 category: Krita
 tags:
   - krita brushes
+  - free krita brushes
   - krita brush
 
 url: krita-brushes-for-game-artists
@@ -20,9 +21,9 @@ banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
 product: krita-brushes
 ---
 
-Version 9 (_Dec 2016_) contains (Standard version):
+Version 10 (_January 2017_) contains:
 
-- **57 unique brush presets**
+- **61 unique brush presets**
 - **2 pdf documents** to help you get started with the brushes
 - **Monthly updates**. More brushes and videos are already on your way!
 
@@ -44,12 +45,37 @@ See more of Zhillustrator's work [on Artstation](https://www.artstation.com/arti
 
 [![Krita brushes banner lite](/img/page/krita-brushes/krita-brushes-banner-lite.jpg)](https://gum.co/krita-brushes-gdquest-lite)
 
-## Lite version <span class="text--success">(free)</span>
+## Free Krita brushes
 
-You know the best part? There is actually a free, smaller version of this set, so you can try it out for yourself. 
+The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
 [Click here to download the free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite)
 
 ## Changelog
+
+### Version 10 - January 2017
+
+Version 10 is a maintenance update. It comes with 4 new presets, but also 11 existing brushes got better! Performance improvements, improved feel... a good way to prepare major changes coming over the next few updates. As on every other month, I released [7 new free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite) in the.
+
+#### New brushes
+
+- Paint Flat Softer: Softer version of the flat paintbrush
+- Paint Flat Sharper: Sharper version of the flat paintbrush, but 40% slower to render
+- Airbrush Shading: An airbrush taylored to block shadows in
+- Airbrush Softer: A subtle airbrush, extra smooth compared to the base Gdquest Airbrush
+
+#### Improved brushes
+
+- Blend Flat: pen rotation support, improved tip and blend curve, new size
+- Blend Smoky: improved blend curver, new size
+- Blend Smudge: improved opacity curve, new size
+- Cloud Builder: new size
+- Cloud Builder Soft: new size
+- Fill Flat Directional: improved for outlines and inking, new size
+- Ink Brush: improved pressure curve to make lower sizes more accessible, new size. Feels more like a Japanese Ink Brush
+- Ink Rough: improved opacity curve, new opacity, new size. Feels more like an alcohol marker
+- Ink Sketch: new size
+- Paint Flat: 2x faster, pen rotation support, sharper short edge on the brush tip, softer long edge, improved blend curve, new size
+- Paint Round Dry: 25% faster, improved pressure and color blend curves
 
 ### Version 9 - Dec 2016
 
@@ -67,7 +93,7 @@ You know the best part? There is actually a free, smaller version of this set, s
 
 ### Version 7 (Oct 2016)
 
-- 2 Rock presets: draw small, round and stylized rocks with Rock_builder_stylized, and detail them with the Rock_detail brush
+- 2 Rock presets: draw small, round and stylized rocks with Rock builder stylized, and detail them with the Rock_detail brush
 - 3 special presets for shading: the special_shadow brush allows you to stamp simple round shadows, to place under characters and small assets. The other 2 brushes are directional shading brushes, with a sharp and a soft side.
 - 2 pencil-looking brushes: one for sketching, and one for shading.
 - Updated paint_old preset: I remade the preset from scratch. It is at least twice as fast, and strokes are more consistent.

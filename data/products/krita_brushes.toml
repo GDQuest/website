@@ -2,7 +2,7 @@ intro = ["**Do you want to become a faster artist with Krita?** This brush set i
 
 
 [versions.01]
-features = ["23 presets", "1 tutorial", "2 pdf documents", "FREE"]
+features = ["30 presets", "1 tutorial", "2 pdf documents", "FREE"]
 link = "https://gum.co/krita-brushes-gdquest-lite"
 name = "Lite"
 price = "0"
@@ -11,7 +11,7 @@ price = "0"
     path = "/img/page/krita-brushes/krita-brushes-icon-lite.png"
 
 [versions.02]
-features = ["57 presets", "Monthly updates"]
+features = ["61 presets", "Monthly updates"]
 link = "https://gumroad.com/l/krita-brushes-for-game-artists"
 name = "Standard"
 price = "9.95"

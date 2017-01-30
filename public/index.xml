@@ -8,8 +8,121 @@
     <language>en-EN</language>
     <managingEditor>nathan@gdquest.com (Nathan Lovato)</managingEditor>
     <webMaster>nathan@gdquest.com (Nathan Lovato)</webMaster>
-    <lastBuildDate>Sat, 21 Jan 2017 17:35:09 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://gdquest.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Krita brushes for game artists</title>
+      <link>http://gdquest.com/krita-brushes-for-game-artists</link>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+      <author>nathan@gdquest.com (Nathan Lovato)</author>
+      <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
+      <description>
+
+&lt;p&gt;Version 10 (&lt;em&gt;January 2017&lt;/em&gt;) contains:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;61 unique brush presets&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2 pdf documents&lt;/strong&gt; to help you get started with the brushes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monthly updates&lt;/strong&gt;. More brushes and videos are already on your way!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The premium tier adds:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;More than 30 minutes of exclusive video tutorials&lt;/strong&gt; to get the most out of the brushes&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;natural media brushkit&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Priority support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I take my time to design the presets and ensure that they are worth adding to the pack. I also use them in my daily work to ensure that they are tested thoroughly in all kinds of configurations.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-other-artists-have-to-say&#34;&gt;What other artists have to say&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/testimonial-zhillustrator.jpg&#34; alt=&#34;Thumbnails painted with Krita by Živko Kondić&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/zhille&#34;&gt;Zhillustrator&lt;/a&gt; writes: &amp;laquo;Nathan&amp;rsquo;s brush set has some essential brushes for digital painting that will ease your way into Krita&amp;rsquo;s powerful brush engine. My favorites in the pack are the mix and smudge brushes. Honestly, if you like the Lite set, it&amp;rsquo;s worth it, Krita is going somewhere.&amp;raquo;&lt;/p&gt;
+
+&lt;p&gt;See more of Zhillustrator&amp;rsquo;s work &lt;a href=&#34;https://www.artstation.com/artist/zhille&#34;&gt;on Artstation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gum.co/krita-brushes-gdquest-lite&#34;&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/krita-brushes-banner-lite.jpg&#34; alt=&#34;Krita brushes banner lite&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;free-krita-brushes&#34;&gt;Free Krita brushes&lt;/h2&gt;
+
+&lt;p&gt;The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
+&lt;a href=&#34;https://gumroad.com/l/krita-brushes-gdquest-lite&#34;&gt;Click here to download the free Krita brushes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+
+&lt;h3 id=&#34;version-10-january-2017&#34;&gt;Version 10 - January 2017&lt;/h3&gt;
+
+&lt;p&gt;Version 10 is a maintenance update. It comes with 4 new presets, but also 11 existing brushes got better! Performance improvements, improved feel&amp;hellip; a good way to prepare major changes coming over the next few updates. As on every other month, I released &lt;a href=&#34;https://gumroad.com/l/krita-brushes-gdquest-lite&#34;&gt;7 new free Krita brushes&lt;/a&gt; in the.&lt;/p&gt;
+
+&lt;h4 id=&#34;new-brushes&#34;&gt;New brushes&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paint Flat Softer: Softer version of the flat paintbrush&lt;/li&gt;
+&lt;li&gt;Paint Flat Sharper: Sharper version of the flat paintbrush, but 40% slower to render&lt;/li&gt;
+&lt;li&gt;Airbrush Shading: An airbrush taylored to block shadows in&lt;/li&gt;
+&lt;li&gt;Airbrush Softer: A subtle airbrush, extra smooth compared to the base Gdquest Airbrush&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;improved-brushes&#34;&gt;Improved brushes&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blend Flat: pen rotation support, improved tip and blend curve, new size&lt;/li&gt;
+&lt;li&gt;Blend Smoky: improved blend curver, new size&lt;/li&gt;
+&lt;li&gt;Blend Smudge: improved opacity curve, new size&lt;/li&gt;
+&lt;li&gt;Cloud Builder: new size&lt;/li&gt;
+&lt;li&gt;Cloud Builder Soft: new size&lt;/li&gt;
+&lt;li&gt;Fill Flat Directional: improved for outlines and inking, new size&lt;/li&gt;
+&lt;li&gt;Ink Brush: improved pressure curve to make lower sizes more accessible, new size. Feels more like a Japanese Ink Brush&lt;/li&gt;
+&lt;li&gt;Ink Rough: improved opacity curve, new opacity, new size. Feels more like an alcohol marker&lt;/li&gt;
+&lt;li&gt;Ink Sketch: new size&lt;/li&gt;
+&lt;li&gt;Paint Flat: 2x faster, pen rotation support, sharper short edge on the brush tip, softer long edge, improved blend curve, new size&lt;/li&gt;
+&lt;li&gt;Paint Round Dry: 25% faster, improved pressure and color blend curves&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;version-9-dec-2016&#34;&gt;Version 9 - Dec 2016&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10 new presets including a blur tool, splatter brushes, and a rock texture&lt;/li&gt;
+&lt;li&gt;10 natural media presets, and especially a powerful cloud painting tool (premium)&lt;/li&gt;
+&lt;li&gt;a new tutorial on cloud painting (premium)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;version-8-nov-2016&#34;&gt;Version 8 - Nov 2016&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 textured rock brushes: these presets will allow you to add 2 types of sharp grain to your rocks, for a more believable look.&lt;/li&gt;
+&lt;li&gt;Smear cloud: whether you want to slightly blur or completely diffuse your edges, this is a very efficient preset to do so. It blurs your painting fast and provides very good control.&lt;/li&gt;
+&lt;li&gt;Smoke dusty: this brush can be used for both clouds and smoke. Unlike the existing cloud builder brushes, it offers some high frequency details for a richer look.&lt;/li&gt;
+&lt;li&gt;2 water brushes: the first water brushes are in! They&amp;rsquo;re useful to paint waves, for a lake, a sea or an ocean.&lt;/li&gt;
+&lt;li&gt;Tree leaves builder: a nice brush to quickly add detailed leaves to a piece of concept art.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;version-7-oct-2016&#34;&gt;Version 7 (Oct 2016)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 Rock presets: draw small, round and stylized rocks with Rock builder stylized, and detail them with the Rock_detail brush&lt;/li&gt;
+&lt;li&gt;3 special presets for shading: the special_shadow brush allows you to stamp simple round shadows, to place under characters and small assets. The other 2 brushes are directional shading brushes, with a sharp and a soft side.&lt;/li&gt;
+&lt;li&gt;2 pencil-looking brushes: one for sketching, and one for shading.&lt;/li&gt;
+&lt;li&gt;Updated paint_old preset: I remade the preset from scratch. It is at least twice as fast, and strokes are more consistent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;version-6-sep-2016&#34;&gt;Version 6 (Sep 2016)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4 pixel art deform tools: pixel art-friendly Grow, Shrink, Move and Swirl tools&lt;/li&gt;
+&lt;li&gt;2 cloud builder brushes: the first builders are here! These presets will help you paint accurate sprite silhouettes in no time. These will work for both stylized and realistic clouds.&lt;/li&gt;
+&lt;li&gt;2 smoke brushes: for when you need to achieve a textured smoky effect. Also useful to add definition to materials.&lt;/li&gt;
+&lt;li&gt;Text-based install guide (pdf)&lt;/li&gt;
+&lt;li&gt;An intro to brush families (pdf)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the full release changelog, check out the &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Gumroad page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>In the office - January news</title>
@@ -101,90 +214,6 @@ Nathan&lt;/p&gt;
 &lt;p&gt;PS: If you want to see more shots I took in Japan, click on the picture below. It&amp;rsquo;ll take you to the album on Flickr.&lt;/p&gt;
 
 &lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/144749747@N03/30766469012/in/dateposted-public/&#34; title=&#34;highlights (40 of 44)&#34;&gt;&lt;img src=&#34;https://c5.staticflickr.com/6/5546/30766469012_1a163667d6_b.jpg&#34; width=&#34;1024&#34; height=&#34;576&#34; alt=&#34;highlights (40 of 44)&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Krita brushes for game artists</title>
-      <link>http://gdquest.com/krita-brushes-for-game-artists</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
-      <author>nathan@gdquest.com (Nathan Lovato)</author>
-      <guid>http://gdquest.com/krita-brushes-for-game-artists</guid>
-      <description>
-
-&lt;p&gt;Version 9 (&lt;em&gt;Dec 2016&lt;/em&gt;) contains (Standard version):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;57 unique brush presets&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2 pdf documents&lt;/strong&gt; to help you get started with the brushes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Monthly updates&lt;/strong&gt;. More brushes and videos are already on your way!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The premium tier adds:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;More than 30 minutes of exclusive video tutorials&lt;/strong&gt; to get the most out of the brushes&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;natural media brushkit&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Priority support&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I take my time to design the presets and ensure that they are worth adding to the pack. I also use them in my daily work to ensure that they are tested thoroughly in all kinds of configurations.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-other-artists-have-to-say&#34;&gt;What other artists have to say&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/testimonial-zhillustrator.jpg&#34; alt=&#34;Thumbnails painted with Krita by Živko Kondić&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/zhille&#34;&gt;Zhillustrator&lt;/a&gt; writes: &amp;laquo;Nathan&amp;rsquo;s brush set has some essential brushes for digital painting that will ease your way into Krita&amp;rsquo;s powerful brush engine. My favorites in the pack are the mix and smudge brushes. Honestly, if you like the Lite set, it&amp;rsquo;s worth it, Krita is going somewhere.&amp;raquo;&lt;/p&gt;
-
-&lt;p&gt;See more of Zhillustrator&amp;rsquo;s work &lt;a href=&#34;https://www.artstation.com/artist/zhille&#34;&gt;on Artstation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gum.co/krita-brushes-gdquest-lite&#34;&gt;&lt;img src=&#34;http://gdquest.com/img/page/krita-brushes/krita-brushes-banner-lite.jpg&#34; alt=&#34;Krita brushes banner lite&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lite-version-span-class-text-success-free-span&#34;&gt;Lite version &lt;span class=&#34;text--success&#34;&gt;(free)&lt;/span&gt;&lt;/h2&gt;
-
-&lt;p&gt;You know the best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
-&lt;a href=&#34;https://gumroad.com/l/krita-brushes-gdquest-lite&#34;&gt;Click here to download the free Krita brushes&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
-
-&lt;h3 id=&#34;version-9-dec-2016&#34;&gt;Version 9 - Dec 2016&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;10 new presets including a blur tool, splatter brushes, and a rock texture&lt;/li&gt;
-&lt;li&gt;10 natural media presets, and especially a powerful cloud painting tool (premium)&lt;/li&gt;
-&lt;li&gt;a new tutorial on cloud painting (premium)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;version-8-nov-2016&#34;&gt;Version 8 - Nov 2016&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 textured rock brushes: these presets will allow you to add 2 types of sharp grain to your rocks, for a more believable look.&lt;/li&gt;
-&lt;li&gt;Smear cloud: whether you want to slightly blur or completely diffuse your edges, this is a very efficient preset to do so. It blurs your painting fast and provides very good control.&lt;/li&gt;
-&lt;li&gt;Smoke dusty: this brush can be used for both clouds and smoke. Unlike the existing cloud builder brushes, it offers some high frequency details for a richer look.&lt;/li&gt;
-&lt;li&gt;2 water brushes: the first water brushes are in! They&amp;rsquo;re useful to paint waves, for a lake, a sea or an ocean.&lt;/li&gt;
-&lt;li&gt;Tree leaves builder: a nice brush to quickly add detailed leaves to a piece of concept art.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;version-7-oct-2016&#34;&gt;Version 7 (Oct 2016)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 Rock presets: draw small, round and stylized rocks with Rock_builder_stylized, and detail them with the Rock_detail brush&lt;/li&gt;
-&lt;li&gt;3 special presets for shading: the special_shadow brush allows you to stamp simple round shadows, to place under characters and small assets. The other 2 brushes are directional shading brushes, with a sharp and a soft side.&lt;/li&gt;
-&lt;li&gt;2 pencil-looking brushes: one for sketching, and one for shading.&lt;/li&gt;
-&lt;li&gt;Updated paint_old preset: I remade the preset from scratch. It is at least twice as fast, and strokes are more consistent.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;version-6-sep-2016&#34;&gt;Version 6 (Sep 2016)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;4 pixel art deform tools: pixel art-friendly Grow, Shrink, Move and Swirl tools&lt;/li&gt;
-&lt;li&gt;2 cloud builder brushes: the first builders are here! These presets will help you paint accurate sprite silhouettes in no time. These will work for both stylized and realistic clouds.&lt;/li&gt;
-&lt;li&gt;2 smoke brushes: for when you need to achieve a textured smoky effect. Also useful to add definition to materials.&lt;/li&gt;
-&lt;li&gt;Text-based install guide (pdf)&lt;/li&gt;
-&lt;li&gt;An intro to brush families (pdf)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For the full release changelog, check out the &lt;a href=&#34;https://gumroad.com/l/krita-brushes-for-game-artists&#34;&gt;Gumroad page&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -1030,7 +1059,7 @@ text--success
 
 &lt;p&gt;In the email, you will find a link that will automatically apply your coupon for you. The price of the product should be crossed and replaced with &amp;laquo;€0&amp;raquo;. Click the &amp;laquo;I want this!&amp;raquo; button and enter your email address to add the course to your Gumroad library.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://gdquest.com/Course/GAQ/krita-tutorial-coupon-redeem.jpg&#34; alt=&#34;Coupon code redeem example&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://gdquest.com/img/page/game-art-quest/krita-tutorial-coupon-redeem.jpg&#34; alt=&#34;Coupon code redeem example&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There you go, you can now stream the videos directly on Gumroad or download them all to watch later!&lt;/p&gt;
 </description>
