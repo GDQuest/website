@@ -2,8 +2,12 @@
 @import "settings";
 @import "node_modules/concise.css/concise";
 @import "node_modules/concise-ui/concise-ui";
+
+
 // @import "node_modules/concise-utils/concise-utils";
+@import "modules/banner-img";
 @import "modules/wip";
+@import "modules/text";
 @import "modules/nav";
 @import "modules/cards";
 @import "modules/collection";

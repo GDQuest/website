@@ -17,7 +17,7 @@
 
 <header>
   <h1>{{ .Title }}</h1>
-  <img class="banner-img" src="{{ .Params.banner }}" alt="{{ .Title }}: Course page banner" />
+  {{ partial "block/banner_img" . }}
 </header>
 
 <div grid>
@@ -36,11 +36,11 @@
       {{ end }}
 
       <!-- Chapter title card -->
-      <div class="card-box text--center">
+      <div class="card-box -center">
         <h2 id="{{ replace .title " " "-" }}"> {{ .title }} </h2>
         {{ $duration := ($.Scratch.Get "duration") }}
         {{ if gt $duration 0 }}
-        <span class="text--muted">Duration: {{ div $duration 60 }} min {{ mod $duration 60 }} s </span>
+        <span class="-muted">Duration: {{ div $duration 60 }} min {{ mod $duration 60 }} s </span>
         {{ end }}
         <p>{{ .description | markdownify }}</p>
       </div>
@@ -52,11 +52,11 @@
         {{ $.Scratch.Add "video_count_chapter" 1 }}
 
         <li class="collection-item">
-        <span class="text--muted">{{ $.Scratch.Get "video_count_chapter" }}. </span>
+        <span class="-muted">{{ $.Scratch.Get "video_count_chapter" }}. </span>
         {{ if and (le ($.Scratch.Get "video_count") ($.Scratch.Get "videos_released") ) (and (isset . "url") (not (eq .url "") )) }}
           <a href="{{ .url }}{{ $.Scratch.Get "playlist" }}">{{ .title }}</a>
           {{ else }}
-          {{ .title }} <span class="text--muted">Upcoming</span>
+          {{ .title }} <span class="-muted">Upcoming</span>
         {{ end }}
 
         {{ if or (isset . "document") (isset . "exercise") }}
@@ -78,7 +78,7 @@
             {{ $.Scratch.Set "video_length" 0 }}
           {{ end }}
           {{ $video_length := add $video_length ( $.Scratch.Get "video_length" ) }}
-          <span class="text--muted">({{ $video_length }} min)</span>
+          <span class="-muted">({{ $video_length }} min)</span>
         {{ end }}
         </li>
       {{ end }}
@@ -105,7 +105,7 @@
 
 <aside id="author">
   {{ if isset .Params "author" }}
-  <p class="text--muted">
+  <p class="-muted">
     Meet your mentor
   </p>
   {{ partial "modules/author" . }}

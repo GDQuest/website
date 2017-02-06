@@ -5,7 +5,7 @@
     {{ with .Get "content" }}<div class="card-content"><p>{{ . | markdownify }}</p></div>{{ end }}
 
     {{ if .Get "link" }}
-    <div class="card-footer text--center">
+    <div class="card-footer -center">
       <a href="{{ .Get "link" }}">{{ with .Get "link_text" }}{{ . }}{{ else }}Link{{ end }}</a>
     </div>
     {{ end }}

@@ -1,24 +1,22 @@
-				<div class="clearfix"></div>
-				<footer row class="hide--print text--center">
-						<small> <span>(c) 2015-2016 <a href="https://twitter.com/NathanGDquest">Nathan Lovato</a></span> </small>
-				</footer>
+<footer row class="hide--print -center">
+	<small> <span>(c) 2015-2017 <a href="https://twitter.com/NathanGDquest">Nathan Lovato</a></span> </small>
+</footer>
 
-				<!-- SCRIPTS -->
-				<!-- Highlight.js -->
-				{{ if .IsPage }} {{ if isset .Params "highlight" }}
-				<script async src="{{ " /js/ " | absURL }}highlight.py.js"></script>
-				<script>
-					hljs.initHighlightingOnLoad();
-				</script>
-				{{ end }} {{ end }}
+<!-- Highlight.js -->
+{{ if .IsPage }} {{ if isset .Params "highlight" }}
+<script async src="{{ " /js/ " | absURL }}highlight.py.js"></script>
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
+{{ end }} {{ end }}
 
-				<!-- Font awesome / Fort awesome -->
-				<script type="text/javascript">
-						(function() {
-							var css = document.createElement('link');
-							css.href = '{{ "/css/" | absURL }}fort-awesome.min.css';
-							css.rel = 'stylesheet';
-							css.type = 'text/css';
-							document.getElementsByTagName('head')[0].appendChild(css);
-						})();
-				</script>
+<!-- Font awesome / Fort awesome -->
+<script type="text/javascript">
+	(function() {
+		var css = document.createElement('link');
+		css.href = '{{ "/css/" | absURL }}fort-awesome.min.css';
+		css.rel = 'stylesheet';
+		css.type = 'text/css';
+		document.getElementsByTagName('head')[0].appendChild(css);
+	})();
+</script>

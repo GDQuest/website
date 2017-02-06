@@ -5,6 +5,7 @@ const gulp = require('gulp')
       imagemin = require('gulp-imagemin')
       ghPages = require('gulp-gh-pages')
       watch = require('gulp-watch')
+      run = require('gulp-run')
 
 
 gulp.task('deploy', function () {
@@ -13,13 +14,17 @@ gulp.task('deploy', function () {
 })
 
 
-var cssFolder = 'themes/gdquest/static/css/concise/*.scss'
-var cssDistFolder = 'themes/gdquest/css/static'
+var cssFolder = './_src/css/concise/*.scss'
+var cssDist = './static/css/gdquest.css'
+
 gulp.task('watch', function () {
-  return gulp.src(cssFolder)
-    .pipe(watch(cssFolder))
-    .pipe()
-    .pipe(gulp.dest(cssDistFolder))
+  return watch(cssFolder, function () {
+        gulp.start('build-css')
+    })
+})
+
+gulp.task('build-css', function () {
+  return run('npm run build-css').exec()
 })
 
 
@@ -33,12 +38,12 @@ gulp.task('minify', function () {
 
 
 gulp.task('uncss', function () {
-  return gulp.src('D:/Library/Dropbox/GDquest.com/themes/gdquest/static/css/concise/dist/gdquest.css')
+  return gulp.src('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.css')
     .pipe(uncss({
       html: ['public/**/*.html']
     }))
     .pipe(cssmin())
-    .pipe(gulp.dest('D:/Library/Dropbox/GDquest.com/themes/gdquest/static/css/'))
+    .pipe(gulp.dest('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.css'))
 })
 
 

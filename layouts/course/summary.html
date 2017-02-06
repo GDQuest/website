@@ -92,7 +92,7 @@
               <li class="collection-item">
                 {{ if and (ne .url "") (isset . "url") }} <i class="fa fa-check text--success"></i> {{ end }}
                 <strong>{{ .title }}</strong>
-                {{ if and (isset . "description") (ne .description "") }} : <span class="text--muted">{{ .description | markdownify }} </span> {{ end }}
+                {{ if and (isset . "description") (ne .description "") }} : <span class="-muted">{{ .description | markdownify }} </span> {{ end }}
               </li>
             {{ end }}
           </ol>

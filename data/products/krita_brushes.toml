@@ -26,6 +26,7 @@ extra = "+ Standard content"
 link = "https://gumroad.com/l/krita-brushes-for-game-artists"
 name = "Premium"
 price = "24.95"
+color = "-success"
 list_icon = "check"
     [versions.03.icon]
     alt = "Brushes icon standard"

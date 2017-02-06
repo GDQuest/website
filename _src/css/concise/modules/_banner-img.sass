@@ -1,0 +1,12 @@
+.banner-img
+    box-sizing: border-box
+    border: $bannerBorderSize solid
+    border-top: none
+    border-bottom: none
+    @each $name, $color in $colors
+        @if $name == "gdquest"
+            @each $type, $value in $color
+                &.#{$type}
+                    // border-image: linear-gradient(to top, $value, lighten($value, 10%))
+                    // border-image-slice: 1
+                    border-color: $value
