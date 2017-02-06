@@ -110,11 +110,20 @@ $breakpoint: --small;
 // Use the getColor() function to use those values in
 // your stylesheets. Example: getColor(base, primary)
 
+$bannerBorderSize: 6px;
+
 $colors: (
   base: (
     "primary":   #ffa000,
     "selection": #d6d6d6,
     "lines":     #353e44
+  ),
+
+  gdquest: (
+    "yellow": #FFC107,
+    "green":  #4CAF50,
+    "blue":   #1976D2,
+    "pink":   #E91E63
   ),
 
   text: (

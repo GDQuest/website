@@ -11,14 +11,16 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^2.0.0",
     "gulp-imagemin": "^3.0.0",
-    "gulp-uncss": "^1.0.5",
+    "gulp-run": "^1.7.1",
+    "gulp-uncss": "^1.0.6",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.11",
     "imagemin": "^5.0.2",
     "uncss": "^0.14.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "concisecss compile _src/css/concise/gdquest.scss static/css/gdquest.css"
   },
   "repository": {
     "type": "git",

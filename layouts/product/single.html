@@ -1,21 +1,25 @@
 {{ define "main" }}
 <section grid>
   <article column="8 +2">
-    {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-    <img src="/{{ .Params.banner }}" alt="{{ with .Params.banner_alt }} {{.}} {{ end }}" />
-    {{ end }}
     
+    {{ partial "block/banner_img" . }}
+
     <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
 
     {{ range (index $.Site.Data.products.krita_brushes "intro") }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
 
-    <div grid id="product" class="product card-box text--center">
+    <div grid id="product" class="product card-box -center">
       {{ range (index $.Site.Data.products.krita_brushes "versions") }}
       <div column>
         <img src="{{ .icon.path }}" alt="{{ .icon.alt }}">
-        <a href="{{ .link }}" class="product-name">{{ .name }}</a>
+
+        <a href="{{ .link }}">
+          <button class="-bordered -call-to-action {{ with .color }}{{ . }}{{ end }}">
+            {{ .name }}
+          </button>
+        </a>
         
         {{ if isset . "icon"}}
           {{ $.Scratch.Set "list_icon" .list_icon }}
@@ -23,11 +27,11 @@
         {{ $list_icon := $.Scratch.Get "list_icon" }}
 
         {{ if isset . "features" }}
-        <ul class="list--unstyled">
+        <ul class="-unstyled">
           {{ range .features }}
           <li> 
-            {{ if $list_icon }} <i class="fa fa-{{ $.Scratch.Get "list_icon" }}"></i> {{ end }}
-            {{.}}
+            {{ if $list_icon }} <i class="fa fa-{{ $list_icon }}"></i> {{ end }}
+            {{ . }}
           </li>
           {{ end }}
           {{ with .extra }} <li>{{ . }}</li> {{ end }}

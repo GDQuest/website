@@ -15,7 +15,7 @@ aliases:
   - brush-pack
   - game-art-quest/brush-pack
 
-banner: img/page/krita-brushes/krita-brushes-banner.jpg
+banner: /img/page/krita-brushes/krita-brushes-banner.jpg
 banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
 
 product: krita-brushes
@@ -43,7 +43,7 @@ I take my time to design the presets and ensure that they are worth adding to th
 
 See more of Zhillustrator's work [on Artstation](https://www.artstation.com/artist/zhille)
 
-[![Krita brushes banner lite](/img/page/krita-brushes/krita-brushes-banner-lite.jpg)](https://gum.co/krita-brushes-gdquest-lite)
+{{< banner_img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" color="blue" free="true" >}}
 
 ## Free Krita brushes
 
