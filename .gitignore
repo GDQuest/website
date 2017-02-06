@@ -2,9 +2,9 @@
 ###########
 
 public/
-public
 node_modules/
 _src/img/
+.publish/
 
 # Packages #
 ############
