@@ -1,23 +1,20 @@
-<header grid>
-    <nav class="nav hide--print">
-        <a href="{{.Site.BaseURL}}" class="logo">
-            <img src="{{.Site.BaseURL}}/img/GDquest-brand-image.png" alt="Game Design Quest" />
-        </a>
+<header>
+    <nav grid="no-gutter" class="hide--print">
+        <div column>
+            <a href="{{.Site.BaseURL}}" class="logo" > <img src="{{.Site.BaseURL}}/img/GDquest-brand-image.png" alt="Game Design Quest" /> </a>
+        </div>
 
-        <ul id="desktop-menu">
-            {{ $currentNode := . }} {{ range .Site.Menus.main }}
-            <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }} {{ range .Site.Params.social }}
-            <li><a href="{{.link}}" target="_blank"><i class="fa fa-lg fa-fw fa-{{.icon}}"></i> <span class="hidden">{{.description}}</span> </a></li>
-            {{ end }}
-        </ul>
-
-        <label for="nav-button" class="nav-button"> <i class="my-fa fa-lg fa-star"></i></label>
+        <label for="nav-button" class="nav-button"> 
+            &#9776; Menu
+        </label>
         <input type="checkbox" id="nav-button" />
-        <ul id="mobile-menu">
+        <ul id="menu">
             {{ $currentNode := . }} {{ range .Site.Menus.main }}
-            <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
+                <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }} 
+            <!--{{ range .Site.Params.social }}
+                <li><a href="{{.link}}" target="_blank"><i class="fa fa-lg fa-fw fa-{{.icon}}"></i> <span class="hidden">{{.description}}</span> </a></li>
+            {{ end }}-->
         </ul>
     </nav>
 </header>

@@ -19,9 +19,12 @@ img {
     max-width: 100%;
 }
 
+section:first-of-type {
+    margin-top: 0;
+}
+
 .lead {
     font-size: $font-size-secondary;
-    font-weight: 300;
 }
 
 .img-circle {

@@ -9,29 +9,23 @@ author: nathan
 url: game-art-quest
 ---
 
-<h2><a href="{{< ref "krita-tutorial/krita-tutorial-for-game-artists.md" >}}">Krita tutorial for game artists <span class="text--success">(Free)</span></a></h2>
+## Krita tutorial for game artists (Free)
 
-[<img src="\img\page\game-art-quest\game-art-quest-free-krita-tutorials.png" alt="Game Art Quest volume 1 banner - Free Krita tutorials" class="img-responsive"/>]({{< ref "krita-tutorial/krita-tutorial-for-game-artists.md" >}})
+<img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow">
 
 This training focuses on Krita's functionality for game artists and digital painters. It covers the tools you need to work efficiently.
 It is **completely free**, thanks to the 424 Kickstarter backers.
 
-<div class="group">
-  <li class="group-item">
-    <a href="{{< ref "krita-tutorial/krita-tutorial-for-game-artists.md" >}}" class="lead"> {{< icon book default >}} The course </a>
-  </li>
-  <li class="group-item">
-    <a href="{{< ref "product/krita-brushes.md" >}}" class="lead"> {{< icon check success >}} Krita brushes </a>
-  </li>
+<div grid>
+  <div column class="-center">
+    <a href="{{< ref "krita-tutorial/krita-tutorial-for-game-artists.md" >}}"> 
+      <button class="-bordered -call-to-action -success">{{< icon book default >}} Free course</button>
+    </a>
+    <a href="{{< ref "product/krita-brushes.md" >}}"> 
+      <button class="-bordered -call-to-action">{{< icon check success >}} Krita brushes</button>
+    </a>
+  </div>
 </div>
-
-<hr>
-
-<!-- REWRITE EVERYTHING FROM HERE -->
-
-Game Art Quest has a [{{< icon book default >}} Facebook study group](https://www.facebook.com/groups/GameArtQuest/)! There, we run weekly game art challenges. The goal is to become better game artists together.
-
-There's also an official {{< icon shopping-cart success >}} [Krita brush pack]({{< ref "product/krita-brushes.md" >}}) to supplement the training.
 
 <hr>
 
