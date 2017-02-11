@@ -86,11 +86,11 @@
     {{ end }}
   </article>
 
-  <aside column=4 class="course-menu">
+  <aside column=4>
     <div class="card-box">
       <h2>Chapters</h2>
       <nav class="no-margin">
-        <ul>
+        <ul class="course-menu">
           {{ range (index .Site.Data.courses .Params.course).course }}
           <li><a href="#{{ replace .title " " "-" }}"> {{ .title }} </a></li>
           {{ end }}

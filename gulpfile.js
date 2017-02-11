@@ -14,11 +14,11 @@ gulp.task('deploy', function () {
 })
 
 
-var cssFolder = './_src/css/concise/*.scss'
+var cssFolders = ['./_src/css/concise/*.scss', './_src/css/concise/modules/*.sass']
 var cssDist = './static/css/gdquest.css'
 
 gulp.task('watch', function () {
-  return watch(cssFolder, function () {
+  return watch(cssFolders, function () {
         gulp.start('build-css')
     })
 })

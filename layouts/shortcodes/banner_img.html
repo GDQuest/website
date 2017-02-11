@@ -9,7 +9,7 @@
     <img 
         src="{{ .Get "src" }}" 
         alt="{{ with .Get "alt" }}{{ . }}{{ end }}" 
-        class="banner-img {{ with .Get "color" }}{{ . }}{{ else }}yellow{{ end }}" 
+        class="banner-img {{ with .Get "color" }}{{ . }}{{ else }}-yellow{{ end }}" 
     />
 </div>
 

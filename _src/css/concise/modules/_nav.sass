@@ -1,18 +1,14 @@
-// TODO: try dropdown classes for nav drop-down
-
-// --------
-// Float-based nav
-// --------
-// Vertical navbar by default (mobile)
-.nav
-  margin-top: 0
+nav
   border-bottom: 2px solid getColor(background, dark)
   ul
-    margin: 0
-    padding: 0
+    margin-top: 0
     list-style: none
     text-align: center
   li
+    @media (--extra-small)
+      border-bottom: 1px solid getColor(background, dark)
+      &:last-child
+        border-bottom: none
     a
       display: block
       height: $nav-height
@@ -25,44 +21,38 @@
     color: white
     background-color: getColor(background, dark)
     cursor: default
-  .logo
+
+.logo
     img
       max-height: $nav-height
-      padding: $nav-height * 0.2
+      padding: 0.6lh
 
-// Horizontal navbar on desktop
+// Horizontal on desktop
 @media (--small)
-  .nav ul
-    float: right
-  .nav li
-    float: left
+  nav ul
+    display: flex
+    justify-content: flex-end
 
-// Active and logo in navbar classes
-
-// to do: replace with svg sprite
 label
   display: block
   position: absolute
-  right: 16px
-  top: 10px
+  right: 0
+  height: $nav-height
+  padding: $nav-height * 0.2 18px
   cursor: pointer
-
-#desktop-menu
-  @media (--extra-small)
-    display: none
 
 #nav-button
   display: none
 
 .nav-button
+  line-height: $nav-height * 0.6
   @media (--small)
     display: none
 
-#mobile-menu
-  @media (--small)
-    display: none
-  max-height: 0
-  overflow: hidden
+#menu
+  @media (--extra-small)
+    max-height: 0
+    overflow: hidden
 
-#nav-button:checked ~ #mobile-menu
+#nav-button:checked ~ #menu
   max-height: 500px
