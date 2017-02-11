@@ -8,7 +8,6 @@
   <meta name="keywords" content="{{ if .Keywords }}{{ range .Keywords }}{{ . }}, {{ end }}{{else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{end}}">
   {{ with .Site.Params.googleplus }} <link rel="author" href="http://plus.google.com/+{{ . }}"> {{ end }}
     
-
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }} {{ end }}">
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
@@ -23,7 +22,6 @@
   <meta property="og:article:modified_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
   {{ if .Keywords }} {{ range .Keywords }} <meta property="og:article:tag" content="{{ . }}"> {{ end }}
   {{ else if isset .Params "tags" }} {{ range .Params.tags }} <meta property="og:article:tag" content="{{ . }}"> {{ end }} {{ end }}
-
 
   <!-- TWITTER CARD -->
   {{ if ne .Site.Params.twitter "" }}
@@ -52,10 +50,8 @@
   </script>
   {{ end }}
 
-  
   {{ if .RSSLink }} <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" /> {{ end }}
   <link rel="canonical" href="{{ .Permalink }}" />
-
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/touch-icon-144-precomposed.png" | absURL }}">
   <link href="{{ "/favicon.png" | absURL }}" rel="icon">
 
