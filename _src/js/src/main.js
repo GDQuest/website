@@ -1,12 +1,3 @@
-window.onload = function() {
-    let button = document.getElementById('nav-button')
-    let nav = document.getElementById('nav')
+import { LazyLoad } from "./modules/lazyload"
 
-    button.onclick = function(e) {
-        if(nav.style.display==="block") {
-            nav.style.display = "none"
-        } else {
-            nav.style.display = "block"
-        }
-    }
-}
+let lazyload = new LazyLoad()

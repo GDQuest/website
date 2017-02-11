@@ -1,6 +1,5 @@
 baseurl = "http://gdquest.com/"
 title = "GDquest"
-theme = "gdquest"
 languageCode = "en-EN"
 metaDataFormat = "toml"
 

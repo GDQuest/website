@@ -37,13 +37,18 @@ gulp.task('minify', function () {
 })
 
 
+var htmlFiles = ['D:/Library/Dropbox/Gdquest.com/public/index.html',
+  'D:/Library/Dropbox/Gdquest.com/public/game-art-quest/index.html',
+  'D:/Library/Dropbox/Gdquest.com/public/game-art-quest/volume-1/krita-tutorial-for-game-artists/index.html',
+  'D:/Library/Dropbox/Gdquest.com/public/krita-brushes-for-game-artists/index.html']
+
 gulp.task('uncss', function () {
   return gulp.src('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.css')
-    .pipe(uncss({
-      html: ['public/**/*.html']
-    }))
+    // .pipe(uncss({
+    //   html: htmlFiles
+    // }))
     .pipe(cssmin())
-    .pipe(gulp.dest('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.css'))
+    .pipe(gulp.dest('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.min.css'))
 })
 
 

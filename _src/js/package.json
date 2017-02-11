@@ -12,6 +12,5 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "lazysizes": "^3.0.0-rc3"
   }
 }

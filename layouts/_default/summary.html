@@ -1,6 +1,9 @@
 <article>
   {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-  <img src="{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img {{ with .Params.banner_color }}{{ . }}{{ else }}-blue{{ end }}" />
+  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+       data-src="{{ .Params.banner }}"
+       alt="{{ .Params.banner_alt }}"
+       class="lazy banner-img {{ with .Params.banner_color }}{{ . }}{{ else }}-blue{{ end }}" />
   {{ end }}
 
   <div class="card-box">
