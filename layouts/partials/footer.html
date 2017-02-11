@@ -10,20 +10,14 @@
 </script>
 {{ end }} {{ end }}
 
-<script src="/js/package.js"></script>
+<script async src="/js/package.js"></script>
 
 <!--Google fonts-->
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-<script>
- WebFont.load({
-    google: {
-      families: ['Muli:400', 'Roboto:400']
-    }
-  });
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"> </script>
+<script> WebFont.load({google:{families:["Roboto:400"]}}); </script>
 
 <!-- Font awesome / Fort awesome -->
-<script type="text/javascript">
+<script async type="text/javascript">
 	(function() {
 		var css = document.createElement('link');
 		css.href = '{{ "/css/" | absURL }}fort-awesome.min.css';
