@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $product := index $.Site.Data.products .Params.product}}
 <section grid>
   <article column="8 +2">
     
@@ -6,12 +7,12 @@
 
     <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
 
-    {{ range (index $.Site.Data.products.krita_brushes "intro") }}
+    {{ range (index $product "intro") }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
 
     <div grid id="product" class="product card-box -center">
-      {{ range (index $.Site.Data.products.krita_brushes "versions") }}
+      {{ range (index $product "versions") }}
       <div column>
         <img src="{{ .icon.path }}" alt="{{ .icon.alt }}">
 

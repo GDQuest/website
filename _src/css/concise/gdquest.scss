@@ -23,6 +23,11 @@ section:first-of-type {
     margin-top: 0;
 }
 
+.container-small {
+    max-width: 800px; 
+    margin: auto;
+}
+
 .lead {
     font-size: $font-size-secondary;
 }

@@ -1,0 +1,40 @@
+intro = ["Do you want to become a better game artist? To learn how professionals make beautiful sprites?",
+"In this workshop, I will show you how to create your own game assets using Krita, a powerful, free and open source painting program.",
+"I’ve been in the games industry for a few years now. I made my own indie game company, worked on mobile and browser-based titles. I had a blast, but I felt like we missed quality game art tutorials.That’s why I created GDquest.",
+"GDquest is a growing library of 150+ free tutorials about game design, game art, and programming with open source technologies."]
+
+
+[versions.01]
+name = "Essentials"
+description = "For the occasional painter and those with a limited budget."
+body = "The essential content from the training. You will get the more practical videos, everything related to actually producing the game assets."
+features = ["Learn game art with Krita"]
+link = "https://gumroad.com/l/krita-game-art-tutorial-1"
+price = "9.95"
+    [versions.01.icon]
+    alt = "Brushes icon lite"
+    path = "/img/page/product/krita-tutorial-1/krita-game-art-tutorial-icon-essentials.jpg"
+
+[versions.02]
+name = "Pro"
+description = "The most popular option. For hobbyists, students and aspiring professionals."
+features = ["Essentials, plus", "Art theory training", "nondestructive selections in Krita", "Video demos based on the art of the games Pankapu and Seasons: After Fall"]
+link = "https://gumroad.com/l/krita-game-art-tutorial-1"
+price = "24.95"
+    [versions.02.icon]
+    alt = "Brushes icon standard"
+    path = "/img/page/product/krita-tutorial-1/krita-game-art-tutorial-icon-essentials.jpg"
+
+[versions.03]
+features = ["Pro, plus", "Exclusive videos", "Step-by-step assignments", "PDF course documents", "priority support", "Access to premium Discord server"]
+# extra = "+ Standard content"
+
+link = "https://gumroad.com/l/krita-game-art-tutorial-1"
+name = "Premium"
+description = "For those who want to go in depth."
+price = "49.95"
+color = "-success"
+list_icon = "check"
+    [versions.03.icon]
+    alt = "Brushes icon standard"
+    path = "/img/page/product/krita-tutorial-1/krita-game-art-tutorial-icon-essentials.jpg"

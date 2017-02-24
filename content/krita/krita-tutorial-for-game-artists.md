@@ -10,7 +10,8 @@ aliases:
     - game-art-quest/volume-1/course-public
     - game-art-quest/volume1
     - game-art-quest/volume-1
-url: game-art-quest/volume-1/krita-tutorial-for-game-artists
+    - game-art-quest/volume-1/krita-tutorial-for-game-artists
+url: krita-tutorial/volume-1/krita-tutorial-for-game-artists
 
 videos_released: 51
 banner: /img/page/game-art-quest/krita-tutorial-banner.jpg
