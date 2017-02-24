@@ -6,19 +6,19 @@ layout: default
 title: Game Art Quest
 small: Krita tutorial series for game artists
 author: nathan
-url: game-art-quest
+url: krita-tutorial
+alias: game-art-quest
 ---
 
-## Krita tutorial for game artists (Free)
+## Free Krita tutorial for game artists
 
 <img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow">
 
-This training focuses on Krita's functionality for game artists and digital painters. It covers the tools you need to work efficiently.
-It is **completely free**, thanks to the 424 Kickstarter backers.
+This free Krita tutorial focuses on the tools the program offers for game artists and digital painters. It covers the essential tools you need to work efficiently. It was funded by 424 artists on Kickstarter.
 
 <div grid>
   <div column class="-center">
-    <a href="{{< ref "krita-tutorial/krita-tutorial-for-game-artists.md" >}}"> 
+    <a href="{{< ref "krita/krita-tutorial-for-game-artists.md" >}}"> 
       <button class="-bordered -call-to-action -success">{{< icon book default >}} Free course</button>
     </a>
     <a href="{{< ref "product/krita-brushes.md" >}}"> 
@@ -29,26 +29,19 @@ It is **completely free**, thanks to the 424 Kickstarter backers.
 
 <hr>
 
-## Volume 2 - Painterly game art and side-scrolling games
+## Make Professional Painterly Game Art with Krita
 
-<img src="\img\page\game-art-quest\game-art-quest-painterly.png" alt="Game Art Quest volume 2 banner - painterly art" class="img-responsive"/>
+<img src="\img\page\product\krita-tutorial-1\krita-game-art-tutorial-1-banner.jpg" alt="Game Art Quest volume 2 banner - painterly art" class="banner-img -yellow"/>
 
-In this second training, we will take a closer look at the game creation pipeline from a game artist's standpoint. We will create static assets for a side scrolling video game with a painterly art style, inspired by the work of VanillaWare (_Odin Sphere, Muramasa_) and Moon Studios (_Ori and the Blind Forest_).
-
-## Volume 3 - Cel shaded game art and isometric games
-
-<img src="\img\page\game-art-quest\game-art-quest-cel-shaded.png" alt="Game Art Quest volume 3 banner - Cel shaded art" class="img-responsive"/>
-
-This 3rd volume is dedicated to isometric game art. In this series, we will expand on the first 2 volumes, explore new drawing techniques as well as the characteristics of isometric games.
-
+<div grid>
+  <div column class="-center">
+    <a href="{{< ref "product\krita-tutorial-1.md" >}}"> 
+      <button class="-bordered -call-to-action">{{< icon book default >}} Learn more</button>
+    </a>
+  </div>
 </div>
 
-
-{{< div class="col-lg-6" >}}
-
-<h2 id="discover">Discover Game Art Quest!</h2>
-
-{{< youtube vcKJibQckz4 >}}
+## Discover Game Art Quest!
 
 ### Do you want to become a better 2d game artist?
 

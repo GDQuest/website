@@ -1,0 +1,26 @@
+<!--If you're looking to use Disqus per the example I mentioned above, you can set the following in your config.toml (this is all assuming you don't want to use the built-in shortcode):
+[params]
+  UseDisqus = true-->
+
+<!--Then in your content file front matter:
+title: My Academic-Type Character Blog Post
+include_comments: true-->
+
+<!--Then you could use a similar partial to the following once you sign up for Disqus:-->
+{{ if and .Site.Params.UseDisqus .Params.include_comments}}
+    <div id="disqus_thread"></div>
+    <script async>
+        var disqus_config = function () {
+            this.page.url = {{.Permalink }
+        };
+    };
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = '//yourdisqusid.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{{ end }}

@@ -1,10 +1,10 @@
 {{ define "main" }}
-<section grid class="container-small" style="max-width: 800px; margin: auto;">
-  <article column>
+<section grid>
+  <article column="8 +2">
     {{ with .Params.nav }}
     <header> {{ partial "modules/post_nav" . }} </header>
     {{ end }}
-
+    
     {{ if and (isset .Params "banner") (ne .Params.banner "") }}
       <a href="{{ .Permalink }}"><img src="/{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img -blue" /></a>
     {{ end }}
