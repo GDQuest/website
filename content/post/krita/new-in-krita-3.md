@@ -17,7 +17,7 @@ anchors:
     - "major-new-features"
     - "smaller-features"
     - "krita-review"
-banner: "img/post/krita/new-in-krita-3/krita-3-release-banner.jpg"
+banner: "/img/post/krita/new-in-krita-3/krita-3-release-banner.jpg"
 banner_alt: "The Krita brushes"
 ---
 

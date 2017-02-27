@@ -6,7 +6,7 @@ keywords: ["krita brushes", "Gdquest"]
 tags: ["community"]
 title: "May update: Krita brushes and ConciseCSS"
 description: "May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their Kickstarter campaign..."
-banner: "img/post/2016/05/may-update-banner.jpg"
+banner: "/img/post/2016/05/may-update-banner.jpg"
 banner_alt: "May brushes release"
 ---
 

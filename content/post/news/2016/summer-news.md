@@ -7,7 +7,7 @@ draft: false
 tags: ["community"]
 title: "Summer Update"
 type: "post"
-banner: "img/post/2016/09/summer-news-banner.jpg"
+banner: "/img/post/2016/09/summer-news-banner.jpg"
 banner_alt: "Summer sunset"
 ---
 

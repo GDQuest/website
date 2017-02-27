@@ -6,7 +6,7 @@ description: "June has been a busy month. I went to the biggest yearly KDE devel
 tags: ["community"]
 title: "June update: the Randa meetings"
 type: "post"
-banner: "img/post/2016/06/june-update-banner.jpg"
+banner: "/img/post/2016/06/june-update-banner.jpg"
 banner_alt: "Randa's surrounding mountains"
 ---
 

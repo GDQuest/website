@@ -6,7 +6,7 @@ author: "nathan"
 category: ["News"]
 description: "I’ve been traveling around the country for a bit less than a month, and the experience was incredible. A great occasion to improve in Japanese. But now it's time to get back to GDquest and produce new tutorials for you."
 tags: ["community"]
-banner: "img/post/2016/11/back-from-japan-banner-low.jpg"
+banner: "/img/post/2016/11/back-from-japan-banner-low.jpg"
 banner_alt: "Krita tutorial for game artists - banner"
 ---
 
