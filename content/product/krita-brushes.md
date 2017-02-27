@@ -8,6 +8,8 @@ category: Krita
 tags:
   - krita brushes
   - free krita brushes
+  - best krita brushes
+  - krita painting brushes
   - krita brush
 
 url: krita-brushes-for-game-artists
@@ -43,7 +45,7 @@ I take my time to design the presets and ensure that they are worth adding to th
 
 See more of Zhillustrator's work [on Artstation](https://www.artstation.com/artist/zhille)
 
-{{< banner_img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" color="blue" free="true" >}}
+{{< banner_img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
 
 ## Free Krita brushes
 

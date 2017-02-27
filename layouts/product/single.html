@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ $product := index $.Site.Data.products .Params.product}}
-<section grid>
-  <article column="8 +2">
+<section class="container-small">
+  <script src="https://gumroad.com/js/gumroad.js"></script>
+  <article>
     
     {{ partial "block/banner_img" . }}
 
@@ -14,7 +15,7 @@
     <div grid id="product" class="product card-box -center">
       {{ range (index $product "versions") }}
       <div column>
-        <img src="{{ .icon.path }}" alt="{{ .icon.alt }}">
+        <img src="{{ .icon.path }}" alt="{{ .icon.alt }}" class="lazy">
 
         <a href="{{ .link }}">
           <button class="-bordered -call-to-action {{ with .color }}{{ . }}{{ end }}">

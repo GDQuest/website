@@ -1,7 +1,7 @@
 baseurl = "http://gdquest.com/"
 title = "GDquest"
 languageCode = "en-EN"
-metaDataFormat = "toml"
+metaDataFormat = "yaml"
 
 paginate = 8
 paginatePath = "page"
