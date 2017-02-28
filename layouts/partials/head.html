@@ -1,23 +1,20 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <link rel="icon" type="image/png" href="gdquest-favicon.png" />
-  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="gdquest-favicon.ico" /><![endif]-->
+  <link rel="icon" type="image/png" href="/gdquest-favicon.png" />
 
   <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
   <!-- Google Analytics -->
   <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-58510266-1', 'auto');
-  ga('send', 'pageview');
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-58510266-1', 'auto');
+    ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
   
-  <!--CSS  -->
+
   <link rel="stylesheet" href="{{ "/css/" | absURL }}gdquest.css">
-  {{ if isset .Params "highlight" }}
-  <link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}monokai.css">
-  {{ end }}
+  {{ with .Params.highlight }} <link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}monokai.css"> {{ end }}
 
   {{ partial "meta" . }}
 </head>
