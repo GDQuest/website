@@ -1,0 +1,9 @@
+Course pages
+
+- Monster design
+- Godot
+
+Templates
+
+- Tutorial page
+- Knowledge base

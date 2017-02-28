@@ -1,5 +1,5 @@
 ---
-title: Learn Professional Painterly Game Art with Krita
+title: Learn Professional Painterly Game Art with Krita - Out in early access!
 description: You want to become a better artist? My new training series, out in early access, will show you how professionals make beautiful 2d game sprites, using Krita, the open source painting program.
 
 author: nathan

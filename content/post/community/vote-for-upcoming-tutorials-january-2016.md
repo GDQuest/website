@@ -1,5 +1,5 @@
 ---
-author: Nathan
+author: nathan
 date: 2016-01-11T09:16:10+01:00
 layout: single
 category:

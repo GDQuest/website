@@ -15,26 +15,18 @@
 @import "modules/course";
 
 // Global code
-img {
-    max-width: 100%;
-}
+img { max-width: 100%; }
 
-section:first-of-type {
-    margin-top: 0;
-}
+section:first-of-type { margin-top: 0; }
 
 .container-small {
     max-width: 800px; 
     margin: auto;
 }
 
-.lead {
-    font-size: $font-size-secondary;
-}
+.lead { font-size: $font-size-secondary; }
 
-.img-circle {
-    border-radius: 50%;
-}
+.img-circle { border-radius: 50%; }
 
 .my-fa {
     display: inline-block;
@@ -43,3 +35,5 @@ section:first-of-type {
     text-rendering: auto;
     line-height: inherit;
 }
+
+.no-margin-top { margin-top: 0; }
