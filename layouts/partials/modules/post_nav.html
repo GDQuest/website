@@ -1,13 +1,14 @@
-<!-- Inner page navigation -->
-<ul class="group">
-    {{ $.Scratch.Set "count" 1 }}
-
-    {{ range .Params.anchors }}
-    <li class="group-item">
-      <a href="#{{ . }}">
-        {{ $.Scratch.Get "count" }}. {{ title (replace . "-" " ") }}
-      </a>
-    </li>
-    {{ $.Scratch.Add "count" 1 }}
-    {{ end }}
-</ul>
+<nav style="margin-top: 0">
+  <ul class="course-menu">
+      {{ $.Scratch.Set "count" 1 }}
+      
+      {{ range .Params.anchors }}
+      <li>
+        <a href="#{{ . }}">
+          {{ $.Scratch.Get "count" }}. {{ title (replace . "-" " ") }}
+        </a>
+      </li>
+      {{ $.Scratch.Add "count" 1 }}
+      {{ end }}
+  </ul>
+</nav>  

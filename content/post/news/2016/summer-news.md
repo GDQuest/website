@@ -3,7 +3,6 @@ author: "nathan"
 category: ["News"]
 date: "2016-09-08T13:49:48+02:00"
 description: "It has been a while since the last behind the scenes post. Time for a batch of fresh news about Krita, GDquest, and everything alike."
-draft: false
 tags: ["community"]
 title: "Summer Update"
 type: "post"
@@ -51,7 +50,7 @@ I will do my best to provide you as much information as possible on the topics. 
 
 Do you want to know when it'll be available? You just have to enter your email address in the field below:
 
-{{% gumroad %}}
+{{% gumroad_follow %}}
 
 ## Off to Japan
 

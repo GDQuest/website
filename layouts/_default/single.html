@@ -1,13 +1,14 @@
 {{ define "main" }}
 <section grid class="container-small">
   <article column>
-    {{ with .Params.nav }}
-    <header> {{ partial "modules/post_nav" . }} </header>
-    {{ end }}
-
-    {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-      <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" /></a>
-    {{ end }}
+    <header>
+      {{ if and (isset .Params "banner") (ne .Params.banner "") }}
+        <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" /></a>
+      {{ end }}
+      {{ if isset .Params "nav" }}
+        {{ partial "modules/post_nav" . }}
+      {{ end }}
+    </header>
 
     <h1>{{ .Title }}</h1>
 

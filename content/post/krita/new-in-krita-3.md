@@ -12,11 +12,13 @@ type: "post"
 aliases: 
     - "new-in-krita-3"
 url: "new-features-in-krita-3"
-nav: "true"
+
+nav: true
 anchors: 
     - "major-new-features"
     - "smaller-features"
-    - "krita-review"
+    - "krita-3-review"
+
 banner: "/img/post/krita/new-in-krita-3/krita-3-release-banner.jpg"
 banner_alt: "The Krita brushes"
 ---
@@ -36,7 +38,7 @@ The list could go on, and on. You get it: there is a lot to talk about. That's w
 {{< fig src="/game-art-quest/volume-1/course/bandcamp-banner.jpg" alt="Krita tutorial series: Become a better Game Artist with Krita" >}}
 
 <!-- Part 1 -->
-## Krita 3's New Features {#major-new-features}
+## Krita 3's 5 Major New Features {#major-new-features}
 
 Krita 3.0 was initially funded by a thousand of backers on Kickstarter in 2015. The campaign had 2 goals: to fund a new, faster rendering engine for digital painting and a traditional animation toolset. This major update brings those additions to the world, and more! Intriguing, right?
 
@@ -106,7 +108,7 @@ The 2016 Kickstarter campaign is live right now, and the developers need your su
 {{</ lead >}}
 
 
-## We're not done yet! <small>11 smaller new features</small> {#smaller-features}
+## 11 smaller but welcome additions {#smaller-features}
 
 That's it for the big additions to Krita 3. But we are not done yet. There is a lot more we need to cover. A lot of small, welcome new features that add up to turn Krita into a better application all-round.
 
@@ -182,7 +184,7 @@ Since May 2015, the development team released 11 updates for Krita 2.9. These br
 
 [Krita's New Features since v2.9.5](https://www.youtube.com/watch?v=PIKfrqk09Hk)
 
-## Krita Review: My Verdict after 9 Months {#krita-review}
+## Krita 3 Review: My Verdict after 9 Months {#krita-3-review}
 
 Now you know what Krita 3 has in store for you. But if you have never heard of Krita, or if you barely used it, you might wonder: is it good? Should I give it a try?
 
