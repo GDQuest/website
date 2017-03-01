@@ -1,0 +1,50 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div grid>
+    <div column>
+        <p>{{ .Content }}</p>
+    </div>
+</div>
+
+<div grid>
+    <div column>
+        <div class="card-box" style="padding: 0;">
+            <img class="banner-img -yellow" src="\img\page\product\krita-tutorial-1\krita-game-art-tutorial-1-banner.jpg" alt="Nathan's avatar">
+            
+            <ul class="collection" style="padding:0.5rem">
+                <h2 class="-center">Game Design</h2>
+                {{ $.Scratch.Set "video_count" 0 }}
+                {{ range where .Site.Data.tutorials.library "CATEGORY" "game design" }}
+                    {{ $.Scratch.Add "video_count" 1 }}
+                    <li class="collection-item">
+                        <span class="-muted">
+                            {{ $.Scratch.Get "video_count" }}. 
+                        </span>
+                        <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+
+    <div column>
+        <div class="card-box" style="padding: 0;">
+            <img class="banner-img -blue" src="\img\page\game-art-quest\krita-tutorial-banner.jpg" alt="Nathan's avatar">
+
+            <ul class="collection" style="padding:0.5rem">
+                <h2 class="-center">Digital Art</h2>
+                {{ $.Scratch.Set "video_count" 0 }}
+                {{ range where .Site.Data.tutorials.library "CATEGORY" "art" }}
+                    {{ $.Scratch.Add "video_count" 1 }}
+                    <li class="collection-item">
+                        <span class="-muted">
+                            {{ $.Scratch.Get "video_count" }}. 
+                        </span>
+                        <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</div>
+{{ end }}

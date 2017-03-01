@@ -6,8 +6,10 @@ layout: default
 title: Game Art Quest
 small: Krita tutorial series for game artists
 author: nathan
+
 url: krita-tutorial
-alias: game-art-quest
+alias:
+  - game-art-quest
 ---
 
 ## Free Krita tutorial for game artists
