@@ -1,20 +1,22 @@
 {{ define "main" }}
-<section grid class="container-small">
-  <article column>
-    <header>
-      {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-        <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" /></a>
-      {{ end }}
-      {{ if isset .Params "nav" }}
-        {{ partial "modules/post_nav" . }}
-      {{ end }}
-    </header>
-
-    <h1>{{ .Title }}</h1>
-
-    {{ .Content }}
-
-    {{ if and (isset .Params "author") (ne .Params.author "") }} {{ partial "modules/author" . }} {{ end }}
-  </article>
-</section>
+<div class="container-small">
+  <section grid>
+    <article column>
+      <header>
+        {{ if and (isset .Params "banner") (ne .Params.banner "") }}
+          <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" /></a>
+        {{ end }}
+        {{ if isset .Params "nav" }}
+          {{ partial "modules/post_nav" . }}
+        {{ end }}
+      </header>
+  
+      <h1>{{ .Title }}</h1>
+  
+      {{ .Content }}
+  
+    </article>
+  </section>
+  {{ if and (isset .Params "author") (ne .Params.author "") }} {{ partial "modules/author" . }} {{ end }}
+</div>
 {{ end }}

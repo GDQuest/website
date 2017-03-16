@@ -11,6 +11,7 @@ title: "What’s New in Krita 3.0? Krita Review"
 type: "post"
 aliases: 
     - "new-in-krita-3"
+    - post/krita/new-in-krita-3/
 url: "new-features-in-krita-3"
 
 nav: true

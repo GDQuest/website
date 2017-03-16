@@ -8,6 +8,8 @@ tags:
     - "community"
 title: "GDquest news and Krita 3.0 pre-alpha 3"
 type: "post"
+aliases:
+- post/community/gdquest-news-and-krita-3.0-pre-alpha/
 ---
 
 {{< youtube JWwpm4hs0l0 >}}

@@ -1,9 +1,14 @@
 Course pages
-
 - Monster design
 - Godot
 
 Templates
-
 - Tutorial page
 - Knowledge base
+
+add social links back
+    Make separate containers for links and socials and wrap the socials on tablets
+add social share to blog posts
+about page with contact links
+Email, Socials, Discord
+One col layout on small devices?

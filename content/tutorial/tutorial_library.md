@@ -5,6 +5,8 @@ title: GDquest Tutorial Library
 
 type: tutorial_library
 url: tutorial-library
+aliases:
+- tutorial-repository/
 ---
 
 <!-- TODO: Sub page like "Krita tutorial series" for SEO -->
