@@ -8,6 +8,8 @@ title: "Summer Update"
 type: "post"
 banner: "/img/post/2016/09/summer-news-banner.jpg"
 banner_alt: "Summer sunset"
+aliases:
+- post/2016/09/summer-news/
 ---
 
 _It has been a while since the last behind the scenes news post. There's been good progress with the tutorials and the brushes. I've been hard at work lately, especially changing my workflow to increase production speed, maintaining the same quality. On the other hand, I haven't been able to update the website and social networks as often as I would've liked. Aside from that..._

@@ -5,11 +5,11 @@ layout: default
 
 title: Game Art Quest
 small: Krita tutorial series for game artists
-author: nathan
 
 url: krita-tutorial
 alias:
   - game-art-quest
+  - game-art-quest/roadmap/
 ---
 
 ## Free Krita tutorial for game artists
@@ -21,10 +21,10 @@ This free Krita tutorial focuses on the tools the program offers for game artist
 <div grid>
   <div column class="-center">
     <a href="{{< ref "krita/krita-tutorial-for-game-artists.md" >}}"> 
-      <button class="-bordered -call-to-action -success">{{< icon book default >}} Free course</button>
+      <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
     </a>
     <a href="{{< ref "product/krita-brushes.md" >}}"> 
-      <button class="-bordered -call-to-action">{{< icon check success >}} Krita brushes</button>
+      <button class="-bordered -call-to-action -success">{{< icon check success >}} Krita brushes</button>
     </a>
   </div>
 </div>
@@ -38,7 +38,7 @@ This free Krita tutorial focuses on the tools the program offers for game artist
 <div grid>
   <div column class="-center">
     <a href="{{< ref "product\krita-tutorial-1.md" >}}"> 
-      <button class="-bordered -call-to-action">{{< icon book default >}} Learn more</button>
+      <button class="-bordered -call-to-action -success">{{< icon book default >}} Learn more</button>
     </a>
   </div>
 </div>
@@ -70,26 +70,7 @@ This page is a hub for all of the activity linked to the project. Here, you will
 I’m Nathan Lovato, a game designer. I the run [GDquest](http://youtube.com/c/gdquest) a Youtube education channel dedicated to game art and game design. Every week, I release a new tutorial. I have made dozens of tutorials already! You can find them all [on that page](https://game-design-tutorials.zeef.com/nathan.lovato).
 
 I'm working **hand in hand with the Krita developers**. They review my work to ensure that you get the best Krita training possible!
-</div>
 
 ## Open source assets
 
-**Space Adventures**: 5 electro-futuristic game soundtrack
-
-<a href="https://gdquest.bandcamp.com/album/space-adventures">
-  <img src="\img\page\game-art-quest\space-adventures-free-game-soundtrack-bandcamp.jpg" alt="Space adventures album cover" class="img-responsive"/>
-</a>
-
-<p class="text-center">
-  <!-- CC 4.0 BY LICENCE -->
-  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Space adventures</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="gdquest.com" property="cc:attributionName" rel="cc:attributionURL">GDquest</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-</p>
-
-<strong>Open Game Art</strong><br>
-Game asset repository
-</p>
-<a href="http://opengameart.org/users/gdquest">
-<img src="\img\page\game-art-quest\GDquest-Freebies-Open-Source-Art-Pack-002-Xbox-Buttons.jpg" alt="Free Xbox buttons" class="img-responsive" />
-</a>
-
-<strong>More coming in the future!</strong> In the meantime, check out my existing assets on <a href="http://opengameart.org/users/gdquest">OpenGameArt</a>.
+Check out the [open source game assets]({{< ref "product/freebies.md" >}}) page for free resources.

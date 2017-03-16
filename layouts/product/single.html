@@ -1,9 +1,8 @@
 {{ define "main" }}
 {{ $product := index $.Site.Data.products .Params.product}}
-<section class="container-small">
+<div class="container-small">
   <script src="https://gumroad.com/js/gumroad.js"></script>
-  <article>
-    
+  <section>
     {{ partial "block/banner_img" . }}
 
     <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
@@ -12,6 +11,7 @@
     <p>{{ . | markdownify }}</p>
     {{ end }}
 
+    <!-- Products - MOVE TO PARTIAL-->
     <div grid id="product" class="product card-box -center">
       {{ range (index $product "versions") }}
       <div column>
@@ -45,7 +45,21 @@
 
     {{ .Content }}
 
-    {{ if isset .Params "author" }} {{ partial "modules/author" . }} {{ end }}
-  </article>
-</section>
+    <!-- CHANGELOG - TO PARTIAL -->
+    {{ with $product.changelog }}
+    <div>
+      <h2>Release notes</h2>
+      {{ .description }}
+      <details>
+          <summary>Click here to see the release notes</summary>
+          {{ range $product.changelog.markdown }}
+            {{ . | markdownify }}
+          {{ end }}
+      </details>
+    </div>
+    {{ end }}
+
+  </section>
+  {{ if isset .Params "author" }} {{ partial "modules/author" . }} {{ end }}
+</div>
 {{ end }}

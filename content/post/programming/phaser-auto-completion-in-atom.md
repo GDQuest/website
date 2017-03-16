@@ -9,6 +9,8 @@ category:
   - Game Design
   - Quick Tips
 type: post
+aliases:
+- game-design/phaser-auto-completion-in-atom/
 ---
 
 _This little guide will show you how to use the tern-phaser plugin by [Angelo][1] with [Atom][2]._

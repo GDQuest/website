@@ -1,6 +1,10 @@
 intro = ["**Do you want to become a better game artist? To learn how professionals make beautiful sprites?** In this workshop, I will show you how to create your own game assets using Krita, a powerful, free and open source painting program."]
 
 
+# ----------------
+# PRODUCT VERSIONS
+# ----------------
+
 [versions.01]
 name = "Essentials"
 description = "For the occasional painter and those with a limited budget."
@@ -39,3 +43,41 @@ list_icon = "check"
     alt = "Brushes icon standard"
     path = "/img/page/product/krita-tutorial-1/icon-premium.jpg"
 
+
+# ---------
+# CHANGELOG
+# ---------
+
+[changelog]
+description="The course is currently in early access. Updates every week! You'll find the full changelog below."
+
+markdown=[
+"### Version 0.9 - March 16",
+"- 3 new videos: Painting the tree trunk, Painting leaves the smart way, How to make animated brushes to paint leaves faster",
+"- 2 premium assignments: Character concept art, Character sprites",
+
+"### Version 0.8 - March 9",
+"- 5 new videos: Isolate layers (pro), What's the right resolution for your sprites (pro), How to paint the eye (part 2), Painting a tiling road texture, Painting a lovely shrub",
+
+"### Version 0.7 - March 2",
+"- 3 videos: character concept art and sprite creation process",
+
+"### Version 0.6 - February 23",
+"- 1 video about my process for concept art \n- 1 concept art assignment",
+
+"### Version 0.5 - February 16",
+"- 2 videos about the concept art of our game",
+"_I was at FOSDEM and the first Godot Convention in Brussels from the 3rd to the 8th of February, that's why there was exceptionally no release last Thursday_",
+
+"### Version 0.4 - February 2",
+"- Painting a game character inspired by Pankapu (premium) \n- Making our game's concept art \n- 1 assignment and 1 course document (premium)",
+
+"### Version 0.3 - January 26",
+"- 5 tips to achieve a painterly style \n- Painting a game character inspired by Seasons: After Fall",
+
+"### Version 0.2 - January 19",
+"- Color contrast: Following on Value Contrast, we explore its colored counterpart, Color Contrast. This video focuses on the components of colors, and it will explain to you why certain tones blend together or clash again one another. \n- The Global Selection Mask: ever wondered how to transform and paint selections in Krita? You have to use the global selection mask, which is hidden by default.",
+
+"### Version 0.1 - January 12",
+"- Value contrast: Get a deep dive in an essential principle that we'll use to make our game assets"
+]

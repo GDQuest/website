@@ -7,6 +7,8 @@ title: "Game Art Quest vol1 done! Off to Japan"
 tags: ["community"]
 banner: "/img/page/game-art-quest/krita-tutorial-banner.jpg"
 banner_alt: "Krita tutorial for game artists - banner"
+aliases:
+- post/2016/09/japan-news/
 ---
 
 Yes, the first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials (some are still upcoming on the channel). 7 hours if you include the first bonus series of the year: [Introduction to monster design for 2-D games](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KExm_EYLVhD6yf4Afax24fV). Looking back at the Kickstarter description, this is already more than the promised as far as the total length is concerned.

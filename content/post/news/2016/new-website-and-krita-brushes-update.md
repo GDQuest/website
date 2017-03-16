@@ -8,6 +8,8 @@ title: "May update: Krita brushes and ConciseCSS"
 description: "May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their Kickstarter campaign..."
 banner: "/img/post/2016/05/may-update-banner.jpg"
 banner_alt: "May brushes release"
+aliases:
+- post/2016/05/new-website-and-krita-brushes-update/
 ---
 
 May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their [Kickstarter campaign](https://www.youtube.com/watch?v=AjIiI8uiVNM)... But I didn't take the time to write longer news posts like this one. Time to share the news for this month! <!--more-->
