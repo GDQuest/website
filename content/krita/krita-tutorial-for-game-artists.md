@@ -1,8 +1,9 @@
 ---
 author: nathan
 date: 2016-02-08T17:55:44+01:00
-title: Krita tutorial for Game Artists
+title: Free Krita Tutorial For Game Artists
 title_small: Game Art Quest
+description: Learn how to use Krita, a free award-winning painting program. This 6 hours long tutorial series is completely free!
 
 type: course
 course: gaq_vol_1
