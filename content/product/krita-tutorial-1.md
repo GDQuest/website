@@ -4,7 +4,7 @@ type: "product"
 date: "2017-02-22T15:11:59+01:00"
 title: "Learn to Make Professional Painterly Game Art with Krita"
 small: "Krita course"
-description: "This Krita training will teach you how to create professional painterly game art with the open source painting program Krita."
+description: "Do you want to become a better artist? This Krita course will teach you how to create professional 2d game sprites with the free, open source painting program Krita."
 
 category: Krita
 tags:

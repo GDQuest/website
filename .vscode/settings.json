@@ -2,5 +2,7 @@
     "vsicons.presets.angular": false,
     "files.exclude": {
         ".gitignore": true,
+        ".public": true,
+        ".publish": true
     }
 }

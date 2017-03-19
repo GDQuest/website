@@ -1,6 +1,6 @@
 ---
-title: "Intro to monster design for 2-D games"
-description: "This free course will give you a better sense of monster design for games. We will first look at what other games do and extract some principles of monster design from that. Then, we will create our own monster using pen, paper and Krita."
+title: Intro To Monster Design For 2d Games
+description: "Learn monster design for video games in this free tutorial series! Using Mario and Final Fantasy XIV as references, I'll show you how professionals paint game monsters."
 date: "2017-02-15T15:25:47+02:00"
 author: "nathan"
 
