@@ -1,3 +1,3 @@
 <i class="my-fa fa-{{ .Get 0 }}
-{{ if ge (len .Params) 2 }}text--{{ .Get 1 }}
-{{ end }} text--inherit"></i>
+{{ if ge (len .Params) 2 }}{{ .Get 1 }}
+{{ end }}"></i>

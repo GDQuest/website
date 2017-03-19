@@ -24,7 +24,7 @@ This free Krita tutorial focuses on the tools the program offers for game artist
       <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
     </a>
     <a href="{{< ref "product/krita-brushes.md" >}}"> 
-      <button class="-bordered -call-to-action -success">{{< icon check success >}} Krita brushes</button>
+      <button class="-bordered -call-to-action -success">{{< icon paint-brush success >}} Krita brushes</button>
     </a>
   </div>
 </div>

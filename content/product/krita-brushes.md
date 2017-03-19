@@ -1,6 +1,6 @@
 ---
 title: Krita brushes for game artists
-description: Here are my Krita brushes, a complete set designed by a game artist, for game artists! I do my best to update it on a regular basis, and it comes with tutorials too.
+description: My best Krita brushes, professionally designed and kept up to date for you. Use my brushkit and get to work faster! There's a free version.
 date: 2017-01-30
 author: nathan
 
