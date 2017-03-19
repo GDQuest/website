@@ -1,0 +1,30 @@
+[chapter1]
+title = "Monster design basics"
+small = ""
+description = "In this first chapter, we explore the 2 facets of monster design for video games."
+[chapter1.videos.1]
+title = "Analysis - Enemies in Mario games"
+url = "https://www.youtube.com/watch?v=M8Ofwt_3sK0"
+[chapter1.videos.2]
+title = "Analysis - Creature design in Final Fantasy XIV"
+url = "https://www.youtube.com/watch?v=lmn-n40P9rE"
+[chapter1.videos.3]
+title = "3 Principles of monster design"
+url = "https://www.youtube.com/watch?v=pD4NaGmPfJM"
+
+[chapter2]
+title = "Creating our monster with Krita"
+small = ""
+description = "Now we have some principles of design to work with, it's time to apply them to our own creature design."
+[chapter2.videos.1]
+title = "The bear monster's design 1"
+url = "https://www.youtube.com/watch?v=DSawfh7U5sk"
+[chapter2.videos.2]
+title = "The bear monster's design 2"
+url = "https://www.youtube.com/watch?v=dT17jxBIOhs"
+[chapter2.videos.3]
+title = "Painting the bear monster in Krita"
+url = "https://www.youtube.com/watch?v=0PqtPKRl76U"
+[chapter2.videos.4]
+title = "Painting the bear monster in Krita part 2"
+url = "https://www.youtube.com/watch?v=Ri4uLHClh6o"
