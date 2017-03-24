@@ -19,6 +19,7 @@ aliases:
 
 banner: /img/page/krita-brushes/krita-brushes-banner.jpg
 banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
+banner_alt: Krita brushes banner image
 
 product: krita-brushes
 ---
