@@ -11,11 +11,6 @@ paginatePath = "page"
 # pygmentsstyle = "monokai"
 
 [[menu.main]]
-identifier  = "tutorials"
-name        = "Tutorials"
-url         = "https://game-design-tutorials.zeef.com/nathan.lovato"
-weight      = 2
-[[menu.main]]
 identifier  = "shop"
 name        = "Shop"
 url         = "https://gumroad.com/gdquest"
