@@ -1,5 +1,10 @@
 intro = ["**Do you want to become a better game artist? To learn how professionals make beautiful sprites?** In this workshop, I will show you how to create your own game assets using Krita, a powerful, free and open source painting program."]
 
+[banner]
+    src="/img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg"
+    alt="Banner for the Krita course. A pig and a rabbit character in the forest."
+    class="-blue"
+    link= "https://gumroad.com/l/krita-brushes-for-game-artists"
 
 # ----------------
 # PRODUCT VERSIONS

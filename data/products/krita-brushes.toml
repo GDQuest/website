@@ -1,5 +1,10 @@
 intro = ["**Do you want to become a faster artist with Krita?** Here are my best Krita brushes, a complete set designed by a professional game artist, for game artists and illustrators alike. It contains presets for pixel art, blending, shading, clouds, rocks, plants, and more!", "The Krita brushes will help you to work **faster**, and allow you to **focus on your art**. It is a bloat free brushkit, filled with efficient drawing tools. Not only that: every month, you get a new batch of useful presets and learning material."]
 
+[banner]
+    src="/img/page/krita-brushes/krita-brushes-banner.jpg"
+    alt="Krita brushes banner image"
+    class="-blue"
+    link= "https://gumroad.com/l/krita-brushes-for-game-artists"
 
 [versions.01]
 features = ["30 presets", "1 tutorial", "2 pdf documents", "FREE"]
