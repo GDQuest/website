@@ -3,7 +3,9 @@
 <div class="container-small">
   <script src="https://gumroad.com/js/gumroad.js"></script>
   <section>
-    {{ partial "block/banner_img" . }}
+    {{ with $product.banner }}
+      {{ partial "block/banner_img" . }}
+    {{ end }}
 
     <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
 

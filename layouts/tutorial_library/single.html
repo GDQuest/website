@@ -6,44 +6,54 @@
         </div>
     </section>
 
+    <section id="courses">
+        <h2>Courses</h2>
 
-    {{ $.Scratch.Set "columns" 0 }}
-    {{ range .Site.Data.tutorial.library }}
-
-        {{ if eq (mod ($.Scratch.Get "columns") 2) 0 }}
-            <div grid>
+        {{ range .Site.Data.courses }}
+            {{ .course.title }}
         {{ end }}
 
-        
-        <div column>
-            <div class="card-box" style="padding: 0;">
-                {{ with .category }}
-                    <img class="banner-img {{ .banner_class }}" src="{{ .banner }}" alt="{{ .banner_alt }}">
-                    <h2 class="-center">{{ .title }}</h2>
-                    <p>{{ .description }}</p>
-                {{ end }}
-                
-                <ul class="collection" style="padding:0.5rem">
-                    {{ $.Scratch.Set "video_count" 0 }}
-                    
-                    {{ range .videos }}
-                        {{ $.Scratch.Add "video_count" 1 }}
-                        <li class="collection-item">
-                            <span class="-muted">
-                                {{ $.Scratch.Get "video_count" }}. 
-                            </span>
-                            <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
-                        </li>
+    </section>
+
+
+    <section id="tutorials">
+        <h2>Tutorials</h2>
+        {{ $.Scratch.Set "columns" 0 }}
+        {{ range .Site.Data.tutorial.library }}
+    
+            {{ if eq (mod ($.Scratch.Get "columns") 2) 0 }}
+                <div grid>
+            {{ end }}
+            <div column>
+                <div class="card-box" style="padding: 0;">
+                    {{ with .category }}
+                        <img class="banner-img {{ .banner_class }}" src="{{ .banner }}" alt="{{ .banner_alt }}">
+                        <h2 class="-center">{{ .title }}</h2>
+                        <p>{{ .description }}</p>
                     {{ end }}
-                </ul>
+                    
+                    <ul class="collection" style="padding:0.5rem">
+                        {{ $.Scratch.Set "video_count" 0 }}
+                        
+                        {{ range .videos }}
+                            {{ $.Scratch.Add "video_count" 1 }}
+                            <li class="collection-item">
+                                <span class="-muted">
+                                    {{ $.Scratch.Get "video_count" }}. 
+                                </span>
+                                <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
             </div>
+    
+            {{ if ne (mod ($.Scratch.Get "columns") 2) 0 }} </div> {{ end }}
+            {{ $.Scratch.Add "columns" 1 }}
+        {{ end }}
+    
+        {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
         </div>
-
-        {{ if ne (mod ($.Scratch.Get "columns") 2) 0 }} </div> {{ end }}
-        {{ $.Scratch.Add "columns" 1 }}
-    {{ end }}
-
-    {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
-    </div>
-    {{ end }}
+        {{ end }}
+    </section>
 {{ end }}

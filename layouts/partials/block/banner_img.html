@@ -1,3 +1,1 @@
-{{ if and (isset .Params "banner") (ne .Params.banner "") }}
-<img src="{{ .Params.banner }}" alt="{{ with .Params.banner_alt }} {{.}} {{ end }}" class="lazy banner-img {{ with .Params.banner_color }}{{ . }}{{ else }}-yellow{{ end }}" />
-{{ end }}
+<img src="{{ .src }}" alt="{{ .alt }}" class="lazy banner-img {{ .class }}" />
