@@ -44,6 +44,12 @@
   {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
   </div>
   {{ end }}
+
+<!--<div grid> 
+  <div column>
+    {{ partial "block/pagination" . }}
+  </div>
+</div>-->
 </section>
 
 <section id="about">
@@ -55,7 +61,4 @@
       </p>
     </div>
 </section>
-<!--<div grid class="-center"> 
-{{ partial "block/pagination" . }} 
-</div> -->
 {{ end }}

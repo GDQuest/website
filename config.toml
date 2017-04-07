@@ -3,7 +3,7 @@ title = "GDquest"
 languageCode = "en-EN"
 metaDataFormat = "yaml"
 
-paginate = 8
+paginate = 12
 paginatePath = "page"
 
 # Pygments code highlighting - not used

@@ -9,7 +9,7 @@
   position: relative;
   max-height: 100%;
   border: none;
-  padding: 0.6lh;
+  padding: none;
 
   h3, ul, p {
     margin-top:0;
@@ -28,42 +28,3 @@
 .card-content {
   padding: 0.6lh;
 }
-
-// .card-content { padding: unitSize(2) 1.5em; }
-
-// .card-title {
-//   display: block;
-//   margin-top: unitSize(1, 2);
-// }
-
-// .card-footer {
-//   border-top: 1px solid getColor(base, lines);
-//   font-size: pxToEm(14);
-//   padding: unitSize(2) 1.5em;
-// }
-
-
-//
-// Images
-// ------
-
-// .card-image {
-//   position: relative;
-//
-//   img {
-//     bottom: 0;
-//     left: 0;
-//     position: relative;
-//     right: 0;
-//     top: 0;
-//     width: 100%;
-//   }
-//
-//   .card-title {
-//     bottom: 0;
-//     color: getColor(text, ui);
-//     left: 0;
-//     padding: 0 1em;
-//     position: absolute;
-//   }
-// }
