@@ -5,8 +5,6 @@ title: Tutorials
 
 menu: main
 weight: 2
-
-type: tutorial_library
 ---
 
 <!-- TODO: Page per type of tutorial/category? More like guide to each theme -->

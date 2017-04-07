@@ -20,7 +20,7 @@ This free Krita tutorial focuses on the tools the program offers for game artist
 
 <div grid>
   <div column class="-center">
-    <a href="{{< ref "krita/krita-tutorial-for-game-artists.md" >}}"> 
+    <a href="{{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}"> 
       <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
     </a>
     <a href="{{< ref "product/krita-brushes.md" >}}"> 

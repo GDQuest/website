@@ -10,7 +10,7 @@ banner: "/img/post/2016/06/june-update-banner.jpg"
 banner_alt: "Randa's surrounding mountains"
 ---
 
-We're getting to the end of June. It's time to sum up all that's been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3's new features in the [Krita training]({{< ref "krita/krita-tutorial-for-game-artists.md" >}}). You can find more details about what happened in Randa, and what the plans are for July, below.
+We're getting to the end of June. It's time to sum up all that's been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3's new features in the [Krita training]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}). You can find more details about what happened in Randa, and what the plans are for July, below.
 
 ## Randa
 
@@ -38,7 +38,7 @@ I'm looking to start working on and selling the next 2 volumes of the training i
 
 ## One video a week
 
-It's summer time in here. The hot weather is back, and people are taking time off. I'm not! I'll be here all summer long, working at the same pace. However, now that the tutorial series covering Krita 3's new features is out, we're going to move back to a rhythm of 1 tutorial per week on the channel. This will give me more time to improve the GDquest Blender add-on, and to prepare the [future series]({{< ref "post/community/vote-for-upcoming-tutorials-january-2016.md" >}}) coming to the channel.
+It's summer time in here. The hot weather is back, and people are taking time off. I'm not! I'll be here all summer long, working at the same pace. However, now that the tutorial series covering Krita 3's new features is out, we're going to move back to a rhythm of 1 tutorial per week on the channel. This will give me more time to improve the GDquest Blender add-on, and to prepare the [future series]({{< ref "post/2016/community/vote-for-upcoming-tutorials-january-2016.md" >}}) coming to the channel.
 
 ## This week
 

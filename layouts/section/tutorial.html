@@ -1,18 +1,24 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
-    <section grid>
-        <div column>
-            <p>{{ .Content }}</p>
-        </div>
-    </section>
-
     <section id="courses">
-        <h2>Courses</h2>
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Content }}</p>
 
-        {{ range .Site.Data.courses }}
-            {{ .course.title }}
+        <div grid>
+        {{ range .Data.Pages.ByDate }}
+            <div column class="-center">
+                <div class="card-box">
+                    {{ with .Params.banner }}
+                        <img src="{{ . }}" alt="Course banner picture" class="lazy banner-img -yellow" />
+                    {{ end }}
+                    <h3 class="-center">{{ .Title }}</h3>
+                    <a href="{{ .Permalink }}">
+                        <!-- TODO: Remove style-->
+                        <button class="-bordered -success -call-to-action" style="margin-top:0;">Watch</button>
+                    </a>
+                </div>
+            </div>
         {{ end }}
-
+        </div>
     </section>
 
 
@@ -25,11 +31,14 @@
                 <div grid>
             {{ end }}
             <div column>
-                <div class="card-box" style="padding: 0;">
+                <div class="card-box">
                     {{ with .category }}
-                        <img class="banner-img {{ .banner_class }}" src="{{ .banner }}" alt="{{ .banner_alt }}">
-                        <h2 class="-center">{{ .title }}</h2>
-                        <p>{{ .description }}</p>
+                        <!-- TODO: Fix banner system banner.src/alt/class-->
+                        <!--<img class="banner-img {{ .banner_class }}" src="{{ .banner }}" alt="{{ .banner_alt }}">-->
+                        <div class="-center">
+                            <h2>{{ .title }}</h2>
+                            <p>{{ .description }}</p>
+                        </div>
                     {{ end }}
                     
                     <ul class="collection" style="padding:0.5rem">
