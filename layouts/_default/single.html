@@ -15,6 +15,7 @@
   
       {{ .Content }}
   
+    {{ if isset .Params "social" }} {{ partial "modules/social_networks/follow" . }} {{ end }}
     </article>
   </section>
   {{ if and (isset .Params "author") (ne .Params.author "") }} {{ partial "modules/author" . }} {{ end }}
