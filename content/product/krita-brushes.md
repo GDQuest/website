@@ -12,10 +12,10 @@ tags:
   - krita painting brushes
   - krita brush
 
-url: krita-brushes-for-game-artists
 aliases:
   - brush-pack
   - game-art-quest/brush-pack
+  - krita-brushes-for-game-artists/
 
 banner: /img/page/krita-brushes/krita-brushes-banner.jpg
 banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
@@ -24,9 +24,9 @@ banner_alt: Krita brushes banner image
 product: krita-brushes
 ---
 
-Version 10 (_January 2017_) contains:
+Version 12 (_March 2017_) contains:
 
-- **61 unique brush presets**
+- **73 unique brush presets**
 - **2 pdf documents** to help you get started with the brushes
 - **Monthly updates**. More brushes and videos are already on your way!
 
@@ -54,6 +54,30 @@ The best part? There is actually a free, smaller version of this set, so you can
 [Click here to download the free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite)
 
 ## Changelog
+
+### Version 12 - March 2017
+
+**9 new brushes**, including a watercolor sponge, an oil paint brush, chains, and more!
+
+### Version 11 - February 2017
+
+#### New brushes
+
+- GDquest_Fill_Flat_Rotation: Sharp flat brush with pen rotation support, for cel shading and silhouettes
+- GDquest_Spray_Dirt_1: Splatters clumps of dots
+- GDquest Cloud Trail: creates a cloudy trail, for fireplaces and trails behind planes
+
+New premium brushes
+
+- GDquest_Natural_Charcoal_Soft: charcoal preset with soft textured edges, for sketching
+- GDquest_Natural_Charcoal_Sharp: pencil preset with a sharp outline and subtle texture, for sketching
+
+#### Improved brushes
+
+- GDquest_Aibrush_Shading: Lowered the spacing to fix artifacts that could appear on the stroke
+- GDquest_Fill_Flat_Directional: 6 times faster, improved for cel shading
+- GDquest_Cloud_Builder_Soft: a lot faster, better control over the clouds' shape
+- GDquest_PixelArt_Deform_Grow: lowered the deform speed
 
 ### Version 10 - January 2017
 

@@ -9,6 +9,7 @@ tags:
 - indie game marketing
 title: Marketing indie games with no budget – Notes
 aliases: game-design/marketing-indie-games-on-a-0-budget-notes/
+social: True
 
 banner: /img/post/2017/marketing-indie-games-with-0-budget/marketing-indie-game-notes-banner.jpg
 banner_alt: Sunrise in the game Firewatch

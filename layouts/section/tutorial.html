@@ -24,12 +24,7 @@
 
     <section id="tutorials">
         <h2>Tutorials</h2>
-        {{ $.Scratch.Set "columns" 0 }}
         {{ range .Site.Data.tutorial.library }}
-    
-            {{ if eq (mod ($.Scratch.Get "columns") 2) 0 }}
-                <div grid>
-            {{ end }}
             <div column>
                 <div class="card-box">
                     {{ with .category }}
@@ -56,13 +51,6 @@
                     </ul>
                 </div>
             </div>
-    
-            {{ if ne (mod ($.Scratch.Get "columns") 2) 0 }} </div> {{ end }}
-            {{ $.Scratch.Add "columns" 1 }}
-        {{ end }}
-    
-        {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
-        </div>
         {{ end }}
     </section>
 {{ end }}

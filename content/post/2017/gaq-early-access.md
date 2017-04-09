@@ -14,6 +14,8 @@ banner: /img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg
 banner_alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 ---
 
+Update: the course is now out! Learn more below.
+
 **Do you want to become a better artist? To learn how professionals make beautiful sprites?** Make professional painterly game art with Krita is a new premium training out in early access. It will show you how to make your own 2d game art with the open source painting program Krita. 
 
 It is available in 3 different versions to fit your budget and your very needs. You'll get 20% off your purchase with the coupon code "early" for the duration of the early access. Learn more below:
