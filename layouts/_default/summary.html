@@ -1,4 +1,5 @@
 <article>
+  <div class="card-box">
   {{ if and (isset .Params "banner") (ne .Params.banner "") }}
   <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
        data-src="{{ .Params.banner }}"
@@ -11,11 +12,12 @@
   </noscript>
   {{ end }}
 
-  <div class="card-box">
-    <h3> <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}Draft: {{ end }}{{ end }}{{ .Title }}</a> </h3>
-
-    <p> {{ .Description }} </p>
-    
-    <p class="-muted"> {{ .Date.Format "Jan 2006" }} / {{ range .Params.category }} {{ . }} {{ end }} / {{ .WordCount }} words </p>
+    <div class="content">
+      <h3> <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}Draft: {{ end }}{{ end }}{{ .Title }}</a> </h3>
+  
+      <p> {{ .Description }} </p>
+      
+      <p class="-muted"> {{ .Date.Format "Jan 2006" }} / {{ range .Params.category }} {{ . }} {{ end }} / {{ .WordCount }} words </p>
+    </div>
   </div>
 </article>
