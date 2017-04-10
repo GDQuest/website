@@ -24,7 +24,7 @@ It is available in 3 different versions to fit your budget and your very needs. 
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
 <div class="gumroad-product-embed" data-gumroad-product-id="krita-game-art-tutorial-1" data-outbound-embed="true"><a href="https://gumroad.com/l/krita-game-art-tutorial-1">Loading...</a></div>
 <noscript>
-<a href="{{< ref "product\krita-tutorial-1.md" >}}">Access the Krita training</a>
+<a href="{{< ref "product\krita_tutorial_1.md" >}}">Access the Krita training</a>
 </noscript>
 
 If you only want to know when the course will be out, subscribe below and I'll let you know via email:

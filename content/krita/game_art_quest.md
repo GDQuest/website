@@ -22,7 +22,7 @@ A free Krita course focusing on the tools the program offers for game artists an
     <a href="{{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}"> 
       <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
     </a>
-    <a href="{{< ref "product/krita-brushes.md" >}}"> 
+    <a href="{{< ref "product/krita_brushes.md" >}}"> 
       <button class="-bordered -call-to-action -success">{{< icon paint-brush success >}} Krita brushes</button>
     </a>
   </div>
@@ -38,7 +38,7 @@ Want to go a step further and learn to make professional sprites? Then, this cou
 
 <div grid>
   <div column class="-center">
-    <a href="{{< ref "product\krita-tutorial-1.md" >}}"> 
+    <a href="{{< ref "product\krita_tutorial_1.md" >}}"> 
       <button class="-bordered -call-to-action -success">{{< icon book default >}} Learn more</button>
     </a>
   </div>
@@ -56,7 +56,7 @@ To become a more efficient artist, you have to sharpen your observation skills a
 
 {{< img src="/img/page/game-art-quest/krita-screenshot.png" alt="Nathan's picture" >}}
 
-The [second course]({{< ref "product/krita-tutorial-1.md" >}}) also covers the unique constraints game artists face in their work. You have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, **your art has to support the gameplay: it shapes the game experience**.
+The [second course]({{< ref "product/krita_tutorial_1.md" >}}) also covers the unique constraints game artists face in their work. You have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, **your art has to support the gameplay: it shapes the game experience**.
 
 Game Art Quest was funded [on Kickstarter](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) by 424 artists!
 
