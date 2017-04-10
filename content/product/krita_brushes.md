@@ -15,7 +15,8 @@ tags:
 aliases:
   - brush-pack
   - game-art-quest/brush-pack
-  - krita-brushes-for-game-artists/
+  - krita-brushes-for-game-artists
+  - product/krita-brushes
 
 banner: /img/page/krita-brushes/krita-brushes-banner.jpg
 banner_link: https://gumroad.com/l/krita-brushes-for-game-artists
