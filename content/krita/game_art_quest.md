@@ -1,20 +1,19 @@
 ---
 menu: main
-kind: page
-layout: default
+weight: 1
 
-title: Game Art Quest
+title: Krita
 small: Krita tutorial series for game artists
 
-url: krita-tutorial
 alias:
-  - game-art-quest
+  - game-art-quest/
   - game-art-quest/roadmap/
+  - krita-tutorial/
 ---
 
 ## Free Krita tutorial for game artists
 
-<img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow">
+{{< img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow" >}}
 
 This free Krita tutorial focuses on the tools the program offers for game artists and digital painters. It covers the essential tools you need to work efficiently. It was funded by 424 artists on Kickstarter.
 
