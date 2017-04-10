@@ -1,19 +1,13 @@
 ---
-author: nathan
-category:
-- news
+author: "nathan"
+small: "Krita course"
+title: Free resources for game artists
 date: 2017-03-14T09:00:51+01:00
-description: description
-tags:
-- gdquest
-- gdquest news
-title: freebies
+description: "Do you want to become a better artist? This Krita course will teach you how to create professional 2d game sprites with the free, open source painting program Krita."
 
-layout: post
-
-url: free-game-creation-resources
 aliases:
-- freebies/
+- freebies
+- free-game-creation-resources
 ---
 
 ## Open source game assets
