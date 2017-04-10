@@ -3,22 +3,35 @@
         <h1>{{ .Title }}</h1>
         <p>{{ .Content }}</p>
 
-        <div grid>
-        {{ range .Data.Pages.ByDate }}
-            <div column class="-center">
-                <div class="card-box">
-                    {{ with .Params.banner }}
-                        <img src="{{ . }}" alt="Course banner picture" class="lazy banner-img -yellow" />
-                    {{ end }}
-                    <h3 class="-center">{{ .Title }}</h3>
-                    <a href="{{ .Permalink }}">
-                        <!-- TODO: Remove style-->
-                        <button class="-bordered -success -call-to-action" style="margin-top:0;">Watch</button>
-                    </a>
-                </div>
-            </div>
+        {{ $.Scratch.Set "courses" 0 }}
+        {{ $.Scratch.Set "courses_total" 0 }}
+        {{ range .Data.Pages.ByDate.Reverse }}
+            {{ $.Scratch.Add "courses_total" 1 }}
         {{ end }}
-        </div>
+
+        {{ range .Data.Pages.ByDate.Reverse }}
+            {{ if or (eq (mod ($.Scratch.Get "courses") 2) 0 ) (eq ($.Scratch.Get "courses") 0) }}
+            <div grid>
+            {{ end }}
+
+                <div column class="-center">
+                    <div class="card-box">
+                        {{ with .Params.banner }}
+                            {{ partial "block/banner_img" . }}
+                        {{ end }}
+                        <h3 class="-center">{{ .Title }}</h3>
+                        <a href="{{ .Permalink }}">
+                            <!-- TODO: Remove style-->
+                            <button class="-bordered -success -call-to-action" style="margin-top:0;">Watch</button>
+                        </a>
+                    </div>
+                </div>
+
+            {{ if or (eq (sub (mod ($.Scratch.Get "courses") 2) 1) 0 ) (eq ($.Scratch.Get "courses") ($.Scratch.Get "courses_total")) }}
+            </div>
+            {{ end }}
+            {{ $.Scratch.Add "courses" 1 }}
+        {{ end }}
     </section>
 
 
@@ -35,15 +48,15 @@
                             <p>{{ .description }}</p>
                         </div>
                     {{ end }}
-                    
+
                     <ul class="collection" style="padding:0.5rem">
                         {{ $.Scratch.Set "video_count" 0 }}
-                        
+
                         {{ range .videos }}
                             {{ $.Scratch.Add "video_count" 1 }}
                             <li class="collection-item">
                                 <span class="-muted">
-                                    {{ $.Scratch.Get "video_count" }}. 
+                                    {{ $.Scratch.Get "video_count" }}.
                                 </span>
                                 <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
                             </li>

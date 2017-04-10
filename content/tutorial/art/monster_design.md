@@ -14,7 +14,10 @@ tags:
 
 type: "course"
 course: "monster_design"
-banner: /img/page/tutorial/art/monster-design/banner.jpg
+banner:
+    src: /img/page/tutorial/art/monster-design/banner.jpg
+    alt: Course banner, 2 bear-like monsters painted in Krita
+    class: -blue
 ---
 
 The intro to monster design is the first free training released on GDquest. In about 40 minutes, it will **run you through the thought process a game artist might follow to design monsters**. It both covers the thought process behind the design of a monster and an example of monster drawing with pen, paper and Krita.
