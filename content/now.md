@@ -24,5 +24,6 @@ Lately, I'm:
 - Improving this website
 - Studying Japanese grammar and kanji
 - Trail running and chinese boxing
+- Occasionally writing hip-hop songs
 
 I'm doing most of that, trying to make a living off my work so I can keep supporting open source game creators in a direct way: providing professional grade education for those tools, both paid and free.
