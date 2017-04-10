@@ -15,7 +15,7 @@ Yes, the first volume of Game Art Quest is done. 6.2 hours of free Krita tutoria
 
 
 - [Early access](https://gum.co/krita-tutorial-for-game-artists) {{< icon shopping-cart success >}}
-- [Available tutorials]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}) (free)
+- [Available tutorials]({{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}) (free)
 
 The extra premium brushes and their companion tutorials are also getting pretty big. With this month's update, it now includes 34 presets and more than 30 minutes of video tutorials. And more coming monthly.
 

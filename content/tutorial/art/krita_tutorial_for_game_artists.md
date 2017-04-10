@@ -13,6 +13,8 @@ aliases:
     - game-art-quest/volume-1
     - game-art-quest/volume-1/krita-tutorial-for-game-artists
     - krita-tutorial/volume-1/krita-tutorial-for-game-artists
+    - krita-tutorial-for-game-artists
+    - tutorial/art/krita-tutorial-for-game-artists
 
 banner: /img/page/game-art-quest/krita-tutorial-banner.jpg
 videos_released: 51

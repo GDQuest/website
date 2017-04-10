@@ -10,7 +10,7 @@ banner: "/img/post/2016/06/june-update-banner.jpg"
 banner_alt: "Randa's surrounding mountains"
 ---
 
-We're getting to the end of June. It's time to sum up all that's been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3's new features in the [Krita training]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}). You can find more details about what happened in Randa, and what the plans are for July, below.
+We're getting to the end of June. It's time to sum up all that's been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3's new features in the [Krita training]({{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}). You can find more details about what happened in Randa, and what the plans are for July, below.
 
 ## Randa
 
