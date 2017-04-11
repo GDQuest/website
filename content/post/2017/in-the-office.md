@@ -10,9 +10,9 @@ tags:
   - "gdquest news"
 date: "2017-01-21T17:35:09+01:00"
 
-banner: "/img/post/2017/in-the-office/office-news-banner-medium.jpg"
-banner_alt: "In the office article banner image"
-
+banner:
+  src: "/img/post/2017/in-the-office/office-news-banner-medium.jpg"
+  alt: "In the office article banner image"
 ---
 
 {{< youtube aouow3pfa7Q >}}

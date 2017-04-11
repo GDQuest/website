@@ -6,8 +6,10 @@ author: "nathan"
 category: ["News"]
 description: "I’ve been traveling around the country for a bit less than a month, and the experience was incredible. A great occasion to improve in Japanese. But now it's time to get back to GDquest and produce new tutorials for you."
 tags: ["community"]
-banner: "/img/post/2016/11/back-from-japan-banner-low.jpg"
-banner_alt: "Krita tutorial for game artists - banner"
+
+banner:
+  src: "/img/post/2016/11/back-from-japan-banner-low.jpg"
+  alt: "Krita tutorial for game artists - banner"
 ---
 
 Yes, I’m back from Japan! Physically at least: my heart is still back there. I’ve been traveling around the country for a bit less than a month, and the experience was incredible. It was a great occasion to practice Japanese and get a better sense for the culture. I’ve read and been told a lot of things before going, and reality felt a lot subtler than what you would expect at first. Some facts were somewhat true, others plain wrong. The collectivism there felt wonderful. The french culture is a lot more individualistic, which is part of what makes me feel like a foreigner here.
