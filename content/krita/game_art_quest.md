@@ -14,44 +14,39 @@ alias:
 ## Free Krita tutorial for game artists
 
 <div class="card-box">
-{{< img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow" >}}
-
-<div class="content">
-A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
-
-  <div grid>
-    <div column class="-center">
-      <a href="{{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}"> 
-        <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
-      </a>
-      <a href="{{< ref "product/krita_brushes.md" >}}"> 
-        <button class="-bordered -call-to-action -success">{{< icon paint-brush success >}} Krita brushes</button>
-      </a>
+  {{< img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow" >}}
+  <div class="content">
+    A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
+    <div grid>
+      <div column class="-center">
+        <a href="{{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}"> 
+          <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
+        </a>
+        <a href="{{< ref "product/krita_brushes.md" >}}"> 
+          <button class="-bordered -call-to-action -success">{{< icon paint-brush success >}} Krita brushes</button>
+        </a>
+      </div>
     </div>
   </div>
+</div>
 
-</div>
-</div>
 
 <hr>
 
-<div class="card-box">
 ## Make Professional Painterly Game Art with Krita
 
-{{< img src="/img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg" alt="Game Art Quest volume 2 banner - painterly art" class="banner-img -yellow" >}}
-
-<div class="content">
-Want to go a step further and learn to make professional sprites? Then, this course is for you.
-
-<div grid>
-  <div column class="-center">
-    <a href="{{< ref "product\krita_tutorial_1.md" >}}"> 
-      <button class="-bordered -call-to-action -success">{{< icon book default >}} Learn more</button>
-    </a>
+<div class="card-box">
+  {{< img src="/img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg" alt="Game Art Quest volume 2 banner - painterly art" class="banner-img -yellow" >}}
+  <div class="content">
+    Want to go a step further and learn to make professional sprites? Then, this course is for you.
+    <div grid>
+      <div column class="-center">
+        <a href="{{< ref "product\krita_tutorial_1.md" >}}"> 
+          <button class="-bordered -call-to-action -success">{{< icon book default >}} Learn more</button>
+        </a>
+      </div>
+    </div>
   </div>
-</div>
-
-</div>
 </div>
 
 ## Discover Game Art Quest!
