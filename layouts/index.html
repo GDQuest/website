@@ -30,18 +30,18 @@
   {{ $.Scratch.Set "count" 0 }}
   {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
   {{ range $paginator.Pages }}
-    {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
+    {{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
     <div grid>
     {{ end }}
       <div column>
         {{ .Render "summary" }}
       </div>
-    {{ if ne (mod ($.Scratch.Get "count") 2) 0 }} </div> {{ end }}
+    {{ if mod ($.Scratch.Get "count") 2 | ne 0 }} </div> {{ end }}
     {{ $.Scratch.Add "count" 1 }}
   {{ end }}
 
   <!-- Close last grid -->
-  {{ if eq (mod ($.Scratch.Get "count") 2) 0 }}
+  {{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
   </div>
   {{ end }}
 
@@ -54,11 +54,11 @@
 
 <section id="about">
     <div class="card-box">
+      <img class="image img-circle" src="img/avatar/gdquest-avatar-80.png" alt="Nathan's avatar">
       <div class="content">
-        <img class="image img-circle" src="img/avatar/gdquest-avatar-80.png" alt="Nathan's avatar">
         <h4 >About GDquest</h4>
         <p>
-          I'm Nathan, a professional game designer. I'm the author of <a href="http://youtube.com/c/gdquest">GDquest</a>, a Youtube channel filled with tutorials about game art and game design. And I'm building a community around <strong>game creation</strong> and <strong>open source software</strong>. The website will be a hub for the community and open source assets.
+          I'm Nathan, a professional game designer. I'm the author of <a href="http://youtube.com/c/gdquest">GDquest</a>, a Youtube channel filled with tutorials about game art and game design. And I'm building a community around <strong>game creation</strong> and <strong>open source software</strong>.
         </p>
       </div>
     </div>
