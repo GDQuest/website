@@ -1,8 +1,6 @@
 ---
 author: nathan
-banner: 
 title: What I'm doing now
-banner_alt: 
 date: 2017-04-09T19:57:33+02:00
 description: description
 tags:
