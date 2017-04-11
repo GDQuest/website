@@ -1,17 +1,8 @@
 <article>
   <div class="card-box">
-  {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-       data-src="{{ .Params.banner }}"
-       alt="{{ .Params.banner_alt }}"
-       class="lazy banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" />
-  <noscript>
-    <img src="{{ .Params.banner }}"
-         alt="{{ .Params.banner_alt }}"
-         class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" />
-  </noscript>
-  {{ end }}
-
+    {{ with .Params.banner }}
+      {{ partial "block/banner_img" . }}
+    {{ end }}
     <div class="content">
       <h3> <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}Draft: {{ end }}{{ end }}{{ .Title }}</a> </h3>
   

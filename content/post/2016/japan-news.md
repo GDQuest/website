@@ -5,8 +5,10 @@ date: "2016-09-28T08:24:05+02:00"
 description: "The first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials. What next? The answers are in this post."
 title: "Game Art Quest vol1 done! Off to Japan"
 tags: ["community"]
-banner: "/img/page/game-art-quest/krita-tutorial-banner.jpg"
-banner_alt: "Krita tutorial for game artists - banner"
+
+banner:
+    src: "/img/page/game-art-quest/krita-tutorial-banner.jpg"
+    alt: "Krita tutorial for game artists - banner"
 aliases:
 - post/2016/09/japan-news/
 ---

@@ -11,8 +11,9 @@ title: Marketing indie games with no budget – Notes
 aliases: game-design/marketing-indie-games-on-a-0-budget-notes/
 social: True
 
-banner: /img/post/2017/marketing-indie-games-with-0-budget/marketing-indie-game-notes-banner.jpg
-banner_alt: Sunrise in the game Firewatch
+banner:
+    src: /img/post/2017/marketing-indie-games-with-0-budget/marketing-indie-game-notes-banner.jpg
+    alt: Sunrise in the game Firewatch
 ---
 
 Emmy Jonhassen, aka IndieGameGirl, gave a talk named [Marketing Indie Games on a $0 Budget](http://www.indiegamegirl.com/no-budget-marketing/). It offers a nice introduction to the topic, so I decided to share synthetic notes for it.

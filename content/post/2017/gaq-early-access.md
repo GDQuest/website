@@ -10,8 +10,9 @@ tags:
 - gdquest
 - gdquest news
 
-banner: /img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg
-banner_alt: Banner for the Krita course. A pig and a rabbit character in the forest.
+banner:
+    src: /img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg
+    alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 ---
 
 Update: the course is now out! Learn more below.
