@@ -7,6 +7,4 @@
         @if $name == "gdquest"
             @each $type, $value in $color
                 &.-#{$type}
-                    // border-image: linear-gradient(to top, $value, lighten($value, 10%))
-                    // border-image-slice: 1
                     border-color: $value

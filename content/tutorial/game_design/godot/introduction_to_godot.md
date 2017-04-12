@@ -19,7 +19,7 @@ course: introduction_to_godot
 banner: 
     src: /img/page/tutorial/game_design/godot/introduction_to_godot_banner.jpeg
     alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
-    class: -yellow
+    class: -pink
 ---
 
 Welcome to the first free tutorial series on GDquest that's dedicated to Godot! Over the course of 1h, it'll teach you some basic concepts with the engine. 
