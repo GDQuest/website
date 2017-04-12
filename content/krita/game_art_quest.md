@@ -20,10 +20,10 @@ alias:
     <div grid>
       <div column class="-center">
         <a href="{{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}"> 
-          <button class="-bordered -call-to-action">{{< icon book default >}} Free course</button>
+          <button class="-call-to-action">{{< icon book default >}} Free course</button>
         </a>
         <a href="{{< ref "product/krita_brushes.md" >}}"> 
-          <button class="-bordered -call-to-action -success">{{< icon paint-brush success >}} Krita brushes</button>
+          <button class="-call-to-action -success">{{< icon paint-brush success >}} Krita brushes</button>
         </a>
       </div>
     </div>
@@ -42,7 +42,7 @@ alias:
     <div grid>
       <div column class="-center">
         <a href="{{< ref "product\krita_tutorial_1.md" >}}"> 
-          <button class="-bordered -call-to-action -success">{{< icon book default >}} Learn more</button>
+          <button class="-call-to-action -success">{{< icon book default >}} Learn more</button>
         </a>
       </div>
     </div>

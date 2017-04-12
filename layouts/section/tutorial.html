@@ -20,10 +20,9 @@
                             {{ partial "block/banner_img" . }}
                         {{ end }}
                         <div class="content">
-                            <h3 class="-center">{{ .Title }}</h3>
+                            <p>{{ .Title }}</p>
                             <a href="{{ .Permalink }}">
-                                <!-- TODO: Remove style-->
-                                <button class="-bordered -success -call-to-action" style="margin-top:0;">Watch</button>
+                                <button class="-success -call-to-action">Watch</button>
                             </a>
                         </div>
                     </div>

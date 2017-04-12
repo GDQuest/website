@@ -698,241 +698,6 @@ ol {
   ol li {
     content: "&raquo; "; } }
 
-/**
- * Concise UI
- * https://github.com/ConciseCSS/concise-ui
- * MIT license - James Kolce, Keenan Payne & Concise CSS Contributors
- */
-.progress-bar {
-  background-color: #31383c;
-  border-radius: 3px;
-  box-shadow: inset 0 1px 1px rgba(53, 62, 68, 0.25);
-  box-sizing: initial;
-  color: white;
-  font-size: 0.8rem;
-  height: 0.75rem;
-  line-height: 1.2;
-  position: relative;
-  text-align: center;
-  width: 100%; }
-  .progress-bar > .progress {
-    background-color: #ffc107;
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-    display: block;
-    height: 100%;
-    overflow: hidden;
-    position: relative; }
-  .progress-bar.-striped > .progress:after {
-    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
-    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
-    background-size: 50px 50px;
-    background-repeat: repeat;
-    bottom: 0;
-    content: "";
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1; }
-  .progress-bar.-striped.-animated > .progress:after {
-    -webkit-animation: move 2s linear infinite;
-            animation: move 2s linear infinite; }
-  .progress-bar.-small {
-    font-size: 0.8rem;
-    height: 10px;
-    line-height: 1.2; }
-  .progress-bar.-large {
-    font-size: 1rem;
-    height: 25px;
-    line-height: 1.7; }
-  .progress-bar.-stacked > .progress {
-    border-radius: 0;
-    display: block;
-    float: left; }
-    .progress-bar.-stacked > .progress:first-of-type {
-      border-radius: 3px 0 0 3px; }
-    .progress-bar.-stacked > .progress:last-of-type {
-      border-radius: 0 3px 3px 0; }
-
-@keyframes move {
-  0% {
-    background-position: 0 0; }
-  100% {
-    background-position: 50px 50px; } }
-
-@-webkit-keyframes move {
-  0% {
-    background-position: 0 0; }
-  100% {
-    background-position: 50px 50px; } }
-
-button.-bordered, input.-bordered[type="submit"] {
-  background-color: transparent;
-  border: 1px solid #ffc107;
-  color: #ffc107; }
-  button.-bordered:hover, input.-bordered[type="submit"]:hover, button.-bordered:focus, input.-bordered[type="submit"]:focus {
-    background-color: #ffc107;
-    color: white; }
-  button.-bordered[disabled], input.-bordered[disabled][type="submit"] {
-    border-color: #777;
-    color: #777; }
-    button.-bordered[disabled]:hover, input.-bordered[disabled][type="submit"]:hover, button.-bordered[disabled]:focus, input.-bordered[disabled][type="submit"]:focus, button.-bordered[disabled]:active, input.-bordered[disabled][type="submit"]:active {
-      background-color: transparent;
-      border-color: #777;
-      color: #777; }
-  button.-bordered.-muted, input.-bordered.-muted[type="submit"] {
-    border-color: #777;
-    background-color: transparent;
-    color: #777; }
-    button.-bordered.-muted:hover, input.-bordered.-muted[type="submit"]:hover, button.-bordered.-muted:focus, input.-bordered.-muted[type="submit"]:focus {
-      background-color: #777; }
-    button.-bordered.-muted:active, input.-bordered.-muted[type="submit"]:active {
-      background-color: ligthen(#777, 5%); }
-    button.-bordered.-muted:hover, input.-bordered.-muted[type="submit"]:hover, button.-bordered.-muted:focus, input.-bordered.-muted[type="submit"]:focus, button.-bordered.-muted:active, input.-bordered.-muted[type="submit"]:active {
-      color: white; }
-  button.-bordered.-success, input.-bordered.-success[type="submit"] {
-    border-color: #48c141;
-    background-color: transparent;
-    color: #48c141; }
-    button.-bordered.-success:hover, input.-bordered.-success[type="submit"]:hover, button.-bordered.-success:focus, input.-bordered.-success[type="submit"]:focus {
-      background-color: #48c141; }
-    button.-bordered.-success:active, input.-bordered.-success[type="submit"]:active {
-      background-color: ligthen(#48c141, 5%); }
-    button.-bordered.-success:hover, input.-bordered.-success[type="submit"]:hover, button.-bordered.-success:focus, input.-bordered.-success[type="submit"]:focus, button.-bordered.-success:active, input.-bordered.-success[type="submit"]:active {
-      color: white; }
-  button.-bordered.-warning, input.-bordered.-warning[type="submit"] {
-    border-color: #f97e19;
-    background-color: transparent;
-    color: #f97e19; }
-    button.-bordered.-warning:hover, input.-bordered.-warning[type="submit"]:hover, button.-bordered.-warning:focus, input.-bordered.-warning[type="submit"]:focus {
-      background-color: #f97e19; }
-    button.-bordered.-warning:active, input.-bordered.-warning[type="submit"]:active {
-      background-color: ligthen(#f97e19, 5%); }
-    button.-bordered.-warning:hover, input.-bordered.-warning[type="submit"]:hover, button.-bordered.-warning:focus, input.-bordered.-warning[type="submit"]:focus, button.-bordered.-warning:active, input.-bordered.-warning[type="submit"]:active {
-      color: white; }
-  button.-bordered.-error, input.-bordered.-error[type="submit"] {
-    border-color: #d22e2e;
-    background-color: transparent;
-    color: #d22e2e; }
-    button.-bordered.-error:hover, input.-bordered.-error[type="submit"]:hover, button.-bordered.-error:focus, input.-bordered.-error[type="submit"]:focus {
-      background-color: #d22e2e; }
-    button.-bordered.-error:active, input.-bordered.-error[type="submit"]:active {
-      background-color: ligthen(#d22e2e, 5%); }
-    button.-bordered.-error:hover, input.-bordered.-error[type="submit"]:hover, button.-bordered.-error:focus, input.-bordered.-error[type="submit"]:focus, button.-bordered.-error:active, input.-bordered.-error[type="submit"]:active {
-      color: white; }
-
-button.-muted, input.-muted[type="submit"] {
-  background-color: #777;
-  color: white; }
-  button.-muted:hover, input.-muted[type="submit"]:hover, button.-muted:focus, input.-muted[type="submit"]:focus {
-    background-color: #848484; }
-  button.-muted:active, input.-muted[type="submit"]:active {
-    background-color: #919191; }
-
-button.-success, input.-success[type="submit"] {
-  background-color: #48c141;
-  color: white; }
-  button.-success:hover, input.-success[type="submit"]:hover, button.-success:focus, input.-success[type="submit"]:focus {
-    background-color: #5bc754; }
-  button.-success:active, input.-success[type="submit"]:active {
-    background-color: #6dce67; }
-
-button.-warning, input.-warning[type="submit"] {
-  background-color: #f97e19;
-  color: white; }
-  button.-warning:hover, input.-warning[type="submit"]:hover, button.-warning:focus, input.-warning[type="submit"]:focus {
-    background-color: #fa8c32; }
-  button.-warning:active, input.-warning[type="submit"]:active {
-    background-color: #fa9a4b; }
-
-button.-error, input.-error[type="submit"] {
-  background-color: #d22e2e;
-  color: white; }
-  button.-error:hover, input.-error[type="submit"]:hover, button.-error:focus, input.-error[type="submit"]:focus {
-    background-color: #d74343; }
-  button.-error:active, input.-error[type="submit"]:active {
-    background-color: #db5858; }
-
-button.-prefix, input.-prefix[type="submit"] {
-  padding-left: 0; }
-  button.-prefix .prefix, input.-prefix[type="submit"] .prefix {
-    background-color: rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    margin-right: 1.25em;
-    padding: 0 1em;
-    vertical-align: 0; }
-
-button.-affix, input.-affix[type="submit"] {
-  padding-right: 0; }
-  button.-affix > .affix, input.-affix[type="submit"] > .affix {
-    background-color: rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    margin-left: 1.25em;
-    padding: 0 1em;
-    vertical-align: 0; }
-
-.spinner {
-  -webkit-animation: rotate .8s infinite linear;
-          animation: rotate .8s infinite linear;
-  border: 3px solid black;
-  border-radius: 50%;
-  border-right-color: transparent;
-  height: 40px;
-  margin: 1.5rem auto;
-  width: 40px; }
-
-@-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
-@keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
-.banner-img {
-  box-sizing: border-box;
-  border: 6px solid;
-  border-top: none;
-  border-bottom: none; }
-  .banner-img.-yellow {
-    border-color: #FFC107; }
-  .banner-img.-green {
-    border-color: #4CAF50; }
-  .banner-img.-blue {
-    border-color: #1976D2; }
-  .banner-img.-pink {
-    border-color: #E91E63; }
-
-ul.-unstyled {
-  list-style: none; }
-
-.hidden {
-  display: none; }
-
-.no-margin {
-  margin: 0; }
-
-.banner-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-.-muted {
-  color: #777; }
-
-.-center {
-  text-align: center; }
-
 nav {
   border-bottom: 2px solid #1f2328; }
   nav ul {
@@ -995,6 +760,71 @@ label {
 #nav-button:checked ~ #menu {
   max-height: 500px; }
 
+button, input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid #ffc107;
+  color: #ffc107; }
+  button:hover, input[type="submit"]:hover, button:focus, input[type="submit"]:focus {
+    background-color: #ffc107;
+    color: white; }
+  button[disabled], input[disabled][type="submit"] {
+    border-color: #777;
+    color: #777; }
+    button[disabled]:hover, input[disabled][type="submit"]:hover, button[disabled]:focus, input[disabled][type="submit"]:focus, button[disabled]:active, input[disabled][type="submit"]:active {
+      background-color: transparent;
+      border-color: #777;
+      color: #777; }
+  button.-call-to-action, input.-call-to-action[type="submit"] {
+    font-size: 24px;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  button.-success, input.-success[type="submit"] {
+    border-color: #48c141;
+    background-color: transparent;
+    color: #48c141; }
+    button.-success:hover, input.-success[type="submit"]:hover, button.-success:focus, input.-success[type="submit"]:focus {
+      background-color: #48c141; }
+    button.-success:active, input.-success[type="submit"]:active {
+      background-color: ligthen(#48c141, 5%); }
+    button.-success:hover, input.-success[type="submit"]:hover, button.-success:focus, input.-success[type="submit"]:focus, button.-success:active, input.-success[type="submit"]:active {
+      color: white; }
+
+.banner-img {
+  box-sizing: border-box;
+  border: 6px solid;
+  border-top: none;
+  border-bottom: none; }
+  .banner-img.-yellow {
+    border-color: #FFC107; }
+  .banner-img.-green {
+    border-color: #4CAF50; }
+  .banner-img.-blue {
+    border-color: #1976D2; }
+  .banner-img.-pink {
+    border-color: #E91E63; }
+
+ul.-unstyled {
+  list-style: none; }
+
+.hidden {
+  display: none; }
+
+.-no-margin {
+  margin: 0; }
+
+.banner-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.-muted {
+  color: #777; }
+
+.-center {
+  text-align: center; }
+
 .card-box {
   background-color: #1f2328;
   margin-bottom: 1.5rem;
@@ -1037,13 +867,6 @@ label {
     display: block;
     margin: auto; }
 
-button.-call-to-action, input.-call-to-action[type="submit"] {
-  font-size: 1.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem; }
-
 .course-body {
   margin-top: 0; }
 
@@ -1073,7 +896,7 @@ figcaption {
   max-width: 800px;
   margin: auto; }
 
-.lead {
+.lead-text {
   font-size: 18; }
 
 .img-circle {
