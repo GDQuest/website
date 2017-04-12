@@ -3,8 +3,8 @@
   <section grid>
     <article column>
       <header>
-        {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-          <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="{{ .Params.banner_alt }}" class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" /></a>
+        {{ with .Params.banner }}
+          {{ partial "block/banner_img" . }}
         {{ end }}
         {{ if isset .Params "nav" }}
           {{ partial "modules/post_nav" . }}
