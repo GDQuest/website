@@ -10,3 +10,46 @@ ul
     display: block
     margin-left: auto
     margin-right: auto
+
+img
+  max-width: 100%
+
+a:visited
+  color: getColor(state, muted)
+
+nav
+  a:visited
+    color: getColor(base, primary)
+
+section:first-of-type
+  margin-top: 0
+
+figcaption
+  margin-top: 0.75rem
+  text-align: center
+
+.container-small
+  max-width: 800px
+  margin: auto
+
+.lead-text
+  font-size: $font-size-secondary
+
+.img-circle
+  border-radius: 50%
+
+.my-fa
+  display: inline-block
+  font: normal normal normal 14px/1 'FortAwesome'
+  font-size: inherit
+  text-rendering: auto
+  line-height: inherit
+
+.no-margin-top
+  margin-top: 0
+
+.follow-button
+  padding-right: 0.5rem
+
+  &:first-child
+    padding-left: 0.5rem

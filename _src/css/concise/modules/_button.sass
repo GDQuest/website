@@ -1,0 +1,48 @@
+button
+  background-color: transparent
+  border: 1px solid getColor(base, primary)
+  color: getColor(base, primary)
+
+  &:hover,
+  &:focus
+    background-color: getColor(base, primary)
+    color: getColor(text, inverted)
+
+  &[disabled]
+    border-color: getColor(state, muted)
+    color: getColor(state, muted)
+
+    &:hover,
+    &:focus,
+    &:active
+      background-color: transparent
+      border-color: getColor(state, muted)
+      color: getColor(state, muted)
+
+  &.-call-to-action
+    font-size: $font-size * 1.5px
+    padding-top: .75rem
+    padding-bottom: .75rem
+    margin-top: 1.5rem
+    margin-bottom: 1.5rem
+
+  // SUCCESS color
+  @each $color-name, $color in $colors
+    @each $state, $value in $color
+      @if $color-name == "state" and $state == "success"
+        &.-#{$state}
+          border-color: $value
+          background-color: transparent
+          color: $value
+
+          &:hover,
+          &:focus
+            background-color: $value
+
+          &:active
+            background-color: ligthen($value, 5%)
+
+          &:hover,
+          &:focus,
+          &:active
+            color: getColor(text, inverted)

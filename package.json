@@ -21,8 +21,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "concisecss compile _src/css/concise/gdquest.scss static/css/gdquest.css"
-  },
+    "build-css": "concisecss compile _src/css/concise/gdquest.sass static/css/gdquest.css"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NathanLovato/GDquest-website.git"

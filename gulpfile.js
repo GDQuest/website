@@ -14,7 +14,7 @@ gulp.task('deploy', function () {
 })
 
 
-var cssFolders = ['./_src/css/concise/*.scss', './_src/css/concise/modules/*.sass']
+var cssFolders = ['./_src/css/concise/**/*.sass', './_src/css/concise/modules/*.sass']
 var cssDist = './static/css/gdquest.css'
 
 gulp.task('watch', function () {
@@ -48,7 +48,7 @@ gulp.task('uncss', function () {
     //   html: htmlFiles
     // }))
     .pipe(cssmin())
-    .pipe(gulp.dest('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.min.css'))
+    .pipe(gulp.dest('D:/Library/Dropbox/Gdquest.com/static/css/'))
 })
 
 
