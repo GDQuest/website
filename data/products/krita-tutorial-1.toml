@@ -57,9 +57,12 @@ list_icon = "check"
 description="The course is currently in early access. Updates every week! You'll find the full changelog below."
 
 markdown=[
+"### Version 1.1 - April 8",
+"- Added a video introduction and a conclusion to the course",
+"### Version 1.0 - Final release",
+"- 32 video tutorials in the premium version \n- 15 assignments in total",
 "### Version 0.9 - March 16",
-"- 3 new videos: Painting the tree trunk, Painting leaves the smart way, How to make animated brushes to paint leaves faster",
-"- 2 premium assignments: Character concept art, Character sprites",
+"- 3 new videos: Painting the tree trunk, Painting leaves the smart way, How to make animated brushes to paint leaves faster \n- 2 premium assignments: Character concept art, Character sprites",
 
 "### Version 0.8 - March 9",
 "- 5 new videos: Isolate layers (pro), What's the right resolution for your sprites (pro), How to paint the eye (part 2), Painting a tiling road texture, Painting a lovely shrub",

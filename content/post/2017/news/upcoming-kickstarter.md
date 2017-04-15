@@ -37,7 +37,7 @@ Moving forward, I want to work with other people, which will cost a lot more mon
 
 ## What will it all be about?
 
-What do YOU want the tutorials to be about? The idea is to show you how to make a great little game with Godot, exploring more and more advanced topics as we go. The game will feature beautiful, open source game art, based off the techniques explained in the [Make Professional Painterly Game Art with Krita]({{< ref "product\krita_tutorial_1.md" >}}).
+What do YOU want the tutorials to be about? The idea is to show you how to make a great little game with Godot, exploring more and more advanced topics as we go. The game will feature beautiful, open source game art, based off the techniques explained in the [Make Professional Painterly Game Art with Krita]({{< ref "product\krita\painterly_game_art.md" >}}).
 
 As far as the game genre is concerned, it'll be up to you. RPG? Platform? Shoot'em up? Your call. I will put up a vote and share the link on Youtube and social networks. The only thing I can tell you for sure is that it'll be a 2d game.
 

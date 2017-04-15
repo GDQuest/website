@@ -12,7 +12,6 @@
     "gulp-htmlmin": "^2.0.0",
     "gulp-imagemin": "^3.0.0",
     "gulp-run": "^1.7.1",
-    "gulp-uncss": "^1.0.6",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.11",
     "hugulp": "^1.1.0",
@@ -22,7 +21,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "concisecss compile _src/css/concise/gdquest.sass static/css/gdquest.css"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NathanLovato/GDquest-website.git"

@@ -16,15 +16,11 @@ url: krita-professional-game-art-tutorial
 alias: product/krita-tutorial-1
 
 banner:
-  src: /img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg
+  src: /img/product/krita/painterly_game_art/banner.jpg
   alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 
 product: krita-tutorial-1
 ---
-
-<!-- This goes below the landing page -->
-
-I’ve been in the games industry for a few years now. I made my own indie game company, worked on mobile and browser-based titles. I had a blast, but I felt like we missed quality game art tutorials.That’s why I created GDquest. GDquest is a growing library of 150+ [free game creation tutorials](http://youtube.com/c/gdquest) about game design, game art, and programming with open source technologies.
 
 ## What will I learn in this course?
 
@@ -34,8 +30,10 @@ I’ve been in the games industry for a few years now. I made my own indie game 
 
 On top of that, if you buy the premium version, you will get step by step exercise sheets and create your own game mockup, ready to use in the game engine of your choice!
 
-![Creation process of 2 characters including the sketch, the blocking and the final sprite](/img/page/product/krita-tutorial-1/krita-tutorial-learn-whole-process.jpg)
 
+Check out this **free video from the course** and get a sense for the content:
+
+{{< youtube VtfQ5z3t1E0 >}}
 
 ## The training is available in 3 versions
 
@@ -51,9 +49,9 @@ The most popular option. For hobbyists, students and aspiring professionals.
 
 Get all of the essentials, plus:
 
-- Fundamental training on the principles of design
-- Techniques to make nondestructive selections in Krita
-- Video demos based on the art of the games Pankapu and Seasons: After Fall
+1. Fundamental training on the principles of design
+1. Techniques to make nondestructive selections in Krita
+1. Video demos based on the art of the games Pankapu and Seasons: After Fall
 
 ### Premium
 
@@ -66,6 +64,8 @@ You get everything from the Essentials and Pro versions, plus:
 - PDF course documents
 - Priority support
 - Access to the GDquest premium Discord server
+
+![Creation process of 2 characters including the sketch, the blocking and the final sprite](/img/page/product/krita-tutorial-1/krita-tutorial-learn-whole-process.jpg)
 
 ## Requirements
 

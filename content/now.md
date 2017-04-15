@@ -18,7 +18,7 @@ Lately, I'm:
 - Preparing a Kickstarter campaign for a game design course
 - [Writing articles]({{< ref "post/2017/marketing/marketing-indie-games-with-0-budget.md" >}}) as a freelancer to pay the bills
 - Coding a blender add-on to make videos efficiently
-- Working on the [GDquest Krita brushes]({{< ref "product/krita_brushes.md" >}})
+- Working on the [GDquest Krita brushes]({{< ref "product/krita/brushes.md" >}})
 - Improving this website
 - Studying Japanese grammar and kanji
 - Trail running and chinese boxing
