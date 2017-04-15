@@ -1,5 +1,5 @@
 ---
-title: Learn Professional Painterly Game Art with Krita - Out in early access!
+title: Krita game art course in early-access
 description: You want to become a better artist? My new training series, out in early access, will show you how professionals make beautiful 2d game sprites, using Krita, the open source painting program.
 
 author: nathan
@@ -11,7 +11,7 @@ tags:
 - gdquest news
 
 banner:
-    src: /img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg
+    src: /img/product/krita/painterly_game_art/old_banner.jpg
     alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 ---
 
@@ -25,7 +25,7 @@ It is available in 3 different versions to fit your budget and your very needs. 
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
 <div class="gumroad-product-embed" data-gumroad-product-id="krita-game-art-tutorial-1" data-outbound-embed="true"><a href="https://gumroad.com/l/krita-game-art-tutorial-1">Loading...</a></div>
 <noscript>
-<a href="{{< ref "product\krita_tutorial_1.md" >}}">Access the Krita training</a>
+<a href="{{< ref "product\krita\painterly_game_art.md" >}}">Access the Krita training</a>
 </noscript>
 
 If you only want to know when the course will be out, subscribe below and I'll let you know via email:

@@ -75,7 +75,7 @@ $breakpoint: --small;
 // Use getColor(base, primary) to get colors
 $colors: (
     base: ("primary": #ffc107, "selection": #d6d6d6, "lines": #353e44), 
-    gdquest: ("yellow": #FFC107, "green": #4CAF50, "blue": #1976D2, "pink": #E91E63), 
+    gdquest: ("yellow": #FFC107, "green": #48c141, "blue": #1976D2, "pink": #E91E63), 
     text: ("primary": #fff, "secondary": #999, "heading": #fff, "inverted": white), 
     background: ("dark": #1f2328, "light": #31383c, "body": #272b30), 
     state: ("muted": #777, "success": #48c141, "warning": #f97e19, "error": #d22e2e)) !default;

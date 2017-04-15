@@ -104,11 +104,8 @@ All of this was made possible thanks to the community and the Kickstarter backer
 
 The 2016 Kickstarter campaign is live right now, and the developers need your support. Check it out now and help Krita to become even more awesome!
 
-{{< lead >}}
 <a href="https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome
-">Krita 2016: Let's Make Text and Vector Art Awesome!</a>
-{{</ lead >}}
-
+" style="font-size:150%">Krita 2016: Let's Make Text and Vector Art Awesome!</a>
 
 ## 11 smaller but welcome additions {#smaller-features}
 
@@ -206,12 +203,8 @@ Yet, it is a great application. And a healthy open-source project. The developer
 
 As far as I'm concerned, the program is mature for professional use. It's not perfect, but it's powerful. It easily competes with many paid alternatives I've tried in the past. Give Krita 3 a try. See what it has in store for you. You won't regret it!
 
-{{< text muted >}}
-Krita 3 is coming out at the end of the month. However, it is already out in Beta, and all of the features listed above are in.
-{{</ text >}}
+Krita 3 is out now!
 
-[{{< icon link >}} Krita 3.0 Beta](https://krita.org/item/new-development-builds-ready/)
+[{{< icon link >}} Download Krita 3](https://krita.org/en/download/krita-desktop/)
 
-[{{< icon link >}} Krita's official website](https://krita.org/)
-
-[{{< icon link >}} The 2016 Krita Kickstarter campaign](https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome)
+And check out my [Krita 3 game art course]({{< ref "product/krita/painterly_game_art.md" >}})!

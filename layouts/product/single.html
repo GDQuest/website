@@ -3,7 +3,7 @@
 <div class="container-small">
   <script src="https://gumroad.com/js/gumroad.js"></script>
   <section>
-    {{ with $product.banner }}
+    {{ with .Params.banner }}
       {{ partial "block/banner_img" . }}
     {{ end }}
 
