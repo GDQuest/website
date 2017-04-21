@@ -17,15 +17,14 @@ nav
     a:hover
       color: white
       background-color: getColor(background, dark)
-  .active
+  >.active
     color: white
     background-color: getColor(background, dark)
     cursor: default
 
-.logo
-    img
-      max-height: $nav-height
-      padding: 0.6lh
+.nav-logo
+    max-height: $nav-height
+    padding: 0.6lh
 
 // Horizontal on desktop
 @media (--small)
