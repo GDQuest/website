@@ -2,6 +2,11 @@ button
   background-color: transparent
   border: 1px solid getColor(base, primary)
   color: getColor(base, primary)
+  cursor: pointer
+  line-height: 1.5lh
+  padding: 0 1.5em
+  transition: background-color $transition-duration
+  white-space: nowrap
 
   &:hover,
   &:focus
@@ -11,20 +16,20 @@ button
   &[disabled]
     border-color: getColor(state, muted)
     color: getColor(state, muted)
-
-    &:hover,
-    &:focus,
-    &:active
-      background-color: transparent
-      border-color: getColor(state, muted)
-      color: getColor(state, muted)
+    cursor: not-allowed
+    // &:hover,
+    // &:focus,
+    // &:active
+    //   background-color: transparent
+    //   border-color: getColor(state, muted)
+    //   color: getColor(state, muted)
 
   &.-calltoaction
-    font-size: $font-size * 1.5px
-    padding-top: .75rem
-    padding-bottom: .75rem
-    margin-top: 1.5rem
-    margin-bottom: 1.5rem
+    font-size: typeScale(3)
+    padding-top: 0.5lh
+    padding-bottom: 0.5lh
+    margin-top: 0.75rem
+    margin-bottom: 0.75rem
 
   // SUCCESS color
   @each $color-name, $color in $colors
@@ -32,7 +37,6 @@ button
       @if $color-name == "state" and $state == "success"
         &.-#{$state}
           border-color: $value
-          background-color: transparent
           color: $value
 
           &:hover,

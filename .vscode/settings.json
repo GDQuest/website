@@ -1,8 +1,17 @@
 {
     "vsicons.presets.angular": false,
     "files.exclude": {
-        ".gitignore": true,
-        ".public": true,
-        ".publish": true
+        // ".gitignore": true,
+        "public": true,
+        ".publish": true,
+        "_src/css/_old": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "_src/img": true,
+        "public": true,
+        ".publish": true,
+        "_src/css/_old": true
     }
 }

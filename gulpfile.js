@@ -2,15 +2,16 @@ const gulp = require('gulp')
       htmlmin = require('gulp-htmlmin')
       cssmin = require('gulp-cssmin')
       imagemin = require('gulp-imagemin')
+      newer = require('gulp-newer');
       ghPages = require('gulp-gh-pages')
       watch = require('gulp-watch')
       run = require('gulp-run')
 
 
-const imgInputFolders = './_src/img/**/*.{png,jpg,gif,svg}'
-const imgOutputFolder = './static/img'
+const imgSrc = './_src/img/**/*.{png,jpg,gif,svg}'
+const imgDest = './static/img'
 
-const cssSrcFolders = ['./_src/css/concise/**/*.sass']
+const cssSrcFolders = ['./_src/css/**/*.sass']
 const cssOutputFolder = './static/css/gdquest.css'
 
 
@@ -20,7 +21,6 @@ gulp.task('deploy', function () {
 })
 
 
-
 gulp.task('watch', function () {
   return watch(cssSrcFolders, function () {
         gulp.start('build-css')
@@ -28,30 +28,32 @@ gulp.task('watch', function () {
 })
 
 gulp.task('build-css', function () {
-  return run('npm run build-css').exec()
+  return run('concisecss compile _src/css/gdquest.sass static/css/gdquest.css').exec()
 })
 
 
-gulp.task('minify', function () {
-  return gulp.src('public/**/*.html')
+
+gulp.task('htmlmin', function () {
+  return gulp.src('./public/**/*.html')
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
     .pipe(gulp.dest('public'))
 })
 
-
 gulp.task('cssmin', function () {
-  return gulp.src('D:/Library/Dropbox/Gdquest.com/static/css/gdquest.css')
+  return gulp.src('./static/**/*.css')
     .pipe(cssmin())
-    .pipe(gulp.dest('D:/Library/Dropbox/Gdquest.com/static/css/'))
+    .pipe(gulp.dest('./static'))
 })
 
 
+
 gulp.task('imagemin', function () {
-  return gulp.src(imgInputFolders)
+  return gulp.src(imgSrc)
+    .pipe(newer(imgDest))
     .pipe(imagemin())
-    .pipe(gulp.dest(imgOutputFolder))
+    .pipe(gulp.dest(imgDest))
 })
 
 

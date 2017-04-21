@@ -7,7 +7,7 @@
     <div class="metas">
     {{ partial "modules/date" . }}
     {{ if .IsPage }}
-      <small>{{ with .Params.author }}
+      <small>{{ with (index $.Site.Data.authors .Params.author) }}
         &middot; {{ $.Site.Data.Strings.byauthor }} {{ . }}
       {{ end }}
       &middot; {{ .Site.Data.Strings.metaReadin }} {{ .ReadingTime }} {{ .Site.Data.Strings.metaReadinMinutes }}

@@ -103,13 +103,6 @@
     </aside>
   </div>
 
-  <aside id="author">
-    {{ if isset .Params "author" }}
-    <p class="-muted">
-      Meet your mentor
-    </p>
-    {{ partial "modules/author" . }}
-    {{ end }}
-  </aside>
+  {{ with (index $.Site.Data.authors .Params.author) }} {{ partial "modules/author" . }} {{ end }}
 
 {{ end }}
