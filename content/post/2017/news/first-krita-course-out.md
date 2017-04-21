@@ -38,7 +38,7 @@ In total, there are about 30 video tutorials and 15 PDF documents depending on t
 
 <div class="-center">
     <a href="{{< ref "product/krita/painterly_game_art.md" >}}">
-        <button class="-call-to-action -success">
+        <button class="-calltoaction -success">
             Get the course!
         </button>
     </a>

@@ -22,7 +22,7 @@
                         <div class="content">
                             <p>{{ .Title }}</p>
                             <a href="{{ .Permalink }}">
-                                <button class="-success -call-to-action">Watch</button>
+                                <button class="-success -calltoaction">Watch</button>
                             </a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
     
                             {{ range .videos }}
                                 {{ $.Scratch.Add "video_count" 1 }}
-                                <li class="collection-item">
+                                <li class="item">
                                     <span class="-muted">
                                         {{ $.Scratch.Get "video_count" }}.
                                     </span>

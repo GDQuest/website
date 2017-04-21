@@ -89,7 +89,7 @@
           <!-- RANGING OVER INDIVIDUAL VIDEOS IN A CHAPTER -->
           <ol class="collection">
             {{ range .videos }}
-              <li class="collection-item">
+              <li class="item">
                 {{ if and (ne .url "") (isset . "url") }} <i class="fa fa-check text--success"></i> {{ end }}
                 <strong>{{ .title }}</strong>
                 {{ if and (isset . "description") (ne .description "") }} : <span class="-muted">{{ .description | markdownify }} </span> {{ end }}
