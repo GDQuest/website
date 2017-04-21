@@ -17,7 +17,7 @@ tags:
 type: course
 course: introduction_to_godot
 banner: 
-    src: /img/page/tutorial/game_design/godot/introduction_to_godot_banner.jpeg
+    src: /img/page/tutorial/game_design/godot/introduction_to_godot_banner.jpg
     alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
     class: -pink
 ---

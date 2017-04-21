@@ -28,7 +28,7 @@
 
 <section id="news">
   {{ $.Scratch.Set "count" 0 }}
-  {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+  {{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
   {{ range $paginator.Pages }}
     {{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
     <div grid>
@@ -45,16 +45,16 @@
   </div>
   {{ end }}
 
-<!--<div grid> 
+<div grid> 
   <div column>
     {{ partial "block/pagination" . }}
   </div>
-</div>-->
+</div>
 </section>
 
 <section id="about">
     <div class="card-box">
-      <img class="image img-circle" src="img/avatar/gdquest-avatar-80.png" alt="Nathan's avatar">
+      <img class="image img-circle" src="img/avatar/nathan.png" alt="Nathan's avatar">
       <div class="content">
         <h4 >About GDquest</h4>
         <p>

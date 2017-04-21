@@ -14,7 +14,7 @@ alias:
 ## Free Krita tutorial for game artists
 
 <div class="card-box">
-  {{< img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -yellow" >}}
+  <img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials" class="banner-img -blue">
   <div class="content">
     A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
     <div grid>
@@ -36,7 +36,7 @@ alias:
 ## Make Professional Painterly Game Art with Krita
 
 <div class="card-box">
-  {{< img src="/img/product/krita/painterly_game_art/banner.jpg" alt="Game Art Quest volume 2 banner - painterly art" class="banner-img -yellow" >}}
+  <img src="/img/product/krita/painterly_game_art/banner.jpg" alt="Game Art Quest volume 2 banner - painterly art" class="banner-img -blue">
   <div class="content">
     Want to go a step further and learn to make professional sprites? Then, this course is for you.
     <div grid>

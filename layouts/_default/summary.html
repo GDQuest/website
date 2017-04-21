@@ -4,7 +4,7 @@
       {{ partial "block/banner_img" . }}
     {{ end }}
     <div class="content">
-      <h3> <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}Draft: {{ end }}{{ end }}{{ .Title }}</a> </h3>
+      <h3> <a href="{{ .Permalink }}">{{ .Title }}</a> </h3>
   
       <p> {{ .Description }} </p>
       

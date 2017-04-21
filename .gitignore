@@ -4,6 +4,7 @@
 public/
 node_modules/
 _src/img/
+static/img
 .publish/
 
 # Packages #

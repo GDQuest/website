@@ -1,35 +1,18 @@
-{{ if isset .Params "author" }}
-  {{ $.Scratch.Set "author" (index .Site.Data.authors .Params.author ) }}
-{{ else }}
-  {{ $.Scratch.Set "author" .Site.Data.authors.nathan }}
-{{ end }}
-{{ $author := $.Scratch.Get "author" }}
-
 <section id="author">
     <div class="card-box">
       <div class="image">
-      {{ with $author.picture }}
-        <img class="img-circle" src="{{ $author.picture | absURL }}" alt="{{ $author.name }}'s picture" />
-      {{ else }}
-        <img class="img-circle" src="img/avatar/dummy.png" alt="Author's picture" />
-      {{ end }}
+        <img class="img-circle" src="{{ .picture | absURL }}" alt="{{ .name }}'s picture" />
       </div>
     
       <div class="content">
         <p>
-          {{ $author.name }}
-          {{ if eq $author.name "Nathan Lovato" }}
-              {{ range .Site.Params.social }}
-              <a href="{{.link}}"><i class="fa fa-{{.icon}}"></i> <span class="hidden">Mentor social page</span> </a>
-              {{ end }}
-          {{ else }}
-              {{ if isset $author "facebook" }} <a href="{{ $author.facebook }}"><i class="fa fa-facebook"></i></a> <span class="hidden">Mentor Facebook page</span> {{ end }}
-              {{ if isset $author "twitter" }} <a href="{{ $author.twitter }}"> <i class="fa fa-twitter"></i></a> <span class="hidden">Mentor Twitter page</span> {{ end }}
-              {{ if isset $author "googleplus" }} <a href="{{ $author.googleplus }}"> <i class="fa fa-google-plus-square"></i> </a> <span class="hidden">Mentor Google Plus page</span> {{ end }}
-              {{ if isset $author "youtube" }} <a href="{{ $author.youtube }}"> <i class="fa fa-youtube-play"></i> </a> <span class="hidden">Mentor Youtube page</span> {{ end }}
-          {{ end }}
-              <br>
-              {{ if isset $author "description" }} {{ $author.description }} {{ end }}
+          {{ .name }}
+          {{ with .facebook }} <a href="{{ . }}"><i class="fa fa-facebook"></i></a> <span class="hidden">Mentor Facebook page</span> {{ end }}
+          {{ with .twitter }} <a href="{{ . }}"> <i class="fa fa-twitter"></i></a> <span class="hidden">Mentor Twitter page</span> {{ end }}
+          {{ with .googleplus }} <a href="{{ . }}"> <i class="fa fa-google-plus-square"></i> </a> <span class="hidden">Mentor Google Plus page</span> {{ end }}
+          {{ with .youtube }} <a href="{{ . }}"> <i class="fa fa-youtube-play"></i> </a> <span class="hidden">Mentor Youtube page</span> {{ end }}
+          <br>
+          {{ with .description }} {{ . }} {{ end }}
         </p>
       </div>
     </div>

@@ -1,0 +1,42 @@
+[chapters.1]
+title = ""
+small = ""
+description = ""
+
+[chapters.1.videos.1]
+title = "Intro to the Godot game engine"
+url = "https://www.youtube.com/watch?v=eHtIcbrii2Y"
+[chapters.1.videos.2]
+title = "Introduction to Gdscript"
+url = "https://www.youtube.com/watch?v=K5-5j4H4Ypo"
+[chapters.1.videos.3]
+title = "The game art process"
+url = "https://www.youtube.com/watch?v=eGfeXRlxn9A"
+[chapters.1.videos.4]
+title = "How we designed a runner game feat. Pigdev"
+url = "https://www.youtube.com/watch?v=l7DxIe4Ik0U"
+
+
+[chapters.2]
+title = ""
+small = ""
+description = ""
+
+[chapters.2.videos.5]
+title = "Horizontal platform movement"
+url = "https://www.youtube.com/watch?v=bSj7l25bdJ4"
+[chapters.2.videos.6]
+title = "Input and the Input Map"
+url = "https://www.youtube.com/watch?v=SMggIQUT0i8"
+[chapters.2.videos.7]
+title = "How to implement a jump"
+url = "https://www.youtube.com/watch?v=9CKH5fanubM"
+[chapters.2.videos.8]
+title = "How to make collisions work"
+url = "https://www.youtube.com/watch?v=x5e0EMLaz1Y"
+[chapters.2.videos.9]
+title = "Double jumps and flipping the character"
+url = "https://www.youtube.com/watch?v=f0r3EgjQNak"
+[chapters.2.videos.10]
+title = "Bonus: How to use VSCode with Godot"
+url = "https://www.youtube.com/watch?v=nPV_qXu1rkg"
