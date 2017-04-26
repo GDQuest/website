@@ -19,7 +19,7 @@ _It has been a while since the last behind the scenes news post. There's been go
 
 Krita 3.0 .1 came out this week. Although it was just a minor bug-fixing release, it does add a number of new features to the program. These include soft proofing, mirror tool options, horizontal and vertical flip buttons in free transform mode, threshold and wavelet decompose, the ability to use the gradient map as a filter layer, and more! You can find the full release notes [on](https://krita.org/en/item/krita-3-0-1-update-brings-numerous-fixes/) the official website, and below is a video overview of most of these:
 
-{{% youtube 9S_x6koOVBo %}}
+{{< youtube 9S_x6koOVBo >}}
 
 There's also an [experimental Mac build](https://krita.org/en/item/experimental-osx-build-available/) with openGL support! It needs extensive testing, so if you're a Mac user, it's time to get your hands dirty.
 
@@ -53,7 +53,7 @@ I will do my best to provide you as much information as possible on the topics. 
 
 Do you want to know when it'll be available? You just have to enter your email address in the field below:
 
-{{% gumroad_follow %}}
+{{< gumroad-follow >}}
 
 ## Off to Japan
 

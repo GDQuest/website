@@ -6,7 +6,7 @@ url: /game-design-portfolio
 
 <header grid>
     <div column>
-        <img src="/img/page/portfolio/content/header/gdquest_portfolio_magicfred_kiwitiki_submarine.png" class="img-responsive" alt="Kiwitiki's Submarine">
+        <img src="/img/page/portfolio/content/header/gdquest-portfolio-magicfred-kiwitiki-submarine.png" class="img-responsive" alt="Kiwitiki's Submarine">
     </div>
     <div column>
         <img src="/img/page/portfolio/content/header/gdquest-portfolio-Dan-The-Rabbit.jpg" class="img-responsive" alt="Dan the Rabbit">

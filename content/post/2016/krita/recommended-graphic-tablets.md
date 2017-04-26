@@ -17,7 +17,7 @@ type: "post"
 <img src="/img/post/hardware/huion-vs-wacom.jpg" alt="Huion vs Wacom graphic tablet banner" class="img-responsive" />
 # Recommended graphic tablets
 
-On this page, you can find a list of the graphic tablets I recommend for [Game Art Quest]({{< ref "krita/game_art_quest.md" >}}). I used [Frenden's reviews](http://frenden.com/tagged/review) as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don't like it. And read reviews on Amazon or on the website you're buying them on.
+On this page, you can find a list of the graphic tablets I recommend for [Game Art Quest]({{< ref "krita/game-art-quest.md" >}}). I used [Frenden's reviews](http://frenden.com/tagged/review) as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don't like it. And read reviews on Amazon or on the website you're buying them on.
 
 ## Flat tablets
 
