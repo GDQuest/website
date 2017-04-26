@@ -16,6 +16,7 @@ aliases:
   - product/krita-tutorial-1
   - product/krita/painterly-game-art
   - krita-professional-game-art-tutorial
+  - product/krita/painterly_game_art
 
 banner:
   src: /img/product/krita/painterly-game-art/banner.jpg

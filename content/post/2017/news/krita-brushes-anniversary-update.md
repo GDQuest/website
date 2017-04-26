@@ -17,6 +17,9 @@ tags:
     - gdquest brushes
     - sale
     - gdquest news
+
+aliases:
+    - post/2017/news/krita_brushes_anniversary_update
 ---
 
 It's been a year already. 12 months, 12 consecutive updates. This anniversary release may not seem like much, but it's certainly the biggest so far. I redesigned all the brushes from scratch! The new thumbnails are circular. That way, all the information they can convey is available whether you look at the pop-up palette or the presets list. The design is also unique so that it’s easy to differentiate from other bundles.
