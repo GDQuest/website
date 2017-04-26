@@ -6,6 +6,7 @@ node_modules/
 _src/img/
 static/img
 .publish/
+.publish
 
 # Packages #
 ############

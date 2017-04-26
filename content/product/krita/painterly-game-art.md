@@ -2,7 +2,7 @@
 author: "nathan"
 type: "product"
 date: "2017-02-22T15:11:59+01:00"
-title: "Learn to Make Professional Painterly Game Art with Krita"
+title: "Make Professional Painterly Game Art with Krita"
 small: "Krita course"
 description: "Do you want to become a better artist? This Krita course will teach you how to create professional 2d game sprites with the free, open source painting program Krita."
 
@@ -12,11 +12,13 @@ tags:
   - free krita brushes
   - krita brush
 
-url: krita-professional-game-art-tutorial
-alias: product/krita-tutorial-1
+aliases: 
+  - product/krita-tutorial-1
+  - product/krita/painterly-game-art
+  - krita-professional-game-art-tutorial
 
 banner:
-  src: /img/product/krita/painterly_game_art/banner.jpg
+  src: /img/product/krita/painterly-game-art/banner.jpg
   alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 
 product: krita-tutorial-1
@@ -70,7 +72,7 @@ You get everything from the Essentials and Pro versions, plus:
 ## Requirements
 
 You have some experience with drawing and digital art.
-If you don't know how to use Krita, I made a [FREE Krita tutorial series]({{< ref "tutorial/art/krita_tutorial_for_game_artists.md" >}}). It's more than 6 hours long! In this course, you will learn the tools you need to work comfortably and efficiently with the program.
+If you don't know how to use Krita, I made a [FREE Krita tutorial series]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}). It's more than 6 hours long! In this course, you will learn the tools you need to work comfortably and efficiently with the program.
 
 Krita is an award winning, free and open source painting program. It is available on all desktop platforms (_Windows, Mac, Linux_). You can download it on the [Krita foundation's website](https://krita.org/en/download/krita-desktop/).
 

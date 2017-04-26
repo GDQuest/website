@@ -1,7 +1,7 @@
 {
     "vsicons.presets.angular": false,
     "files.exclude": {
-        // ".gitignore": true,
+        ".gitignore": true,
         "public": true,
         ".publish": true,
         "_src/css/_old": true
@@ -13,5 +13,6 @@
         "public": true,
         ".publish": true,
         "_src/css/_old": true
-    }
+    },
+    "python.linting.pep8Enabled": false
 }

@@ -25,11 +25,12 @@ banner:
 product: krita-brushes
 ---
 
-Version 12 (_March 2017_) contains:
+Version 13 (_April 2017_) contains:
 
 - **73 unique brush presets**
 - **2 pdf documents** to help you get started with the brushes
 - **Monthly updates**. More brushes and videos are already on your way!
+- Completely redesigned thumbnails
 
 The premium tier adds:
 
@@ -37,7 +38,13 @@ The premium tier adds:
 - The **natural media brushkit**
 - Priority support
 
-I take my time to design the presets and ensure that they are worth adding to the pack. I also use them in my daily work to ensure that they are tested thoroughly in all kinds of configurations.
+{{< figure
+  src="/img/page/krita-brushes/thumbs-redesign-comparison.png"
+  caption="The new thumbnails in version 13"
+  alt="Brushes thumbnails comparison" >}}
+
+I take my time to design the presets and ensure that they are worth adding to the pack. I also use them in my daily work so they are tested thoroughly in all kinds of configurations.
+
 
 ## What other artists have to say
 
@@ -47,14 +54,21 @@ I take my time to design the presets and ensure that they are worth adding to th
 
 See more of Zhillustrator's work [on Artstation](https://www.artstation.com/artist/zhille)
 
-{{< banner_img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
 
 ## Free Krita brushes
+
+{{< banner-img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
 
 The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
 [Click here to download the free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite)
 
+
 ## Changelog
+
+### Version 13 - April 2017
+
+- **Complete redesign of the brush thumbnails**. All 85 brushes now have a new, clearer picture that highlights their stroke and still reads on small screens.This was a lot of work, but now it's done, the set is ready to welcome new presets.
+- Pixel art presets are now in a separate bundle
 
 ### Version 12 - March 2017
 
@@ -133,5 +147,3 @@ Version 10 is a maintenance update. It comes with 4 new presets, but also 11 exi
 - 2 smoke brushes: for when you need to achieve a textured smoky effect. Also useful to add definition to materials.
 - Text-based install guide (pdf)
 - An intro to brush families (pdf)
-
-For the full release changelog, check out the [Gumroad page](https://gumroad.com/l/krita-brushes-for-game-artists).
