@@ -14,7 +14,7 @@ aliases:
     - game-art-quest/volume-1/krita-tutorial-for-game-artists
     - krita-tutorial/volume-1/krita-tutorial-for-game-artists
     - krita-tutorial-for-game-artists
-    - tutorial/art/krita-tutorial-for-game-artists
+    - tutorial/art/krita_tutorial_for_game_artists
 
 banner:
     src: /img/page/game-art-quest/krita-tutorial-banner.jpg

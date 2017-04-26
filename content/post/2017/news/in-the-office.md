@@ -12,6 +12,7 @@ date: "2017-01-21T17:35:09+01:00"
 
 aliases:
   - in-the-office
+  - post/2017/news/in_the_office
 
 banner:
   src: /img/post/2017/news/in-the-office/banner.jpg

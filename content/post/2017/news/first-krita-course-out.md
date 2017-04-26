@@ -14,6 +14,7 @@ title: Make Professional Game Art with Krita out now!
 description: After months of work, the Make Professional Painterly Game Art with Krita course is out! It's the first and only Krita course about 2d game art.
 aliases:
     - first-krita-course-out
+    - post/2017/news/first_krita_course_out
 ---
 
 After months of work, the Make Professional Painterly Game Art with Krita course is out!

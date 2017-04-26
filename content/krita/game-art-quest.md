@@ -5,10 +5,11 @@ weight: 1
 title: Krita
 small: Krita tutorial series for game artists
 
-alias:
+aliases:
   - game-art-quest/
   - game-art-quest/roadmap/
   - krita-tutorial/
+  - krita/game_art_quest
 ---
 
 ## Free Krita tutorial for game artists

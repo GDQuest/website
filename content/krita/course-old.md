@@ -5,6 +5,7 @@ title: The training has moved!
 aliases: 
     - game-art-quest/volume1/course
     - game-art-quest/volume-1/course
+    - krita/course_old
 url: krita-tutorial/volume-1/course
 ---
 
