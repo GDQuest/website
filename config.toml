@@ -6,6 +6,8 @@ metaDataFormat = "yaml"
 paginate = 6
 paginatePath = "page"
 
+disqusShortname = "GDquest"
+
 # Pygments code highlighting - not used
 # pygmentsuseclasses = false
 # pygmentsstyle = "monokai"
