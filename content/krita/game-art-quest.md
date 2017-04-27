@@ -60,7 +60,9 @@ In this series, **I run you through the process of creating professional sprites
 
 To become a more efficient artist, you have to sharpen your observation skills and explore fundamental techniques. These are the same regardless of the tools you are using, so the concepts you will learn apply to any painting application.
 
-{{< img src="/img/page/game-art-quest/krita-screenshot.png" alt="Nathan's picture" >}}
+{{< figure
+  src="/img/page/game-art-quest/krita-screenshot.png"
+  alt="Nathan's picture" >}}
 
 The [second course]({{< ref "product\krita\painterly-game-art.md" >}}) also covers the unique constraints game artists face in their work. You have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, **your art has to support the gameplay: it shapes the game experience**.
 
@@ -68,6 +70,8 @@ Game Art Quest was funded [on Kickstarter](https://www.kickstarter.com/projects/
 
 ### Who am I to teach you game art?
 
-{{< img src="/img/page/game-art-quest/i-am-nathan.jpg" alt="Nathan's picture" >}}
+{{< figure
+  src="/img/page/game-art-quest/i-am-nathan.jpg"
+  alt="Nathan's picture" >}}
 
 I’m Nathan Lovato, a game designer. I the run [GDquest](http://youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.
