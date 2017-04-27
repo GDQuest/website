@@ -1,19 +1,22 @@
 <section id="author">
     <div class="card-box">
-      <div class="image">
-        <img class="img-circle" src="{{ .picture | absURL }}" alt="{{ .name }}'s picture" />
-      </div>
-    
       <div class="content">
+        <div class="image">
+          <img class="img-circle" src="{{ .picture | absURL }}" alt="{{ .name }}'s picture" />
+        </div>
+  
         <p>
-          {{ .name }}
-          {{ with .facebook }} <a href="{{ . }}"><i class="fa fa-facebook"></i></a> <span class="hidden">Mentor Facebook page</span> {{ end }}
-          {{ with .twitter }} <a href="{{ . }}"> <i class="fa fa-twitter"></i></a> <span class="hidden">Mentor Twitter page</span> {{ end }}
-          {{ with .googleplus }} <a href="{{ . }}"> <i class="fa fa-google-plus-square"></i> </a> <span class="hidden">Mentor Google Plus page</span> {{ end }}
-          {{ with .youtube }} <a href="{{ . }}"> <i class="fa fa-youtube-play"></i> </a> <span class="hidden">Mentor Youtube page</span> {{ end }}
-          <br>
-          {{ with .description }} {{ . }} {{ end }}
+          <h4>
+            {{ .name }}
+            {{ with .facebook }} <a href="{{ . }}"><i class="fa fa-facebook"></i></a> <span class="hidden">Mentor Facebook page</span> {{ end }}
+            {{ with .twitter }} <a href="{{ . }}"> <i class="fa fa-twitter"></i></a> <span class="hidden">Mentor Twitter page</span> {{ end }}
+            {{ with .googleplus }} <a href="{{ . }}"> <i class="fa fa-google-plus-square"></i> </a> <span class="hidden">Mentor Google Plus page</span> {{ end }}
+            {{ with .youtube }} <a href="{{ . }}"> <i class="fa fa-youtube-play"></i> </a> <span class="hidden">Mentor Youtube page</span> {{ end }}
+          </h4>
         </p>
+        {{ with .description }}
+          <p>{{ . }}</p>
+        {{ end }}
       </div>
     </div>
 </section>
