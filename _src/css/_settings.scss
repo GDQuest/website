@@ -1,4 +1,4 @@
-$nav-height: 3.4em !default;
+$nav-height: 4rem !default;
 // Font size for small devices
 $font-size: 16;
 // Font size for big devices
@@ -59,9 +59,6 @@ $scale-ratio-secondary: $_perfect-fourth;
 //
 // Grid
 // --------------------------------------------------
-// Enable grid styles
-$enable-grid: true;
-$full-grid: false;
 // Max column count
 $num-columns: 3;
 // Max width for container
@@ -72,7 +69,7 @@ $gutter: 1rem;
 $prefix: "";
 // Create columns and offsets above this breakpoint
 $breakpoint: --small;
-// Use getColor(base, primary) to get colors
+// Use get-color(base, primary) to get colors
 $colors: (
     base: ("primary": #ffc107, "selection": #d6d6d6, "lines": #353e44), 
     gdquest: ("yellow": #FFC107, "green": #48c141, "blue": #1976D2, "pink": #E91E63), 

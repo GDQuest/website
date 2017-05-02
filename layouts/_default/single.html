@@ -16,7 +16,9 @@
       {{ .Content }}
   
     {{ if isset .Params "social" }} {{ partial "modules/social_networks/follow" . }} {{ end }}
+    <!--{{ partial "modules/social_networks/social_share" }}-->
     </article>
+
   </section>
   {{ with .Params.author }} 
     {{ with (index $.Site.Data.authors . ) }}{{ partial "modules/author" . }}{{ end }}

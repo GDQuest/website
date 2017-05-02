@@ -1,0 +1,58 @@
+button {
+  margin: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+  overflow: visible;
+  line-height: 1.5lh;
+  padding: 0 1.5em;
+
+  background-color: transparent;
+  border: 1px solid get-color(base, primary);
+  color: get-color(base, primary);
+  transition: background-color $transition-duration;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: get-color(base, primary);
+    color: get-color(text, inverted);
+  }
+
+  &[disabled] {
+    border-color: get-color(state, muted);
+    color: get-color(state, muted);
+    cursor: not-allowed;
+  }
+
+  &.-calltoaction {
+    font-size: type-scale(3);
+    padding-top: 0.5lh;
+    padding-bottom: 0.5lh;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  // SUCCESS color
+  @each $color-name, $color in $colors {
+    @each $state, $value in $color {
+      @if $color-name == "state" and $state == "success" {
+        &.-#{$state} {
+          border-color: $value;
+          color: $value;
+
+          &:hover,
+          &:focus {
+            background-color: $value;
+          }
+
+          &:active {
+            background-color: ligthen($value, 5%);
+          }
+        }
+      }
+    }
+  }
+}

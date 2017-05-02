@@ -6,12 +6,13 @@ const gulp = require('gulp')
       ghPages = require('gulp-gh-pages')
       watch = require('gulp-watch')
       run = require('gulp-run')
+      convert = require('sass-convert')
 
 
 const imgSrc = './_src/img/**/*.{png,jpg,gif,svg}'
 const imgDest = './static/img'
 
-const cssSrcFolders = ['./_src/css/**/*.sass']
+const cssSrcFolders = ['./_src/css/**/*.+(sass|scss)']
 const cssOutputFolder = './static/css/gdquest.css'
 
 
@@ -28,9 +29,8 @@ gulp.task('watch', function () {
 })
 
 gulp.task('build-css', function () {
-  return run('concisecss compile _src/css/gdquest.sass static/css/gdquest.css').exec()
+  return run('concisecss compile _src/css/gdquest.scss static/css/gdquest.css').exec()
 })
-
 
 
 gulp.task('htmlmin', function () {

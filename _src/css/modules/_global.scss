@@ -1,0 +1,42 @@
+ul {
+  &.-unstyled {
+    list-style: none;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.-no-margin {
+  margin: 0;
+}
+
+.container-small {
+  margin: auto;
+  max-width: 800px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.my-fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 'FortAwesome';
+  font-size: inherit;
+  line-height: inherit;
+  text-rendering: auto;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.follow-button {
+  padding-right: .5rem;
+
+  &:first-child {
+    padding-left: .5rem;
+  }
+}

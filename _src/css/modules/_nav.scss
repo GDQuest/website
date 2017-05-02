@@ -1,0 +1,87 @@
+nav {
+  border-bottom: 2px solid get-color(background, dark);
+  text-align: center;
+
+  ul {
+    padding: 0;
+  }
+
+  a {
+    &:visited {
+      color: get-color(base, primary);
+    }
+  }
+
+  li {
+    @media (--extra-small) {
+      border-bottom: 1px solid get-color(background, dark);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    a {
+      display: block;
+      padding: 1.05rem;
+
+      &:hover {
+        background-color: get-color(background, dark);
+        color: #fff;
+      }
+    }
+  }
+
+  > .active {
+    background-color: get-color(background, dark);
+    color: #fff;
+    cursor: default;
+  }
+
+  > .-logo {
+    max-width: 200px;
+    padding: .8rem;
+  }
+}
+
+// Horizontal on desktop
+@media (--small) {
+  nav {
+    & ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 0;
+}
+
+#nav-button {
+  display: none;
+}
+
+.nav-button {
+  line-height: $nav-height * .6;
+  margin: 0;
+
+  @media (--small) {
+    display: none;
+  }
+}
+
+#menu {
+  @media (--extra-small) {
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+
+#nav-button:checked ~ #menu {
+  max-height: 500px;
+}

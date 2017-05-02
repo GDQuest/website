@@ -1,9 +1,7 @@
-//
-// Print
-// =============================================================================
-
 @media print {
-  @page { margin: 2cm; }
+  @page {
+    margin: 2cm;
+  }
 
   *,
   *:before,
@@ -31,10 +29,21 @@
     font-family: $font-print-secondary;
   }
 
-  h1 { font-size: 19pt; }
-  h2 { font-size: 17pt; }
-  h3 { font-size: 15pt; }
-  h4, h5, h6 {font-size: 14pt; }
+  h1 {
+    font-size: 19pt;
+  }
+
+  h2 {
+    font-size: 17pt;
+  }
+
+  h3 {
+    font-size: 15pt;
+  }
+
+  h4, h5, h6 {
+    font-size: 14pt;
+  }
 
   img {
     max-width: 100% !important;
@@ -62,30 +71,36 @@
   a,
   a:visited {
     color: black;
-    font-size: .57em;
+    font-size: 0.57em;
     text-decoration: underline;
     word-wrap: break-word;
 
-   &[href]:after {
-     content: " (" attr(href) ")";
-     font-size: smaller;
-   }
+    &[href]:after {
+      content: " (" attr(href) ")";
+      font-size: smaller;
+    }
   }
 
-  q:after { content: " (Source: " attr(cite) ")"; }
+  q:after {
+    content: " (Source: " attr(cite) ")";
+  }
 
-  abbr[title]:after { content: " (" attr(title) ")"; }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
   a {
-   &:after,
-   &[href^="javascript:"]:after,
-   &[href^="#"]:after { content: ""; }
+    &:after,
+    &[href^="javascript:"]:after,
+    &[href^="#"]:after {
+      content: "";
+    }
   }
 
   pre,
   code {
     background-color: transparent;
-    border: 1px solid getColor(base, lines);
+    border: 1px solid get-color(base, lines);
     page-break-inside: avoid;
   }
 
@@ -94,23 +109,33 @@
     page-break-inside: avoid;
   }
 
-  thead { display: table-header-group; }
+  thead {
+    display: table-header-group;
+  }
 
   tr,
-  img { page-break-inside: avoid; }
+  img {
+    page-break-inside: avoid;
+  }
 
-  ol { padding-left: 1.25em; }
+  ol {
+    padding-left: 1.25em;
+  }
 
   ul {
     padding-left: 0;
     list-style: none;
 
     ul,
-    ul ul { padding-left: 1.5em; }
+    ul ul {
+      padding-left: 1.5em;
+    }
   }
 
   ul,
   ol {
-   li { content: "&raquo; "; }
+    li {
+      content: "&raquo; ";
+    }
   }
 }

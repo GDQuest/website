@@ -1,0 +1,28 @@
+h1 {
+  font-size: type-scale(6);
+}
+
+h2 {
+  font-size: type-scale(5);
+}
+
+h3 {
+  font-size: type-scale(4);
+}
+
+h1, h2, h3 {
+  color: get-color(text, heading);
+  font-family: $font-secondary;
+  line-height: 1.3;
+  margin: 0.5lh 0 0.25lh;
+
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: get-color(base, primary);
+      text-decoration: none;
+    }
+  }
+}

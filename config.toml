@@ -6,7 +6,7 @@ metaDataFormat = "yaml"
 paginate = 6
 paginatePath = "page"
 
-disqusShortname = "GDquest"
+disqusShortname = "game-design-quest"
 
 # Pygments code highlighting - not used
 # pygmentsuseclasses = false

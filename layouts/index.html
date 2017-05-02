@@ -52,15 +52,7 @@
 </div>
 </section>
 
-<section id="about">
-    <div class="card-box">
-      <img class="image img-circle" src="img/avatar/nathan.png" alt="Nathan's avatar">
-      <div class="content">
-        <h4 >About GDquest</h4>
-        <p>
-          I'm Nathan, a professional game designer. I'm the author of <a href="http://youtube.com/c/gdquest">GDquest</a>, a Youtube channel filled with tutorials about game art and game design. And I'm building a community around <strong>game creation</strong> and <strong>open source software</strong>.
-        </p>
-      </div>
-    </div>
-</section>
+<aside id="about">
+    {{ with $.Site.Data.authors.nathan }}{{ partial "modules/author" . }}{{ end }}
+</aside>
 {{ end }}
