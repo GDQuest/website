@@ -1,0 +1,11 @@
+.lead-text {
+  font-size: $font-size-secondary;
+}
+
+.-muted {
+  color: get-color(state, muted);
+}
+
+.-center {
+  text-align: center;
+}

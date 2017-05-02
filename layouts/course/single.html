@@ -58,7 +58,7 @@
             {{ end }}
 
             {{ if or (isset . "document") (isset . "exercise") }}
-              <span class="icons">
+              <span>
                 {{ if isset . "document" }} <a href="{{ .document }}"><i class="fa fa-book"></i></a> {{ end }}
                 {{ if isset . "exercise" }} <a href="{{ .exercise }}"><i class="fa fa-file"></i></a> {{ end }}
               </span>

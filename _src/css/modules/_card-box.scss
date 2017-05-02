@@ -1,0 +1,23 @@
+.card-box {
+  background-color: get-color(background, dark);
+  margin-bottom: 1lh;
+  overflow: hidden;
+
+  > .banner {
+    margin-bottom: .6lh;
+  }
+
+  > .content {
+    padding: .6lh;
+    padding-top: 0;
+
+    > p {
+      margin-top: 0;
+    }
+
+    > .image {
+      float: left;
+      padding-right: .6lh;
+    }
+  }
+}
