@@ -14,11 +14,11 @@ body {
   font-family: $fonts;
   font-size: $font-size + px;
   line-height: 1.5;
-  
+
   margin: 0;
   text-rendering: optimizeLegibility;
 
-  @media ($breakpoint) {
+  @include desktop {
     font-size: $font-size-secondary + px;
   }
 }
@@ -109,7 +109,7 @@ small {
   li,
   div,
   a
-  [#{$prefix}column] {
+  [column] {
     margin-top: 0;
   }
 
