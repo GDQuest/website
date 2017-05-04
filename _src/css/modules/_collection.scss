@@ -1,10 +1,15 @@
 .collection {
-  background-color: #1f2328;
+  background-color: get-color(background, dark);
+  list-style: none;
   margin-bottom: 1rem;
-  padding-left: 0;
+  padding: 0 1rem;
 
   > .item {
-    border-bottom: 1px solid #353e44;
+    border-bottom: 1px solid get-color(base, lines);
     padding: .6rem;
+
+    &:nth-last-of-type(1) {
+      border: 0;
+    }
   }
 }

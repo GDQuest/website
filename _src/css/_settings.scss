@@ -7,13 +7,13 @@ $font-size-secondary: 18;
 $letter-spacing: .05em;
 // Font families
 // $fonts: "Roboto", "Arial Rounded MT Bold", "Trebuchet MS", Arial, sans-serif;
-$fonts: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+$fonts: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif;
 $font-print-primary: $fonts;
 $font-print-secondary: $fonts;
 // Enable margins to all elements except first one in each nesting level
 $automargin: true;
 // ^ How much margin for those elements
-$block-margin: 2rem;
+$block-margin: 1.2rem;
 // Transition duration
 $transition-duration: 150ms;
 // Custom media queries
