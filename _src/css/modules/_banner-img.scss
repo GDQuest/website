@@ -1,13 +1,14 @@
 .banner-img {
   // To remove
+  border: $bannerBorderSize solid;
+  border-bottom: none;
+  border-top: none;
+
+  box-sizing: border-box;
   display: block;
+  
   margin-left: auto;
   margin-right: auto;
-  
-  box-sizing: border-box;
-  border: $bannerBorderSize solid;
-  border-top: none;
-  border-bottom: none;
 
   // Color variants
   @each $name, $color in $colors {

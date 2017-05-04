@@ -39,12 +39,7 @@ section {
 
 ul,
 ol {
-  margin-bottom: 0;
   margin-top: 0;
-}
-
-li {
-  display: block;
 }
 
 h1,
@@ -113,10 +108,7 @@ small {
   // These elements shouldn’t get a margin
   li,
   div,
-  a,
-  body,
-  span,
-  code,
+  a
   [#{$prefix}column] {
     margin-top: 0;
   }
