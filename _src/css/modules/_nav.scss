@@ -2,11 +2,11 @@ nav {
   border-bottom: 2px solid get-color(background, dark);
   text-align: center;
 
-  ul {
+  & ul {
     padding: 0;
   }
-  @media (--small) {
-    ul {
+  @include desktop {
+    & ul {
       display: flex;
       justify-content: flex-end;
     }
@@ -19,14 +19,15 @@ nav {
   }
 
   li {
-    display: block;
-    @media (--extra-small) {
+    @include desktop {
       border-bottom: 1px solid get-color(background, dark);
 
       &:last-child {
         border-bottom: 0;
       }
     }
+
+    display: block;
 
     a {
       display: block;
@@ -69,13 +70,13 @@ label {
   line-height: $nav-height * .6;
   margin: 0;
 
-  @media (--small) {
+  @include desktop {
     display: none;
   }
 }
 
 #menu {
-  @media (--extra-small) {
+  @include mobile {
     max-height: 0;
     overflow: hidden;
   }

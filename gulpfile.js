@@ -1,19 +1,20 @@
 const gulp = require('gulp')
       htmlmin = require('gulp-htmlmin')
       cssmin = require('gulp-cssmin')
+      sass = require('gulp-sass')
       imagemin = require('gulp-imagemin')
       newer = require('gulp-newer');
       ghPages = require('gulp-gh-pages')
-      watch = require('gulp-watch')
       run = require('gulp-run')
-      convert = require('sass-convert')
+      autoprefixer = require('gulp-autoprefixer')
 
 
 const imgSrc = './_src/img/**/*.{png,jpg,gif,svg}'
 const imgDest = './static/img'
 
-const cssSrcFolders = ['./_src/css/**/*.+(sass|scss)']
-const cssOutputFolder = './static/css/gdquest.css'
+const scssWatchFiles = ['./_src/css/**/*.scss']
+const scssSrcFile = './_src/css/gdquest.scss'
+const cssOutputFolder = './static/css/'
 
 
 gulp.task('deploy', function () {
@@ -23,13 +24,19 @@ gulp.task('deploy', function () {
 
 
 gulp.task('watch', function () {
-  return watch(cssSrcFolders, function () {
-        gulp.start('build-css')
-    })
-})
+  gulp.watch(scssWatchFiles, ['sass']);
+});
 
-gulp.task('build-css', function () {
-  return run('concisecss compile _src/css/gdquest.scss static/css/gdquest.css').exec()
+gulp.task('sass', function () {
+  return gulp.src(scssSrcFile)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false,
+            flexbox: 'no-2009'
+        }))
+    .pipe(cssmin())
+    .pipe(gulp.dest(cssOutputFolder))
 })
 
 
@@ -40,13 +47,6 @@ gulp.task('htmlmin', function () {
     }))
     .pipe(gulp.dest('public'))
 })
-
-gulp.task('cssmin', function () {
-  return gulp.src('./static/**/*.css')
-    .pipe(cssmin())
-    .pipe(gulp.dest('./static'))
-})
-
 
 
 gulp.task('imagemin', function () {

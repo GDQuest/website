@@ -1,7 +1,7 @@
 table {
   width: 100%;
 
-  @media ($breakpoint) {
+  @include desktop {
     width: auto;
   }
 
