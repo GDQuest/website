@@ -1,72 +1,70 @@
 {{ define "main" }}
-    <section id="courses">
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Content }}</p>
+<section id="courses">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
 
-        {{ $.Scratch.Set "courses" 0 }}
-        {{ $.Scratch.Set "courses_total" 0 }}
-        {{ range .Data.Pages.ByDate.Reverse }}
-            {{ $.Scratch.Add "courses_total" 1 }}
+    {{ $.Scratch.Set "courses" 0 }}
+    {{ $.Scratch.Set "courses_total" 0 }}
+    {{ range .Data.Pages.ByDate.Reverse }}
+        {{ $.Scratch.Add "courses_total" 1 }}
+    {{ end }}
+
+    {{ range .Data.Pages.ByDate.Reverse }}
+        {{ if or (eq (mod ($.Scratch.Get "courses") 2) 0 ) (eq ($.Scratch.Get "courses") 0) }}
+        <div grid>
         {{ end }}
 
-        {{ range .Data.Pages.ByDate.Reverse }}
-            {{ if or (eq (mod ($.Scratch.Get "courses") 2) 0 ) (eq ($.Scratch.Get "courses") 0) }}
-            <div grid>
-            {{ end }}
-
-                <div column class="-center">
-                    <div class="card-box">
-                        {{ with .Params.banner }}
-                            {{ partial "block/banner_img" . }}
-                        {{ end }}
-                        <div class="content">
-                            <p>{{ .Title }}</p>
-                            <a href="{{ .Permalink }}">
-                                <button class="-success -calltoaction">Watch</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            {{ if or (eq (sub (mod ($.Scratch.Get "courses") 2) 1) 0 ) (eq ($.Scratch.Get "courses") ($.Scratch.Get "courses_total")) }}
-            </div>
-            {{ end }}
-            {{ $.Scratch.Add "courses" 1 }}
-        {{ end }}
-    </section>
-
-
-    <section id="tutorials">
-        <h2>Tutorials</h2>
-        {{ range .Site.Data.tutorial.library }}
-            <div column>
+            <div column class="-center">
                 <div class="card-box">
+                    {{ with .Params.banner }}
+                        {{ partial "block/banner_img" . }}
+                    {{ end }}
                     <div class="content">
-                        {{ with .category }}
-                            <!-- TODO: Fix banner system banner.src/alt/class-->
-                            <!--<img class="banner-img {{ .banner_class }}" src="{{ .banner }}" alt="{{ .banner_alt }}">-->
-                            <div class="-center">
-                                <h2>{{ .title }}</h2>
-                                <p>{{ .description }}</p>
-                            </div>
-                        {{ end }}
-    
-                        <ul class="collection" style="padding:0.5rem">
-                            {{ $.Scratch.Set "video_count" 0 }}
-    
-                            {{ range .videos }}
-                                {{ $.Scratch.Add "video_count" 1 }}
-                                <li class="item">
-                                    <span class="-muted">
-                                        {{ $.Scratch.Get "video_count" }}.
-                                    </span>
-                                    <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
-                                </li>
-                            {{ end }}
-                        </ul>
+                        <p>{{ .Title }}</p>
+                        <a href="{{ .Permalink }}">
+                            <button class="-success -calltoaction">Watch</button>
+                        </a>
                     </div>
                 </div>
             </div>
+
+        {{ if or (eq (sub (mod ($.Scratch.Get "courses") 2) 1) 0 ) (eq ($.Scratch.Get "courses") ($.Scratch.Get "courses_total")) }}
+        </div>
         {{ end }}
-    </section>
+        {{ $.Scratch.Add "courses" 1 }}
+    {{ end }}
+</section>
+
+
+<section id="tutorials">
+    <h2>Tutorials</h2>
+    {{ range .Site.Data.tutorial.library }}
+        <div column>
+            <div class="card-box">
+                <div class="content">
+                    {{ with .category }}
+                        <div class="-center">
+                            <h2>{{ .title }}</h2>
+                            <p>{{ .description }}</p>
+                        </div>
+                    {{ end }}
+
+                    <ul class="collection">
+                        {{ $.Scratch.Set "video_count" 0 }}
+
+                        {{ range .videos }}
+                            {{ $.Scratch.Add "video_count" 1 }}
+                            <li class="item">
+                                <span class="-muted">
+                                    {{ $.Scratch.Get "video_count" }}.
+                                </span>
+                                <a href="https://www.youtube.com/watch?v={{ .URL }}">{{ .TITLE }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+</section>
 {{ end }}

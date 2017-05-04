@@ -2,11 +2,12 @@ nav {
   border-bottom: 2px solid get-color(background, dark);
   text-align: center;
 
-  & ul {
+  ul {
+    margin: 0;
     padding: 0;
   }
   @include desktop {
-    & ul {
+    ul {
       display: flex;
       justify-content: flex-end;
     }
