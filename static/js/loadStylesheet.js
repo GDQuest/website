@@ -1,0 +1,2 @@
+function loadStyleSheet(a){if(document.createStyleSheet)document.createStyleSheet(a);else{var b=document.createElement("link");b.href=a,b.rel="stylesheet",b.type="text/css",document.getElementsByTagName("head")[0].appendChild(b)}}
+loadStyleSheet('/css/fort-awesome.css')

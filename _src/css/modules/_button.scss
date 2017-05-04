@@ -43,6 +43,7 @@ button {
           &:hover,
           &:focus {
             background-color: $value;
+            color: get-color(text, primary);
           }
 
           &:active {
