@@ -14,9 +14,9 @@
     {{ end }}
 
     <!-- Products - MOVE TO PARTIAL-->
-    <div grid class="product-box card-box -center">
+    <div grid class="card-box -product -center">
       {{ range (index $product "versions") }}
-      <div column>
+      <div column class="">
         <img src="{{ .icon.path }}" alt="{{ .icon.alt }}" class="lazy">
 
         <a href="{{ .link }}">

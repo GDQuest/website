@@ -5,6 +5,12 @@ nav {
   ul {
     padding: 0;
   }
+  @media (--small) {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
 
   a {
     &:visited {
@@ -13,6 +19,7 @@ nav {
   }
 
   li {
+    display: block;
     @media (--extra-small) {
       border-bottom: 1px solid get-color(background, dark);
 
@@ -45,14 +52,6 @@ nav {
 }
 
 // Horizontal on desktop
-@media (--small) {
-  nav {
-    & ul {
-      display: flex;
-      justify-content: flex-end;
-    }
-  }
-}
 
 label {
   cursor: pointer;

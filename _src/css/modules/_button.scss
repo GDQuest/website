@@ -1,17 +1,15 @@
 button {
-  margin: 0;
-  text-align: inherit;
-  text-transform: inherit;
-  font: inherit;
-  letter-spacing: inherit;
-  cursor: pointer;
-  overflow: visible;
-  line-height: 1.5lh;
-  padding: 0 1.5em;
-
   background-color: transparent;
   border: 1px solid get-color(base, primary);
   color: get-color(base, primary);
+
+  cursor: pointer;
+
+  line-height: 2rem;
+  
+  overflow: visible;
+  padding: 0 1.5em;
+
   transition: background-color $transition-duration;
   white-space: nowrap;
 
@@ -29,10 +27,9 @@ button {
 
   &.-calltoaction {
     font-size: type-scale(3);
-    padding-top: 0.5lh;
-    padding-bottom: 0.5lh;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin: .75rem 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 
   // SUCCESS color
