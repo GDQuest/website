@@ -110,7 +110,7 @@ small {
   // These elements shouldn’t get a margin
   li,
   div,
-  a
+  a,
   [column] {
     margin-top: 0;
   }

@@ -77,3 +77,22 @@ gulp.task('resize', function() {
     }))
     .pipe(gulp.dest(imgDest))
 })
+
+gulp.task('thumbs', function() {
+  return gulp.src('./static/img/product/**/banner.jpg')
+    .pipe(plumber())
+    .pipe(imageResize({
+      width : 360,
+      crop : false,
+      upscale : false,
+      noProfile: true,
+      interlace: true,
+      format: 'jpg',
+      quality: 1.0,
+      sharpen: true
+    }))
+    .pipe(rename(function(path) {
+      path.basename += "-thumb"
+    }))
+    .pipe(gulp.dest('./static/img/product'))
+})
