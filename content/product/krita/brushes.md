@@ -19,7 +19,7 @@ aliases:
   - product/krita-brushes
 
 banner:
-  src: /img/page/krita-brushes/krita-brushes-banner.jpg
+  src: /img/product/krita/brushes/banner.jpg
   alt: Krita brushes banner image
 
 product: krita-brushes

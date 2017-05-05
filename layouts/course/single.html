@@ -95,9 +95,27 @@
               {{ end }}
             </ul>
           </nav>
-  
-          <h2>Description</h2>
+
           {{ .Content }}
+
+          <h2>Related products</h2>
+          <ul class="related-products -unstyled">
+          {{ range first 2 (where $.Site.Pages "Section" "product") }}
+            {{ if ne .Title "Products" }}
+              <div class="product-thumb">
+                {{ with .Params.banner }}
+                  <img src="{{ index (split .src ".") 0 }}-thumb.jpg" alt="{{.alt}}">
+                {{end}}
+                <li class="link">
+                  <a href="{{ .Permalink }}">
+                    {{ .Title }}
+                  </a>
+                </li>
+              </div>
+            {{ end }}
+          {{ end }}
+          </ul>
+          
         </div>
       </div>
     </aside>
