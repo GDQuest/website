@@ -15,7 +15,7 @@ tags:
     - news
 
 banner:
-    src: /img/page/tutorial/game-design/godot/introduction-to-godot-banner.jpg
+    src: /img/post/2017/news/godot-engine-kickstarter/banner.jpg
     alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
     class: -pink
 aliases:

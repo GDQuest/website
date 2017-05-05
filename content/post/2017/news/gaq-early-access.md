@@ -11,7 +11,7 @@ tags:
 - gdquest news
 
 banner:
-    src: /img/product/krita/painterly-game-art/old-banner.jpg
+    src: /img/product/krita/painterly-game-art/old/banner.jpg
     alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 ---
 
