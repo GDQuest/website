@@ -3,13 +3,16 @@ const gulp = require('gulp')
       cssmin = require('gulp-cssmin')
       sass = require('gulp-sass')
       imagemin = require('gulp-imagemin')
+      imageResize = require('gulp-image-resize');
+      rename = require("gulp-rename")
       newer = require('gulp-newer');
       ghPages = require('gulp-gh-pages')
       run = require('gulp-run')
       autoprefixer = require('gulp-autoprefixer')
-
+      plumber = require('gulp-plumber')
 
 const imgSrc = './_src/img/**/*.{png,jpg,gif,svg}'
+const bannerSrc = './static/img/**/banner.jpg'
 const imgDest = './static/img'
 
 const scssWatchFiles = ['./_src/css/**/*.scss']
@@ -49,12 +52,28 @@ gulp.task('htmlmin', function () {
 })
 
 
-gulp.task('imagemin', function () {
+gulp.task('img', function () {
   return gulp.src(imgSrc)
     .pipe(newer(imgDest))
     .pipe(imagemin())
     .pipe(gulp.dest(imgDest))
 })
 
-
-gulp.task('default', function () {})
+gulp.task('resize', function() {
+  return gulp.src(bannerSrc)
+    .pipe(plumber())
+    .pipe(imageResize({
+      width : 580,
+      crop : false,
+      upscale : false,
+      noProfile: true,
+      interlace: true,
+      format: 'jpg',
+      quality: 1.0,
+      sharpen: true
+    }))
+    .pipe(rename(function(path) {
+      path.basename += "-sm"
+    }))
+    .pipe(gulp.dest(imgDest))
+})

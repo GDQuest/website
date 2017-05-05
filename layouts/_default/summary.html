@@ -1,7 +1,9 @@
 <article>
   <div class="card-box">
     {{ with .Params.banner }}
-      {{ partial "block/banner_img" . }}
+      {{ $extension := ".jpg" }}
+      {{ $root_path := index (split .src ".") 0 }}
+      <img src="{{ .src }}" alt="{{ .alt }}" />
     {{ end }}
     <div class="content">
       <h3> <a href="{{ .Permalink }}">{{ .Title }}</a> </h3>

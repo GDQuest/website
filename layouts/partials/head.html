@@ -13,6 +13,8 @@
   <script async src='https://www.google-analytics.com/analytics.js'></script>
 
   <link rel="stylesheet" href="{{ "/css/" | absURL }}gdquest.css">
+  <link rel="preload" href="{{ "/css/" | absURL }}fort-awesome.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ "/css/" | absURL }}fort-awesome.css"></noscript>
 
   {{ partial "meta" . }}
 </head>
