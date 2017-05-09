@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container-small">
+    <ul class="-unstyled">
+    {{ range (where $.Site.Pages "Section" "product") }}
+        {{ if ne .Title "Products" }}
+        <li class="card-box">
+            {{ with .Params.banner }}
+                {{ partial "block/banner_img" . }}
+            {{ end }}
+            <div class="content">
+                <div grid>
+                    <div column class="-center">
+                        <h2>{{ .Title }}</h2>
+                        <p>{{ .Description }}</p>
+                        <a href="{{ .Permalink }}"> 
+                            <button class="-calltoaction -success">Learn more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </li>
+    {{ end }}
+    </ul>
+</div>
+{{ end }}

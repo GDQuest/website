@@ -1,11 +1,11 @@
 ---
 title: Make Cel Shaded 2d Characters With Krita
 description: The second Krita game art course is out on May 9. Meet Pepper and Carrot, the 2 heroes of the webcomic by David Revoy, and learn cartoon game art!
-date: 2017-05-09T08:42:22+02:00
+date: 2017-05-04T08:42:22+02:00
 author: nathan
 
 banner:
-    src: /img/product/krita/cel-shaded-game-art/banner.jpg
+    src: /img/product/krita/cel-shaded-game-art/old-banner.jpg
     alt: A stylized painting of Carrot, an orange cat, over a blue background
 
 category:

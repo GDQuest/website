@@ -1,10 +1,16 @@
 ---
-description: "description"
-author: "nathan"
+author: nathan
+date: 2017-05-09T09:18:18+02:00
+title: New Krita Game Art Course Out!
+description: 
+author: nathan
 
-tags: ["gdquest", "gdquest news"]
-category: ["news"]
+banner:
+    src: /img/post/2017/news/temp.jpg
+    alt: 
 
-banner: "img/post/2017/in-the-office/office-news-banner-medium.jpg"
-banner_alt: "In the office article banner image"
+category:
+    - news
+tags:
+    - gdquest
 ---
