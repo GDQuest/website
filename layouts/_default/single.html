@@ -1,25 +1,24 @@
 {{ define "main" }}
 <div class="container-small">
-  <section grid>
-    <article column>
-      <header>
-        {{ with .Params.banner }}
-          {{ partial "block/banner_img" . }}
-        {{ end }}
+    <main grid>
+      <article column>
+        <header>
+          {{ with .Params.banner }}
+            {{ partial "block/banner_img" . }}
+          {{ end }}
+        </header>
         {{ if isset .Params "nav" }}
           {{ partial "modules/post_nav" . }}
         {{ end }}
-      </header>
-  
-      <h1>{{ .Title }}</h1>
-  
-      {{ .Content }}
-  
-    {{ if isset .Params "social" }} {{ partial "modules/social_networks/follow" . }} {{ end }}
-    <!--{{ partial "modules/social_networks/social_share" }}-->
-    </article>
+    
+        <h1>{{ .Title }}</h1>
+    
+        {{ .Content }}
+    
+      {{ if isset .Params "social" }} {{ partial "modules/social_networks/follow" . }} {{ end }}
+      </article>
+    </main>
 
-  </section>
   {{ with .Params.author }} 
     {{ with (index $.Site.Data.authors . ) }}{{ partial "modules/author" . }}{{ end }}
   {{ end }}

@@ -29,6 +29,7 @@ iframe {
 
 main {
   display: block;
+  margin-bottom: $block-margin;
 }
 
 section {
@@ -129,14 +130,26 @@ small {
   }
 }
 
-// a:hover {
-//   outline-width: 0;
-// }
+pre {
+  background-color: get-color(background, dark);
+  padding: 1em;
+  white-space: pre-wrap;
+}
 
-// blockquote {
-//   margin: 0;
-//   padding: 0;
-// }
+blockquote {
+  background-color: get-color(background, dark);
+  border-left: .4rem solid get-color(base, lines);
+  font-size: 1.2em;
+  padding: 1em;
+
+  > p > cite {
+    font-size: .8em;
+
+    &::before {
+      content: ' - ';
+    }
+  }
+}
 
 // sup {
 //   position: relative;

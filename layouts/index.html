@@ -26,31 +26,31 @@
     </div>
 </section>
 
-<section id="news">
-  {{ $.Scratch.Set "count" 0 }}
-  {{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
-  {{ range $paginator.Pages }}
-    {{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
-    <div grid>
-    {{ end }}
-      <div column>
-        {{ .Render "summary" }}
-      </div>
-    {{ if mod ($.Scratch.Get "count") 2 | ne 0 }} </div> {{ end }}
-    {{ $.Scratch.Add "count" 1 }}
-  {{ end }}
-
-  <!-- Close last grid -->
+<main>
+{{ $.Scratch.Set "count" 0 }}
+{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
+{{ range $paginator.Pages }}
   {{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
-  </div>
+  <div grid>
   {{ end }}
+    <div column>
+      {{ .Render "summary" }}
+    </div>
+  {{ if mod ($.Scratch.Get "count") 2 | ne 0 }} </div> {{ end }}
+  {{ $.Scratch.Add "count" 1 }}
+{{ end }}
+
+<!-- Close last grid -->
+{{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
+</div>
+{{ end }}
+</main>
 
 <div grid> 
   <div column>
     {{ partial "block/pagination" . }}
   </div>
 </div>
-</section>
 
 <aside id="about">
   {{ with $.Site.Data.authors.nathan }}{{ partial "modules/author" . }}{{ end }}

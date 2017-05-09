@@ -22,6 +22,8 @@ aliases:
 - post/2017/news/godot_engine_kickstarter
 ---
 
+Update: the form's results are available: [Check them out]({{< ref "post/2017/news/godot-kickstarter-form-results.md" >}})!
+
 Back in December 2015, hundreds supported gdquest on Kickstarter to bring out game art tutorials to Krita. Since then, I produced more than a hundred videos for it, and the [first professional game art course](https://gumroad.com/l/krita-game-art-tutorial-1).
 
 I didn't expect to go full time with GDquest. Back then there was no website, a small community, I had few contacts to help me and no experience with crowdfunding. A lot had yet to be done. The Krita devs and I weren't sure it would work, but it did. Fast forward 18 months, I'm ready to work hand-in-hand with the Godot developers to create the **first premium course for the powerful Godot game engine**.

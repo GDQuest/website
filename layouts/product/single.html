@@ -1,5 +1,12 @@
 {{ define "main" }}
-{{ $product := index $.Site.Data.products .Params.product}}
+{{ with (index $.Site.Data.products .Params.product) }}
+  {{ $.Scratch.Set "product" . }}
+{{ else }}
+  {{ $.Scratch.Set "product" "" }}
+{{ end }}
+
+{{ $product := $.Scratch.Get "product" }}
+
 <div class="container-small">
   <script src="https://gumroad.com/js/gumroad.js"></script>
   <section>
@@ -9,49 +16,53 @@
 
     <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
 
-    {{ range (index $product "intro") }}
-    <p>{{ . | markdownify }}</p>
+    {{ if isset $product "intro" }}
+      {{ range $product.intro }}
+      <p>{{ . | markdownify }}</p>
+      {{ end }}
     {{ end }}
 
     <!-- Products - MOVE TO PARTIAL-->
+    {{ if isset $product "versions" }}
     <div grid class="card-box -product -center">
-      {{ range (index $product "versions") }}
-      <div column class="">
-        <img src="{{ .icon.path }}" alt="{{ .icon.alt }}" class="lazy">
+        {{ range $product.versions }}
+        <div column class="">
+          <img src="{{ .icon.path }}" alt="{{ .icon.alt }}" class="lazy">
 
-        <a href="{{ .link }}">
-          <button class="-calltoaction {{ with .color }}{{ . }}{{ end }}">
-            {{ .name }}
-          </button>
-        </a>
-        
-        {{ if isset . "icon"}}
-          {{ $.Scratch.Set "list_icon" .list_icon }}
-        {{ end }}
-        {{ $list_icon := $.Scratch.Get "list_icon" }}
-
-        {{ if isset . "features" }}
-        <ul class="-unstyled">
-          {{ range .features }}
-          <li> 
-            {{ if $list_icon }} <i class="fa fa-{{ $list_icon }}"></i> {{ end }}
-            {{ . }}
-          </li>
+          <a href="{{ .link }}">
+            <button class="-calltoaction {{ with .color }}{{ . }}{{ end }}">
+              {{ .name }}
+            </button>
+          </a>
+          
+          {{ if isset . "icon"}}
+            {{ $.Scratch.Set "list_icon" .list_icon }}
           {{ end }}
-          {{ with .extra }} <li>{{ . }}</li> {{ end }}
-        </ul>
+          {{ $list_icon := $.Scratch.Get "list_icon" }}
+
+          {{ if isset . "features" }}
+          <ul class="-unstyled">
+            {{ range .features }}
+            <li> 
+              {{ if $list_icon }} <i class="fa fa-{{ $list_icon }}"></i> {{ end }}
+              {{ . }}
+            </li>
+            {{ end }}
+            {{ with .extra }} <li>{{ . }}</li> {{ end }}
+          </ul>
+          {{ end }}
+        </div>
         {{ end }}
-      </div>
-      {{ end }}
     </div>
+    {{ end }}
 
     {{ .Content }}
 
     <!-- CHANGELOG - TO PARTIAL -->
-    {{ with $product.changelog }}
+    {{ if isset $product "changelog" }}
     <div>
       <h2>Release notes</h2>
-      {{ .description }}
+      {{ $product.changelog.description }}
       <details>
           <summary>Click here to see the release notes</summary>
           {{ range $product.changelog.markdown }}
