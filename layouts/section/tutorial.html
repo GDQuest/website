@@ -14,19 +14,20 @@
         <div grid>
         {{ end }}
 
-            <div column class="-center">
+            <article column class="-center">
                 <div class="card-box">
                     {{ with .Params.banner }}
                         {{ partial "block/banner_img" . }}
                     {{ end }}
                     <div class="content">
-                        <p>{{ .Title }}</p>
+                        <h2>{{ .Title }}</h2>
+                        <p>{{ .Description }}</p>
                         <a href="{{ .Permalink }}">
                             <button class="-success -calltoaction">Watch</button>
                         </a>
                     </div>
                 </div>
-            </div>
+            </article>
 
         {{ if or (eq (sub (mod ($.Scratch.Get "courses") 2) 1) 0 ) (eq ($.Scratch.Get "courses") ($.Scratch.Get "courses_total")) }}
         </div>
@@ -42,17 +43,15 @@
         <div column>
             <div class="card-box">
                 <div class="content">
-                    {{ with .category }}
-                        <div class="-center">
-                            <h2>{{ .title }}</h2>
-                            <p>{{ .description }}</p>
-                        </div>
-                    {{ end }}
+                    <div class="-center">
+                        <h2>{{ .title }}</h2>
+                        <p>{{ .description }}</p>
+                    </div>
 
                     <ul class="collection">
                         {{ $.Scratch.Set "video_count" 0 }}
 
-                        {{ range .videos }}
+                        {{ range .video }}
                             {{ $.Scratch.Add "video_count" 1 }}
                             <li class="item">
                                 <span class="-muted">

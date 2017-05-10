@@ -1,6 +1,6 @@
 ---
 title: Intro To Monster Design For 2d Games
-description: "Learn monster design for video games in this free tutorial series! Using Mario and Final Fantasy XIV as references, I'll show you how professionals paint game monsters."
+description: "Learn monster design for video games in this free tutorial series! We'll use Mario and Final Fantasy XIV as references."
 date: "2017-02-15T15:25:47+02:00"
 author: "nathan"
 
