@@ -24,7 +24,7 @@ I released the first 5 soundtracks from the project in an album called [Space Ad
 
 ## Your votes for future tutorials
 
-Since January, I have been [running a vote]({{< ref "vote-for-upcoming-tutorials-january-2016.md" >}}) to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:
+Since January, I have been [running a vote]({{< ref "post/2016/community/vote-for-upcoming-tutorials-january-2016/index.md" >}}) to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:
 
 1. **Overview of Godot 2.0, the open source game engine, for 2d games**
 2. **Painting rock and grass tiles for 2d games**

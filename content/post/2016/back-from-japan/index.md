@@ -8,7 +8,7 @@ description: "I’ve been traveling around the country for a bit less than a mon
 tags: ["community"]
 
 banner:
-  src: "/img/post/2016/11/back-from-japan-banner-low.jpg"
+  src: banner.jpg
   alt: "Krita tutorial for game artists - banner"
 ---
 

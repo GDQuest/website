@@ -15,14 +15,14 @@ tags:
     - news
 
 banner:
-    src: /img/post/2017/news/godot-engine-kickstarter/banner.jpg
+    src: banner.jpg
     alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
     class: -pink
 aliases:
 - post/2017/news/godot_engine_kickstarter
 ---
 
-Update: the form's results are available: [Check them out]({{< ref "post/2017/news/godot-kickstarter-form-results.md" >}})!
+Update: the form's results are available: [Check them out]({{< ref "post/2017/news/godot-kickstarter-form-results/index.md" >}})!
 
 Back in December 2015, hundreds supported gdquest on Kickstarter to bring out game art tutorials to Krita. Since then, I produced more than a hundred videos for it, and the [first professional game art course](https://gumroad.com/l/krita-game-art-tutorial-1).
 

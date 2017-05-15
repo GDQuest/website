@@ -1,7 +1,7 @@
 ---
 author: nathan
 banner: 
-    src: /img/product/krita/painterly-game-art/banner.jpg
+    src: banner.jpg
     alt: Article banner, illustration with a cute rabbit and pig character in front of a forest
 category:
 - news

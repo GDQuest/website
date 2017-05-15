@@ -7,7 +7,7 @@ title: "Game Art Quest vol1 done! Off to Japan"
 tags: ["community"]
 
 banner:
-    src: "/img/page/game-art-quest/krita-tutorial-banner.jpg"
+    src: banner.jpg
     alt: "Krita tutorial for game artists - banner"
 aliases:
 - post/2016/09/japan-news/

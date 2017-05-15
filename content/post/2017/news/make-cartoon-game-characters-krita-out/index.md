@@ -6,7 +6,7 @@ description: Learn to make cartoon shaded game characters with this new Krita co
 author: nathan
 
 banner:
-    src: /img/product/krita/cel-shaded-game-art/banner.jpg
+    src: banner.jpg
     alt: A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background
 
 category:
@@ -35,4 +35,4 @@ The course is based on Pepper and Carrot, the main 2 characters of a webcomic by
     caption="Meet Pepper and Carrot, turned into sprites for the tutorials"
     alt="Pepper and Carrot side by side, painted with a cartoon art style" >}}
 
-I hope you'll like it! And see you soon on Kickstarter for a [game creation course with Godot]({{< ref "post/2017/news/godot-engine-kickstarter.md" >}}).
+I hope you'll like it! And see you soon on Kickstarter for a [game creation course with Godot]({{< ref "post/2017/news/godot-engine-kickstarter/index.md" >}}).

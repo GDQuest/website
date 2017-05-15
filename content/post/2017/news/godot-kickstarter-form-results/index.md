@@ -15,14 +15,14 @@ tags:
     - news
 
 banner:
-    src: /img/post/2017/news/godot-kickstarter-form-results/banner.jpg
+    src: banner.jpg
     alt: Article banner, showing 2 progress bars and the Godot logo on a red orange background
     class: -pink
 aliases:
 - post/2017/news/godot_engine_kickstarter
 ---
 
-**Almost 600 of you** gave feedback on the Godot course's Kickstarter! That's close to 3 times as many as last time, for the Krita game art project. Let's look at what you had to say.
+**More than 600 of you** gave feedback on the Godot course's Kickstarter! That's close to 3 times as many as last time, for the Krita game art project. Let's look at what you had to say.
 
 ```
 About the form's design
