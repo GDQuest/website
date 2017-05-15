@@ -5,7 +5,7 @@ date: 2017-05-04T08:42:22+02:00
 author: nathan
 
 banner:
-    src: /img/product/krita/cel-shaded-game-art/old-banner.jpg
+    src: banner.jpg
     alt: A stylized painting of Carrot, an orange cat, over a blue background
 
 category:

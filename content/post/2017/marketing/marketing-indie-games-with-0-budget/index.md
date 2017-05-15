@@ -12,7 +12,7 @@ aliases: game-design/marketing-indie-games-on-a-0-budget-notes/
 social: True
 
 banner:
-    src: /img/post/2017/marketing/marketing-indie-games-with-0-budget/banner.jpg
+    src: banner.jpg
     alt: Sunrise in the game Firewatch
 ---
 

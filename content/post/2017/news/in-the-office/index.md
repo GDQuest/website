@@ -15,7 +15,7 @@ aliases:
   - post/2017/news/in_the_office
 
 banner:
-  src: /img/post/2017/news/in-the-office/banner.jpg
+  src: banner.jpg
   alt: "In the office article banner image"
 ---
 

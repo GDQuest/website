@@ -5,7 +5,7 @@ date: 2017-04-28T08:15:16+02:00
 author: nathan
 
 banner:
-    src: /img/post/2017/news/krita-brushes-anniversary-update/banner.jpg
+    src: banner.jpg
     alt: Krita brushes, comparison of the old and new thumbnails
 
 category:

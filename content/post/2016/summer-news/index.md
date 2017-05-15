@@ -7,7 +7,7 @@ tags: ["community"]
 title: "Summer Update"
 type: "post"
 banner:
-    src: "/img/post/2016/09/summer-news-banner.jpg"
+    src: banner.jpg
     alt: "Summer sunset"
 aliases:
 - post/2016/09/summer-news/

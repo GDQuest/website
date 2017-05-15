@@ -12,7 +12,6 @@ type: "post"
 aliases: 
     - "new-in-krita-3"
     - post/krita/new-in-krita-3/
-url: "new-features-in-krita-3"
 
 nav: true
 anchors: 
@@ -21,7 +20,7 @@ anchors:
     - "krita-3-review"
 
 banner:
-    src: "/img/post/krita/new-in-krita-3/krita-3-release-banner.jpg"
+    src: banner.jpg
     alt: "The Krita brushes"
 ---
 

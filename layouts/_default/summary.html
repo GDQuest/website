@@ -1,12 +1,11 @@
 <article>
   <div class="card-box">
+    {{ $url := .Permalink }}
     {{ with .Params.banner }}
-      {{ $extension := ".jpg" }}
-      {{ $root_path := index (split .src ".") 0 }}
-      <img src="{{ .src }}" alt="{{ .alt }}" />
+      <img src="{{$url}}{{ .src }}" alt="{{ .alt }}" />
     {{ end }}
     <div class="content">
-      <h3> <a href="{{ .Permalink }}">{{ .Title }}</a> </h3>
+      <h3> <a href="{{ $url }}">{{ .Title }}</a> </h3>
   
       <p> {{ .Description }} </p>
       
