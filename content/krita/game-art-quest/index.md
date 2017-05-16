@@ -12,11 +12,13 @@ aliases:
   - krita/game_art_quest
 ---
 
-## Free Krita tutorial for game artists
 
 <div class="card-box">
-  <img src="/img/page/game-art-quest/krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials">
+  <img src="krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials">
   <div class="content">
+    <h2>
+      Free Krita tutorial for game artists
+    </h2>
     A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
     <div grid>
       <div column class="-center">
@@ -31,14 +33,12 @@ aliases:
   </div>
 </div>
 
-
-<hr>
-
-## Make Professional Painterly Game Art with Krita
-
 <div class="card-box">
-  <img src="/img/product/krita/painterly-game-art/banner.jpg" alt="Game Art Quest volume 2 banner - painterly art">
+  <img src="painterly-game-art-banner.jpg" alt="Game Art Quest volume 2 banner - painterly art">
   <div class="content">
+    <h2>
+      Make Professional Painterly Game Art with Krita
+    </h2>
     Want to go a step further and learn to make professional sprites? Then, this course is for you.
     <div grid>
       <div column class="-center">
