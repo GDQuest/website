@@ -4,8 +4,9 @@
     {{ range (where $.Site.Pages "Section" "product") }}
         {{ if ne .Title "Products" }}
         <li class="card-box">
+            {{ $url := .Permalink }}
             {{ with .Params.banner }}
-                {{ partial "block/banner_img" . }}
+                <img src="{{$url}}{{.src}}" alt="{{.alt}}">
             {{ end }}
             <div class="content">
                 <div grid>

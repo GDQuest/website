@@ -17,7 +17,7 @@ aliases:
     - tutorial/art/krita_tutorial_for_game_artists
 
 banner:
-    src: /img/page/game-art-quest/krita-tutorial-banner.jpg
+    src: banner.jpg
     alt: Course banner, game characters facing each other on a painterly background
     class: -blue
 ---

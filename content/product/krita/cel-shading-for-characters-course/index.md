@@ -5,7 +5,7 @@ title: Make Cel Shaded 2d Characters With Krita
 description: Learn to make cartoon 2d game characters with Krita! Based on the webcomic Pepper and Carrot by David Revoy
 
 banner:
-    src: /img/product/krita/cel-shaded-game-art/banner.jpg
+    src: banner.jpg
     alt: A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background
 
 category: Krita
@@ -27,7 +27,7 @@ This is a short, yet a rich series. It comes with **14 video tutorials**, plus a
 
 ## Pre-requisites
 
-1. If you have never used Krita before or don’t feel comfortable with it, check out my [6 hours long free Krita course]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}).
+1. If you have never used Krita before or don’t feel comfortable with it, check out my [6 hours long free Krita course]({{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}).
 1. The pace of the course is like the tutorials you will find on the GDquest channel, you can check them out first and see if they work for you before you buy.
 
 {{< figure src="/img/post/2017/news/godot-engine-kickstarter/krita-course-cel-shading.jpg" alt="3 stylized characters used to teach lighting fundamentals" caption="Learn lighting and shading tricks with Krita" >}}
