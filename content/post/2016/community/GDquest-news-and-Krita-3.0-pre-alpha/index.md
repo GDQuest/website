@@ -30,7 +30,7 @@ Since January, I have been [running a vote]({{< ref "post/2016/community/vote-fo
 2. **Painting rock and grass tiles for 2d games**
 3. **Human proportions, from reality to games**
 
-This is great, as they will reinforce [Game Art Quest]({{< ref "krita/game-art-quest.md" >}}). I might also do the 4th one, the Overview of [Superpowers, the collaborative HTML5 game engine](http://superpowers-html5.com/), as time permits.
+This is great, as they will reinforce [Game Art Quest]({{< ref "krita/game-art-quest/index.md" >}}). I might also do the 4th one, the Overview of [Superpowers, the collaborative HTML5 game engine](http://superpowers-html5.com/), as time permits.
 
 ## Krita 3.0, pre-alpha 3
 
