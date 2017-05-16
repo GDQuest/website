@@ -16,8 +16,10 @@
 
             <article column class="-center">
                 <div class="card-box">
+                    {{ $url := .Permalink }}
                     {{ with .Params.banner }}
-                        {{ partial "block/banner_img" . }}
+                        <!--<img src="{{ .src }}" alt="{{ .alt }}" />-->
+                        <img src="{{ $url }}{{ .src }}" alt="{{ .alt }}" />
                     {{ end }}
                     <div class="content">
                         <h2>{{ .Title }}</h2>

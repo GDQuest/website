@@ -11,7 +11,7 @@ Do you want to become better at game creation? This might just be the right plac
 
 Game Design Quest, or GDquest, is an educational resource for game creators. I share the techniques I've learned working as a designer for several years. I work hard to make it easier for you to learn new tools. Students, indies, hobbyists: everyone's welcome!
 
-I create [tutorials](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ) weekly, but not only. I also make [tools]({{< ref "product/krita/brushes.md" >}}) to help you work more comfortably or productively, and answer many questions on Youtube or Discord.
+I create [tutorials](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ) weekly, but not only. I also make [tools]({{< ref "product/krita/brushes/index.md" >}}) to help you work more comfortably or productively, and answer many questions on Youtube or Discord.
 
 ## Affiliates and collaborations
 

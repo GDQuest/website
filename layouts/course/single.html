@@ -103,8 +103,9 @@
           {{ range first 2 (where $.Site.Pages "Section" "product") }}
             {{ if ne .Title "Products" }}
               <div class="product-thumb">
+                {{ $url := .Permalink }}
                 {{ with .Params.banner }}
-                  <img src="{{ index (split .src ".") 0 }}-thumb.jpg" alt="{{.alt}}">
+                  <img src="{{$url}}banner-thumb.jpg" alt="{{.alt}}">
                 {{end}}
                 <li class="link">
                   <a href="{{ .Permalink }}">

@@ -19,7 +19,7 @@ aliases:
   - product/krita/painterly_game_art
 
 banner:
-  src: /img/product/krita/painterly-game-art/banner.jpg
+  src: banner.jpg
   alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 
 product: krita-tutorial-1
@@ -73,7 +73,7 @@ You get everything from the Essentials and Pro versions, plus:
 ## Requirements
 
 You have some experience with drawing and digital art.
-If you don't know how to use Krita, I made a [FREE Krita tutorial series]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}}). It's more than 6 hours long! In this course, you will learn the tools you need to work comfortably and efficiently with the program.
+If you don't know how to use Krita, I made a [FREE Krita tutorial series]({{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}). It's more than 6 hours long! In this course, you will learn the tools you need to work comfortably and efficiently with the program.
 
 Krita is an award winning, free and open source painting program. It is available on all desktop platforms (_Windows, Mac, Linux_). You can download it on the [Krita foundation's website](https://krita.org/en/download/krita-desktop/).
 

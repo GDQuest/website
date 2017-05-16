@@ -15,7 +15,7 @@ tags:
 type: "course"
 course: "monster_design"
 banner:
-    src: /img/page/tutorial/art/monster-design/banner.jpg
+    src: banner.jpg
     alt: Course banner, 2 bear-like monsters painted in Krita
     class: -blue
 aliases:
@@ -26,4 +26,4 @@ The intro to monster design is the first free training released on GDquest. In a
 
 ## {{< icon link default >}} Useful links
 
-- [Free Krita tutorial for Game Artists]({{< ref "tutorial/art/krita-tutorial-for-game-artists.md" >}})
+- [Free Krita tutorial for Game Artists]({{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}})
