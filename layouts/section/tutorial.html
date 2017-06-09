@@ -23,7 +23,7 @@
                     {{ end }}
                     <div class="content">
                         <h2>{{ .Title }}</h2>
-                        <p>{{ .Description }}</p>
+                        <p>{{ .Description | markdownify }}</p>
                         <a href="{{ .Permalink }}">
                             <button class="-success -calltoaction">Watch</button>
                         </a>

@@ -1,0 +1,100 @@
+[chapters.1]
+title = "Week 1: Custom camera, Tilesets and Animation"
+small = ""
+description = ""
+
+
+[chapters.1.videos.1]
+title = "Custom Camera in Godot, part 1: Transform the Canvas"
+url = "https://www.youtube.com/watch?v=xUSEeXDtwIw"
+
+[chapters.1.videos.2]
+title = "Custom Camera in Godot, part 2: Follow the Player"
+url = "https://www.youtube.com/watch?v=FkxZECaD5To"
+
+[chapters.1.videos.3]
+title = "Custom Camera in Godot 3: Let's simplify the code!"
+url = "https://www.youtube.com/watch?v=AQXjid5jemI"
+
+[chapters.1.videos.4]
+title = "Zelda-like Custom Camera: Instant room transitions in Godot"
+url = "https://www.youtube.com/watch?v=CqU6w164AbU"
+
+[chapters.1.videos.5]
+title = "Introduction to tilesets in the Godot Engine"
+url = "https://www.youtube.com/watch?v=OhlMUvpmWuA"
+
+[chapters.1.videos.6]
+title = "Intro to the Animation Tools in the Godot Game Engine"
+url = "https://youtube.com/watch?v=d9t3CdMks7M"
+
+[chapters.1.videos.7]
+title = "[TOOL] Top-Down Tileset Template (Open Source)"
+url = "https://youtube.com/watch?v=09QrdSEGtwI"
+
+
+
+[chapters.2]
+title = "Week 2: Tilemaps, Grids and Vectors"
+small = ""
+description = ""
+
+
+[chapters.2.videos.1]
+title = "How to Import Maps from Tiled in Godot"
+url = "https://youtube.com/watch?v=jFq4Eve_Db8"
+
+[chapters.2.videos.2]
+title = "The Grid (1/4): Top-Down character movement"
+url = "https://youtube.com/watch?v=BWBD3i00AfM"
+
+[chapters.2.videos.3]
+title = "The Grid (2/4): Establish the foundations"
+url = "https://youtube.com/watch?v=Yus8zAculWA"
+
+[chapters.2.videos.4]
+title = "The Grid (3/4): 2 key functions to manage the game board"
+url = "https://youtube.com/watch?v=3a6z0yxxfaM"
+
+[chapters.2.videos.5]
+title = "The Grid (4/4): Connect the player to the grid"
+url = "https://youtube.com/watch?v=A7xcmDeIoLY"
+
+[chapters.2.videos.6]
+title = "Introduction to Vectors for Game Creators (Collab with Pigdev) "
+url = "https://www.youtube.com/watch?v=ZoMmiQes_lE"
+
+[chapters.2.videos.7]
+title = "Shortcuts to Code Faster in the GDscript Editor"
+url = "https://www.youtube.com/watch?v=rMx35lyXCpk"
+
+
+
+[chapters.3]
+title = "Week 3: Steering, the Kraken and isometric movement"
+small = ""
+description = ""
+
+[chapters.3.videos.1]
+title = "[DEMO] Top-Down Car with Steering in Godot"
+url = "https://youtu.be/d6jICPx6Dto"
+
+[chapters.3.videos.2]
+title = "[TIPS] Script and Scene Sync in Godot: see your changes at runtime!"
+url = "https://youtu.be/fpwwbS_fY0M"
+
+[chapters.3.videos.3]
+title = "The Kraken: Game Creature Art Process with 2dGameArtGuru"
+url = "https://youtu.be/V2CDT8_VmUk"
+
+[chapters.3.videos.4]
+title = "The Kraken: Creature Design and Silhouette in Inkscape"
+url = "https://youtu.be/O5KQpOQWx-4"
+
+[chapters.3.videos.5]
+title = "Introduction to Isometric Movement in Games"
+url = "https://youtu.be/KvSjJ-kdGio"
+
+[chapters.3.videos.6]
+title = "[DEMO] Isometric Grid-Based Movement"
+url = "https://youtu.be/8U5iQFJ8Z2U"
