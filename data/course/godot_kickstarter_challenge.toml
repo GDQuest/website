@@ -98,3 +98,59 @@ url = "https://youtu.be/KvSjJ-kdGio"
 [chapters.3.videos.6]
 title = "[DEMO] Isometric Grid-Based Movement"
 url = "https://youtu.be/8U5iQFJ8Z2U"
+
+[chapters.3.videos.7]
+title="Intro to the Vector Dot Product: How to code a Field of View in Godot"
+url = "https://youtu.be/dC4-TSFv32Y"
+
+
+[chapters.4]
+title = "Week 4: Vectors, save and Godot overview"
+small = ""
+description = ""
+
+[chapters.4.videos.1]
+title="[LIVE] Your questions about Godot, Game Creation, the Kickstarter?"
+url = "https://youtu.be/9f1cGjk7iB0"
+
+[chapters.4.videos.2]
+title="[DEMO] How to detect slopes in a platform game using the Dot Product: Godot tutorial"
+url = "https://youtu.be/4PM6Jb3kCvY"
+
+[chapters.4.videos.3]
+title="How to Save the Player Settings with ConfigFile (Godot tutorial)"
+url = "https://youtu.be/IrUhyf-g5hU"
+
+[chapters.4.videos.4]
+title="How to Code a Save System: Godot Tutorial"
+url = "https://youtu.be/XQptE6qrhKA"
+
+[chapters.4.videos.5]
+title="[Presentation] Overview of Godot 2 and 3's features"
+url = "https://youtu.be/Ge6EQHR3Xrg"
+
+[chapters.4.videos.6]
+title="How to animate with Tween and GDscript: Godot tutorial"
+url = "https://youtu.be/ofDcC3aux8Q"
+
+
+[chapters.5]
+title = "Week 5: Signals, UI and closing stream"
+small = ""
+description = ""
+
+[chapters.5.videos.1]
+title="Introduction to signals in the Godot game engine"
+url = "https://youtu.be/l0BkQxF7X3E"
+
+[chapters.5.videos.2]
+title="Overview of the 5 most common UI nodes in Godot"
+url = "https://youtu.be/pVK_QzQPv4o"
+
+[chapters.5.videos.3]
+title="Tennis on steroids? Godot programming, Kickstarter finish"
+url = "https://youtu.be/wc_eFss1unk"
+
+[chapters.5.videos.4]
+title="Tennis on steroids? Godot programming, Kickstarter finish"
+url = "https://youtu.be/6G3NP5O9VsQ"
