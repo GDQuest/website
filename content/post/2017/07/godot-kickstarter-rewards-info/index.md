@@ -18,7 +18,7 @@ title: "Godot Kickstarter: When and How you’ll get your Rewards"
 ---
 
 
-**You will get all your rewards, votes and major news via email**, starting this week. So be sure that you've set the right address on Kickstarter. Feel free to send me a message on Kickstarter or an email if you have any trouble. Don't sorget to:
+**You will get all your rewards, votes and major news via email**, starting this week. So be sure that you've set the right address on Kickstarter. Feel free to send me a message on Kickstarter or an email if you have any trouble. Don't forget to:
 
 1. Add nathan[at]gdquest.com to your contacts
 1. Check your spam folder if you didn't get anything on Sunday
@@ -26,13 +26,15 @@ title: "Godot Kickstarter: When and How you’ll get your Rewards"
 
 ## When you will get your access keys
 
-**Discord** : the discussion server access will be available this week.
+**Discord**: check out the email you got to access the server.
 
-**Krita courses** : if you got the **Craftsman tier and above, you will get 3 Gumroad links** to get the 2 Krita courses and the premium brushes. Make sure you use the right email address when you redeem them, and create a Gumroad account so they are stored in your library!
+**Krita courses**: if you got the **Craftsman tier and above, you will automatically get the 3 products delivered to your Kickstarter/PayPal email address**. You'll get 1 email from Gumroad for each product, that you can add to your Gumroad library. 
 
-**The Godot course** : you will get early-access by early October. That's the latest Estimated Time of Arrival. There'll be plenty of content and updates by then.
+_NB: a bug currently prevents you from adding the products to your library that way. I got in touch with the platform's support team to get it fixed. You'll get the course as soon as we find a solution._
 
-**Contributions** : I'll work on the contributions and the course in parallel. Godot 3.0 will attract a lot of new users around its release, and improved docs could help them stick. That's why I'd like to help the developers this summer.
+**The Godot course**: you will get early-access by early October. That's the latest Estimated Time of Arrival. There'll be plenty of content and updates by then.
+
+**Contributions**: I'll work on the contributions and the course in parallel. Godot 3.0 will attract a lot of new users around its release, and improved docs could help them stick. That's why I'd like to help the developers this summer.
 
 ![Krita brushes banner](/img/page/krita-brushes/krita-brushes-banner-lite.jpg)
 
