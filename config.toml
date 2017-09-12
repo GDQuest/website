@@ -6,17 +6,40 @@ metaDataFormat = "yaml"
 paginate = 6
 paginatePath = "page"
 
-disqusShortname = "game-design-quest"
+# disqusShortname = "game-design-quest"
 
 # Pygments code highlighting - not used
 # pygmentsuseclasses = false
 # pygmentsstyle = "monokai"
 
 [[menu.main]]
+identifier  = "tutorial"
+name        = "Tuts"
+url = "/tutorial/"
+weight      = 1
+
+# [[menu.main]]
+# identifier  = "open-source"
+# name        = "Apps"
+# url = "/open-source/"
+# weight      = 2
+
+[[menu.main]]
+identifier  = "about"
+name        = "About"
+url = "/about/"
+weight      = 3
+
+# [[menu.main]]
+# identifier  = "post"
+# name        = "Blog"
+# weight      = 1
+
+[[menu.main]]
 identifier  = "shop"
 name        = "Shop"
 url         = "https://gumroad.com/gdquest"
-weight      = 3
+weight      = 100
 
 [permalinks]
 
@@ -39,7 +62,7 @@ stylesheet = "concise.css"
 twitter = "NathanGDquest"
 googleplus = "Gdquest"
 
-# Banner at the top of +/- all pages
+  # Banner at the top of +/- all pages
     [params.ad_banner]
     src = ""
     alt = ""

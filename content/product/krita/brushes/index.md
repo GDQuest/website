@@ -65,6 +65,10 @@ The best part? There is actually a free, smaller version of this set, so you can
 
 ## Changelog
 
+### Version 14 - July 2017
+
+See the full release notes: [4 new vegetation presets]({{< ref "product/krita/brushes/version-14/index.md" >}})
+
 ### Version 13 - April 2017
 
 - **Complete redesign of the brush thumbnails**. All 85 brushes now have a new, clearer picture that highlights their stroke and still reads on small screens.This was a lot of work, but now it's done, the set is ready to welcome new presets.

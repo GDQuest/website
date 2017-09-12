@@ -1,7 +1,4 @@
 ---
-menu: main
-weight: 1
-
 title: Krita
 small: Krita tutorial series for game artists
 
