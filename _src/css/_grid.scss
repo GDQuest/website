@@ -25,19 +25,6 @@
   padding-right: $gutter / 2;
 }
 
-// No Gutters
-// [grid~="no-gutters"]
-//   margin-left: 0
-//   margin-right: 0
-
-//   [column]
-//     padding-left: 0
-//     padding-right: 0
-
-// No Collapse columns
-// [grid~="no-collapse"]
-//   flex-flow: row nowrap
-
 // Create column widths and offsets above the breakpoint
 @include desktop {
   // Column widths
