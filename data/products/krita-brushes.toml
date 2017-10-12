@@ -8,7 +8,7 @@ intro = ["**Do you want to become a faster artist with Krita?** Here are my best
 
 [versions.01]
 features = ["39 presets", "1 tutorial", "2 pdf documents", "FREE"]
-link = "https://gum.co/krita-brushes-gdquest-lite"
+link = "https://github.com/GDquest/free-krita-brushes/releases"
 name = "Lite"
 price = "0"
     [versions.01.icon]
