@@ -41,6 +41,7 @@ name        = "Shop"
 url         = "https://gumroad.com/gdquest"
 weight      = 100
 
+
 [permalinks]
 
 [taxonomies]
@@ -51,6 +52,7 @@ category = "category"
 name = "Nathan Lovato"
 email = "nathan@gdquest.com"
 
+
 # Site parameters
 [params]
 topline = "The Game Design Quest"
@@ -58,15 +60,10 @@ home = "home"
 highlight = "default"
 stylesheet = "concise.css"
 
+
 # Social network names for Meta tag SEO
 twitter = "NathanGDquest"
 googleplus = "Gdquest"
-
-  # Banner at the top of +/- all pages
-    [params.ad_banner]
-    src = ""
-    alt = ""
-    link = ""
 
     [params.social.1]
     link = "https://www.youtube.com/c/gdquest"

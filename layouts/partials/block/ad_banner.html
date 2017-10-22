@@ -1,9 +1,0 @@
-<div row class="-center hide--print">
-    {{ if ne .Site.Params.ad_banner.src "" }}
-    <a href="{{ with .Site.Params.ad_banner.link }}{{ . }}{{ end }}">
-        <img src="{{ .Site.Params.ad_banner.src }}" alt="{{ .Site.Params.ad_banner.alt }}" class="img-responsive center-block" >
-    </a>
-    {{ else }}
-    <div class="text--error lead" style="border: 1px solid white">No image set for the ad_banner</div>
-    {{ end }}
-</div>
