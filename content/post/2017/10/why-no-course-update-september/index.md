@@ -39,7 +39,7 @@ _More happened with the French administration, but I'll spare you the boring det
 
 ## Upcoming content in October
 
-In October, you'll get an update with the Game Design chapter, including insights from successful indie game designers: [Yakkafo ](https://twitter.com/yakkafo ), designer on Event[0], [ AtomicRacoonFR ]( https://twitter.com/AtomicRaccoonFR ) and the incredible [FibreTigre](https://twitter.com/FibreTigre). 
+In October, you'll get an update with the Game Design chapter, including insights from successful indie game designers: [Yakkafo ](https://twitter.com/yakkafo ), designer on Event[0], [ AtomicRacoonFR ]( https://twitter.com/AtomicRaccoonFR ) and the incredible [FibreTigre](https://twitter.com/FibreTigre).
 
 {{< figure src="event-0.jpg" caption="Event[0] lets you chat with an AI with plain text" alt="An old computer screen sitting on a piano" >}}
 
@@ -57,3 +57,11 @@ If you've got any concern or question, never hesitate to contact me directly on 
 Thank you kindly for your time and see you soon!
 
 *PS: we're going to the [ Capitole du Libre ](https://2017.capitoledulibre.org/) on November 18 and 19, with Gilles Roudière and StraToN. It's a major FOSS event taking place in France. We were invited to give conferences about Godot. You're welcome to participate as well, come to meet us, help man the booth, and teach the engine!*
+
+## Get in touch!
+
+Need to reach me? Send me a message anytime [@NathanGDquest](https://twitter.com/NathanGDquest) on Twitter.
+
+Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
+
+{{< gumroad-follow >}}
