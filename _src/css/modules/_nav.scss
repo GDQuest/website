@@ -2,10 +2,15 @@ nav {
   border-bottom: 2px solid get-color(background, dark);
   text-align: center;
 
+  &#main-menu {
+      max-height: 60px;
+  }
+
   ul {
     margin: 0;
     padding: 0;
   }
+
   @include desktop {
     ul {
       display: flex;
@@ -49,7 +54,7 @@ nav {
 
   > .-logo {
     max-width: 200px;
-    padding: .8rem;
+    padding: 10px;
   }
 }
 

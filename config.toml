@@ -77,10 +77,10 @@ googleplus = "Gdquest"
     link = "https://twitter.com/NathanGDquest"
     icon = "twitter"
     description = "GDquest Twitter page"
-    [params.social.4]
-    link = "https://plus.google.com/+Gdquest"
-    icon = "google-plus-square"
-    description = "GDquest Google Plus page"
+    # [params.social.4]
+    # link = "https://plus.google.com/+Gdquest"
+    # icon = "google-plus-square"
+    # description = "GDquest Google Plus page"
 
 email = "nathan@gdquest.com"
 
