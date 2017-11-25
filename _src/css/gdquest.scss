@@ -1,12 +1,12 @@
 @import 'settings';
 @import 'functions';
 
-@import 'core/base';
-@import 'core/grid';
+@import 'base';
+@import 'grid';
 
 @import 'modules/nav';
 @import 'modules/button';
-@import 'modules/global';
+// @import 'modules/global';
 
 // @import 'modules/banner-img';
 @import 'modules/text';
