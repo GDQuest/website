@@ -77,3 +77,11 @@ Their latest game, Monsters from Outer Space, is a Godot game.
 ![Konqi, the KDE mascot, in front of a Swiss pike](./img/randa-meetings/konqi-randa.png)
 
 Mario is a kind, busy teacher, developer, and free software advocate. Every year he organizes the large [ Randa meetings ](https://randa-meetings.ch/) in Switzerland for the KDE foundation. I joined them in 2016 to eat swiss delicacies give a hand and meet fellow developers. Along with the school he works at, they supported both Kickstarter campaigns.
+
+## Get in touch!
+
+Need to reach me? Send me a message anytime [@NathanGDquest](https://twitter.com/NathanGDquest) on Twitter.
+
+Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
+
+{{< gumroad-follow >}}
