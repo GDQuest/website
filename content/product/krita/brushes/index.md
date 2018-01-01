@@ -67,7 +67,7 @@ The best part? There is actually a free, smaller version of this set, so you can
 
 ### Version 14 - July 2017
 
-See the full release notes: [4 new vegetation presets]({{< ref "product/krita/brushes/version-14/index.md" >}})
+See the full release notes: [4 new vegetation presets](version-14)
 
 ### Version 13 - April 2017
 
