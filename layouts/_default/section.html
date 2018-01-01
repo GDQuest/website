@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main grid style="margin-top: 0">
+    <article column>
+    <header>
+        {{ with .Params.banner }}
+        {{ partial "block/banner_img" . }}
+        {{ end }}
+    </header>
+    <h1 align="center">
+        {{ .Title }}
+        {{ with .Params.subtitle }}
+        <br/><small>{{ . }}</small>
+        {{ end }}
+    </h1>
+
+    {{ .Content }}
+
+    <!-- {{ range .Resources }} -->
+    <!-- {{ .ResourceType | title }} -->
+    <!-- {{ end }} -->
+
+    <!-- {{ with .Resources.ByType "page" }} -->
+    <!-- {{ range . }} -->
+    <!-- <h3>{{ .Title }}</h3> -->
+    <!-- {{ .Content }} -->
+    <!-- {{ end }} -->
+    <!-- {{ end }} -->
+    </article>
+</main>
+{{ end }}
