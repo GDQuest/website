@@ -1,8 +1,6 @@
 {{ define "main" }}
   <!-- VARIABLES -->
   {{ $course := index .Site.Data.course .Params.course }}
-  {{ $.Scratch.Set "playlist" (index $course "playlist") }}
-
   {{ if and (isset .Params "videos_released") (ge .Params.videos_released 0) }}
     {{ $.Scratch.Set "videos_released" .Params.videos_released }}
   {{ else }}
@@ -52,7 +50,7 @@
             <li class="item">
             <span class="-muted">{{ $.Scratch.Get "video_count_chapter" }}. </span>
             {{ if and (le ($.Scratch.Get "video_count") ($.Scratch.Get "videos_released") ) (and (isset . "url") (not (eq .url "") )) }}
-              <a href="{{ .url }}{{ $.Scratch.Get "playlist" }}">{{ .title }}</a>
+              <a href="{{ .url }}">{{ .title }}</a>
               {{ else }}
               {{ .title }} <span class="-muted">Upcoming</span>
             {{ end }}
@@ -124,7 +122,7 @@
             </div>
           </li>
           </ul>
-          
+
         </div>
       </div>
     </aside>
