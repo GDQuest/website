@@ -1,7 +1,6 @@
 title="Krita Tutorial For Game Artists"
 description=""
 duration="6 hours"
-playlist="&list=PLhqJJNjsQ7KHP4_bi7FNPlJWIXG8ykRE5"
 
 [banner]
     src="/img/page/game-art-quest/krita-tutorial-banner.jpg"
@@ -165,37 +164,37 @@ description = "We're going to talk about the few broad steps that every professi
 description_long = "This second chapter provides an introduction to the game art workflow with Krita. It explains the iterative nature of game art, as well as the broad steps involved in creating original game assets, from design to the finished product. I will also provide you with an example to show you which tools I use the most, and how I've adapted my workflow to Krita. Every major step of the process is broken down into 2 videos: the first one is focused on the design of the game asset, and the second one focuses on Krita drawing techniques, on applying what we learned in chapter 1."
 [chapters.4.videos.01]
 title = "Overview of the game asset creation process"
-url = "https://www.youtube.com/watch?v=cYuUlNg22aM&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=1"
+url = "https://www.youtube.com/watch?v=cYuUlNg22aM"
 description = "The broad steps to create any piece of art are pretty much always the same. We start by exploring possible designs, by sketching multiple thumbnails. Then, we pick one of our thumbnails and we move on to blocking foundations for our final piece. The next step is called refining, and mostly consists of turning our blocking into a good-looking piece of artwork. The last step is polishing. It's the most time-consuming one. At that point, we know that our artwork is already working well, so we can focus on improving its shading and adding all sorts of tiny details."
 length = 502
 [chapters.4.videos.02]
 title = "The game asset workflow: Concept 1 - Learning"
-url = "https://www.youtube.com/watch?v=Qx-ZMYKpQxE&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=2"
+url = "https://www.youtube.com/watch?v=Qx-ZMYKpQxE"
 description = "We will look at sketching thumbnails from the pure design point of view. What makes or a good sketching session? How many thumbnails should you do? And how to make the difference between a good and a bad thumbnail? This is what this video is about."
 length = 692
 [chapters.4.videos.03]
 title = "The game asset workflow: Concept 2 - Thumbnailing"
-url = "https://www.youtube.com/watch?v=X3AsgD6RR5s&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=3"
+url = "https://www.youtube.com/watch?v=X3AsgD6RR5s"
 description = "We will see how we can apply what we learned in chapter 1 to make it easier to create digital sketch. We'll use selections, transforms, and layer manipulations for that."
 length = 400
 [chapters.4.videos.04]
 title = "How to block in a game sprite in Krita"
-url = "https://www.youtube.com/watch?v=qRS6EvZVJDA&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=4"
+url = "https://www.youtube.com/watch?v=qRS6EvZVJDA"
 description = ""
 length = 556
 [chapters.4.videos.05]
 title = "3 techniques for game asset blocking in Krita"
-url = "https://www.youtube.com/watch?v=ua9RBymW7qE&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=5"
+url = "https://www.youtube.com/watch?v=ua9RBymW7qE"
 description = ""
 length = 544
 [chapters.4.videos.06]
 title = "Refining the game asset in Krita"
-url = "https://www.youtube.com/watch?v=iNQty0URJ2A&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=6"
+url = "https://www.youtube.com/watch?v=iNQty0URJ2A"
 description = "From using gradients in overlay mode, filters, playing with blending modes and alpha inheritance, I will show you some of the tricks I often use to create game art."
 length = 463
 [chapters.4.videos.07]
 title = "Polishing a game sprite with Krita"
-url = "https://www.youtube.com/watch?v=m_ck34Fne2U&list=PLhqJJNjsQ7KGZ51azXEJyCiFwQV4d6CEO&index=7"
+url = "https://www.youtube.com/watch?v=m_ck34Fne2U"
 description = "Polishing is one of the hardest steps to teach, as it is mostly a game of patience and observation. It is the process of taking an artwork that already looks good, and making it look finished. It is the longest step in the art creation process, that can take more than half of your time working on something."
 length = 315
 
@@ -207,57 +206,57 @@ description = "Let's look at some more advanced tools, like filters and masks."
 description_long = "The application offers a wealth of unexpected features. Powerful deformations, wrap-around mode, flexible brush engines, drawing assistants, filter layers, and much more! In this chapter, we'll look at some of the more advanced functions Krita offers, as well as how to use them in practice."
 [chapters.5.videos.01]
 title = "Understanding Krita's blending modes"
-url = "https://www.youtube.com/watch?v=3korE3Xn4eg" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=1
+url = "https://www.youtube.com/watch?v=3korE3Xn4eg"
 description = ""
 length = 704
 [chapters.5.videos.02]
 title = "How to paint in symmetry"
-url = "https://www.youtube.com/watch?v=m0r5WbQn9wQ" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=2
+url = "https://www.youtube.com/watch?v=m0r5WbQn9wQ"
 description = ""
 length = 416
 [chapters.5.videos.03]
 title = "Draw tiling patterns with the wrap around mode"
-url = "https://www.youtube.com/watch?v=q6S2q_or4k4" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=3
+url = "https://www.youtube.com/watch?v=q6S2q_or4k4"
 description = ""
 length = 406
 [chapters.5.videos.04]
 title = "How to use the perspective transform mode"
-url = "https://www.youtube.com/watch?v=ADriv8Z5V3Y" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=4
+url = "https://www.youtube.com/watch?v=ADriv8Z5V3Y"
 description = ""
 length = 784
 [chapters.5.videos.05]
 title = "How to use the warp and cage transform for concept art"
-url = "https://www.youtube.com/watch?v=TQ8iIQU9KHc" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=5
+url = "https://www.youtube.com/watch?v=TQ8iIQU9KHc"
 description = ""
 length = 351
 [chapters.5.videos.06]
 title = "Sculpt your assets with the liquify transform"
-url = "https://www.youtube.com/watch?v=54_pCb5e2OU" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=6
+url = "https://www.youtube.com/watch?v=54_pCb5e2OU"
 description = ""
 length = 481
 [chapters.5.videos.07]
 title = "4 useful filters"
-url = "https://www.youtube.com/watch?v=HzEAH1uuErM" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=7
+url = "https://www.youtube.com/watch?v=HzEAH1uuErM"
 description = ""
 length = 606
 [chapters.5.videos.08]
 title = "3 essential color adjustment filters"
-url = "https://www.youtube.com/watch?v=Iurcp8xdpJY" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=8
+url = "https://www.youtube.com/watch?v=Iurcp8xdpJY"
 description = ""
 length = 896
 [chapters.5.videos.09]
 title = "Transparency masks, erase nondestructively"
-url = "https://www.youtube.com/watch?v=hLW6ulXZ9GM" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=9
+url = "https://www.youtube.com/watch?v=hLW6ulXZ9GM"
 description = ""
 length = 845
 [chapters.5.videos.10]
 title = "Use alpha inheritance to paint more easily"
-url = "https://www.youtube.com/watch?v=q2HB57GeeVE" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=10
+url = "https://www.youtube.com/watch?v=q2HB57GeeVE" #0
 description = ""
 length = 457
 [chapters.5.videos.11]
 title = "New features in Krita 3.0.1"
-url = "https://www.youtube.com/watch?v=9S_x6koOVBo" #&list=PLhqJJNjsQ7KHGMuBk00GlJu6ZGqDr0OyK&index=11
+url = "https://www.youtube.com/watch?v=9S_x6koOVBo"
 description = ""
 length = 679
 
