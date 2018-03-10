@@ -1,21 +1,23 @@
-<article>
-  {{ if and (isset .Params "banner") (ne .Params.banner "") }}
-  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-       data-src="{{ .Params.banner }}"
-       alt="{{ .Params.banner_alt }}"
-       class="lazy banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" />
-  <noscript>
-    <img src="{{ .Params.banner }}"
-         alt="{{ .Params.banner_alt }}"
-         class="banner-img {{ with .Params.banner_class }}{{ . }}{{ else }}-blue{{ end }}" />
-  </noscript>
+<div class="card outline darkbg">
+  {{ $url := .Permalink }}
+  {{ with .Params.banner }}
+    <a href="{{ $url }}"><img src="{{$url}}{{ .src }}" alt=""></a>
   {{ end }}
 
-  <div class="card-box">
-    <h3> <a href="{{ .Permalink }}">{{ .Title }}</a> </h3>
+  <div class="content">
+    <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
+    <div class="flex justify-space-between" data-font="small dimmed">
+      <span>
+        {{ with .Params.author }}
+          {{ with (index $.Site.Data.authors . ) }}
+            by: {{ .name }}
+          {{ end }}
+        {{ end }}
+         on: {{ .Date.Format "Jan 2006" }}
+      </span>
+      <span>{{ range .Params.category }} {{ . }} {{ end }}</span>
+    </div>
 
-    <p> {{ .Description }} </p>
-    
-    <p class="-muted"> {{ .Date.Format "Jan 2006" }} / {{ range .Params.category }} {{ . }} {{ end }} / {{ .WordCount }} words </p>
+    <p>{{ .Description | markdownify }} </p>
   </div>
-</article>
+</div>

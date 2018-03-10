@@ -1,0 +1,63 @@
+
+{{ define "head_content" }}
+  <div class="grid split2 small-v-padding">
+    <div>
+      <h1 class="no-margin">tutorials</h1>
+      <p>Start your game development adventure.</p>
+    </div>
+  </div>
+{{ end }}
+
+
+{{ define "main" }}
+
+	<section id="tutorial_series" class="container base-v-padding">
+		<h2>courses</h2>
+
+		{{.Content}}
+
+		<div class="grid split2 list">
+			{{ range (where .Data.Pages "Section" "tutorial") }}
+        {{ .Render "summary" }}
+      {{ end }}
+		</div>
+	</section>
+
+	{{ partial "highlights" . }}
+
+	<section id="tutorials" class="container base-v-padding">
+		<h2>tutorials</h2>
+
+		<div class="grid split2 list">
+			{{ range .Site.Data.tutorial.library }}
+				<div>
+
+					<div class="card outline">
+						<div class="content">
+							<h3 class="title">{{.title}}</h3>
+							<p>{{.description}}</p>
+						</div>
+
+						<hr>
+
+						<div class="content">
+							<ul class="collection">
+	              {{ $.Scratch.Set "video_count" 0 }}
+
+	              {{ range .video }}
+	                {{ $.Scratch.Add "video_count" 1 }}
+	                <li class="item">
+	                  <span data-font="dimmed">{{ $.Scratch.Get "video_count" }}.</span>
+	                  <a href="https://www.youtube.com/watch?v={{ .URL }}" target="_blank">{{ .TITLE }}</a>
+	                </li>
+	              {{ end }}
+	            </ul>
+						</div>
+					</div>
+
+				</div>
+			{{ end }}
+		</div>
+	</section>
+
+{{ end }}

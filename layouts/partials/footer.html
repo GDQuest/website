@@ -1,19 +1,15 @@
-<footer row class="hide--print -center">
-	<small> <span>(c) 2015-2017 <a href="https://twitter.com/NathanGDquest">Nathan Lovato</a></span> </small>
+<footer class="darkbg base-v-padding">
+	<div class="container">
+		<small> <span>(c) 2015-2017 <a href="https://twitter.com/NathanGDquest">Nathan Lovato</a></span> </small>
+	</div>
 </footer>
 
-{{ if .IsPage }} {{ if isset .Params "highlight" }}
-	<link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}monokai.css">
-	<script async src="{{ " /js/ " | absURL }}highlight.py.js"></script>
-	<script>
-		hljs.initHighlightingOnLoad();
-	</script>
-{{ end }} {{ end }}
-
-<script async src="{{ "/js/" | absURL }}loadCSS.js"></script>
 
 
-<!--<script async src="/js/loadStylesheet.js">
-// function loadStyleSheet(a){if(document.createStyleSheet)document.createStyleSheet(a);else{var b=document.createElement("link");b.href=a,b.rel="stylesheet",b.type="text/css",document.getElementsByTagName("head")[0].appendChild(b)}}
-// loadStyleSheet('/css/fort-awesome.css')
-</script>-->
+<!-- Google Analytics -->
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-58510266-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>

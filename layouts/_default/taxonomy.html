@@ -1,18 +1,30 @@
-{{ define "main" }}
-<section>
-  <header>
-    <h1>{{ .Title }} {{ if .IsPage }}{{ if .Draft }}<small>(draft)</small>{{ end }}{{ end }}</h1>
-  </header>
+{{ define "head_content" }}
+  <div class="grid split2 small-v-padding">
+    <div>
+      <h1 class="no-margin">{{.Title}}</h1>
+    </div>
+  </div>
+{{ end }}
 
-  <ul> 
-    {{ $baseurl := .Site.BaseURL }}
-    {{ $data := .Data }}
-    {{ range $key,$value := .Data.Terms.ByCount }} 
-    <li>
-      <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a>
-      <strong> {{ $value.Count }} </strong>
-    </li>
+
+{{ define "main" }}
+<main>
+  {{ .Content }}
+  <section class="grid split2 container base-v-padding list">
+
+    {{ range .Paginator.Pages }}
+
+      <div>
+        {{ .Render "summary" }}
+      </div>
+
     {{ end }}
-  </ul>
-</section>
+  </section>
+
+  <div class="container">
+    {{ partial "paginator" . }}
+  </div>
+
+    
+</main>
 {{ end }}

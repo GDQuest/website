@@ -40,3 +40,9 @@ _src/py/client_secret.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+
+# Package manager generated files #
+###################################
+package-lock.json
+yarn.lock
