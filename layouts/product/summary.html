@@ -1,12 +1,11 @@
-<div class="card outline" style="">
+<div class="card outline">
   {{ $url := .Permalink }}
   {{ with .Params.banner }}
-    <a href="{{ $url }}"><img src="{{$url}}{{ .src }}" alt=""></a>
+    <a href="{{ $url }}"><img src="{{ $url }}{{ .src }}" alt=""></a>
   {{ end }}
 
   <div class="content">
     <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
-
-    <p>{{ .Description | markdownify }} </p>
+    <p>{{ .Description | markdownify }}</p>
   </div>
 </div>

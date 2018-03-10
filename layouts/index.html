@@ -1,58 +1,90 @@
-{{ define "main" }}
-<section id="introduction">
-    <div grid>
-      <div column=4>
-        <h2>Become a Better Game Designer</h2>
-        <p>
-          I will show the techniques professionals use to <strong>create games</strong> and <strong>beautiful sprites</strong> with Free, Open Source Software.
-        </p>
-        <p class="-center">
-          <a href="krita/game_art_quest">
-            <button class="-calltoaction -success" style="margin-top: 0">
-              Learn 2d Game Art
-            </button>
-          </a>
-        </p>
-      </div>
 
-      <div column>
-          <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-              <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-              class="youtube-player" type="text/html"
-              src="http://www.youtube.com/embed/S7jBSs5j4-c" allowfullscreen frameborder="0">
-              </iframe>
-          </div>
-      </div>
+{{ define "head_content" }}
+  <div class="grid center big-v-padding">
+    <div data-font="centered">
+      <h1 class="no-margin">learn to create games</h1>
+      <p>GDQuest is the best place to start learning how to make games using the best open source technologies and applications.</p>
+
+      <a href="/about" class="btn base-top-margin">learn more</a>
     </div>
-</section>
-
-<main>
-{{ $.Scratch.Set "count" 0 }}
-{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
-{{ range $paginator.Pages }}
-  {{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
-  <div grid>
-  {{ end }}
-    <div column>
-      {{ .Render "summary" }}
-    </div>
-  {{ if mod ($.Scratch.Get "count") 2 | ne 0 }} </div> {{ end }}
-  {{ $.Scratch.Add "count" 1 }}
-{{ end }}
-
-<!-- Close last grid -->
-{{ if mod ($.Scratch.Get "count") 2 | eq 0 }}
-</div>
-{{ end }}
-</main>
-
-<div grid>
-  <div column>
-    {{ partial "block/pagination" . }}
   </div>
-</div>
+{{ end }}
 
-<aside id="about">
-  {{ with $.Site.Data.authors.nathan }}{{ partial "modules/author" . }}{{ end }}
-</aside>
+{{ define "main" }}
+
+  {{ partial "highlights" . }}
+
+
+  <section id="latest_news" class="container big-top-margin">
+    <h4>latest news</h4>
+
+    <div class="grid split2 list">
+      {{ range first 2 (where .Data.Pages "Section" "post") }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </div>
+
+    <div data-font="centered" class="base-top-margin">
+      <a href="/post" class="btn">view all</a>
+    </div>
+    
+  </section>
+
+
+  <section id="latest_series" class="container big-top-margin">
+    <h4>latest courses</h4>
+
+    <div class="grid split2 list">
+      {{ range first 2 (where .Data.Pages "Section" "tutorial") }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </div>
+
+    <div data-font="centered" class="base-top-margin">
+      <a href="/tutorial" class="btn">view all</a>
+    </div>
+    
+  </section>
+
+
+  <section id="tags" class="big-top-margin darkbg">
+    <div class="container base-v-padding">
+      <h3 data-font="centered" class="no-margin">hundreds of free tutorials</h3>
+
+      <div class="flex-horizontal wrap">
+      </div>
+    </div>
+  </section>
+  <section id="software" class="">
+    <div class="container base-top-padding">
+      <h3 data-font="centered" class="no-margin">using the most advanced open source tools</h3>
+
+      <div class="grid split3 big-top-margin" data-font="centered">
+        <div>
+          <img src="/img/godot_logo.png" alt="godot logo" height="150px">
+          <h5>Godot</h5>
+          <p> Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel. </p>
+        </div>
+        <div>
+          <img src="/img/krita_logo.png" alt="krita logo" height="150px">
+          <h5>Krita</h5>
+          <p>Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.</p>
+        </div>
+        <div>
+          <img src="/img/blender_logo.png" alt="blender logo" height="150px">          
+          <h5>blender</h5>
+          <p>Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="info" class="grid container center big-top-margin">
+    {{ with $.Site.Data.authors.nathan }}
+      {{ partial "modules/author" . }}
+    {{ end }}
+  </section>
+
+
 {{ end }}

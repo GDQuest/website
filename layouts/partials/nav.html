@@ -1,20 +1,24 @@
-<header>
-    <nav grid="no-gutter" id="main-menu" class="hide--print">
-        <div class="-logo">
-            <a href="{{.Site.BaseURL}}"> <img src="{{.Site.BaseURL}}/img/shared/logo-gdquest.png" alt="Game Design Quest"  /> </a>
-        </div>
 
-        <label for="nav-button" class="nav-button">
-            &#9776; Menu
-        </label>
-        <input type="checkbox" id="nav-button" />
-        <ul id="menu">
-            {{ $currentNode := . }} {{ range .Site.Menus.main }}
-                <li><a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}} href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-            {{ range .Site.Params.social }}
-                <li><a href="{{.link}}" target="_blank"><i class="fa fa-lg fa-fw fa-{{.icon}}"></i> <span class="hidden">{{.description}}</span> </a></li>
-            {{ end }}
-        </ul>
-    </nav>
-</header>
+<nav class="flex full align-items-center justify-space-between">
+	<section id="page_links">
+		{{ $currentNode := . }} {{ range .Site.Menus.main }}
+    	<a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{ end }} href="{{ .URL }}">
+    		{{ .Name }}
+    	</a>
+    {{ end }}
+	</section>
+
+	<div data-font="centered">
+		<section id="social_links">
+			{{ range .Site.Params.social }}
+	      <a target="_blank" href="{{ .link }}" target="_blank">
+	      	<i class="fab fa-{{ .icon }}" title="{{ .description }}"></i>
+	      </a>
+	    {{ end }}
+		</section>
+
+		<a target="_blank" id="shop_link" href="{{ .Site.Params.shop_link.url }}" class="btn shop">
+			{{ .Site.Params.shop_link.name }}
+		</a>
+	</div>
+</nav>
