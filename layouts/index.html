@@ -1,5 +1,8 @@
 
 {{ define "head_content" }}
+  {{ with .Params.banner }}
+    <div class="fill" style="background-image: url({{ .src }})"></div>
+  {{ end }}
   <div class="grid center big-v-padding">
     <div data-font="centered">
       <h1 class="no-margin">learn to create games</h1>

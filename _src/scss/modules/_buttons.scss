@@ -1,0 +1,31 @@
+.btn {
+	font-size: $font-size-small;
+	display: inline-block;
+	line-height: normal;
+
+}
+.btn:not(.flat) {
+	border: 2px solid get-color(accent-main, base);
+	color: get-color(accent-main, base);
+	border-radius: 24px;
+	padding: $micro-spacing $small-spacing;
+
+	text-align: center;
+
+	transition: background-color .1s ease-in-out;
+}
+.btn:not(.flat):hover {
+	background-color: get-color(accent-main, base);
+	color: get-color(accent-main, text);
+}
+.btn.flat {
+}
+
+.btn.shop {
+	color: get-color(accent-opt, base) !important;
+	border-color: get-color(accent-opt, base);
+}
+.btn.shop:hover {
+	background-color: get-color(accent-opt, base);
+	color: get-color(accent-opt, text) !important;
+}
