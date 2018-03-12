@@ -1,8 +1,0 @@
-<div>
-  <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}{{ .Site.Data.Strings.draft }} :: {{ end }}{{ end }}{{ .Title }}</a>
-
-  <div row class="text--right">
-    {{ partial "modules/date" . }}
-    {{ partial "modules/tags" . }}
-  </div>
-</div>

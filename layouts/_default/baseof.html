@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
-  {{ partial "head" . }}
-  <body container>
-    {{ partial "nav" . }}
+<html data-theme="default">
 
-      {{ block "main" . }} {{ end }}
+  {{ partial "head" . }}
+
+  <body>
+
+		<header class="darkbg">
+
+			<input type="checkbox" id="nav_toggle_cb">
+			
+			<div id="topbar" class="container flex align-items-center" data-font="title semibold uppercase">
+				<span class="flex align-items-center">
+					<a href="{{.Site.BaseURL}}">
+						<img src="/img/header_logo.png" alt="GDQuest"/>
+					</a>
+					<label for="nav_toggle_cb" id="menu_btn"><i class="fas fa-bars icon"></i></label>
+				</span>
+				
+    		{{ partial "nav" . }}
+			</div>
+
+			<section class="container" id="header_content">
+				{{ block "head_content" . }} {{ end }}				
+			</section>
+		</header>
+
+
+		<main>
+			{{ block "main" . }} {{ end }}
+		</main>
 
     {{ partial "footer" . }}
   </body>
+
 </html>

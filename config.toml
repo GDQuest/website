@@ -1,45 +1,39 @@
-baseurl = "http://gdquest.com/"
-title = "GDquest"
-languageCode = "en-EN"
+baseURL = "http://gdquest.com/"
+languageCode = "en-us"
+title = "GDQuest"
+
 metaDataFormat = "yaml"
 
 paginate = 6
 paginatePath = "page"
 
-# disqusShortname = "game-design-quest"
-
-# Pygments code highlighting - not used
-# pygmentsuseclasses = false
-# pygmentsstyle = "monokai"
-
 [[menu.main]]
 identifier  = "tutorial"
 name        = "Tuts"
-url = "/tutorial/"
+url         = "/tutorial/"
 weight      = 1
 
-# [[menu.main]]
-# identifier  = "open-source"
-# name        = "Apps"
-# url = "/open-source/"
-# weight      = 2
+[[menu.main]]
+identifier  = "product"
+name        = "products"
+url         = "/product/"
+weight      = 2
 
 [[menu.main]]
 identifier  = "about"
 name        = "About"
-url = "/about/"
+url         = "/about/"
 weight      = 3
 
-# [[menu.main]]
-# identifier  = "post"
-# name        = "Blog"
-# weight      = 1
-
 [[menu.main]]
-identifier  = "shop"
+identifier  = "news"
+name        = "News"
+url         = "/post/"
+weight      = 3
+
+[params.shop_link]
 name        = "Shop"
 url         = "https://gumroad.com/gdquest"
-weight      = 100
 
 
 [permalinks]
@@ -47,6 +41,7 @@ weight      = 100
 [taxonomies]
 tags = "tags"
 category = "category"
+headerbanner = "banner"
 
 [author]
 name = "Nathan Lovato"
@@ -65,24 +60,19 @@ stylesheet = "concise.css"
 twitter = "NathanGDquest"
 googleplus = "Gdquest"
 
-    [params.social.1]
-    link = "https://www.youtube.com/c/gdquest"
-    icon = "youtube-play"
-    description = "GDquest Youtube channel"
-    [params.social.2]
-    link = "https://www.facebook.com/gdquest"
-    icon = "facebook"
-    description = "GDquest Facebook page"
-    [params.social.3]
-    link = "https://twitter.com/NathanGDquest"
-    icon = "twitter"
-    description = "GDquest Twitter page"
-    # [params.social.4]
-    # link = "https://plus.google.com/+Gdquest"
-    # icon = "google-plus-square"
-    # description = "GDquest Google Plus page"
+[params.social.1]
+link = "https://www.youtube.com/c/gdquest"
+icon = "youtube"
+description = "GDquest Youtube channel"
+[params.social.2]
+link = "https://www.facebook.com/gdquest"
+icon = "facebook"
+description = "GDquest Facebook page"
+[params.social.3]
+link = "https://twitter.com/NathanGDquest"
+icon = "twitter"
+description = "GDquest Twitter page"
 
-email = "nathan@gdquest.com"
 
 [blackfriday]
 angledQuotes = true
@@ -92,3 +82,4 @@ latexDashes = true
 plainIdAnchors = true
 extensions = []
 extensionmask = []
+

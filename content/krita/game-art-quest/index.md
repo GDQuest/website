@@ -10,39 +10,37 @@ aliases:
 ---
 
 
-<div class="card-box">
+<div class="card outline base-bottom-margin darkbg">
   <img src="krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials">
+
   <div class="content">
-    <h2>
-      Free Krita tutorial for game artists
-    </h2>
-    A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
-    <div grid>
-      <div column class="-center">
-        <a href="{{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}"> 
-          <button class="-calltoaction">{{< icon book default >}} Free course</button>
-        </a>
-        <a href="{{< ref "product/krita/brushes/index.md" >}}"> 
-          <button class="-calltoaction -success">{{< icon paint-brush success >}} Krita brushes</button>
-        </a>
-      </div>
+    <h4 class="title">Free Krita tutorial for game artists</h4>
+    <p>
+      A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
+    </p>
+    <div class="small-spaced-children buttons">
+      <a class="btn flat" href="{{< ref "product/krita/brushes/index.md" >}}">
+        {{< icon paint-brush default >}} Krita brushes
+      </a>
+      <a class="btn flat" href="{{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}">
+        {{< icon book default >}} Free course
+      </a>
     </div>
   </div>
 </div>
 
-<div class="card-box">
+<div class="card outline">
   <img src="painterly-game-art-banner.jpg" alt="Game Art Quest volume 2 banner - painterly art">
+
   <div class="content">
-    <h2>
-      Make Professional Painterly Game Art with Krita
-    </h2>
-    Want to go a step further and learn to make professional sprites? Then, this course is for you.
-    <div grid>
-      <div column class="-center">
-        <a href="{{< ref "product\krita\painterly-game-art\index.md" >}}"> 
-          <button class="-calltoaction -success">{{< icon book default >}} Learn more</button>
-        </a>
-      </div>
+    <h4 class="title">Make Professional Painterly Game Art with Krita</h4>
+    <p>
+      Want to go a step further and learn to make professional sprites? Then, this course is for you.
+    </p>
+    <div class="buttons">
+      <a class="btn flat" href="{{< ref "product/krita/painterly-game-art/index.md" >}}">
+        {{< icon book default >}} Learn more
+      </a>
     </div>
   </div>
 </div>

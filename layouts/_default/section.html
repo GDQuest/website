@@ -1,30 +1,43 @@
+{{ define "head_content" }}
+  {{ with .Params.banner }}
+    <div class="blurred-fill" style="background-image: url({{ .src }})"></div>
+  {{ end }}
+  <div class="grid split2 small-v-padding">
+    <div>
+      <h1 class="no-margin">{{.Title}}</h1>
+      {{ with .Params.small }}
+        <p>{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
+
+
 {{ define "main" }}
-<main grid style="margin-top: 0">
-    <article column>
-    <header>
-        {{ with .Params.banner }}
-        {{ partial "block/banner_img" . }}
+  <main>
+
+    <section class="container base-v-padding">
+      {{ .Content }}
+    </section>
+
+    {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}
+      <section class="grid split2 container base-v-padding list">
+
+        {{ range .Paginator.Pages }}
+
+          <div>
+            {{ .Render "summary" }}
+          </div>
+
         {{ end }}
-    </header>
-    <h1 align="center">
-        {{ .Title }}
-        {{ with .Params.subtitle }}
-        <br/><small>{{ . }}</small>
-        {{ end }}
-    </h1>
+      </section>
 
-    {{ .Content }}
+      <div class="container">
+        {{ partial "paginator" . }}
+      </div>
 
-    <!-- {{ range .Resources }} -->
-    <!-- {{ .ResourceType | title }} -->
-    <!-- {{ end }} -->
+    {{end}}
 
-    <!-- {{ with .Resources.ByType "page" }} -->
-    <!-- {{ range . }} -->
-    <!-- <h3>{{ .Title }}</h3> -->
-    <!-- {{ .Content }} -->
-    <!-- {{ end }} -->
-    <!-- {{ end }} -->
-    </article>
-</main>
+      
+  </main>
 {{ end }}
