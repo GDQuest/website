@@ -1,0 +1,62 @@
+$round-radius: 8px;
+
+$micro-spacing: 8px;
+$tiny-spacing: 16px;
+$small-spacing: 24px;
+$base-spacing: 32px;  // this is also the gutter spacing
+$big-spacing: 72px;
+$huge-spacing: 100px;
+
+$base-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$title-font: "Montserrat", sans-serif;
+
+$font-size: 18px;
+
+$font-size-small: 14px;
+$font-size-normal: $font-size;
+$font-size-big1: 21px;
+$font-size-big2: 24px;
+$font-size-big3: 28px;
+$font-size-big4: 32px;
+$font-size-big5: 54px;  /* reduce to 48? */
+
+$base-text-shadow: 0 0 4px rgba(0, 0, 0, .5);
+$base-border-color: rgba(0, 0, 0, .2);
+
+$colors: (
+	default: ("base": white, "text": #6e6e6e, "text-hl": #505050, "text-bright": deepskyblue),
+	dark: ("base": #272b30, "text": #cacaca, "text-hl": white),
+	accent-main: ("base": #2599f7, "text": white),
+	accent-opt: ("base": #ffc107, "text": #272b30),	
+);
+
+$bg-screen-size: 1200px;
+$md-screen-size: 992px;
+$sm-screen-size: 768px;
+
+
+@mixin dark {
+	background-color: get_color(dark, base);
+	color: get_color(dark, text);
+}
+
+@mixin bg-centered {
+	background-size: cover;
+	background-position: center;
+}
+
+@mixin tablet {
+	@media screen and (max-width: $bg-screen-size + $small-spacing * 2) {
+		@content;
+	}
+}
+@mixin mobile {
+	@media screen and (max-width: $sm-screen-size) {
+		@content;
+	}
+}
+@mixin desktop {
+	@media screen and (min-width: $bg-screen-size + $small-spacing * 2) {
+		@content;
+	}
+}

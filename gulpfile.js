@@ -15,8 +15,8 @@ const imgSrc = './_src/img/**/*.{png,jpg,gif,svg}'
 const bannerSrc = './static/img/**/banner.jpg'
 const imgDest = './static/img'
 
-const scssWatchFiles = ['./_src/css/**/*.scss']
-const scssSrcFile = './_src/css/gdquest.scss'
+const scssWatchFiles = ['./_src/scss/**/*.scss']
+const scssSrcFile = './_src/scss/gdquest.scss'
 const cssOutputFolder = './static/css/'
 
 

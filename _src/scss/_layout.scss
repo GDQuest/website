@@ -1,0 +1,180 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.micro-padding { padding: $micro-spacing; }
+.tiny-padding { padding: $tiny-spacing; }
+.small-padding { padding: $small-spacing; }
+.base-padding { padding: $base-spacing; }
+
+.base-top-margin { margin-top: $base-spacing; }
+.big-top-margin { margin-top: $big-spacing; }
+
+.base-bottom-margin { margin-bottom: $base-spacing; }
+.big-bottom-margin { margin-bottom: $big-spacing; }
+
+.base-top-padding { padding-top: $base-spacing; }
+.big-top-padding { padding-top: $big-spacing; }
+
+// vertical only padding and margin
+@each $thing in margin, padding {
+	.tiny-v-#{$thing} {
+		#{$thing}-top: $tiny-spacing;
+		#{$thing}-bottom: $tiny-spacing;
+	}
+	.small-v-#{$thing} {
+		#{$thing}-top: $small-spacing;
+		#{$thing}-bottom: $small-spacing;
+	}
+	.base-v-#{$thing} {
+		#{$thing}-top: $base-spacing;
+		#{$thing}-bottom: $base-spacing;
+	}
+	.big-v-#{$thing} {
+		#{$thing}-top: $big-spacing;
+		#{$thing}-bottom: $big-spacing;
+	}
+}
+
+// horizontal only padding and margin
+@each $thing in margin, padding {
+	.tiny-h-#{$thing} {
+		#{$thing}-left: $tiny-spacing;
+		#{$thing}-right: $tiny-spacing;
+	}
+	.small-h-#{$thing} {
+		#{$thing}-left: $small-spacing;
+		#{$thing}-right: $small-spacing;
+	}
+	.base-h-#{$thing} {
+		#{$thing}-left: $base-spacing;
+		#{$thing}-right: $base-spacing;
+	}
+	.big-h-#{$thing} {
+		#{$thing}-left: $big-spacing;
+		#{$thing}-right: $big-spacing;
+	}
+}
+
+@each $thing in margin, padding {
+	@each $size in tiny, small, base, big {
+		.#{$size}-#{$thing} > :first-child, .#{$size}-v-#{$thing} > :first-child {
+			margin-top: 0;
+			padding-top: 0;
+		}
+		.#{$size}-#{$thing} > :last-child, .#{$size}-v-#{$thing} > :last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+}
+
+
+.tiny-spaced-children > * { margin-left: $tiny-spacing; }
+.tiny-spaced-children > :first-child { margin-left: 0; }
+.small-spaced-children > * { margin-left: $small-spacing; }
+.small-spaced-children > :first-child { margin-left: 0; }
+.base-spaced-children > * { margin-left: $base-spacing; }
+.base-spaced-children > :first-child { margin-left: 0; }
+
+
+.no-margin {
+	margin: 0px;
+}
+.no-padding {
+	padding: 0px;
+}
+
+
+
+.flex {
+	display: flex
+}
+.flex.align-items-center {
+	align-items: center;
+}
+.flex.justify-space-between {
+	justify-content: space-between;
+}
+.flex.justify-space-around {
+	justify-content: space-around;
+}
+.flex.direction-col-reverse {
+	flex-direction: column-reverse;
+}
+.flex-horizontal {
+	display: flex;
+	flex-direction: column;
+}
+.flex.wrap {
+	flex-wrap: wrap;
+}
+.flex > .full {
+	flex: 100%;
+}
+
+
+.grid.list > * {
+	margin-bottom: $base-spacing;
+}
+
+
+@include mobile {
+	.container {
+		padding-left: $tiny-spacing;
+		padding-right: $tiny-spacing;
+	}
+}
+
+@include desktop {
+	.container {
+	  max-width: $bg-screen-size;
+	}
+
+	@supports (display: grid) {
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(6, minmax(100px, 1fr));
+			grid-gap: $base-spacing;
+
+			grid-auto-rows: max-content;
+		}
+
+		.grid.list > * { margin-bottom: 0; }
+
+		.grid.center {
+			grid-template-areas: ". b b b b .";
+		}
+
+		.grid.center > :first-child {
+			grid-area: b;
+		}
+
+		.grid.split3 {
+		}
+		.grid.split3 > * {
+			grid-column: span 2;
+		}
+
+		.grid.split2 {
+			grid-template-areas: "a a a b b b"
+		}
+
+		.grid.split2 > * {
+			grid-column: span 3;
+		}
+		.grid.split2 > .small {
+			grid-column: span 2;
+		}
+		.grid.split2 > .big {
+			grid-column: span 4;
+		}
+
+
+		.grid > .span-half {
+			grid-column: span 3;
+		}
+	}
+}
