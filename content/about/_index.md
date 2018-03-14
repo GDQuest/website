@@ -5,7 +5,9 @@ date: 2017-04-10T13:40:07+02:00
 paginate: false
 ---
 
-Game Design Quest, or GDquest, is an educational resource for game creators. I share the techniques I've learned working as a designer for several years. I work hard to make it easier for you to learn new tools. Students, indies, hobbyists: everyone's welcome!
+Game Design Quest is a collection of online resources to help indies, students and hobbyists become better game developers, all that using Free and Open Source Software.
+
+I'm Nathan, a French game design tutor currently living in Japan.
 
 I create [tutorials](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ) weekly, but not only. I also make [tools]({{< ref "product/krita/brushes/index.md" >}}) to help you work more comfortably or productively, and answer many questions on Youtube or Discord.
 
