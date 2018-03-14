@@ -1,13 +1,12 @@
 # Folders #
 ###########
 
+/.publish/
 /public/
 /node_modules/
 /_src/img/
 /_src/website-redesign/
 static/img
-.publish/
-.publish
 .vscode/
 
 
