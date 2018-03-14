@@ -1,9 +1,10 @@
 # Folders #
 ###########
 
-public/
-node_modules/
-_src/img/
+/public/
+/node_modules/
+/_src/img/
+/_src/website-redesign/
 static/img
 .publish/
 .publish
