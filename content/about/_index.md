@@ -2,18 +2,24 @@
 title: About
 small: GDquest, its mission, and the people behind it
 date: 2017-04-10T13:40:07+02:00
+layout: single
+
+banner:
+  src: img/business-card-banner-format.png
+  alt: "Godot course update 4 banner showing characters on a tiles-based map"
+
 paginate: false
 ---
 
 ## GDquest's mission
 
-GDquest's goal is to help you become a better game designer. It's a growing library of [ game creation tutorials ](/tutorial) and tools to help indies, students and hobbyists become better game developers, all that using Free and Open Source Software.
+GDquest's goal is to help you **become a better game designer**. It's a growing library of [ game creation tutorials ](/tutorial) and tools to help **indies**, **students** and **hobbyists** learn professional design, programming, and art techniques, all that using **Free and Open Source Software**.
 
-With over 200 free tutorials out already on Youtube and several courses, I've already reached out to tens of thousands
-
-![GDquest banner card](./img/business-card-banner-format.png)
+With over 200 free tutorials out already on Youtube and several courses, I've already reached out to **tens of thousands of students**.
 
 GDquest is community-driven: the last 2 projects were crowdfunded on Kickstarter and shaped with the backers' feedback:
+
+![](/krita/game-art-quest/painterly-game-art-banner.jpg)
 
 1. [ Make Professional 2d game art with Krita ]({{< ref "product/krita/painterly-game-art/index.md" >}})
 2. [ Make Professional 2d games with Godot 3 ](https://gumroad.com/l/godot-tutorial-make-professional-2d-games)
