@@ -51,7 +51,7 @@ aliases:
 
 You came to the right place! Using **Krita, a free and open source painting application**, Game Art Quest will show you both **essential concepts** and **concrete techniques** professionals use on a daily basis. [The first course]({{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}) in the series is **completely free** (6 hours of tutorials).
 
-In this series, **I run you through the process of creating professional sprites for games**. I share my workflow and productivity tricks. Not only that! I will that Krita is the leading Free and Open Source digital painting program today.
+In this series, **I run you through the process of creating professional sprites for games**. I share my workflow and productivity tricks. Not only that! I will show you that Krita is the leading Free and Open Source digital painting program today.
 
 To become a more efficient artist, you have to sharpen your observation skills and explore fundamental techniques. These are the same regardless of the tools you are using, so the concepts you will learn apply to any painting application.
 

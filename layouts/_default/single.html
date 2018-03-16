@@ -20,7 +20,10 @@
 {{ define "main" }}
   <div class="grid center container">
 		<article class="base-v-padding">
-      <img src="{{ .Params.banner.src }}" alt="{{ .Params.banner.alt }}" class="big-bottom-margin">
+
+      {{ with .Params.banner }}
+        <img src="{{ .src }}" alt="{{ .alt }}" class="big-bottom-margin">
+      {{ end }}
 			{{ .Content }}
 		</article>
   </div>
