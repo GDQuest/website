@@ -41,17 +41,17 @@
 						<hr>
 
 						<div class="content">
-							<ul class="collection">
+							<ol class="collection">
 	              {{ $.Scratch.Set "video_count" 0 }}
 
 	              {{ range .video }}
 	                {{ $.Scratch.Add "video_count" 1 }}
 	                <li class="item">
-	                  <span data-font="dimmed">{{ $.Scratch.Get "video_count" }}.</span>
+	                    <!-- <span data-font="dimmed">{{ $.Scratch.Get "video_count" }}.</span> -->
 	                  <a href="https://www.youtube.com/watch?v={{ .URL }}" target="_blank">{{ .TITLE }}</a>
 	                </li>
 	              {{ end }}
-	            </ul>
+	            </ol>
 						</div>
 					</div>
 

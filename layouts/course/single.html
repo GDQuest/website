@@ -60,13 +60,13 @@
 	        <p>{{ .description | markdownify }}</p>
 
 	        <!-- Video list -->
-	        <ul class="collection">
+	        <ol class="collection">
 	          {{ range .videos }}
 	            {{ $.Scratch.Add "video_count" 1 }}
 	            {{ $.Scratch.Add "video_count_chapter" 1 }}
 
 	            <li class="item">
-	            <span data-font="dimmed">{{ $.Scratch.Get "video_count_chapter" }}.</span>
+	                <!-- <span data-font="dimmed">{{ $.Scratch.Get "video_count_chapter" }}.</span> -->
 	            {{ if and (le ($.Scratch.Get "video_count") ($.Scratch.Get "videos_released") ) (and (isset . "url") (not (eq .url "") )) }}
 	              <a href="{{ .url }}">{{ .title }}</a>
 	            {{ else }}
@@ -100,13 +100,13 @@
 	            {{ end }}
 	            </li>
 	          {{ end }}
-	        </ul>
+	        </ol>
 				</div>
       {{ end }}
 
 		</div>
 
-		
+
 	</section>
 
 
@@ -114,7 +114,7 @@
     <h2>related products</h2>
     <div class="grid split2 list">
     	{{ range first 2 (where $.Site.Pages "Section" "product") }}
-    		{{ .Render "summary" }}					
+    		{{ .Render "summary" }}
 	    {{ end }}
     </div>
 
