@@ -12,9 +12,8 @@ tags:
   - free krita brushes
   - krita brush
 
-aliases: 
+aliases:
   - product/krita-tutorial-1
-  - product/krita/painterly-game-art
   - krita-professional-game-art-tutorial
   - product/krita/painterly_game_art
 
@@ -80,4 +79,3 @@ Krita is an award winning, free and open source painting program. It is availabl
 ## To those who made this possible
 
 I want to thank the [424 Kickstarter backers](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) who made this project possible from the bottom of my heart! Thanks to these persons, tens of thousands of people got hours of free education for Krita, and many discovered this wonderful program. This would not have been possible without you. GDquest would not have been possible without you. Many thanks!
-
