@@ -123,11 +123,6 @@ a, .darkbg a, .darkbg a .icon {
 
   transition: color .1s ease-in-out;
 }
-#header {
-    background: get-color(header, base);
-    background: linear-gradient(to left, get-color(header, start),get-color(header, end) );
-    z-index: -100;
-}
 a:hover, .pages a:hover, #topbar nav a:hover, a.icon:hover, a:hover .icon {
 	color: get-color(accent-main, base);
 }
@@ -192,8 +187,12 @@ main {
 	@include bg-centered;
 }
 
+
+#header {
+    background-color: transparent;
+}
 .header-img {
-    background-image: url(/img/homepage-header.png);
+    background-image: url(/img/homepage-header.png), linear-gradient(to left, get-color(header, start),get-color(header, end) );
     background-position: top;
     z-index: -1;
 }
