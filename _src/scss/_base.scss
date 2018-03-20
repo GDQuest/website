@@ -123,6 +123,11 @@ a, .darkbg a, .darkbg a .icon {
 
   transition: color .1s ease-in-out;
 }
+#header {
+    background: get-color(header, base);
+    background: linear-gradient(to left, get-color(header, start),get-color(header, end) );
+    z-index: -100;
+}
 a:hover, .pages a:hover, #topbar nav a:hover, a.icon:hover, a:hover .icon {
 	color: get-color(accent-main, base);
 }
@@ -185,6 +190,12 @@ main {
 	z-index: 0;
 
 	@include bg-centered;
+}
+
+.header-img {
+    background-image: url(/img/homepage-header.png);
+    background-position: top;
+    z-index: -1;
 }
 
 .blurred-fill {

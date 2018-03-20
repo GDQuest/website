@@ -5,10 +5,10 @@
 
   <body>
 
-		<header class="darkbg">
+		<header class="darkbg" id="header">
 
 			<input type="checkbox" id="nav_toggle_cb">
-			
+
 			<div id="topbar" class="container flex align-items-center" data-font="title semibold uppercase">
 				<span class="flex align-items-center">
 					<a href="{{.Site.BaseURL}}">
@@ -16,12 +16,12 @@
 					</a>
 					<label for="nav_toggle_cb" id="menu_btn"><i class="fas fa-bars icon"></i></label>
 				</span>
-				
+
     		{{ partial "nav" . }}
 			</div>
 
 			<section class="container" id="header_content">
-				{{ block "head_content" . }} {{ end }}				
+				{{ block "head_content" . }} {{ end }}
 			</section>
 		</header>
 
