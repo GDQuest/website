@@ -187,12 +187,16 @@ main {
 	@include bg-centered;
 }
 
-
 #header {
     background-color: transparent;
 }
-.header-img {
-    background-image: url(/img/homepage-header.png), linear-gradient(to left, get-color(header, start),get-color(header, end) );
+.header-bg-home {
+    background-image: url(/img/homepage-header.png), linear-gradient(to left, get-color(header, start),get-color(header, end));
+}
+.header-bg-section {
+    background-image: linear-gradient(to left, get-color(header, start),get-color(header, end));
+}
+.header-bg {
     background-position: top;
     z-index: -1;
 }
