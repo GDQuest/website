@@ -22,7 +22,7 @@
     </article>
   </section>
 
-  <section id="info" class="grid container center big-top-margin">
+  <section id="info" class="grid container center">
     {{ with .Params.author }}
       {{ with (index $.Site.Data.authors . ) }}
         {{ partial "modules/author" . }}
