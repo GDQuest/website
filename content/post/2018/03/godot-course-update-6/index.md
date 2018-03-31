@@ -32,8 +32,9 @@ The new update is out! As announced in the last news post, it's smaller than usu
 
 Work has still been busy until the end of the month: it not only took a while to get back to everyone, catch up with activity on GitHub, but also to get back up to speed in a foreign country. That's why are no new videos this time, aside from the free [ bonus camera tutorial ](https://www.youtube.com/watch?v=lNNO-Gh5j78) released on YouTube.
 
-You will find new and updated code examples.
-In the pro version (Premium Kickstarter tier and up) there's new challenge exercises to complete chapter 1 and 2.
+You will find new and updated code examples. In the pro version (Premium Kickstarter tier and up) there's new challenge exercises to complete chapter 1 and 2.
+
+Check out the [Godot 3 course on Gumroad](https://gumroad.com/gdquest)!
 
 I also rewrote the navigation 2d example and wrote a new [ AStar demo ](https://github.com/GDquest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding) to show how to code grid-based pathfinding in the engine.
 
