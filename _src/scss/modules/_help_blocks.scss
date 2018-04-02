@@ -1,0 +1,29 @@
+.note, .tips, .warning {
+    display: block;
+    padding: 0 $tiny-spacing;
+    padding-bottom: $tiny-spacing;
+    border-radius: $round-radius;
+
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+}
+
+.note:before, .tips:before {
+    display: block;
+    margin: 0 -1*$tiny-spacing 10px -1*$tiny-spacing;
+    padding-left: $tiny-spacing;
+    border-radius: $round-radius $round-radius 0 0;
+
+    font-style: bold;
+
+    color: white;
+}
+
+.note:before {
+    content: "Note";
+    background-color: get-color(accent-main, base);
+}
+
+.tips:before {
+    content: "Tips";
+    background-color: get-color(colors, pink);
+}
