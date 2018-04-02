@@ -28,9 +28,9 @@ You can also find a lot of Free resources on [ GDquest's GitHub page ](https://g
 
 ## The guy behind GDquest
 
-![Photo of Nathan, GDquest founder]()
+![Photo of Nathan, GDquest founder](./img/nathan-gdquest.jpg)
 
-Hey, I'm Nathan, the voice you've heard in most videos on [ Youtube ](http://youtube.com/c/gdquest). I'm currently living in Nara, a large city lost in the Japanese countryside.
+Hey, I'm Nathan (*bottom left on the picture above*), the voice you've heard in most videos on [ Youtube ](http://youtube.com/c/gdquest). I'm currently living in Nara, a large city lost in the Japanese countryside.
 
 ![Fushimi Inari Taisha](./img/fushimi-inari-taisha.jpg)
 
