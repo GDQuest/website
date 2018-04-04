@@ -71,7 +71,9 @@ We are working on both text docs and video tutorials:
 1. All features and keyboard shortcuts are [ on our GitHub page ](https://github.com/GDquest/Blender-power-sequencer#add-crossfade)
 1. For video tutorials, check the [ Power Sequencer playlist ](https://www.youtube.com/watch?v=boAhi8hWBXc&list=PLhqJJNjsQ7KFjp88Cu57Zb9_wFt7nlkEI) on Youtube
 
-Want to give a hand? Great! Check out the [Power Sequencer Docs](https://github.com/GDquest/Blender-power-sequencer-docs/) repository.
+Want to **give a hand**? Great! Check out the [Power Sequencer Docs](https://github.com/GDquest/Blender-power-sequencer-docs/) repository.
+
+![Daniel Oakey, a med school graduate and open source enthusiast, teaching video editing with Blender](./img/doakey3-beginner-tutorial.jpg)
 
 ## It's getting better
 
