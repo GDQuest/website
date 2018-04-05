@@ -58,11 +58,15 @@ Power Sequencer adds over <strong>40 new functions</strong> to Blender's Video E
 
 ![The enable add-on window and checkbox](./img/blender-enable-addon.png)
 
+Installation guide:
+
 1. [ Download ](https://github.com/GDquest/Blender-power-sequencer/releases) the latest release on GitHub
 1. In Blender, go to File > User Preferences > Addons
 1. Click "Install From File", find the .zip file from step 1. and click on "install"
 1. Click the checkbox next to "VSE: Power Sequencer" to activate it
 1. Click Save User Settings at the bottom
+
+{{< button "Download now" "https://github.com/GDquest/Blender-power-sequencer/releases" "centered" >}}
 
 ## Getting Started
 
