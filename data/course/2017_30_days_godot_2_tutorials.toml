@@ -1,5 +1,5 @@
 [chapters.1]
-title = "Week 1: Custom camera, Tilesets and Animation"
+title = "Custom camera, Tilesets and Animation"
 small = ""
 description = ""
 
@@ -35,7 +35,7 @@ url = "https://youtube.com/watch?v=09QrdSEGtwI"
 
 
 [chapters.2]
-title = "Week 2: Tilemaps, Grids and Vectors"
+title = "Tilemaps, Grids and Vectors"
 small = ""
 description = ""
 
@@ -71,7 +71,7 @@ url = "https://www.youtube.com/watch?v=rMx35lyXCpk"
 
 
 [chapters.3]
-title = "Week 3: Steering, the Kraken and isometric movement"
+title = "Steering, the Kraken and isometric movement"
 small = ""
 description = ""
 
@@ -105,7 +105,7 @@ url = "https://youtu.be/dC4-TSFv32Y"
 
 
 [chapters.4]
-title = "Week 4: Vectors, save and Godot overview"
+title = "Vectors, save and Godot overview"
 small = ""
 description = ""
 
@@ -135,7 +135,7 @@ url = "https://youtu.be/ofDcC3aux8Q"
 
 
 [chapters.5]
-title = "Week 5: Signals, UI and closing stream"
+title = "Signals, UI and closing stream"
 small = ""
 description = ""
 

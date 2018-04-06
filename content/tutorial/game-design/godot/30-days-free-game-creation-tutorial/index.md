@@ -1,5 +1,5 @@
 ---
-title: '30 Days of Godot Tutorials'
+title: '30 Days of Godot 2 Tutorials'
 description: Daily tutorials brought to you for Free, as part of the [Make Professional 2d games with Godot](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) Kickstarter campaign
 date: 2017-05-27T15:25:47+02:00
 author: nathan
@@ -14,13 +14,13 @@ tags:
     - free
 
 type: course
-course: godot_kickstarter_challenge
+course: 2017_30_days_godot_2_tutorials
 banner:
     src: banner.jpg
     alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
     class: -pink
 ---
 
-These tutorials are brought to you for free as part of the Kickstarter project [Make Professional 2d Games with Godot](https://gumroad.com/l/godot-tutorial-make-professional-2d-games). It was funded in 12h, and plenty of stretch goals were unlocked already. Please check it out!
+These 30 Godot 2 tutorials were brought to you for free as part of the Kickstarter project [Make Professional 2d Games with Godot](https://gumroad.com/gdquest). For more recent tutorials check out [ GDquest on Youtube ](youtube.com/c/gdquest)!
 
-This is an Open Source project. Both the assets and the code are [available on Github](https://github.com/GDquest/Godot-30-days-tutorial-challenge-2017), with comments to help you learn directly from the examples.
+All the assets and the code [open source on Github](https://github.com/GDquest/Godot-30-days-tutorial-challenge-2017) with extra comments to help you learn directly from the projects.
