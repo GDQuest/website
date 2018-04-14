@@ -1,0 +1,10 @@
+blockquote {
+	  margin: 0;
+	  border-left: 4px get-color(accent-main, base) solid;
+	  padding: 0 20px;
+	  font-style: italic;
+
+    > footer {
+	      color: get-color(default, text-hl);
+    }
+}
