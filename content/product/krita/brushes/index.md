@@ -60,7 +60,7 @@ See more of Zhillustrator's work [on Artstation](https://www.artstation.com/arti
 {{< banner-img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
 
 The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
-[Click here to download the free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite)
+[Click here to download the free Krita brushes](https://github.com/GDquest/free-krita-brushes/)
 
 
 ## Changelog

@@ -48,7 +48,7 @@ The 2 cloud builder brushes in this release make it effortless to paint game-rea
 The Lite set also got some love. It is now twice as big, for a total of 16 presets. It is completely free, and gets an update every 2 months.
 
 - [Krita brushes premium](https://gum.co/krita-brushes-for-game-artists) {{< icon shopping-cart success >}}
-- [Lite version](https://gumroad.com/l/krita-brushes-gdquest-lite) (free)
+- [Lite version](https://github.com/GDquest/free-krita-brushes/) (free)
 
 ## Plans for the week
 
