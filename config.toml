@@ -59,9 +59,6 @@ stylesheet = "concise.css"
 twitter = "NathanGDquest"
 googleplus = "Gdquest"
 
-[params.banner]
-src = '/img/homepage-header.png'
-
 [params.social.1]
 link = "https://www.youtube.com/c/gdquest"
 icon = "youtube"
