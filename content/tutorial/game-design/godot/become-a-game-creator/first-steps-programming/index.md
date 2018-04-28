@@ -22,9 +22,22 @@ This first part is for you if you have little to no programming experience. You'
 It's the first part of a *Free and Open Source* intro series to game creation and the [ Godot game engine ](https://godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
 </span>
 
-This is a living guide! Suggest improvements, give feedback, fix typos [ on GitHub ](https://github.com/GDquest/GDquest-website/blob/master/content/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md).
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
 
-I'm also [ on Twitter ](https://twitter.com/NathanGDquest) if you have questions!
+- [What do you want to create?](#what-do-you-want-to-create)
+- [To code games, you need programming foundations](#to-code-games-you-need-programming-foundations)
+- [The first language you'll learn isn't that important](#the-first-language-youll-learn-isnt-that-important)
+- [Programming is for everyone](#programming-is-for-everyone)
+- [Don't start with C++](#dont-start-with-c)
+- [Visual programming is still computer code](#visual-programming-is-still-computer-code)
+- [I recommend to start with Python](#i-recommend-to-start-with-python)
+- [Three resources to learn Python step by step](#three-resources-to-learn-python-step-by-step)
+- [Summary](#summary)
+- [Your Questions](#your-questions)
+
+<!-- markdown-toc end -->
+
 
 ## Take it one step at a time
 
@@ -71,7 +84,7 @@ You'll have to be patient. Start small and hone each skill you need separately. 
 
 Let's assume you want to make video games by yourself. Or at least game prototypes to try out with your friends and flesh out with the help of a developer. You're going to have to dive into code, but...
 
-## ...to code games, you need programming foundations
+## To code games, you need programming foundations
 
 If you jump straight in a game editor and try to write code you're in trouble. Game engines are large collections of technologies that add hundreds, if not thousands of new tools and functions to learn on top of programming foundations. You're going to get stuck often and you'll hit frustrating roadblocks. If you don't know what variables, functions, loops, objects, and classes are, how they work to some extent, you'll want to **build solid foundations** first.
 
@@ -125,7 +138,7 @@ Unless you like to learn the hard way, you don't have to start with C++. C++ is 
 
 > There are different types of developers: some like to code for the sake of it while others are driven by projects. You shouldn't be discouraged if you aren't part of the first group. I don't like math, or programming in itself, and it's ok, it doesn't prevent you from creating games.
 >
-> <footer><a href="http://fenntasy.com/wanuts/">Florïn Zolli</a>, level designer at Ankama (Dofus, Wakfu), community manager at MotionTwin, now studying development</footer>
+> <footer><a href="http://fenntasy.com/wanuts/">Florïn Zolli</a>
 
 There are thousands of ways to code. You don't have to do complex math to build games. You can challenge yourself with complex algorithms or just animate characters moving on the screen.
 
@@ -154,9 +167,7 @@ A code editor can report errors when you run the program and it fails. You will 
 
 In my experience visual languages don't scale well. The larger your project, the more inconvenient they become. They're often slower to use than text as you end up navigating through menus and connecting blocks to do basic operations.
 
-<span class="note">
 You will only see the drawbacks of visual code after after you learned and got comfortable text-based programming. It is okay to start with visual code. Just don't count other programming languages out because it's harder for you to get started. As a designer I'm glad I made the transition: it felt a little uncomfortable at first but I never looked back.
-</span>
 
 <!-- TODO: ![Same code example as above in GDscript, Godot's text-based game programming language]() -->
 <!-- USE CHROMA HIGHLIGHTING -->
@@ -175,22 +186,16 @@ I recommend to start with Python for at least 3 reasons:
 1. You can create all kinds of programs with it: automate tasks on your computer, code web applications, science applications, even games...
 1. It has a huge active community. Python is taught in many schools and universities so it's easy to find good learning resources for teenagers and adults alike. My friend Chris Bradiel even [ teaches Python to kids ](http://kidscancode.org/)!
 
-<span class="note">
-We're talking about your first language here: certainly not your last. A lot of what you'll learn will transfer to other technologies.
-</span>
-
 <!-- TODO: ![Screenshot of Python code]() OR PYTHON SNIPPET -->
 
 Python is great to get started with code. For aspiring game creators it's a also a reliable tool: it's the most common language to write plug-ins for graphic applications like Blender, Krita, and Gimp. This is not only true for Free Software: large 3D applications like Maya or 3DSMax also let you write new features with Python.
 
 
 <!-- TODO: check and fix -->
-> During the last Europython [] I met companies who made Python and game development work. Crytek and EA (Frostbyte) use it in their assets pipeline, the build system, and automated tests.
+> During the last Europython I met companies who made Python and game development work. Crytek and EA (Frostbyte) use it in their assets pipeline, the build system, and automated tests.
 > Emmanuel aka TouilleMan, Senior Python developer
 
-<span class="note">
 As explained earlier, we're talking about your first text-based language here. It certainly won't and shouldn't be the last you'll study. Python is a good stepping stone on your learning journey: it's a middleground between visual programming languages like Scratch and strict ones like C++.
-</span>
 
 You'll find few games written in the language. Instead, game development companies sometimes use it to create tools on top of their engine: everything that has to do with processing art and other assets to use in the game for example.
 
@@ -251,7 +256,9 @@ It's time for you to use the resources above and to start building your programm
 
 In the next part we'll get started with game design.
 
-<!-- TODO: ADD CTA -->
+This is a living guide! Suggest improvements, give feedback, fix typos [ on GitHub ](https://github.com/GDquest/GDquest-website/blob/master/content/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md).
+
+I'm also [ on Twitter ](https://twitter.com/NathanGDquest) if you have questions!
 
 ## Your Questions
 
