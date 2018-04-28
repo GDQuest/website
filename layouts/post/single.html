@@ -1,33 +1,36 @@
 {{ define "head_content" }}
-  <div class="blurred-fill" style="background-image: url({{ .Params.banner.src }})"></div>
-  <div class="grid center base-v-padding content">
+<div class="blurred-fill"
+     {{ with .Params.banner }}
+     style="background-image: url({{ .src }})"
+     {{ end }}></div>
+<div class="grid center base-v-padding content">
     <div>
-      <h1 class="no-margin">{{.Title}}</h1>
-      {{ with .Params.author }}
-        {{ with (index $.Site.Data.authors . ) }}
-          <p>by: {{ .name }} </p>
+        <h1 class="no-margin">{{.Title}}</h1>
+        {{ with .Params.author }}
+            {{ with (index $.Site.Data.authors . ) }}
+            <p>by: {{ .name }} </p>
+            {{ end }}
         {{ end }}
-      {{ end }}
     </div>
-  </div>
+</div>
 {{ end }}
 
 
 {{ define "main" }}
-
-  <section class="grid center container base-v-padding">
+<section class="grid center container base-v-padding">
     <article>
-      <img src="{{ .Params.banner.src }}" alt="{{ .Params.banner.alt }}">
-      {{ .Content }}
+        {{ with .Params.banner }}
+        <img src="{{ .src }}" alt="{{ .alt }}">
+        {{ end }}
+        {{ .Content }}
     </article>
-  </section>
+</section>
 
-  <section id="info" class="grid container center">
+<section id="info" class="grid container center">
     {{ with .Params.author }}
-      {{ with (index $.Site.Data.authors . ) }}
-        {{ partial "modules/author" . }}
-      {{ end }}
+        {{ with (index $.Site.Data.authors . ) }}
+            {{ partial "modules/author" . }}
+        {{ end }}
     {{ end }}
-  </section>
-
+</section>
 {{ end }}

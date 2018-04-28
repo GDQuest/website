@@ -1,30 +1,32 @@
 {{ define "head_content" }}
-  <div class="blurred-fill" style="background-image: url({{ .Params.banner.src }})"></div>
-  <div class="grid center small-v-padding content">
+<div class="blurred-fill"
+     {{ with .Params.banner }}
+     style="background-image: url({{ .src }})"
+     {{ end }}></div>
+<div class="grid center small-v-padding content">
     <div>
-      <h1 class="no-margin">{{.Title}}</h1>
-      {{ with .Params.small }}
+        <h1 class="no-margin">{{.Title}}</h1>
+        {{ with .Params.small }}
         <p>{{ . }}</p>
-      {{ end }}
-      {{ with .Params.author }}
-        {{ with (index $.Site.Data.authors . ) }}
-          <p>by: {{ .name }} </p>
         {{ end }}
-      {{ end }}
+        {{ with .Params.author }}
+            {{ with (index $.Site.Data.authors . ) }}
+            <p>by: {{ .name }} </p>
+            {{ end }}
+        {{ end }}
     </div>
-  </div>
+</div>
 {{ end }}
 
 
 
 {{ define "main" }}
-  <div class="grid center container">
-		<article class="base-v-padding">
-
-      {{ with .Params.banner }}
+<div class="grid center container">
+    <article class="base-v-padding">
+        {{ with .Params.banner }}
         <img src="{{ .src }}" alt="{{ .alt }}">
-      {{ end }}
-			{{ .Content }}
-		</article>
-  </div>
+        {{ end }}
+        {{ .Content }}
+    </article>
+</div>
 {{ end }}

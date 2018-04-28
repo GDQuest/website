@@ -1,135 +1,135 @@
 {{ define "head_content" }}
-	<div class="blurred-fill" style="background-image: url({{ .Params.banner.src }})"></div>
-  <div class="grid split2 content">
+<div class="blurred-fill"
+     {{ with .Params.banner }}
+     style="background-image: url({{ .src }})"
+     {{ end }}></div>
+<div class="grid split2 content">
     <div class="small small-v-padding">
-      <h1 class="no-margin">{{.Title}}</h1>
+        <h1 class="no-margin">{{.Title}}</h1>
     </div>
+    {{ with .Params.banner }}
     <div class="big flex direction-col-reverse">
-    	<img src="{{ .Params.banner.src }}" alt="" class="side-image card outline top-half">
+        <img src="{{ .src }}" alt="" class="side-image card outline top-half">
     </div>
-  </div>
+    {{ end }}
+</div>
 {{ end }}
 
 
 {{ define "main" }}
 
-	{{ $course := index .Site.Data.course .Params.course }}
-	{{ if and (isset .Params "videos_released") (ge .Params.videos_released 0) }}
-	  {{ $.Scratch.Set "videos_released" .Params.videos_released }}
-	{{ else }}
-	  {{ $.Scratch.Set "videos_released" 10000 }}
-	{{ end }}
+{{ $course := index .Site.Data.course .Params.course }}
+{{ if and (isset .Params "videos_released") (ge .Params.videos_released 0) }}
+    {{ $.Scratch.Set "videos_released" .Params.videos_released }}
+{{ else }}
+    {{ $.Scratch.Set "videos_released" 10000 }}
+{{ end }}
 
-	<section class="grid split2 container">
+<section class="grid split2 container">
+    <aside class="small base-v-padding chapters">
+        <h3>chapters</h3>
+        <ul>
+            {{ range $course.chapters }}
+            <li><a href="#{{ replace .title " " "-" }}"> {{ .title }} </a></li>
+            {{ end }}
+        </ul>
+    </aside>
 
-		<aside class="small base-v-padding chapters">
-			<h3>chapters</h3>
-			<ul>
-	      {{ range $course.chapters }}
-          <li><a href="#{{ replace .title " " "-" }}"> {{ .title }} </a></li>
+    <div class="big card bottom-half outline base-v-padding">
+        <div class="tiny-padding">
+            {{ .Content }}
+        </div>
+
+        {{ $.Scratch.Set "video_count" 0 }}
+
+        {{ $.Scratch.Set "videos_done" 0 }}
+        {{ $.Scratch.Set "videos_total" 0 }}
+
+        {{ range $course.chapters }}
+            {{ $.Scratch.Set "duration" 0 }}
+            {{ range .videos }}
+                {{ if isset . "length" }} {{ $.Scratch.Add "duration" .length }} {{ end }}
+                {{ if isset . "url" }} {{ $.Scratch.Add "videos_done" 1 }} {{ end }}
+                {{ $.Scratch.Add "videos_total" 1 }}
+            {{ end }}
+
+        <hr>
+        <!-- chapter title -->
+        <div class="tiny-padding">
+            <h2 id="{{ replace .title " " "-" }}" class="no-margin"> {{ .title }} </h2>
+            {{ $duration := ($.Scratch.Get "duration") }}
+            {{ if gt $duration 0 }}
+            <span data-font="dimmed small">Duration: {{ div $duration 60 }} min {{ mod $duration 60 }} s </span>
+            {{ end }}
+            <p>{{ .description | markdownify }}</p>
+
+            <!-- Video list -->
+            <ol class="collection">
+                {{ range .videos }}
+                {{ $.Scratch.Add "video_count" 1 }}
+                {{ $.Scratch.Add "video_count_chapter" 1 }}
+
+                <li class="item">
+                    <!-- <span data-font="dimmed">{{ $.Scratch.Get "video_count_chapter" }}.</span> -->
+                    {{ if and (le ($.Scratch.Get "video_count") ($.Scratch.Get "videos_released") ) (and (isset . "url") (not (eq .url "") )) }}
+                    <a href="{{ .url }}">{{ .title }}</a>
+                    {{ else }}
+                    {{ .title }} <span data-font="dimmed">Upcoming</span>
+                    {{ end }}
+
+                    {{ if or (isset . "document") (isset . "exercise") }}
+                    <span>
+                        {{ if isset . "document" }}
+                        <a href="{{ .document }}"><i class="fa fa-book"></i></a>
+                        {{ end }}
+                        {{ if isset . "exercise" }}
+                        <a href="{{ .exercise }}"><i class="fa fa-file"></i></a>
+                        {{ end }}
+                    </span>
+                    {{ end }}
+
+                    <!-- Video length -->
+                    {{ if and (isset . "length") (ne .length 0) }}
+                        {{ $minutes := div .length 60 }}
+                        {{ $seconds := mod .length 60 }}
+
+                        {{ $video_length := div .length 60 }}
+                        {{ if ( gt ( mod .length 60 ) 30 ) }}
+                            {{ $.Scratch.Set "video_length" 1 }}
+                        {{ else }}
+                            {{ $.Scratch.Set "video_length" 0 }}
+                        {{ end }}
+                        {{ $video_length := add $video_length ( $.Scratch.Get "video_length" ) }}
+                    <span data-font="dimmed">({{ $video_length }} min)</span>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ol>
+        </div>
         {{ end }}
-			</ul>
-		</aside>
-
-		<div class="big card bottom-half outline base-v-padding">
-			<div class="tiny-padding">
-				{{ .Content }}
-			</div>
-
-			{{ $.Scratch.Set "video_count" 0 }}
-
-      {{ $.Scratch.Set "videos_done" 0 }}
-      {{ $.Scratch.Set "videos_total" 0 }}
-
-      {{ range $course.chapters }}
-        {{ $.Scratch.Set "duration" 0 }}
-        {{ range .videos }}
-          {{ if isset . "length" }} {{ $.Scratch.Add "duration" .length }} {{ end }}
-          {{ if isset . "url" }} {{ $.Scratch.Add "videos_done" 1 }} {{ end }}
-          {{ $.Scratch.Add "videos_total" 1 }}
-        {{ end }}
-
-				<hr>
-				<!-- chapter title -->
-				<div class="tiny-padding">
-					<h2 id="{{ replace .title " " "-" }}" class="no-margin"> {{ .title }} </h2>
-	        {{ $duration := ($.Scratch.Get "duration") }}
-	        {{ if gt $duration 0 }}
-	        	<span data-font="dimmed small">Duration: {{ div $duration 60 }} min {{ mod $duration 60 }} s </span>
-	        {{ end }}
-	        <p>{{ .description | markdownify }}</p>
-
-	        <!-- Video list -->
-	        <ol class="collection">
-	          {{ range .videos }}
-	            {{ $.Scratch.Add "video_count" 1 }}
-	            {{ $.Scratch.Add "video_count_chapter" 1 }}
-
-	            <li class="item">
-	                <!-- <span data-font="dimmed">{{ $.Scratch.Get "video_count_chapter" }}.</span> -->
-	            {{ if and (le ($.Scratch.Get "video_count") ($.Scratch.Get "videos_released") ) (and (isset . "url") (not (eq .url "") )) }}
-	              <a href="{{ .url }}">{{ .title }}</a>
-	            {{ else }}
-	              {{ .title }} <span data-font="dimmed">Upcoming</span>
-	            {{ end }}
-
-	            {{ if or (isset . "document") (isset . "exercise") }}
-	              <span>
-	                {{ if isset . "document" }}
-	                	<a href="{{ .document }}"><i class="fa fa-book"></i></a>
-	                {{ end }}
-	                {{ if isset . "exercise" }}
-	                	<a href="{{ .exercise }}"><i class="fa fa-file"></i></a>
-	                {{ end }}
-	              </span>
-	            {{ end }}
-
-	            <!-- Video length -->
-	            {{ if and (isset . "length") (ne .length 0) }}
-	              {{ $minutes := div .length 60 }}
-	              {{ $seconds := mod .length 60 }}
-
-	              {{ $video_length := div .length 60 }}
-	              {{ if ( gt ( mod .length 60 ) 30 ) }}
-	                {{ $.Scratch.Set "video_length" 1 }}
-	              {{ else }}
-	                {{ $.Scratch.Set "video_length" 0 }}
-	              {{ end }}
-	              {{ $video_length := add $video_length ( $.Scratch.Get "video_length" ) }}
-	              <span data-font="dimmed">({{ $video_length }} min)</span>
-	            {{ end }}
-	            </li>
-	          {{ end }}
-	        </ol>
-				</div>
-      {{ end }}
-
-		</div>
+    </div>
+</section>
 
 
-	</section>
-
-
-	<section id="related" class="container big-v-padding">
+<section id="related" class="container big-v-padding">
     <h2>related products</h2>
     <div class="grid split2 list">
-    	{{ range first 2 (where $.Site.Pages "Section" "product") }}
-    		{{ .Render "summary" }}
-	    {{ end }}
+        {{ range first 2 (where $.Site.Pages "Section" "product") }}
+        {{ .Render "summary" }}
+        {{ end }}
     </div>
 
     <div data-font="centered" class="base-top-padding">
-    	<a href="/product" class="btn">view all</a>
+        <a href="/product" class="btn">view all</a>
     </div>
-	</section>
+</section>
 
 
-	<section id="info" class="grid container center big-top-margin">
+<section id="info" class="grid container center big-top-margin">
     {{ with .Params.author }}
-      {{ with (index $.Site.Data.authors . ) }}
-        {{ partial "modules/author" . }}
-      {{ end }}
+        {{ with (index $.Site.Data.authors . ) }}
+            {{ partial "modules/author" . }}
+        {{ end }}
     {{ end }}
-  </section>
-
+</section>
 {{ end }}
