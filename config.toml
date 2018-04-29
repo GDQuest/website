@@ -41,7 +41,6 @@ url         = "https://gumroad.com/gdquest"
 [taxonomies]
 tags = "tags"
 category = "category"
-headerbanner = "banner"
 
 [author]
 name = "Nathan Lovato"
