@@ -17,7 +17,7 @@ banner:
 layout: single
 ---
 
-*Last update: April 2nd*
+*Last update: April 30*
 
 The course is still in early access, with currently six out of twelve chapters available in the Pro version.
 
@@ -27,7 +27,7 @@ The course comes in 3 versions. Each builds on top of the previous one and adds 
 1. [ Indie ](https://gum.co/XEULZ) (*€ 29.95*)
 1. [ Pro ](https://gum.co/godot-tutorial-make-professional-2d-games) (*€ 59.95*)
 
-You'll find some **free tutorial samples** below.
+You'll find some **free tutorial samples** below. I also released the [ Finite State Machine ](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation.
 
 <p class="note">
 All versions come with source Godot projects so you can read the source code, learn from them and even reuse them in your own work! Want to skip ahead in a chapter? There are multiple checkpoint projects with `start` and `end` folders so you can pick up from a different video.
@@ -68,15 +68,19 @@ All versions come with source Godot projects so you can read the source code, le
 
 ### {{< tag "hobby" >}} Chapter 3: AI 1: Design 2 simple monsters
 
-*4 new video tutorials coming on April 30th*
-
 1. The Porcupine's States Overview
-2. Spawn And Target
-3. Follow
-4. Arrive
-5. Roam
-6. Avoid
-7. Spot And Attack
+1. Spawn And Target
+1. Follow
+1. Arrive
+1. Roam
+1. Avoid
+1. Spot And Attack
+1. Refactor To Reuse Steering Code (Part 1)
+1. Refactor To Reuse Steering Code (Part 2)
+1. When Should You Refactor?
+1. Coding The Flying Enemy
+1. Coding The Nest That Spawns Flying Enemies
+
 
 ### {{< tag "hobby" >}} Chapter 4: Build levels with Tiled map editor
 
@@ -118,13 +122,15 @@ Upcoming
 
 ### {{< tag "pro" >}} Chapter 10: Design pattern: implement Finite State Machines in Godot
 
-1. The Initial Problem
-2. Basic State Management
-3. Introduction To Finite State Machines
-4. Implement The Base State Machine
-5. Build The Walk State
-6. Connect The States And The Fsm
-7. Going Further With Pushdown Automata
+1. Presentation: Introduction To Finite State Machines
+1. Create The Base State Interface
+1. Idle And Move State Examples
+1. Jump State Class Overview
+1. Code The State Machine
+1. Hierarchical State Machine
+1. Presentation: Going Further With Pushdown Automata
+1. Pushdown Automaton
+1. Pushdown Stagger State
 
 ### {{< tag "pro" >}} Chapter 11: Polishing the game
 
