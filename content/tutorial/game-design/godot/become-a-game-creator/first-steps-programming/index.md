@@ -31,11 +31,9 @@ It is the first part of a *Free and Open Source* intro series to game creation a
 - [To code games, you need programming foundations](#to-code-games-you-need-programming-foundations)
 - [The first language you'll learn isn't that important](#the-first-language-youll-learn-isnt-that-important)
 - [Programming is for everyone](#programming-is-for-everyone)
-- [Don't start with C++](#dont-start-with-c)
 - [Visual programming is still computer code](#visual-programming-is-still-computer-code)
 - [I recommend to start with Python](#i-recommend-to-start-with-python)
 - [Three resources to learn Python step by step](#three-resources-to-learn-python-step-by-step)
-- [Summary](#summary)
 - [Your Questions](#your-questions)
 
 <!-- markdown-toc end -->
@@ -119,7 +117,7 @@ Keep the **KISS** principle in mind to avoid frustration: **Keep it Short and Sw
 
 ## The first language you'll learn isn't that important
 
-There are *thousands* of programming languages out there. But it isn't *that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
+There are [ hundreds of programming languages ](https://www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
 
 {{< figure
   src="./img/programming-languages-books.jpg"
