@@ -1,0 +1,20 @@
+@keyframes fade-in {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+summary {
+    font-weight: bold;
+    :hover {
+        cursor: pointer;
+    }
+}
+
+details {
+    border: solid 1px darkgray;
+    border-radius: $round-radius;
+    padding: $tiny-spacing;
+}
+details[open] summary ~ * {
+    animation: fade-in .5s ease-in-out;
+}
