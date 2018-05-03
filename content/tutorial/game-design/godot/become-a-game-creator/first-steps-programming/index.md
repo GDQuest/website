@@ -324,17 +324,18 @@ That was a long article, right? If you should only remember a few key points:
 
 It is time for you to use the resources above and to start building your programming muscles! Pick one course, learn in short, focused sessions, and try to practice on your own to learn most efficiently.
 
-In the next part we'll get started with game design.
+In the next part we'll get started with game design. You can find me [ on Twitter ](https://twitter.com/NathanGDquest) if you have questions!
 
-This is a living guide! Suggest improvements, give feedback, fix typos [ on GitHub ](https://github.com/GDquest/GDquest-website/blob/master/content/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md).
+{{< gumroad-call-to-action >}}
 
-I'm also [ on Twitter ](https://twitter.com/NathanGDquest) if you have questions!
+##  Your Questions
 
-## Your Questions
+Got questions about getting started with programming? [Send me a tweet](https://twitter.com/NathanGDquest) !
 
-Got questions or concerns about programming? You can [ send me a tweet ](https://twitter.com/NathanGDquest). I'll add the most useful answers below.
+I'll add the most useful answers here. Click on questions to unfold them.
 
-### What about performances? I heard Python is slow.
+<details>
+<summary>{{< icon cog >}} What about performances? I heard Python is slow.</summary>
 
 When you're learning how to code, the language or the engine's performances is the least of your concerns. Today's computers are so fast you will have to try very hard to bring them to their knees. Your goal at this point should be to learn to code, not to write fast applications. Lastly, most of the performance issues you'll face will come from your own code.
 
@@ -345,11 +346,12 @@ The same is true when you work with a game engine. Many rely on a dynamic langua
 Back to Python. You can compile Python code just like C or C++ and get the same speed and control over your code. If you really need to.
 
 {{< figure
-  src="./img/pypy-logo.png"
-  alt="PyPy Python JIT compiler logo"
-  caption="Pypy does Just-In-Time compilation to make your Python code run faster"
+src="./img/pypy-logo.png"
+alt="PyPy Python JIT compiler logo"
+caption="Pypy does Just-In-Time compilation to make your Python code run faster"
 >}}
 
 But again: you shouldn't think about performances when you're learning. When starting a game, professional game developers don't care so much about performance as you can always improve performance later. Most of the time it's only a tiny part of the game's code that drags the performances down.
 
 However using a language that's easy to read and fast to write saves you a lot of development time. That's why, as you'll see, game engines like Godot generally provide two languages: one back-end language for the fast core, and one or more scripting languages for the gameplay.
+</details>
