@@ -58,6 +58,9 @@ stylesheet = "concise.css"
 twitter = "NathanGDquest"
 googleplus = "Gdquest"
 
+github_repo = "https://github.com/GDquest/GDquest-website/"
+license_copyright= "GDquest and contributors"
+
 [params.social.1]
 link = "https://www.youtube.com/c/gdquest"
 icon = "youtube"

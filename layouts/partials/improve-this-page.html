@@ -1,0 +1,9 @@
+<footer data-font="centered" class="card outline base-top-margin ">
+    <p> {{ partial "content-cc-by" . }} </p>
+    <p> This page was last modified on {{ .Lastmod.Format "January 2, 2006" }} </p>
+    <p>
+        <a href="{{.Site.Params.github_repo}}edit/master/content/{{replace .File.Path "\\" "/"}}" class="btn">
+            Improve this page
+        </a>
+    </p>
+</footer>
