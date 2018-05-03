@@ -27,10 +27,10 @@ gulp.task('deploy', function () {
 
 
 gulp.task('watch', function () {
-  gulp.watch(scssWatchFiles, ['sass']);
+  gulp.watch(scssWatchFiles, ['build-css']);
 });
 
-gulp.task('sass', function () {
+gulp.task('build-css', function () {
   return gulp.src(scssSrcFile)
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
