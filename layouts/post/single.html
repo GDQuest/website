@@ -22,15 +22,12 @@
         {{ with .Params.banner }}
         <img src="{{ .src }}" alt="{{ .alt }}">
         {{ end }}
+
         {{ .Content }}
+
+        {{ partial "modules/author" . }}
+        {{ partial "improve-this-page.html" . }}
     </article>
 </section>
 
-<section id="info" class="grid container center">
-    {{ with .Params.author }}
-        {{ with (index $.Site.Data.authors . ) }}
-            {{ partial "modules/author" . }}
-        {{ end }}
-    {{ end }}
-</section>
 {{ end }}

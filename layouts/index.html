@@ -96,9 +96,7 @@
     </div>
   </section>
 
-  <section id="info" class="grid container center big-top-margin">
-    {{ with $.Site.Data.authors.nathan }}
+  <div class="grid center container base-top-margin">
       {{ partial "modules/author" . }}
-    {{ end }}
-  </section>
+  </div>
 {{ end }}

@@ -1,4 +1,6 @@
-<section class="card darkbg no-padding flex horizontal profile">
+{{ with .Params.author }}
+{{ with (index $.Site.Data.authors . ) }}
+<section class="card darkbg no-margin flex horizontal profile">
   <div class="avatar" style="background-image: url({{ (printf "img/avatar/%s.png" .user) | absURL }});"></div>
 
   <div class="small-padding content">
@@ -24,3 +26,5 @@
   </div>
 
 </section>
+{{ end }}
+{{ end }}

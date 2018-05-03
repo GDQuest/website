@@ -27,6 +27,9 @@
         <img src="{{ .src }}" alt="{{ .alt }}">
         {{ end }}
         {{ .Content }}
+
+        {{ partial "modules/author" . }}
+        {{ partial "improve-this-page.html" . }}
     </article>
 </div>
 {{ end }}
