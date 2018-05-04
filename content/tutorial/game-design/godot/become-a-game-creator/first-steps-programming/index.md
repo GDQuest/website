@@ -365,6 +365,26 @@ And some other important concepts we will look at later in this series, like the
 </details>
 
 <details>
+<summary>{{< icon book >}} Why do you recommend Python and not another language?</summary>
+
+The target of this article is teenagers, adults, and people learning on their own using free resources available on the Internet.
+
+Python is not the only language you could use to get started. There are languages designed specifically to learn programming. The most popular of them today would be [ Scratch ](https://scratch.mit.edu/), a visual programming tool to introduce kids to code.
+
+{{< figure
+src="./img/scratch-code-example.png"
+alt="Example of Scratch code"
+caption="In Scratch, you code by snapping blocks together in a lego-fashion. It's intuitive when you're getting started but fairly limited."
+>}}
+
+Then there are other languages with an accessible syntax like Lua, or that offer a wealth of free resources on the web like JavaScript. Java, which has nothing to do with JavaScript, is one of the go-to languages for IT university freshmen as it forces you to arrange your code in certain ways and learn common programming patterns.
+
+Why Python then? First because of the quality of the free courses available out there is high overall. The community set up strong guidelines for what are good practices and what are bad practices. Thanks to this it's easy to stumble upon tutorials I would recommend. This isn't the case with JavaScript where beginners write articles without understanding the language: the quality is all over the place. Great JavaScript resources are often focused on the specifics of web development and don't translate into general software development or games as well as Python's.
+
+Then there's the fact that the [ Godot game engine ](https://godotengine.org) is a great option to learn game development and the transition from Python to Godot's GDscript programming language will be a little easier than coming from another language. Godot pushes you to focus on the basics of object-oriented design in an intuitive way as we will see that later in this series.
+</details>
+
+<details>
 <summary>{{< icon cog >}} What about performances? I heard Python is slow.</summary>
 
 When you're learning how to code, the language or the engine's performances is the least of your concerns. Today's computers are so fast you will have to try very hard to bring them to their knees. Your goal at this point should be to learn to code, not to write fast applications. Lastly, most of the performance issues you'll face will come from your own code.
