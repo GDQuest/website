@@ -337,6 +337,34 @@ Got questions about getting started with programming? [Send me a tweet](https://
 I'll add the most useful answers here. Click on questions to unfold them.
 
 <details>
+<summary>{{< icon book >}} What programming techniques and tools should I learn exactly before doing game code?</summary>
+
+It's a tough question as the answer depends on you, on what your goals are exactly and on how comfortable you are with computers. If you want to create games I don't expect you to spend hundreds of hours on programming basics before you'll make your first game. I worked as a designer and an artist for years myself and learned to appreciate code over time.
+
+I believe you can work on your programming skills and make games in parallel. You just need these first twenty hours to get started. Just don't try to learn everything at the same time: programming, design, digital painting, music scoring... this is too much to take on at once to make satisfying progress.
+
+In this article I've talked about programming **foundations**. Because when you code games, you build on top of these foundations. Do yourself a service and get them down and well. Now back to the question, here's a summary of what you should be comfortable with to write games.
+
+First you will need to understand the basic building blocks common to most programming languages that allow you to store data and to control the flow of your game:
+
+1. **Variables** are containers for bits of information or data. They only exist for as long as your program is running.
+1. **Conditions** let you create branching paths in your application.
+1. **Loops** help automate actions or instructions you need to repeat many times. A video game revolves around a big loop that typically runs 60 times per second.
+1. **Functions** take data as input, process it and return new or modified data as an output. Sometimes they modify the data. They are chunks of behavior, actions your can chain together.
+
+Once you can play with these basic tools and combine them you're ready to create tiny games. At this point you will be writing **procedural code**. We'll talk more about this in the next guides in this series. For now just note this approach only works for small programs or isolated parts of your games.
+
+That's why most game engines rely on Object-Oriented Programming, a way to structure your code. It's one of the main programming paradigms and the most common in computer games. You'll then want to understand:
+
+1. **Objects**, building blocks of your future programs that group related data and functions.
+2. **Classes**, the blueprint for objects.
+3. Basic **Object-Oriented concepts** like **encapsulation**, **inheritance**, **aggregation**, **composition**, **polymorphism**...
+4. A few good practices to structure your code like the **Single-Responsibility Principle**
+
+And some other important concepts we will look at later in this series, like the difference between **declarative code** and **imperative code**. I will also give you an introduction to Object Oriented Design from a game designer's standpoint.
+</details>
+
+<details>
 <summary>{{< icon cog >}} What about performances? I heard Python is slow.</summary>
 
 When you're learning how to code, the language or the engine's performances is the least of your concerns. Today's computers are so fast you will have to try very hard to bring them to their knees. Your goal at this point should be to learn to code, not to write fast applications. Lastly, most of the performance issues you'll face will come from your own code.
