@@ -29,11 +29,13 @@ It is the first part of a *Free and Open Source* intro series to game creation a
 
 - [What do you want to create?](#what-do-you-want-to-create)
 - [To code games, you need programming foundations](#to-code-games-you-need-programming-foundations)
-- [The first language you'll learn isn't that important](#the-first-language-youll-learn-isnt-that-important)
+- [The first language you'll learn isn't that important](#the-first-language-you-ll-learn-isn-t-that-important)
 - [Programming is for everyone](#programming-is-for-everyone)
+- [Don't start with C++](#don-t-start-with-c)
 - [Visual programming is still computer code](#visual-programming-is-still-computer-code)
 - [I recommend to start with Python](#i-recommend-to-start-with-python)
 - [Three resources to learn Python step by step](#three-resources-to-learn-python-step-by-step)
+- [Summary](#summary)
 - [Your Questions](#your-questions)
 
 <!-- markdown-toc end -->
@@ -325,6 +327,8 @@ It is time for you to use the resources above and to start building your program
 In the next part we'll get started with game design. You can find me [ on Twitter ](https://twitter.com/NathanGDquest) if you have questions!
 
 {{< gumroad-call-to-action >}}
+
+*Big thanks to [Simon Love](https://twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](http://www.lkokemohr.de/) for being an awesome mentor.* 😄
 
 ##  Your Questions
 
