@@ -1,3 +1,12 @@
+aside>p:first-child{
+    margin-top: 0;
+}
+aside>p:last-child{
+    margin-bottom: 0;
+}
+aside{
+    margin: 16px 0;
+}
 .note, .tips, .warning {
     display: block;
     padding: 0 $tiny-spacing;
