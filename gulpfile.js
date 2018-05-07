@@ -30,7 +30,7 @@ gulp.task('watch', function () {
   gulp.watch(scssWatchFiles, ['build-css']);
 });
 
-gulp.task('build-css', function () {
+gulp.task('scss', function () {
   return gulp.src(scssSrcFile)
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
@@ -57,42 +57,4 @@ gulp.task('img', function () {
     .pipe(newer(imgDest))
     .pipe(imagemin())
     .pipe(gulp.dest(imgDest))
-})
-
-gulp.task('resize', function() {
-  return gulp.src(bannerSrc)
-    .pipe(plumber())
-    .pipe(imageResize({
-      width : 580,
-      crop : false,
-      upscale : false,
-      noProfile: true,
-      interlace: true,
-      format: 'jpg',
-      quality: 1.0,
-      sharpen: true
-    }))
-    .pipe(rename(function(path) {
-      path.basename += "-sm"
-    }))
-    .pipe(gulp.dest(imgDest))
-})
-
-gulp.task('thumbs', function() {
-  return gulp.src('./static/img/product/**/banner.jpg')
-    .pipe(plumber())
-    .pipe(imageResize({
-      width : 360,
-      crop : false,
-      upscale : false,
-      noProfile: true,
-      interlace: true,
-      format: 'jpg',
-      quality: 1.0,
-      sharpen: true
-    }))
-    .pipe(rename(function(path) {
-      path.basename += "-thumb"
-    }))
-    .pipe(gulp.dest('./static/img/product'))
 })
