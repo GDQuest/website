@@ -82,7 +82,25 @@ All versions come with source Godot projects so you can read the source code, le
 1. Coding The Nest That Spawns Flying Enemies
 
 
-### {{< tag "hobby" >}} Chapter 4: Build levels with Tiled map editor
+### {{< tag "hobby" >}} Chapter 4: AI 2: Add a pattern-based boss
+
+This chapter covers the state programming pattern. It shows how to separate the monster's behaviors in code
+
+01. First look at the state interface
+02. Create the spawn state
+03. Create the roam state
+04. Create the state machine
+05. Code a state sequence
+06. The roam sequence
+07. Code the charge sequence
+08. Make the boss charge
+09  Make the boss die!
+10. Using the builtin owner feature
+11. Dealing and taking damage
+12. Simpler attack and hitbox demo
+13. Boss phases
+
+### {{< tag "hobby" >}} Chapter 5: Build levels with Tiled map editor
 
 1. [ Intro To Tile-sets ](https://www.youtube.com/watch?v=TdPgIagt9Yo)
 2. Create A Tile-set
@@ -91,15 +109,11 @@ All versions come with source Godot projects so you can read the source code, le
 5. Auto-tile With 3 By 3 Bit mask
 6. Intro To Tiled Map Editing
 
-### {{< tag "hobby" >}} Chapter 5: Breathe life to the game: world animation and particles
+### {{< tag "hobby" >}} Chapter 6: Breathe life to the game: world animation and particles
 
 Upcoming
 
-### {{< tag "indie" >}} Chapter 6: Design and code the game's User Interface
-
-Upcoming
-
-### {{< tag "indie" >}} Chapter 7: AI 2: Add a pattern-based boss
+### {{< tag "indie" >}} Chapter 7: Design and code the game's User Interface
 
 Upcoming
 
@@ -132,11 +146,11 @@ Upcoming
 1. Pushdown Automaton
 1. Pushdown Stagger State
 
-### {{< tag "pro" >}} Chapter 11: Polishing the game
+### {{< tag "pro" >}} Chapter 11: Juicing the game
 
 Upcoming
 
-### {{< tag "hobby" >}} Final chapter: Putting the systems together
+### {{< tag "hobby" >}} Final chapter: Putting a game demo together
 
 Upcoming
 
