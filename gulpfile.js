@@ -2,33 +2,18 @@ const gulp = require('gulp')
       htmlmin = require('gulp-htmlmin')
       cssmin = require('gulp-cssmin')
       sass = require('gulp-sass')
-      imagemin = require('gulp-imagemin')
-      imageResize = require('gulp-image-resize');
-      rename = require("gulp-rename")
-      newer = require('gulp-newer');
       ghPages = require('gulp-gh-pages')
-      run = require('gulp-run')
       autoprefixer = require('gulp-autoprefixer')
-      plumber = require('gulp-plumber')
-
-const imgSrc = './_src/img/**/*.{png,jpg,gif,svg}'
-const bannerSrc = './static/img/**/banner.jpg'
-const imgDest = './static/img'
 
 const scssWatchFiles = ['./_src/scss/**/*.scss']
 const scssSrcFile = './_src/scss/gdquest.scss'
 const cssOutputFolder = './static/css/'
 
 
-gulp.task('deploy', function () {
-  return gulp.src('./public/**/*')
-    .pipe(ghPages())
-})
-
-
 gulp.task('watch', function () {
-  gulp.watch(scssWatchFiles, ['build-css']);
+    gulp.watch(scssWatchFiles, ['scss']);
 });
+
 
 gulp.task('scss', function () {
   return gulp.src(scssSrcFile)
@@ -52,9 +37,7 @@ gulp.task('htmlmin', function () {
 })
 
 
-gulp.task('img', function () {
-  return gulp.src(imgSrc)
-    .pipe(newer(imgDest))
-    .pipe(imagemin())
-    .pipe(gulp.dest(imgDest))
+gulp.task('deploy', function () {
+    return gulp.src('./public/**/*')
+        .pipe(ghPages())
 })
