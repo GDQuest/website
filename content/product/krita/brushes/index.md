@@ -25,18 +25,20 @@ banner:
 product: krita-brushes
 ---
 
-Version 13 (_April 2017_) contains:
+Version 15 contains:
 
-- **73 unique brush presets**
-- **2 pdf documents** to help you get started with the brushes
-- **Monthly updates**. More brushes and videos are already on your way!
-- Completely redesigned thumbnails
+- **83 unique brush presets**
+- **4 PDF documents** to help you get started with the brushes
+- **Lifetime free updates**
 
 The premium tier adds:
 
 - **More than 30 minutes of exclusive video tutorials** to get the most out of the brushes
 - The **natural media brushkit**
-- Priority support
+- Priority support on Discord
+
+{{< calltoaction "https://gumroad.com/l/krita-brushes-for-game-artists" "Get the brushes" >}}
+
 
 {{< figure
   src="/img/page/krita-brushes/thumbs-redesign-comparison.png"
