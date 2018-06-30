@@ -111,7 +111,15 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### {{< tag "hobby" >}} Chapter 6: Breathe life to the game: world animation and particles
 
-Upcoming
+1. Intro to particles2d
+2. Intro to particles 2d 2
+3. Charge dust
+4. Walk and run puffs
+5. Explosion
+6. Rock crumbles
+7. Smoke puffs
+8. Firery cloud
+9. Firery cloud sparkles
 
 ### {{< tag "indie" >}} Chapter 7: Design and code the game's User Interface
 
