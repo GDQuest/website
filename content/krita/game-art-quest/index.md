@@ -69,4 +69,4 @@ Game Art Quest was funded [on Kickstarter](https://www.kickstarter.com/projects/
   src="/img/page/game-art-quest/i-am-nathan.jpg"
   alt="Nathan's picture" >}}
 
-I’m Nathan Lovato, a game designer. I the run [GDquest](http://youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.
+I’m Nathan Lovato, a game designer. I run the [GDquest](http://youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.
