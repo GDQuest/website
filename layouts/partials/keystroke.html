@@ -1,0 +1,15 @@
+{{ $sc := (dict "one" "1" "two" "2" "three" "3" "four" "4" "five" "5" "six" "6" "seven" "7" "eight" "8" "nine" "9" "zero" "0" "plus" "+" "up_arrow" "↑" "down_arrow" "↓" "left_bracket" "[" "right_bracket" "]" "leftmouse" "LMB" "rightmouse" "RMB") }}
+
+{{ $keys := split . " " }}
+
+<span class="keystroke">
+    {{ range $keys }}
+        {{ $key := lower . }}
+        {{ if isset $sc $key }}
+        <code>{{- index $sc $key -}}</code>
+        {{ else }}
+        <code>{{.}}</code>
+        {{ end }}
+    </code>
+    {{ end }}
+</span>

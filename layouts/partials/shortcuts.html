@@ -1,0 +1,35 @@
+{{ with .Get 0 }}
+{{ with getJSON . }}
+<section class="grid split2 container">
+  <aside class="small">
+      <h3 class="no-margin-top">operators</h3>
+      <ul>
+          {{ range $key, $value := . }}
+          <li> <a href="#{{$key}}">{{ $value.name }}</a></li>
+          {{ end }}
+      </ul>
+  </aside>
+
+  <div class="shortcuts">
+    {{ range $key, $value := . }}
+    <section id="{{$key}}">
+      <h5>{{$value.name}}</h5>
+      <p>{{$value.description | markdownify}}</p>
+      {{ with $value.shortcuts }}
+        <div class="shortcut">
+          {{ with index $value.demo }} <img src="{{.}}" alt=""> {{ end }}
+          {{ range . }}
+            {{ $d := split . ";" }}
+              <div>
+                {{ partial "keystroke.html" (index $d 0) }}
+                <span>{{index $d 1}}</span>
+              </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </section>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
