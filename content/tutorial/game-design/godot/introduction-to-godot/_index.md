@@ -23,6 +23,12 @@ banner:
 
 aliases:
 - tutorial/game_design/godot/introduction_to_godot
+
+resources:
+- src: banner.jpg
+  name: banner
+- params:
+    class: -blue
 ---
 
 Welcome to the first free tutorial series on GDquest that's dedicated to Godot! Over the course of 1h, it'll teach you some basic concepts with the engine. 

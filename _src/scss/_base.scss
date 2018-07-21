@@ -212,7 +212,7 @@ main {
 		left: -30px;
 		bottom: -30px;
 		right: -30px;
-		filter: blur(35px) opacity(.5);
+		filter: blur(4px) opacity(.5);
 		z-index: 0;
 
 		@include bg-centered;
@@ -224,6 +224,8 @@ ul li, ol li {
 	padding-top: $micro-spacing;
 	padding-bottom: $micro-spacing;
 }
+
+li.current { color: get-color(colors, pink); }
 
 .pages {
 	list-style: none;

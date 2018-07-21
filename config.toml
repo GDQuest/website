@@ -54,6 +54,8 @@ home = "home"
 highlight = "default"
 stylesheet = "concise.css"
 
+ytapikey = "AIzaSyAUCyzwHmO71chFn7wMa6VlBNzk0tpkFYk"
+
 # Social network names for Meta tag SEO
 twitter = "NathanGDquest"
 googleplus = "Gdquest"

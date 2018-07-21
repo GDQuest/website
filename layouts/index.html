@@ -31,7 +31,7 @@
     <h4>latest courses</h4>
 
     <div class="grid split2 list">
-      {{ range first 2 (where .Data.Pages "Section" "tutorial") }}
+      {{ range first 2 (where (where .Site.Pages "Type" "in" (split "course tut" " ")) "Section" "tutorial") }}	
         {{ .Render "summary" }}
       {{ end }}
     </div>

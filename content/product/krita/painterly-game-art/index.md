@@ -21,6 +21,10 @@ banner:
   src: banner.jpg
   alt: Banner for the Krita course. A pig and a rabbit character in the forest.
 
+resources:
+- src: banner.jpg
+  name: banner
+
 product: krita-tutorial-1
 ---
 

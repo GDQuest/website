@@ -8,6 +8,10 @@ banner:
   src: img/business-card-banner-format.png
   alt: "Godot course update 4 banner showing characters on a tiles-based map"
 
+resources:
+- src: img/business-card-banner-format.png
+  name: banner
+
 paginate: false
 ---
 

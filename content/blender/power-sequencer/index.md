@@ -6,8 +6,11 @@ banner:
   src: ./banner.png
   alt: Power Sequencer add-on logo
 
+resources:
+- src: banner.png
+  name: banner
+
 date: 2018-01-04T19:46:48+01:00
-layout: single
 ---
 
 At GDquest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [ Power Sequencer ](https://github.com/GDquest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.

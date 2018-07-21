@@ -14,6 +14,10 @@ banner:
   src: banner.png
   alt: Screenshot from a level in the course, with the player in the center
 
+resources:
+- src: banner.jpg
+  name: banner
+
 layout: single
 ---
 

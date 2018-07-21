@@ -1,0 +1,99 @@
+{{ define "head_content" }}
+
+{{ $.Scratch.Set "course_page" 0 }}
+{{ if eq .CurrentSection.Parent.Type "course" }}
+{{ $.Scratch.Set "course_page" .CurrentSection.Parent }}
+{{ else if eq .Parent.Type "course"}}
+{{ $.Scratch.Set "course_page" .Parent }}
+{{ end }}
+
+{{ partial "modules/banner" ($.Scratch.Get "course_page") }}
+
+<div class="grid split2 small-v-padding content">
+    <div class="big">
+        <i data-font="dimmed">{{.Parent.Parent.Title}}</i> / {{.CurrentSection.Title}}
+        <h1 class="no-margin">{{.Title}}</h1>
+        {{ with .Params.author }}
+            {{ with (index $.Site.Data.authors . ) }}
+            <p>by: {{ .name }} </p>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+
+{{ define "main" }}
+
+{{ $course_page := $.Scratch.Get "course_page" }}
+{{ $.Scratch.Set "pages" $course_page.Pages }}
+{{ $.Scratch.Set "page_index" 0 }}
+
+<div class="grid split2 container">
+    <aside class="small" id="toc">
+        <h4>{{$course_page.Title}}</h4>
+
+        {{ $.Scratch.Set "index" 0 }}
+
+        {{if eq .Parent.Type "course_chapter" }}
+        {{ range $course_page.Sections }}
+        <div class="chapter">
+            <b>{{.Title}}</b>
+            <ul>
+                {{ range (sort .Pages "Date" "asc") }}
+                {{ if eq . $.Page }} {{ $.Scratch.Set "page_index" ($.Scratch.Get "index") }} {{ end }}
+                {{ $.Scratch.Add "pages" . }}
+                {{ $.Scratch.Add "index" 1 }}
+
+                <li class="{{if (eq $.Page .)}}current{{ end }}"><a href="{{.URL}}">{{.Title}}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ end }}
+    </aside>
+
+
+    {{ $pages := $.Scratch.Get "pages" }}
+    {{ $pindex := $.Scratch.Get "page_index" }}
+    {{ if ne $.Page (index (first 1 $pages) 0) }}
+        {{ $.Scratch.Set "prev" (index $pages (sub $pindex 1)) }}
+    {{ end }}
+    {{ if ne $.Page (index (last 1 $pages) 0) }}
+        {{ $.Scratch.Set "next" (index $pages (add $pindex 1)) }}
+    {{ end }}
+
+    <article class="base-v-padding big">
+        {{ with .Params.banner }}
+        <img src="{{ .src }}" alt="{{ .alt }}">
+        {{ end }}
+
+        {{ with .Params.videoid }}
+        {{ partial "modules/yt_video" . }}
+        {{ end }}
+
+        <div class="big-bottom-margin base-top-margin">
+            {{ with .Description }}
+            {{ . }}
+            {{ end }}
+
+            {{ .Content }}
+
+            <div class="big-top-margin">
+                <hr>
+                <div class="flex justify-space-between">
+                    {{ with $.Scratch.Get "prev" }}
+                    <a href="{{.URL}}">Previous</a>
+                    {{ end }}
+                    {{ with $.Scratch.Get "next" }}
+                    <a href="{{.URL}}">Next</a>
+                    {{ end }}
+                </div>
+            </div>
+
+        </div>
+
+        {{ partial "modules/author" . }}
+    </article>
+</div>
+{{ end }}

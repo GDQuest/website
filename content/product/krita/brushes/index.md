@@ -22,6 +22,10 @@ banner:
   src: banner.jpg
   alt: Krita brushes banner image
 
+resources:
+- src: banner.jpg
+  name: banner
+
 product: krita-brushes
 ---
 

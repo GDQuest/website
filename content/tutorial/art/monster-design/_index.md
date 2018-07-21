@@ -18,6 +18,13 @@ banner:
     src: banner.jpg
     alt: Course banner, 2 bear-like monsters painted in Krita
     class: -blue
+
+resources:
+- src: banner.jpg
+  name: banner
+- params:
+  class: -blue
+
 aliases:
     - tutorial/art/monster_design
 ---

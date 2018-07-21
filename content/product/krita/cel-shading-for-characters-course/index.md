@@ -8,6 +8,10 @@ banner:
     src: banner.jpg
     alt: A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background
 
+resources:
+- src: banner.jpg
+  name: banner
+
 category: Krita
 tags:
 - krita 3
