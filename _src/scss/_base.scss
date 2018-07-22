@@ -244,9 +244,9 @@ li.current { color: get-color(colors, pink); }
 }
 
 
-.disabled {
-	opacity: .5;
-}
+.hidden { display: none; }
+
+.disabled { opacity: .5; }
 
 .hide-on-desktop, #nav_toggle_cb, #menu_btn {
 	display: none;

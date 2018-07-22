@@ -1,0 +1,32 @@
+#toc {
+  input[type=radio]:checked + .chapter > ul {
+    display: block;
+  }
+  input[type=radio]:not(:checked) + .chapter > ul {
+    display: none;
+  }
+
+  .chapter {
+    margin-bottom: $tiny-spacing;
+    label {
+      transition: color .1s ease-in-out;
+      cursor: pointer;
+       &:hover {
+         color: get-color(colors, pink);
+       }
+    }
+  }
+}
+
+#toc_toggle_label { display: none }
+
+@include tablet {
+  #toc_toggle_label { display: block }
+
+  #toc_toggle:checked ~ aside {
+    display: block;
+  }
+  #toc_toggle:not(:checked) ~ aside {
+    display: none;
+  }
+}

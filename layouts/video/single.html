@@ -30,15 +30,19 @@
 {{ $.Scratch.Set "page_index" 0 }}
 
 <div class="grid split2 container">
-    <aside class="small" id="toc">
+    <input type="checkbox" name="toc_toggle" id="toc_toggle" class="hidden">
+    <label for="toc_toggle" class="hide-on-desktop"><a class="btn flat full base-top-margin">index</a></label>
+
+    <aside class="small side-menu" id="toc">
         <h4>{{$course_page.Title}}</h4>
 
         {{ $.Scratch.Set "index" 0 }}
 
         {{if eq .Parent.Type "course_chapter" }}
         {{ range $course_page.Sections }}
+        <input type="radio" id="{{.UniqueID}}" name="sections" class="hidden" {{if eq . $.Page.Parent}} checked {{ end }} >
         <div class="chapter">
-            <b>{{.Title}}</b>
+            <label for="{{.UniqueID}}"><b>{{.Title}}</b></label>
             <ul>
                 {{ range (sort .Pages "Date" "asc") }}
                 {{ if eq . $.Page }} {{ $.Scratch.Set "page_index" ($.Scratch.Get "index") }} {{ end }}
@@ -77,7 +81,32 @@
             {{ . }}
             {{ end }}
 
-            {{ .Content }}
+            {{ with .Content }}
+            <div class="big-top-margin">
+                {{ . }}
+            </div>
+            {{ end }}
+
+            {{ with .Resources }}
+            <section id="resources" class="big-v-margin">
+                <h4>Resources</h4>
+                {{ $res := union (where . "ResourceType" "ne" "image") (where . "ResourceType" "eq" "image") }}
+                {{ range $res }}
+                {{ if eq .ResourceType "image" }}
+                <h6>{{.Name}}</h6>
+                <a download href="{{.Permalink}}">
+                    <img src="{{.Permalink}}" alt="{{.Name}}">
+                </a>
+                {{ else }}
+                <div class="flex justify-space-between align-items-center">
+                    <h6>{{.Name}}</h6>
+                    <a download href="{{.Permalink}}" class="btn">download</a>
+                </div>
+                {{ end }}
+                {{if ne . (index (last 1 $res) 0) }}<hr>{{end}}
+                {{ end }}
+            </section>
+            {{ end}}
 
             <div class="big-top-margin">
                 <hr>

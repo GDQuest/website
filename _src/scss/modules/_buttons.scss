@@ -29,3 +29,8 @@
 	background-color: get-color(accent-opt, base);
 	color: get-color(accent-opt, text) !important;
 }
+
+.btn.full {
+	width: 100%;
+	box-sizing: border-box;
+}
