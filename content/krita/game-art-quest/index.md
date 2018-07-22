@@ -22,7 +22,7 @@ aliases:
       <a class="btn flat" href="{{< ref "product/krita/brushes/index.md" >}}">
         {{< icon paint-brush default >}} Krita brushes
       </a>
-      <a class="btn flat" href="{{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}">
+      <a class="btn flat" href="/tutorial/art/krita-tutorial-for-game-artists/">
         {{< icon book default >}} Free course
       </a>
     </div>
@@ -49,7 +49,7 @@ aliases:
 
 ### Do you want to become a better 2d game artist?
 
-You came to the right place! Using **Krita, a free and open source painting application**, Game Art Quest will show you both **essential concepts** and **concrete techniques** professionals use on a daily basis. [The first course]({{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}}) in the series is **completely free** (6 hours of tutorials).
+You came to the right place! Using **Krita, a free and open source painting application**, Game Art Quest will show you both **essential concepts** and **concrete techniques** professionals use on a daily basis. [The first course](/tutorial/art/krita-tutorial-for-game-artists/) in the series is **completely free** (6 hours of tutorials).
 
 In this series, **I run you through the process of creating professional sprites for games**. I share my workflow and productivity tricks. Not only that! I will show you that Krita is the leading Free and Open Source digital painting program today.
 

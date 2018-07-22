@@ -33,4 +33,4 @@ The intro to monster design is the first free training released on GDquest. In a
 
 ## {{< icon link default >}} Useful links
 
-- [Free Krita tutorial for Game Artists]({{< ref "tutorial/art/krita-tutorial-for-game-artists/index.md" >}})
+- [Free Krita tutorial for Game Artists](/tutorial/art/krita-tutorial-for-game-artists/)
