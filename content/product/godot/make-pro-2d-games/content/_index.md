@@ -25,11 +25,19 @@ layout: single
 
 The course is still in early access, with currently six out of twelve chapters available in the Pro version.
 
-The course comes in 3 versions. Each builds on top of the previous one and adds extra content:
+The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters and extra resources:
+
+<!-- TODO: refactor as a 3 columns call to action: use a parent container shortcode? -->
 
 1. [ Hobby ](https://gum.co/vmPA) (*€ 14.95*)
 1. [ Indie ](https://gum.co/XEULZ) (*€ 29.95*)
 1. [ Pro ](https://gum.co/godot-tutorial-make-professional-2d-games) (*€ 59.95*)
+
+If you're only looking for UI tutorials, check out our standalone course:
+
+![Ui design series banner image](./ui-master-series-banner.png)
+
+{{< calltoaction url="https://gum.co/oifP" text="Create User Interface Godot Course" >}}
 
 You'll find some **free tutorial samples** below. I also released the [ Finite State Machine ](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation.
 
@@ -127,24 +135,51 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### {{< tag "indie" >}} Chapter 7: Design and code the game's User Interface
 
-Upcoming
+![lifebars in the game world screenshot](./chapter-07-ui-series-screen.png)
+
+1. Coding and handling pause in Godot
+2. Design the pause menu
+3. Creating a reusable theme resource
+4. In-game lifebar
+5. Lifebar creator node
+6. Spawn and connect lifebars in the game world
+7. Adding dynamic colors to the lifebar
+8. Lifebar animation
 
 ### {{< tag "indie" >}} Chapter 8: Learn the Game Design Workflow
 
 *The first 3 lessons are text-based*
 
-1. You are a designer
-1. A game is made of 4 elements that support a theme
-1. Dan the Rabbit: game concept example
-4. Why And How To Analyze Games
-5. Cross Code Analysis
-6. Designer Insights Emmanuel
-7. Designer Insights Fibretigre
-8. Designer Insights Ed Atomic Racoon
+01. You are a designer
+02. A game is made of 4 elements that support a theme
+03. Dan the Rabbit: game concept example
+04. Why And How To Analyze Games
+05. Cross Code Analysis
+06. Designer Insights Emmanuel
+07. Designer Insights Fibretigre
+08. Designer Insights Ed Atomic Racoon
 
 ### {{< tag "pro" >}} Chapter 9: Build a Shop and an Inventory
 
-Upcoming
+![inventory screenshot](./chapter-09-inventory-demo.png)
+
+01. Project overview
+02. Item base class
+03. Create potion and sword
+04. Item database
+05. Inventory part 1
+06. Inventory part 2
+07. Debugging inventory
+08. Menu overview
+09. Items menu design
+10. Item button
+11. Tips centering items in containers
+12. Item button code
+13. Connecting the inventory and menu
+14. Description label code
+15. User select menu
+16. Connecting the two menus
+17. Focus neighbours
 
 ### {{< tag "pro" >}} Chapter 10: Design pattern: implement Finite State Machines in Godot
 
