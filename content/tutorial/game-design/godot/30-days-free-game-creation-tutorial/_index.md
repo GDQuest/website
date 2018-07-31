@@ -15,16 +15,10 @@ tags:
 
 type: course
 course: 2017_30_days_godot_2_tutorials
-banner:
-    src: banner.jpg
-    alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
-    class: -pink
 
 resources:
 - src: banner.jpg
   name: banner
-- params:
-    class: -blue
 ---
 
 These 30 Godot 2 tutorials were brought to you for free as part of the Kickstarter project [Make Professional 2d Games with Godot](https://gumroad.com/gdquest). For more recent tutorials check out [ GDquest on Youtube ](youtube.com/c/gdquest)!

@@ -5,10 +5,6 @@ author: nathan
 
 type: tut
 
-banner:
-  src: ./img/banner.png
-  alt: A character studying code in front of a computer, a desk, and two books
-
 resources:
 - src: ./img/banner.jpg
   name: banner

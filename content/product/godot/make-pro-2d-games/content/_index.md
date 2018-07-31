@@ -159,7 +159,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 07. Designer Insights Fibretigre
 08. Designer Insights Ed Atomic Racoon
 
-### {{< tag "pro" >}} Chapter 9: Build a Shop and an Inventory
+### {{< tag "pro" >}} Chapter 9: Build an Inventory System and Item menu
 
 ![inventory screenshot](./chapter-09-inventory-demo.png)
 
