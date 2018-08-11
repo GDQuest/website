@@ -12,9 +12,14 @@ banner:
 categories:
     - news
 tags:
-    - gdquest
+    - Godot 3 course gdquest
+    - Godot 2d tutorial
+    - Godot ui tutorial
+    - Godot inventory tutorial
+    - Godot lifebar tutorial
     - Godot 3
     - Godot user interface tutorial
+    - gdquest
 ---
 
 The UI course update is up! That's the biggest monthly release to date 😊
