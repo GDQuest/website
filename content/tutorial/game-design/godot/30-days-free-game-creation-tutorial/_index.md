@@ -16,6 +16,8 @@ tags:
 type: course
 course: 2017_30_days_godot_2_tutorials
 
+banner:
+    src: banner.jpg
 resources:
 - src: banner.jpg
   name: banner
