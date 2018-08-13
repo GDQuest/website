@@ -15,7 +15,6 @@
 
 {{ define "main" }}
 
-{{ $course := index .Site.Data.course .Params.course }}
 {{ if and (isset .Params "videos_released") (ge .Params.videos_released 0) }}
     {{ $.Scratch.Set "videos_released" .Params.videos_released }}
 {{ else }}
