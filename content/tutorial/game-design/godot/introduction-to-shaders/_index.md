@@ -20,8 +20,11 @@ tags:
     - free
 
 type: course
+banner:
+    src: banner.png
+
 resources:
-- src: banner.png
+- src: banner.jpg
   name: banner
 ---
 

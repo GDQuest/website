@@ -5,8 +5,10 @@ author: nathan
 
 type: tut
 
+banner:
+    src: img/banner.png
 resources:
-- src: ./img/banner.jpg
+- src: img/banner.png
   name: banner
 
 date: 2018-04-12T09:04:58+09:00
