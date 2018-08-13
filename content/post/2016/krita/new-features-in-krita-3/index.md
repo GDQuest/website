@@ -1,20 +1,20 @@
 ---
 author: "nathan"
-category: 
+category:
     - "Krita"
 date: "2016-05-09T17:49:09+02:00"
 description: "Krita 3.0 is a major update to an already powerful application. New rendering engine, animation toolset, grid, guides, snapping... there's a long list of new tools to discover. Let's explore them together in this article!"
-tags: 
+tags:
     - "krita review"
     - "krita 3"
 title: "What’s New in Krita 3.0? Krita Review"
 type: "post"
-aliases: 
+aliases:
     - "new-in-krita-3"
     - post/krita/new-in-krita-3/
 
 nav: true
-anchors: 
+anchors:
     - "major-new-features"
     - "smaller-features"
     - "krita-3-review"
@@ -206,4 +206,4 @@ Krita 3 is out now!
 
 [{{< icon link >}} Download Krita 3](https://krita.org/en/download/krita-desktop/)
 
-And check out my [Krita 3 game art course]({{< ref "product/krita/painterly-game-art/index.md" >}})!
+And check out my [Krita 3 game art course]({{< ref "/product/krita/painterly-game-art/index.md" >}})!

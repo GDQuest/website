@@ -40,7 +40,7 @@ I'm looking to start working on and selling the next 2 volumes of the training i
 
 ## One video a week
 
-It's summer time in here. The hot weather is back, and people are taking time off. I'm not! I'll be here all summer long, working at the same pace. However, now that the tutorial series covering Krita 3's new features is out, we're going to move back to a rhythm of 1 tutorial per week on the channel. This will give me more time to improve the GDquest Blender add-on, and to prepare the [future series]({{< ref "post/2016/community/vote-for-upcoming-tutorials-january-2016/index.md" >}}) coming to the channel.
+It's summer time in here. The hot weather is back, and people are taking time off. I'm not! I'll be here all summer long, working at the same pace. However, now that the tutorial series covering Krita 3's new features is out, we're going to move back to a rhythm of 1 tutorial per week on the channel. This will give me more time to improve the GDquest Blender add-on, and to prepare the [future series]({{< ref "/post/2016/community/vote-for-upcoming-tutorials-january-2016/index.md" >}}) coming to the channel.
 
 ## This week
 

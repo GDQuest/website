@@ -25,7 +25,7 @@ GDquest is community-driven: the last 2 projects were crowdfunded on Kickstarter
 
 ![](/krita/game-art-quest/painterly-game-art-banner.jpg)
 
-1. [ Make Professional 2d game art with Krita ]({{< ref "product/krita/painterly-game-art/index.md" >}})
+1. [ Make Professional 2d game art with Krita ]({{< ref "/product/krita/painterly-game-art/index.md" >}})
 2. [ Make Professional 2d games with Godot 3 ](https://gumroad.com/l/godot-tutorial-make-professional-2d-games)
 
 You will also many Free resources on [ GDquest's GitHub page ](https://github.com/GDquest/), including an open Godot 3 presentation, game project source code and [Power Sequencer](https://github.com/GDquest/Blender-power-sequencer), our Blender add-on for video editors.

@@ -2,9 +2,9 @@
 author: "nathan"
 date: "2016-03-16T08:25:29+01:00"
 description: "A lot has been going on lately. I'm done with all of my contracts, and now working full time on Game Art Quest, the Krita training series. In this post, I'll tell you what I'm going to release next and what were the results of the community vote. We're also taking a look at the new pre-alpha of Krita 3.0!"
-category: 
+category:
     - "News"
-tags: 
+tags:
     - "community"
 title: "GDquest news and Krita 3.0 pre-alpha 3"
 type: "post"
@@ -24,13 +24,13 @@ I released the first 5 soundtracks from the project in an album called [Space Ad
 
 ## Your votes for future tutorials
 
-Since January, I have been [running a vote]({{< ref "post/2016/community/vote-for-upcoming-tutorials-january-2016/index.md" >}}) to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:
+Since January, I have been [running a vote]({{< ref "/post/2016/community/vote-for-upcoming-tutorials-january-2016/index.md" >}}) to ask you which tutorial series you wanted me to do this year aside from Krita. More than 400 people voted, and here are the themes you picked:
 
 1. **Overview of Godot 2.0, the open source game engine, for 2d games**
 2. **Painting rock and grass tiles for 2d games**
 3. **Human proportions, from reality to games**
 
-This is great, as they will reinforce [Game Art Quest]({{< ref "krita/game-art-quest/index.md" >}}). I might also do the 4th one, the Overview of [Superpowers, the collaborative HTML5 game engine](http://superpowers-html5.com/), as time permits.
+This is great, as they will reinforce [Game Art Quest]({{< ref "/krita/game-art-quest/index.md" >}}). I might also do the 4th one, the Overview of [Superpowers, the collaborative HTML5 game engine](http://superpowers-html5.com/), as time permits.
 
 ## Krita 3.0, pre-alpha 3
 
