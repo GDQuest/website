@@ -1,13 +1,16 @@
 ---
 title: "Learn to Write Typed GDscript in Godot 3.1"
-description: Temp description
+description: GDscript is getting optional typing syntax in Godot 3.1! Get started with it in this intro tutorial.
 author: guilherme
 
-date: 2018-08-20T12:14:44+09:00
-draft: true
----
+date: 2018-09-05T06:00:00+00:00
 
-<!-- TODO: TYPED EXAMPLE (banner?) -->
+banner:
+    src: img/banner.png
+resources:
+- src: img/banner.png
+  name: banner
+---
 
 GDscript is getting **optional** typing syntax in Godot 3.1. In this guide, you'll learn:
 
@@ -40,9 +43,8 @@ func add(reference : Item, amount : int = 1):
 	item.amount += amount
 {{< / highlight >}}
 
-When you use the `Inventory` in your project, you don't have to open the source script to know what the `reference` argument should be:
-
-<!-- TODO img function definition Inventory hints screen -->
+<!-- TODO: in nightly build, I don't get the function definition popup
+When you use the `Inventory` in your project, you don't have to open the source script to know what the `reference` argument should be: -->
 
 Another significant advantage of typed GDScript is the new **warning system**. From version 3.1, Godot gives you warnings about your code as you write it: the engine identifies sections of your code that may lead to issues at runtime, but lets you decide whether or not you want to leave the code as it is. More on that in a moment.
 
@@ -50,7 +52,6 @@ Strong types also give you better code completion options. Below, you can see th
 
 You've probably stored a node in a variable before, and typed a dot to be left with no autocomplete suggestions:
 
-<!-- FIXME pics below -->
 
 ![code completion options for dynamic](./img/code-completion-dynamic.png)
 
@@ -138,7 +139,6 @@ This happens when you get a child node. Let's take a timer for example: with dyn
 
 You can use casting to tell Godot the type you expect when you get a node: `($Timer as Timer)`, `($Player as KinematicBody2D)`, etc. Godot will ensure the type works and if so, the line number will turn green at the left of the script editor.
 
-<!-- FIXME: too small -->
 
 ![Safe vs Unsafe Line](./img/safe-unsafe-line.png)
 
@@ -177,7 +177,6 @@ func add(reference : Item, amount : int) -> Item:
 	item.amount += amount
     return item
 {{< / highlight >}}
-
 
 ## Typed or Dynamic: Stick to One Style
 
@@ -229,13 +228,13 @@ func _on_area_entered(bullet : Bullet) -> void:
 The `bullet` variable could hold any `CollisionObject2D` here, but we make sure it is our `Bullet`, a node we created for our project.
 If it's anything else, like an `Area2D`, or any node that doesn't extend `Bullet`, the `bullet` variable will be `null`.
 
+{{< gumroad-call-to-action >}}
+
 ## Warning System
 
 The warning system complements typed GDscript. It's here to help you avoid mistakes that are hard to spot during development, and that may lead to runtime errors.
 
 You can configure warnings in the Project Settings under a new section called `GDscript`:
-
-<!-- FIXME: SMALL -->
 
 ![warning system project settings](./img/warning-system-settings.png)
 
@@ -298,4 +297,4 @@ var player : Player
 
 Typed GDscript is a powerful tool. Coming with Godot 3.1, it can already help you write more structured code, help you avoid common errors, and create scalable systems. In the future, strong types will also bring you a nice performance boost thanks to upcoming compiler optimizations.
 
-{{< gumroad-call-to-action >}}
+Want to become a better game creator? Be sure to [follow us on Twitter](https://twitter.com/NathanGDquest) for more tutorials and news dedicated to game creation and Free Software!
