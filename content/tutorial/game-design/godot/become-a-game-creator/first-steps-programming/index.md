@@ -226,7 +226,6 @@ You will only see the drawbacks of visual code after you have learned and gotten
 
 As a game development tutor, I see so many **beginners jump head first in an engine and fail**. They follow step-by-step tutorials or copy-paste code from demo projects hoping to build their own dream project. As they lack programming foundations they get stuck as soon as they tweak a line of code. Doing that, you mostly end up wasting time and building up frustration.
 
-
 Coding is like writing in a foreign language: you've got to learn some basic vocabulary and grammar first, use everything you learn as often as possible in order to commit it to memory, and take your time.
 
 **Be patient**. It won't take too much time before you can get started with game programming. Try to spend about 20 hours focusing on programming basics. Then you can start having fun with game development if you want. Just don't forget to keep building and sharpening your core programming skills in parallel!
@@ -241,7 +240,7 @@ I recommend to start with Python for at least 3 reasons:
 
 Python looks like this:
 
-{{< highlight gdscript >}}
+{{< highlight python >}}
 numbers = [2, 4, 6, 8]
 product = 1
 
@@ -282,8 +281,6 @@ You'll find few games written in the Python language. Game development companies
 <!-- You can write all kinds of programs in Python. Developers around the world use it to create anything from basics scripts to self-improving artificial intelligence, complex cross-platform applications or website back-ends like YouTube's. Both small and large companies like Google and Microsoft hire Python developers. -->
 <!-- {{% /note %}} -->
 
-
-
 ## Three resources to learn Python step by step
 
 I don't want to flood you with a long list of resources. Instead here's three that I like: two interactive courses which you can complete in your browser without having to download any tool and a free ebook that will help you automate repetitive tasks on your computer with Python.
@@ -298,15 +295,19 @@ You can get started right now with the Python programming language using [ Codec
   caption="Codecademy's Python editor features the lesson, your code and the result side-by-side"
 >}}
 
-### Code the Blocks
+### The Python Tutorial
 
-[ Code the Blocks ](https://codetheblocks.com/) defines itself as a "free and interactive playground for learning how to code". Drawing blocks in a way reminescent of Minecraft, you'll get to see how to create shapes in space with Python from your first program.
+Language creators generally want as many people as possible to use their language. The official website is often one of the best sources you can find to learn everything there is to know about available features and the standard library: the toolset that ships with a programming language.
 
-{{< figure
-  src="./img/codeblocks-console-example.png"
-  alt="Example of a helix made of blocks and the Python loop that generates it side-by-side"
-  caption="Code the Blocks lets you play with a 3d environment, a bit like what you'll do in a game engine"
->}}
+![Official python tutorial screenshot](./img/python-official-tutorial.png)
+
+Python comes with tons of tools, and they're all covered in details in the official reference. The community also wrote a comprehensive intro tutorial that reads like a book.
+
+Read the [official Python tutorial](https://docs.python.org/3/tutorial/index.html)
+
+{{% note %}}
+Python's docs website doesn't have the best layout. I use and recommend [Zeal](https://zealdocs.org/), a Free documentation browser for programmers, to quickly search and read the docs for multiple languages. You can find the Python tutorial after you download the corresponding docset (click on the menu option `Tools ➡ Docsets`)
+{{%/ note %}}
 
 ### Automate the Boring Stuff with Python
 
