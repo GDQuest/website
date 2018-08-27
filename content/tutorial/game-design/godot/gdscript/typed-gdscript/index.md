@@ -5,6 +5,18 @@ author: guilherme
 
 date: 2018-09-05T06:00:00+00:00
 
+tags:
+    - gdscript typed
+    - typed gdscript
+    - gdscript tutorial
+    - godot programming tutorial
+    - godot typed gdscript
+    - godot tutorial
+    - godot 3.1
+    - godot 3.1 gdscript
+    - godot 3 tutorial
+    - gdscript tutorial
+
 banner:
     src: img/banner.png
 resources:
