@@ -12,17 +12,17 @@ banner:
 categories:
     - news
 tags:
-    - Godot user interface tutorial
-    - Godot engine UI
-    - Godot control tutorial
-    - Godot UI tutorial
-    - Godot interface tutorial
-    - Godot inventory tutorial
-    - Godot lifebar tutorial
-    - Godot game engine
-    - Godot 3 course
+    - godot user interface tutorial
+    - godot engine ui
+    - godot control tutorial
+    - godot ui tutorial
+    - godot interface tutorial
+    - godot inventory tutorial
+    - godot lifebar tutorial
+    - godot game engine
+    - godot 3 course
     - game design
-    - Godot 3
+    - godot 3
     - gdquest
 ---
 
