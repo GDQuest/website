@@ -21,17 +21,17 @@ resources:
 layout: single
 ---
 
-*Last update: April 30*
+*Last update: August 30*
 
-The course is still in early access, with currently six out of twelve chapters available in the Pro version.
+The course is still in early access, with currently 11/12 chapters available in the Pro version.
 
 The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters and extra resources:
 
 <!-- TODO: refactor as a 3 columns call to action: use a parent container shortcode? -->
 
-1. [ Hobby ](https://gum.co/vmPA) (*€ 14.95*)
-1. [ Indie ](https://gum.co/XEULZ) (*€ 29.95*)
-1. [ Pro ](https://gum.co/godot-tutorial-make-professional-2d-games) (*€ 59.95*)
+1. [ Hobby ](https://gum.co/vmPA)
+1. [ Indie ](https://gum.co/XEULZ)
+1. [ Pro ](https://gum.co/godot-tutorial-make-professional-2d-games)
 
 If you're only looking for UI tutorials, check out our standalone course:
 
@@ -120,6 +120,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 4. Working With Tile-maps
 5. Auto-tile With 3 By 3 Bit mask
 6. Intro To Tiled Map Editing
+7. Intro to the new [Tileset Editor in Godot 3.1](https://www.youtube.com/watch?v=F6VerW98gEc)
 
 ### {{< tag "hobby" >}} Chapter 6: Breathe life to the game: world animation and particles
 
@@ -193,7 +194,22 @@ This chapter covers the state programming pattern. It shows how to separate the 
 1. Pushdown Automaton
 1. Pushdown Stagger State
 
-### {{< tag "pro" >}} Chapter 11: Juicing the game
+### {{< tag "pro" >}} Chapter 11: Shop
+
+![Shop series banner screenshot](./shop-series-banner.png)
+
+01. Shop and purse
+02. Design shop base ui
+03. Menu base script
+04. Player and merchant interaction
+05. Buy and sell menus design
+06. Opening buy and sell menus
+07. Info panel
+08. Description panel and fixes
+09. Popup design
+10. Popup code
+
+### {{< tag "pro" >}} Chapter 12: Juicing the game
 
 Upcoming
 
