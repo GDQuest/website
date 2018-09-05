@@ -3,6 +3,8 @@ title: "Become a Game Developer: Your First Steps with Programming"
 description: You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design.
 author: nathan
 
+type: tut
+
 banner:
     src: img/banner.png
 resources:
