@@ -10,32 +10,23 @@
   </div>
 {{ end }}
 
-
 {{ define "main" }}
   <main>
-
     <section class="container base-v-padding">
       {{ .Content }}
     </section>
 
     {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}
       <section class="grid split2 container base-v-padding list">
-
         {{ range .Paginator.Pages }}
-
           <div>
             {{ .Render "summary" }}
           </div>
-
         {{ end }}
       </section>
-
       <div class="container">
         {{ partial "paginator" . }}
       </div>
-
     {{end}}
-
-
   </main>
 {{ end }}

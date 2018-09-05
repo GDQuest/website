@@ -14,14 +14,6 @@
 
 
 {{ define "main" }}
-
-{{ if and (isset .Params "videos_released") (ge .Params.videos_released 0) }}
-    {{ $.Scratch.Set "videos_released" .Params.videos_released }}
-{{ else }}
-    {{ $.Scratch.Set "videos_released" 10000 }}
-{{ end }}
-
-
 <section class="grid split2 container">
     <aside class="small base-v-padding chapters">
         <h3>chapters</h3>

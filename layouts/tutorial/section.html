@@ -16,15 +16,14 @@
 		{{.Content}}
 
 		<div class="grid split2 list">
-			{{ range (where (where .Site.Pages "Type" "in" (split "course tut" " ")) "Section" "tutorial") }}	
+			{{ range (where (where .Site.Pages "Type" "in" (split "course tut" " ")) "Section" "tutorial") }}
         {{ .Render "summary" }}
       {{ end }}
 		</div>
 	</section>
 
 	{{ partial "highlights" . }}
-
-	<!-- The old tutorial section uses the videos list from data, to make it better and 
-		easily updateble it might need to read tags in video content files, which of course 
+	<!-- The old tutorial section uses the videos list from data, to make it better and
+		easy to update it might need to read tags in video content files, which of course
 		requires the videos to be properly tagged -->
 {{ end }}
