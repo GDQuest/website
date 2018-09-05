@@ -1,0 +1,23 @@
+name = "Nathan Lovato"
+user = "nathan"
+picture = "img/avatar/nathan.png"
+description = "I'm a courteous game designer, with a taste for open source. I'll share all I know."
+
+website = "http://gdquest.com/"
+email = "Nathan@GDquest.com"
+
+[social.facebook]
+url = "https://www.facebook.com/nathan.lovato.9"
+icon = "facebook"
+name = "Facebook"
+[social.twitter]
+url = "https://twitter.com/NathanGDquest"
+icon = "twitter"
+name = "Twitter"
+[social.youtube]
+url = "http://youtube.com/c/gdquest"
+icon = "youtube"
+name = "Youtube"
+# [social.gplus]
+# url = "https://plus.google.com/u/0/b/105918903292667568234/+Gdquest"
+# icon = "google-plus"
