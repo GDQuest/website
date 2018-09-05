@@ -3,7 +3,7 @@ title: "Learn to Write Typed GDscript in Godot 3.1"
 description: GDscript is getting optional typing syntax in Godot 3.1! Get started with it in this intro tutorial.
 author: guilherme
 
-date: 2018-09-05T06:00:00+00:00
+date: 2018-09-04T06:00:00+00:00
 
 tags:
     - gdscript typed
@@ -16,6 +16,8 @@ tags:
     - godot 3.1 gdscript
     - godot 3 tutorial
     - gdscript tutorial
+
+type: tut
 
 banner:
     src: img/banner.png
