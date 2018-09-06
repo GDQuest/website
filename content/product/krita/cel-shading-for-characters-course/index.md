@@ -1,22 +1,23 @@
 ---
-date: 2017-05-09T00:00:00Z
-author: nathan
 title: Make Cel Shaded 2d Characters With Krita
 description: Learn to make cartoon 2d game characters with Krita! Based on the webcomic Pepper and Carrot by David Revoy
+author: nathan
+
+date: 2017-05-09T00:00:00Z
+
+category: Krita
+tags:
+- krita
+- krita 3
+- digital painting
+- digital art
 
 banner:
     src: banner.jpg
     alt: A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background
-
 resources:
 - src: banner.jpg
   name: banner
-
-category: Krita
-tags:
-- krita 3
-
-product: product-name
 ---
 
 This tutorial series will show you how to create your own game characters from scratch. It is based on the webcomic Pepper and Carrot by David Revoy.

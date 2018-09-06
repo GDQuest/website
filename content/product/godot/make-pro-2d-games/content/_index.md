@@ -3,22 +3,22 @@ title: "Godot course: available content"
 date: 2018-04-02
 author: nathan
 
+layout: single
+type: article
+
 category: Godot
 tags:
-  - Godot 3
-  - Godot course
-  - Video list
-  - Course content
+  - godot 3
+  - godot course
+  - video list
+  - course content
 
 banner:
   src: banner.png
   alt: Screenshot from a level in the course, with the player in the center
-
 resources:
 - src: banner.jpg
   name: banner
-
-layout: single
 ---
 
 *Last update: August 30*

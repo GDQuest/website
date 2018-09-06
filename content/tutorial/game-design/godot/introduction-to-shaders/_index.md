@@ -1,5 +1,5 @@
 ---
-title: Introduction to Shaders in Godot
+title: Intro to Shaders in Godot
 description: Learn to create shaders from scratch in Godot 3!
 date: 2018-08-13
 author: nathan
