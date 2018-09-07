@@ -1,16 +1,18 @@
 ---
-title: Product-name
-description: 
-date: 2017-01-30
+title: "{{ replace .Name "-" " " | title }}"
+description: Description here
 author: nathan
 
-category: Krita
+date: {{ .Date }}
+
+category: Godot
 tags:
-  - krita 3
+  - godot
 
 banner:
-  src: /img/product/krita/product-name/banner.jpg
-  alt: Krita brushes banner image
-
-product: product-name
+    src: img/banner.png
+    alt: banner
+resources:
+- src: img/banner.png
+  name: banner
 ---
