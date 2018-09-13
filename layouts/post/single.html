@@ -19,7 +19,7 @@
 <section class="grid center container base-v-padding">
     <article>
         {{ with (.Resources.GetMatch "banner") }}
-            {{ if .Params.Alt }}
+            {{ if isset .Params "alt" }}
                 <img src="{{ .Permalink }}" alt="{{ .Params.Alt }}">
             {{ else }}
                 <img src="{{ .Permalink }}" alt="{{ .Name }}">
