@@ -29,11 +29,11 @@ resources:
 GDscript is getting **optional** typing syntax in Godot 3.1. In this guide, you'll learn:
 
 - **How to use types in GDscript**
-- That **strong types can help you avoid bugs**
+- That **static types can help you avoid bugs**
 
 Where and how you use this new language feature is entirely up to you: you can use it only in some sensitive GDScript files, use it everywhere, or write code like you always did!
 
-Strong types can be used on variables, constants, functions, parameters, and return types.
+Static types can be used on variables, constants, functions, parameters, and return types.
 
 {{% note %}}Typed GDscript is not available in Godot 3.0. It will be available from Godot 3.1.{{%/ note %}}
 
@@ -62,7 +62,7 @@ When you use the `Inventory` in your project, you don't have to open the source 
 
 Another significant advantage of typed GDScript is the new **warning system**. From version 3.1, Godot gives you warnings about your code as you write it: the engine identifies sections of your code that may lead to issues at runtime, but lets you decide whether or not you want to leave the code as it is. More on that in a moment.
 
-Strong types also give you better code completion options. Below, you can see the difference between a dynamic vs. a strongly typed completion options for a class called `PlayerController`.
+Static types also give you better code completion options. Below, you can see the difference between a dynamic vs. a static typed completion options for a class called `PlayerController`.
 
 You've probably stored a node in a variable before, and typed a dot to be left with no autocomplete suggestions:
 
@@ -77,9 +77,9 @@ In the future, typed GDScript will also increase code performance: Just In Time 
 
 Overall, typed programming gives you a more structured experience. It helps prevent errors and improves the self-documenting aspect of your scripts. This is especially helpful when you're working in a team or on a long-term project: studies have shown that developers spend most of their time reading other people's code, or scripts they wrote in the past and forgot about. The clearer and the more structured the code, the faster is it to understand, the faster you can move forward.
 
-## How to Use Strong Typing in Godot 3.1
+## How to Use Static Typing in Godot 3.1
 
-To define the type of a variable or a constant, write a colon after the variable's name, followed by its type. E.g. `var health : int`. The `: type` notation is called a type hint:
+To define the type of a variable or a constant, write a colon after the variable's name, followed by its type. E.g. `var health : int`. This forces the type of variable to always stay the same:
 
 {{< highlight gdscript >}}
 var damage : float = 10.5
@@ -98,13 +98,13 @@ Currently you can use three types of... types:
 
 1. [Built-in types](http://docs.godotengine.org/en/3.0/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types)
 1. Core classes and nodes (`Object`, `Node`, `Area2D`, `Camera2D`, etc.)
-1. Your own, custom nodes. Look at the new [class_name](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes) feature to register types in the editor.
+1. Your own, custom classes. Look at the new [class_name](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes) feature to register types in the editor.
 
 {{% note %}}You don't need to write type hints for constants as Godot sets it automatically from the assigned value. But you can still do so to make the intent of your code clearer.{{%/ note %}}
 
 ### Custom Variable Types ###
 
-You can use any node, including your custom classes, as types. There are two ways to use them in scripts. The first method is to preload the script you want to use as a type in a constant:
+You can use any class, including your custom classes, as types. There are two ways to use them in scripts. The first method is to preload the script you want to use as a type in a constant:
 
 {{< highlight gdscript >}}
 const Rifle = preload('res://player/weapons/Rifle.gd')
@@ -130,11 +130,11 @@ Type casting is a key concept in typed languages. We call the conversion of a va
 
 Imagine an Enemy in your game, that `extends Area2D`. You want it to collide with the Player, a `KinematicBody2D` with a script called `PlayerController` attached to it. You use the `on_body_entered` signal to detect the collision. With typed code, the body you detect is going to be a generic `PhysicsBody2D`, and not your `PlayerController` on the `_on_body_entered` callback.
 
-You can check if this `PhysicsBody2D` is your Player with the `as` casting keyword:
+You can check if this `PhysicsBody2D` is your Player with the `as` casting keyword, and using the colon `:` again to force the variable to use this type. This forces the variable to stick to the `PlayerController` type:
 
 {{< highlight gdscript >}}
 func _on_body_entered(body : PhysicsBody2D) -> void:
-    var player = body as PlayerController
+    var player := body as PlayerController
     if not player:
         return
     player.damage()
@@ -206,7 +206,7 @@ extends Node
         pass
 {{< / highlight >}}
 
-And with strong typing:
+And with static typing:
 
 {{< highlight gdscript >}}
 extends Node
@@ -309,6 +309,6 @@ var player : Player
 
 ## Summary
 
-Typed GDscript is a powerful tool. Coming with Godot 3.1, it can already help you write more structured code, help you avoid common errors, and create scalable systems. In the future, strong types will also bring you a nice performance boost thanks to upcoming compiler optimizations.
+Typed GDscript is a powerful tool. Coming with Godot 3.1, it can already help you write more structured code, help you avoid common errors, and create scalable systems. In the future, static types will also bring you a nice performance boost thanks to upcoming compiler optimizations.
 
 Want to become a better game creator? Be sure to [follow us on Twitter](https://twitter.com/NathanGDquest) for more tutorials and news dedicated to game creation and Free Software!
