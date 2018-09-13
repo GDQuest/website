@@ -5,9 +5,11 @@ author: nathan
 
 date: 2018-06-09T13:18:14+09:00
 
-banner:
-  src: banner-power-sequencer-1.0.png
-  alt: "Power Sequencer v1.0 logo"
+resources:
+  - src: banner-power-sequencer-1.0.png
+    name: banner
+    params:
+        alt: "Power Sequencer v1.0 logo"
 
 categories:
     - news

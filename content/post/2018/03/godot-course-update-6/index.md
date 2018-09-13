@@ -6,9 +6,12 @@ author: nathan
 date: 2018-03-31T15:19:32+09:00
 
 type: post
-banner:
-  src: 2018-03-release-6-banner.png
-  alt: "Godot course update 6 with the AStar pathfinding Godot project logo in front of cherry tree flowers"
+
+resources:
+  - src: 2018-03-release-6-banner.png
+    name: banner
+    params:
+        alt: "Godot course update 6 with the AStar pathfinding Godot project logo in front of cherry tree flowers"
 
 categories:
     - news

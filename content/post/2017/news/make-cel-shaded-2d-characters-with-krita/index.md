@@ -4,9 +4,11 @@ description: The second Krita game art course is out on May 9. Meet Pepper and C
 date: 2017-05-04T08:42:22+02:00
 author: nathan
 
-banner:
-    src: banner.jpg
-    alt: A stylized painting of Carrot, an orange cat, over a blue background
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "A stylized painting of Carrot, an orange cat, over a blue background"
 
 category:
     - news

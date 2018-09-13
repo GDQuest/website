@@ -5,9 +5,11 @@ title: New Krita Game Art Course Out!
 description: Learn to make cartoon shaded game characters with this new Krita course. It also includes tutorials about art fundamentals.
 author: nathan
 
-banner:
-    src: banner.jpg
-    alt: A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background"
 
 category:
     - news

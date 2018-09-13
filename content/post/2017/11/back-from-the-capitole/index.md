@@ -5,9 +5,11 @@ author: nathan
 
 date: 2017-11-22T15:25:48+01:00
 
-banner:
-  src: banner.png
-  alt: A word cloud with some of the new features in Godot 3
+resources:
+  - src: banner.png
+    name: banner
+    params:
+        alt: "A word cloud with some of the new features in Godot 3"
 
 categories:
     - news

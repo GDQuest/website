@@ -5,9 +5,11 @@ author: nathan
 
 date: 2017-12-25T15:54:59+01:00
 
-banner:
-  src: banner.png
-  alt: Godot course update 3 banner, with a character jumping
+resources:
+  - src: banner.png
+    name: banner
+    params:
+      alt: "Godot course update 3 banner, with a character jumping"
 
 categories:
     - news

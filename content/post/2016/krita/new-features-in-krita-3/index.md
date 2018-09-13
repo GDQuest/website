@@ -19,9 +19,11 @@ anchors:
     - "smaller-features"
     - "krita-3-review"
 
-banner:
-    src: banner.jpg
-    alt: "The Krita brushes"
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "The Krita brushes"
 ---
 
 <span class="text-muted">Never heard of Krita? It is a free, open source digital painting program that used to be Linux-only. Since 2 years though, there's a Windows version, and the program is now being ported to Mac.</span>

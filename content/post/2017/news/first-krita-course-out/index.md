@@ -1,8 +1,10 @@
 ---
 author: nathan
-banner: 
-    src: banner.jpg
-    alt: Article banner, illustration with a cute rabbit and pig character in front of a forest
+resources: 
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Article banner, illustration with a cute rabbit and pig character in front of a forest"
 category:
 - news
 date: 2017-04-14T13:06:14+02:00

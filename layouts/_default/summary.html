@@ -1,12 +1,12 @@
 <div class="card outline" style="">
   {{ $url := .Permalink }}
-  {{ with .Params.banner }}
-    <a href="{{ $url }}"><img src="{{$url}}{{ .src }}" alt=""></a>
+  
+  {{ with (.Resources.GetMatch "banner") }}
+    <a href="{{ $url }}"><img src="{{ .Permalink }}" alt=""></a>
   {{ end }}
 
   <div class="content">
     <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
-
     <p>{{ .Description | markdownify }} </p>
   </div>
 </div>

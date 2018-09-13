@@ -14,9 +14,11 @@ tags:
     - crowdfunding
     - news
 
-banner:
-    src: banner.jpg
-    alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
     class: -pink
 aliases:
 - post/2017/news/godot_engine_kickstarter

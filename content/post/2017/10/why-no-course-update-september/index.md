@@ -3,9 +3,11 @@ title: "Waiting for Godot 3: Why There Was No Course Update in September"
 description: Godot 3 is coming out later than planned. As breaking changes keep happening, this delays the creation of new programming videos. But I'm still at work on the project. Read this post to learn what's happening in October on the Godot course project.
 author: nathan
 
-banner:
-  src: banner.jpg
-  alt: Godot Kickstarter banner
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Godot Kickstarter banner"
 
 date: 2017-10-10T09:03:31+02:00
 

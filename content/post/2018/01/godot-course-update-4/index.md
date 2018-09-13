@@ -5,9 +5,11 @@ author: nathan
 
 date: 2018-02-01T13:25:29+01:00
 
-banner:
-  src: banner.png
-  alt: "Godot course update 4 banner showing characters on a tiles-based map"
+resources:
+  - src: banner.png
+    name: banner
+    params:
+      alt: "Godot course update 4 banner showing characters on a tiles-based map"
 
 categories:
     - news

@@ -14,9 +14,11 @@ tags:
     - crowdfunding
     - news
 
-banner:
-    src: banner.jpg
-    alt: Article banner, showing 2 progress bars and the Godot logo on a red orange background
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Article banner, showing 2 progress bars and the Godot logo on a red orange background"
     class: -pink
 aliases:
 - post/2017/news/godot_engine_kickstarter

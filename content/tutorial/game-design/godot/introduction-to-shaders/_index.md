@@ -24,7 +24,7 @@ banner:
     src: banner.png
 
 resources:
-- src: banner.jpg
+- src: banner.png
   name: banner
 ---
 
