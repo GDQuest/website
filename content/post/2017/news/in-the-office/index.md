@@ -14,9 +14,11 @@ aliases:
   - in-the-office
   - post/2017/news/in_the_office
 
-banner:
-  src: banner.jpg
-  alt: "In the office article banner image"
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+      alt: "In the office article banner image"
 ---
 
 {{< youtube aouow3pfa7Q >}}

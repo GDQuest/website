@@ -1,11 +1,10 @@
 {{ define "head_content" }}
-<div class="blurred-fill"
-     {{ with .Params.banner }}
-     style="background-image: url({{ .src }})"
-     {{ end }}></div>
-<div class="grid center base-v-padding content">
+
+    {{ partial "modules/banner" . }}
+
     <div>
         <h1 class="no-margin">{{.Title}}</h1>
+        
         {{ with .Params.author }}
             {{ with (index $.Site.Data.authors . ) }}
             <p>by: {{ .name }} </p>
@@ -19,12 +18,16 @@
 {{ define "main" }}
 <section class="grid center container base-v-padding">
     <article>
-        {{ with .Params.banner }}
-        <img src="{{ .src }}" alt="{{ .alt }}">
+        {{ with (.Resources.GetMatch "banner") }}
+            {{ if .Params.Alt }}
+                <img src="{{ .Permalink }}" alt="{{ .Params.Alt }}">
+            {{ else }}
+                <img src="{{ .Permalink }}" alt="{{ .Name }}">
+            {{ end }}
         {{ end }}
 
         {{ .Content }}
-
+        
         {{ partial "modules/author" . }}
         {{ partial "improve-this-page.html" . }}
     </article>

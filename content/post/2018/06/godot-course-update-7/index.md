@@ -6,9 +6,12 @@ author: nathan
 date: 2018-06-01T18:19:32+09:00
 
 type: post
-banner:
-  src: 2018-05-release-8.png
-  alt: "Godot course update 8 banner, with a large blue pig on a green background"
+
+resources:
+  - src: 2018-05-release-8.png
+    name: banner
+    params:
+        alt: "Godot course update 8 banner, with a large blue pig on a green background"
 
 categories:
     - news

@@ -6,9 +6,11 @@ description: "It has been a while since the last behind the scenes post. Time fo
 tags: ["community"]
 title: "Summer Update"
 type: "post"
-banner:
-    src: banner.jpg
-    alt: "Summer sunset"
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Summer sunset"
 aliases:
 - post/2016/09/summer-news/
 ---

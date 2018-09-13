@@ -4,9 +4,11 @@ description: It's been a year already. 12 months, 12 consecutive updates. The br
 date: 2017-04-28T08:15:16+02:00
 author: nathan
 
-banner:
-    src: banner.jpg
-    alt: Krita brushes, comparison of the old and new thumbnails
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Krita brushes, comparison of the old and new thumbnails"
 
 category:
     - news

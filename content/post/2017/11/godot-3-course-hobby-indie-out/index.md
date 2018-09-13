@@ -5,9 +5,11 @@ author: nathan
 
 date: 2017-11-05T16:29:59+01:00
 
-banner:
-  src: banner.jpg
-  alt: Course release 2 banner, with an isometric diagram of the game's elemental tetrad
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Course release 2 banner, with an isometric diagram of the game's elemental tetrad"
 
 category:
     - news

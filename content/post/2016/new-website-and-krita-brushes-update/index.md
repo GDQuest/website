@@ -7,9 +7,11 @@ tags: ["community"]
 title: "May update: Krita brushes and ConciseCSS"
 description: "May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their Kickstarter campaign..."
 
-banner:
-  src: banner.jpg
-  alt: "May brushes release"
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+      alt: "May brushes release"
 aliases:
 - post/2016/05/new-website-and-krita-brushes-update/
 ---

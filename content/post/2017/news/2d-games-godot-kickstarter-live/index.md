@@ -1,8 +1,10 @@
 ---
 author: nathan
-banner:
-  src: banner.jpg
-  alt: Make 2d games with Godot, promotional banner for the crowdfunding campaign
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+      alt: "Make 2d games with Godot, promotional banner for the crowdfunding campaign"
 category:
 - news
 date: 2017-05-22T12:00:18+02:00

@@ -5,9 +5,11 @@ author: nathan
 
 date: 2017-10-24T08:10:10+02:00
 
-banner:
-  src: banner.png
-  alt: Godot Kickstarter banner
+resources:
+  - src: banner.png
+    name: banner
+    params:
+        alt: "Godot Kickstarter banner"
 
 category:
     - news

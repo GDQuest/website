@@ -6,9 +6,11 @@ description: "The first volume of Game Art Quest is done. 6.2 hours of free Krit
 title: "Game Art Quest vol1 done! Off to Japan"
 tags: ["community"]
 
-banner:
-    src: banner.jpg
-    alt: "Krita tutorial for game artists - banner"
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+        alt: "Krita tutorial for game artists - banner"
 aliases:
 - post/2016/09/japan-news/
 ---

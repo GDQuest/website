@@ -1,8 +1,11 @@
 ---
 author: nathan
-banner:
-  alt: A diagram showing the condition "hit", linked to the word "damage", next to the Godot engine and Kickstarter logos
-  src: banner.jpg
+resources:
+  - src: banner.jpg
+    name: banner
+    params:
+      alt: "A diagram showing the condition 'hit', linked to the word 'damage', next to the Godot engine and Kickstarter logos"
+
 category:
 - news
 date: 2017-05-09T09:18:18+02:00

@@ -5,9 +5,9 @@ author: nathan
 
 date: 2018-07-30T15:39:19+09:00
 
-banner:
-  src: banner.png
-  alt: banner
+resources:
+  - src: banner.png
+    name: banner
 
 categories:
     - news

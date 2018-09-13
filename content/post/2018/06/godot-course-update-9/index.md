@@ -4,9 +4,13 @@ description: "With two hours of extra hard tutorials dedicated to particles, thi
 author: nathan
 
 date: 2018-06-30T15:39:19+09:00
-banner:
-  src: ./godot-course-release-9-banner.png
-  alt: "godot course update 9 banner, fireball flying over a purple abstract background"
+
+resources:
+  - src: godot-course-release-9-banner.png
+    name: banner
+    params:
+        alt: "Godot course update 9 banner, fireball flying over a purple abstract background"
+
 
 categories:
     - news
