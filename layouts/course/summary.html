@@ -1,7 +1,8 @@
 <div class="card outline darkbg">
   {{ $url := .Permalink }}
-  {{ with .Params.banner }}
-    <a href="{{ $url }}"><img src="{{$url}}{{ .src }}" alt=""></a>
+  
+  {{ with (.Resources.GetMatch "banner") }}
+    <a href="{{ $url }}"><img src="{{ .Permalink }}" alt=""></a>
   {{ end }}
 
   <div class="content">

@@ -1,8 +1,7 @@
 {{ define "head_content" }}
-<div class="blurred-fill"
-     {{ with .Params.banner }}
-     style="background-image: url({{ .src }})"
-     {{ end }}></div>
+
+     {{ partial "modules/banner" . }}
+     
 <div class="grid center small-v-padding content">
     <div>
         <h1 class="no-margin">{{.Title}}</h1>
