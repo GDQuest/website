@@ -7,6 +7,8 @@ metaDataFormat = "yaml"
 paginate = 6
 paginatePath = "page"
 
+assetDir = "resources"
+
 [[menu.main]]
 identifier  = "tutorial"
 name        = "Tuts"
