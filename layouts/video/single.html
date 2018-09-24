@@ -1,13 +1,11 @@
 {{ define "head_content" }}
-
-{{ $.Scratch.Set "course_page" 0 }}
 {{ if eq .CurrentSection.Parent.Type "course" }}
-{{ $.Scratch.Set "course_page" .CurrentSection.Parent }}
+    {{ $.Scratch.Set "course_page" .CurrentSection.Parent }}
 {{ else if eq .Parent.Type "course"}}
-{{ $.Scratch.Set "course_page" .Parent }}
+    {{ $.Scratch.Set "course_page" .Parent }}
 {{ end }}
 
-{{ partial "modules/banner" ($.Scratch.Get "course_page") }}
+{{ partial "modules/banner" ($.Scratch.Get "course_page") }} 
 
 <div class="grid split2 small-v-padding content">
     <div class="big">
@@ -15,19 +13,18 @@
         <h1 class="no-margin">{{.Title}}</h1>
         {{ with .Params.author }}
             {{ with (index $.Site.Data.authors . ) }}
-            <p>by: {{ .name }} </p>
+            <p>by: {{ .name }}</p>
             {{ end }}
         {{ end }}
     </div>
 </div>
 {{ end }}
 
-
 {{ define "main" }}
 
 {{ $course_page := $.Scratch.Get "course_page" }}
 {{ $.Scratch.Set "pages" $course_page.Pages }}
-{{ $.Scratch.Set "page_index" 0 }}
+{{ $page_index := 0 }}
 
 <div class="grid split2 container">
     <input type="checkbox" name="toc_toggle" id="toc_toggle" class="hidden">
@@ -45,7 +42,8 @@
             <label for="{{.UniqueID}}"><b>{{.Title}}</b></label>
             <ul>
                 {{ range (sort .Pages "Date" "asc") }}
-                {{ if eq . $.Page }} {{ $.Scratch.Set "page_index" ($.Scratch.Get "index") }} {{ end }}
+                {{ if eq . $.Page }} {{ $page_index = ($.Scratch.Get "index") }} {{ end }}
+
                 {{ $.Scratch.Add "pages" . }}
                 {{ $.Scratch.Add "index" 1 }}
 
@@ -59,12 +57,14 @@
 
 
     {{ $pages := $.Scratch.Get "pages" }}
-    {{ $pindex := $.Scratch.Get "page_index" }}
+    {{ $pindex := $page_index }}
+    {{ $prev := -1 }}
+    {{ $next := -1 }}
     {{ if ne $.Page (index (first 1 $pages) 0) }}
-        {{ $.Scratch.Set "prev" (index $pages (sub $pindex 1)) }}
+        {{ $prev = (index $pages (sub $pindex 1)) }}
     {{ end }}
     {{ if ne $.Page (index (last 1 $pages) 0) }}
-        {{ $.Scratch.Set "next" (index $pages (add $pindex 1)) }}
+            {{ $next = (index $pages (add $pindex 1)) }}
     {{ end }}
 
     <article class="base-v-padding big">
@@ -111,11 +111,11 @@
             <div class="big-top-margin">
                 <hr>
                 <div class="flex justify-space-between">
-                    {{ with $.Scratch.Get "prev" }}
-                    <a href="{{.URL}}">Previous</a>
+                    {{ if ne $prev -1 }}
+                    <a href="{{ $prev.URL }}">Previous</a>
                     {{ end }}
-                    {{ with $.Scratch.Get "next" }}
-                    <a href="{{.URL}}">Next</a>
+                    {{ if ne $next -1}}
+                    <a href="{{ $next.URL }}">Next</a>
                     {{ end }}
                 </div>
             </div>
