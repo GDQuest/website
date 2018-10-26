@@ -1,11 +1,11 @@
 ---
-title: Make Professional 2d Games with Godot
-description: Get your game creation skills to the next level with the Godot game engine! Learn the best programming practices and explore essential programming patterns.
+title: make professional 2d games with godot
+description: get your game creation skills to the next level with the godot game engine! learn the best programming practices and explore essential programming patterns.
 author: nathan
 
 date: 2018-09-05
 
-category: Godot
+category: godot
 tags:
   - godot
   - game design
@@ -13,8 +13,8 @@ tags:
   - gamedev
 
 banner:
-    src: img/banner.png
-    alt: banner
+  src: img/banner.png
+  alt: banner
 resources:
 - src: img/banner.png
   name: banner

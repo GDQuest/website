@@ -1,9 +1,9 @@
 ---
-title: "Godot course: available content"
-date: 2018-04-02
+title: Available content in the Godot Course
 author: nathan
+date: 2018-10-26
 
-layout: single
+layout: post
 
 category: Godot
 tags:
@@ -14,17 +14,13 @@ tags:
 
 banner:
   src: banner.png
-  alt: Screenshot from a level in the course, with the player in the center
+  alt: banner
 resources:
-- src: banner.jpg
+- src: banner.png
   name: banner
 ---
 
-*Last update: August 30*
-
-The course is still in early access, with currently 11/12 chapters available in the Pro version.
-
-The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters and extra resources:
+The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters from Hobby and Indie, and extra resources:
 
 <!-- TODO: refactor as a 3 columns call to action: use a parent container shortcode? -->
 
@@ -38,7 +34,7 @@ If you're only looking for UI tutorials, check out our standalone course:
 
 {{< calltoaction url="https://gum.co/oifP" text="Create User Interface Godot Course" >}}
 
-You'll find some **free tutorial samples** below. I also released the [ Finite State Machine ](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation.
+You'll find some **free tutorial samples** below. I also released the [ Finite State Machine ](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation. You can find the open source [A-RPG demo](https://github.com/GDquest/make-pro-2d-games-with-godot/) from the course on GitHub.
 
 <p class="note">
 All versions come with source Godot projects so you can read the source code, learn from them and even reuse them in your own work! Want to skip ahead in a chapter? There are multiple checkpoint projects with `start` and `end` folders so you can pick up from a different video.
@@ -208,13 +204,29 @@ This chapter covers the state programming pattern. It shows how to separate the 
 09. Popup design
 10. Popup code
 
-### {{< tag "pro" >}} Chapter 12: Juicing the game
+### {{< tag "indie" >}} Chapter 12: Persistence, Polish, and Project Structure
 
-Upcoming
+This final series rounds out the techniques explored in the course with requests from the Kickstarter backers: looking at how to restructure a project as it grows in complexity, keeping persistent data and improving the game's feel with camera shake.
 
-### {{< tag "hobby" >}} Final chapter: Putting a game demo together
-
-Upcoming
+00. Intro
+01. Project structure: 01.final folder structure
+02. Project structure: 02.demo scene structure
+03. Level loader: 01.levels and musicplayer
+04. Level loader: 02.game node
+05. Level loader: 03.final code overview
+06. Save and load: 01.save game
+07. Save and load: 02.create save file
+08. Save and load: 03.load game from json
+09. Save and load: 04.parsing vector2
+10. Save and load: 05.saving and loading in practice
+11. Audio: 01.intro to audio
+12. Audio: 02.intro to audio buses
+13. Audio: 03.sound options menu
+14. Juicing: 01.camera screenshake
+15. Juicing: 02.boss camera animation
+16. Juicing: 03.boss camera shake
+17. BONUS: Gui's intro to debugging tools
+18. Outro
 
 ### Extras: Bonus content
 
