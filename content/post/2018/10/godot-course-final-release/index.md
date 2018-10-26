@@ -3,13 +3,11 @@ title: The Godot Course's Final Chapter is Out
 description: Our course is complete and out of early access! We're looking back at a year of free tutorials and open source contributions.
 author: nathan
 
-date: 2018-10-24T11:17:08+09:00
+date: 2018-10-28
 resources:
 
   - src: img/banner-github.png
     name: banner
-
-draft: true
 
 categories:
     - news
