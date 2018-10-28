@@ -22,7 +22,7 @@ This first part is for you if you have little to no programming experience. You'
 1. That **Programming is for everyone**. It's not just about math and it's not just for men or young people
 1. **How to get started today**
 
-<!-- TODO: If you've already nailed programming basics, check out part two: [ Getting Started with Game Programming and Godot ](). -->
+{{< youtube q3Og0Z-_En0 >}}
 
 {{% note %}}
 It is the first part of a *Free and Open Source* intro series to game creation and to the [ Godot game engine ](https://godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
