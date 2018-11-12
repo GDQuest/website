@@ -47,9 +47,15 @@
                             {{ $s := (int (index $units 2)) }}
                             {{ $duration = (add (add (mul $h 3600) (mul $m 60)) $s) }}
                         {{ else if isset $units 1 }}
+                            
+                            
                             {{ $m := (int (index $units 0)) }}
-                            {{ $s := (int (index $units 1)) }}
-                            {{ $duration = (add (mul $m 60) $s) }}
+                            {{ if ne (index $units 1) ""}}
+                                {{ $s := (int (index $units 1)) }}
+                                {{ $duration = (add (mul $m 60) $s) }}
+                            {{ else }}
+                                {{ $duration = (mul $m 60) }}
+                            {{ end }}
                         {{ else }}
                             {{ $duration = (int (index $units 0)) }}
                         {{ end }}
