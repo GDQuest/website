@@ -149,7 +149,7 @@ As we're dealing with a custom type, if the `body` doesn't extend `PlayerControl
 
 You can also use casting is to ensure safe lines. Safe lines are a new tool in Godot 3.1 to tell you when ambiguous lines of code are type-safe. As you can mix and match typed and dynamic code, at times, Godot doesn't have enough information to if an instruction will trigger an error or not at runtime.
 
-This happens when you get a child node. Let's take a timer for example: with dynamic code, you can get the node with `$Timer`. GDscript supports [duck-typing](https://stackoverflow.com/a/4205163/8125343), so even if your timer is of type `Timer`, it is also a `Node` and an `Object`, two classes it extends. With dynamic GDscript, you also also don't care about the node's type as long as it has the methods you need to call.
+This happens when you get a child node. Let's take a timer for example: with dynamic code, you can get the node with `$Timer`. GDscript supports [duck-typing](https://stackoverflow.com/a/4205163/8125343), so even if your timer is of type `Timer`, it is also a `Node` and an `Object`, two classes it extends. With dynamic GDscript, you also don't care about the node's type as long as it has the methods you need to call.
 
 You can use casting to tell Godot the type you expect when you get a node: `($Timer as Timer)`, `($Player as KinematicBody2D)`, etc. Godot will ensure the type works and if so, the line number will turn green at the left of the script editor.
 
