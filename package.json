@@ -4,11 +4,11 @@
   "description": "GDquest official website",
   "main": "gdquest",
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^6.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^2.0.0",
     "postcss-cli": "^6.0.1"
