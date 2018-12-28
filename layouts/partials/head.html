@@ -5,19 +5,15 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 
   <link href="{{ "favicon.png" | absURL }}" rel="icon">
-  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/touch-icon-144-precomposed.png" | absURL }}"> -->
 
   <!-- title font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800" rel="stylesheet">
-
   <!-- font-awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" )}}
-  {{ $style := resources.Get "scss/gdquest.scss" | resources.ToCSS $options | postCSS }}
-
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-  
+  {{/* $options := (dict "targetPath" "style.css" "outputStyle" "compressed" )*/}}
+  {{/* $style := resources.Get "scss/gdquest.scss" | resources.ToCSS $options | postCSS */}}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}style.css">
 
   {{ partial "meta" . }}
 </head>
