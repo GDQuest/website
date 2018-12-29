@@ -1,4 +1,4 @@
-baseURL = "http://gdquest.com/"
+baseURL = "https://gdquest.com/"
 languageCode = "en-us"
 title = "GDQuest"
 
