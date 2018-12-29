@@ -8,8 +8,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
-    "gulp": "^4.0.0",
-    "gulp-gh-pages": "^0.5.4",
     "postcss-cli": "^6.0.1"
   },
   "scripts": {
@@ -22,7 +20,7 @@
   "author": "Nathan Lovato",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NathanLovato/GDquest-website/issues"
+    "url": "https://github.com/GDquest/GDquest-website/issues"
   },
-  "homepage": "https://github.com/NathanLovato/GDquest-website#readme"
+  "homepage": "https://github.com/GDquest/GDquest-website"
 }
