@@ -29,7 +29,7 @@ If I produced gameplay programming videos now for the course, they'd soon become
 
 ## What's happening now with the Kickstarter
 
-Part of the Kickstarter's budget is for contributions. We're already hard at work on the official docs with Chris aka [ @KidsCanCode ](https://twitter.com/KidsCanCode). In 5 weeks, the Godot 3.0 class reference went from 35% to 60% complete. That is the same completion rate as Godot 2. But that's not all: we worked on [ writing guidelines ](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) to improve the quality of the docs and the [ contributor's guide ](http://docs.godotengine.org/en/latest/community/contributing/documentation_guidelines.html) to get more contributors onboard. Thanks to this, the manual and class reference will not only be more comprehensive: they're going to be of higher quality too.
+Part of the Kickstarter's budget is for contributions. We're already hard at work on the official docs with Chris aka [ @KidsCanCode ](https://twitter.com/KidsCanCode). In 5 weeks, the Godot 3.0 class reference went from 35% to 60% complete. That is the same completion rate as Godot 2. But that's not all: we worked on [ writing guidelines ](https://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) to improve the quality of the docs and the [ contributor's guide ](https://docs.godotengine.org/en/latest/community/contributing/documentation_guidelines.html) to get more contributors onboard. Thanks to this, the manual and class reference will not only be more comprehensive: they're going to be of higher quality too.
 
 {{< figure src="godot-docs-sprint-05.png" caption="In 5 docs sprints, thanks to everyone, the 3.0 docs grew a lot" alt="Godot docs sprint 05 banner image, with the Gobot docs logo" >}}
 
@@ -53,7 +53,7 @@ I asked you on Discord what I should focus on until Godot 3's beta comes out. An
 
 Thanks to Chris's work on beginner-friendly tutorials, like the new [ Your First Game ](http://docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html), together we can produce more content and take on more complex topics like the UI system, Animation and Particles.
 
-{{< figure src="http://docs.godotengine.org/en/latest/_images/dodge_preview.gif" caption="Chris's new getting started tutorial for Godot 3 makes you code an avoid the monsters game" alt="Small aliens crawling on the screen, and the player has to avoid them" >}}
+{{< figure src="https://docs.godotengine.org/en/latest/_images/dodge_preview.gif" caption="Chris's new getting started tutorial for Godot 3 makes you code an avoid the monsters game" alt="Small aliens crawling on the screen, and the player has to avoid them" >}}
 
 If you've got any concern or question, never hesitate to contact me directly on Discord, [ Twitter ](https://twitter.com/NathanGDquest/) or via Kickstarter/Email.
 Thank you kindly for your time and see you soon!
