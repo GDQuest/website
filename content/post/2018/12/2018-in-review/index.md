@@ -65,7 +65,7 @@ I am a proud Linux user now! I got a computer from [System76](https://system76.c
 
 I'm impressed at how slick the Linux desktop has become compared to five or six years ago. I think it's really comparable to Windows and Mac in terms of usability now.
 
-On top of thatx the fact that you can do everything with the shell and pretty much everything is documented. You can gradually customize your system and boost your productivity over time.
+On top of that, the fact that you can do everything with the shell and pretty much everything is documented. You can gradually customize your system and boost your productivity over time.
 
 Although now on Windows you can use the Linux subsystem or cygwin to use the system's command line tools natively, the experience has never quite been the same.
 
