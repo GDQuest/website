@@ -1,15 +1,17 @@
 ---
-title: GDQuest Code of Conduct
+title: GDQuest's Kind Communication Guidelines
 author: nathan
 
 date: 2018-12-04T09:30:19+09:00
+aliases:
+  - /open-source/code-of-conduct
 ---
 
 *Version v1.0.0*
 
 *This document is based on the [GNU Kind Communications Guidelines](https://www.gnu.org/philosophy/kind-communication.html) by Richard Stallman.*
 
-*In short, our goal with these guidelines is to build a welcoming, a safe, and a productive space for every creator and contributor. We're here to push Free Software projects forward together, working past our differences.*
+*In short, our goal with these guidelines is to build a welcoming, a safe, and a productive space for every creator and contributor. We're here to push Free Software projects forward together and be excellent to one another, working past our differences.*
 
 We encourage contributions from anyone who wishes to help with the development of any GDquest project, regardless of gender, race, religion, cultural background, and any other demographic characteristics, as well as personal political views.
 

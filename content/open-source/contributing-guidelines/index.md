@@ -14,7 +14,7 @@ To make it as smooth and as pleasant as possible for everyone to work together, 
 1. **Be and mindful of the contributors' and the maintainers' time**. Everyone here is providing their expertise benevolently. As much as we are thankful for detailed suggestions and reports, we may not be able to get to every one of them in a timely fashion.
 1. **Be respectful**. We consider that respect is essential for fullfilling and productive human relationships. We want to keep our projects welcoming for everyone.
 
-Also be sure to check our [Code of Conduct]({{< ref "/open-source/code-of-conduct/index.md" >}})! It's based on the GNU Kind Communication Guidelines.
+Also be sure to check our [Code of Conduct]({{< ref "/open-source/communication-guidelines/index.md" >}})! It's based on the GNU Kind Communication Guidelines.
 
 ## Writing great bug reports and requests
 
