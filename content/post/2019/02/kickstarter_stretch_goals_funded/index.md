@@ -26,7 +26,7 @@ There's two days left to wrap up the campaign. With over 28,000€ in pledges al
 
 You only have two days left to become a backer on our new 2d and 3d game creation courses:
 
-{{< calltoaction url="" text="Back us on Kickstarter" >}}
+{{< calltoaction url="https://www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng/" text="Back us on Kickstarter" >}}
 
 *Your pledges support both GDquest and Godot.*
 
