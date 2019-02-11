@@ -142,11 +142,11 @@ func _on_body_entered(body : PhysicsBody2D) -> void:
 
 As we're dealing with a custom type, if the `body` doesn't extend `PlayerController`, the `player`variable will be set to `null`. We can use this to check if the body is the player or not. We will also get full autocompletion on the player variable thanks to that cast.
 
-You can also use the `is` keyword to check is an object is of a certain type. But unlike casting, this doesn't change the type of the variable for Godot, so you may not benefit from autocompletion in the script editor, although this code is shorter than the one above:
+You can also use the `is` keyword to check if an object is of a certain type. But unlike casting, this doesn't change the type of the variable for Godot, so you may not benefit from autocompletion in the script editor, although this code is shorter than the one above:
 
 {{< highlight gdscript >}}
 func _on_body_entered(body : PhysicsBody2D) -> void:
-    if not player is PlayerController:
+    if not body is PlayerController:
         return
     player.damage()
 {{< / highlight >}}
