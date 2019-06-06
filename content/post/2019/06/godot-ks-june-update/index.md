@@ -25,7 +25,7 @@ I've been focusing on work quite a bit lately and felt a little behind with comm
 
 Time for an update!
 
-{{< youtube gRwBqykL9kw >}}
+{{< youtube puZctyp-5j4 >}}
 
 *Note: I do occasional update videos and live streams [on the GDquest channel](https://www.youtube.com/c/gdquest/). Subscribe if you want to stay posted on everything that's happening around the project.*
 
@@ -89,6 +89,6 @@ In greater details:
 
 That's it for now. 
 
-If you have any more questions or concerns, you can always send me a tweet, comment on the update videos, or better, hop on the GDquest Discord server and ping me by typing @gdquest. 😄
+If you have any more questions or concerns, you can always [send me a tweet](https://twitter.com/NathanGDquest), comment on the update videos, or better, hop on the [GDquest Discord server](https://discord.gg/CHYVgar) and ping me by typing @gdquest. 😄
 
 Be creative, have fun... see you in the next one. 🙂
