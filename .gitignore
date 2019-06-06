@@ -8,7 +8,6 @@
 /_src/website-redesign/
 .vscode/
 
-
 _src/py/client_secret.json
 
 # Packages #
@@ -23,6 +22,10 @@ _src/py/client_secret.json
 *.rar
 *.tar
 *.zip
+
+# Assets #
+##########
+*.kra
 
 # Logs and databases #
 ######################
