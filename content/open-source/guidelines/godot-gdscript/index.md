@@ -38,6 +38,8 @@ To create modular and composable systems, we have to manage boundaries: the plac
 
 ## Code Writing Style
 
+{{< youtube FB2sqJgfqXI >}}
+
 This section explains our programming style by example.
 
 Heres a complete example that follows all the guidelines below:
@@ -366,6 +368,8 @@ func choose_action(actor: Battler, targets: Array = []):
 ## System Design and Interactions
 
 In this section we're going to discuss how can we create decoupled and reusable game systems in Godot.
+
+{{< youtube CGg3LAo91pY >}}
 
 One of the most difficult jobs of a developer is to design and to manage different systems interacting with one another. This is especially true in the game development world where we push the hardware to the limit, making use of parallelism & concurrency, async, and every tool in the toolbox.
 
