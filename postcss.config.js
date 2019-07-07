@@ -1,9 +1,9 @@
 module.exports = {
     plugins: {
         autoprefixer: {
-            browsers: ['last 2 versions'],
+            browserlist: ["defaults"],
             cascade: false,
-            flexbos: 'no-2009'
+            flexbox: 'no-2009'
         }
     },
 }
