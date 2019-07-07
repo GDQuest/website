@@ -1,4 +1,4 @@
-{{ $valid_classes := (slice "note" "tips" "question" )}}
+{{ $valid_classes := (slice "note" "tips" "example")}}
 
 <aside class="{{ if ( .Get 0 ) in $valid_classes }}{{ .Get 0 }}{{ else }}note{{ end }}">
     {{ .Inner }}
