@@ -17,7 +17,7 @@
 }
 .keystroke {
   code {
-    border: 2px solid get_color(default, text);
+    border: 2px solid $color-default-text;
     padding: $micro-spacing / 2 $micro-spacing;
     border-radius: 4px;
     display: inline-block;

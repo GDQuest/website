@@ -1,8 +1,3 @@
-// Retrieve colors from the $colors map.
-@function get-color($color, $value: 'base') {
-  @return map-get(map-get($colors, $color), $value);
-}
-
 // Power
 @function pow($number, $exponent) {
   $value: 1;

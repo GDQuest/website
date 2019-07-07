@@ -10,10 +10,10 @@
 }
 
 .tag.hobby {
-    background: get-color(accent-main, base);
+    background: $color-accent-main-base;
 }
 .tag.indie {
-    background: get-color(colors, pink);
+    background: $color-gdquest-pink;
 }
 .tag.pro {
     background: #02E180;

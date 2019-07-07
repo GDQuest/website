@@ -11,9 +11,9 @@
   <!-- font-awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-  {{/* $options := (dict "targetPath" "style.css" "outputStyle" "compressed" )*/}}
-  {{/* $style := resources.Get "scss/gdquest.scss" | resources.ToCSS $options | postCSS */}}
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}style.css">
+  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" )}}
+  {{ $style := resources.Get "scss/gdquest.scss" | resources.ToCSS $options | postCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   {{ partial "meta" . }}
 </head>

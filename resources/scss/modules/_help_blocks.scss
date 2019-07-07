@@ -1,13 +1,18 @@
-aside>p:first-child{
+aside>p:first-child {
     margin-top: 0;
 }
-aside>p:last-child{
+
+aside>p:last-child {
     margin-bottom: 0;
 }
-aside{
+
+aside {
     margin: 16px 0;
 }
-.note, .tips, .warning {
+
+.note,
+.tips,
+.example {
     display: block;
     padding: 0 $tiny-spacing;
     padding-bottom: $tiny-spacing;
@@ -16,14 +21,20 @@ aside{
 }
 
 .note {
-    border: 1px get-color(accent-main, base) solid;
+    border: 1px $color-accent-main-base solid;
 }
 
 .tips {
-    border: 1px get-color(colors, pink) solid;
+    border: 1px $color-gdquest-pink solid;
 }
 
-.note:before, .tips:before {
+.example {
+    border: 1px $color-gdquest-green solid;
+}
+
+.note:before,
+.tips:before,
+.example:before {
     display: block;
     margin: 0 -1*$tiny-spacing 10px -1*$tiny-spacing;
     padding-left: $tiny-spacing;
@@ -36,10 +47,15 @@ aside{
 
 .note:before {
     content: "Note";
-    background-color: get-color(accent-main, base);
+    background-color: $color-accent-main-base;
 }
 
 .tips:before {
     content: "Tips";
-    background-color: get-color(colors, pink);
+    background-color: $color-gdquest-pink;
+}
+
+.example:before {
+    content: "Example";
+    background-color: $color-gdquest-green;
 }

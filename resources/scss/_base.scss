@@ -12,7 +12,7 @@ body {
   margin: 0;
   font-family: $base-font;
   font-size: $font-size-normal;
-  background-color: get-color(dark, base);
+  background-color: $color-dark-base;
 
   overflow-x: hidden;
 }
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, [data-font*="title"], .btn {
   font-family: $title-font;
   text-transform: uppercase;
 
-  color: get-color(default, text-hl);
+  color: $color-default-text-hl;
 }
 h4, h5, h6, [data-font~="semibold"] {
   font-weight: 600;
@@ -107,24 +107,24 @@ p { line-height: 1.5; }
 
 
 .darkbg .title, .darkbg h1, .darkbg h2, .darkbg h3, .darkbg h4, .darkbg h5, .darkbg h6 {
-	color: get-color(dark, text-hl);
+	color: $color-dark-text-hl;
 }
 .darkbg {
-	background-color: get-color(dark, base);
-	color: get-color(dark, text);
+	background-color: $color-dark-base;
+	color: $color-dark-text;
 }
 .darkbg .icon {
-	color: get-color(dark, text);
+	color: $color-dark-text;
 }
 
 a, .darkbg a, .darkbg a .icon {
   text-decoration: none;
-  color: get-color(default, text-bright);
+  color: $color-default-text-bright;
 
   transition: color .1s ease-in-out;
 }
 a:hover, .pages a:hover, #topbar nav a:hover, a.icon:hover, a:hover .icon {
-	color: get-color(accent-main, base);
+	color: $color-accent-main-base;
 }
 
 
@@ -146,7 +146,7 @@ nav {
   @include noselect;
 }
 #topbar nav a, nav .icon {
-  color: get-color(dark, text-hl);
+  color: $color-dark-text-hl;
   margin-left: $small-spacing;
 }
 nav * {
@@ -164,8 +164,8 @@ nav * {
 
 
 main {
-	background-color: get-color(default, base);
-	color: get-color(default, text);
+	background-color: $color-default-base;
+	color: $color-default-text;
 
 	position: relative;
   padding-bottom: $huge-spacing;
@@ -191,10 +191,10 @@ main {
     background-color: transparent;
 }
 .header-bg-home {
-    background-image: url(/img/homepage-header.png), linear-gradient(to left, get-color(header, start),get-color(header, end));
+    background-image: url(/img/homepage-header.png), linear-gradient(to left, $color-header-start,$color-header-end);
 }
 .header-bg-section {
-    background-image: linear-gradient(to left, get-color(header, start),get-color(header, end));
+    background-image: linear-gradient(to left, $color-header-start,$color-header-end);
 }
 .header-bg {
     background-position: top;
@@ -225,7 +225,7 @@ ul li, ol li {
 	padding-bottom: $micro-spacing;
 }
 
-li.current { color: get-color(colors, pink); }
+li.current { color: $color-gdquest-pink; }
 
 .pages {
 	list-style: none;
@@ -237,10 +237,10 @@ li.current { color: get-color(colors, pink); }
 	display: inline-block;
 }
 .pages a {
-	color: get-color(default, text);
+	color: $color-default-text;
 }
 .pages .active a {
-	color: get-color(accent-main, base);
+	color: $color-accent-main-base;
 }
 
 
@@ -274,7 +274,7 @@ li.current { color: get-color(colors, pink); }
 		top: $huge-spacing;
 		right: $tiny-spacing;
 		left: $tiny-spacing;
-		background-color: get-color(dark, base);
+		background-color: $color-dark-base;
 		line-height: normal;
 		padding: $tiny-spacing;
 		margin-left: 0;
@@ -285,7 +285,7 @@ li.current { color: get-color(colors, pink); }
 		border-radius: $round-radius;
 	}
 	#topbar nav a, nav .icon {
-	  color: get-color(dark, text-hl);
+	  color: $color-dark-text-hl;
 	  margin-left: 0;
 	}
 	#page_links, #social_links {
@@ -314,13 +314,13 @@ li.current { color: get-color(colors, pink); }
 	}
 
 	#nav_toggle_cb:checked ~ #topbar #menu_btn {
-		color: get-color(accent-main, base);
+		color: $color-accent-main-base;
 	}
 	#nav_toggle_cb:checked ~ #topbar > nav.flex {
 		display: initial;
 	}
 	#nav_toggle_cb:checked ~ #topbar {
-		// background-color: get-color(dark, base);
+		// background-color: $color-dark-base;
 	}
 
 	nav .shop {

@@ -23,17 +23,30 @@ $font-size-big5: 54px;  /* reduce to 48? */
 $base-text-shadow: 0 0 4px rgba(0, 0, 0, .5);
 $base-border-color: rgba(0, 0, 0, .2);
 
-/* --c-orange: ; */
-/* --c-pink: ; */
+$color-default-base: white;
+$color-default-text: #6e6e6e;
+$color-default-text-hl: #505050;
+$color-default-text-bright: deepskyblue;
 
-$colors: (
-	default: ("base": white, "text": #6e6e6e, "text-hl": #505050, "text-bright": deepskyblue),
-	dark: ("base": #272b30, "text": #cacaca, "text-hl": white),
-  header: ("base": #0C4B89, "start": #0179D1, "end": #000046),
-	accent-main: ("base": #26BFE3, "text": white),
-	accent-opt: ("base": #ffd500, "text": #272b30),
-	colors: ("green": #02E180, "yellow": #ffd500, "orange": #F2971A, pink: #E3266F),
-);
+$color-dark-base: #272b30;
+$color-dark-text: #cacaca;
+$color-dark-text-hl: white;
+
+$color-header-base: #0c4b89;
+$color-header-start: #0179d1;
+$color-header-end: #000046;
+
+$color-accent-main-base: #26bfe3;
+$color-accent-main-text: white;
+
+$color-accent-opt-base: #ffd500;
+$color-accent-opt-text: $color-dark-base;
+
+$color-gdquest-green: #02e180;
+$color-gdquest-yellow: #ffd500;
+$color-gdquest-orange: #f2971a;
+$color-gdquest-pink: #e3266f;
+
 
 $bg-screen-size: 1200px;
 $md-screen-size: 992px;
@@ -41,8 +54,8 @@ $sm-screen-size: 768px;
 
 
 @mixin dark {
-	background-color: get_color(dark, base);
-	color: get_color(dark, text);
+	background-color: $color-dark-base;
+	color: $color-dark-text;
 }
 
 @mixin bg-centered {
