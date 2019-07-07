@@ -17,10 +17,8 @@ We use these guidelines at GDquest as well to **work efficiently together**.
 To make it as smooth and as pleasant as possible for everyone to work together, we'll ask you to:
 
 1. **Communicate**. Let people know what you're working on, join discussion on the issues, and open your own!
-1. **Be and mindful of the contributors' and the maintainers' time**. Everyone here is providing their expertise benevolently. As much as we are thankful for detailed suggestions and reports, we may not be able to get to every one of them in a timely fashion.
-1. **Be respectful**. We consider that respect is essential for fullfilling and productive human relationships. We want to keep our projects welcoming for everyone.
-
-Also be sure to check our [Communication Guidelines]({{< ref "/open-source/guidelines/kind-communication-guidelines/index.md" >}})!
+1. **Be and mindful of the contributors' and the maintainers' time**. Most people are helping benevolently. Help us all save time by writing precise bug reports and feature requests.
+1. **Be excellent to one another**. We're building a welcoming community and want to get people to work together. 🙂
 
 ## In short ##
 
@@ -36,40 +34,36 @@ We ask everyone to follow 3 steps to work smoothly and productively together:
 
 /Every one of us is responsible for making work smooth for everyone else. Let's keep in touch with one another, be kind to one another, write great code, keep the project's scope and design targets in mind, and create clean pull request./
 
-## How to communicate well ##
+## How to communicate well as a contributor ##
 
-The community is friendly and we intend to keep it this way. We use our
-own version of the Free Software Kind Communication Guidelines to be
-great to one another.
+**We want to build a friendly and a welcoming community** at GDquest. One that lets everyone in, regardless of our experience, origins, or opinions. We should do our best to get newcomers to want to learn more about Free Software and become contributors.
 
-Review work can be time-consuming and of 10 it takes me more time to
-review someone's contribution then it would take me to codes the
-feature myself. This is why I need you to follow these guidelines.
+We have one key rule when we talk to one another: **let's be excellent to one another**.
 
-Explain the problem that you are trying to solve and the way you intend
-to solve it. We likely have some code in place already and ideas to save
-you a lot of work.
+You can find more details about in our [Communication Guidelines]({{ ref /open-source/guidelines/kind-communication-guidelines/ }}). They're based on the GNU project's *Kind Communication Guidelines*.
 
-You can also join our Discord server to get in touch directly on the
-chat.
+### Help us help you ###
 
-We are here to help if you have any trouble with the git workflow or if
-you get stuck along the way.
+Review work is time-consuming. By communicating upfront, letting us help you as you contribute, and respecting the code style that we all use, you can save both you and the reviewers a lot of time.
 
-If you want to work on an existing issue make sure that you understand
-it well by asking for all the information you need to tackle it.
+In short, you should explain the problem that you are trying to solve and the way you intend to solve it before you get started on the issue tracker. We likely have code in place already and ideas to keep your code simple and save you a lot of work!
+
+We are here to review your Work-in-progress code, to help if you have any trouble with the git workflow, or if you get stuck along the way.
+
+If you want to work on an open issue, make sure that you understand it well by asking for all the information you need to tackle it.
+
+You can also get in touch on the [GDquest Discord server](https://discord.gg/uzSR7jB).
 
 ## Code style ##
 
-This is important that we follow a few rules so our code stays readable,
-accessible to other contributors, and consistent. That is because there
-are many ways to structure your code and many ways to solve a given
-problem. Fe favor the ones that are maintainable but also accessible to
-other developers.
+There are **many ways to structure code** and many ways to solve a given problem. This is important that we **follow the same guidelines so our code stays easy to read and to maintain**. We choose code styles that are accessible to other developers, so we can build great projects together.
 
-Read other classes in the project to see our coding style. We write
-docstrings in our code to help you understand the purpose of different
-files and the code structure.
+These guidelines are separate guides:
+
+1. [Godot GDScript: best practices]({{ ref /open-source/guidelines/godot-gdscript/ }})
+1. [Blender Python: best practices]({{ ref /open-source/guidelines/blender-python/ }})
+
+Before you write code, **read other classes in the project** to get a sense for the style and code architecture. We write docstrings in our code to help you understand the purpose of different classes.
 
 ## How to create great Pull Requests ##
 
@@ -77,19 +71,13 @@ files and the code structure.
 
 **Squash your commits**!
 
-when you are working locally, you may use as many comments as you want
-so that you can jump back in your code's history. but once you publish
-your own changes and you submit your pull request, you should squash
-your commits so that the project's history stays easy to browse.
+When you are working on your computer and local fork, you may use as many commints as you want so that you can jump back in your code's history. But once you publish your own changes and submit your pull request, you should squash your commits so that the project's history stays easy to browse.
 
-A new feature can be a single commit. A bug fix or an improvement can be
-one commit. A commit can range from a small change to hundreds of lines
-of code. it should just be a coherent unit in the project's history.
+A new feature can be a single commit. A bug fix or an improvement can be one commit. A commit can range from a small change to hundreds of lines of code. It should just be a clear and a coherent step in the project's history.
 
 ## How to write great bug reports and requests
 
 When you report a bug or request a new feature or an improvement, we need information to fix it.
-
 
 ### Writing a great bug report
 
