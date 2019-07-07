@@ -158,20 +158,38 @@ ReferenceError: StructRNA of type Keyframe has been removed
 This traceback is important as it gives us a precise starting point to investigate and fix the bug.
 {{% / note %}}
 
-<!-- TODO -->
-<!-- ### How to write a great feature request -->
+### How to write a great feature request
 
-<!-- When you make a request for improvements on your features, please always describe the problem that you are facing and your needs. to produce a great design, we need to understand your problem and to explore different solutions: -->
+When you make a request for improvements or new features, please **always describe the problem that you are facing and your needs**. to produce a great design, we need to understand your problem and to explore different solutions:
 
-<!-- 1. We need to understand the problem to figure out the details of the design and how to best structure our code -->
-<!-- 1. To produce a coherent and efficient design for a game or a tool, you don't want to just copy what other programs do. -->
-<!-- 2. The solution you envision may be too time consuming or too hard to do. We might have a simpler solution -->
+1. We need to understand the problem to figure out the details of the design and how to best structure our code
+1. Copying what other programs do without doing any research is the best way to produce incoherent design and a missed opportunity to create more efficient tools
+1. The solution you envision may be too time consuming or too complicated to code
+1. We might already have tools in place that solve your problem that are just not visible enough. In this case, we can improve the user interface, improve an existing tool, or create a tutorial to solve your problem
 
-<!-- Here is an example of a great feature request: -->
+Here is an example of a great feature request:
 
-<!-- 1. The title sums up the request well -->
-<!-- 1. The body describes the problem or the need the request intends to solve -->
-<!-- 1. It provides examples of when the feature Improvement is useful,  and optionally examples of the feature in the context of other applications  -->
+{{% note example %}}
+Title: Add an interactive tool to fade audio and video
+
+Problem: I often need to add fades in and out on my video and audio clips. They are hard to add precisely without having a visual representation of the fade’s length and effect.
+
+I would like to suggest adding an interactive tool that allows you to add Fades by clicking and dragging on clips on the timeline. It should indicate how long the fades are on the clips.
+
+**How it works in other programs I use**
+
+In most video editing programs I can select clips, select a fade tool, and click and drag to add Fades to them. I get an overlaid ramp drawn on the side of the clip that has a fade applied to it. 
+
+Here is an example in the Olive video editor:
+
+![Olive editor example](./img/olive-fade-example.png)
+
+I applied a fade and the fade duration snapped to the playhead.
+{{% / note %}}
+
+1. The **title sums up the request** well
+1. The body **describes the problem** or the need the request intends to solve
+1. There's an **example** of how it's done in another application to give some more **context** about what the user expects
 
 ### Taking screenshots
 
