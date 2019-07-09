@@ -22,19 +22,26 @@ There isn’t a straightforward way of transposing these ideas into an object-or
 
 To create modular and composable systems, we have to manage boundaries: the places where different game systems interact with one another. Especially the interaction of the game systems with the user.
 
-## Summary
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
 
-1. [Code Writing Style](#code-writing-style)
-    1. [Avoid Null](#avoid-null-like-the-plague)
-    1. [Use Static types](#use-static-types)
-    1. [Write self-documenting Code](#write-self-documenting-code-and-use-comments-sparingly)
-        1. [Use comments if they save time or add key explanations](#use-comments-if-they-save-time-or-add-key-explanations)
-1. [System Design and Interactions](#system-design-and-interactions)
-    1. [Every node and scene should run on its own](#every-node-and-scene-should-run-on-its-own)
-    1. [Use signals to coordinate time-dependent interactions](#use-signals-to-coordinate-time-dependent-interactions)
-    1. [Reinforcing good habits](#reinforcing-good-habit)
-1. [Event Bus: Observer pattern for Godot](#events-bus-observer-pattern-for-godot)
-    1. [Using an Event singleton to avoid spaghetti code](#using-an-event-singleton-to-avoid-spaghetti-code)
+- [-](#-)
+- [Code Writing Style](#code-writing-style)
+    - [Avoid `null` like the plague](#avoid-null-like-the-plague)
+    - [Use static types](#use-static-types)
+    - [Write self-documenting code and use comments sparingly](#write-self-documenting-code-and-use-comments-sparingly)
+        - [Use comments if they save time or add key explanations](#use-comments-if-they-save-time-or-add-key-explanations)
+    - [How to create decoupled and reusable game systems in Godot](#how-to-create-decoupled-and-reusable-game-systems-in-godot)
+        - [Every scene should run by itself without errors](#every-scene-should-run-by-itself-without-errors)
+        - [Use signals to coordinate time-dependent interactions](#use-signals-to-coordinate-time-dependent-interactions)
+        - [Reinforcing good habit](#reinforcing-good-habit)
+- [Game.gd file](#gamegd-file)
+    - [Events bus: Observer pattern for Godot](#events-bus-observer-pattern-for-godot)
+        - [Connecting signals through the editor's node tab](#connecting-signals-through-the-editors-node-tab)
+        - [Connecting signals via code](#connecting-signals-via-code)
+        - [Using an Event singleton to avoid spaghetti code](#using-an-event-singleton-to-avoid-spaghetti-code)
+
+<!-- markdown-toc end -->
 
 ## Code Writing Style
 
@@ -112,7 +119,7 @@ A longer description, if needed, possibly of multiple paragraphs. Properties
 and method names should be in backticks like so: `_process`, `x` etc.
 
 Notes
------
+~~~~~
 Specific things that don't fit the class's description above.
 
 Keep lines under 100 characters long
@@ -365,25 +372,33 @@ func choose_action(actor: Battler, targets: Array = []):
 {{< / highlight >}}
 
 
-## System Design and Interactions
+## How to create decoupled and reusable game systems in Godot
 
-In this section we're going to discuss how can we create decoupled and reusable game systems in Godot.
+One of the difficult tasks of a developer is to design and manage systems that interact with one another. This is especially true in the game development world, where we push the hardware to the limit, using parallel calculations and concurrency, asynchronous operations, and using every trick at our disposal to breathe life to complex virtual worlds.
 
 {{< youtube CGg3LAo91pY >}}
 
-One of the most difficult jobs of a developer is to design and to manage different systems interacting with one another. This is especially true in the game development world where we push the hardware to the limit, making use of parallelism & concurrency, async, and every tool in the toolbox.
+_Dynamic, Imperative, and Object-Oriented_ programming languages like GDScript are fast to prototype ideas with. But this freedom comes at a cost: it's easy to create tightly **coupled** or **fragile** code. That is to say, code that will likely break.
 
-_Dynamic Imperative Object-Oriented_ programming languages like GDScript are fast to prototype ideas with, but this freedom comes at a cost. It's easy to create tightly coupled code or fragile code: code that will break. It can make game systems hard to debug.
+The ease of use of GDScript can make game systems hard to debug. That is why we use some general guidelines to produce **decoupled systems**. 
 
-We use some high-level guidelines to avoid producing coupled code. Decoupled systems:
+Decoupled systems:
 
-1. can be tested independently.
-1. are black boxes that are fed data and produce some output, they don't care where they receive data from. 
-1. don't know anything about the world outside of themselves. 
+1. **Can be tested on their own**.
+1. Are **black boxes** that are fed data and produce some output. They don't care where they get the data from.
+1. **Don't know anything about the world** outside of themselves. 
 
-This makes them independent and reusable across game projects. This also makes them composable: we can create more complex systems by aggregating several decoupled scenes and controlling them or using them from a parent node.
+This makes them **independent** and **reusable** across game projects. This also makes them **composable**. We can create complex systems using **aggregation**: by adding several decoupled nodes to a scene and and using them from a parent node.
 
-<!-- TODO: add example -->
+See the Player in our Godot Metroidvania project. It's an aggregate of scenes: you can remove any of the nodes in the screenshot below and the player will still work without errors.
+
+![Player scene tree example in Godot](./img/aggregation-player-scene-tree.png)
+
+{{< note >}}
+**Aggregation**
+
+In Object-Oriented Programming, aggregation is a type of **association** between objects. Aggregation means that one object, our `Player` in the example above, uses others, like the `Hook` or the `CameraRig`. The `Hook` and the `CameraRig` can keep working even if we remove the association with the `Player` node.
+{{< / note >}}
 
 ### Every scene should run by itself without errors
 
@@ -477,7 +492,7 @@ Fig. 5: _[OpenRPG](https://github.com/razcore-art/godot-open-rpg) experimental b
 {{< highlight gdscript >}}
 # Game.gd file
 
-# [...]
+...
 
 func _unhandled_input(event: InputEvent) -> void:
   var move_direction: = Utils.get_direction(event)
@@ -562,9 +577,7 @@ func party_command(msg: Dictionary = {}) -> void:
     var destination: = get_party_destination(path)
     emit_signal("party_walk_started", {"to": destination})
 
-
-# [...]
-
+...
 
 func party_walk(leader: Actor, path: Array) -> bool:
   if leader.is_walking:
