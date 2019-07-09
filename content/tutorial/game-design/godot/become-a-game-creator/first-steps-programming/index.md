@@ -24,9 +24,9 @@ This first part is for you if you have little to no programming experience. You'
 
 {{< youtube q3Og0Z-_En0 >}}
 
-{{% note %}}
+{{< note >}}
 It is the first part of a *Free and Open Source* intro series to game creation and to the [ Godot game engine ](https://godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
-{{% /note %}}
+{{< /note >}}
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
@@ -114,9 +114,9 @@ To get good foundations you should:
 1. **Write** simple programs like text-only interactive games or scripts to automate boring tasks on your computer
 1. **Read** code from other people and try to understand what it does
 
-{{% note %}}
+{{< note >}}
 Programming - especially game programming - is a creative activity. You can spend your entire life exploring new techniques and sharpening your skills. Take your time and try to enjoy the journey.
-{{% /note %}}
+{{< /note >}}
 
 Keep the **KISS** principle in mind to avoid frustration: **Keep it Short and Sweet**. You can learn fast with short focused practice sessions.
 
@@ -200,9 +200,9 @@ As a beginner the main differences between text-based and visual programming are
   - But modern code editors are here to help: they smartly autocomplete keywords as you type, they can tell you when you've made a mistake and often even highlight issues for you.
   - As with every discipline, practice makes perfect: the more you write, the fewer typos you'll make.
 
-{{% note %}}
+{{< note >}}
 A code editor can report errors when you run the program and it fails. You will then see the error report as text in a programming console. Text editors can also read your code as you are typing it and report the most common errors before you run your project. This is called **linting**.
-{{% /note %}}
+{{< /note >}}
 
 {{< figure
   src="./img/godot-gdscript-fuzzy-autocomplete.png"
@@ -277,9 +277,9 @@ You'll find few games written in the Python language. Game development companies
 >
 > <footer>Jetbrains 2017 <a href="https://www.jetbrains.com/research/python-developers-survey-2017/#types-of-development">Python developers survey</a></footer>
 
-<!-- {{% note %}}
+<!-- {{< note >}}
 <!-- You can write all kinds of programs in Python. Developers around the world use it to create anything from basics scripts to self-improving artificial intelligence, complex cross-platform applications or website back-ends like YouTube's. Both small and large companies like Google and Microsoft hire Python developers. -->
-<!-- {{% /note %}} -->
+<!-- {{< /note >}} -->
 
 ## Three resources to learn Python step by step
 
@@ -305,9 +305,9 @@ Python comes with tons of tools, and they're all covered in details in the offic
 
 Read the [official Python tutorial](https://docs.python.org/3/tutorial/index.html)
 
-{{% note %}}
+{{< note >}}
 Python's docs website doesn't have the best layout. I use and recommend [Zeal](https://zealdocs.org/), a Free documentation browser for programmers, to quickly search and read the docs for multiple languages. You can find the Python tutorial after you download the corresponding docset (click on the menu option `Tools ➡ Docsets`)
-{{%/ note %}}
+{{</ note >}}
 
 ### Automate the Boring Stuff with Python
 

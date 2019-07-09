@@ -96,7 +96,7 @@ Three backticks surround this line of text
 
 Here is an example of a great bug report: 
 
-{{% note example %}}
+{{< note example >}}
 Title: Trimming video gives an error error if time cursor doesn't overlap any sequence
 
 **Program version**:
@@ -120,7 +120,7 @@ File "/home/gdquest/.config/blender/2.80/scripts/addons/power-sequencer/operator
 ripple_start_frame = min(sequences, key=attrgetter('frame_final_start')).frame_final_start
 ValueError: min() arg is an empty sequence
 ```
-{{% / note %}}
+{{< / note >}}
 
 1. **The title describes the problem clearly**
 1. The body includes **all the steps to reproduce the error**
@@ -130,7 +130,7 @@ ValueError: min() arg is an empty sequence
 1. (optional) Include a screenshot or a short video recording
     - Very useful if the issue is visual in nature, if it doesn't produce a crash, or an error message
 
-{{% note %}}
+{{< note >}}
 A traceback or backtrace is a tool for developers to spot bugs. You will see it as a text message that starts with `Traceback`, followed by a list of lines that may include computer code, and an error message.
 
 
@@ -144,7 +144,7 @@ ReferenceError: StructRNA of type Keyframe has been removed
 ```
 
 This traceback is important as it gives us a precise starting point to investigate and fix the bug.
-{{% / note %}}
+{{< / note >}}
 
 ### How to write a great feature request
 
@@ -157,7 +157,7 @@ When you make a request for improvements or new features, please **always descri
 
 Here is an example of a great feature request:
 
-{{% note example %}}
+{{< note example >}}
 Title: Add an interactive tool to fade audio and video
 
 Problem: I often need to add fades in and out on my video and audio clips. They are hard to add precisely without having a visual representation of the fade’s length and effect.
@@ -173,7 +173,7 @@ Here is an example in the Olive video editor:
 ![Olive editor example](./img/olive-fade-example.png)
 
 I applied a fade and the fade duration snapped to the playhead.
-{{% / note %}}
+{{< / note >}}
 
 1. The **title sums up the request** well
 1. The body **describes the problem** or the need the request intends to solve

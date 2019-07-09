@@ -35,7 +35,7 @@ Where and how you use this new language feature is entirely up to you: you can u
 
 Static types can be used on variables, constants, functions, parameters, and return types.
 
-{{% note %}}Typed GDscript is not available in Godot 3.0. It will be available from Godot 3.1.{{%/ note %}}
+{{< note >}}Typed GDscript is not available in Godot 3.0. It will be available from Godot 3.1.{{%/ note %}}
 
 ## Why You Should Learn to Use Typed GDScript
 
@@ -100,7 +100,7 @@ Currently you can use three types of... types:
 1. Core classes and nodes (`Object`, `Node`, `Area2D`, `Camera2D`, etc.)
 1. Your own, custom classes. Look at the new [class_name](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes) feature to register types in the editor.
 
-{{% note %}}You don't need to write type hints for constants as Godot sets it automatically from the assigned value. But you can still do so to make the intent of your code clearer.{{%/ note %}}
+{{< note >}}You don't need to write type hints for constants as Godot sets it automatically from the assigned value. But you can still do so to make the intent of your code clearer.{{%/ note %}}
 
 ### Custom Variable Types ###
 
@@ -151,7 +151,7 @@ func _on_body_entered(body : PhysicsBody2D) -> void:
     player.damage()
 {{< / highlight >}}
 
-{{% note %}}If you try to cast with a built-in type and it fails, Godot will throw an error.{{%/ note %}}
+{{< note >}}If you try to cast with a built-in type and it fails, Godot will throw an error.{{%/ note %}}
 
 
 #### Safe lines ####
@@ -165,9 +165,9 @@ You can use casting to tell Godot the type you expect when you get a node: `($Ti
 
 ![Safe vs Unsafe Line](./img/safe-unsafe-line.png)
 
-{{% note %}}
+{{< note >}}
 You can turn off safe lines or change their color in the editor settings.
-{{%/ note %}}
+{{</ note >}}
 
 
 ### Define the Return Type of a Function with the Arrow -> ###
