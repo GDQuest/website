@@ -69,37 +69,37 @@ onready var _state_name: = state.name
 
 
 func _init() -> void:
-	add_to_group("state_machine")
+    add_to_group("state_machine")
 
 
 func _ready() -> void:
-	state.enter()
+    state.enter()
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	state.unhandled_input(event)
+    state.unhandled_input(event)
 
 
 func _physics_process(delta: float) -> void:
-	state.physics_process(delta)
+    state.physics_process(delta)
 
 
 func transition_to(target_state_path: String, msg: Dictionary = {}) -> void:
-	if not has_node(target_state_path):
-		return
+    if not has_node(target_state_path):
+        return
 
-	var target_state: = get_node(target_state_path)
-	assert target_state.is_composite == false
+    var target_state: = get_node(target_state_path)
+    assert target_state.is_composite == false
 
-	state.exit()
-	self.state = target_state
-	state.enter(msg)
-	Events.emit_signal("player_state_changed", state.name)
+    state.exit()
+    self.state = target_state
+    state.enter(msg)
+    Events.emit_signal("player_state_changed", state.name)
 
 
 func set_state(value: State) -> void:
-	state = value
-	_state_name = state.name
+    state = value
+    _state_name = state.name
 {{< / highlight >}}
 
 Start with the `extends` keyword if the class extends a built-in type.
@@ -380,13 +380,13 @@ One of the difficult tasks of a developer is to design and manage systems that i
 
 _Dynamic, Imperative, and Object-Oriented_ programming languages like GDScript are fast to prototype ideas with. But this freedom comes at a cost: it's easy to create tightly **coupled** or **fragile** code. That is to say, code that will likely break.
 
-The ease of use of GDScript can make game systems hard to debug. That is why we use some general guidelines to produce **decoupled systems**. 
+The ease of use of GDScript can make game systems hard to debug. That is why we use some general guidelines to produce **decoupled systems**.
 
 Decoupled systems:
 
 1. **Can be tested on their own**.
 1. Are **black boxes** that are fed data and produce some output. They don't care where they get the data from.
-1. **Don't know anything about the world** outside of themselves. 
+1. **Don't know anything about the world** outside of themselves.
 
 This makes them **independent** and **reusable** across game projects. This also makes them **composable**. We can create complex systems using **aggregation**: by adding several decoupled nodes to a scene and and using them from a parent node.
 
@@ -402,37 +402,35 @@ In Object-Oriented Programming, aggregation is a type of **association** between
 
 ### Every scene should run by itself without errors
 
-**If we choose to save a branch as a scene, we should be able to run it on its own without any errors**. This is the golden rule to follow. This behavior should be attainable at each level in the scene tree.
+**If you save a branch as a scene, it should run without any errors on its own**. This is the golden rule, and it should be true at any level of the scene tree.
 
-Godot's main functionality relies on its node tree, a recursive data structure: if we pick any node in the tree, this node, together with all of its children, is a complete tree in itself. You can see and think about it as an independent scene.
+Godot relies on its node tree, a recursive data structure: if we pick any node in the tree, this node, together with all of its children, is a tree itself. You can consider each branch of the scene tree as an independent scene.
 
-<a name="fig1"></a>
-![](./img/scene_tree.png)
-
-Fig. 1: _Screenshot of a real system scene tree layout from [OpenRPG]_
+{{< figure
+    src="./img/scene_tree.png"
+    caption="Screenshot of a real system scene tree layout from [OpenRPG]"
+    alt="./img/scene_tree.png" >}}
 
 In the example above, you can view each node as a separate scene, be it `Board` or `QuestSystem`.
 
-If we save `QuestSystem` using `Save Branch as Scene`, we should be able to run this scene locally, with <kbd>F6</kbd>, without any error. In this case we can't expect to have the same behavior as when we play the main `Game` scene, as it could depend on other data to show all its potential, but it should still run without any errors.
+If we save `QuestSystem` using `Save Branch as Scene`, we should be able to run this scene locally, by pressing <kbd>F6</kbd>, without any error. In this case, we can't expect to have the same behavior as when we play the main `Game` scene, as it could depend on external data. It should just run without any errors.
 
-<a name="fig2"></a>
-![](./img/orpg_quest_system.gif)
+{{< figure
+    src="./img/orpg_quest_system.gif"
+    caption="Systems should work independently, even if they aren't a part of the main scene."
+    alt="OpenRPG quest system" >}}
 
-Fig. 2: _Example of how systems should work independently, even if they aren't a part of the main scene._
-
-In general, if we try to run any of the nodes at any depth level as an independent scene we should be able to do it without any errors.
-
-To do so you should never have direct references to specific objects from another system. Instead, you should rely on a parent node to route information and let the systems interconnect via signals.
+You should **never have direct references to specific objects from another system**. Instead, you should rely on a parent node to route information and let the systems interconnect via signals.
 
 In the example above, the `Game` node has a script attached to it. This script sends some information from one system to another, while e.g. `QuestSystem` or `DialogSystem` have no knowledge about any other system other than themselves.
 
-<!-- TODO: cover a real-world example, e.g. in video? -->
+<!-- TODO: add code snippets from Game and QuestSystem -->
 
 ### Use signals to coordinate time-dependent interactions
 
 Godot's signals are the [Observer pattern](http://gameprogrammingpatterns.com/observer.html), a very useful tool that allows one node to react to a change in another, without storing it or having a direct reference to it.
 
-Godot comes with many systems like physics, rendering, or input that run in parallel threads to squeeze every bit of hardware resource available. Oftentimes direct function calls aren't the right way to interact with objects.
+Godot comes with many systems like physics, rendering, or input, that run in parallel threads to squeeze every bit of hardware resource available. Oftentimes direct function calls aren't the right way to interact with objects.
 
 Also, we can't always predict when an event will occur. Say we have an animation with a random or a varying duration. Sometimes it ends after 1 second, sometimes after 1.2 seconds. Signals allow us to react to the animation right when it finishes, regardless of its duration.
 
@@ -445,25 +443,26 @@ So **rely on signals when orchestrating time-dependent interactions.**
 
 Through GDScript, Godot prefers a coding style that is loose and free of any burden. This can quickly lead to spaghetti code since there's no mechanism by which Godot enforces nodes and scenes to be isolated. So it's up to us to keep track and implement this isolation.
 
-<a name="fig3"></a>
-![](./img/node_closeup.png)
+{{< figure
+    src="./img/node_closeup.png"
+    caption="Fig. 3: A Node/Scene is composed of state and behavior"
+    alt="./img/node_closeup.png" >}}
 
-Fig. 3: _A Node/Scene is composed of state (![state]) and behavior (![behavior])_
 
-In [Fig. 3] above, there's a depiction of a typical node/scene in Godot. It bundles up both state (![state]) and behavior (![behavior]) that can access this state at any time and alter it (![inner_connection]). But even more so, the lines coming in from the outside depict here other types of interactions that could happen from the external world (other systems):
+Fig. 3 depicts a typical node or scene in Godot. It bundles up state and behavior that can access the state at any time and alter it. But even more so, the lines coming in from the outside depict here other types of interactions that could happen from the external world (other systems):
 
-- access to state directly, potentially changing it (![state_connection])
-- access to behavior, i.e. methods (![behavior_connection])
-- connections to methods via signals (![signal_connection])
+- access to state directly, potentially changing it
+- access to behavior, i.e. methods
+- connections to methods via signals
 
-Even a simple scene tree like the one in [Fig. 4] can quickly become unmaintainable if all the flexibility Godot offers us isn't managed. Thus we need a way to maintain the number of potential connections as depicted in [Fig. 3].
+Even a simple scene tree like the one in Fig. 4 can quickly become unmaintainable if all the flexibility Godot offers us isn't managed. Thus we need a way to maintain the number of potential connections as depicted in Fig. 3.
 
-<a name="fig4"></a>
-![](./img/scene_tree_overview.png)
+{{< figure
+src="./img/scene_tree_overview.png"
+caption="A relatively simple depiction of a Godot scene tree. The highlighted part represents a completely independent scene"
+alt="./img/scene_tree_overview.png" >}}
 
-Fig. 4: _A relatively simple depiction of a Godot scene tree. The highlighted part represents a completely independent scene_
-
-The following are some good tips to keep in mind and try to follow whenever possible.
+#### More tips about independent scenes ####
 
 We already went through this, but just to reinforce it even more - scenes should be independent and at any moment in our game development, if we choose to save a part of the node tree as a scene, **it should run by itself without any errors** - <kbd>F6</kbd>
 
@@ -484,10 +483,12 @@ Here are a few ideas that could improve code maintainability and overall structu
 
 1. Break up complex functions into smaller functions (ideally up to 10-15 lines of code and no more) and give them descriptive names
 
-<a name="fig5"></a>
-![](./img/openrpg_scene_tree.png)
+{{< figure
+    src="./img/openrpg_scene_tree.png"
+    caption="[OpenRPG](https://github.com/razcore-art/godot-open-rpg) experimental branch scene tree."
+    alt="./img/openrpg_scene_tree.png" >}}
 
-Fig. 5: _[OpenRPG](https://github.com/razcore-art/godot-open-rpg) experimental branch scene tree. Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`. They're independent systems in this implementation. The `Party` node/scene can be viewed as the player object._
+Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`. They're independent systems in this implementation. The `Party` node/scene can be viewed as the player object.
 
 {{< highlight gdscript >}}
 # Game.gd file
@@ -548,7 +549,9 @@ func get_party_destination(path: Array) -> Vector2:
 
 In the example above, reading through `party_command` without looking at the implementation of other functions we already have a pretty good idea about what it does. That's because we divided up the implementation into smaller functions and giving expressive names to these functions.
 
-_Note_ how we are careful here to not alter any state of other nodes. We only access the state in order to perform validations. This is important! All state changes that happen, happen within the respective **black-boxes**.
+{{< note >}}
+Here, we are careful to not alter any state of other nodes. We only access the state in order to perform validations. This is important! All state changes that happen, happen within the respective **black-boxes**.
+{{< / note >}}
 
 The implementation for checking if the walk command can be issued is within a parent node, in this case the `Game.gd` script. That's because the verification depends on the `PathFinder` algorithm which is part of the separate `Board` system, while the player object (the `Party` here) is independent, it's a sibling relationship. The validation step depends on both `Party` and the `Board` and that's why it's taken care of the level of the top `Game` node [Fig. 5]. Otherwise we'd have to introduce an interdependence between `Party` & `Board` and that would tightly couple these systems.
 
@@ -695,8 +698,3 @@ Having a global `Events` dependency isn't a major issue. If we want to reuse cod
 [state_connection]: ./img/node_state_connection.png
 [behavior_connection]: ./img/node_behavior_connection.png
 [signal_connection]: ./img/node_signal_connection.png
-[Fig. 1]: #fig1
-[Fig. 2]: #fig2
-[Fig. 3]: #fig3
-[Fig. 4]: #fig4
-[Fig. 5]: #fig5
