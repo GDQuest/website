@@ -1,18 +1,25 @@
 ---
-title: "Blender Python: best practices"
-description: This is a living guide to help you write great Python code for Blender. The goal is to get code that's easy to read, to review, and to maintain, without compromising on performances.
+title: "Blender Python: gdquest's best practices"
+description: This is a living guide to help you write great Python code for Blender. It will help you write code that's easy to read, to review, and to maintain, without compromising on performances.
 author: nathan
 
 date: 2019-07-08T07:48:23+09:00
 ---
 
-This is a living guide to help you write solid Python code for Blender. The goal is produce code that's easy to read, to review, and to maintain, without compromising on performances.
+This is a living guide to help you write solid Python code for Blender. 
+
+It will help you write code that's **easy to read**, easy to review, and easy to maintain without compromising on performances.
+
+For tips on testing and debugging your code, and performances with Python, check these two official guides:
+
+1. [Blender Python best practices]( https://docs.blender.org/api/current/info_best_practice.html )
+1. [Blender Python tips and tricks]( https://docs.blender.org/api/current/info_tips_and_tricks.html )
 
 {{< note >}}
 This guide is a work-in-progress, [feedback is welcome](https://github.com/GDquest/GDquest-website/issues/81)! 🙂
 {{< / note >}}
 
-## Code conventions for blender python ##
+## Code conventions for Blender Python ##
 
 To work together on Free Software efficiently, we need to follow some conventions. This helps to make the code easy to read and to explore for everyone. This makes it easy for new contributors or fellow developers to fix bugs in your code.
 
@@ -87,6 +94,7 @@ class POWER_SEQUENCER_OT_gap_remove(bpy.types.Operator):
         ...
 {{< / highlight >}}
 
+### Class names ###
 
 Name classes as `CATEGORY_TYPE_name`:
 
@@ -108,7 +116,77 @@ ACTION_OT_select_all, selects all
 VIEW3D_MT_mesh_add, the Add -> Mesh menu in the 3D view
 ```
 
-## Naming conventions and tips ##
+## 5 techniques to write clean code ##
+
+If you have quite a bit of programming experience already, you will notice that these tips are or build upon fundamental principles of Object-Oriented and Functional programming. They are general techniques that you can use to write great software. Software that:
+
+1. Does what the users need and want
+1. Is flexible
+1. Mitigates risks
+
+<!-- ### Single responsibility ### -->
+
+<!-- ### Write pure functions and avoid mutating state ### -->
+
+### Avoid calling other operators ###
+
+It feels natural to make new operators by calling lots of other operators that are included in blender. Whenever you can, you want to avoid that.
+
+There are at least 3 reasons to avoid operators:
+
+1. They **add dependencies to your code**, giving it more reasons to change
+2. They **require you to change and restore the user's selection**, which can lead to unexpected bugs
+3. They **require you to mutate the scene's data**, which can also lead to bugs or sometimes cause performance issues
+
+Calling other operators create a dependency between your class and that operator, which is another class in the source code. Built-in operators can change between versions of blender, breaking your code.
+
+Built-in operators often work with the user's selection or scene data in Blender to work. To use them in your code, you end up changing the user's selection and having to restore it at the end of your script. This is easy to forget, leading to unexpected bugs, and adding extra maintenance work for you.
+
+Even though most built-in operators are written in fast C code, changes like moving the time cursor in the sequencer can force the view to refresh, slowing down your operator for the user.
+
+Imagine you want to code an operator to offset all strips after the time cursor by 30 frames, ignoring locked strips. Using the built-in `transform.seq_slide` operator, your code would look like this:
+
+{{< highlight python >}}
+FRAME_OFFSET = 30
+
+initial_selection = context.selected_sequences
+sequences_to_move = [s for s in context.sequences \
+                     if not s.lock \
+                     and s.frame_final_start > context.scene.frame_current]
+bpy.ops.sequencer.select_all(action='DESELECT')
+for s in sequences_to_move:
+    s.select = true
+bpy.ops.transform.seq_slide(value=(FRAME_OFFSET, 0))
+bpy.ops.sequencer.select_all(action='DESELECT')
+for s in initial_selection:
+    s.select = true
+{{< / highlight >}}
+
+The code above stores, modifies, and then restores the user's selection. You can get the same result, without having to mess with the selection, like so:
+
+{{< highlight python >}}
+FRAME_OFFSET = 30
+sequences_to_move = [s for s in context.sequences \
+                     if not s.lock \
+                     and s.frame_final_start > context.scene.frame_current]
+for s in reversed(sorted(sequences_to_move, key=lambda s: s.frame_final_start)):
+   s.frame_start += FRAME_OFFSET
+{{< / highlight >}}
+
+This both simplifies the code and removes the dependencies on built-in operators.
+
+{{< note >}}
+The `sorted` function sorts the `sequences_to_move` by their start frame. We need to sort the sequences in this case to ensure that we will move them in the correct order. Otherwise, the sequences can end up moving to different channels.
+The `lambda` feature creates an inline function that takes each sequence in `sequences_to_move` as `s` and returns its `frame_final_start`.
+{{< / note >}}
+
+{{< note >}}
+There is an operator in blender 2.80 to offset sequences after the time cursor. But it moves locked sequences like any other. That's why if you want to add that feature and avoid relying on this built-in operator, you have to code your own.
+{{< / note >}}
+
+<!-- ### Don't write features nobody needs ### -->
+
+<!-- ## Naming conventions and tips ## -->
 
 ### Tips to make your own code easier to read ###
 
