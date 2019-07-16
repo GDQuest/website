@@ -3,7 +3,13 @@ title: "Godot GDScript: best practices"
 description: This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes.
 author: nathan
 
-date: 2019-07-07T08:34:54+09:00
+resources:
+- src: banner.jpg
+  name: banner
+
+type: post
+
+date: 2019-07-16T08:34:54+09:00
 ---
 
 This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes.
