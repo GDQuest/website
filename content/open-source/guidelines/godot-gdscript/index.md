@@ -25,17 +25,20 @@ To create modular and composable systems, we have to manage boundaries: the plac
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [-](#-)
 - [Code Writing Style](#code-writing-style)
     - [Avoid `null` like the plague](#avoid-null-like-the-plague)
     - [Use static types](#use-static-types)
     - [Write self-documenting code and use comments sparingly](#write-self-documenting-code-and-use-comments-sparingly)
         - [Use comments if they save time or add key explanations](#use-comments-if-they-save-time-or-add-key-explanations)
+        - [Naming conventions](#naming-conventions)
+            - [General naming conventions](#general-naming-conventions)
+            - [Naming in the src folder](#naming-in-the-src-folder)
+            - [Naming in the assets folder](#naming-in-the-assets-folder)
     - [How to create decoupled and reusable game systems in Godot](#how-to-create-decoupled-and-reusable-game-systems-in-godot)
         - [Every scene should run by itself without errors](#every-scene-should-run-by-itself-without-errors)
         - [Use signals to coordinate time-dependent interactions](#use-signals-to-coordinate-time-dependent-interactions)
         - [Reinforcing good habit](#reinforcing-good-habit)
-- [Game.gd file](#gamegd-file)
+            - [More tips about independent scenes](#more-tips-about-independent-scenes)
     - [Events bus: Observer pattern for Godot](#events-bus-observer-pattern-for-godot)
         - [Connecting signals through the editor's node tab](#connecting-signals-through-the-editors-node-tab)
         - [Connecting signals via code](#connecting-signals-via-code)
@@ -372,6 +375,29 @@ func choose_action(actor: Battler, targets: Array = []):
 {{< / highlight >}}
 
 
+### Naming conventions ###
+
+We follow some guidelines to keep the name of our files meaningful and consistent.
+
+The top-level folders include:
+
+  - `assets`, shared files like images, sounds, music, text produced outside Godot.
+  - `src`, the source code of the game. It includes all scenes and GDScript files, which are all part of the source.
+
+![naming-conventions-folders](./img/naming-conventions-folders.png)
+
+#### General naming conventions ####
+
+**Never include spaces in the filenames**. Spaces can [cause issues with command line tools](https://superuser.com/questions/29111/what-technical-reasons-exist-for-not-using-space-characters-in-file-names), which we use to automate tasks.
+
+#### Naming in the src folder ####
+
+Use `PascalCase` for folder names in the `src` folder as they represent game systems or groups of systems. Scenes and script files also use `PascalCase` as they represent classes.
+
+#### Naming in the assets folder ####
+
+Name assets using `snake_case`, that is to say lowercase with the underscore `_` as a delimiter. We also use lowercase for the folder names to distinguish them from the source code.
+
 ## How to create decoupled and reusable game systems in Godot
 
 One of the difficult tasks of a developer is to design and manage systems that interact with one another. This is especially true in the game development world, where we push the hardware to the limit, using parallel calculations and concurrency, asynchronous operations, and using every trick at our disposal to breathe life to complex virtual worlds.
@@ -491,7 +517,7 @@ Here are a few ideas that could improve code maintainability and overall structu
 Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`. They're independent systems in this implementation. The `Party` node/scene can be viewed as the player object.
 
 {{< highlight gdscript >}}
-# Game.gd file
+"""Game.gd file"""
 
 ...
 
