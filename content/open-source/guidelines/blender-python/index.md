@@ -173,12 +173,31 @@ for s in reversed(sorted(sequences_to_move, key=lambda s: s.frame_final_start)):
    s.frame_start += FRAME_OFFSET
 {{< / highlight >}}
 
-This both simplifies the code and removes the dependencies on built-in operators.
+In this case, it both simplifies the code and removes the dependencies on built-in operators.
 
-{{< note >}}
-The `sorted` function sorts the `sequences_to_move` by their start frame. We need to sort the sequences in this case to ensure that we will move them in the correct order. Otherwise, the sequences can end up moving to different channels.
-The `lambda` feature creates an inline function that takes each sequence in `sequences_to_move` as `s` and returns its `frame_final_start`.
-{{< / note >}}
+The `sorted` function sorts the `sequences_to_move` by their start frame. We need to sort the sequences in this case to ensure that we will move them in the correct order. Otherwise, the sequences can end up moving to different channels. The `lambda` feature creates an inline function that takes each sequence in `sequences_to_move` as `s` and returns its `frame_final_start`.
+
+If you find this code hard to read, you you can always create one or more functions to make your code more expressive:
+
+{{< highlight python >}}
+def get_sorted(sequences=[], attribute=''):
+    return sorted(sequences, key=lambda s: get_attr(s, attribute))
+
+def get_sorted_reversed(sequences=[], attribute=''):
+    return reversed(get_sorted(sequences, attribute))
+{{< / highlight >}}
+
+Turning the line 
+
+{{< highlight python >}}
+for s in reversed(sorted(sequences_to_move, key=lambda s: s.frame_final_start)):
+{{< / highlight >}}
+
+Into:
+
+{{< highlight python >}}
+for s in get_sorted_reversed(sequences_to_move, 'frame_final_start'):
+{{< / highlight >}}
 
 {{< note >}}
 There is an operator in blender 2.80 to offset sequences after the time cursor. But it moves locked sequences like any other. That's why if you want to add that feature and avoid relying on this built-in operator, you have to code your own.
