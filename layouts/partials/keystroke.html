@@ -6,8 +6,8 @@
     {{ with .shift }}<code>Shift</code>{{ end }}
 
     {{ if isset $character_map .type }}
-        <code>{{ index $character_map .type }}</code>
+    <code>{{ index $character_map .type }}</code>
     {{ else }}
-        <code>{{ .type }}</code>
+    <code>{{ .type }}</code>
     {{ end }}
 </span>

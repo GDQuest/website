@@ -1,19 +1,20 @@
 <head>
-  <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+    <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
-  {{ if .RSSLink }} <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" /> {{ end }}
-  <link rel="canonical" href="{{ .Permalink }}" />
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" /> {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}" />
 
-  <link href="{{ "favicon.png" | absURL }}" rel="icon">
+    <link href="{{ "favicon.png" | absURL }}" rel="icon">
 
-  <!-- title font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800" rel="stylesheet">
-  <!-- font-awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- title font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800" rel="stylesheet">
+    <!-- font-awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" )}}
-  {{ $style := resources.Get "scss/gdquest.scss" | resources.ToCSS $options | postCSS }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" )}}
+    {{ $style := resources.Get "scss/gdquest.scss" | resources.ToCSS $options | postCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-  {{ partial "meta" . }}
+    {{ partial "meta" . }}
 </head>

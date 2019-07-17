@@ -1,24 +1,24 @@
 <div class="card outline darkbg">
-  {{ $url := .Permalink }}
-  
-  {{ with (.Resources.GetMatch "banner") }}
+    {{ $url := .Permalink }}
+
+    {{ with (.Resources.GetMatch "banner") }}
     <a href="{{ $url }}"><img src="{{ .Permalink }}" alt=""></a>
-  {{ end }}
+    {{ end }}
 
-  <div class="content">
-    <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
-    <div class="flex justify-space-between" data-font="small dimmed">
-      <span>
-        {{ with .Params.author }}
-          {{ with (index $.Site.Data.authors . ) }}
-            by: {{ .name }}
-          {{ end }}
-        {{ end }}
-         on: {{ .Date.Format "Jan 2006" }}
-      </span>
-      <span>{{ range .Params.category }} {{ . }} {{ end }}</span>
+    <div class="content">
+        <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
+        <div class="flex justify-space-between" data-font="small dimmed">
+            <span>
+                {{ with .Params.author }}
+                {{ with (index $.Site.Data.authors . ) }}
+                by: {{ .name }}
+                {{ end }}
+                {{ end }}
+                on: {{ .Date.Format "Jan 2006" }}
+            </span>
+            <span>{{ range .Params.category }} {{ . }} {{ end }}</span>
+        </div>
+
+        <p>{{ .Description | markdownify }} </p>
     </div>
-
-    <p>{{ .Description | markdownify }} </p>
-  </div>
 </div>

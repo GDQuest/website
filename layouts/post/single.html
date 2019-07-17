@@ -1,15 +1,15 @@
 {{ define "head_content" }}
 
-    {{ partial "modules/banner" . }}
+{{ partial "modules/banner" . }}
 
-    <div>
-        <h1 class="no-margin">{{.Title}}</h1>
-        {{ with .Params.author }}
-            {{ with (index $.Site.Data.authors . ) }}
-            <p>by: {{ .name }} </p>
-            {{ end }}
-        {{ end }}
-    </div>
+<div>
+    <h1 class="no-margin">{{.Title}}</h1>
+    {{ with .Params.author }}
+    {{ with (index $.Site.Data.authors . ) }}
+    <p>by: {{ .name }} </p>
+    {{ end }}
+    {{ end }}
+</div>
 </div>
 {{ end }}
 
@@ -18,11 +18,11 @@
 <section class="grid center container base-v-padding">
     <article>
         {{ with (.Resources.GetMatch "banner") }}
-            {{ if isset .Params "alt" }}
-                <img src="{{ .Permalink }}" alt="{{ .Params.Alt }}">
-            {{ else }}
-                <img src="{{ .Permalink }}" alt="{{ .Name }}">
-            {{ end }}
+        {{ if isset .Params "alt" }}
+        <img src="{{ .Permalink }}" alt="{{ .Params.Alt }}">
+        {{ else }}
+        <img src="{{ .Permalink }}" alt="{{ .Name }}">
+        {{ end }}
         {{ end }}
 
         {{ partial "table-of-contents" . }}

@@ -30,41 +30,41 @@
         </div>
 
         {{ range ( where .Sections "Type" "course_chapter" ) }}
-            {{ $totalDuration := 0 }}
-            {{ range ( sort (where .Pages "Type" "video") "Date" "asc" ) }}
-                {{ with .Params.videoid }}
+        {{ $totalDuration := 0 }}
+        {{ range ( sort (where .Pages "Type" "video") "Date" "asc" ) }}
+        {{ with .Params.videoid }}
 
-                    {{ $vduration_key := (printf "%s_duration" .) }}
-                    {{ $duration := 0}}
+        {{ $vduration_key := (printf "%s_duration" .) }}
+        {{ $duration := 0}}
 
-                    {{ with getJSON (printf "https://www.googleapis.com/youtube/v3/videos?id=%s&part=contentDetails&key=%s" . $.Site.Params.ytapikey) }}
-                        {{ $duration_str := replaceRE "[MH]" "-" (replaceRE "[PTS]" "" (index .items 0 ).contentDetails.duration) }}
-                        {{ $units := split $duration_str "-" }}
+        {{ with getJSON (printf "https://www.googleapis.com/youtube/v3/videos?id=%s&part=contentDetails&key=%s" . $.Site.Params.ytapikey) }}
+        {{ $duration_str := replaceRE "[MH]" "-" (replaceRE "[PTS]" "" (index .items 0 ).contentDetails.duration) }}
+        {{ $units := split $duration_str "-" }}
 
-                        {{ if isset $units 2 }}
-                            {{ $h := (int (index $units 0)) }}
-                            {{ $m := (int (index $units 1)) }}
-                            {{ $s := (int (index $units 2)) }}
-                            {{ $duration = (add (add (mul $h 3600) (mul $m 60)) $s) }}
-                        {{ else if isset $units 1 }}
-                            
-                            
-                            {{ $m := (int (index $units 0)) }}
-                            {{ if ne (index $units 1) ""}}
-                                {{ $s := (int (index $units 1)) }}
-                                {{ $duration = (add (mul $m 60) $s) }}
-                            {{ else }}
-                                {{ $duration = (mul $m 60) }}
-                            {{ end }}
-                        {{ else }}
-                            {{ $duration = (int (index $units 0)) }}
-                        {{ end }}
+        {{ if isset $units 2 }}
+        {{ $h := (int (index $units 0)) }}
+        {{ $m := (int (index $units 1)) }}
+        {{ $s := (int (index $units 2)) }}
+        {{ $duration = (add (add (mul $h 3600) (mul $m 60)) $s) }}
+        {{ else if isset $units 1 }}
 
-                        {{ $.Scratch.Set $vduration_key $duration }}
-                        {{ $totalDuration = (add $totalDuration $duration) }}
-                    {{ end }}
-                {{ end }}
-            {{ end }}
+
+        {{ $m := (int (index $units 0)) }}
+        {{ if ne (index $units 1) ""}}
+        {{ $s := (int (index $units 1)) }}
+        {{ $duration = (add (mul $m 60) $s) }}
+        {{ else }}
+        {{ $duration = (mul $m 60) }}
+        {{ end }}
+        {{ else }}
+        {{ $duration = (int (index $units 0)) }}
+        {{ end }}
+
+        {{ $.Scratch.Set $vduration_key $duration }}
+        {{ $totalDuration = (add $totalDuration $duration) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
 
         <hr>
         <!-- chapter title -->
@@ -100,14 +100,14 @@
                     <!-- Video length -->
                     {{ $vduration_key := (printf "%s_duration" .Params.videoid) }}
                     {{ with $.Scratch.Get $vduration_key }}
-                        {{ $video_length := 0 }}
-                        {{ if gt . 3600 }}
-                            {{ $video_length = (printf "%s h %s m" (string (div . 3600)) (string (div (mod . 3600) 60))) }}
-                        {{ else if gt . 60 }}
-                            {{ $video_length = (printf "%s m" (string (div . 60))) }}
-                        {{ else }}
-                            {{ $video_length =  (printf "%s s" (string .)) }}
-                        {{ end }}
+                    {{ $video_length := 0 }}
+                    {{ if gt . 3600 }}
+                    {{ $video_length = (printf "%s h %s m" (string (div . 3600)) (string (div (mod . 3600) 60))) }}
+                    {{ else if gt . 60 }}
+                    {{ $video_length = (printf "%s m" (string (div . 60))) }}
+                    {{ else }}
+                    {{ $video_length =  (printf "%s s" (string .)) }}
+                    {{ end }}
                     <span data-font="dimmed">({{ $video_length }})</span>
                     {{ end }}
                 </li>
@@ -135,9 +135,9 @@
 
 <section id="info" class="grid container center big-top-margin">
     {{ with .Params.author }}
-        {{ with (index $.Site.Data.authors . ) }}
-            {{ partial "modules/author" . }}
-        {{ end }}
+    {{ with (index $.Site.Data.authors . ) }}
+    {{ partial "modules/author" . }}
+    {{ end }}
     {{ end }}
 </section>
 {{ end }}

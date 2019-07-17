@@ -1,32 +1,32 @@
 {{ define "head_content" }}
 <div class="fill header-bg header-bg-section"></div>
-  <div class="grid split2 small-v-padding">
+<div class="grid split2 small-v-padding">
     <div>
-      <h1 class="no-margin">{{.Title}}</h1>
-      {{ with .Params.small }}
+        <h1 class="no-margin">{{.Title}}</h1>
+        {{ with .Params.small }}
         <p>{{ . }}</p>
-      {{ end }}
+        {{ end }}
     </div>
-  </div>
+</div>
 {{ end }}
 
 {{ define "main" }}
-  <main>
+<main>
     <section class="container base-v-padding">
-      {{ .Content }}
+        {{ .Content }}
     </section>
 
     {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}
-      <section class="grid split2 container base-v-padding list">
+    <section class="grid split2 container base-v-padding list">
         {{ range .Paginator.Pages }}
-          <div>
+        <div>
             {{ .Render "summary" }}
-          </div>
+        </div>
         {{ end }}
-      </section>
-      <div class="container">
+    </section>
+    <div class="container">
         {{ partial "paginator" . }}
-      </div>
+    </div>
     {{end}}
-  </main>
+</main>
 {{ end }}

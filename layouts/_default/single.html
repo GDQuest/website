@@ -1,7 +1,7 @@
 {{ define "head_content" }}
 
-     {{ partial "modules/banner" . }}
-     
+{{ partial "modules/banner" . }}
+
 <div class="grid center small-v-padding content">
     <div>
         <h1 class="no-margin">{{.Title}}</h1>
@@ -9,9 +9,9 @@
         <p>{{ . }}</p>
         {{ end }}
         {{ with .Params.author }}
-            {{ with (index $.Site.Data.authors . ) }}
-            <p>by: {{ .name }} </p>
-            {{ end }}
+        {{ with (index $.Site.Data.authors . ) }}
+        <p>by: {{ .name }} </p>
+        {{ end }}
         {{ end }}
     </div>
 </div>

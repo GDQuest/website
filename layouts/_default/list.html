@@ -1,26 +1,26 @@
 {{ define "head_content" }}
-  <div class="grid split2 small-v-padding">
+<div class="grid split2 small-v-padding">
     <div>
-      <h1 class="no-margin">{{.Title}}</h1>
+        <h1 class="no-margin">{{.Title}}</h1>
     </div>
-  </div>
+</div>
 {{ end }}
 
 
 {{ define "main" }}
 <main>
-  {{ .Content }}
-  <section class="grid split2 container base-v-padding list">
+    {{ .Content }}
+    <section class="grid split2 container base-v-padding list">
 
-    {{ range .Pages }}
+        {{ range .Pages }}
 
-      <div>
-      	<a href="{{ .Permalink }}">{{ .Title }}</a>
-      </div>
+        <div>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
 
-    {{ end }}
-  </section>
+        {{ end }}
+    </section>
 
-    
+
 </main>
 {{ end }}

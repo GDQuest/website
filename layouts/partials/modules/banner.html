@@ -1,6 +1,2 @@
-<div class="blurred-fill" 
-  {{ with (.Resources.GetMatch "banner") }}
-  style='background-image: url({{ (.Resize "10x").Permalink }})'
-  {{ end }}
->
+<div class="blurred-fill" {{ with (.Resources.GetMatch "banner") }} style='background-image: url({{ (.Resize "10x").Permalink }})' {{ end }}>
 </div>

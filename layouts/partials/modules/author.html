@@ -1,29 +1,29 @@
 {{ with .Params.author }}
 {{ with (index $.Site.Data.authors . ) }}
 <section class="card darkbg no-margin flex horizontal profile">
-  <div class="avatar" style="background-image: url({{ (printf "img/avatar/%s.png" .user) | absURL }});"></div>
+    <div class="avatar" style="background-image: url({{ (printf "img/avatar/%s.png" .user) | absURL }});"></div>
 
-  <div class="small-padding content">
-    <h3 class="no-margin" data-font="ultrabold capitalize">{{ .name }}</h3>
+    <div class="small-padding content">
+        <h3 class="no-margin" data-font="ultrabold capitalize">{{ .name }}</h3>
 
-    {{ with .social }}
-      <div class="social-links tiny-spaced-children">
-        {{ range . }}
-          <a href="{{ .url }}" title="{{ .name }} page" class="icon" target="_blank">
-            <i class="fab fa-{{ .icon }}"></i>
-          </a>
+        {{ with .social }}
+        <div class="social-links tiny-spaced-children">
+            {{ range . }}
+            <a href="{{ .url }}" title="{{ .name }} page" class="icon" target="_blank">
+                <i class="fab fa-{{ .icon }}"></i>
+            </a>
+            {{ end }}
+        </div>
         {{ end }}
-      </div>
-    {{ end }}
 
-    {{ with .description }}
-      <p>{{ . }}</p>
-    {{ end }}
+        {{ with .description }}
+        <p>{{ . }}</p>
+        {{ end }}
 
-    <div class="buttons">
-      <a href="/about/profiles/{{.user}}" class="btn flat">learn more</a>
+        <div class="buttons">
+            <a href="/about/profiles/{{.user}}" class="btn flat">learn more</a>
+        </div>
     </div>
-  </div>
 
 </section>
 {{ end }}

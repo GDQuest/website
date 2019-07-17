@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html data-theme="default">
 
-  {{ partial "head" . }}
+{{ partial "head" . }}
 
-  <body>
-		<header class="darkbg" id="header">
+<body>
+    <header class="darkbg" id="header">
 
-			<input type="checkbox" id="nav_toggle_cb">
-			<div id="topbar" class="container flex align-items-center" data-font="title semibold uppercase">
-				<span class="flex align-items-center">
-					<a href="{{.Site.BaseURL}}">
-						<img src="/img/header_logo.png" alt="GDQuest"/>
-					</a>
-					<label for="nav_toggle_cb" id="menu_btn"><i class="fas fa-bars icon"></i></label>
-				</span>
-    		{{ partial "nav" . }}
-			</div>
+        <input type="checkbox" id="nav_toggle_cb">
+        <div id="topbar" class="container flex align-items-center" data-font="title semibold uppercase">
+            <span class="flex align-items-center">
+                <a href="{{.Site.BaseURL}}">
+                    <img src="/img/header_logo.png" alt="GDQuest" />
+                </a>
+                <label for="nav_toggle_cb" id="menu_btn"><i class="fas fa-bars icon"></i></label>
+            </span>
+            {{ partial "nav" . }}
+        </div>
 
-			<section class="container" id="header_content">
-				{{ block "head_content" . }} {{ end }}
-			</section>
-		</header>
+        <section class="container" id="header_content">
+            {{ block "head_content" . }} {{ end }}
+        </section>
+    </header>
 
-		<main>
-			{{ block "main" . }} {{ end }}
-		</main>
+    <main>
+        {{ block "main" . }} {{ end }}
+    </main>
 
     {{ partial "footer" . }}
-  </body>
+</body>
+
 </html>
