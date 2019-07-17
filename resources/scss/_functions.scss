@@ -1,21 +1,23 @@
 // Power
 @function pow($number, $exponent) {
-  $value: 1;
+    $value: 1;
 
-  @if $exponent > 0 {
-    @for $i from 1 through $exponent {
-      $value: $value * $number;
+    @if $exponent>0 {
+        @for $i from 1 through $exponent {
+            $value: $value * $number;
+        }
     }
-  } @else if $exponent < 0 {
-    @for $i from 1 through -$exponent {
-      $value: $value / $number;
-    }
-  }
 
-  @return $value;
+    @else if $exponent < 0 {
+        @for $i from 1 through -$exponent {
+            $value: $value / $number;
+        }
+    }
+
+    @return $value;
 }
 
 // Retrieve sizes from a scale.
 @function type-scale($size, $ratio: $scale-ratio) {
-  @return pow($ratio, $size - 2) * 1rem;
+    @return pow($ratio, $size - 2) * 1rem;
 }

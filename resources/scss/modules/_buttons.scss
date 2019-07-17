@@ -1,36 +1,39 @@
 .btn {
-	font-size: $font-size-small;
-	display: inline-block;
-	line-height: normal;
+    font-size: $font-size-small;
+    display: inline-block;
+    line-height: normal;
 
 }
+
 .btn:not(.flat) {
-	border: 2px solid $color-accent-main-base;
-	color: $color-accent-main-base;
-	border-radius: 24px;
-	padding: $micro-spacing $small-spacing;
+    border: 2px solid $color-accent-main-base;
+    color: $color-accent-main-base;
+    border-radius: 24px;
+    padding: $micro-spacing $small-spacing;
 
-	text-align: center;
+    text-align: center;
 
-	transition: background-color .1s ease-in-out;
+    transition: background-color .1s ease-in-out;
 }
+
 .btn:not(.flat):hover {
-	background-color: $color-accent-main-base;
-	color: $color-accent-main-text;
+    background-color: $color-accent-main-base;
+    color: $color-accent-main-text;
 }
-.btn.flat {
-}
+
+.btn.flat {}
 
 .btn.shop {
-	color: $color-accent-opt-base !important;
-	border-color: $color-accent-opt-base;
+    color: $color-accent-opt-base !important;
+    border-color: $color-accent-opt-base;
 }
+
 .btn.shop:hover {
-	background-color: $color-accent-opt-base;
-	color: $color-accent-opt-text !important;
+    background-color: $color-accent-opt-base;
+    color: $color-accent-opt-text !important;
 }
 
 .btn.full {
-	width: 100%;
-	box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
 }

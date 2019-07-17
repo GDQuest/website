@@ -1,10 +1,10 @@
 blockquote {
-	  margin: 0;
-	  border-left: 4px $color-accent-main-base solid;
-	  padding: 0 20px;
-	  font-style: italic;
+    margin: 0;
+    border-left: 4px $color-accent-main-base solid;
+    padding: 0 20px;
+    font-style: italic;
 
-    > footer {
-	      color: $color-default-text-hl;
+    >footer {
+        color: $color-default-text-hl;
     }
 }

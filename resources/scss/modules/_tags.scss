@@ -1,20 +1,22 @@
 .tag {
-	  padding: 0 $tiny-spacing;
-	  margin-bottom: 0;
-	  margin-top: 4px;
-	  margin-right: 0.2em;
+    padding: 0 $tiny-spacing;
+    margin-bottom: 0;
+    margin-top: 4px;
+    margin-right: 0.2em;
     border-radius: $round-radius;
-	  display: inline;
-	  color: white;
-	  text-transform: capitalize;
+    display: inline;
+    color: white;
+    text-transform: capitalize;
 }
 
 .tag.hobby {
     background: $color-accent-main-base;
 }
+
 .tag.indie {
     background: $color-gdquest-pink;
 }
+
 .tag.pro {
     background: #02E180;
 }
@@ -22,9 +24,11 @@
 .tag.hobby:after {
     content: "hobby";
 }
+
 .tag.indie:after {
     content: "indie";
 }
+
 .tag.pro:after {
     content: "pro";
 }

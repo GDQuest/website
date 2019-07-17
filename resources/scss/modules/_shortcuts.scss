@@ -1,25 +1,34 @@
-.shortcuts > section {
-  margin-bottom: $big-spacing;
+.shortcuts>section {
+    margin-bottom: $big-spacing;
 }
-.shortcut {
-  box-sizing: border-box;
-  > div {
-    margin-bottom: $micro-spacing;
-    display: flex;
-    align-items: center;
 
-    >:first-child { flex: 1; }
-    >:last-child { flex: 1; }
-  }
-  img {
-    margin-bottom: $small-spacing;
-  }
+.shortcut {
+    box-sizing: border-box;
+
+    >div {
+        margin-bottom: $micro-spacing;
+        display: flex;
+        align-items: center;
+
+        >:first-child {
+            flex: 1;
+        }
+
+        >:last-child {
+            flex: 1;
+        }
+    }
+
+    img {
+        margin-bottom: $small-spacing;
+    }
 }
+
 .keystroke {
-  code {
-    border: 2px solid $color-default-text;
-    padding: $micro-spacing / 2 $micro-spacing;
-    border-radius: 4px;
-    display: inline-block;
-  }
+    code {
+        border: 2px solid $color-default-text;
+        padding: $micro-spacing / 2 $micro-spacing;
+        border-radius: 4px;
+        display: inline-block;
+    }
 }

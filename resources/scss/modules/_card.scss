@@ -1,66 +1,75 @@
 .card {
-	overflow: auto;
-	border-radius: $round-radius;
+    overflow: auto;
+    border-radius: $round-radius;
 
-	position: relative;
-	overflow: hidden;
+    position: relative;
+    overflow: hidden;
 
-	@include bg-centered
+    @include bg-centered
 }
+
 @mixin card-outline {
-	border: 1px solid $base-border-color;
+    border: 1px solid $base-border-color;
 }
+
 .card.outline {
-	@include card-outline;
+    @include card-outline;
 }
 
 @mixin card-h-padding {
-	padding-left: $tiny-spacing;
-	padding-right: $tiny-spacing;
+    padding-left: $tiny-spacing;
+    padding-right: $tiny-spacing;
 }
 
 .card img {
-	width: 100%;
-	position: relative;
-	z-index: 1;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
-.card > .content {
-	padding: $tiny-spacing;
-	z-index: 2;
-	position: relative;
-	overflow: auto;
+
+.card>.content {
+    padding: $tiny-spacing;
+    z-index: 2;
+    position: relative;
+    overflow: auto;
 }
+
 .card .title {
-	margin-top: 0px;
+    margin-top: 0px;
 }
+
 .card.profile .avatar {
-	background-position: center;
-	background-size: cover;
-	flex: .7;
+    background-position: center;
+    background-size: cover;
+    flex: .7;
 }
-.card.profile > .content {
-	flex: 2;
+
+.card.profile>.content {
+    flex: 2;
 }
+
 .card .buttons {
-	text-align: right;
-	margin-top: $base-spacing;
+    text-align: right;
+    margin-top: $base-spacing;
 }
 
 .card.top-half {
-	border-bottom: none;
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
+
 .card.bottom-half {
-	border-top: none;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 @mixin card-middle {
-	border-top: none;
-	border-radius: 0;
+    border-top: none;
+    border-radius: 0;
 }
+
 .card.middle {
-	@include card-middle;
+    @include card-middle;
 }
