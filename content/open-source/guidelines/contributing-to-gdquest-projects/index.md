@@ -71,7 +71,7 @@ Before you write code, **read other classes in the project** to get a sense for 
 
 **Squash your commits**!
 
-When you are working on your computer and local fork, you may use as many commints as you want so that you can jump back in your code's history. But once you publish your own changes and submit your pull request, you should squash your commits so that the project's history stays easy to browse.
+When you are working on your computer and local fork, you may use as many commits as you want so that you can jump back in your code's history. But once you publish your own changes and submit your pull request, you should squash your commits so that the project's history stays easy to browse.
 
 A new feature can be a single commit. A bug fix or an improvement can be one commit. A commit can range from a small change to hundreds of lines of code. It should just be a clear and a coherent step in the project's history.
 
