@@ -8,14 +8,18 @@ type: post
 date: 2019-07-07T09:34:00+09:00
 ---
 
-This document is a living tool to help us improve the educational value and the consistency of our video lessons.
+This document is a living guide to help us improve both the form and the substance of our tutorials. 
 
-The goal is to help us solidify both the form and the substance of our tutorials. We included practical tips about recording.
+This guide contains:
 
-We're also leaving our guidelines open for fellow tutors to contribute, and for aspiring tutors to draw inspiration from.
+1. **Our experience with education** and getting your message across
+1. **Practical tips about writing, recording, and editing**
 
+We're also leaving our guidelines open for fellow tutors to contribute to, to critique, and for aspiring tutors to draw inspiration from.
 
-## We learn when we're engaged in an activity
+## How to make great education ##
+
+### We learn when we're engaged in an activity ###
 
 Until now, our videos have been showing solutions to problems, but we've rarely even tried to engage the viewer directly. Practice is essential to learning. Putting what you learned in your own words, and applying what you're learning, as you're learning it. So is getting sufficient feedback for every step that we take learning a given discipline.
 
@@ -33,17 +37,17 @@ We can do so by multiplying the opportunities for the viewer to engage in learni
 
 <!-- TODO: write more on viewer questions and quizzes, exercises, challenges, and getting people to take part in community projects. We can take a look at FreeCodeCamp as an example. -->
 
-## Going past step-by-step
+### Going past step-by-step ###
 
 Step-by-step tutorials are easy to produce, and they can ease designers who aren't comfortable with programming into the daunting process of creating software. But as soon as we try to cover the reality of development, step-by-step videos tend to dumb it down into a seemingly linear process while design and programming are both nonlinear, creative problem-solving activities.
 
 That is because step-by-step videos are long. The majority of the content shows typing individual lines of code, which shifts the focus towards the implementation details. As we have to write a lot, we end up focusing on writing the code without typos instead of thinking hard about the big picture. Yet, I believe the big picture and general techniques is the part we should teach.
 
-### Code overviews
+#### Code overviews ####
 
 Commenting on a finished project's structure can be useful to explain high-level abstractions and a program's flow, especially if the lesson is short and to the point. It can help experienced developers or students to expand their library of patterns and solutions that they can apply to their projects.
 
-### A middle-ground: pasting code snippets
+#### A middle-ground: pasting code snippets ####
 
 To replace code overviews we could shift towards an approach that's half-way through step-by-step and just commenting on the final code. We can achieve that creating start Godot project with only the files required for the tutorial, extracted from a larger project. But more than the assets.
 
@@ -58,7 +62,7 @@ Then paste blocks of code one by one to show a way to implement the solution and
 
 The tutorials don't have to cover every single line. We can also have pre-built methods or extra objects done and hidden from the viewer. Anything that's not relevant to the tutorial, but required for the demo to work.
 
-## We should teach techniques and concepts over recipes
+### We should teach techniques and concepts over recipes ###
 
 > Give a man a fish and you feed him for a day; teach a man to fish, and you feed him for a lifetime.
 
@@ -70,7 +74,7 @@ The idea applies to game programming as well: the principles we use and the way 
 
 When you create a tutorial on a given topic, try to offer more than a description of what each line of code does. You can explain the thought process that led you to structure your project in a certain way, mention other potential solutions you could try, their advantages and drawbacks. If you decide to teach a pattern, explain its general form. You can also indicate the limits of your example or the tutorial compared to a real-world scenario. Game code can get complicated and messy once you start to connect systems.
 
-## Keep the language simple
+### Keep the language simple ###
 
 To me, the ability to explain complex topics in fairly simple terms is a sign of mastery and maturity. Mastery because it takes a great deal of experience to boil down a technique or a concept to its essence. Maturity as pride or one's ego can prevent us from making hard-learned knowledge accessible to everyone else.
 
@@ -80,24 +84,54 @@ Depending on the intended audience for a given series, we can assume that the st
 
 It's a balancing act. The idea isn't to dumb down the lesson, but to do our best to keep the form as clean and as fluid as possible so that the learner can focus their attention on the substance.
 
-## Video recording
+## How to make great tutorials
+
+Creating great videos starts with **strong planning**, **writing**, and **recording solid footage**. You will save a lot of time if your source footage is clean and your speech precise. If you don't take the time to plan, you will limit the quality of your tutorial.
 
 {{< youtube n0jir8KmVI8 >}}
 
-### Video
-
-When you make a small mistake or need to re-record a sentence, clap in front of the mic. This produces a sharp vertical line on the audio waveform that makes it easy for the editor to find and remove the faulty parts.
+### How to recording solid footage
 
 You should always record:
 
-- In Full HD, 1920x1080
-- At 30 Frames Per Second
+- At **1920x1080**, in full-HD
+- At **30 Frames Per Second**
 
-Your footage should be smooth, not choppy. You should remove anything that can distract the viewer from the tutorial from the screen: notifications, messaging client, etc. Make the program full-screen whenever possible.
+Your footage should be smooth, not choppy. You should **hide anything that can distract the viewer** from the tutorial from the screen: 
 
-Be careful not to wave the mouse cursor as you talk. Put the mouse or stylus down when you're talking and not pointing at anything in particular. The motion can be distracting.
+- Notifications
+- Chat application
+- Navigation bar
+- System sounds
 
-Also, make sure that the sound you record from your internal sound card or speakers doesn't cover your voice. I keep the desktop audio channel at -20db to -30db most of the time in OBS Studio.
+**Make the program full-screen** whenever possible.
+
+**Don't wave the mouse cursor** as you talk. Put the mouse or stylus down when you're talking, and you're not pointing at anything in particular. The motion can be distracting.
+
+**Set the desktop audio channel to record at a low volume** so it doesn't cover your voice. I keep it at -20db to -30db most of the time in OBS Studio.
+
+![OBS mixer](./img/obs-mixer.png)
+
+When you make a small mistake or need to re-record a sentence, **clap in front of the mic**. This produces a sharp vertical line on the audio waveform that makes it easy for the editor to find and remove the faulty parts.
+
+![Clap on audio waveform](./img/waveform.png)
+
+
+#### Setting up the microphone
+
+The closer you are to the microphone when you record, the louder your voice will be relative to the sound reflected by your environment. You should place the microphone no more than 50cm away from your mouth if you can.
+
+Don't place your mouth right next to the microphone if you still move your head while recording: your movement will cause significant changes in your voice's volume.
+
+The voice should be normalized at around -6db. Use other YouTube videos or one of your recordings with good audio levels for reference. Always check your edit against the reference before exporting your video.
+
+#### Drinks ####
+
+Don't drink coffee, tea, or milk when and right before recording. The former can leave your palate dry and provoke mouth noises. Milk tends to stick in your throat and to limit the control of your voice.
+
+You always want to record with a clean palate, stay hydrated, and have a bottle or a glass of water next to you. Sip often when recording to keep your voice level stable.
+
+
 
 #### Program layout
 
@@ -118,20 +152,6 @@ For instance, in Godot, I use 20pt for the editor's font and 23pt for the code. 
 
 
 ### Audio
-
-#### Setting up the microphone
-
-The closer you are to the microphone when you record, the louder your voice will be relative to the sound reflected by your environment. You don't want to eat the mic, but you should place it less than 1m away from your mouth, or closer if possible.
-
-30-40cm is a good middle-ground in case you move a bit when talking: if you place it too close, your movement will cause significant changes in your voice's volume.
-
-The voice should be normalized at around -6db. Use other YouTube videos or one of your recordings with good audio levels for reference. Always check your edit against the reference before exporting it.
-
-#### Drinks ####
-
-Don't drink coffee, tea, or milk when and right before recording. The former can leave your palate dry and provoke mouth noises. Milk tends to stick in your throat and to limit the control of your voice.
-
-You always want to record with a clean palate, stay hydrated, and have a bottle or a glass of water next to you. Sip often when recording to keep your voice level stable.
 
 #### Mouth noises
 
@@ -154,6 +174,6 @@ Here's a [short vocal warm up](https://www.youtube.com/watch?v=9tXK7cw9mrg) from
 
 If you're struggling to explain something while recording, clap, and take the time to breathe and to think. Rehearse the complex idea in your mind or in front of the microphone. You can leave the recording running in the meantime. When you're ready, do a clean and confident take. It's easy to edit the long silence out later.
 
-## Video editing
+### Video editing ###
 
 Avoid abrupt cuts in both the audio and the video. You should cut mistakes and long silences or hesitations, but avoid cutting too much between words. Especially if you are editing live footage: too many cuts and the video will feel robotic or sped up. There's a natural rhythm to the human speech that you want to preserve.
