@@ -28,22 +28,6 @@ This first part is for you if you have little to no programming experience. You'
 It is the first part of a *Free and Open Source* intro series to game creation and to the [ Godot game engine ](https://godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
 {{< /note >}}
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [What do you want to create?](#what-do-you-want-to-create)
-- [To code games, you need programming foundations](#to-code-games-you-need-programming-foundations)
-- [The first language you'll learn isn't that important](#the-first-language-you-ll-learn-isn-t-that-important)
-- [Programming is for everyone](#programming-is-for-everyone)
-- [Don't start with C++](#don-t-start-with-c)
-- [Visual programming is still computer code](#visual-programming-is-still-computer-code)
-- [I recommend to start with Python](#i-recommend-to-start-with-python)
-- [Three resources to learn Python step by step](#three-resources-to-learn-python-step-by-step)
-- [Summary](#summary)
-- [Your Questions](#your-questions)
-
-<!-- markdown-toc end -->
-
 
 ## Take it one step at a time
 

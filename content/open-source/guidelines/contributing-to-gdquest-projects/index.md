@@ -3,6 +3,8 @@ title: Contributing to GDquest's projects
 description: Do you want to become a Free Software contributor? This guide is here to help you learn everything you need!
 author: nathan
 
+type: post
+
 date: 2018-11-05T09:30:19+09:00
 aliases:
   - /open-source/contributing-guidelines

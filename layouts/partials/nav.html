@@ -1,5 +1,5 @@
 
-<nav class="flex full align-items-center justify-space-between">
+<nav class="nav-main flex full align-items-center justify-space-between">
 	<section id="page_links">
 		{{ $currentNode := . }} {{ range .Site.Menus.main }}
     	<a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{ end }} href="{{ .URL }}">

@@ -3,6 +3,8 @@ title: GDquest video guidelines
 description: "This document is a living tool to help us improve the educational value and the consistency of our video lessons."
 author: nathan
 
+type: post
+
 date: 2019-07-07T09:34:00+09:00
 ---
 
@@ -11,31 +13,6 @@ This document is a living tool to help us improve the educational value and the 
 The goal is to help us solidify both the form and the substance of our tutorials. We included practical tips about recording.
 
 We're also leaving our guidelines open for fellow tutors to contribute, and for aspiring tutors to draw inspiration from.
-
-
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [GDquest video guidelines](#gdquest-video-guidelines)
-    - [We learn when we're engaged in an activity](#we-learn-when-were-engaged-in-an-activity)
-    - [Going past step-by-step](#going-past-step-by-step)
-        - [Code overviews](#code-overviews)
-        - [A middle-ground: pasting code snippets](#a-middle-ground-pasting-code-snippets)
-    - [We should teach techniques and concepts over recipes](#we-should-teach-techniques-and-concepts-over-recipes)
-    - [Keep the language simple](#keep-the-language-simple)
-    - [Video recording](#video-recording)
-        - [Video](#video)
-            - [Program layout](#program-layout)
-            - [Font size](#font-size)
-        - [Audio](#audio)
-            - [Setting up the microphone](#setting-up-the-microphone)
-            - [Drinks](#drinks)
-            - [Mouth noises](#mouth-noises)
-            - [Warming up](#warming-up)
-            - [Take your time](#take-your-time)
-    - [Video editing](#video-editing)
-
-<!-- markdown-toc end -->
 
 
 ## We learn when we're engaged in an activity

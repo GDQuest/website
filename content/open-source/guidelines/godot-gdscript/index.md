@@ -28,30 +28,6 @@ There isn’t a straightforward way of transposing these ideas into an object-or
 
 To create modular and composable systems, we have to manage boundaries: the places where different game systems interact with one another. Especially the interaction of the game systems with the user.
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [Code Writing Style](#code-writing-style)
-    - [Avoid `null` like the plague](#avoid-null-like-the-plague)
-    - [Use static types](#use-static-types)
-    - [Write self-documenting code and use comments sparingly](#write-self-documenting-code-and-use-comments-sparingly)
-        - [Use comments if they save time or add key explanations](#use-comments-if-they-save-time-or-add-key-explanations)
-        - [Naming conventions](#naming-conventions)
-            - [General naming conventions](#general-naming-conventions)
-            - [Naming in the src folder](#naming-in-the-src-folder)
-            - [Naming in the assets folder](#naming-in-the-assets-folder)
-    - [How to create decoupled and reusable game systems in Godot](#how-to-create-decoupled-and-reusable-game-systems-in-godot)
-        - [Every scene should run by itself without errors](#every-scene-should-run-by-itself-without-errors)
-        - [Use signals to coordinate time-dependent interactions](#use-signals-to-coordinate-time-dependent-interactions)
-        - [Reinforcing good habit](#reinforcing-good-habit)
-            - [More tips about independent scenes](#more-tips-about-independent-scenes)
-    - [Events bus: Observer pattern for Godot](#events-bus-observer-pattern-for-godot)
-        - [Connecting signals through the editor's node tab](#connecting-signals-through-the-editors-node-tab)
-        - [Connecting signals via code](#connecting-signals-via-code)
-        - [Using an Event singleton to avoid spaghetti code](#using-an-event-singleton-to-avoid-spaghetti-code)
-
-<!-- markdown-toc end -->
-
 ## Code Writing Style
 
 {{< youtube FB2sqJgfqXI >}}
