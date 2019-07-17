@@ -88,7 +88,7 @@ Finding and fixing bugs can be time-consuming. if you help us spot it and reprod
 1. If the program prints an **error in the console**, copy it as text or take a screenshot
 1. Tell us what result you expect to get instead
 
-On GitHub, you can surround code or error messages with triple backticks: \`\`\` to create a code block:
+On GitHub, you can surround code or error messages with triple back-ticks: \`\`\` to create a code block:
 
 ```
 Three backticks surround this line of text
@@ -97,7 +97,7 @@ Three backticks surround this line of text
 Here is an example of a great bug report: 
 
 {{< note example >}}
-Title: Trimming video gives an error error if time cursor doesn't overlap any sequence
+Title: Trimming video gives an error if time cursor doesn't overlap any sequence
 
 **Program version**:
 
@@ -115,11 +115,12 @@ No error
 
 **Traceback**:
 
-```
+{{< highlight shell >}}
 File "/home/gdquest/.config/blender/2.80/scripts/addons/power-sequencer/operators/trim_left_or_right_handles.py", line 63, in execute
 ripple_start_frame = min(sequences, key=attrgetter('frame_final_start')).frame_final_start
 ValueError: min() arg is an empty sequence
-```
+{{< / highlight >}}
+
 {{< / note >}}
 
 1. **The title describes the problem clearly**
@@ -133,20 +134,19 @@ ValueError: min() arg is an empty sequence
 {{< note >}}
 A traceback or backtrace is a tool for developers to spot bugs. You will see it as a text message that starts with `Traceback`, followed by a list of lines that may include computer code, and an error message.
 
-
-```bash
+{{< highlight shell >}}
 Traceback (most recent call last):
-  File "/home/gdquest/Repositories/build_linux/bin/2.80/scripts/startup/bl_operators/sequencer.py", line 230, in execute
+  File "/home/gdquest/Repositories/build_linux/bin/2.80/scripts/startup/
+bl_operators/sequencer.py", line 230, in execute
     fade_animation_clear(context, fade_fcurve, fades)
-  File "/home/gdquest/Repositories/build_linux/bin/2.80/scripts/startup/bl_operators/sequencer.py", line 295, in fade_animation_clear
+  File "/home/gdquest/Repositories/build_linux/bin/2.80/scripts/startup/
+bl_operators/sequencer.py", line 295, in fade_animation_clear
     if fade.start.x < keyframe.co[0] < fade.end.x:
 ReferenceError: StructRNA of type Keyframe has been removed
-```
+{{< / highlight >}}
 
 This traceback is important as it gives us a precise starting point to investigate and fix the bug.
 {{< / note >}}
-
-### How to write a great feature request
 
 When you make a request for improvements or new features, please **always describe the problem that you are facing and your needs**. to produce a great design, we need to understand your problem and to explore different solutions:
 
