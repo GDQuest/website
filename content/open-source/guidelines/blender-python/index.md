@@ -100,7 +100,7 @@ Name classes as `CATEGORY_TYPE_name`:
 
 1. `CATEGORY` is what the class works with or operates on. It can be `OBJECT`, `ACTION` for animation actions, `ARMATURE` if it affects an armature, `SEQUENCER`, etc.
 1. `TYPE` is a two letters acronym that represents the nature of the class. You will use `OT` for operators, `MT` for menu templates, PT for panel templates, UL for UI lists, etc.
-1. `name` is the name for your operator or UI element in `camel_case`. Find a clear name that represents the action the class will perform or the UI element that it represents.
+1. `name` is the name for your operator or UI element in `snake_case`. Find a clear name that represents the action the class will perform or the UI element that it represents.
 
 This naming scheme makes it easy to find features in the codebase. You can search for `CATEGORY*operator_name` using tags or a search tool to find the source code of any operator listed in the program's keymaps.
 
