@@ -62,8 +62,8 @@ There are **many ways to structure code** and many ways to solve a given problem
 
 These guidelines are separate guides:
 
-1. [Godot GDScript: best practices]({{ ref /open-source/guidelines/godot-gdscript/ }})
-1. [Blender Python: best practices]({{ ref /open-source/guidelines/blender-python/ }})
+1. [Godot GDScript: best practices]({{< ref "/open-source/guidelines/godot-gdscript/index.md" >}})
+1. [Blender Python: best practices]({{< ref "/open-source/guidelines/blender-python/index.md" >}})
 
 Before you write code, **read other classes in the project** to get a sense for the style and code architecture. We write docstrings in our code to help you understand the purpose of different classes.
 
