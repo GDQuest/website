@@ -95,7 +95,7 @@ Creating great videos starts with **strong planning**, **writing**, and **record
 You should always record:
 
 - At **1920x1080**, in full-HD
-- At **30 Frames Per Second**
+- At **29.97 Frames Per Second**, also called NTSC or NTSC film
 
 Your footage should be smooth, not choppy. You should **hide anything that can distract the viewer** from the tutorial from the screen: 
 
