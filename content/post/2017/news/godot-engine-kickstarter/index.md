@@ -1,6 +1,6 @@
 ---
 title: Game Creation with Godot, Kickstarter soon
-description: In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDquest needs your opinion and your help!
+description: In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!
 author: nathan
 date: 2017-04-19T15:00:11+01:00
 
@@ -28,7 +28,7 @@ Update: the form's results are available: [Check them out]({{< ref "/post/2017/n
 
 Back in December 2015, hundreds supported gdquest on Kickstarter to bring out game art tutorials to Krita. Since then, I produced more than a hundred videos for it, and the [first professional game art course](https://gumroad.com/l/krita-game-art-tutorial-1).
 
-I didn't expect to go full time with GDquest. Back then there was no website, a small community, I had few contacts to help me and no experience with crowdfunding. A lot had yet to be done. The Krita devs and I weren't sure it would work, but it did. Fast forward 18 months, I'm ready to work hand-in-hand with the Godot developers to create the **first premium course for the powerful Godot game engine**.
+I didn't expect to go full time with GDQuest. Back then there was no website, a small community, I had few contacts to help me and no experience with crowdfunding. A lot had yet to be done. The Krita devs and I weren't sure it would work, but it did. Fast forward 18 months, I'm ready to work hand-in-hand with the Godot developers to create the **first premium course for the powerful Godot game engine**.
 
 
 ## Godot, the engine you've been waiting for
@@ -77,8 +77,8 @@ To do so, please fill this short form (only 5 questions):
 
 ## Want to know when it starts?
 
-1. Subscribe to the [GDquest Youtube channel](https://www.youtube.com/c/Gdquest?sub_confirmation=1)
-2. Follow [GDquest on Twitter](https://twitter.com/NathanGDquest)
+1. Subscribe to the [GDQuest Youtube channel](https://www.youtube.com/c/Gdquest?sub_confirmation=1)
+2. Follow [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
 I'll let you know when it starts ASAP. Feel free to ask me questions! I'll also share the results from the form when I've got everyone's thoughts on the project :)
 

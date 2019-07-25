@@ -9,7 +9,7 @@ type: post
 description: It is time for you, members of the community, to choose the tutorial series you want to see on the channel! Check out this post to vote for your favourite topic.
 ---
 
-06-2016 update: Voting is over! You were more than 400 to vote on the series you want to see on GDquest.
+06-2016 update: Voting is over! You were more than 400 to vote on the series you want to see on GDQuest.
 
 Here are the top 3 results:
 
@@ -19,7 +19,7 @@ Here are the top 3 results:
 
 ## Let your voice be heard
 
-Up until now, the tutorials have been a bit random on GDquest. I jumped from theme to theme based on your requests or ideas I had. But now, we're in 2016. I want us to try something new. **It is time for you, members of the community, to choose the tutorial series you want to see on the channel.**
+Up until now, the tutorials have been a bit random on GDQuest. I jumped from theme to theme based on your requests or ideas I had. But now, we're in 2016. I want us to try something new. **It is time for you, members of the community, to choose the tutorial series you want to see on the channel.**
 
 I chose a handful of ideas based on your feedback and on what I can handle right now. There are 2 themes that I didn’t list, on purpose: animation and the Godot engine. Here's why: there will be some animation tutorials when Krita 3.0 is released. And I am waiting for Godot 2.0 to cover it on the channel.
 

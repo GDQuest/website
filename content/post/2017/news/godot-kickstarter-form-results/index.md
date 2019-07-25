@@ -1,6 +1,6 @@
 ---
 title: Godot Kickstarter, Your Feedback on the Form
-description: In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDquest needs your opinion and your help!
+description: In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!
 author: nathan
 date: 2017-05-06T13:37:08+02:00
 
@@ -87,8 +87,8 @@ In any case, there'll be plenty for you to learn. And again, the higher the fund
 
 ## Be the first to know!
 
-To know when the Kickstarter's up, **click the button below and subscribe to GDquest on Youtube**! You will get 1 free tutorial every single day throughout the campaign:
+To know when the Kickstarter's up, **click the button below and subscribe to GDQuest on Youtube**! You will get 1 free tutorial every single day throughout the campaign:
 
-{{< calltoaction "http://youtube.com/c/gdquest" "The GDquest channel" >}}
+{{< calltoaction "http://youtube.com/c/gdquest" "The GDQuest channel" >}}
 
 Thank you for your time! Feel free to comment or ask questions below :)

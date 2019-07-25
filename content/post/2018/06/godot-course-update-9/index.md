@@ -75,7 +75,7 @@ New [professional Krita brushes](https://gumroad.com/l/krita-brushes-for-game-ar
 
 ## There's more!
 
-There's more, like the new [Free Godot projects](https://github.com/GDquest/Godot-engine-tutorial-demos) we worked on lately. That's quite a lot of news to take on all at once already, so let's cut it here for now. The best way to stay posted is probably to [follow GDquest on Twitter](https://twitter.com/NathanGDquest).
+There's more, like the new [Free Godot projects](https://github.com/GDQuest/Godot-engine-tutorial-demos) we worked on lately. That's quite a lot of news to take on all at once already, so let's cut it here for now. The best way to stay posted is probably to [follow GDQuest on Twitter](https://twitter.com/NathanGDQuest).
 
 ![Deer sticking its tongue out in Nara Park](deers-in-the-park.jpg)
 

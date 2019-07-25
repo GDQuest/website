@@ -18,7 +18,7 @@ For tips on testing and debugging your code, and performances with Python, check
 1. [Blender Python tips and tricks]( https://docs.blender.org/api/current/info_tips_and_tricks.html )
 
 {{< note >}}
-This guide is a work-in-progress, [feedback is welcome](https://github.com/GDquest/GDquest-website/issues/81)! 🙂
+This guide is a work-in-progress, [feedback is welcome](https://github.com/GDQuest/GDQuest-website/issues/81)! 🙂
 {{< / note >}}
 
 ## Code conventions for Blender Python ##

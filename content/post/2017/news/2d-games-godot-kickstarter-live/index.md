@@ -13,7 +13,7 @@ tags:
 - Godot game engine
 - make 2d games
 - Godot Kickstarter
-- GDquest Kickstarter
+- GDQuest Kickstarter
 - game creation kickstarter
 - learn game creation
 - crowdfunding campaign
@@ -33,4 +33,4 @@ On top of that, for the next 30 days, you will get a **free tutorial every day o
 
 <iframe width="800" height="450" src="https://www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou/widget/video.html" frameborder="0" scrolling="no"> </iframe>
 
-{{< calltoaction "https://www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou" "Support GDquest on Kickstarter!" >}}
+{{< calltoaction "https://www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou" "Support GDQuest on Kickstarter!" >}}

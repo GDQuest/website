@@ -33,7 +33,7 @@ If you're only looking for UI tutorials, check out our standalone course:
 
 {{< calltoaction url="https://gum.co/oifP" text="Create User Interface Godot Course" >}}
 
-You'll find some **free tutorial samples** below. I also released the [ Finite State Machine ](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation. You can find the open source [A-RPG demo](https://github.com/GDquest/make-pro-2d-games-with-godot/) from the course on GitHub.
+You'll find some **free tutorial samples** below. I also released the [ Finite State Machine ](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation. You can find the open source [A-RPG demo](https://github.com/GDQuest/make-pro-2d-games-with-godot/) from the course on GitHub.
 
 <p class="note">
 All versions come with source Godot projects so you can read the source code, learn from them and even reuse them in your own work! Want to skip ahead in a chapter? There are multiple checkpoint projects with `start` and `end` folders so you can pick up from a different video.
@@ -260,5 +260,5 @@ Contributing:
 
 #### Demo projects
 
-1. [AStar pathfinding on a 2d grid](https://github.com/GDquest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding)
+1. [AStar pathfinding on a 2d grid](https://github.com/GDQuest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding)
 1. [Navigation2D](https://github.com/godotengine/godot-demo-projects/tree/master/2d/navigation) (rewrite)

@@ -14,7 +14,7 @@ aliases:
 
 *In short*, our goal with these guidelines is to **build a welcoming, a safe, and a productive space for every creator and contributor**. We're here to push Free Software projects forward together and **be kind and supportive to one another**, working past our differences.
 
-We encourage contributions from **anyone** who wishes to help with the development of any GDquest project, **regardless of gender, race, religion, cultural background, and any other demographic characteristics, as well as personal political views**.
+We encourage contributions from **anyone** who wishes to help with the development of any GDQuest project, **regardless of gender, race, religion, cultural background, and any other demographic characteristics, as well as personal political views**.
 
 People are sometimes discouraged from participating in development because of certain patterns of communication that strike them as unfriendly, unwelcoming, rejecting, or harsh. This can especially affect unprivileged people, but it is not limited to them. Therefore we ask all contributors to make a conscious effort, in the project discussions, to avoid communication practices that will predictably and unnecessarily risk putting some contributors off.
 

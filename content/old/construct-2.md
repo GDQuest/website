@@ -30,7 +30,7 @@ aliases:
 
 In a another life, I wrote a handful of tutorials for Construct 2. They're not on this website anymore, but you can still find them on the engine's official website.
 
-Now, I make videos tutorials about game creation with free, open source game creation tools: [learn more about GDquest](http://gdquest.com).
+Now, I make videos tutorials about game creation with free, open source game creation tools: [learn more about GDQuest](http://gdquest.com).
 
 Construct 2 tutorials:
 

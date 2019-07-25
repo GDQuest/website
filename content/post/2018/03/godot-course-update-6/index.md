@@ -1,6 +1,6 @@
 ---
 title: "Godot 3 course: small March update"
-description: "After moving and settling in Nara, Japan, I got back to GDquest. This month's update is smaller than usual, but it's still out in time, as promised!"
+description: "After moving and settling in Nara, Japan, I got back to GDQuest. This month's update is smaller than usual, but it's still out in time, as promised!"
 author: nathan
 
 date: 2018-03-31T15:19:32+09:00
@@ -39,7 +39,7 @@ You will find new and updated code examples. In the pro version (Premium Kicksta
 
 Check out the [Godot 3 course on Gumroad](https://gumroad.com/gdquest)!
 
-I also rewrote the navigation 2d example and wrote a new [ AStar demo ](https://github.com/GDquest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding) to show how to code grid-based pathfinding in the engine.
+I also rewrote the navigation 2d example and wrote a new [ AStar demo ](https://github.com/GDQuest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding) to show how to code grid-based pathfinding in the engine.
 
 {{< video "astar-pathfind-demo.mp4" >}}
 
@@ -51,11 +51,11 @@ The second monster's tutorials are ready to record, and you'll see the code is i
 
 On top of that, I’m looking to start working on the stretch goals starting around the end of April. The idea is to produce content that will benefit all of you, benefit the entire Godot community, and keep the YouTube channel going. I'll work on this in parallel to new course chapter.
 
-### GDquest.com 2.0
+### GDQuest.com 2.0
 
 ![](gdquest-v2.jpg)
 
-I hired Daniel Ramirez, a big Godot contributer who designed the new Godot engine website, to do the same with GDquest. Better look, better foundations... there's still some content to add but it's here, and it's open source!
+I hired Daniel Ramirez, a big Godot contributer who designed the new Godot engine website, to do the same with GDQuest. Better look, better foundations... there's still some content to add but it's here, and it's open source!
 
 The website relies on [ Hugo ](https://gohugo.io/), a powerful and blazing-fast static website engine.
 
@@ -63,7 +63,7 @@ The website relies on [ Hugo ](https://gohugo.io/), a powerful and blazing-fast 
 
 ![Power Sequencer banner](power-sequencer-banner.png)
 
-[ Power Sequencer ](https://github.com/GDquest/Blender-power-sequencer/) is a Blender add-on I initially wrote to edit videos faster for gdquest, and open sourced a few months ago.
+[ Power Sequencer ](https://github.com/GDQuest/Blender-power-sequencer/) is a Blender add-on I initially wrote to edit videos faster for gdquest, and open sourced a few months ago.
 
 [ Daniel Oakey ](https://github.com/doakey3/), a medical school graduate and open source advocate, offered to contribute to the project. He has done outstanding work and has been a great help to help bring this Free Blender ad-on to the next level.
 

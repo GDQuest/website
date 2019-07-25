@@ -47,4 +47,4 @@ We'll talk about this again later but if you want to meet, I'll be at the [ Godo
 
 Merry Christmas!
 
-*PS: you can now find [ GDquest on Instagram ](https://www.instagram.com/nathan_gdquest/) too*
+*PS: you can now find [ GDQuest on Instagram ](https://www.instagram.com/nathan_gdquest/) too*

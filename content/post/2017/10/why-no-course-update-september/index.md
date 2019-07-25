@@ -47,7 +47,7 @@ In October, you'll get an update with the Game Design chapter, including insight
 
 Mark Brown aka Game Maker's Toolkit made a [ neat video ](https://www.youtube.com/watch?v=bCJw4hQkPj4) about @Yakkafo's game.
 
-You will also get all the [ tutorials and demos ](https://github.com/GDquest/godot-3-guides/) I create for the documentation neatly packaged in the course. They're as good and as complete as the video tutorials. Only text-based. You'll also find and a changelog to help you wrap your head around the updates.
+You will also get all the [ tutorials and demos ](https://github.com/GDQuest/godot-3-guides/) I create for the documentation neatly packaged in the course. They're as good and as complete as the video tutorials. Only text-based. You'll also find and a changelog to help you wrap your head around the updates.
 
 I asked you on Discord what I should focus on until Godot 3's beta comes out. And voted in favor of the official documentation. I still have to push the course forward for those who buy it in early access, so I'm going to *split the difference*. It makes sense to focus on the docs before Godot 3 comes out: it may affect the experience and retention of new users a lot. The engine is making leaps, and the documentation needs to catch up.
 
@@ -55,14 +55,14 @@ Thanks to Chris's work on beginner-friendly tutorials, like the new [ Your First
 
 {{< figure src="https://docs.godotengine.org/en/latest/_images/dodge_preview.gif" caption="Chris's new getting started tutorial for Godot 3 makes you code an avoid the monsters game" alt="Small aliens crawling on the screen, and the player has to avoid them" >}}
 
-If you've got any concern or question, never hesitate to contact me directly on Discord, [ Twitter ](https://twitter.com/NathanGDquest/) or via Kickstarter/Email.
+If you've got any concern or question, never hesitate to contact me directly on Discord, [ Twitter ](https://twitter.com/NathanGDQuest/) or via Kickstarter/Email.
 Thank you kindly for your time and see you soon!
 
 *PS: we're going to the [ Capitole du Libre ](https://2017.capitoledulibre.org/) on November 18 and 19, with Gilles Roudière and StraToN. It's a major FOSS event taking place in France. We were invited to give conferences about Godot. You're welcome to participate as well, come to meet us, help man the booth, and teach the engine!*
 
 ## Get in touch!
 
-Need to reach me? Send me a message anytime [@NathanGDquest](https://twitter.com/NathanGDquest) on Twitter.
+Need to reach me? Send me a message anytime [@NathanGDQuest](https://twitter.com/NathanGDQuest) on Twitter.
 
 Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
 

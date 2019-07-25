@@ -699,7 +699,7 @@ This way, we can encapsulate signal connections in the related nodes instead of 
 
 Having a global `Events` dependency isn't a major issue. If we want to reuse code in other projects that don't implement this pattern, we can do a search and replace to get rid of all the `Events.*` declarations.
 
-[OpenRPG]: https://github.com/GDquest/godot-open-rpg
+[OpenRPG]: https://github.com/GDQuest/godot-open-rpg
 [state]: ./img/node_state.png
 [behavior]: ./img/node_behavior.png
 [inner_connection]: ./img/node_inner_connection.png

@@ -1,5 +1,5 @@
 ---
-title: Contributing to GDquest's projects
+title: Contributing to GDQuest's projects
 description: Do you want to become a Free Software contributor? This guide is here to help you learn everything you need!
 author: nathan
 
@@ -14,7 +14,7 @@ If you want to **become a Free Software contributor** and be part of our project
 
 This guide will tell you everything you need to know to get your improvements integrated into the projects as fast as possible.
 
-We use these guidelines at GDquest as well to **work efficiently together**.
+We use these guidelines at GDQuest as well to **work efficiently together**.
 
 To make it a smooth and pleasant experience for everyone working together, we'll ask you to:
 
@@ -38,7 +38,7 @@ We ask everyone to follow 3 steps to work smoothly and productively together:
 
 ## How to communicate well as a contributor ##
 
-**We want to build a friendly and a welcoming community** at GDquest. One that is inclusive for everyone, regardless of our experience, origins, or opinions. We should do our best to get newcomers to want to learn more about Free Software and become contributors.
+**We want to build a friendly and a welcoming community** at GDQuest. One that is inclusive for everyone, regardless of our experience, origins, or opinions. We should do our best to get newcomers to want to learn more about Free Software and become contributors.
 
 We have one key rule when we talk to one another: **be kind and supportive**.
 
@@ -54,7 +54,7 @@ We are here to review your Work-in-Progress (WIP) code, to help if you have any 
 
 If you want to work on an open issue, make sure that you understand it well by asking for all the information you need in order to tackle it efficiently.
 
-You can also get in touch on the [GDquest Discord server](https://discord.gg/uzSR7jB).
+You can also get in touch on the [GDQuest Discord server](https://discord.gg/uzSR7jB).
 
 ## Code style ##
 

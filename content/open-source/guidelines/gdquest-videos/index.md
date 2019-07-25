@@ -1,5 +1,5 @@
 ---
-title: GDquest video guidelines
+title: GDQuest video guidelines
 description: "This document is a living tool to help us improve the educational value and the consistency of our video lessons."
 author: nathan
 

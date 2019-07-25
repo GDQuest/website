@@ -2,7 +2,7 @@
 author: "nathan"
 category: ["News"]
 date: "2016-09-08T13:49:48+02:00"
-description: "It has been a while since the last behind the scenes post. Time for a batch of fresh news about Krita, GDquest, and everything alike."
+description: "It has been a while since the last behind the scenes post. Time for a batch of fresh news about Krita, GDQuest, and everything alike."
 tags: ["community"]
 title: "Summer Update"
 type: "post"
@@ -63,7 +63,7 @@ Lastly, I'm flying off to Japan in October. After 2 years studying the language,
 
 <!-- TODO: Screenshot -->
 
-I have travelled very little so far, and it'll be my first time on a long-haul flight. It's also a personal treat after a few years working in the gaming industry, taking little time off, and creating GDquest 18 months ago. It'll be a great occasion to fully relax, and come back to full productivity in November.
+I have travelled very little so far, and it'll be my first time on a long-haul flight. It's also a personal treat after a few years working in the gaming industry, taking little time off, and creating GDQuest 18 months ago. It'll be a great occasion to fully relax, and come back to full productivity in November.
 
 That said, it's time to get back to work. Well, actually to share dinner with a few friends, at the time of writing. But you know what I mean!
 

@@ -9,7 +9,7 @@ resources:
 category:
 - news
 date: 2017-05-09T09:18:18+02:00
-description: It's happening! On Monday, May 22, GDquest will be on Kickstarter to fund the first professional game creation course for Godot 3!
+description: It's happening! On Monday, May 22, GDQuest will be on Kickstarter to fund the first professional game creation course for Godot 3!
 tags:
 - gdquest
 - godot game engine
@@ -65,7 +65,7 @@ Subscribe below and get notified via email when the Kickstarter is up!
 If you haven't already:
 
 -   [Subscribe to the Youtube channel](http://youtube.com/c/gdquest)
--   [Follow me on Twitter](https://twitter.com/NathanGDquest)
+-   [Follow me on Twitter](https://twitter.com/NathanGDQuest)
 
 And feel free to message me on the [Godot Discord server](https://discordapp.com/invite/zH7NUgz) anytime (@gdquest#4637)
 

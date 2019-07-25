@@ -30,12 +30,12 @@ url: /game-design-portfolio
                 <p> We design <strong>appealing characters and environments, clear UI elements and polished cut-out animations</strong> made with Spine or Photoshop to serve your creative vision. </p>
             </div>
             <div column>
-                <p> We have a library of <strong>dozens of deep and instructive tutorials</strong> to prove our expertise. Find them all on the <a href="https://www.youtube.com/c/gdquest">GDquest youtube channel</a>. </p>
+                <p> We have a library of <strong>dozens of deep and instructive tutorials</strong> to prove our expertise. Find them all on the <a href="https://www.youtube.com/c/gdquest">GDQuest youtube channel</a>. </p>
             </div>
         </div>
         <!-- The team -->
         <div class="-center">
-            <a href="mailto:Nathan@GDquest.com"> <img src="/img/page/portfolio/button-hire-us.png" alt="Hire Us!" /> </a>
+            <a href="mailto:Nathan@GDQuest.com"> <img src="/img/page/portfolio/button-hire-us.png" alt="Hire Us!" /> </a>
         </div>
         <div class="-center">
             <img src="/img/page/portfolio/banner-the-team.png" alt="The Team" />
@@ -44,7 +44,7 @@ url: /game-design-portfolio
             <div column="3">
                 <img src="/img/page/portfolio/avatars/avatar-nathan.png" class="img-responsive center-block">
                 <h4>Nathan Lovato - Game Designer</h4>
-                <p><strong>Nathan</strong> is the author of the <a href="http://youtube.com/c/gdquest">GDquest Youtube channel</a>. He is both a professional designer and a tutor.</p>
+                <p><strong>Nathan</strong> is the author of the <a href="http://youtube.com/c/gdquest">GDQuest Youtube channel</a>. He is both a professional designer and a tutor.</p>
             </div>
             <div column="3">
                 <img src="/img/page/portfolio/avatars/avatar-magicfred.png" class="img-responsive center-block">

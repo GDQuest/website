@@ -23,7 +23,7 @@ Actually, I'm still catching up with work, since I got that shoulder injury. Tha
 {{< card
   img="/img/post/2016/05/krita-logo.png"
   title="Krita 3 launch Youtube livestream"
-  content="Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDquest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM <abbr title=\"Central Europe Standard Time (UTC/GMT +2)\">CEST</abbr>"
+  content="Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDQuest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM <abbr title=\"Central Europe Standard Time (UTC/GMT +2)\">CEST</abbr>"
   link="https://www.youtube.com/watch?v=hlcHDRc-gN8"
   link_text="Youtube Livestream"
   >}}
@@ -38,7 +38,7 @@ You will now find 2 tutorials along with the brushes. The first one is dedicated
 
 ## Gdquest's upgrade
 
-The new version of the website is available! I ported it to a new SASS framework, [ConciseCSS](http://concisecss.com/). Some things have changed visually, hopefully for the better. But more importantly, under the hood, everything is different. With the same functionality, the website's Go templates are about 20% shorter. The CSS is smaller, and now I have full control over everything. Not only was the port fast to do, but now I'll be able to improve GDquest faster.
+The new version of the website is available! I ported it to a new SASS framework, [ConciseCSS](http://concisecss.com/). Some things have changed visually, hopefully for the better. But more importantly, under the hood, everything is different. With the same functionality, the website's Go templates are about 20% shorter. The CSS is smaller, and now I have full control over everything. Not only was the port fast to do, but now I'll be able to improve GDQuest faster.
 
 Before that, I was using [Bootstrap](http://getbootstrap.com/), one of the most popular frameworks out there, made by Twitter. It is very good, but it's also huge. It has everything you'd ever need, as well as everything you would never need. Because of that, customizing the style of your website can take a lot of time. That's why I switched to Concise.
 

@@ -42,7 +42,7 @@ I'm looking to start working on and selling the next 2 volumes of the training i
 
 ## One video a week
 
-It's summer time in here. The hot weather is back, and people are taking time off. I'm not! I'll be here all summer long, working at the same pace. However, now that the tutorial series covering Krita 3's new features is out, we're going to move back to a rhythm of 1 tutorial per week on the channel. This will give me more time to improve the GDquest Blender add-on, and to prepare the [future series]({{< ref "/post/2016/community/vote-for-upcoming-tutorials-january-2016/index.md" >}}) coming to the channel.
+[Omitted long matching line]
 
 ## This week
 
@@ -54,7 +54,7 @@ Also, I'm working on the fourth chapter in the Krita training, to release it as 
 
 Moving into July, I have to get working again on the blender of VSE add-on. It is one of the main ways I can improve my productivity creating the video tutorials now. My goal is to add one new feature every single week, even if it's small. This week for instance, I'm working on an import feature that loads all of the project's video and audio files to the VSE in one click. As I get to create up to six videos in a single week, this feature will be a real time saver. And with that, I'll be able to release the first public version of the add-on.
 
-![Blender GDquest VSE add-on import code](/img/post/2016/06/blender-vse-add-on-code.png)
+![Blender GDQuest VSE add-on import code](/img/post/2016/06/blender-vse-add-on-code.png)
 
 _The import code is already there - it just needs to be refined_
 

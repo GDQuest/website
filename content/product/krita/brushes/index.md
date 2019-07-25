@@ -66,7 +66,7 @@ See more of Zhillustrator's work [on Artstation](https://www.artstation.com/arti
 {{< banner-img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
 
 The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
-[Click here to download the free Krita brushes](https://github.com/GDquest/free-krita-brushes/)
+[Click here to download the free Krita brushes](https://github.com/GDQuest/free-krita-brushes/)
 
 
 ## Changelog
@@ -88,21 +88,21 @@ See the full release notes: [4 new vegetation presets](version-14)
 
 #### New brushes
 
-- GDquest_Fill_Flat_Rotation: Sharp flat brush with pen rotation support, for cel shading and silhouettes
-- GDquest_Spray_Dirt_1: Splatters clumps of dots
-- GDquest Cloud Trail: creates a cloudy trail, for fireplaces and trails behind planes
+- GDQuest_Fill_Flat_Rotation: Sharp flat brush with pen rotation support, for cel shading and silhouettes
+- GDQuest_Spray_Dirt_1: Splatters clumps of dots
+- GDQuest Cloud Trail: creates a cloudy trail, for fireplaces and trails behind planes
 
 New premium brushes
 
-- GDquest_Natural_Charcoal_Soft: charcoal preset with soft textured edges, for sketching
-- GDquest_Natural_Charcoal_Sharp: pencil preset with a sharp outline and subtle texture, for sketching
+- GDQuest_Natural_Charcoal_Soft: charcoal preset with soft textured edges, for sketching
+- GDQuest_Natural_Charcoal_Sharp: pencil preset with a sharp outline and subtle texture, for sketching
 
 #### Improved brushes
 
-- GDquest_Aibrush_Shading: Lowered the spacing to fix artifacts that could appear on the stroke
-- GDquest_Fill_Flat_Directional: 6 times faster, improved for cel shading
-- GDquest_Cloud_Builder_Soft: a lot faster, better control over the clouds' shape
-- GDquest_PixelArt_Deform_Grow: lowered the deform speed
+- GDQuest_Aibrush_Shading: Lowered the spacing to fix artifacts that could appear on the stroke
+- GDQuest_Fill_Flat_Directional: 6 times faster, improved for cel shading
+- GDQuest_Cloud_Builder_Soft: a lot faster, better control over the clouds' shape
+- GDQuest_PixelArt_Deform_Grow: lowered the deform speed
 
 ### Version 10 - January 2017
 

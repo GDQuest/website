@@ -14,7 +14,7 @@ date: 2018-01-04T19:46:48+01:00
 layout: single
 ---
 
-At GDquest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [ Power Sequencer ](https://github.com/GDquest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.
+At GDQuest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [ Power Sequencer ](https://github.com/GDQuest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.
 
 <div class="container base-top-padding">
   <h2 data-font="centered" class="no-margin">Edit at the speed of thought</h2>
@@ -55,7 +55,7 @@ Faster playback, instant fades and crossfades, smart selection tools...
 Power Sequencer adds over <strong>40 new functions</strong> to Blender's Video Editor
 </p>
 
-{{< button "Learn more" "https://github.com/GDquest/Blender-power-sequencer#operators" "centered" >}}
+{{< button "Learn more" "https://github.com/GDQuest/Blender-power-sequencer#operators" "centered" >}}
 
 
 ## Get Power Sequencer
@@ -64,13 +64,13 @@ Power Sequencer adds over <strong>40 new functions</strong> to Blender's Video E
 
 Installation guide:
 
-1. [ Download ](https://github.com/GDquest/Blender-power-sequencer/releases) the latest release on GitHub
+1. [ Download ](https://github.com/GDQuest/Blender-power-sequencer/releases) the latest release on GitHub
 1. In Blender, go to File > User Preferences > Addons
 1. Click "Install From File", find the .zip file from step 1. and click on "install"
 1. Click the checkbox next to "VSE: Power Sequencer" to activate it
 1. Click Save User Settings at the bottom
 
-{{< button "Download now" "https://github.com/GDquest/Blender-power-sequencer/releases" "centered" >}}
+{{< button "Download now" "https://github.com/GDQuest/Blender-power-sequencer/releases" "centered" >}}
 
 ## Getting Started
 
@@ -79,22 +79,22 @@ We are working on both text docs and video tutorials:
 1. All features and keyboard shortcuts are [in the docs page](docs)
 1. For video tutorials, check the [ Power Sequencer playlist ](https://www.youtube.com/watch?v=boAhi8hWBXc&list=PLhqJJNjsQ7KFjp88Cu57Zb9_wFt7nlkEI) on Youtube
 
-Want to **give a hand**? Great! We write the docs and shortcuts straight in the [Power Sequencer source code](https://github.com/GDquest/Blender-power-sequencer/). If you want to write mini-tutorials, check out the [Power Sequencer Docs](https://github.com/GDquest/Blender-power-sequencer-docs/) repository!
+Want to **give a hand**? Great! We write the docs and shortcuts straight in the [Power Sequencer source code](https://github.com/GDQuest/Blender-power-sequencer/). If you want to write mini-tutorials, check out the [Power Sequencer Docs](https://github.com/GDQuest/Blender-power-sequencer-docs/) repository!
 
 ![Daniel Oakey, a med school graduate and open source enthusiast, teaching video editing with Blender](./img/doakey3-beginner-tutorial.jpg)
 
 ## It's getting better
 
-At GDquest we work with and support open source software. Power Sequencer is a community-driven project. We add new features every time we get a chance. [ Contributors ](https://github.com/GDquest/Blender-power-sequencer) are always welcome!
+At GDQuest we work with and support open source software. Power Sequencer is a community-driven project. We add new features every time we get a chance. [ Contributors ](https://github.com/GDQuest/Blender-power-sequencer) are always welcome!
 
 ![Graph showing the code contributions over time on GitHub](./img/github-activity.png)
 
 
 ## Get in touch!
 
-1. Want to write some Python and give a hand? Check our [to do list](https://github.com/GDquest/Blender-power-sequencer/issues) or [open a new issue](https://github.com/GDquest/Blender-power-sequencer/issues/new)!
-1. Found a bug? Please tell us how to reproduce it [on GitHub](https://github.com/GDquest/Blender-power-sequencer/issues/new)
-1. You can also find GDquest [on Twitter](https://twitter.com/NathanGDquest)
+1. Want to write some Python and give a hand? Check our [to do list](https://github.com/GDQuest/Blender-power-sequencer/issues) or [open a new issue](https://github.com/GDQuest/Blender-power-sequencer/issues/new)!
+1. Found a bug? Please tell us how to reproduce it [on GitHub](https://github.com/GDQuest/Blender-power-sequencer/issues/new)
+1. You can also find GDQuest [on Twitter](https://twitter.com/NathanGDQuest)
 
 ## Excellent add-ons to use with Power Sequencer
 

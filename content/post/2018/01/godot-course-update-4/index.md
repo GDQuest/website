@@ -47,4 +47,4 @@ Since I didn't take much time off since 2016, I'll take some holidays to settle 
 
 See you in the next release,
 
-[ Nathan ](http://twitter.com/NathanGDquest)
+[ Nathan ](http://twitter.com/NathanGDQuest)

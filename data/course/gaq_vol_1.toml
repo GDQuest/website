@@ -80,7 +80,7 @@ title = "An introduction to layers"
 url = "https://www.youtube.com/watch?v=g2ZoQobsSWE"
 description = "The layer docker is being changed a lot in Krita 3, so we'll just look at the basics here. We'll learn to create layers, groups, to rename them, to toggle visibility, and also we'll see how we can pick a layer from the canvas."
 exercise = "/files/course/krita-tutorial-for-game-artists/GAQ-C1-Intro-to-Layers-Exercises.kra"
-document = "/files/course/krita-tutorial-for-game-artists/GAQ-C1-Krita-layers-cheatsheet-GDquest.png"
+document = "/files/course/krita-tutorial-for-game-artists/GAQ-C1-Krita-layers-cheatsheet-GDQuest.png"
 length = 380
 [chapters.2.videos.07]
 title = "Working with selections"

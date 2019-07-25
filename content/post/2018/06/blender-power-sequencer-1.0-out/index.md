@@ -37,10 +37,10 @@ The add-on brings over 40 new core editing features to Blender, including:
 1. Change the playback speed on the fly
 1. Instant render with presets
 
-{{< button "Get Power Sequencer" "https://github.com/GDquest/Blender-power-sequencer/releases" "centered" >}}
+{{< button "Get Power Sequencer" "https://github.com/GDQuest/Blender-power-sequencer/releases" "centered" >}}
 
 It builds upon the great work done on the Blender Velvets and the VSEQF tools, in a project that gets **continuous support**.
-We use Blender at GDquest to edit [all our video tutorials](http://youtube.com/c/gdquest).
+We use Blender at GDQuest to edit [all our video tutorials](http://youtube.com/c/gdquest).
 
 By creating our own tools we were able to make the workflow faster than with any editing program out there!
 And it keeps getting better.
@@ -52,7 +52,7 @@ We teammed up with Daniel to bring you a solid introductory tutorial.
 
 {{< youtube Zcj4onvP06w >}}
 
-You can learn about [all the features](https://github.com/GDquest/Blender-power-sequencer/#operators) and their shortcuts on the add-on's GitHub page.
+You can learn about [all the features](https://github.com/GDQuest/Blender-power-sequencer/#operators) and their shortcuts on the add-on's GitHub page.
 
 
 ## Contributors welcome!
@@ -61,4 +61,4 @@ Thanks to Daniel Oakey, who greatly improved the already excellent [VSE Transfor
 
 Every feature is in its own file, well-separated from the others.
 
-Want to help? Whether it is to give us feedback, fix a bug, add a new feature, or make a tutorial, [get in touch](https://github.com/GDquest/Blender-power-sequencer/issues)! We're here to help you get started.
+Want to help? Whether it is to give us feedback, fix a bug, add a new feature, or make a tutorial, [get in touch](https://github.com/GDQuest/Blender-power-sequencer/issues)! We're here to help you get started.

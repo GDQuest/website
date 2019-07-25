@@ -29,4 +29,4 @@ resources:
   name: banner
 ---
 
-Welcome to the first free tutorial series on GDquest that's dedicated to Godot! Over the course of 1h, it'll teach you some basic concepts with the engine.
+Welcome to the first free tutorial series on GDQuest that's dedicated to Godot! Over the course of 1h, it'll teach you some basic concepts with the engine.

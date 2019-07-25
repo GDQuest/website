@@ -4,7 +4,7 @@ title: "Back from japan, back to work"
 
 author: "nathan"
 category: ["News"]
-description: "I’ve been traveling around the country for a bit less than a month, and the experience was incredible. A great occasion to improve in Japanese. But now it's time to get back to GDquest and produce new tutorials for you."
+description: "I’ve been traveling around the country for a bit less than a month, and the experience was incredible. A great occasion to improve in Japanese. But now it's time to get back to GDQuest and produce new tutorials for you."
 tags: ["community"]
 
 resources:
@@ -27,12 +27,12 @@ I've mostly been out hiking, meeting people, making friends... enjoying the soot
 Looking for a proper workplace
 ------------------------------
 
-Alright, let’s get back to the channel. Last week, I wrote a business plan and applied to a local business incubator. It’s a place where you can get an office, along with other young companies. Experienced people follow your work and are here to guide you. If they accept GDquest, this will help the project greatly in the coming year. It is getting hard for me to work at home. I need to get out of here. That’s why I took a few extra days to refine the document: I want - no, I need it to work!
+Alright, let’s get back to the channel. Last week, I wrote a business plan and applied to a local business incubator. It’s a place where you can get an office, along with other young companies. Experienced people follow your work and are here to guide you. If they accept GDQuest, this will help the project greatly in the coming year. It is getting hard for me to work at home. I need to get out of here. That’s why I took a few extra days to refine the document: I want - no, I need it to work!
 
 Upcoming updates
 ----------------
 
-Let's talk about what's coming next on GDquest. As far as free content is concerned, until the end of December, you’ll be getting some more Krita tutorials from the Game Art Quest series. In the meantime, I’ll be hard at work on a few things:
+Let's talk about what's coming next on GDQuest. As far as free content is concerned, until the end of December, you’ll be getting some more Krita tutorials from the Game Art Quest series. In the meantime, I’ll be hard at work on a few things:
 
 1.  The next training product, which is very important, the game art workshop.
 
@@ -62,7 +62,7 @@ Come chat with the community on Discord!
 Sara Tepes
 ----------
 
-Sara Tepes, a hard-working 17 years old illustrator, talked about GDquest in her last video. I’ve been following her for months now, and her message was heartwarming! So now it’s my turn: if you want to see appealing live Krita demonstrations, check out Sara’s channel on YouTube. She uploads commented time-lapses every week and she already produces very appealing art despite her young age.
+Sara Tepes, a hard-working 17 years old illustrator, talked about GDQuest in her last video. I’ve been following her for months now, and her message was heartwarming! So now it’s my turn: if you want to see appealing live Krita demonstrations, check out Sara’s channel on YouTube. She uploads commented time-lapses every week and she already produces very appealing art despite her young age.
 
 [Sara Tepes on Youtube](https://www.youtube.com/channel/UCWgMcluGLnaVpCWmscaFs_Q)
 

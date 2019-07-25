@@ -27,7 +27,7 @@ tags:
 
 Our Free Blender add-on for content creators got a MASSIVE update.
 
-New tools, UI, improvements and fixes all-around... [look at the changelog](https://github.com/GDquest/Blender-power-sequencer/blob/master/changelog.md#power-sequencer-12)!
+New tools, UI, improvements and fixes all-around... [look at the changelog](https://github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md#power-sequencer-12)!
 
 ## Release highlights
 
@@ -75,15 +75,15 @@ The advantages:
 
 *\*Nvenc isn't ideal for proxies. It can make proxy generation a lot faster in some cases but it may cause slight frame offsets when editing. It is best for videos like screencasts or vlogs when you don't need perfect precision.*
 
-We're looking for help to [integrate it with Blender's interface](https://github.com/GDquest/Blender-power-sequencer/issues/302) in Power Sequencer 1.3!
+We're looking for help to [integrate it with Blender's interface](https://github.com/GDQuest/Blender-power-sequencer/issues/302) in Power Sequencer 1.3!
 
 ### And so much more
 
-There's a lot more waiting for you to read [in the release changelog](https://github.com/GDquest/Blender-power-sequencer/blob/master/changelog.md)!
+There's a lot more waiting for you to read [in the release changelog](https://github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md)!
 
 ## Putting the add-on to the test
 
-We now edit all our videos with Blender at [GDquest](/about). Tutorials, news videos, everything. I recently edited a short documentary about Japan with the add-on, to compare the experience with a video editing suite like DaVinci Resolve.
+We now edit all our videos with Blender at [GDQuest](/about). Tutorials, news videos, everything. I recently edited a short documentary about Japan with the add-on, to compare the experience with a video editing suite like DaVinci Resolve.
 
 {{< youtube aodlh-r3pEc >}}
 
@@ -103,4 +103,4 @@ There's always room for improvement, both on the sequencer itself and in the add
 
 Power Sequencer is Free Software made by the community, for video creators. Contributors are all welcome! Developers, designers, testers, people who want to help us write mini tutorials! Get in touch anytime on our [Discord server](https://discord.gg/dKUX7m3).
 
-If you haven't already, be sure to [get Power Sequencer 1.2](https://github.com/GDquest/Blender-power-sequencer/releases/tag/1.2.0).
+If you haven't already, be sure to [get Power Sequencer 1.2](https://github.com/GDQuest/Blender-power-sequencer/releases/tag/1.2.0).

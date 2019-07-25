@@ -26,7 +26,7 @@ numéro de téléphone: +1 (877) 448-4820
 
 ## Propriété intellectuelle
 
-Sauf indication contraire pour des fichiers spécifiques, le code source de ce site est libre et disponible sous license MIT. Les articles et images sont disponibles sous license Creative Commons 4.0, détenus par Nathan Lovato et contributeurs. Les sources sont disponibles sur [ la page GitHub du site ](https://github.com/GDquest/GDquest-website).
+Sauf indication contraire pour des fichiers spécifiques, le code source de ce site est libre et disponible sous license MIT. Les articles et images sont disponibles sous license Creative Commons 4.0, détenus par Nathan Lovato et contributeurs. Les sources sont disponibles sur [ la page GitHub du site ](https://github.com/GDQuest/GDQuest-website).
 
 ## Google Analytics
 

@@ -16,6 +16,6 @@ I am in Nara, Japan 🌸
 Lately, I'm:
 
 - Working on a Godot 3 course after a [successful Kickstarter campaign](https://www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou)
-- Coding a [ blender add-on ](https://github.com/GDquest/Blender-power-sequencer/) to edit videos efficiently
+- Coding a [ blender add-on ](https://github.com/GDQuest/Blender-power-sequencer/) to edit videos efficiently
 - Contributing to the open source game engine [ Godot ](https://godotengine.org)
 - Studying Japanese

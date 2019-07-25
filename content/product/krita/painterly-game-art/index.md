@@ -69,7 +69,7 @@ You get everything from the Essentials and Pro versions, plus:
 - Step-by-step assignments with extra tips
 - PDF course documents
 - Priority support
-- Access to the GDquest premium Discord server
+- Access to the GDQuest premium Discord server
 
 ![Creation process of 2 characters including the sketch, the blocking and the final sprite](/img/page/product/krita-tutorial-1/krita-tutorial-learn-whole-process.jpg)
 
@@ -82,4 +82,4 @@ Krita is an award winning, free and open source painting program. It is availabl
 
 ## To those who made this possible
 
-I want to thank the [424 Kickstarter backers](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) who made this project possible from the bottom of my heart! Thanks to these persons, tens of thousands of people got hours of free education for Krita, and many discovered this wonderful program. This would not have been possible without you. GDquest would not have been possible without you. Many thanks!
+I want to thank the [424 Kickstarter backers](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) who made this project possible from the bottom of my heart! Thanks to these persons, tens of thousands of people got hours of free education for Krita, and many discovered this wonderful program. This would not have been possible without you. GDQuest would not have been possible without you. Many thanks!

@@ -46,7 +46,7 @@ Is it perfect? No, no course is. But I learned a lot as a tutor along the way th
 
 ### The A-RPG demo from the course
 
-First, and as promised, the A-RPG game demo from the course is Free and Open Source. You can find it on GitHub: [Action-RPG Godot demo](https://github.com/GDquest/make-pro-2d-games-with-godot/)
+First, and as promised, the A-RPG game demo from the course is Free and Open Source. You can find it on GitHub: [Action-RPG Godot demo](https://github.com/GDQuest/make-pro-2d-games-with-godot/)
 
 ![Screenshot from the project](./img/boss-encounter-screenshot.jpg)
 
@@ -72,7 +72,7 @@ There has been a lot of free tutorials as well. Here are a few playlists to watc
 1. [Introduction to shaders in Godot]({{ ref /tutorial/game-design/godot/introduction-to-shaders/ }})
 1. [30 Godot 2.X tutorials in 30 days](https://www.youtube.com/watch?v=eHtIcbrii2Y&list=PLhqJJNjsQ7KEr_YlibZ3SBuzfw9xwGduK)
 
-We released 17 open source demos to go along with these tutorials on the [GDQuest Godot demo projects](https://github.com/GDquest/Godot-engine-tutorial-demos) repository. That makes it a total of 34 with the ones I made during the Kickstarter campaign. The demos got more complex and the code hopefully more robust as we dived deeper into the engine.
+We released 17 open source demos to go along with these tutorials on the [GDQuest Godot demo projects](https://github.com/GDQuest/Godot-engine-tutorial-demos) repository. That makes it a total of 34 with the ones I made during the Kickstarter campaign. The demos got more complex and the code hopefully more robust as we dived deeper into the engine.
 
 There's also been new types of videos like the one on [Staying Motivated](https://www.youtube.com/watch?v=JCuRcO_OH3A) and learning how to code:
 
@@ -82,7 +82,7 @@ There's also been new types of videos like the one on [Staying Motivated](https:
 
 Godot Slides as a drag-and-drop system to create presentations with Godot 3. It ships with an international pitch that anyone can give about Godot. It is already available in 12 languages!
 
-[Godot slides 2.0 repository](https://github.com/GDquest/godot-slides)
+[Godot slides 2.0 repository](https://github.com/GDQuest/godot-slides)
 
 {{< youtube JO2TvlLGf8Q >}}
 
@@ -94,7 +94,7 @@ First, I'm taking some time off to travel around Kansai, Japan. I haven't visite
 
 ## What's coming next ##
 
-I'm working on an [open J-RPG demo with Godot 3.1](https://github.com/GDquest/godot-turn-based-rpg/). Expect tutorials revolving around this project soon. 😉
+I'm working on an [open J-RPG demo with Godot 3.1](https://github.com/GDQuest/godot-turn-based-rpg/). Expect tutorials revolving around this project soon. 😉
 
 One of the goals behind GDQuest is to bring people together to become better developers and designers. I firmly believe in Free education - even though in our world you need to make money to keep going. Sharing knowledge benefits everyone, including the person who's taking the time to share:
 

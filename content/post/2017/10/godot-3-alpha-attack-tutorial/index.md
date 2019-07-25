@@ -82,7 +82,7 @@ Mario is a kind, busy teacher, developer, and free software advocate. Every year
 
 ## Get in touch!
 
-Need to reach me? Send me a message anytime [@NathanGDquest](https://twitter.com/NathanGDquest) on Twitter.
+Need to reach me? Send me a message anytime [@NathanGDQuest](https://twitter.com/NathanGDQuest) on Twitter.
 
 Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
 

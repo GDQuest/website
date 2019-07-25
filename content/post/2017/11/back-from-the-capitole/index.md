@@ -37,7 +37,7 @@ The presentation is **free**, **open source**, and available to the entire commu
 
 Download the presentation on GitHub:
 
-{{< calltoaction "https://github.com/GDquest/godot-3-presentation" "Godot 3 presentation" >}}
+{{< calltoaction "https://github.com/GDQuest/godot-3-presentation" "Godot 3 presentation" >}}
 
 ![A word-cloud and a non-exhaustive list of new features in Godot 3](./new-in-godot-3.png)
 
@@ -77,11 +77,11 @@ The **Power Sequencer** add-on improves all the time. It's not ready for everyon
 
 You can find the add-on **on GitHub**:
 
-{{< calltoaction "https://github.com/GDquest/Blender-power-sequencer/" "Blender Power Sequencer" >}}
+{{< calltoaction "https://github.com/GDQuest/Blender-power-sequencer/" "Blender Power Sequencer" >}}
 
 ## Get in touch!
 
-Need to reach me? Send me a message anytime [@NathanGDquest](https://twitter.com/NathanGDquest) on Twitter.
+Need to reach me? Send me a message anytime [@NathanGDQuest](https://twitter.com/NathanGDQuest) on Twitter.
 
 Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
 

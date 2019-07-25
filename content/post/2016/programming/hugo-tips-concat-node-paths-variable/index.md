@@ -14,7 +14,7 @@ type: "post"
 highlight: "templates"
 ---
 
-<span class="text-muted"> This tutorial is a post I initially wrote on the [Hugo](http://gohugo.io/) forums. Hugo is the static website generator that powers GDquest.
+<span class="text-muted"> This tutorial is a post I initially wrote on the [Hugo](http://gohugo.io/) forums. Hugo is the static website generator that powers GDQuest.
 It is a really flexible and elegant system, based on Google's Go programming language. Sometimes, it is a bit hard to use for a non-tech-savvy user. So I decided to share some tips on things that got me stuck at some point. </span>
 
 In a template, you sometimes need to load data from a path based on a parameter in your content file’s front matter. For example, you may want to add an author to every post that tells the visitor a bit more about the writer. You want to tell Hugo who the author is, and let the template load all of that person’s info from the data folder.
