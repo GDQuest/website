@@ -10,17 +10,17 @@ aliases:
   - /open-source/contributing-guidelines
 ---
 
-If you want to **become a Free Software contributor** to and be part of our projects, this is the place to get started! 
+If you want to **become a Free Software contributor** and be part of our projects, this is the place to get started! 
 
 This guide will tell you everything you need to know to get your improvements integrated into the projects as fast as possible.
 
 We use these guidelines at GDquest as well to **work efficiently together**.
 
-To make it as smooth and as pleasant as possible for everyone to work together, we'll ask you to:
+To make it a smooth and pleasant experience for everyone working together, we'll ask you to:
 
-1. **Communicate**. Let people know what you're working on, join discussion on the issues, and open your own!
-1. **Be and mindful of the contributors' and the maintainers' time**. Most people are helping benevolently. Help us all save time by writing precise bug reports and feature requests.
-1. **Be excellent to one another**. We're building a welcoming community and want to get people to work together. 🙂
+1. **Communicate**. Let people know what you're working on, join discussions on the issues tracker, and open your own issues!
+1. **Be mindful of the contributors' and the maintainers' time**. Most people are helping benevolently. Help us all save time by writing precise bug reports and feature requests.
+1. **Be kind and supportive**. We're building a welcoming community and want to get people to work together. 🙂
 
 ## In short ##
 
@@ -28,44 +28,44 @@ We ask everyone to follow 3 steps to work smoothly and productively together:
 
 1.  **Communicate beforehand**
     -   Open an issue on GitHub before you code a new feature or make a big change.
-    -   Reply to issues you'd like to tackle. Ask any info you need to make it work with the project's design and scope.
+    -   Reply to issues you'd like to tackle. Ask any info you need to make it work within the project's design and scope.
 2.  **Follow the code style guide**
-    -   We designed it to keep the code clean, easy to read, and consistent
+    -   We designed it to keep the code clean, easy to read, and consistent.
 3.  **Create neat Pull Requests**
-    -   Writing a clear title and grouping relevant changes together takes no extra time, but it saves everyone else quite a lot!
+    -   Writing a clear title and commit only relevant changes. This takes no time at all, but it helps everyone else quite a lot!
 
-/Every one of us is responsible for making work smooth for everyone else. Let's keep in touch with one another, be kind to one another, write great code, keep the project's scope and design targets in mind, and create clean pull request./
+/Every one of us is responsible for making work go smoothly for everyone else. Let's keep in touch with one another, be kind to one another, write great code, keep the project's scope and design targets in mind, and create clean pull request./
 
 ## How to communicate well as a contributor ##
 
-**We want to build a friendly and a welcoming community** at GDquest. One that lets everyone in, regardless of our experience, origins, or opinions. We should do our best to get newcomers to want to learn more about Free Software and become contributors.
+**We want to build a friendly and a welcoming community** at GDquest. One that is inclusive for everyone, regardless of our experience, origins, or opinions. We should do our best to get newcomers to want to learn more about Free Software and become contributors.
 
-We have one key rule when we talk to one another: **let's be excellent to one another**.
+We have one key rule when we talk to one another: **be kind and supportive**.
 
-You can find more details about in our [Communication Guidelines]({{ ref /open-source/guidelines/kind-communication-guidelines/ }}). They're based on the GNU project's *Kind Communication Guidelines*.
+You can find more details about it in our [Communication Guidelines]({{ ref /open-source/guidelines/kind-communication-guidelines/ }}). They're based on the GNU project's *Kind Communication Guidelines*.
 
 ### Help us help you ###
 
-Review work is time-consuming. By communicating upfront, letting us help you as you contribute, and respecting the code style that we all use, you can save both you and the reviewers a lot of time.
+Review work is time-consuming. By communicating upfront, letting us help you as you contribute, and respecting the code style that we all use, you can save both yourself and the reviewers a lot of time.
 
-In short, you should explain the problem that you are trying to solve and the way you intend to solve it before you get started on the issue tracker. We likely have code in place already and ideas to keep your code simple and save you a lot of work!
+In short, you should explain the problem that you are trying to solve and the way you intend to solve it before you get started on the issue tracker. We likely have code in place already and ideas to keep your code simple which can save you a lot of work!
 
-We are here to review your Work-in-progress code, to help if you have any trouble with the git workflow, or if you get stuck along the way.
+We are here to review your Work-in-Progress (WIP) code, to help if you have any trouble with the git workflow, or if you get stuck along the way.
 
-If you want to work on an open issue, make sure that you understand it well by asking for all the information you need to tackle it.
+If you want to work on an open issue, make sure that you understand it well by asking for all the information you need in order to tackle it efficiently.
 
 You can also get in touch on the [GDquest Discord server](https://discord.gg/uzSR7jB).
 
 ## Code style ##
 
-There are **many ways to structure code** and many ways to solve a given problem. This is important that we **follow the same guidelines so our code stays easy to read and to maintain**. We choose code styles that are accessible to other developers, so we can build great projects together.
+There are **many ways to structure code** and many ways to solve a given problem. Thus it's important that we **follow the same guidelines so our code remains easy to read and to maintain**. We chose code styles that are accessible to other developers, so we can build great projects together.
 
 These guidelines are separate guides:
 
 1. [Godot GDScript: best practices]({{< ref "/open-source/guidelines/godot-gdscript/index.md" >}})
 1. [Blender Python: best practices]({{< ref "/open-source/guidelines/blender-python/index.md" >}})
 
-Before you write code, **read other classes in the project** to get a sense for the style and code architecture. We write docstrings in our code to help you understand the purpose of different classes.
+Before you write your own code, **read the existing code in the project** to get a sense for the style and architecture. We write docstrings in our code to help you understand the purpose of different classes and functions/methods.
 
 ## How to create great Pull Requests ##
 
@@ -83,11 +83,11 @@ When you report a bug or request a new feature or an improvement, we need inform
 
 ### Writing a great bug report
 
-Finding and fixing bugs can be time-consuming. if you help us spot it and reproduce it faster than we could on our own, we can in turn respond and solve it quickly:
+Finding and fixing bugs can be time-consuming. if you help us spot the bug and reproduce it faster than we could on our own, we can in turn respond and solve it quickly:
 
 1. Provide a **list of actionable steps** to reproduce the bug
-1. Mention the version of the project, of the program, e.g. Godot 3.1, and the operating system you are working with
-1. If the program prints an **error in the console**, copy it as text or take a screenshot
+1. Provide the version of the project, of the program, e.g. Godot 3.1, and the operating system you are working with
+1. If the program prints an **error in the console**, copy it as text (preferable) or take a screenshot
 1. Tell us what result you expect to get instead
 
 On GitHub, you can surround code or error messages with triple back-ticks: \`\`\` to create a code block:
@@ -129,12 +129,12 @@ ValueError: min() arg is an empty sequence
 1. The body includes **all the steps to reproduce the error**
 1. There is a traceback to help track down the bug faster
 1. (optional) The issue includes a minimal example project to quickly reproduce the error
-    - If there are multiple steps to produce the bug, or it happens with a particular setup, a demo is more than welcome! It will allow us to fix the bug faster.
+    - If there are multiple steps to produce the bug, or it happens with a particular setup, a demo is more than welcome! It will allow us to fix the bug faster
 1. (optional) Include a screenshot or a short video recording
     - Very useful if the issue is visual in nature, if it doesn't produce a crash, or an error message
 
 {{< note >}}
-A traceback or backtrace is a tool for developers to spot bugs. You will see it as a text message that starts with `Traceback`, followed by a list of lines that may include computer code, and an error message.
+A traceback or backtrace is a tool for developers to spot bugs. For example, in Python you will see it as a text message that starts with `Traceback`, followed by a list of lines that may include computer code, and an error message.
 
 {{< highlight shell >}}
 Traceback (most recent call last):
@@ -150,7 +150,7 @@ ReferenceError: StructRNA of type Keyframe has been removed
 This traceback is important as it gives us a precise starting point to investigate and fix the bug.
 {{< / note >}}
 
-When you make a request for improvements or new features, please **always describe the problem that you are facing and your needs**. to produce a great design, we need to understand your problem and to explore different solutions:
+When you make a request for improvements or new features, please **always describe the problem that you are facing and your needs**. To produce a great design, we need to understand your problem and to explore different solutions:
 
 1. We need to understand the problem to figure out the details of the design and how to best structure our code
 1. Copying what other programs do without doing any research is the best way to produce incoherent design and a missed opportunity to create more efficient tools
