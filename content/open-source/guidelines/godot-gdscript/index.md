@@ -12,9 +12,9 @@ type: post
 date: 2019-07-16T08:34:54+09:00
 ---
 
-This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes.
+This guide covers some best practices to write solid GDScript code. It's the style we use to keep our code clean and maintainable, working on growing Godot games.
 
-The ideas below take inspiration from good practices from different paradigms and languages, especially from Python and functional programming, as well as the official GDScript documentation:
+The ideas below draw inspiration from good practices from different paradigms and languages. Especially from the work of the Python community, some functional programming principles, and the official GDScript documentation:
 
 1. [GDScript Style Guide](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
 1. [Static typing in GDScript](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html)
@@ -24,17 +24,43 @@ The ideas below take inspiration from good practices from different paradigms an
 1. [Onion Architecture Without the Tears - Brendan Richards](https://www.youtube.com/watch?v=R2pW09tMCnE&t=1095s)
 1. [Domain Driven Design Through Onion Architecture](https://www.youtube.com/watch?v=pL9XeNjy_z4)
 
-There isn’t a straightforward way of transposing these ideas into an object-oriented setting such as when working with Godot since it has its way of handling interactions.
+Godot is mostly object-oriented and offers its own tools to make objects communicate together, like signals, and the node tree. As a result, it's not always easy to apply principles and techniques from other programming languages to it.
 
-To create modular and composable systems, we have to manage boundaries: the places where different game systems interact with one another. Especially the interaction of the game systems with the user.
+We keep experimenting to improve the code we write, with a few goals in mind:
+
+- Avoiding coupling, having system depend on and break one another
+- Managing boundaries, the places where different game systems interact with one another
+- Keeping the code readable working as a team, as we developers spend more time reading than writing code
 
 ## Code Writing Style
 
 {{< youtube FB2sqJgfqXI >}}
 
-This section explains our programming style by example.
+We use the same code style so that you can find the information you need fast.
 
-Heres a complete example that follows all the guidelines below:
+### In Short
+
+We organize the code this way to make it easy to read:
+
+```
+01. Extends and class_name
+02. """docstring"""
+
+03. Signals
+04. Node dependencies
+05. Constants
+06. Public properties
+07. Private properties
+
+08. Built-in virtual callbacks and signal callbacks
+09. Public methods
+10. Private methods
+```
+
+
+We picked this order based on our experience. We show the code you need to understand how the class works and how to use it in priority.
+
+Here is a complete example that follows all the guidelines below:
 
 {{< highlight gdscript >}}
 extends Node
@@ -86,6 +112,9 @@ func set_state(value: State) -> void:
     state = value
     _state_name = state.name
 {{< / highlight >}}
+
+
+### Code style
 
 Start with the `extends` keyword if the class extends a built-in type.
 
