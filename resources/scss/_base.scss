@@ -218,6 +218,10 @@ a:hover .icon {
     @include noselect;
 }
 
+#topbar .logo {
+    max-height: 50px;
+}
+
 #topbar nav a,
 nav .icon {
     color: $color-dark-text-hl;
