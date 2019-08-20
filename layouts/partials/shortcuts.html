@@ -1,5 +1,4 @@
-{{ with .Get 0 }}
-{{ with getJSON . }}
+{{ with index $.Site.Data.blender.power_sequencer_docs }}
 <section class="grid split2 container">
     <!-- Left column: operators list menu -->
     <aside class="small">
@@ -38,5 +37,4 @@
         {{ end }}
     </div>
 </section>
-{{ end }}
 {{ end }}
