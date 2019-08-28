@@ -1,5 +1,5 @@
 <head>
-    <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+    <title>{{ .Title }}{{ if ne .Title "" }} &middot; {{ end }}{{ .Site.Title }}</title>
 
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" /> {{ end }}
