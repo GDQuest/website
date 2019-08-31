@@ -2,35 +2,36 @@
     font-size: $font-size-small;
     display: inline-block;
     line-height: normal;
+
+    &:not(.flat) {
+        border: 2px solid $color-accent-main-base;
+        color: $color-accent-main-base;
+        border-radius: 24px;
+        padding: $spacing-micro $spacing-small;
+
+        text-align: center;
+
+        transition: background-color .1s ease-in-out;
+    }
+
+    &:not(.flat):hover {
+        background-color: $color-accent-main-base;
+        color: $color-accent-main-text;
+    }
+
+    &.shop {
+        color: $color-accent-opt-base !important;
+        border-color: $color-accent-opt-base;
+    }
+
+    &.shop:hover {
+        background-color: $color-accent-opt-base;
+        color: $color-accent-opt-text !important;
+    }
+
+    &.full {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
-.button:not(.flat) {
-    border: 2px solid $color-accent-main-base;
-    color: $color-accent-main-base;
-    border-radius: 24px;
-    padding: $spacing-micro $spacing-small;
-
-    text-align: center;
-
-    transition: background-color .1s ease-in-out;
-}
-
-.button:not(.flat):hover {
-    background-color: $color-accent-main-base;
-    color: $color-accent-main-text;
-}
-
-.button.shop {
-    color: $color-accent-opt-base !important;
-    border-color: $color-accent-opt-base;
-}
-
-.button.shop:hover {
-    background-color: $color-accent-opt-base;
-    color: $color-accent-opt-text !important;
-}
-
-.button.full {
-    width: 100%;
-    box-sizing: border-box;
-}

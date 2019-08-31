@@ -1,68 +1,10 @@
-.card {
-    overflow: auto;
-    border-radius: $round-radius;
-
-    position: relative;
-    overflow: hidden;
-
-    @include bg-centered
-}
-
 @mixin card-outline {
     border: 1px solid $base-border-color;
 }
 
-.card.outline {
-    @include card-outline;
-}
-
-@mixin card-h-padding {
+@mixin card-horizontal-padding {
     padding-left: $spacing-tiny;
     padding-right: $spacing-tiny;
-}
-
-.card img {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
-
-.card>.content {
-    padding: $spacing-tiny;
-    z-index: 2;
-    position: relative;
-    overflow: auto;
-}
-
-.card .title {
-    margin-top: 0px;
-}
-
-.card.profile .avatar {
-    background-position: center;
-    background-size: cover;
-    flex: .7;
-}
-
-.card.profile>.content {
-    flex: 2;
-}
-
-.card .buttons {
-    text-align: right;
-    margin-top: $spacing-base;
-}
-
-.card.top-half {
-    border-bottom: none;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.card.bottom-half {
-    border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
 }
 
 @mixin card-middle {
@@ -70,15 +12,76 @@
     border-radius: 0;
 }
 
-.card.middle {
-    @include card-middle;
+
+.card {
+    overflow: auto;
+    border-radius: $round-radius;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+
+    position: relative;
+    overflow: hidden;
+
+    @include bg-centered
+
+    &.outline {
+        @include card-outline;
+    }
+
+    img {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    &>.content {
+        padding: $spacing-tiny;
+        z-index: 2;
+        position: relative;
+        overflow: auto;
+    }
+
+    .title {
+        margin-top: 0px;
+    }
+
+    &.profile .avatar {
+        background-position: center;
+        background-size: cover;
+        flex: .7;
+    }
+
+    &.profile>.content {
+        flex: 2;
+    }
+
+    .buttons {
+        text-align: right;
+        margin-top: $spacing-base;
+    }
+
+    &.top-half {
+        border-bottom: none;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    &.bottom-half {
+        border-top: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    &.middle {
+        @include card-middle;
+    }
 }
+
 
 // pseudo card mode for the course chapters section
 @include tablet {
     aside.chapters {
         @include card-outline;
         @include card-middle;
-        @include card-h-padding;
+        @include card-horizontal-padding;
     }
 }
