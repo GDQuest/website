@@ -28,7 +28,7 @@
 
 <div class="grid split2 container">
     <input type="checkbox" name="toc_toggle" id="toc_toggle" class="hidden">
-    <label for="toc_toggle" id="toc_toggle_label"><a class="btn flat full base-top-margin">index</a></label>
+    <label for="toc_toggle" id="toc_toggle_label"><a class="button flat full base-top-margin">index</a></label>
 
     <aside class="small side-menu" id="toc">
         <h4>{{$course_page.Title}}</h4>
@@ -100,7 +100,7 @@
                 {{ else }}
                 <div class="flex justify-space-between align-items-center">
                     <h6>{{.Name}}</h6>
-                    <a download href="{{.Permalink}}" class="btn">download</a>
+                    <a download href="{{.Permalink}}" class="button">download</a>
                 </div>
                 {{ end }}
                 {{if ne . (index (last 1 $res) 0) }}

@@ -19,10 +19,10 @@ aliases:
       A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
     </p>
     <div class="small-spaced-children buttons">
-      <a class="btn flat" href="{{< ref "/product/krita/brushes/index.md" >}}">
+      <a class="button flat" href="{{< ref "/product/krita/brushes/index.md" >}}">
         {{< icon paint-brush default >}} Krita brushes
       </a>
-      <a class="btn flat" href="/tutorial/art/krita-tutorial-for-game-artists/">
+      <a class="button flat" href="/tutorial/art/krita-tutorial-for-game-artists/">
         {{< icon book default >}} Free course
       </a>
     </div>
@@ -38,7 +38,7 @@ aliases:
       Want to go a step further and learn to make professional sprites? Then, this course is for you.
     </p>
     <div class="buttons">
-      <a class="btn flat" href="{{< ref "/product/krita/painterly-game-art/index.md" >}}">
+      <a class="button flat" href="{{< ref "/product/krita/painterly-game-art/index.md" >}}">
         {{< icon book default >}} Learn more
       </a>
     </div>

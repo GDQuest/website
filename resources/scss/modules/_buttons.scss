@@ -1,10 +1,10 @@
-.btn {
+.button {
     font-size: $font-size-small;
     display: inline-block;
     line-height: normal;
 }
 
-.btn:not(.flat) {
+.button:not(.flat) {
     border: 2px solid $color-accent-main-base;
     color: $color-accent-main-base;
     border-radius: 24px;
@@ -15,22 +15,22 @@
     transition: background-color .1s ease-in-out;
 }
 
-.btn:not(.flat):hover {
+.button:not(.flat):hover {
     background-color: $color-accent-main-base;
     color: $color-accent-main-text;
 }
 
-.btn.shop {
+.button.shop {
     color: $color-accent-opt-base !important;
     border-color: $color-accent-opt-base;
 }
 
-.btn.shop:hover {
+.button.shop:hover {
     background-color: $color-accent-opt-base;
     color: $color-accent-opt-text !important;
 }
 
-.btn.full {
+.button.full {
     width: 100%;
     box-sizing: border-box;
 }
