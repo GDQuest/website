@@ -17,8 +17,8 @@
 }
 
 @mixin card-h-padding {
-    padding-left: $tiny-spacing;
-    padding-right: $tiny-spacing;
+    padding-left: $spacing-tiny;
+    padding-right: $spacing-tiny;
 }
 
 .card img {
@@ -28,7 +28,7 @@
 }
 
 .card>.content {
-    padding: $tiny-spacing;
+    padding: $spacing-tiny;
     z-index: 2;
     position: relative;
     overflow: auto;
@@ -50,7 +50,7 @@
 
 .card .buttons {
     text-align: right;
-    margin-top: $base-spacing;
+    margin-top: $spacing-base;
 }
 
 .card.top-half {
@@ -72,4 +72,13 @@
 
 .card.middle {
     @include card-middle;
+}
+
+// pseudo card mode for the course chapters section
+@include tablet {
+    aside.chapters {
+        @include card-outline;
+        @include card-middle;
+        @include card-h-padding;
+    }
 }

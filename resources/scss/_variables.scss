@@ -1,14 +1,14 @@
 $round-radius: 8px;
 
-$micro-spacing: 8px;
-$tiny-spacing: 16px;
-$small-spacing: 24px;
-$base-spacing: 32px; // this is also the gutter spacing
-$big-spacing: 60px;
-$huge-spacing: 100px;
+$spacing-micro: 8px;
+$spacing-tiny: 16px;
+$spacing-small: 24px;
+$spacing-base: 32px; // this is also the gutter spacing
+$spacing-big: 60px;
+$spacing-huge: 100px;
 
 // FONTS
-$base-font: -apple-system,
+$font-base: -apple-system,
             BlinkMacSystemFont,
             "Segoe UI",
             Roboto,
@@ -17,13 +17,11 @@ $base-font: -apple-system,
             Cantarell,
             "Helvetica Neue",
             sans-serif;
-$title-font: "Montserrat",
+$font-title: "Montserrat",
              sans-serif;
 
-$font-size: 18px;
-
 $font-size-small: 14px;
-$font-size-normal: $font-size;
+$font-size-normal: 18px;
 $font-size-big1: 21px;
 $font-size-big2: 24px;
 $font-size-big3: 28px;
@@ -59,9 +57,9 @@ $base-text-shadow: 0 0 4px rgba(0, 0, 0, .5);
 $base-border-color: rgba(0, 0, 0, .2);
 
 
-$bg-screen-size: 1200px;
-$md-screen-size: 992px;
-$sm-screen-size: 768px;
+$screen-size-bg: 1200px;
+$screen-size-md: 992px;
+$screen-size-sm: 768px;
 
 
 @mixin dark {
@@ -75,19 +73,19 @@ $sm-screen-size: 768px;
 }
 
 @mixin tablet {
-    @media screen and (max-width: $bg-screen-size + $small-spacing * 2) {
+    @media screen and (max-width: $screen-size-bg + $spacing-small * 2) {
         @content;
     }
 }
 
 @mixin mobile {
-    @media screen and (max-width: $sm-screen-size) {
+    @media screen and (max-width: $screen-size-sm) {
         @content;
     }
 }
 
 @mixin desktop {
-    @media screen and (min-width: $bg-screen-size + $small-spacing * 2) {
+    @media screen and (min-width: $screen-size-bg + $spacing-small * 2) {
         @content;
     }
 }

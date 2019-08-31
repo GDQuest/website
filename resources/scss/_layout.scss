@@ -5,66 +5,66 @@
 
 
 .micro-padding {
-    padding: $micro-spacing;
+    padding: $spacing-micro;
 }
 
 .tiny-padding {
-    padding: $tiny-spacing;
+    padding: $spacing-tiny;
 }
 
 .small-padding {
-    padding: $small-spacing;
+    padding: $spacing-small;
 }
 
 .base-padding {
-    padding: $base-spacing;
+    padding: $spacing-base;
 }
 
 .base-top-margin {
-    margin-top: $base-spacing;
+    margin-top: $spacing-base;
 }
 
 .big-top-margin {
-    margin-top: $big-spacing;
+    margin-top: $spacing-big;
 }
 
 .base-bottom-margin {
-    margin-bottom: $base-spacing;
+    margin-bottom: $spacing-base;
 }
 
 .big-bottom-margin {
-    margin-bottom: $big-spacing;
+    margin-bottom: $spacing-big;
 }
 
 .base-top-padding {
-    padding-top: $base-spacing;
+    padding-top: $spacing-base;
 }
 
 .big-top-padding {
-    padding-top: $big-spacing;
+    padding-top: $spacing-big;
 }
 
 // vertical only padding and margin
 @each $thing in margin,
 padding {
     .tiny-v-#{$thing} {
-        #{$thing}-top: $tiny-spacing;
-        #{$thing}-bottom: $tiny-spacing;
+        #{$thing}-top: $spacing-tiny;
+        #{$thing}-bottom: $spacing-tiny;
     }
 
     .small-v-#{$thing} {
-        #{$thing}-top: $small-spacing;
-        #{$thing}-bottom: $small-spacing;
+        #{$thing}-top: $spacing-small;
+        #{$thing}-bottom: $spacing-small;
     }
 
     .base-v-#{$thing} {
-        #{$thing}-top: $base-spacing;
-        #{$thing}-bottom: $base-spacing;
+        #{$thing}-top: $spacing-base;
+        #{$thing}-bottom: $spacing-base;
     }
 
     .big-v-#{$thing} {
-        #{$thing}-top: $big-spacing;
-        #{$thing}-bottom: $big-spacing;
+        #{$thing}-top: $spacing-big;
+        #{$thing}-bottom: $spacing-big;
     }
 }
 
@@ -72,23 +72,23 @@ padding {
 @each $thing in margin,
 padding {
     .tiny-h-#{$thing} {
-        #{$thing}-left: $tiny-spacing;
-        #{$thing}-right: $tiny-spacing;
+        #{$thing}-left: $spacing-tiny;
+        #{$thing}-right: $spacing-tiny;
     }
 
     .small-h-#{$thing} {
-        #{$thing}-left: $small-spacing;
-        #{$thing}-right: $small-spacing;
+        #{$thing}-left: $spacing-small;
+        #{$thing}-right: $spacing-small;
     }
 
     .base-h-#{$thing} {
-        #{$thing}-left: $base-spacing;
-        #{$thing}-right: $base-spacing;
+        #{$thing}-left: $spacing-base;
+        #{$thing}-right: $spacing-base;
     }
 
     .big-h-#{$thing} {
-        #{$thing}-left: $big-spacing;
-        #{$thing}-right: $big-spacing;
+        #{$thing}-left: $spacing-big;
+        #{$thing}-right: $spacing-big;
     }
 }
 
@@ -116,7 +116,7 @@ padding {
 
 
 .tiny-spaced-children>* {
-    margin-left: $tiny-spacing;
+    margin-left: $spacing-tiny;
 }
 
 .tiny-spaced-children> :first-child {
@@ -124,7 +124,7 @@ padding {
 }
 
 .small-spaced-children>* {
-    margin-left: $small-spacing;
+    margin-left: $spacing-small;
 }
 
 .small-spaced-children> :first-child {
@@ -132,7 +132,7 @@ padding {
 }
 
 .base-spaced-children>* {
-    margin-left: $base-spacing;
+    margin-left: $spacing-base;
 }
 
 .base-spaced-children> :first-child {
@@ -189,27 +189,27 @@ padding {
 
 
 .grid.list>* {
-    margin-bottom: $base-spacing;
+    margin-bottom: $spacing-base;
 }
 
 
 @include mobile {
     .container {
-        padding-left: $tiny-spacing;
-        padding-right: $tiny-spacing;
+        padding-left: $spacing-tiny;
+        padding-right: $spacing-tiny;
     }
 }
 
 @include desktop {
     .container {
-        max-width: $bg-screen-size;
+        max-width: $screen-size-bg;
     }
 
     @supports (display: grid) {
         .grid {
             display: grid;
             grid-template-columns: repeat(6, minmax(100px, 1fr));
-            grid-gap: $base-spacing;
+            grid-gap: $spacing-base;
 
             grid-auto-rows: max-content;
         }

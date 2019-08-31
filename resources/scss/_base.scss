@@ -1,42 +1,32 @@
-@mixin noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-
 body {
     margin: 0;
-    font-family: $base-font;
+    font-family: $font-base;
     font-size: $font-size-normal;
     background-color: $color-dark-base;
 
     overflow-x: hidden;
 }
 
-
 header {
     background-size: cover;
     background-position: center;
     position: relative;
+
+    &.content {
+        position: relative;
+        z-index: 100;
+    }
+
+    &h1 {
+        text-shadow: $base-text-shadow;
+    }
+
+    &.side-image {
+        width: 100%;
+        display: block;
+    }
 }
 
-header .content {
-    position: relative;
-    z-index: 100;
-}
-
-header h1 {
-    text-shadow: $base-text-shadow;
-}
-
-header .side-image {
-    width: 100%;
-    display: block;
-}
 
 footer {
     text-align: center;
@@ -80,7 +70,7 @@ h5,
 h6,
 [data-font*="title"],
 .btn {
-    font-family: $title-font;
+    font-family: $font-title;
     text-transform: uppercase;
 
     color: $color-default-text-hl;
@@ -108,19 +98,19 @@ h1,
 h4,
 h5,
 h6 {
-    margin-top: $tiny-spacing;
-    margin-bottom: $tiny-spacing;
+    margin-top: $spacing-tiny;
+    margin-bottom: $spacing-tiny;
 }
 
 h2,
 h3 {
-    margin-top: $small-spacing;
-    margin-bottom: $small-spacing;
+    margin-top: $spacing-small;
+    margin-bottom: $spacing-small;
 }
 
 h1 {
-    margin-top: $base-spacing;
-    margin-bottom: $base-spacing;
+    margin-top: $spacing-base;
+    margin-bottom: $spacing-base;
 }
 
 [data-font*="uppercase"] {
@@ -151,16 +141,18 @@ h1 {
     opacity: .7;
 }
 
-
 hr {
     border-color: $base-border-color;
 }
-
 
 p {
     line-height: 1.5;
 }
 
+.darkbg {
+    background-color: $color-dark-base;
+    color: $color-dark-text;
+}
 
 .darkbg .title,
 .darkbg h1,
@@ -170,11 +162,6 @@ p {
 .darkbg h5,
 .darkbg h6 {
     color: $color-dark-text-hl;
-}
-
-.darkbg {
-    background-color: $color-dark-base;
-    color: $color-dark-text;
 }
 
 .darkbg .icon {
@@ -198,9 +185,8 @@ a:hover .icon {
     color: $color-accent-main-base;
 }
 
-
 #topbar {
-    height: $huge-spacing;
+    height: $spacing-huge;
 
     position: relative;
     z-index: 10000;
@@ -209,13 +195,13 @@ a:hover .icon {
 .nav-main {
     justify-content: space-between;
     display: inline-block;
-    margin-left: $small-spacing;
+    margin-left: $spacing-small;
     font-size: $font-size-small;
     font-weight: bold;
 
-    line-height: $huge-spacing;
+    line-height: $spacing-huge;
 
-    @include noselect;
+    user-select: none;
 }
 
 #topbar .logo {
@@ -225,7 +211,7 @@ a:hover .icon {
 #topbar nav a,
 nav .icon {
     color: $color-dark-text-hl;
-    margin-left: $small-spacing;
+    margin-left: $spacing-small;
 }
 
 .nav-main * {
@@ -234,7 +220,7 @@ nav .icon {
 
 #social_links,
 .icon {
-    font-size: 20px;
+    font-size: $font-size-big1;
 }
 
 #page_links a {
@@ -255,12 +241,11 @@ main {
     color: $color-default-text;
 
     position: relative;
-    padding-bottom: $huge-spacing;
+    padding-bottom: $spacing-huge;
     overflow: auto;
 
     z-index: 200;
 }
-
 
 .fill {
     display: block;
@@ -310,11 +295,10 @@ main {
     }
 }
 
-
 ul li,
 ol li {
-    padding-top: $micro-spacing;
-    padding-bottom: $micro-spacing;
+    padding-top: $spacing-micro;
+    padding-bottom: $spacing-micro;
 }
 
 li.current {
@@ -328,7 +312,7 @@ li.current {
 
 .pages>* {
     margin: 0px;
-    margin: 0px $tiny-spacing;
+    margin: 0px $spacing-tiny;
     display: inline-block;
 }
 
@@ -339,7 +323,6 @@ li.current {
 .pages .active a {
     color: $color-accent-main-base;
 }
-
 
 .hidden {
     display: none;
@@ -355,7 +338,6 @@ li.current {
     display: none;
 }
 
-
 @include tablet {
 
     .hide-on-desktop {
@@ -366,21 +348,21 @@ li.current {
         display: block;
         position: absolute;
         right: 0;
-        padding: $tiny-spacing;
+        padding: $spacing-tiny;
 
-        @include noselect;
+        user-select: none;
     }
 
     #topbar nav {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: $huge-spacing;
-        right: $tiny-spacing;
-        left: $tiny-spacing;
+        top: $spacing-huge;
+        right: $spacing-tiny;
+        left: $spacing-tiny;
         background-color: $color-dark-base;
         line-height: normal;
-        padding: $tiny-spacing;
+        padding: $spacing-tiny;
         margin-left: 0;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
         align-items: flex-end;
@@ -401,16 +383,16 @@ li.current {
     }
 
     #social_links {
-        margin-top: $base-spacing;
+        margin-top: $spacing-base;
     }
 
     #social_links :not(:first-child) {
-        margin-left: $base-spacing;
+        margin-left: $spacing-base;
     }
 
     #social_links {
-        margin-top: $small-spacing;
-        margin-bottom: $small-spacing;
+        margin-top: $spacing-small;
+        margin-bottom: $spacing-small;
     }
 
     nav.flex>*,
@@ -420,8 +402,8 @@ li.current {
     }
 
     nav.flex>*>* {
-        padding-top: $tiny-spacing / 2;
-        padding-bottom: $tiny-spacing / 2;
+        padding-top: $spacing-tiny / 2;
+        padding-bottom: $spacing-tiny / 2;
     }
 
     nav.flex> :last-child> :last-child {

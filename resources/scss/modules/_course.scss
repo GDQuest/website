@@ -1,8 +1,0 @@
-// this will trigger pseudo card mode for the course chapters section
-@include tablet {
-    aside.chapters {
-        @include card-outline;
-        @include card-middle;
-        @include card-h-padding;
-    }
-}

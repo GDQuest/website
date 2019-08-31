@@ -2,14 +2,13 @@
     font-size: $font-size-small;
     display: inline-block;
     line-height: normal;
-
 }
 
 .btn:not(.flat) {
     border: 2px solid $color-accent-main-base;
     color: $color-accent-main-base;
     border-radius: 24px;
-    padding: $micro-spacing $small-spacing;
+    padding: $spacing-micro $spacing-small;
 
     text-align: center;
 
@@ -20,8 +19,6 @@
     background-color: $color-accent-main-base;
     color: $color-accent-main-text;
 }
-
-.btn.flat {}
 
 .btn.shop {
     color: $color-accent-opt-base !important;

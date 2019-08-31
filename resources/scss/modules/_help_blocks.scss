@@ -14,8 +14,8 @@ aside {
 .tips,
 .example {
     display: block;
-    padding: 0 $tiny-spacing;
-    padding-bottom: $tiny-spacing;
+    padding: 0 $spacing-tiny;
+    padding-bottom: $spacing-tiny;
 
     border-radius: $round-radius;
 }
@@ -36,8 +36,8 @@ aside {
 .tips:before,
 .example:before {
     display: block;
-    margin: 0 -1*$tiny-spacing 10px -1*$tiny-spacing;
-    padding-left: $tiny-spacing;
+    margin: 0 -1*$spacing-tiny 10px -1*$spacing-tiny;
+    padding-left: $spacing-tiny;
 
     border-radius: $round-radius $round-radius 0 0;
 

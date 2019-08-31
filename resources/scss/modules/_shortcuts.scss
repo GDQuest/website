@@ -1,12 +1,12 @@
 .shortcuts>section {
-    margin-bottom: $big-spacing;
+    margin-bottom: $spacing-big;
 }
 
 .shortcut {
     box-sizing: border-box;
 
     >div {
-        margin-bottom: $micro-spacing;
+        margin-bottom: $spacing-micro;
         display: flex;
         align-items: center;
 
@@ -20,14 +20,14 @@
     }
 
     img {
-        margin-bottom: $small-spacing;
+        margin-bottom: $spacing-small;
     }
 }
 
 .keystroke {
     code {
         border: 2px solid $color-default-text;
-        padding: $micro-spacing / 2 $micro-spacing;
+        padding: $spacing-micro / 2 $spacing-micro;
         border-radius: 4px;
         display: inline-block;
     }

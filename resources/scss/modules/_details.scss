@@ -19,7 +19,7 @@ summary {
 details {
     border: solid 1px darkgray;
     border-radius: $round-radius;
-    padding: $tiny-spacing;
+    padding: $spacing-tiny;
 }
 
 details[open] summary~* {

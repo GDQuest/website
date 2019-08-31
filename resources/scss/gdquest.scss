@@ -1,5 +1,4 @@
-@import 'settings';
-@import 'functions';
+@import 'variables';
 
 @import 'base';
 @import 'layout';
@@ -10,7 +9,6 @@
 
 @import 'modules/article';
 @import 'modules/blockquote';
-@import 'modules/course';
 @import 'modules/details';
 @import 'modules/figure';
 @import 'modules/help_blocks';
