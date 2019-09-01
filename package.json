@@ -4,11 +4,11 @@
   "description": "GDquest official website",
   "main": "gdquest",
   "dependencies": {
-    "npm": "^6.10.0"
+    "npm": "^6.11.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
-    "postcss-cli": "^6.1.2"
+    "postcss-cli": "^6.1.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
