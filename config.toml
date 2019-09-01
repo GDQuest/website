@@ -72,6 +72,10 @@ description = "GDquest Youtube channel"
 link = "https://twitter.com/NathanGDquest"
 icon = "twitter"
 description = "GDquest Twitter page"
+[params.social.3]
+link = "https://github.com/GDQuest/"
+icon = "github"
+description = "GDquest GitHub page"
 
 
 [blackfriday]
