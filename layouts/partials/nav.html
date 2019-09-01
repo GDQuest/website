@@ -1,20 +1,20 @@
 <nav class="nav-main flex full align-items-center justify-space-between">
-    <section id="page_links">
+    <div data-font="centered">
         {{ $currentNode := . }} {{ range .Site.Menus.main }}
         <a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{ end }} href="{{ .URL }}">
             {{ .Name }}
         </a>
         {{ end }}
-    </section>
+    </div>
 
     <div data-font="centered">
-        <section id="social_links">
+        <aside>
             {{ range .Site.Params.social }}
             <a target="_blank" href="{{ .link }}" target="_blank">
                 <i class="fab fa-{{ .icon }}" title="{{ .description }}"></i>
             </a>
             {{ end }}
-        </section>
+        </aside>
 
         <a target="_blank" id="shop_link" href="{{ .Site.Params.shop_link.url }}" class="button shop">
             {{ .Site.Params.shop_link.name }}
