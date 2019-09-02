@@ -24,14 +24,17 @@
                 [{"type": "X", "value": "PRESS"}, {}, "Delete Direct"],
                 [{"type": "DEL", "value": "PRESS"}, {}, "Delete Direct"]
             ]-->
-            {{ range $value.shortcuts }}
-            <div class="shortcut">
-                <div>
-                    {{ $shortcut := (index . 0) }}
-                    {{ partial "keystroke.html" $shortcut }}
-                    <span>{{ index . 2 }}</span>
-                </div>
-            </div>
+            {{ with $value.shortcuts }}
+            <table class="shortcuts">
+                <tbody>
+                    {{ range . }}
+                    <tr>
+                        <td>{{ partial "keystroke.html" (index . 0) }}</td>
+                        <td>{{ index . 2 }}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
             {{ end }}
         </article>
         {{ end }}

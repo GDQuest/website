@@ -2,25 +2,14 @@
     margin-bottom: $spacing-big;
 }
 
-.shortcut {
-    box-sizing: border-box;
+.shortcuts {
+    border-collapse: separate;
+    border-spacing: $spacing-small $spacing-tiny;
+    margin: 0 (-$spacing-small) (-$spacing-tiny);
 
-    >div {
-        margin-bottom: $spacing-micro;
-        display: flex;
-        align-items: center;
-
-        >:first-child {
-            flex: 1;
-        }
-
-        >:last-child {
-            flex: 1;
-        }
-    }
-
-    img {
-        margin-bottom: $spacing-small;
+    >tbody>tr>td:first-child {
+        width: 0;
+        white-space: nowrap;
     }
 }
 
