@@ -24,11 +24,10 @@
     }
 }
 
-.keystroke {
-    code {
-        border: 2px solid $color-default-text;
-        padding: $spacing-micro / 2 $spacing-micro;
-        border-radius: 4px;
-        display: inline-block;
-    }
+.keystroke>kbd {
+    border: 2px solid $color-default-text;
+    padding: $spacing-micro / 4 $spacing-micro;
+    border-radius: $round-radius / 2;
+    display: inline-block;
+    font-family: inherit;
 }
