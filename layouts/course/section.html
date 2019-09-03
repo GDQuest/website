@@ -15,14 +15,14 @@
 
 {{ define "main" }}
 <section class="grid split2 container">
-    <aside class="small base-v-padding chapters">
+    <nav class="small base-v-padding chapters">
         <h3>chapters</h3>
         <ul>
             {{ range ( where .Sections "Type" "course_chapter" ) }}
             <li><a href="#{{ replace .Params.title " " "-" }}"> {{ .Params.title }} </a></li>
             {{ end }}
         </ul>
-    </aside>
+    </nav>
 
     <div class="big card bottom-half outline base-v-padding">
         <div class="tiny-padding">
