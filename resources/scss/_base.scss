@@ -308,9 +308,11 @@ li.current {
 }
 
 .pagination {
+    text-align: center;
+
     &>* {
-        margin: 0px $spacing-tiny;
         display: inline-block;
+        margin: 0px $spacing-tiny;
     }
 
     a {

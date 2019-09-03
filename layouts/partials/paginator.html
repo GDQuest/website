@@ -1,20 +1,18 @@
-{{ $p := .Paginator }}
-
-<ul class="pagination flex">
-    <li {{ if not $p.HasPrev }} class="disabled" {{ end }}>
-        <a aria-label="Previous" href="{{ if $p.HasPrev }}{{ $p.Prev.URL }}{{ else }}#{{ end }}">
+<ul class="pagination">
+    <li {{ if not .Paginator.HasPrev }} class="disabled" {{ end }}>
+        <a aria-label="Previous" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}{{ else }}#{{ end }}">
             <span aria-hidden="true">&larr;</span>
         </a>
     </li>
 
-    {{ range $p.Pagers }}
-    <li {{ if eq . $p }} class="active" {{ end }}>
+    {{ range .Paginator.Pagers }}
+    <li {{ if eq . $.Paginator }} class="active" {{ end }}>
         <a href="{{ .URL }}">{{ .PageNumber }}</a>
     </li>
     {{ end }}
 
-    <li {{ if not $p.HasNext }} class="disabled" {{ end }}>
-        <a aria-label="Next" href="{{ if $p.HasNext }}{{ $p.Next.URL }}{{ else }}#{{ end }}">
+    <li {{ if not .Paginator.HasNext }} class="disabled" {{ end }}>
+        <a aria-label="Next" href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}{{ else }}#{{ end }}">
             <span aria-hidden="true">&rarr;</span>
         </a>
     </li>
