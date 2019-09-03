@@ -1,3 +1,19 @@
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-right: $spacing-small;
+    
+    >h3 {
+        position: sticky;
+        top: 0;
+        margin: 0;
+        padding: $spacing-small 0;
+        background-image: linear-gradient(to top, transparent, $color-default-base $spacing-small);
+  }
+}
+
 .operator {
     padding: $spacing-base 0;
 

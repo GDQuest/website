@@ -1,8 +1,8 @@
 {{ with index $.Site.Data.blender.power_sequencer_docs }}
 <section class="grid split2 container">
     <!-- Left column: operators list menu -->
-    <nav class="small">
-        <h3 class="no-margin-top">operators</h3>
+    <nav class="small sticky-nav">
+        <h3>Operators</h3>
         <ul>
             {{ range $key, $value := . }}
             <li> <a href="#{{$key}}">{{ $value.name }}</a></li>
