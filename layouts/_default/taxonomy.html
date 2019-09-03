@@ -6,25 +6,20 @@
 </div>
 {{ end }}
 
-
 {{ define "main" }}
-<main>
-    {{ .Content }}
-    <section class="grid split2 container base-v-padding list">
+{{ .Content }}
+<section class="grid split2 container base-v-padding list">
 
-        {{ range .Paginator.Pages }}
+    {{ range .Paginator.Pages }}
 
-        <div>
-            {{ .Render "summary" }}
-        </div>
-
-        {{ end }}
-    </section>
-
-    <div class="container">
-        {{ partial "paginator" . }}
+    <div>
+        {{ .Render "summary" }}
     </div>
 
+    {{ end }}
+</section>
 
-</main>
+<div class="container">
+    {{ partial "paginator" . }}
+</div>
 {{ end }}
