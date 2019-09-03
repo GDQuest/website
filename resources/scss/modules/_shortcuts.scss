@@ -1,34 +1,30 @@
-.shortcuts>section {
-    margin-bottom: $spacing-big;
-}
+.operator {
+    padding: $spacing-base 0;
 
-.shortcut {
-    box-sizing: border-box;
-
-    >div {
-        margin-bottom: $spacing-micro;
-        display: flex;
-        align-items: center;
-
-        >:first-child {
-            flex: 1;
-        }
-
-        >:last-child {
-            flex: 1;
-        }
+    +.operator {
+        border-top: 2px solid $base-border-color;
     }
 
-    img {
-        margin-bottom: $spacing-small;
+    >h5 {
+        margin-top: 0;
     }
 }
 
-.keystroke {
-    code {
-        border: 2px solid $color-default-text;
-        padding: $spacing-micro / 2 $spacing-micro;
-        border-radius: 4px;
-        display: inline-block;
+.shortcuts {
+    border-collapse: separate;
+    border-spacing: $spacing-small $spacing-tiny;
+    margin: 0 (-$spacing-small) (-$spacing-tiny);
+
+    >tbody>tr>td:first-child {
+        width: 0;
+        white-space: nowrap;
     }
+}
+
+.keystroke>kbd {
+    border: 2px solid $color-default-text;
+    padding: $spacing-micro / 4 $spacing-micro;
+    border-radius: $round-radius / 2;
+    display: inline-block;
+    font-family: inherit;
 }
