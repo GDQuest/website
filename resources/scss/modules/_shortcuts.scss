@@ -1,17 +1,20 @@
-.sticky-nav {
+/* Sticky list on the left side of the docs, or top on mobile/tablet */
+$sticky-nav-title-height: $font-size-h3 + $spacing-small * 2.0;
+
+.sticky-menu {
     position: sticky;
-    top: 0;
-    max-height: 100vh;
+    top: $sticky-nav-title-height;
+    max-height: 90vh;
     overflow-y: auto;
     padding-right: $spacing-small;
-    
-    >h3 {
-        position: sticky;
-        top: 0;
-        margin: 0;
-        padding: $spacing-small 0;
-        background-image: linear-gradient(to top, transparent, $color-default-base $spacing-small);
-  }
+}
+
+.sticky-nav-title {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 100;
+    padding: $spacing-small 0;
 }
 
 .operator {
