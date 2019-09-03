@@ -3,7 +3,8 @@ title: Power Sequencer
 subtitle: The Free Blender add-on for video editors
 
 banner:
-  src: ./banner.png
+  src: /img/gdquest/tools/banner-power-sequencer.png
+
   alt: Power Sequencer add-on logo
 
 resources:
@@ -74,18 +75,16 @@ Installation guide:
 
 ## Getting Started
 
-We are working on both text docs and video tutorials:
+1. Read our [docs page](docs) to learn about all the features in Power Sequencer
+1. For video tutorials, check the [Power Sequencer playlist](https://www.youtube.com/watch?v=boAhi8hWBXc&list=PLhqJJNjsQ7KFjp88Cu57Zb9_wFt7nlkEI) on Youtube
 
-1. All features and keyboard shortcuts are [in the docs page](docs)
-1. For video tutorials, check the [ Power Sequencer playlist ](https://www.youtube.com/watch?v=boAhi8hWBXc&list=PLhqJJNjsQ7KFjp88Cu57Zb9_wFt7nlkEI) on Youtube
-
-Want to **give a hand**? Great! We write the docs and shortcuts straight in the [Power Sequencer source code](https://github.com/GDQuest/Blender-power-sequencer/). If you want to write mini-tutorials, check out the [Power Sequencer Docs](https://github.com/GDQuest/Blender-power-sequencer-docs/) repository!
+Want to **give a hand**? Great! We write the docs and shortcuts straight in the [Power Sequencer source code](https://github.com/GDQuest/Blender-power-sequencer/).
 
 ![Daniel Oakey, a med school graduate and open source enthusiast, teaching video editing with Blender](./img/doakey3-beginner-tutorial.jpg)
 
 ## It's getting better
 
-At GDQuest we work with and support open source software. Power Sequencer is a community-driven project. We add new features every time we get a chance. [ Contributors ](https://github.com/GDQuest/Blender-power-sequencer) are always welcome!
+At GDQuest we work with and support open source software. Power Sequencer is a community-driven project. We add new features every time we get a chance. [Contributors](https://github.com/GDQuest/Blender-power-sequencer) are always welcome!
 
 ![Graph showing the code contributions over time on GitHub](./img/github-activity.png)
 
@@ -98,6 +97,6 @@ At GDQuest we work with and support open source software. Power Sequencer is a c
 
 ## Excellent add-ons to use with Power Sequencer
 
-1. [VSE Transform tools ](https://github.com/doakey3/VSE_Transform_Tools) to move, scale, rotate strips in the video preview
-  - Made by [ Daniel Oakey ](https://github.com/doakey3/), a big Power Sequencer contributor, med-school graduate and Python developer
-1. [ Blender Easy Logging ](http://easy-logging.net/) for tags and 3-point edits
+1. [VSE Transform tools](https://github.com/doakey3/VSE_Transform_Tools) to move, scale, rotate strips in the video preview
+  - Made by [Daniel Oakey](https://github.com/doakey3/), a big Power Sequencer contributor, med-school graduate and Python developer
+1. [Blender Easy Logging](http://easy-logging.net/) for tags and 3-point edits
