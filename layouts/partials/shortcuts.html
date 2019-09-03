@@ -10,14 +10,14 @@
         </ul>
     </nav>
 
-    <div class="shortcuts big">
+    <div class="big">
         {{ range $key, $value := . }}
-        <article id="{{$key}}">
+        <article id="{{$key}}" class="operator">
             <h5>{{$value.name}}</h5>
-            <p>{{ strings.TrimPrefix "*brief* " $value.description | markdownify }}</p>
-            <p>
-                {{ with index $value.demo }} <img src="{{.}}" alt=""> {{ end }}
-            </p>
+            {{ strings.TrimPrefix "*brief* " $value.description | markdownify }}
+            {{ with $value.demo }}
+                <p><img src="{{.}}" alt=""></p>
+            {{ end }}
 
             <!-- Shortcut JSON example: -->
             <!-- "shortcuts": [

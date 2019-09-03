@@ -1,5 +1,13 @@
-.shortcuts>section {
-    margin-bottom: $spacing-big;
+.operator {
+    padding: $spacing-base 0;
+
+    +.operator {
+        border-top: 2px solid $base-border-color;
+    }
+
+    >h5 {
+        margin-top: 0;
+    }
 }
 
 .shortcuts {
