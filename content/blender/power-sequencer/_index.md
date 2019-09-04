@@ -3,12 +3,11 @@ title: Power Sequencer
 subtitle: The Free Blender add-on for video editors
 
 banner:
-  src: /img/gdquest/tools/banner-power-sequencer.png
-
+  src: banner-power-sequencer.png
   alt: Power Sequencer add-on logo
 
 resources:
-- src: banner.png
+- src: banner-power-sequencer.png
   name: banner
 
 date: 2018-01-04T19:46:48+01:00
