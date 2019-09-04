@@ -282,6 +282,7 @@ a:hover .icon {
 }
 
 main {
+    display: block; // needed for IE
     background-color: $color-default-base;
     color: $color-default-text;
 
