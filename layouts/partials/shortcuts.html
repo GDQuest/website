@@ -2,12 +2,14 @@
 <section class="grid split2 container">
     <!-- Left column: operators list menu -->
     <nav class="small">
-        <h3 class="sticky-nav-title">Operators</h3>
-        <ul class="sticky-menu">
-            {{ range $key, $value := . }}
-            <li> <a href="#{{$key}}">{{ $value.name }}</a></li>
-            {{ end }}
-        </ul>
+        <div class="sticky-nav">
+            <h3>Operators</h3>
+            <ul>
+                {{ range $key, $value := . }}
+                <li><a href="#{{$key}}">{{ $value.name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
     </nav>
 
     <div class="big">
