@@ -37,9 +37,9 @@
 
         {{if eq .Parent.Type "course_chapter" }}
         {{ range $course_page.Sections }}
-        <input type="radio" id="{{.UniqueID}}" name="sections" class="hidden" {{if eq . $.Page.Parent}} checked {{ end }}>
+        <input type="radio" id="{{.File.UniqueID}}" name="sections" class="hidden" {{if eq . $.Page.Parent}} checked {{ end }}>
         <div class="chapter">
-            <label for="{{.UniqueID}}"><b>{{.Title}}</b></label>
+            <label for="{{.File.UniqueID}}"><b>{{.Title}}</b></label>
             <ul>
                 {{ range (sort .Pages "Date" "asc") }}
                 {{ if eq . $.Page }} {{ $page_index = ($.Scratch.Get "index") }} {{ end }}
