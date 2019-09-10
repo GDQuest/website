@@ -17,7 +17,7 @@ paginate: false
 
 ## GDQuest's mission
 
-GDQuest's is a social company focused on education and bringing people together around [Free Software](https://en.wikipedia.org/wiki/Free_software).
+GDQuest is a social company focused on education and bringing people together around [Free Software](https://en.wikipedia.org/wiki/Free_software).
 
 Our mission is to **help you become a better game developer**.
 
