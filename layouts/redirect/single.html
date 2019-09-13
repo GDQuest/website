@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>{{ .Title }}{{ if ne .Title "" }} &middot; {{ end }}{{ .Site.Title }}</title>
         <meta http-equiv="Refresh" content="0; url={{ .Params.redirect }}" />
+        <link href="{{ "favicon.png" | absURL }}" rel="icon">
     </head>
     <body>
         You will soon be redirected to <a href="{{ .Params.redirect }}">{{ .Params.redirect }}</a>
