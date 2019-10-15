@@ -43,18 +43,24 @@ We use the same code style so that you can find the information you need fast.
 We organize the code this way to make it easy to read:
 
 ```
-01. Extends and class_name
+01. extends and class_name
 02. """docstring"""
 
-03. Signals
-04. Node dependencies
-05. Constants
-06. Public properties
-07. Private properties
+03. signals
+04. `onready` variable
+05. exports
+06. enums
+07. constants
+08. public variables
+09. private variables
 
-08. Built-in virtual callbacks and signal callbacks
-09. Public methods
-10. Private methods
+10. optional built-in virtual `_init` method
+11. built-in virtual `_ready` method
+12. signal callbacks
+13. remaining built-in virtual methods
+14. public methods
+15. private methods
+16. static functions
 ```
 
 
@@ -73,10 +79,10 @@ Initializes states and delegates engine callbacks (_physics_process, _unhandled_
 
 signal state_changed(previous, new)
 
-export var initial_state: = NodePath()
-
 onready var state: State = get_node(initial_state) setget set_state
 onready var _state_name: = state.name
+
+export var initial_state: = NodePath()
 
 
 func _init() -> void:
@@ -84,7 +90,13 @@ func _init() -> void:
 
 
 func _ready() -> void:
+    connect("state_changed", self, "_on_state_changed")
     state.enter()
+
+
+func _on_state_changed(previous: Node, new: Node) -> void:
+    print("state changed")
+    emit_signal("state_changed")
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -129,8 +141,7 @@ class_name MyNode
 """
 A brief description of the class's role and functionality
 
-A longer description, if needed, possibly of multiple paragraphs. Properties
-and method names should be in backticks like so: `_process`, `x` etc.
+A longer description, if needed, possibly of multiple paragraphs. Properties and method names should be in backticks like so: `_process`, `x` etc.
 
 Notes
 ~~~~~
@@ -157,25 +168,25 @@ onready var timer: Timer = $HungerCheckTimer
 onready var ysort: YSort = $YSort
 {{< / highlight >}}
 
-After that constants, enums, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order. Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. The reason for this order is that exported variables might depends on previously defined enums and constants while the enums might also depend on constants.
+After that exported, enums, constants, public (regular name), and pseudo-private (starting with `_`) variables, in this order. Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. The reason for this order is that exported variables might depends on previously defined enums and constants while the enums might also depend on constants.
 
 {{< highlight gdscript >}}
-const MAX_TRIALS: = 3
-const TARGET_POSITION: = Vector2(2, 56)
+export var number: = 0
+export var is_active: = true
 
 enum TileTypes { EMPTY=-1, WALL, DOOR }
 
-export var number: = 0
-export var is_active: = true
+const MAX_TRIALS: = 3
+const TARGET_POSITION: = Vector2(2, 56)
 {{< / highlight >}}
 
-_Note: for booleans, always include a name prefix like `is_`, `can_`, or `has_`._
+_Note: for booleans, always include a name prefix like `is_`, `can_`, or `has_`.
 
 Following enums are public and pseudo-private member variables. Their names should use `snake_case`, `_snake_case_with_leading_underscore` respectively.
 
-Define setters and getters when properties alter node/class state or if it triggers behaviors (methods). When doing this care needs to be taken because we can easily loose track of this hidden alterations and behaviors. Include a docstring if the setters/getters modify the node/class state in complex ways.
+Define setters and getters when properties alter node/class state or if it triggers behaviors (methods). When doing this care needs to be taken because we can easily loose track of this hidden alterations and behaviors. Include a docstring in the setters/getters if they modify the node/class state in complex ways.
 
-When writing setters/getters for pseudo-private variables start with a leading underscore, just like in the case of the variable.
+When writing setters/getters for pseudo-private variables, start with a leading underscore, just like in the case of the variable.
 
 {{< highlight gdscript >}}
 var animation_length: = 1.5
@@ -197,15 +208,6 @@ func _process(delta: float) -> void:
   pass
 {{< / highlight >}}
 
-Then define public methods. Include type hints for variables and the return type.
-
-You can use a brief docstring, if need be, to describe what the function does and what it returns. To describe the return value in the docstring, start the sentence with `Returns`. Use the present tense and direct voice. See Godot's [documentation writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
-
-{{< highlight gdscript >}}
-func can_move(cell_coordinates: Vector2) -> bool:
-  return grid[cell_coordinates] != TileTypes.WALL
-{{< / highlight >}}
-
 For signal callbacks, we use Godot's convention,  `_on_NodeName_signal_name`:
 
 {{< highlight gdscript >}}
@@ -222,6 +224,15 @@ class_name HitBox
 
 func _ready() -> void:
   connect("area_entered", self, "_on_area_entered")
+{{< / highlight >}}
+
+Then define public methods. Include type hints for variables and the return type.
+
+You can use a brief docstring, if need be, to describe what the function does and what it returns. To describe the return value in the docstring, start the sentence with `Returns`. Use the present tense and direct voice. See Godot's [documentation writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
+
+{{< highlight gdscript >}}
+func can_move(cell_coordinates: Vector2) -> bool:
+  return grid[cell_coordinates] != TileTypes.WALL
 {{< / highlight >}}
 
 Use `return` only at the beginning and end of functions. At the beginning of the function we use `return` as a guard mechanism if the conditions for executing the function aren't met.
@@ -277,7 +288,7 @@ You can use other values to initialize variables of certain types. For example, 
 
 We use optional static typing with GDscript.
 
-At the time of writing, static GDScript typing doesn't provide any performance boosts or any other compiler features yet. But it does bring better code completion and better error reporting and warnings, which are good improvements over dynamically typed GDScript. In the future, it should bring performance improvements as well.
+At the time of writing, static GDScript typing doesn't provide any performance boosts or any other compiler features. But it does bring better code completion and better error reporting and warnings, which are good improvements over dynamically typed GDScript. In the future, it should bring performance improvements as well.
 
 Be sure to check [Static typing in GDScript](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html) to get started with this language feature.
 
@@ -292,7 +303,7 @@ But if `some_function_returning_Vector2` is also annotated with a return type, G
 {{< highlight gdscript >}}
 func some_function_returning_Vector2(param1: int, param2: int) -> Vector2:
   # do some work
-  return Vector2()
+  return Vector2.ZERO
 
 var v: = some_function_returning_Vector2(param1, param2) # The type is Vector2
 {{< / highlight >}}
@@ -311,7 +322,7 @@ var s: String = arr.pop_back()
 var i: int = arr.pop_back()
 {{< / highlight >}}
 
-The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s: = arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method returns. You will get the same issue with all built-in methods that return the engine's `Variant` type. Open the code reference with <kbd>F4</kbd> and search for the methods to see that:
+The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s: = arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method returns. You will get the same issue with all built-in methods that return the engine's `Variant` type. Open the code reference with <kbd>Shift+F1</kbd> and search for the methods to see that:
 
 ```
 Variant pop_back()
@@ -332,7 +343,7 @@ You will not get any error with this code. At runtime, `s` will surprisingly sti
 
 ### Write self-documenting code and use comments sparingly
 
-If you need comments to explain most of what your code does, you can most likely rewrite it to make it more transparent for everyone. When working together or other an extended period, code readability is essential for everyone to stay productive.
+If you need comments to explain most of what your code does, you can most likely rewrite it to make it more transparent for everyone. When working together for an extended period, code readability is essential for everyone to stay productive.
 
 Use clear variable names in plain English, and write full words. E.g. `character_position` and not `char_pos`. Same for method names.
 
@@ -379,7 +390,7 @@ Here's a comment that explains why a seemingly strange line of code is necessary
 extends BattlerAI
 
 func choose_action(actor: Battler, targets: Array = []):
-    # We use yield even though the  an action is instantaneous
+    # We use yield even though the action is instantaneous
     # because the combat system expects this method to use a coroutine
     yield(get_tree(), "idle_frame")
     ...
@@ -423,7 +434,7 @@ Decoupled systems:
 
 1. **Can be tested on their own**.
 1. Are **black boxes** that are fed data and produce some output. They don't care where they get the data from.
-1. **Don't know anything about the world** outside of themselves.
+1. **Don't know anything about the outside world**.
 
 This makes them **independent** and **reusable** across game projects. This also makes them **composable**. We can create complex systems using **aggregation**: by adding several decoupled nodes to a scene and and using them from a parent node.
 
@@ -437,9 +448,9 @@ See the Player in our Godot Metroidvania project. It's an aggregate of scenes: y
 In Object-Oriented Programming, aggregation is a type of **association** between objects. Aggregation means that one object, our `Player` in the example above, uses others, like the `Hook` or the `CameraRig`. The `Hook` and the `CameraRig` can keep working even if we remove the association with the `Player` node.
 {{< / note >}}
 
-### Every scene should run by itself without errors
+### Every building-block scene should run by itself without errors
 
-**If you save a branch as a scene, it should run without any errors on its own**. This is the golden rule, and it should be true at any level of the scene tree.
+**If you save a branch as an independent scene, it should run without any errors on its own**, this is the golden rule.
 
 Godot relies on its node tree, a recursive data structure: if we pick any node in the tree, this node, together with all of its children, is a tree itself. You can consider each branch of the scene tree as an independent scene.
 
@@ -467,7 +478,7 @@ In the example above, the `Game` node has a script attached to it. This script s
 
 Godot's signals are the [Observer pattern](http://gameprogrammingpatterns.com/observer.html), a very useful tool that allows one node to react to a change in another, without storing it or having a direct reference to it.
 
-Godot comes with many systems like physics, rendering, or input, that run in parallel threads to squeeze every bit of hardware resource available. Oftentimes direct function calls aren't the right way to interact with objects.
+Godot comes with many systems like physics, rendering or input, that run in parallel threads to squeeze every bit of hardware resource available. Oftentimes direct function calls aren't the right way to interact with objects.
 
 Also, we can't always predict when an event will occur. Say we have an animation with a random or a varying duration. Sometimes it ends after 1 second, sometimes after 1.2 seconds. Signals allow us to react to the animation right when it finishes, regardless of its duration.
 
@@ -501,7 +512,9 @@ alt="./img/scene_tree_overview.png" >}}
 
 #### More tips about independent scenes ####
 
-We already went through this, but just to reinforce it even more - scenes should be independent and at any moment in our game development, if we choose to save a part of the node tree as a scene, **it should run by itself without any errors** - <kbd>F6</kbd>
+We already went through this, but just to reinforce it even more - ideally, scenes should be independent and at any moment in our game development, if we choose to save a part of the node tree as a scene, **it should run by itself without any errors** - <kbd>F6</kbd>
+
+<!-- TODO: talk about a contract type of method for creating complex scenes that break the idea of working independently at every level. For example the Player cene might be easier to manage by inner nodes accessing directly the `owner` property. This breaks the idea of having scenes work at every level at each time, but it creates instead the idea of having a "contract" within a building-block scene. The Player scene itself works and can be tested independently, but not necessarily all child nodes of Player-->
 
 <!-- TODO: show a concrete example -->
 Minimize changing the state of child nodes/scenes from parent nodes, unless the scene we're working with is logically built that way. For example, in [Fig. 4], in the highlighted node tree we see that the children nodes hold just data, but no custom behaviors that alters their state. The parent node in this case can access and potentially change the state of its children. In this case, the entire scene can be viewed from the outside like a black-box. All changes go through the parent node, with no direct access to the child nodes.
@@ -590,7 +603,7 @@ In the example above, reading through `party_command` without looking at the imp
 Here, we are careful to not alter any state of other nodes. We only access the state in order to perform validations. This is important! All state changes that happen, happen within the respective **black-boxes**.
 {{< / note >}}
 
-The implementation for checking if the walk command can be issued is within a parent node, in this case the `Game.gd` script. That's because the verification depends on the `PathFinder` algorithm which is part of the separate `Board` system, while the player object (the `Party` here) is independent, it's a sibling relationship. The validation step depends on both `Party` and the `Board` and that's why it's taken care of the level of the top `Game` node [Fig. 5]. Otherwise we'd have to introduce an interdependence between `Party` & `Board` and that would tightly couple these systems.
+The implementation for checking if the walk command can be issued is within a parent node, in this case the `Game.gd` script. That's because the verification depends on the `PathFinder` algorithm which is part of the separate `Board` system, while the player object (the `Party` here) is independent, it's a sibling relationship. The validation step depends on both `Party` and `Board` and that's why it's taken care of in the level of the top `Game` node [Fig. 5]. Otherwise we'd have to introduce an interdependence between `Party` & `Board` and that would tightly couple these systems.
 
 Which leads us to:
 
@@ -633,51 +646,12 @@ func party_walk(leader: Actor, path: Array) -> bool:
 
 Typically, returning `bool` values like this in order to validate a successful execution is a decent idea. _So keep in mind once more, these are just guidelines!_
 
-4. The following is potentially an interesting concept, but it isn't as important as the ones above: unify the signals signature. What this means is to declare signals like this: `signal walked(msg)` where `msg: Dictionary`.
-
-At the moment, there isn't a way to enforce the type on signal parameters even with static typed GDScript, i.e. the following isn't valid: `signal walked(msg: Dictionary)`. But we could generally impose on ourselves to use signals only with a `Dictionary` type.
-
-This has some advantages and disadvantages. The primary disadvantage is that static typed GDScript won't be as helpful since `Dictinoary` is a bag of mixed data types essentially.
-
-On the other hand, the advantage is that we can have one single entry for all signals within a node. In some top level node we might have:
-
-{{< highlight gdscript >}}
-func connect_signals() -> void:
-  dialog_system.connect("next_pressed", party, "_on_signal")
-  quest_system.connect("quest_finished", party, "_on_signal")
-  quest_system.connect("quest_canceled", party, "_on_signal")
-  board.connect("encountered", party, "_on_signal")
-{{< / highlight >}}
-
-While `Party` would implement the connected function:
-
-{{< highlight gdscript >}}
-func _on_signal(msg: Dictionary) -> void:
-  match msg:
-    {"dialog_visible": var dialog_visible}:
-      # call appropriate function when dialog changes visibility
-    {"quest_successful": true, "quest": var quest, "reward": var reward}:
-      # call functio to use reward of given quest when quest successful
-      # maybe play some happy animation on Party members
-    {"quest_canceled_reason": var quest_canceled_reason}:
-      # do something when quest was canceled
-    {"encounter": var encounter}:
-      # do something like play a wave animation when a specific encounter is given
-    _:
-      # default reaction when none of the above happens
-{{< / highlight >}}
-
-Using the `match` keyword this way we mitigate some of the negative effects of not being able to use the static type system, even though there's still some risk involved since Godot can't know the types of the variables stored inside the `Dictionary`: `dialog_visible`, `quest`, etc. So they could potentially be `null` or an incorrect type if we're not careful.
-
-On the other hand, doing this limits the entry points for triggering behavior that changes the internal state and this is the main benefit.
-
 
 ## Events bus: Observer pattern for Godot
 
 *Thanks to Ombarus for sharing this design pattern. He presented it in [a devlog video](https://www.youtube.com/watch?v=fyh2ZjAFMZM) on his YouTube channel.*
 
 Maintaining signal connections isn't the easiest, especially when declaring connections via code. Godot 3.1 doesn't offer any visual cues for signals connected through code as opposed to signals connected with the editor.
-
 There are different advantages to connecting signals through the editor or via code.
 
 ### Connecting signals through the editor's node tab
@@ -687,21 +661,19 @@ There are different advantages to connecting signals through the editor or via c
 
 ### Connecting signals via code
 
-- You can connect any nodes, including those you create at runtime and those that aren't present in the current scene
+- You can connect any node, including those you create at runtime and those that aren't present in the current scene
 - You can search calls to the `connect()` method globally in the project.
 - Contrary to the editor, you're not limited to using `Node` only: any `Object` can define, emit, and connect signals. See the [Object class's docs](https://docs.godotengine.org/en/latest/classes/class_object.html).
 
 ### Using an Event singleton to avoid spaghetti code
 
-With these guidelines and in our work, we're trying to decouple code to create independent, reusable, and scalable systems. This comes at a cost: we lose the ability to easily connect signals across independent systems. And common to need to connect nodes in GDScript, which tends to lead to spaghetti code.
-
-The Event singleton is a pattern to reduce the spaghetti effect at the expense of introducing a global dependency.
+With these guidelines and in our work, we're trying to decouple code to create independent, reusable, and scalable systems. This comes at a cost: we lose the ability to easily connect signals across independent systems and it tend so lead to spaghetti code. The Event singleton is a pattern to reduce this effect at the expense of introducing a global dependency.
 
 Referring back to [Fig. 1], we couldn't directly connect a signal in a deeply nested node from `DialogSystem` to a nested node in the `Board` tree branch while following the decoupling guidelines.
 
 One solution is to declare the signal connection between those systems in a script attached to the `Game` node. The problem is that we can lose track of connections since they're not declared in the scripts attached to the nodes that need these connections themselves.
 
-In a complex system, you might have hundreds of signals emitted and connected all over the place. To manage this we can use a dedicated `Events` [singleton (autoloaded script)](https://docs.godotengine.org/en/latest/getting_started/step_by_step/singletons_autoload.html):
+In a complex system, you might have hundreds of signals emitted and connected all over the place. To manage this we can use dedicated `Events` [singletons (autoloaded scripts)](https://docs.godotengine.org/en/latest/getting_started/step_by_step/singletons_autoload.html):
 
 *Note: the name of the script doesn't matter.*
 
@@ -722,11 +694,9 @@ signal battle_started(msg)
 signal battle_finished(msg)
 {{< / highlight >}}
 
-This Singleton only lists signals that can be emitted and connected to. A "deeply" nested node like `$Game/Party/Godette/Walk` could then emit the appropriate signal directly using the global `Events` node: `Events.emit_signal("party_walk_started", {destination = destination})`, `Events.emit_signal("party_walk_finished", {})`. Other nested nodes could connect to these signals: `Events.connect("party_walk_started", self, "_on_Party_walk_started")` etc.
+This singleton only lists signals that can be emitted and connected to, that's it. A "deeply" nested node like `$Game/Party/Godette/Walk` could then emit the appropriate signal directly using the global `Events` node: `Events.emit_signal("party_walk_started", {destination = destination})`, `Events.emit_signal("party_walk_finished", {})`. Other nested nodes could connect to these signals: `Events.connect("party_walk_started", self, "_on_Party_walk_started")` etc.
 
 This way, we can encapsulate signal connections in the related nodes instead of managing them in the code of some parent script, like `Game`.
-
-Having a global `Events` dependency isn't a major issue. If we want to reuse code in other projects that don't implement this pattern, we can do a search and replace to get rid of all the `Events.*` declarations.
 
 [OpenRPG]: https://github.com/GDQuest/godot-open-rpg
 [state]: ./img/node_state.png
