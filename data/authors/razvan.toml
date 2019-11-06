@@ -1,0 +1,13 @@
+name = "Răzvan C. Rădulescu"
+user = "razvan"
+picture = "img/avatar/razvan.png"
+description = "GameDev. enthusiast, passionate about technology, sciences and philosophy. I am an avid adept of spreading the knwledge."
+
+website = "http://razcore.gitlab.io/"
+email = "razcore.art@gmail.com"
+
+[social.twitter]
+url = "https://twitter.com/razcore_art"
+icon = "twitter"
+name = "Twitter"
+
