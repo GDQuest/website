@@ -1,6 +1,6 @@
 ---
-title: "Godot GameDev Learner's Path: Beginner Edition"
-description: This guide covers a curated list of resources to get started with game development using Godot
+title: "Learn to Make Games with Godot: Beginner Edition"
+description: This learning path and free guide is a curated list of free resources to get started with game development using the Free and Open Source engine Godot
 author: razvan
 
 type: post
@@ -8,27 +8,48 @@ type: post
 date: 2019-11-06T13:12:32+02:00
 ---
 
-This guide is **the starting place for learning game development** with [Godot](https://opensource.org/licenses/MIT): the _ultimate beginner-edition_. It covers a list of **curated online free resources** that take you from **no-programming experience whatsoever to your first full-blown game projects**, albeit small ones. Why? Because great _projects start humble_ driven by enthusiasm and a lot of work!
+Do you want to learn to make games, but you don't know where to start? You have little or no programming experience? This guide is for you!
+
+## Become a game developer
+
+We collected and reviewed dozens of **free online resources** resources to help you learn to make your first video games with [Godot](https://godotengine.org/). 
+
+This learning path will take you from 0 to your first full-blown games, albeit small ones.
 
 > The journey of a thousand miles begins with one step.
->
-> <footer>Lao Tzu</footer>
+> 
+> Lao Tzu
 
-It's a dream come true for many gamedev. students and hobbyists out there to work in big studios that create AAA-games. But alongside the big houses, especially lately there has been a surge of indie developers that produce stunning quality video games such as (to name a few):
+Your first game may not be your dream project, but you're going to learn and grow a lot, taking your first steps. You're going to discover a world full of wonders where the further you go, the more creative the process becomes.
 
-- [NinjaTheory](https://ninjatheory.com/)'s [Hellblade: Senua's Sacrifice](https://www.hellblade.com/) - a masterpiece surpassed only by very few. It's amazing what a small team of dedicated game developers can do these days
-- [RedHook](https://www.redhookgames.com/)'s [Darkest Dungeon](http://www.darkestdungeon.com/) - another masterpiece project that practically created an entirely new category of games
-- [Playdead](https://playdead.com/)'s [Limbo](https://playdead.com/games/limbo/) & [Inside](https://playdead.com/games/inside/) - both of which have amazing atmosphere and stories driven through game mechanics and small puzzles rather than narration, making them unique in the industry
+> It is good to have an end to journey toward; but it is the journey that matters, in the end.
+> 
+> Ursula K. Le Guin
+
+As you are going to see, there are many great tutorials and tools that you can use to learn game creation from your bedroom for free today.
+
+Now is a great time to learn game development.
+
+## Why Godot? What is Godot?
+
+[Godot](https://godotengine.org/) is a 2D and 3D game engine with a fully-fledged editor, but it is different from the other big game engines out there. It is **Free and Open Source Software**, funded by the community, backed by large organizations like Mozilla or Microsoft, and lead by a team of passionate developers shooting for the stars. 
+
+With **over 1000 contributors** at the time of writing, Godot is becoming more and more competitive even compared to the most significant engines in the games industry.
+
+With separate 2D and 3D engines, an innovative design, it is already packed with a large number of features making 2D game creation fun and rewarding. The team is now working hand-in-hand with the [Vulkan](https://www.khronos.org/vulkan/) representatives to provide cutting-edge 3D in version 4.0.
+
+Godot uses the permissive [MIT](https://opensource.org/licenses/MIT) license. This means there's no limit to what an excellent team of developers can do with it, even for commercial projects.
+
+## Can I make my dream game?
+
+Game creation takes time and effort. Game developers are people who continuously learn new tricks and learn to enjoy the creation process.
+
+I cannot tell whether you will be able to create your dream project or not, depending on how crazy it is. Still, you can undoubtedly make games that people will enjoy, even alone. It will just take some time and dedication.
 
 > Great things are not done by impulse, but by a series of small things brought together.
->
-> <footer>Vincent Van Gogh</footer>
+> 
+> Vincent Van Gogh
 
-Game creation at this level has been, in great part, made possible with the help of game engine developers that have given their product for free, even though some of the more famous ones _limit the freedom to students and hobbyists_ that work on personal non-monetized projects.
-
-[Godot](https://godotengine.org/) is unlike any other game engine out there. It relies entirely on a **small crowd-funded team that shoots for the stars**, going head-to-head against the big boys in the industry. The game engine is already packed with a ridiculous number of features making 2D-game creation both enjoying and rewarding. Apart from that the team works closely with the [Vulkan](https://www.khronos.org/vulkan/) representatives in order to push the 3D pipeline to the limit.
-
-On top of that [Godot](https://godotengine.org/) is **entirely free and open source software (FOSS)**, with the most permissive license out there - [MIT](https://opensource.org/licenses/MIT). This means there's no limit to what a good team of developers can do with it. **It's an amazing time for anyone wanting to be a game developer!**
 
 ## Getting started with game development
 
