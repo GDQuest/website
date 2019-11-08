@@ -35,7 +35,7 @@ Generics:
 - http://www.notgdc.fun/
 - https://gdcvault.com/free
 
-Non-game related:
+Non-gamedev related:
 - http://tutorial.math.lamar.edu/
 
 <!-- TEXT: -->
@@ -46,13 +46,15 @@ If you are a game developer or advanced hobbyist and you want to explore or lear
 
 ### From X to [Godot]
 
-### [Godot] UI and Themes
+### [Godot] UI, themes & more
 
 ### Shaders in [Godot]
 
+### Multiplayer in [Godot]
+
 ### Getting (un)stuck
 
-## Where to now?
+## Where to from here?
 
 
 [Godot]: https://godotengine.org
