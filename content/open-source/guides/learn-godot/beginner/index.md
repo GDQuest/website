@@ -8,6 +8,10 @@ type: post
 date: 2019-11-06T13:12:32+02:00
 ---
 
+<!-- TODO: link to main contributors guidelines -->
+
+_There is also a second part: [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) to covering a curated list of educational resources useful for game developers with some knowledge and possibly coming from a different game engine._
+
 Do you want to learn to make games, but you don't know where to start? You have little or no programming experience? This guide is for you!
 
 ## Become a game developer
@@ -70,8 +74,8 @@ Instead of the boring step-by-step traditional approach of going over the theory
 1. GDQuest's [Intro to GDScript for Programming Beginners](https://youtu.be/UcdwP1Q2UlU) - **fundamentals of programming using GDScript**, the [Godot] scripting language. This is the starting place for communicating with the computer using the game engine
 1. GDQuest's [Make Your First 2D Game with Godot](https://youtu.be/Mc13Z2gboEk) & it's [associated GitHub project repository](https://github.com/GDquest/Your-First-Game-Godot-2d-Platformer) - the 1st part of **a complete free course that goes through the creation steps for a Mario platformer-like clone**
 1. KidsCanCode [Mobile Game: Circle Jump](http://kidscancode.org/godot_recipes/games/circle_jump/) - an **end-to-end game development series** going through the process of building a one-touch abstract, but attractive mobile game
-1. BornCG's [3D Roll the Ball playlist](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) - including a tutorial series for creating a small 3D game from scratch as the 2D & 3D engines in [Godot] have quite a few differences between them
-1. Mister Taft Creates' [Make a Match 3 game like Candy Crush using Godot playlist](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) - a beginner-friendly step-by-step series that goes through the creation of a fairly complex Candy Crush-like project. It is last in the list because it requires dedication and patience, being a fairly long series
+1. BornCG's [3D Roll the Ball](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) playlist - including a tutorial series for creating a small 3D game from scratch as the 2D & 3D engines in [Godot] have quite a few differences between them
+1. Mister Taft Creates' [Make a Match 3 game like Candy Crush using Godot](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) playlist - a beginner-friendly step-by-step series that goes through the creation of a fairly complex Candy Crush-like project. It is last in the list because it requires dedication and patience, being a fairly long series
 
 - Other useful resources:
     - [Godot step-by-step](http://docs.godotengine.org/en/latest/getting_started/step_by_step/index.html). [Godot]'s official high-level theoretical guide that goes through the interface and features, explaining the most important ideas to get students started
@@ -83,7 +87,7 @@ There comes a point, in the developer’s journey, at which **sticking with smal
 
 The following resources aren’t meant to teach you how to become a full-blown professional, but rather **give you a taste of what’s to come.**
 
-1. GDQuest's [Game Design Tutorial playlist](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHI3oYZfZ9nLEnQMBEhbmP8) - lots of beginner-friendly examples of how to get started on actual (small) game creation, from a designer point of view
+1. GDQuest's [Game Design Tutorial](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHI3oYZfZ9nLEnQMBEhbmP8) playlist - lots of beginner-friendly examples of how to get started on actual (small) game creation, from a designer point of view
 1. Brackeys' [Basic Principles of Game Design](https://www.youtube.com/watch?v=G8AT01tuyrk) - high-level ideas on how to think about objectives that make a game engaging and fun. How to structure the workflow around these ideas
 
 ### Going further
@@ -98,6 +102,6 @@ We've selected the following resources to give you a peek into the vast array of
 1. [Godot]'s [Official Introductory Math Docs](http://docs.godotengine.org/en/3.1/tutorials/math/) - sooner or later you'll want to **learn more about mathematics** and how to calculate different useful parameters for your game, be it for object placement in the game world (eg.: procedurally created worlds) or some other variables that influence the mechanics in some way. This is a good starting place for exploring a few math topics using [Godot]'s scripting language, GDScript
 1. [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html) - [Godot]'s programing language is heavily inspired by [Python](https://www.python.org/) and so **we recommend you explore** core programming algorithms and data structures using it
 
-The [next part]({{< ref "https://www.gdquest.com/open-source/guides/learn-godot/developer/index.md" >}}) in this series [Learn to Make Games with Godot: Developer Edition]({{< ref "https://www.gdquest.com/open-source/guides/learn-godot/developer/index.md" >}}) is going to explore advanced resources for the enthusiasts out there that want to further their knowledge and perhaps go from being hobbyists to actually being professionals.
+The [next part]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) in this series [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) is going to explore advanced resources for the enthusiasts out there that want to further their knowledge and perhaps go from being hobbyists to actually being professionals.
 
 [Godot]: https://godotengine.org/
