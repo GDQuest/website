@@ -1,6 +1,6 @@
 ---
 title: "Learn to Make Games with Godot: Developer Edition"
-description: This learning path and free guide is a curated list of free resources to transition to and advance with the Free and Open Source engine Godot
+description: This free guide is a curated list of free resources that help with transitioning to Godot - the Free and Open Source game engine.
 author: razvan
 
 type: post
@@ -10,52 +10,50 @@ date: 2019-11-11 09:47:26+0200
 
 <!-- TODO: link to main contributors guidelines -->
 
-_For a gentler introduction to the concept of game development using the [Godot game engine](https://godotengine.org/) please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
+_For a gentler introduction to the concepts of game development using the [Godot game engine](https://godotengine.org/), please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
 
-If you are a game developer or advanced hobbyist and you want to explore or learn Godot, we have gathered and curated a list of resources to make your life easier while transitioning and/or starting out with Godot.
+We've gathered a curated list of resources to make life easier if you are thinking of transitioning to or starting out with Godot. It's aimed at game developers with some experience or developers coming from a different game engine.
 
 ## Making games with Godot
 
-The Free and Open Source Software, Godot, although having had modest beginnings - founded by Juan Linietsky ([@reduzio](https://twitter.com/reduzio)) & Ariel Manzur (punto), it now grows exponentially aiming to be a real competitor against the state-of-the-art game engines out there.
+Godot is Free and Open Source Software. It was origionally created by Juan Linietsky ([@reduzio](https://twitter.com/reduzio)) & Ariel Manzur (punto) and was a relatively small project. Godot has grown exponentially since going Open Source and now aims to be a real competitor to other state-of-the-art game engines.
 
-**Godot offers interconnected 2D and 3D** engines under the same editor, with a wide range of features, covering the spectrum for both hobbyists and professional game developers alike.
-
-We believe the following curated list of educational resources will help you transition and learn Godot with ease. It is aimed at game developers with some experience and/or coming from a different game engine.
+**Godot offers 2D and 3D** engines under the same editor. Each has many features that cover interests for hobbyists and professional game developers alike.
 
 ### From X to Godot
 
-At the time of this writing, there are a few places where you can learn about the differences between other game engines and Godot helping out smoothing the transition:
+At the time of writing, there are several places where you can learn about the differences between Godot and other game engines to help with the transition:
 
-- [coming from Unity](http://docs.godotengine.org/en/3.1/getting_started/editor/unity_to_godot.html) - the official Godot documentation caters to Unity users covering the conceptual differences between these editors
+- [coming from Unity](http://docs.godotengine.org/en/3.1/getting_started/editor/unity_to_godot.html) - the official Godot documentation caters to Unity users and covers the conceptual differences between these editors
 - [coming from GameMaker: Studio](https://www.youtube.com/playlist?list=PLQsiR7DILTcxma-doUnpoALIX001NvcP_) - Emilio's YouTube series covers the basics of transitioning from GameMaker: Studio v1.4
 
 ### Godot UI, themes & much more
 
-One of the more confusing parts of Godot, due to conceptual differences in how the engine treats UI-related objects compared to play-related objects, is the use of themes and how to create user interfaces. Godot has quite a powerful theming mechanism, but it's not exactly the friendliest developer experience.
+Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not the friendliest of developer experiences, but we have a few guides to help you.
 
-To get you started with UI, themes and much more we have gathered the following educational resources:
+To get started with UI, themes and much more, have a look at the following educational resources:
 
-1. GDQuest's [Godot User Interface Tutorials](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4) - Godot has some peculiarities when it comes to making UIs that could trip up even the advanced users. This YouTube series covers, in depth this topic, with plenty of examples
-1. Emilio's [Making Programs with Godot](https://www.youtube.com/playlist?list=PLQsiR7DILTczMLsN8qmMym7pYfJXynzK0) - a bit of trivia: the Godot editor is built using the Godot engine itself. So there's no surprise Godot can likewise be used to create programs and tool, not just games. This series covers UI and themes in an applied manner, by developing applications instead of games
+1. GDQuest's [Godot User Interface Tutorials](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4) - Godot has some peculiarities when it comes to making UIs that can even trip up advanced users. This in-depth YouTube series covers this topic along with plenty of examples
+1. Emilio's [Making Programs with Godot](https://www.youtube.com/playlist?list=PLQsiR7DILTczMLsN8qmMym7pYfJXynzK0) - a bit of trivia: the Godot editor is built using the Godot engine itself! So it's no surprise that Godot can create programs and tools too. This series covers UI and themes in an applied manner by developing applications instead of games
 
 ### Shaders in Godot
 
-Sharders are probably one of the parts Godot truly shines. It offers a simplified OpenGL-like scripting language (for coders) and a visual node editor (for designers) that are ridiculously easy to use. Apart from these, it comes with simplified models for creating materials directly in the options panel - the inspector.
+Using Shaders in Godot is where the engine truly shines. It offers a simplified OpenGL-like scripting language (for coders) and a visual node editor (for designers) that are ridiculously easy to use. Apart from these, it comes with simplified models for creating materials directly in the options panel - the inspector.
 
-Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot, starting slow and ramping it up in the second entry of the list with examples to get you going in both 2D and 3D:
-1. GDQuest's [Intro to Shaders in Godot: 2D and 3D Water Tutorials](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP) - this is a good start to get your feet wet and see how easy it is to write Godot shaders. They are in essence much simpler than Unity's. It goes mostly through 2D shaders, but this list includes BAasitan's 3D examples as well
+Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot. They start slow before ramping up in difficulty:
+1. GDQuest's [Intro to Shaders in Godot: 2D and 3D Water Tutorials](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP) - this is a good start to get your feet wet and see how easy it is to write Godot shaders. They are much simpler than Unity's. The tutorial mostly goes through 2D shaders, but this playlist includes Bastiaan's 3D examples as well
 1. GDQuest's [Visual Shader Editor in Godot 3.1: Dissolve Shader](https://youtu.be/sf_Dc4ew3eM) - this tutorial goes through a practical 3D dissolve shader effect with the use of the Visual Shader Editor which was brought back in Godot 3.1
-1. Gonkee's [Godot Shaders playlist](https://www.youtube.com/playlist?list=PL9NDikg3iIaXtGQY6HIgzUxfuMTkybzyx) - a playlist with fairly advanced 2D shader usage. It goes through specific examples such as: procedural fog, cartoon fire, simple water, paper burn, Mandelbrot fractal, lava as well as an overview of Visual Shader Editor in Godot 3.1 and its limitations
-1. Bastiaan Olij's [Godot Grass shader tutorial](https://youtu.be/uMB3-g8v1B0) - this is an advanced 3D tutorial/overview for adding grass on terrain using shaders. It has a GitHub project that goes along with the video, which can be found in the description
+1. Gonkee's [Godot Shaders playlist](https://www.youtube.com/playlist?list=PL9NDikg3iIaXtGQY6HIgzUxfuMTkybzyx) - a playlist with fairly advanced 2D shaders. It goes through specific examples such as procedural fog, cartoon fire, simple water, paper burn, Mandelbrot fractal and lava as well as looking at the Visual Shader Editor in Godot 3.1 and its limitations
+1. Bastiaan Olij's [Godot Grass shader tutorial](https://youtu.be/uMB3-g8v1B0) - this is an advanced 3D tutorial for adding grass on terrain using shaders. It has a GitHub project that goes along with the video which can be found in the description
 
 ### Extending Godot
 
-One of the great aspects of Godot is that it can radically be customized to fit anyone's needs, having a very powerful editor plugin system. Editor tools can be built that run real-time during the development of the game phase, directly within the editor, extending it with new panels and functionality.
+Godot can be radically customized to fit anyone's needs by using the editor plugin system. This is a powerful feature that allows for the creation of editor tools that extend the engine with new panels and functionality.
 
-In this list we start with the official documentation, which goes through the necessary steps to building plugins of different sorts, then we have an actual real-case example:
+Here we'll start with the official documentation which will guide us through the necessary steps to building different plugins before moving on to a real-case example:
 
-1. [Godot editor plugins official documentation](https://docs.godotengine.org/en/3.1/tutorials/plugins/editor/index.html) - the official Godot documentation goes mostly through the conceptual and theoretical basis for extending the game engine editor. It's a good starting point for learning what this entails
-1. GDQuest's [Smart Moving Platforms in Godot: waypoint system and Tool mode tutorial](https://youtu.be/ZWO2WiH9p9s) - this is an example on how to build game development tools in the Godot editor to ease the game creation workflow. As the title suggests, it is about creating a waypoint system that works in the editor which can be modified in real time and have a 2D platform follow the path. This is just a simple example that goes through all that's necessary in order to start working in tool mode in Godot
+1. [Godot editor plugins official documentation](https://docs.godotengine.org/en/3.1/tutorials/plugins/editor/index.html) - the official Godot documentation goes through the conceptual and theoretical basis for extending the game engine editor. It's a good starting point for learning what this entails
+1. GDQuest's [Smart Moving Platforms in Godot: waypoint system and Tool mode tutorial](https://youtu.be/ZWO2WiH9p9s) - this is an example on how to build game development tools in the Godot editor to ease the game creation workflow. As the title suggests, it's about creating a waypoint system that works in the editor which can be modified in real time. It goes through all that's necessary in order to start working in tool mode in Godot
 
 ### Multiplayer in Godot
 
