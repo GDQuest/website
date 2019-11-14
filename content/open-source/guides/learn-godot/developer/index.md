@@ -12,22 +12,22 @@ date: 2019-11-11 09:47:26+0200
 
 _For a gentler introduction to the concepts of game development using the [Godot game engine](https://godotengine.org/), please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
 
-We've gathered a curated list of resources to make life easier if you are thinking of transitioning to or starting out with Godot. It's aimed at game developers with some experience or developers coming from a different game engine.
+We've gathered a curated list of resources to make life easier if you are thinking of transitioning to or starting out with Godot. It's aimed at game developers with some experience or are coming from a different game engine.
 
 ## Making games with Godot
 
-Godot is Free and Open Source Software. It was origionally created by Juan Linietsky ([@reduzio](https://twitter.com/reduzio)) & Ariel Manzur (punto) and was a relatively small project. Godot has grown exponentially since going Open Source and now aims to be a real competitor to other state-of-the-art game engines.
+Godot is Free and Open Source Software. It was origionally created by Juan Linietsky ([@reduzio](https://twitter.com/reduzio)) and Ariel Manzur (punto) and was a relatively small project. Godot has grown exponentially since going Open Source and now aims to be a real competitor to other state-of-the-art game engines.
 
 **Godot offers 2D and 3D** engines under the same editor. Each has many features that cover interests for hobbyists and professional game developers alike.
 
 ### From X to Godot
 
-At the time of writing, there are several places where you can learn about the differences between Godot and other game engines to help with the transition:
+There are several places where you can learn about the differences between Godot and other game engines to help with the transition:
 
 - [coming from Unity](http://docs.godotengine.org/en/3.1/getting_started/editor/unity_to_godot.html) - the official Godot documentation caters to Unity users and covers the conceptual differences between these editors
 - [coming from GameMaker: Studio](https://www.youtube.com/playlist?list=PLQsiR7DILTcxma-doUnpoALIX001NvcP_) - Emilio's YouTube series covers the basics of transitioning from GameMaker: Studio v1.4
 
-### Godot UI, themes & much more
+### Godot UI, themes and much more
 
 Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not the friendliest of developer experiences, but we have a few guides to help you.
 
@@ -57,56 +57,55 @@ Here we'll start with the official documentation which will guide us through the
 
 ### Multiplayer in Godot
 
-Godot offers both high-level and low-level multiplayer protocols and APIs for both simple and advanced coordination between clients and servers. RPCs (remote procedure calls) are what Godot uses in order to call and sync peers.
+Godot offers high-level and low-level multiplayer protocols and APIs. These give simple or advanced coordination between clients and servers. Godot uses RPCs (remote procedure calls) to call and sync peers.
 
-At the time of this writing there aren't that many educational resources on handling multiplayer systems in Godot. We hope that the following list is enough to put you on the right track:
+Currently there aren't that many educational resources that handle multiplayer systems in Godot. We hope that the following list is enough to put you on the right track:
 
-1. GDQuest's [Intro to Multiplayer](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHohKIdqyTHRr96zYreZMC7) in Godot - this is one of the few educational resources that goes through multiplayer game creation in Godot. It's an introduction to networking via a 2D shooter example where two players can create a server and interact through it in a deathmatch
+1. GDQuest's [Intro to Multiplayer](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHohKIdqyTHRr96zYreZMC7) in Godot - this is one of the few educational resources that goes through multiplayer game creation in Godot. It's an introduction to networking via a 2D shooter example where two players can interact through a server in a deathmatch setting
 1. [Godot Networking](http://docs.godotengine.org/en/3.1/tutorials/networking/index.html) - the official documentation explains the concepts of high-level and low-level networking capabilities in Godot
 
 ### Going advanced
 
-Bastiaan Olij has kindly created a fairly advanced tutorial series on how to make a car simulation in Godot. While the official Godot demos include a truck handling simulator which, this tutorial series is one step above in terms of quality.
+Bastiaan Olij has kindly created a fairly advanced tutorial series on how to make a car simulation in Godot. The official Godot demos include a truck handling simulator but this tutorial series is one step above in terms of quality.
 
-- Bastiaan Olij's [Godot Vehicle Tutorial](https://www.youtube.com/playlist?list=PLe63S5Eft1KapdW0-o824gCbG8LPvzxSA) - kindly putting together this tutorial series of a vehicle simulation on a track, this is one of the best tutorials out there showing advanced usage of Godot. It goes through importing the meshes in Godot, building a track and creating a car controller
+- Bastiaan Olij's [Godot Vehicle Tutorial](https://www.youtube.com/playlist?list=PLe63S5Eft1KapdW0-o824gCbG8LPvzxSA) - shows a vehicle simulation on a track. This is one of the best tutorials out there that shows advanced usage of Godot. It goes through importing the meshes in Godot, building a track and creating a car controller
 
 ### Getting (un)stuck
 
-While the above resources are enough to explore a significant part of Godot, it isn't an exhaustive list and there are many holes left to be filled. Here are some great places to start looking for answerers when you get stuck:
+While the above resources are enough to explore a significant part of Godot, it isn't an exhaustive list and there are many holes of knowledge left to fill. Here are some great places to start looking for answers when you get stuck:
 
-- GDQuest's [New Features in Godot 3.1](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9) - this is a good overview of the tools provided by Godot 3.1. It might just get you unstuck if you don't know what can be done with it
-- KidsCanCode [Godot recipes](http://kidscancode.org/godot_recipes/) - this site pulls together a series of recipes just like the name suggests. It goes all the way from the very basics to math, physics, AI, and more. It's a to-bookmark educational resource that will no doubt help you get unstuck on specific issues
-- [Godot reddit list](https://www.reddit.com/r/godot/comments/an0iq5/godot_tutorials_list_of_video_and_written/) - we are at a point in the list where exploring further topics by yourself is something you might like to do. Keep in mind though, that this hasn't been curated, it's a list of topics to be explored with a varying amount of quality in between
-- [Godot community page](https://godotengine.org/community) - it's a good idea to start interacting with the community through the official channels. This place gathers all of the official ways you can interact with other game developers and much more. Sometimes getting unstuck is about asking the right question and getting back a good answer
+- GDQuest's [New Features in Godot 3.1](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9) - this is a good overview of the tools provided by Godot 3.1. It might just get you unstuck if you don't know what the 3.1 version has to offer
+- KidsCanCode [Godot recipes](http://kidscancode.org/godot_recipes/) - this site pulls together a series of essential code recipes. It starts at the very basics and moves on to math, physics, AI, and more. It's a to-bookmark educational resource that will no doubt help you get unstuck on specific issues
+- [Godot reddit list](https://www.reddit.com/r/godot/comments/an0iq5/godot_tutorials_list_of_video_and_written/) - we are at a point in the list where exploring further topics by yourself is something you might like to do. This list hasn't been curated by us but it still might be useful. It's a list of topics to be explored that vary in terms of quality
+- [Godot community page](https://godotengine.org/community) - it's a good idea to start interacting with the community through the official channels. This place gathers all of the official ways you can interact with other game developers and much more. Sometimes getting unstuck is about asking the right question and getting a good answer back
 
-The following section includes links to demos on a wide range of topics. At the time of this writing there is still a wide range of quality in between these examples, but for specific problem-solving ideas it's a good resource to bookmark.
+The following section includes links to demos on a wide range of topics. They're currently of varying qualities but they're good resources to bookmark for specific problem-solving ideas.
 
-- GDQuest [Demos](https://github.com/GDquest/Godot-engine-tutorial-demos) - this GitHub repository is one of the most complete out there when it comes to Godot demo projects. Some of the demos are outdated, being built for Godot 2, but there are plenty of recent examples to get you unstuck on specific topics
-- Official [Godot Demos](https://github.com/godotengine/godot-demo-projects) - the main GitHub Godot repository with a lot of demos featuring most of the topics you might be interested in: 2D, 3D, shaders, networking, UI, etc. examples. The GDQuest team is working actively at improving the source code quality of the official demos
+- GDQuest [Demos](https://github.com/GDquest/Godot-engine-tutorial-demos) - this GitHub repository is one of the most complete out there when it comes to Godot demo projects. Some of the demos are outdated as they were built for Godot 2 but there are plenty of recent examples to get you unstuck on specific topics
+- Official [Godot Demos](https://github.com/godotengine/godot-demo-projects) - the main GitHub Godot repository features most of the topics you might be interested in: 2D, 3D, shaders, networking, UI and more. The GDQuest team is working actively at improving the source code quality of the official demos. Stay tuned!
 
 ## Where to from here?
 
-For further game development topics, that aren't specific to Godot, but nonetheless are a valuable educational resource we have gathered the following curated list.
+We've gathered a list on other game development topics that aren't specific to Godot but may be valuable nonetheless.
 
-Generic game development resources:
+General game development resources:
 
-- [The Book of Shaders](https://thebookofshaders.com/) - one of our top picks because it's a fun visually engaging resource. It explores, in an easy to follow way, the idea behind fragment shaders and what can be done with them. _At the point of this writing this book is incomplete_
-- [Game Programming Patterns](http://gameprogrammingpatterns.com/) - this online free book is a must resource for understanding different OOP patterns used specifically in game development
-- Amit Patel's [Red Blob Games](https://www.redblobgames.com/) blog - is an online resource that explores topics in great detail with lots of interactive examples. It is one of the best resources out there
-- [The Nature of Code](https://natureofcode.com/) - this online free book is about understanding how the mathematical principles behind our physical world can help us create compelling digital worlds. It is an interactive book exploring a wide variety of topics
-- [Game AI Pro](http://www.gameaipro.com/) - free online book series that gathers together multiple recipes in AI/behavior topics. These are very advanced overviews that don't often provide complete code, but rather explore high-level ideas leaving the developer do the hard work of implementing them
-- [Procedural Content Generation in Games](http://pcgbook.com/) - is an online free book exploring high-level concepts on creating content using procedural generation algorithms. It doesn't go into code so, like the book above, it leaves the heavy lifting to game developers that want to explore advanced ideas
-- [GPU Gems](https://developer.nvidia.com/gpugems/GPUGems/) - free online book series by NVidia that goes through very advanced GPU topics. Some of these ideas are low-level to the point that they could very well be implemented at the game engine development stage
+- [The Book of Shaders](https://thebookofshaders.com/) - one of our top picks because it's a fun and visually engaging resource. It explores the idea behind fragment shaders and what can be done with them in an easy to follow way. _At the time of writing this book is incomplete_
+- [Game Programming Patterns](http://gameprogrammingpatterns.com/) - this free online book is a must-have resource for understanding the different OOP patterns used specifically in game development
+- Amit Patel's [Red Blob Games](https://www.redblobgames.com/) blog is an online resource that explores topics in great detail with lots of interactive examples. It's one of the best resources out there
+- [The Nature of Code](https://natureofcode.com/) - this free online book is about understanding how the mathematical principles behind our physical world can help us create compelling digital worlds. It's interactive and explors a wide variety of topics
+- [Game AI Pro](http://www.gameaipro.com/) - this free online book series gathers multiple recipes in AI and behavior topics. These are very advanced overviews that don't often provide complete code but instead explore high-level ideas. This leaves the developer to do the hard work of implementing them which may be a great exercise
+- [Procedural Content Generation in Games](http://pcgbook.com/) - is a free online book that explores creating content using procedural generation algorithms. It doesn't go into code which leaves the reader to explore advanced ideas themselves
+- [GPU Gems](https://developer.nvidia.com/gpugems/GPUGems/) - a free online book series by NVidia that goes through very advanced GPU topics. Some of these ideas are low-level to the point that they could very well be implemented at the game engine development stage
 
 (Non)Conferences useful for gathering further game development ideas:
 
-- [NotGDC](http://www.notgdc.fun/) - "a game development non-conference, for everyone". Game developers without the possibility of going to the highly-sought-after Game Developers Conference now have a place to interact with one another through [NotGDC](http://www.notgdc.fun/). Just like [GDC](https://gdcvault.com/free), [NotGDC](http://www.notgdc.fun/) explores a wide variety of topics and inspirational talks and methodologies for game development
-- [GDC Vault](https://gdcvault.com/free) - the [Game Developers Conference Vault](https://gdcvault.com/free) gatheres an in-depth design, technical and inspirational talks and slides from the game development industry. It's a must resource for exploring further topics in the game creation process
+- [NotGDC](http://www.notgdc.fun/) - "a game development non-conference, for everyone". Game developers who don't go to the highly-sought-after Game Developers Conference now have a place to interact with one another. Just like the GDC Vault below, NotGDC explores a wide variety of topics and inspirational talks and methodologies for game development
+- [GDC Vault](https://gdcvault.com/free) - the Game Developers Conference Vault gathers in-depth design, technical and inspirational talks and slides from the game development industry. It's a must-have resource for exploring further topics in the game creation process
 
 Non-gamedev related:
 
-- [Paul's Online Math Notes](http://tutorial.math.lamar.edu/) - is one of the best resources for exploring math topics going from plain and simple algebra & calculus to advanced topics such as vector calculus and differential equations. This is a good place to start learning advanced mathematics with applications in physics and game development especially for those of you who want to get into creating physics models
-- [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html) - Godot's programing language is heavily inspired by [Python](https://www.python.org/) and so **we recommend you explore** core programming algorithms and data structures using it
+- [Paul's Online Math Notes](http://tutorial.math.lamar.edu/) - is one of the best resources for exploring math topics going from plain and simple algebra and calculus to advanced topics such as vector calculus and differential equations. This is a good place to start learning advanced mathematics with applications in physics and game development. It's especially useful for those who want to get into creating physics models
+- [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html) - Godot's programing language is heavily inspired by [Python](https://www.python.org/) and so we recommend you explore core programming algorithms and data structures using it
 
-The [previous part]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) in this series [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) is exploring basic resources for the enthusiasts out there that want to make a transition to Godot and understand how to use this game engine, starting from the very beginning.
-
+The [previous part]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) in this series [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) explores basic resources for the enthusiasts out there that want to understand how to use the Godot game engine, starting from the very beginning.
