@@ -97,7 +97,7 @@ To get you one step away from the tutorial zone, the resources below go a little
 They won't turn you into a pro right away of course, but rather give you a taste of what’s to come:
 
 1. [Game Design Tutorial](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHI3oYZfZ9nLEnQMBEhbmP8) is a playlist - lots of beginner-friendly examples of how to get started on actual (small) game creation, from a designer point of view
-1. Brackeys' [Basic Principles of Game Design](https://www.youtube.com/watch?v=G8AT01tuyrk) - high-level ideas on how to think about objectives that make a game engaging and fun. How to structure the workflow around these ideas
+1. [Basic Principles of Game Design](https://www.youtube.com/watch?v=G8AT01tuyrk) goes through high-level ideas on how to think about objectives that make a game engaging and fun. How to structure the workflow around these ideas
 1. [So, You Wanna Make Games](https://www.youtube.com/watch?v=RqRoXLLwJ8g&list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx) is a series by Riot Games, creators of League of Legends, that introduces you to some key art-related jobs in the game industry.
 
 ### Going further
