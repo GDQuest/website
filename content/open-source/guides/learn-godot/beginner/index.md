@@ -8,15 +8,13 @@ type: post
 date: 2019-11-06T13:12:32+02:00
 ---
 
-<!-- TODO: link to main contributors guidelines -->
-
 Do you want to learn to make games, but you don't know where to start? Do you have little or no programming experience? This guide is for you!
 
 _If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) instead._
 
 ## Become a game developer
 
-We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot]. 
+We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot](https://godotengine.org/). 
 
 This learning path will take you from 0 to your first complete games, albeit small ones.
 
@@ -112,4 +110,7 @@ We've selected the following resources to give you a peek into the vast array of
 
 The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
 
-[Godot]: https://godotengine.org/
+## Contributing to This Document
+
+If you want to contribute to this document please read and follow our [Contributing to Learn to Make Games with Godot Guidelines]({{< ref "open-source/guidelines/contributing-to-learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!
+

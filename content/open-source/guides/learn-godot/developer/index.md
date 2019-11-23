@@ -110,3 +110,7 @@ Non-gamedev related:
 - [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html). Algorithms and data structures are at the core of computer programming in general. It's true for any kind of code, including games. If you want to take your programming skills to the next level, you'll want to dive into topics like these. We recommend this great free book to do so. It uses the [Python](https://www.python.org/) programing language that inspired Godot's GDScript.
 
 The [previous part]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) in this series [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) explores basic resources for the enthusiasts out there that want to understand how to use the Godot game engine, starting from the very beginning.
+
+## Contributing to This Document
+
+If you want to contribute to this document please read and follow our [Contributing to Learn to Make Games with Godot Guidelines]({{< ref "open-source/guidelines/contributing-to-learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!
