@@ -8,11 +8,11 @@ type: post
 date: 2019-11-11 09:47:26+0200
 ---
 
-<!-- TODO: link to main contributors guidelines -->
-
 _For a gentler introduction to the concepts of game development using the [Godot game engine](https://godotengine.org/), please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
 
 We've gathered a curated list of resources to make life easier if you are thinking of transitioning to or starting out with Godot. It's aimed at game developers with some experience or are coming from a different game engine.
+
+You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDquest)**.
 
 ## Making games with Godot
 
@@ -31,6 +31,14 @@ There are several places where you can learn about the differences between Godot
 
 Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not the friendliest of developer experiences, but we have a few guides to help you.
 
+![Godot UI & Themes]()
+
+{{< figure
+  src="./img/rpginabox.png"
+  alt="Screenshot of RPG in a box, a beginner-friendly rpg engine made in Godot"
+  caption="RPG in a Box, an RPG engine made with Godot"
+>}}
+
 To get started with UI, themes and much more, have a look at the following educational resources:
 
 1. GDQuest's [Godot User Interface Tutorials](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4) - Godot has some peculiarities when it comes to making UIs that can even trip up advanced users. This in-depth YouTube series covers this topic along with plenty of examples
@@ -39,6 +47,8 @@ To get started with UI, themes and much more, have a look at the following educa
 ### Shaders in Godot
 
 Using Shaders in Godot is where the engine truly shines. It offers a simplified OpenGL-like scripting language (for coders) and a visual node editor (for designers) that are ridiculously easy to use. Apart from these, it comes with simplified models for creating materials directly in the options panel - the inspector.
+
+![Godot Visual Shaders Editor](./img/shaders.png)<br />_Godot Visual Shader editor._
 
 Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot. They start slow before ramping up in difficulty:
 
@@ -51,6 +61,8 @@ Godot is very flexible when it comes to VFX driven by shaders. The following res
 
 Godot can be radically customized to fit anyone's needs by using the editor plugin system. This is a powerful feature that allows for the creation of editor tools that extend the engine with new panels and functionality.
 
+![Godot Tool Mode](./img/tool-mode.jpg)<br />_Extending Godot with tool mode._
+
 Here we'll start with the official documentation which will guide us through the necessary steps to building different plugins before moving on to a real-case example:
 
 1. [Godot editor plugins official documentation](https://docs.godotengine.org/en/3.1/tutorials/plugins/editor/index.html) goes through the conceptual and theoretical basis for extending the game engine editor. It's a good starting point for learning what this entails
@@ -59,6 +71,8 @@ Here we'll start with the official documentation which will guide us through the
 ### Multiplayer in Godot
 
 Godot offers high-level and low-level multiplayer protocols and APIs. These give simple or advanced coordination between clients and servers. Godot uses RPCs (remote procedure calls) to call and sync peers.
+
+![Godot Server-Client Architecture](./img/multiplayer.png)<br />_Godot server-client architecture_
 
 Currently there aren't that many educational resources that handle multiplayer systems in Godot. We hope that the following list is enough to put you on the right track:
 
@@ -70,6 +84,8 @@ Currently there aren't that many educational resources that handle multiplayer s
 Bastiaan Olij has kindly created a fairly advanced tutorial series on how to make a car simulation in Godot. The official Godot demos include a truck handling simulator but this tutorial series is one step above in terms of quality.
 
 - [Godot Vehicle Tutorial](https://www.youtube.com/playlist?list=PLe63S5Eft1KapdW0-o824gCbG8LPvzxSA) explains how to get a vehicle simulation on a track. This is one of the best tutorials out there that shows advanced usage of Godot. It goes through importing the meshes in Godot, building a track and creating a car controller
+
+![Godot Vehicle Tutorial](./img/vehicle-tutorial.jpg)<br />In-editor Godot screenshot of the Vehicle Tutorial.
 
 ### Getting (un)stuck
 
