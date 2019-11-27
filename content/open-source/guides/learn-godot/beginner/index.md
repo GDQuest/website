@@ -12,6 +12,8 @@ Do you want to learn to make games, but you don't know where to start? Do you ha
 
 _If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) instead._
 
+You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDquest)**.
+
 ## Become a game developer
 
 We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot](https://godotengine.org/). 
@@ -36,11 +38,17 @@ Now is a great time to learn game development.
 
 Godot is a 2D and 3D game engine with a fully-fledged editor, but it is different from the other big game engines out there. It is **Free and Open Source Software**, funded by the community, backed by large organizations like Mozilla or Microsoft, and lead by a team of passionate developers shooting for the stars. 
 
+{{< figure
+  src="./img/godot-engine.png"
+  alt="Screenshot of the Godot editor, showing the 3d view"
+>}}
+
 With **over 1000 contributors** at the time of writing, Godot is becoming more and more competitive even compared to the most significant engines in the games industry.
 
 With separate 2D and 3D engines, an innovative design, it is already packed with a large number of features making 2D game creation fun and rewarding. The team is now working hand-in-hand with the [Vulkan](https://www.khronos.org/vulkan/) representatives to provide cutting-edge 3D in version 4.0.
 
 Godot uses the permissive [MIT](https://opensource.org/licenses/MIT) license. This means there's no limit to what an excellent team of developers can do with it, even for commercial projects.
+
 
 ## Can I make my dream game?
 
@@ -51,7 +59,6 @@ I cannot tell whether you will be able to create your dream project or not, depe
 > Great things are not done by impulse, but by a series of small things brought together.
 > 
 > Vincent Van Gogh
-
 
 ## Getting started with game development
 
@@ -67,6 +74,8 @@ This section is for you if you know little about game creation and programming. 
 1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md" >}}) is our guide to learn computer programming.
 1. [Game Engines: what are they and how to choose the right one?](https://youtu.be/2tZK75R2K2c)
 
+![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](https://github.com/GDquest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
+
 ### Creating your first game with Godot
 
 The best way to learn something new is through a balance of **practice** and brushing your **fundamentals**. 
@@ -79,6 +88,8 @@ Here, we've decided to focus on a hands-on approach, which is what we recommend 
 1. [3D Roll the Ball](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) by BornCG is a playlist that includes a tutorial series to create a small 3D game from scratch.
 1. [Make a Match 3 game like Candy Crush using Godot](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) by Mister Taft Creates is a step-by-step series that goes through the creation of a complete **match-3 game**, like Candy Crush. It is the longest series in this step, requiring some dedication.
 
+![Your First Godot Game - 2D Platformer](./img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](https://github.com/GDquest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
+
 Other useful guides to use along with the videos above:
 
 1. [Godot step-by-step](http://docs.godotengine.org/en/latest/getting_started/step_by_step/index.html). The official guide runs you through key Godot features and includes some tutorials. We wrote a fair part of it in collaboration with KidsCanCode.
@@ -89,6 +100,8 @@ Other useful guides to use along with the videos above:
 There soon comes a point at which sticking to step-by-step tutorials isn't enough to grow anymore. Most of the learning happens when you **experiment**. For every tutorial you follow, you should spend several hours at least trying to **add new mechanics** to your last project.
 
 After all, the goal is to get to the point where you can make your own games, right? And no tutorial will do that for you.
+
+![Independent Developer](./img/independent.jpg)
 
 To get you one step away from the tutorial zone, the resources below go a little deeper into what game design and development are about.
 
