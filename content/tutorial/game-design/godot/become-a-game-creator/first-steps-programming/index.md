@@ -269,15 +269,11 @@ You'll find few games written in the Python language. Game development companies
 
 I don't want to flood you with a long list of resources. Instead here's three that I like: two interactive courses which you can complete in your browser without having to download any tool and a free ebook that will help you automate repetitive tasks on your computer with Python.
 
-### Codecademy's interactive Python 3 track
+### Dive into Python 3
 
-You can get started right now with the Python programming language using [ Codecademy's interactive Python course ](https://www.codecademy.com/en/tracks/python). You don't need to download a code editor as you'll write code directly in your browser. It covers the language's basic syntax in an accessible fashion.
+You can get started right now with the Python programming language using [Dive into Python](https://diveinto.org/python3/table-of-contents.html). It is a practical introduction to the language, showing you real-world uses from the start.
 
-{{< figure
-  src="./img/codecademy-console-example.png"
-  alt="Codecademy's programming console with Python sample code"
-  caption="Codecademy's Python editor features the lesson, your code and the result side-by-side"
->}}
+If you want to go further after that, there's a is a great free ebook called [Python Data Science](https://runestone.academy/runestone/books/published/pythonds/index.html). This resource will help you develop a good understanding of how computers process data and how to write efficient programs, performance-wise.
 
 ### The Python Tutorial
 
