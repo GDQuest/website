@@ -1,8 +1,9 @@
 ---
 title: {{ replace .TranslationBaseName "-" " " | title }}
-description: Temp description
+date: {{ .Date }}
 author: nathan
 
-date: {{ .Date }}
+description: Short description
+
 draft: true
 ---
