@@ -1,0 +1,16 @@
+name = "Johnny Goss"
+user = "johnny"
+picture = "img/avatar/johnny.png"
+description = "Indie game developer and tutorial maker. Dungeon Master."
+
+website = "http://johnnygoss.dev"
+email = "me@johnnygoss.dev"
+
+[social.twitter]
+url = "https://twitter.com/johnnygossdev"
+icon = "twitter"
+name = "Twitter"
+[social.youtube]
+url = "http://youtube.com/c/johnnygossdev"
+icon = "youtube"
+name = "Youtube"
