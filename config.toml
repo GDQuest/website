@@ -1,13 +1,15 @@
 baseURL = "https://gdquest.com/"
 languageCode = "en-us"
 title = "GDQuest"
-
-metaDataFormat = "yaml"
+theme = "github.com/GDQuest/website-theme-learn"
 
 paginate = 6
 paginatePath = "page"
 
 assetDir = "resources"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
 [[menu.main]]
 identifier  = "tutorial"
@@ -40,9 +42,6 @@ url         = "https://gumroad.com/gdquest"
 
 [permalinks]
 
-[taxonomies]
-tags = "tags"
-category = "category"
 
 [author]
 name = "Nathan Lovato"
@@ -68,15 +67,16 @@ license_copyright= "GDQuest and contributors"
 link = "https://www.youtube.com/c/gdquest"
 icon = "youtube"
 description = "GDQuest Youtube channel"
+
 [params.social.2]
 link = "https://twitter.com/NathanGDQuest"
 icon = "twitter"
 description = "GDQuest Twitter page"
+
 [params.social.3]
 link = "https://github.com/GDQuest/"
 icon = "github"
 description = "GDQuest GitHub page"
-
 
 [blackfriday]
 angledQuotes = true
