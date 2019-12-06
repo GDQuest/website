@@ -1,30 +1,22 @@
----
-author: "nathan"
-category:
-    - "Krita"
-date: "2016-05-09T17:49:09+02:00"
-description: "Krita 3.0 is a major update to an already powerful application. New rendering engine, animation toolset, grid, guides, snapping... there's a long list of new tools to discover. Let's explore them together in this article!"
-tags:
-    - "krita review"
-    - "krita 3"
-title: "What’s New in Krita 3.0? Krita Review"
-type: "post"
-aliases:
-    - "new-in-krita-3"
-    - post/krita/new-in-krita-3/
++++
+aliases = ["new-in-krita-3", "post/krita/new-in-krita-3/"]
+anchors = ["major-new-features", "smaller-features", "krita-3-review"]
+author = "nathan"
+category = ["Krita"]
+date = "2016-05-09T17:49:09+02:00"
+description = "Krita 3.0 is a major update to an already powerful application. New rendering engine, animation toolset, grid, guides, snapping... there's a long list of new tools to discover. Let's explore them together in this article!"
+nav = true
+tags = ["krita review", "krita 3"]
+title = "What’s New in Krita 3.0? Krita Review"
+type = "post"
 
-nav: true
-anchors:
-    - "major-new-features"
-    - "smaller-features"
-    - "krita-3-review"
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "The Krita brushes"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "The Krita brushes"
----
++++
 
 <span class="text-muted">Never heard of Krita? It is a free, open source digital painting program that used to be Linux-only. Since 2 years though, there's a Windows version, and the program is now being ported to Mac.</span>
 

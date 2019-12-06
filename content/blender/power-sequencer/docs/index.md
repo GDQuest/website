@@ -1,9 +1,9 @@
----
-title: Blender Power Sequencer Documentation
-description: Blender Power Sequencer reference
-author: nathan
++++
+author = "nathan"
+date = "2018-01-01T19:47:10+01:00"
+description = "Blender Power Sequencer reference"
+title = "Blender Power Sequencer Documentation"
 
-date: 2018-01-01T19:47:10+01:00
----
++++
 
 {{< shortcuts_power_sequencer >}}

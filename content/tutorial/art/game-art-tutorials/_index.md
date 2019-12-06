@@ -1,22 +1,17 @@
----
-title: 'Game Art Tutorials'
-description: Learn game art and general digital art techniques for Free!
-date: 2015-02-25T11:43:39.000Z
-author: nathan
++++
+author = "nathan"
+date = "2015-02-25T11:43:39.000Z"
+description = "Learn game art and general digital art techniques for Free!"
+keywords = ["ENTER KEYWORDS"]
+tags = ["free", "training"]
+title = "Game Art Tutorials"
+type = "course"
 
-keywords:
-  - ENTER KEYWORDS
+[banner]
+  src = "banner.png"
 
-tags:
-  - free
-  - training
+[[resources]]
+  name = "banner"
+  src = "banner.png"
 
-type: course
-
-banner:
-    src: banner.png
-
-resources:
-- src: banner.png
-  name: banner
----
++++

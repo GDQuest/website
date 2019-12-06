@@ -1,11 +1,10 @@
 +++
-title = "1st Chapter"
-
 chapter = true
+date = "2019-12-06T14:39:34+02:00"
 pre = "<b>X. </b>"
-
-date = 2019-12-06T14:39:34+02:00
+title = "1st Chapter"
 weight = 5
+
 +++
 
 ### Chapter X

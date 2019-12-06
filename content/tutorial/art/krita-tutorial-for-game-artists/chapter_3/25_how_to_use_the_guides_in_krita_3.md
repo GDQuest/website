@@ -1,11 +1,10 @@
----
-author: nathan
-date: 2017-01-20T07:54:29.000Z
-title: "How to use the Guides in Krita 3"
-description: "We're looking at how the guides work in Krita in this tutorial."
++++
+author = "nathan"
+date = "2017-01-20T07:54:29.000Z"
+description = "We're looking at how the guides work in Krita in this tutorial."
+title = "How to use the Guides in Krita 3"
+type = "video"
+videoid = "XY2AACsodXk"
 
-type: video
-
-videoid: XY2AACsodXk
----
++++
 

@@ -1,8 +1,7 @@
----
-author: nathan
-title: Tilemaps, Grids and Vectors
++++
+author = "nathan"
+title = "Tilemaps, Grids and Vectors"
+type = "course_chapter"
+weight = 2
 
-type: course_chapter
-
-weight: 2
----
++++

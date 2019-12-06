@@ -1,25 +1,4 @@
----
-title: How to get your Kickstarter rewards
-description: You will receive your rewards via email as we release courses and tutorials in early access. Here's our guide on how to find and unlock your access on Gumroad.
-author: nathan
 
-resources:
-  - src: banner.jpg
-    name: banner
-
-date: 2019-03-06T10:23:08+09:00
-
-categories:
-    - news
-tags:
-    - gdquest
-    - godot kickstarter
-    - gdquest kickstarter
-    - crowdfunding
-    - godot game engine
-    - godot course
-    - faq
----
 
 **To get all your rewards, please add our email to your address book!** Otherwise, your reward emails may land in the spam box. It's `nathan [at] gdquest`.com.
 

@@ -1,32 +1,24 @@
----
-author: nathan
-type: product
-date: 2017-02-22T15:11:59+01:00
-title: Make Professional Painterly Game Art with Krita
-small: Krita course
-description: Do you want to become a better artist? This Krita course will teach you how to create professional 2d game sprites with the free, open source painting program Krita
++++
+aliases = ["product/krita-tutorial-1", "krita-professional-game-art-tutorial", "product/krita/painterly_game_art"]
+author = "nathan"
+category = "Krita"
+date = "2017-02-22T15:11:59+01:00"
+description = "Do you want to become a better artist? This Krita course will teach you how to create professional 2d game sprites with the free, open source painting program Krita"
+product = "krita-tutorial-1"
+small = "Krita course"
+tags = ["krita brushes", "free krita brushes", "krita brush"]
+title = "Make Professional Painterly Game Art with Krita"
+type = "product"
 
-category: Krita
-tags:
-  - krita brushes
-  - free krita brushes
-  - krita brush
+[banner]
+  alt = "Banner for the Krita course. A pig and a rabbit character in the forest."
+  src = "banner.jpg"
 
-aliases:
-  - product/krita-tutorial-1
-  - krita-professional-game-art-tutorial
-  - product/krita/painterly_game_art
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
 
-banner:
-  src: banner.jpg
-  alt: Banner for the Krita course. A pig and a rabbit character in the forest.
-
-resources:
-- src: banner.jpg
-  name: banner
-
-product: krita-tutorial-1
----
++++
 
 ## What will I learn in this course?
 

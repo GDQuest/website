@@ -1,30 +1,19 @@
----
-title: "Godot 3 course: small March update"
-description: "After moving and settling in Nara, Japan, I got back to GDQuest. This month's update is smaller than usual, but it's still out in time, as promised!"
-author: nathan
++++
+author = "nathan"
+categories = ["news"]
+date = "2018-03-31T15:19:32+09:00"
+description = "After moving and settling in Nara, Japan, I got back to GDQuest. This month's update is smaller than usual, but it's still out in time, as promised!"
+tags = ["gdquest", "godot 3", "godot course update", "astar", "pathfinding", "gamedev", "Nara", "Japan"]
+title = "Godot 3 course: small March update"
+type = "post"
 
-date: 2018-03-31T15:19:32+09:00
+[[resources]]
+  name = "banner"
+  src = "2018-03-release-6-banner.png"
+  [resources.params]
+    alt = "Godot course update 6 with the AStar pathfinding Godot project logo in front of cherry tree flowers"
 
-type: post
-
-resources:
-  - src: 2018-03-release-6-banner.png
-    name: banner
-    params:
-        alt: "Godot course update 6 with the AStar pathfinding Godot project logo in front of cherry tree flowers"
-
-categories:
-    - news
-tags:
-    - gdquest
-    - godot 3
-    - godot course update
-    - astar
-    - pathfinding
-    - gamedev
-    - Nara
-    - Japan
----
++++
 
 The new update is out! As announced in the last news post, it's smaller than usual. for two reasons:
 

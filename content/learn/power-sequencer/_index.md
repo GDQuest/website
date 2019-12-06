@@ -1,20 +1,19 @@
 +++
-title = "Power Sequencer"
-subtitle = "The Free Blender add-on for video editors"
-description = "The Free Blender add-on for video editors"
-
 chapter = true
+date = "2018-01-04T19:46:48+01:00"
+description = "The Free Blender add-on for video editors"
 pre = "<b>X. </b>"
+subtitle = "The Free Blender add-on for video editors"
+title = "Power Sequencer"
 
-date = 2018-01-04T19:46:48+01:00
-
-[[banner]]
-  src = "banner-power-sequencer.png"
+[banner]
   alt = "Power Sequencer add-on logo"
+  src = "banner-power-sequencer.png"
 
 [[resources]]
-  src = "banner-power-sequencer.png"
   name = "banner"
+  src = "banner-power-sequencer.png"
+
 +++
 
 At GDQuest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [ Power Sequencer ](https://github.com/GDQuest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.

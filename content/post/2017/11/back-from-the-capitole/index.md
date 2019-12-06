@@ -1,24 +1,18 @@
----
-title: "Godot and Blender presentations from the Capitole du Libre 2017"
-description: "We met at the Capitole du Libre 2017 with Gilles Roudière and Julian Murgia, to showcase Godot 3. It's a major event around Free Software in France. Read this post to download the Godot 3 presentations."
-author: nathan
++++
+author = "nathan"
+categories = ["news"]
+date = "2017-11-22T15:25:48+01:00"
+description = "We met at the Capitole du Libre 2017 with Gilles Roudière and Julian Murgia, to showcase Godot 3. It's a major event around Free Software in France. Read this post to download the Godot 3 presentations."
+tags = ["github", "blender add-on", "godot 3", "capitole du libre"]
+title = "Godot and Blender presentations from the Capitole du Libre 2017"
 
-date: 2017-11-22T15:25:48+01:00
+[[resources]]
+  name = "banner"
+  src = "banner.png"
+  [resources.params]
+    alt = "A word cloud with some of the new features in Godot 3"
 
-resources:
-  - src: banner.png
-    name: banner
-    params:
-        alt: "A word cloud with some of the new features in Godot 3"
-
-categories:
-    - news
-tags:
-    - github
-    - blender add-on
-    - godot 3
-    - capitole du libre
----
++++
 
 
 Last week-end we went to the Capitole du Libre, a major event around Free Software in France, to showcase Godot. We met there with Gilles Roudière and Julian Murgia, two active contributors.

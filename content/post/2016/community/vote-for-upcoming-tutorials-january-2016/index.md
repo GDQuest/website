@@ -1,13 +1,13 @@
----
-author: nathan
-date: 2016-01-11T09:16:10+01:00
-layout: single
-category:
-- Community
-title: Vote for future free tutorials! 2016
-type: post
-description: It is time for you, members of the community, to choose the tutorial series you want to see on the channel! Check out this post to vote for your favourite topic.
----
++++
+author = "nathan"
+category = ["Community"]
+date = "2016-01-11T09:16:10+01:00"
+description = "It is time for you, members of the community, to choose the tutorial series you want to see on the channel! Check out this post to vote for your favourite topic."
+layout = "single"
+title = "Vote for future free tutorials! 2016"
+type = "post"
+
++++
 
 06-2016 update: Voting is over! You were more than 400 to vote on the series you want to see on GDQuest.
 

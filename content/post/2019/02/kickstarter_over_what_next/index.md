@@ -1,19 +1,4 @@
----
-title: The Campaign is Over! What now?
-description: "Now the campaign is over, here's some information on what's going to happen next, when, and how you'll get access to your rewards."
-author: nathan
 
-resources:
-  - src: banner.jpg
-    name: banner
-
-date: 2019-02-08T14:13:43+09:00
-
-categories:
-    - news
-tags:
-    - gdquest
----
 
 The campaign is a success. In 3 weeks, we raised over two times our goal. You secured all three stretch goals.
 

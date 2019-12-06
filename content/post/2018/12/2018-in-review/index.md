@@ -1,22 +1,16 @@
----
-title: Happy new year! 2018 in review, looking forward
-description: This year is coming to an end. I wanted to thank you kindly for everything that happened, for your support with the channel and making it possible for us to work full-time doing education for Free Software!
-author: nathan
++++
+author = "nathan"
+categories = ["news"]
+date = "2018-12-30T13:38:29+09:00"
+description = "This year is coming to an end. I wanted to thank you kindly for everything that happened, for your support with the channel and making it possible for us to work full-time doing education for Free Software!"
+tags = ["gdquest", "open source", "linux", "linux gamedev"]
+title = "Happy new year! 2018 in review, looking forward"
 
-date: 2018-12-30T13:38:29+09:00
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
 
-resources:
-  - src: banner.jpg
-    name: banner
-
-categories:
-  - news
-tags:
-  - gdquest
-  - open source
-  - linux
-  - linux gamedev
----
++++
 
 This year is coming to an end. I wanted to thank you kindly for everything that happened, for your support with the channel and making it possible for us to work full-time doing education for Free Software!
 

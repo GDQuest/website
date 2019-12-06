@@ -1,14 +1,12 @@
----
-title: Contributing to GDQuest's projects
-description: Do you want to become a Free Software contributor? This guide is here to help you learn everything you need!
-author: nathan
++++
+aliases = ["/open-source/contributing-guidelines"]
+author = "nathan"
+date = "2018-11-05T09:30:19+09:00"
+description = "Do you want to become a Free Software contributor? This guide is here to help you learn everything you need!"
+title = "Contributing to GDQuest's projects"
+type = "post"
 
-type: post
-
-date: 2018-11-05T09:30:19+09:00
-aliases:
-  - /open-source/contributing-guidelines
----
++++
 
 If you want to **become a Free Software contributor** and be part of our projects, this is the place to get started! 
 

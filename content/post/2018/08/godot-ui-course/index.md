@@ -1,30 +1,16 @@
----
-title: "Godot Interface Design Course: standalone version"
-description: "Are you looking for tutorials dedicated to the complex UI system in the Godot engine? This intermediate-level series is for you!"
-author: nathan
++++
+author = "nathan"
+categories = ["news"]
+date = "2018-08-13T19:49:19+09:00"
+description = "Are you looking for tutorials dedicated to the complex UI system in the Godot engine? This intermediate-level series is for you!"
+tags = ["godot user interface tutorial", "godot engine ui", "godot control tutorial", "godot ui tutorial", "godot interface tutorial", "godot inventory tutorial", "godot lifebar tutorial", "godot game engine", "godot 3 course", "game design", "godot 3", "gdquest"]
+title = "Godot Interface Design Course: standalone version"
 
-date: 2018-08-13T19:49:19+09:00
+[[resources]]
+  name = "banner"
+  src = "banner.png"
 
-resources:
-  - src: banner.png
-    name: banner
-
-categories:
-    - news
-tags:
-    - godot user interface tutorial
-    - godot engine ui
-    - godot control tutorial
-    - godot ui tutorial
-    - godot interface tutorial
-    - godot inventory tutorial
-    - godot lifebar tutorial
-    - godot game engine
-    - godot 3 course
-    - game design
-    - godot 3
-    - gdquest
----
++++
 
 If you don't have the full [Godot 3 course](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) and you are only interested in UI design, you can now get our UI master series as a stand-alone course! That way you only pay for the content you want! 😊
 

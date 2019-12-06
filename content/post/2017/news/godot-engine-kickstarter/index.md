@@ -1,28 +1,20 @@
----
-title: Game Creation with Godot, Kickstarter soon
-description: In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!
-author: nathan
-date: 2017-04-19T15:00:11+01:00
++++
+aliases = ["post/2017/news/godot_engine_kickstarter"]
+author = "nathan"
+category = ["news"]
+date = "2017-04-19T15:00:11+01:00"
+description = "In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!"
+tags = ["gdquest", "godot game engine", "kickstarter 2017", "gdquest kickstarter", "crowdfunding", "news"]
+title = "Game Creation with Godot, Kickstarter soon"
 
-category:
-    - news
-tags:
-    - gdquest
-    - godot game engine
-    - kickstarter 2017
-    - gdquest kickstarter
-    - crowdfunding
-    - news
+[[resources]]
+  class = "-pink"
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Course banner: a jumping rabbit surrounded by Godot bot heads"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Course banner: a jumping rabbit surrounded by Godot bot heads"
-    class: -pink
-aliases:
-- post/2017/news/godot_engine_kickstarter
----
++++
 
 Update: the form's results are available: [Check them out]({{< ref "/post/2017/news/godot-kickstarter-form-results/index.md" >}})!
 

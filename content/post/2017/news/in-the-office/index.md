@@ -1,25 +1,19 @@
----
-author: nathan
-title: "In the office - January news"
-description: "The past 2 months have been hectic. I’ll pass on the details, but since a few days, I’m renting an office. After so much time struggling to work from home, you can’t imagine how great it feels!"
-category: 
-  - "news"
-tags:
-  - "community"
-  - "gdquest"
-  - "gdquest news"
-date: "2017-01-21T17:35:09+01:00"
++++
+aliases = ["in-the-office", "post/2017/news/in_the_office"]
+author = "nathan"
+category = ["news"]
+date = "2017-01-21T17:35:09+01:00"
+description = "The past 2 months have been hectic. I’ll pass on the details, but since a few days, I’m renting an office. After so much time struggling to work from home, you can’t imagine how great it feels!"
+tags = ["community", "gdquest", "gdquest news"]
+title = "In the office - January news"
 
-aliases:
-  - in-the-office
-  - post/2017/news/in_the_office
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "In the office article banner image"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-      alt: "In the office article banner image"
----
++++
 
 {{< youtube aouow3pfa7Q >}}
 

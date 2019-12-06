@@ -1,26 +1,18 @@
----
-title: "Godot 3 course: Hobby and Indie versions out in early access"
-description: "The new version is finally out! You will find improvements and an extra video in the Finite State Machine chapter, and a new Game Design chapter. This one includes 3 html-based course documents and 40 minutes of video."
-author: nathan
++++
+author = "nathan"
+category = ["news"]
+date = "2017-11-05T16:29:59+01:00"
+description = "The new version is finally out! You will find improvements and an extra video in the Finite State Machine chapter, and a new Game Design chapter. This one includes 3 html-based course documents and 40 minutes of video."
+tags = ["tutorial", "Godot 3", "Kickstarter", "Attack", "ranged attack tutorial", "sword attack tutorial"]
+title = "Godot 3 course: Hobby and Indie versions out in early access"
 
-date: 2017-11-05T16:29:59+01:00
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Course release 2 banner, with an isometric diagram of the game's elemental tetrad"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Course release 2 banner, with an isometric diagram of the game's elemental tetrad"
-
-category:
-    - news
-tags:
-    - tutorial
-    - Godot 3
-    - Kickstarter
-    - Attack
-    - ranged attack tutorial
-    - sword attack tutorial
----
++++
 
 
 The new version is finally out! You will find improvements and an extra video in the Finite State Machine chapter, and a new Game Design chapter. This one includes 3 html-based course documents and 40 minutes of video.

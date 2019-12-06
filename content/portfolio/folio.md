@@ -1,8 +1,9 @@
----
-title: Portfolio
-type: post
-url: /game-design-portfolio
----
++++
+title = "Portfolio"
+type = "post"
+url = "/game-design-portfolio"
+
++++
 
 <header grid>
     <div column>

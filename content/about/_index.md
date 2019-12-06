@@ -1,19 +1,4 @@
----
-title: About
-small: GDQuest, its mission, and the people behind it
-date: 2017-04-10T13:40:07+02:00
-layout: single
 
-banner:
-  src: img/business-card-banner-format.png
-  alt: "Godot course update 4 banner showing characters on a tiles-based map"
-
-resources:
-- src: img/business-card-banner-format.png
-  name: banner
-
-paginate: false
----
 
 ## GDQuest's mission
 

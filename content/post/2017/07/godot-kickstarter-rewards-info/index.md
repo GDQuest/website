@@ -1,25 +1,18 @@
----
-date: 2017-07-03T09:18:18+02:00
-author: nathan
++++
+author = "nathan"
+category = ["news"]
+date = "2017-07-03T09:18:18+02:00"
+description = "The Godot Kickstarter is over. What now? The backers will get their first rewards this week, and we're getting started for a year of game creation tutorials."
+tags = ["news", "godot game engine", "kickstarter", "Godot Kickstarter", "GDQuest Kickstarter", "crowdfunding"]
+title = "Godot Kickstarter: When and How you’ll get your Rewards"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-      alt: "A schema showing a message being sent from point A to point B"
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "A schema showing a message being sent from point A to point B"
 
-category:
-- news
-description: The Godot Kickstarter is over. What now? The backers will get their first rewards this week, and we're getting started for a year of game creation tutorials.
-tags:
-- news
-- godot game engine
-- kickstarter
-- Godot Kickstarter
-- GDQuest Kickstarter
-- crowdfunding
-title: "Godot Kickstarter: When and How you’ll get your Rewards"
----
++++
 
 
 **You will get all your rewards, votes and major news via email**, starting this week. So be sure that you've set the right address on Kickstarter. Feel free to send me a message on Kickstarter or an email if you have any trouble. Don't forget to:

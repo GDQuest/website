@@ -1,18 +1,19 @@
----
-author: "nathan"
-category: ["News"]
-date: "2016-06-28T11:17:06+02:00"
-description: "June has been a busy month. I went to the biggest yearly KDE development sprint in Randa, Switzerland, along with a few dozens of programmers, and made a series of tutorials on Krita 3's new features."
-tags: ["community"]
-title: "June update: the Randa meetings"
-type: "post"
++++
+author = "nathan"
+category = ["News"]
+date = "2016-06-28T11:17:06+02:00"
+description = "June has been a busy month. I went to the biggest yearly KDE development sprint in Randa, Switzerland, along with a few dozens of programmers, and made a series of tutorials on Krita 3's new features."
+tags = ["community"]
+title = "June update: the Randa meetings"
+type = "post"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Randa's surrounding mountains"
----
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Randa's surrounding mountains"
+
++++
 
 We're getting to the end of June. It's time to sum up all that's been happening this month. The short version: I kept improving the website, went to the biggest yearly KDE development sprint in Randa, Switzerland, and added about 1h of tutorials dedicated to Krita 3's new features in the [Krita training](/tutorial/art/krita-tutorial-for-game-artists/). You can find more details about what happened in Randa, and what the plans are for July, below.
 

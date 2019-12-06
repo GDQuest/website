@@ -1,8 +1,8 @@
----
-author: nathan
-title: Going further with Krita's toolset 
-description: "Let’s look at some more advanced tools, like filters and masks."
++++
+author = "nathan"
+description = "Let’s look at some more advanced tools, like filters and masks."
+title = "Going further with Krita's toolset"
+type = "course_chapter"
+weight = 5
 
-type: course_chapter
-weight: 5
----
++++

@@ -1,10 +1,10 @@
----
-title: Mentions légales
-description: mentions legales du site
-author: nathan
++++
+author = "nathan"
+date = "2018-04-04T12:07:36+09:00"
+description = "mentions legales du site"
+title = "Mentions légales"
 
-date: 2018-04-04T12:07:36+09:00
----
++++
 
 ## Informations sur l'éditeur
 

@@ -1,19 +1,4 @@
----
-title: Support our Kickstarter via PayPal
-description: Now we've comfortably moved past our initial goal, you can support our 2d and 3d Godot courses via PayPal!
-author: nathan
 
-date: 2019-01-26T16:29:51+09:00
-
-resources:
-  - src: banner.jpg
-    name: banner
-
-categories:
-    - news
-tags:
-    - gdquest
----
 
 The Kickstarter campaign ended on February 8, 2019. Pledges are now closed.
 
