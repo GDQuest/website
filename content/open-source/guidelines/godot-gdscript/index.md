@@ -455,7 +455,7 @@ Godot relies on its node tree, a recursive data structure: if we pick any node i
 
 {{< figure
     src="./img/scene_tree.png"
-    caption="Screenshot of a real system scene tree layout from [OpenRPG]"
+    caption="Screenshot of a real system scene tree layout from [OpenRPG](https://github.com/GDQuest/godot-open-rpg)"
     alt="./img/scene_tree.png" >}}
 
 In the example above, you can view each node as a separate scene, be it `Board` or `QuestSystem`.
@@ -534,7 +534,7 @@ Here are a few ideas that could improve code maintainability and overall structu
 
 {{< figure
     src="./img/openrpg_scene_tree.png"
-    caption="[OpenRPG](https://github.com/razcore-art/godot-open-rpg) experimental branch scene tree."
+    caption="[OpenRPG](https://github.com/GDQuest/godot-open-rpg) experimental branch scene tree."
     alt="./img/openrpg_scene_tree.png" >}}
 
 Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`. They're independent systems in this implementation. The `Party` node/scene can be viewed as the player object.
@@ -696,11 +696,3 @@ signal battle_finished(msg)
 This singleton only lists signals that can be emitted and connected to, that's it. A "deeply" nested node like `$Game/Party/Godette/Walk` could then emit the appropriate signal directly using the global `Events` node: `Events.emit_signal("party_walk_started", {destination = destination})`, `Events.emit_signal("party_walk_finished", {})`. Other nested nodes could connect to these signals: `Events.connect("party_walk_started", self, "_on_Party_walk_started")` etc.
 
 This way, we can encapsulate signal connections in the related nodes instead of managing them in the code of some parent script, like `Game`.
-
-[OpenRPG]: https://github.com/GDQuest/godot-open-rpg
-[state]: ./img/node_state.png
-[behavior]: ./img/node_behavior.png
-[inner_connection]: ./img/node_inner_connection.png
-[state_connection]: ./img/node_state_connection.png
-[behavior_connection]: ./img/node_behavior_connection.png
-[signal_connection]: ./img/node_signal_connection.png
