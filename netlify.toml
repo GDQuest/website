@@ -2,25 +2,25 @@
   publish = "public"
   command = "hugo --gc --minify"
 
-[context.production.environment]
+[build.environment]
   GO_VERSION = "1.12"
   HUGO_VERSION = "0.57.2"
+
+[context.production.environment]
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
   command = "hugo  --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
-[context.deploy-preview.environment]
-  GO_VERSION = "1.12"
-  HUGO_VERSION = "0.57.2"
-
 [context.branch-deploy]
   command = "hugo  --gc --minify -b $DEPLOY_PRIME_URL"
 
-[context.branch-deploy.environment]
-  GO_VERSION = "1.12"
-  HUGO_VERSION = "0.57.2"
-
 [context.next.environment]
   HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "http://gdquest.netlify.com/*"
+  to = "http://gdquest.com/:splat"
+  status = 301
+  force = true
