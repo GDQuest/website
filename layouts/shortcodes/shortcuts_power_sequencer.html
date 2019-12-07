@@ -1,1 +1,45 @@
-{{ partial "shortcuts.html" . }}
+{{ with index $.Site.Data.blender.power_sequencer_docs }}
+<section class="grid split2 container">
+    <!-- Left column: operators list menu -->
+    <nav class="small">
+        <div class="sticky-nav">
+            <h3>Operators</h3>
+            <ul>
+                {{ range $key, $value := . }}
+                <li><a href="#{{$key}}">{{ $value.name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="big">
+        {{ range $key, $value := . }}
+        <article id="{{$key}}" class="operator">
+            <h5>{{$value.name}}</h5>
+            {{ strings.TrimPrefix "*brief* " $value.description | markdownify }}
+            {{ with $value.demo }}
+                <p><img src="{{.}}" alt=""></p>
+            {{ end }}
+
+            <!-- Shortcut JSON example: -->
+            <!-- "shortcuts": [
+                [{"type": "X", "value": "PRESS"}, {}, "Delete Direct"],
+                [{"type": "DEL", "value": "PRESS"}, {}, "Delete Direct"]
+            ]-->
+            {{ with $value.shortcuts }}
+            <table class="shortcuts">
+                <tbody>
+                    {{ range . }}
+                    <tr>
+                        <td>{{ partial "keystroke.html" (index . 0) }}</td>
+                        <td>{{ index . 2 }}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+            {{ end }}
+        </article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
