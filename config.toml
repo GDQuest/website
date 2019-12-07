@@ -1,7 +1,7 @@
 baseURL = "https://gdquest.com/"
 languageCode = "en-us"
 title = "GDQuest"
-theme = "github.com/GDQuest/website-theme-learn"
+theme = "github.com/matcornic/hugo-theme-learn"
 
 paginate = 6
 paginatePath = "page"
