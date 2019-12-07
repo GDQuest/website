@@ -2,7 +2,7 @@
 author: nathan
 date: 2017-01-20T07:54:29.000Z
 title: "Create your own keyboard shortcuts in Krita"
-description: "All tutorials: http://bit.ly/GDquest-Tutorials"
+description: "All tutorials: http://bit.ly/GDQuest-Tutorials"
 
 type: video
 

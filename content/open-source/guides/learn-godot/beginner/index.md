@@ -12,7 +12,7 @@ Do you want to learn to make games, but you don't know where to start? Do you ha
 
 _If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) instead._
 
-You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDquest)**.
+You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDQuest)**.
 
 ## Become a game developer
 
@@ -74,7 +74,7 @@ This section is for you if you know little about game creation and programming. 
 1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md" >}}) is our guide to learn computer programming.
 1. [Game Engines: what are they and how to choose the right one?](https://youtu.be/2tZK75R2K2c)
 
-![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](https://github.com/GDquest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
+![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](https://github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
 
 ### Creating your first game with Godot
 
@@ -88,7 +88,7 @@ Here, we've decided to focus on a hands-on approach, which is what we recommend 
 1. [3D Roll the Ball](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) by BornCG is a playlist that includes a tutorial series to create a small 3D game from scratch.
 1. [Make a Match 3 game like Candy Crush using Godot](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) by Mister Taft Creates is a step-by-step series that goes through the creation of a complete **match-3 game**, like Candy Crush. It is the longest series in this step, requiring some dedication.
 
-![Your First Godot Game - 2D Platformer](./img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](https://github.com/GDquest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
+![Your First Godot Game - 2D Platformer](./img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](https://github.com/GDQuest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
 
 Other useful guides to use along with the videos above:
 

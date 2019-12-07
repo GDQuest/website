@@ -1,7 +1,7 @@
 {
   "name": "gdquest-website",
   "version": "1.0.0",
-  "description": "GDquest official website",
+  "description": "GDQuest official website",
   "main": "gdquest",
   "dependencies": {
     "npm": "^6.11.2"
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NathanLovato/GDquest-website.git"
+    "url": "git+https://github.com/NathanLovato/GDQuest-website.git"
   },
   "author": "Nathan Lovato",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GDquest/GDquest-website/issues"
+    "url": "https://github.com/GDQuest/GDQuest-website/issues"
   },
-  "homepage": "https://github.com/GDquest/GDquest-website"
+  "homepage": "https://github.com/GDQuest/GDQuest-website"
 }

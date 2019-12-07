@@ -18,7 +18,7 @@ tags:
     - gdquest
 ---
 
-This month's update adds **2 hours of tutorials** dedicated to particles! There are now over **70 video tutorials** in the course's [ Pro version ](https://gumroad.com/l/godot-tutorial-make-professional-2d-games).
+This month's update adds **2 hours of tutorials** dedicated to particles! There are now over **70 video tutorials** in the course's [Pro version](https://gumroad.com/l/godot-tutorial-make-professional-2d-games).
 
 The particles chapter shows how to create a variety of effects like smoke and explosions. We start with the very basics and wrap-up with a fireball and layered visual effects.
 

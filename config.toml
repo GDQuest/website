@@ -59,23 +59,23 @@ stylesheet = "concise.css"
 ytapikey = "AIzaSyAUCyzwHmO71chFn7wMa6VlBNzk0tpkFYk"
 
 # Social network names for Meta tag SEO
-twitter = "NathanGDquest"
+twitter = "NathanGDQuest"
 
-github_repo = "https://github.com/GDquest/GDquest-website/"
-license_copyright= "GDquest and contributors"
+github_repo = "https://github.com/GDQuest/GDQuest-website/"
+license_copyright= "GDQuest and contributors"
 
 [params.social.1]
 link = "https://www.youtube.com/c/gdquest"
 icon = "youtube"
-description = "GDquest Youtube channel"
+description = "GDQuest Youtube channel"
 [params.social.2]
-link = "https://twitter.com/NathanGDquest"
+link = "https://twitter.com/NathanGDQuest"
 icon = "twitter"
-description = "GDquest Twitter page"
+description = "GDQuest Twitter page"
 [params.social.3]
 link = "https://github.com/GDQuest/"
 icon = "github"
-description = "GDquest GitHub page"
+description = "GDQuest GitHub page"
 
 
 [blackfriday]

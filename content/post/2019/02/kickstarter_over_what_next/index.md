@@ -19,7 +19,7 @@ The campaign is a success. In 3 weeks, we raised over two times our goal. You se
 
 Thank you for your trust and your support! 🙂
 
-Building a great course takes time. We now have months of work ahead of us to deliver everything. We will try to be as open as possible so you can follow our progress on GitHub, and via frequent updates on [Twitter](https://twitter.com/NathanGDquest) and occasional news videos [on our YouTube channel](https://www.youtube.com/c/gdquest/). Be sure to follow us there!
+Building a great course takes time. We now have months of work ahead of us to deliver everything. We will try to be as open as possible so you can follow our progress on GitHub, and via frequent updates on [Twitter](https://twitter.com/NathanGDQuest) and occasional news videos [on our YouTube channel](https://www.youtube.com/c/gdquest/). Be sure to follow us there!
 
 In the meantime, we produced over 6 hours of free tutorials and a dozen of Free and Open Source demos during the campaign. They're all [in this playlist](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu).
 

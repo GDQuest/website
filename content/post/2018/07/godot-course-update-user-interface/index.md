@@ -61,7 +61,7 @@ As the series was already so long, I decided to delay the shop a little bit and 
 
 {{< calltoaction "https://gumroad.com/l/godot-tutorial-make-professional-2d-games" "Get the course!" >}}
 
-## GDquest is on Patreon!
+## GDQuest is on Patreon!
 
 {{< youtube id="jmbIr0-K2z8" >}}
 
@@ -74,7 +74,7 @@ We've worked hard over the years to provide you with hundreds of professional-gr
 The people who help us on Patreon get:
 
 1. Access to our exclusive discord server, where I share insights on new techniques I just discovered with Godot, and that I don't always have the time to cover in tutorials
-2. Early access to tutorials and videos released on the GDquest channel
+2. Early access to tutorials and videos released on the GDQuest channel
 3. Early access to new training products, with a lower price
 
 From the second tier level, you get to vote and suggest tutorials that you want. We will at least cover the most voted one every month.

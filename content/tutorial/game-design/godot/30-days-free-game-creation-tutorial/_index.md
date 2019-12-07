@@ -23,6 +23,6 @@ resources:
   name: banner
 ---
 
-These 30 Godot 2 tutorials were brought to you for free as part of the Kickstarter project [Make Professional 2d Games with Godot](https://gumroad.com/gdquest). For more recent tutorials check out [ GDquest on Youtube ](https://youtube.com/c/gdquest)!
+These 30 Godot 2 tutorials were brought to you for free as part of the Kickstarter project [Make Professional 2d Games with Godot](https://gumroad.com/gdquest). For more recent tutorials check out [GDQuest on Youtube](https://youtube.com/c/gdquest)!
 
-All the assets and the code [open source on Github](https://github.com/GDquest/Godot-30-days-tutorial-challenge-2017) with extra comments to help you learn directly from the projects.
+All the assets and the code [open source on Github](https://github.com/GDQuest/Godot-30-days-tutorial-challenge-2017) with extra comments to help you learn directly from the projects.

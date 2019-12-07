@@ -21,7 +21,7 @@ GDQuest is a social company focused on education and bringing people together ar
 
 Our mission is to **help you become a better game developer**.
 
-We share **the techniques professionals use to make games** and open source the code for most of our projects on [our GitHub page](https://github.com/GDquest/).
+We share **the techniques professionals use to make games** and open source the code for most of our projects on [our GitHub page](https://github.com/GDQuest/).
 
 ### Free education
 

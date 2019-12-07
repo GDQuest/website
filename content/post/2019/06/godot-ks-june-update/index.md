@@ -27,7 +27,7 @@ Time for an update!
 
 {{< youtube puZctyp-5j4 >}}
 
-*Note: I do occasional update videos and live streams [on the GDquest channel](https://www.youtube.com/c/gdquest/). Subscribe if you want to stay posted on everything that's happening around the project.*
+*Note: I do occasional update videos and live streams [on the GDQuest channel](https://www.youtube.com/c/gdquest/). Subscribe if you want to stay posted on everything that's happening around the project.*
 
 ## We've already put out Free content ##
 
@@ -55,13 +55,13 @@ Also, we're working to improve the quality of our work, which also takes time an
 
 {{< youtube ZWO2WiH9p9s >}}
 
-Lastly, we've been working on bonus content, and I've been trying to keep supporting the Krita developers, among other things. I'm now looking to contribute to Blender Video Sequence Editor, which we all use at GDquest. Contributing to Free Software is one of GDquest's goals. It takes time, but it hopefully benefits all of us in return.
+Lastly, we've been working on bonus content, and I've been trying to keep supporting the Krita developers, among other things. I'm now looking to contribute to Blender Video Sequence Editor, which we all use at GDQuest. Contributing to Free Software is one of GDQuest's goals. It takes time, but it hopefully benefits all of us in return.
 
 {{< youtube ZbnQn6h5q0g >}}
 
 ### We've done more, aside from videos ###
 
-We've worked on open [guidelines](https://github.com/GDquest/gdquest-projects/blob/master/guidelines/gdscript-guidelines.md) to improve the quality of our code and our videos.
+We've worked on open [guidelines](https://github.com/GDQuest/gdquest-projects/blob/master/guidelines/gdscript-guidelines.md) to improve the quality of our code and our videos.
 
 {{< youtube CGg3LAo91pY >}}
 
@@ -73,7 +73,7 @@ We've worked on open [guidelines](https://github.com/GDquest/gdquest-projects/bl
 
 I'm also doing a little extra, next week: organizing a new Docs Sprint for Godot 3.2. The reference's completion rate has gone down with massive improvements to Godot 3.1. Together, we can complete it pretty fast, but we need to join forces.
 
-Besides that, we're focusing on the game and the next course moving forward. You can already find the project and on its [GitHub repository](https://github.com/GDquest/godot-metroidvania-2d) 
+Besides that, we're focusing on the game and the next course moving forward. You can already find the project and on its [GitHub repository](https://github.com/GDQuest/godot-metroidvania-2d) 
 
 ### Why produce free content first? ###
 
@@ -89,6 +89,6 @@ In greater details:
 
 That's it for now. 
 
-If you have any more questions or concerns, you can always [send me a tweet](https://twitter.com/NathanGDquest), comment on the update videos, or better, hop on the [GDquest Discord server](https://discord.gg/CHYVgar) and ping me by typing @gdquest. 😄
+If you have any more questions or concerns, you can always [send me a tweet](https://twitter.com/NathanGDQuest), comment on the update videos, or better, hop on the [GDQuest Discord server](https://discord.gg/CHYVgar) and ping me by typing @gdquest. 😄
 
 Be creative, have fun... see you in the next one. 🙂

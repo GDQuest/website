@@ -25,7 +25,7 @@ Last week-end we went to the Capitole du Libre, a major event around Free Softwa
 
 It was a busy event: even though there were fewer visitors than at FOSDEM, people kept coming to the Godot table, curious about the engine's features.
 
-Julian and Gilles gave a two-hours workshop based on @KidsCanCode's [ Your first game ](http://docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html) tutorial. With dozens of students, it was a success! Not everyone could finish in time but the response was really positive.
+Julian and Gilles gave a two-hours workshop based on @KidsCanCode's [Your first game](http://docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html) tutorial. With dozens of students, it was a success! Not everyone could finish in time but the response was really positive.
 
 ![GDQuest in front of the screen, showcasing Godot 3](./conference-e-artsup.jpg)
 
@@ -51,18 +51,18 @@ At the time of writing it's only available in French. You can learn how to downl
 
 For those of you who saw the conference, here are some links to get started with Godot
 
-1. [ Community websites ](https://godotengine.org/community): social networks, QA site, IRC, Discord...
-1. [ Questions and Answers ](https://godotengine.org/qa/)
-1. [ Godot stable docs ](docs.godotengine.org/en/stable/)
-1. [ Godot development docs ](docs.godotengine.org/en/latest/)
+1. [Community websites](https://godotengine.org/community): social networks, QA site, IRC, Discord...
+1. [Questions and Answers](https://godotengine.org/qa/)
+1. [Godot stable docs](docs.godotengine.org/en/stable/)
+1. [Godot development docs](docs.godotengine.org/en/latest/)
 
 Youtubers:
 
-1. [ KidsCanCode ](https://youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg)
-1. [ Angega Studio](https://youtube.com/channel/UChv-gaPlKNROf6iMDhxIpUA)
-1. [ GDQuest ](http://youtube.com/c/gdquest)
+1. [KidsCanCode](https://youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg)
+1. [Angega Studio](https://youtube.com/channel/UChv-gaPlKNROf6iMDhxIpUA)
+1. [GDQuest](http://youtube.com/c/gdquest)
 
-Also check [ Heartbeast ](http://youtube.com/c/heartbeast) and [ Ivan Skodje ](https://youtube.com/channel/UCBHuFCVtZ9vVPkL2VxVHU8A), although they don't create Godot tutorials regularly as of late.
+Also check [Heartbeast](http://youtube.com/c/heartbeast) and [Ivan Skodje](https://youtube.com/channel/UCBHuFCVtZ9vVPkL2VxVHU8A), although they don't create Godot tutorials regularly as of late.
 
 
 ## Blender for video editors and motion designers

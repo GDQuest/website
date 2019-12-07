@@ -39,7 +39,7 @@ If you need us to use a different email address, please send us a message!
 
 ## Follow us on Twitter and YouTube to get news
 
-You will get news about the project on [YouTube](https://www.youtube.com/c/gdquest/) and [Twitter](https://twitter.com/NathanGDquest). Not only news but also the Free and Open Source content. You can also follow us on [GitHub](https://github.com/GDquest/) to get the code as we write it and to contribute to the projects.
+You will get news about the project on [YouTube](https://www.youtube.com/c/gdquest/) and [Twitter](https://twitter.com/NathanGDQuest). Not only news but also the Free and Open Source content. You can also follow us on [GitHub](https://github.com/GDQuest/) to get the code as we write it and to contribute to the projects.
 
 ## Specific rewards
 
@@ -77,7 +77,7 @@ If you want to chat, discuss game development, get support, the best place to do
 
 ### Join the community on Discord
 
-The team and the GDquest community are active on [Discord](https://discord.gg/CHYVgar)! If you have any questions, this is the best place to ask as, when I'm not around, other game developers will be there to chat or to help.
+The team and the GDQuest community are active on [Discord](https://discord.gg/CHYVgar)! If you have any questions, this is the best place to ask as, when I'm not around, other game developers will be there to chat or to help.
 
 ### Twitter and email
 

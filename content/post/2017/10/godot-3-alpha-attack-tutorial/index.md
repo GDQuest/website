@@ -26,14 +26,14 @@ Last week we did a tutorial about attack mechanics in collaboration with Heartbe
 
 **Close combat attack**:
 
-1. [ Weapon Animation ](https://youtu.be/S7jBSs5j4-c)
-1. [ Weapon collision programming ](https://youtu.be/JBczf8qt04c)
+1. [Weapon Animation](https://youtu.be/S7jBSs5j4-c)
+1. [Weapon collision programming](https://youtu.be/JBczf8qt04c)
 
 ![You'll learn to use animations to control the gameplay](img/close-combat-tutorial-result.png)
 
 **Heartbeast's tutorial**:
 
-1. [ Ranged attack: fireball ](https://www.youtube.com/watch?v=rY7wzK59-Jw)
+1. [Ranged attack: fireball](https://www.youtube.com/watch?v=rY7wzK59-Jw)
 
 ![Heartbeast's part revolves around a cute dragon, and FIRE](img/heartbeast-dragon-tutorial.jpg)
 
@@ -50,7 +50,7 @@ While we're at it, it's more than time to give a **shout out to the Kicsktarter'
 
 ![Gamblify's logo](img/gamblify/logo-small.png)
 
-[ Gamblify ](https://www.gamblify.com) is a software development company located in Copenhagen, Denmark. They build applications and games for the gambling industry, from slot machines to betting terminals. It’s a team of 26 persons, including 14 in the software department.
+[Gamblify](https://www.gamblify.com) is a software development company located in Copenhagen, Denmark. They build applications and games for the gambling industry, from slot machines to betting terminals. It’s a team of 26 persons, including 14 in the software department.
 
 ![Gamblify's latest game, Monsters from Outer Space](img/gamblify/monsters5.jpg)
 
@@ -64,7 +64,7 @@ Their latest game, Monsters from Outer Space, is a Godot game.
 
 ![Pinneapple works's logo](img/pineapple-works/logo.png)
 
-[ Pineapple Works ](http://pineapple.works/) is a Polish software development company. They design and develop software, configure and deploy servers, build quality websites, but also games! Like Gamblify, they supported the Godot developers with a large donation. They already used Godot for client work and are looking to work with it again on future games.
+[Pineapple Works](http://pineapple.works/) is a Polish software development company. They design and develop software, configure and deploy servers, build quality websites, but also games! Like Gamblify, they supported the Godot developers with a large donation. They already used Godot for client work and are looking to work with it again on future games.
 
 ![Gamblify's latest game, Monsters from Outer Space](img/pineapple-works/christmas-game.png)
 
@@ -72,13 +72,13 @@ Their latest game, Monsters from Outer Space, is a Godot game.
 
 ![Echo86's logo](img/echo86/logo.png)
 
-[ Echo86 ](http://www.echo86.com) started out as a web design agency and grew in a full-service technology company. They are experienced with HTML 5 game design, and are looking to add Godot to the long list of technologies they use. They work with AngularJS, NodeJS, Pixi, Phaser, and more!
+[Echo86](http://www.echo86.com) started out as a web design agency and grew in a full-service technology company. They are experienced with HTML 5 game design, and are looking to add Godot to the long list of technologies they use. They work with AngularJS, NodeJS, Pixi, Phaser, and more!
 
 ## Mario Fux
 
 ![Konqi, the KDE mascot, in front of a Swiss pike](./img/randa-meetings/konqi-randa.png)
 
-Mario is a kind, busy teacher, developer, and free software advocate. Every year he organizes the large [ Randa meetings ](https://randa-meetings.ch/) in Switzerland for the KDE foundation. I joined them in 2016 to eat swiss delicacies give a hand and meet fellow developers. Along with the school he works at, they supported both Kickstarter campaigns.
+Mario is a kind, busy teacher, developer, and free software advocate. Every year he organizes the large [Randa meetings](https://randa-meetings.ch/) in Switzerland for the KDE foundation. I joined them in 2016 to eat swiss delicacies give a hand and meet fellow developers. Along with the school he works at, they supported both Kickstarter campaigns.
 
 ## Get in touch!
 

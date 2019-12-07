@@ -61,7 +61,7 @@ Also, if you want to improve your game programming or game art skills, look out 
 
 ## That Said...
 
-That's it for today. Don't forget to [follow us on Twitter](https://twitter.com/NathanGDquest) for fresh news, pretty pictures, and insights on Free programs!
+That's it for today. Don't forget to [follow us on Twitter](https://twitter.com/NathanGDQuest) for fresh news, pretty pictures, and insights on Free programs!
 
 Be creative, have fun... see you in the next one 😉
 

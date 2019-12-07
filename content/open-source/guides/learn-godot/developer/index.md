@@ -12,7 +12,7 @@ _For a gentler introduction to the concepts of game development using the [Godot
 
 We've gathered a curated list of resources to make life easier if you are thinking of transitioning to or starting out with Godot. It's aimed at game developers with some experience or are coming from a different game engine.
 
-You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDquest)**.
+You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDQuest)**.
 
 ## Making games with Godot
 
@@ -98,7 +98,7 @@ While the above resources are enough to explore a significant part of Godot, it 
 
 The following section includes links to demos on a wide range of topics. They're currently of varying qualities but they're good resources to bookmark for specific problem-solving ideas.
 
-- [GDQuest Demos](https://github.com/GDquest/Godot-engine-tutorial-demos). This GitHub repository is one of the most complete out there when it comes to Godot demo projects. Some of the demos are outdated as they were built for Godot 2 but there are plenty of recent examples to get you unstuck on specific topics
+- [GDQuest Demos](https://github.com/GDQuest/Godot-engine-tutorial-demos). This GitHub repository is one of the most complete out there when it comes to Godot demo projects. Some of the demos are outdated as they were built for Godot 2 but there are plenty of recent examples to get you unstuck on specific topics
 - [Official Godot Demos](https://github.com/godotengine/godot-demo-projects). The main GitHub Godot repository features most of the topics you might be interested in: 2D, 3D, shaders, networking, UI and more. The GDQuest team is working actively at improving the source code quality of the official demos. Stay tuned!
 
 ## Where to from here?

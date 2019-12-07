@@ -6,7 +6,7 @@ category:
     - "News"
 tags:
     - "community"
-title: "GDquest news and Krita 3.0 pre-alpha 3"
+title: "GDQuest news and Krita 3.0 pre-alpha 3"
 type: "post"
 aliases:
 - post/community/gdquest-news-and-krita-3.0-pre-alpha/
@@ -14,7 +14,7 @@ aliases:
 
 {{< youtube JWwpm4hs0l0 >}}
 
-Hi there! I wanted to keep you posted on what is going on right now with GDquest. The video says it all, but I’m going to sum up the news below.
+Hi there! I wanted to keep you posted on what is going on right now with GDQuest. The video says it all, but I’m going to sum up the news below.
 
 With one last contract finished last week, and the series on monster design done, I am now working full-time on Game Art Quest. My top priority is to release the first version of the GAQ Krita brush back and to finish chapter 0 in the training. Once this is done, I will start releasing videos from the training publicly, at the rate of 1 to 2 per week.
 

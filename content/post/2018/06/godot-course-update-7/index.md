@@ -26,7 +26,7 @@ tags:
 
 In this month's update you get one new chapter in the course. This is the hardest and probably the biggest series I made so far: chapter 5 is dedicated to boss creation.
 
-This builds upon chapters 1 to 3 and brings the [ state programming pattern ](https://www.youtube.com/watch?v=Ty4wZL7pDME) to everyone, whether you've got the essentials, the indie, or the pro version.
+This builds upon chapters 1 to 3 and brings the [state programming pattern](https://www.youtube.com/watch?v=Ty4wZL7pDME) to everyone, whether you've got the essentials, the indie, or the pro version.
 
 As the boss chapter took twice the time I planned to invest in it, I couldn't finish the essentials version in May. I didn't want to cut on quality just to add more tutorials in this release.
 
@@ -38,11 +38,11 @@ We started working together with Guilherme, who makes Godot tutorials on Udemy. 
 
 {{< youtube y1E_y9AIqow >}}
 
-We are also working on a **shaders tutorial series** in collaboration with [ Bastiaan Olij ](https://www.youtube.com/channel/UCrbLJYzJjDf2p-vJC011lYw). We're looking to help you get started with shader programming in both 2D and 3D in Godot. (sorry Baastian for the delay on my end!)
+We are also working on a **shaders tutorial series** in collaboration with [Bastiaan Olij](https://www.youtube.com/channel/UCrbLJYzJjDf2p-vJC011lYw). We're looking to help you get started with shader programming in both 2D and 3D in Godot. (sorry Baastian for the delay on my end!)
 
 ## Bitsummit and Cross-Code team interview
 
-I went to Bitsummit, a sizeable gaming event in Japan, on May 12th. The following Monday, we met with the crosscode team to shoot a short interview. They managed to keep the project going for seven years despite all working remotely. And their efforts resulted in a [ highly polished ](https://store.steampowered.com/app/368340/CrossCode/) game!
+I went to Bitsummit, a sizeable gaming event in Japan, on May 12th. The following Monday, we met with the crosscode team to shoot a short interview. They managed to keep the project going for seven years despite all working remotely. And their efforts resulted in a [highly polished](https://store.steampowered.com/app/368340/CrossCode/) game!
 
 ![Desert map in Crosscode](crosscode-hourglass-desert.png)
 
@@ -51,7 +51,7 @@ I went to Bitsummit, a sizeable gaming event in Japan, on May 12th. The followin
 It's been one year since the Kickstarter campaign. Since then, the course evolved with your feedback and grew bigger than I intended to make it. Initially I thought it would be nice to cover refactoring in the last chapter, but it wasn't a good idea. It's better to cover these techniques as we need them in various chapters. So you will already find videos about re-factoring your code, improving your project structure, and best practices with Godot throughout the entire course.
 
 Instead, how about a last series that starts with a small, yet complete game demo, and shows how to juice it or polish it? Juicing is all about improving the feel of the game. It's often an opportunity to review the gameplay and tweak the mechanics, the game's balance, but also re-factor some code at the same time.
-For more info on juicing, I wrote a [ long article ](https://gameanalytics.com/blog/squeezing-more-juice-out-of-your-game-design.html) on the subject in the past.
+For more info on juicing, I wrote a [long article](https://gameanalytics.com/blog/squeezing-more-juice-out-of-your-game-design.html) on the subject in the past.
 
 I already asked some of you on Discord what you thought about that and for now it seems people like it. But please tell me what you think.
 

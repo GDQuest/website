@@ -14,7 +14,7 @@ date: 2018-01-04T19:46:48+01:00
 layout: single
 ---
 
-At GDQuest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [ Power Sequencer ](https://github.com/GDQuest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.
+At GDQuest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [Power Sequencer](https://github.com/GDQuest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.
 
 <div class="container base-top-padding">
   <h2 data-font="centered" class="no-margin">Edit at the speed of thought</h2>
@@ -64,7 +64,7 @@ Power Sequencer adds over <strong>40 new functions</strong> to Blender's Video E
 
 Installation guide:
 
-1. [ Download ](https://github.com/GDQuest/Blender-power-sequencer/releases) the latest release on GitHub
+1. [Download](https://github.com/GDQuest/Blender-power-sequencer/releases) the latest release on GitHub
 1. In Blender, go to File > User Preferences > Addons
 1. Click "Install From File", find the .zip file from step 1. and click on "install"
 1. Click the checkbox next to "VSE: Power Sequencer" to activate it

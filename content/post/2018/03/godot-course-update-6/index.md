@@ -33,13 +33,13 @@ The new update is out! As announced in the last news post, it's smaller than usu
 
 ![](move-to-japan.jpg)
 
-Work has still been busy until the end of the month: it not only took a while to get back to everyone, catch up with activity on GitHub, but also to get back up to speed in a foreign country. That's why are no new videos this time, aside from the free [ bonus camera tutorial ](https://www.youtube.com/watch?v=lNNO-Gh5j78) released on YouTube.
+Work has still been busy until the end of the month: it not only took a while to get back to everyone, catch up with activity on GitHub, but also to get back up to speed in a foreign country. That's why are no new videos this time, aside from the free [bonus camera tutorial](https://www.youtube.com/watch?v=lNNO-Gh5j78) released on YouTube.
 
 You will find new and updated code examples. In the pro version (Premium Kickstarter tier and up) there's new challenge exercises to complete chapter 1 and 2.
 
 Check out the [Godot 3 course on Gumroad](https://gumroad.com/gdquest)!
 
-I also rewrote the navigation 2d example and wrote a new [ AStar demo ](https://github.com/GDQuest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding) to show how to code grid-based pathfinding in the engine.
+I also rewrote the navigation 2d example and wrote a new [AStar demo](https://github.com/GDQuest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding) to show how to code grid-based pathfinding in the engine.
 
 {{< video "astar-pathfind-demo.mp4" >}}
 
@@ -57,15 +57,15 @@ On top of that, I’m looking to start working on the stretch goals starting aro
 
 I hired Daniel Ramirez, a big Godot contributer who designed the new Godot engine website, to do the same with GDQuest. Better look, better foundations... there's still some content to add but it's here, and it's open source!
 
-The website relies on [ Hugo ](https://gohugo.io/), a powerful and blazing-fast static website engine.
+The website relies on [Hugo](https://gohugo.io/), a powerful and blazing-fast static website engine.
 
 ### Power Sequencer 1.0
 
 ![Power Sequencer banner](power-sequencer-banner.png)
 
-[ Power Sequencer ](https://github.com/GDQuest/Blender-power-sequencer/) is a Blender add-on I initially wrote to edit videos faster for gdquest, and open sourced a few months ago.
+[Power Sequencer](https://github.com/GDQuest/Blender-power-sequencer/) is a Blender add-on I initially wrote to edit videos faster for gdquest, and open sourced a few months ago.
 
-[ Daniel Oakey ](https://github.com/doakey3/), a medical school graduate and open source advocate, offered to contribute to the project. He has done outstanding work and has been a great help to help bring this Free Blender ad-on to the next level.
+[Daniel Oakey](https://github.com/doakey3/), a medical school graduate and open source advocate, offered to contribute to the project. He has done outstanding work and has been a great help to help bring this Free Blender ad-on to the next level.
 
 Solid source code structure, many new features, improved UX, docs from the source code, custom shortcut profiles...
 

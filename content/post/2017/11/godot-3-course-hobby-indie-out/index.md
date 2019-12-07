@@ -27,8 +27,8 @@ The new version is finally out! You will find improvements and an extra video in
 
 The missing two versions of the course are now out on Gumroad:
 
-- [ Hobby ](https://gumroad.com/l/vmPA), for hobbyists with some game creation experience, who'd like a deeper dive in Godot 3
-- [ Indie ](https://gumroad.com/l/XEULZ), for independent developers and students
+- [Hobby](https://gumroad.com/l/vmPA), for hobbyists with some game creation experience, who'd like a deeper dive in Godot 3
+- [Indie](https://gumroad.com/l/XEULZ), for independent developers and students
 
 **Disclaimer**: I can't produce videos for the main chapters until Godot 3 beta is out. It's planned for the end of November. So expect the first gameplay programming chapter in december.
 
@@ -52,4 +52,4 @@ It means no more confusing drop-down menu to select the right version and price 
 
 Until then I'm working on some extra content for the game design chapter, and an open source Godot 3 presentation. It is a presentation template that anyone in the community can reuse, extend, modify and give anywhere around the world.
 
-I'm giving this presentation for the first time in Toulouse [ at the Capitole du Libre ](https://2017.capitoledulibre.org/programme/#developpez-des-jeux-video-pros-a-laide-du-libre). It's on Saturday, November 18th at 15:00. I'll also give it the next Monday in Lyon, at the E-ArtSup school in front of dozens of design students. It's on November 20th at 17:30, and it should be open to the public. Feel free to [ send me a message ](https://twitter.com/NathanGDQuest) if you'd like to come to either event.
+I'm giving this presentation for the first time in Toulouse [at the Capitole du Libre](https://2017.capitoledulibre.org/programme/#developpez-des-jeux-video-pros-a-laide-du-libre). It's on Saturday, November 18th at 15:00. I'll also give it the next Monday in Lyon, at the E-ArtSup school in front of dozens of design students. It's on November 20th at 17:30, and it should be open to the public. Feel free to [send me a message](https://twitter.com/NathanGDQuest) if you'd like to come to either event.

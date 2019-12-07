@@ -320,4 +320,4 @@ var player : Player
 
 Typed GDscript is a powerful tool. Coming with Godot 3.1, it can already help you write more structured code, help you avoid common errors, and create scalable systems. In the future, static types will also bring you a nice performance boost thanks to upcoming compiler optimizations.
 
-Want to become a better game creator? Be sure to [follow us on Twitter](https://twitter.com/NathanGDquest) for more tutorials and news dedicated to game creation and Free Software!
+Want to become a better game creator? Be sure to [follow us on Twitter](https://twitter.com/NathanGDQuest) for more tutorials and news dedicated to game creation and Free Software!

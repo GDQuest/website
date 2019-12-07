@@ -17,7 +17,7 @@ keywords:
 type: post
 ---
 
-The new release of the [GDquest Krita brushes](https://gumroad.com/l/krita-brushes-for-game-artists/) comes with 4 vegetation presets. In the past year, I learned a lot about Krita's brush engines, its strengths and limitations. I also tried to release a lot of presets to stuff up the pack. It's now time to slow down, and improve the releases. Starting with this one, the focus is on quality over quantity.
+The new release of the [GDQuest Krita brushes](https://gumroad.com/l/krita-brushes-for-game-artists/) comes with 4 vegetation presets. In the past year, I learned a lot about Krita's brush engines, its strengths and limitations. I also tried to release a lot of presets to stuff up the pack. It's now time to slow down, and improve the releases. Starting with this one, the focus is on quality over quantity.
 
 The new presets are all documented. They come with a bit of text and an example picture to show you how to use them. **The premium version adds short, voiceless video demos, to get up to speed even faster!** 
 

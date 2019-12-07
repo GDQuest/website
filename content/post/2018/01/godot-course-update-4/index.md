@@ -23,9 +23,9 @@ tags:
     - level design
 ---
 
-The 4th update of the [ Godot 3 course ](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) is out! It includes the new tilesets and tilemap chapter, along with new videos to flesh out chapter *01.The character controller* and chapter *08.Game pre-production*.
+The 4th update of the [Godot 3 course](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) is out! It includes the new tilesets and tilemap chapter, along with new videos to flesh out chapter *01.The character controller* and chapter *08.Game pre-production*.
 
-Godot 3 [ just came out ](https://godotengine.org/article/godot-3-0-released), and with some more work done on the official documentation and a nice collab with Mike from GameFromScratch, I will now focus my efforts fully on the course.
+Godot 3 [just came out](https://godotengine.org/article/godot-3-0-released), and with some more work done on the official documentation and a nice collab with Mike from GameFromScratch, I will now focus my efforts fully on the course.
 
 {{< figure
   src="./new-website-design.png"
@@ -33,7 +33,7 @@ Godot 3 [ just came out ](https://godotengine.org/article/godot-3-0-released), a
   title="The new website design by djrm looks gorgeous."
 >}}
 
-Don’t forget to drop by on Discord to get answers for your questions, to give feedback, etc. The link is in the course’s changelog [ on Gumroad ](official website), where you'll also find detailed release notes.
+Don’t forget to drop by on Discord to get answers for your questions, to give feedback, etc. The link is in the course’s changelog [on Gumroad](official website), where you'll also find detailed release notes.
 
 Note that I am moving house to Nara, Japan, on February 28th.
 
@@ -47,4 +47,4 @@ Since I didn't take much time off since 2016, I'll take some holidays to settle 
 
 See you in the next release,
 
-[ Nathan ](http://twitter.com/NathanGDQuest)
+[Nathan](http://twitter.com/NathanGDQuest)

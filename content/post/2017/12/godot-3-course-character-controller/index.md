@@ -31,11 +31,11 @@ Your browser does not support the video tag.
 
 I took care to not only make the code work, but to go beyond the basics. As you'll see the controller is **reusable**. That's something you won't find in the majority of online courses: using object-oriented design, both the AI and playable characters can share the same movement code.
 
-As each chapter is a self-contained series, you can go ahead and watch it now! If you're a Kickstarter backer or already got the course, it's in your [ Gumroad Library ](https://gumroad.com/library).
+As each chapter is a self-contained series, you can go ahead and watch it now! If you're a Kickstarter backer or already got the course, it's in your [Gumroad Library](https://gumroad.com/library).
 
 There is one more tutorial coming in the next update, as it wasn't ready in time for Christmas: the top-down jump mechanic. The one [I edited live with Blender](https://www.youtube.com/watch?v=uVLtbNDRF4E) yesterday.
 
-![ Banner for the Blender VSE video editing livestream ]( ./blender-stream-square.jpg )
+![Banner for the Blender VSE video editing livestream](./blender-stream-square.jpg)
 
 ## Coming next
 
@@ -43,8 +43,8 @@ As every chapter is disconnected from the others, I'm looking to jump on Tilemap
 
 ## Let's meet at the next GodotCon!
 
-We'll talk about this again later but if you want to meet, I'll be at the [ GodotCon ](https://gumroad.com/library) in Brussels along with Juan reduz Linietski himself and, Akien and many other Godoters on February 5 and 6. If you're only at the [ FOSDEM ](https://fosdem.org/2018/) and want to meet, the plane's landing on Sunday morning, the 4th of February.
+We'll talk about this again later but if you want to meet, I'll be at the [GodotCon](https://gumroad.com/library) in Brussels along with Juan reduz Linietski himself and, Akien and many other Godoters on February 5 and 6. If you're only at the [FOSDEM](https://fosdem.org/2018/) and want to meet, the plane's landing on Sunday morning, the 4th of February.
 
 Merry Christmas!
 
-*PS: you can now find [ GDQuest on Instagram ](https://www.instagram.com/nathan_gdquest/) too*
+*PS: you can now find [GDQuest on Instagram](https://www.instagram.com/nathan_gdquest/) too*

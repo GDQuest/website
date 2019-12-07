@@ -1,24 +1,24 @@
-<h1 align="center">GDquest website</h1>
+<h1 align="center">GDQuest website</h1>
 
 <p align='center'>
-  <img src="https://i.imgur.com/RhhCdcE.png" alt="GDquest website banner with 3 bears" />
+  <img src="https://i.imgur.com/RhhCdcE.png" alt="GDQuest website banner with 3 bears" />
 </p>
 
-Source code and content for [ GDquest.com ](http://gdquest.com/).
+Source code and content for [GDQuest.com](http://gdquest.com/).
 
-The website uses the blazing fast static site engine [ hugo ](https://gohugo.io) and is entirely **open source**.
+The website uses the blazing fast static site engine [hugo](https://gohugo.io) and is entirely **open source**.
 
 ## Contributing
 
 Your help is always welcome!
 
-Found a bug, a typo? Feel free to fix it straight or open a new issue for it :). Also check out the [existing issues ](https://github.com/GDquest/GDquest-website/issues) to see if there's something you'd like to play with.
+Found a bug, a typo? Feel free to fix it straight or open a new issue for it :). Also check out the [existing issues ](https://github.com/GDQuest/GDQuest-website/issues) to see if there's something you'd like to play with.
 
-If you need to reach us, you can find [ GDquest on Twitter ](https://twitter.com/NathanGDquest)
+If you need to reach us, you can find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
 ## Licenses
 
-The website's content and pictures are available under the Creative Commons Attribution ([ CC-By 4.0 ](https://creativecommons.org/licenses/by/4.0/)) license, to be attributed to "[ GDquest ](http://gdquest.com/) and contributors."
+The website's content and pictures are available under the Creative Commons Attribution ([CC-By 4.0](https://creativecommons.org/licenses/by/4.0/)) license, to be attributed to "[GDQuest](http://gdquest.com/) and contributors."
 
 The website's theme, including the `layouts`, the `archetypes` and the `_src` folder are under the MIT license.
 

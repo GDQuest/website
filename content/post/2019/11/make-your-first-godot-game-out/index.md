@@ -32,7 +32,7 @@ The final course has about **60 lessons** and **6 hours of video content** in th
 
 {{< youtube Mc13Z2gboEk >}}
 
-Also, this [Godot platform game](https://github.com/GDquest/Your-First-Game-Godot-2d-Platformer) is completely free and open source.
+Also, this [Godot platform game](https://github.com/GDQuest/Your-First-Game-Godot-2d-Platformer) is completely free and open source.
 
 
 ## Available now for backers

@@ -10,7 +10,7 @@ resources:
 - name: Exercises
   src: GAQ-C1-Intro-to-Layers-Exercises.kra
 - name: cheatsheet
-  src: GAQ-C1-Krita-layers-cheatsheet-GDquest.png
+  src: GAQ-C1-Krita-layers-cheatsheet-GDQuest.png
 
 videoid: g2ZoQobsSWE
 ---

@@ -14,8 +14,8 @@ It will help you write code that's **easy to read**, easy to review, and easy to
 
 For tips on testing and debugging your code, and performances with Python, check these two official guides:
 
-1. [Blender Python best practices]( https://docs.blender.org/api/current/info_best_practice.html )
-1. [Blender Python tips and tricks]( https://docs.blender.org/api/current/info_tips_and_tricks.html )
+1. [Blender Python best practices](https://docs.blender.org/api/current/info_best_practice.html)
+1. [Blender Python tips and tricks](https://docs.blender.org/api/current/info_tips_and_tricks.html)
 
 {{< note >}}
 This guide is a work-in-progress, [feedback is welcome](https://github.com/GDQuest/GDQuest-website/issues/81)! 🙂

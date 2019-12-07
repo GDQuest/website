@@ -46,17 +46,17 @@ In short, we are raising 14,000 € to hire Guilherme, Pigdev, and Razvan, to cr
 
 This time, we are releasing all our code as Free Software from day one! Both during and after the campaign.
 
-We are also publishing new free tutorials every day during the Kickstarter! So make sure to subscribe to [GDquest's YoUTube channel](https://www.youtube.com/c/gdquest/).
+We are also publishing new free tutorials every day during the Kickstarter! So make sure to subscribe to [GDQuest's YoUTube channel](https://www.youtube.com/c/gdquest/).
 
 ![godot-3.1-editor-2d-720p.jpg](https://godotengine.org/storage/app/uploads/public/5c3/ec0/54c/5c3ec054c8931864836227.jpg)
 
-*Our [Open RPG engine](https://github.com/GDquest/godot-open-rpg) is available for anyone to study, distribute, and reuse freely.*
+*Our [Open RPG engine](https://github.com/GDQuest/godot-open-rpg) is available for anyone to study, distribute, and reuse freely.*
 
 ## I've got some questions
 
 If you haven't already, check the [Kickstarter campaign's page](https://www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng/). You will find more details there.
 
-Then, I'm here to help. You can reach me [on Twitter](https://twitter.com/NathanGDquest), leave comments [on YouTube](https://www.youtube.com/c/gdquest/), or come chat with the community on the [GDquest Discord server](https://discord.gg/CHYVgar).
+Then, I'm here to help. You can reach me [on Twitter](https://twitter.com/NathanGDQuest), leave comments [on YouTube](https://www.youtube.com/c/gdquest/), or come chat with the community on the [GDQuest Discord server](https://discord.gg/CHYVgar).
 
 Even if you can't back us, a successful campaign will allow us to create more content for the official documentation, and more Free resources. So please consider sharing the word! It's essential for us to keep going.
 

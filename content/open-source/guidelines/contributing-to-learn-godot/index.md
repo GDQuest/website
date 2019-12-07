@@ -41,7 +41,7 @@ The **Learn to Make Games with Godot** guides are part of the GDQuest website an
 
 You can contribute to these documents by editing them on GitHub.
 
-To contribute to these particular documents you'll have to fork the [GDQuest website project](https://github.com/GDquest/GDquest-website). You can then find the respective documents in the `content/open-source/guides/learn-godot` folder, under `beginner/index.md` and `developer/index.md`.
+To contribute to these particular documents you'll have to fork the [GDQuest website project](https://github.com/GDQuest/GDQuest-website). You can then find the respective documents in the `content/open-source/guides/learn-godot` folder, under `beginner/index.md` and `developer/index.md`.
 
 After you made your changes which can range from updating links to reviewing the text to including new material, you're then ready to open a PR. For further details on how to be a great contributor please refer to [Contributing to GDQuest's Projects]({{< ref "open-source/guidelines/contributing-to-gdquest-projects/index.md" >}}) document. 
 
