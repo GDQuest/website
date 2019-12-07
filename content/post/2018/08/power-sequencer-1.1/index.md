@@ -1,25 +1,16 @@
----
-title: "Blender Power Sequencer 1.1 out: Faster edits ✂🎞"
-description: Our Free Blender add-on for Video Creators got a big update! Get 7 new features and a range of improvements 😄
-author: nathan
++++
+author = "nathan"
+categories = ["news"]
+date = "2018-08-28T09:49:11+09:00"
+description = "Our Free Blender add-on for Video Creators got a big update! Get 7 new features and a range of improvements 😄"
+tags = ["Blender vse add-on", "Free blender add-on", "Blender sequencer add-on", "Blender sequencer", "Blender vse", "Blender video editing", "blender free add-on"]
+title = "Blender Power Sequencer 1.1 out: Faster edits ✂🎞"
 
-date: 2018-08-28T09:49:11+09:00
+[[resources]]
+  name = "banner"
+  src = "banner.png"
 
-resources:
-  - src: banner.png
-    name: banner
-
-categories:
-    - news
-tags:
-    - Blender vse add-on
-    - Free blender add-on
-    - Blender sequencer add-on
-    - Blender sequencer
-    - Blender vse
-    - Blender video editing
-    - blender free add-on
----
++++
 
 [Power Sequencer]({{< ref "/blender/power-sequencer/_index.md" >}}) is our Free add-on to **edit at the speed of thought** with Blender's Video Sequence Editor.
 

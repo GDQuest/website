@@ -1,13 +1,10 @@
----
-title: Nathan Lovato
-date: 2017-07-03T18:57:33+02:00
-description: description
++++
+date = "2017-07-03T18:57:33+02:00"
+description = "description"
+tags = ["now page", "now"]
+title = "Nathan Lovato"
 
-tags:
-- now page
-- now
-
----
++++
 
 _Last update on March 14, 2018_
 

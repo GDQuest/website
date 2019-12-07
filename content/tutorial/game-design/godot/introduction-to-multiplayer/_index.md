@@ -1,22 +1,17 @@
----
-title: 'Introduction to Multiplayer in Godot'
-description: In this introduction to networking in Godot, you'll see how Guilherme coded a simple 2d shooting game where two players, can create a server, connect to one another, and face one another in a deathmatch.
-date: 2018-08-09T03:45:41.000Z
-author: nathan
++++
+author = "nathan"
+date = "2018-08-09T03:45:41.000Z"
+description = "In this introduction to networking in Godot, you'll see how Guilherme coded a simple 2d shooting game where two players, can create a server, connect to one another, and face one another in a deathmatch."
+keywords = ["ENTER KEYWORDS"]
+tags = ["free", "training"]
+title = "Introduction to Multiplayer in Godot"
+type = "course"
 
-keywords:
-  - ENTER KEYWORDS
+[banner]
+  src = "banner.png"
 
-tags:
-  - free
-  - training
+[[resources]]
+  name = "banner"
+  src = "banner.png"
 
-type: course
-
-banner:
-    src: banner.png
-
-resources:
-- src: banner.png
-  name: banner
----
++++

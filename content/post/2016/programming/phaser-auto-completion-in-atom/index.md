@@ -1,17 +1,14 @@
----
-title: Phaser auto completion in Atom
-author: nathan
-layout: post
-date: 2015-10-03
-slide_template:
-  - default
-category:
-  - Game Design
-  - Quick Tips
-type: post
-aliases:
-- game-design/phaser-auto-completion-in-atom/
----
++++
+aliases = ["game-design/phaser-auto-completion-in-atom/"]
+author = "nathan"
+category = ["Game Design", "Quick Tips"]
+date = "2015-10-03"
+layout = "post"
+slide_template = ["default"]
+title = "Phaser auto completion in Atom"
+type = "post"
+
++++
 
 _This little guide will show you how to use the tern-phaser plugin by [Angelo][1] with [Atom][2]._
 

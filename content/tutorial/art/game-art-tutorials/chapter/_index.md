@@ -1,9 +1,8 @@
----
-author: nathan
-title: ENTER TITLE
-description: ENTER DESCRIPTION
++++
+author = "nathan"
+description = "ENTER DESCRIPTION"
+title = "ENTER TITLE"
+type = "course_chapter"
+weight = 1
 
-type: course_chapter
-
-weight: 1
----
++++

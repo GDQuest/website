@@ -1,29 +1,20 @@
----
-title: "Create Professional User Interface in Godot"
-description: Learn to create Player GUI, an Inventory, and a Shop system with the Godot Game Engine
-author: nathan
++++
+author = "nathan"
+category = "Godot"
+date = "2018-09-07T10:02:15+09:00"
+description = "Learn to create Player GUI, an Inventory, and a Shop system with the Godot Game Engine"
+tags = ["godot interface tutorial", "control nodes tutorial", "learn game development", "game user interface", "inventory tutorial", "shop tutorial", "godot UI", "godot game engine", "game creation tutorial"]
+title = "Create Professional User Interface in Godot"
 
-date: 2018-09-07T10:02:15+09:00
+[banner]
+  alt = "banner"
+  src = "img/banner.png"
 
-category: Godot
-tags:
-  - godot interface tutorial
-  - control nodes tutorial
-  - learn game development
-  - game user interface
-  - inventory tutorial
-  - shop tutorial
-  - godot UI
-  - godot game engine
-  - game creation tutorial
+[[resources]]
+  name = "banner"
+  src = "img/banner.png"
 
-banner:
-    src: img/banner.png
-    alt: banner
-resources:
-- src: img/banner.png
-  name: banner
----
++++
 
 In this course, you will learn how to **best create User Interfaces** for your games with the open source [Godot Engine](https://godotengine.org/).
 

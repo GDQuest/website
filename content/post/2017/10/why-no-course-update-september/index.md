@@ -1,25 +1,18 @@
----
-title: "Waiting for Godot 3: Why There Was No Course Update in September"
-description: Godot 3 is coming out later than planned. As breaking changes keep happening, this delays the creation of new programming videos. But I'm still at work on the project. Read this post to learn what's happening in October on the Godot course project.
-author: nathan
++++
+author = "nathan"
+category = ["news"]
+date = "2017-10-10T09:03:31+02:00"
+description = "Godot 3 is coming out later than planned. As breaking changes keep happening, this delays the creation of new programming videos. But I'm still at work on the project. Read this post to learn what's happening in October on the Godot course project."
+tags = ["gdquest", "Kickstarter", "Godot", "Godot 3", "news"]
+title = "Waiting for Godot 3: Why There Was No Course Update in September"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Godot Kickstarter banner"
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Godot Kickstarter banner"
 
-date: 2017-10-10T09:03:31+02:00
-
-category:
-    - news
-tags:
-    - gdquest
-    - Kickstarter
-    - Godot
-    - Godot 3
-    - news
----
++++
 
 Godot 3 is coming out much later than planned. Alpha 2 isn't even out yet. This means breaking changes keep happening on the engine. In the past few weeks alone there were important improvements to 2D physics and the UI system. The devs even renamed `_fixed_process` to `_physics_process`. Today I finished a long UI design tutorial only to learn a new Layout menu just arrived.
 

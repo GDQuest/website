@@ -1,20 +1,20 @@
----
-author: "nathan"
-category: ["News"]
-date: "2016-05-30T13:11:19+02:00"
-keywords: ["krita brushes", "Gdquest"]
-tags: ["community"]
-title: "May update: Krita brushes and ConciseCSS"
-description: "May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their Kickstarter campaign..."
++++
+aliases = ["post/2016/05/new-website-and-krita-brushes-update/"]
+author = "nathan"
+category = ["News"]
+date = "2016-05-30T13:11:19+02:00"
+description = "May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their Kickstarter campaign..."
+keywords = ["krita brushes", "Gdquest"]
+tags = ["community"]
+title = "May update: Krita brushes and ConciseCSS"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-      alt: "May brushes release"
-aliases:
-- post/2016/05/new-website-and-krita-brushes-update/
----
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "May brushes release"
+
++++
 
 May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their [Kickstarter campaign](https://www.youtube.com/watch?v=AjIiI8uiVNM)... But I didn't take the time to write longer news posts like this one. Time to share the news for this month! <!--more-->
 

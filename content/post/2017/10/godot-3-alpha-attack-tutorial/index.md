@@ -1,26 +1,18 @@
----
-title: Godot 3 Close and Ranged Attack Tutorials
-description: We made two new Godot tutorials in collaboration with Heartbeast. Read this post to learn how to create close combat and ranged attacks!
-author: nathan
++++
+author = "nathan"
+category = ["news"]
+date = "2017-10-24T08:10:10+02:00"
+description = "We made two new Godot tutorials in collaboration with Heartbeast. Read this post to learn how to create close combat and ranged attacks!"
+tags = ["tutorial", "Godot 3", "Kickstarter", "Attack", "ranged attack tutorial", "sword attack tutorial"]
+title = "Godot 3 Close and Ranged Attack Tutorials"
 
-date: 2017-10-24T08:10:10+02:00
+[[resources]]
+  name = "banner"
+  src = "banner.png"
+  [resources.params]
+    alt = "Godot Kickstarter banner"
 
-resources:
-  - src: banner.png
-    name: banner
-    params:
-        alt: "Godot Kickstarter banner"
-
-category:
-    - news
-tags:
-    - tutorial
-    - Godot 3
-    - Kickstarter
-    - Attack
-    - ranged attack tutorial
-    - sword attack tutorial
----
++++
 
 Last week we did a tutorial about attack mechanics in collaboration with Heartbeast. I got important feedback from you, the backers, and wanted to apply it to a self-contained tutorial. Consider it as a bonus while we're waiting for Godot 3 beta.
 

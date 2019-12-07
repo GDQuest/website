@@ -1,21 +1,18 @@
----
-title: Krita game art course in early-access
-description: You want to become a better artist? My new training series, out in early access, will show you how professionals make beautiful 2d game sprites, using Krita, the open source painting program.
++++
+author = "nathan"
+category = ["news"]
+date = "2017-02-27T09:45:11+01:00"
+description = "You want to become a better artist? My new training series, out in early access, will show you how professionals make beautiful 2d game sprites, using Krita, the open source painting program."
+tags = ["gdquest", "gdquest news"]
+title = "Krita game art course in early-access"
 
-author: nathan
-category:
-- news
-date: 2017-02-27T09:45:11+01:00
-tags:
-- gdquest
-- gdquest news
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Banner for the Krita course. A pig and a rabbit character in the forest."
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: Banner for the Krita course. A pig and a rabbit character in the forest.
----
++++
 
 Update: the course is now out! Learn more below.
 

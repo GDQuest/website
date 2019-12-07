@@ -1,21 +1,4 @@
----
-title: Krita brushes update 14 - release notes
-description: Version 14 is out! The new release comes with 4 vegetation presets to draw grass, bushes, and leaves.
-date: 2017-07-30
-author: nathan
 
-category: Krita
-keywords:
-- Krita brushes
-- update 14
-- vegetation brushes
-- krita nature
-- krita vegetation
-- trees
-- grass
-
-type: post
----
 
 The new release of the [GDQuest Krita brushes](https://gumroad.com/l/krita-brushes-for-game-artists/) comes with 4 vegetation presets. In the past year, I learned a lot about Krita's brush engines, its strengths and limitations. I also tried to release a lot of presets to stuff up the pack. It's now time to slow down, and improve the releases. Starting with this one, the focus is on quality over quantity.
 

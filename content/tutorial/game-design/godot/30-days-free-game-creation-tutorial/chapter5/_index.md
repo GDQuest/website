@@ -1,8 +1,7 @@
----
-author: nathan
-title: Signals, UI and closing stream
++++
+author = "nathan"
+title = "Signals, UI and closing stream"
+type = "course_chapter"
+weight = 5
 
-type: course_chapter
-
-weight: 5
----
++++

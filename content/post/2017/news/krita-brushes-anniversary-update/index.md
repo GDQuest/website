@@ -1,28 +1,19 @@
----
-title: Krita Brushes Anniversary Update
-description: It's been a year already. 12 months, 12 consecutive updates. The brushes ship with a new design, and to celebrate, they are 30% off until May 1st!
-date: 2017-04-28T08:15:16+02:00
-author: nathan
++++
+aliases = ["post/2017/news/krita_brushes_anniversary_update"]
+author = "nathan"
+category = ["news"]
+date = "2017-04-28T08:15:16+02:00"
+description = "It's been a year already. 12 months, 12 consecutive updates. The brushes ship with a new design, and to celebrate, they are 30% off until May 1st!"
+tags = ["krita brushes", "anniversary", "update", "gdquest brushes", "sale", "gdquest news"]
+title = "Krita Brushes Anniversary Update"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Krita brushes, comparison of the old and new thumbnails"
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Krita brushes, comparison of the old and new thumbnails"
 
-category:
-    - news
-tags:
-    - krita brushes
-    - anniversary
-    - update
-    - gdquest brushes
-    - sale
-    - gdquest news
-
-aliases:
-    - post/2017/news/krita_brushes_anniversary_update
----
++++
 
 It's been a year already. 12 months, 12 consecutive updates. This anniversary release may not seem like much, but it's certainly the biggest so far. I redesigned all the brushes from scratch! The new thumbnails are circular. That way, all the information they can convey is available whether you look at the pop-up palette or the presets list. The design is also unique so that it’s easy to differentiate from other bundles.
 

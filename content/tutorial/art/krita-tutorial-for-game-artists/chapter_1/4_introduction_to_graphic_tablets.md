@@ -1,11 +1,10 @@
----
-author: nathan
-date: 2016-04-05T06:54:11.000Z
-title: "Introduction to graphic tablets"
-description: "Learn what types of tablets exist and which one you should start with."
++++
+author = "nathan"
+date = "2016-04-05T06:54:11.000Z"
+description = "Learn what types of tablets exist and which one you should start with."
+title = "Introduction to graphic tablets"
+type = "video"
+videoid = "RfTumTdNhho"
 
-type: video
-
-videoid: RfTumTdNhho
----
++++
 

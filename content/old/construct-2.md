@@ -1,32 +1,11 @@
----
-author: nathan
-date: 2017-03-13T20:42:51+01:00
-tags:
-- gdquest
-- gdquest news
-title: Construct 2 tutorials
-aliases:
-- construct-2/simplify-ai-code-finite-state-machines/
-- art/how-to-game-art-1-silhouettes/
-- art/how-to-game-art-2-drawing-gawing-with-selections-in-photoshop/
-- construct-2/3-techniques-manage-complex-ui-construct-2/
-- construct-2/5-productivity-tricks-with-the-event-editor/ame-assets/
-- art/how-to-game-art-3-dr
-- construct-2/ai-construct-2-example-platform-follower/
-- construct-2/callbacks-construct-2/
-- construct-2/code-faster-in-construct-2/
-- construct-2/code-radial-lifebar-construct-2/
-- construct-2/drastically-reduce-games-download-size-image-compression/
-- construct-2/simplify-ai-code-finite-state-machines/
-- uncategorized/how-to-game-art-4-cute-character-from-concept-to-finish/
-- uncategorized/how-to-game-art-5-the-principles-of-design/
-- game-design/12-free-productivity-tools-for-game-designers/
-- game-design/how-to-design-professional-looking-mobile-game-buttons/
-- game-design/how-to-game-art-4-cute-character-from-concept-to-finish/
-- game-design/my-7-most-valuable-game-design-resources/
-- game-design/phaser-auto-completion-in-atom/
-- game-design/quick-timer-events-from-a-game-design-perspective/
----
++++
+aliases = ["construct-2/simplify-ai-code-finite-state-machines/", "art/how-to-game-art-1-silhouettes/", "art/how-to-game-art-2-drawing-gawing-with-selections-in-photoshop/", "construct-2/3-techniques-manage-complex-ui-construct-2/", "construct-2/5-productivity-tricks-with-the-event-editor/ame-assets/", "art/how-to-game-art-3-dr", "construct-2/ai-construct-2-example-platform-follower/", "construct-2/callbacks-construct-2/", "construct-2/code-faster-in-construct-2/", "construct-2/code-radial-lifebar-construct-2/", "construct-2/drastically-reduce-games-download-size-image-compression/", "construct-2/simplify-ai-code-finite-state-machines/", "uncategorized/how-to-game-art-4-cute-character-from-concept-to-finish/", "uncategorized/how-to-game-art-5-the-principles-of-design/", "game-design/12-free-productivity-tools-for-game-designers/", "game-design/how-to-design-professional-looking-mobile-game-buttons/", "game-design/how-to-game-art-4-cute-character-from-concept-to-finish/", "game-design/my-7-most-valuable-game-design-resources/", "game-design/phaser-auto-completion-in-atom/", "game-design/quick-timer-events-from-a-game-design-perspective/"]
+author = "nathan"
+date = "2017-03-13T20:42:51+01:00"
+tags = ["gdquest", "gdquest news"]
+title = "Construct 2 tutorials"
+
++++
 
 In a another life, I wrote a handful of tutorials for Construct 2. They're not on this website anymore, but you can still find them on the engine's official website.
 

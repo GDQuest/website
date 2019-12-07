@@ -1,12 +1,11 @@
----
-title: Spacemacs Cheatsheet
-description: A list of some features I find most useful in Spacemacs.
-author: nathan
++++
+author = "nathan"
+date = "2019-08-27T11:32:05+02:00"
+description = "A list of some features I find most useful in Spacemacs."
+title = "Spacemacs Cheatsheet"
+type = "post"
 
-type: post
-
-date: 2019-08-27T11:32:05+02:00
----
++++
 
 Here is my living cheatsheet, a growing list of vim tips and spacemacs features I find particularly useful.
 <!-- Use shortcuts template and data? -->

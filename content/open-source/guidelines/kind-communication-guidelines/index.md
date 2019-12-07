@@ -1,12 +1,11 @@
----
-title: GDQuest's Kind Communication Guidelines
-description: "This document is based on the GNU Kind Communications Guidelines by Richard Stallman."
-author: nathan
++++
+aliases = ["/open-source/code-of-conduct"]
+author = "nathan"
+date = "2018-12-04T09:30:19+09:00"
+description = "This document is based on the GNU Kind Communications Guidelines by Richard Stallman."
+title = "GDQuest's Kind Communication Guidelines"
 
-date: 2018-12-04T09:30:19+09:00
-aliases:
-  - /open-source/code-of-conduct
----
++++
 
 *Version v1.0.0*
 

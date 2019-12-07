@@ -1,24 +1,18 @@
----
-author: nathan
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-      alt: "Make 2d games with Godot, promotional banner for the crowdfunding campaign"
-category:
-- news
-date: 2017-05-22T12:00:18+02:00
-description: Do you want to become a better game creator? Let's make the first professional 2d game creation course for Godot a reality!
-tags:
-- Godot game engine
-- make 2d games
-- Godot Kickstarter
-- GDQuest Kickstarter
-- game creation kickstarter
-- learn game creation
-- crowdfunding campaign
-title: "Make Professional 2d Games with Godot: Kickstarter LIVE"
----
++++
+author = "nathan"
+category = ["news"]
+date = "2017-05-22T12:00:18+02:00"
+description = "Do you want to become a better game creator? Let's make the first professional 2d game creation course for Godot a reality!"
+tags = ["Godot game engine", "make 2d games", "Godot Kickstarter", "GDQuest Kickstarter", "game creation kickstarter", "learn game creation", "crowdfunding campaign"]
+title = "Make Professional 2d Games with Godot: Kickstarter LIVE"
+
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Make 2d games with Godot, promotional banner for the crowdfunding campaign"
+
++++
 
 
 Let's make the first professional 2-D game creation course for the Godot game engine a reality! The Kickstarter is now live. The higher the funding goes, the more content you will get. Every single cent will go to the project.

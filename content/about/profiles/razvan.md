@@ -1,13 +1,10 @@
----
-title: Răzvan Cosmin Rădulescu
-date: 2019-11-19 08:46:41+0200
-description: Răzvan C. Rădulescu's profile
++++
+date = "2019-11-19 08:46:41+0200"
+description = "Răzvan C. Rădulescu's profile"
+tags = ["now page", "now"]
+title = "Răzvan Cosmin Rădulescu"
 
-tags:
-- now page
-- now
-
----
++++
 
 I currently live in Slatina, Romania 🌿. I'm a programmer and freelancer.
 

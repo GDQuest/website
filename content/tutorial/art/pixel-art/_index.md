@@ -1,28 +1,24 @@
----
-title: Pixel Art Tutorial
-description: Pixel Art Tutorial Description
-date: 2015-05-28
-author: nathan
++++
+author = "nathan"
+date = "2015-05-28"
+description = "Pixel Art Tutorial Description"
+keywords = ["game art", "tutorials"]
+tags = ["training", "free"]
+title = "Pixel Art Tutorial"
+type = "course"
 
-keywords:
-    - game art
-    - tutorials
-tags: 
-    - training
-    - free
+[banner]
+  alt = "banner"
+  class = "-blue"
+  src = "banner.jpg"
 
-type: course
-banner:
-    src: banner.jpg
-    alt: banner
-    class: -blue
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
 
-resources:
-- src: banner.jpg
-  name: banner
-- params:
-  class: -blue
+[[resources]]
+  class = "-blue"
 
----
++++
 
 **ENTER DESCRIPTION**

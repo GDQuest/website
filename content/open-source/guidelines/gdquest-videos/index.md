@@ -1,12 +1,11 @@
----
-title: GDQuest video guidelines
-description: "This document is a living tool to help us improve the educational value and the consistency of our video lessons."
-author: nathan
++++
+author = "nathan"
+date = "2019-07-07T09:34:00+09:00"
+description = "This document is a living tool to help us improve the educational value and the consistency of our video lessons."
+title = "GDQuest video guidelines"
+type = "post"
 
-type: post
-
-date: 2019-07-07T09:34:00+09:00
----
++++
 
 This document is a living guide to help us improve both the form and the substance of our tutorials. 
 

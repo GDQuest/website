@@ -1,24 +1,20 @@
----
-title: Available content in the Godot Course
-author: nathan
-date: 2018-10-26
++++
+author = "nathan"
+category = "Godot"
+date = "2018-10-26"
+layout = "post"
+tags = ["godot 3", "godot course", "video list", "course content"]
+title = "Available content in the Godot Course"
 
-layout: post
+[banner]
+  alt = "banner"
+  src = "banner.png"
 
-category: Godot
-tags:
-  - godot 3
-  - godot course
-  - video list
-  - course content
+[[resources]]
+  name = "banner"
+  src = "banner.png"
 
-banner:
-  src: banner.png
-  alt: banner
-resources:
-- src: banner.png
-  name: banner
----
++++
 
 The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters from Hobby and Indie, and extra resources:
 

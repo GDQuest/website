@@ -1,9 +1,8 @@
----
-author: nathan
-title: Pixel Art Series
-description: "Enter Chapter Description"
++++
+author = "nathan"
+description = "Enter Chapter Description"
+title = "Pixel Art Series"
+type = "course_chapter"
+weight = 1
 
-type: course_chapter
-
-weight: 1
----
++++

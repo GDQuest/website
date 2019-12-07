@@ -1,33 +1,22 @@
----
-title: Krita Brushes For Game Artists
-description: My best Krita brushes, professionally designed and kept up to date for you. Use my brushkit and get to work faster! Free and pro versions available
-date: 2017-01-30
-author: nathan
++++
+aliases = ["brush-pack", "game-art-quest/brush-pack", "krita-brushes-for-game-artists", "product/krita-brushes"]
+author = "nathan"
+category = "Krita"
+date = "2017-01-30"
+description = "My best Krita brushes, professionally designed and kept up to date for you. Use my brushkit and get to work faster! Free and pro versions available"
+product = "krita-brushes"
+tags = ["krita brushes", "free krita brushes", "best krita brushes", "krita painting brushes", "krita brush"]
+title = "Krita Brushes For Game Artists"
 
-category: Krita
-tags:
-  - krita brushes
-  - free krita brushes
-  - best krita brushes
-  - krita painting brushes
-  - krita brush
+[banner]
+  alt = "Krita brushes banner image"
+  src = "banner.jpg"
 
-aliases:
-  - brush-pack
-  - game-art-quest/brush-pack
-  - krita-brushes-for-game-artists
-  - product/krita-brushes
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
 
-banner:
-  src: banner.jpg
-  alt: Krita brushes banner image
-
-resources:
-- src: banner.jpg
-  name: banner
-
-product: krita-brushes
----
++++
 
 Version 15 contains:
 

@@ -1,9 +1,9 @@
----
-title: {{ replace .TranslationBaseName "-" " " | title }}
-date: {{ .Date }}
-author: nathan
++++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+description = "Temp description"
+author = "nathan"
 
-description: Short description
-
-draft: true
----
+date = {{ .Date }}
+weight = 5
+draft = true
++++

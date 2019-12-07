@@ -1,16 +1,15 @@
----
-title: "Godot GDScript: best practices"
-description: This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes.
-author: nathan
++++
+author = "nathan"
+date = "2019-07-16T08:34:54+09:00"
+description = "This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes."
+title = "Godot GDScript: best practices"
+type = "post"
 
-resources:
-- src: banner.jpg
-  name: banner
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
 
-type: post
-
-date: 2019-07-16T08:34:54+09:00
----
++++
 
 This guide covers some best practices to write solid GDScript code. It's the style we use to keep our code clean and maintainable, working on growing Godot games.
 

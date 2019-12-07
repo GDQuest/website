@@ -1,29 +1,18 @@
----
-author: nathan
-date: 2017-05-09T09:18:18+02:00
-title: New Krita Game Art Course Out!
-description: Learn to make cartoon shaded game characters with this new Krita course. It also includes tutorials about art fundamentals.
-author: nathan
++++
+author = "nathan"
+category = ["news"]
+date = "2017-05-09T09:18:18+02:00"
+description = "Learn to make cartoon shaded game characters with this new Krita course. It also includes tutorials about art fundamentals."
+tags = ["krita game art course", "krita tutorial", "learn game art", "game art tutorial", "character sprite", "character illustration", "FOSS", "open source", "krita 3"]
+title = "New Krita Game Art Course Out!"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background"
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background"
 
-category:
-    - news
-tags:
-    - krita game art course
-    - krita tutorial
-    - learn game art
-    - game art tutorial
-    - character sprite
-    - character illustration
-    - FOSS
-    - open source
-    - krita 3
----
++++
 
 The second premium Krita game art course, Make Cel Shaded Game Characters, is out! It contains 14 tutorials that will help you improve your lighting fundamentals and show you how to make a game character.
 

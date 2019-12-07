@@ -1,22 +1,17 @@
----
-title: 'Color Tutorials'
-description: Enter description
-date: 2015-06-08T07:05:25.000Z
-author: nathan
++++
+author = "nathan"
+date = "2015-06-08T07:05:25.000Z"
+description = "Enter description"
+keywords = ["ENTER KEYWORDS"]
+tags = ["free", "training"]
+title = "Color Tutorials"
+type = "course"
 
-keywords:
-  - ENTER KEYWORDS
+[banner]
+  src = "banner.png"
 
-tags:
-  - free
-  - training
+[[resources]]
+  name = "banner"
+  src = "banner.png"
 
-type: course
-
-banner:
-    src: banner.png
-
-resources:
-- src: banner.png
-  name: banner
----
++++

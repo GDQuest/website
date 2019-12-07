@@ -1,13 +1,9 @@
----
-title: Krita
-small: Krita tutorial series for game artists
++++
+aliases = ["game-art-quest/", "game-art-quest/roadmap/", "krita-tutorial/", "krita/game_art_quest"]
+small = "Krita tutorial series for game artists"
+title = "Krita"
 
-aliases:
-  - game-art-quest/
-  - game-art-quest/roadmap/
-  - krita-tutorial/
-  - krita/game_art_quest
----
++++
 
 
 <div class="card outline base-bottom-margin darkbg">

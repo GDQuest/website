@@ -1,28 +1,20 @@
----
-title: Godot Kickstarter, Your Feedback on the Form
-description: In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!
-author: nathan
-date: 2017-05-06T13:37:08+02:00
++++
+aliases = ["post/2017/news/godot_engine_kickstarter"]
+author = "nathan"
+category = ["news"]
+date = "2017-05-06T13:37:08+02:00"
+description = "In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!"
+tags = ["gdquest", "godot game engine", "kickstarter 2017", "gdquest kickstarter", "crowdfunding", "news"]
+title = "Godot Kickstarter, Your Feedback on the Form"
 
-category:
-    - news
-tags:
-    - gdquest
-    - godot game engine
-    - kickstarter 2017
-    - gdquest kickstarter
-    - crowdfunding
-    - news
+[[resources]]
+  class = "-pink"
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Article banner, showing 2 progress bars and the Godot logo on a red orange background"
 
-resources:
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Article banner, showing 2 progress bars and the Godot logo on a red orange background"
-    class: -pink
-aliases:
-- post/2017/news/godot_engine_kickstarter
----
++++
 
 **More than 600 of you** gave feedback on the Godot course's Kickstarter! That's close to 3 times as many as last time, for the Krita game art project. Let's look at what you had to say.
 

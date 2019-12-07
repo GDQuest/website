@@ -1,8 +1,7 @@
----
-author: nathan
-title: Steering, the Kraken and isometric movement
++++
+author = "nathan"
+title = "Steering, the Kraken and isometric movement"
+type = "course_chapter"
+weight = 3
 
-type: course_chapter
-
-weight: 3
----
++++

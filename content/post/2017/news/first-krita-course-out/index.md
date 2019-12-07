@@ -1,23 +1,19 @@
----
-author: nathan
-resources: 
-  - src: banner.jpg
-    name: banner
-    params:
-        alt: "Article banner, illustration with a cute rabbit and pig character in front of a forest"
-category:
-- news
-date: 2017-04-14T13:06:14+02:00
-tags:
-    - krita game art
-    - krita game art tutorial
-    - gdquest news
-title: Make Professional Game Art with Krita out now!
-description: After months of work, the Make Professional Painterly Game Art with Krita course is out! It's the first and only Krita course about 2d game art.
-aliases:
-    - first-krita-course-out
-    - post/2017/news/first_krita_course_out
----
++++
+aliases = ["first-krita-course-out", "post/2017/news/first_krita_course_out"]
+author = "nathan"
+category = ["news"]
+date = "2017-04-14T13:06:14+02:00"
+description = "After months of work, the Make Professional Painterly Game Art with Krita course is out! It's the first and only Krita course about 2d game art."
+tags = ["krita game art", "krita game art tutorial", "gdquest news"]
+title = "Make Professional Game Art with Krita out now!"
+
+[[resources]]
+  name = "banner"
+  src = "banner.jpg"
+  [resources.params]
+    alt = "Article banner, illustration with a cute rabbit and pig character in front of a forest"
+
++++
 
 After months of work, the Make Professional Painterly Game Art with Krita course is out!
 
