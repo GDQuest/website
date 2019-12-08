@@ -12,11 +12,12 @@ name = "banner"
 src = "banner.png"
 +++
 
-_For a gentler introduction to the concepts of game development using the [Godot game engine](https://godotengine.org/), please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
 
-We've gathered a curated list of resources to make life easier if you are thinking of transitioning to or starting out with Godot. It's aimed at game developers with some experience or are coming from a different game engine.
+We gathered a curated list of resources to make your life easier if you want to get started with Godot. This guide is for experienced developers, or game developers coming from a different game engine.
 
-You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDQuest)**.
+_For a beginner-friendly introduction to game development with the [Godot game engine](https://godotengine.org/), check out the [beginner edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) of this guide._
+
+You're also welcome to [join the GDQuest Discord community](https://discord.gg/CHYVgar) to get in touch with fellow game developers.
 
 ## Making games with Godot
 
@@ -52,7 +53,10 @@ To get started with UI, themes and much more, have a look at the following educa
 
 Using Shaders in Godot is where the engine truly shines. It offers a simplified OpenGL-like scripting language (for coders) and a visual node editor (for designers) that are ridiculously easy to use. Apart from these, it comes with simplified models for creating materials directly in the options panel - the inspector.
 
-![Godot Visual Shaders Editor](./img/shaders.png)<br />_Godot Visual Shader editor._
+{{< figure
+src="./img/shaders.png"
+caption="Godot includes a visual shader programming tool"
+alt="Godot Visual Shaders Editor" >}}
 
 Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot. They start slow before ramping up in difficulty:
 
@@ -65,7 +69,7 @@ Godot is very flexible when it comes to VFX driven by shaders. The following res
 
 Godot can be radically customized to fit anyone's needs by using the editor plugin system. This is a powerful feature that allows for the creation of editor tools that extend the engine with new panels and functionality.
 
-![Godot Tool Mode](./img/tool-mode.jpg)<br />_Extending Godot with tool mode._
+![Godot Tool Mode](./img/tool-mode.jpg)
 
 Here we'll start with the official documentation which will guide us through the necessary steps to building different plugins before moving on to a real-case example:
 
@@ -76,7 +80,7 @@ Here we'll start with the official documentation which will guide us through the
 
 Godot offers high-level and low-level multiplayer protocols and APIs. These give simple or advanced coordination between clients and servers. Godot uses RPCs (remote procedure calls) to call and sync peers.
 
-![Godot Server-Client Architecture](./img/multiplayer.png)<br />_Godot server-client architecture_
+![Godot Server-Client Architecture](./img/multiplayer.png)
 
 Currently there aren't that many educational resources that handle multiplayer systems in Godot. We hope that the following list is enough to put you on the right track:
 
@@ -89,9 +93,9 @@ Bastiaan Olij has kindly created a fairly advanced tutorial series on how to mak
 
 - [Godot Vehicle Tutorial](https://www.youtube.com/playlist?list=PLe63S5Eft1KapdW0-o824gCbG8LPvzxSA) explains how to get a vehicle simulation on a track. This is one of the best tutorials out there that shows advanced usage of Godot. It goes through importing the meshes in Godot, building a track and creating a car controller
 
-![Godot Vehicle Tutorial](./img/vehicle-tutorial.jpg)<br />In-editor Godot screenshot of the Vehicle Tutorial.
+![Godot Vehicle Tutorial](./img/vehicle-tutorial.jpg)
 
-### Getting (un)stuck
+### Finding more answers
 
 While the above resources are enough to explore a significant part of Godot, it isn't an exhaustive list and there are many holes of knowledge left to fill. Here are some great places to start looking for answers when you get stuck:
 
@@ -131,6 +135,12 @@ Non-gamedev related:
 
 The [previous part]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) in this series [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) explores basic resources for the enthusiasts out there that want to understand how to use the Godot game engine, starting from the very beginning.
 
-## Contributing to This Document
+## Contributing to this document
 
-If you want to contribute to this document please read and follow our [Contributing to Learn to Make Games with Godot Guidelines]({{< ref "open-source/guidelines/contributing-to-learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!
+If you want to contribute to this document please read and follow our [contributor's guide]({{< ref "open-source/guidelines/contributing-to-learn-godot/index.md" >}}). Your help is much appreciated.
+
+## Support GDQuest
+
+If you want to go further with game creation and support our work, check out our [game creation courses](https://gdquest.mavenseed.com/).
+
+To keep up to date with news from us, [follow GDQuest on Twitter](https://twitter.com/NathanGDQuest).
