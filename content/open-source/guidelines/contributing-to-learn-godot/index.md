@@ -1,4 +1,13 @@
++++
+title = "Contributing to Learn to Make Games with Godot Guides"
+description = "Do you want to contribute to our Learn to Make Games with Godot guides? This document will get you started on that."
+author = "razvan"
 
+type = "post"
+
+date = "2019-11-19 09:21:59+0200"
+aliases = "/open-source/contributing-learn-godot"
++++
 
 If you want to contribute to our *Learn to Make Games with Godot* [Beginner Edtition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}}) or [Developer Edtition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}) documents this is the guide to get you started.
 

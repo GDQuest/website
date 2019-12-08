@@ -1,3 +1,15 @@
++++
+author = "nathan"
+categories = ["news"]
+date = 2019-01-17T08:06:10+09:00
+description = "We are on Kickstarter again to create new Free and premium tutorials for Godot! We're going to create a great course and contribute to the official docs. But for that, we need your help."
+tags = ["gdquest", "kickstarter", "godot kickstarter", "godot course", "gdquest kickstarter", "crowdfunding", "game creation", "godot 2d game", "godot 3d game", "gamedev", "open source", "free software"]
+title = "Kickstarter: learn 2d and 3d game creation with Godot"
+
+[[resources]]
+name = "banner"
+src = "banner.jpg"
++++
 
 
 After a successful crowdfunding to create a Godot course in 2017, we are back with a new project [in collaboration with the Godot team](https://godotengine.org/article/gdquest-kickstarter-learn-2d-and-3d-game-creation-godot)!

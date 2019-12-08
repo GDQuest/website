@@ -1,4 +1,12 @@
++++
+title = "Learn to Make Games with Godot: Beginner Edition"
+description = "This learning path and free guide is a curated list of free resources to get started with game development using the Free and Open Source engine Godot"
+author = "razvan"
 
+type = "post"
+
+date = "2019-11-06T13:12:32+02:00"
++++
 
 Do you want to learn to make games, but you don't know where to start? Do you have little or no programming experience? This guide is for you!
 

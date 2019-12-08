@@ -1,3 +1,17 @@
++++
+author = "nathan"
+date = 2018-04-12T09:04:58+09:00
+description = "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design."
+title = "Become a Game Developer, How to Learn to Code"
+type = "tut"
+
+[banner]
+src = "img/banner.png"
+
+[[resources]]
+name = "banner"
+src = "img/banner.png"
++++
 
 
 You want to get started with game creation and programming but don't know where to start? That's what this series is all about!

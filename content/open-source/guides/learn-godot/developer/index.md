@@ -1,4 +1,12 @@
++++
+title = "Learn to Make Games with Godot: Developer Edition"
+description = "This free guide is a curated list of free resources that help with transitioning to Godot - the Free and Open Source game engine."
+author = "razvan"
 
+type = "post"
+
+date = "2019-11-11 09:47:26+0200"
++++
 
 _For a gentler introduction to the concepts of game development using the [Godot game engine](https://godotengine.org/), please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
 

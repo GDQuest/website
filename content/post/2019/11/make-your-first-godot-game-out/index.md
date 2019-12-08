@@ -1,3 +1,15 @@
++++
+author = "nathan"
+categories = ["news"]
+date = 2019-11-17T14:34:50+01:00
+description = "We are done with our first beginner-friendly Godot 2D game development course. Learn to create a 2D game inspired by Mario, from start to finish. Available now."
+tags = ["gdquest", "kickstarter", "godot engine", "godot beginner course", "learn godot", "godot beginner tutorial"]
+title = "Create Your First 2D Game With Godot is out!"
+
+[[resources]]
+name = "banner"
+src = "banner.png"
++++
 
 
 Our first **beginner-friendly game creation course** is out! 
