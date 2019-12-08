@@ -6,6 +6,10 @@ author = "razvan"
 type = "post"
 
 date = "2019-11-06T13:12:32+02:00"
+
+[[resources]]
+name = "banner"
+src = "banner.jpg"
 +++
 
 Do you want to learn to make games, but you don't know where to start? Do you have little or no programming experience? This guide is for you!
@@ -123,7 +127,7 @@ We've selected the following resources to give you a peek into the vast array of
 
 The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "open-source/guides/learn-godot/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
 
-## Contributing to This Document
+## Contributing to this document
 
 If you want to contribute to this document please read and follow our [Contributing to Learn to Make Games with Godot Guidelines]({{< ref "open-source/guidelines/contributing-to-learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!
 

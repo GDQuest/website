@@ -6,6 +6,10 @@ author = "razvan"
 type = "post"
 
 date = "2019-11-11 09:47:26+0200"
+
+[[resources]]
+name = "banner"
+src = "banner.png"
 +++
 
 _For a gentler introduction to the concepts of game development using the [Godot game engine](https://godotengine.org/), please refer to our previous guide: [Learn to Make Games with Godot: Beginner Edition]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})._
