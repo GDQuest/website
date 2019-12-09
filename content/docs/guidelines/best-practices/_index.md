@@ -1,5 +1,5 @@
 +++
-title = "GDQuest's Best Practices"
+title = "Best Practices"
 description = "Temp description"
 author = "nathan"
 disableToc = true

@@ -6,6 +6,7 @@ author = "razvan"
 
 date = "2019-11-06T13:12:32+02:00"
 weight = 1
+aliases = ["/open-source/guides/learn-godot/beginner/"]
 
 [[resources]]
 name = "banner"
@@ -129,5 +130,5 @@ The next part in this series, [Learn to Make Games with Godot: Developer Edition
 
 ## Contributing to this document
 
-If you want to contribute to this document please read and follow our [Contributing to Learn to Make Games with Godot Guidelines]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!
+If you want to contribute to this document please read and follow our [Contributing to: Make Games with Godot Guides]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!
 

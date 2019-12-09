@@ -3,9 +3,12 @@ title = "Contributing to: Make Games with Godot Guides"
 menuTitle = "Make Games with Godot Guides"
 description = "Do you want to contribute to our Learn to Make Games with Godot guides? This document will get you started on that."
 author = "razvan"
-
 date = "2019-11-19 09:21:59+0200"
 weight = 2
+aliases = [
+  "/open-source/contributing-learn-godot/",
+  "/open-source/guidelines/contributing-to-learn-godot/"
+]
 
 +++
 

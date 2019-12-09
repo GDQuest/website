@@ -1,11 +1,10 @@
 +++
-chapter = true
 date = "2018-01-04T19:46:48+01:00"
 description = "The Free Blender add-on for video editors"
-pre = "<b>3. </b>"
 subtitle = "The Free Blender add-on for video editors"
 title = "Blender Power Sequencer"
-weight = 3
+weight = 5
+aliases = ["/blender/power-sequencer/"]
 
 [banner]
   alt = "Power Sequencer add-on logo"

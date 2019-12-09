@@ -8,8 +8,8 @@ date = 2019-12-09T10:45:49+02:00
 weight = 4
 +++
 
-### Chapter X
+### Chapter 4
 
-# Some Chapter title
+# Cheatsheets
 
-Lorem Ipsum.
+This is all about **quick and to the point reference** for users that already know how to use a tool, but need a refresher.

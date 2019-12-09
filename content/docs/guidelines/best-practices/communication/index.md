@@ -2,9 +2,13 @@
 author = "nathan"
 date = "2018-12-04T09:30:19+09:00"
 description = "This document is based on the GNU Kind Communications Guidelines by Richard Stallman."
-title = "GDQuest's Best Practices: Communication"
+title = "Best Practices: Communication"
 menuTitle = "Communication"
 weight = 1
+aliases = [
+  "/open-source/code-of-conduct/",
+  "/open-source/guidelines/kind-communication-guidelines/"
+]
 
 +++
 

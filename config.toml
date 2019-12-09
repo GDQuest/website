@@ -41,6 +41,12 @@ name        = "About"
 url         = "/about/"
 weight      = 5
 
+[[menu.shortcuts]]
+name = "<i class='fas fa-level-up-alt'></i> Back to GDQuest.com"
+identifier = "gdquest.com"
+url = "//"
+weight = 1
+
 
 [author]
 name = "Nathan Lovato"

@@ -6,6 +6,7 @@ author = "razvan"
 
 date = "2019-11-11 09:47:26+0200"
 weight = 2
+aliases = ["/open-source/guides/learn-godot/developer/"]
 
 [[resources]]
 name = "banner"

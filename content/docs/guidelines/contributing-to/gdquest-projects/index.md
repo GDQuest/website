@@ -4,8 +4,11 @@ date = "2018-11-05T09:30:19+09:00"
 description = "Do you want to become a Free Software contributor? This guide is here to help you learn everything you need!"
 title = "Contributing to: GDQuest Projects"
 menuTitle = "GDQuest Projects"
-
 weight = 1
+aliases = [
+  "/open-source/contributing-guidelines/",
+  "/open-source/guidelines/contributing-to-gdquest-projects/"
+]
 
 +++
 
