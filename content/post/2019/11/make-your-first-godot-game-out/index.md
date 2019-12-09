@@ -51,8 +51,8 @@ We're already working on the next projects.
 
 [Razvan](https://twitter.com/razcore_art) has been writing the two learning paths for Godot. Two guides to get started with the engine using only free resources, respectively for programming beginners and for more experienced developers. You can already read them (in progress):
 
-- [Beginner Godot learning path]({{< ref "open-source/guides/learn-godot/beginner/index.md" >}})
-- [Developer Godot learning path]({{< ref "open-source/guides/learn-godot/developer/index.md" >}})
+- [Beginner Godot learning path]({{< ref "docs/guides/learn-godot/beginner/index.md" >}})
+- [Developer Godot learning path]({{< ref "docs/guides/learn-godot/developer/index.md" >}})
 
 [Razoric](https://twitter.com/Razoric480) is taking care of the open 3D Mannequin that will serve as a base for the more advanced 3D game development series I’ll record.
 
