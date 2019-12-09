@@ -2,6 +2,7 @@
 title = "Make Games with Godot"
 description = "Temp description"
 author = "nathan"
+disableToc = true
 
 date = 2019-12-09T14:18:14+02:00
 weight = 1

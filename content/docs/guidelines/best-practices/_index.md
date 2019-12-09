@@ -2,6 +2,7 @@
 title = "GDQuest's Best Practices"
 description = "Temp description"
 author = "nathan"
+disableToc = true
 
 date = 2019-12-09T14:35:29+02:00
 weight = 1
