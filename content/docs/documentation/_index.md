@@ -12,4 +12,4 @@ weight = 3
 
 # Documentation
 
-You'll find here information and documentation on our <abbr title="Free and Open Source Software">FOSS</abbr> tools and projects.
+Under this chapter you'll find **information and documentation on our <abbr title="Free and Open Source Software">FOSS</abbr> tools and projects**. Learn to make the most of your time by learning the use cases and how to be efficient with our tools.
