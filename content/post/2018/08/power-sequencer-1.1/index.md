@@ -12,7 +12,7 @@ title = "Blender Power Sequencer 1.1 out: Faster edits ✂🎞"
 
 +++
 
-[Power Sequencer]({{< ref "/blender/power-sequencer/_index.md" >}}) is our Free add-on to **edit at the speed of thought** with Blender's Video Sequence Editor.
+[Power Sequencer]({{< ref "docs/documentation/power-sequencer/_index.md" >}}) is our Free add-on to **edit at the speed of thought** with Blender's Video Sequence Editor.
 
 Version 1.1 improves the editing workflow with new features like:
 
@@ -22,7 +22,7 @@ Version 1.1 improves the editing workflow with new features like:
 
 And more! You can see all improvements at a glance in the [changelog](https://github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md)
 
-We now have neat [Power Sequencer docs]({{< ref "/blender/power-sequencer/docs/index.md" >}}) on the website! They're easy to improve, with our auto-generated menu and all the content in markdown. Anyone who would like to contribute to them is more than welcome ☺
+We now have neat [Power Sequencer reference]({{< ref "docs/documentation/power-sequencer/reference/index.md" >}}) on the website! They're easy to improve, with our auto-generated menu and all the content in markdown. Anyone who would like to contribute to them is more than welcome ☺
 
 See the new features in action:
 

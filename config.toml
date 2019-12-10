@@ -12,35 +12,40 @@ assetDir = "resources"
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.main]]
-identifier  = "tutorial"
-name        = "Tuts"
-url         = "/tutorial/"
-weight      = 1
-
-[[menu.main]]
 identifier  = "product"
 name        = "products"
 url         = "/product/"
-weight      = 2
-
-[[menu.main]]
-identifier  = "about"
-name        = "About"
-url         = "/about/"
-weight      = 3
+weight      = 1
 
 [[menu.main]]
 identifier  = "news"
 name        = "News"
 url         = "/post/"
+weight      = 2
+
+[[menu.main]]
+identifier  = "tutorial"
+name        = "Tuts"
+url         = "/tutorial/"
 weight      = 3
 
-[params.shop_link]
-name        = "Shop"
-url         = "https://gumroad.com/gdquest"
+[[menu.main]]
+identifier  = "docs"
+name        = "Docs"
+url         = "/docs/"
+weight      = 4
 
+[[menu.main]]
+identifier  = "about"
+name        = "About"
+url         = "/about/"
+weight      = 5
 
-[permalinks]
+[[menu.shortcuts]]
+name = "<i class='fas fa-level-up-alt'></i>&nbsp;Back to GDQuest.com"
+identifier = "gdquest.com"
+url = "//"
+weight = 1
 
 
 [author]
@@ -54,6 +59,7 @@ topline = "Game Design Quest"
 home = "home"
 highlight = "default"
 stylesheet = "concise.css"
+themeVariant = "blue"
 
 ytapikey = "AIzaSyAUCyzwHmO71chFn7wMa6VlBNzk0tpkFYk"
 
@@ -63,22 +69,27 @@ twitter = "NathanGDQuest"
 github_repo = "https://github.com/GDQuest/GDQuest-website/"
 license_copyright= "GDQuest and contributors"
 
-[params.social.1]
+[params.shop_link]
+name        = "Shop"
+url         = "https://gumroad.com/gdquest"
+
+[[params.social]]
 link = "https://www.youtube.com/c/gdquest"
 icon = "youtube"
 description = "GDQuest Youtube channel"
 
-[params.social.2]
+[[params.social]]
 link = "https://twitter.com/NathanGDQuest"
 icon = "twitter"
 description = "GDQuest Twitter page"
 
-[params.social.3]
+[[params.social]]
 link = "https://github.com/GDQuest/"
 icon = "github"
 description = "GDQuest GitHub page"
 
-[blackfriday]
+# NOTE: from hugo 0.60.0 the default markdown formatter is Goldmark
+[markup.blackfriday]
 angledQuotes = true
 fractions = false
 hrefTargetBlank = false
