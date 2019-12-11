@@ -37,8 +37,6 @@ There are several places where you can learn about the differences between Godot
 
 Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not the friendliest of developer experiences, but we have a few guides to help you.
 
-![Godot UI & Themes]()
-
 {{< figure
   src="./img/rpginabox.png"
   alt="Screenshot of RPG in a box, a beginner-friendly rpg engine made in Godot"
