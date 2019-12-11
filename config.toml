@@ -8,6 +8,8 @@ paginatePath = "page"
 
 assetDir = "resources"
 
+googleAnalytics = "UA-58510266-1"
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
@@ -97,3 +99,13 @@ latexDashes = true
 plainIdAnchors = true
 extensions = []
 extensionmask = []
+
+[privacy]
+[privacy.googleAnalytics]
+disable = false
+anonymizeIP = true
+respectDoNotTrack = true
+useSessionStorage = true
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
