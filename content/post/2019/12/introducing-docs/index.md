@@ -5,10 +5,14 @@ author = "razvan"
 
 date = 2019-12-11T16:54:51+02:00
 weight = 5
-#draft = true
 
 categories = ["news"]
 tags = ["gdquest", "gdquest website", "website", "faq"]
+
+[[resources]]
+name = "banner"
+src = "img/banner.png"
+
 +++
 
 <!-- If this file goes under contents/docs be sure to start chapters with ##, not # -->
