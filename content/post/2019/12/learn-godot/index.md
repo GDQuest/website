@@ -5,7 +5,7 @@ author = "razvan"
 
 date = 2019-12-11T17:52:21+02:00
 weight = 5
-draft = true
+#draft = true
 
 categories = ["news"]
 tags = ["gdquest", "gdquest website", "website", "godot", "godotengine", "education", "learn", "faq"]
@@ -32,7 +32,7 @@ These documents are in the form of **curated lists of free educational resources
 
 The beginner edition document is full of hands-on content that relies a lot more on educational resources that get you started rather than explaining the theoretical side. Learning by doing practical projects is the best way when it comes to programming and especially game development, as by design, it is a visually-driven activity, with very few exceptions.
 
-![Beginner Edition](./img/beginner.svg)
+{{< figure src="/docs/guides/learn-godot/beginner/banner.jpg" alt="Beginner Edition" >}}
 
 After preliminary projects, you're presented with a list of educational resources that explores the design aspect of game making.
 
@@ -42,7 +42,7 @@ The last section encourages you to go explore some more in-depth topics such as 
 
 This document is no joke. You're thrown head-first in the depths of Godot exploration. We start straight to the point by listing the available "From X to Godot" resources available to date.
 
-![Developer Edition](./img/developer.svg)
+{{< figure src="/docs/guides/learn-godot/developer/banner.png" atl="Developer Edition">}}
 
 Then comes Godot UI, themes, but much more. There is an interest in exploring the desktop-application making side of Godot since it's rather versatile, having a very powerful theming engine and all sorts of ready-made widgets to work with. This is an interesting topic to explore for anyone that wants to build their own tools and have fun with it.
 
