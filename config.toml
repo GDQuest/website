@@ -110,3 +110,8 @@ useSessionStorage = true
 [privacy.youtube]
 disable = false
 privacyEnhanced = true
+
+[caches]
+[caches.modules]
+dir = ":cacheDir/modules"
+maxAge = -1
