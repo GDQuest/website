@@ -17,11 +17,11 @@ src = "img/banner.png"
 
 <!-- If this file goes under contents/docs be sure to start chapters with ##, not # -->
 
-Over the past few days I've been working on a new section that brings all our useful guides, like our [GDScript styleguide]({{< ref "docs/guidelines/best-practices/godot-gdscript/index.md" >}}) in one place.
+Over the past few days we've been working on a new section that brings all our useful guides, like our [GDScript styleguide]({{< ref "docs/guidelines/best-practices/godot-gdscript/index.md" >}}) in one place.
 
-Now, have a beautiful [docs section]({{< ref "docs/_index.md" >}}) based on the excellent [Hugo learn theme](//learn.netlify.com). This is the first step in a series of improvements we are making to improve your experience on this website.
+Now, we have a beautiful [docs section]({{< ref "docs/_index.md" >}}) based on the excellent [Hugo learn theme](//learn.netlify.com). This is the first step in a series of improvements we are making to improve your experience on this website.
 
-![GDQuest Docs Section](./img/beautyshot.png)
+{{< youtube "puSLhqIXoys" >}}
 
 This theme brings cool features:
 
