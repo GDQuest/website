@@ -8,8 +8,10 @@ date = 2019-12-09T11:02:00+02:00
 weight = 2
 +++
 
-### Chapter 2
+# Chapter 2: Guidelines
 
-# Guidelines
+In the following pages, you will find our **best practices** and guidelines. They are the result of years of experience working in game development, programming, and education.
 
-Over time, the process of learning about and teaching tools, acquiring new skills and abilities, we gather enough experience to be able to see what works and what doesn't. The following pages are a **compilation of best practices** about using some of the tools we are experienced with, but also about more abstract and hands-on concepts such as: how to communicate in a helpful and kind way, how to prepare for making video tutorials and presentations and much more. "Contributing to" is all about _being efficient_ with your time and ours, in case you want to help out with content or with our projects.
+We use these documents at GDQuest to code efficiently, to make good tutorials, and to improve the quality and consistency of our work over time.
+
+If you want to contribute to one of our projects, you'll want to take a look at the next pages.

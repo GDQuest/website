@@ -5,8 +5,7 @@ disableToc = true
 
 +++
 
+Welcome to the GDQuest docs section.
 
-Welcome to GDQuest - the documents section. This is the right place to find guides and guidelines for <abbr title="Free and Open Source Software">FOSS</abbr>, documentation for tools created at GDQuest, cheatsheets and much more.
-
-We strive for quality content and this section of the website is no different.
+Here, you will find free learning guides, manuals for the tools we make at GDQuest, our contributor's guidelines, cheatsheets, and much more!
 
