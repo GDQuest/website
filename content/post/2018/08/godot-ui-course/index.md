@@ -12,7 +12,7 @@ title = "Godot Interface Design Course: standalone version"
 
 +++
 
-If you don't have the full [Godot 3 course](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) and you are only interested in UI design, you can now get our UI master series as a stand-alone course! That way you only pay for the content you want! 😊
+If you don't have the full [Godot 3 course](//gumroad.com/l/godot-tutorial-make-professional-2d-games) and you are only interested in UI design, you can now get our UI master series as a stand-alone course! That way you only pay for the content you want! 😊
 
 This initial release contains 25 tutorials, for over 3h30 of content. You'll learn to create:
 
@@ -21,7 +21,7 @@ This initial release contains 25 tutorials, for over 3h30 of content. You'll lea
 1. An **item menu** inspired by old-school Japanese RPGs
 1. Animated lifebars and gauges that follow monsters in the game
 
-{{< calltoaction url="https://gum.co/oifP" text="Get the Godot UI Tutorial!" >}}
+{{< calltoaction url="//gum.co/oifP" text="Get the Godot UI Tutorial!" >}}
 
 ## Start with Our Free Godot UI Tutorials
 
@@ -29,14 +29,14 @@ This initial release contains 25 tutorials, for over 3h30 of content. You'll lea
 
 We made a series of tutorials to get you started with Godot 3's UI system! You will learn to work with containers, with screen size, and create UI from scratch in two hands-on tutorial
 
-{{< calltoaction url="https://www.youtube.com/playlist?list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4" text="Watch the full series" >}}
+{{< calltoaction url="//www.youtube.com/playlist?list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4" text="Watch the full series" >}}
 
 Do you prefer text? I also wrote four long tutorials for Godot's official manual:
 
-1. [Design interfaces with the Control nodes](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_introduction_to_the_ui_system.html)
-1. [Design a title screen](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_main_menu.html)
-1. [Design the GUI](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_game_user_interface.html)
-1. [Control the game’s UI with code](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_code_a_life_bar.html)
+1. [Design interfaces with the Control nodes](//godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_introduction_to_the_ui_system.html)
+1. [Design a title screen](//godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_main_menu.html)
+1. [Design the GUI](//godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_game_user_interface.html)
+1. [Control the game’s UI with code](//godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_code_a_life_bar.html)
 
 Want to know when our courses are on sale, or when we release something new? Enter your email below!
 

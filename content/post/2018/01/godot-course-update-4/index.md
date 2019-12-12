@@ -14,9 +14,9 @@ title = "Godot 3 course, tilesets update out!"
 
 +++
 
-The 4th update of the [Godot 3 course](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) is out! It includes the new tilesets and tilemap chapter, along with new videos to flesh out chapter *01.The character controller* and chapter *08.Game pre-production*.
+The 4th update of the [Godot 3 course](//gumroad.com/l/godot-tutorial-make-professional-2d-games) is out! It includes the new tilesets and tilemap chapter, along with new videos to flesh out chapter *01.The character controller* and chapter *08.Game pre-production*.
 
-Godot 3 [just came out](https://godotengine.org/article/godot-3-0-released), and with some more work done on the official documentation and a nice collab with Mike from GameFromScratch, I will now focus my efforts fully on the course.
+Godot 3 [just came out](//godotengine.org/article/godot-3-0-released), and with some more work done on the official documentation and a nice collab with Mike from GameFromScratch, I will now focus my efforts fully on the course.
 
 {{< figure
   src="./new-website-design.png"
@@ -38,4 +38,4 @@ Since I didn't take much time off since 2016, I'll take some holidays to settle 
 
 See you in the next release,
 
-[Nathan](http://twitter.com/NathanGDQuest)
+[Nathan](//twitter.com/NathanGDQuest)

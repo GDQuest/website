@@ -1,4 +1,4 @@
-baseURL = "https://gdquest.com/"
+baseURL = "//gdquest.com/"
 languageCode = "en-us"
 title = "GDQuest"
 titleCaseStyle = "Chicago"
@@ -69,25 +69,25 @@ ytapikey = "AIzaSyAUCyzwHmO71chFn7wMa6VlBNzk0tpkFYk"
 # Social network names for Meta tag SEO
 twitter = "NathanGDQuest"
 
-github_repo = "https://github.com/GDQuest/GDQuest-website/"
+github_repo = "//github.com/GDQuest/GDQuest-website/"
 license_copyright= "GDQuest and contributors"
 
 [params.shop_link]
 name        = "Shop"
-url         = "https://gumroad.com/gdquest"
+url         = "//gumroad.com/gdquest"
 
 [[params.social]]
-link = "https://www.youtube.com/c/gdquest"
+link = "//www.youtube.com/c/gdquest"
 icon = "youtube"
 description = "GDQuest Youtube channel"
 
 [[params.social]]
-link = "https://twitter.com/NathanGDQuest"
+link = "//twitter.com/NathanGDQuest"
 icon = "twitter"
 description = "GDQuest Twitter page"
 
 [[params.social]]
-link = "https://github.com/GDQuest/"
+link = "//github.com/GDQuest/"
 icon = "github"
 description = "GDQuest GitHub page"
 

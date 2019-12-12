@@ -70,8 +70,8 @@ You get everything from the Essentials and Pro versions, plus:
 You have some experience with drawing and digital art.
 If you don't know how to use Krita, I made a [FREE Krita tutorial series](/tutorial/art/krita-tutorial-for-game-artists/). It's more than 6 hours long! In this course, you will learn the tools you need to work comfortably and efficiently with the program.
 
-Krita is an award winning, free and open source painting program. It is available on all desktop platforms (_Windows, Mac, Linux_). You can download it on the [Krita foundation's website](https://krita.org/en/download/krita-desktop/).
+Krita is an award winning, free and open source painting program. It is available on all desktop platforms (_Windows, Mac, Linux_). You can download it on the [Krita foundation's website](//krita.org/en/download/krita-desktop/).
 
 ## To those who made this possible
 
-I want to thank the [424 Kickstarter backers](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) who made this project possible from the bottom of my heart! Thanks to these persons, tens of thousands of people got hours of free education for Krita, and many discovered this wonderful program. This would not have been possible without you. GDQuest would not have been possible without you. Many thanks!
+I want to thank the [424 Kickstarter backers](//www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) who made this project possible from the bottom of my heart! Thanks to these persons, tens of thousands of people got hours of free education for Krita, and many discovered this wonderful program. This would not have been possible without you. GDQuest would not have been possible without you. Many thanks!

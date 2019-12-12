@@ -20,7 +20,7 @@ There can be a sheer contrast between Japanese people's behavior during daytime,
 
 Anyway, Japan is beautiful. And a picture is probably worth a thousand words in that regards: 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/144749747@N03/30581295540/in/album-72157674849188902/" title="Sunset on Naoshima"><img src="https://c5.staticflickr.com/6/5783/30581295540_8642c0298a_b.jpg" width="1024" height="576" alt="Sunset on Naoshima"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="//www.flickr.com/photos/144749747@N03/30581295540/in/album-72157674849188902/" title="Sunset on Naoshima"><img src="//c5.staticflickr.com/6/5783/30581295540_8642c0298a_b.jpg" width="1024" height="576" alt="Sunset on Naoshima"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 I've mostly been out hiking, meeting people, making friends... enjoying the soothing nature. If you ever travel there, I would warmly recommend walking the Kumano Kodo, a pilgrimage route. At least if you’re into trekking. Oh, and when you're on your way down to Tanabe City, be sure stop by Osaka and eat some freshly cooked okonomiyaki with cheese topping. It tastes great!
 
@@ -42,7 +42,7 @@ Let's talk about what's coming next on GDQuest. As far as free content is concer
 
 4.  And there will still be weekly free videos on the channel. I have to produce some new ones, in parallel to the training products. I've already prepared the next free series, which will be an introduction to the Godot game engine!
 
-And hopefully we'll find some time to do a few collabs with other artists. We got in touch with Daniel, aka <a href="https://www.youtube.com/channel/UCGgpthBWDbFX2GSljMw-MdQ">Borodante</a> (_pronounced Borrrrr-rodante_), and some other tutorial makers.
+And hopefully we'll find some time to do a few collabs with other artists. We got in touch with Daniel, aka <a href="//www.youtube.com/channel/UCGgpthBWDbFX2GSljMw-MdQ">Borodante</a> (_pronounced Borrrrr-rodante_), and some other tutorial makers.
 
 Come chat with the community on Discord!
 ---------------------
@@ -54,7 +54,7 @@ Come chat with the community on Discord!
       more than welcome!
     </p>
     <p class="text--center">
-      <a href="https://discord.gg/KVaCsSP" class="button button--pill button--success button--full lead">Join the Discord server</a>
+      <a href="//discord.gg/KVaCsSP" class="button button--pill button--success button--full lead">Join the Discord server</a>
     </p>
   </div>
 </div>
@@ -64,9 +64,9 @@ Sara Tepes
 
 Sara Tepes, a hard-working 17 years old illustrator, talked about GDQuest in her last video. I’ve been following her for months now, and her message was heartwarming! So now it’s my turn: if you want to see appealing live Krita demonstrations, check out Sara’s channel on YouTube. She uploads commented time-lapses every week and she already produces very appealing art despite her young age.
 
-[Sara Tepes on Youtube](https://www.youtube.com/channel/UCWgMcluGLnaVpCWmscaFs_Q)
+[Sara Tepes on Youtube](//www.youtube.com/channel/UCWgMcluGLnaVpCWmscaFs_Q)
 
-<iframe width="640" height="360" style="max-width:100%" src="https://www.youtube.com/embed/orgVs2csqbo" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" style="max-width:100%" src="//www.youtube.com/embed/orgVs2csqbo" frameborder="0" allowfullscreen></iframe>
 
 That said...
 ------------
@@ -78,4 +78,4 @@ Nathan
 
 PS: If you want to see more shots I took in Japan, click on the picture below. It'll take you to the album on Flickr.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/144749747@N03/30766469012/in/dateposted-public/" title="highlights (40 of 44)"><img src="https://c5.staticflickr.com/6/5546/30766469012_1a163667d6_b.jpg" width="1024" height="576" alt="highlights (40 of 44)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="//www.flickr.com/photos/144749747@N03/30766469012/in/dateposted-public/" title="highlights (40 of 44)"><img src="//c5.staticflickr.com/6/5546/30766469012_1a163667d6_b.jpg" width="1024" height="576" alt="highlights (40 of 44)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

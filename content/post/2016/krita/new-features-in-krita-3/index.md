@@ -47,7 +47,7 @@ It is both simple and powerful: Krita gives you an instant preview of your drawi
 
 The developers completely changed how Krita handles rendering operations under the hood. Thus, the instant preview not only affects brushstrokes, like it was initially meant to. It also works with filters, with the move tool, and with animation playback right now.
 
-[Overview of the Instant Preview beta in Krita 2.9](https://www.youtube.com/watch?v=c9yiBRFQnbo)
+[Overview of the Instant Preview beta in Krita 2.9](//www.youtube.com/watch?v=c9yiBRFQnbo)
 
 {{< figure src="/img/post/krita/new-in-krita-3/krita-instant-preview-2.9.png" alt="Instant preview in Krita 2.9 anim edition" >}}
 
@@ -59,9 +59,9 @@ To help you get started animating, there is a new default animation workspace. W
 
 {{< figure src="/img/post/krita/new-in-krita-3/krita-3-animation-workspace.jpg" caption="Krita's animation workspace" >}}
 
-For more information on this feature, check out my [Krita animation tutorial](https://www.youtube.com/watch?v=9uvju6sUNJA)
+For more information on this feature, check out my [Krita animation tutorial](//www.youtube.com/watch?v=9uvju6sUNJA)
 
-The [official Krita docs](https://docs.krita.org/Animation) will provide offer you with more information if you want to learn every function the toolset provides
+The [official Krita docs](//docs.krita.org/Animation) will provide offer you with more information if you want to learn every function the toolset provides
 
 ### The new layers docker <small>My favorite feature</small>
 
@@ -93,11 +93,11 @@ Under the hood, Krita's code went through major changes. The developers ported t
 
 All of this was made possible thanks to the community and the Kickstarter backers in particular. Speaking of which...
 
-{{< figure src="/img/post/krita/new-in-krita-3/support-krita-2016-kickstarter.jpg" alt="Support Krita's Kickstarter campaign: Let's Make Text and Vector Art Awesome!" link="https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome" >}}
+{{< figure src="/img/post/krita/new-in-krita-3/support-krita-2016-kickstarter.jpg" alt="Support Krita's Kickstarter campaign: Let's Make Text and Vector Art Awesome!" link="//www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome" >}}
 
 The 2016 Kickstarter campaign is live right now, and the developers need your support. Check it out now and help Krita to become even more awesome!
 
-<a href="https://www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome
+<a href="//www.kickstarter.com/projects/krita/krita-2016-lets-make-text-and-vector-art-awesome
 " style="font-size:150%">Krita 2016: Let's Make Text and Vector Art Awesome!</a>
 
 ## 11 smaller but welcome additions {#smaller-features}
@@ -158,7 +158,7 @@ GMIC, the open source image processor, is now stable on Windows. No more violent
 
 You can find it at the bottom of the filter menu. This tool is a library of more than 400 image effects. They range from simple artistic filters, blurs and sharpen masks to powerful layer splitting tools, as shown in this comic book coloring tutorial by David Revoy.
 
-[Krita 2.9 tutorial - Gmic colorize by David Revoy](https://www.youtube.com/watch?v=YigbVY9s6gU)
+[Krita 2.9 tutorial - Gmic colorize by David Revoy](//www.youtube.com/watch?v=YigbVY9s6gU)
 
 ### Import and export PDF (Windows)
 
@@ -174,7 +174,7 @@ Another great addition for Windows users is the new shell extension. This tiny p
 
 Since May 2015, the development team released 11 updates for Krita 2.9. These brought a wide range of improvements to the program. As you can guess, a lot has changed since last year, to the point where there is just too much to talk about! I made a video a few months ago to highlight some of those changes.
 
-[Krita's New Features since v2.9.5](https://www.youtube.com/watch?v=PIKfrqk09Hk)
+[Krita's New Features since v2.9.5](//www.youtube.com/watch?v=PIKfrqk09Hk)
 
 ## Krita 3 Review: My Verdict after 9 Months {#krita-3-review}
 
@@ -198,6 +198,6 @@ As far as I'm concerned, the program is mature for professional use. It's not pe
 
 Krita 3 is out now!
 
-[{{< icon link >}} Download Krita 3](https://krita.org/en/download/krita-desktop/)
+[{{< icon link >}} Download Krita 3](//krita.org/en/download/krita-desktop/)
 
 And check out my [Krita 3 game art course]({{< ref "/product/krita/painterly-game-art/index.md" >}})!

@@ -25,7 +25,7 @@ I believe that to learn as fast as we can, we need to:
 
 - **Feel like we're part of the group we strive to be part of**. I think that's why Jesse Shell's "The Art of Game Design" starts by asking the readers to view and call themselves game designers. Just like playing as an avatar in a game, the virtual identity helps us take steps towards becoming a designer, a developer, an artist... and thinking like one of them.
 - **Get feedback for our input**. This is an idea we always apply to UX and game design. Feedback, feeling like our actions are meaningful and produce a tangible result, helps us understand, memorize techniques, and stay engaged and motivated.
-- **Practice, and do so at the edge of our abilities**. Learning is incomplete without practice. Theory alone is insufficient to develop skills. Critical thinking, writing, actual programming, and design work are necessary to strengthen our abilities. We also need some challenge to stay engaged. If you've ever been in a state of [flow](http://www.jenovachen.com/flowingames/foundation.htm), there's nothing like it to make fast progress in a given domain.
+- **Practice, and do so at the edge of our abilities**. Learning is incomplete without practice. Theory alone is insufficient to develop skills. Critical thinking, writing, actual programming, and design work are necessary to strengthen our abilities. We also need some challenge to stay engaged. If you've ever been in a state of [flow](//www.jenovachen.com/flowingames/foundation.htm), there's nothing like it to make fast progress in a given domain.
 
 And more.
 

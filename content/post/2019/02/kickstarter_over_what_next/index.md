@@ -16,9 +16,9 @@ The campaign is a success. In 3 weeks, we raised over two times our goal. You se
 
 Thank you for your trust and your support! 🙂
 
-Building a great course takes time. We now have months of work ahead of us to deliver everything. We will try to be as open as possible so you can follow our progress on GitHub, and via frequent updates on [Twitter](https://twitter.com/NathanGDQuest) and occasional news videos [on our YouTube channel](https://www.youtube.com/c/gdquest/). Be sure to follow us there!
+Building a great course takes time. We now have months of work ahead of us to deliver everything. We will try to be as open as possible so you can follow our progress on GitHub, and via frequent updates on [Twitter](//twitter.com/NathanGDQuest) and occasional news videos [on our YouTube channel](//www.youtube.com/c/gdquest/). Be sure to follow us there!
 
-In the meantime, we produced over 6 hours of free tutorials and a dozen of Free and Open Source demos during the campaign. They're all [in this playlist](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu).
+In the meantime, we produced over 6 hours of free tutorials and a dozen of Free and Open Source demos during the campaign. They're all [in this playlist](//www.youtube.com/playlist?list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu).
 
 {{< youtube UcdwP1Q2UlU >}}
 
@@ -34,7 +34,7 @@ I'm moving back from Japan to France at the end of the month. I'll be traveling 
 
 We release all our products on Gumroad. I will add your email to each course in the Gumroad backend, and **you will receive a link to access the course directly via email**.
 
-You will get an email to unlock early access for each course, and one when the project is over. For more frequent updates, you should subscribe to our YouTube channel and follow us on Twitter. You can also [join our Discord](https://discord.gg/CHYVgar) community.
+You will get an email to unlock early access for each course, and one when the project is over. For more frequent updates, you should subscribe to our YouTube channel and follow us on Twitter. You can also [join our Discord](//discord.gg/CHYVgar) community.
 
 If you want us to use a different email address than the one associated to your Kickstarter or PayPal account, please send me a message!
 

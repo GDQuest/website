@@ -66,7 +66,7 @@ The mouth and vocal folds move thanks to muscles. To articulate to your fullest 
 
 **The longer the recording session, the longer you should warm up**.
 
-Here's a [short vocal warm up](https://www.youtube.com/watch?v=9tXK7cw9mrg) from Julian Treasure's TED talk. You want to warm up your lips, your tongue, and your jaw. The siren exercise then focuses on the vocal cords. To improve pronunciation of specific sounds, add a few [tongue twisters](http://pun.me/pages/tongue-twisters.php): they'll serve both as an exercise and complete your warm up.
+Here's a [short vocal warm up](//www.youtube.com/watch?v=9tXK7cw9mrg) from Julian Treasure's TED talk. You want to warm up your lips, your tongue, and your jaw. The siren exercise then focuses on the vocal cords. To improve pronunciation of specific sounds, add a few [tongue twisters](//pun.me/pages/tongue-twisters.php): they'll serve both as an exercise and complete your warm up.
 
 ### Take your time ###
 

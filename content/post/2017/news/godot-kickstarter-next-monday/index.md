@@ -39,7 +39,7 @@ There is already a ton of videos on the channels for you to watch now. But there
 
 ## It's all based on your feedback
 
-I put out a form to ask you what you wanted to learn exactly, and you've been [more than 600 to reply](https://gdquest.typeform.com/report/ul3bc1/prym)!
+I put out a form to ask you what you wanted to learn exactly, and you've been [more than 600 to reply](//gdquest.typeform.com/report/ul3bc1/prym)!
 
 
 {{< figure
@@ -59,9 +59,9 @@ Subscribe below and get notified via email when the Kickstarter is up!
 
 If you haven't already:
 
--   [Subscribe to the Youtube channel](http://youtube.com/c/gdquest)
--   [Follow me on Twitter](https://twitter.com/NathanGDQuest)
+-   [Subscribe to the Youtube channel](//youtube.com/c/gdquest)
+-   [Follow me on Twitter](//twitter.com/NathanGDQuest)
 
-And feel free to message me on the [Godot Discord server](https://discordapp.com/invite/zH7NUgz) anytime (@gdquest#4637)
+And feel free to message me on the [Godot Discord server](//discordapp.com/invite/zH7NUgz) anytime (@gdquest#4637)
 
 _Thank you kindly for your time!_

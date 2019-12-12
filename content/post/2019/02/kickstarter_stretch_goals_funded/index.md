@@ -18,7 +18,7 @@ There's two days left to wrap up the campaign. With over 28,000€ in pledges al
 
 You only have two days left to become a backer on our new 2d and 3d game creation courses:
 
-{{< calltoaction url="https://www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng/" text="Back us on Kickstarter" >}}
+{{< calltoaction url="//www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng/" text="Back us on Kickstarter" >}}
 
 *Your pledges support both GDQuest and Godot.*
 
@@ -28,7 +28,7 @@ You only have two days left to become a backer on our new 2d and 3d game creatio
 
 We'll make an official New Features in Godot 3.1 *video* series. Softbody physics, visual shader editor, new animation tools, and more: we'll cover Godot 3.1's new features in details for the official documentation.
 
-That's on top of the [free game creation tutorials](https://www.youtube.com/watch?v=7OGxzJQAKmw&list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu), [open source tools for gamedevs](https://github.com/GDQuest/kickstarter-quest-3/) we're working on, and the other two stretch goals.
+That's on top of the [free game creation tutorials](//www.youtube.com/watch?v=7OGxzJQAKmw&list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu), [open source tools for gamedevs](//github.com/GDQuest/kickstarter-quest-3/) we're working on, and the other two stretch goals.
 
 ## Welcome Mannequiny!
 
@@ -42,7 +42,7 @@ From there, we're going to take our time to create a solid animated game charact
 
 ## We made more tutorials than planned
 
-We promised a new video every day during the campaign: we've gone past that already. At the time of writing, our playlist contains 26 videos: [Learn 2d and 3d Game Creation with Godot: 2019 Kickstarter Tutorials](https://www.youtube.com/watch?v=7OGxzJQAKmw&list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu)
+We promised a new video every day during the campaign: we've gone past that already. At the time of writing, our playlist contains 26 videos: [Learn 2d and 3d Game Creation with Godot: 2019 Kickstarter Tutorials](//www.youtube.com/watch?v=7OGxzJQAKmw&list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu)
 
 ![GDscript intro tutorial](./img/gdscript-intro.png)
 

@@ -14,7 +14,7 @@ aliases = [
 
 *Version v1.0.0*
 
-*This document is based on the [GNU Kind Communications Guidelines](https://www.gnu.org/philosophy/kind-communication.html) by Richard Stallman.*
+*This document is based on the [GNU Kind Communications Guidelines](//www.gnu.org/philosophy/kind-communication.html) by Richard Stallman.*
 
 *In short*, our goal with these guidelines is to **build a welcoming, a safe, and a productive space for every creator and contributor**. We're here to push Free Software projects forward together and **be kind and supportive to one another**, working past our differences.
 

@@ -17,17 +17,17 @@ The course comes in 3 versions. Indie contains all of Hobby, and Pro contains al
 
 <!-- TODO: refactor as a 3 columns call to action: use a parent container shortcode? -->
 
-1. [Hobby](https://gum.co/vmPA)
-1. [Indie](https://gum.co/XEULZ)
-1. [Pro](https://gum.co/godot-tutorial-make-professional-2d-games)
+1. [Hobby](//gum.co/vmPA)
+1. [Indie](//gum.co/XEULZ)
+1. [Pro](//gum.co/godot-tutorial-make-professional-2d-games)
 
 If you're only looking for UI tutorials, check out our standalone course:
 
 ![Ui design series banner image](./ui-master-series-banner.png)
 
-{{< calltoaction url="https://gum.co/oifP" text="Create User Interface Godot Course" >}}
+{{< calltoaction url="//gum.co/oifP" text="Create User Interface Godot Course" >}}
 
-You'll find some **free tutorial samples** below. I also released the [Finite State Machine](http://bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation. You can find the open source [A-RPG demo](https://github.com/GDQuest/make-pro-2d-games-with-godot/) from the course on GitHub.
+You'll find some **free tutorial samples** below. I also released the [Finite State Machine](//bit.ly/godot-3-fsm-demo) demo open source, for the official Godot documentation. You can find the open source [A-RPG demo](//github.com/GDQuest/make-pro-2d-games-with-godot/) from the course on GitHub.
 
 <p class="note">
 All versions come with source Godot projects so you can read the source code, learn from them and even reuse them in your own work! Want to skip ahead in a chapter? There are multiple checkpoint projects with `start` and `end` folders so you can pick up from a different video.
@@ -38,7 +38,7 @@ All versions come with source Godot projects so you can read the source code, le
 ### {{< tag "hobby" >}} Chapter 1: The character controller
 
 0. Project Structure Overview
-1. [Create the Base Character Scene](https://www.youtube.com/watch?v=PKGOWGw3blw)
+1. [Create the Base Character Scene](//www.youtube.com/watch?v=PKGOWGw3blw)
 2. Input Map
 3. Input Direction
 4. Player Walk And Run
@@ -54,7 +54,7 @@ All versions come with source Godot projects so you can read the source code, le
 ### {{< tag "hobby" >}} Chapter 2: Combat mechanics: life, attacks and death
 
 0. Intro
-1. [Basic Attack Animation](https://www.youtube.com/watch?v=TPJqJDCnxyg)
+1. [Basic Attack Animation](//www.youtube.com/watch?v=TPJqJDCnxyg)
 2. Simple Attack Sword Code
 3. Simple Attack Connect With Player
 4. Health
@@ -102,13 +102,13 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### {{< tag "hobby" >}} Chapter 5: Build levels with Tiled map editor
 
-1. [Intro To Tile-sets](https://www.youtube.com/watch?v=TdPgIagt9Yo)
+1. [Intro To Tile-sets](//www.youtube.com/watch?v=TdPgIagt9Yo)
 2. Create A Tile-set
 3. Auto-tiles
 4. Working With Tile-maps
 5. Auto-tile With 3 By 3 Bit mask
 6. Intro To Tiled Map Editing
-7. Intro to the new [Tileset Editor in Godot 3.1](https://www.youtube.com/watch?v=F6VerW98gEc)
+7. Intro to the new [Tileset Editor in Godot 3.1](//www.youtube.com/watch?v=F6VerW98gEc)
 
 ### {{< tag "hobby" >}} Chapter 6: Breathe life to the game: world animation and particles
 
@@ -225,14 +225,14 @@ This final series rounds out the techniques explored in the course with requests
 
 These are free tutorials available to everyone on Youtube, funded by the project. They're designed to complement the course.
 
-1. [Attack Tutorial 1: How To Animate The Sword](https://www.youtube.com/watch?v=S7jBSs5j4-c)
-2. [Attack Tutorial 2: Code the Sword Attack](https://www.youtube.com/watch?v=JBczf8qt04c)
-3. [Tool Mode: Draw In the editor's viewport](https://www.youtube.com/watch?v=XPs-HGzElTg)
-4. [Camera 2d And Grid Snapping](https://www.youtube.com/watch?v=lNNO-Gh5j78)
+1. [Attack Tutorial 1: How To Animate The Sword](//www.youtube.com/watch?v=S7jBSs5j4-c)
+2. [Attack Tutorial 2: Code the Sword Attack](//www.youtube.com/watch?v=JBczf8qt04c)
+3. [Tool Mode: Draw In the editor's viewport](//www.youtube.com/watch?v=XPs-HGzElTg)
+4. [Camera 2d And Grid Snapping](//www.youtube.com/watch?v=lNNO-Gh5j78)
 
 ### Extras: contributions to the official Godot docs
 
-Thanks to this project, I could dedicate time to Godot's official documentation. I became a reviewer on GitHub and organized 8 documentation writing events that took the built-in code reference from 33% to 70% complete, thanks to the hard work of a few dedicated contributors. We collaborated with [KidsCanCode](https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg) to build a much better [Step by Step guide](http://docs.godotengine.org/en/latest/getting_started/step_by_step/index.html) in the official manual.
+[Omitted long matching line]
 
 You'll find some of the work I did bundled with the course.
 
@@ -240,19 +240,19 @@ You'll find some of the work I did bundled with the course.
 
 Step by step guide:
 
-1. [Introduction to Godot’s editor](http://docs.godotengine.org/en/latest/getting_started/step_by_step/intro_to_the_editor_interface.html)
-1. [Godot’s design philosophy](http://docs.godotengine.org/en/latest/getting_started/step_by_step/godot_design_philosophy.html)
-1. [Design interfaces with the Control nodes](http://docs.godotengine.org/en/latest/getting_started/step_by_step/ui_introduction_to_the_ui_system.html)
-1. [Design a title screen](http://docs.godotengine.org/en/latest/getting_started/step_by_step/ui_main_menu.html)
-1. [Design the GUI](http://docs.godotengine.org/en/latest/getting_started/step_by_step/ui_game_user_interface.html)
-1. [Control the game’s UI with code](http://docs.godotengine.org/en/latest/getting_started/step_by_step/ui_code_a_life_bar.html)
+1. [Introduction to Godot’s editor](//docs.godotengine.org/en/latest/getting_started/step_by_step/intro_to_the_editor_interface.html)
+1. [Godot’s design philosophy](//docs.godotengine.org/en/latest/getting_started/step_by_step/godot_design_philosophy.html)
+1. [Design interfaces with the Control nodes](//docs.godotengine.org/en/latest/getting_started/step_by_step/ui_introduction_to_the_ui_system.html)
+1. [Design a title screen](//docs.godotengine.org/en/latest/getting_started/step_by_step/ui_main_menu.html)
+1. [Design the GUI](//docs.godotengine.org/en/latest/getting_started/step_by_step/ui_game_user_interface.html)
+1. [Control the game’s UI with code](//docs.godotengine.org/en/latest/getting_started/step_by_step/ui_code_a_life_bar.html)
 
 Contributing:
 
-1. [Docs writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html)
-1. [Contribute to the Class Reference](http://docs.godotengine.org/en/latest/community/contributing/updating_the_class_reference.htm) (rewrite)
+1. [Docs writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html)
+1. [Contribute to the Class Reference](//docs.godotengine.org/en/latest/community/contributing/updating_the_class_reference.htm) (rewrite)
 
 #### Demo projects
 
-1. [AStar pathfinding on a 2d grid](https://github.com/GDQuest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding)
-1. [Navigation2D](https://github.com/godotengine/godot-demo-projects/tree/master/2d/navigation) (rewrite)
+1. [AStar pathfinding on a 2d grid](//github.com/GDQuest/Godot-engine-tutorial-demos/tree/master/2018/03-30-astar-pathfinding)
+1. [Navigation2D](//github.com/godotengine/godot-demo-projects/tree/master/2d/navigation) (rewrite)

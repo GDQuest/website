@@ -56,7 +56,7 @@ We are here to review your Work-in-Progress (WIP) code, to help if you have any 
 
 If you want to work on an open issue, make sure that you understand it well by asking for all the information you need in order to tackle it efficiently.
 
-You can also get in touch on the [GDQuest Discord server](https://discord.gg/uzSR7jB).
+You can also get in touch on the [GDQuest Discord server](//discord.gg/uzSR7jB).
 
 ## Code style ##
 
@@ -185,5 +185,5 @@ I applied a fade and the fade duration snapped to the playhead.
 
 ### Taking screenshots
 
-If you are on Windows, I highly recommend [ShareX](https://getsharex.com/), an amazing open source program. It lets you take annotated screenshots, animated GIFs, and video clips. On Linux, you can use the built-in tool in your distribution: screenshot on Ubuntu, Spectacle on KDE...
+If you are on Windows, I highly recommend [ShareX](//getsharex.com/), an amazing open source program. It lets you take annotated screenshots, animated GIFs, and video clips. On Linux, you can use the built-in tool in your distribution: screenshot on Ubuntu, Spectacle on KDE...
 

@@ -18,7 +18,7 @@ Time for an update!
 
 {{< youtube puZctyp-5j4 >}}
 
-*Note: I do occasional update videos and live streams [on the GDQuest channel](https://www.youtube.com/c/gdquest/). Subscribe if you want to stay posted on everything that's happening around the project.*
+*Note: I do occasional update videos and live streams [on the GDQuest channel](//www.youtube.com/c/gdquest/). Subscribe if you want to stay posted on everything that's happening around the project.*
 
 ## We've already put out Free content ##
 
@@ -26,7 +26,7 @@ Your Kickstarter pledge funded both Free and paid content.
 
 **We're producing the free content first** for this project. As a result, the Gumroad coupons are coming later than planned. I can't say precisely when, as we're in pre-production right now. Early access might start around the end of June, but it may be pushed back to July as well. More on that below.
 
-It can be hard to keep track of all the content that's coming out. That's why I've prepared a playlist with all the videos we're making as part of the 2019 Kickstarter project: [Watch the videos on YouTube](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KEgXeZIgZsCkabi3LWzCfAM&disable_polymer=true)
+It can be hard to keep track of all the content that's coming out. That's why I've prepared a playlist with all the videos we're making as part of the 2019 Kickstarter project: [Watch the videos on YouTube](//www.youtube.com/playlist?list=PLhqJJNjsQ7KEgXeZIgZsCkabi3LWzCfAM&disable_polymer=true)
 
 That way, you can see everything your support made possible. It contains about 40 tutorials at the time of writing, and we're far from done!
 
@@ -36,7 +36,7 @@ That way, you can see everything your support made possible. It contains about 4
 
 The bulk of the tutorials we released are part of the last stretch goal. We promised to cover the new features in Godot 3.1, and we've done that in depth.
 
-You can find the playlist here: [New Features in Godot 3.1 - Tutorials](https://www.youtube.com/watch?v=TjuK1ijv5KA&list=PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9)
+You can find the playlist here: [New Features in Godot 3.1 - Tutorials](//www.youtube.com/watch?v=TjuK1ijv5KA&list=PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9)
 
 ## When will the Metroidvania course be available? ##
 
@@ -52,19 +52,19 @@ Lastly, we've been working on bonus content, and I've been trying to keep suppor
 
 ### We've done more, aside from videos ###
 
-We've worked on open [guidelines](https://github.com/GDQuest/gdquest-projects/blob/master/guidelines/gdscript-guidelines.md) to improve the quality of our code and our videos.
+We've worked on open [guidelines](//github.com/GDQuest/gdquest-projects/blob/master/guidelines/gdscript-guidelines.md) to improve the quality of our code and our videos.
 
 {{< youtube CGg3LAo91pY >}}
 
 ## What next?
 
-[Luciano](https://twitter.com/lucianomunoz_) sent me the first five animations of Mannequiny, the Free mannequin you'll get on the Godot asset library. With that, we can create the 3D tutorials for the New Features in Godot 3.1 series: IK, root motion, etc.
+[Luciano](//twitter.com/lucianomunoz_) sent me the first five animations of Mannequiny, the Free mannequin you'll get on the Godot asset library. With that, we can create the 3D tutorials for the New Features in Godot 3.1 series: IK, root motion, etc.
 
 {{< video "./mannequiny-idle.mp4" "720" >}}
 
 I'm also doing a little extra, next week: organizing a new Docs Sprint for Godot 3.2. The reference's completion rate has gone down with massive improvements to Godot 3.1. Together, we can complete it pretty fast, but we need to join forces.
 
-Besides that, we're focusing on the game and the next course moving forward. You can already find the project and on its [GitHub repository](https://github.com/GDQuest/godot-metroidvania-2d) 
+Besides that, we're focusing on the game and the next course moving forward. You can already find the project and on its [GitHub repository](//github.com/GDQuest/godot-metroidvania-2d) 
 
 ### Why produce free content first? ###
 
@@ -80,6 +80,6 @@ In greater details:
 
 That's it for now. 
 
-If you have any more questions or concerns, you can always [send me a tweet](https://twitter.com/NathanGDQuest), comment on the update videos, or better, hop on the [GDQuest Discord server](https://discord.gg/CHYVgar) and ping me by typing @gdquest. 😄
+If you have any more questions or concerns, you can always [send me a tweet](//twitter.com/NathanGDQuest), comment on the update videos, or better, hop on the [GDQuest Discord server](//discord.gg/CHYVgar) and ping me by typing @gdquest. 😄
 
 Be creative, have fun... see you in the next one. 🙂

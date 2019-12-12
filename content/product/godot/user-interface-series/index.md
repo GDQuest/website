@@ -16,15 +16,15 @@ title = "Create Professional User Interface in Godot"
 
 +++
 
-In this course, you will learn how to **best create User Interfaces** for your games with the open source [Godot Engine](https://godotengine.org/).
+In this course, you will learn how to **best create User Interfaces** for your games with the open source [Godot Engine](//godotengine.org/).
 
 This series is included in our larger [Make Professional Games with Godot]({{< ref "/product/godot/make-pro-2d-games/index.md" >}}) course. We made it as a standalone if you only want to learn about interface! So you only pay for the chapters you need 😄
 
 ![Shop menu screenshot](./img/shop-menu-screenshot.png)
 
-I've been one of the biggest contributors to Gdoot's official UI tutorials, like the [Intro to Godot's UI system](https://www.youtube.com/watch?v=y1E_y9AIqow). In this course, I'm bringing all my experience and research to **save you dozens of hours** learning to create UI... that works! 😄
+I've been one of the biggest contributors to Gdoot's official UI tutorials, like the [Intro to Godot's UI system](//www.youtube.com/watch?v=y1E_y9AIqow). In this course, I'm bringing all my experience and research to **save you dozens of hours** learning to create UI... that works! 😄
 
-{{< calltoaction url="https://gumroad.com/l/oifP" text="Get the Godot UI Course!" >}}
+{{< calltoaction url="//gumroad.com/l/oifP" text="Get the Godot UI Course!" >}}
 
 ## What will I learn?
 
@@ -36,7 +36,7 @@ I've been one of the biggest contributors to Gdoot's official UI tutorials, like
 
 ## Get started with our Free UI tutorials!
 
-Be sure to watch our [Free beginner Godot UI tutorials](https://www.youtube.com/watch?v=y1E_y9AIqow&list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4) first if you're just getting started!
+Be sure to watch our [Free beginner Godot UI tutorials](//www.youtube.com/watch?v=y1E_y9AIqow&list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4) first if you're just getting started!
 
 This course will help you **go beyond** our first interface series.
 
@@ -52,6 +52,6 @@ On top of **5 hours of video tutorials**, we always provide the full source code
 1. The **inventory system** along with the items menu
 1. The **shop system** and the shop menu
 
-{{< calltoaction url="https://gumroad.com/l/oifP" text="Get the Godot UI Course!" >}}
+{{< calltoaction url="//gumroad.com/l/oifP" text="Get the Godot UI Course!" >}}
 
 You also get lifetime free updates, even if the price increases in the future!

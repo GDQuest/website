@@ -13,21 +13,21 @@ type = "post"
 <img src="/img/post/hardware/huion-vs-wacom.jpg" alt="Huion vs Wacom graphic tablet banner" class="img-responsive" />
 # Recommended graphic tablets
 
-On this page, you can find a list of the graphic tablets I recommend for [Game Art Quest]({{< ref "/krita/game-art-quest/index.md" >}}). I used [Frenden's reviews](http://frenden.com/tagged/review) as a reference to pick affordable tablets you can try out. I also asked feedback to fellow professionals who use Huion devices, as I only have Wacom tablets here. When you buy a graphic tablet, be sure to test your device and to use your right of withdrawal in case you don't like it. And read reviews on Amazon or on the website you're buying them on.
+[Omitted long matching line]
 
 ## Flat tablets
 
 _Flat tablets are perfect for everyone to start with at a low price. Especially students and hobbyists._
 
-1. Huion H610 pro (80$) - [review](http://frenden.com/post/87110791272/huion-h610-pro-h610-k58-graphics-tablet-review)
+1. Huion H610 pro (80$) - [review](//frenden.com/post/87110791272/huion-h610-pro-h610-k58-graphics-tablet-review)
 2. Wacom Intuos Pro Medium or Large (300-500$)
 
 ## Screen tablets
 
 _Screen tablets are worth a try if you're an experienced artist already, and you do a lot of line work._
 
-1. Huion GT-220 (21.5" HD screen, 800$) - [review](http://frenden.com/image/118056589592)
-2. Monoprice 19" (1440*900 resolution, 400$) - [review](http://frenden.com/post/69444810884/review-monoprice-19-tablet-monitor-wacom-take)
+1. Huion GT-220 (21.5" HD screen, 800$) - [review](//frenden.com/image/118056589592)
+2. Monoprice 19" (1440*900 resolution, 400$) - [review](//frenden.com/post/69444810884/review-monoprice-19-tablet-monitor-wacom-take)
 3. Wacom Cintiq 13HD (13" HD screen, 800$)
 
 ## Tips

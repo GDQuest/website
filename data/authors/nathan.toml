@@ -3,14 +3,14 @@ user = "nathan"
 picture = "img/avatar/nathan.png"
 description = "I'm a courteous game designer, with a taste for open source. I'll share all I know."
 
-website = "http://gdquest.com/"
+website = "//gdquest.com/"
 email = "Nathan@GDQuest.com"
 
 [social.twitter]
-url = "https://twitter.com/NathanGDQuest"
+url = "//twitter.com/NathanGDQuest"
 icon = "twitter"
 name = "Twitter"
 [social.youtube]
-url = "http://youtube.com/c/gdquest"
+url = "//youtube.com/c/gdquest"
 icon = "youtube"
 name = "Youtube"

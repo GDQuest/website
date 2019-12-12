@@ -14,7 +14,7 @@ title = "Make Cel Shaded 2d Characters With Krita"
 
 +++
 
-The second Krita game art tutorial series is out! Meet Pepper, Carrot, and cel shading. This course is based on the world of Pepper&Carrot, a webcomic under the CCBy 4.0 licence by [David Revoy](http://davidrevoy.com/).
+The second Krita game art tutorial series is out! Meet Pepper, Carrot, and cel shading. This course is based on the world of Pepper&Carrot, a webcomic under the CCBy 4.0 licence by [David Revoy](//davidrevoy.com/).
 
 
 ## What you will learn
@@ -42,11 +42,11 @@ You’re interested in the course, but what if you buy and you don’t like it? 
 
 The course is available on Gumroad. Click the button below to access it. If you pre-order it, use the code "early" and get 20% off!
 
-{{< calltoaction "https://gumroad.com/l/cartoon-game-art-krita-course" "Get the course now!" >}}
+{{< calltoaction "//gumroad.com/l/cartoon-game-art-krita-course" "Get the course now!" >}}
 
 ## What next?
 
-This series wraps up the Game Art Quest Kickstarter project. Next, we're working together with the Godot developers to offer the first professional course for this wonderful open source engine! [Subscribe to the Youtube channel](https://www.youtube.com/c/gdquest) to know when it's available. I'm preparing 30 free tutorials for the 30 days of the Kickstarter campaign.
+This series wraps up the Game Art Quest Kickstarter project. Next, we're working together with the Godot developers to offer the first professional course for this wonderful open source engine! [Subscribe to the Youtube channel](//www.youtube.com/c/gdquest) to know when it's available. I'm preparing 30 free tutorials for the 30 days of the Kickstarter campaign.
 
 {{< figure
     src="/img/product/krita/cel-shaded-game-art/pepper-carrot-cover-by-david-revoy.jpg"

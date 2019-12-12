@@ -43,7 +43,7 @@ I wrote a python script to automate the process, and make it easier to improve t
 
 The update is in your library already. And to celebrate its anniversary, the premium brushes are on sale this week-end: you'll save 3 euros off the standard version and 7.5 euros off the premium one!
 
-{{< calltoaction "https://gumroad.com/l/krita-brushes-for-game-artists/anniversary" "Get the brushes!" >}}
+{{< calltoaction "//gumroad.com/l/krita-brushes-for-game-artists/anniversary" "Get the brushes!" >}}
 
 And if you'd like to know when there's a sale or a new course comes out, subscribe below:
 

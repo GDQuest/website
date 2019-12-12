@@ -19,7 +19,7 @@ The **Shop tutorial series** will show you how to both design and code a flexibl
 
 <!-- TODO: appealing screenshot -->
 
-This is a **free update** for everyone who owns the [Pro Godot course](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) or our [UI Master Series](https://gumroad.com/l/oifP). Enjoy the tutorials 😃
+This is a **free update** for everyone who owns the [Pro Godot course](//gumroad.com/l/godot-tutorial-make-professional-2d-games) or our [UI Master Series](//gumroad.com/l/oifP). Enjoy the tutorials 😃
 
 ## Gamedev Life Pilot Episode
 
@@ -33,7 +33,7 @@ For this first video, I picked a topic that came up a few times in the community
 
 ## The End of the Tunnel
 
-A lot more happened this month, as usual. We kept releasing as many videos as last month for free [on the channel](http://youtube.com/c/gdquest).
+A lot more happened this month, as usual. We kept releasing as many videos as last month for free [on the channel](//youtube.com/c/gdquest).
 
 <!-- TODO: Krita repo pitch? -->
 
@@ -47,7 +47,7 @@ Also, if you want to improve your game programming or game art skills, look out 
 
 ## That Said...
 
-That's it for today. Don't forget to [follow us on Twitter](https://twitter.com/NathanGDQuest) for fresh news, pretty pictures, and insights on Free programs!
+That's it for today. Don't forget to [follow us on Twitter](//twitter.com/NathanGDQuest) for fresh news, pretty pictures, and insights on Free programs!
 
 Be creative, have fun... see you in the next one 😉
 

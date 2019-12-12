@@ -4,7 +4,7 @@ intro = ["**Do you want to become a better game artist? To learn how professiona
     src="/img/page/product/krita-tutorial-1/krita-game-art-tutorial-1-banner.jpg"
     alt="Banner for the Krita course. A pig and a rabbit character in the forest."
     class="-blue"
-    link= "https://gumroad.com/l/krita-brushes-for-game-artists"
+    link= "//gumroad.com/l/krita-brushes-for-game-artists"
 
 # ----------------
 # PRODUCT VERSIONS
@@ -15,7 +15,7 @@ name = "Essentials"
 description = "For the occasional painter and those with a limited budget."
 body = "The essential content from the training. You will get the more practical videos, everything related to actually producing the game assets."
 features = ["Learn game art with Krita"]
-link = "https://gum.co/krita-game-art-tutorial-1"
+link = "//gum.co/krita-game-art-tutorial-1"
 price = "9.95"
 color = "-blue"
     [versions.01.icon]
@@ -27,7 +27,7 @@ color = "-blue"
 name = "Pro"
 description = "The most popular option. For hobbyists, students and aspiring professionals."
 features = ["Art theory", "Krita techniques", "Game art demos"]
-link = "https://gum.co/krita-game-art-tutorial-1"
+link = "//gum.co/krita-game-art-tutorial-1"
 price = "24.95"
 extra = "+ Essentials"
     [versions.02.icon]
@@ -39,7 +39,7 @@ extra = "+ Essentials"
 name = "Premium"
 description = "For those who want to go in depth."
 features = ["Exclusive tutorials", "Step-by-step assignments", "PDF Courses", "Priority support", "Premium Discord chat"]
-link = "https://gum.co/krita-game-art-tutorial-1"
+link = "//gum.co/krita-game-art-tutorial-1"
 price = "49.95"
 color = "-success"
 extra = "+ Pro"

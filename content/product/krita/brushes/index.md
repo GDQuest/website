@@ -30,7 +30,7 @@ The premium tier adds:
 - The **natural media brushkit**
 - Priority support on Discord
 
-{{< calltoaction "https://gumroad.com/l/krita-brushes-for-game-artists" "Get the brushes" >}}
+{{< calltoaction "//gumroad.com/l/krita-brushes-for-game-artists" "Get the brushes" >}}
 
 
 {{< figure
@@ -45,9 +45,9 @@ I take my time to design the presets and ensure that they are worth adding to th
 
 ![Thumbnails painted with Krita by Živko Kondić](/img/page/krita-brushes/testimonial-zhillustrator.jpg)
 
-[Zhillustrator](https://twitter.com/zhille) writes: "Nathan's brush set has some essential brushes for digital painting that will ease your way into Krita's powerful brush engine. My favorites in the pack are the mix and smudge brushes. Honestly, if you like the Lite set, it's worth it, Krita is going somewhere."
+[Zhillustrator](//twitter.com/zhille) writes: "Nathan's brush set has some essential brushes for digital painting that will ease your way into Krita's powerful brush engine. My favorites in the pack are the mix and smudge brushes. Honestly, if you like the Lite set, it's worth it, Krita is going somewhere."
 
-See more of Zhillustrator's work [on Artstation](https://www.artstation.com/artist/zhille)
+See more of Zhillustrator's work [on Artstation](//www.artstation.com/artist/zhille)
 
 
 ## Free Krita brushes
@@ -55,7 +55,7 @@ See more of Zhillustrator's work [on Artstation](https://www.artstation.com/arti
 {{< banner-img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
 
 The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
-[Click here to download the free Krita brushes](https://github.com/GDQuest/free-krita-brushes/)
+[Click here to download the free Krita brushes](//github.com/GDQuest/free-krita-brushes/)
 
 
 ## Changelog
@@ -95,7 +95,7 @@ New premium brushes
 
 ### Version 10 - January 2017
 
-Version 10 is a maintenance update. It comes with 4 new presets, but also 11 existing brushes got better! Performance improvements, improved feel... a good way to prepare major changes coming over the next few updates. As on every other month, I released [7 new free Krita brushes](https://gumroad.com/l/krita-brushes-gdquest-lite) in the.
+Version 10 is a maintenance update. It comes with 4 new presets, but also 11 existing brushes got better! Performance improvements, improved feel... a good way to prepare major changes coming over the next few updates. As on every other month, I released [7 new free Krita brushes](//gumroad.com/l/krita-brushes-gdquest-lite) in the.
 
 #### New brushes
 

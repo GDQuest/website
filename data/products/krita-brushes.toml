@@ -4,11 +4,11 @@ intro = ["**Do you want to become a faster artist with Krita?** Here are my best
     src="/img/page/krita-brushes/krita-brushes-banner.jpg"
     alt="Krita brushes banner image"
     class="-blue"
-    link= "https://gumroad.com/l/krita-brushes-for-game-artists"
+    link= "//gumroad.com/l/krita-brushes-for-game-artists"
 
 [versions.01]
 features = ["39 presets", "1 tutorial", "2 pdf documents", "FREE"]
-link = "https://github.com/GDQuest/free-krita-brushes/releases"
+link = "//github.com/GDQuest/free-krita-brushes/releases"
 name = "Lite"
 price = "0"
     [versions.01.icon]
@@ -17,7 +17,7 @@ price = "0"
 
 [versions.02]
 features = ["73 presets", "Monthly updates"]
-link = "https://gumroad.com/l/krita-brushes-for-game-artists"
+link = "//gumroad.com/l/krita-brushes-for-game-artists"
 name = "Standard"
 price = "9.95"
     [versions.02.icon]
@@ -28,7 +28,7 @@ price = "9.95"
 features = ["Natural media set", "6 video tutorials", "Priority support"]
 extra = "+ Standard content"
 
-link = "https://gumroad.com/l/krita-brushes-for-game-artists"
+link = "//gumroad.com/l/krita-brushes-for-game-artists"
 name = "Premium"
 price = "24.95"
 color = "-success"

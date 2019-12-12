@@ -85,9 +85,9 @@ var motion : = Vector2()
 
 Currently you can use three types of... types:
 
-1. [Built-in types](http://docs.godotengine.org/en/3.0/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types)
+1. [Built-in types](//docs.godotengine.org/en/3.0/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types)
 1. Core classes and nodes (`Object`, `Node`, `Area2D`, `Camera2D`, etc.)
-1. Your own, custom classes. Look at the new [class_name](https://godot.readthedocs.io/en/latest/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes) feature to register types in the editor.
+1. Your own, custom classes. Look at the new [class_name](//godot.readthedocs.io/en/latest/getting_started/step_by_step/scripting_continued.html#register-scripts-as-classes) feature to register types in the editor.
 
 {{< note >}}You don't need to write type hints for constants as Godot sets it automatically from the assigned value. But you can still do so to make the intent of your code clearer.{{%/ note %}}
 
@@ -147,7 +147,7 @@ func _on_body_entered(body : PhysicsBody2D) -> void:
 
 You can also use casting is to ensure safe lines. Safe lines are a new tool in Godot 3.1 to tell you when ambiguous lines of code are type-safe. As you can mix and match typed and dynamic code, at times, Godot doesn't have enough information to if an instruction will trigger an error or not at runtime.
 
-This happens when you get a child node. Let's take a timer for example: with dynamic code, you can get the node with `$Timer`. GDscript supports [duck-typing](https://stackoverflow.com/a/4205163/8125343), so even if your timer is of type `Timer`, it is also a `Node` and an `Object`, two classes it extends. With dynamic GDscript, you also don't care about the node's type as long as it has the methods you need to call.
+This happens when you get a child node. Let's take a timer for example: with dynamic code, you can get the node with `$Timer`. GDscript supports [duck-typing](//stackoverflow.com/a/4205163/8125343), so even if your timer is of type `Timer`, it is also a `Node` and an `Object`, two classes it extends. With dynamic GDscript, you also don't care about the node's type as long as it has the methods you need to call.
 
 You can use casting to tell Godot the type you expect when you get a node: `($Timer as Timer)`, `($Player as KinematicBody2D)`, etc. Godot will ensure the type works and if so, the line number will turn green at the left of the script editor.
 
@@ -309,4 +309,4 @@ var player : Player
 
 Typed GDscript is a powerful tool. Coming with Godot 3.1, it can already help you write more structured code, help you avoid common errors, and create scalable systems. In the future, static types will also bring you a nice performance boost thanks to upcoming compiler optimizations.
 
-Want to become a better game creator? Be sure to [follow us on Twitter](https://twitter.com/NathanGDQuest) for more tutorials and news dedicated to game creation and Free Software!
+Want to become a better game creator? Be sure to [follow us on Twitter](//twitter.com/NathanGDQuest) for more tutorials and news dedicated to game creation and Free Software!

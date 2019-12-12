@@ -1,6 +1,6 @@
 
 
-The new release of the [GDQuest Krita brushes](https://gumroad.com/l/krita-brushes-for-game-artists/) comes with 4 vegetation presets. In the past year, I learned a lot about Krita's brush engines, its strengths and limitations. I also tried to release a lot of presets to stuff up the pack. It's now time to slow down, and improve the releases. Starting with this one, the focus is on quality over quantity.
+The new release of the [GDQuest Krita brushes](//gumroad.com/l/krita-brushes-for-game-artists/) comes with 4 vegetation presets. In the past year, I learned a lot about Krita's brush engines, its strengths and limitations. I also tried to release a lot of presets to stuff up the pack. It's now time to slow down, and improve the releases. Starting with this one, the focus is on quality over quantity.
 
 The new presets are all documented. They come with a bit of text and an example picture to show you how to use them. **The premium version adds short, voiceless video demos, to get up to speed even faster!** 
 
@@ -10,7 +10,7 @@ The new presets are all documented. They come with a bit of text and an example 
 
 Draws rows of leaves, following the stroke's direction. Paint them on separate layers to build bushes, patches of leaves for a tree, etc. You can not only use it as-is: replace the brush tip with your own to stamp other types of assets.
 
-It's the approach I used for the [Krita game art training](https://gumroad.com/l/krita-game-art-tutorial-1), and still use most often:
+It's the approach I used for the [Krita game art training](//gumroad.com/l/krita-game-art-tutorial-1), and still use most often:
 
 1. Start with a shape that defines the volume of the sprite
 1. Design a few leaves on the side of the document

@@ -57,7 +57,7 @@ To become a more efficient artist, you have to sharpen your observation skills a
 
 The [second course]({{< ref "/product/krita/painterly-game-art/index.md" >}}) also covers the unique constraints game artists face in their work. You have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, **your art has to support the gameplay: it shapes the game experience**.
 
-Game Art Quest was funded [on Kickstarter](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) by 424 artists!
+Game Art Quest was funded [on Kickstarter](//www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) by 424 artists!
 
 ### Who am I to teach you game art?
 
@@ -65,4 +65,4 @@ Game Art Quest was funded [on Kickstarter](https://www.kickstarter.com/projects/
   src="/img/page/game-art-quest/i-am-nathan.jpg"
   alt="Nathan's picture" >}}
 
-I’m Nathan Lovato, a game designer. I run [GDQuest](http://youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.
+I’m Nathan Lovato, a game designer. I run [GDQuest](//youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.

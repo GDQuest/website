@@ -15,10 +15,10 @@ title = "Game Art Quest vol1 done! Off to Japan"
 
 +++
 
-Yes, the first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials (some are still upcoming on the channel). 7 hours if you include the first bonus series of the year: [Introduction to monster design for 2-D games](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KExm_EYLVhD6yf4Afax24fV). Looking back at the Kickstarter description, this is already more than the promised as far as the total length is concerned.
+Yes, the first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials (some are still upcoming on the channel). 7 hours if you include the first bonus series of the year: [Introduction to monster design for 2-D games](//www.youtube.com/playlist?list=PLhqJJNjsQ7KExm_EYLVhD6yf4Afax24fV). Looking back at the Kickstarter description, this is already more than the promised as far as the total length is concerned.
 
 
-- [Early access](https://gum.co/krita-tutorial-for-game-artists) {{< icon shopping-cart success >}}
+- [Early access](//gum.co/krita-tutorial-for-game-artists) {{< icon shopping-cart success >}}
 - [Available tutorials](/tutorial/art/krita-tutorial-for-game-artists/) (free)
 
 The extra premium brushes and their companion tutorials are also getting pretty big. With this month's update, it now includes 34 presets and more than 30 minutes of video tutorials. And more coming monthly.
@@ -33,7 +33,7 @@ However, for now, it's time to take some rest.
 
 I'm taking a flight to Japan on October 3, and coming back at the end of the month. It's a trip I've been looking forward to for a long time. And now more than ever, after 2 years studying Japanese, with already a number of people to meet there. I'll have both a camera and a tablet to share the most interesting adventures with you on social networks.
 
-Gamedev-wise, I'll be paying the author of Pico8 and Voxatron a visit at his picotachi café in Tokyo, along with a French indie developer who lives in Japan, Erhune, the co-author of [Gangs of Space](https://www.gangsofspace.com/). I'm also meeting a tech developer from [Q-games](http://www.q-games.com/) in Kyoto.
+Gamedev-wise, I'll be paying the author of Pico8 and Voxatron a visit at his picotachi café in Tokyo, along with a French indie developer who lives in Japan, Erhune, the co-author of [Gangs of Space](//www.gangsofspace.com/). I'm also meeting a tech developer from [Q-games](//www.q-games.com/) in Kyoto.
 
 Aside from that, I'll travel to the sacred Shinto island of Miyajima, walk the Kumano Kodo, the emperors' pilgrimage route, meet Japanese monkeys in Kyoto, and a lot more!
 
@@ -43,14 +43,14 @@ But I am not gone yet, and there's still some more content coming your way.
 
 The latest version of the Krita brushes for game artists is out. The full set now contains 34 presets, 5 video tutorials and 2 PDF guides. It includes pixel art drawing tools, but more importantly the first few presets of the elements family, which are dedicated to help you paint elements of nature efficiently and flexibly.
 
-[![Krita brushes for game artists](/img/page/krita-brushes/Krita brushes banner 2016-07.jpg)](https://gum.co/krita-brushes-for-game-artists)
+[![Krita brushes for game artists](/img/page/krita-brushes/Krita brushes banner 2016-07.jpg)](//gum.co/krita-brushes-for-game-artists)
 
 The 2 cloud builder brushes in this release make it effortless to paint game-ready clouds sprites. Using the cloud blender from last month, you can also soften any sharp edge with great control. Even though I'm away next month, you'll still get your dose of new tools!
 
 The Lite set also got some love. It is now twice as big, for a total of 16 presets. It is completely free, and gets an update every 2 months.
 
-- [Krita brushes premium](https://gum.co/krita-brushes-for-game-artists) {{< icon shopping-cart success >}}
-- [Lite version](https://github.com/GDQuest/free-krita-brushes/) (free)
+- [Krita brushes premium](//gum.co/krita-brushes-for-game-artists) {{< icon shopping-cart success >}}
+- [Lite version](//github.com/GDQuest/free-krita-brushes/) (free)
 
 ## Plans for the week
 

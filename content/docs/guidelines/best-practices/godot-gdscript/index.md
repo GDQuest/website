@@ -17,13 +17,13 @@ This guide covers some best practices to write solid GDScript code. It's the sty
 
 The ideas below draw inspiration from good practices from different paradigms and languages. Especially from the work of the Python community, some functional programming principles, and the official GDScript documentation:
 
-1. [GDScript Style Guide](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
-1. [Static typing in GDScript](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html)
-1. [Docs writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html)
-1. [Boundaries - A talk by Gary Bernhardt from SCNA 2012](https://www.destroyallsoftware.com/talks/boundaries) & [Functional Core, Imperative Shell](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell)
-1. [The Clean Architecture in Python](https://www.youtube.com/watch?v=DJtef410XaM)
-1. [Onion Architecture Without the Tears - Brendan Richards](https://www.youtube.com/watch?v=R2pW09tMCnE&t=1095s)
-1. [Domain Driven Design Through Onion Architecture](https://www.youtube.com/watch?v=pL9XeNjy_z4)
+1. [GDScript Style Guide](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
+1. [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html)
+1. [Docs writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html)
+1. [Boundaries - A talk by Gary Bernhardt from SCNA 2012](//www.destroyallsoftware.com/talks/boundaries) & [Functional Core, Imperative Shell](//www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell)
+1. [The Clean Architecture in Python](//www.youtube.com/watch?v=DJtef410XaM)
+1. [Onion Architecture Without the Tears - Brendan Richards](//www.youtube.com/watch?v=R2pW09tMCnE&t=1095s)
+1. [Domain Driven Design Through Onion Architecture](//www.youtube.com/watch?v=pL9XeNjy_z4)
 
 Godot is mostly object-oriented and offers its own tools to make objects communicate together, like signals, and the node tree. As a result, it's not always easy to apply principles and techniques from other programming languages to it.
 
@@ -229,7 +229,7 @@ func _ready() -> void:
 
 Then define public methods. Include type hints for variables and the return type.
 
-You can use a brief docstring, if need be, to describe what the function does and what it returns. To describe the return value in the docstring, start the sentence with `Returns`. Use the present tense and direct voice. See Godot's [documentation writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
+You can use a brief docstring, if need be, to describe what the function does and what it returns. To describe the return value in the docstring, start the sentence with `Returns`. Use the present tense and direct voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
 
 {{< highlight gdscript >}}
 func can_move(cell_coordinates: Vector2) -> bool:
@@ -277,7 +277,7 @@ func _set_elements(elements: int) -> bool:
 
 **Use `null` only if you're forced to**. Instead, think about alternatives to implement the same functionality with other types.
 
-`None`, `null`, `NULL`, etc. references could be the biggest mistake in the history of computing. Here's an explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+`None`, `null`, `NULL`, etc. references could be the biggest mistake in the history of computing. Here's an explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
 
 For programming languages that rely on `null`, such as GDScript, it's impossible to get rid of it completely: a lot of functionality relies on built-in functions that work with and return `null` values.
 
@@ -291,7 +291,7 @@ We use optional static typing with GDscript.
 
 At the time of writing, static GDScript typing doesn't provide any performance boosts or any other compiler features. But it does bring better code completion and better error reporting and warnings, which are good improvements over dynamically typed GDScript. In the future, it should bring performance improvements as well.
 
-Be sure to check [Static typing in GDScript](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html) to get started with this language feature.
+Be sure to check [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html) to get started with this language feature.
 
 Normally, you define typed variables like this:
 
@@ -411,7 +411,7 @@ The top-level folders include:
 
 #### General naming conventions ####
 
-**Never include spaces in the filenames**. Spaces can [cause issues with command line tools](https://superuser.com/questions/29111/what-technical-reasons-exist-for-not-using-space-characters-in-file-names), which we use to automate tasks.
+**Never include spaces in the filenames**. Spaces can [cause issues with command line tools](//superuser.com/questions/29111/what-technical-reasons-exist-for-not-using-space-characters-in-file-names), which we use to automate tasks.
 
 #### Naming in the src folder ####
 
@@ -457,7 +457,7 @@ Godot relies on its node tree, a recursive data structure: if we pick any node i
 
 {{< figure
     src="./img/scene_tree.png"
-    caption="Screenshot of a real system scene tree layout from [OpenRPG](https://github.com/GDQuest/godot-open-rpg)"
+    caption="Screenshot of a real system scene tree layout from [OpenRPG](//github.com/GDQuest/godot-open-rpg)"
     alt="./img/scene_tree.png" >}}
 
 In the example above, you can view each node as a separate scene, be it `Board` or `QuestSystem`.
@@ -477,7 +477,7 @@ In the example above, the `Game` node has a script attached to it. This script s
 
 ### Use signals to coordinate time-dependent interactions
 
-Godot's signals are the [Observer pattern](http://gameprogrammingpatterns.com/observer.html), a very useful tool that allows one node to react to a change in another, without storing it or having a direct reference to it.
+Godot's signals are the [Observer pattern](//gameprogrammingpatterns.com/observer.html), a very useful tool that allows one node to react to a change in another, without storing it or having a direct reference to it.
 
 Godot comes with many systems like physics, rendering or input, that run in parallel threads to squeeze every bit of hardware resource available. Oftentimes direct function calls aren't the right way to interact with objects.
 
@@ -536,7 +536,7 @@ Here are a few ideas that could improve code maintainability and overall structu
 
 {{< figure
     src="./img/openrpg_scene_tree.png"
-    caption="[OpenRPG](https://github.com/GDQuest/godot-open-rpg) experimental branch scene tree."
+    caption="[OpenRPG](//github.com/GDQuest/godot-open-rpg) experimental branch scene tree."
     alt="./img/openrpg_scene_tree.png" >}}
 
 Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`. They're independent systems in this implementation. The `Party` node/scene can be viewed as the player object.
@@ -650,7 +650,7 @@ Typically, returning `bool` values like this in order to validate a successful e
 
 ## Events bus: Observer pattern for Godot
 
-*Thanks to Ombarus for sharing this design pattern. He presented it in [a devlog video](https://www.youtube.com/watch?v=fyh2ZjAFMZM) on his YouTube channel.*
+*Thanks to Ombarus for sharing this design pattern. He presented it in [a devlog video](//www.youtube.com/watch?v=fyh2ZjAFMZM) on his YouTube channel.*
 
 Maintaining signal connections isn't the easiest, especially when declaring connections via code. Godot 3.1 doesn't offer any visual cues for signals connected through code as opposed to signals connected with the editor.
 There are different advantages to connecting signals through the editor or via code.
@@ -664,7 +664,7 @@ There are different advantages to connecting signals through the editor or via c
 
 - You can connect any node, including those you create at runtime and those that aren't present in the current scene
 - You can search calls to the `connect()` method globally in the project.
-- Contrary to the editor, you're not limited to using `Node` only: any `Object` can define, emit, and connect signals. See the [Object class's docs](https://docs.godotengine.org/en/latest/classes/class_object.html).
+- Contrary to the editor, you're not limited to using `Node` only: any `Object` can define, emit, and connect signals. See the [Object class's docs](//docs.godotengine.org/en/latest/classes/class_object.html).
 
 ### Using an Event singleton to avoid spaghetti code
 
@@ -674,7 +674,7 @@ Referring back to [Fig. 1], we couldn't directly connect a signal in a deeply ne
 
 One solution is to declare the signal connection between those systems in a script attached to the `Game` node. The problem is that we can lose track of connections since they're not declared in the scripts attached to the nodes that need these connections themselves.
 
-In a complex system, you might have hundreds of signals emitted and connected all over the place. To manage this we can use dedicated `Events` [singletons (autoloaded scripts)](https://docs.godotengine.org/en/latest/getting_started/step_by_step/singletons_autoload.html):
+In a complex system, you might have hundreds of signals emitted and connected all over the place. To manage this we can use dedicated `Events` [singletons (autoloaded scripts)](//docs.godotengine.org/en/latest/getting_started/step_by_step/singletons_autoload.html):
 
 *Note: the name of the script doesn't matter.*
 

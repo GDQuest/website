@@ -7,7 +7,7 @@ weight = 1
 
 +++
 
-The [Godot](https://godotengine.org) game engine is one of the fastest growing <abbr title="Free and Open Source Software">FOSS</abbr> game creation tools at our disposal.
+The [Godot](//godotengine.org) game engine is one of the fastest growing <abbr title="Free and Open Source Software">FOSS</abbr> game creation tools at our disposal.
 
 ![Godot in-Editor Shot](beginner/img/godot-engine.png?width=500)
 

@@ -81,6 +81,6 @@ In any case, there'll be plenty for you to learn. And again, the higher the fund
 
 To know when the Kickstarter's up, **click the button below and subscribe to GDQuest on Youtube**! You will get 1 free tutorial every single day throughout the campaign:
 
-{{< calltoaction "http://youtube.com/c/gdquest" "The GDQuest channel" >}}
+{{< calltoaction "//youtube.com/c/gdquest" "The GDQuest channel" >}}
 
 Thank you for your time! Feel free to comment or ask questions below :)

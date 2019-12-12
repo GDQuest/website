@@ -19,7 +19,7 @@ Last week-end we went to the Capitole du Libre, a major event around Free Softwa
 
 It was a busy event: even though there were fewer visitors than at FOSDEM, people kept coming to the Godot table, curious about the engine's features.
 
-Julian and Gilles gave a two-hours workshop based on @KidsCanCode's [Your first game](http://docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html) tutorial. With dozens of students, it was a success! Not everyone could finish in time but the response was really positive.
+Julian and Gilles gave a two-hours workshop based on @KidsCanCode's [Your first game](//docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html) tutorial. With dozens of students, it was a success! Not everyone could finish in time but the response was really positive.
 
 ![GDQuest in front of the screen, showcasing Godot 3](./conference-e-artsup.jpg)
 
@@ -31,7 +31,7 @@ The presentation is **free**, **open source**, and available to the entire commu
 
 Download the presentation on GitHub:
 
-{{< calltoaction "https://github.com/GDQuest/godot-3-presentation" "Godot 3 presentation" >}}
+{{< calltoaction "//github.com/GDQuest/godot-3-presentation" "Godot 3 presentation" >}}
 
 ![A word-cloud and a non-exhaustive list of new features in Godot 3](./new-in-godot-3.png)
 
@@ -45,18 +45,18 @@ At the time of writing it's only available in French. You can learn how to downl
 
 For those of you who saw the conference, here are some links to get started with Godot
 
-1. [Community websites](https://godotengine.org/community): social networks, QA site, IRC, Discord...
-1. [Questions and Answers](https://godotengine.org/qa/)
+1. [Community websites](//godotengine.org/community): social networks, QA site, IRC, Discord...
+1. [Questions and Answers](//godotengine.org/qa/)
 1. [Godot stable docs](docs.godotengine.org/en/stable/)
 1. [Godot development docs](docs.godotengine.org/en/latest/)
 
 Youtubers:
 
-1. [KidsCanCode](https://youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg)
-1. [Angega Studio](https://youtube.com/channel/UChv-gaPlKNROf6iMDhxIpUA)
-1. [GDQuest](http://youtube.com/c/gdquest)
+1. [KidsCanCode](//youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg)
+1. [Angega Studio](//youtube.com/channel/UChv-gaPlKNROf6iMDhxIpUA)
+1. [GDQuest](//youtube.com/c/gdquest)
 
-Also check [Heartbeast](http://youtube.com/c/heartbeast) and [Ivan Skodje](https://youtube.com/channel/UCBHuFCVtZ9vVPkL2VxVHU8A), although they don't create Godot tutorials regularly as of late.
+Also check [Heartbeast](//youtube.com/c/heartbeast) and [Ivan Skodje](//youtube.com/channel/UCBHuFCVtZ9vVPkL2VxVHU8A), although they don't create Godot tutorials regularly as of late.
 
 
 ## Blender for video editors and motion designers
@@ -71,11 +71,11 @@ The **Power Sequencer** add-on improves all the time. It's not ready for everyon
 
 You can find the add-on **on GitHub**:
 
-{{< calltoaction "https://github.com/GDQuest/Blender-power-sequencer/" "Blender Power Sequencer" >}}
+{{< calltoaction "//github.com/GDQuest/Blender-power-sequencer/" "Blender Power Sequencer" >}}
 
 ## Get in touch!
 
-Need to reach me? Send me a message anytime [@NathanGDQuest](https://twitter.com/NathanGDQuest) on Twitter.
+Need to reach me? Send me a message anytime [@NathanGDQuest](//twitter.com/NathanGDQuest) on Twitter.
 
 Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
 

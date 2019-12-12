@@ -7,9 +7,9 @@ url = "krita-tutorial/volume-1/course"
 
 +++
 
-Hi! If you're here, you're certainly a backer of the [Game Art Quest](https://www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) Kickstarter campaign.
+Hi! If you're here, you're certainly a backer of the [Game Art Quest](//www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) Kickstarter campaign.
 
-I moved the course to [Gumroad](https://gumroad.com/l/krita-tutorial-for-game-artists), the same place where you got your premium brushes. Thanks to that change, you can now download the tutorials to watch offline! I sent **your personal coupon code via email** so you can get an instant free access.
+I moved the course to [Gumroad](//gumroad.com/l/krita-tutorial-for-game-artists), the same place where you got your premium brushes. Thanks to that change, you can now download the tutorials to watch offline! I sent **your personal coupon code via email** so you can get an instant free access.
 
 ## How to redeem your coupon
 

@@ -12,4 +12,4 @@ weight = 1
 
 Learning by yourself can be tough. It's hard to know where to start.
 
-That's why we created curated learning paths for you. Using [Free Software](https://en.wikipedia.org/wiki/The_Free_Software_Definition) and free resources, the following guides will help you teach yourself to make games.
+That's why we created curated learning paths for you. Using [Free Software](//en.wikipedia.org/wiki/The_Free_Software_Definition) and free resources, the following guides will help you teach yourself to make games.

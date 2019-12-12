@@ -25,6 +25,6 @@ On top of that, for the next 30 days, you will get a **free tutorial every day o
 
 **Back the Kickstarter now and get at least 50% of final course's price!** All the details on the story page:
 
-<iframe width="800" height="450" src="https://www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+<iframe width="800" height="450" src="//www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou/widget/video.html" frameborder="0" scrolling="no"> </iframe>
 
-{{< calltoaction "https://www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou" "Support GDQuest on Kickstarter!" >}}
+{{< calltoaction "//www.kickstarter.com/projects/gdquest/make-professional-2d-games-godot-engine-online-cou" "Support GDQuest on Kickstarter!" >}}

@@ -20,15 +20,15 @@ _It has been a while since the last behind the scenes news post. There's been go
 
 ## Krita 3.0.1 is out!
 
-Krita 3.0 .1 came out this week. Although it was just a minor bug-fixing release, it does add a number of new features to the program. These include soft proofing, mirror tool options, horizontal and vertical flip buttons in free transform mode, threshold and wavelet decompose, the ability to use the gradient map as a filter layer, and more! You can find the full release notes [on](https://krita.org/en/item/krita-3-0-1-update-brings-numerous-fixes/) the official website, and below is a video overview of most of these:
+[Omitted long matching line]
 
 {{< youtube 9S_x6koOVBo >}}
 
-There's also an [experimental Mac build](https://krita.org/en/item/experimental-osx-build-available/) with openGL support! It needs extensive testing, so if you're a Mac user, it's time to get your hands dirty.
+There's also an [experimental Mac build](//krita.org/en/item/experimental-osx-build-available/) with openGL support! It needs extensive testing, so if you're a Mac user, it's time to get your hands dirty.
 
 ## The Swiss Game Academy
 
-In August, I was invited to the [Swiss Game Academy](http://gameacademy.ch/), a weeklong event where Swiss game developers team up to offer a very affordable training to students interested in game creation. At the same time, it is a game jam open to enthusiasts of any age, starting at 10! Although I'm French, I live next to the Swiss border, and I got in touch with developers last year. There are few game studios in the country, yet the indie scene is really lively. Many jams take place around the Geneva lake, and dozens of people meet monthly in Lausanne to share insights about their projects.
+[Omitted long matching line]
 
 <!-- TODO: Screenshot -->
 
@@ -38,7 +38,7 @@ That's the last event I accepted to be part of, and that until the whole Kicksta
 
 ## Ludum Dare 36 <small>learning Godot, preparing the next series</small>
 
-Coming back from Switzerland, there was the 36<sup>th</sup> edition of the Ludum Dare. I took this opportunity to prepare the next training series for Game Art Quest: the one where we'll focus on creating games sprites. I made a very small game that showcases what you can do with static game assets. The project is set in the world of David Revoy's [Pepper and Carrot](http://www.peppercarrot.com/), with our favorite ginger cat as the main character.
+Coming back from Switzerland, there was the 36<sup>th</sup> edition of the Ludum Dare. I took this opportunity to prepare the next training series for Game Art Quest: the one where we'll focus on creating games sprites. I made a very small game that showcases what you can do with static game assets. The project is set in the world of David Revoy's [Pepper and Carrot](//www.peppercarrot.com/), with our favorite ginger cat as the main character.
 
 It's a small isometric 2-D game where a cat throws ridiculous spells at scarecrows and ghosts. Alright, I'll figure out a nicer introduction for the course release! At that occasion, I learned how to work with Godot 2.1, which deeply impressed me. It came a long way since version 1.0. It feels a lot more polished, and it's well documented. Within 3 days, I managed to get a small working prototype. There's work left to polish it a bit, but it'll give us a nice base project for the game art workshops, where I'll show you how to replace my sprites and put your own art into the game!
 
@@ -46,7 +46,7 @@ It's a small isometric 2-D game where a cat throws ridiculous spells at scarecro
 
 ## Krita tutorials: where are we at?
 
-We've passed the halfway mark! You now have more than 6 hours of tutorials available [on Gumroad](https://gum.co/krita-tutorial-for-game-artists) (_if you backed the initial Kickstarter, you got a coupon via email_). There's one chapter left in the first volume, dedicated to Krita's animation features. I know that a lot of you are waiting eagerly for this series, and it's around the corner!
+We've passed the halfway mark! You now have more than 6 hours of tutorials available [on Gumroad](//gum.co/krita-tutorial-for-game-artists) (_if you backed the initial Kickstarter, you got a coupon via email_). There's one chapter left in the first volume, dedicated to Krita's animation features. I know that a lot of you are waiting eagerly for this series, and it's around the corner!
 
 <!-- TODO: Screenshot -->
 
@@ -60,7 +60,7 @@ Do you want to know when it'll be available? You just have to enter your email a
 
 ## Off to Japan
 
-Lastly, I'm flying off to Japan in October. After 2 years studying the language, it is time to go and discover the country. I'll be spending some time in large cities, as well as in nature. I'm really looking forward to walking on the Kumano Kodo, a network of mountain trails where emperors used to do pilgrimages. I'll do my best to share nice pictures and my experiences in this intriguing county. I will also be meeting some game developers and hopefully the Krita artist [Omiya Tou](https://krita.org/en/item/interview-with-omiya-tou/) in Tokyo.
+[Omitted long matching line]
 
 <!-- TODO: Screenshot -->
 

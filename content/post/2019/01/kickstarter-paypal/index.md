@@ -24,9 +24,9 @@ At the same time as every other Kickstarter backer. The first reward, the pro Go
 
 In my experience emails aren't a great way to keep people up to date. Sometimes they end up in the spam box, you might get too many of them...
 
-Firstly, we are doing all of our work [on GitHub](https://github.com/GDQuest/), in the open. You can track our activity on the projects' code there.
+Firstly, we are doing all of our work [on GitHub](//github.com/GDQuest/), in the open. You can track our activity on the projects' code there.
 
-I am active on [Twitter](https://twitter.com/NathanGDQuest), on [YouTube](https://www.youtube.com/c/gdquest/), and we have a [Discord server](https://discord.gg/uzSR7jB). You can get news or get in touch using any of these three channels.
+I am active on [Twitter](//twitter.com/NathanGDQuest), on [YouTube](//www.youtube.com/c/gdquest/), and we have a [Discord server](//discord.gg/uzSR7jB). You can get news or get in touch using any of these three channels.
 
 ### Does my PayPal pledge contribute to the stretch goals?
 

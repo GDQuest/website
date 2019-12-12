@@ -1,7 +1,7 @@
 +++
 author = "nathan"
 date = "2019-09-13T10:17:18+02:00"
-redirect = "https://gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition"
+redirect = "//gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition"
 title = "Create your First 2D Game with Godot"
 type = "redirect"
 

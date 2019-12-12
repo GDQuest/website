@@ -16,8 +16,8 @@
         ]
     },
     "power_sequencer.align_audios": {
-        "demo": "https://i.imgur.com/xkBUzDj.gif",
-        "description": "*brief* Align two similar audios\n\n\nAttempt alignment between the selected audio strip to the active\naudio strip. The better the correlation, the better the result.\n\nThis operator requires\n[ffmpeg](https://www.ffmpeg.org/download.html) and\n[scipy](https://www.scipy.org/install.html) to work. Audio must be\nconverted to WAV data prior to analyzing, so longer strips may take\nlonger to align. To mitigate this issue, analysis will be limited to\nthe first 15 minutes of audio at most.",
+        "demo": "//i.imgur.com/xkBUzDj.gif",
+        "description": "*brief* Align two similar audios\n\n\nAttempt alignment between the selected audio strip to the active\naudio strip. The better the correlation, the better the result.\n\nThis operator requires\n[ffmpeg](//www.ffmpeg.org/download.html) and\n[scipy](//www.scipy.org/install.html) to work. Audio must be\nconverted to WAV data prior to analyzing, so longer strips may take\nlonger to align. To mitigate this issue, analysis will be limited to\nthe first 15 minutes of audio at most.",
         "keymap": "Sequencer",
         "name": "Align Audios",
         "shortcuts": []
@@ -53,7 +53,7 @@
         ]
     },
     "power_sequencer.concatenate_strips": {
-        "demo": "https://i.imgur.com/YyEL8YP.gif",
+        "demo": "//i.imgur.com/YyEL8YP.gif",
         "description": "*brief* Remove space between strips\n\nConcatenates selected strips in a channel, i.e. removes the gap between them. If a single\nstrip is selected, either the next strip in the channel will be concatenated, or all\nstrips in the channel will be concatenated depending on which shortcut is used.",
         "keymap": "Sequencer",
         "name": "Concatenate Strips",
@@ -116,7 +116,7 @@
         "shortcuts": []
     },
     "power_sequencer.copy_selected_sequences": {
-        "demo": "https://i.imgur.com/w6z1Jb1.gif",
+        "demo": "//i.imgur.com/w6z1Jb1.gif",
         "description": "*brief* Copy/cut strips without offset from current time indicator\n\n\nCopies the selected sequences without frame offset and optionally\ndeletes the selection to give a cut to clipboard effect. This\noperator overrides the default Blender copy method which includes\ncursor offset when pasting, which is atypical of copy/paste methods.",
         "keymap": "Sequencer",
         "name": "Copy Selected Sequences",
@@ -146,7 +146,7 @@
         ]
     },
     "power_sequencer.crossfade_add": {
-        "demo": "https://i.imgur.com/ZyEd0jD.gif",
+        "demo": "//i.imgur.com/ZyEd0jD.gif",
         "description": "*brief* Adds cross fade between selected sequence and the closest sequence to its right\n\n\nBased on the active strip, finds the closest next sequence of a similar type, moves it\nso it overlaps the active strip, and adds a gamma cross effect between them. Works with\nMOVIE, IMAGE and META strips",
         "keymap": "Sequencer",
         "name": "Crossfade Add",
@@ -164,7 +164,7 @@
         ]
     },
     "power_sequencer.crossfade_edit": {
-        "demo": "https://i.imgur.com/rCmLhg6.gif",
+        "demo": "//i.imgur.com/rCmLhg6.gif",
         "description": "*brief* Adjust the location of the crossfade between 2 strips\n\n\nSelects the handles of both inputs of a crossfade strip's input and\ncalls the grab operator. Allows you to quickly change the location\nof a fade transition between two strips.",
         "keymap": "Sequencer",
         "name": "Crossfade Edit",
@@ -264,7 +264,7 @@
         ]
     },
     "power_sequencer.fade_add": {
-        "demo": "https://i.imgur.com/XoUM2vw.gif",
+        "demo": "//i.imgur.com/XoUM2vw.gif",
         "description": "*brief* Adds or updates a fade animation for either visual or audio strips.\n\nFade options:\n\n- In, Out, In and Out create a fade animation of the given duration from\nthe start of the sequence, to the end of the sequence, or on boths sides\n- From playhead: the fade animation goes from the start of sequences under the playhead to the playhead\n- To playhead: the fade animation goes from the playhead to the end of sequences under the playhead\n\nBy default, the duration of the fade is 1 second.",
         "keymap": "Sequencer",
         "name": "Fade Add",
@@ -528,8 +528,8 @@
         "shortcuts": []
     },
     "power_sequencer.mouse_cut": {
-        "demo": "https://i.imgur.com/wVvX4ex.gif",
-        "description": "*brief* Cut or Trim strips quickly with the mouse cursor\n\nClick somehwere in the Sequencer to insert a cut, click and drag to trim\nWith this function you can quickly cut and remove a section of strips while keeping or\ncollapsing the remaining gap.\nPress <kbd>Ctrl</kbd> to snap to cuts.\n\nA [video demo](https://youtu.be/GiLmDhmMVAM?t=1m35s) is available.",
+        "demo": "//i.imgur.com/wVvX4ex.gif",
+        "description": "*brief* Cut or Trim strips quickly with the mouse cursor\n\nClick somehwere in the Sequencer to insert a cut, click and drag to trim\nWith this function you can quickly cut and remove a section of strips while keeping or\ncollapsing the remaining gap.\nPress <kbd>Ctrl</kbd> to snap to cuts.\n\nA [video demo](//youtu.be/GiLmDhmMVAM?t=1m35s) is available.",
         "keymap": "Sequencer",
         "name": "Mouse Cut",
         "shortcuts": [
@@ -754,7 +754,7 @@
         ]
     },
     "power_sequencer.preview_to_selection": {
-        "demo": "https://i.imgur.com/EV1sUrn.gif",
+        "demo": "//i.imgur.com/EV1sUrn.gif",
         "description": "*brief* Sets the timeline preview range to that of the selected sequences\n\n\nSets the scene frame start to the earliest frame start of selected sequences and the scene\nframe end to the last frame of selected sequences.",
         "keymap": "Sequencer",
         "name": "Preview To Selection",
@@ -832,7 +832,7 @@
         "shortcuts": []
     },
     "power_sequencer.scene_cycle": {
-        "demo": "https://i.imgur.com/7zhq8Tg.gif",
+        "demo": "//i.imgur.com/7zhq8Tg.gif",
         "description": "Cycle through scenes",
         "keymap": "Sequencer",
         "name": "Scene Cycle",
@@ -931,7 +931,7 @@
         ]
     },
     "power_sequencer.speed_up_movie_strip": {
-        "demo": "https://i.imgur.com/ZyEd0jD.gif",
+        "demo": "//i.imgur.com/ZyEd0jD.gif",
         "description": "*brief* Adds a speed effect to the  2x speed, set frame end, wrap both into META\n\nAdd 2x speed to strip and set its frame end accordingly. Wraps both the strip and the speed\nmodifier into a META strip.",
         "keymap": "Sequencer",
         "name": "Speed Up Movie Strip",
@@ -948,7 +948,7 @@
         ]
     },
     "power_sequencer.split_strips_under_cursor": {
-        "demo": "https://i.imgur.com/ZyEd0jD.gif",
+        "demo": "//i.imgur.com/ZyEd0jD.gif",
         "description": "Splits all strips under cursor including muted strips, but excluding locked strips.\nAuto selects sequences under the time cursor when you don't have a selection.",
         "keymap": "Sequencer",
         "name": "Split Strips Under Cursor",
@@ -1007,7 +1007,7 @@
         ]
     },
     "power_sequencer.toggle_waveforms": {
-        "demo": "https://i.imgur.com/HJ5ryhv.gif",
+        "demo": "//i.imgur.com/HJ5ryhv.gif",
         "description": "*brief* Toggle audio waveforms\n\nToggle drawing of waveforms for selected strips or for all audio strips if no selection\nis active.",
         "keymap": "Sequencer",
         "name": "Toggle Waveforms",

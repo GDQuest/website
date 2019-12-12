@@ -16,9 +16,9 @@ title = "Marketing indie games with no budget – Notes"
 
 +++
 
-Emmy Jonhassen, aka IndieGameGirl, gave a talk named [Marketing Indie Games on a $0 Budget](http://www.indiegamegirl.com/no-budget-marketing/). It offers a nice introduction to the topic, so I decided to share synthetic notes for it.
+Emmy Jonhassen, aka IndieGameGirl, gave a talk named [Marketing Indie Games on a $0 Budget](//www.indiegamegirl.com/no-budget-marketing/). It offers a nice introduction to the topic, so I decided to share synthetic notes for it.
 
-I also wrote a detailed article on the topic for Game Analytics. There, you'll learn a lot more about everything I've outlined below. Check it out: [Marketing Your Indie Game On A Zero-Dollar Budget](http://www.gameanalytics.com/blog/marketing-indie-game-without-budget.html)
+I also wrote a detailed article on the topic for Game Analytics. There, you'll learn a lot more about everything I've outlined below. Check it out: [Marketing Your Indie Game On A Zero-Dollar Budget](//www.gameanalytics.com/blog/marketing-indie-game-without-budget.html)
 
 Emmy outlines 5 key types of contents required to maximize your game’s reach before and after its release. All of the content has to be prepared thoughtfully in advance as part of a complete marketing plan.
 

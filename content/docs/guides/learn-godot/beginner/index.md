@@ -17,11 +17,11 @@ Do you want to learn to make games, but you don't know where to start? Do you ha
 
 _If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "docs/guides/learn-godot/developer/index.md" >}}) instead._
 
-You can always **join the [GDQuest Discord server](https://discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](https://twitter.com/NathanGDQuest)**.
+You can always **join the [GDQuest Discord server](//discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](//twitter.com/NathanGDQuest)**.
 
 ## Become a game developer
 
-We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot](https://godotengine.org/). 
+We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot](//godotengine.org/). 
 
 This learning path will take you from 0 to your first complete games, albeit small ones.
 
@@ -50,9 +50,9 @@ Godot is a 2D and 3D game engine with a fully-fledged editor, but it is differen
 
 With **over 1000 contributors** at the time of writing, Godot is becoming more and more competitive even compared to the most significant engines in the games industry.
 
-With separate 2D and 3D engines, an innovative design, it is already packed with a large number of features making 2D game creation fun and rewarding. The team is now working hand-in-hand with the [Vulkan](https://www.khronos.org/vulkan/) representatives to provide cutting-edge 3D in version 4.0.
+With separate 2D and 3D engines, an innovative design, it is already packed with a large number of features making 2D game creation fun and rewarding. The team is now working hand-in-hand with the [Vulkan](//www.khronos.org/vulkan/) representatives to provide cutting-edge 3D in version 4.0.
 
-Godot uses the permissive [MIT](https://opensource.org/licenses/MIT) license. This means there's no limit to what an excellent team of developers can do with it, even for commercial projects.
+Godot uses the permissive [MIT](//opensource.org/licenses/MIT) license. This means there's no limit to what an excellent team of developers can do with it, even for commercial projects.
 
 
 ## Can I make my dream game?
@@ -75,11 +75,11 @@ Below, you'll find lists of **curated free online resources**, in both text and 
 
 This section is for you if you know little about game creation and programming. The guide and videos below give some insights into what you should expect:
 
-1. [Making Your First Game: Basics](https://www.youtube.com/watch?v=z06QR-tz1_o&list=PLhyKYa0YJ_5C6QC36h5eApOyXtx98ehGi), by Extra Credits, gives great advice on how to make your first game, and general insights on how games are made.
+1. [Making Your First Game: Basics](//www.youtube.com/watch?v=z06QR-tz1_o&list=PLhyKYa0YJ_5C6QC36h5eApOyXtx98ehGi), by Extra Credits, gives great advice on how to make your first game, and general insights on how games are made.
 1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md" >}}) is our guide to learn computer programming.
-1. [Game Engines: what are they and how to choose the right one?](https://youtu.be/2tZK75R2K2c)
+1. [Game Engines: what are they and how to choose the right one?](//youtu.be/2tZK75R2K2c)
 
-![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](https://github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
+![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](//github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
 
 ### Creating your first game with Godot
 
@@ -87,18 +87,18 @@ The best way to learn something new is through a balance of **practice** and bru
 
 Here, we've decided to focus on a hands-on approach, which is what we recommend focusing on first: creating actual games. It's motivating to start that way. But we also included a few resources that go through some theory to help you better understand how game engines and programming work.
 
-1. [Intro to GDScript for Programming Beginners](https://youtu.be/UcdwP1Q2UlU). Learn Godot's simple programming language for games, **GDScript**. GDScript is designed specifically for games and for Godot so it is faster to pick up than most programming languages out there.
-1. [Make Your First 2D Game with Godot](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KH_z21S_XeXD3Ht3WnSqW97) is a free course that runs you through the creation of a **2D platform game** from start to finish.
-1. [Mobile Game: Circle Jump](http://kidscancode.org/godot_recipes/games/circle_jump/) by KidsCanCode is an end-to-end game development series going through the process of building a **one-touch attractive mobile game**.
-1. [3D Roll the Ball](https://www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) by BornCG is a playlist that includes a tutorial series to create a small 3D game from scratch.
-1. [Make a Match 3 game like Candy Crush using Godot](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) by Mister Taft Creates is a step-by-step series that goes through the creation of a complete **match-3 game**, like Candy Crush. It is the longest series in this step, requiring some dedication.
+1. [Intro to GDScript for Programming Beginners](//youtu.be/UcdwP1Q2UlU). Learn Godot's simple programming language for games, **GDScript**. GDScript is designed specifically for games and for Godot so it is faster to pick up than most programming languages out there.
+1. [Make Your First 2D Game with Godot](//www.youtube.com/playlist?list=PLhqJJNjsQ7KH_z21S_XeXD3Ht3WnSqW97) is a free course that runs you through the creation of a **2D platform game** from start to finish.
+1. [Mobile Game: Circle Jump](//kidscancode.org/godot_recipes/games/circle_jump/) by KidsCanCode is an end-to-end game development series going through the process of building a **one-touch attractive mobile game**.
+1. [3D Roll the Ball](//www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) by BornCG is a playlist that includes a tutorial series to create a small 3D game from scratch.
+1. [Make a Match 3 game like Candy Crush using Godot](//www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) by Mister Taft Creates is a step-by-step series that goes through the creation of a complete **match-3 game**, like Candy Crush. It is the longest series in this step, requiring some dedication.
 
-![Your First Godot Game - 2D Platformer](./img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](https://github.com/GDQuest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
+![Your First Godot Game - 2D Platformer](./img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](//github.com/GDQuest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
 
 Other useful guides to use along with the videos above:
 
-1. [Godot step-by-step](http://docs.godotengine.org/en/latest/getting_started/step_by_step/index.html). The official guide runs you through key Godot features and includes some tutorials. We wrote a fair part of it in collaboration with KidsCanCode.
-1. [The GDScript guide](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/index.html) explains GDScript core concepts. Every Godot game developer will, without a doubt, have to search a thing or two about GDScript and this is the number one place to find the answerers.
+1. [Godot step-by-step](//docs.godotengine.org/en/latest/getting_started/step_by_step/index.html). The official guide runs you through key Godot features and includes some tutorials. We wrote a fair part of it in collaboration with KidsCanCode.
+1. [The GDScript guide](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/index.html) explains GDScript core concepts. Every Godot game developer will, without a doubt, have to search a thing or two about GDScript and this is the number one place to find the answerers.
 
 ### Become a more independent developer
 
@@ -112,9 +112,9 @@ To get you one step away from the tutorial zone, the resources below go a little
 
 They won't turn you into a pro right away of course, but rather give you a taste of what’s to come:
 
-1. [Game Design Tutorial](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHI3oYZfZ9nLEnQMBEhbmP8) is a playlist - lots of beginner-friendly examples of how to get started on actual (small) game creation, from a designer point of view
-1. [Basic Principles of Game Design](https://www.youtube.com/watch?v=G8AT01tuyrk) goes through high-level ideas on how to think about objectives that make a game engaging and fun. How to structure the workflow around these ideas
-1. [So, You Wanna Make Games](https://www.youtube.com/watch?v=RqRoXLLwJ8g&list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx) is a series by Riot Games, creators of League of Legends, that introduces you to some key art-related jobs in the game industry.
+1. [Game Design Tutorial](//www.youtube.com/playlist?list=PLhqJJNjsQ7KHI3oYZfZ9nLEnQMBEhbmP8) is a playlist - lots of beginner-friendly examples of how to get started on actual (small) game creation, from a designer point of view
+1. [Basic Principles of Game Design](//www.youtube.com/watch?v=G8AT01tuyrk) goes through high-level ideas on how to think about objectives that make a game engaging and fun. How to structure the workflow around these ideas
+1. [So, You Wanna Make Games](//www.youtube.com/watch?v=RqRoXLLwJ8g&list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx) is a series by Riot Games, creators of League of Legends, that introduces you to some key art-related jobs in the game industry.
 
 ### Going further
 
@@ -122,9 +122,9 @@ Now you got your feet wet with the introductory material above, you want to go f
 
 We've selected the following resources to give you a peek into the vast array of skills a game developer needs to hold or at least know about to be successful:
 
-1. [The Book of Shaders](https://thebookofshaders.com/) is one of the best resources out there to get started with shaders, simple programs to manipulate your game's art in realtime, in your game. The book explains how shaders work and what you can achieve with them. At the time of writing this book is incomplete, but still invaluable.
-1. [Godot's Introduction to Math for Game Developers](http://docs.godotengine.org/en/3.1/tutorials/math/vector_math.html) will give you some insights into the kind of maths you will use often in your games, starting with vectors. If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
-1. [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html). Algorithms and data structures are at the core of computer programming in general. It's true for any kind of code, including games. If you want to take your programming skills to the next level, you'll want to dive into topics like these. We recommend this great free book to do so. It uses the [Python](https://www.python.org/) programing language that inspired Godot's GDScript.
+1. [The Book of Shaders](//thebookofshaders.com/) is one of the best resources out there to get started with shaders, simple programs to manipulate your game's art in realtime, in your game. The book explains how shaders work and what you can achieve with them. At the time of writing this book is incomplete, but still invaluable.
+1. [Godot's Introduction to Math for Game Developers](//docs.godotengine.org/en/3.1/tutorials/math/vector_math.html) will give you some insights into the kind of maths you will use often in your games, starting with vectors. If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
+[Omitted long matching line]
 
 The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "docs/guides/learn-godot/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
 

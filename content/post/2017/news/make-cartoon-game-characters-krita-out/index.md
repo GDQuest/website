@@ -16,10 +16,10 @@ title = "New Krita Game Art Course Out!"
 
 The second premium Krita game art course, Make Cel Shaded Game Characters, is out! It contains 14 tutorials that will help you improve your lighting fundamentals and show you how to make a game character.
 
-{{< calltoaction "https://gum.co/cartoon-game-art-krita-course/" "Get the course now!" >}}
+{{< calltoaction "//gum.co/cartoon-game-art-krita-course/" "Get the course now!" >}}
 
 
-The course is based on Pepper and Carrot, the main 2 characters of a webcomic by [David Revoy](http://davidrevoy.com/). It's available under the [CC-By 4.0 licence](https://creativecommons.org/licenses/by/4.0/). It's very common to work on an existing IP or world as a game artist, and David's comic allows us to do just that.
+The course is based on Pepper and Carrot, the main 2 characters of a webcomic by [David Revoy](//davidrevoy.com/). It's available under the [CC-By 4.0 licence](//creativecommons.org/licenses/by/4.0/). It's very common to work on an existing IP or world as a game artist, and David's comic allows us to do just that.
 
 {{< figure
     src="/img/product/krita/cel-shaded-game-art/pepper-and-carrot-artwork.jpg"

@@ -18,7 +18,7 @@ title = "make professional 2d games with godot"
 
 ## Become a better game developer!
 
-With this course, you will learn to **create the main mechanics** and systems in your own games, using the Free [Godot Game Engine](https://godotengine.org/).
+With this course, you will learn to **create the main mechanics** and systems in your own games, using the Free [Godot Game Engine](//godotengine.org/).
 
 Unlike in many beginner courses that show how to code a specific game step-by-step, this one will teach you **professional game creation techniques** you can apply to any type of game!
 
@@ -30,7 +30,7 @@ Unlike in many beginner courses that show how to code a specific game step-by-st
 >
 > – Craig Cashman
 
-{{< calltoaction url="https://gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}
+{{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}
 
 
 
@@ -45,7 +45,7 @@ Unlike in many beginner courses that show how to code a specific game step-by-st
 
 ## Requirements
 
-This is *not* a series for complete beginners: you should have at least some programming experience. Check out [our Free tutorials](http://youtube.com/c/gdquest) to get started 😄
+This is *not* a series for complete beginners: you should have at least some programming experience. Check out [our Free tutorials](//youtube.com/c/gdquest) to get started 😄
 
 You will need:
 
@@ -56,4 +56,4 @@ You will need:
 
 You can find the full list of of available videos on the [Godot course content page](content)
 
-{{< calltoaction url="https://gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}
+{{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}

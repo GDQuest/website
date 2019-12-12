@@ -17,15 +17,15 @@ name = "banner"
 
 ## GDQuest's mission
 
-GDQuest is a social company focused on education and bringing people together around [Free Software](https://en.wikipedia.org/wiki/Free_software).
+GDQuest is a social company focused on education and bringing people together around [Free Software](//en.wikipedia.org/wiki/Free_software).
 
 Our mission is to **help you become a better game developer**.
 
-We share **the techniques professionals use to make games** and open source the code for most of our projects on [our GitHub page](https://github.com/GDQuest/).
+We share **the techniques professionals use to make games** and open source the code for most of our projects on [our GitHub page](//github.com/GDQuest/).
 
 ### Free education
 
-GDQuest is a growing library of [game creation tutorials](/tutorial) and tools to help **indies**, **students**, and **hobbyists** learn professional design, programming, and art techniques. All that using **Free and Open Source Software** like the [Godot game engine](https://godotengine.org/), [Krita](https://krita.org/en/), and [Blender](https://www.blender.org/), to which we contribute.
+GDQuest is a growing library of [game creation tutorials](/tutorial) and tools to help **indies**, **students**, and **hobbyists** learn professional design, programming, and art techniques. All that using **Free and Open Source Software** like the [Godot game engine](//godotengine.org/), [Krita](//krita.org/en/), and [Blender](//www.blender.org/), to which we contribute.
 
 ![Krita game art course banner](/krita/game-art-quest/painterly-game-art-banner.jpg)
 
@@ -53,13 +53,13 @@ It still had some rough edges, it was slow... but it was free. Anyone, anywhere 
 
 One thing leading to another, I started to learn about the philosophy behind Free Software. Along the way, I met contributors and project maintainers who share everything they know. I learned a lot from them.
 
-GDQuest was born like that, inspired by benevolent creators. Also by the need for quality free education and tools. Even though we sell products, as quality content takes a lot of work to create, we used that to fund the hundreds of free tutorials we released already and dozens of free and open source projects we have [on our GitHub](https://github.com/GDQuest).
+GDQuest was born like that, inspired by benevolent creators. Also by the need for quality free education and tools. Even though we sell products, as quality content takes a lot of work to create, we used that to fund the hundreds of free tutorials we released already and dozens of free and open source projects we have [on our GitHub](//github.com/GDQuest).
 
 ## Get in touch
 
-If you're looking for help with a given program, head to our [Discord](https://discord.gg/KVaCsSP) server!
+If you're looking for help with a given program, head to our [Discord](//discord.gg/KVaCsSP) server!
 
 In general, you can find me on:
 
-- [Discord](https://discord.gg/KVaCsSP), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
-- [Twitter](https://twitter.com/NathanGDQuest) is a popular social network for game developers.
+- [Discord](//discord.gg/KVaCsSP), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
+- [Twitter](//twitter.com/NathanGDQuest) is a popular social network for game developers.

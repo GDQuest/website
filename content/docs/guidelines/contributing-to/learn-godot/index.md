@@ -14,7 +14,7 @@ aliases = [
 
 If you want to contribute to our *Learn to Make Games with Godot* [Beginner Edtition]({{< ref "docs/guides/learn-godot/beginner/index.md" >}}) or [Developer Edtition]({{< ref "docs/guides/learn-godot/developer/index.md" >}}) documents this is the guide to get you started.
 
-These guides are living documents about learning game creation with [Godot](https://godotengine.org/) using only **free resources**. 
+These guides are living documents about learning game creation with [Godot](//godotengine.org/) using only **free resources**. 
 We welcome all contributors but we want to provide curated learning paths rather than long and confusing lists of mixed tutorials. 
 
 This guide is here to explain the philosophy of the learning paths and how to make your contributions as productive as possible.
@@ -39,11 +39,11 @@ Our main concern here is quality of the educational resources. They need to be e
 
 ## How to contribute
 
-The **Learn to Make Games with Godot** guides are part of the GDQuest website and written in markdown. At the time of writing, the website relies on the static website generator [Hugo](https://gohugo.io/).
+The **Learn to Make Games with Godot** guides are part of the GDQuest website and written in markdown. At the time of writing, the website relies on the static website generator [Hugo](//gohugo.io/).
 
 You can contribute to these documents by editing them on GitHub.
 
-To contribute to these particular documents you'll have to fork the [GDQuest website project](https://github.com/GDQuest/GDQuest-website). You can then find the respective documents in the `content/docs/guides/learn-godot` folder, under `beginner/index.md` and `developer/index.md`.
+To contribute to these particular documents you'll have to fork the [GDQuest website project](//github.com/GDQuest/GDQuest-website). You can then find the respective documents in the `content/docs/guides/learn-godot` folder, under `beginner/index.md` and `developer/index.md`.
 
 After you made your changes which can range from updating links to reviewing the text to including new material, you're then ready to open a PR. For further details on how to be a great contributor please refer to [Contributing to GDQuest's Projects]({{< ref "docs/guidelines/contributing-to/gdquest-projects/index.md" >}}) document. 
 

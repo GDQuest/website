@@ -34,28 +34,28 @@ _More happened with the French administration, but I'll spare you the boring det
 
 ## Upcoming content in October
 
-In October, you'll get an update with the Game Design chapter, including insights from successful indie game designers: [Yakkafo](https://twitter.com/yakkafo), designer on Event[0], [AtomicRacoonFR](https://twitter.com/AtomicRaccoonFR) and the incredible [FibreTigre](https://twitter.com/FibreTigre).
+In October, you'll get an update with the Game Design chapter, including insights from successful indie game designers: [Yakkafo](//twitter.com/yakkafo), designer on Event[0], [AtomicRacoonFR](//twitter.com/AtomicRaccoonFR) and the incredible [FibreTigre](//twitter.com/FibreTigre).
 
 {{< figure src="event-0.jpg" caption="Event[0] lets you chat with an AI with plain text" alt="An old computer screen sitting on a piano" >}}
 
-Mark Brown aka Game Maker's Toolkit made a [neat video](https://www.youtube.com/watch?v=bCJw4hQkPj4) about @Yakkafo's game.
+Mark Brown aka Game Maker's Toolkit made a [neat video](//www.youtube.com/watch?v=bCJw4hQkPj4) about @Yakkafo's game.
 
-You will also get all the [tutorials and demos](https://github.com/GDQuest/godot-3-guides/) I create for the documentation neatly packaged in the course. They're as good and as complete as the video tutorials. Only text-based. You'll also find and a changelog to help you wrap your head around the updates.
+You will also get all the [tutorials and demos](//github.com/GDQuest/godot-3-guides/) I create for the documentation neatly packaged in the course. They're as good and as complete as the video tutorials. Only text-based. You'll also find and a changelog to help you wrap your head around the updates.
 
 I asked you on Discord what I should focus on until Godot 3's beta comes out. And voted in favor of the official documentation. I still have to push the course forward for those who buy it in early access, so I'm going to *split the difference*. It makes sense to focus on the docs before Godot 3 comes out: it may affect the experience and retention of new users a lot. The engine is making leaps, and the documentation needs to catch up.
 
-Thanks to Chris's work on beginner-friendly tutorials, like the new [Your First Game](http://docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html), together we can produce more content and take on more complex topics like the UI system, Animation and Particles.
+Thanks to Chris's work on beginner-friendly tutorials, like the new [Your First Game](//docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html), together we can produce more content and take on more complex topics like the UI system, Animation and Particles.
 
-{{< figure src="https://docs.godotengine.org/en/latest/_images/dodge_preview.gif" caption="Chris's new getting started tutorial for Godot 3 makes you code an avoid the monsters game" alt="Small aliens crawling on the screen, and the player has to avoid them" >}}
+{{< figure src="//docs.godotengine.org/en/latest/_images/dodge_preview.gif" caption="Chris's new getting started tutorial for Godot 3 makes you code an avoid the monsters game" alt="Small aliens crawling on the screen, and the player has to avoid them" >}}
 
-If you've got any concern or question, never hesitate to contact me directly on Discord, [Twitter](https://twitter.com/NathanGDQuest/) or via Kickstarter/Email.
+If you've got any concern or question, never hesitate to contact me directly on Discord, [Twitter](//twitter.com/NathanGDQuest/) or via Kickstarter/Email.
 Thank you kindly for your time and see you soon!
 
-*PS: we're going to the [Capitole du Libre](https://2017.capitoledulibre.org/) on November 18 and 19, with Gilles Roudière and StraToN. It's a major FOSS event taking place in France. We were invited to give conferences about Godot. You're welcome to participate as well, come to meet us, help man the booth, and teach the engine!*
+*PS: we're going to the [Capitole du Libre](//2017.capitoledulibre.org/) on November 18 and 19, with Gilles Roudière and StraToN. It's a major FOSS event taking place in France. We were invited to give conferences about Godot. You're welcome to participate as well, come to meet us, help man the booth, and teach the engine!*
 
 ## Get in touch!
 
-Need to reach me? Send me a message anytime [@NathanGDQuest](https://twitter.com/NathanGDQuest) on Twitter.
+Need to reach me? Send me a message anytime [@NathanGDQuest](//twitter.com/NathanGDQuest) on Twitter.
 
 Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
 

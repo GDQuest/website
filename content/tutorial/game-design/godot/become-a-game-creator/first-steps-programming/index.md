@@ -25,7 +25,7 @@ This first part is for you if you have little to no programming experience. You'
 {{< youtube q3Og0Z-_En0 >}}
 
 {{< note >}}
-It is the first part of a *Free and Open Source* intro series to game creation and to the [Godot game engine](https://godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
+It is the first part of a *Free and Open Source* intro series to game creation and to the [Godot game engine](//godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
 {{< /note >}}
 
 
@@ -88,7 +88,7 @@ If you jump straight in a game editor and try to write code you're in trouble. A
 
 > You need to write code to become a developer. Many beginners are afraid to write code that breaks. You won't break your computer. Sure your app will crash and there may be bugs but that's okay. You can only learn by trying.
 >
-> <footer><a href="https://twitter.com/valryon/">Valryon</a>, co-founder of <a href="http://pixelnest.io/">Pixelnest</a></footer>
+> <footer><a href="//twitter.com/valryon/">Valryon</a>, co-founder of <a href="//pixelnest.io/">Pixelnest</a></footer>
 
 ![](img/sterenden.png)
 
@@ -107,7 +107,7 @@ Keep the **KISS** principle in mind to avoid frustration: **Keep it Short and Sw
 
 ## The first language you'll learn isn't that important
 
-There are [hundreds of programming languages](https://www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
+There are [hundreds of programming languages](//www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
 
 {{< figure
   src="./img/programming-languages-books.jpg"
@@ -137,7 +137,7 @@ There are different types of developers, and different paths to becoming a devel
 > Programming is for everyone. You don't need to be a man, to be young or "gifted". If I had started earlier I would've avoided a lot of obstacles in my career.
 > It's a myth that we should debunk right now.
 >
-> <footer><a href="http://fenntasy.com/wanuts/">Florïn Zolli</a>, level designer at Ankama (Dofus, Wakfu), community manager at MotionTwin, now studying development</footer>
+> <footer><a href="//fenntasy.com/wanuts/">Florïn Zolli</a>, level designer at Ankama (Dofus, Wakfu), community manager at MotionTwin, now studying development</footer>
 
 Women can code just as well as men. Designers and artists can also code. Again: **programming is for everyone**. You've just got to find the tool that's right for you.
 
@@ -153,7 +153,7 @@ Unless you like to learn the hard way, you don't have to start with C++. C++ is 
 
 > There are different types of developers: some like to code for the sake of it while others are driven by projects. You shouldn't be discouraged if you aren't part of the first group. I don't like math, or programming in itself, it's ok : it doesn't prevent you from creating games.
 >
-> <footer><a href="http://fenntasy.com/wanuts/">Florïn Zolli</a>
+> <footer><a href="//fenntasy.com/wanuts/">Florïn Zolli</a>
 
 There are **thousands of ways to code**. You don't have to do complex math to build games. You can challenge yourself with complex algorithms if you want to. Or just animate characters moving on the screen!
 
@@ -219,7 +219,7 @@ Coding is like writing in a foreign language: you've got to learn some basic voc
 I recommend to start with Python for at least 3 reasons:
 
 1. You can create **all kinds of programs** with it: automate tasks on your computer, code web applications, science applications, even games...
-1. It has a **huge active community**. Python is taught in many schools and universities so it's easy to find good learning resources for teenagers and adults alike. My friend Chris Bradiel even [teaches Python to kids](http://kidscancode.org/)!
+1. It has a **huge active community**. Python is taught in many schools and universities so it's easy to find good learning resources for teenagers and adults alike. My friend Chris Bradiel even [teaches Python to kids](//kidscancode.org/)!
 1. It is easy to approach thanks to its **simple syntax**
 
 Python looks like this:
@@ -245,7 +245,7 @@ The product is: 384
 
 > During the last Europython I've met companies who use Python in game development work. Crytek and EA (Frostbyte) use it in their assets pipeline, the build system, and automated tests.
 >
-> <footer>Emmanuel aka TouilleMan, author of the <a href="https://github.com/touilleMan/godot-python">Python support in Godot</a></footer>
+> <footer>Emmanuel aka TouilleMan, author of the <a href="//github.com/touilleMan/godot-python">Python support in Godot</a></footer>
 
 As explained earlier, we're talking about your first text-based language here. It certainly won't and shouldn't be the last you'll study. Python is a good stepping stone on your learning journey: it's a middleground between visual programming languages like Scratch and strict ones like C++.
 
@@ -259,7 +259,7 @@ You'll find few games written in the Python language. Game development companies
 
 > Various studies show that the number of Python developers is growing steadily year by year. [...] Many people are starting to use Python for data science and machine learning.
 >
-> <footer>Jetbrains 2017 <a href="https://www.jetbrains.com/research/python-developers-survey-2017/#types-of-development">Python developers survey</a></footer>
+> <footer>Jetbrains 2017 <a href="//www.jetbrains.com/research/python-developers-survey-2017/#types-of-development">Python developers survey</a></footer>
 
 <!-- {{< note >}}
 <!-- You can write all kinds of programs in Python. Developers around the world use it to create anything from basics scripts to self-improving artificial intelligence, complex cross-platform applications or website back-ends like YouTube's. Both small and large companies like Google and Microsoft hire Python developers. -->
@@ -271,9 +271,9 @@ I don't want to flood you with a long list of resources. Instead here's three th
 
 ### Dive into Python 3
 
-You can get started right now with the Python programming language using [Dive into Python](https://diveinto.org/python3/table-of-contents.html). It is a practical introduction to the language, showing you real-world uses from the start.
+You can get started right now with the Python programming language using [Dive into Python](//diveinto.org/python3/table-of-contents.html). It is a practical introduction to the language, showing you real-world uses from the start.
 
-If you want to go further after that, there's a is a great free ebook called [Python Data Science](https://runestone.academy/runestone/books/published/pythonds/index.html). This resource will help you develop a good understanding of how computers process data and how to write efficient programs, performance-wise.
+If you want to go further after that, there's a is a great free ebook called [Python Data Science](//runestone.academy/runestone/books/published/pythonds/index.html). This resource will help you develop a good understanding of how computers process data and how to write efficient programs, performance-wise.
 
 ### The Python Tutorial
 
@@ -283,19 +283,19 @@ Language creators generally want as many people as possible to use their languag
 
 Python comes with tons of tools, and they're all covered in details in the official reference. The community also wrote a comprehensive intro tutorial that reads like a book.
 
-Read the [official Python tutorial](https://docs.python.org/3/tutorial/index.html)
+Read the [official Python tutorial](//docs.python.org/3/tutorial/index.html)
 
 {{< note >}}
-Python's docs website doesn't have the best layout. I use and recommend [Zeal](https://zealdocs.org/), a Free documentation browser for programmers, to quickly search and read the docs for multiple languages. You can find the Python tutorial after you download the corresponding docset (click on the menu option `Tools ➡ Docsets`)
+Python's docs website doesn't have the best layout. I use and recommend [Zeal](//zealdocs.org/), a Free documentation browser for programmers, to quickly search and read the docs for multiple languages. You can find the Python tutorial after you download the corresponding docset (click on the menu option `Tools ➡ Docsets`)
 {{</ note >}}
 
 ### Automate the Boring Stuff with Python
 
-Put your new Python knowledge to good use with this [free book](http://automatetheboringstuff.com/)! It is a collection of nice tricks to make your computer work for you. Need to rename many files in a complex way or automate web searches? Each of these programming drills will help you better understand your computer and the Python language by giving you new tools which will help you save time in your future projects.
+Put your new Python knowledge to good use with this [free book](//automatetheboringstuff.com/)! It is a collection of nice tricks to make your computer work for you. Need to rename many files in a complex way or automate web searches? Each of these programming drills will help you better understand your computer and the Python language by giving you new tools which will help you save time in your future projects.
 
 ![Automate the Boring Stuff with Python ebook cover](./img/automate-boring-stuff-with-python-cover.png)
 
-The Python community also put up a [nice guide](http://docs.python-guide.org/en/latest/intro/learning/) to help you go further with the language.
+The Python community also put up a [nice guide](//docs.python-guide.org/en/latest/intro/learning/) to help you go further with the language.
 
 ## Summary
 
@@ -309,15 +309,15 @@ That was a long article, right? If you should only remember a few key points:
 
 It is time for you to use the resources above and to start building your programming muscles! Pick one course, learn in short, focused sessions, and try to practice on your own to learn most efficiently.
 
-In the next part we'll get started with game design. You can find me [on Twitter](https://twitter.com/NathanGDQuest) if you have questions!
+In the next part we'll get started with game design. You can find me [on Twitter](//twitter.com/NathanGDQuest) if you have questions!
 
 {{< gumroad-call-to-action >}}
 
-*Big thanks to [Simon Love](https://twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](http://www.lkokemohr.de/) for being an awesome mentor.* 😄
+*Big thanks to [Simon Love](//twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](//www.lkokemohr.de/) for being an awesome mentor.* 😄
 
 ##  Your Questions
 
-Got questions about getting started with programming? [Send me a tweet](https://twitter.com/NathanGDQuest) !
+Got questions about getting started with programming? [Send me a tweet](//twitter.com/NathanGDQuest) !
 
 I'll add the most useful answers here. Click on questions to unfold them.
 
@@ -354,7 +354,7 @@ And some other important concepts we will look at later in this series, like the
 
 The target of this article is teenagers, adults, and people learning on their own using free resources available on the Internet.
 
-Python is not the only language you could use to get started. There are languages designed specifically to learn programming. The most popular of them today would be [Scratch](https://scratch.mit.edu/), a visual programming tool to introduce kids to code.
+Python is not the only language you could use to get started. There are languages designed specifically to learn programming. The most popular of them today would be [Scratch](//scratch.mit.edu/), a visual programming tool to introduce kids to code.
 
 {{< figure
 src="./img/scratch-code-example.png"
@@ -366,7 +366,7 @@ Then there are other languages with an accessible syntax like Lua, or that offer
 
 Why Python then? First because of the quality of the free courses available out there is high overall. The community set up strong guidelines for what are good practices and what are bad practices. Thanks to this it's easy to stumble upon tutorials I would recommend. This isn't the case with JavaScript where beginners write articles without understanding the language: the quality is all over the place. Great JavaScript resources are often focused on the specifics of web development and don't translate into general software development or games as well as Python's.
 
-Then there's the fact that the [Godot game engine](https://godotengine.org) is a great option to learn game development and the transition from Python to Godot's GDscript programming language will be a little easier than coming from another language. Godot pushes you to focus on the basics of object-oriented design in an intuitive way as we will see that later in this series.
+Then there's the fact that the [Godot game engine](//godotengine.org) is a great option to learn game development and the transition from Python to Godot's GDscript programming language will be a little easier than coming from another language. Godot pushes you to focus on the basics of object-oriented design in an intuitive way as we will see that later in this series.
 </details>
 
 <details>
@@ -374,7 +374,7 @@ Then there's the fact that the [Godot game engine](https://godotengine.org) is a
 
 When you're learning how to code, the language or the engine's performances is the least of your concerns. Today's computers are so fast you will have to try very hard to bring them to their knees. Your goal at this point should be to learn to code, not to write fast applications. Lastly, most of the performance issues you'll face will come from your own code.
 
-Now let's talk about the language's performances. You may have heard Python is a [dynamic language](https://www.wikiwand.com/en/Dynamic_programming_language) and that it is slower than classic languages like C or C++. It turns out that Python is built upon the C language so most of the instructions you write in a dynamic language like Python call code written in the comparatively fast C language.
+Now let's talk about the language's performances. You may have heard Python is a [dynamic language](//www.wikiwand.com/en/Dynamic_programming_language) and that it is slower than classic languages like C or C++. It turns out that Python is built upon the C language so most of the instructions you write in a dynamic language like Python call code written in the comparatively fast C language.
 
 The same is true when you work with a game engine. Many rely on a dynamic language to help code gameplay mechanics fast. These languages, often called scripting languages, may be slower than C++ but every engine feature you use, like drawing on the screen, uses the fast engine's C++ core.
 

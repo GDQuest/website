@@ -6,31 +6,31 @@ description = ""
 
 [chapters.1.videos.1]
 title = "Custom Camera in Godot, part 1: Transform the Canvas"
-url = "https://www.youtube.com/watch?v=xUSEeXDtwIw"
+url = "//www.youtube.com/watch?v=xUSEeXDtwIw"
 
 [chapters.1.videos.2]
 title = "Custom Camera in Godot, part 2: Follow the Player"
-url = "https://www.youtube.com/watch?v=FkxZECaD5To"
+url = "//www.youtube.com/watch?v=FkxZECaD5To"
 
 [chapters.1.videos.3]
 title = "Custom Camera in Godot 3: Let's simplify the code!"
-url = "https://www.youtube.com/watch?v=AQXjid5jemI"
+url = "//www.youtube.com/watch?v=AQXjid5jemI"
 
 [chapters.1.videos.4]
 title = "Zelda-like Custom Camera: Instant room transitions in Godot"
-url = "https://www.youtube.com/watch?v=CqU6w164AbU"
+url = "//www.youtube.com/watch?v=CqU6w164AbU"
 
 [chapters.1.videos.5]
 title = "Introduction to tilesets in the Godot Engine"
-url = "https://www.youtube.com/watch?v=OhlMUvpmWuA"
+url = "//www.youtube.com/watch?v=OhlMUvpmWuA"
 
 [chapters.1.videos.6]
 title = "Intro to the Animation Tools in the Godot Game Engine"
-url = "https://youtube.com/watch?v=d9t3CdMks7M"
+url = "//youtube.com/watch?v=d9t3CdMks7M"
 
 [chapters.1.videos.7]
 title = "[TOOL] Top-Down Tileset Template (Open Source)"
-url = "https://youtube.com/watch?v=09QrdSEGtwI"
+url = "//youtube.com/watch?v=09QrdSEGtwI"
 
 
 
@@ -42,31 +42,31 @@ description = ""
 
 [chapters.2.videos.1]
 title = "How to Import Maps from Tiled in Godot"
-url = "https://youtube.com/watch?v=jFq4Eve_Db8"
+url = "//youtube.com/watch?v=jFq4Eve_Db8"
 
 [chapters.2.videos.2]
 title = "The Grid (1/4): Top-Down character movement"
-url = "https://youtube.com/watch?v=BWBD3i00AfM"
+url = "//youtube.com/watch?v=BWBD3i00AfM"
 
 [chapters.2.videos.3]
 title = "The Grid (2/4): Establish the foundations"
-url = "https://youtube.com/watch?v=Yus8zAculWA"
+url = "//youtube.com/watch?v=Yus8zAculWA"
 
 [chapters.2.videos.4]
 title = "The Grid (3/4): 2 key functions to manage the game board"
-url = "https://youtube.com/watch?v=3a6z0yxxfaM"
+url = "//youtube.com/watch?v=3a6z0yxxfaM"
 
 [chapters.2.videos.5]
 title = "The Grid (4/4): Connect the player to the grid"
-url = "https://youtube.com/watch?v=A7xcmDeIoLY"
+url = "//youtube.com/watch?v=A7xcmDeIoLY"
 
 [chapters.2.videos.6]
 title = "Introduction to Vectors for Game Creators (Collab with Pigdev) "
-url = "https://www.youtube.com/watch?v=ZoMmiQes_lE"
+url = "//www.youtube.com/watch?v=ZoMmiQes_lE"
 
 [chapters.2.videos.7]
 title = "Shortcuts to Code Faster in the GDscript Editor"
-url = "https://www.youtube.com/watch?v=rMx35lyXCpk"
+url = "//www.youtube.com/watch?v=rMx35lyXCpk"
 
 
 
@@ -77,31 +77,31 @@ description = ""
 
 [chapters.3.videos.1]
 title = "[DEMO] Top-Down Car with Steering in Godot"
-url = "https://youtu.be/d6jICPx6Dto"
+url = "//youtu.be/d6jICPx6Dto"
 
 [chapters.3.videos.2]
 title = "[TIPS] Script and Scene Sync in Godot: see your changes at runtime!"
-url = "https://youtu.be/fpwwbS_fY0M"
+url = "//youtu.be/fpwwbS_fY0M"
 
 [chapters.3.videos.3]
 title = "The Kraken: Game Creature Art Process with 2dGameArtGuru"
-url = "https://youtu.be/V2CDT8_VmUk"
+url = "//youtu.be/V2CDT8_VmUk"
 
 [chapters.3.videos.4]
 title = "The Kraken: Creature Design and Silhouette in Inkscape"
-url = "https://youtu.be/O5KQpOQWx-4"
+url = "//youtu.be/O5KQpOQWx-4"
 
 [chapters.3.videos.5]
 title = "Introduction to Isometric Movement in Games"
-url = "https://youtu.be/KvSjJ-kdGio"
+url = "//youtu.be/KvSjJ-kdGio"
 
 [chapters.3.videos.6]
 title = "[DEMO] Isometric Grid-Based Movement"
-url = "https://youtu.be/8U5iQFJ8Z2U"
+url = "//youtu.be/8U5iQFJ8Z2U"
 
 [chapters.3.videos.7]
 title="Intro to the Vector Dot Product: How to code a Field of View in Godot"
-url = "https://youtu.be/dC4-TSFv32Y"
+url = "//youtu.be/dC4-TSFv32Y"
 
 
 [chapters.4]
@@ -111,27 +111,27 @@ description = ""
 
 [chapters.4.videos.1]
 title="[LIVE] Your questions about Godot, Game Creation, the Kickstarter?"
-url = "https://youtu.be/9f1cGjk7iB0"
+url = "//youtu.be/9f1cGjk7iB0"
 
 [chapters.4.videos.2]
 title="[DEMO] How to detect slopes in a platform game using the Dot Product: Godot tutorial"
-url = "https://youtu.be/4PM6Jb3kCvY"
+url = "//youtu.be/4PM6Jb3kCvY"
 
 [chapters.4.videos.3]
 title="How to Save the Player Settings with ConfigFile (Godot tutorial)"
-url = "https://youtu.be/IrUhyf-g5hU"
+url = "//youtu.be/IrUhyf-g5hU"
 
 [chapters.4.videos.4]
 title="How to Code a Save System: Godot Tutorial"
-url = "https://youtu.be/XQptE6qrhKA"
+url = "//youtu.be/XQptE6qrhKA"
 
 [chapters.4.videos.5]
 title="[Presentation] Overview of Godot 2 and 3's features"
-url = "https://youtu.be/Ge6EQHR3Xrg"
+url = "//youtu.be/Ge6EQHR3Xrg"
 
 [chapters.4.videos.6]
 title="How to animate with Tween and GDscript: Godot tutorial"
-url = "https://youtu.be/ofDcC3aux8Q"
+url = "//youtu.be/ofDcC3aux8Q"
 
 
 [chapters.5]
@@ -141,18 +141,18 @@ description = ""
 
 [chapters.5.videos.1]
 title="Introduction to signals in the Godot game engine"
-url = "https://youtu.be/l0BkQxF7X3E"
+url = "//youtu.be/l0BkQxF7X3E"
 
 [chapters.5.videos.2]
 title="Overview of the 5 most common UI nodes in Godot"
-url = "https://youtu.be/pVK_QzQPv4o"
+url = "//youtu.be/pVK_QzQPv4o"
 
 [chapters.5.videos.3]
 title="Intro to UI containers"
-url = "https://youtu.be/6G3NP5O9VsQ"
+url = "//youtu.be/6G3NP5O9VsQ"
 
 
 
 [chapters.5.videos.5]
 title="Tennis on steroids? Godot programming, Kickstarter finish"
-url = "https://youtu.be/wc_eFss1unk"
+url = "//youtu.be/wc_eFss1unk"

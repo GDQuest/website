@@ -18,14 +18,14 @@ title = "Game Creation with Godot, Kickstarter soon"
 
 Update: the form's results are available: [Check them out]({{< ref "/post/2017/news/godot-kickstarter-form-results/index.md" >}})!
 
-Back in December 2015, hundreds supported gdquest on Kickstarter to bring out game art tutorials to Krita. Since then, I produced more than a hundred videos for it, and the [first professional game art course](https://gumroad.com/l/krita-game-art-tutorial-1).
+Back in December 2015, hundreds supported gdquest on Kickstarter to bring out game art tutorials to Krita. Since then, I produced more than a hundred videos for it, and the [first professional game art course](//gumroad.com/l/krita-game-art-tutorial-1).
 
 I didn't expect to go full time with GDQuest. Back then there was no website, a small community, I had few contacts to help me and no experience with crowdfunding. A lot had yet to be done. The Krita devs and I weren't sure it would work, but it did. Fast forward 18 months, I'm ready to work hand-in-hand with the Godot developers to create the **first premium course for the powerful Godot game engine**.
 
 
 ## Godot, the engine you've been waiting for
 
-It is certainly the most flexible, 100% Free and Open Source game engine out there. I mean, just look at [Godot's key features](https://godotengine.org/features). And in the upcoming version 3, there's so much new stuff coming I'd need a separate article to just give you an overview of the changes. PBR workflow for 3d, light probes, audio mixer and audio effects, brand new asset management system, particles rebuilt from scratch...
+It is certainly the most flexible, 100% Free and Open Source game engine out there. I mean, just look at [Godot's key features](//godotengine.org/features). And in the upcoming version 3, there's so much new stuff coming I'd need a separate article to just give you an overview of the changes. PBR workflow for 3d, light probes, audio mixer and audio effects, brand new asset management system, particles rebuilt from scratch...
 
 
 {{< figure src="/img/post/2017/news/godot-engine-kickstarter/godot-editor-design.jpg" alt="Screenshot of the Godot editor" >}}
@@ -64,13 +64,13 @@ The course will focus on 2d game creation, because that's what I've got experien
 
 To do so, please fill this short form (only 5 questions):
 
-{{< calltoaction "https://gdquest.typeform.com/to/ul3bc1" "Fill the form!" >}}
+{{< calltoaction "//gdquest.typeform.com/to/ul3bc1" "Fill the form!" >}}
 
 
 ## Want to know when it starts?
 
-1. Subscribe to the [GDQuest Youtube channel](https://www.youtube.com/c/Gdquest?sub_confirmation=1)
-2. Follow [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
+1. Subscribe to the [GDQuest Youtube channel](//www.youtube.com/c/Gdquest?sub_confirmation=1)
+2. Follow [GDQuest on Twitter](//twitter.com/NathanGDQuest)
 
 I'll let you know when it starts ASAP. Feel free to ask me questions! I'll also share the results from the form when I've got everyone's thoughts on the project :)
 

@@ -36,7 +36,7 @@ In total, there are about 30 video tutorials and 15 PDF documents depending on t
 - Pro (24.95 EUR), adds fundamental art training, techniques to create nondestructive selections in Krita, and art demos based on the games Pankapu and Seasons: After Fall
 - Premium (49.95 EUR), for those who want the full value. On top of exclusive tutorials, it gives you access to the premium-only Discord chat, priority support, step by step assignments and 2 PDF course documents
 
-{{< calltoaction "https://gumroad.com/l/krita-game-art-tutorial-1" "Get the course!" >}}
+{{< calltoaction "//gumroad.com/l/krita-game-art-tutorial-1" "Get the course!" >}}
 
 ## No strings attached
 
@@ -44,7 +44,7 @@ I'm confident it'll help you get your art to the next level. So confident you ha
 
 ## What are the prerequisites?
 
-You should have some experience with drawing and digital art. The pace and difficulty of the course is similar to the [GDQuest Youtube channel](http://youtube.com/c/gdquest).
+You should have some experience with drawing and digital art. The pace and difficulty of the course is similar to the [GDQuest Youtube channel](//youtube.com/c/gdquest).
 You also want to know a bit about Krita. My free series will cover everything you need in that regards: [Free Krita tutorial](/tutorial/art/krita-tutorial-for-game-artists/) (50 videos!)
 
 If you want to be notified when there's a promotion for the course or other products on GDQuest, just enter your email below!

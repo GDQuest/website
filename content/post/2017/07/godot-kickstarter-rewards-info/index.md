@@ -47,7 +47,7 @@ I will ultimately setup a list of 20 to 40 topics based on what's feasible and u
 
 Although I'm back to work since last week, I'm still recovering. If you wondered why you didn't get a news post sooner: I'm just slower than usual, and I've had a lot to do during the past week. The campaign's incredible success means the company has to evolve, and there'll be more administrative work and charges to pay from now on.
 
-Aside from that, I've open sourced my [Blender video editing add-on](https://github.com/GDQuest/GDQuest-VSE). The average tutorial has more than 100 cuts, and I needed tools to do that as efficiently as possible. It's still not ready for public use, but at least it's out there, so anyone can check it out, and start playing with the features. If there are users, you can expect me to improve it a bit faster!
+Aside from that, I've open sourced my [Blender video editing add-on](//github.com/GDQuest/GDQuest-VSE). The average tutorial has more than 100 cuts, and I needed tools to do that as efficiently as possible. It's still not ready for public use, but at least it's out there, so anyone can check it out, and start playing with the features. If there are users, you can expect me to improve it a bit faster!
 
 ![Screenshot of Blender showing the cuts on an tutorial](cuts-on-tutorials.jpg)
 

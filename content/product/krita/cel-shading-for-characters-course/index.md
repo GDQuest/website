@@ -39,10 +39,10 @@ You’re interested in the course, but what if you buy and you don’t like it? 
 
 The course is available on Gumroad. Click the button below to access it. If you pre-order it, use the code "early" and get 20% off!
 
-{{< calltoaction "https://gumroad.com/l/cartoon-game-art-krita-course" "Get the course now!" >}}
+{{< calltoaction "//gumroad.com/l/cartoon-game-art-krita-course" "Get the course now!" >}}
 
 ## Pepper and Carrot
 
-[Pepper and Carrot](https://www.peppercarrot.com/) is a free webcomic by [David Revoy](http://davidrevoy.com/). It is released under the [CC-By 4.0 licence](https://creativecommons.org/licenses/by/4.0/). It is set in a vibrant world, and we can thank the author(s) for making it available to us. It's very common for game artists to work on an existing IP or following a certain art direction. The fact that this comic is free, as in free speech, allows us to do just that with this Krita course!
+[Pepper and Carrot](//www.peppercarrot.com/) is a free webcomic by [David Revoy](//davidrevoy.com/). It is released under the [CC-By 4.0 licence](//creativecommons.org/licenses/by/4.0/). It is set in a vibrant world, and we can thank the author(s) for making it available to us. It's very common for game artists to work on an existing IP or following a certain art direction. The fact that this comic is free, as in free speech, allows us to do just that with this Krita course!
 
 {{< figure src="/img/product/krita/cel-shaded-game-art/pepper-carrot-cover-by-david-revoy.jpg" alt="3 stylized characters used to teach lighting fundamentals" >}}

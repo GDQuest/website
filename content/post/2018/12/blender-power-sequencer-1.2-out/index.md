@@ -14,7 +14,7 @@ title = "Blender Power Sequencer 1.2 is Out"
 
 Our Free Blender add-on for content creators got a MASSIVE update.
 
-New tools, UI, improvements and fixes all-around... [look at the changelog](https://github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md#power-sequencer-12)!
+New tools, UI, improvements and fixes all-around... [look at the changelog](//github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md#power-sequencer-12)!
 
 ## Release highlights
 
@@ -49,7 +49,7 @@ Blender's proxies are slow to render, heavy on the disk, and they don't look too
 
 {{< youtube oFLo7IHfGB0 >}}
 
-Like our multiprocessor video render tool [BPSRender](https://gitlab.com/razcore/BPSRender) before it, it's a standalone and Free command line program so that everyone can adapt it to their workflow.
+Like our multiprocessor video render tool [BPSRender](//gitlab.com/razcore/BPSRender) before it, it's a standalone and Free command line program so that everyone can adapt it to their workflow.
 
 The advantages:
 
@@ -62,11 +62,11 @@ The advantages:
 
 *\*Nvenc isn't ideal for proxies. It can make proxy generation a lot faster in some cases but it may cause slight frame offsets when editing. It is best for videos like screencasts or vlogs when you don't need perfect precision.*
 
-We're looking for help to [integrate it with Blender's interface](https://github.com/GDQuest/Blender-power-sequencer/issues/302) in Power Sequencer 1.3!
+We're looking for help to [integrate it with Blender's interface](//github.com/GDQuest/Blender-power-sequencer/issues/302) in Power Sequencer 1.3!
 
 ### And so much more
 
-There's a lot more waiting for you to read [in the release changelog](https://github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md)!
+There's a lot more waiting for you to read [in the release changelog](//github.com/GDQuest/Blender-power-sequencer/blob/master/changelog.md)!
 
 ## Putting the add-on to the test
 
@@ -80,7 +80,7 @@ I had a blast! Automated selections and the ability to edit to music saved many 
 
 It's the first time I edited a video that involved pulling from an extensive library of shots. We usually record footage for specific videos and keep everything in a self-contained project folder instead.
 
-I've used [Digikam](https://www.digikam.org/) to derush, organize, and browse through the 800 source shots for this project. Being unable to drag and drop many files at once on the Sequencer has proven to be limiting. Using Blender's File Browser on Windows has also been a pain as video thumbnails took a while to render. I have yet to find a good solution to speed up the process.
+I've used [Digikam](//www.digikam.org/) to derush, organize, and browse through the 800 source shots for this project. Being unable to drag and drop many files at once on the Sequencer has proven to be limiting. Using Blender's File Browser on Windows has also been a pain as video thumbnails took a while to render. I have yet to find a good solution to speed up the process.
 
 In this instance you can really see how bins and the derushing tools video editing programs traditionally provide can help to stay organized and save time.
 
@@ -88,6 +88,6 @@ There's always room for improvement, both on the sequencer itself and in the add
 
 ## Become a contributor!
 
-Power Sequencer is Free Software made by the community, for video creators. Contributors are all welcome! Developers, designers, testers, people who want to help us write mini tutorials! Get in touch anytime on our [Discord server](https://discord.gg/dKUX7m3).
+Power Sequencer is Free Software made by the community, for video creators. Contributors are all welcome! Developers, designers, testers, people who want to help us write mini tutorials! Get in touch anytime on our [Discord server](//discord.gg/dKUX7m3).
 
-If you haven't already, be sure to [get Power Sequencer 1.2](https://github.com/GDQuest/Blender-power-sequencer/releases/tag/1.2.0).
+If you haven't already, be sure to [get Power Sequencer 1.2](//github.com/GDQuest/Blender-power-sequencer/releases/tag/1.2.0).

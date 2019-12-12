@@ -21,13 +21,13 @@ These **3.5 hours of extra tutorials** dedicated to **Game User Interface** will
 1. How to **design reusable UI components** with Godot's theme system
 5. How to create an **inventory system and item menu**
 
-The first UI chapter is in both the [Indie](https://gumroad.com/l/XEULZ) and [Pro](https://gumroad.com/l/godot-tutorial-make-professional-2d-games) versions of the course. The Inventory and Item Menu chapter is **only available in the Pro version**.
+The first UI chapter is in both the [Indie](//gumroad.com/l/XEULZ) and [Pro](//gumroad.com/l/godot-tutorial-make-professional-2d-games) versions of the course. The Inventory and Item Menu chapter is **only available in the Pro version**.
 
 ## Chapter 7: Game User Interface
 
 {{< video "./gui-demo-720p.mp4" "720" >}}
 
-In this series, we first look at **Godot's pause system**, and how to create a simple pause menu. This gives us an opportunity to look at the reusable UI theme system. [Themes](https://godot.readthedocs.io/en/3.0/tutorials/gui/gui_skinning.html?highlight=theme) are resources you can reuse across menus and across projects to save time with GUI design.
+In this series, we first look at **Godot's pause system**, and how to create a simple pause menu. This gives us an opportunity to look at the reusable UI theme system. [Themes](//godot.readthedocs.io/en/3.0/tutorials/gui/gui_skinning.html?highlight=theme) are resources you can reuse across menus and across projects to save time with GUI design.
 
 The second part focuses on life bars:
 
@@ -50,7 +50,7 @@ You'll learn some essential techiques to build scalable UI. The trick is to use 
 
 As the series was already so long, I decided to delay the shop a little bit and to turn it into its own, extra chapter.
 
-{{< calltoaction "https://gumroad.com/l/godot-tutorial-make-professional-2d-games" "Get the course!" >}}
+{{< calltoaction "//gumroad.com/l/godot-tutorial-make-professional-2d-games" "Get the course!" >}}
 
 ## GDQuest is on Patreon!
 
@@ -74,4 +74,4 @@ And you can also get **your own mini-tutorials** on top of that if you pick the 
 
 For more information, check out our Patreon page!
 
-{{< calltoaction url="https://www.patreon.com/gdquest" text="Support us on Patreon 😊" >}}
+{{< calltoaction url="//www.patreon.com/gdquest" text="Support us on Patreon 😊" >}}
