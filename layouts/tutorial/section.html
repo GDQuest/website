@@ -2,7 +2,7 @@
 <div class="fill header-bg header-bg-section"></div>
 <div class="grid split2 small-v-padding">
     <div>
-        <h1 class="no-margin">tutorials</h1>
+        <h1 class="no-margin">Tutorials</h1>
         <p>Start your game development adventure.</p>
     </div>
 </div>
@@ -11,12 +11,9 @@
 
 {{ define "main" }}
 <section id="tutorial_series" class="container base-v-padding">
-    <h2>courses</h2>
-
     {{.Content}}
-
     <div class="grid split2 list">
-        {{ range (where (where .Site.Pages "Type" "in" (split "course tut" " ")) "Section" "tutorial") }}
+        {{ range .Pages }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
