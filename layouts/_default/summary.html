@@ -2,7 +2,7 @@
     {{ $url := .Permalink }}
 
     {{ with (.Resources.GetMatch "banner") }}
-    <a href="{{ $url }}"><img src="{{ .Permalink }}" alt=""></a>
+    <img src="{{ .Permalink }}" alt="">
     {{ end }}
 
     <div class="content">
