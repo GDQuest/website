@@ -464,10 +464,7 @@ In the example above, you can view each node as a separate scene, be it `Board` 
 
 If we save `QuestSystem` using `Save Branch as Scene`, we should be able to run this scene locally, by pressing <kbd>F6</kbd>, without any error. In this case, we can't expect to have the same behavior as when we play the main `Game` scene, as it could depend on external data. It should just run without any errors.
 
-{{< figure
-    src="./img/orpg_quest_system.gif"
-    caption="Systems should work independently, even if they aren't a part of the main scene."
-    alt="OpenRPG quest system" >}}
+{{< youtube WLYCgar9fyQ >}}
 
 You should **never have direct references to specific objects from another system**. Instead, you should rely on a parent node to route information and let the systems interconnect via signals.
 
