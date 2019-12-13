@@ -10,13 +10,13 @@
     <div data-font="centered">
         <aside>
             {{ range .Site.Params.social }}
-            <a target="_blank" href="{{ .link }}" target="_blank">
+            <a target="_blank" href="{{ .link }}" rel="noopener">
                 <i class="fab fa-{{ .icon }}" title="{{ .description }}"></i>
             </a>
             {{ end }}
         </aside>
 
-        <a target="_blank" id="shop_link" href="{{ .Site.Params.shop_link.url }}" class="button shop">
+        <a target="_blank" rel="noopener" id="shop_link" href="{{ .Site.Params.shop_link.url }}" class="button shop">
             {{ .Site.Params.shop_link.name }}
         </a>
     </div>

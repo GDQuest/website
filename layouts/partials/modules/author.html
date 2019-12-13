@@ -9,7 +9,7 @@
         {{ with .social }}
         <div class="social-links tiny-spaced-children">
             {{ range . }}
-            <a href="{{ .url }}" title="{{ .name }} page" class="icon" target="_blank">
+            <a href="{{ .url }}" title="{{ .name }} page" class="icon" target="_blank" rel="noopener">
                 <i class="fab fa-{{ .icon }}"></i>
             </a>
             {{ end }}
