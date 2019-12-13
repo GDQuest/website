@@ -1,11 +1,22 @@
+<!-- Redirects to another page. Supports urls and references to other content pages -->
+{{ if not (isset .Params "redirect") }}
+{{ errorf "Missing redirect parameter in page %q" .Path }}
+{{ end }}
+
+{{ $reditect_url := "" }}
+{{ if or (eq (first 2 .Params.redirect) "//") (eq (first 4 .Params.redirect) "http") }}
+{{ $reditect_url = .Params.redirect }}
+{{ else }}
+{{ $reditect_url = (ref . .Params.redirect) }}
+{{ end }}
 <!DOCTYPE html>
 <html>
     <head>
         <title>{{ .Title }}{{ if ne .Title "" }} &middot; {{ end }}{{ .Site.Title }}</title>
-        <meta http-equiv="Refresh" content="0; url={{ .Params.redirect }}" />
+        <meta http-equiv="Refresh" content="0; url={{ $reditect_url }}" />
         <link href="{{ "favicon.png" | absURL }}" rel="icon">
     </head>
     <body>
-        You will soon be redirected to <a href="{{ .Params.redirect }}">{{ .Params.redirect }}</a>
+        You will soon be redirected to <a href="{{ $reditect_url }}">{{ $reditect_url }}</a>
     </body>
 </html>
