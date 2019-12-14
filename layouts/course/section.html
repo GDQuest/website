@@ -13,6 +13,7 @@
 {{ end }}
 
 
+
 {{ define "main" }}
 <section class="grid split2 container">
     <nav class="small base-v-padding chapters">
@@ -29,92 +30,40 @@
             {{ .Content }}
         </div>
 
-        {{/* range ( where .Sections "Type" "course_chapter" ) */}}
-        {{/* $totalDuration := 0 */}}
-        {{/* range ( sort (where .Pages "Type" "video") "Date" "asc" ) */}}
-        {{/* with .Params.videoid */}}
-
-        {{/* $vduration_key := (printf "%s_duration" .) */}}
-        {{/* $duration := 0*/}}
-
-        {{/* with getJSON (printf "https://www.googleapis.com/youtube/v3/videos?id=%s&part=contentDetails&key=%s" . $.Site.Params.ytapikey) */}}
-        {{/* $duration_str := replaceRE "[MH]" "-" (replaceRE "[PTS]" "" (index .items 0 ).contentDetails.duration) */}}
-        {{/* $units := split $duration_str "-" */}}
-
-        {{/* if isset $units 2 */}}
-        {{/* $h := (int (index $units 0)) */}}
-        {{/* $m := (int (index $units 1)) */}}
-        {{/* $s := (int (index $units 2)) */}}
-        {{/* $duration = (add (add (mul $h 3600) (mul $m 60)) $s) */}}
-        {{/* else if isset $units 1 */}}
-
-
-        {{/* $m := (int (index $units 0)) */}}
-        {{/* if ne (index $units 1) ""*/}}
-        {{/* $s := (int (index $units 1)) */}}
-        {{/* $duration = (add (mul $m 60) $s) */}}
-        {{/* else */}}
-        {{/* $duration = (mul $m 60) */}}
-        {{/* end */}}
-        {{/* else */}}
-        {{/* $duration = (int (index $units 0)) */}}
-        {{/* end */}}
-
-        {{/* $.Scratch.Set $vduration_key $duration */}}
-        {{/* $totalDuration = (add $totalDuration $duration) */}}
-        {{/* end */}}
-        {{/* end */}}
-        {{/* end */}}
-
         <hr>
         <!-- chapter title -->
         <div class="tiny-padding">
-            <h2 id="{{/* replace .Params.title " " "-" */}}" class="no-margin"> {{/* .Params.title */}} </h2>
-            {{/* if gt $totalDuration 0 */}}
-            <span data-font="dimmed small">Duration: {{/* div $totalDuration 60 */}} min {{/* mod $totalDuration 60 */}} s </span>
-            {{/* end */}}
-            <p>{{/* .Description | markdownify */}}</p>
+            <h2 id="{{ replace .Params.title " " "-" }}" class="no-margin"> {{ .Params.title }} </h2>
+            <!-- Course duration -->
+            <!-- <span data-font="dimmed small">Duration: min s </span> -->
+            <p>{{ .Description | markdownify }}</p>
 
             <!-- Video list -->
             <ol class="collection">
-                {{/* range (sort ( where .Pages "Type" "video" ) "Date") */}}
-
+                {{ range (sort ( where .Pages "Type" "video" ) "Date") }}
                 <li class="item">
-                    {{/* if (isset .Params "videoid") */}}
-                    <a href="{{/* .URL */}}">{{/* .Title */}}</a>
-                    {{/* else */}}
-                    {{/* .Title */}} <span data-font="dimmed">Upcoming</span>
-                    {{/* end */}}
+                    {{ if (isset .Params "videoid") }}
+                    <a href="{{ .URL }}">{{ .Title }}</a>
+                    {{ else }}
+                    {{ .Title }} <span data-font="dimmed">Upcoming</span>
+                    {{ end }}
 
-                    {{/* if or (isset . "document") (isset . "exercise") */}}
+                    {{ if or (isset . "document") (isset . "exercise") }}
                     <span>
-                        {{/* if isset . "document" */}}
-                        <a href="{{/* .document */}}"><i class="fa fa-book"></i></a>
-                        {{/* end */}}
-                        {{/* if isset . "exercise" */}}
-                        <a href="{{/* .exercise */}}"><i class="fa fa-file"></i></a>
-                        {{/* end */}}
+                        {{ if isset . "document" }}
+                        <a href="{{ .document }}"><i class="fa fa-book"></i></a>
+                        {{ end }}
+                        {{ if isset . "exercise" }}
+                        <a href="{{ .exercise }}"><i class="fa fa-file"></i></a>
+                        {{ end }}
                     </span>
-                    {{/* end */}}
-
-                    <!-- Video length -->
-                    {{/* $vduration_key := (printf "%s_duration" .Params.videoid) */}}
-                    {{/* with $.Scratch.Get $vduration_key */}}
-                    {{/* $video_length := 0 */}}
-                    {{/* if gt . 3600 */}}
-                    {{/* $video_length = (printf "%s h %s m" (string (div . 3600)) (string (div (mod . 3600) 60))) */}}
-                    {{/* else if gt . 60 */}}
-                    {{/* $video_length = (printf "%s m" (string (div . 60))) */}}
-                    {{/* else */}}
-                    {{/* $video_length =  (printf "%s s" (string .)) */}}
-                    {{/* end */}}
-                    <span data-font="dimmed">({{/* $video_length */}})</span>
-                    {{/* end */}}
+                    {{ end }}
+                    <!-- Video duration -->
+                    <!-- <span data-font="dimmed">()</span> -->
                 </li>
-                {{/* end */}}
+                {{ end }}
             </ol>
         </div>
-        {{/* end */}}
     </div>
 </section>
 
