@@ -7,31 +7,32 @@ date = 2019-12-14T21:49:21+01:00
 weight = 5
 +++
 
-These writing guidelines are here to support our mission and goals:
+This page explains our writing style and the guidelines we follow to write clearly.
 
-1. Be honest and factual, share information openly.
-1. Help bring people together, and make them feel welcome.
-1. Share our knowledge efficiently.
+Our style aims at being accessible, clear, and informative, with a touch of personality. It supports our mission and goals:
 
-Our writing style is meant to be accessible, clear, and informative, with a touch of personality.
+1. **Bringing people together**. Making them feel welcome and fostering collaboration.
+1. **Sharing openly**. We share our knowledge and tools, giving back to the community.
 
 ## Our Tone ##
 
 The tone of an article helps to keep readers interested and engaged. It also shows our personality.
 
-Our tone is kind, genuine, clear, accessible, inclusive, and professional.
+Our tone is **kind**, **genuine**, **clear**, **accessible**, **inclusive**, and **professional**.
 
 To achieve that, avoid exaggerations, unnecessary jargon, but also colloquial expressions.
 
-Write as if you were addressing a fellow professional or adult student directly in a one-on-one setting. Aim for a welcoming feel without being overly close.
+Write as if you were addressing a fellow professional or an adult student directly in a one-on-one setting. Aim for a welcoming feel without being overly close.
 
 Address the reader directly with "you." When talking about yourself or the team, you can use "I" or "we." When talking about third parties, favor pronouns like "they" or "them."
 
-Also, while we should keep the style of documents like these consistent, you're encouraged to show your personality in news posts and devlogs.
+Also, while we should keep the style of documents like these consistent and formal, you're encouraged to show your personality in news posts and devlogs.
 
 ## Dos and don'ts ##
 
-Here are specific guidelines to help communicate clearly to a broad audience, including non-native English speakers.
+Below, you will find specific guidelines that help to communicate ideas clearly to a broad audience, including non-native English speakers.
+
+For technical writing, i.e. manuals and code references, we also follow the [Godot technical writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html).
 
 ### Keep sentences short ###
 
@@ -51,7 +52,14 @@ Favor the direct voice:
 
 > The inventory system uses the update_items function.
 
-<!-- TODO: Add some guidelines from Godot's docs http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html -->
+
+### Avoid words like "simple" ###
+
+This guideline is specific to tutorials and documentation.
+
+Avoid words that suggest that the topic at hand is easy: "obvious", "simple", "basic", "easy", "actual", "just", "clear", and some uses of "however". This rule also applies to the corresponding adverbs: "obviously," etc.
+
+The reason is that what might be simple for the writer is not necessarily as easy for the readers. They might be diving into a brand new topic and need time and effort to wrap their heads around a given concept.
 
 ## Structure ##
 
