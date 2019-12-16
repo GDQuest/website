@@ -20,7 +20,7 @@
         <h3>chapters</h3>
         <ul>
             {{ range ( where .Sections "Type" "course_chapter" ) }}
-            <li><a href="#{{ replace .Params.title " " "-" }}"> {{ .Params.title }} </a></li>
+            <li><a href="{{ .Permalink }}"> {{ .Params.title }} </a></li>
             {{ end }}
         </ul>
     </nav>
@@ -40,7 +40,8 @@
 
             <!-- Video list -->
             <ol class="collection">
-                {{ range (sort ( where .Pages "Type" "video" ) "Date") }}
+              {{ range ( where .Pages "Type" "course_chapter" ) }}
+                {{ range (sort ( where .RegularPages "Type" "video" ) "Date") }}
                 <li class="item">
                     {{ if (isset .Params "videoid") }}
                     <a href="{{ .URL }}">{{ .Title }}</a>
@@ -62,6 +63,7 @@
                     <!-- <span data-font="dimmed">()</span> -->
                 </li>
                 {{ end }}
+              {{ end }}
             </ol>
         </div>
     </div>
