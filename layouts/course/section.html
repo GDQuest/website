@@ -33,14 +33,15 @@
         <hr>
         <!-- chapter title -->
         <div class="tiny-padding">
-            <h2 id="{{ replace .Params.title " " "-" }}" class="no-margin"> {{ .Params.title }} </h2>
             <!-- Course duration -->
             <!-- <span data-font="dimmed small">Duration: min s </span> -->
             <p>{{ .Description | markdownify }}</p>
 
             <!-- Video list -->
             <ol class="collection">
-                {{ range (sort ( where .Pages "Type" "video" ) "Date") }}
+              {{ range ( where .Pages "Type" "course_chapter" ) }}
+                <h2 id="{{ replace .Params.title " " "-" }}" class="no-margin"> {{ .Params.title }} </h2>
+                {{ range (sort ( where .RegularPages "Type" "video" ) "Date") }}
                 <li class="item">
                     {{ if (isset .Params "videoid") }}
                     <a href="{{ .URL }}">{{ .Title }}</a>
@@ -62,6 +63,7 @@
                     <!-- <span data-font="dimmed">()</span> -->
                 </li>
                 {{ end }}
+              {{ end }}
             </ol>
         </div>
     </div>
