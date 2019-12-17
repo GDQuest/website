@@ -1,59 +1,72 @@
 +++
-title = "Godot learn paths are live!"
-description = "Part of the 2019 Godot course Kickstarter campaign, the stretch goal of creating learning paths for anyone wanting to check out Godot has been met."
+title = "Learn Godot for Free with our Learning Paths"
+description = "Our two curated Godot learning paths for beginners and developers are out!"
 author = "razvan"
 
 date = 2019-12-11T17:52:21+02:00
 weight = 5
-#draft = true
 
 categories = ["news"]
 tags = ["gdquest", "gdquest website", "website", "godot", "godotengine", "education", "learn", "faq"]
+
+[[resources]]
+name = "banner"
+src = "banner.jpg"
 +++
 
-<!-- If this file goes under contents/docs be sure to start chapters with ##, not # -->
+*The game screenshot in the banner is from the Godot game [TailQuest: Defense](https://store.steampowered.com/app/824090/TailQuest_Defense/).*
 
-Our 2019 [Godot](//godotengine.org) course Kickstarter campaign included a few stretch goals that were backed by our wonderful supporters. One of them has to do with creating a [learning path]({{< ref "docs/guides/learn-godot/_index.md" >}}) for anyone interested in experimenting, but also doing serious projects in Godot, covering all the spectrum - from beginners with zero-programming experience to advanced game developers that want to check out what Godot has to offer.
+Our [2019 Godot Kickstarter campaign](https://www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng) included three stretch goals that our backers made possible. One of them was to create a curated list of free content for everyone to learn Godot.
 
-## Learning Path is Live
+We ended up creating two guides:
+
+1. One for beginners who have little to no programming experience.
+1. One for more experienced developers who would like to get up to speed with Godot quickly.
+
+## Read our learning paths now
 
 ![Beginner and Developer Learning Paths](./img/paths.png)
 
-Taking advantage of the new website development we've been doing to improve your experience, we have created a home for our "living" documents. The Godot learn path has made a very cosy home in there. The two documents are:
+The learning paths are available now in our new [docs section]({{< ref "docs/_index.md" >}}).
 
-1. a [beginner-friendly, zero-programming experience document]({{< ref "docs/guides/learn-godot/beginner/index.md" >}}) for starting off on your adventure using Godot
-1. a [developer heavy-handed document]({{< ref "docs/guides/learn-godot/developer/index.md" >}}) that is straight to the point and doesn't linger on tangential topics of no interest
+1. [Make Games with Godot: Beginner Edition]({{< ref "docs/guides/learn-godot/beginner/index.md" >}}).
+1. [Make Games with Godot: Developer Edition]({{< ref "docs/guides/learn-godot/developer/index.md" >}}).
 
 ## How to use the guides
 
-These documents are in the form of **curated lists of free educational resources**, compiled with a lot of care and thought. While the beginner-friendly document has a bit of a longer introduction and some more developed paragraphs explaining some introductory bits, the developer edition goes straight to the meat and doesn't linger on non-important topics.
+These documents are in the form of **curated lists of free educational resources**. We looked at all the content creators we could find who make Godot tutorials and hand-picked the one that we felt fit the best.
 
 ### Make Games with Godot: Beginner Edition
 
-The beginner edition document is full of hands-on content that relies a lot more on educational resources that get you started rather than explaining the theoretical side. Learning by doing practical projects is the best way when it comes to programming and especially game development, as by design, it is a visually-driven activity, with very few exceptions.
-
 {{< figure src="/docs/guides/learn-godot/beginner/banner.jpg" alt="Beginner Edition" >}}
 
-After preliminary projects, you're presented with a list of educational resources that explores the design aspect of game making.
+The beginner edition document is full of hands-on guides. Learning by doing practical projects helps to make quick progress early. That's generally true of programming and especially game development, as it is often visual in nature.
 
-The last section encourages you to go explore some more in-depth topics such as shaders (they are not as scary as you might think, especially in Godot!), Godot's very own introduction to math for game developers and a bit of Python as GDScript, the main scripting language in Godot, is heavily inspired by Python.
+After the first step-by-step projects, you'll find a list of educational resources that explore game design.
+
+The last section encourages you to explore some more in-depth topics such as shaders. They are not as scary as you might think, especially in Godot! 
+
+We also linked to Godot's introduction to math for game developers and a bit of Python. That is because GDScript, the primary scripting language in Godot, is inspired by Python.
 
 ### Make Games with Godot: Developer Edition
 
-This document is no joke. You're thrown head-first in the depths of Godot exploration. We start straight to the point by listing the available "From X to Godot" resources available to date.
-
 {{< figure src="/docs/guides/learn-godot/developer/banner.png" atl="Developer Edition">}}
 
-Then comes Godot UI, themes, but much more. There is an interest in exploring the desktop-application making side of Godot since it's rather versatile, having a very powerful theming engine and all sorts of ready-made widgets to work with. This is an interesting topic to explore for anyone that wants to build their own tools and have fun with it.
+This guide is for professional developers or those of you who are coming from other game engines. It starts with guides to get you up to speed with Godot coming from other engines.
 
-We follow up with a deep-dive into the shader land, then looking at extending Godot with plugins and in-editor tools, multiplayer development options and a very cool advanced tutorial by Bastiaan Olij on vehicle simulation.
+Then, we focus on the UI framework and theme system, as these are essential yet not well-known at the time of writing. To give you an idea of their power, the entire editor relies on the engine's own UI system.
 
-We finish up with two more useful lists for anyone that dives into complex problems: getting help when stuck and finally a top-quality list of extra resources to explore, that are not Godot-specific, but are very useful to know about.
+We follow up with a deep-dive into shader land, look at extending Godot with plugins and tool scripts, networking, and a cool advanced tutorial by [Bastiaan Olij](https://twitter.com/mux213) on vehicle simulation.
 
-## Extra: contributing
+We wrap up with two more useful lists for anyone that dives into complex problems: 
 
-As part of this task, we have created [contributors guidelines]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}) for anyone wanting to expand on these documents. They are "living" documents after all and require constant care as Godot improves and breaks compatibility with previous versions. We hope you are as excited as we are about these contributions to our wonderful community!
+1. How to get help when you are stuck with the engine.
+2. A list of top-quality extra resources to explore that are not Godot-specific yet very useful.
 
-## Last words
+## Contributing
 
-This work is made possible by you and the backers of our project. Without your help this wouldn't have been possible. We give you a warm thanks and we hope you'll consider helping us out keeping these content up to date!
+These guides are living documents. If you want to suggest high quality resources to enrich the guide, check out our [contributor's guidelines]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}).
+
+We want to thank our backers kindly: without your help, we could not afford to open source so much of our work.
+
+We hope you'll enjoy the guides!
