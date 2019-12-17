@@ -4,7 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
+python-youtube = "*"
+python-dotenv = "*"
+dataclasses-json = "*"
 
 [dev-packages]
 
