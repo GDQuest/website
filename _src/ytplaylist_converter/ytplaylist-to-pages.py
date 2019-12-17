@@ -1,30 +1,10 @@
 import argparse
 import os
-import re
+from itertools import chain, groupby, starmap
 
 import config as cfg
 import pyyoutube as yt
 import utils as u
-
-
-def sanitize_title(title):
-    return re.sub(
-        r"[-:,/?]|(\[.*\])|(\(.*\))",
-        "",
-        title.lower().replace(" ", "_").replace(".", "_"),
-    )
-
-
-def get_base_path(args, playlist):
-    title = sanitize_title(args.title or playlist.snippet.title)
-    path = os.path.join(
-        args.path or os.path.join(cfg.DIR, args.playlist),
-        os.path.join("content", "tutorial") if args.path else "",
-    )
-    if args.folders is not None:
-        path = os.path.join(path, *args.folders)
-        path = os.path.join(path, title)
-    return path
 
 
 def generate_parser():
@@ -78,109 +58,77 @@ def main():
         )
 
     api = yt.Api(api_key=cfg.YT_API_KEY)
-    playlists_res = api.get_playlist_by_id(playlist_id=args.playlist, parts=["snippet"])
-    playlist = playlists_res.items[0]
+    playlists = api.get_playlist_by_id(
+        playlist_id=args.playlist, parts=["snippet"]
+    ).items
 
-    path = get_base_path(args, playlist)
-    os.makedirs(path, exist_ok=True)
-
-    with open(os.path.join(path, "_index.md"), "w") as f:
-        f.write(
-            cfg.FRONTMATTER["series"].format(
-                date=playlist.snippet.publishedAt,
-                description=args.description
-                or playlist.snippet.description.split("\n")[0],
-                title=args.title or playlist.snippet.title,
+    paths = map(lambda p: u.get_base_path(args, p), playlists)
+    for playlist, path in zip(playlists, paths):
+        os.makedirs(path, exist_ok=args.force)
+        with open(os.path.join(path, cfg.INDEX), "w") as f:
+            f.write(
+                cfg.FRONTMATTER["series"].format(
+                    date=playlist.snippet.publishedAt,
+                    description=args.description
+                    or playlist.snippet.description.split("\n")[0],
+                    title=args.title or playlist.snippet.title,
+                )
             )
-        )
 
-    #  playlist_res = u.get_playlist_all_items(api, playlist_id=args.playlist)
+        path_chapter = os.path.join(path, cfg.DIR_CHAPTER)
+        os.makedirs(path_chapter, exist_ok=args.force)
+        with open(os.path.join(path_chapter, cfg.INDEX), "w") as f:
+            f.write(cfg.FRONTMATTER["chapter"])
+
+        playlists = api.get_playlist_items(
+            playlist_id=args.playlist, parts=["snippet"], count=None
+        ).items
+        snippets = [p.snippet for p in playlists]
+        snippets_grouped = groupby(
+            enumerate(snippets), lambda ix: ix[0] // cfg.YT_MAX_RESULTS
+        )
+        videos = chain.from_iterable(
+            [
+                api.get_video_by_id(
+                    video_id=[s.resourceId.videoId for _, s in snippets]
+                ).items
+                for _, snippets in snippets_grouped
+            ]
+        )
+        for snippet, frontmatter in starmap(
+            lambda s, v: (
+                s,
+                cfg.FRONTMATTER["video"].format(
+                    date=s.publishedAt,
+                    title=s.title,
+                    description=s.description,
+                    weight=s.position,
+                    video_id=s.resourceId.videoId,
+                    video_duration=v.contentDetails.get_video_seconds_duration(),
+                ),
+            ),
+            zip(snippets, videos),
+        ):
+            path = os.path.join(
+                path_chapter,
+                "{}_{}.md".format(snippet.position, u.sanitize_title(snippet.title)),
+            )
+            with open(path, "w",) as f:
+                f.write(frontmatter)
 
 
 if __name__ == "__main__":
     try:
         main()
-    except (IndexError) as error:
-        print(error)
-
-
-#  def main():
-#      playlist_id = args.playlist
-#
-#      playlist_url = "/playlists/?maxResults=25&id={}&part=snippet%2CcontentDetails&key={}".format(
-#          playlist_id, API_KEY
-#      )
-#      playlist_request = requests.get("{}{}".format(BASE_URL, playlist_url))
-#      playlist_data = playlist_request.json()
-#
-#      playlist_snippet = playlist_data["items"][0]["snippet"]
-#
-#      series_title = args.title if args.title != None else playlist_snippet["title"]
-#      path = get_base_path(series_title)
-#      print(path)
-#      videos_path = os.path.join(path, VIDEOS_FOLDER)
-#      create_directories(videos_path)
-#
-#      with open(os.path.join(videos_path, "_index.md"), "w") as f:
-#          f.write(chapter_description)
-#
-#      series_description = series_description_format.format(
-#          date=playlist_snippet["publishedAt"],
-#          description=args.description
-#          if args.description != None
-#          else playlist_snippet["description"].split("\n")[0],
-#          title=series_title,
-#      )
-#
-#      with open(os.path.join(path, "_index.md"), "w") as f:
-#          f.write(series_description)
-#
-#      url_videos = "/playlistItems?maxResults=50&part=snippet,contentDetails&key={}&playlistId={}".format(
-#          API_KEY, playlist_id
-#      )
-#      video_requests = requests.get("{}{}".format(BASE_URL, url_videos))
-#      videos_data = video_requests.json()
-#
-#      for video in videos_data["items"]:
-#          snippet = video["snippet"]
-#          print(
-#              snippet["title"]
-#              + " / "
-#              + "https://www.youtube.com/watch?v="
-#              + snippet["resourceId"]["videoId"]
-#          )
-#
-#          description = snippet["description"].split("\n")[0]
-#
-#          position = snippet["position"]
-#          video_data = video_file_format.format(
-#              date=snippet["publishedAt"],
-#              weight=position,
-#              title=snippet["title"],
-#              description=description,
-#              video_id=snippet["resourceId"]["videoId"],
-#          )
-#
-#          fname = get_formated_file_name(snippet["title"])
-#          with open(os.path.join(videos_path, "%s_%s.md" % (position, fname)), "w") as f:
-#              f.write(video_data)
-#
-#
-#
-#
-#  def create_directories(path):
-#      if args.force:
-#          os.makedirs(path, exist_ok=True)
-#      else:
-#          try:
-#              os.makedirs(path)
-#          except:
-#              print(
-#                  "The provided path already exists, if you'd like to rewrite it, use --force. Use -h for help"
-#              )
-#              sys.exit()
-#
-#
-#
-#
-#  main()
+    except FileExistsError as error:
+        print(
+            "[error]: {}: {}. Use --force to overwrite".format(
+                error.strerror, error.filename
+            )
+        )
+    except yt.error.PyYouTubeException as error:
+        print(
+            "[error](code {}): {}".format(
+                error.status_code, error.response.json()["error"]["errors"]
+            )
+        )

@@ -1,6 +1,31 @@
+import os
+import re
+
+import config as cfg
+
 from typing import List, Optional, Union
 from pyyoutube.models import PlaylistItemListResponse
 from pyyoutube.utils.params_checker import enf_parts
+
+
+def sanitize_title(title):
+    return re.sub(
+        r"[-:,/?]|(\[.*\])|(\(.*\))",
+        "",
+        title.lower().replace(" ", "_").replace(".", "_"),
+    )
+
+
+def get_base_path(args, playlist):
+    title = sanitize_title(args.title or playlist.snippet.title)
+    path = os.path.join(
+        args.path or os.path.join(cfg.DIR, args.playlist),
+        os.path.join("content", "tutorial") if args.path else "",
+    )
+    if args.folders is not None:
+        path = os.path.join(path, *args.folders)
+        path = os.path.join(path, title)
+    return path
 
 
 def get_playlist_all_items(
