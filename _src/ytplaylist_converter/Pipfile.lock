@@ -96,11 +96,11 @@
         },
         "python-youtube": {
             "hashes": [
-                "sha256:6ac064094049068731bbc140b522d7e17b9b265f80dd5ed1170ec7dc5b1ecbf5",
-                "sha256:e3949c9942290a3d68c2e6383a158cb6ca0eb7790e84e8ee385d64b4b358b70f"
+                "sha256:11d790952eaf12ab8279842d4e5fedc1cb438133b574775b6ed92a401aa6bdc0",
+                "sha256:1e83ca039eda86aa844525624ef073251fe9838bb37ae4f3397761187df42060"
             ],
             "index": "pypi",
-            "version": "==0.5.0"
+            "version": "==0.5.1"
         },
         "pytz": {
             "hashes": [

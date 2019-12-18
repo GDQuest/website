@@ -35,6 +35,8 @@ banner = {{ src = "banner.png" }}
 [[resources]]"
 src = "banner.png"
 name = "banner"
+
+playlistId = "{playlist_id}"
 +++
 
 '''

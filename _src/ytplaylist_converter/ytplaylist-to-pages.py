@@ -1,6 +1,6 @@
 import argparse
 import os
-from itertools import chain, groupby, starmap
+from itertools import chain, groupby
 
 import config as cfg
 import pyyoutube as yt
@@ -66,49 +66,52 @@ def main():
     for playlist, path in zip(playlists, paths):
         os.makedirs(path, exist_ok=args.force)
         with open(os.path.join(path, cfg.INDEX), "w") as f:
-            f.write(
-                cfg.FRONTMATTER["series"].format(
-                    date=playlist.snippet.publishedAt,
-                    description=args.description
-                    or playlist.snippet.description.split("\n")[0],
-                    title=args.title or playlist.snippet.title,
-                )
+            frontmatter = cfg.FRONTMATTER["series"].format(
+                date=playlist.snippet.publishedAt,
+                description=args.description
+                or playlist.snippet.description.split("\n")[0],
+                title=args.title or playlist.snippet.title,
+                playlist_id=args.playlist,
             )
+            f.write(frontmatter)
 
         path_chapter = os.path.join(path, cfg.DIR_CHAPTER)
         os.makedirs(path_chapter, exist_ok=args.force)
         with open(os.path.join(path_chapter, cfg.INDEX), "w") as f:
             f.write(cfg.FRONTMATTER["chapter"])
 
-        playlists = api.get_playlist_items(
+        playlist_items = api.get_playlist_items(
             playlist_id=args.playlist, parts=["snippet"], count=None
         ).items
-        snippets = [p.snippet for p in playlists]
+
+        snippets = [playlist.snippet for playlist in playlist_items]
         snippets_grouped = groupby(
             enumerate(snippets), lambda ix: ix[0] // cfg.YT_MAX_RESULTS
         )
-        videos = chain.from_iterable(
-            [
-                api.get_video_by_id(
-                    video_id=[s.resourceId.videoId for _, s in snippets]
-                ).items
-                for _, snippets in snippets_grouped
-            ]
-        )
-        for snippet, frontmatter in starmap(
-            lambda s, v: (
-                s,
+
+        videos = [
+            api.get_video_by_id(
+                video_id=[s.resourceId.videoId for _, s in snippets]
+            ).items
+            for _, snippets in snippets_grouped
+        ]
+        videos = chain.from_iterable(videos)
+
+        snippet_frontmatter = [
+            (
+                snippet,
                 cfg.FRONTMATTER["video"].format(
-                    date=s.publishedAt,
-                    title=s.title,
-                    description=s.description,
-                    weight=s.position,
-                    video_id=s.resourceId.videoId,
-                    video_duration=v.contentDetails.get_video_seconds_duration(),
+                    date=snippet.publishedAt,
+                    title=snippet.title,
+                    description=snippet.description,
+                    weight=snippet.position,
+                    video_id=snippet.resourceId.videoId,
+                    video_duration=video.contentDetails.get_video_seconds_duration(),
                 ),
-            ),
-            zip(snippets, videos),
-        ):
+            )
+            for snippet, video in zip(snippets, videos)
+        ]
+        for snippet, frontmatter in snippet_frontmatter:
             path = os.path.join(
                 path_chapter,
                 "{}_{}.md".format(snippet.position, u.sanitize_title(snippet.title)),
