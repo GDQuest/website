@@ -32,17 +32,24 @@ Also, while we should keep the style of documents like these consistent and form
 
 Below, you will find specific guidelines that help to communicate ideas clearly to a broad audience, including non-native English speakers.
 
-For technical writing, i.e. manuals and code references, we also follow the [Godot technical writing guidelines](http://docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html).
+For technical writing, i.e. manuals and code references, we also follow the [Godot technical writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html).
 
-### Keep sentences short ###
+### Write for the least experienced reader ###
 
-**Keep sentences under 25 words**. Favor short sentences, that each communicates one idea.
+Write for learners in your audience who understand the topic the least. This makes your articles more accessible, it shows your mastery, and it saves the readers' time.
 
-Use paragraphs to group sentences related to a broader idea together. Whenever you change the topic or move on to another concept, add a new paragraph.
+Here are some tips to do so:
+
+1. Avoid technical jargon and uncommon concepts.
+1. Use fundamental concepts to break down complex or abstract ideas.
+1. Use plain language rather than uncommon words.
+1. Be as clear and as precise as you can.
+
+For reference, check out the US government's [list of simple word alternatives](//plainlanguage.gov/guidelines/words/use-simple-words-phrases/).
 
 ### Use the direct voice ###
 
-Using the direct voice leads to slightly shorter sentences compared to the passive voice. It makes the action clear from the first few words.
+Using the direct voice leads to shorter sentences compared to the passive voice. It makes the action clear from the first few words.
 
 Avoid the passive voice:
 
@@ -53,13 +60,17 @@ Favor the direct voice:
 > The inventory system uses the update_items function.
 
 
-### Avoid words like "simple" ###
+### Keep sentences short ###
 
-This guideline is specific to tutorials and documentation.
+**Keep sentences under 25 words**. Favor short sentences, that each communicates one idea.
 
-Avoid words that suggest that the topic at hand is easy: "obvious", "simple", "basic", "easy", "actual", "just", "clear", and some uses of "however". This rule also applies to the corresponding adverbs: "obviously," etc.
+Use paragraphs to group sentences related to a broader idea together. Whenever you change the topic or move on to another concept, add a new paragraph.
 
-The reason is that what might be simple for the writer is not necessarily as easy for the readers. They might be diving into a brand new topic and need time and effort to wrap their heads around a given concept.
+### Break up paragraphs ###
+
+Long paragraphs, like long sentences, make the text harder to follow. Give the reader breathing room and structure your articles in a way that supports your story. 
+
+Use headings, lists, and short paragraphs to structure your writings.
 
 ## Structure ##
 
@@ -73,6 +84,21 @@ Always write a paragraph after a heading, including an introduction following a 
 
 On the web, only the document's title should use an H1 heading. Use H2 for sections, and H3 for sub-sections. Avoid nesting sub-sections past the H4 level.
 
-### Links ###
+### Create meaningful links ###
 
-For links, write a label that describes the action the user is taking, or the page they will arrive on. The label should be meaningful on its own. For example, instead of [official Twitter account](https://twitter.com/NathanGDQuest), use [follow GDQuest on Twitter](https://twitter.com/NathanGDQuest).
+For links, write a label that describes the action the user is taking, or the page they will arrive on. For example, instead of [official Twitter account](//twitter.com/NathanGDQuest), use [follow GDQuest on Twitter](https://twitter.com/NathanGDQuest).
+
+Some more tips:
+
+- Explain where the links lead and why through their label.
+- Links should help the user scan the page for key information and related resources.
+
+
+## Resources ##
+
+Our guidelines are inspired by:
+
+1. The [Harvard writing guide](https://library.harvard.edu/writing-guide).
+1. The US government's [plain language guidelines](https://plainlanguage.gov/guidelines/).
+1. Write the Docs's [style guides section](https://www.writethedocs.org/guide/writing/style-guides/) for technical writers.
+
