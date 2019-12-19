@@ -34,6 +34,8 @@ Below, you will find specific guidelines that help to communicate ideas clearly 
 
 For technical writing, i.e. manuals and code references, we also follow the [Godot technical writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html).
 
+To start with, use American English. It is the standard in technical writing and for many free software projects.
+
 ### Write for the least experienced reader ###
 
 Write for learners in your audience who understand the topic the least. This makes your articles more accessible, it shows your mastery, and it saves the readers' time.
