@@ -8,7 +8,8 @@
 /_src/website-redesign/
 .vscode/
 
-_src/py/client_secret.json
+_src/ytplaylist_converter/__pycache__
+_src/ytplaylist_converter/.env
 
 # Packages #
 ############
