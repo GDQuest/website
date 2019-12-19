@@ -1,25 +1,19 @@
----
-title: "Official 2D Platformer Demo Rework"
-description: We've finished up reworking the official 2D Platformer demo using our code guidelines. Take a look at what we changed and why.
-author: johnny
++++
+author = "johnny"
+categories = ["news"]
+date = 2019-12-19T15:00:00+00:00
+description = "We've finished up reworking the official 2D Platformer demo using our code guidelines. Take a look at what we changed and why."
+tags = ["gdquest", "godot engine", "learn godot"]
+title = "Official Godot 2D Platformer Demo Rework"
 
-date: 2019-12-06T14:34:50+01:00
-
-resources:
-  - src: banner.png
-    name: banner
-
-categories:
-    - news
-tags:
-    - gdquest
-    - godot engine
-    - learn godot
----
+[[resources]]
+name = "banner"
+src = "img/banner.png"
++++
 
 We’ve finished making changes to the **official 2D platformer demo**! 
 
-This is a proof of concept project and we'd like to give other demos found in the [official demo repository](https://github.com/godotengine/godot-demo-projects) a similar treatment. This demo felt like a great place to start and show how the [guidelines written by the team](https://www.gdquest.com/open-source/guidelines/godot-gdscript/) can be used.
+This is a proof of concept project and we'd like to give other demos found in the [official demo repository](https://github.com/godotengine/godot-demo-projects) a similar treatment. This demo felt like a great place to start and show how the [guidelines written by the team](https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/) can be used.
 
 ![Remake of the official Godot 2D platformer][image-platformer]
 
@@ -42,6 +36,6 @@ The changes include:
 
 We hope these changes will be merged into the official demos soon and we can start improving the other demos in a similar way. 
 
-Until then, feel free to [check out these changes](https://github.com/GDquest/2019-godot-kickstarter) and let us know what you think!
+Until then, feel free to [check out these changes](https://github.com/GDQuest/godot-kickstarter-2019/tree/master/platformer-2d-rework) and let us know what you think!
 
-[image-platformer]: ./platformer-2d.png
+[image-platformer]: ./img/platformer-2d.png
