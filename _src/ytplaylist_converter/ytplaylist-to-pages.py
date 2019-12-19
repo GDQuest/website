@@ -10,12 +10,14 @@ import utils as u
 def generate_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "playlist", help="The playlist ID you wish to convert the videos from"
+        "playlists",
+        nargs="+",
+        help="The playlist ID you wish to convert the videos from",
     )
     parser.add_argument(
         "--path",
         help=(
-            "Website's root directory. If none provided, a playlist folder"
+            "Website's root directory. If none provided, a playlists folder"
             " will be created in the root."
         ),
     )
@@ -25,8 +27,8 @@ def generate_parser():
         type=str,
         nargs="+",
         help=(
-            "Folder structure in which this series should be placed inside"
-            " i.e. game-design godot will result in game-design/godot/TITLE"
+            "Folder structure in which a playlist series should be placed"
+            " i.e. '--folders game-design godot' will result in 'game-design/godot/TITLE'"
         ),
     )
     parser.add_argument(
@@ -53,16 +55,21 @@ def main():
     args = parser.parse_args()
     if args.path is not None and args.folders is None:
         parser.error(
-            "When using path, you should specify a folder structure"
+            "When using --path, you should specify a folder structure"
             " using --folders. Use -h for help"
+        )
+    elif args.folders is not None and len(args.playlists) != 1:
+        parser.error(
+            "When using --folders, multiple playlists aren't allowed."
+            " Use -h for help"
         )
 
     api = yt.Api(api_key=cfg.YT_API_KEY)
     playlists = api.get_playlist_by_id(
-        playlist_id=args.playlist, parts=["snippet"]
+        playlist_id=args.playlists, parts=["snippet"]
     ).items
 
-    paths = map(lambda p: u.get_base_path(args, p), playlists)
+    paths = map(lambda playlist: u.get_base_path(args, playlist), playlists)
     for playlist, path in zip(playlists, paths):
         os.makedirs(path, exist_ok=args.force)
         with open(os.path.join(path, cfg.INDEX), "w") as f:
@@ -71,7 +78,7 @@ def main():
                 description=args.description
                 or playlist.snippet.description.split("\n")[0],
                 title=args.title or playlist.snippet.title,
-                playlist_id=args.playlist,
+                playlist_id=args.playlists,
             )
             f.write(frontmatter)
 
@@ -81,7 +88,7 @@ def main():
             f.write(cfg.FRONTMATTER["chapter"])
 
         playlist_items = api.get_playlist_items(
-            playlist_id=args.playlist, parts=["snippet"], count=None
+            playlist_id=args.playlists, parts=["snippet"], count=None
         ).items
 
         snippets = [playlist.snippet for playlist in playlist_items]

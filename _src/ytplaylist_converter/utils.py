@@ -15,7 +15,7 @@ def sanitize_title(title):
 def get_base_path(args, playlist):
     title = sanitize_title(args.title or playlist.snippet.title)
     path = os.path.join(
-        args.path or os.path.join(cfg.DIR, args.playlist),
+        args.path or os.path.join(cfg.DIR, playlist.id),
         os.path.join("content", "tutorial") if args.path else "",
     )
     if args.folders is not None:
