@@ -15,6 +15,19 @@ Creating great videos starts with **planning**, **writing**, and **recording goo
 
 {{< youtube n0jir8KmVI8 >}}
 
+## Check-list ##
+
+Recording:
+
+1. Open all the programs you need: [Key Mon](https://code.google.com/archive/p/key-mon/) to screencast keys, [Open Joystick Display](https://ojdproject.com/), etc.
+1. Make the main program you're recording full-screen.
+1. Warm up your voice.
+1. Do a short test recording to ensure that everything is working as expected: the microphone is on, etc.
+
+Video editing:
+
+1. Normalize the audio. Listen to the audio to do so, don't rely on the waveforms, they can be misleading.
+
 ## Video recording ##
 
 You will save a lot of time if your source material is clean and your speech precise. If you don't take the time to plan, you will limit the quality of your tutorial.
@@ -108,3 +121,82 @@ Examples: show when you are launching the game preview in Godot, tell the viewer
 Use a program to display the keys you are pressing when using keyboard shortcuts.
 
 Add an arrow or some graphic element as an overlay on the video to help guide the viewer's eye to a specific area of the screen, an icon, a label, etc.
+
+## Automating tasks ##
+
+You can save time on repetitive tasks and increase your productivity following conventions and using simple programs.
+
+### Using conventions ###
+
+To be as efficient as possible, follow the same process and naming conventions to record videos. This helps to later batch-process videos using code.
+
+Try to record several videos in a single recording sessions and name them as you go. For series, start each recording with a two-digit number. For new videos, change the number.
+
+Here is an example with three video projects recorded in five segments:
+
+```
+01.intro-fsm.flv
+02.importing-start-dir.flv
+03.state-class-01.flv
+03.state-class-02-fix-end.flv
+03.state-class-03-fix-end-2.flv
+```
+
+When a video is made of several recordings, you can number the parts to keep them sorted.
+
+Create a folder for each series where you will place all the recordings.
+
+With these naming conventions, you can then create projects in batches using a command line script.
+
+### Creating video projects in batches ###
+
+The fish shell script below creates a blender video project for each set set of recordings, following the naming conventions above.
+
+It creates a directory for each video project, create a blender project from a template, and move all the footage to a subdirectory called "footage" in each folder.
+
+For example, from the files above, the script will create the following structure:
+
+
+```
+.
+├── 01.intro-fsm
+│   ├── 01.intro-fsm.blend
+│   └── footage
+│       ├── 01.intro-fsm.flv
+├── 02.importing-start-dir
+│   ├── 02.importing-start-dir.blend
+│   └── footage
+│       ├── 02.importing-start-dir.flv
+├── 03.state-class-1
+│   ├── 03.state-class-1.blend
+│   ├── footage
+│   │   ├── 03.state-class-1.flv
+│   │   ├── 03.state-class-2-fix-end.flv
+│   │   ├── 03.state-class-3-fix-end-2.flv
+```
+
+To use the script, you need:
+
+1. The [fish shell](//fishshell.com/) installed.
+1. A template blend file called `video.blend` in your `~/Templates/` directory.
+
+How to use:
+
+1. Copy the code below.
+1. Open the folder that contains all the videos with the fish shell.
+1. (Optional) Make a backup of the files.
+1. Paste the code below in your terminal.
+
+{{< highlight fish >}}
+#! /usr/bin/fish
+set temp_file mktemp
+for v in *.flv; string replace .flv "" $v >> $temp_file; end
+for i in (cat $temp_file | uniq -w 3)
+    mkdir -p $i/footage
+    mv (string sub -l 2 $i)*.flv $i/footage
+    cp ~/Templates/video.blend $i/$i.blend
+end
+rm $temp_file
+{{< / highlight >}}
+
+
