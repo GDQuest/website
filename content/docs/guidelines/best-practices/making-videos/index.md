@@ -28,6 +28,7 @@ Video editing:
 
 1. Normalize the audio. Listen to the audio to do so, don't rely on the waveforms, they can be misleading.
 
+
 ## Video recording ##
 
 You will save a lot of time if your source material is clean and your speech precise. If you don't take the time to plan, you will limit the quality of your tutorial.
@@ -105,22 +106,51 @@ For instance, in Godot, I use 20pt for the editor's font and 23pt for the code. 
 
 ## Video editing ##
 
-Avoid abrupt cuts in both the audio and the video. You should cut mistakes and long silences or hesitations, but avoid cutting too much between words. Especially if you are editing live footage: too many cuts and the video will feel robotic or sped up. There's a natural rhythm to the human speech that you want to preserve.
 
-Assume the viewer is facing new information and have a big cognitive load when watching your videos. Anything that makes it harder to keep track of what the teacher is doing increases that load:
 
-1. The lack of visual continuity between shots.
-2. Making any change in the project without communicating it to the viewer.
 
-That is why you should use the visuals, audio cues, and our voice to make understanding minor details of the tutorial as comfortable as possible for the student. Things like navigating through the program, navigating through code, or when you bring up a topic that's not illustrated by the original recording.
+Avoid abrupt cuts in both the audio and the video. You should cut mistakes and long silences or hesitations, but avoid cutting too much between words. 
 
-When navigating around the interface or documents, show how you get there with the mouse cursor. If possible, also say where you are going.
+When editing live action footage, like interviews that are face camera, inserting many cuts can make the video feel robotic or sped up. There's a natural rhythm to the human speech we should preserve.
 
-Examples: show when you are launching the game preview in Godot, tell the viewer when you change the script in the text editor, etc.
+### Make the flow of the video easy to follow ###
 
-Use a program to display the keys you are pressing when using keyboard shortcuts.
+Assume the viewers are facing new information and have a big cognitive load when watching educational videos. Anything that makes it harder to keep track of what the teacher is doing increases that load:
 
-Add an arrow or some graphic element as an overlay on the video to help guide the viewer's eye to a specific area of the screen, an icon, a label, etc.
+1. The lack of visual continuity between shots, like jumping between files without mentioning it.
+2. Making changes in the project without communicating them to the student.
+
+That is why you should use the visuals, audio cues, and your voice to make understanding minor details of the tutorial as comfortable as possible.
+
+Mention and show things such as:
+
+- Navigating through the program.
+- Navigating through code.
+- Or when you bring up a topic that's not illustrated by the original recording.
+
+When navigating around the interface or documents, show how you get there with the mouse cursor. If possible, also tell the viewer where you are going.
+
+### Use a program to screencast key presses ###
+
+Use a program like [Key-Mon](https://code.google.com/archive/p/key-mon/) to display key presses, mouse clicks, etc.
+
+![Screenshot of key-mon](./img/key-mon.png)
+
+You can install Key-Mon using the Python package manager: `pip install key-mon`.
+
+That way, even if you forget to mention a keyboard shortcut, the viewer can see it in the video. This also reinforces vocal cues.
+
+### Use the animated arrow to point at UI elements ###
+
+Often, there are situations where we have to move from one side of a program to another. 
+
+For example, after creating a node in Godot, in the docker on the left, we configure it in the inspector on the opposite side of the screen.
+
+The blender `video.blend` template includes an animated pointer arrow.
+
+![pointer arrow example](./img/pointer-arrow-demo.png)
+
+Use this arrow to help guide the student's eye to small icons or when jumping to a distant area of the interface. Especially when it's not obvious on screen.
 
 ## Automating tasks ##
 
