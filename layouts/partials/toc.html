@@ -1,19 +1,19 @@
 <div class="progress">
     <div class="wrapper">
-    {{ if .Params.powerSequencer }}
-      <nav id="TableOfContents">
-        <ul>
-          <li>
+        {{ if .Params.powerSequencer }}
+        <nav id="TableOfContents">
             <ul>
-            {{ range $key, $value := .Site.Data.blender.power_sequencer_docs }}
-              <li><a href="#{{ $key }}">{{ $value.name }}</a></li>
-            {{ end }}
+                <li>
+                    <ul>
+                        {{ range $key, $value := .Site.Data.blender.power_sequencer_docs }}
+                        <li><a href="#{{ $key }}">{{ $value.name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </li>
             </ul>
-          </li>
-        </ul>
-      </nav>
-    {{ else }}
-      {{ .TableOfContents }}
-    {{ end}}
+        </nav>
+        {{ else }}
+        {{ .TableOfContents }}
+        {{ end}}
     </div>
-</div> 
+</div>

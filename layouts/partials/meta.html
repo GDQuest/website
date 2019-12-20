@@ -1,5 +1,4 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -13,7 +12,6 @@
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="{{ .Site.LanguageCode }}">
-
 {{ if not .IsPage }}
 <meta property="og:type" content="website" />
 {{ else }}
@@ -23,11 +21,13 @@
 <meta property="og:article:modified_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
 
 {{ if .Keywords }}
-{{ range .Keywords }}
-<meta property="og:article:tag" content="{{ . }}"> {{ end }}
+    {{ range .Keywords }}
+    <meta property="og:article:tag" content="{{ . }}">
+    {{ end }}
 {{ else if isset .Params "tags" }}
-{{ range .Params.tags }}
-<meta property="og:article:tag" content="{{ . }}"> {{ end }}
+    {{ range .Params.tags }}
+    <meta property="og:article:tag" content="{{ . }}">
+    {{ end }}
 {{ end }}
 
 <!-- TWITTER CARD -->
@@ -37,12 +37,9 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
 {{ end }}
-
 {{ with (.Resources.GetMatch "banner") }}
 <meta property="og:image" content="{{ .Permalink }}" />
 <meta name="twitter:image" content="{{ .Permalink }}">
 {{ end }}
-
 {{ end }}
-
 {{ hugo.Generator }}

@@ -14,7 +14,7 @@
     <head>
         <title>{{ .Title }}{{ if ne .Title "" }} &middot; {{ end }}{{ .Site.Title }}</title>
         <meta http-equiv="Refresh" content="0; url={{ $reditect_url }}" />
-        <link href="{{ "favicon.png" | absURL }}" rel="icon">
+        {{ partialCached "favicon" . }}
     </head>
     <body>
         You will soon be redirected to <a href="{{ $reditect_url }}">{{ $reditect_url }}</a>
