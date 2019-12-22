@@ -48,15 +48,15 @@ We organize the code this way to make it easy to read:
 02. """docstring"""
 
 03. signals
-04. `onready` variable
-05. exports
-06. enums
-07. constants
+04. "onready" variable
+05. enums
+06. constants
+07. exported variables
 08. public variables
 09. private variables
 
-10. optional built-in virtual `_init` method
-11. built-in virtual `_ready` method
+10. optional built-in virtual _init method
+11. built-in virtual _ready method
 12. signal callbacks
 13. remaining built-in virtual methods
 14. public methods
@@ -169,7 +169,9 @@ onready var timer: Timer = $HungerCheckTimer
 onready var ysort: YSort = $YSort
 {{< / highlight >}}
 
-After that exported, enums, constants, public (regular name), and pseudo-private (starting with `_`) variables, in this order. Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. The reason for this order is that exported variables might depends on previously defined enums and constants while the enums might also depend on constants.
+After that enums, constants, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order. 
+
+Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. The reason for this order is that exported variables might depend on previously defined enums and constants while the enums might also depend on constants.
 
 {{< highlight gdscript >}}
 export var number: = 0
