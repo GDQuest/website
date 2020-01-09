@@ -9,10 +9,6 @@ weight = 5
 categories = ["Godot"]
 tags = ["godot"]
 
-[banner]
-  src = "img/banner.png"
-  alt = "banner"
-
 [[resources]]
   src = "img/banner.png"
   name = "banner"

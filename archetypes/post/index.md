@@ -1,17 +1,16 @@
----
-title: {{ replace .Dir "-" " " | path.Base | title }}
-date: {{ .Date }}
-author: nathan
++++
+title = "{{ replace .Dir "-" " " | path.Base | title }}"
+date = {{ .Date }}
+author = "nathan"
 
-description: Short description
+description = "Short description"
 
-draft: true
+draft = true
 
-category: news
-tags:
-    - gdquest
+category = "news"
+tags = ["gdquest"]
 
-banner:
-    src: banner.svg
-    alt: banner
----
+[[resources]]
+  name = "banner"
+  src = "banner.svg"
++++
