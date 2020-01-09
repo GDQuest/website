@@ -5,4 +5,12 @@ redirect = "//gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot
 title = "Create your First 2D Game with Godot"
 type = "redirect"
 
+[banner]
+  alt = "banner"
+  src = "img/banner.png"
+
+[[resources]]
+  name = "banner"
+  src = "img/banner.png"
+
 +++

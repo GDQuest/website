@@ -5,4 +5,12 @@ redirect = "//gdquest.mavenseed.com/courses/code-a-professional-platform-game-ch
 title = "Code a Professional Platform Game Character With Godot"
 type = "redirect"
 
+[banner]
+  alt = "banner"
+  src = "img/banner.png"
+
+[[resources]]
+  name = "banner"
+  src = "img/banner.png"
+
 +++
