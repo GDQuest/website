@@ -13,9 +13,12 @@
 {{ define "main" }}
 <section class="grid split2 container base-v-padding list">
     {{ range .Pages }}
-    <div>
+
+    {{ if (.Resources.Match "banner") }}
+      <div>
         {{ .Render "summary" }}
-    </div>
+      </div>
+    {{ end }}
     {{ end }}
 </section>
 {{ end }}
