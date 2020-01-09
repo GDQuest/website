@@ -73,7 +73,7 @@
 <section id="related" class="container big-v-padding">
     <h2>related products</h2>
     <div class="grid split2 list">
-        {{ range first 2 (where .Site.RegularPages "Type" "product") }}
+        {{ range first 2 (where .Site.RegularPages "Section" "product") }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
