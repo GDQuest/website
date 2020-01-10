@@ -70,10 +70,16 @@
 </section>
 
 
+{{ $related := slice }}
+{{ range where .Site.RegularPages "Section" "product" }}
+  {{ if .Resources.Match "banner" }}
+    {{ $related = $related | append . }}
+  {{ end }}
+{{ end }}
 <section id="related" class="container big-v-padding">
     <h2>related products</h2>
     <div class="grid split2 list">
-        {{ range first 2 (where .Site.RegularPages "Section" "product") }}
+        {{ range first 2 $related }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
