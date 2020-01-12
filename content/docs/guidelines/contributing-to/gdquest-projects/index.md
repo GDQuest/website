@@ -71,13 +71,79 @@ Before you write your own code, **read the existing code in the project** to get
 
 ## How to create great Pull Requests ##
 
-### Create meaningful commits
+### Commit guidelines ###
+
+Poor commit titles and messages make it harder to maintain the project as it grows. The code history becomes hard to read, so nobody wants to dive into it anymore.
+
+That's why we ask you to write clear git messages when working on our repositories, by following these few guidelines:
+
+```
+1. Separate subject from body with a blank line
+2. Try to keep the subject line under 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs. how
+```
+
+These guidelines come from the great article [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by Chris Beams. Read it for detailed insights.
+
+> Summarize changes in around 50 characters or less
+> 
+> More detailed explanatory text, if necessary. Wrap it to about 72
+> characters or so. In some contexts, the first line is treated as the
+> subject of the commit and the rest of the text as the body. The
+> blank line separating the summary from the body is critical (unless
+> you omit the body entirely); various tools like `log`, `shortlog`
+> and `rebase` can get confused if you run the two together.
+> 
+> Explain the problem that this commit is solving. Focus on why you
+> are making this change as opposed to how (the code explains that).
+> Are there side effects or other unintuitive consequences of this
+> change? Here's the place to explain them.
+> 
+> Further paragraphs come after blank lines.
+> 
+> - Bullet points are okay, too
+> - You can use hyphens to represent list items
+> 
+> If you use an issue tracker, put references to them at the bottom,
+> like this:
+> 
+> Closes: #123
+> See also: #456, #789
+
+When you open a pull request git will automatically use the title and body from your last commit. So you can and you should use the commit to communicate your changes clearly. Doing so will make the review easier and faster.
+
+Some examples of **good** commit messages:
+
+```
+Add life bars for the monsters 
+Fix the character getting stuck in the wall
+Redesign level 3
+Improve performances in the level loader class
+```
+
+Some examples of what **not to do**:
+
+```
+Added UI
+Update
+New Monsters were added
+```
+
+### Create meaningful commits ###
 
 **Squash your commits**!
 
-When you are working on your computer and local fork, you may use as many commits as you want so that you can jump back in your code's history. But once you publish your own changes and submit your pull request, you should squash your commits so that the project's history stays easy to browse.
+When you are working on your computer and local fork, you may use as many commits as you want so that you can jump back in your code's history. But once you publish your own changes and submit your pull request, you should [squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) your commits so that the project's history stays easy to browse.
 
-A new feature can be a single commit. A bug fix or an improvement can be one commit. A commit can range from a small change to hundreds of lines of code. It should just be a clear and a coherent step in the project's history.
+Squashing is the process of taking several commits and merging them back into one.
+
+You can find a good way to squash your last commits together on this [stack exchange answer](https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git#5201642).
+
+A new feature can be a single commit. A bug fix or an improvement can be one commit. A commit can range from a small change to hundreds of lines of code at times. It should just be a clear and a coherent step in the project's history.
 
 ## How to write great bug reports and requests
 
