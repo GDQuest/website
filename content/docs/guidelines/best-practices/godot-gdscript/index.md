@@ -44,46 +44,43 @@ We use the same code style so that you can find the information you need fast.
 We organize the code this way to make it easy to read:
 
 ```
-01. extends and class_name
-02. """docstring"""
+01. tool
+02. class_name
+03. extends
+04. """docstring"""
 
-03. signals
-04. "onready" variable
-05. enums
-06. constants
-07. exported variables
-08. public variables
-09. private variables
+05. signals
+06. enums
+07. constants
+08. exported variables
+09. public variables
+10. private variables
+11. onready variables
 
-10. optional built-in virtual _init method
-11. built-in virtual _ready method
-12. signal callbacks
-13. remaining built-in virtual methods
-14. public methods
-15. private methods
-16. static functions
+12. optional built-in virtual _init method
+14. built-in virtual _ready method
+15. remaining built-in virtual methods
+16. public methods
+17. private methods
 ```
 
-
-We picked this order based on our experience. We show the code you need to understand how the class works and how to use it in priority.
+This code order shows you the code need to understand how the class works and how to use it in priority, and keeps the project organized and easy to read.
 
 Here is a complete example that follows all the guidelines below:
 
 {{< highlight gdscript >}}
-extends Node
 class_name StateMachine
-"""
-Hierarchical State machine for the player.
-Initializes states and delegates engine callbacks (_physics_process, _unhandled_input) to the state.
-"""
+extends Node
+# Hierarchical State machine for the player.
+# Initializes states and delegates engine callbacks (_physics_process, _unhandled_input) to the state.
 
 
 signal state_changed(previous, new)
 
-onready var state: State = get_node(initial_state) setget set_state
-onready var _state_name: = state.name
+export var initial_state := NodePath()
 
-export var initial_state: = NodePath()
+onready var state: State = get_node(initial_state) setget set_state
+onready var _state_name := state.name
 
 
 func _init() -> void:
@@ -93,11 +90,6 @@ func _init() -> void:
 func _ready() -> void:
     connect("state_changed", self, "_on_state_changed")
     state.enter()
-
-
-func _on_state_changed(previous: Node, new: Node) -> void:
-    print("state changed")
-    emit_signal("state_changed")
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -112,7 +104,7 @@ func transition_to(target_state_path: String, msg: Dictionary = {}) -> void:
     if not has_node(target_state_path):
         return
 
-    var target_state: = get_node(target_state_path)
+    var target_state := get_node(target_state_path)
     assert target_state.is_composite == false
 
     state.exit()
@@ -124,32 +116,34 @@ func transition_to(target_state_path: String, msg: Dictionary = {}) -> void:
 func set_state(value: State) -> void:
     state = value
     _state_name = state.name
+
+
+func _on_state_changed(previous: Node, new: Node) -> void:
+    print("state changed")
+    emit_signal("state_changed")
 {{< / highlight >}}
 
 
-### Code style
+### Code style ###
 
-Start with the `extends` keyword if the class extends a built-in type.
+Start with the `class_name`, but only if necessary. For example, if you need to check for this type in other classes, or to be able to create the node in the create node dialogue.
 
-Then include `class_name`, but only if necessary. E.g. if you need to check for this type in other classes, or to be able to create the node in the create node dialogue.
+Then, add the `extends` keyword if the class extends a built-in type.
 
-Following that you should have the classs docstring:
+Following that, you should have the class's docstring:
 
 {{< highlight gdscript >}}
 extends Node
 class_name MyNode
-
-"""
-A brief description of the class's role and functionality
-
-A longer description, if needed, possibly of multiple paragraphs. Properties and method names should be in backticks like so: `_process`, `x` etc.
-
-Notes
-~~~~~
-Specific things that don't fit the class's description above.
-
-Keep lines under 100 characters long
-"""
+# A brief description of the class's role and functionality
+# 
+# A longer description if needed, possibly of multiple paragraphs. Properties and method names should be in backticks like so: `_process`, `x` etc.
+# 
+# Notes
+# ~~~~~
+# Specific things that don't fit the class's description above.
+# 
+# Keep lines under 100 characters long
 {{< / highlight >}}
 
 Signals go first and don't use parentheses unless they pass function parameters. Use the past tense to name signals. Append `_started` or `_finished` if the signal corresponds to the beginning or the end of an action.
@@ -174,30 +168,30 @@ After that enums, constants, exported, public (regular name), and pseudo-private
 Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. The reason for this order is that exported variables might depend on previously defined enums and constants while the enums might also depend on constants.
 
 {{< highlight gdscript >}}
-export var number: = 0
-export var is_active: = true
-
 enum TileTypes { EMPTY=-1, WALL, DOOR }
 
-const MAX_TRIALS: = 3
-const TARGET_POSITION: = Vector2(2, 56)
+const MAX_TRIALS := 3
+const TARGET_POSITION := Vector2(2, 56)
+
+export var number := 0
+export var is_active := true
 {{< / highlight >}}
 
 _Note: for booleans, always include a name prefix like `is_`, `can_`, or `has_`.
 
-Following enums are public and pseudo-private member variables. Their names should use `snake_case`, `_snake_case_with_leading_underscore` respectively.
+Following are public and pseudo-private member variables. Their names should use `snake_case`, `_snake_case_with_leading_underscore` respectively.
 
-Define setters and getters when properties alter node/class state or if it triggers behaviors (methods). When doing this care needs to be taken because we can easily loose track of this hidden alterations and behaviors. Include a docstring in the setters/getters if they modify the node/class state in complex ways.
+Define setters and getters when properties alter the object's state or if changing the property triggers methods. When doing this care needs to be taken because we can easily loose track of this hidden alterations and behaviors. Include a docstring in the setters/getters if they modify the node/class state in complex ways.
 
-When writing setters/getters for pseudo-private variables, start with a leading underscore, just like in the case of the variable.
+When writing setters or getters for private variables, start with a leading underscore, just like in the case of the variable.
 
 {{< highlight gdscript >}}
-var animation_length: = 1.5
-var tile_size: = 40
-var side_length: = 5 setget set_side_length, get_side_length
+var animation_length := 1.5
+var tile_size := 40
+var side_length := 5 setget set_side_length, get_side_length
 
-var _count: = 0 setget _set_count, _get_count
-var _state: = Idle.new()
+var _count := 0 setget _set_count, _get_count
+var _state := Idle.new()
 {{< / highlight >}}
 
 Next define virtual methods from Godot (those starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them and other code blocks.
@@ -254,17 +248,17 @@ func _set_elements(elements: int) -> bool:
     return false
 
   # If the check succeeds, proceed with the changes
-  var skin_viewport: = $SkinViewport
-  var skin_viewport_staticbody: = $SkinViewport/StaticBody2D
+  var skin_viewport := $SkinViewport
+  var skin_viewport_staticbody := $SkinViewport/StaticBody2D
   for node in skin_viewport.get_children():
     if node != skin_viewport_staticbbody:
       node.queue_free()
 
-  var interval: = INTERVAL
-  var r: = RandomNumberGenerator.new()
+  var interval := INTERVAL
+  var r := RandomNumberGenerator.new()
   r.randomize()
   for i in range(elements):
-    var e: = Element.new()
+    var e := Element.new()
     e.node_a = "../StaticBody2D"
     e.position = skin_viewport_staticbody.position
     e.position.x += r.randf_range(interval.x, interval.y)
@@ -308,24 +302,24 @@ func some_function_returning_Vector2(param1: int, param2: int) -> Vector2:
   # do some work
   return Vector2.ZERO
 
-var v: = some_function_returning_Vector2(param1, param2) # The type is Vector2
+var v := some_function_returning_Vector2(param1, param2) # The type is Vector2
 {{< / highlight >}}
 
-_Note_ how we still use the colon in the assignment: `: =`. It isn't just `=`. Without the colon, the variable's type would be dynamic.
+_Note_ how we still use the colon in the assignment: ` :=`. It isn't just `=`. Without the colon, the variable's type would be dynamic.
 
-Use `: =` with a space between the colon and the equal sign, **not** `:=`. `: =` is easier to spot compared to `=`, in case someone forgets to use the colon.
+Use ` :=` with a space between the colon and the equal sign, **not** `:=`. ` :=` is easier to spot compared to `=`, in case someone forgets to use the colon.
 
 **Let Godot infer the type whenever you can**. It's less error prone because the system keeps better track of types than we humanly can. It also pushes us to have proper return values for all the functions and methods that we write.
 
 Since the static type system mostly brings better warnings and it isn't enforced, sometimes we have to help it out. The following snippet will make the problem clear:
 
 {{< highlight gdscript >}}
-var arr: = [1, 'test']
+var arr := [1, 'test']
 var s: String = arr.pop_back()
 var i: int = arr.pop_back()
 {{< / highlight >}}
 
-The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s: = arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method returns. You will get the same issue with all built-in methods that return the engine's `Variant` type. Open the code reference with <kbd>Shift+F1</kbd> and search for the methods to see that:
+The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s := arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method returns. You will get the same issue with all built-in methods that return the engine's `Variant` type. Open the code reference with <kbd>Shift+F1</kbd> and search for the methods to see that:
 
 ```
 Variant pop_back()
@@ -337,7 +331,7 @@ Variant pop_back()
 In these cases, you must be careful as the following is also valid:
 
 {{< highlight gdscript >}}
-var arr: = [1, 'test']
+var arr := [1, 'test']
 var s: int = arr.pop_back()
 var i: String = arr.pop_back()
 {{< / highlight >}}
@@ -366,7 +360,7 @@ You _may_ use short variable names inside of your methods, for local variables, 
 func _set_elements(elements: int) -> bool:
 ...
   for i in range(elements):
-    var e: = Element.new()
+    var e := Element.new()
     e.node_a = "../StaticBody2D"
     e.position = skin_viewport_staticbody.position
 ...
@@ -546,7 +540,7 @@ Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`
 ...
 
 func _unhandled_input(event: InputEvent) -> void:
-  var move_direction: = Utils.get_direction(event)
+  var move_direction := Utils.get_direction(event)
   if event.is_action_pressed("tap"):
     party_command({tap_position = board.get_global_mouse_position()})
   elif not dialog_system.is_open and move_direction != Vector2():
@@ -554,27 +548,27 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func party_command(msg: Dictionary = {}) -> void:
-  var leader: = party.get_member(0)
+  var leader := party.get_member(0)
   if leader == null:
     return
 
-  var path: = prepare_path(leader, msg)
+  var path := prepare_path(leader, msg)
   party_walk(leader, path)
 
-  var destination: = get_party_destination(path)
+  var destination := get_party_destination(path)
   if destination != Vector2():
     emit_signal("party_walk_started", {"to": destination})
 
 
 func prepare_path(leader: Actor, msg: Dictionary = {}) -> Array:
-  var path: = []
+  var path := []
   match msg:
     {"tap_position": var tap_position}:
       path = board.get_point_path(leader.position, tap_position)
     {"move_direction": var move_direction}:
       if move_direction in board.path_finder.possible_directions:
         var from: Vector2 = leader.position
-        var to: = from + Utils.to_px(move_direction, board.path_finder.map.cell_size)
+        var to := from + Utils.to_px(move_direction, board.path_finder.map.cell_size)
         if not board.path_finder.map.world_to_map(to) in board.path_finder.map.obstacles:
           path.push_back(from)
           path.push_back(to)
@@ -621,13 +615,13 @@ Now, like before, this isn't a hard rule even though we say _never_. For example
 
 {{< highlight gdscript >}}
 func party_command(msg: Dictionary = {}) -> void:
-  var leader: = party.get_member(0)
+  var leader := party.get_member(0)
   if leader == null:
     return
 
-  var path: = prepare_path(leader, msg)
+  var path := prepare_path(leader, msg)
   if party_walk(leader, path):
-    var destination: = get_party_destination(path)
+    var destination := get_party_destination(path)
     emit_signal("party_walk_started", {"to": destination})
 
 ...
