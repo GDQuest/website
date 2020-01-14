@@ -74,7 +74,7 @@ license_copyright= "GDQuest and contributors"
 
 [params.shop_link]
 name        = "Shop"
-url         = "//gumroad.com/gdquest"
+url         = "//gdquest.mavenseed.com/"
 
 [[params.social]]
 link = "//www.youtube.com/c/gdquest"
