@@ -6,98 +6,48 @@ title = "Blender Power Sequencer"
 weight = 5
 aliases = ["/blender/power-sequencer/"]
 
-[banner]
-  alt = "Power Sequencer add-on logo"
-  src = "banner-power-sequencer.png"
-
-[[resources]]
-  name = "banner"
-  src = "banner-power-sequencer.png"
-
 +++
 
-At GDQuest we edit all of our videos with Blender. It's a powerful tool, but its default workflow can feel a little slow. That's why we built [ Power Sequencer ](//github.com/GDQuest/Blender-power-sequencer/), a **Free and Open Source** add-on that's all about helping you work efficiently and comfortably.
+![Banner image](./banner-power-sequencer.png)
 
-<div class="container base-top-padding">
-  <h2 data-font="centered" class="no-margin">Edit at the speed of thought</h2>
-  <div class="grid split3 big-top-margin" data-font="centered">
-      <div class="card outline">
-          <img src="./img/mouse-cut.png" alt="A mouse cursor icon in the middle of two strips, after cutting them in half" style="background-color: black;">
-          <div class="content">
-              <h5>Cut, trim, and ripple with the mouse</h5>
-              <p>Edit one or many strips at a time with your cursor! Auto locks on to channels and removes gaps based on where you click</p>
-          </div>
-      </div>
-      <div class="card outline">
-          <img src="./img/one-key-import.png" alt="Arrow pointing from a folder icon towards 3 stacked video, image and audio strips" style="background-color: black;">
-          <div class="content">
-              <h5>One key Import and Export</h5>
-              <p>Load all local footage, pictures, and audio files with one keystroke. The add-on keeps track of imported files per-project.</p>
-          </div>
-      </div>
-      <div class="card outline">
-          <img src="./img/auto-updates.png" alt="blender logo">
-          <div class="content">
-              <h5>Automatic updates</h5>
-              <p>Never worry about installing updates by hand! When a new version comes out, Blender will download it for you.</p>
-          </div>
-      </div>
-  </div>
-</div>
+At GDQuest we edit all of our videos with [Blender](https://www.blender.org/). It's a powerful tool, but its default workflow can feel a little slow.
 
-<h3 align="center">
-And so much more!
-</h3>
+That's why we built [Power Sequencer](//github.com/GDQuest/Blender-power-sequencer/), a **Free and Open Source** add-on to help you edit faster with Blender's Video Sequence editor.
 
-<p align="center">
-Faster playback, instant fades and crossfades, smart selection tools...
-</p>
+Power Sequencer comes preinstalled with Blender since version 2.81.
 
-<p align="center">
-Power Sequencer adds over <strong>40 new functions</strong> to Blender's Video Editor
-</p>
+## Learn Power Sequencer ##
 
-{{< button "Learn more" "//github.com/GDQuest/Blender-power-sequencer#operators" "centered" >}}
+The following pages will teach you how to use Power Sequencer:
 
+1. [Getting started](getting-started) will help you learn the basics.
+1. [Features reference](reference) lists all the features and shortcuts in the add-on.
 
-## Get Power Sequencer
+We also made some video tutorials:
 
-![The enable add-on window and checkbox](./img/blender-enable-addon.png)
+1. [Intro to Video Editing with Blender's VSE](https://www.youtube.com/watch?v=Zcj4onvP06w), a general introduction to Blender's Video Sequencer.
+1. [Power Sequencer Workflow tutorial](https://www.youtube.com/watch?v=xZoZaSsuhXw) is dedicated to the add-on and its editing workflow.
 
-Installation guide:
+You can find more in our playlist [Free Blender VSE tutorials](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KFjp88Cu57Zb9_wFt7nlkEI) on YouTube.
 
-1. [ Download ](//github.com/GDQuest/Blender-power-sequencer/releases) the latest release on GitHub
-1. In Blender, go to File > User Preferences > Addons
-1. Click "Install From File", find the .zip file from step 1. and click on "install"
-1. Click the checkbox next to "VSE: Power Sequencer" to activate it
-1. Click Save User Settings at the bottom
+## Become a Contributor ##
 
-{{< button "Download now" "//github.com/GDQuest/Blender-power-sequencer/releases" "centered" >}}
+Whether you want to contribute code, help with testing, design, user interface, tutorials, or communication, **all contributors are welcome**!
 
-## Getting Started
+You can come and chat with us on [GDquest's Discord server](https://discordapp.com/invite/KVaCsSP)!
 
-1. Read our [docs page](docs) to learn about all the features in Power Sequencer
-1. For video tutorials, check the [Power Sequencer playlist](//www.youtube.com/watch?v=boAhi8hWBXc&list=PLhqJJNjsQ7KFjp88Cu57Zb9_wFt7nlkEI) on Youtube
+See our [Contributor's Guidelines](http://gdquest.com/open-source/contributing-guidelines/) to learn about how to contribute efficiently to Free Software. If you're a developer, check our [Blender Python best practices](https://www.gdquest.com/open-source/guidelines/blender-python/). They can help you avoid programming issues.
 
-Want to **give a hand**? Great! We write the docs and shortcuts straight in the [Power Sequencer source code](//github.com/GDQuest/Blender-power-sequencer/).
+Then, join the discussion in the [issues tab](https://github.com/GDquest/Blender-power-sequencer/issues) anytime!
 
-![Daniel Oakey, a med school graduate and open source enthusiast, teaching video editing with Blender](./img/doakey3-beginner-tutorial.jpg)
+## Other add-ons ##
 
-## It's getting better
+Here are other recommended add-ons for a better editing workflow:
 
-At GDQuest we work with and support open source software. Power Sequencer is a community-driven project. We add new features every time we get a chance. [Contributors](//github.com/GDQuest/Blender-power-sequencer) are always welcome!
+Daniel Oakey's [rewrite of VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools). This tool lets you animate and move strips from the video preview. The original add-on was abandoned a few years ago. Daniel fixed and rewrote it so now it's super slick!
 
-![Graph showing the code contributions over time on GitHub](./img/github-activity.png)
+Power Sequencer ships with two separate Python tools:
 
+1. [BPSRender](https://github.com/GDquest/BPSRender), a tool to render videos with multiple threads from the terminal.
+1. [BPSProxy](https://github.com/GDquest/BPSProxy), a program to render proxies fast using FFmpeg and, if your graphics card supports it, use hardware acceleration.
 
-## Get in touch!
-
-1. Want to write some Python and give a hand? Check our [to do list](//github.com/GDQuest/Blender-power-sequencer/issues) or [open a new issue](//github.com/GDQuest/Blender-power-sequencer/issues/new)!
-1. Found a bug? Please tell us how to reproduce it [on GitHub](//github.com/GDQuest/Blender-power-sequencer/issues/new)
-1. You can also find GDQuest [on Twitter](//twitter.com/NathanGDQuest)
-
-## Excellent add-ons to use with Power Sequencer
-
-1. [VSE Transform tools](//github.com/doakey3/VSE_Transform_Tools) to move, scale, rotate strips in the video preview
-  - Made by [Daniel Oakey](//github.com/doakey3/), a big Power Sequencer contributor, med-school graduate and Python developer
-1. [Blender Easy Logging](//easy-logging.net/) for tags and 3-point edits

@@ -1,33 +1,29 @@
 {{ with index .Site.Data.blender.power_sequencer_docs }}
-<section class="grid split2 container">
-  <div class="big">
+<div class="big">
     {{ range $key, $value := . }}
     <article id="{{$key}}" class="operator">
-      <h3>{{$value.name}}</h3>
-      {{ strings.TrimPrefix "*brief* " $value.description | markdownify }}
-      {{ with $value.demo }}
-          <p><img src="{{.}}" alt=""></p>
-      {{ end }}
+        <h3>{{$value.name}}</h3>
+        {{ strings.TrimPrefix "*brief* " $value.description | markdownify }}
+        {{ with $value.demo }}
+        <p><img src="{{.}}" alt=""></p>
+        {{ end }}
 
-      <!-- Shortcut JSON example: -->
-      <!-- "shortcuts": [
-          [{"type": "X", "value": "PRESS"}, {}, "Delete Direct"],
-          [{"type": "DEL", "value": "PRESS"}, {}, "Delete Direct"]
-      ]-->
-      {{ with $value.shortcuts }}
-      <table class="shortcuts">
-        <tbody>
-          {{ range . }}
-          <tr>
-            <td>{{ partial "keystroke.html" (index . 0) }}</td>
-            <td>{{ index . 2 }}</td>
-          </tr>
-          {{ end }}
-        </tbody>
-      </table>
-      {{ end }}
+        <!-- Shortcut JSON example: -->
+        <!-- "shortcuts": [[{"type": "X", "value": "PRESS"}, {}, "Delete Direct"],
+          [{"type": "DEL", "value": "PRESS"}, {}, "Delete Direct"]]-->
+        {{ with $value.shortcuts }}
+        <table class="shortcuts">
+            <tbody>
+                {{ range . }}
+                <tr>
+                    <td>{{ partial "keystroke.html" (index . 0) }}</td>
+                    <td>{{ index . 2 }}</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+        {{ end }}
     </article>
     {{ end }}
-  </div>
-</section>
+</div>
 {{ end }}
