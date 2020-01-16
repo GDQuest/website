@@ -79,7 +79,7 @@ That's why we ask you to write clear git messages when working on our repositori
 
 ```
 1. Separate subject from body with a blank line
-2. Try to keep the subject line under 50 characters
+2. Keep the subject line under 72 characters
 3. Capitalize the subject line
 4. Do not end the subject line with a period
 5. Use the imperative mood in the subject line
