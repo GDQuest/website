@@ -51,15 +51,33 @@ Power Sequencer sets the strips it imports to use proxies automatically, based o
 
 ![Proxy preferences in the addon](./img/setting-proxy-preferences.png)
 
-<!-- ## Cutting and trimming ## -->
+## Cutting and trimming ##
 
-<!-- ### Cutting audio strips ### -->
+A fair part of our work as editors it to make cuts in the source footage. The add-on comes with tools to save you time doing so.
 
-<!-- ## Removing gaps ## -->
+### Three-point editing ###
 
-<!-- Concatenate, remove gaps -->
+<!-- You can use I and O to trim the left and right side of strips under the mouse cursor or the time cursor. This is not three point editing per se, as blender doesn't store any metadata about the edits. This tool directly trims the strips, but it's good to prepare your strips for editing. -->
 
-<!-- ## Rendering the video ## -->
+### The interactive trim tool ###
 
-<!-- Render preset -->
+<!-- Explain how to change the playback speed on the fly. Note the limitations of that feature: at higher speeds, the audio gets chopped up and harder to understand. -->
+
+### Cutting audio strips ###
+
+<!-- You can show concatenate there, as it's powerful in this setting. -->
+
+## Adding fades and crossfades ##
+
+For crossfades to work best, you should keep related strips into a single channel. Blender will add a gamma cross strip in between two visual strips. It makes it easy to remove the crossfade later and prevents your editing board from getting messy.
+
+### Editing and removing fades ###
+
+### Removing crossfades ###
+
+## Rendering the video ##
+
+<!-- Setting the preview range to the selected strips. -->
+
+<!-- Apply a render preset and render the animation. -->
 
