@@ -15,18 +15,33 @@ Creating great videos starts with **planning**, **writing**, and **recording goo
 
 {{< youtube n0jir8KmVI8 >}}
 
-## Check-list ##
+## In short: check-list ##
 
-Recording:
+To record and edit efficiently:
 
-1. Open all the programs you need: [Key Mon](https://code.google.com/archive/p/key-mon/) to screencast keys, [Open Joystick Display](https://ojdproject.com/), etc.
+1. Record multiple videos in a row, ideally entire series at once. For example, one chapter in a course.
+1. Take notes along the way. Write down:
+    - Important edits you do not want to forget like an entire section that needs to be cut out. This saves you time later on.
+    - Write questions and answers for quizzes, topics for complementary lessons, ideas, etc.
+1. Organize your files as you go.
+    - Name good recordings. 
+    - Delete bad recordings.
+
+When recording:
+
+1. Prepare your workspace.
+    - Review your notes and the list of videos to record. 
+    - Before recording each video, review the changes or features you have to cover, or your demo project.
+    - Open all the programs you need: [Key Mon](https://code.google.com/archive/p/key-mon/) to screencast keys, [Open Joystick Display](https://ojdproject.com/) for the game.
 1. Make the main program you're recording full-screen.
-1. Warm up your voice.
-1. Do a short test recording to ensure that everything is working as expected: the microphone is on, etc.
+1. Warm-up your voice.
+1. Do a short test recording to ensure that everything is working as expected.
 
-Video editing:
 
-1. Normalize the audio. Listen to the audio to do so, don't rely on the waveforms, they can be misleading.
+When it comes to editing:
+
+1. Use the [auto-import](/docs/documentation/power-sequencer/reference/#power_sequencer.import_local_footage) feature of Power Sequencer.
+1. Normalize audio tracks. To do so, listen to the audio and compare it to a reference video or audio track. You cannot rely on the waveforms there; their amplitude isn't representative of the perceived volume.
 
 
 ## Video recording ##
@@ -104,6 +119,16 @@ The font size should be large enough for the video to read on a tablet, or depen
 For instance, in Godot, I use 20pt for the editor's font and 23pt for the code. Past 20pt, the editor's layout can feel too packed.
 
 
+### Use a program to screencast key presses ###
+
+Use a program like [Key-Mon](https://code.google.com/archive/p/key-mon/) to display key presses, mouse clicks, etc.
+
+![Screenshot of key-mon](./img/key-mon.png)
+
+You can install Key-Mon using the Python package manager: `pip install key-mon`.
+
+That way, even if you forget to mention a keyboard shortcut, the viewer can see it in the video. This also reinforces vocal cues.
+
 ## Video editing ##
 
 
@@ -130,16 +155,6 @@ Mention and show things such as:
 
 When navigating around the interface or documents, show how you get there with the mouse cursor. If possible, also tell the viewer where you are going.
 
-### Use a program to screencast key presses ###
-
-Use a program like [Key-Mon](https://code.google.com/archive/p/key-mon/) to display key presses, mouse clicks, etc.
-
-![Screenshot of key-mon](./img/key-mon.png)
-
-You can install Key-Mon using the Python package manager: `pip install key-mon`.
-
-That way, even if you forget to mention a keyboard shortcut, the viewer can see it in the video. This also reinforces vocal cues.
-
 ### Use the animated arrow to point at UI elements ###
 
 Often, there are situations where we have to move from one side of a program to another. 
@@ -152,7 +167,7 @@ The blender `video.blend` template includes an animated pointer arrow.
 
 Use this arrow to help guide the student's eye to small icons or when jumping to a distant area of the interface. Especially when it's not obvious on screen.
 
-## Automating tasks ##
+## Automating the boring parts ##
 
 You can save time on repetitive tasks and increase your productivity following conventions and using simple programs.
 
@@ -229,4 +244,7 @@ end
 rm $temp_file
 {{< / highlight >}}
 
+The script creates the blender projects for you. Then, you can:
 
+1. Run bpsproxy to generate all proxies.
+1. Use a command like `for i in */*.blend; blender $i; end` to open each video and edit one after the other automatically.
