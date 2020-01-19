@@ -26,6 +26,4 @@ Thank you to all our backers who supported this open source effort, and we hope 
 
 See you next time, and keep working!
 
-![Screenshot of Mannequiny][image-mannequiny]
-
-[image-mannequiny]: ./mannequiny.png
+![Screenshot of Mannequiny](./image-mannequiny.png)
