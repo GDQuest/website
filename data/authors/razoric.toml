@@ -1,0 +1,12 @@
+name = "François Bélair"
+user = "razoric"
+picture = "img/avatar/razoric.png"
+description = "One-man-army sort of game dev; have been doing programming for over two decades, and helping others out with that experience's always been rewarding."
+
+website = "//iced-fire.com/"
+email = "razoric480@gmail.com"
+
+[social.twitter]
+url = "//twitter.com/razoric480"
+icon = "twitter"
+name = "Twitter"
