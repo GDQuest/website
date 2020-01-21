@@ -167,6 +167,36 @@ The blender `video.blend` template includes an animated pointer arrow.
 
 Use this arrow to help guide the student's eye to small icons or when jumping to a distant area of the interface. Especially when it's not obvious on screen.
 
+### Blender video editing template ###
+
+Use our [video editing template](./files/video.blend) to get your projects started. If you use the Gnome desktop, you can place it in the `~/Templates` directory to register it as a [template](https://help.gnome.org/users/gnome-help/stable/files-templates.html.en) when creating new files.
+
+The template comes with three layouts:
+
+- Video Editing, to cut and sequence strips.
+- Color Grading to tweak the colors after editing.
+- Rendering, to change render settings and preview the render.
+
+The video editing layout displays the graph editor in the top-left to animate strips and transitions.
+
+#### Using the animated arrow ####
+
+You can use the animated arrow to point at specific elements, for example, at icons in a Godot tutorial.
+
+![Selecting the arrow](./img/template-arrow-select.png)
+
+To do so, you'll need to install and activate the [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/) add-on.
+
+I placed the arrow before frame 0 on the editing board so it won't appear in the render. To add a new arrow and position it:
+
+- Select all three strips that make the arrow
+- Press <kbd>Shift</kbd> <kbd>D</kbd>, or <kbd>D</kbd> with Power Sequencer, to duplicate it.
+- Select the topmost Transform strip.
+- Place your mouse cursor over the video preview, and press <kbd>G</kbd>, <kbd>R</kbd>, or <kbd>S</kbd> to move the arrow.
+
+The first transform strip has some animation on the translation and blend_alpha channels. The topmost transform effect allows you to move or rotate the arrow while preserving the animation.
+
+
 ## Automating the boring parts ##
 
 You can save time on repetitive tasks and increase your productivity following conventions and using simple programs.
