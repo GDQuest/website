@@ -169,7 +169,9 @@ Use this arrow to help guide the student's eye to small icons or when jumping to
 
 ### Blender video editing template ###
 
-Use our [video editing template](./files/video.blend) to get your projects started. If you use the Gnome desktop, you can place it in the `~/Templates` directory to register it as a [template](https://help.gnome.org/users/gnome-help/stable/files-templates.html.en) when creating new files.
+Use our [video editing template](./files/video.blend) to get your projects started. This requires some [assets](./files/assets.zip), that you need to place in `~/Videos/assets`.
+
+If you use the Gnome desktop, you can place it in the `~/Templates` directory to register it as a [template](https://help.gnome.org/users/gnome-help/stable/files-templates.html.en) when creating new files.
 
 The template comes with three layouts:
 
