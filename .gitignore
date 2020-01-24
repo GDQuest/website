@@ -22,7 +22,6 @@ _src/ytplaylist_converter/.env
 *.jar
 *.rar
 *.tar
-*.zip
 
 # Assets #
 ##########
