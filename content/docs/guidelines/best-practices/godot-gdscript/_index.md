@@ -35,19 +35,17 @@ This guideline is created with a few goals in mind:
 
 ## Code Writing Style
 
-{{< youtube FB2sqJgfqXI >}}
-
-We use the same code style so that you can find the information you need fast.
+Here at GDQuest, we use these coding guidelines, created to be as concise as possible for fast access.
 
 ### In Short
 
 We follow the same [code order](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html#code-order) from the official GDScript style guide. Here is a complete example that follows the guidelines below:
 
 {{< highlight gdscript >}}
-class_name StateMachine
-extends Node
 # Hierarchical State machine for the player.
 # Initializes states and delegates engine callbacks (_physics_process, _unhandled_input) to the state.
+class_name StateMachine
+extends Node
 
 
 signal state_changed(previous, new)
@@ -104,8 +102,6 @@ func _on_state_changed(previous: Node, new: Node) -> void:
 Start with the optional `class_name` if needed. Then, add the `extends` keyword if the class extends a built-in type. Following that, you should have the class's docstring:
 
 {{< highlight gdscript >}}
-extends Node
-class_name MyNode
 # A brief description of the class's role and functionality
 # 
 # A longer description if needed, possibly of multiple paragraphs. Properties and method names
@@ -116,6 +112,8 @@ class_name MyNode
 # Specific things that don't fit the class's description above.
 # 
 # Keep lines under 100 characters long
+class_name MyNode
+extends Node
 {{< / highlight >}}
 
 Signals go first and don't use parentheses unless they pass function parameters. Use the past tense to name signals. Append `_started` or `_finished` if the signal corresponds to the beginning or the end of an action.
@@ -186,8 +184,8 @@ func _on_Quest_started(which: Quest) -> void:
 If the object connects to itself though, you should remove `NodeName`:
 
 {{< highlight gdscript >}}
-extends Area2D
 class_name HitBox
+extends Area2D
 
 
 func _ready() -> void:
@@ -297,8 +295,8 @@ Use clear variable names in plain English, and write full words. E.g. `character
 **Do not** repeat the same word in the method's name and its arguments. E.g. write `Inventory.add(item)`, not `Inventory.add_item(item)`. The same goes for signals. Don't repeat the class's name in signals, use plain verbs instead:
 
 {{< highlight gdscript >}}
-Extends Node
 class_name Event
+extends Node
 
 signal started
 signal completed

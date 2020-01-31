@@ -6,6 +6,8 @@ title = "Best Practices: Godot GDScript - Decouple Systems"
 menuTitle = "Decouple Systems"
 +++
 
+This chapter considers methodologies on how to create and manage decoupled systems in Godot, taking advantage of the game engine tools for building **reusable** and **independent** building blocks for our projects.
+
 Decoupled systems:
 
 1. **Can be tested on their own**.
