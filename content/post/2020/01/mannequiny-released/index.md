@@ -20,7 +20,7 @@ This project became Mannequiny, the Open 3D Mannequin for Godot.
 
 ![Screenshot of our 3D Mannequin in the Godot editor](./screenshot.png)
 
-It is Free and Open Source, released under the permissive MIT license. You can find it here: [Godot 3D Mannequin repository](https://github.com/GDquest/godot-3d-mannequin/). As always, we welcome feedback and contributors!
+It is Free and Open Source, released under the permissive MIT license. You can find it here: [Godot 3D Mannequin repository](https://github.com/GDQuest/godot-3d-mannequin/). As always, we welcome feedback and contributors!
 
 The character works with a mouse and keyboard or a gamepad. It comes with a camera rig with an aim mode, auto-rotation, and that slides against walls and the floor.
 

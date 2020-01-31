@@ -1,4 +1,4 @@
-module github.com/GDquest/GDquest-website
+module github.com/GDQuest/GDQuest-website
 
 go 1.12
 

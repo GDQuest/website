@@ -34,11 +34,11 @@ You can find more in our playlist [Free Blender VSE tutorials](https://www.youtu
 
 Whether you want to contribute code, help with testing, design, user interface, tutorials, or communication, **all contributors are welcome**!
 
-You can come and chat with us on [GDquest's Discord server](https://discordapp.com/invite/KVaCsSP)!
+You can come and chat with us on [GDQuest's Discord server](https://discordapp.com/invite/KVaCsSP)!
 
 See our [Contributor's Guidelines](http://gdquest.com/open-source/contributing-guidelines/) to learn about how to contribute efficiently to Free Software. If you're a developer, check our [Blender Python best practices](https://www.gdquest.com/open-source/guidelines/blender-python/). They can help you avoid programming issues.
 
-Then, join the discussion in the [issues tab](https://github.com/GDquest/Blender-power-sequencer/issues) anytime!
+Then, join the discussion in the [issues tab](https://github.com/GDQuest/Blender-power-sequencer/issues) anytime!
 
 ## Other add-ons ##
 
@@ -48,6 +48,6 @@ Daniel Oakey's [rewrite of VSE Transform Tools](https://github.com/doakey3/VSE_T
 
 Power Sequencer ships with two separate Python tools:
 
-1. [BPSRender](https://github.com/GDquest/BPSRender), a tool to render videos with multiple threads from the terminal.
-1. [BPSProxy](https://github.com/GDquest/BPSProxy), a program to render proxies fast using FFmpeg and, if your graphics card supports it, use hardware acceleration.
+1. [BPSRender](https://github.com/GDQuest/BPSRender), a tool to render videos with multiple threads from the terminal.
+1. [BPSProxy](https://github.com/GDQuest/BPSProxy), a program to render proxies fast using FFmpeg and, if your graphics card supports it, use hardware acceleration.
 
