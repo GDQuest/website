@@ -12,17 +12,15 @@ Decoupled systems:
 1. Are **black boxes** that are fed data and produce some output. They don't care where they get the data from.
 1. **Don't know anything about the outside world**.
 
-This makes them **independent** and **reusable** across game projects. This also makes them **composable**. We can create complex systems using **aggregation**: by adding several decoupled nodes to a scene and and using them from a parent node.
+This makes them **independent** and **reusable** across projects. This also makes them **compose**. We can create complex systems using **aggregation**: by adding several decoupled nodes to a scene and using them from a parent node.
 
-See the Player in our Godot Metroidvania project. It's an aggregate of scenes: you can remove any of the nodes in the screenshot below and the player will still work without errors.
+See the Player in our [Godot Platformer 2D project](//github.com/GDQuest/godot-platformer-2d). It's an aggregate of scenes: you can remove any of the nodes in the screenshot below and the player will still work without errors.
 
-![Player scene tree example in Godot](../img/aggregation-player-scene-tree.png)
+{{< figure src="../img/aggregation-player-scene-tree.png" >}}
 
-{{< note >}}
-**Aggregation**
-
-In Object-Oriented Programming, aggregation is a type of **association** between objects. Aggregation means that one object, our `Player` in the example above, uses others, like the `Hook` or the `CameraRig`. The `Hook` and the `CameraRig` can keep working even if we remove the association with the `Player` node.
-{{< / note >}}
+{{% notice note %}}
+In Object-Oriented Programming, **aggregation** is a type of **association** between objects. Aggregation means that one object, our `Player` in the example above, uses others, like the `Hook` or the `CameraRig`. The `Hook` and the `CameraRig` can keep working even if we remove the association with the `Player` node.
+{{% /notice %}}
 
 ### Every building-block scene should run by itself without errors
 
@@ -32,8 +30,7 @@ Godot relies on its node tree, a recursive data structure: if we pick any node i
 
 {{< figure
     src="../img/scene_tree.png"
-    caption="Screenshot of a real system scene tree layout from [OpenRPG](//github.com/GDQuest/godot-open-rpg)"
-    alt="../img/scene_tree.png" >}}
+    caption="Screenshot of a real system scene tree layout from [OpenRPG](//github.com/GDQuest/godot-open-rpg)" >}}
 
 In the example above, you can view each node as a separate scene, be it `Board` or `QuestSystem`.
 
@@ -41,80 +38,30 @@ If we save `QuestSystem` using `Save Branch as Scene`, we should be able to run 
 
 {{< youtube WLYCgar9fyQ >}}
 
-You should **never have direct references to specific objects from another system**. Instead, you should rely on a parent node to route information and let the systems interconnect via signals.
+You should **never have direct references to specific objects from another system**. Instead, you should rely on a parent node to route information and let the systems interconnect via signals. We'll discuss more about signal handling in the next section: [the event bus pattern]({{< ref "event-bus.md" >}}).
 
 In the example above, the `Game` node has a script attached to it. This script sends some information from one system to another, while e.g. `QuestSystem` or `DialogSystem` have no knowledge about any other system other than themselves.
 
-<!-- TODO: add code snippets from Game and QuestSystem -->
-
 ### Use signals to coordinate time-dependent interactions
 
-Godot's signals are the [Observer pattern](//gameprogrammingpatterns.com/observer.html), a very useful tool that allows one node to react to a change in another, without storing it or having a direct reference to it.
+Godot's signals are the [Observer pattern](//gameprogrammingpatterns.com/observer.html), a very useful tool that allows one node to react to a change in another, without storing it or having a direct reference to it. Sometimes direct function calls aren't the right way to interact with objects.
 
-Godot comes with many systems like physics, rendering or input, that run in parallel threads to squeeze every bit of hardware resource available. Oftentimes direct function calls aren't the right way to interact with objects.
+Also, we can't always predict when an event will occur. Say we have an animation with a random or a varying duration. Signals allow us to react to the animation right when it finishes, regardless of its duration.
 
-Also, we can't always predict when an event will occur. Say we have an animation with a random or a varying duration. Sometimes it ends after 1 second, sometimes after 1.2 seconds. Signals allow us to react to the animation right when it finishes, regardless of its duration.
-
-In practice, it can be difficult to know exactly when to use direct function calls and when to use signals. But with time and practice, managing information gets easier.
-
-So **rely on signals when orchestrating time-dependent interactions.**
-
-
-### Reinforcing good habit
-
-Through GDScript, Godot prefers a coding style that is loose and free of any burden. This can quickly lead to spaghetti code since there's no mechanism by which Godot enforces nodes and scenes to be isolated. So it's up to us to keep track and implement this isolation.
-
-{{< figure
-    src="../img/node_closeup.png"
-    caption="Fig. 3: A Node/Scene is composed of state and behavior"
-    alt="../img/node_closeup.png" >}}
-
-
-Fig. 3 depicts a typical node or scene in Godot. It bundles up state and behavior that can access the state at any time and alter it. But even more so, the lines coming in from the outside depict here other types of interactions that could happen from the external world (other systems):
-
-- access to state directly, potentially changing it
-- access to behavior, i.e. methods
-- connections to methods via signals
-
-Even a simple scene tree like the one in Fig. 4 can quickly become unmaintainable if all the flexibility Godot offers us isn't managed. Thus we need a way to maintain the number of potential connections as depicted in Fig. 3.
-
-{{< figure
-src="../img/scene_tree_overview.png"
-caption="A relatively simple depiction of a Godot scene tree. The highlighted part represents a completely independent scene"
-alt="../img/scene_tree_overview.png" >}}
+**Rely on signals when orchestrating time-dependent interactions.**
 
 #### More tips about independent scenes ####
 
-We already went through this, but just to reinforce it even more - ideally, scenes should be independent and at any moment in our game development, if we choose to save a part of the node tree as a scene, **it should run by itself without any errors** - <kbd>F6</kbd>
-
-<!-- TODO: talk about a contract type of method for creating complex scenes that break the idea of working independently at every level. For example the Player cene might be easier to manage by inner nodes accessing directly the `owner` property. This breaks the idea of having scenes work at every level at each time, but it creates instead the idea of having a "contract" within a building-block scene. The Player scene itself works and can be tested independently, but not necessarily all child nodes of Player-->
-
-<!-- TODO: show a concrete example -->
-Minimize changing the state of child nodes/scenes from parent nodes, unless the scene we're working with is logically built that way. For example, in [Fig. 4], in the highlighted node tree we see that the children nodes hold just data, but no custom behaviors that alters their state. The parent node in this case can access and potentially change the state of its children. In this case, the entire scene can be viewed from the outside like a black-box. All changes go through the parent node, with no direct access to the child nodes.
-
-The idea of the black-box node/scene is more general. We should always strive to enforce it whenever possible. It's more strict than the simple idea of having independent scenes that can always run on their own. Scenes that are decoupled in this way, can still have their inner state be accessed by parent nodes and changed at run-time.
-
-With the black-box, we extend this rule and strive not to change the state of child nodes/scenes from parent nodes or other systems except through signals.
-
-The black-box scene is solely responsible for it's own behavior.
-
-As an additional rule, the other way is true as well: _never_ change state of parent nodes from child nodes, unless through signals.
-
-_Note_ that these are still just guidelines, they're not rules. Certain systems have to be built in other ways that can't uphold these ideas. The `AnimationPlayer` node is a good example. We can set the `root_node` property of the `AnimationPlayer` to point to any node in our node hierarchy and by default it operates relative to its parent. That's because it's awkward, impractical and hard to reason about to have a scene hierarchy where the `AnimationPlayer` node is the parent node.
+We already went through this, but just to reinforce it even more - ideally, scenes should be independent and at any moment in our game development, if we choose to save a part of the node tree as a scene, **it should run by itself without any errors** - <kbd>F6</kbd>.
 
 Here are a few ideas that could improve code maintainability and overall structure:
 
-1. Break up complex functions into smaller functions (ideally up to 10-15 lines of code and no more) and give them descriptive names
+  1. Break up complex functions into smaller functions (ideally up to 10-15 lines of code and no more) and give them descriptive names
 
-{{< figure
-    src="../img/openrpg_scene_tree.png"
-    caption="[OpenRPG](//github.com/GDQuest/godot-open-rpg) experimental branch scene tree."
-    alt="../img/openrpg_scene_tree.png" >}}
+    Reading through `party_command` without looking at the implementation of other functions we already have a pretty good idea about what it does. That's because we divided up the implementation into smaller functions and giving expressive names to these functions.
 
-Note how `Board` with its `PathFinder` algorithm is at the same level as `Party`. They're independent systems in this implementation. The `Party` node/scene can be viewed as the player object.
-
-{{< highlight gdscript >}}
-"""Game.gd file"""
+    {{< highlight gdscript >}}
+# Game.gd
 
 ...
 
@@ -168,31 +115,21 @@ func party_walk(leader: Actor, path: Array) -> void:
 func get_party_destination(path: Array) -> Vector2:
   var destination: Vector2 = path[path.size() - 1] if not path.empty() else Vector2()
   return destination
-{{< / highlight >}}
+    {{< / highlight >}}
 
-In the example above, reading through `party_command` without looking at the implementation of other functions we already have a pretty good idea about what it does. That's because we divided up the implementation into smaller functions and giving expressive names to these functions.
+    The implementation for checking if the walk command can be issued is within a parent node, in this case the `Game.gd` script. That's because the verification depends on the `PathFinder` algorithm which is part of the separate `Board` system, while the `Party` object is independent, so it's a sibling relationship. The validation step depends on both `Party` and `Board` and that's why it's taken care of in the level of the top `Game` node. Otherwise we'd have to introduce an interdependence between `Party` & `Board` and that would tightly couple these systems.
 
-{{< note >}}
-Here, we are careful to not alter any state of other nodes. We only access the state in order to perform validations. This is important! All state changes that happen, happen within the respective **black-boxes**.
-{{< / note >}}
+  1. Don't store references to systems within other systems.
 
-The implementation for checking if the walk command can be issued is within a parent node, in this case the `Game.gd` script. That's because the verification depends on the `PathFinder` algorithm which is part of the separate `Board` system, while the player object (the `Party` here) is independent, it's a sibling relationship. The validation step depends on both `Party` and `Board` and that's why it's taken care of in the level of the top `Game` node [Fig. 5]. Otherwise we'd have to introduce an interdependence between `Party` & `Board` and that would tightly couple these systems.
+    For example, in the above, we could have had `Party` set up in such a way as to store a reference to `Board` and do all the validation checks on `path` inside of `Party`, but this would mean that it is tightly coupled with `Board`. Whenever possible we should avoid this.
 
-Which leads us to:
+  1. Never alter state from a function that returns a concrete type (i.e. functions that don't return `-> void`).
 
-2. Don't store references to systems within other systems.
+    Referring to the code above, we can see that `prepare_path` and `get_party_destination` each return a concrete type: `-> Array`, respectively`-> Vector2`. Their job is to return these calculations and nothing more, they don't alter the state in any other way, which makes them "pure". Impure functions are much harder to track because they can change state in ways that isn't easily seen.
 
-For example, in the above, we could have had `Party` set up in such a way as to store a reference to `Board` and do all the validation checks on `path` inside of `Party`, but this would mean that it is tightly coupled with `Board`. Whenever possible we should avoid this.
+    Now, like before, this isn't a hard rule even though we say _never_. For example, there's a lot of times when we want to return a check, a `bool` value from within a function upon the successful execution of a behavior. The above `party_walk` function could be rewritten like this:
 
-3. Never alter state from a function that returns a concrete type (i.e. functions that don't return `-> void`).
-
-Again, referring to the code above, we can see that `prepare_path` and `get_party_destination` each return a concrete type: `-> Array`, respectively`-> Vector2`. They have no other purpose than to calculate the promised return type and nothing more. They don't have any hidden agenda, don't alter anything, don't give commands to other functions that change state. They have a very precise "pure" job to do.
-
-We could have for example called `party_walk` from within `get_party_destination` and rewrite the code a bit to make that work, but we would essentially hide a behavior that doesn't have anything to do with returning or calculating a `Vector2`. This means that if we wouldn't follow along the implementation we wouldn't know what's happening. This entanglement of concerns is a potential error generator.
-
-Now, like before, this isn't a hard rule even though we say _never_. For example, there's a lot of times when we want to return a check, a `bool` value from within a function upon the successful execution of a behavior. The above `party_walk` function could be rewritten like this:
-
-{{< highlight gdscript >}}
+    {{< highlight gdscript >}}
 func party_command(msg: Dictionary = {}) -> void:
   var leader := party.get_member(0)
   if leader == null:
@@ -215,8 +152,36 @@ func party_walk(leader: Actor, path: Array) -> bool:
       path.pop_back()
     member.walk(path)
   return true
-{{< / highlight >}}
+    {{< / highlight >}}
 
-Typically, returning `bool` values like this in order to validate a successful execution is a decent idea. _So keep in mind once more, these are just guidelines!_
+    Typically, returning `bool` values like this in order to validate a successful execution is a decent idea. _So keep in mind once more, these are just guidelines!_
 This way, we can encapsulate signal connections in the related nodes instead of managing them in the code of some parent script, like `Game`.
+
+### Know when to break the guidelines
+
+There are cases when you can get away with a simpler way to manage scene nodes. If the scene is intended to be one building block that's supposed to be self-contained, then we can think of a "contract" that the scene will have to honor. In this case we can use the `owner` node property to access the root node of the scene from any level. This can greatly simplify interactions within the scene. We use this approach throughout our implementation of the [State Machine system](//gameprogrammingpatterns.com/state.html) from our 2D Platformer demo:
+
+{{< highlight gdscript >}}
+extends State
+
+
+var last_checkpoint: Area2D = null
+
+
+func _on_Player_animation_finished(anim_name: String) -> void:
+	_state_machine.transition_to('Spawn', {last_checkpoint = last_checkpoint})
+
+
+func enter(msg: Dictionary = {}) -> void:
+	last_checkpoint = msg.last_checkpoint
+	owner.camera_rig.is_active = true
+	owner.skin.play("die")
+	owner.skin.connect("animation_finished", self, "_on_Player_animation_finished")
+
+
+func exit() -> void:
+	owner.skin.disconnect("animation_finished", self, "_on_Player_animation_finished")
+{{< /highlight >}}
+
+See how, in this `Die` state, we use the `owner` property directly to access the root node, in this case the `Player` node.
 

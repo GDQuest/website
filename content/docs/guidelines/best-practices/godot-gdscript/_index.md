@@ -353,7 +353,7 @@ The top-level folders include:
   - `assets`, shared files like images, sounds, music, text produced outside Godot.
   - `src`, the source code of the game. It includes all scenes and GDScript files, which are all part of the source.
 
-![naming-conventions-folders](./img/naming-conventions-folders.png)
+{{< figure src="./img/naming-conventions-folders.png">}}
 
 #### General naming conventions ####
 
