@@ -13,9 +13,9 @@ aliases = ["/open-source/guidelines/godot-gdscript/"]
 
 +++
 
-This guide covers some best practices to write solid GDScript code. It's the style we use to keep our code clean and maintainable, working on growing Godot games. It's meant as a complementary resource to the [oficial GDScript guidelines](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html).
+This guide covers best practices when writing GDScript code. We use it to keep our code clean and maintainable. It's meant as a complementary resource to the [oficial GDScript guidelines](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html).
 
-The ideas below draw inspiration from good practices from different paradigms and languages. Especially from the work of the Python community, some functional programming principles, and the official GDScript documentation:
+The ideas in this article are inspired by best practices from a variety of languages. We draw from the work of the Python community, some functional programming principles, and the official GDScript documentation:
 
 1. [GDScript Style Guide](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
 1. [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html)
@@ -25,21 +25,21 @@ The ideas below draw inspiration from good practices from different paradigms an
 1. [Onion Architecture Without the Tears - Brendan Richards](//www.youtube.com/watch?v=R2pW09tMCnE&t=1095s)
 1. [Domain Driven Design Through Onion Architecture](//www.youtube.com/watch?v=pL9XeNjy_z4)
 
-Godot is mostly object-oriented and offers its own tools to make objects communicate together, like signals, and the node tree. As a result, it's not always easy to apply principles and techniques from other programming languages to it.
+Godot is mostly object-oriented and offers its own tools such as signals and the node tree to make objects communicate. As a result, it's not always easy to apply principles and techniques from other programming languages to it.
 
 This guideline is created with a few goals in mind:
 
-- Avoiding coupling, having system depend on and break one another
-- Managing boundaries, the places where different game systems interact with one another
-- Keeping the code readable working as a team, as we developers spend more time reading than writing code
+- Avoid coupling and having systems depend on (or break!) one another
+- Manage boundaries and the places where different game systems interact with one another
+- Keep the code readable while working as a team. Developers often spend more time reading code than writing it
 
 ## Code Writing Style
 
-Here at GDQuest, we use these coding guidelines, created to be as concise as possible for fast access.
+GDQuest created these coding guidelines to be as concise as possible for fast access.
 
 ### In Short
 
-We follow the same [code order](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html#code-order) from the official GDScript style guide. Here is a complete example that follows the guidelines below:
+We follow the same [code order](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html#code-order) from the official GDScript style guide. Here is a complete example that follows these guidelines:
 
 {{< highlight gdscript >}}
 # Hierarchical State machine for the player.
@@ -99,18 +99,18 @@ func _on_state_changed(previous: Node, new: Node) -> void:
 
 ### Code style ###
 
-Start with the optional `class_name` if needed. Then, add the `extends` keyword if the class extends a built-in type. Following that, you should have the class's docstring:
+Start with the optional `class_name` if needed. Then add the `extends` keyword if the class extends a built-in type. Following that, you should have the class's docstring:
 
 {{< highlight gdscript >}}
 # A brief description of the class's role and functionality
-# 
+#
 # A longer description if needed, possibly of multiple paragraphs. Properties and method names
 # should be in backticks like so: `_process`, `x` etc.
-# 
+#
 # Notes
 # -----
 # Specific things that don't fit the class's description above.
-# 
+#
 # Keep lines under 100 characters long
 class_name MyNode
 extends Node
@@ -124,9 +124,9 @@ signal talk_started(parameter_name)
 signal talk_finished
 {{< / highlight >}}
 
-After that enums, constants, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order. 
+After that enums, constants, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order.
 
-Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. The reason for this order is that exported variables might depend on previously defined enums and constants.
+Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. This order is important because exported variables might depend on previously defined enums and constants.
 
 {{< highlight gdscript >}}
 enum TileTypes { EMPTY=-1, WALL, DOOR }
@@ -140,11 +140,13 @@ export var is_active := true
 
 _Note:_ for booleans, always include a name prefix like `is_`, `can_`, or `has_`.
 
-Following are public and pseudo-private member variables. Their names should use `snake_case` and `_snake_case_with_leading_underscore` respectively.
+After this are public and pseudo-private member variables. Their names should use `snake_case` and `_snake_case_with_leading_underscore` respectively.
 
-Define setters and getters when properties alter the object's state or if changing the property triggers methods. When doing this care needs to be taken because we can easily loose track of this hidden alterations and behaviors. Include a docstring in the setters/getters if they modify the node/class state in complex ways.
+Define setters and getters when properties alter the object's state or if changing the property triggers methods. Care needs to be taken when doing this because we can easily loose track of hidden alterations and behaviors.
 
-When writing setters or getters for private variables, start with a leading underscore, just like in the case of the variable.
+Include a docstring in the setters/getters if they modify the node/class state in complex ways.
+
+Start with a leading underscore when writing setters or getters for private variables just like the variable.
 
 {{< highlight gdscript >}}
 var animation_length := 1.5
@@ -163,7 +165,7 @@ onready var ysort := $YSort
 {{< / highlight >}}
 
 
-Next define virtual methods from Godot (those starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them and other code blocks.
+Next define virtual methods from Godot (those starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them from other code blocks.
 
 {{< highlight gdscript >}}
 func _init() -> void:
@@ -181,7 +183,7 @@ func _on_Quest_started(which: Quest) -> void:
   ...
 {{< / highlight >}}
 
-If the object connects to itself though, you should remove `NodeName`:
+You should remove `NodeName` if the object connects to itself:
 
 {{< highlight gdscript >}}
 class_name HitBox
@@ -192,9 +194,9 @@ func _ready() -> void:
   connect("area_entered", self, "_on_area_entered")
 {{< / highlight >}}
 
-Then define public methods. Include type hints for variables and the return type.
+Then define public methods. Include type hints for variables and the return type. You can use a brief comment to describe what the function does and what it returns.
 
-You can use a brief comment, if need be, to describe what the function does and what it returns. To describe the return value, start the sentence with `Returns`. Use the present tense and direct voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
+Start the sentence with `Returns` when describing the return value. Use the present tense and direct voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
 
 {{< highlight gdscript >}}
 func can_move(cell_coordinates: Vector2) -> bool:
@@ -203,7 +205,9 @@ func can_move(cell_coordinates: Vector2) -> bool:
 
 Use `return` only at the beginning and end of functions. At the beginning of the function we use `return` as a guard mechanism if the conditions for executing the function aren't met.
 
-**Don't** return in the middle of the method. It makes it harder to track returned values. Here's an example of a **clean** and readable method:
+**Don't** return in the middle of the method. It makes it harder to track returned values.
+
+Here's an example of a **clean** and readable method:
 
 {{< highlight gdscript >}}
 func _set_elements(elements: int) -> bool:
@@ -238,7 +242,9 @@ func _set_elements(elements: int) -> bool:
 
 ### Avoid `null` like the plague
 
-**Use `null` only if you're forced to**. Instead, think about alternatives to implement the same functionality with other types. For programming languages that rely on `null`, such as GDScript, it's impossible to get rid of it completely: a lot of functionality relies on built-in functions that work with and return `null` values.
+**Use `null` only if you're forced to**. Instead, think about alternatives to implement the same functionality with other types.
+
+It's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
 
 {{% notice note %}}
 `None`, `null`, `NULL`, etc. references could be the biggest mistake in the history of computing. Here's an explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
@@ -246,9 +252,7 @@ func _set_elements(elements: int) -> bool:
 
 ### Use static types
 
-We use optional static typing with GDscript.
-
-At the time of writing, static GDScript typing doesn't provide any performance boosts or any other compiler features. But it does bring better code completion and better error reporting and warnings, which are good improvements over dynamically typed GDScript. In the future, it should bring performance improvements as well.
+At the time of writing, static GDScript typing doesn't provide any performance boosts or any other compiler features. But it does bring better code completion and better error reporting and warnings. In the future, it should bring performance improvements as well.
 
 Be sure to check [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html) to get started with this language feature.
 
@@ -270,14 +274,16 @@ var v := some_function_returning_Vector2(param1, param2) # The type is Vector2
 
 **Let Godot infer the type whenever you can**. It's less error prone because the system keeps better track of types than we humanly can. It also pushes us to have proper return values for all the functions and methods that we write.
 
-Since the static type system mostly brings better warnings and it isn't enforced, sometimes we have to help it out. The following snippet will make the problem clear:
+Since the static type system isn't enforced, sometimes we have to help it out. Take the following example:
 
 {{< highlight gdscript >}}
 var arr := [1, 'test']
 var s: String = arr.pop_back()
 {{< / highlight >}}
 
-The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s := arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method returns. You will get the same issue with all built-in methods that return the engine's `Variant` type. Open the code reference with <kbd>Shift+F1</kbd> and search for the methods to see that:
+The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s := arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method should return.
+
+If we open the code reference with <kbd>Shift+F1</kbd> and search for the method, we see that:
 
 ```
 Variant pop_back()
@@ -286,13 +292,17 @@ Variant pop_back()
 
 `Variant` is a generic type that can hold any type Godot supports. That's why we have to explicitly write variable types when dealing with these functions: `var s: String = arr.pop_back()`.
 
+You'll get the same issue with all built-in methods that return the engine's `Variant` type.
+
 ### Write self-documenting code and use comments sparingly
 
 If you need comments to explain most of what your code does, you can most likely rewrite it to make it more transparent for everyone. When working together for an extended period, code readability is essential for everyone to stay productive.
 
-Use clear variable names in plain English, and write full words. E.g. `character_position` and not `char_pos`. Same for method names.
+Use clear variable names in plain English and write full words. E.g. `character_position` and not `char_pos`. The same goes for method names.
 
-**Do not** repeat the same word in the method's name and its arguments. E.g. write `Inventory.add(item)`, not `Inventory.add_item(item)`. The same goes for signals. Don't repeat the class's name in signals, use plain verbs instead:
+**Do not** repeat words in the method's name and its arguments. E.g. write `Inventory.add(item)`, not `Inventory.add_item(item)`. The same goes for signals.
+
+Use plain verbs instead of repeating the class's name in signals:
 
 {{< highlight gdscript >}}
 class_name Event
@@ -302,7 +312,9 @@ signal started
 signal completed
 {{< / highlight >}}
 
-You _may_ use short variable names inside of your methods, for local variables, to avoid repeating a type hint for instance. In the example below, the variable `e`, an instance of `Element`, only appears in 4 consecutive lines, so the code stays readable:
+You _may_ use short variable names inside of your methods, for local variables, to avoid repeating a type hint for instance.
+
+In the example below, the variable `e`, an instance of `Element`, only appears in 4 consecutive lines so the code stays readable:
 
 {{< highlight gdscript >}}
 func _set_elements(elements: int) -> bool:
@@ -316,9 +328,11 @@ func _set_elements(elements: int) -> bool:
 
 #### Use comments if they save time or add key explanations
 
-Your code should be **self-explanatory whenever possible**. But sometimes it's not: you may have a long block of code that you can't change, or have some strange code to work around an engine bug. In these cases, writing a short comment above the corresponding block can save everyone a lot of time, including your future self.
+Your code should be **self-explanatory whenever possible**. Sometimes you may have a long block of code that you can't change, or have some strange code to work around an engine bug.
 
-In this example, the code involves transforming and multiplying matrices to calculate some position in Godot's 2d viewport. A one-line comment can capture what it does and avoid having to make sense of the calculations:
+In these cases, writing a short comment above the corresponding block can save everyone a lot of time including your future self.
+
+In this example, the code involves transforming and multiplying matrices to calculate a position in Godot's 2D viewport. A one-line comment can capture what it does and avoid having to make sense of the calculations:
 
 {{< highlight gdscript >}}
 func drag_to(event_position: Vector2) -> void:
@@ -329,7 +343,7 @@ func drag_to(event_position: Vector2) -> void:
   var target_position: Vector2 = transform_inv.xform(viewport_position.round())
 {{< / highlight >}}
 
-Here's a comment that explains why a seemingly strange line of code is necessary so another developer doesn't remove it inadvertently, thinking it's a mistake:
+Here's a comment that explains why a seemingly strange line of code is necessary so another developer doesn't remove it accidentally:
 
 {{< highlight gdscript >}}
 extends BattlerAI
@@ -349,7 +363,7 @@ We follow some guidelines to keep the name of our files meaningful and consisten
 The top-level folders include:
 
   - `assets`, shared files like images, sounds, music, text produced outside Godot.
-  - `src`, the source code of the game. It includes all scenes and GDScript files, which are all part of the source.
+  - `src`, the source code of the game. It includes all scenes and GDScript files which are all part of the source.
 
 {{< figure src="./img/naming-conventions-folders.png">}}
 
@@ -359,9 +373,12 @@ The top-level folders include:
 
 #### Naming in the src folder ####
 
-Use `PascalCase` for folder names in the `src` folder as they represent game systems or groups of systems. Scenes and script files also use `PascalCase` as they represent classes.
+Use `PascalCase` for folder names in the `src` folder as they represent game systems or groups of systems.
+
+Scenes and script files also use `PascalCase` as they represent classes.
 
 #### Naming in the assets folder ####
 
-Name assets using `snake_case`, that is to say lowercase with the underscore `_` as a delimiter. We also use lowercase for the folder names to distinguish them from the source code.
+Use lowercase for the folder names to distinguish them from the source code.
 
+Name the assets using `snake_case`.
