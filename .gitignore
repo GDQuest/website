@@ -1,15 +1,11 @@
 # Folders #
 ###########
 
-/.publish/
 /public/
 /node_modules/
-/_src/img/
-/_src/website-redesign/
-.vscode/
 
-_src/ytplaylist_converter/__pycache__
-_src/ytplaylist_converter/.env
+__pycache__
+.env
 
 # Packages #
 ############
@@ -42,7 +38,6 @@ _src/ytplaylist_converter/.env
 .Trashes
 ehthumbs.db
 Thumbs.db
-
 
 # Package manager generated files #
 ###################################
