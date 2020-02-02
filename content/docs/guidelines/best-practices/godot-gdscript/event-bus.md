@@ -14,18 +14,18 @@ Maintaining signal connections isn't the easiest, especially when declaring conn
 
 ### Connecting signals through the editor's node tab
 
-- You can see an icon next to nodes that are connected to another node in the scene tree
-- The code doesn't get cluttered with connection declarations
+- You can see an icon next to nodes that are connected to another node in the scene tree.
+- The code doesn't get cluttered with connection declarations.
 
 ### Connecting signals via code
 
-- You can connect any node, including those you create at runtime and those that aren't present in the current scene.
+- You can connect any node including those you create at runtime as well as those that aren't present in the current scene.
 - You can search calls to the `connect()` method globally in the project.
-- Contrary to the editor, you're not limited to using `Node` only: any `Object` can define, emit, and connect signals. See the [Object class's docs](//docs.godotengine.org/en/latest/classes/lass_object.html).
+- Contrary to the editor, you're not limited to using `Node` only. Any `Object` can define, emit, and connect signals. See the [Object class's docs](//docs.godotengine.org/en/latest/classes/lass_object.html).
 
 ### Using an Event singleton to avoid spaghetti code
 
-With these guidelines and in our work, we're trying to decouple code to create independent, reusable, and scalable systems. This comes at a cost: we lose the ability to easily connect signals across independent systems and it tend so lead to spaghetti code. The Event singleton is a pattern to reduce this effect at the expense of introducing a global dependency.
+With these guidelines and in our work, we're trying to decouple code to create independent, reusable, and scalable systems. This comes at a cost: we lose the ability to easily connect signals across independent systems and it tends to lead to spaghetti code. The Event singleton is a pattern to reduce this effect at the expense of introducing a global dependency.
 
 {{< figure src="../img/scene_tree.png">}}
 
@@ -52,7 +52,6 @@ signal battle_started(msg)
 signal battle_finished(msg)
 {{< / highlight >}}
 
-This singleton's only purpose is to lists signals that can be emitted and connected to, that's it. A "deeply" nested node like `$Game/Party/Godette/Walk` could then emit the appropriate signal directly using the global `Events` node: `Events.emit_signal("party_walk_started", {destination = destination})`. Other nested nodes could connect to these signals: `Events.connect("party_walk_started", self, "_on_Party_walk_started")` etc.
+This singleton's only purpose is to lists signals that can be emitted and connected to. A "deeply" nested node like `$Game/Party/Godette/Walk` could then emit the appropriate signal directly using the global `Events` node: `Events.emit_signal("party_walk_started", {destination = destination})`. Other nested nodes could connect to these signals: `Events.connect("party_walk_started", self, "_on_Party_walk_started")` etc.
 
-This way, we can encapsulate signal connections in the related nodes instead of managing them in the code of some parent script, like `Game`.
-
+This way, we can encapsulate signal connections in the related nodes instead of managing them in the code of some parent script like `Game`.
