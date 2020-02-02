@@ -49,7 +49,7 @@
                 },
                 {
                     "concatenate_all": false,
-                    "is_towards_left": true
+                    "to_left": true
                 },
                 "Concatenate and select the next strip in the channel"
             ],
@@ -61,7 +61,7 @@
                 },
                 {
                     "concatenate_all": true,
-                    "is_towards_left": true
+                    "to_left": true
                 },
                 "Concatenate all strips in selected channels"
             ],
@@ -73,7 +73,7 @@
                 },
                 {
                     "concatenate_all": false,
-                    "is_towards_left": false
+                    "to_left": false
                 },
                 "Concatenate and select the previous strip in the channel towards the right"
             ],
@@ -86,7 +86,7 @@
                 },
                 {
                     "concatenate_all": true,
-                    "is_towards_left": false
+                    "to_left": false
                 },
                 "Shift Alt C; Concatenate all strips in channel towards the right"
             ]
@@ -131,7 +131,7 @@
     },
     "power_sequencer.crossfade_add": {
         "demo": "https://i.imgur.com/ZyEd0jD.gif",
-        "description": "*brief* Adds cross fade between selected sequence and the closest sequence to its right\n\nBased on the active strip, finds the closest next sequence of a similar type, moves it\nso it overlaps the active strip, and adds a gamma cross effect between them. Works with\nMOVIE, IMAGE and META strips",
+        "description": "*brief* Adds cross fade between selected sequence and the closest sequence to its right\n\n\nBased on the active strip, finds the closest next sequence of a similar type, moves it\nso it overlaps the active strip, and adds a gamma cross effect between them. Works with\nMOVIE, IMAGE and META strips",
         "keymap": "Sequencer",
         "name": "Crossfade Add",
         "shortcuts": [
@@ -281,7 +281,7 @@
     },
     "power_sequencer.fade_add": {
         "demo": "https://i.imgur.com/XoUM2vw.gif",
-        "description": "*brief* Adds or updates a fade animation for either visual or audio strips.\n\nFade options:\n\n- In, Out, In and Out create a fade animation of the given duration from\nthe start of the sequence, to the end of the sequence, or on boths sides\n- From playhead: the fade animation goes from the start of sequences under the playhead to the playhead\n- To playhead: the fade animation goes from the playhead to the end of sequences under the playhead\n\nBy default, the duration of the fade is 1 second.",
+        "description": "*brief* Adds or updates a fade animation for either visual or audio strips.\n\nFade options:\n\n- In, Out, In and Out create a fade animation of the given duration from\nthe start of the sequence, to the end of the sequence, or on both sides\n- From playhead: the fade animation goes from the start of sequences under the playhead to the playhead\n- To playhead: the fade animation goes from the playhead to the end of sequences under the playhead\n\nBy default, the duration of the fade is 1 second.",
         "keymap": "Sequencer",
         "name": "Fade Add",
         "shortcuts": [
@@ -503,6 +503,13 @@
             ]
         ]
     },
+    "power_sequencer.marker_go_to_next": {
+        "demo": "",
+        "description": "Moves the time cursor to the next marker",
+        "keymap": "Sequencer",
+        "name": "Marker Go To Next",
+        "shortcuts": []
+    },
     "power_sequencer.marker_snap_to_cursor": {
         "demo": "",
         "description": "Snap selected marker to the time cursor",
@@ -564,7 +571,7 @@
     },
     "power_sequencer.mouse_trim": {
         "demo": "https://i.imgur.com/wVvX4ex.gif",
-        "description": "*brief* Cut or Trim strips quickly with the mouse cursor\n\n\nClick somehwere in the Sequencer to insert a cut, click and drag to trim\nWith this function you can quickly cut and remove a section of strips while keeping or\ncollapsing the remaining gap.\nPress <kbd>Ctrl</kbd> to snap to cuts.\n\nA [video demo](https://youtu.be/GiLmDhmMVAM?t=1m35s) is available.",
+        "description": "*brief* Cut or Trim strips quickly with the mouse cursor\n\n\nClick somewehre in the Sequencer to insert a cut, click and drag to trim\nWith this function you can quickly cut and remove a section of strips while keeping or\ncollapsing the remaining gap.\nPress <kbd>Ctrl</kbd> to snap to cuts.\n\nA [video demo](https://youtu.be/GiLmDhmMVAM?t=1m35s) is available.",
         "keymap": "Sequencer",
         "name": "Mouse Trim",
         "shortcuts": [
@@ -739,7 +746,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "ONE",
+                    "type": "NUMPAD_1",
                     "value": "PRESS"
                 },
                 {
@@ -750,7 +757,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "TWO",
+                    "type": "NUMPAD_2",
                     "value": "PRESS"
                 },
                 {
@@ -761,7 +768,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "THREE",
+                    "type": "NUMPAD_3",
                     "value": "PRESS"
                 },
                 {
@@ -772,7 +779,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "FOUR",
+                    "type": "NUMPAD_4",
                     "value": "PRESS"
                 },
                 {
@@ -783,7 +790,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "FIVE",
+                    "type": "NUMPAD_5",
                     "value": "PRESS"
                 },
                 {
@@ -1066,7 +1073,7 @@
             [
                 {
                     "alt": true,
-                    "type": "TWO",
+                    "type": "NUMPAD_2",
                     "value": "PRESS"
                 },
                 {
@@ -1077,7 +1084,7 @@
             [
                 {
                     "alt": true,
-                    "type": "THREE",
+                    "type": "NUMPAD_3",
                     "value": "PRESS"
                 },
                 {
@@ -1088,7 +1095,7 @@
             [
                 {
                     "alt": true,
-                    "type": "FOUR",
+                    "type": "NUMPAD_4",
                     "value": "PRESS"
                 },
                 {
