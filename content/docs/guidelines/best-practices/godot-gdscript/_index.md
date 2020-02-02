@@ -27,15 +27,13 @@ The ideas in this article are inspired by best practices from a variety of langu
 
 Godot is mostly object-oriented and offers its own tools such as signals and the node tree to make objects communicate. As a result, it's not always easy to apply principles and techniques from other programming languages to it.
 
-This guideline is created with a few goals in mind:
-
-- Avoid coupling and having systems depend on (or break!) one another
-- Manage boundaries and the places where different game systems interact with one another
-- Keep the code readable while working as a team. Developers often spend more time reading code than writing it
-
 ## Code Writing Style
 
-GDQuest created these coding guidelines to be as concise as possible for fast access.
+We wrote these GDScript programming guidelines with a few goals in mind:
+
+- Avoid coupling and having systems depend on (or break!) one another.
+- Manage boundaries, that is to say, the places where different systems interact with one another.
+- Keep the code readable while working as a team. As developers, we spend more time reading code than writing it.
 
 ### In Short
 
@@ -102,16 +100,14 @@ func _on_state_changed(previous: Node, new: Node) -> void:
 Start with the optional `class_name` if needed. Then add the `extends` keyword if the class extends a built-in type. Following that, you should have the class's docstring:
 
 {{< highlight gdscript >}}
-# A brief description of the class's role and functionality
+# A brief description of the class's role and functionality.
 #
 # A longer description if needed, possibly of multiple paragraphs. Properties and method names
 # should be in backticks like so: `_process`, `x` etc.
 #
-# Notes
-# -----
-# Specific things that don't fit the class's description above.
+# You can use *markdown* in the docstrings.
 #
-# Keep lines under 100 characters long
+# Keep lines under 100 characters long.
 class_name MyNode
 extends Node
 {{< / highlight >}}
@@ -242,46 +238,52 @@ func _set_elements(elements: int) -> bool:
 
 ### Avoid `null` like the plague
 
-**Use `null` only if you're forced to**. Instead, think about alternatives to implement the same functionality with other types.
+**Use `null` only when you have to**. Instead, think about alternatives to implement the same functionality with other types.
 
 It's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
 
 {{% notice note %}}
-`None`, `null`, `NULL`, etc. references could be the biggest mistake in the history of computing. Here's an explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+`None`, `null`, `NULL`, and similar references could be the biggest mistake in the history of computing. Here's an explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
 {{% /notice %}}
 
 ### Use static types
 
-At the time of writing, static GDScript typing doesn't provide any performance boosts or any other compiler features. But it does bring better code completion and better error reporting and warnings. In the future, it should bring performance improvements as well.
+We use static types to help write more insightful code and help avoid errors.
 
-Be sure to check [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html) to get started with this language feature.
+At the time of writing, static typing doesn't provide any performance boosts in GDScript. But it gives you better code completion and error reporting. In the future, it should give you major performance improvements over dynamic code as well.
+
+To get started with GDScript's type hints, read [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html) in the official manual.
+
+#### Use type inference when possible
 
 Normally, you define typed variables like this:
 
 {{< highlight gdscript >}}
-var x: Vector2 = some_function_returning_Vector2(param1, param2)
+var direction: Vector2 = get_move_direction()
 {{< / highlight >}}
 
-But if `some_function_returning_Vector2` is also annotated with a return type, Godot can infer the type for us so we only need to add a colon after the variable's name:
+But if `get_move_direction` has a return type annotation, Godot can infer the type of the variable for us. In that case, we only need to add a colon after the variable's name:
 
 {{< highlight gdscript >}}
-func some_function_returning_Vector2(param1: int, param2: int) -> Vector2:
-  # do some work
-  return Vector2.ZERO
+func get_move_direction() -> Vector2:
+  var direction := Vector2(
+      ...
+  )
+  return direction
 
-var v := some_function_returning_Vector2(param1, param2) # The type is Vector2
+var direction := get_move_direction() # The variable's type is Vector2
 {{< / highlight >}}
 
 **Let Godot infer the type whenever you can**. It's less error prone because the system keeps better track of types than we humanly can. It also pushes us to have proper return values for all the functions and methods that we write.
 
-Since the static type system isn't enforced, sometimes we have to help it out. Take the following example:
+Since the compiler doesn't enforce static types, sometimes we have to help it out. Take the following example:
 
 {{< highlight gdscript >}}
-var arr := [1, 'test']
-var s: String = arr.pop_back()
+var array := [1, "Some text"]
+var text: String = array.pop_back()
 {{< / highlight >}}
 
-The `Array` type is a container for multiple different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var s := arr.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method should return.
+The `Array` can contain values with different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var text := array.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method should return.
 
 If we open the code reference with <kbd>Shift+F1</kbd> and search for the method, we see that:
 
@@ -290,9 +292,9 @@ Variant pop_back()
   Remove the last element of the array.
 ```
 
-`Variant` is a generic type that can hold any type Godot supports. That's why we have to explicitly write variable types when dealing with these functions: `var s: String = arr.pop_back()`.
+`Variant` is a generic type that can hold any type Godot supports. That's why we have to explicitly write variable types when dealing with these functions: `var text: String = arr.pop_back()`.
 
-You'll get the same issue with all built-in methods that return the engine's `Variant` type.
+You'll get this issue with all built-in methods that return the engine's `Variant` type.
 
 ### Write self-documenting code and use comments sparingly
 
@@ -371,14 +373,50 @@ The top-level folders include:
 
 **Never include spaces in the filenames**. Spaces can [cause issues with command line tools](//superuser.com/questions/29111/what-technical-reasons-exist-for-not-using-space-characters-in-file-names), which we use to automate tasks.
 
+We generally name files, variables, and classes starting with keywords that help group and distinguish similar elements.
+
+For example, instead of:
+
+```
+var walk_speed
+var run_speed
+var sprint_speed
+var max_speed
+```
+
+We favor:
+
+```
+var speed_walk
+var speed_run
+var speed_sprint
+var speed_max
+```
+
+This helps to group and find related variables through autocompletion. In this case, if you type `sp`, all four speed-related variables will appear in the completion menu.
+
 #### Naming in the src folder ####
 
 Use `PascalCase` for folder names in the `src` folder as they represent game systems or groups of systems.
 
-Scenes and script files also use `PascalCase` as they represent classes.
+Scenes and script files also use `PascalCase` as they represent classes. This is also how Godot names them by default:
+
+```
+Quests/
+  Quest.gd
+  Journal.gd
+  QuestDirector.gd
+```
 
 #### Naming in the assets folder ####
 
 Use lowercase for the folder names to distinguish them from the source code.
 
-Name the assets using `snake_case`.
+Name the assets using `snake_case`:
+
+```
+body.png
+arm_right.png
+sword_hit.ogg
+theme.tres
+```
