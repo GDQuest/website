@@ -18,6 +18,8 @@ Maintaining signal connections isn't the easiest in Godot, especially when wirin
 Since Godot 3.2, an icon in the script editor's margin indicates signal connections to a given function.
 {{% /notice %}}
 
+{{< youtube "S6PbC4Vqim4" >}}
+
 ### Connecting signals through the editor's node tab
 
 - You can see an icon next to nodes that are connected to another node in the scene tree.
