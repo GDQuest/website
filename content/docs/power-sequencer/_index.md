@@ -1,11 +1,14 @@
 +++
-date = "2018-01-04T19:46:48+01:00"
-description = "The Free Blender add-on for video editors"
-subtitle = "The Free Blender add-on for video editors"
 title = "Blender Power Sequencer"
+description = "The Free Blender add-on for video editors"
+
+date = "2018-01-04T19:46:48+01:00"
+
+chapter = true
+pre = "<b>4. </b>"
+
 weight = 5
 aliases = ["/blender/power-sequencer/"]
-
 +++
 
 ![Banner image](./banner-power-sequencer.png)

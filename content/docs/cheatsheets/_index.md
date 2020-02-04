@@ -2,10 +2,10 @@
 title = "Cheatsheets"
 
 chapter = true
-pre = "<b>4. </b>"
+pre = "<b>5. </b>"
 
 date = 2019-12-09T10:45:49+02:00
-weight = 4
+weight = 100
 +++
 
 
