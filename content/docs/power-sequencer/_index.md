@@ -8,7 +8,7 @@ chapter = true
 pre = "<b>4. </b>"
 
 weight = 5
-aliases = ["/blender/power-sequencer/"]
+aliases = ["/blender/power-sequencer/", "/docs/documentation/power-sequencer"]
 +++
 
 ![Banner image](./banner-power-sequencer.png)

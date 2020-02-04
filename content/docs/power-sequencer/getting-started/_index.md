@@ -5,6 +5,7 @@ author = "nathan"
 
 date = 2019-12-19T10:23:34+01:00
 weight = 0
+aliases = ["/docs/documentation/power-sequencer/getting-started"]
 +++
 
 This guide is here to get you started with Power Sequencer. It will show you time-saving features when editing with the add-on.
