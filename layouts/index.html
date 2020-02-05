@@ -15,13 +15,13 @@
     <h4>latest news</h4>
 
     <div class="grid split2 list">
-        {{ range first 2 (where .Site.RegularPages "Section" "post") }}
+        {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
 
     <div data-font="centered" class="base-top-margin">
-        <a href="/post" class="button">view all</a>
+        <a href="/news" class="button">view all</a>
     </div>
 </section>
 
