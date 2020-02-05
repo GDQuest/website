@@ -2,7 +2,7 @@
 title = "GSTAvoidCollisions"
 description = "Steers the agent to avoid obstacles in its path. Approximates obstacles as\n spheres."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -25,9 +25,7 @@ bool | func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
 
 ### \_report\_neighbor <small>(virtual)</small> ###
 
-```gdscript
-func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
-```
+{{< highlight gdscript  >}}func _report_neighbor(neighbor: GSTSteeringAgent) -> bool{{< / highlight >}}
 
 Callback for the proximity to call when finding neighbors. Keeps track of every `neighbor`
  that was found but only keeps the one the owning agent will most likely collide with.

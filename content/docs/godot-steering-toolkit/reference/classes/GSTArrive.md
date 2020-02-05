@@ -2,7 +2,7 @@
 title = "GSTArrive"
 description = "Calculates acceleration to take an agent to its target's location. The\n calculation attempts to arrive with zero remaining velocity."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -33,33 +33,25 @@ Type | Name
 
 ### target ###
 
-```gdscript
-var target: GSTAgentLocation
-```
+{{< highlight gdscript  >}}var target: GSTAgentLocation{{< / highlight >}}
 
 Target agent to arrive to.
 
 ### arrival\_tolerance ###
 
-```gdscript
-var arrival_tolerance: float
-```
+{{< highlight gdscript  >}}var arrival_tolerance: float{{< / highlight >}}
 
 Distance from the target for the agent to be considered successfully
  arrived.
 
 ### deceleration\_radius ###
 
-```gdscript
-var deceleration_radius: float
-```
+{{< highlight gdscript  >}}var deceleration_radius: float{{< / highlight >}}
 
 Distance from the target for the agent to begin slowing down.
 
 ### time\_to\_reach ###
 
-```gdscript
-var time_to_reach: float
-```
+{{< highlight gdscript  >}}var time_to_reach: float{{< / highlight >}}
 
 Represents the time it takes to change acceleration.

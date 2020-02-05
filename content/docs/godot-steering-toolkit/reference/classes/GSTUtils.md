@@ -2,7 +2,7 @@
 title = "GSTUtils"
 description = "Math and vector utility functions."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -26,17 +26,13 @@ Vector2 | func angle_to_vector2(angle: float) -> Vector2
 
 ### clampedv3 <small>(static)</small> ###
 
-```gdscript
-func clampedv3(vector: Vector3, limit: float) -> Vector3
-```
+{{< highlight gdscript  >}}func clampedv3(vector: Vector3, limit: float) -> Vector3{{< / highlight >}}
 
 Returns the `vector` with its length capped to `limit`.
 
 ### vector3\_to\_angle <small>(static)</small> ###
 
-```gdscript
-func vector3_to_angle(vector: Vector3) -> float
-```
+{{< highlight gdscript  >}}func vector3_to_angle(vector: Vector3) -> float{{< / highlight >}}
 
 Returns an angle in radians between the positive X axis and the `vector`.
 
@@ -45,9 +41,7 @@ Returns an angle in radians between the positive X axis and the `vector`.
 
 ### angle\_to\_vector2 <small>(static)</small> ###
 
-```gdscript
-func angle_to_vector2(angle: float) -> Vector2
-```
+{{< highlight gdscript  >}}func angle_to_vector2(angle: float) -> Vector2{{< / highlight >}}
 
 Returns a directional vector from the given orientation angle.
  

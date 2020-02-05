@@ -2,7 +2,7 @@
 title = "GSTRadiusProximity"
 description = "Determines any agent that is in the specified list as being neighbors with the owner agent if\n they lie within the specified radius."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -31,9 +31,7 @@ int | func _find_neighbors(callback: FuncRef) -> int
 
 ### radius ###
 
-```gdscript
-var radius: float
-```
+{{< highlight gdscript  >}}var radius: float{{< / highlight >}}
 
 The radius around the owning agent to find neighbors in
 
@@ -42,9 +40,7 @@ The radius around the owning agent to find neighbors in
 
 ### \_find\_neighbors <small>(virtual)</small> ###
 
-```gdscript
-func _find_neighbors(callback: FuncRef) -> int
-```
+{{< highlight gdscript  >}}func _find_neighbors(callback: FuncRef) -> int{{< / highlight >}}
 
 Returns a number of neighbors based on a `callback` function.
 

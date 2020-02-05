@@ -2,7 +2,7 @@
 title = "GSTSeparation"
 description = "Calculates an acceleration that repels the agent from its neighbors in the\n given `GSTProximity`.\n\n The acceleration is an average based on all neighbors, multiplied by a\n strength decreasing by the inverse square law in relation to distance, and it\n accumulates."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -35,9 +35,7 @@ bool | func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
 
 ### decay\_coefficient ###
 
-```gdscript
-var decay_coefficient: float
-```
+{{< highlight gdscript  >}}var decay_coefficient: float{{< / highlight >}}
 
 The coefficient to calculate how fast the separation strength decays with distance.
 
@@ -46,9 +44,7 @@ The coefficient to calculate how fast the separation strength decays with distan
 
 ### \_report\_neighbor <small>(virtual)</small> ###
 
-```gdscript
-func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
-```
+{{< highlight gdscript  >}}func _report_neighbor(neighbor: GSTSteeringAgent) -> bool{{< / highlight >}}
 
 Callback for the proximity to call when finding neighbors. Determines the amount of
  acceleration that `neighbor` imposes based on its distance from the owner agent.

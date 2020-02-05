@@ -2,7 +2,7 @@
 title = "GSTSteeringAgent"
 description = "Adds velocity, speed, and size data to `GSTAgentLocation`.\n\n It is the character's responsibility to keep this information up to date for\n the steering toolkit to work correctly."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -40,74 +40,56 @@ Type | Name
 
 ### zero\_linear\_speed\_threshold ###
 
-```gdscript
-var zero_linear_speed_threshold: float
-```
+{{< highlight gdscript  >}}var zero_linear_speed_threshold: float{{< / highlight >}}
 
 The amount of velocity to be considered effectively not moving.
 
 ### linear\_speed\_max ###
 
-```gdscript
-var linear_speed_max: float
-```
+{{< highlight gdscript  >}}var linear_speed_max: float{{< / highlight >}}
 
 The maximum speed at which the agent can move.
 
 ### linear\_acceleration\_max ###
 
-```gdscript
-var linear_acceleration_max: float
-```
+{{< highlight gdscript  >}}var linear_acceleration_max: float{{< / highlight >}}
 
 The maximum amount of acceleration that any behavior can apply to the agent.
 
 ### angular\_speed\_max ###
 
-```gdscript
-var angular_speed_max: float
-```
+{{< highlight gdscript  >}}var angular_speed_max: float{{< / highlight >}}
 
 The maximum amount of angular speed at which the agent can rotate.
 
 ### angular\_acceleration\_max ###
 
-```gdscript
-var angular_acceleration_max: float
-```
+{{< highlight gdscript  >}}var angular_acceleration_max: float{{< / highlight >}}
 
 The maximum amount of angular acceleration that any behavior can apply to an
  agent.
 
 ### linear\_velocity ###
 
-```gdscript
-var linear_velocity: Vector3
-```
+{{< highlight gdscript  >}}var linear_velocity: Vector3{{< / highlight >}}
 
 Current velocity of the agent.
 
 ### angular\_velocity ###
 
-```gdscript
-var angular_velocity: float
-```
+{{< highlight gdscript  >}}var angular_velocity: float{{< / highlight >}}
 
 Current angular velocity of the agent.
 
 ### bounding\_radius ###
 
-```gdscript
-var bounding_radius: float
-```
+{{< highlight gdscript  >}}var bounding_radius: float{{< / highlight >}}
 
 The radius of the sphere that approximates the agent's size in space.
 
 ### is\_tagged ###
 
-```gdscript
-var is_tagged: bool
-```
+{{< highlight gdscript  >}}var is_tagged: bool{{< / highlight >}}
 
 Used internally by group behaviors and proximities to mark the agent as already
  considered.

@@ -2,7 +2,7 @@
 title = "GSTSeek"
 description = "Calculates an acceleration to take an agent to a target agent's position\n directly."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -30,8 +30,6 @@ Type | Name
 
 ### target ###
 
-```gdscript
-var target: GSTAgentLocation
-```
+{{< highlight gdscript  >}}var target: GSTAgentLocation{{< / highlight >}}
 
 The target that the behavior aims to move the agent to.

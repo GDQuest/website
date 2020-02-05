@@ -2,7 +2,7 @@
 title = "GSTTargetAcceleration"
 description = "A desired linear and angular amount of acceleration requested by the steering\n system."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -35,17 +35,13 @@ float | func get_magnitude() -> float
 
 ### linear ###
 
-```gdscript
-var linear: Vector3
-```
+{{< highlight gdscript  >}}var linear: Vector3{{< / highlight >}}
 
 Linear acceleration
 
 ### angular ###
 
-```gdscript
-var angular: float
-```
+{{< highlight gdscript  >}}var angular: float{{< / highlight >}}
 
 Angular acceleration
 
@@ -54,32 +50,24 @@ Angular acceleration
 
 ### set\_zero ###
 
-```gdscript
-func set_zero() -> void
-```
+{{< highlight gdscript  >}}func set_zero() -> void{{< / highlight >}}
 
 Sets the linear and angular components to 0.
 
 ### add\_scaled\_accel ###
 
-```gdscript
-func add_scaled_accel(accel: GSTTargetAcceleration, scalar: float) -> void
-```
+{{< highlight gdscript  >}}func add_scaled_accel(accel: GSTTargetAcceleration, scalar: float) -> void{{< / highlight >}}
 
 Adds `accel`'s components, multiplied by `scalar`, to this one.
 
 ### get\_magnitude\_squared ###
 
-```gdscript
-func get_magnitude_squared() -> float
-```
+{{< highlight gdscript  >}}func get_magnitude_squared() -> float{{< / highlight >}}
 
 Returns the squared magnitude of the linear and angular components.
 
 ### get\_magnitude ###
 
-```gdscript
-func get_magnitude() -> float
-```
+{{< highlight gdscript  >}}func get_magnitude() -> float{{< / highlight >}}
 
 Returns the magnitude of the linear and angular components.

@@ -20,7 +20,7 @@ Our game is in 2D and assumed to be a top-down spaceship game.
 
 You can see the demo in action by running the `demos/QuickStartDemo.tscn` scene in Godot. 
 
-```gdscript
+{{< highlight gdscript >}}
 extends KinematicBody2D
 
 
@@ -195,4 +195,4 @@ func damage(amount: int) -> void:
     if current_health <= 0:
         queue_free()
 
-```
+{{< / highlight >}}

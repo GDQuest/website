@@ -2,7 +2,7 @@
 title = "GSTFollowPath"
 description = "Produces a linear acceleration that moves the agent along the specified path."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -32,33 +32,25 @@ Type | Name
 
 ### path ###
 
-```gdscript
-var path: GSTPath
-```
+{{< highlight gdscript  >}}var path: GSTPath{{< / highlight >}}
 
 The path to follow and travel along.
 
 ### path\_offset ###
 
-```gdscript
-var path_offset: float
-```
+{{< highlight gdscript  >}}var path_offset: float{{< / highlight >}}
 
 The distance along the path to generate the next target position.
 
 ### is\_arrive\_enabled ###
 
-```gdscript
-var is_arrive_enabled: bool
-```
+{{< highlight gdscript  >}}var is_arrive_enabled: bool{{< / highlight >}}
 
 Whether to use `GSTArrive` behavior on an open path.
 
 ### prediction\_time ###
 
-```gdscript
-var prediction_time: float
-```
+{{< highlight gdscript  >}}var prediction_time: float{{< / highlight >}}
 
 The amount of time in the future to predict the owning agent's position along
  the path. Setting it to 0.0 will force non-predictive path following.

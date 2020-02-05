@@ -2,7 +2,7 @@
 title = "GSTProximity"
 description = "Base container type that stores data to find the neighbors of an agent."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -31,17 +31,13 @@ int | func _find_neighbors(callback: FuncRef) -> int
 
 ### agent ###
 
-```gdscript
-var agent: GSTSteeringAgent
-```
+{{< highlight gdscript  >}}var agent: GSTSteeringAgent{{< / highlight >}}
 
 The owning agent whose neighbors are found in the group
 
 ### agents ###
 
-```gdscript
-var agents: Array
-```
+{{< highlight gdscript  >}}var agents: Array{{< / highlight >}}
 
 The agents who are part of this group and could be potential neighbors
 
@@ -50,9 +46,7 @@ The agents who are part of this group and could be potential neighbors
 
 ### \_find\_neighbors <small>(virtual)</small> ###
 
-```gdscript
-func _find_neighbors(callback: FuncRef) -> int
-```
+{{< highlight gdscript  >}}func _find_neighbors(callback: FuncRef) -> int{{< / highlight >}}
 
 Returns a number of neighbors based on a `callback` function.
 

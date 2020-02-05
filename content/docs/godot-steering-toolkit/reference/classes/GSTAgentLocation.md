@@ -2,7 +2,7 @@
 title = "GSTAgentLocation"
 description = "Represents an agent with only a location and an orientation."
 author = "razoric"
-date = "2020-02-04"
+date = "2020-02-05"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -30,16 +30,12 @@ Type | Name
 
 ### position ###
 
-```gdscript
-var position: Vector3
-```
+{{< highlight gdscript  >}}var position: Vector3{{< / highlight >}}
 
 The agent's position in space.
 
 ### orientation ###
 
-```gdscript
-var orientation: float
-```
+{{< highlight gdscript  >}}var orientation: float{{< / highlight >}}
 
 The agent's orientation on its Y axis rotation.
