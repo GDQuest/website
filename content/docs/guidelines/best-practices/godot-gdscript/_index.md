@@ -242,16 +242,6 @@ func _set_elements(elements: int) -> bool:
   return true
 {{< / highlight >}}
 
-### Avoid `null` like the plague
-
-**Use `null` only when you have to**. Instead, think about alternatives to implement the same functionality with other types.
-
-It's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
-
-{{% notice note %}}
-`None`, `null`, `NULL`, and similar references could be the biggest mistake in the history of computing. Here's an explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
-{{% /notice %}}
-
 ### Use static types
 
 We use static types to help write more insightful code and help avoid errors.
@@ -301,6 +291,30 @@ Variant pop_back()
 `Variant` is a generic type that can hold any type Godot supports. That's why we have to explicitly write variable types when dealing with these functions: `var text: String = arr.pop_back()`.
 
 You'll get this issue with all built-in methods that return the engine's `Variant` type.
+
+### Avoid `null` references
+
+**Use `null` only when you have to**. Instead, think about alternatives to implement the same functionality with other types.
+
+Using `null` is often a lost opportunity to have a value that makes sense instead, like `Vector2.ZERO`, or to simplify code, removing unnecessary state checks, i.e.:
+
+{{< highlight gdscript >}}
+if not variable:
+    return
+{{< / highlight >}}
+
+With type hints and type inference you will naturally avoid `null` though:
+
+{{< highlight gdscript >}}
+var speed := Vector2.ZERO
+var path := TrajectorySpline.new()
+{{< / highlight >}}
+
+It's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
+
+{{% notice note %}}
+`None`, `null`, `NULL`, and similar references could be the biggest mistake in the history of computing. Here's a detailed explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+{{% /notice %}}
 
 ### Write self-documenting code and use comments sparingly
 
