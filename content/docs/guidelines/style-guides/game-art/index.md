@@ -109,6 +109,16 @@ In summary:
 - Favor simplicity over complexity.
 - Abstract behavior through well-established concepts.
 
+## License ##
+
+All the assets in this guide are released under the CC-By Attribution 4.0 license. You can reuse and modify them however you'd like, under the following terms:
+
+> **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+You can do it like so:
+
+> GDQuest art assets [CC-By 4.0](https://creativecommons.org/licenses/by/4.0/) GDQuest, Pigdev, and contributors.
+
 ## Resources ##
 
 - Pear36: https://lospec.com/palette-list/pear36
