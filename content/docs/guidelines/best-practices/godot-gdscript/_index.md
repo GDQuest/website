@@ -71,6 +71,8 @@ func _physics_process(delta: float) -> void:
     state.physics_process(delta)
 
 
+# Replaces the current state with the state at `target_state_path` if the path
+# is valid. Passes the `msg` dictionary to the new state's `enter` function.
 func transition_to(target_state_path: String, msg: Dictionary = {}) -> void:
     if not has_node(target_state_path):
         return
@@ -93,7 +95,6 @@ func _on_state_changed(previous: Node, new: Node) -> void:
     print("state changed")
     emit_signal("state_changed")
 {{< / highlight >}}
-
 
 ### Code style ###
 
@@ -119,6 +120,11 @@ signal moved
 signal talk_started(parameter_name)
 signal talk_finished
 {{< / highlight >}}
+
+
+{{% notice note %}}
+From Godot 3.2, you can write docstrings above any property, signal, or function as a series of comments above their definition, and the GDScript language server will show them in the docs completion. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
+{{% / notice %}}
 
 After that enums, constants, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order.
 
