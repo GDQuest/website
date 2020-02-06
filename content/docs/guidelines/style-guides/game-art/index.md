@@ -1,21 +1,72 @@
-# GDQuest Art Guideline
++++
+title = "Game art style guide"
+menuTitle = "Art style guide"
+description = "This document describes an accessible art style to create game art efficiently. This is the style we use in our Godot tutorials."
+author = "henrique"
+date = "2020-02-06"
+weight = 5
++++
 
-In this guideline we aim to establish a visual language that communicates meaningful aspects for our game development teaching content. The art direction is mainly oriented towards flat design principles and focus on high distinguishability of the elements.
+This document describes an accessible art style to create game art efficiently. This is the style we use in our [Godot tutorials](https://youtu.be/Mc13Z2gboEk). It uses flat design to make the sprites read well.
 
-Below you'll be presented with graphically rich examples and a brief of the core design behind the use of the colors, shapes and types.  
-
-# Colors
-
-We are currently using the [Pear36 color palette](https://lospec.com/palette-list/pear36), a color rich palette with 36 very distinct colors.
 ![Landscape Platformer](samples/landscape-platformer.svg)
 
-- Use colors hierarchically: most important elements are bright, less important elements are dark
-- Use outlines to highlight the most important elements: Player, enemies, dangers
-- Rely on conventions: conventionally red conveys danger, notice how you can easily distinguish what can and what can't hurt the player just by the colors used: spikes, lava, the enemy (the orange blob)...
-- Use complementary colors to express relationships: the orange and the blue portals are two parts of the same system, the walls and floor are safe environment while the lava is unsafe, the player and the enemy are opposite entities...
-- Use light fill and lighter outlines for better contrast of important elements, also notice that not every element need outlines, some convey the necessary contrast purely based on their color relationships with other elements: the heart, the coins...
+We designed this visual language to be:
 
-# Shapes
+- **Clear**. The game should always read well.
+- **Colorful and appealing**. We want it to be warm and to attract the eye.
+- **Accessible** even to inexperienced digital artists. It relies on simple shapes and vector graphics.
+
+## Colors ##
+
+We use the [Pear36 color palette](https://lospec.com/palette-list/pear36) for all of our sprites. With 36 colors, it has enough to hues to distinguish most props in the game, and not so many colors it becomes hard to pick them.
+
+Here are some rules of thumbs to pick good colors.
+
+### Value contrast ###
+
+Use value contrast to make gameplay assets more visible than the background: 
+
+- Use bright tones for the characters, enemies, loot, and interactive objects.
+- Use darker tones for trees, the grass, houses, and everything that's part of the background.
+
+You should also use outlines to highlight important sprites.
+
+### Picking good hues ###
+
+You can use the natural hue of an element whenever possible, like orange and red for lava, or brown for a tree's trunk.
+
+However, there are many cases where colors are symbolic, like a green bar to represent the health of a character. In that case, look for references, and use common conventions:
+
+- Red is a good tone to convey danger, but also love or life, as in a red heart.
+- You can use green to represent health, healing, bonuses, or endurance.
+- Yellow stands out and works well for coins, but also indicators like an arrow that tells the player where to go, or a quest marker.
+
+There are no hard rules there. What matters is that the players understand the game from its graphics.
+
+{{% notice note %}}
+You may have seen infographics about [the meaning of colors](https://www.color-meanings.com/). Take them with a pinch of salt. The perception of colors varies between cultures and depends on the context. I've read multiple times that purple would be the color of royalty. But if you look at historical portraits or outfits of kings and queens, you'll find a lot of red, gold, beige, or black. These are the colors that come to my mind when thinking of "royalty."
+{{% / notice %}}
+
+### Complementary colors ###
+
+Complementary colors are colors that, when mixed, cancel out each other, turning out gray. On the computer, in the RGB color model, these colors correspond to hues that are opposite on the color wheel.
+
+{{< figure src="./img/complementary-colors.svg" alt="Star-shaped wheel representing complementary colors" title="Complementary color star used by the painters of the 19th century" caption="By Kwamikagami - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=43056011" >}}
+
+These colors offer a striking visual contrast. You can use them to express relationships between game elements: 
+
+- Orange and blue portals can be two parts of the same system.
+- Blue walls and floor can suggest a safe environment while the red lava reads as unsafe.
+- A green player and a purple enemy suggest opposite entities.
+
+### Use lighter outline colors ###
+
+With a dark background, a bright outline offers maximum visual contrast. That's why we use a lighter outline color compared to a sprite's fill.
+
+Not every element needs outlines. In the image at the top of this guide, the coins stand out thanks to their bright yellow fill.
+
+## Shapes ##
 
 Minimalism is the core of the shapes design, simplicity is core and helps distinguish each individual element.
 
@@ -25,7 +76,7 @@ Minimalism is the core of the shapes design, simplicity is core and helps distin
 - You can mix those characteristics to convey better meaning with slightly more complex shapes(see below): the meteors are 2 sized circles to easily distinguish their rotation, the players are notched triangles to communicate their look direction, bullets are capsules to convey movement...
 ![Topdown shooter](samples/landscape-topdown-shooter.svg)
 
-# Type
+## Type ##
 
 We are currently using *Montserrat Bold* font for most of the text used in game, it is a good *sans serif* font with enough weight to be readable and still maintain its place in the game screen's hierarchy.
 
@@ -38,7 +89,7 @@ Some interactive debug elements are better as transparent, allowing to immediate
 
 ![In game Debug Console](samples/debug-console.svg)
 
-# Conclusion
+## Conclusion ##
 
 With this in mind you can be as creative as necessary to express meaningful information without complexity and focus on teaching good game development concepts with quality visuals.
 ![Feature Rich Topdown Game Demo](samples/landscape-topdown-adventure.svg)
@@ -50,7 +101,7 @@ In sum:
 - Simplicity and elegance over complexity
 - High abstraction through conservative and well established concepts
 
-# Resources
+## Resources ##
 
 - Pear36: https://lospec.com/palette-list/pear36
 - Montserrat font family:https://fonts.google.com/specimen/Montserrat
@@ -59,9 +110,9 @@ In sum:
   - https://designmodo.com/flat-design-principles/
   - https://simplicable.com/new/flat-design
 
-# Elements
+## Elements ##
 
-| Name 	| Graphic 	|
+| Name  | Graphic   |
 |------	|:---------:	|
 |Topdown Player	|![](elements/topdown-player.svg)|
 |Topdown Player Selected|![](elements/topdown-player-selected.svg)|
@@ -82,9 +133,9 @@ In sum:
 |Projectile Enemy|![](elements/projectile-enemy.svg)|
 |Projectile Player|![](elements/projectile-player.svg)|
 
-# Samples
+## Samples ##
 
-| Name 	| Graphic 	|
+| Name  | Graphic   |
 |------	|:---------:|
 |Landscape Topdown Shooter|![](samples/landscape-topdown-shooter.svg)|
 |Landscape Platformer|![](samples/landscape-platformer2.svg)|
