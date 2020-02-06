@@ -110,7 +110,31 @@ In sum:
   - https://designmodo.com/flat-design-principles/
   - https://simplicable.com/new/flat-design
 
+## Samples ##
+
+Here are some game mockups based on this art style.
+
+{{< figure src="samples/landscape-topdown-shooter.svg" alt="Landscape Topdown Shooter" title="Landscape Topdown Shooter" >}}
+
+{{< figure src="samples/landscape-topdown.svg" alt="Landscape Topdown Strategy" title="Landscape Topdown Strategy" >}}
+
+{{< figure src="samples/main-screen.svg" alt="Main Screen" title="Main Screen" >}}
+
+{{< figure src="samples/ui-elements.svg" alt="Options Menu" title="Options Menu" >}}
+
+{{< figure src="samples/portrait-topdown-shooter.svg" alt="Mobile Topdown Shooter" title="Mobile Topdown Shooter" >}}
+
+{{< figure src="samples/portrait-platformer.svg" alt="Mobile Platformer" title="Mobile Platformer" >}}
+
+{{< figure src="samples/portrait-topdown-adventure.svg" alt="Mobile Topdown Adventure" title="Mobile Topdown Adventure" >}}
+
+{{< figure src="samples/debug-console.svg" alt="Debug Console" title="Debug Console" >}}
+
+{{< figure src="samples/topdown-debug.svg" alt="Topdown Debug Mode" title="Topdown Debug Mode" >}}
+
 ## Elements ##
+
+Below, you will find individual svg files you can use as a base to create game art in this art style.
 
 | Name  | Graphic   |
 |------	|:---------:	|
@@ -133,17 +157,3 @@ In sum:
 |Projectile Enemy|![](elements/projectile-enemy.svg)|
 |Projectile Player|![](elements/projectile-player.svg)|
 
-## Samples ##
-
-| Name  | Graphic   |
-|------	|:---------:|
-|Landscape Topdown Shooter|![](samples/landscape-topdown-shooter.svg)|
-|Landscape Platformer|![](samples/landscape-platformer2.svg)|
-|Landscape Topdown Strategy|![](samples/landscape-topdown.svg)|
-|Main Screen|![](samples/main-screen.svg)|
-|Options Menu|![](samples/ui-elements.svg)|
-|Portrait Topdown Shooter|![](samples/portrait-topdown-shooter.svg)|
-|Portrait Platformer|![](samples/portrait-platformer.svg)|
-|Portrait Topdown Adventure|![](samples/portrait-topdown-adventure.svg)|
-|Debug Console|![](samples/debug-console.svg)|
-|Topdown Debug Mode|![](samples/topdown-debug.svg)|
