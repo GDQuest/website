@@ -68,9 +68,9 @@ Not every element needs outlines. In the image at the top of this guide, the coi
 
 ## Shapes ##
 
-Minimalism is the core of the shapes design. Simplicity is important and helps distinguish each individual element.
+Minimalism is the core of the shapes' design. Simplicity is essential and helps distinguish each element.
 
-Reliable elements are usually represented by squares. Their behavior is predictable and consistent. You could use squares for the player, static platforms, floors, walls and even lava since its behavior is consistent.
+Squares usually represent reliable elements. Their behavior is predictable and consistent. You could use squares for the player, static platforms, floors, walls, and even lava since its surface is flat.
 
 Circles usually represent interactive elements such as coins, hearts, portals, or the top part of enemies since players can stomp them.
 
@@ -82,15 +82,15 @@ Take the following image:
 
 ![Topdown shooter](samples/landscape-topdown-shooter.svg)
 
-Here, the meteors are created from two differently sized circles to easily distinguish their rotation. The players are also notched triangles to communicate their look direction, bullets are capsules to convey movement.
+Here, the meteors are created from two differently sized circles to distinguish their rotation easily. The players are also notched triangles to communicate their look direction; bullets are capsules to convey movement.
 
 ## Type ##
 
-We are currently using *Montserrat Bold* font for most of the text used in game. It's a good *sans serif* font with enough weight to be readable while still maintaining its place in the game screen's hierarchy.
+We are currently using *Montserrat Bold* font for most of the text used in-game. It's a good *sans serif* font with enough weight to be readable while still maintaining its place in the game screen's hierarchy.
 
 ![Some UI Elements](samples/ui-elements.svg)
 
-While teaching, we often use debug elements that need to be readable yet distinguishable from in-game elements. This helps us properly explain technical information. For that we use a *monospace bold* font.
+While teaching, we often use debug elements that need to be readable yet distinguishable from in-game elements. This helps us properly explain technical information. For that, we use a *monospace bold* font.
 ![More Debug Elements](samples/topdown-debug.svg)
 
 Transparent debug elements allow us to show how our input affects the game instantly.
@@ -102,12 +102,12 @@ Transparent debug elements allow us to show how our input affects the game insta
 With this in mind, be as creative as necessary to express information without complexity. Focus on teaching good game development concepts with quality visuals.
 ![Feature Rich Topdown Game Demo](samples/landscape-topdown-adventure.svg)
 
-In sum:
+In summary:
 
-- Form follows function
-- Each element should be distinct and unique
-- Simplicity over complexity
-- Abstraction through well established concepts
+- Use the visuals to suggest function.
+- Each element should be distinct and unique.
+- Favor simplicity over complexity.
+- Abstract behavior through well-established concepts.
 
 ## Resources ##
 
