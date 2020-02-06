@@ -7,7 +7,7 @@ date = "2020-02-06"
 weight = 5
 +++
 
-This document describes an accessible art style to create game art efficiently. This is the style we use in our [Godot tutorials](https://youtu.be/Mc13Z2gboEk). It uses flat design to make the sprites read well.
+This document describes an accessible art style to create game art efficiently. This is the style we use in our [Godot tutorials](https://youtu.be/Mc13Z2gboEk). It uses a flat design to make the sprites read well.
 
 ![Landscape Platformer](samples/landscape-platformer.svg)
 
@@ -19,9 +19,9 @@ We designed this visual language to be:
 
 ## Colors ##
 
-We use the [Pear36 color palette](https://lospec.com/palette-list/pear36) for all of our sprites. With 36 colors, it has enough to hues to distinguish most props in the game, and not so many colors it becomes hard to pick them.
+We use the [Pear36 color palette](https://lospec.com/palette-list/pear36) for all of our sprites. With 36 colors, it has enough to hues to distinguish most props in the game, and not so many colors; it becomes hard to pick them.
 
-Here are some rules of thumbs to pick good colors.
+Here are some rules of thumbs to pick striking colors.
 
 ### Value contrast ###
 
@@ -30,15 +30,15 @@ Use value contrast to make gameplay assets more visible than the background:
 - Use bright tones for the characters, enemies, loot, and interactive objects.
 - Use darker tones for trees, the grass, houses, and everything that's part of the background.
 
-You should also use outlines to highlight important sprites.
+You should also use outlines to highlight foreground sprites.
 
 ### Picking good hues ###
 
 You can use the natural hue of an element whenever possible, like orange and red for lava, or brown for a tree's trunk.
 
-However, there are many cases where colors are symbolic, like a green bar to represent the health of a character. In that case, look for references, and use common conventions:
+However, there are many cases where colors are symbolic, like a green bar to represent the health of a character. In that case, look for references, and use standard conventions:
 
-- Red is a good tone to convey danger, but also love or life, as in a red heart.
+- Red is a great tone to convey danger, but also love or life, as in a red heart.
 - You can use green to represent health, healing, bonuses, or endurance.
 - Yellow stands out and works well for coins, but also indicators like an arrow that tells the player where to go, or a quest marker.
 
@@ -58,7 +58,7 @@ These colors offer a striking visual contrast. You can use them to express relat
 
 - Orange and blue portals can be two parts of the same system.
 - Blue walls and floor can suggest a safe environment while the red lava reads as unsafe.
-- A green player and a purple enemy suggest opposite entities.
+- A green player and a purple enemy indicate opposite characters.
 
 ### Use lighter outline colors ###
 
