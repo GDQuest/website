@@ -2,7 +2,7 @@
 title = "GSTArrive"
 description = "Calculates acceleration to take an agent to its target's location. The\n calculation attempts to arrive with zero remaining velocity."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -29,7 +29,6 @@ Type | Name
  --- | --- 
 
 ## Property Descriptions ##
-
 
 ### target ###
 

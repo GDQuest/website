@@ -2,7 +2,7 @@
 title = "GSTSeek"
 description = "Calculates an acceleration to take an agent to a target agent's position\n directly."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -26,7 +26,6 @@ Type | Name
  --- | --- 
 
 ## Property Descriptions ##
-
 
 ### target ###
 

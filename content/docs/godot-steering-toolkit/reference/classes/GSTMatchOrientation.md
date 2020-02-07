@@ -2,7 +2,7 @@
 title = "GSTMatchOrientation"
 description = "Calculates an angular acceleration to match an agent's orientation to that of\n its target. Attempts to make the agent arrive with zero remaining angular\n velocity."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -30,7 +30,6 @@ Type | Name
  --- | --- 
 
 ## Property Descriptions ##
-
 
 ### target ###
 

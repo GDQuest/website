@@ -2,7 +2,7 @@
 title = "GSTPursue"
 description = "Calculates an acceleration to make an agent intercept another based on the\n target agent's movement."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -27,7 +27,6 @@ Type | Name
  --- | --- 
 
 ## Property Descriptions ##
-
 
 ### target ###
 

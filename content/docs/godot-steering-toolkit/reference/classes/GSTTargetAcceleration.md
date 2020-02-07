@@ -2,7 +2,7 @@
 title = "GSTTargetAcceleration"
 description = "A desired linear and angular amount of acceleration requested by the steering\n system."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -32,7 +32,6 @@ float | func get_magnitude() -> float
 
 ## Property Descriptions ##
 
-
 ### linear ###
 
 {{< highlight gdscript  >}}var linear: Vector3{{< / highlight >}}
@@ -46,7 +45,6 @@ Linear acceleration
 Angular acceleration
 
 ## Method Descriptions ##
-
 
 ### set\_zero ###
 

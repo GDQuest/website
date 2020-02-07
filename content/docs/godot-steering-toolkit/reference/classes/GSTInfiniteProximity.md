@@ -2,7 +2,7 @@
 title = "GSTInfiniteProximity"
 description = "Determines any agent that is in the specified list as being neighbors with the\n owner agent, regardless of distance."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -21,7 +21,6 @@ Type | Name
 int | func _find_neighbors(callback: FuncRef) -> int
 
 ## Method Descriptions ##
-
 
 ### \_find\_neighbors <small>(virtual)</small> ###
 

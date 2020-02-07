@@ -2,7 +2,7 @@
 title = "GSTAvoidCollisions"
 description = "Steers the agent to avoid obstacles in its path. Approximates obstacles as\n spheres."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -21,7 +21,6 @@ Type | Name
 bool | func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
 
 ## Method Descriptions ##
-
 
 ### \_report\_neighbor <small>(virtual)</small> ###
 

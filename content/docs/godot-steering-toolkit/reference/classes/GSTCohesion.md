@@ -2,7 +2,7 @@
 title = "GSTCohesion"
 description = "Calculates an acceleration that attempts to move the agent towards the center\n of mass of the agents in the area defined by the `GSTProximity`."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -21,7 +21,6 @@ Type | Name
 bool | func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
 
 ## Method Descriptions ##
-
 
 ### \_report\_neighbor <small>(virtual)</small> ###
 

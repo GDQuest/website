@@ -2,7 +2,7 @@
 title = "GSTGroupBehavior"
 description = "Base type for group-based steering behaviors."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -27,7 +27,6 @@ bool | func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
 
 ## Property Descriptions ##
 
-
 ### proximity ###
 
 {{< highlight gdscript  >}}var proximity: GSTProximity{{< / highlight >}}
@@ -35,7 +34,6 @@ bool | func _report_neighbor(neighbor: GSTSteeringAgent) -> bool
 Container to find neighbors of the agent and calculate group behavior.
 
 ## Method Descriptions ##
-
 
 ### \_report\_neighbor <small>(virtual)</small> ###
 

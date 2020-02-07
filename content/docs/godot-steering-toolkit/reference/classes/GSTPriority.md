@@ -2,7 +2,7 @@
 title = "GSTPriority"
 description = "Container for multiple behaviors that returns the result of the first child\n behavior with non-zero acceleration."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -30,7 +30,6 @@ GSTSteeringBehavior | func get_behavior_at(index: int) -> GSTSteeringBehavior
 
 ## Property Descriptions ##
 
-
 ### last\_selected\_index ###
 
 {{< highlight gdscript  >}}var last_selected_index: int{{< / highlight >}}
@@ -45,7 +44,6 @@ If a behavior's acceleration is lower than this threshold, the container
  considers it has an acceleration of zero.
 
 ## Method Descriptions ##
-
 
 ### add ###
 

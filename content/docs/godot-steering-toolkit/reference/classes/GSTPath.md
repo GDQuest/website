@@ -2,7 +2,7 @@
 title = "GSTPath"
 description = "Represents a path made up of Vector3 waypoints, split into segments path\n follow behaviors can use."
 author = "razoric"
-date = "2020-02-05"
+date = "2020-02-07"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -33,7 +33,6 @@ Vector3 | func get_end_point() -> Vector3
 
 ## Property Descriptions ##
 
-
 ### is\_open ###
 
 {{< highlight gdscript  >}}var is_open: bool{{< / highlight >}}
@@ -47,7 +46,6 @@ If `false`, the path loops.
 Total length of the path.
 
 ## Method Descriptions ##
-
 
 ### create\_path ###
 
