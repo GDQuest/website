@@ -1,8 +1,8 @@
 {{ define "head_content" }}
 {{ partial "modules/banner" . }}
 <div class="grid split2 content">
-    <div class="small small-v-padding">
-        <h1 class="no-margin">{{.Title}}</h1>
+    <div class="small padding-v-small">
+        <h1 class="margin-none">{{.Title}}</h1>
     </div>
     {{ with .Params.banner }}
     <div class="big flex direction-col-reverse">
@@ -16,7 +16,7 @@
 
 {{ define "main" }}
 <section class="grid split2 container">
-    <nav class="small base-v-padding chapters">
+    <nav class="small padding-v-base chapters">
         <h3>chapters</h3>
         <ul>
             {{ range ( where .Sections "Type" "course_chapter" ) }}
@@ -25,14 +25,14 @@
         </ul>
     </nav>
 
-    <div class="big card bottom-half outline base-v-padding">
-        <div class="tiny-padding">
+    <div class="big card bottom-half outline padding-v-base">
+        <div class="padding-tiny">
             {{ .Content }}
         </div>
 
         <hr>
         <!-- chapter title -->
-        <div class="tiny-padding">
+        <div class="padding-tiny">
             <!-- Course duration -->
             <!-- <span data-font="dimmed small">Duration: min s </span> -->
             <p>{{ .Description | markdownify }}</p>
@@ -40,7 +40,7 @@
             <!-- Video list -->
             <ol class="collection">
               {{ range ( where .Pages "Type" "course_chapter" ) }}
-                <h2 id="{{ replace .Params.title " " "-" }}" class="no-margin"> {{ .Params.title }} </h2>
+                <h2 id="{{ replace .Params.title " " "-" }}" class="margin-none"> {{ .Params.title }} </h2>
                 {{ range (sort ( where .RegularPages "Type" "video" ) "Date") }}
                 <li class="item">
                     {{ if (isset .Params "videoid") }}
@@ -76,7 +76,7 @@
     {{ $related = $related | append . }}
   {{ end }}
 {{ end }}
-<section id="related" class="container big-v-padding">
+<section id="related" class="container padding-v-big">
     <h2>related products</h2>
     <div class="grid split2 list">
         {{ range first 2 $related }}
@@ -84,13 +84,13 @@
         {{ end }}
     </div>
 
-    <div data-font="centered" class="base-top-padding">
+    <div data-font="centered" class="padding-top-base">
         <a href="/product" class="button">view all</a>
     </div>
 </section>
 
 
-<section id="info" class="grid container center big-top-margin">
+<section id="info" class="grid container center margin-top-big">
     {{ with .Params.author }}
     {{ with (index $.Site.Data.authors . ) }}
     {{ partial "modules/author" . }}

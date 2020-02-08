@@ -1,8 +1,8 @@
 {{ define "head_content" }}
 <div class="fill header-bg header-bg-section"></div>
-<div class="grid split2 small-v-padding">
+<div class="grid split2 padding-v-small">
     <div>
-        <h1 class="no-margin">{{.Title}}</h1>
+        <h1 class="margin-none">{{.Title}}</h1>
         {{ with .Params.small }}
         <p>{{ . }}</p>
         {{ end }}
@@ -11,7 +11,7 @@
 {{ end }}
 
 {{ define "main" }}
-<section class="grid split2 container base-v-padding list">
+<section class="grid split2 container padding-v-base list">
     {{ range .Pages }}
 
     {{ if (.Resources.Match "banner") }}

@@ -3,7 +3,7 @@
 {{ partial "modules/banner" . }}
 
 <div>
-    <h1 class="no-margin">{{.Title}}</h1>
+    <h1 class="margin-none">{{.Title}}</h1>
     {{ with .Params.author }}
     {{ with (index $.Site.Data.authors . ) }}
     <p>by: {{ .name }} </p>
@@ -15,7 +15,7 @@
 
 
 {{ define "main" }}
-<section class="grid center container base-v-padding">
+<section class="grid center container padding-v-base">
     <article>
         {{ with (.Resources.GetMatch "banner") }}
         {{ if isset .Params "alt" }}

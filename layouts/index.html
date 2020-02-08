@@ -1,17 +1,17 @@
 {{ define "head_content" }}
 <div class="fill header-bg header-bg-home"></div>
-<div class="grid center big-v-padding">
+<div class="grid center padding-v-base">
     <div data-font="centered" style="z-index:1">
-        <h1 class="no-margin">Become a Game Designer</h1>
+        <h1 class="margin-none">Become a Game Designer</h1>
         <p>Learn professional techniques and create your own games with Free and Open Source Software</p>
-        <a href="/about" class="button base-top-margin">learn more</a>
+        <a href="/about" class="button margin-top-base">learn more</a>
     </div>
 </div>
 {{ end }}
 
 {{ define "main" }}
 
-<section id="latest_news" class="container big-top-margin">
+<section id="latest_news" class="container margin-v-big">
     <h4>latest news</h4>
 
     <div class="grid split2 list">
@@ -20,13 +20,13 @@
         {{ end }}
     </div>
 
-    <div data-font="centered" class="base-top-margin">
+    <div data-font="centered" class="margin-top-base">
         <a href="/news" class="button">view all</a>
     </div>
 </section>
 
 
-<section id="latest_series" class="container big-top-margin">
+<section id="latest_series" class="container margin-v-big">
     <h4>latest courses</h4>
 
     <div class="grid split2 list">
@@ -35,23 +35,23 @@
         {{ end }}
     </div>
 
-    <div data-font="centered" class="base-top-margin">
+    <div data-font="centered" class="margin-top-base">
         <a href="/tutorial" class="button">view all</a>
     </div>
 </section>
 
 
-<section id="tags" class="big-top-margin darkbg">
-    <div class="container base-v-padding">
-        <h3 data-font="centered" class="no-margin">Watch hundreds of free tutorials</h3>
+<section id="tags" class="margin-v-big darkbg">
+    <div class="container padding-v-base">
+        <h3 data-font="centered" class="margin-none">Watch hundreds of free tutorials</h3>
     </div>
 </section>
 
 <section id="software" class="">
-    <div class="container base-top-padding">
-        <h3 data-font="centered" class="no-margin">Work with the most advanced Free Software</h3>
+    <div class="container">
+        <h3 data-font="centered" class="margin-none">Work with the most advanced Free Software</h3>
 
-        <div class="grid split3 big-top-margin" data-font="centered">
+        <div class="grid split3 margin-v-big" data-font="centered">
             <div class="card outline">
                 <div class="content" style="background-color: #272b30;">
                     <img src="/img/home/godot_logo.png" alt="godot logo" style="width: auto;" width="140px" height="140px">
@@ -95,7 +95,7 @@
     </div>
 </section>
 
-<div class="grid center container base-top-margin">
+<div class="grid center container margin-v-base">
     {{ partial "modules/author" . }}
 </div>
 {{ end }}

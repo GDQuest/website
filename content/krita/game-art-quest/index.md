@@ -6,7 +6,7 @@ title = "Krita"
 +++
 
 
-<div class="card outline base-bottom-margin darkbg">
+<div class="card outline margin-bottom-base darkbg">
   <img src="krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials">
 
   <div class="content">

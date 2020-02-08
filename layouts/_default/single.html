@@ -2,9 +2,9 @@
 
 {{ partial "modules/banner" . }}
 
-<div class="grid center small-v-padding content">
+<div class="grid center padding-v-small content">
     <div>
-        <h1 class="no-margin">{{.Title}}</h1>
+        <h1 class="margin-none">{{.Title}}</h1>
         {{ with .Params.small }}
         <p>{{ . }}</p>
         {{ end }}
@@ -21,7 +21,7 @@
 
 {{ define "main" }}
 <div class="grid center container">
-    <article class="base-v-padding">
+    <article class="padding-v-base">
         {{ with .Params.banner }}
         <img src="{{ .src }}" alt="{{ .alt }}">
         {{ end }}

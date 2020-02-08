@@ -7,10 +7,10 @@
 
 {{ partial "modules/banner" ($.Scratch.Get "course_page") }}
 
-<div class="grid split2 small-v-padding content">
+<div class="grid split2 padding-v-small content">
     <div class="big">
         <i data-font="dimmed">{{.Parent.Parent.Title}}</i> / {{.CurrentSection.Title}}
-        <h1 class="no-margin">{{.Title}}</h1>
+        <h1 class="margin-none">{{.Title}}</h1>
         {{ with .Params.author }}
         {{ with (index $.Site.Data.authors . ) }}
         <p>by: {{ .name }}</p>
@@ -28,7 +28,7 @@
 
 <div class="grid split2 container">
     <input type="checkbox" name="toc_toggle" id="toc_toggle" class="hidden">
-    <label for="toc_toggle" id="toc_toggle_label"><a class="button flat full base-top-margin">index</a></label>
+    <label for="toc_toggle" id="toc_toggle_label"><a class="button flat full margin-top-base">index</a></label>
 
     <aside class="small side-menu" id="toc">
         <h4>{{$course_page.Title}}</h4>
@@ -67,7 +67,7 @@
     {{ $next = (index $pages (add $pindex 1)) }}
     {{ end }}
 
-    <article class="base-v-padding big">
+    <article class="padding-v-base big">
         {{ with .Params.banner }}
         <img src="{{ .src }}" alt="{{ .alt }}">
         {{ end }}
@@ -76,19 +76,19 @@
         {{ partial "modules/video_youtube" . }}
         {{ end }}
 
-        <div class="big-bottom-margin base-top-margin">
+        <div class="margin-bottom-big margin-top-base">
             {{ with .Description }}
             {{ . }}
             {{ end }}
 
             {{ with .Content }}
-            <div class="big-top-margin">
+            <div class="margin-top-big">
                 {{ . }}
             </div>
             {{ end }}
 
             {{ with .Resources }}
-            <section id="resources" class="big-v-margin">
+            <section id="resources" class="margin-v-big">
                 <h4>Resources</h4>
                 {{ $res := union (where . "ResourceType" "ne" "image") (where . "ResourceType" "eq" "image") }}
                 {{ range $res }}
@@ -109,7 +109,7 @@
             </section>
             {{ end}}
 
-            <div class="big-top-margin">
+            <div class="margin-top-big">
                 <hr>
                 <div class="flex justify-space-between">
                     {{ if ne $prev -1 }}

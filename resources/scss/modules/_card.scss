@@ -2,7 +2,7 @@
     border: 1px solid $base-border-color;
 }
 
-@mixin card-horizontal-padding {
+@mixin padding-h-card {
     padding-left: $spacing-tiny;
     padding-right: $spacing-tiny;
 }
@@ -82,6 +82,6 @@
     aside.chapters {
         @include card-outline;
         @include card-middle;
-        @include card-horizontal-padding;
+        @include padding-h-card;
     }
 }
