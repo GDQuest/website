@@ -1,4 +1,4 @@
-{{ define "head_content" }}
+{{ define "header_content" }}
 {{ if eq .CurrentSection.Parent.Type "course" }}
 {{ $.Scratch.Set "course_page" .CurrentSection.Parent }}
 {{ else if eq .Parent.Type "course"}}

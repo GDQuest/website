@@ -1,13 +1,5 @@
-{{ define "head_content" }}
-<div class="fill header-bg header-bg-section"></div>
-<div class="grid split2 padding-v-small">
-    <div>
-        <h1 class="margin-none">{{.Title}}</h1>
-        {{ with .Params.small }}
-        <p>{{ . }}</p>
-        {{ end }}
-    </div>
-</div>
+{{ define "header_content" }}
+    {{ partial "components/section-header" . }}
 {{ end }}
 
 {{ define "main" }}
