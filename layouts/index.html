@@ -10,58 +10,49 @@
 {{ end }}
 
 {{ define "main" }}
-
-<section id="latest_news" class="container margin-v-big">
+<section class="container margin-v-big">
     <h4>latest news</h4>
-
     <div class="grid split2 list">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
-
     <div data-font="centered" class="margin-top-base">
         <a href="/news" class="button">view all</a>
     </div>
 </section>
 
-
-<section id="latest_series" class="container margin-v-big">
-    <h4>latest courses</h4>
-
+<section class="container margin-v-big">
+    <h4>Latest courses</h4>
     <div class="grid split2 list">
         {{ range first 2 (where (where .Site.RegularPages "Type" "in" (split "course tut" " ")) "Section" "tutorial") }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
-
     <div data-font="centered" class="margin-top-base">
         <a href="/tutorial" class="button">view all</a>
     </div>
 </section>
 
-
-<section id="tags" class="margin-v-big darkbg">
+<section class="margin-v-big darkbg">
     <div class="container padding-v-base">
         <h3 data-font="centered" class="margin-none">Watch hundreds of free tutorials</h3>
     </div>
 </section>
 
-<section id="software" class="">
+<section>
     <div class="container">
         <h3 data-font="centered" class="margin-none">Work with the most advanced Free Software</h3>
-
         <div class="grid split3 margin-v-big" data-font="centered">
             <div class="card outline">
                 <div class="content" style="background-color: #272b30;">
                     <img src="/img/home/godot_logo.png" alt="godot logo" style="width: auto;" width="140px" height="140px">
                 </div>
                 <div class="content">
-
                     <h5>Godot</h5>
                     <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
                     <div data-font="centered">
-                        <a href="https://godotengine.org/" class="button">Learn more</a>
+                        <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -70,11 +61,10 @@
                     <img src="/img/home/krita_logo.png" alt="krita logo" style="width: auto;" width="140px" height="140px">
                 </div>
                 <div class="content">
-
                     <h5>Krita</h5>
                     <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
                     <div data-font="centered">
-                        <a href="https://krita.org/" class="button">Learn more</a>
+                        <a href="https://www.youtube.com/watch?v=ZbnQn6h5q0g" class="button">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +73,6 @@
                     <img src="/img/home/blender_logo.png" alt="blender logo" style="width: auto;" width="140px" height="140px">
                 </div>
                 <div class="content">
-
                     <h5>blender</h5>
                     <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
                     <div data-font="centered">
@@ -94,8 +83,4 @@
         </div>
     </div>
 </section>
-
-<div class="grid center container margin-v-base">
-    {{ partial "modules/author" . }}
-</div>
 {{ end }}
