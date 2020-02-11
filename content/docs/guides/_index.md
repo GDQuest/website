@@ -8,7 +8,7 @@ date = 2019-12-09T14:17:00+02:00
 weight = 1
 +++
 
-# Chapter 1: Guides
+# Guides #
 
 Learning by yourself can be tough. It's hard to know where to start.
 

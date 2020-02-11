@@ -9,6 +9,6 @@ weight = 100
 +++
 
 
-# Chapter 4: Cheatsheets
+# Cheatsheets #
 
 This section contains our cheat sheets, lists of shortcuts and tricks we use to work efficiently.
