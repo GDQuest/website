@@ -4,14 +4,15 @@ description = "The Free Blender add-on for video editors"
 
 date = "2018-01-04T19:46:48+01:00"
 
-chapter = true
+chapter = false
 pre = "<b>4. </b>"
 
 weight = 5
 aliases = ["/blender/power-sequencer/", "/docs/documentation/power-sequencer"]
 +++
 
-![Banner image](./banner-power-sequencer.png)
+![Banner image](./blender-power-sequencer-banner.svg)
+
 
 At GDQuest we edit all of our videos with [Blender](https://www.blender.org/). It's a powerful tool, but its default workflow can feel a little slow.
 
