@@ -1,14 +1,13 @@
 +++
-title = "GSTSeek"
+title = "GSAISeek"
 description = "Calculates an acceleration to take an agent to a target agent's position\n directly."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstseek/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringBehavior
+**Extends:** GSAISteeringBehavior
 
 ## Description ##
 
@@ -19,7 +18,7 @@ Calculates an acceleration to take an agent to a target agent's position
 
 Type | Name
  --- | --- 
-GSTAgentLocation | target
+GSAIAgentLocation | target
 
 ## Methods ##
 
@@ -30,6 +29,6 @@ Type | Name
 
 ### target ###
 
-{{< highlight gdscript  >}}var target: GSTAgentLocation{{< / highlight >}}
+{{< highlight gdscript  >}}var target: GSAIAgentLocation{{< / highlight >}}
 
 The target that the behavior aims to move the agent to.

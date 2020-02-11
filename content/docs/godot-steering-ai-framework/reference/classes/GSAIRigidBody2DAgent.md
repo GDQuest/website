@@ -1,14 +1,13 @@
 +++
-title = "GSTRigidBody2DAgent"
+title = "GSAIRigidBody2DAgent"
 description = "A specialized steering agent that updates itself every frame so the user does\n not have to using a RigidBody2D"
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstrigidbody2dagent/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSpecializedAgent
+**Extends:** GSAISpecializedAgent
 
 ## Description ##
 
@@ -25,7 +24,7 @@ RigidBody2D | body
 
 Type | Name
  --- | --- 
-void | func _apply_steering(acceleration: GSTTargetAcceleration, delta: float) -> void
+void | func _apply_steering(acceleration: GSAITargetAcceleration, _delta: float) -> void
 
 ## Property Descriptions ##
 
@@ -41,6 +40,6 @@ The RigidBody2D to keep track of
 
 ### \_apply\_steering <small>(virtual)</small> ###
 
-{{< highlight gdscript  >}}func _apply_steering(acceleration: GSTTargetAcceleration, delta: float) -> void{{< / highlight >}}
+{{< highlight gdscript  >}}func _apply_steering(acceleration: GSAITargetAcceleration, _delta: float) -> void{{< / highlight >}}
 
 Moves the agent's `body` by target `acceleration`.

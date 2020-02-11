@@ -1,14 +1,13 @@
 +++
-title = "GSTBlend"
-description = "Blends multiple steering behaviors into one, and returns a weighted\n acceleration from their calculations.\n\n Stores the behaviors internally as dictionaries of the form\n {\n 	behavior : GSTSteeringBehavior,\n 	weight : float\n }"
+title = "GSAIBlend"
+description = "Blends multiple steering behaviors into one, and returns a weighted\n acceleration from their calculations.\n\n Stores the behaviors internally as dictionaries of the form\n {\n 	behavior : GSAISteeringBehavior,\n 	weight : float\n }"
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstblend/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringBehavior
+**Extends:** GSAISteeringBehavior
 
 ## Description ##
 
@@ -17,7 +16,7 @@ Blends multiple steering behaviors into one, and returns a weighted
 
  Stores the behaviors internally as dictionaries of the form
  {
- 	behavior : GSTSteeringBehavior,
+ 	behavior : GSAISteeringBehavior,
  	weight : float
  }
 
@@ -25,14 +24,14 @@ Blends multiple steering behaviors into one, and returns a weighted
 
 Type | Name
  --- | --- 
-void | func add(behavior: GSTSteeringBehavior, weight: float) -> void
+void | func add(behavior: GSAISteeringBehavior, weight: float) -> void
 Dictionary | func get_behavior_at(index: int) -> Dictionary
 
 ## Method Descriptions ##
 
 ### add ###
 
-{{< highlight gdscript  >}}func add(behavior: GSTSteeringBehavior, weight: float) -> void{{< / highlight >}}
+{{< highlight gdscript  >}}func add(behavior: GSAISteeringBehavior, weight: float) -> void{{< / highlight >}}
 
 Appends a behavior to the internal array along with its `weight`.
 

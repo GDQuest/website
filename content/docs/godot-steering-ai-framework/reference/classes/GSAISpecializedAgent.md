@@ -1,14 +1,13 @@
 +++
-title = "GSTSpecializedAgent (abstract)"
+title = "GSAISpecializedAgent (abstract)"
 description = "A base class for a specialized steering agent that updates itself every frame\n so the user does not have to. All other specialized agents derive from this."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstspecializedagent/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringAgent
+**Extends:** GSAISteeringAgent
 
 ## Description ##
 
@@ -29,7 +28,7 @@ float | angular_drag_percentage
 
 Type | Name
  --- | --- 
-void | func _apply_steering(acceleration: GSTTargetAcceleration, delta: float) -> void
+void | func _apply_steering(_acceleration: GSAITargetAcceleration, _delta: float) -> void
 
 ## Property Descriptions ##
 
@@ -44,16 +43,16 @@ If `true`, calculates linear and angular velocities based on the previous
 
 {{< highlight gdscript  >}}var apply_linear_drag: bool{{< / highlight >}}
 
-If `true` and `calculate_velocities` is true, interpolates
- the current linear velocity towards 0 by the `linear_drag_percentage` value.
+If `true`, interpolates the current linear velocity towards 0 by the 
+ `linear_drag_percentage` value.
  Does not apply to `RigidBody` and `RigidBody2D` nodes.
 
 ### apply\_angular\_drag ###
 
 {{< highlight gdscript  >}}var apply_angular_drag: bool{{< / highlight >}}
 
-If `true` and `calculate_velocities` is true, interpolates
- the current angular velocity towards 0 by the `angular_drag_percentage` value.
+If `true`, interpolates the current angular velocity towards 0 by the
+ `angular_drag_percentage` value.
  Does not apply to `RigidBody` and `RigidBody2D` nodes.
 
 ### linear\_drag\_percentage ###
@@ -61,7 +60,7 @@ If `true` and `calculate_velocities` is true, interpolates
 {{< highlight gdscript  >}}var linear_drag_percentage: float{{< / highlight >}}
 
 The percentage between the current linear velocity and 0 to interpolate by if
- `calculate_velocities` and `apply_linear_drag` are true.
+ `apply_linear_drag` is true.
  Does not apply to `RigidBody` and `RigidBody2D` nodes.
 
 ### angular\_drag\_percentage ###
@@ -69,13 +68,13 @@ The percentage between the current linear velocity and 0 to interpolate by if
 {{< highlight gdscript  >}}var angular_drag_percentage: float{{< / highlight >}}
 
 The percentage between the current angular velocity and 0 to interpolate by if
- `calculate_velocities` and `apply_angular_drag` are true.
+ `apply_angular_drag` is true.
  Does not apply to `RigidBody` and `RigidBody2D` nodes.
 
 ## Method Descriptions ##
 
 ### \_apply\_steering <small>(virtual)</small> ###
 
-{{< highlight gdscript  >}}func _apply_steering(acceleration: GSTTargetAcceleration, delta: float) -> void{{< / highlight >}}
+{{< highlight gdscript  >}}func _apply_steering(_acceleration: GSAITargetAcceleration, _delta: float) -> void{{< / highlight >}}
 
 Moves the agent's body by target `acceleration`.

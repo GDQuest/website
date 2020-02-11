@@ -1,14 +1,13 @@
 +++
-title = "GSTFollowPath"
+title = "GSAIFollowPath"
 description = "Produces a linear acceleration that moves the agent along the specified path."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstfollowpath/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTArrive
+**Extends:** GSAIArrive
 
 ## Description ##
 
@@ -18,7 +17,7 @@ Produces a linear acceleration that moves the agent along the specified path.
 
 Type | Name
  --- | --- 
-GSTPath | path
+GSAIPath | path
 float | path_offset
 bool | is_arrive_enabled
 float | prediction_time
@@ -32,7 +31,7 @@ Type | Name
 
 ### path ###
 
-{{< highlight gdscript  >}}var path: GSTPath{{< / highlight >}}
+{{< highlight gdscript  >}}var path: GSAIPath{{< / highlight >}}
 
 The path to follow and travel along.
 
@@ -46,7 +45,7 @@ The distance along the path to generate the next target position.
 
 {{< highlight gdscript  >}}var is_arrive_enabled: bool{{< / highlight >}}
 
-Whether to use `GSTArrive` behavior on an open path.
+Whether to use `GSAIArrive` behavior on an open path.
 
 ### prediction\_time ###
 

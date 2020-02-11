@@ -1,14 +1,13 @@
 +++
-title = "GSTArrive"
+title = "GSAIArrive"
 description = "Calculates acceleration to take an agent to its target's location. The\n calculation attempts to arrive with zero remaining velocity."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstarrive/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringBehavior
+**Extends:** GSAISteeringBehavior
 
 ## Description ##
 
@@ -19,7 +18,7 @@ Calculates acceleration to take an agent to its target's location. The
 
 Type | Name
  --- | --- 
-GSTAgentLocation | target
+GSAIAgentLocation | target
 float | arrival_tolerance
 float | deceleration_radius
 float | time_to_reach
@@ -33,7 +32,7 @@ Type | Name
 
 ### target ###
 
-{{< highlight gdscript  >}}var target: GSTAgentLocation{{< / highlight >}}
+{{< highlight gdscript  >}}var target: GSAIAgentLocation{{< / highlight >}}
 
 Target agent to arrive to.
 

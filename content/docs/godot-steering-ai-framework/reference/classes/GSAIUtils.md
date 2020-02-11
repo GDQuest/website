@@ -1,9 +1,8 @@
 +++
-title = "GSTUtils"
+title = "GSAIUtils"
 description = "Math and vector utility functions."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstutils/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->

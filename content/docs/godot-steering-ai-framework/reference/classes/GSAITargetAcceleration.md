@@ -1,9 +1,8 @@
 +++
-title = "GSTTargetAcceleration"
+title = "GSAITargetAcceleration"
 description = "A desired linear and angular amount of acceleration requested by the steering\n system."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gsttargetacceleration/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -27,7 +26,7 @@ float | angular
 Type | Name
  --- | --- 
 void | func set_zero() -> void
-void | func add_scaled_accel(accel: GSTTargetAcceleration, scalar: float) -> void
+void | func add_scaled_accel(accel: GSAITargetAcceleration, scalar: float) -> void
 float | func get_magnitude_squared() -> float
 float | func get_magnitude() -> float
 
@@ -55,7 +54,7 @@ Sets the linear and angular components to 0.
 
 ### add\_scaled\_accel ###
 
-{{< highlight gdscript  >}}func add_scaled_accel(accel: GSTTargetAcceleration, scalar: float) -> void{{< / highlight >}}
+{{< highlight gdscript  >}}func add_scaled_accel(accel: GSAITargetAcceleration, scalar: float) -> void{{< / highlight >}}
 
 Adds `accel`'s components, multiplied by `scalar`, to this one.
 

@@ -1,14 +1,13 @@
 +++
-title = "GSTRadiusProximity"
+title = "GSAIRadiusProximity"
 description = "Determines any agent that is in the specified list as being neighbors with the owner agent if\n they lie within the specified radius."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstradiusproximity/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTProximity
+**Extends:** GSAIProximity
 
 ## Description ##
 

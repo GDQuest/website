@@ -1,14 +1,13 @@
 +++
-title = "GSTInfiniteProximity"
+title = "GSAIInfiniteProximity"
 description = "Determines any agent that is in the specified list as being neighbors with the\n owner agent, regardless of distance."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstinfiniteproximity/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTProximity
+**Extends:** GSAIProximity
 
 ## Description ##
 

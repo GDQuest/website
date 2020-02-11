@@ -1,9 +1,8 @@
 +++
-title = "GSTPath"
+title = "GSAIPath"
 description = "Represents a path made up of Vector3 waypoints, split into segments path\n follow behaviors can use."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstpath/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->

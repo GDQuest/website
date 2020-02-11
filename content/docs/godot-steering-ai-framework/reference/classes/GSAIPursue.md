@@ -1,14 +1,13 @@
 +++
-title = "GSTPursue"
+title = "GSAIPursue"
 description = "Calculates an acceleration to make an agent intercept another based on the\n target agent's movement."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstpursue/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringBehavior
+**Extends:** GSAISteeringBehavior
 
 ## Description ##
 
@@ -19,7 +18,7 @@ Calculates an acceleration to make an agent intercept another based on the
 
 Type | Name
  --- | --- 
-GSTSteeringAgent | target
+GSAISteeringAgent | target
 float | predict_time_max
 
 ## Methods ##
@@ -31,7 +30,7 @@ Type | Name
 
 ### target ###
 
-{{< highlight gdscript  >}}var target: GSTSteeringAgent{{< / highlight >}}
+{{< highlight gdscript  >}}var target: GSAISteeringAgent{{< / highlight >}}
 
 The target agent that the behavior is trying to intercept.
 

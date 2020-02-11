@@ -1,14 +1,13 @@
 +++
-title = "GSTPriority"
+title = "GSAIPriority"
 description = "Container for multiple behaviors that returns the result of the first child\n behavior with non-zero acceleration."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstpriority/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringBehavior
+**Extends:** GSAISteeringBehavior
 
 ## Description ##
 
@@ -26,8 +25,8 @@ float | zero_threshold
 
 Type | Name
  --- | --- 
-void | func add(behavior: GSTSteeringBehavior) -> void
-GSTSteeringBehavior | func get_behavior_at(index: int) -> GSTSteeringBehavior
+void | func add(behavior: GSAISteeringBehavior) -> void
+GSAISteeringBehavior | func get_behavior_at(index: int) -> GSAISteeringBehavior
 
 ## Property Descriptions ##
 
@@ -48,13 +47,13 @@ If a behavior's acceleration is lower than this threshold, the container
 
 ### add ###
 
-{{< highlight gdscript  >}}func add(behavior: GSTSteeringBehavior) -> void{{< / highlight >}}
+{{< highlight gdscript  >}}func add(behavior: GSAISteeringBehavior) -> void{{< / highlight >}}
 
 Appends a steering behavior as a child of this container.
 
 ### get\_behavior\_at ###
 
-{{< highlight gdscript  >}}func get_behavior_at(index: int) -> GSTSteeringBehavior{{< / highlight >}}
+{{< highlight gdscript  >}}func get_behavior_at(index: int) -> GSAISteeringBehavior{{< / highlight >}}
 
 Returns the behavior at the position in the pool referred to by `index`, or
  `null` if no behavior was found.

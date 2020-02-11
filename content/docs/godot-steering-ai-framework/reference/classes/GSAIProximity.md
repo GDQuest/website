@@ -1,9 +1,8 @@
 +++
-title = "GSTProximity"
+title = "GSAIProximity"
 description = "Base container type that stores data to find the neighbors of an agent."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstproximity/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -18,20 +17,20 @@ Base container type that stores data to find the neighbors of an agent.
 
 Type | Name
  --- | --- 
-GSTSteeringAgent | agent
+GSAISteeringAgent | agent
 Array | agents
 
 ## Methods ##
 
 Type | Name
  --- | --- 
-int | func _find_neighbors(callback: FuncRef) -> int
+int | func _find_neighbors(_callback: FuncRef) -> int
 
 ## Property Descriptions ##
 
 ### agent ###
 
-{{< highlight gdscript  >}}var agent: GSTSteeringAgent{{< / highlight >}}
+{{< highlight gdscript  >}}var agent: GSAISteeringAgent{{< / highlight >}}
 
 The owning agent whose neighbors are found in the group
 
@@ -45,7 +44,7 @@ The agents who are part of this group and could be potential neighbors
 
 ### \_find\_neighbors <small>(virtual)</small> ###
 
-{{< highlight gdscript  >}}func _find_neighbors(callback: FuncRef) -> int{{< / highlight >}}
+{{< highlight gdscript  >}}func _find_neighbors(_callback: FuncRef) -> int{{< / highlight >}}
 
 Returns a number of neighbors based on a `callback` function.
 

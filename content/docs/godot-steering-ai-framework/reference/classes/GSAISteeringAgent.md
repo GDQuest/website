@@ -1,18 +1,17 @@
 +++
-title = "GSTSteeringAgent"
-description = "Adds velocity, speed, and size data to `GSTAgentLocation`.\n\n It is the character's responsibility to keep this information up to date for\n the steering toolkit to work correctly."
+title = "GSAISteeringAgent"
+description = "Adds velocity, speed, and size data to `GSAIAgentLocation`.\n\n It is the character's responsibility to keep this information up to date for\n the steering toolkit to work correctly."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gststeeringagent/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTAgentLocation
+**Extends:** GSAIAgentLocation
 
 ## Description ##
 
-Adds velocity, speed, and size data to `GSTAgentLocation`.
+Adds velocity, speed, and size data to `GSAIAgentLocation`.
 
  It is the character's responsibility to keep this information up to date for
  the steering toolkit to work correctly.

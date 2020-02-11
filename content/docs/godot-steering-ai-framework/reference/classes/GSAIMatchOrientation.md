@@ -1,14 +1,13 @@
 +++
-title = "GSTMatchOrientation"
+title = "GSAIMatchOrientation"
 description = "Calculates an angular acceleration to match an agent's orientation to that of\n its target. Attempts to make the agent arrive with zero remaining angular\n velocity."
 author = "razoric"
-date = "2020-02-07"
-aliases = ["/docs/godot-steering-toolkit/reference/classes/gstmatchorientation/"]
+date = "2020-02-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSTSteeringBehavior
+**Extends:** GSAISteeringBehavior
 
 ## Description ##
 
@@ -20,7 +19,7 @@ Calculates an angular acceleration to match an agent's orientation to that of
 
 Type | Name
  --- | --- 
-GSTAgentLocation | target
+GSAIAgentLocation | target
 float | alignment_tolerance
 float | deceleration_radius
 float | time_to_reach
@@ -34,7 +33,7 @@ Type | Name
 
 ### target ###
 
-{{< highlight gdscript  >}}var target: GSTAgentLocation{{< / highlight >}}
+{{< highlight gdscript  >}}var target: GSAIAgentLocation{{< / highlight >}}
 
 The target orientation for the behavior to try and match rotations to.
 

@@ -1,7 +1,7 @@
 +++
 date = "2020-02-02T00:00:00+00:00"
-title = "Godot Steering Toolkit"
-description = "The Steering Toolkit is a free and open-source framework to create smart AI agents for your Godot games, in both 2D and in 3D."
+title = "Godot Steering AI Framework"
+description = "A free and open-source framework to create smart AI agents for your Godot games, in both 2D and in 3D."
 weight = 5
 chapter = true
 pre = "<b>3. </b>"
