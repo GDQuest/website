@@ -3,12 +3,12 @@ date = "2020-02-02T00:00:00+00:00"
 title = "Godot Steering AI Framework"
 description = "A free and open-source framework to create smart AI agents for your Godot games, in both 2D and in 3D."
 weight = 5
-chapter = true
+chapter = false
 pre = "<b>3. </b>"
 aliases = ["/docs/godot-steering-toolkit/"]
 +++
 
-## The Steering Behaviors Framework for Godot ##
+![Project banner, displaying arrows following a dotted path](./godot-steering-ai-framework-banner.svg)
 
 This toolkit is a framework for the [Godot engine](https://godotengine.org/). It takes a lot of inspiration from the excellent [GDX-AI](https://github.com/libgdx/gdx-ai) framework for the [LibGDX](https://libgdx.badlogicgames.com/) java-based framework. 
 
