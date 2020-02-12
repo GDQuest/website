@@ -1,1 +1,4 @@
-<link rel="stylesheet" href="/css/fix-learn.css">
+{{ $postCSS_options := (dict "targetPath" "docs_styles.css" "outputStyle" "compressed" )}}
+{{ $stylesheet := resources.Get "scss/docs/docs.scss" | resources.ToCSS $postCSS_options | postCSS }}
+
+<link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
