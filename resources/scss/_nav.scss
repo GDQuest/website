@@ -28,6 +28,11 @@
 
     a {
         color: $color-dark-text-hl;
+        transition: .3s ease;
+
+        &:hover {
+            color: $color-accent-opt-base;
+        }
     }
 }
 
