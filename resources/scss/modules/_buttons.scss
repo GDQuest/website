@@ -4,7 +4,7 @@
     line-height: normal;
 
     &:not(.flat) {
-        background-color: $color-accent-main-base;
+        background-color: lighten($color-accent-main-base, 10%);
         color: $color-accent-main-text;
         border-radius: 24px;
         padding: $spacing-micro $spacing-small;
@@ -13,11 +13,13 @@
     }
 
     &:not(.flat):hover {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        box-shadow: $base-hover-shadow;
+        transform: scale(1.02);
     }
 
     &.shop {
         background-color: $color-accent-opt-base;
+        color: $color-dark-base;
     }
 
     &.full {
