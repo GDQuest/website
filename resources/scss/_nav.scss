@@ -9,7 +9,6 @@
     }
 
     nav a {
-        color: $color-dark-text-hl;
         margin-left: $spacing-small;
     }
 }
@@ -27,6 +26,10 @@
 
     * {
         display: inline-block;
+    }
+
+    a {
+        color: $color-dark-text-hl;
     }
 }
 
