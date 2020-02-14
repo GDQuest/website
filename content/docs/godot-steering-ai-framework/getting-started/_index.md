@@ -1,11 +1,13 @@
 +++
 date = "2020-02-02T00:00:00+00:00"
 title = "Getting Started"
-weight = 1
+weight = 2
 aliases = ["/docs/godot-steering-toolkit/getting-started/"]
 +++
 
-The steering toolkit is a framework. You can use it to design and control AI agents with GDScript code. This guide will get you started using the tool with a complete AI agent example.
+This guide will get you started using the tool with a complete AI agent example written in GDScript.
+
+The steering toolkit being a framework, you need to use GDScript code to design and control AI agents.
 
 {{% notice note %}}
 In the [steering toolkit repository](https://github.com/GDQuest/godot-steering-toolkit/), you will find many demos that showcase the steering toolkit in action, including path follow, blended movement, and group behaviors.
