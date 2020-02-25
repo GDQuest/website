@@ -1,20 +1,20 @@
 +++
 title = "GSAISteeringAgent"
-description = "Adds velocity, speed, and size data to `GSAIAgentLocation`.\n\n It is the character's responsibility to keep this information up to date for\n the steering toolkit to work correctly."
+description = "Adds velocity, speed, and size data to `GSAIAgentLocation`.\n\nIt is the character's responsibility to keep this information up to date for\nthe steering toolkit to work correctly."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAIAgentLocation
+**Extends:** [GSAIAgentLocation](../gsaiagentlocation)
 
 ## Description ##
 
 Adds velocity, speed, and size data to `GSAIAgentLocation`.
 
- It is the character's responsibility to keep this information up to date for
- the steering toolkit to work correctly.
+It is the character's responsibility to keep this information up to date for
+the steering toolkit to work correctly.
 
 ## Properties ##
 
@@ -29,11 +29,6 @@ Vector3 | linear_velocity
 float | angular_velocity
 float | bounding_radius
 bool | is_tagged
-
-## Methods ##
-
-Type | Name
- --- | --- 
 
 ## Property Descriptions ##
 
@@ -66,7 +61,7 @@ The maximum amount of angular speed at which the agent can rotate.
 {{< highlight gdscript  >}}var angular_acceleration_max: float{{< / highlight >}}
 
 The maximum amount of angular acceleration that any behavior can apply to an
- agent.
+agent.
 
 ### linear\_velocity ###
 
@@ -91,4 +86,4 @@ The radius of the sphere that approximates the agent's size in space.
 {{< highlight gdscript  >}}var is_tagged: bool{{< / highlight >}}
 
 Used internally by group behaviors and proximities to mark the agent as already
- considered.
+considered.

@@ -2,12 +2,12 @@
 title = "GSAIGroupBehavior"
 description = "Base type for group-based steering behaviors."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAISteeringBehavior
+**Extends:** [GSAISteeringBehavior](../gsaisteeringbehavior)
 
 ## Description ##
 
@@ -19,7 +19,7 @@ Type | Name
  --- | --- 
 GSAIProximity | proximity
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -40,4 +40,4 @@ Container to find neighbors of the agent and calculate group behavior.
 {{< highlight gdscript  >}}func _report_neighbor(_neighbor: GSAISteeringAgent) -> bool{{< / highlight >}}
 
 Internal callback for the behavior to define whether or not a member is
- relevant
+relevant

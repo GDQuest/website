@@ -1,26 +1,26 @@
 +++
 title = "GSAIBlend"
-description = "Blends multiple steering behaviors into one, and returns a weighted\n acceleration from their calculations.\n\n Stores the behaviors internally as dictionaries of the form\n {\n 	behavior : GSAISteeringBehavior,\n 	weight : float\n }"
+description = "Blends multiple steering behaviors into one, and returns a weighted\nacceleration from their calculations.\n\nStores the behaviors internally as dictionaries of the form\n{\nbehavior : GSAISteeringBehavior,\nweight : float\n}"
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAISteeringBehavior
+**Extends:** [GSAISteeringBehavior](../gsaisteeringbehavior)
 
 ## Description ##
 
 Blends multiple steering behaviors into one, and returns a weighted
- acceleration from their calculations.
+acceleration from their calculations.
 
- Stores the behaviors internally as dictionaries of the form
- {
- 	behavior : GSAISteeringBehavior,
- 	weight : float
- }
+Stores the behaviors internally as dictionaries of the form
+{
+behavior : GSAISteeringBehavior,
+weight : float
+}
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -40,4 +40,4 @@ Appends a behavior to the internal array along with its `weight`.
 {{< highlight gdscript  >}}func get_behavior_at(index: int) -> Dictionary{{< / highlight >}}
 
 Returns the behavior at the specified `index`, or an empty `Dictionary` if
- none was found.
+none was found.

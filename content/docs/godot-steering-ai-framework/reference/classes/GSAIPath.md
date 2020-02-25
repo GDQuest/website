@@ -1,18 +1,18 @@
 +++
 title = "GSAIPath"
-description = "Represents a path made up of Vector3 waypoints, split into segments path\n follow behaviors can use."
+description = "Represents a path made up of Vector3 waypoints, split into segments path\nfollow behaviors can use."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** Reference
+**Extends:** [Reference](../reference)
 
 ## Description ##
 
 Represents a path made up of Vector3 waypoints, split into segments path
- follow behaviors can use.
+follow behaviors can use.
 
 ## Properties ##
 
@@ -21,7 +21,7 @@ Type | Name
 bool | is_open
 float | length
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 

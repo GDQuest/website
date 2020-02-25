@@ -1,22 +1,22 @@
 +++
 title = "GSAISeparation"
-description = "Calculates an acceleration that repels the agent from its neighbors in the\n given `GSAIProximity`.\n\n The acceleration is an average based on all neighbors, multiplied by a\n strength decreasing by the inverse square law in relation to distance, and it\n accumulates."
+description = "Calculates an acceleration that repels the agent from its neighbors in the\ngiven `GSAIProximity`.\n\nThe acceleration is an average based on all neighbors, multiplied by a\nstrength decreasing by the inverse square law in relation to distance, and it\naccumulates."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAIGroupBehavior
+**Extends:** [GSAIGroupBehavior](../gsaigroupbehavior) < [GSAISteeringBehavior](../gsaisteeringbehavior)
 
 ## Description ##
 
 Calculates an acceleration that repels the agent from its neighbors in the
- given `GSAIProximity`.
+given `GSAIProximity`.
 
- The acceleration is an average based on all neighbors, multiplied by a
- strength decreasing by the inverse square law in relation to distance, and it
- accumulates.
+The acceleration is an average based on all neighbors, multiplied by a
+strength decreasing by the inverse square law in relation to distance, and it
+accumulates.
 
 ## Properties ##
 
@@ -24,7 +24,7 @@ Type | Name
  --- | --- 
 float | decay_coefficient
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -45,4 +45,4 @@ The coefficient to calculate how fast the separation strength decays with distan
 {{< highlight gdscript  >}}func _report_neighbor(neighbor: GSAISteeringAgent) -> bool{{< / highlight >}}
 
 Callback for the proximity to call when finding neighbors. Determines the amount of
- acceleration that `neighbor` imposes based on its distance from the owner agent.
+acceleration that `neighbor` imposes based on its distance from the owner agent.

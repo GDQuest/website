@@ -1,18 +1,18 @@
 +++
 title = "GSAIRigidBody2DAgent"
-description = "A specialized steering agent that updates itself every frame so the user does\n not have to using a RigidBody2D"
+description = "A specialized steering agent that updates itself every frame so the user does\nnot have to using a RigidBody2D"
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAISpecializedAgent
+**Extends:** [GSAISpecializedAgent](../gsaispecializedagent) < [GSAISteeringAgent](../gsaisteeringagent) < [GSAIAgentLocation](../gsaiagentlocation)
 
 ## Description ##
 
 A specialized steering agent that updates itself every frame so the user does
- not have to using a RigidBody2D
+not have to using a RigidBody2D
 
 ## Properties ##
 
@@ -20,7 +20,7 @@ Type | Name
  --- | --- 
 RigidBody2D | body
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 

@@ -1,18 +1,18 @@
 +++
 title = "GSAIArrive"
-description = "Calculates acceleration to take an agent to its target's location. The\n calculation attempts to arrive with zero remaining velocity."
+description = "Calculates acceleration to take an agent to its target's location. The\ncalculation attempts to arrive with zero remaining velocity."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAISteeringBehavior
+**Extends:** [GSAISteeringBehavior](../gsaisteeringbehavior)
 
 ## Description ##
 
 Calculates acceleration to take an agent to its target's location. The
- calculation attempts to arrive with zero remaining velocity.
+calculation attempts to arrive with zero remaining velocity.
 
 ## Properties ##
 
@@ -22,11 +22,6 @@ GSAIAgentLocation | target
 float | arrival_tolerance
 float | deceleration_radius
 float | time_to_reach
-
-## Methods ##
-
-Type | Name
- --- | --- 
 
 ## Property Descriptions ##
 
@@ -41,7 +36,7 @@ Target agent to arrive to.
 {{< highlight gdscript  >}}var arrival_tolerance: float{{< / highlight >}}
 
 Distance from the target for the agent to be considered successfully
- arrived.
+arrived.
 
 ### deceleration\_radius ###
 

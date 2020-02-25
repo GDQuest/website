@@ -1,18 +1,18 @@
 +++
 title = "GSAIRadiusProximity"
-description = "Determines any agent that is in the specified list as being neighbors with the owner agent if\n they lie within the specified radius."
+description = "Determines any agent that is in the specified list as being neighbors with the owner agent if\nthey lie within the specified radius."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAIProximity
+**Extends:** [GSAIProximity](../gsaiproximity) < [Reference](../reference)
 
 ## Description ##
 
 Determines any agent that is in the specified list as being neighbors with the owner agent if
- they lie within the specified radius.
+they lie within the specified radius.
 
 ## Properties ##
 
@@ -20,7 +20,7 @@ Type | Name
  --- | --- 
 float | radius
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -42,5 +42,5 @@ The radius around the owning agent to find neighbors in
 
 Returns a number of neighbors based on a `callback` function.
 
- `_find_neighbors` calls `callback` for each agent in the `agents` array that lie within
- the radius around the owning agent and adds one to the count if its `callback` returns true.
+`_find_neighbors` calls `callback` for each agent in the `agents` array that lie within
+the radius around the owning agent and adds one to the count if its `callback` returns true.

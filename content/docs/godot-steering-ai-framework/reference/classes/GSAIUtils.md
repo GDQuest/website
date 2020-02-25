@@ -2,23 +2,22 @@
 title = "GSAIUtils"
 description = "Math and vector utility functions."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
-
-**Extends:** 
 
 ## Description ##
 
 Math and vector utility functions.
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
 Vector3 | func clampedv3(vector: Vector3, limit: float) -> Vector3
 float | func vector3_to_angle(vector: Vector3) -> float
+float | func vector2_to_angle(vector: Vector2) -> float
 Vector2 | func angle_to_vector2(angle: float) -> Vector2
 Vector2 | func to_vector2(vector: Vector3) -> Vector2
 Vector3 | func to_vector3(vector: Vector2) -> Vector3
@@ -37,17 +36,23 @@ Returns the `vector` with its length capped to `limit`.
 
 Returns an angle in radians between the positive X axis and the `vector`.
 
- This assumes orientation for 2D agents or 3D agents that are upright and
- rotate around the Y axis.
+This assumes orientation for 3D agents that are upright and rotate
+around the Y axis.
+
+### vector2\_to\_angle <small>(static)</small> ###
+
+{{< highlight gdscript  >}}func vector2_to_angle(vector: Vector2) -> float{{< / highlight >}}
+
+Returns an angle in radians between the positive X axis and the `vector`.
 
 ### angle\_to\_vector2 <small>(static)</small> ###
 
 {{< highlight gdscript  >}}func angle_to_vector2(angle: float) -> Vector2{{< / highlight >}}
 
 Returns a directional vector from the given orientation angle.
- 
- This assumes orientation for 2D agents or 3D agents that are upright and
- rotate around the Y axis.
+
+This assumes orientation for 2D agents or 3D agents that are upright and
+rotate around the Y axis.
 
 ### to\_vector2 <small>(static)</small> ###
 

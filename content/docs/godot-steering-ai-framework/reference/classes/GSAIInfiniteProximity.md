@@ -1,20 +1,20 @@
 +++
 title = "GSAIInfiniteProximity"
-description = "Determines any agent that is in the specified list as being neighbors with the\n owner agent, regardless of distance."
+description = "Determines any agent that is in the specified list as being neighbors with the\nowner agent, regardless of distance."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAIProximity
+**Extends:** [GSAIProximity](../gsaiproximity) < [Reference](../reference)
 
 ## Description ##
 
 Determines any agent that is in the specified list as being neighbors with the
- owner agent, regardless of distance.
+owner agent, regardless of distance.
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -28,5 +28,5 @@ int | func _find_neighbors(callback: FuncRef) -> int
 
 Returns a number of neighbors based on a `callback` function.
 
- `_find_neighbors` calls `callback` for each agent in the `agents` array and
- adds one to the count if its `callback` returns true.
+`_find_neighbors` calls `callback` for each agent in the `agents` array and
+adds one to the count if its `callback` returns true.

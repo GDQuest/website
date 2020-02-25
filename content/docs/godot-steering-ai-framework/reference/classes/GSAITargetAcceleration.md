@@ -1,18 +1,16 @@
 +++
 title = "GSAITargetAcceleration"
-description = "A desired linear and angular amount of acceleration requested by the steering\n system."
+description = "A desired linear and angular amount of acceleration requested by the steering\nsystem."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** 
-
 ## Description ##
 
 A desired linear and angular amount of acceleration requested by the steering
- system.
+system.
 
 ## Properties ##
 
@@ -21,7 +19,7 @@ Type | Name
 Vector3 | linear
 float | angular
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 

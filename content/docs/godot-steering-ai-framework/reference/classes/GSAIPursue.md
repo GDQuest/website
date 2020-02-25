@@ -1,18 +1,18 @@
 +++
 title = "GSAIPursue"
-description = "Calculates an acceleration to make an agent intercept another based on the\n target agent's movement."
+description = "Calculates an acceleration to make an agent intercept another based on the\ntarget agent's movement."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAISteeringBehavior
+**Extends:** [GSAISteeringBehavior](../gsaisteeringbehavior)
 
 ## Description ##
 
 Calculates an acceleration to make an agent intercept another based on the
- target agent's movement.
+target agent's movement.
 
 ## Properties ##
 
@@ -20,11 +20,6 @@ Type | Name
  --- | --- 
 GSAISteeringAgent | target
 float | predict_time_max
-
-## Methods ##
-
-Type | Name
- --- | --- 
 
 ## Property Descriptions ##
 
@@ -39,4 +34,4 @@ The target agent that the behavior is trying to intercept.
 {{< highlight gdscript  >}}var predict_time_max: float{{< / highlight >}}
 
 The maximum amount of time in the future the behavior predicts the target's
- location.
+location.

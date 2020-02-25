@@ -1,18 +1,18 @@
 +++
 title = "GSAIPriority"
-description = "Container for multiple behaviors that returns the result of the first child\n behavior with non-zero acceleration."
+description = "Container for multiple behaviors that returns the result of the first child\nbehavior with non-zero acceleration."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** GSAISteeringBehavior
+**Extends:** [GSAISteeringBehavior](../gsaisteeringbehavior)
 
 ## Description ##
 
 Container for multiple behaviors that returns the result of the first child
- behavior with non-zero acceleration.
+behavior with non-zero acceleration.
 
 ## Properties ##
 
@@ -21,7 +21,7 @@ Type | Name
 int | last_selected_index
 float | zero_threshold
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -41,7 +41,7 @@ The index of the last behavior the container prioritized.
 {{< highlight gdscript  >}}var zero_threshold: float{{< / highlight >}}
 
 If a behavior's acceleration is lower than this threshold, the container
- considers it has an acceleration of zero.
+considers it has an acceleration of zero.
 
 ## Method Descriptions ##
 
@@ -56,4 +56,4 @@ Appends a steering behavior as a child of this container.
 {{< highlight gdscript  >}}func get_behavior_at(index: int) -> GSAISteeringBehavior{{< / highlight >}}
 
 Returns the behavior at the position in the pool referred to by `index`, or
- `null` if no behavior was found.
+`null` if no behavior was found.

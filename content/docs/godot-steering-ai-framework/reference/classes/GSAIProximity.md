@@ -1,13 +1,13 @@
 +++
-title = "GSAIProximity"
+title = "GSAIProximity (abstract)"
 description = "Base container type that stores data to find the neighbors of an agent."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-**Extends:** Reference
+**Extends:** [Reference](../reference)
 
 ## Description ##
 
@@ -20,7 +20,7 @@ Type | Name
 GSAISteeringAgent | agent
 Array | agents
 
-## Methods ##
+## Functions ##
 
 Type | Name
  --- | --- 
@@ -48,5 +48,5 @@ The agents who are part of this group and could be potential neighbors
 
 Returns a number of neighbors based on a `callback` function.
 
- `_find_neighbors` calls `callback` for each agent in the `agents` array and
- adds one to the count if its `callback` returns true.
+`_find_neighbors` calls `callback` for each agent in the `agents` array and
+adds one to the count if its `callback` returns true.

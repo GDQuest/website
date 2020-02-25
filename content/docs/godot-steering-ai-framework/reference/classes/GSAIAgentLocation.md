@@ -2,12 +2,10 @@
 title = "GSAIAgentLocation"
 description = "Represents an agent with only a location and an orientation."
 author = "razoric"
-date = "2020-02-11"
+date = "2020-02-25"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
-
-**Extends:** 
 
 ## Description ##
 
@@ -19,11 +17,6 @@ Type | Name
  --- | --- 
 Vector3 | position
 float | orientation
-
-## Methods ##
-
-Type | Name
- --- | --- 
 
 ## Property Descriptions ##
 
