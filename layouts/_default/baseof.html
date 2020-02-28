@@ -20,6 +20,6 @@
         <main>
             {{ block "main" . }} {{ end }}
         </main>
-        {{ partial "footer-main" . }}
+        {{ partialCached "footer-main" . }}
     </body>
 </html>
