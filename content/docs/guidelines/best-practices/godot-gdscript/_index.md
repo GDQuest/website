@@ -78,7 +78,7 @@ func transition_to(target_state_path: String, msg: Dictionary = {}) -> void:
         return
 
     var target_state := get_node(target_state_path)
-    assert target_state.is_composite == false
+    assert(target_state.is_composite == false)
 
     state.exit()
     self.state = target_state
