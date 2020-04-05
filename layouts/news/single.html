@@ -1,12 +1,10 @@
 {{ define "header_content" }}
-
-{{ partial "modules/banner" . }}
-
-<div>
-    <h1 class="margin-none">{{.Title}}</h1>
+<div class="header-background"></div>
+<div class="header-article">
+    <h1 class="title">{{.Title}}</h1>
     {{ with .Params.author }}
     {{ with (index $.Site.Data.authors . ) }}
-    <p>by: {{ .name }} </p>
+    <p class="subtitle">by: {{ .name }} </p>
     {{ end }}
     {{ end }}
 </div>

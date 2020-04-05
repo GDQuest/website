@@ -1,0 +1,16 @@
+// Homepage header
+$color-purple: #7e3ab791;
+
+.header-article {
+  background-color: transparent;
+  padding-bottom: 1rem;
+
+  > .title {
+    text-shadow: $color-purple 0px 4px 4px;
+    margin: 0;
+  }
+
+  > .subtitle {
+    text-shadow: $color-purple 0px 2px 3px;
+  }
+}

@@ -1,19 +1,14 @@
 {{ define "header_content" }}
 
-{{ partial "modules/banner" . }}
-
-<div class="grid center padding-v-small content">
-    <div>
-        <h1 class="margin-none">{{.Title}}</h1>
-        {{ with .Params.small }}
-        <p>{{ . }}</p>
-        {{ end }}
-        {{ with .Params.author }}
-        {{ with (index $.Site.Data.authors . ) }}
-        <p>by: {{ .name }} </p>
-        {{ end }}
-        {{ end }}
-    </div>
+<div class="header-background"></div>
+<div class="header-article">
+    <h1 class="title">{{.Title}}</h1>
+    {{ with .Params.author }}
+    {{ with (index $.Site.Data.authors . ) }}
+    <p class="subtitle">by: {{ .name }} </p>
+    {{ end }}
+    {{ end }}
+</div>
 </div>
 {{ end }}
 
