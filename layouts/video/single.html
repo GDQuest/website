@@ -5,9 +5,8 @@
 {{ $.Scratch.Set "course_page" .Parent }}
 {{ end }}
 
-{{ partial "modules/banner" ($.Scratch.Get "course_page") }}
-
-<div class="grid split2 padding-v-small content">
+<div class="header-background"></div>
+<div class="header-article grid split2 padding-v-small content">
     <div class="big">
         <i data-font="dimmed">{{.Parent.Parent.Title}}</i> / {{.CurrentSection.Title}}
         <h1 class="margin-none">{{.Title}}</h1>
