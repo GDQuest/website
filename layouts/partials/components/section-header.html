@@ -1,9 +1,7 @@
-<div class="fill header-bg header-bg-section"></div>
-<div class="grid split2 padding-v-small">
-    <div>
-        <h1 class="margin-none">{{.Title}}</h1>
-        {{ with .Params.small }}
-        <p>{{ . }}</p>
-        {{ end }}
-    </div>
+<div class="header-background"></div>
+<div class="header-article">
+    <h1 class="title">{{.Title}}</h1>
+    {{ with .Params.small }}
+    <p class="subtitle">{{ . }}</p>
+    {{ end }}
 </div>
