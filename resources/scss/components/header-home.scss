@@ -1,0 +1,37 @@
+// Homepage header
+
+// Fallback gradient until the header background image loads
+$color-gradient-start: #ba37fe;
+$color-gradient-end: #6423d3;
+$color-purple: #7e3ab791;
+
+.header-home {
+  background-color: transparent;
+  padding-bottom: 2rem;
+
+  > .button {
+    margin-top: 2em;
+  }
+
+  > .title {
+    text-shadow: $color-purple 0px 4px 4px;
+  }
+
+  > .subtitle {
+    text-shadow: $color-purple 0px 2px 3px;
+  }
+}
+
+.header-home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+
+  z-index: -1;
+  background-image: url(/img/header-home-background.svg),
+    linear-gradient(to left, $color-gradient-start, $color-gradient-end);
+}

@@ -1,19 +1,21 @@
-@import 'variables';
+@import "variables";
 
-@import 'base';
-@import 'nav';
-@import 'layout';
+@import "base";
+@import "nav";
+@import "layout";
 
 // modules
-@import 'modules/card';
-@import 'modules/buttons';
+@import "modules/card";
+@import "modules/buttons";
 
-@import 'modules/article';
-@import 'modules/blockquote';
-@import 'modules/details';
-@import 'modules/figure';
-@import 'modules/help_blocks';
-@import 'modules/tags';
+@import "modules/article";
+@import "modules/blockquote";
+@import "modules/details";
+@import "modules/figure";
+@import "modules/help_blocks";
+@import "modules/tags";
 
-@import 'modules/shortcuts';
-@import 'modules/toc';
+@import "modules/shortcuts";
+@import "modules/toc";
+
+@import "components/header-home";
