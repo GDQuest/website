@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -33,34 +33,34 @@ html {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    font-family: $font-base;
-    font-size: $font-size-normal;
-    background-color: $color-dark-base;
+  font-family: $font-base;
+  font-size: $font-size-normal;
+  background-color: $color-dark-base;
 
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-
-ul, ol {
-    list-style-position: inside;
+ul,
+ol {
+  list-style-position: inside;
 }
 
-li>ul {
-    padding-left: $spacing-tiny;
+li > ul {
+  padding-left: $spacing-tiny;
 }
 
 ul li,
 ol li {
-    padding-top: $spacing-micro;
-    padding-bottom: $spacing-micro;
+  padding-top: $spacing-micro;
+  padding-bottom: $spacing-micro;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 // Titles
@@ -70,32 +70,32 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 100%;
-    font-weight: normal;
+  font-size: 100%;
+  font-weight: normal;
 }
 
 h1 {
-    font-size: $font-size-h1;
+  font-size: $font-size-h1;
 }
 
 h2 {
-    font-size: $font-size-h2;
+  font-size: $font-size-h2;
 }
 
 h3 {
-    font-size: $font-size-h3;
+  font-size: $font-size-h3;
 }
 
 h4 {
-    font-size: $font-size-h4;
+  font-size: $font-size-h4;
 }
 
 h5 {
-    font-size: $font-size-h5;
+  font-size: $font-size-h5;
 }
 
 h6 {
-    font-size: $font-size-normal;
+  font-size: $font-size-normal;
 }
 
 h1,
@@ -106,248 +106,248 @@ h5,
 h6,
 [data-font*="title"],
 .button {
-    font-family: $font-title;
-    text-transform: uppercase;
-    color: $color-default-text-hl;
+  font-family: $font-title;
+  text-transform: uppercase;
+  color: $color-default-text-hl;
 }
 
 h4,
 h5,
 h6,
 [data-font~="semibold"] {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 h2,
 h3,
 [data-font~="bold"],
 .button {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 h1,
 [data-font~="ultrabold"] {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 h4,
 h5,
 h6 {
-    margin-top: $spacing-tiny;
-    margin-bottom: $spacing-tiny;
+  margin-top: $spacing-tiny;
+  margin-bottom: $spacing-tiny;
 }
 
 h2,
 h3 {
-    margin-top: $spacing-small;
-    margin-bottom: $spacing-small;
+  margin-top: $spacing-small;
+  margin-bottom: $spacing-small;
 }
 
 h1 {
-    margin-top: $spacing-base;
-    margin-bottom: $spacing-base;
+  margin-top: $spacing-base;
+  margin-bottom: $spacing-base;
 }
 
 [data-font*="uppercase"] {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 [data-font*="capitalize"] {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 [data-font*="centered"] {
-    text-align: center;
+  text-align: center;
 }
 
 [data-font*="left"] {
-    text-align: left;
+  text-align: left;
 }
 
 [data-font*="right"] {
-    text-align: right;
+  text-align: right;
 }
 
 [data-font*="small"] {
-    font-size: $font-size-small;
+  font-size: $font-size-small;
 }
 
 [data-font*="dimmed"] {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 button,
 input,
 select,
 textarea {
-    margin: 0;
+  margin: 0;
 }
 
 img,
 video {
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 iframe {
-    border: 0;
+  border: 0;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td,
 th {
-    padding: 0;
-    text-align: left;
+  padding: 0;
+  text-align: left;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    border-color: $base-border-color;
+  border-color: $base-border-color;
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 header {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .content {
     position: relative;
+    z-index: 100;
+  }
 
-    .content {
-        position: relative;
-        z-index: 100;
-    }
-
-    .side-image {
-        width: 100%;
-        display: block;
-    }
+  .side-image {
+    width: 100%;
+    display: block;
+  }
 }
 
 .darkbg {
-    background-color: $color-dark-base;
+  background-color: $color-dark-base;
+  color: $color-dark-text;
+
+  .title,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-dark-text-hl;
+  }
+
+  .icon {
     color: $color-dark-text;
-
-    .title,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: $color-dark-text-hl;
-    }
-
-    .icon {
-        color: $color-dark-text;
-    }
+  }
 }
 
 a,
 .darkbg a,
 .darkbg a .icon {
-    text-decoration: none;
-    color: $color-default-text-bright;
+  text-decoration: none;
+  color: $color-default-text-bright;
 
-    transition: color .1s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 
 a:hover,
 .pagination a:hover,
 a.icon:hover,
 a:hover .icon {
-    color: $color-accent-main-base;
+  color: $color-accent-main-base;
 }
 
 .icon {
-    font-size: $font-size-h5;
+  font-size: $font-size-h5;
 }
 
 // ID generated by Hugo, for the posts' table of contents
 #TableOfContents {
-    ul {
-        list-style: disc;
-    }
+  ul {
+    list-style: disc;
+  }
 
-    &>ul {
-        list-style: none;
-    }
+  & > ul {
+    list-style: none;
+  }
 }
 
 main {
-    display: block; // needed for IE
-    background-color: $color-default-base;
-    color: $color-default-text;
+  display: block; // needed for IE
+  background-color: $color-default-base;
+  color: $color-default-text;
 
-    position: relative;
-    padding-bottom: $spacing-base;
+  position: relative;
+  padding-bottom: $spacing-base;
 
-    // prevent collapsing margin
-    padding-top: 1px;
-    margin-top: -1px;
+  // prevent collapsing margin
+  padding-top: 1px;
+  margin-top: -1px;
 
-    z-index: 200;
+  z-index: 200;
 }
 
 .fill {
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    z-index: 0;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
 
-    @include bg-centered;
+  @include bg-centered;
 }
 
 li.current {
-    color: $color-gdquest-pink;
+  color: $color-gdquest-pink;
 }
 
 .pagination {
-    text-align: center;
+  text-align: center;
 
-    &>* {
-        display: inline-block;
-        margin: 0px $spacing-tiny;
-    }
+  & > * {
+    display: inline-block;
+    margin: 0px $spacing-tiny;
+  }
 
-    a {
-        color: $color-default-text;
-    }
+  a {
+    color: $color-default-text;
+  }
 
-    .active a {
-        color: $color-accent-main-base;
-    }
+  .active a {
+    color: $color-accent-main-base;
+  }
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .disabled {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 @include mobile {
-    h1 {
-        font-size: $font-size-h1 * .6;
-    }
+  h1 {
+    font-size: $font-size-h1 * 0.6;
+  }
 
-    h2 {
-        font-size: $font-size-h2 * .8;
-    }
+  h2 {
+    font-size: $font-size-h2 * 0.8;
+  }
 
-    h3 {
-        font-size: $font-size-h3 * .8;
-    }
+  h3 {
+    font-size: $font-size-h3 * 0.8;
+  }
 }

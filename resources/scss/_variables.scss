@@ -8,17 +8,9 @@ $spacing-big: 60px;
 $spacing-huge: 100px;
 
 // FONTS
-$font-base: -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            Roboto,
-            Oxygen-Sans,
-            Ubuntu,
-            Cantarell,
-            "Helvetica Neue",
-            sans-serif;
-$font-title: "Montserrat",
-             sans-serif;
+$font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+  Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-title: "Montserrat", sans-serif;
 
 $font-size-small: 0.8em;
 $font-size-normal: 1em;
@@ -53,39 +45,38 @@ $color-gdquest-yellow: #ffd500;
 $color-gdquest-orange: #f2971a;
 $color-gdquest-pink: #e3266f;
 
-$base-text-shadow: 0 0 4px rgba(0, 0, 0, .5);
-$base-border-color: rgba(0, 0, 0, .2);
-$base-hover-shadow: 0 4px 6px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.1);
+$base-text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+$base-border-color: rgba(0, 0, 0, 0.2);
+$base-hover-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.1);
 
 $screen-size-bg: 1200px;
 $screen-size-md: 992px;
 $screen-size-sm: 768px;
 
-
 @mixin dark {
-    background-color: $color-dark-base;
-    color: $color-dark-text;
+  background-color: $color-dark-base;
+  color: $color-dark-text;
 }
 
 @mixin bg-centered {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 @mixin tablet {
-    @media screen and (max-width: $screen-size-bg + $spacing-small * 2) {
-        @content;
-    }
+  @media screen and (max-width: $screen-size-bg + $spacing-small * 2) {
+    @content;
+  }
 }
 
 @mixin mobile {
-    @media screen and (max-width: $screen-size-sm) {
-        @content;
-    }
+  @media screen and (max-width: $screen-size-sm) {
+    @content;
+  }
 }
 
 @mixin desktop {
-    @media screen and (min-width: $screen-size-bg + $spacing-small * 2) {
-        @content;
-    }
+  @media screen and (min-width: $screen-size-bg + $spacing-small * 2) {
+    @content;
+  }
 }

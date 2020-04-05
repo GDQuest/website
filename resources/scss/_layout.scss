@@ -1,193 +1,189 @@
 .container {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 // Padding
 .padding-none {
-    padding: 0;
+  padding: 0;
 }
 
 .padding-tiny {
-    padding: $spacing-tiny;
+  padding: $spacing-tiny;
 }
 
 .padding-small {
-    padding: $spacing-small;
+  padding: $spacing-small;
 }
 
 .padding-top-base {
-    padding-top: $spacing-base;
+  padding-top: $spacing-base;
 }
 
 .padding-top-big {
-    padding-top: $spacing-big;
+  padding-top: $spacing-big;
 }
 
 // Margin
 .margin-none {
-    margin: 0;
+  margin: 0;
 }
 
 .margin-top-base {
-    margin-top: $spacing-base;
+  margin-top: $spacing-base;
 }
 
 .margin-top-big {
-    margin-top: $spacing-big;
+  margin-top: $spacing-big;
 }
 
 .margin-bottom-base {
-    margin-bottom: $spacing-base;
+  margin-bottom: $spacing-base;
 }
 
 .margin-bottom-big {
-    margin-bottom: $spacing-big;
+  margin-bottom: $spacing-big;
 }
 
 // Generate classes for vertical padding and margin
-@each $key in margin,
-padding {
-    .#{$key}-v-small {
-        #{$key}-top: $spacing-small;
-        #{$key}-bottom: $spacing-small;
-    }
+@each $key in margin, padding {
+  .#{$key}-v-small {
+    #{$key}-top: $spacing-small;
+    #{$key}-bottom: $spacing-small;
+  }
 
-    .#{$key}-v-base {
-        #{$key}-top: $spacing-base;
-        #{$key}-bottom: $spacing-base;
-    }
+  .#{$key}-v-base {
+    #{$key}-top: $spacing-base;
+    #{$key}-bottom: $spacing-base;
+  }
 
-    .#{$key}-v-big {
-        #{$key}-top: $spacing-big;
-        #{$key}-bottom: $spacing-big;
-    }
+  .#{$key}-v-big {
+    #{$key}-top: $spacing-big;
+    #{$key}-bottom: $spacing-big;
+  }
 }
 
 // horizontal only padding and margin
-@each $key in margin,
-padding {
-    .#{$key}-h-small {
-        #{$key}-left: $spacing-small;
-        #{$key}-right: $spacing-small;
-    }
+@each $key in margin, padding {
+  .#{$key}-h-small {
+    #{$key}-left: $spacing-small;
+    #{$key}-right: $spacing-small;
+  }
 
-    .#{$key}-h-base {
-        #{$key}-left: $spacing-base;
-        #{$key}-right: $spacing-base;
-    }
+  .#{$key}-h-base {
+    #{$key}-left: $spacing-base;
+    #{$key}-right: $spacing-base;
+  }
 
-    .#{$key}-h-big {
-        #{$key}-left: $spacing-big;
-        #{$key}-right: $spacing-big;
-    }
+  .#{$key}-h-big {
+    #{$key}-left: $spacing-big;
+    #{$key}-right: $spacing-big;
+  }
 }
 
-.small-spaced-children>* {
-    margin-left: $spacing-small;
+.small-spaced-children > * {
+  margin-left: $spacing-small;
 }
 
-.small-spaced-children> :first-child {
-    margin-left: 0;
+.small-spaced-children > :first-child {
+  margin-left: 0;
 }
 
 .flex {
-    display: flex
+  display: flex;
 }
 
 .flex.align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .flex.justify-space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flex.justify-space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .flex.direction-col-reverse {
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 .flex-horizontal {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex.wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.flex>.full {
-    flex: 100%;
+.flex > .full {
+  flex: 100%;
 }
 
-
-.grid.list>* {
-    margin-bottom: $spacing-base;
+.grid.list > * {
+  margin-bottom: $spacing-base;
 }
-
 
 @include mobile {
-    .container {
-        padding-left: $spacing-tiny;
-        padding-right: $spacing-tiny;
-    }
+  .container {
+    padding-left: $spacing-tiny;
+    padding-right: $spacing-tiny;
+  }
 }
 
 @include desktop {
-    .container {
-        max-width: $screen-size-bg;
+  .container {
+    max-width: $screen-size-bg;
+  }
+
+  @supports (display: grid) {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(100px, 1fr));
+      grid-gap: $spacing-base;
+
+      grid-auto-rows: max-content;
     }
 
-    @supports (display: grid) {
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(6, minmax(100px, 1fr));
-            grid-gap: $spacing-base;
-
-            grid-auto-rows: max-content;
-        }
-
-        .grid.list>* {
-            margin-bottom: 0;
-        }
-
-        .grid.center {
-            grid-template-areas: ". b b b b .";
-        }
-
-        .grid.center> :first-child {
-            grid-area: b;
-        }
-
-        .grid.split3 {}
-
-        .grid.split3>* {
-            grid-column: span 2;
-        }
-
-        .grid.split2 {
-            grid-template-areas: "a a a b b b"
-        }
-
-        .grid.split2>* {
-            grid-column: span 3;
-        }
-
-        .grid.split2>.small {
-            grid-column: span 2;
-        }
-
-        .grid.split2>.big {
-            grid-column: span 4;
-        }
-
-
-        .grid>.span-half {
-            grid-column: span 3;
-        }
+    .grid.list > * {
+      margin-bottom: 0;
     }
+
+    .grid.center {
+      grid-template-areas: ". b b b b .";
+    }
+
+    .grid.center > :first-child {
+      grid-area: b;
+    }
+
+    .grid.split3 {
+    }
+
+    .grid.split3 > * {
+      grid-column: span 2;
+    }
+
+    .grid.split2 {
+      grid-template-areas: "a a a b b b";
+    }
+
+    .grid.split2 > * {
+      grid-column: span 3;
+    }
+
+    .grid.split2 > .small {
+      grid-column: span 2;
+    }
+
+    .grid.split2 > .big {
+      grid-column: span 4;
+    }
+
+    .grid > .span-half {
+      grid-column: span 3;
+    }
+  }
 }

@@ -1,44 +1,44 @@
 .sticky-nav {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-    >ul {
-        overflow-y: auto;
-        padding-right: $spacing-small;
-        flex: 0 1 auto; // needed for IE 10
-    }
+  > ul {
+    overflow-y: auto;
+    padding-right: $spacing-small;
+    flex: 0 1 auto; // needed for IE 10
+  }
 }
 
 .operator {
-    padding: $spacing-base 0;
+  padding: $spacing-base 0;
 
-    +.operator {
-        border-top: 2px solid $base-border-color;
-    }
+  + .operator {
+    border-top: 2px solid $base-border-color;
+  }
 
-    >h5 {
-        margin-top: 0;
-    }
+  > h5 {
+    margin-top: 0;
+  }
 }
 
 .shortcuts {
-    border-collapse: separate;
-    border-spacing: $spacing-small $spacing-tiny;
-    margin: 0 (-$spacing-small) (-$spacing-tiny);
+  border-collapse: separate;
+  border-spacing: $spacing-small $spacing-tiny;
+  margin: 0 (-$spacing-small) (-$spacing-tiny);
 
-    >tbody>tr>td:first-child {
-        width: 0;
-        white-space: nowrap;
-    }
+  > tbody > tr > td:first-child {
+    width: 0;
+    white-space: nowrap;
+  }
 }
 
-.keystroke>kbd {
-    border: 2px solid $color-default-text;
-    padding: $spacing-micro / 4 $spacing-micro;
-    border-radius: $round-radius / 2;
-    display: inline-block;
-    font-family: inherit;
+.keystroke > kbd {
+  border: 2px solid $color-default-text;
+  padding: $spacing-micro / 4 $spacing-micro;
+  border-radius: $round-radius / 2;
+  display: inline-block;
+  font-family: inherit;
 }

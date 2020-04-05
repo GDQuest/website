@@ -1,34 +1,33 @@
 .button {
-    font-size: $font-size-small;
-    display: inline-block;
-    line-height: normal;
+  font-size: $font-size-small;
+  display: inline-block;
+  line-height: normal;
 
-    &:not(.flat) {
-        background-color: lighten($color-accent-main-base, 10%);
-        color: $color-accent-main-text;
-        border-radius: 24px;
-        padding: $spacing-micro $spacing-small;
-        text-align: center;
-        transition: .3s ease-in-out;
-    }
+  &:not(.flat) {
+    background-color: lighten($color-accent-main-base, 10%);
+    color: $color-accent-main-text;
+    border-radius: 24px;
+    padding: $spacing-micro $spacing-small;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
 
-    &:not(.flat):hover {
-        box-shadow: $base-hover-shadow;
-        transform: scale(1.04);
-    }
+  &:not(.flat):hover {
+    box-shadow: $base-hover-shadow;
+    transform: scale(1.04);
+  }
 
-    &.shop {
-        background-color: $color-accent-opt-base;
-        color: $color-dark-base;
-    }
+  &.shop {
+    background-color: $color-accent-opt-base;
+    color: $color-dark-base;
+  }
 
-    &.shop:hover {
-        color: $color-dark-base;
-    }
+  &.shop:hover {
+    color: $color-dark-base;
+  }
 
-    &.full {
-        width: 100%;
-        box-sizing: border-box;
-    }
+  &.full {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
-

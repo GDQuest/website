@@ -1,87 +1,85 @@
 @mixin card-outline {
-    border: 1px solid $base-border-color;
+  border: 1px solid $base-border-color;
 }
 
 @mixin padding-h-card {
-    padding-left: $spacing-tiny;
-    padding-right: $spacing-tiny;
+  padding-left: $spacing-tiny;
+  padding-right: $spacing-tiny;
 }
 
 @mixin card-middle {
-    border-top: none;
-    border-radius: 0;
+  border-top: none;
+  border-radius: 0;
 }
-
 
 .card {
-    overflow: auto;
-    border-radius: $round-radius;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  overflow: auto;
+  border-radius: $round-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 
+  position: relative;
+  overflow: hidden;
+
+  @include bg-centered;
+
+  &.outline {
+    @include card-outline;
+  }
+
+  img {
+    width: 100%;
     position: relative;
-    overflow: hidden;
+    z-index: 1;
+  }
 
-    @include bg-centered;
+  & > .content {
+    padding: $spacing-tiny;
+    z-index: 2;
+    position: relative;
+    overflow: auto;
+  }
 
-    &.outline {
-        @include card-outline;
-    }
+  .title {
+    margin-top: 0px;
+  }
 
-    img {
-        width: 100%;
-        position: relative;
-        z-index: 1;
-    }
+  &.profile .avatar {
+    background-position: center;
+    background-size: cover;
+    flex: 0.7;
+  }
 
-    &>.content {
-        padding: $spacing-tiny;
-        z-index: 2;
-        position: relative;
-        overflow: auto;
-    }
+  &.profile > .content {
+    flex: 2;
+  }
 
-    .title {
-        margin-top: 0px;
-    }
+  .buttons {
+    text-align: right;
+    margin-top: $spacing-base;
+  }
 
-    &.profile .avatar {
-        background-position: center;
-        background-size: cover;
-        flex: .7;
-    }
+  &.top-half {
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 
-    &.profile>.content {
-        flex: 2;
-    }
+  &.bottom-half {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 
-    .buttons {
-        text-align: right;
-        margin-top: $spacing-base;
-    }
-
-    &.top-half {
-        border-bottom: none;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-
-    &.bottom-half {
-        border-top: none;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-
-    &.middle {
-        @include card-middle;
-    }
+  &.middle {
+    @include card-middle;
+  }
 }
-
 
 // pseudo card mode for the course chapters section
 @include tablet {
-    aside.chapters {
-        @include card-outline;
-        @include card-middle;
-        @include padding-h-card;
-    }
+  aside.chapters {
+    @include card-outline;
+    @include card-middle;
+    @include padding-h-card;
+  }
 }

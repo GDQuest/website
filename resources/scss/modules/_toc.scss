@@ -1,40 +1,40 @@
 #toc {
-    input[type=radio]:checked+.chapter>ul {
-        display: block;
+  input[type="radio"]:checked + .chapter > ul {
+    display: block;
+  }
+
+  input[type="radio"]:not(:checked) + .chapter > ul {
+    display: none;
+  }
+
+  .chapter {
+    margin-bottom: $spacing-tiny;
+
+    label {
+      transition: color 0.1s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-gdquest-pink;
+      }
     }
-
-    input[type=radio]:not(:checked)+.chapter>ul {
-        display: none;
-    }
-
-    .chapter {
-        margin-bottom: $spacing-tiny;
-
-        label {
-            transition: color .1s ease-in-out;
-            cursor: pointer;
-
-            &:hover {
-                color: $color-gdquest-pink;
-            }
-        }
-    }
+  }
 }
 
 #toc_toggle_label {
-    display: none
+  display: none;
 }
 
 @include tablet {
-    #toc_toggle_label {
-        display: block
-    }
+  #toc_toggle_label {
+    display: block;
+  }
 
-    #toc_toggle:checked~aside {
-        display: block;
-    }
+  #toc_toggle:checked ~ aside {
+    display: block;
+  }
 
-    #toc_toggle:not(:checked)~aside {
-        display: none;
-    }
+  #toc_toggle:not(:checked) ~ aside {
+    display: none;
+  }
 }

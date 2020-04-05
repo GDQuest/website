@@ -1,61 +1,61 @@
-aside>p:first-child {
-    margin-top: 0;
+aside > p:first-child {
+  margin-top: 0;
 }
 
-aside>p:last-child {
-    margin-bottom: 0;
+aside > p:last-child {
+  margin-bottom: 0;
 }
 
 aside {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .note,
 .tips,
 .example {
-    display: block;
-    padding: 0 $spacing-tiny;
-    padding-bottom: $spacing-tiny;
+  display: block;
+  padding: 0 $spacing-tiny;
+  padding-bottom: $spacing-tiny;
 
-    border-radius: $round-radius;
+  border-radius: $round-radius;
 }
 
 .note {
-    border: 1px $color-accent-main-base solid;
+  border: 1px $color-accent-main-base solid;
 }
 
 .tips {
-    border: 1px $color-gdquest-pink solid;
+  border: 1px $color-gdquest-pink solid;
 }
 
 .example {
-    border: 1px $color-gdquest-green solid;
+  border: 1px $color-gdquest-green solid;
 }
 
 .note:before,
 .tips:before,
 .example:before {
-    display: block;
-    margin: 0 -1*$spacing-tiny 10px -1*$spacing-tiny;
-    padding-left: $spacing-tiny;
+  display: block;
+  margin: 0 -1 * $spacing-tiny 10px -1 * $spacing-tiny;
+  padding-left: $spacing-tiny;
 
-    border-radius: $round-radius $round-radius 0 0;
+  border-radius: $round-radius $round-radius 0 0;
 
-    font-style: bold;
-    color: white;
+  font-style: bold;
+  color: white;
 }
 
 .note:before {
-    content: "Note";
-    background-color: $color-accent-main-base;
+  content: "Note";
+  background-color: $color-accent-main-base;
 }
 
 .tips:before {
-    content: "Tips";
-    background-color: $color-gdquest-pink;
+  content: "Tips";
+  background-color: $color-gdquest-pink;
 }
 
 .example:before {
-    content: "Example";
-    background-color: $color-gdquest-green;
+  content: "Example";
+  background-color: $color-gdquest-green;
 }
