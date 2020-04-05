@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html data-theme="default">
     {{ partial "head" . }}
+    <script type="text/javascript">
+function navToggleMenu() {
+  // Toggle adding the "-open" variant to the mobile menu button in the main navigation bar
+  const cssVariantOpen = " -open";
+  var element = document.getElementById("nav-main");
+  if (element.className.endsWith(cssVariantOpen)) {
+    element.className = element.className.replace(cssVariantOpen, "");
+  } else {
+    element.className += cssVariantOpen;
+  }
+}
+    </script>
     <body>
         <header class="darkbg" id="header">
-            <input type="checkbox" id="nav_toggle_cb">
-            <div id="top-bar" class="container flex align-items-center" data-font="title semibold uppercase">
-                <span class="flex align-items-center">
-                    <a href="{{.Site.BaseURL}}">
-                        <img src="/img/gdquest-logo.svg" alt="GDQuest logo" class="logo" />
-                    </a>
-                    <label for="nav_toggle_cb" id="menu_button"><i class="fas fa-bars icon"></i></label>
-                </span>
-                {{ partial "nav" . }}
-            </div>
+            {{ partial "nav" . }}
             <section class="container">
                 {{ block "header_content" . }} {{ end }}
             </section>

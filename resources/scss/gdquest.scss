@@ -1,7 +1,6 @@
 @import "variables";
 
 @import "base";
-@import "nav";
 @import "layout";
 
 // modules
@@ -21,3 +20,5 @@
 @import "components/header-home";
 @import "components/header-background";
 @import "components/header-article";
+
+@import "components/nav-main";

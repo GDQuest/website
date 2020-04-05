@@ -351,3 +351,8 @@ li.current {
     font-size: $font-size-h3 * 0.8;
   }
 }
+
+// FIXME: remove
+#header {
+  background-color: transparent;
+}

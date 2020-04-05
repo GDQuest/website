@@ -1,0 +1,111 @@
+// Main navigation at the top of every page, except in the docs section
+.nav-main {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  max-width: $screen-size-bg;
+  height: $spacing-huge;
+
+  > .logo {
+    > * {
+      max-height: 2.8rem;
+    }
+  }
+
+  > .links {
+    justify-content: space-between;
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: $font-size-normal;
+    font-weight: bold;
+
+    user-select: none;
+
+    * {
+      display: inline-block;
+    }
+
+    a {
+      color: $color-dark-text-hl;
+      transition: 0.3s ease;
+
+      &:hover {
+        color: $color-accent-opt-base;
+      }
+    }
+  }
+  > .links > a {
+    margin-left: $spacing-small;
+  }
+
+  > .-social {
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+
+  > .menu {
+    display: none;
+    margin: 1rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+}
+
+@include tablet {
+  .nav-main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: space-between;
+
+    > .menu {
+      display: block;
+      position: absolute;
+      top: 0.8rem;
+      right: 1.2rem;
+    }
+
+    > .links {
+      display: none;
+    }
+
+    &.-open {
+      flex-direction: column;
+      height: fit-content;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      font-size: 1.2em;
+
+      > .logo {
+        display: none;
+      }
+
+      > .links {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0.6rem;
+      }
+
+      > .links > a {
+        margin-left: 0;
+      }
+
+      > .links:first-of-type {
+        margin-top: 2rem;
+      }
+
+      > .links.-social {
+        flex-direction: row;
+      }
+
+      > .links.-social > a {
+        margin-left: $spacing-small;
+      }
+
+      > .links.-social > a:first-child {
+        margin: unset;
+      }
+    }
+  }
+}

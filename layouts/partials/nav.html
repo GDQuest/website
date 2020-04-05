@@ -1,21 +1,24 @@
-<nav class="nav-main flex full align-items-center justify-space-between">
-    <div data-font="centered">
-        {{ $currentNode := . }} {{ range .Site.Menus.main }}
+<div class="nav-main" id="nav-main" data-font="title semibold uppercase">
+    <a href="{{.Site.BaseURL}}" class="logo"><img src="/img/gdquest-logo.svg" alt="GDQuest logo" /></a>
+    <a href="javascript:void(0);" class="menu" onclick="navToggleMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <nav class="links">
+        {{ $currentNode := . }}
+        {{ range .Site.Menus.main }}
         <a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{ end }} href="{{ .URL }}">
             {{ .Name }}
         </a>
         {{ end }}
-    </div>
-    <div data-font="centered">
-        <aside>
-            {{ range .Site.Params.social }}
-            <a target="_blank" href="{{ .link }}" rel="noopener">
-                <i class="fab fa-{{ .icon }}" title="{{ .description }}"></i>
-            </a>
-            {{ end }}
-        </aside>
-        <a target="_blank" rel="noopener" id="shop_link" href="{{ .Site.Params.shop_link.url }}" class="button shop">
-            {{ .Site.Params.shop_link.name }}
+    </nav>
+    <nav class="links -social">
+        {{ range .Site.Params.social }}
+        <a target="_blank" href="{{ .link }}" rel="noopener">
+            <i class="fab fa-{{ .icon }}" title="{{ .description }}"></i>
         </a>
-    </div>
-</nav>
+        {{ end }}
+    </nav>
+    <a target="_blank" rel="noopener" href="{{ .Site.Params.shop_link.url }}" class="links button shop">
+        {{ .Site.Params.shop_link.name }}
+    </a>
+</div>
