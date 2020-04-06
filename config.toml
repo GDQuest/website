@@ -28,7 +28,7 @@ weight      = 2
 
 [[menu.main]]
 identifier  = "tutorial"
-name        = "Tuts"
+name        = "Tutorials"
 url         = "/tutorial/"
 weight      = 3
 
@@ -44,6 +44,7 @@ name        = "About"
 url         = "/about/"
 weight      = 5
 
+# Shortcuts in the docs section
 [[menu.shortcuts]]
 name = "<i class='fas fa-level-up-alt'></i>&nbsp;Back to GDQuest.com"
 identifier = "gdquest.com"
