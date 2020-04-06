@@ -18,3 +18,9 @@ $color-gradient-end: #6423d3;
   background-image: url(/img/header-home-background.svg),
     linear-gradient(to left, $color-gradient-start, $color-gradient-end);
 }
+
+@include tablet {
+  .header-background {
+    height: 540px;
+  }
+}
