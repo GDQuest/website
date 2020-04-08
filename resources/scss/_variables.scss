@@ -44,9 +44,8 @@ $color-gdquest-pink: #e3266f;
 $base-border-color: rgba(0, 0, 0, 0.2);
 $base-hover-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.1);
 
-$screen-size-bg: 1200px;
-$screen-size-md: 992px;
-$screen-size-sm: 768px;
+$screen-size-min-desktop: 1200px;
+$screen-size-min-tablet: 760px;
 
 @mixin bg-centered {
   background-size: cover;
@@ -54,19 +53,19 @@ $screen-size-sm: 768px;
 }
 
 @mixin tablet {
-  @media screen and (max-width: $screen-size-bg + $spacing-small * 2) {
+  @media screen and (max-width: $screen-size-min-desktop) {
     @content;
   }
 }
 
 @mixin mobile {
-  @media screen and (max-width: $screen-size-sm) {
+  @media screen and (max-width: $screen-size-min-tablet) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media screen and (min-width: $screen-size-bg + $spacing-small * 2) {
+  @media screen and (min-width: $screen-size-min-desktop) {
     @content;
   }
 }

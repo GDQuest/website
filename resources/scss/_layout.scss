@@ -135,7 +135,7 @@
 
 @include desktop {
   .container {
-    max-width: $screen-size-bg;
+    max-width: $screen-size-min-desktop;
   }
 
   @supports (display: grid) {
