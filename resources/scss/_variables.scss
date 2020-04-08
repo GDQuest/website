@@ -30,10 +30,6 @@ $color-dark-base: #272b30;
 $color-dark-text: #cacaca;
 $color-dark-text-hl: white;
 
-$color-header-base: #0c4b89;
-$color-header-start: #0179d1;
-$color-header-end: #000046;
-
 $color-accent-main-base: #26bfe3;
 $color-accent-main-text: white;
 
@@ -45,18 +41,12 @@ $color-gdquest-yellow: #ffd500;
 $color-gdquest-orange: #f2971a;
 $color-gdquest-pink: #e3266f;
 
-$base-text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 $base-border-color: rgba(0, 0, 0, 0.2);
 $base-hover-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.1);
 
 $screen-size-bg: 1200px;
 $screen-size-md: 992px;
 $screen-size-sm: 768px;
-
-@mixin dark {
-  background-color: $color-dark-base;
-  color: $color-dark-text;
-}
 
 @mixin bg-centered {
   background-size: cover;
