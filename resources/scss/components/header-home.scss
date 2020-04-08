@@ -2,18 +2,57 @@
 $color-purple: #7e3ab791;
 
 .header-home {
-  background-color: transparent;
+  display: block;
   padding-bottom: 2rem;
+  background-color: transparent;
+}
 
-  > .button {
-    margin-top: 2em;
+.header-title {
+  text-shadow: $color-purple 0px 4px 4px;
+  display: flex;
+
+  > .image {
+    background-image: url(/img/sprites-bears.png);
+    background-repeat: no-repeat;
+    display: block;
+    max-width: 180px;
+    z-index: -1;
+  }
+
+  .-bear-1 {
+    width: 157px;
+    height: 195px;
+    background-position: -3px -3px;
+  }
+
+  .-bear-2 {
+    position: relative;
+    top: 0.8rem;
+    width: 128px;
+    height: 169px;
+    background-position: -166px -3px;
   }
 
   > .title {
-    text-shadow: $color-purple 0px 4px 4px;
+    max-width: 60%;
+    margin: auto;
   }
 
   > .subtitle {
+    max-width: 50%;
+    color: white;
     text-shadow: $color-purple 0px 2px 3px;
+  }
+}
+
+@include mobile {
+  .header-title {
+    > .image {
+      display: none;
+    }
+
+    > .title {
+      max-width: 100%;
+    }
   }
 }
