@@ -14,11 +14,11 @@ alt = "Godot course update 4 banner showing characters on a tiles-based map"
 
 ## GDQuest's mission
 
-GDQuest is a social company focused on education and bringing people together around [Free Software](//en.wikipedia.org/wiki/Free_software).
+GDQuest is a [Free Software](//en.wikipedia.org/wiki/Free_software) project and a social company. We invest all profit back into our projects.
 
-Our mission is to **help you become a better game developer**.
+Our mission is to **bring people together to become better game developers**.
 
-We share **the techniques professionals use to make games** and open source the code for most of our projects on [our GitHub page](//github.com/GDQuest/).
+We contribute to Free Software through education, communication, writing documentation, and coding Free and Open-Source tools.
 
 ## Free education
 
@@ -41,22 +41,12 @@ In general, you can find us on:
 
 Hi, I'm Nathan, GDQuest's founder.
 
-I've always tried to get people to work hand in hand. Helping others has been a big part of my life.
+GDQuest was initially a small YouTube channel focused on game art tutorials.
 
-One day, I recorded a quick video tutorial to share my speed painting process with some online friends. I put it up on YouTube.
+![Screenshot of an old game project with rabbits](./img/rabbit-adventures-resonant-craft.jpg)
 
-{{< youtube HLcVbhpD8Ig >}}
+Back then, we found that a lot of the available free 2D game art videos were step-by-step, like recipes to achieve specific results. We tried to approach teaching differently: to share the techniques used by professionals game artists and the related foundations.
 
-Despite my heavy accent, people asked for more. So I made some more.
+At the time, it was a one-person hobby project. It was also unrelated to Free Software, as I didn't know much about that. The idea was to share the techniques professional game developers used and to make them accessible to everyone.
 
-Back then, I didn't know a thing about Free Software. I made game sprites in Photoshop, edited with Sony Vegas, and prototyped games with Construct 2.
-
-![Rabbit Adventures screenshot](./img/rabbit-adventures-resonant-craft.jpg)
-
-One day, I stumbled upon Krita, which had just arrived on Windows. It was barely usable at first, but I could see its rich feature set and potential. A year later, a major update brought many improvements I decided to shift my focus to it.
-
-It still had some rough edges, it was slow, but it was free. Anyone, anywhere around the globe could use it without having to pay for anything. Also, there were only a few tutorials for it.
-
-One thing leading to another, I started to learn about the philosophy behind Free Software. Along the way, I met contributors and project maintainers who share everything they know. I learned a lot from them.
-
-GDQuest was born like that, inspired by benevolent creators. Also, by the need for quality free education and tools. Even though we sell products, as quality content takes much work to create, we used that to fund the hundreds of free tutorials we released already and dozens of free and open-source projects we have [on our GitHub](//github.com/GDQuest).
+Our concept and mission evolved progressively. First, [Krita](//krita.org/en/) and its welcoming development team gave me the first taste of Free Software. We later moved onto covering the [Godot game engine](//godotengine.org/) and using Linux.
