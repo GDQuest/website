@@ -1,5 +1,5 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
+title = "{{ if eq .File.TranslationBaseName "index" }}{{ replace (.File.Dir | path.Base) "-" " " | title }}{{ else }}{{ replace .File.TranslationBaseName "-" " " | title }}{{ end }}"
 description = "Temp description"
 author = "nathan"
 
