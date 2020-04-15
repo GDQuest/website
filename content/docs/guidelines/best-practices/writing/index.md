@@ -28,6 +28,38 @@ Address the reader directly with "you." When talking about yourself or the team,
 
 Also, while we should keep the style of documents like these consistent and formal, you're encouraged to show your personality in news posts and devlogs.
 
+## The writing workflow
+
+Here is the tutorial writing workflow we should always follow. In short:
+
+1. Prepare the final code for the tutorial.
+2. Code review.
+3. Write an outline for each lesson or tutorial series.
+   - Show the result and list what the person will learn at the start.
+   - Use sub-headings to structure your content.
+   - Focus on the general techniques, principles, problems to solve, or reasons for a given code structure. Skim over the steps or implementation details.
+   - Write the start of paragraphs, paste code snippets, or use pictures over bullet-lists. That is to say, content from which you can directly build your tutorial.
+4. Outline review.
+5. Write the tutorial, building from the outline.
+
+Working with an editor is essential to get the perspective of someone who hasn't researched the subject matter as much as you did. Also, we cannot pick up all the mistakes we do alone.
+
+### Focus on what matters most
+
+Explain where you are going or why you design your code or nodes in a certain way in the introduction, before giving step-by-step instructions. This background is a vital part of the tutorial to me.
+
+Depending on the topic, focus on:
+
+- The problems to solve.
+- The challenges involved.
+- Breaking down an effect or reference visually (game art, game design).
+- The design principles that apply to the task at hand.
+- How other persons may have solved that problem.
+
+Explaining underlying causes or concepts helps the reader to follow along and to stress the most important aspects to learn: problem-solving, transferable knowledge and techniques.
+
+Then, you can break down the steps to reach the tutorial's goal. You can also add general explanations or background to the rest of the tutorial.
+
 ## Dos and don'ts
 
 Below, you will find specific guidelines that help to communicate ideas clearly to a broad audience, including non-native English speakers.
