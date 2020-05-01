@@ -1,7 +1,7 @@
 +++
 author = "nathan"
-description = "ENTER DESCRIPTION"
-title = "ENTER TITLE"
+description = ""
+title = "Tutorial series"
 type = "course_chapter"
 weight = 1
 
