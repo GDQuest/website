@@ -1,0 +1,17 @@
+name = "Henrique Campos"
+user = "henrique"
+picture = "img/avatar/henrique.png"
+role = "Tutor"
+description = "Indie game developer and designer. I also like cooking."
+
+website = "http://pigdev.studio"
+email = "henriquecampos@pigdev.studio"
+
+[social.twitter]
+url = "https://twitter.com/pigdev"
+icon = "twitter"
+name = "Twitter"
+[social.youtube]
+url = "http://youtube.com/c/pigdevstudio"
+icon = "youtube"
+name = "Youtube"

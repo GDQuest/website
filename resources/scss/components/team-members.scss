@@ -9,18 +9,22 @@
 }
 
 .team-card {
-  background-color: #272b30;
-
-  border-radius: 8px;
-  color: white;
+  max-width: 100%;
 
   overflow: hidden;
   text-align: center;
 
+  border-radius: 8px;
+
+  color: white;
+  background-color: #272b30;
+
   > .avatar {
     width: 12rem;
     height: 12rem;
-    background-size: contain;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   > .name {
@@ -32,5 +36,15 @@
 
   > .role {
     margin: 0.4rem;
+  }
+}
+
+@include mobile {
+  .team-members {
+    grid-template: "a b";
+  }
+
+  .team-card > .avatar {
+    max-height: 10rem;
   }
 }

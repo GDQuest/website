@@ -1,7 +1,7 @@
 <section class="team-members">
     {{ range $.Site.Data.authors }}
     <article class="team-card">
-        <div class="avatar" style="background-image: url({{ (printf "img/avatar/%s.png" .user) | absURL }});"></div>
+        <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
         <header class="name">{{ .name }}</header>
         <p class="role">{{ .role }}</p>
     </article>
