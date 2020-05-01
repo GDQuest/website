@@ -1,0 +1,24 @@
+{{ define "header_content" }}
+
+<div class="header-background"></div>
+<div class="header-article">
+    <h1 class="title">{{.Title}}</h1>
+    {{ with .Params.author }}
+    {{ with (index $.Site.Data.authors . ) }}
+    <p class="subtitle">by: {{ .name }} </p>
+    {{ end }}
+    {{ end }}
+</div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<div class="grid center container">
+    <article class="padding-v-base">
+        {{ with .Params.banner }}
+        <img src="{{ .src }}" alt="{{ .alt }}">
+        {{ end }}
+        {{ .Content }}
+    </article>
+</div>
+{{ end }}

@@ -3,7 +3,6 @@ date = 2020-02-25T14:35:09-05:00
 title = "François Bélair"
 description = "François Bélair's profile"
 tags = ["now page", "now"]
-
 +++
 
 Hailing from sleepy and chilly south-side Coaticook, Québec.

@@ -1,6 +1,7 @@
 name = "Johnny Goss"
 user = "johnny"
 picture = "img/avatar/johnny.png"
+role = "Tutor"
 description = "Indie game developer and tutorial maker. Dungeon Master."
 
 website = "http://johnnygoss.dev"

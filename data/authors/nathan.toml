@@ -1,7 +1,8 @@
 name = "Nathan Lovato"
 user = "nathan"
 picture = "img/avatar/nathan.png"
-description = "Courteous game designer, with a taste for Free Software. I'll share all I know."
+role = "Founder"
+description = "GDQuest founder. Courteous designer with a taste for Free Software. I promote sharing and collaboration."
 
 website = "//gdquest.com/"
 email = "Nathan@GDQuest.com"

@@ -3,7 +3,6 @@ date = "2017-07-03T18:57:33+02:00"
 description = "description"
 tags = ["now page", "now"]
 title = "Nathan Lovato"
-
 +++
 
 _Last update on April 10, 2020_

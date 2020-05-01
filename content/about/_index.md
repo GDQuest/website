@@ -3,7 +3,6 @@ author = "nathan"
 title = "About us"
 small = "GDQuest, its mission, and the people behind it"
 date = "2017-04-10T13:40:07+02:00"
-layout = "single"
 
 paginate = false
 
@@ -26,15 +25,6 @@ GDQuest is a growing library of [game creation tutorials](/tutorial) and [open-s
 
 ![Krita game art course banner](/krita/game-art-quest/painterly-game-art-banner.jpg)
 
-## Get in touch
-
-If you're looking for help with a given program, head to our [Discord](//discord.gg/KVaCsSP) server!
-
-In general, you can find us on:
-
-- [Discord](//discord.gg/KVaCsSP), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
-- [Twitter](//twitter.com/NathanGDQuest) is a popular social network for game developers.
-
 ## The story of GDQuest
 
 ![Portrait of Nathan, GDQuest founder](./img/nathan.png)
@@ -50,3 +40,16 @@ Back then, we found that a lot of the available free 2D game art videos were ste
 At the time, it was a one-person hobby project. It was also unrelated to Free Software, as I didn't know much about that. The idea was to share the techniques professional game developers used and to make them accessible to everyone.
 
 Our concept and mission evolved progressively. First, [Krita](//krita.org/en/) and its welcoming development team gave me the first taste of Free Software. We later moved onto covering the [Godot game engine](//godotengine.org/) and using Linux.
+
+## Get in touch
+
+If you're looking for help with a given program, head to our [Discord](//discord.gg/KVaCsSP) server!
+
+In general, you can find us on:
+
+- [Discord](//discord.gg/KVaCsSP), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
+- [Twitter](//twitter.com/NathanGDQuest) is a popular social network for game developers.
+
+## Meet the team
+
+GDQuest wouldn't be much without its team. Here are the folks who work on the project consistently.

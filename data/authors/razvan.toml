@@ -1,6 +1,7 @@
 name = "Răzvan C. Rădulescu"
 user = "razvan"
 picture = "img/avatar/razvan.png"
+role = "Developer"
 description = "GameDev. enthusiast, passionate about technology, sciences and philosophy. I believe we should freely share our knowledge."
 
 website = "//razcore.gitlab.io/"
