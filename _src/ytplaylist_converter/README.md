@@ -1,8 +1,8 @@
-# Youtube playlist to Hugo markdown #
+# Youtube playlist to Hugo markdown
 
 This tool converts playlists from YouTube to content pages for the static website engine hugo.
 
-## Getting started ##
+## Getting started
 
 The program depends on some external packages. You need to create a python environment and install the dependencies.
 
