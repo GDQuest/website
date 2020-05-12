@@ -2,6 +2,12 @@
 
 This command-line tool converts playlists from YouTube to content pages for the static website engine hugo. It is designed to be ran manually, on your computer.
 
+By using this tool and the YouTube API, you accept the YouTube API's Terms of Service and Google Privacy Policy. You can find the policies in details below:
+
+- [YouTube Developer Policy](https://developers.google.com/youtube/terms/developer-policies)
+- [YouTube API Terms Of Service](https://developers.google.com/youtube/terms/api-services-terms-of-service)
+- [Google Privacy Policy](https://policies.google.com/privacy#enforcement)
+
 It uses the YouTube API to query information about playlist IDs passed as command-line arguments and outputs website pages as markdown documents:
 
 - One page for the playlist, that contains a list of the videos in the playlist.
