@@ -4,7 +4,7 @@ This command-line tool converts playlists from YouTube to content pages for the 
 
 By using this tool and the YouTube API, you accept the YouTube API's Terms of Service and Google Privacy Policy. You can find the policies in details below:
 
-- [YouTube Developer Policy](https://developers.google.com/youtube/terms/developer-policies)
+- [YouTube Terms of Service](https://www.youtube.com/t/terms)
 - [YouTube API Terms Of Service](https://developers.google.com/youtube/terms/api-services-terms-of-service)
 - [Google Privacy Policy](https://policies.google.com/privacy#enforcement)
 

@@ -1,6 +1,6 @@
 # This tool uses the YouTube API. By using this program, you agree to the terms of the YouTube API Terms Of Service and the Google Privacy Policy:
 #
-# YouTube Developer Policy: https://developers.google.com/youtube/terms/developer-policies
+# YouTube Terms of Service: https://www.youtube.com/t/terms
 # YouTube API Terms Of Service: https://developers.google.com/youtube/terms/api-services-terms-of-service
 # Google Privacy Policy: https://policies.google.com/privacy#enforcement
 import argparse
