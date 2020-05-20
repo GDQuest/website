@@ -47,11 +47,17 @@ With the _HeightMap_ node selected:
 
 Save the scene as _WorldMap.tscn_.
 
-## DiscreteTexture resource
+## Creating a DiscreteTexture resource
 
-We're done preparing the scene. Create a new GDScript file called `DiscreteTexture.gd` with the following code:
+Now we're done preparing the scene, let's get to the meat of it.
 
-{{< highlight gdscript >}}
+We want to turn a smooth noise image into a map with stylized yet clearly defined areas, with water, beaches, mountains...
+
+To create sharp transitions between parts of the map, we're going to 
+
+Create a new GDScript file called `DiscreteTexture.gd` with the following code:
+
+```gdscript
 tool
 class_name DiscreteTexture
 extends GradientTexture
@@ -82,7 +88,7 @@ func discrete() -> ImageTexture:
 		image.unlock()
 		out.create_from_image(image, 0)
 	return out
-{{</ highlight >}}
+```
 
 _Note_ the use of `tool` in the script. This will allow us to use the `discrete()` function inside the editor for immediate feedback.
 
@@ -94,7 +100,7 @@ This class inherits from `GradientTexture`. We add the `discrete()` function to 
 
 With the _HeightMap_ node selected add the following shader:
 
-{{< highlight glsl >}}
+```glsl
 shader_type canvas_item;
 
 
@@ -107,11 +113,11 @@ void fragment() {
 	float noise = (texture(TEXTURE, UV).r - height_map_min) / (height_map_max - height_map_min);
 	COLOR = texture(colormap, vec2(noise, 0.0));
 }
-{{</ highlight >}}
+```
 
 The final piece is this _HeightMap_ script:
 
-{{< highlight gdscript >}}
+```gdscript
 tool
 extends TextureRect
 
@@ -155,7 +161,7 @@ func get_minmax(array: Array) -> Dictionary:
 		out.min = min(out.min, value)
 		out.max = max(out.max, value)
 	return out
-{{</ highlight >}}
+```
 
 What we do here is to set reactions to changes in the textures we use: the _NoiseTexture_ and the _DiscreteTexture_ so that we see feedback in the editor directly.
 
@@ -165,15 +171,15 @@ _OpenSimplexNoise_ generates values from `0` to `1`, but they usually fall withi
 
 In the shader we remap the noise values to the `[0, 1]` interval:
 
-{{< highlight glsl >}}
+```glsl
 float noise = (texture(TEXTURE, UV).r - height_map_min) / (height_map_max - height_map_min);
-{{</ highlight >}}
+```
 
 So we can use them with the full extent of the `colormap`:
 
-{{< highlight glsl >}}
+```glsl
 COLOR = texture(colormap, vec2(noise, 0.0));
-{{</ highlight >}}
+```
 
 Play with a `colormap` setting of your choosing such as:
 
@@ -185,7 +191,7 @@ As a final let's add an edge to separate our _HeightMap_ colors.
 
 Unhide the _PostProcess_ node and add a material with the following screen-space shader:
 
-{{< highlight glsl >}}
+```glsl
 shader_type canvas_item;
 
 
@@ -222,12 +228,8 @@ void fragment() {
 	COLOR = texture(SCREEN_TEXTURE, SCREEN_UV);
 	COLOR = mix(COLOR, edge_color, s);
 }
-{{</ highlight >}}
+```
 
 It's a simple [Sobel shader](https://github.com/spite/Wagner/blob/master/fragment-shaders/sobel-fs.glsl) I found online and adapted for use in Godot.
 
 Play with the _Edge Color_ and _Delta_ values in the _Inspector_ under _Shader Param_ for a different look.
-
-## Project files
-
-In [the attached project](./files/world-map.zip) you can find the final result plus a bonus scene called _GradientDiscrete.tscn_ which presents the _GradientTexture_ to _DiscreteTexture_ conversion interactively in the Godot editor.
