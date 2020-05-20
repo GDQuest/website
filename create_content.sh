@@ -1,29 +1,14 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 #
 # Creates content pieces for our hugo website.
-NAME="create_content"
-
-# Debug
-is_dry_run=0
-
-# Main variables
-command=""
-date=""
-filename=""
+NAME="create_content.sh"
 
 # UTILS
 FORMAT_NORMAL=$(tput sgr0)
 FORMAT_BOLD=$(tput bold)
-COLOR_RED=$(tput setaf 1)
 
 format_bold() {
 	printf "%s%s%s" "$FORMAT_BOLD" "$*" "$FORMAT_NORMAL"
-}
-
-echo_error() {
-	function_name=$1
-	shift
-	printf "%s in %s: %s" "$(color_apply red Error)" "$(format_bold "$function_name")" "$*"
 }
 
 # Prints the text with inserted color codes for the current terminal.
@@ -65,52 +50,57 @@ type -- Type of content, "news"
 -h/--help             -- Display this help message.
 -d/--date             -- (Optional) date override to create news posts
 -n/--name             -- File or directory name for the new content
+-x/--dry-run          -- Display debug messages without modifying any file
 ' "$(format_bold Usage)" "$NAME" "$(format_bold Positional arguments)" "$(format_bold Options)"
 	exit 0
 }
 
 # Parses the arguments passed to the program.
 parse_arguments() {
-	# Start with subcommand
-	case "$1" in
-	-h | --help)
-		echo_help
-		exit
-		;;
-	news)
-		command="$1"
-		shift
-		;;
-	esac
-	test "$command" = "" && echo_error "parse_arguments" "Missing subcommand. Run '$NAME --help' for usage information. Exiting." && exit 1
+	args=()
+	# Handle long options
+	for arg; do
+		case "$arg" in
+		--help) args+=(-h) ;;
+		--dry-run) args+=(-d) ;;
+		--date) args+=(-d) ;;
+		--name) args+=(-n) ;;
+		*) args+=("$arg") ;;
+		esac
+	done
 
-	arguments=$(getopt --name "$NAME" -o "h,x,d:,n:" -l "help,dry-run,date:,name:" -- "$@")
-	eval set -- "$arguments"
-	while true; do
-		case "$1" in
-		-d | --date)
-			date=$(date -d "$2" -I)
+	set -- "${args[@]}"
+	while getopts "h,x,d:,n:" OPTION; do
+		case $OPTION in
+		h) echo_help ;;
+		d)
+			date=$(date -d "$OPTARG" -I)
 			test $? -ne 0 && echo "Invalid date. Use a format supported by date, like $(date -I). Exiting" && exit 1
-			shift 2
 			;;
-		-n | --name)
-			filename="$2"
-			shift 2
+		n)
+			filename="$OPTARG"
 			;;
-		-x | --dry-run)
+		x)
 			is_dry_run=1
-			shift
 			;;
 		--)
-			shift
 			break
 			;;
+		\?)
+			echo "Invalid option: $OPTION" 1>&2
+			;;
+		:)
+			echo "Invalid option: $OPTION requires an argument" 1>&2
+			;;
 		*)
-			echo_error "parse_arguments" "Missing option flag. Try '$NAME --help' for more information"
+			echo "There was an error: option '$OPTION' with value $OPTARG"
 			exit 1
 			;;
 		esac
 	done
+
+	shift $((OPTIND - 1))
+	command="$1"
 }
 
 create_news() {
@@ -118,16 +108,18 @@ create_news() {
 	test "$filename" = "" && echo "Missing filename. Please enter the article's filename" && read -r filename
 	path=news/$(date -d "$date" +%Y)/$(date -d "$date" +%m)/"$(path_sanitize "$filename")"/index.md
 	test $is_dry_run -eq 0 && hugo new "$path" --editor "$EDITOR"
-	exit 0
 }
 
 # Executes the program.
 main() {
+	local is_dry_run=0
+	local command=""
+	local date=""
+	local filename=""
+
 	parse_arguments "$@"
-	test $? -ne 0 && echo_error "main" "There was an error parsing the command line arguments. Run '$NAME --help' for usage information. Exiting." && exit $?
 	test "$command" = "news" && create_news
 	exit $?
 }
 
 main "$@"
-exit $?
