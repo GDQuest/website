@@ -28,7 +28,7 @@ In this series, you will learn to:
 
 You should know how to work with Godot's editor and have GDScript foundations for some lessons, such as the laser.
 
-If you have no experience with Godot, check out our complete [Free Godot guide for beginners](//www.gdquest.com/docs/guides/learn-godot/beginner/) to get you started.
+If you have no experience with Godot, check out our complete [Free Godot guide for beginners]({{< ref "docs/guides/learn-godot/beginner/index.md" >}}) to get you started.
 
 ![Trail effect](./trail.png)
 
