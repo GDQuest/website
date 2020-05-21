@@ -25,10 +25,10 @@ I define some custom shortcuts for the tools I use the most amongst the features
 
 In your configuration file, init.el (<kbd>SPC</kbd> <kbd>f</kbd> <kbd>e</kbd> <kbd>d</kbd>), in the `user-config` function, add:
 
-{{< highlight lisp >}}
+```lisp
 (define-key evil-normal-state-map (kbd "M-s") #'avy-goto-char-timer)
 (define-key evil-normal-state-map (kbd "M-w") #'avy-goto-word-1)
-{{< / highlight >}}
+```
 
 To synchronize the settings, you can press <kbd>SPC</kbd> <kbd>f</kbd> <kbd>e</kbd> <kbd>R</kbd>.
 
@@ -49,7 +49,7 @@ Here are some Vim commands I use to jump a lot:
 
 To add a function text object, add the following function to your configuration file:
 
-{{< highlight lisp >}}
+```lisp
 (evil-define-text-object evil-outer-function (count)
   (interactive)
   (save-mark-and-excursion
@@ -60,10 +60,10 @@ To add a function text object, add the following function to your configuration 
             (previous-line)
             (list m (first (sp-get-comment-bounds))))
         (list m (point))))))
-{{< / highlight >}}
+```
 
 And add a key for it in the evil outer text objects keymap:
 
-{{< highlight lisp >}}
+```lisp
 (define-key evil-outer-text-objects-map "d" 'evil-outer-function)
-{{< / highlight >}}
+```

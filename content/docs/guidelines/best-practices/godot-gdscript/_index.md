@@ -39,7 +39,7 @@ We wrote these GDScript programming guidelines with a few goals in mind:
 
 We follow the same [code order](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html#code-order) from the official GDScript style guide. Here is a complete example that follows these guidelines:
 
-{{< highlight gdscript >}}
+```gdscript
 # Hierarchical State machine for the player.
 # Initializes states and delegates engine callbacks (_physics_process, _unhandled_input) to the state.
 class_name StateMachine
@@ -94,13 +94,13 @@ func set_state(value: State) -> void:
 func _on_state_changed(previous: Node, new: Node) -> void:
     print("state changed")
     emit_signal("state_changed")
-{{< / highlight >}}
+```
 
 ### Code style ###
 
 Start with the optional `class_name` if needed. Then add the `extends` keyword if the class extends a built-in type. Following that, you should have the class's docstring:
 
-{{< highlight gdscript >}}
+```gdscript
 # A brief description of the class's role and functionality.
 #
 # A longer description if needed, possibly of multiple paragraphs. Properties and method names
@@ -111,15 +111,15 @@ Start with the optional `class_name` if needed. Then add the `extends` keyword i
 # Keep lines under 100 characters long.
 class_name MyNode
 extends Node
-{{< / highlight >}}
+```
 
 Signals go first and don't use parentheses unless they pass function parameters. Use the past tense to name signals. Append `_started` or `_finished` if the signal corresponds to the beginning or the end of an action.
 
-{{< highlight gdscript >}}
+```gdscript
 signal moved
 signal talk_started(parameter_name)
 signal talk_finished
-{{< / highlight >}}
+```
 
 
 {{% notice note %}}
@@ -130,7 +130,7 @@ After that enums, constants, exported, public (regular name), and pseudo-private
 
 Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. This order is important because exported variables might depend on previously defined enums and constants.
 
-{{< highlight gdscript >}}
+```gdscript
 enum TileTypes { EMPTY=-1, WALL, DOOR }
 
 const MAX_TRIALS := 3
@@ -138,7 +138,7 @@ const TARGET_POSITION := Vector2(2, 56)
 
 export var number := 0
 export var is_active := true
-{{< / highlight >}}
+```
 
 _Note:_ for booleans, always include a name prefix like `is_`, `can_`, or `has_`.
 
@@ -150,60 +150,60 @@ Include a docstring in the setters/getters if they modify the node/class state i
 
 Start with a leading underscore when writing setters or getters for private variables just like the variable.
 
-{{< highlight gdscript >}}
+```gdscript
 var animation_length := 1.5
 var tile_size := 40
 var side_length := 5 setget set_side_length, get_side_length
 
 var _count := 0 setget _set_count, _get_count
 var _state := Idle.new()
-{{< / highlight >}}
+```
 
 Place `onready` variables right before `_init` and/or `_ready` functions to visually connect these with their usage inside the `_ready` function.
 
-{{< highlight gdscript >}}
+```gdscript
 onready var timer := $HungerCheckTimer
 onready var ysort := $YSort
-{{< / highlight >}}
+```
 
 
 Next define virtual methods from Godot (those starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them from other code blocks.
 
-{{< highlight gdscript >}}
+```gdscript
 func _init() -> void:
   pass
 
 
 func _process(delta: float) -> void:
   pass
-{{< / highlight >}}
+```
 
 For signal callbacks, we use Godot's convention,  `_on_NodeName_signal_name`:
 
-{{< highlight gdscript >}}
+```gdscript
 func _on_Quest_started(which: Quest) -> void:
   ...
-{{< / highlight >}}
+```
 
 You should remove `NodeName` if the object connects to itself:
 
-{{< highlight gdscript >}}
+```gdscript
 class_name HitBox
 extends Area2D
 
 
 func _ready() -> void:
   connect("area_entered", self, "_on_area_entered")
-{{< / highlight >}}
+```
 
 Then define public methods. Include type hints for variables and the return type. You can use a brief comment to describe what the function does and what it returns.
 
 Start the sentence with `Returns` when describing the return value. Use the present tense and direct voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
 
-{{< highlight gdscript >}}
+```gdscript
 func can_move(cell_coordinates: Vector2) -> bool:
   return grid[cell_coordinates] != TileTypes.WALL
-{{< / highlight >}}
+```
 
 Use `return` only at the beginning and end of functions. At the beginning of the function we use `return` as a guard mechanism if the conditions for executing the function aren't met.
 
@@ -211,7 +211,7 @@ Use `return` only at the beginning and end of functions. At the beginning of the
 
 Here's an example of a **clean** and readable method:
 
-{{< highlight gdscript >}}
+```gdscript
 func _set_elements(elements: int) -> bool:
   # Sets up the shadow scale, number of visual elements and instantiates as needed.
   # Returns true if the operation succeeds, else false
@@ -240,7 +240,7 @@ func _set_elements(elements: int) -> bool:
 
   $Shadow.scale = SHADOW.scale * (1.0 + elements/6.0)
   return true
-{{< / highlight >}}
+```
 
 ### Use static types
 
@@ -254,13 +254,13 @@ To get started with GDScript's type hints, read [Static typing in GDScript](//do
 
 Normally, you define typed variables like this:
 
-{{< highlight gdscript >}}
+```gdscript
 var direction: Vector2 = get_move_direction()
-{{< / highlight >}}
+```
 
 But if `get_move_direction` has a return type annotation, Godot can infer the type of the variable for us. In that case, we only need to add a colon after the variable's name:
 
-{{< highlight gdscript >}}
+```gdscript
 func get_move_direction() -> Vector2:
   var direction := Vector2(
       ...
@@ -268,16 +268,16 @@ func get_move_direction() -> Vector2:
   return direction
 
 var direction := get_move_direction() # The variable's type is Vector2
-{{< / highlight >}}
+```
 
 **Let Godot infer the type whenever you can**. It's less error prone because the system keeps better track of types than we humanly can. It also pushes us to have proper return values for all the functions and methods that we write.
 
 Since the compiler doesn't enforce static types, sometimes we have to help it out. Take the following example:
 
-{{< highlight gdscript >}}
+```gdscript
 var array := [1, "Some text"]
 var text: String = array.pop_back()
-{{< / highlight >}}
+```
 
 The `Array` can contain values with different types. In the example above, we have both an `int` and a `String` stored in the array. If you only wrote `var text := array.pop_back()`, Godot would complain because it doesn't know what type the `pop_back` method should return.
 
@@ -298,17 +298,17 @@ You'll get this issue with all built-in methods that return the engine's `Varian
 
 Using `null` is often a lost opportunity to have a value that makes sense instead, like `Vector2.ZERO`, or to simplify code, removing unnecessary state checks, i.e.:
 
-{{< highlight gdscript >}}
+```gdscript
 if not variable:
     return
-{{< / highlight >}}
+```
 
 With type hints and type inference you will naturally avoid `null` though:
 
-{{< highlight gdscript >}}
+```gdscript
 var speed := Vector2.ZERO
 var path := TrajectorySpline.new()
-{{< / highlight >}}
+```
 
 It's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
 
@@ -326,19 +326,19 @@ Use clear variable names in plain English and write full words. E.g. `character_
 
 Use plain verbs instead of repeating the class's name in signals:
 
-{{< highlight gdscript >}}
+```gdscript
 class_name Event
 extends Node
 
 signal started
 signal completed
-{{< / highlight >}}
+```
 
 You _may_ use short variable names inside of your methods, for local variables, to avoid repeating a type hint for instance.
 
 In the example below, the variable `e`, an instance of `Element`, only appears in 4 consecutive lines so the code stays readable:
 
-{{< highlight gdscript >}}
+```gdscript
 func _set_elements(elements: int) -> bool:
 ...
   for i in range(elements):
@@ -346,7 +346,7 @@ func _set_elements(elements: int) -> bool:
     e.node_a = "../StaticBody2D"
     e.position = skin_viewport_staticbody.position
 ...
-{{< / highlight >}}
+```
 
 #### Use comments if they save time or add key explanations
 
@@ -356,18 +356,18 @@ In these cases, writing a short comment above the corresponding block can save e
 
 In this example, the code involves transforming and multiplying matrices to calculate a position in Godot's 2D viewport. A one-line comment can capture what it does and avoid having to make sense of the calculations:
 
-{{< highlight gdscript >}}
+```gdscript
 func drag_to(event_position: Vector2) -> void:
   # Calculate the position of the mouse cursor relative to the RectExtents' center
   var viewport_transform_inverse:= rect_extents.get_viewport().get_global_canvas_transform().affine_inverse()
   var viewport_position: Vector2 = viewport_transform_inv.xform(event_position)
   var transform_inverse:= rect_extents.get_global_transform().affine_inverse()
   var target_position: Vector2 = transform_inv.xform(viewport_position.round())
-{{< / highlight >}}
+```
 
 Here's a comment that explains why a seemingly strange line of code is necessary so another developer doesn't remove it accidentally:
 
-{{< highlight gdscript >}}
+```gdscript
 extends BattlerAI
 
 func choose_action(actor: Battler, targets: Array = []):
@@ -375,7 +375,7 @@ func choose_action(actor: Battler, targets: Array = []):
     # because the combat system expects this method to use a coroutine
     yield(get_tree(), "idle_frame")
     ...
-{{< / highlight >}}
+```
 
 
 ### Naming conventions ###

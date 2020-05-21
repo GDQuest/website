@@ -264,7 +264,7 @@ How to use:
 1. (Optional) Make a backup of the files.
 1. Paste the code below in your terminal.
 
-{{< highlight fish >}}
+```fish
 #! /usr/bin/fish
 set temp_file mktemp
 for v in *.flv; string replace .flv "" $v >> $temp_file; end
@@ -274,7 +274,7 @@ for i in (cat $temp_file | uniq -w 3)
     cp ~/Templates/video.blend $i/$i.blend
 end
 rm $temp_file
-{{< / highlight >}}
+```
 
 The script creates the blender projects for you. Then, you can:
 

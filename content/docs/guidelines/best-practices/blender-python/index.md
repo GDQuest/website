@@ -28,7 +28,7 @@ To work together on Free Software efficiently, we need to follow some convention
 
 Here's a complete class that follows all the conventions below, with some code removed so it's not too long to read:
 
-{{< highlight python >}}
+```python
 class POWER_SEQUENCER_OT_gap_remove(bpy.types.Operator):
     """
     Remove gaps, starting from the time cursor, ignoring locked strips
@@ -95,7 +95,7 @@ class POWER_SEQUENCER_OT_gap_remove(bpy.types.Operator):
 
     def move_markers(self, context, gap_frame, gap_size):
         ...
-{{< / highlight >}}
+```
 
 ### Class names ###
 
@@ -149,7 +149,7 @@ Even though most built-in operators are written in fast C code, changes like mov
 
 Imagine you want to code an operator to offset all strips after the time cursor by 30 frames, ignoring locked strips. Using the built-in `transform.seq_slide` operator, your code would look like this:
 
-{{< highlight python >}}
+```python
 FRAME_OFFSET = 30
 
 initial_selection = context.selected_sequences
@@ -163,18 +163,18 @@ bpy.ops.transform.seq_slide(value=(FRAME_OFFSET, 0))
 bpy.ops.sequencer.select_all(action='DESELECT')
 for s in initial_selection:
     s.select = true
-{{< / highlight >}}
+```
 
 The code above stores, modifies, and then restores the user's selection. You can get the same result, without having to mess with the selection, like so:
 
-{{< highlight python >}}
+```python
 FRAME_OFFSET = 30
 sequences_to_move = [s for s in context.sequences \
                      if not s.lock \
                      and s.frame_final_start > context.scene.frame_current]
 for s in reversed(sorted(sequences_to_move, key=lambda s: s.frame_final_start)):
    s.frame_start += FRAME_OFFSET
-{{< / highlight >}}
+```
 
 In this case, it both simplifies the code and removes the dependencies on built-in operators.
 
@@ -182,25 +182,25 @@ The `sorted` function sorts the `sequences_to_move` by their start frame. We nee
 
 If you find this code hard to read, you you can always create one or more functions to make your code more expressive:
 
-{{< highlight python >}}
+```python
 def get_sorted(sequences=[], attribute=''):
     return sorted(sequences, key=lambda s: get_attr(s, attribute))
 
 def get_sorted_reversed(sequences=[], attribute=''):
     return reversed(get_sorted(sequences, attribute))
-{{< / highlight >}}
+```
 
 Turning the line 
 
-{{< highlight python >}}
+```python
 for s in reversed(sorted(sequences_to_move, key=lambda s: s.frame_final_start)):
-{{< / highlight >}}
+```
 
 Into:
 
-{{< highlight python >}}
+```python
 for s in get_sorted_reversed(sequences_to_move, 'frame_final_start'):
-{{< / highlight >}}
+```
 
 {{< note >}}
 There is an operator in blender 2.80 to offset sequences after the time cursor. But it moves locked sequences like any other. That's why if you want to add that feature and avoid relying on this built-in operator, you have to code your own.

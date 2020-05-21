@@ -198,10 +198,10 @@ In my experience working only with visual languages does not scale well. As your
 
 To give you an idea the VisualScript example above only takes 2 lines in the text-based GDscript language:
 
-{{< highlight gdscript >}}
+```gdscript
 func _process(delta):
 	position += direction * speed * delta
-{{< /highlight >}}
+```
 
 You will only see the drawbacks of visual code after you have learned and gotten comfortable with text-based programming. It is okay to start with visual code. Just don't count other programming languages out because they're harder for you to get started with. As a designer I'm glad I made the transition: it felt a little uncomfortable at first but I never looked back.
 
@@ -224,7 +224,7 @@ I recommend to start with Python for at least 3 reasons:
 
 Python looks like this:
 
-{{< highlight python >}}
+```python
 numbers = [2, 4, 6, 8]
 product = 1
 
@@ -232,7 +232,7 @@ for number in numbers:
    product = product * number
 
 print('The product is:', product)
-{{< /highlight >}}
+```
 
 With these instructions the computer calculates the product of `1 * 2 * 4 * 6 * 8` and tells you the result:
 

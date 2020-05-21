@@ -63,7 +63,7 @@ Here are a few ideas that could improve code maintainability and overall structu
 
   Lets look at some examples of these. Take the following:
 
-{{< highlight gdscript >}}
+```gdscript
 # Game.gd
 
 ...
@@ -118,7 +118,7 @@ func party_walk(leader: Actor, path: Array) -> void:
 func get_party_destination(path: Array) -> Vector2:
   var destination: Vector2 = path[path.size() - 1] if not path.empty() else Vector2()
   return destination
-    {{< / highlight >}}
+    ```
 
 We can read through `party_command` without looking at the implementation of other functions because we already have a good idea about what it does. We **divided up the implementation into smaller functions** and gave expressive names to these functions.
 
@@ -132,7 +132,7 @@ Now, this isn't a hard rule. For example, we may want to return a `bool` value f
 
 The `party_walk` function could be rewritten like this:
 
-{{< highlight gdscript >}}
+```gdscript
 func party_command(msg: Dictionary = {}) -> void:
   var leader := party.get_member(0)
   if leader == null:
@@ -155,7 +155,7 @@ func party_walk(leader: Actor, path: Array) -> bool:
       path.pop_back()
     member.walk(path)
   return true
-    {{< / highlight >}}
+    ```
 
 Sometimes returning `bool` values like this in order to validate a successful execution is a decent idea.
 
@@ -165,7 +165,7 @@ _Keep in mind these are just guidelines!_
 
 There are cases when you can get away with a simpler way to manage scene nodes. If the scene is intended to be one building block that's supposed to be self-contained, then we can think of a "contract" that the scene will have to honor. In this case we can use the `owner` node property to access the root node of the scene from any level. This can greatly simplify interactions within the scene. We use this approach throughout our implementation of the [State Machine system](//gameprogrammingpatterns.com/state.html) from our 2D Platformer demo:
 
-{{< highlight gdscript >}}
+```gdscript
 extends State
 
 
@@ -185,6 +185,6 @@ func enter(msg: Dictionary = {}) -> void:
 
 func exit() -> void:
 	owner.skin.disconnect("animation_finished", self, "_on_Player_animation_finished")
-{{< /highlight >}}
+```
 
 We use the `owner` property to directly access the root node in the `Die` state. The `owner` in this case is the `Player` node.
