@@ -5,7 +5,6 @@ role = "Tutor"
 description = "Indie game developer and tutorial maker. Dungeon Master."
 
 website = "http://johnnygoss.dev"
-email = "me@johnnygoss.dev"
 
 [social.twitter]
 url = "https://twitter.com/johnnygossdev"
