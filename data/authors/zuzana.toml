@@ -1,0 +1,10 @@
+name = "Zuzana"
+user = "zuzana"
+picture = "img/avatar/zuzana.jpg"
+role = "Digital Marketer"
+description = "Freedom lover with a strong inclination towards metal, yoga, and all things written."
+
+[social.instagram]
+url = "//www.instagram.com/zdwiw/"
+icon = "instagram"
+name = "Instagram"

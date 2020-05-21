@@ -1,11 +1,10 @@
 +++
 title = "Design 2D visual effects for games in Godot"
 description = "Our new course to learn to design 2D visual effects for games in Godot is out!"
-author = "nathan"
+author = "zuzana"
 
 date = 2020-05-19T15:33:39-06:00
 weight = 5
-draft = true
 
 categories = ["news"]
 tags = ["godot", "course"]
