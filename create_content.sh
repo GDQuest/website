@@ -35,23 +35,22 @@ path_sanitize() {
 # Prints information about the program and how to use it.
 echo_help() {
 	test
-	printf 'Creates content pieces for our hugo website.
+	printf "Creates content pieces for our hugo website.
 
 %s:
-%s type [Options]
-
-Positional arguments must come before option flags.
+%s type name [category] [Options]
 
 %s:
 
-type -- Type of content, "news"
+type		 -- Type of content, one of \`${TYPES[*]}\`
+name		 -- File or directory name for the new content
+category	 -- (Optional) Sub-directory name for tutorials, one of \`${CATEGORIES[*]}\`
 
 %s:
--h/--help             -- Display this help message.
--d/--date             -- (Optional) date override to create news posts
--n/--name             -- File or directory name for the new content
+-h/--help             -- Display this help message
 -x/--dry-run          -- Display debug messages without modifying any file
-' "$(format_bold Usage)" "$NAME" "$(format_bold Positional arguments)" "$(format_bold Options)"
+-d/--date             -- (Optional) date override to create news posts
+" "$(format_bold Usage)" "$NAME" "$(format_bold Positional arguments)" "$(format_bold Options)"
 	exit 0
 }
 
@@ -62,9 +61,8 @@ parse_arguments() {
 	for arg; do
 		case "$arg" in
 		--help) args+=(-h) ;;
-		--dry-run) args+=(-d) ;;
+		--dry-run) args+=(-x) ;;
 		--date) args+=(-d) ;;
-		--name) args+=(-n) ;;
 		*) args+=("$arg") ;;
 		esac
 	done
@@ -76,9 +74,6 @@ parse_arguments() {
 		d)
 			date=$(date -d "$OPTARG" -I)
 			test $? -ne 0 && echo "Invalid date. Use a format supported by date, like $(date -I). Exiting" && exit 1
-			;;
-		n)
-			filename="$OPTARG"
 			;;
 		x)
 			is_dry_run=1
@@ -100,25 +95,47 @@ parse_arguments() {
 	done
 
 	shift $((OPTIND - 1))
-	command="$1"
+	type="$1"
+	folder_name="$2"
+	category="$3"
 }
 
-create_news() {
-	test "$date" = "" && date=$(date -I)
-	test "$filename" = "" && echo "Missing filename. Please enter the article's filename" && read -r filename
-	path=news/$(date -d "$date" +%Y)/$(date -d "$date" +%m)/"$(path_sanitize "$filename")"/index.md
+create_tutorial() {
 	test $is_dry_run -eq 0 && hugo new "$path" --editor "$EDITOR"
 }
 
-# Executes the program.
 main() {
 	local is_dry_run=0
-	local command=""
+	local type=""
 	local date=""
-	local filename=""
+	local folder_name=""
+	local category=""
 
 	parse_arguments "$@"
-	test "$command" = "news" && create_news
+
+	TYPES=(news tutorial)
+	CATEGORIES=("2D" "3D" pcg shaders ai physics ui audio animation vfx tool)
+
+	if [[ $type = tutorial && ! "${CATEGORIES[@]}" =~ "${category}" ]]; then
+		echo "Category is incorrect for this tutorial. Try $NAME --help to see available categories. Aborting operation." && exit 1
+	fi
+
+	test "$folder_name" = "" && echo "Missing folder_name. Please enter the article's folder_name" && read -r folder_name
+	case $type in
+	news)
+		test "$date" = "" && date=$(date -I)
+		path=news/$(date -d "$date" +%Y)/$(date -d "$date" +%m)/"$(path_sanitize "$folder_name")"/index.md
+		;;
+	tutorial)
+		path=tutorial/godot/$category/"$(path_sanitize "$folder_name")"/index.md
+		;;
+	*)
+		echo "Invalid type, should be one of ${TYPES[*]}"
+		;;
+	esac
+
+	test $is_dry_run -eq 0 && hugo new "$path" --editor "$EDITOR"
+
 	exit $?
 }
 
