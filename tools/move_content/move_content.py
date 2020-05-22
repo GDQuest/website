@@ -79,7 +79,7 @@ def main():
             path_out = get_path_out(filepath, args)
             os.remove(filepath)
             save_document(new_content, path_out)
-            if basename(filepath) == "index.md":
+            if basename(filepath) in ["index.md", "_index.md"]:
                 move_dependencies(filepath, path_out)
 
     for md_file in args.files:
