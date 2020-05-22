@@ -2,13 +2,13 @@
 """Moves a content page, adding an alias to it."""
 
 import argparse
+import os
 import re
-import sys
-import os
-import toml
 import shutil
-from os.path import basename, join, dirname, realpath, listd
-import os
+import sys
+from os.path import basename, dirname, join, realpath
+
+import toml
 
 
 def split_toml_front_matter(content: str) -> str:
@@ -73,8 +73,10 @@ def main():
         new_content = "\n".join(["+++", front_matter, "+++", body]).strip("\n")
         if not args.dry_run:
             path_out = get_path_out(filepath, args)
-            save_document(new_content, path_out, args)
-            move_dependencies(filepath, path_out)
+            os.remove(filepath)
+            save_document(new_content, path_out)
+            if basename(filepath) == "index.md":
+                move_dependencies(filepath, path_out)
 
     for md_file in args.files:
         md_file.close()
