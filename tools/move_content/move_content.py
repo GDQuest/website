@@ -107,8 +107,10 @@ def save_document(content: str, path_out: str):
 def move_dependencies(filepath, path_out):
     """Moves the dependencies of a leaf bundle, that is to say, the content of a directory containing an
 index.md document."""
-    for i in os.listdir(dirname(filepath)):
-        shutil.move(i, dirname(path_out))
+    dir_start = dirname(filepath)
+    for i in os.listdir(dir_start):
+        path = join(dir_start, i)
+        shutil.move(path, dirname(path_out))
 
 
 if __name__ == "__main__":
