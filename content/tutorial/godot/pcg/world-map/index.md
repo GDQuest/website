@@ -2,6 +2,9 @@
 title = "Heightmap-based procedural world map"
 description = "Learn to use noise textures to generate a procedural world map and get started with Procedural Content Generation."
 author = "razvan"
+type = "post"
+
+keywords = ["procedural content generation", "procgen", "heightmap", "godot", "godot tutorial"]
 
 date = 2020-05-20T10:51:41+03:00
 weight = 5
@@ -53,7 +56,7 @@ Now we're done preparing the scene, let's get to the meat of it.
 
 We want to turn a smooth noise image into a map with stylized yet clearly defined areas, with water, beaches, mountains...
 
-To create sharp transitions between parts of the map, we're going to 
+To create sharp transitions between parts of the map, we're going to
 
 Create a new GDScript file called `DiscreteTexture.gd` with the following code:
 
@@ -68,7 +71,7 @@ func _init() -> void:
 	width = 256
 
 
-# Creates a new image texture that converts a smooth gradient to an image with discrete areas of 
+# Creates a new image texture that converts a smooth gradient to an image with discrete areas of
 # color.
 func discrete() -> ImageTexture:
 	var out := ImageTexture.new()
@@ -137,10 +140,10 @@ func _ready() -> void:
 func _on_Colormap_changed() -> void:
 	if not colormap is DiscreteTexture:
 		return
-		
+
 	if colormap.gradient != null and not colormap.gradient.is_connected("changed", self, "_on_Colormap_changed"):
 		colormap.gradient.connect("changed", self, "_on_Colormap_changed")
-	
+
 	material.set_shader_param("colormap", colormap.discrete())
 
 
@@ -148,7 +151,7 @@ func _on_HeightMapTexture_changed() -> void:
 	var height_map_image := texture.get_data()
 	if not height_map_image:
 		return
-	
+
 	height_map_image.convert(Image.FORMAT_L8)
 	var height_map_minmax := get_minmax(height_map_image.get_data())
 	material.set_shader_param("height_map_min", height_map_minmax.min / L8_MAX)
@@ -201,24 +204,24 @@ uniform vec2 delta = vec2(0.5);
 
 float sobel(sampler2D tex, vec2 uv, vec2 pixel_size) {
 	vec2 delta_pixel = delta * pixel_size;
-	
+
 	vec4 h = vec4(0.0);
 	vec4 v = vec4(0.0);
-	
+
 	h +=       texture(tex, uv + vec2(-1.0, -1.0) * delta_pixel);
 	h -=       texture(tex, uv + vec2( 0.0, -1.0) * delta_pixel);
 	h += 2.0 * texture(tex, uv + vec2(-1.0,  0.0) * delta_pixel);
 	h -= 2.0 * texture(tex, uv + vec2( 1.0,  0.0) * delta_pixel);
 	h +=       texture(tex, uv + vec2(-1.0,  1.0) * delta_pixel);
 	h -=       texture(tex, uv + vec2( 1.0,  1.0) * delta_pixel);
-	
+
 	v +=       texture(tex, uv + vec2(-1.0, -1.0) * delta_pixel);
 	v += 2.0 * texture(tex, uv + vec2( 0.0, -1.0) * delta_pixel);
 	v +=       texture(tex, uv + vec2( 1.0, -1.0) * delta_pixel);
 	v -=       texture(tex, uv + vec2(-1.0,  1.0) * delta_pixel);
 	v -= 2.0 * texture(tex, uv + vec2( 0.0,  1.0) * delta_pixel);
 	v -=       texture(tex, uv + vec2( 1.0,  1.0) * delta_pixel);
-	
+
 	return sqrt(dot(h, h) + dot(v, v));
 }
 
