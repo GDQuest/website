@@ -2,15 +2,16 @@
 author = "guilherme"
 date = 2018-09-04T06:00:00Z
 description = "GDscript is getting optional typing syntax in Godot 3.1! Get started with it in this intro tutorial."
-tags = ["gdscript typed", "typed gdscript", "gdscript tutorial", "godot programming tutorial", "godot typed gdscript", "godot tutorial", "godot 3.1", "godot 3.1 gdscript", "godot 3 tutorial", "gdscript tutorial"]
+tags = [ "gdscript typed", "typed gdscript", "gdscript tutorial", "godot programming tutorial", "godot typed gdscript", "godot tutorial", "godot 3.1", "godot 3.1 gdscript", "godot 3 tutorial", "gdscript tutorial",]
 title = "Learn to Write Typed GDscript in Godot 3.1"
+aliases = ["/tutorial/game-design/godot/gdscript/typed-gdscript",]
+[[resources]]
+name = "banner"
+src = "img/banner.png"
 
 [banner]
 src = "img/banner.png"
 
-[[resources]]
-name = "banner"
-src = "img/banner.png"
 +++
 
 GDscript is getting **optional** typing syntax in Godot 3.1. In this guide, you'll learn:
@@ -43,9 +44,6 @@ func add(reference : Item, amount : int = 1):
 		item = _instance_item_from_db(reference)
 	item.amount += amount
 ```
-
-<!-- TODO: in nightly build, I don't get the function definition popup
-When you use the `Inventory` in your project, you don't have to open the source script to know what the `reference` argument should be: -->
 
 Another significant advantage of typed GDScript is the new **warning system**. From version 3.1, Godot gives you warnings about your code as you write it: the engine identifies sections of your code that may lead to issues at runtime, but lets you decide whether or not you want to leave the code as it is. More on that in a moment.
 
