@@ -6,7 +6,7 @@ import os
 import re
 import shutil
 import sys
-from os.path import basename, dirname, join, realpath
+from os.path import basename, dirname, join, realpath, splitext
 
 import toml
 
@@ -25,8 +25,12 @@ def update_front_matter_aliases(front_matter: str, filepath: str) -> str:
     data = toml.loads(front_matter)
     if "aliases" not in data:
         data["aliases"] = []
+
     path_content = realpath(filepath).split("content/", 1)[-1]
-    data["aliases"] += [path_content]
+
+    alias_new = splitext(path_content)[0]
+    alias_new = re.sub("_?index$", "", alias_new)
+    data["aliases"] += ["/" + alias_new]
     return toml.dumps(data)
 
 
