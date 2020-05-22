@@ -4,13 +4,9 @@ date = "2019-09-13T10:17:18+02:00"
 redirect = "//gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition"
 title = "Create your First 2D Game with Godot"
 type = "redirect"
-
-[banner]
-  alt = "banner"
-  src = "img/banner.png"
+description = "Learn to create a 2D platformer with the free game engine Godot. This special edition of our free course contains exclusive content and supports our work."
 
 [[resources]]
   name = "banner"
-  src = "img/banner.png"
-
+  src = "banner.png"
 +++
