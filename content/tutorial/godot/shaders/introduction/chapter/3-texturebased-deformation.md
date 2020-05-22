@@ -5,5 +5,6 @@ description = "Learn to manipulate UV coordinates in a shader and to animate wat
 title = "Texture-based Deformation"
 type = "video"
 videoid = "Pg79tztNZeA"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/3-texturebased-deformation",]
 
 +++

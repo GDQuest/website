@@ -5,5 +5,6 @@ description = "Learn to manipulate UV coordinates in a shader and to animate wat
 title = "Animated Water and UV Coordinates"
 type = "video"
 videoid = "U91nqeUe1qQ"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/1-animated-water-and-uv-coordinates",]
 
 +++

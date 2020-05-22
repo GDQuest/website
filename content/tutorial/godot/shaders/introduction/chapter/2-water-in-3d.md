@@ -5,6 +5,6 @@ description = "My part in the Godot shader tutorial I'm doing together with Nath
 title = "Godot 3D shader tutorial : Water in 3D"
 type = "video"
 videoid = "vm9Sdvhq6ho"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/2-water-in-3d",]
 
 +++
-

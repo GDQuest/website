@@ -4,5 +4,6 @@ description = "Learn to create both 2d and 3d water with Godot's shading languag
 title = "Water shader series"
 type = "course_chapter"
 weight = 1
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/",]
 
 +++

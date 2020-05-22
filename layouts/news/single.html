@@ -16,11 +16,7 @@
 <section class="grid center container padding-v-base">
     <article>
         {{ with (.Resources.GetMatch "banner") }}
-        {{ if isset .Params "alt" }}
-        <img src="{{ .Permalink }}" alt="{{ .Params.Alt }}">
-        {{ else }}
         <img src="{{ .Permalink }}" alt="{{ .Name }}">
-        {{ end }}
         {{ end }}
 
         {{ partial "table-of-contents" . }}

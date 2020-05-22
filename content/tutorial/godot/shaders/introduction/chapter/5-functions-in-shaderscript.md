@@ -5,5 +5,6 @@ description = "Learn to write a function in Godot's Shader language!"
 title = "Functions in ShaderScript"
 type = "video"
 videoid = "1eNWPbfph1E"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/5-functions-in-shaderscript",]
 
 +++

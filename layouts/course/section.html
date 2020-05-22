@@ -4,9 +4,9 @@
     <div class="small padding-v-small">
         <h1 class="margin-none">{{.Title}}</h1>
     </div>
-    {{ with .Params.banner }}
+    {{ with (.Resources.GetMatch "banner") }}
     <div class="big flex direction-col-reverse">
-        <img src="{{ .src }}" alt="" class="side-image card outline top-half">
+        <img src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card outline top-half">
     </div>
     {{ end }}
 </div>

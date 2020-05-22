@@ -5,5 +5,6 @@ description = "Get a solid introduction to shaders in both 2d and 3d in this Fre
 title = "Intro to Shader Programming"
 type = "video"
 videoid = "xoyk_A0RSpI"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/0-intro-to-shader-programming",]
 
 +++

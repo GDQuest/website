@@ -5,5 +5,6 @@ description = "Following on the last tutorial, in this one we merge and stack th
 title = "Merging the Two Waves Together"
 type = "video"
 videoid = "aC5Yzx7tS74"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/4-merging-the-two-waves-together",]
 
 +++

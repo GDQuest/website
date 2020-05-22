@@ -5,5 +5,6 @@ description = "In this final tutorial, we generate a shadow mask to enhance our 
 title = "Water Shadow and Masking"
 type = "video"
 videoid = "Xqv7C9mVhak"
+aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/chapter/6-water-shadow-and-masking",]
 
 +++
