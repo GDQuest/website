@@ -252,16 +252,16 @@ a,
 .darkbg a,
 .darkbg a .icon {
   text-decoration: none;
-  color: $color-default-text-bright;
+  color: $color-link;
 
-  transition: color 0.1s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 a:hover,
 .pagination a:hover,
 a.icon:hover,
 a:hover .icon {
-  color: $color-accent-main-base;
+  color: $color-link-hover;
 }
 
 .icon {
@@ -324,7 +324,7 @@ li.current {
   }
 
   .active a {
-    color: $color-accent-main-base;
+    color: $color-link-hover;
   }
 }
 

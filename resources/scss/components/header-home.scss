@@ -19,6 +19,10 @@ $color-purple: #7e3ab791;
     z-index: -1;
   }
 
+  a {
+    color: $color-accent-main-text;
+  }
+
   .-bear-1 {
     width: 157px;
     height: 195px;
