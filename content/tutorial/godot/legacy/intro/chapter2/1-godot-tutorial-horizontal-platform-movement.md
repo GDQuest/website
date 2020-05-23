@@ -5,6 +5,6 @@ description = "In this Godot tutorial, we explore key basic tools we need to mak
 title = "Godot tutorial: Horizontal platform movement"
 type = "video"
 videoid = "bSj7l25bdJ4"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/1-godot-tutorial-horizontal-platform-movement",]
 
 +++
-

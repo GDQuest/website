@@ -5,6 +5,6 @@ description = "For this last tutorial in the first Godot game programming series
 title = "How to do double jumps and flip the character - Godot platform game tutorial"
 type = "video"
 videoid = "f0r3EgjQNak"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/5-how-to-do-double-jumps-and-flip-the-character",]
 
 +++
-

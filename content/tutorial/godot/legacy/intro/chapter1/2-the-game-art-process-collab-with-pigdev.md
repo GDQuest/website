@@ -5,6 +5,6 @@ description = "In this tutorial, you'll learn how artists create assets for a ga
 title = "The Game Art Process - collab with Pigdev"
 type = "video"
 videoid = "eGfeXRlxn9A"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter1/2-the-game-art-process-collab-with-pigdev",]
 
 +++
-

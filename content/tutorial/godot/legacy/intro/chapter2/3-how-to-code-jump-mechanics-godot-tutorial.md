@@ -5,6 +5,6 @@ description = "Learn to code a Jump mechanic in the Godot game engine."
 title = "How to code JUMP mechanics - Godot tutorial"
 type = "video"
 videoid = "9CKH5fanubM"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/3-how-to-code-jump-mechanics-godot-tutorial",]
 
 +++
-

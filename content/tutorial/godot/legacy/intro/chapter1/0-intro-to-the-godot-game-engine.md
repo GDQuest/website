@@ -5,6 +5,6 @@ description = "Welcome to the first video in Godot Quest! An introductory series
 title = "Intro to the Godot game engine"
 type = "video"
 videoid = "eHtIcbrii2Y"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter1/0-intro-to-the-godot-game-engine",]
 
 +++
-

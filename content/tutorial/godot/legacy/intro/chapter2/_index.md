@@ -4,5 +4,6 @@ description = "This chapter covers the basics of platform game movement. We’ll
 title = "Let's code a simple platform game character"
 type = "course_chapter"
 weight = 2
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/",]
 
 +++

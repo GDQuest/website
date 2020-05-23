@@ -5,6 +5,6 @@ description = "This tutorial gives a quick overview of GDscript and its basic sy
 title = "Introduction to GDscript - Godot tutorial"
 type = "video"
 videoid = "K5-5j4H4Ypo"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter1/1-introduction-to-gdscript",]
 
 +++
-

@@ -5,6 +5,6 @@ description = "In this Godot tutorial, we look at how to handle keyboard input p
 title = "Input and Input Map - Godot Tutorial"
 type = "video"
 videoid = "SMggIQUT0i8"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/2-input-and-input-map-godot-tutorial",]
 
 +++
-

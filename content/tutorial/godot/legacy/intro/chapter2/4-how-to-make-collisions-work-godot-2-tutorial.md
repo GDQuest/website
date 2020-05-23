@@ -5,6 +5,6 @@ description = "Learn how collisions work for 2d characters and how to make a pla
 title = "How to make collisions work - Godot 2 tutorial"
 type = "video"
 videoid = "x5e0EMLaz1Y"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/4-how-to-make-collisions-work-godot-2-tutorial",]
 
 +++
-

@@ -5,6 +5,6 @@ description = "Learn how the Godot Tools for Visual Studio Code offer a powerful
 title = "Godot tools: How to use VSCode with Godot"
 type = "video"
 videoid = "nPV_qXu1rkg"
+aliases = [ "/tutorial/game-design/godot/introduction-to-godot/chapter2/0-godot-tools-how-to-use-vscode-with-godot",]
 
 +++
-
