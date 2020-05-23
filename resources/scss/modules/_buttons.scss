@@ -15,12 +15,12 @@
     color: $color-accent-main-text;
   }
 
-  &.shop {
+  &.-yellow {
     background-color: $color-accent-opt-base;
     color: $color-dark-base;
   }
 
-  &.shop:hover {
+  &.-yellow:hover {
     color: $color-dark-base;
   }
 
