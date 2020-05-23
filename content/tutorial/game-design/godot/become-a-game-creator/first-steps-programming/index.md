@@ -12,7 +12,6 @@ name = "banner"
 src = "img/banner.png"
 +++
 
-
 You want to get started with game creation and programming but don't know where to start? That's what this series is all about!
 
 This first part is for you if you have little to no programming experience. You're going to learn:
@@ -24,13 +23,12 @@ This first part is for you if you have little to no programming experience. You'
 {{< youtube q3Og0Z-_En0 >}}
 
 {{< note >}}
-It is the first part of a *Free and Open Source* intro series to game creation and to the [Godot game engine](//godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
+It is the first part of a _Free and Open Source_ intro series to game creation and to the [Godot game engine](//godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
 {{< /note >}}
-
 
 ## Take it one step at a time
 
-Game creation can feel overwhelming at first. We've all had a tough time getting started *whether we remember it or not*.
+Game creation can feel overwhelming at first. We've all had a tough time getting started _whether we remember it or not_.
 
 To make games alone you have to learn both:
 
@@ -39,13 +37,12 @@ To make games alone you have to learn both:
 
 That's a lot to tackle all at once! Like any creative discipline, it takes time. Don't worry though: learning can be a fun experience!
 
-
 {{< figure
-  src="./img/one-step-at-a-time.jpg"
-  alt="A cat walking down stairs"
-  caption="Code and design are whole new worlds to discover and explore. Take your time, stay curious."
->}}
+src="./img/one-step-at-a-time.jpg"
+alt="A cat walking down stairs"
+caption="Code and design are whole new worlds to discover and explore. Take your time, stay curious."
 
+> }}
 
 You may not be able to communicate your vision at first and you'll stumble upon obstacles along the way. But you'll also have plenty of "ah-ha" moments and deep satisfaction when your family and friends get to play your games.
 
@@ -72,10 +69,11 @@ There's no right or wrong answer here. Here's how I got started, a long time ago
 It was a lot to take on alone but this goal became the beacon that guided me all these years: I've built foundations in all of these domains to some degree. Jack of all trades, certainly master of none! It took me a long time to be able to make games as I got into programming last.
 
 {{< figure
-  src="./img/shapes-old-game-project.jpg"
-  alt="Screenshot of an old abandonned RPG project"
-  caption="One of our old Adventure game projects with Nemega"
->}}
+src="./img/shapes-old-game-project.jpg"
+alt="Screenshot of an old abandonned RPG project"
+caption="One of our old Adventure game projects with Nemega"
+
+> }}
 
 You will have to be patient. Start small and hone each skill you need separately. You don't have to do everything all alone either. With a little bit of experience you can team up with complementary game creators during game jams for example.
 
@@ -103,31 +101,31 @@ Programming - especially game programming - is a creative activity. You can spen
 
 Keep the **KISS** principle in mind to avoid frustration: **Keep it Short and Sweet**. You can learn fast with short focused practice sessions.
 
-
 ## The first language you'll learn isn't that important
 
-There are [hundreds of programming languages](//www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
+There are [hundreds of programming languages](//www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that\* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
 
 {{< figure
-  src="./img/programming-languages-books.jpg"
-  alt="A large pile of programming books with many different languages"
-  caption="Dozens of languages are represented in these old tech and programming textbooks. CC 3.0 SA Victorgrigas"
->}}
+src="./img/programming-languages-books.jpg"
+alt="A large pile of programming books with many different languages"
+caption="Dozens of languages are represented in these old tech and programming textbooks. CC 3.0 SA Victorgrigas"
+
+> }}
 
 **Learning a given language is a small part of learning programming**. As you gain experience, you'll acquire more and more knowledge that you will be able to transpose across tools and languages: how to structure your code, how to avoid bugs, how to learn on your own with a programming manual or reference...
 
-
 ## Programming is for everyone
 
-You don't need to start with a tough, low-level language like C++. When I was in middle school, a more experienced developer taught me C++,  his argument being that it is one of the most widely used languages. At the age of 14, I got a 1000 pages long intro to C++. I had a horrible experience reading it and concluded that programming was not for me. I was disgusted from programming and stayed away from code for years.
+You don't need to start with a tough, low-level language like C++. When I was in middle school, a more experienced developer taught me C++, his argument being that it is one of the most widely used languages. At the age of 14, I got a 1000 pages long intro to C++. I had a horrible experience reading it and concluded that programming was not for me. I was disgusted from programming and stayed away from code for years.
 
-I got back into code with Construct 2's visual event system, working as a junior game designer on mobile games. The engine's creators sold it as a *programming-free* engine. That seemed perfect for a designer like me!
+I got back into code with Construct 2's visual event system, working as a junior game designer on mobile games. The engine's creators sold it as a _programming-free_ engine. That seemed perfect for a designer like me!
 
 {{< figure
-  src="./img/construct-2-event-sheets.png"
-  alt="Construct 2's event blocks"
-  caption="Construct's event sheets work by picking conditions on the left and coding actions or consequences on the right"
->}}
+src="./img/construct-2-event-sheets.png"
+alt="Construct 2's event blocks"
+caption="Construct's event sheets work by picking conditions on the left and coding actions or consequences on the right"
+
+> }}
 
 It took me a few months to realize that I was storing values in variables, writing calculations, using functions and loops, data containers like arrays… I was coding all this time. And it was fun! From there I learned some JavaScript followed by Python. It sure had nothing to do with C++. The tutorials were a lot more accessible and both languages much simpler to use.
 
@@ -145,10 +143,11 @@ Women can code just as well as men. Designers and artists can also code. Again: 
 Unless you like to learn the hard way, you don't have to start with C++. C++ is a **complicated**, feature-packed language designed to write code that runs fast. It's not meant to be accessible. It's not meant to be part of your first programming experience. Especially if you are young and don't like math or if you are not very comfortable with a computer. Lucky for us, it's not necessary at all to get started with programming or to become a professional game developer.
 
 {{< figure
-  src="./img/c++-book.jpg"
-  alt="Three programming books piled up, dedicated to the C and C++ programming languages"
-  caption="It's one of these monolithic programming books that made me hate programming at first"
->}}
+src="./img/c++-book.jpg"
+alt="Three programming books piled up, dedicated to the C and C++ programming languages"
+caption="It's one of these monolithic programming books that made me hate programming at first"
+
+> }}
 
 > There are different types of developers: some like to code for the sake of it while others are driven by projects. You shouldn't be discouraged if you aren't part of the first group. I don't like math, or programming in itself, it's ok : it doesn't prevent you from creating games.
 >
@@ -159,10 +158,11 @@ There are **thousands of ways to code**. You don't have to do complex math to bu
 Even if it feels scientific at first, programming is a creative problem-solving activity. There are always multiple solutions for a given problem. In an upcoming guide in this series you'll learn about a paradigm, a set of mental tools to structure your code called **Object-Oriented Design**. As the name suggests it involves design work. Keep this in mind as you're taking your first steps: doing code is not just about maths. I am a designer at heart and I enjoy programming.
 
 {{< figure
-  src="./img/object-oriented-design.png"
-  alt="Diagram of two monsters inheriting from a base class"
-  caption="Object-Oriented Design is a tool to make your game code manageable"
->}}
+src="./img/object-oriented-design.png"
+alt="Diagram of two monsters inheriting from a base class"
+caption="Object-Oriented Design is a tool to make your game code manageable"
+
+> }}
 
 ## Visual programming is still computer code
 
@@ -171,27 +171,30 @@ Do you feel uncomfortable writing code as text? At first that's normal; you're l
 You may be tempted to stick to visual programming tools, thinking it's not really programming but it is. Whether you use Scratch, Clickteam Fusion, Unreal's Blueprints or anything similar, you already have some programming experience.
 
 {{< figure
-  src="./img/godot-visual-scripting-language.png"
-  alt="Screenshot of Godot's VisualScript editor, a visual programming language"
-  caption="Game engines like Unreal or Godot offer an extensible visual scripting languages for designers and artists."
->}}
+src="./img/godot-visual-scripting-language.png"
+alt="Screenshot of Godot's VisualScript editor, a visual programming language"
+caption="Game engines like Unreal or Godot offer an extensible visual scripting languages for designers and artists."
+
+> }}
 
 As a beginner the main differences between text-based and visual programming are:
 
 1. Visual programming is a little more accessible at first, as it is visual in nature, but is often slower to write and manage as your code gets more complex
 1. With text-based code you can make typos. Unlike us, a computer can't make sense of a keyword if you swap two letters.
-  - But modern code editors are here to help: they smartly autocomplete keywords as you type, they can tell you when you've made a mistake and often even highlight issues for you.
-  - As with every discipline, practice makes perfect: the more you write, the fewer typos you'll make.
+
+- But modern code editors are here to help: they smartly autocomplete keywords as you type, they can tell you when you've made a mistake and often even highlight issues for you.
+- As with every discipline, practice makes perfect: the more you write, the fewer typos you'll make.
 
 {{< note >}}
 A code editor can report errors when you run the program and it fails. You will then see the error report as text in a programming console. Text editors can also read your code as you are typing it and report the most common errors before you run your project. This is called **linting**.
 {{< /note >}}
 
 {{< figure
-  src="./img/godot-gdscript-fuzzy-autocomplete.png"
-  alt="Screenshot of Godot's GDscript editor with fuzzy code autocompletion"
-  caption="Godot's script editor suggests the right keywords even if you don't type all letters or invert some"
->}}
+src="./img/godot-gdscript-fuzzy-autocomplete.png"
+alt="Screenshot of Godot's GDscript editor with fuzzy code autocompletion"
+caption="Godot's script editor suggests the right keywords even if you don't type all letters or invert some"
+
+> }}
 
 In my experience working only with visual languages does not scale well. As your projects grow in size, visual languages will become more inconvenient. They're often slower to use than text as you end up navigating through menus and connecting blocks to do basic operations.
 
@@ -203,7 +206,6 @@ func _process(delta):
 ```
 
 You will only see the drawbacks of visual code after you have learned and gotten comfortable with text-based programming. It is okay to start with visual code. Just don't count other programming languages out because they're harder for you to get started with. As a designer I'm glad I made the transition: it felt a little uncomfortable at first but I never looked back.
-
 
 ## I recommend to start with Python
 
@@ -241,7 +243,6 @@ The product is: 384
 
 **Python is great to get started with code**. For aspiring game creators it's also a reliable tool: it's the most common language to write plug-ins for graphic applications such as Blender, Krita, and Gimp. This is not only true for Free Software: large 3D applications like Maya or 3DSMax also let you write new features with Python.
 
-
 > During the last Europython I've met companies who use Python in game development work. Crytek and EA (Frostbyte) use it in their assets pipeline, the build system, and automated tests.
 >
 > <footer>Emmanuel aka TouilleMan, author of the <a href="//github.com/touilleMan/godot-python">Python support in Godot</a></footer>
@@ -251,10 +252,11 @@ As explained earlier, we're talking about your first text-based language here. I
 You'll find few games written in the Python language. Game development companies mostly use Python for the creation of tools outside of the game engine: everything that has to do with processing art and other assets to use in the game for example.
 
 {{< figure
-  src="./img/jetbrains-python-uses-2017-survey.png"
-  alt="Graph showing the percentage of Python developers who use the language for data science, web development, etc."
-  caption="One in four Python developer uses it for educational purposes"
->}}
+src="./img/jetbrains-python-uses-2017-survey.png"
+alt="Graph showing the percentage of Python developers who use the language for data science, web development, etc."
+caption="One in four Python developer uses it for educational purposes"
+
+> }}
 
 > Various studies show that the number of Python developers is growing steadily year by year. [...] Many people are starting to use Python for data science and machine learning.
 >
@@ -312,9 +314,9 @@ In the next part we'll get started with game design. You can find me [on Twitter
 
 {{< gumroad-call-to-action >}}
 
-*Big thanks to [Simon Love](//twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](//www.lkokemohr.de/) for being an awesome mentor.* 😄
+_Big thanks to [Simon Love](//twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](//www.lkokemohr.de/) for being an awesome mentor._ 😄
 
-##  Your Questions
+## Your Questions
 
 Got questions about getting started with programming? [Send me a tweet](//twitter.com/NathanGDQuest) !
 
@@ -346,6 +348,7 @@ That's why most game engines rely on Object-Oriented Programming, a way to struc
 4. A few good practices to structure your code like the **Single-Responsibility Principle**
 
 And some other important concepts we will look at later in this series, like the difference between **declarative code** and **imperative code**. I will also give you an introduction to Object Oriented Design from a game designer's standpoint.
+
 </details>
 
 <details>
@@ -359,23 +362,25 @@ Python is not the only language you could use to get started. There are language
 src="./img/scratch-code-example.png"
 alt="Example of Scratch code"
 caption="In Scratch, you code by snapping blocks together in a lego-fashion. It's intuitive when you're getting started but fairly limited."
->}}
+
+> }}
 
 Then there are other languages with an accessible syntax like Lua, or that offer a wealth of free resources on the web like JavaScript. Java, which has nothing to do with JavaScript, is one of the go-to languages for IT university freshmen as it forces you to arrange your code in certain ways and learn common programming patterns.
 
 Why Python then? First because of the quality of the free courses available out there is high overall. The community set up strong guidelines for what are good practices and what are bad practices. Thanks to this it's easy to stumble upon tutorials I would recommend. This isn't the case with JavaScript where beginners write articles without understanding the language: the quality is all over the place. Great JavaScript resources are often focused on the specifics of web development and don't translate into general software development or games as well as Python's.
 
 Then there's the fact that the [Godot game engine](//godotengine.org) is a great option to learn game development and the transition from Python to Godot's GDscript programming language will be a little easier than coming from another language. Godot pushes you to focus on the basics of object-oriented design in an intuitive way as we will see that later in this series.
+
 </details>
 
 <details>
 <summary>{{< icon cog >}} What about performances? I heard Python is slow.</summary>
 
-When you're learning how to code, the language or the engine's performances is the least of your concerns. Today's computers are so fast you will have to try very hard to bring them to their knees. Your goal at this point should be to learn to code, not to write fast applications. Lastly, most of the performance issues you'll face will come from your own code.
+When you're just starting to learn how to code, the language or the engine's performances should be the least of your concerns. Your first goal should be to learn to read and write code, not to write optimized code, that tends to be complex.
 
-Now let's talk about the language's performances. You may have heard Python is a [dynamic language](//www.wikiwand.com/en/Dynamic_programming_language) and that it is slower than classic languages like C or C++. It turns out that Python is built upon the C language so most of the instructions you write in a dynamic language like Python call code written in the comparatively fast C language.
+You may have heard Python is a [dynamic language](//www.wikiwand.com/en/Dynamic_programming_language) and that it is slower than classic languages like C or C++. It is true when you use base Python, but there are ways to write fast Python programs, and to mix Python with C code. Also, the Python library is built upon the C language and some of the functions you will call in your program use very fast, compiled C code.
 
-The same is true when you work with a game engine. Many rely on a dynamic language to help code gameplay mechanics fast. These languages, often called scripting languages, may be slower than C++ but every engine feature you use, like drawing on the screen, uses the fast engine's C++ core.
+The same is true when you work with a game engine. Many engines rely on a high-level language to help code gameplay mechanics fast. These languages, often called scripting languages, may perform instructions much slower than C++, but every engine feature you use, like drawing on the screen, delegates work to the fast engine's C++ core. That's the case, for example, with Godot and GDScript.
 
 Back to Python. You can compile Python code just like C or C++ and get the same speed and control over your code. If you really need to.
 
@@ -383,9 +388,11 @@ Back to Python. You can compile Python code just like C or C++ and get the same 
 src="./img/pypy-logo.png"
 alt="PyPy Python JIT compiler logo"
 caption="Pypy does Just-In-Time compilation to make your Python code run faster"
->}}
+
+> }}
 
 But again: you shouldn't think about performances when you're learning. When starting a game, professional game developers don't care so much about performance as you can always improve performance later. Most of the time it's only a tiny part of the game's code that drags the performances down.
 
 However using a language that's easy to read and fast to write saves you a lot of development time. That's why, as you'll see, game engines like Godot generally provide two languages: one back-end language for the fast core, and one or more scripting languages for the gameplay.
+
 </details>
