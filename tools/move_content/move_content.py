@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Moves a content page, adding an alias to it."""
 
+from pprint import pprint
 import argparse
 import os
 import re
@@ -38,11 +39,19 @@ def get_args(args) -> argparse.Namespace:
     """Parses the command line arguments"""
     parser = argparse.ArgumentParser(description=__doc__,)
     parser.add_argument(
-        "files",
-        type=argparse.FileType("r"),
-        nargs="+",
-        default=[],
-        help="Path to content files to move.",
+        "-d",
+        "--dry-run",
+        action="store_true",
+        help="Run the program without modifying or saving files, for debugging purposes.",
+    )
+    parser.add_argument(
+        "-r",
+        "--recursive",
+        action="store_true",
+        help="Move content files recursively in the directory, treating each as a content page.",
+    )
+    parser.add_argument(
+        "files", type=str, nargs="+", default=[], help="Path to content files to move.",
     )
     parser.add_argument(
         "output",
@@ -51,52 +60,36 @@ def get_args(args) -> argparse.Namespace:
         default=sys.argv[-1],
         help="Target path to which to move the files.",
     )
-    parser.add_argument(
-        "-d",
-        "--dry-run",
-        action="store_true",
-        help="Run the program without modifying or saving files, for debugging purposes.",
-    )
     return parser.parse_args(args)
 
 
 def main():
     args: argparse.Namespace = get_args(sys.argv[1:-1])
 
-    for md_file in args.files:
-        filepath = md_file.name
-        content = md_file.read()
-
-        try:
-            front_matter, body = split_toml_front_matter(content)
-        except Exception:
-            print("error")
-            continue
-
-        front_matter = update_front_matter_aliases(front_matter, filepath)
-        new_content = "\n".join(["+++", front_matter, "+++", body]).strip("\n")
-        if not args.dry_run:
-            path_out = get_path_out(filepath, args)
-            os.remove(filepath)
-            save_document(new_content, path_out)
-            if basename(filepath) in ["index.md", "_index.md"]:
-                move_dependencies(filepath, path_out)
-
-    for md_file in args.files:
-        md_file.close()
-
-
-def get_path_out(filepath: str, args: argparse.Namespace) -> str:
-    """Returns the desired output path for the input file `filepath` based on `args.output`"""
-    file_name = basename(filepath)
-    path_out = ""
-    if file_name in ["index.md", "_index.md"]:
-        file_dir = basename(dirname(realpath(filepath)))
-        path_out = join(args.output, file_dir, file_name)
+    files = []
+    base_path = dirname(args.files[0])
+    base_dirpath = dirname(base_path)
+    if args.recursive:
+        for dirpath, dirnames, filenames in os.walk(base_path, topdown=False):
+            dir_relpath = os.path.relpath(dirpath, base_dirpath)
+            files += [join(dir_relpath, f) for f in filenames if f.endswith(".md")]
     else:
-        path_out = join(args.output, file_name)
+        files = args.files
 
-    return path_out
+    for path in files:
+        filepath = join(base_dirpath, path)
+        with open(filepath, "r") as md_file:
+            content = md_file.read()
+
+            front_matter, body = split_toml_front_matter(content)
+            front_matter = update_front_matter_aliases(front_matter, filepath)
+            new_content = "\n".join(["+++", front_matter, "+++", body]).strip("\n")
+            path_out = join(args.output, path)
+            if not args.dry_run:
+                save_document(new_content, path_out)
+                os.remove(filepath)
+                if basename(filepath) in ["index.md", "_index.md"]:
+                    move_dependencies(filepath, path_out)
 
 
 def save_document(content: str, path_out: str):
@@ -113,6 +106,8 @@ def move_dependencies(filepath, path_out):
 index.md document."""
     dir_start = dirname(filepath)
     for i in os.listdir(dir_start):
+        if i.endswith(".md"):
+            continue
         path = join(dir_start, i)
         shutil.move(path, dirname(path_out))
 
