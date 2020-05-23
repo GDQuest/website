@@ -77,7 +77,7 @@ def main():
         files = args.files
 
     for path in files:
-        filepath = join(base_dirpath, path)
+        filepath = join(base_dirpath, path) if args.recursive else path
         with open(filepath, "r") as md_file:
             content = md_file.read()
 
