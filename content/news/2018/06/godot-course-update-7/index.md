@@ -51,4 +51,4 @@ There's a lot going on lately, more content to come in June for everyone.
 
 But for now, stay creative, have fun, and see you in the next update!
 
-{{< gumroad-call-to-action >}}
+{{< shop-call-to-action >}}

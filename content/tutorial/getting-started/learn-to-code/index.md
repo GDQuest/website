@@ -2,15 +2,17 @@
 author = "nathan"
 date = 2018-04-12T09:04:58+09:00
 description = "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design."
-title = "Become a Game Developer, How to Learn to Code"
+title = "How to Learn to Code Games"
+aliases = [ "/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/",]
+[[resources]]
+name = "banner"
+src = "img/banner.png"
 
 [banner]
 src = "img/banner.png"
 
-[[resources]]
-name = "banner"
-src = "img/banner.png"
 +++
+
 
 You want to get started with game creation and programming but don't know where to start? That's what this series is all about!
 
@@ -294,7 +296,7 @@ It is time for you to use the resources above and to start building your program
 
 In the next part we'll get started with game design. You can find me [on Twitter](//twitter.com/NathanGDQuest) if you have questions!
 
-{{< gumroad-call-to-action >}}
+{{< shop-call-to-action >}}
 
 _Big thanks to [Simon Love](//twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](//www.lkokemohr.de/) for being an awesome mentor._ 😄
 

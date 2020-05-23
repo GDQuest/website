@@ -80,4 +80,4 @@ That said, I'm going to take a *hopefully* well-deserved break with the deers!
 
 See you soon for more content!
 
-{{< gumroad-call-to-action >}}
+{{< shop-call-to-action >}}

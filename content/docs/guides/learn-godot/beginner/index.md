@@ -76,7 +76,7 @@ Below, you'll find lists of **curated free online resources**, in both text and 
 This section is for you if you know little about game creation and programming. The guide and videos below give some insights into what you should expect:
 
 1. [Making Your First Game: Basics](//www.youtube.com/watch?v=z06QR-tz1_o&list=PLhyKYa0YJ_5C6QC36h5eApOyXtx98ehGi), by Extra Credits, gives great advice on how to make your first game, and general insights on how games are made.
-1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/game-design/godot/become-a-game-creator/first-steps-programming/index.md" >}}) is our guide to learn computer programming.
+1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/getting-started/learn-to-code/index.md" >}}) is our guide to learn computer programming.
 1. [Game Engines: what are they and how to choose the right one?](//youtu.be/2tZK75R2K2c)
 
 ![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](//github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
