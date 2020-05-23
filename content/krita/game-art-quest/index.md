@@ -5,43 +5,24 @@ title = "Krita"
 
 +++
 
+## Free Krita tutorial for game artists
 
-<div class="card outline margin-bottom-base darkbg">
-  <img src="krita-tutorial-banner.jpg" alt="Game Art Quest volume 1 banner: Free Krita tutorials">
+![Game Art Quest volume 1 banner: Free Krita tutorials](krita-tutorial-banner.jpg)
 
-  <div class="content">
-    <h4 class="title">Free Krita tutorial for game artists</h4>
-    <p>
-      A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
-    </p>
-    <div class="small-spaced-children buttons">
-      <a class="button flat" href="{{< ref "/product/krita/brushes/index.md" >}}">
-        {{< icon paint-brush default >}} Krita brushes
-      </a>
-      <a class="button flat" href="/tutorial/art/krita-tutorial-for-game-artists/">
-        {{< icon book default >}} Free course
-      </a>
-    </div>
-  </div>
-</div>
+A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
 
-<div class="card outline">
-  <img src="painterly-game-art-banner.jpg" alt="Game Art Quest volume 2 banner - painterly art">
+- [{{< icon paint-brush default >}} Krita brushes]({{< ref "/product/krita/brushes/index.md" >}})
+- [{{< icon book default >}} Free course](/tutorial/art/krita-tutorial-for-game-artists/)
 
-  <div class="content">
-    <h4 class="title">Make Professional Painterly Game Art with Krita</h4>
-    <p>
-      Want to go a step further and learn to make professional sprites? Then, this course is for you.
-    </p>
-    <div class="buttons">
-      <a class="button flat" href="{{< ref "/product/krita/painterly-game-art/index.md" >}}">
-        {{< icon book default >}} Learn more
-      </a>
-    </div>
-  </div>
-</div>
+## Make Professional Painterly Game Art with Krita
 
-## Discover Game Art Quest!
+![Game Art Quest volume 2 banner - painterly art](painterly-game-art-banner.jpg)
+
+Want to go a step further and learn to make professional sprites? Then, this course is for you.
+
+[{{< icon book default >}} Learn more]({{< ref "/product/krita/painterly-game-art/index.md" >}})
+
+## Discover Game Art Quest
 
 ### Do you want to become a better 2d game artist?
 
@@ -65,4 +46,4 @@ Game Art Quest was funded [on Kickstarter](//www.kickstarter.com/projects/gdques
   src="/img/page/game-art-quest/i-am-nathan.jpg"
   alt="Nathan's picture" >}}
 
-I’m Nathan Lovato, a game designer. I run [GDQuest](//youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.
+I’m Nathan, a game designer. I run [GDQuest](//youtube.com/c/gdquest), a Youtube channel dedicated to game art and game design. Every week, I release a new tutorial. I have released more than 200 videos already! You can find most of them in the tutorial section.
