@@ -34,7 +34,7 @@ _You can find more information about each and every series below._
 
 ### Overview of Superpowers, the collaborative HTML5 game engine
 
-Superpowers is a fully functional 2-D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
+Superpowers is a fully functional 2D and 3-D HTML5 game editor that was released a few days ago, free and open source. It is based on three.JS and it uses Typescript, a superset of JavaScript. Not only that, it allows you to collaborate on projects online in real time! Although it is still young, the toolset is already impressive. In the development team is already at work on exciting new features!
 By the way, it’s not their first shot at game engines. The project is made by [Sparkin Labs](//sparklinlabs.com/), the authors of [CraftStudio](//craftstud.io/).
 
 ![Human proportions, from reality to games tutorial banner](/img/post/community/tutorial-banners/godot-2d-engine.png)
@@ -84,7 +84,7 @@ Writing good music takes a lot of experience! And the resources for it are somet
 
 ### Painting rock and grass tiles for 2d games
 
-There is one type of 2-D game asset that is rarely explained online: tiles. These are sprites that connect seamlessly to one another and that you can reuse extensively to create your game backgrounds.
+There is one type of 2D game asset that is rarely explained online: tiles. These are sprites that connect seamlessly to one another and that you can reuse extensively to create your game backgrounds.
 
 In this tutorial series, I will show you how to create tiles for the ground and for walls or hanging ceiling in an outdoor environment, in a side scrolling game.
 

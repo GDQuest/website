@@ -26,7 +26,7 @@ Actually, I'm still catching up with work, since I got that shoulder injury. Tha
 {{< card
   img="/img/post/2016/05/krita-logo.png"
   title="Krita 3 launch Youtube livestream"
-  content="Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDQuest, and game art in general. I will also create 2-D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM <abbr title=\"Central Europe Standard Time (UTC/GMT +2)\">CEST</abbr>"
+  content="Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDQuest, and game art in general. I will also create 2D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM <abbr title=\"Central Europe Standard Time (UTC/GMT +2)\">CEST</abbr>"
   link="//www.youtube.com/watch?v=hlcHDRc-gN8"
   link_text="Youtube Livestream"
   >}}

@@ -43,7 +43,7 @@ That's the last event I accepted to be part of, and that until the whole Kicksta
 
 Coming back from Switzerland, there was the 36<sup>th</sup> edition of the Ludum Dare. I took this opportunity to prepare the next training series for Game Art Quest: the one where we'll focus on creating games sprites. I made a very small game that showcases what you can do with static game assets. The project is set in the world of David Revoy's [Pepper and Carrot](//www.peppercarrot.com/), with our favorite ginger cat as the main character.
 
-It's a small isometric 2-D game where a cat throws ridiculous spells at scarecrows and ghosts. Alright, I'll figure out a nicer introduction for the course release! At that occasion, I learned how to work with Godot 2.1, which deeply impressed me. It came a long way since version 1.0. It feels a lot more polished, and it's well documented. Within 3 days, I managed to get a small working prototype. There's work left to polish it a bit, but it'll give us a nice base project for the game art workshops, where I'll show you how to replace my sprites and put your own art into the game!
+It's a small isometric 2D game where a cat throws ridiculous spells at scarecrows and ghosts. Alright, I'll figure out a nicer introduction for the course release! At that occasion, I learned how to work with Godot 2.1, which deeply impressed me. It came a long way since version 1.0. It feels a lot more polished, and it's well documented. Within 3 days, I managed to get a small working prototype. There's work left to polish it a bit, but it'll give us a nice base project for the game art workshops, where I'll show you how to replace my sprites and put your own art into the game!
 
 ![Carrot's Magic: my Ludum Dare 36 prototype](/img/post/2016/09/ludum-dare-36-godot-prototype.jpg)
 
@@ -53,7 +53,7 @@ We've passed the halfway mark! You now have more than 6 hours of tutorials avail
 
 <!-- TODO: Screenshot -->
 
-Game Art Quest doesn't end there. After that, I will focus on the game art workshops, in which we will explore 2 different art styles: painterly, and cel shaded. At the same time, we will learn more about the constraints we face with camera angles as 2-D game artists. Exploring side-scrolling and isometric games will be a great occasion to talk about how we can achieve good atmospheric perspective and decent character proportions.
+Game Art Quest doesn't end there. After that, I will focus on the game art workshops, in which we will explore 2 different art styles: painterly, and cel shaded. At the same time, we will learn more about the constraints we face with camera angles as 2D game artists. Exploring side-scrolling and isometric games will be a great occasion to talk about how we can achieve good atmospheric perspective and decent character proportions.
 
 I will do my best to provide you as much information as possible on the topics. Contrary to the first volume though, it has to be a real workshop. You'll get to create your own sprites along with the videos, and if you do all of the assignments, you'll end up with your own game mockup at the end. This workshop series will take me a few more months to create, especially as I'm flying off to Japan in October (holidays!). And you can expect this second series to be about 5 hours long.
 

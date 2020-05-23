@@ -30,7 +30,7 @@ Krita 3 is a major update to an already powerful application. It brings it to a 
 
 That's not all. There's a long list of smaller, yet welcome changes. The pop-up palette looks better and the icons now scale to accommodate for more than 10 brushes. The layer picking and move tools are more flexible. There is a new gradient mapping filter for color grading, as well as an original blending mode for smooth painting with transparent pixel brushes. The keyboard shortcut editor has been redesigned and moved to Krita's preference window.
 
-The list could go on, and on. You get it: there is a lot to talk about. That's why I wrote this overview of Krita 3. In this article, I'll introduce you to the most important new features one at a time. At the end of the post, I'll give you my thoughts on the program and the updates for 2-D game artists.
+The list could go on, and on. You get it: there is a lot to talk about. That's why I wrote this overview of Krita 3. In this article, I'll introduce you to the most important new features one at a time. At the end of the post, I'll give you my thoughts on the program and the updates for 2D game artists.
 
 **Do you want to learn all of the new features? I'm working on a free <a href="/tutorial/art/krita-tutorial-for-game-artists/">Krita tutorial series</a> that will help you to become a faster artist with Krita 3.0.**
 
@@ -188,7 +188,7 @@ I've been following Krita's progress since the first Windows release, version 2.
 
 I'm really picky with the programs I choose. I only work with tools that are flexible and that feel well-designed. Although I'm deeply interested in open source, I wouldn't shoot myself in the foot just for the sake of using open source tools. I still use Microsoft office and FL studio in my work for example.
 
-Yet, I've been working with both Krita and Photoshop side-by-side for the past 9 months. If I have done so, it is only because the experience was satisfying. Krita has some unique tools to its name. You can draw in horizontal, vertical and radial symmetry. There is a built-in brush stabilizer. Perspective guides. It is not perfect. Performances have been a major drawback. You have to work on big documents as a 2-D game artist, and Krita 2.9 didn't like that. But again, this is mostly fixed in Krita 3.
+Yet, I've been working with both Krita and Photoshop side-by-side for the past 9 months. If I have done so, it is only because the experience was satisfying. Krita has some unique tools to its name. You can draw in horizontal, vertical and radial symmetry. There is a built-in brush stabilizer. Perspective guides. It is not perfect. Performances have been a major drawback. You have to work on big documents as a 2D game artist, and Krita 2.9 didn't like that. But again, this is mostly fixed in Krita 3.
 
 Krita is great when it comes to painting. As far as games are concerned, it is a great tool for character design, environment design and hand-painted textures. Heck, even for animation! If you specialize in one of those fields, I bet you’ll like it! However, right now, it is not the best tool for everything. It is far from ideal when it comes to creating user interface. And you cannot batch export your sprites directly from the program.
 

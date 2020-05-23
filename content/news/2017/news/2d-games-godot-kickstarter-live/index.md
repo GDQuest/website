@@ -16,7 +16,7 @@ title = "Make Professional 2d Games with Godot: Kickstarter LIVE"
 +++
 
 
-Let's make the first professional 2-D game creation course for the Godot game engine a reality! The Kickstarter is now live. The higher the funding goes, the more content you will get. Every single cent will go to the project.
+Let's make the first professional 2D game creation course for the Godot game engine a reality! The Kickstarter is now live. The higher the funding goes, the more content you will get. Every single cent will go to the project.
 
 ![Banner image with the Godot logo and the text 'daily free tutorials!'](free-tutorials.png)
 

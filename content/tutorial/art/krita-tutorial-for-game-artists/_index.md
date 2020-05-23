@@ -23,4 +23,4 @@ type = "course"
 
 +++
 
-**If you want to become a better 2-D game artist, this training is for you**. It will teach you how to work with Krita, a mature open source digital painting program. In 6 chapters, we will explore the most important features krita has to offer to game artists.
+**If you want to become a better 2D game artist, this training is for you**. It will teach you how to work with Krita, a mature open source digital painting program. In 6 chapters, we will explore the most important features krita has to offer to game artists.
