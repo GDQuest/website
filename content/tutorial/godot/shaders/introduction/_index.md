@@ -10,6 +10,8 @@ tags = [ "training", "free",]
 type = "course"
 aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/",]
 
+featured = true
+
 [[resources]]
 name = "banner"
 src = "banner.png"

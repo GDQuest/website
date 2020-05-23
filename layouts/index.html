@@ -29,7 +29,7 @@
 <section class="container margin-v-big">
     <h4>Latest courses</h4>
     <div class="grid split2 list">
-        {{ range first 2 (where (where .Site.RegularPages "Type" "in" (split "course tut" " ")) "Section" "tutorial") }}
+        {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
