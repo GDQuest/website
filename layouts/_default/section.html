@@ -3,13 +3,21 @@
 {{ end }}
 
 {{ define "main" }}
-<section class="container padding-v-base">{{ .Content }}</section>
-    {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}
-    <section class="grid split2 container list">
-        {{ range .Paginator.Pages }}
-        <div>{{ .Render "summary" }}</div>
+<section class="container padding-v-base">
+    <article class="padding-v-base">
+        {{ with .Params.banner }}
+        <img src="{{ .src }}" alt="{{ .alt }}">
         {{ end }}
-    </section>
-   {{ if (gt (len .Paginator.Pages) .Paginator.PageSize )}} <div class="container">{{ partial "paginator" . }}</div>{{end}}
-    {{ end }}
+        {{ .Content }}
+
+        {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}
+        <section class="grid split2 container list">
+            {{ range .Paginator.Pages }}
+            <div>{{ .Render "summary" }}</div>
+            {{ end }}
+        </section>
+        {{ if (gt (len .Paginator.Pages) .Paginator.PageSize )}} <div class="container">{{ partial "paginator" . }}</div>{{end}}
+        {{ end }}
+    </article>
+</section>
 {{ end }}

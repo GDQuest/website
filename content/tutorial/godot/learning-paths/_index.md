@@ -6,6 +6,8 @@ aliases = [ "/tutorial/godot/learning-paths/",]
 
 type = "_default"
 
+[banner]
+src = "beginner/banner.jpg"
 +++
 
 The [Godot](//godotengine.org) game engine is one of the fastest growing <abbr title="Free and Open Source Software">FOSS</abbr> game creation tools at our disposal.
