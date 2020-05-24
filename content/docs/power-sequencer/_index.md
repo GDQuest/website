@@ -5,7 +5,6 @@ description = "The Free Blender add-on for video editors"
 date = "2018-01-04T19:46:48+01:00"
 
 chapter = false
-pre = "<b>4. </b>"
 
 weight = 5
 aliases = ["/blender/power-sequencer/", "/docs/documentation/power-sequencer"]

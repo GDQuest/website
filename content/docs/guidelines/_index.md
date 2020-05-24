@@ -2,13 +2,12 @@
 title = "Guidelines"
 
 chapter = true
-pre = "<b>2. </b>"
 
 date = 2019-12-09T11:02:00+02:00
 weight = 2
 +++
 
-# Guidelines #
+# Guidelines
 
 In the following pages, you will find our **best practices** and guidelines. They are the result of years of experience working in game development, programming, and education.
 

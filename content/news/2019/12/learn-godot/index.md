@@ -30,8 +30,8 @@ We ended up creating two guides:
 
 The learning paths are available now in our new [docs section]({{< ref "docs/_index.md" >}}).
 
-1. [Make Games with Godot: Beginner Edition]({{< ref "docs/guides/learn-godot/beginner/index.md" >}}).
-1. [Make Games with Godot: Developer Edition]({{< ref "docs/guides/learn-godot/developer/index.md" >}}).
+1. [Make Games with Godot: Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}).
+1. [Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}).
 
 ## How to use the guides
 
@@ -39,7 +39,7 @@ These documents are in the form of **curated lists of free educational resources
 
 ### Make Games with Godot: Beginner Edition
 
-{{< figure src="/docs/guides/learn-godot/beginner/banner.jpg" alt="Beginner Edition" >}}
+{{< figure src="/tutorial/godot/learning-paths/beginner/banner.jpg" alt="Beginner Edition" >}}
 
 The beginner edition document is full of hands-on guides. Learning by doing practical projects helps to make quick progress early. That's generally true of programming and especially game development, as it is often visual in nature.
 
@@ -51,7 +51,7 @@ We also linked to Godot's introduction to math for game developers and a bit of 
 
 ### Make Games with Godot: Developer Edition
 
-{{< figure src="/docs/guides/learn-godot/developer/banner.png" atl="Developer Edition">}}
+{{< figure src="/tutorial/godot/learning-paths/developer/banner.png" atl="Developer Edition">}}
 
 This guide is for professional developers or those of you who are coming from other game engines. It starts with guides to get you up to speed with Godot coming from other engines.
 

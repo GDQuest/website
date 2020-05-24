@@ -33,7 +33,7 @@ This theme brings cool features:
 - A button to copy code snippets.
 - Attachment files.
 
-There, you will find guides like our [Godot learning path for beginners]({{ ref "docs/guides/learn-godot/beginner/index.md" }})
+There, you will find guides like our [Godot learning path for beginners]({{ ref "tutorial/godot/learning-paths/beginner/index.md" }})
 
 You can find the table of contents at the top of the window. Hover the black icon to see a list of sections to jump to:
 
@@ -41,8 +41,8 @@ You can find the table of contents at the top of the window. Hover the black ico
 
 That is it for this update. Here are a few insightful guides for you to check out in the new section:
 
-1. [Make Games with Godot: Beginner Edition]({{< ref "docs/guides/learn-godot/beginner/index.md" >}})
-1. [Make Games with Godot: Developer Edition]({{< ref "docs/guides/learn-godot/developer/index.md" >}})
+1. [Make Games with Godot: Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}})
+1. [Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}})
 1. Our [GDScript styleguide]({{< ref "docs/guidelines/best-practices/godot-gdscript/_index.md" >}})
 
 We will keep improving these documents moving forward. Enjoy!
