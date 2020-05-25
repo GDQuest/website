@@ -166,7 +166,7 @@ Three backticks surround this line of text
 
 Here is an example of a great bug report: 
 
-{{< note example >}}
+{{< example >}}
 Title: Trimming video gives an error if time cursor doesn't overlap any sequence
 
 **Program version**:
@@ -191,7 +191,7 @@ ripple_start_frame = min(sequences, key=attrgetter('frame_final_start')).frame_f
 ValueError: min() arg is an empty sequence
 ```
 
-{{< / note >}}
+{{< / example >}}
 
 1. **The title describes the problem clearly**
 1. The body includes **all the steps to reproduce the error**
@@ -227,7 +227,7 @@ When you make a request for improvements or new features, please **always descri
 
 Here is an example of a great feature request:
 
-{{< note example >}}
+{{< example >}}
 Title: Add an interactive tool to fade audio and video
 
 Problem: I often need to add fades in and out on my video and audio clips. They are hard to add precisely without having a visual representation of the fade’s length and effect.
@@ -243,7 +243,7 @@ Here is an example in the Olive video editor:
 ![Olive editor example](./img/olive-fade-example.png)
 
 I applied a fade and the fade duration snapped to the playhead.
-{{< / note >}}
+{{< / example >}}
 
 1. The **title sums up the request** well
 1. The body **describes the problem** or the need the request intends to solve
