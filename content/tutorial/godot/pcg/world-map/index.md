@@ -15,40 +15,32 @@ This tutorial goes over a simple world map generator using _NoiseTexture_, a mod
 
 Objectives:
 
-- Understand _NoiseTexture_ with _OpenSimplexNoise_ to create height maps for use in shaders.
-- Modify _GradientTexture_ for our needs to use it as a discrete color map in shaders.
-- Use basic shaders with input from GDScript.
+- Understanding _NoiseTexture_ with _OpenSimplexNoise_ to create height maps for use in shaders.
+- Modifying _GradientTexture_ for our needs to use it as a discrete color map in shaders.
+- Using basic shaders with input from GDScript.
 
 ![WorldMap presentation](./images/presentation.png)
 
 ## Preparing the scene structure
 
-Create the following _SceneTree_ structure:
+Let's prepare the scene. Create a _Control_ Node at the root and name it WorldMap. Add a _TextureRect_ node as its child and name it HeightMap. We will use it to display our world map's texture.
+
+Select the two nodes, and in the toolbar, click _Layout -> Full Rect_ to make both nodes span the entire viewport.
 
 ![SceneTree Init](./images/scenetree-init.png)
 
-And rename the nodes like so:
+Select the _HeightMap_ node and in the Inspector:
 
-```
-WorldMap
-  |
-  +- HeightMap
-```
-
-Select the _HeightMap_ node and make sure to set _Full Rect_ in the _Layout_ drop-down menu.
-
-With the _HeightMap_ node still selected:
-
-1. Set _Texture_ to _NoiseTexture_ and make sure to assign an _OpenSimplexNoise_ resource to the _Noise_ property.
-1. Also make sure to set _Stretch Mode_ to _Scale_.
+1. In the _Texture_ slot, create a new _NoiseTexture_ resource and assign an _OpenSimplexNoise_ resource to the _Noise_ property.
+1. Set the _Stretch Mode_ to _Scale_, so the texture scales with the node.
 
 ![HeightMap setup](./images/heightmap-setup.png)
 
 Save the scene as _WorldMap.tscn_.
 
-## Preparing the colormap
+## Preparing the color-map
 
-Add a script to the _HeightMap_ node with the following contents:
+Add a placeholder script to the _HeightMap_ node with the following content. We're exporting a variable that should contain a gradient texture. We are going to use it to recolor our noise texture.
 
 ```gdscript
 extends TextureRect
@@ -57,83 +49,88 @@ extends TextureRect
 export var colormap: GradientTexture
 ```
 
-And add a gradient of your choosing to play with in the next part when we'll look at the shader.
+Save the script and head back to the 2D workspace (<kbd>F2</kbd>). In the Inspector, assign a _GradientTexture_ to the _Colormap_ property. Add a _Gradient_ resource to it and add a few color stops to it.
 
 ![HeightMap colormap](./images/heightmap-colormap.png)
 
-Add a new _ShaderMaterial_ with the following shader:
+Add a new _ShaderMaterial_ to the _Material_ property. Click the newly created material to open the shader editor and use the following shader:
 
 ```glsl
 shader_type canvas_item;
 
+// Our gradient texture.
 uniform sampler2D colormap : hint_black;
 
 void fragment() {
+	// Sample the node's texture and extract the red channel from the image.
 	float noise = texture(TEXTURE, UV).r;
+	// Convert the noise value to a horizontal position to sample the gradient texture.
 	vec2 uv_noise = vec2(noise, 0);
+	// Replace greyscale values from the input texture by a color from the gradient texture.
 	COLOR = texture(colormap, uv_noise);
 }
 ```
 
-Copy the _Colormap_ _GradientTexture_ resource and paste it into the _Colormap_ under _Shader Param_
+Copy the _Colormap_'s _GradientTexture_ resource and paste it into the _Colormap_ under _Material -> Shader Param_.
+
+{{< note >}}
+The _GradientTexture_ is an object of type `Resource`. When we copy and paste it, we're copying a reference to the resource in memory rather than duplicating it. So if you update the gradient in one place, it gets updated everywhere you're using it.
+{{</note>}}
 
 ![HeightMap colormap copy/paste](./images/heightmap-colormap-cp.png)
 
-You will see an immediate update in the main _Viewport_.
-
-{{< note >}}
-When using resources, Godot doesn't make copies by default. It uses the same resource so when we update in one place, it gets updated everywhere we use it.
-{{</note>}}
-
-Our shader uses the _NoiseTexture_ from the main `TEXTURE` channel and gets the float value from the _red_ channel. We store this value in the `noise` variable and then use it with the `colormap` to retrieve the color from the gradient. The `noise` value is a float between `0.0` and `1.0` so we can directly use it to create a `UV` variable based on it: `vec2(noise, 0)`.
-
-We can then use `uv_noise` with the _GradientTexture_ stored in `colormap` to remap the B&W with the new colors.
+You should see an immediate update in the main _Viewport_.
 
 ## Fixing the NoiseTexture value range
 
-_OpenSimplexNoise_ generates noise range between `0.0` and `1.0`, with no guarantee that the minimum and maximum values are `0.0` and `1.0` respectively. To give us a full range to play with, we'll correct this by passing the min/max values to the shader. Firs, update the shader as follows:
+_OpenSimplexNoise_ generates random values between `0.0` and `1.0`. But it does not guarantee that the minimum and maximum values are `0.0` and `1.0`, respectively. For our world map and height maps in general, we want to work with a predictable value range. To ensure we always have a range of values from `0.0` to `1.0`, we are going to pass the minimum and maximum noise values to the shader. Update the shader as follows:
 
 ```glsl
 shader_type canvas_item;
 
 uniform sampler2D colormap : hint_black;
+// Stores the minimum and maximum values generated by the noise texture.
 uniform vec2 noise_minmax = vec2(0.0, 1.0);
 
 void fragment() {
+	// Using `noise_minmax`, we normalize our `noise` variable's range.
 	float noise = (texture(TEXTURE, UV).r - noise_minmax.x) / (noise_minmax.y - noise_minmax.x);
 	vec2 uv_noise = vec2(noise, 0);
 	COLOR = texture(colormap, uv_noise);
 }
 ```
 
-We'll pass the `heightmap_minmax` values to `noise_minmax` and use it to stretch the noise values to `0.0` - `1.0` by normalizing the _NoiseTexture_ values:
-
-```glsl
-float noise = (texture(TEXTURE, UV).r - noise_minmax.x) / (noise_minmax.y - noise_minmax.x);
-```
-
-Update the _HeightMap_ script with:
+Update the _HeightMap_ script to set the `noise_minmax` uniform of the shader from GDScript:
 
 ```gdscript
 extends TextureRect
 
 
+# The maximum 8-bit value of a color channel held into 32-bit images.
+# Named after the `Image.FORMAT_L8` format we use below.
 const L8_MAX := 255
 
 export var colormap: GradientTexture
 
 
 func _ready() -> void:
+	# The open simplex noise algorithm takes a while to generate the noise data so
+	# we have to wait for it to finish updating before using it in any calculations.
 	yield(texture, "changed")
 	var heightmap_minmax := _get_heightmap_minmax(texture.get_data())
+	# Use the material's `set_shader_param` method to assign values to a shader's uniforms.
 	material.set_shader_param("noise_minmax", heightmap_minmax)
 
 
+# Returns the lowest and highest value of the heightmap, converted to be in the [0.0, 1.0] range.
 func _get_heightmap_minmax(image: Image) -> Vector2:
+	# We convert the image to have a single channel of integer values that go from `0` to `255`.
 	image.convert(Image.FORMAT_L8)
+	# Gets the lowest and biggest values in the image and divides it to have values between 0 and 1.
 	return _get_minmax(image.get_data()) / L8_MAX
 
 
+# Utility function that returns the minimum and maximum value of an array as a `Vector2`
 func _get_minmax(array: Array) -> Vector2:
 	var out := Vector2(INF, -INF)
 	for value in array:
@@ -142,65 +139,63 @@ func _get_minmax(array: Array) -> Vector2:
 	return out
 ```
 
-We have introduced a number of functions here. `_get_minmax()` is a utility function that returns the minimum and maximum values of an array as components of a `Vector2`.
+{{< note >}}
+In this example, we use the entire texture to get the value range. With large textures or many textures, this can become slow. You can use one of the texture's smaller mipmaps instead of the full image.
 
-We use `_get_minmax()` in `_get_heightmap_minmax()` to get the minimum and maximum values of the passed in image. We treat the image as having only one channel so we convert it to `Image.FORMAT_L8` which is an image with a single channel of integer values that go from `0` to `255`.
-
-We take the raw data of this image and pass it to `_get_minmax()`. As a final step we divide the return value of `_get_minmax()` with the `L8_MAX` constant. The `L8_MAX`, as the name implies is the maximum value of the `Image.FORMAT_L8`, thus we covert the image data maximum and minimum to the range `0.0` - `1.0`.
-
-In the `_ready()` function we use these values to set the _Noise Minmax_ shader parameter at runtime.
+It's a bit more involved and may only be beneficial for larger images. See this [Godot question thread](https://godotengine.org/qa/48245/get-mipmap-data-from-texture) for a code example.
+{{</note>}}
 
 Run the project now to see the difference between the visual representation in the editor viewport and the image normalized at runtime.
 
 ![HeightMap colormap normalized](./images/heightmap-colormap-normalized.png)
 
-{{< note >}}
-We need to use `yield(texture, "changed")` because _OpenSimplexNoise_ takes a while to generate the data and we have to wait for it to update before using it in any calculations.
-{{</note>}}
+## Getting a toon shaded look
 
-## Getting the cell shaded look
-
-To get the cell shaded look we need for a world map, where blue appears where `noise < 0.2`, green appears where `0.2 <= noise < 0.4` and so on, we need to create a discrete version of the `gradient` stored in _Colormap_.
+To get toon shading, we need our gradient texture to have sharp transitions between colors. For our example world map, we want a given blue to appear where `noise < 0.2`, green where `0.2 <= noise < 0.4`, etc. To do so, we can generate a discrete version of the `gradient` stored in _Colormap_. That is to say, a version of the texture with sharp color transitions instead of smooth color interpolation.
 
 Add the following function to the end of your _HeightMap_ script:
 
 ```gdscript
+# Generates a discrete texture from a gradient texture and returns it as a new `ImageTexture`.
 func _discrete(gt: GradientTexture) -> ImageTexture:
 	var out := ImageTexture.new()
 	var image := Image.new()
-	
+
+	# We create an image texture as wide as the input gradient, but with a height of 1 pixel.
 	image.create(gt.width, 1, false, Image.FORMAT_RGBA8)
 	var point_count := gt.gradient.get_point_count()
-	
+
+	# To fill the new image's pixels, we must first lock it.
 	image.lock()
+	# For each color stop on the gradient, we fill the image with that color, up to the next color
+	# stop.
 	for index in (point_count - 1) if point_count > 1 else point_count:
 		var offset1: float = gt.gradient.offsets[index]
 		var offset2: float = gt.gradient.offsets[index + 1] if point_count > 1 else 1
 		var color: Color = gt.gradient.colors[index]
+		# This is where we fill the pixels in the image.
 		for x in range(gt.width * offset1, gt.width * offset2):
 			image.set_pixel(x, 0, color)
 	image.unlock()
+
 	out.create_from_image(image, 0)
-	
 	return out
 ```
 
-Finally add the following line to the end of `_ready()` function body:
+Finally add the following line to the end of the script's `_ready()` function:
 
 ```gdscript
 material.set_shader_param("colormap", _discrete(colormap))
 ```
 
-If you run the project now you'll get a cell shaded look like the following:
+If you run the project now you'll get a toon shading like the following:
 
-![HeightMap final cell shaded look](./images/heightmap-colormap-cellshaded.png)
+![HeightMap final toon shading](./images/heightmap-colormap-cellshaded.png)
 
-It's easier to explain visually how we generate the cell shaded look using `_discrete()`. For this reason we have included a demo scene, _GradientDiscrete_, in our project files:
+We use the information stored in the gradient resource to create a discrete color map by expanding the color of each offset towards the right. This means that the last offset isn't taken into account. In the above image, there is no white color generated at the end of the cel-shaded _ImageTexture_.
+
+It's easier to visually explain how we generate the toon shading using the `_discrete()` function. For this reason, we included a demo scene, _GradientDiscrete.tscn_, in our open-source demo.
 
 ![GradientDiscrete showcase](./images/gradient-discrete.png)
 
-We use the information stored in the gradient resource to create a discrete color map by expanding the color of each offset towards the right. This means that the last offset isn't taken into account. That's why, in the above image, there is no white color generated at the end of the cell shaded _ImageTexture_.
-
-## Project files
-
-You can find the project files at https://github.com/GDQuest/godot-mini-tuts-demos under _godot/pcg/world-map_ directory.
+You can find the demo on Github, in our [Godot mini-tuts demos](https://github.com/GDQuest/godot-mini-tuts-demos). It's in the _godot/pcg/world-map/_ directory.
