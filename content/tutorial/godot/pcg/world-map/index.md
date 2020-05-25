@@ -71,13 +71,13 @@ void fragment() {
 }
 ```
 
-Copy the _Colormap_'s _GradientTexture_ resource and paste it into the _Colormap_ under _Material -> Shader Param_.
+Copy the _Colormap_'s _GradientTexture_ resource and paste it into the _Colormap_ under _Material -> Shader Param -> Colormap_.
+
+![HeightMap colormap copy/paste](./images/heightmap-colormap-cp-1.png)
 
 {{< note >}}
 The _GradientTexture_ is an object of type `Resource`. When we copy and paste it, we're copying a reference to the resource in memory rather than duplicating it. So if you update the gradient in one place, it gets updated everywhere you're using it.
 {{</note>}}
-
-![HeightMap colormap copy/paste](./images/heightmap-colormap-cp.png)
 
 You should see an immediate update in the main _Viewport_.
 
