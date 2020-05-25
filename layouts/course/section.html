@@ -41,7 +41,7 @@
                 {{ range (sort ( where .RegularPages "Type" "video" ) "Date") }}
                 <li class="item">
                     {{ if (isset .Params "videoid") }}
-                    <a href="{{ .URL }}">{{ .Title }}</a>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
                     {{ else }}
                     {{ .Title }} <span data-font="dimmed">Upcoming</span>
                     {{ end }}

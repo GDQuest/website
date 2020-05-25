@@ -46,7 +46,7 @@
                 {{ $.Scratch.Add "pages" . }}
                 {{ $.Scratch.Add "index" 1 }}
 
-                <li class="{{if (eq $.Page .)}}current{{ end }}"><a href="{{.URL}}">{{.Title}}</a></li>
+                <li class="{{if (eq $.Page .)}}current{{ end }}"><a href="{{.Permalink}}">{{.Title}}</a></li>
                 {{ end }}
             </ul>
         </div>
@@ -112,10 +112,10 @@
                 <hr>
                 <div class="flex justify-space-between">
                     {{ if ne $prev -1 }}
-                    <a href="{{ $prev.URL }}">Previous</a>
+                    <a href="{{ $prev.Permalink }}">Previous</a>
                     {{ end }}
                     {{ if ne $next -1}}
-                    <a href="{{ $next.URL }}">Next</a>
+                    <a href="{{ $next.Permalink }}">Next</a>
                     {{ end }}
                 </div>
             </div>
