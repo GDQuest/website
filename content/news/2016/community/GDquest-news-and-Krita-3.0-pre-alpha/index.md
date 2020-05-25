@@ -7,7 +7,7 @@ author = "nathan"
 category = ["News"]
 date = "2016-03-16T08:25:29+01:00"
 description = "A lot has been going on lately. I'm done with all of my contracts, and now working full time on Game Art Quest, the Krita training series. In this post, I'll tell you what I'm going to release next and what were the results of the community vote. We're also taking a look at the new pre-alpha of Krita 3.0!"
-tags = ["community"]
+keywords = ["community"]
 title = "GDquest news and Krita 3.0 pre-alpha 3"
 type = "post"
 

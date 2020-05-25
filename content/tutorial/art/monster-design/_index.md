@@ -5,7 +5,7 @@ course = "monster_design"
 date = "2017-02-15T15:25:47+02:00"
 description = "Learn monster design for video games in this free tutorial series! We'll use Mario and Final Fantasy XIV as references."
 keywords = ["monster design", "game art", "tutorials"]
-tags = ["training", "free"]
+tags = ["video"]
 title = "Intro To Monster Design For 2d Games"
 type = "course"
 

@@ -6,7 +6,7 @@ author = "nathan"
 date = "2018-08-23T23:34:41.000Z"
 
 keywords = [ "darktable",]
-tags = [ "free", "video",]
+tags = ["video",]
 
 type = "course"
 aliases = [ "/tutorial/photography/darktable/darktable-photo-development-tutorials/",]

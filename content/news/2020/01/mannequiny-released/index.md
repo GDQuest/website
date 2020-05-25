@@ -8,7 +8,7 @@ date = 2020-01-17T15:00:00+00:00
 weight = 5
 
 categories = ["news"]
-tags = ["godot", "godot engine", "asset", "3D", "controller", "character"]
+keywords = ["godot", "godot engine", "asset", "3D", "controller", "character"]
 
 [[resources]]
 name = "banner"

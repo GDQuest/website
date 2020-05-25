@@ -4,7 +4,7 @@ author = "nathan"
 category = ["News"]
 date = "2016-06-28T11:17:06+02:00"
 description = "June has been a busy month. I went to the biggest yearly KDE development sprint in Randa, Switzerland, along with a few dozens of programmers, and made a series of tutorials on Krita 3's new features."
-tags = ["community"]
+keywords = ["community"]
 title = "June update: the Randa meetings"
 type = "post"
 

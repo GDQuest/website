@@ -7,14 +7,14 @@ description = "Learn to create a shop for all kinds of games! This course builds
 date = "2018-09-01T08:18:06+09:00"
 
 categories = ["news"]
-tags = ["Godot user interface tutorial", "Godot engine ui", "Godot control tutorial", "Godot ui tutorial", "Godot interface tutorial", "Godot inventory tutorial", "Godot lifebar tutorial", "Godot game engine", "Godot 3 course", "game design", "Godot 3", "gdquest"]
+keywords = ["Godot user interface tutorial", "Godot engine ui", "Godot control tutorial", "Godot ui tutorial", "Godot interface tutorial", "Godot inventory tutorial", "Godot lifebar tutorial", "Godot game engine", "Godot 3 course", "game design", "Godot 3", "gdquest"]
 
 [[resources]]
 src = "banner.png"
 name = "banner"
 +++
 
-This month's course update wraps up the UI arc of the project. With 3 chapters, it's more content than initially planned (*a recurring theme at this point*), hopefully for the better 😉
+This month's course update wraps up the UI arc of the project. With 3 chapters, it's more content than initially planned (_a recurring theme at this point_), hopefully for the better 😉
 
 The **Shop tutorial series** will show you how to both design and code a flexible shop system. It works for J-RPGs, Western RPGs, and any type of game, really. The logic behind the Inventory and the Shop chapters can apply to a wide range of menus.
 

@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-05-09T09:18:18+02:00"
 description = "It's happening! On Monday, May 22, GDQuest will be on Kickstarter to fund the first professional game creation course for Godot 3!"
-tags = ["gdquest", "godot game engine", "game creation", "kickstarter", "crowdfunding"]
+keywords = ["gdquest", "godot game engine", "game creation", "kickstarter", "crowdfunding"]
 title = "Godot Course Kickstarter Next Monday"
 
 [[resources]]

@@ -6,7 +6,7 @@ date = "2017-02-22T15:11:59+01:00"
 description = "Do you want to become a better artist? This Krita course will teach you how to create professional 2d game sprites with the free, open source painting program Krita"
 product = "krita-tutorial-1"
 small = "Krita course"
-tags = ["krita brushes", "free krita brushes", "krita brush"]
+keywords = ["krita brushes", "free krita brushes", "krita brush"]
 title = "Make Professional Painterly Game Art with Krita"
 type = "product"
 

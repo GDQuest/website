@@ -7,7 +7,6 @@ author = "nathan"
 category = ["News"]
 date = "2016-09-28T08:24:05+02:00"
 description = "The first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials. What next? The answers are in this post."
-tags = ["community"]
 title = "Game Art Quest vol1 done! Off to Japan"
 
 [[resources]]

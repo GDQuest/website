@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = 2019-01-26T16:29:51+09:00
 description = "Now we've comfortably moved past our initial goal, you can support our 2d and 3d Godot courses via PayPal!"
-tags = ["gdquest"]
+keywords = ["gdquest"]
 title = "Support our Kickstarter via PayPal"
 
 [[resources]]

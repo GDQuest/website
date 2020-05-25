@@ -3,7 +3,7 @@ author = "nathan"
 date = "2015-05-28"
 description = "Pixel Art Tutorial Description"
 keywords = ["game art", "tutorials"]
-tags = ["training", "free"]
+tags = ["video"]
 title = "Pixel Art Tutorial"
 type = "course"
 

@@ -7,7 +7,7 @@ date = 2020-05-19T15:33:39-06:00
 weight = 5
 
 categories = ["news"]
-tags = ["godot", "course"]
+keywords = ["godot", "course"]
 
 [[resources]]
 name = "banner"

@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-05-22T12:00:18+02:00"
 description = "Do you want to become a better game creator? Let's make the first professional 2d game creation course for Godot a reality!"
-tags = ["Godot game engine", "make 2d games", "Godot Kickstarter", "GDQuest Kickstarter", "game creation kickstarter", "learn game creation", "crowdfunding campaign"]
+keywords = ["Godot game engine", "make 2d games", "Godot Kickstarter", "GDQuest Kickstarter", "game creation kickstarter", "learn game creation", "crowdfunding campaign"]
 title = "Make Professional 2d Games with Godot: Kickstarter LIVE"
 
 [[resources]]

@@ -8,7 +8,6 @@ category = ["News"]
 date = "2016-05-30T13:11:19+02:00"
 description = "May has been a busy month. I did my best to keep up with everyone on social networks, to give a hand to the Krita developers, with their Kickstarter campaign..."
 keywords = ["krita brushes", "Gdquest"]
-tags = ["community"]
 title = "May update: Krita brushes and ConciseCSS"
 
 [[resources]]

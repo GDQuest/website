@@ -7,7 +7,7 @@ author = "nathan"
 category = "Godot"
 date = "2018-10-26"
 description = "The Godot course is now complete! Here's a list of all the tutorials each version contains."
-tags = ["godot 3", "godot course", "video list", "course content"]
+keywords = ["godot 3", "godot course", "video list", "course content"]
 title = "Available content in the Godot Course"
 
 [[resources]]

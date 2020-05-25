@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news", "blender"]
 date = "2018-06-09T13:18:14+09:00"
 description = "Our Free Blender add-on adds over 40 new features to the Video Sequence Editor, including smart mouse-based cut and trim tools, instant imports, and more!"
-tags = ["blender", "VSE", "sequencer", "power sequencer", "video editing", "open source", "add-on", "plugin", "blender 2.79", "gdquest"]
+keywords = ["blender", "VSE", "sequencer", "power sequencer", "video editing", "open source", "add-on", "plugin", "blender 2.79", "gdquest"]
 title = "Blender Power Sequencer 1.0 is out!"
 
 [[resources]]

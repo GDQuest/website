@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-05-04T08:42:22+02:00"
 description = "The second Krita game art course is out on May 9. Meet Pepper and Carrot, the 2 heroes of the webcomic by David Revoy, and learn cartoon game art!"
-tags = ["krita brushes", "anniversary", "update", "gdquest brushes", "sale", "gdquest news"]
+keywords = ["krita brushes", "anniversary", "update", "gdquest brushes", "sale", "gdquest news"]
 title = "Make Cel Shaded 2d Characters With Krita"
 
 [[resources]]

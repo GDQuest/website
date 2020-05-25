@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2018-08-28T09:49:11+09:00"
 description = "Our Free Blender add-on for Video Creators got a big update! Get 7 new features and a range of improvements 😄"
-tags = ["Blender vse add-on", "Free blender add-on", "Blender sequencer add-on", "Blender sequencer", "Blender vse", "Blender video editing", "blender free add-on"]
+keywords = ["Blender vse add-on", "Free blender add-on", "Blender sequencer add-on", "Blender sequencer", "Blender vse", "Blender video editing", "blender free add-on"]
 title = "Blender Power Sequencer 1.1 out: Faster edits ✂🎞"
 
 [[resources]]

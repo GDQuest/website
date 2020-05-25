@@ -7,7 +7,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-04-14T13:06:14+02:00"
 description = "After months of work, the Make Professional Painterly Game Art with Krita course is out! It's the first and only Krita course about 2d game art."
-tags = ["krita game art", "krita game art tutorial", "gdquest news"]
+keywords = ["krita game art", "krita game art tutorial", "gdquest news"]
 title = "Make Professional Game Art with Krita out now!"
 
 [[resources]]

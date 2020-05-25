@@ -4,7 +4,8 @@ author = "nathan"
 category = ["news"]
 date = "2017-04-28T08:15:16+02:00"
 description = "It's been a year already. 12 months, 12 consecutive updates. The brushes ship with a new design, and to celebrate, they are 30% off until May 1st!"
-tags = ["krita brushes", "anniversary", "update", "gdquest brushes", "sale", "gdquest news"]
+keywords = ["krita brushes", "gdquest brushes"]
+tags = ["krita"]
 title = "Krita Brushes Anniversary Update"
 
 [[resources]]

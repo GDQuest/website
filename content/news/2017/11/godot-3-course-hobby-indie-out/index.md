@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-11-05T16:29:59+01:00"
 description = "The new version is finally out! You will find improvements and an extra video in the Finite State Machine chapter, and a new Game Design chapter. This one includes 3 html-based course documents and 40 minutes of video."
-tags = ["tutorial", "Godot 3", "Kickstarter", "Attack", "ranged attack tutorial", "sword attack tutorial"]
+keywords = ["tutorial", "Godot 3", "Kickstarter", "Attack", "ranged attack tutorial", "sword attack tutorial"]
 title = "Godot 3 course: Hobby and Indie versions out in early access"
 
 [[resources]]

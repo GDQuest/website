@@ -8,7 +8,6 @@ description = "Short description"
 draft = true
 
 category = "news"
-tags = ["gdquest"]
 
 [[resources]]
   name = "banner"

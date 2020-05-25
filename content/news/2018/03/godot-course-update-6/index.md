@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2018-03-31T15:19:32+09:00"
 description = "After moving and settling in Nara, Japan, I got back to GDQuest. This month's update is smaller than usual, but it's still out in time, as promised!"
-tags = ["gdquest", "godot 3", "godot course update", "astar", "pathfinding", "gamedev", "Nara", "Japan"]
+keywords = ["gdquest", "godot 3", "godot course update", "astar", "pathfinding", "gamedev", "Nara", "Japan"]
 title = "Godot 3 course: small March update"
 type = "post"
 

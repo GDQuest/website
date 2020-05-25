@@ -3,7 +3,8 @@ author = "nathan"
 category = "godot"
 date = "2018-09-05"
 description = "get your game creation skills to the next level with the godot game engine! learn the best programming practices and explore essential programming patterns."
-tags = ["godot", "game design", "game creation", "gamedev"]
+keywords = ["godot", "game design", "game creation", "gamedev"]
+tags = ["godot"]
 title = "make professional 2d games with godot"
 
 [banner]

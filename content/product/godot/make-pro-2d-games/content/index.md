@@ -3,7 +3,7 @@ author = "nathan"
 category = "Godot"
 date = "2018-10-26"
 layout = "post"
-tags = ["godot 3", "godot course", "video list", "course content"]
+keywords = ["godot 3", "godot course", "video list", "course content"]
 title = "Available content in the Godot Course"
 
 [banner]

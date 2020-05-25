@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2018-06-01T18:19:32+09:00"
 description = "Like every month, the Godot 3 course got a new chapter. This time it's dedicated to boss creation, the State programming patterns and all the techniques you'll need to create a convincing pattern-based boss in Godot."
-tags = ["gdquest", "godot 3", "godot course update", "gamedev", "boss godot", "godot game engine"]
+keywords = ["gdquest", "godot 3", "godot course update", "gamedev", "boss godot", "godot game engine"]
 title = "Godot 3 course: the boss chapter is out!"
 type = "post"
 

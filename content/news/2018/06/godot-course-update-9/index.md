@@ -4,7 +4,6 @@ author = "nathan"
 categories = ["news"]
 date = "2018-06-30T15:39:19+09:00"
 description = "With two hours of extra hard tutorials dedicated to particles, this month's update will show you how to create appealing visual effects from scratch."
-tags = ["gdquest"]
 title = "Godot course release 9: particles!"
 
 [[resources]]

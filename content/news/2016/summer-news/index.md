@@ -7,7 +7,7 @@ author = "nathan"
 category = ["News"]
 date = "2016-09-08T13:49:48+02:00"
 description = "It has been a while since the last behind the scenes post. Time for a batch of fresh news about Krita, GDQuest, and everything alike."
-tags = ["community"]
+keywords = ["community"]
 title = "Summer Update"
 type = "post"
 

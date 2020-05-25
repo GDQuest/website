@@ -5,7 +5,7 @@ author = "nathan"
 date = "2018-08-13"
 
 keywords = [ "godot game engine", "godot shaders tutorial", "godot shaders", "godot 3 shaders", "godot water tutorial", "godot water shader", "godot 2d shaders", "godot 3d shaders", "godot 2d water", "godot 3d water",]
-tags = [ "training", "free",]
+tags = ["free",]
 
 type = "course"
 aliases = [ "/tutorial/game-design/godot/introduction-to-shaders/",]

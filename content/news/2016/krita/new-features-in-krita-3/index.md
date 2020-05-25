@@ -10,7 +10,7 @@ category = ["Krita"]
 date = "2016-05-09T17:49:09+02:00"
 description = "Krita 3.0 is a major update to an already powerful application. New rendering engine, animation toolset, grid, guides, snapping... there's a long list of new tools to discover. Let's explore them together in this article!"
 nav = true
-tags = ["krita review", "krita 3"]
+keywords = ["krita review", "krita 3"]
 title = "What’s New in Krita 3.0? Krita Review"
 type = "post"
 

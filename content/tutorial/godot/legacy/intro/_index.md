@@ -8,7 +8,7 @@ course = "introduction_to_godot"
 date = "2017-02-15T15:25:47+02:00"
 
 keywords = [ "godot game engine", "godot tutorial", "introduction to godot", "godot introduction", "make a video game",]
-tags = [ "training", "free",]
+tags = [ "free",]
 
 type = "course"
 

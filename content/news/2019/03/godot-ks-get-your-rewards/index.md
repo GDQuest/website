@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = 2019-03-06T10:23:08+09:00
 description = "You will receive your rewards via email as we release courses and tutorials in early access. Here's our guide on how to find and unlock your access on Gumroad."
-tags = ["gdquest", "godot kickstarter", "gdquest kickstarter", "crowdfunding", "godot game engine", "godot course", "faq"]
+keywords = ["gdquest", "godot kickstarter", "gdquest kickstarter", "crowdfunding", "godot game engine", "godot course", "faq"]
 title = "How to get your Kickstarter rewards"
 
 [[resources]]

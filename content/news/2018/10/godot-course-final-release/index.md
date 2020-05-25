@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2018-10-28"
 description = "Our course is complete and out of early access! We're looking back at a year of free tutorials and open source contributions."
-tags = ["Godot 3 course", "Godot gdquest course", "Godot tutorial", "Godot free demos", "Godot RPG", "Godot Zelda-like", "Learn Godot", "Learn game creation", "Godot slideshow", "Godot presentation"]
+keywords = ["Godot 3 course", "Godot gdquest course", "Godot tutorial", "Godot free demos", "Godot RPG", "Godot Zelda-like", "Learn Godot", "Learn game creation", "Godot slideshow", "Godot presentation"]
 title = "The Godot Course's Final Chapter is Out"
 
 [[resources]]

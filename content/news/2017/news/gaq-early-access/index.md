@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-02-27T09:45:11+01:00"
 description = "You want to become a better artist? My new training series, out in early access, will show you how professionals make beautiful 2d game sprites, using Krita, the open source painting program."
-tags = ["gdquest", "gdquest news"]
+keywords = ["gdquest", "gdquest news"]
 title = "Krita game art course in early-access"
 
 [[resources]]

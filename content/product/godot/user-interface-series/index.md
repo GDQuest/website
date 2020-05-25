@@ -3,7 +3,8 @@ author = "nathan"
 category = "Godot"
 date = "2018-09-07T10:02:15+09:00"
 description = "Learn to create Player GUI, an Inventory, and a Shop system with the Godot Game Engine"
-tags = ["godot interface tutorial", "control nodes tutorial", "learn game development", "game user interface", "inventory tutorial", "shop tutorial", "godot UI", "godot game engine", "game creation tutorial"]
+keywords = ["godot interface tutorial", "control nodes tutorial", "learn game development", "game user interface", "inventory tutorial", "shop tutorial", "godot UI", "godot game engine", "game creation tutorial"]
+tags = ["video"]
 title = "Create Professional User Interface in Godot"
 
 [banner]

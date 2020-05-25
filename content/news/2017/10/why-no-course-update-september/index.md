@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-10-10T09:03:31+02:00"
 description = "Godot 3 is coming out later than planned. As breaking changes keep happening, this delays the creation of new programming videos. But I'm still at work on the project. Read this post to learn what's happening in October on the Godot course project."
-tags = ["gdquest", "Kickstarter", "Godot", "Godot 3", "news"]
+keywords = ["gdquest", "Kickstarter", "Godot", "Godot 3", "news"]
 title = "Waiting for Godot 3: Why There Was No Course Update in September"
 
 [[resources]]

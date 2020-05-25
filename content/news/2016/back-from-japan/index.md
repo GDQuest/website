@@ -4,7 +4,7 @@ author = "nathan"
 category = ["News"]
 date = "2016-11-09T20:16:29+01:00"
 description = "I’ve been traveling around the country for a bit less than a month, and the experience was incredible. A great occasion to improve in Japanese. But now it's time to get back to GDQuest and produce new tutorials for you."
-tags = ["community"]
+keywords = ["community"]
 title = "Back from japan, back to work"
 
 [[resources]]

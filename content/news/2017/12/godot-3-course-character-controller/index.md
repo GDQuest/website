@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2017-12-25T15:54:59+01:00"
 description = "10 videos, 1h 40mn of tutorials and 8 Godot examples are waiting for you in the Godot course on Gumroad."
-tags = ["gdquest"]
+keywords = ["gdquest"]
 title = "Godot course Christmas update: The character controller"
 
 [[resources]]

@@ -4,7 +4,6 @@ description = "Daily tutorials brought to you for Free, as part of the [Make Pro
 date = "2017-05-27T15:25:47+02:00"
 author = "nathan"
 keywords = [ "godot game engine", "godot tutorial", "game creation tutorial", "free tutorial",]
-tags = [ "training", "free",]
 type = "course"
 course = "2017_30_days_godot_2_tutorials"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/",]

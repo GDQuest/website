@@ -5,7 +5,7 @@ description = "Learn to edit videos with Blender's Video Sequence Editor. And ed
 author = "nathan"
 date = "2017-12-06T10:22:20.000Z"
 keywords = [ "blender 3d", "vse", "video sequencer", "video sequence editor", "power sequencer",]
-tags = [ "free", "video",]
+tags = ["video",]
 type = "course"
 aliases = [ "/tutorial/video-editing/blender-power-sequencer/blender-video-editing-tutorials/",]
 

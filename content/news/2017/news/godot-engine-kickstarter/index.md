@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-04-19T15:00:11+01:00"
 description = "In 2017, I'm going to cover game programming with the Godot game engine. And for that, GDQuest needs your opinion and your help!"
-tags = ["gdquest", "godot game engine", "kickstarter 2017", "gdquest kickstarter", "crowdfunding", "news"]
+keywords = ["gdquest", "godot game engine", "kickstarter 2017", "gdquest kickstarter", "crowdfunding", "news"]
 title = "Game Creation with Godot, Kickstarter soon"
 
 [[resources]]

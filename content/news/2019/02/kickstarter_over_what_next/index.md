@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = 2019-02-08T14:13:43+09:00
 description = "Now the campaign is over, here's some information on what's going to happen next, when, and how you'll get access to your rewards."
-tags = ["gdquest"]
+keywords = ["gdquest"]
 title = "The Campaign is Over! What now?"
 
 [[resources]]

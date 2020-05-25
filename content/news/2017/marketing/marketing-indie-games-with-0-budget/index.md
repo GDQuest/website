@@ -8,7 +8,7 @@ category = ["tutorials"]
 date = "2017-04-06T20:33:30+01:00"
 description = "Here are some synthetic notes I took from IndieGameGirl's talk \"Marketing your indie games with a 0$ budget\""
 social = true
-tags = ["marketing indie games with 0 budget", "indie game marketing"]
+keywords = ["marketing indie games with 0 budget", "indie game marketing"]
 title = "Marketing indie games with no budget – Notes"
 
 [[resources]]

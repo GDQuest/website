@@ -3,7 +3,7 @@ author = "nathan"
 category = "Krita"
 date = "2017-05-09T00:00:00Z"
 description = "Learn to make cartoon 2d game characters with Krita! Based on the webcomic Pepper and Carrot by David Revoy"
-tags = ["krita", "krita 3", "digital painting", "digital art"]
+keywords = ["krita", "krita 3", "digital painting", "digital art"]
 title = "Make Cel Shaded 2d Characters With Krita"
 
 [banner]

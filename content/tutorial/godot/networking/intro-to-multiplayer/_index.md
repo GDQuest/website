@@ -6,7 +6,7 @@ author = "nathan"
 date = "2018-08-09T03:45:41.000Z"
 
 keywords = [ "godot multiplayer", "godot networking", "godot multiplayer tutorial"]
-tags = [ "free", "video",]
+tags = ["video",]
 type = "course"
 
 aliases = [ "/tutorial/game-design/godot/introduction-to-multiplayer/",]

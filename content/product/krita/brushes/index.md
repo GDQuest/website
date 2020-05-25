@@ -5,7 +5,7 @@ category = "Krita"
 date = "2017-01-30"
 description = "My best Krita brushes, professionally designed and kept up to date for you. Use my brushkit and get to work faster! Free and pro versions available"
 product = "krita-brushes"
-tags = ["krita brushes", "free krita brushes", "best krita brushes", "krita painting brushes", "krita brush"]
+keywords = ["krita brushes", "free krita brushes", "best krita brushes", "krita painting brushes", "krita brush"]
 title = "Krita Brushes For Game Artists"
 
 [banner]

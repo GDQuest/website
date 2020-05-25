@@ -4,7 +4,7 @@ author = "nathan"
 category = ["news"]
 date = "2017-07-03T09:18:18+02:00"
 description = "The Godot Kickstarter is over. What now? The backers will get their first rewards this week, and we're getting started for a year of game creation tutorials."
-tags = ["news", "godot game engine", "kickstarter", "Godot Kickstarter", "GDQuest Kickstarter", "crowdfunding"]
+keywords = ["news", "godot game engine", "kickstarter", "Godot Kickstarter", "GDQuest Kickstarter", "crowdfunding"]
 title = "Godot Kickstarter: When and How you’ll get your Rewards"
 
 [[resources]]

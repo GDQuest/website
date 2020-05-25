@@ -5,7 +5,7 @@ categories = ["news"]
 date = 2020-01-29T12:00:00+00:00
 description = "We've finished up reworking the official 2D Platformer demo using our code guidelines. Take a look at what we changed and why."
 weight = 5
-tags = ["gdquest", "godot engine", "learn godot"]
+keywords = ["gdquest", "godot engine", "learn godot"]
 title = "We Remade the Official Godot 2D Platformer Demo"
 
 [[resources]]

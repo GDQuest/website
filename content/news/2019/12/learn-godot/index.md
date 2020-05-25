@@ -8,7 +8,7 @@ date = 2019-12-11T17:52:21+02:00
 weight = 5
 
 categories = ["news"]
-tags = ["gdquest", "gdquest website", "website", "godot", "godotengine", "education", "learn", "faq"]
+keywords = ["gdquest", "gdquest website", "website", "godot", "godotengine", "education", "learn", "faq"]
 
 [[resources]]
 name = "banner"

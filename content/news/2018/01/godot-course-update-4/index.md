@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2018-02-01T13:25:29+01:00"
 description = "The 4th update of the course is out! It concludes chapters 1 and 8, and brings a new series dedicated to tilesets."
-tags = ["gdquest", "godot 3", "godot course update", "tilesets", "tilemap", "tiles", "level design"]
+keywords = ["gdquest", "godot 3", "godot course update", "tilesets", "tilemap", "tiles", "level design"]
 title = "Godot 3 course, tilesets update out!"
 
 [[resources]]

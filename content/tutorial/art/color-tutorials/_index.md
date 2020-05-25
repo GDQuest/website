@@ -3,7 +3,7 @@ author = "nathan"
 date = "2015-06-08T07:05:25.000Z"
 description = "Enter description"
 keywords = ["ENTER KEYWORDS"]
-tags = ["free", "training"]
+tags = ["video"]
 title = "Color Tutorials"
 type = "course"
 

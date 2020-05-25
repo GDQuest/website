@@ -8,5 +8,4 @@ weight = 5
 draft = true
 
 categories = ["news"]
-tags = ["gdquest"]
 +++

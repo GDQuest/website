@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2018-08-13T19:49:19+09:00"
 description = "Are you looking for tutorials dedicated to the complex UI system in the Godot engine? This intermediate-level series is for you!"
-tags = ["godot user interface tutorial", "godot engine ui", "godot control tutorial", "godot ui tutorial", "godot interface tutorial", "godot inventory tutorial", "godot lifebar tutorial", "godot game engine", "godot 3 course", "game design", "godot 3", "gdquest"]
+keywords = ["godot user interface tutorial", "godot engine ui", "godot control tutorial", "godot ui tutorial", "godot interface tutorial", "godot inventory tutorial", "godot lifebar tutorial", "godot game engine", "godot 3 course", "game design", "godot 3", "gdquest"]
 title = "Godot Interface Design Course: standalone version"
 
 [[resources]]

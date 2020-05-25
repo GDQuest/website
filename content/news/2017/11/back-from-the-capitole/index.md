@@ -4,7 +4,7 @@ author = "nathan"
 categories = ["news"]
 date = "2017-11-22T15:25:48+01:00"
 description = "We met at the Capitole du Libre 2017 with Gilles Roudière and Julian Murgia, to showcase Godot 3. It's a major event around Free Software in France. Read this post to download the Godot 3 presentations."
-tags = ["github", "blender add-on", "godot 3", "capitole du libre"]
+keywords = ["github", "blender add-on", "godot 3", "capitole du libre"]
 title = "Godot and Blender presentations from the Capitole du Libre 2017"
 
 [[resources]]

@@ -5,7 +5,7 @@ date = "2018-05-24"
 
 author = "nathan"
 keywords = [ "godot ui", "godot user interface", "godot ui tutorial"]
-tags = [ "free", "video"]
+tags = ["video"]
 
 type = "course"
 aliases = [ "/tutorial/game-design/godot/user-interface-tutorials/",]

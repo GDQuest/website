@@ -5,7 +5,7 @@ category = ["Webdesign"]
 date = "2016-04-20T09:34:58+02:00"
 description = "Have you ever wondered how to access a file from your database based on a variable in your front matter in Hugo? This tutorial will show you how to achieve that using the index function."
 highlight = "templates"
-tags = ["hugo", "gohugo", "static html engine", "create a website"]
+keywords = ["hugo", "gohugo", "static html engine", "create a website"]
 title = "Hugo Tips: Concatenate paths with variables"
 type = "post"
 
