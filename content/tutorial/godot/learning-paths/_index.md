@@ -1,5 +1,6 @@
 +++
 title = "Godot learning paths"
+description = "Learn Godot with excellent, curated free resources made by the community. These paths will help you learn the engine step-by-step."
 date = 2019-12-09T14:18:14+02:00
 weight = 1
 aliases = [ "/tutorial/godot/learning-paths/",]
