@@ -1,31 +1,34 @@
-<h1 align="center">GDQuest website</h1>
+# GDQuest.com
 
-<p align='center'>
-  <img src="https://i.imgur.com/RhhCdcE.png" alt="GDQuest website banner with 3 bears" />
-</p>
+![Website banner image](content/about/img/social-banner.png)
 
-Source code and content for [GDQuest.com](http://gdquest.com/).
+This is the complete source code for [GDQuest.com](http://gdquest.com/). The website is entirely open-source.
 
-The website uses the blazing fast static site engine [hugo](https://gohugo.io) and is entirely **open source**.
+## Getting started
+
+The website uses the static site engine [hugo](https://gohugo.io).
+
+To test the site locally:
+
+1. Install [hugo extended](https://github.com/gohugoio/hugo/releases). On the GitHub releases page of hugo, look for an executable named `hugo_extended_...`. This version of Hugo includes tools to process pictures and SCSS code.
+1. Clone this repository.
+1. In your terminal, navigate to the repository's folder and run `hugo server`.
+
+This will build the website locally, watch for any file changes, and make it accessible on an address like `localhost:1313`.
 
 ## Contributing
 
-Your help is always welcome!
+Help is always welcome!
 
-Found a bug, a typo? Feel free to fix it straight or open a new issue for it :). Also check out the [existing issues ](https://github.com/GDQuest/GDQuest-website/issues) to see if there's something you'd like to play with.
+Found a bug, a typo? Feel free to fix it or [open a new issue](issues/new) for it. Also check out the [existing issues](issues).
 
 If you need to reach us, you can find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
 ## Licenses
 
-The website's content and pictures are available under the Creative Commons Attribution ([CC-By 4.0](https://creativecommons.org/licenses/by/4.0/)) license, to be attributed to "[GDQuest](http://gdquest.com/) and contributors."
+The website uses two licenses for its content and its source code, respectively:
 
-The website's theme, including the `layouts`, the `archetypes` and the `_src` folder are under the MIT license.
+- The website's content, that is to say, anything in the `content/` directory, or images in the `static/` directory, is available under the [CC-By 4.0](https://creativecommons.org/licenses/by/4.0/) license. If you reuse it, please attribute it to "[GDQuest](http://gdquest.com/) and contributors."
+- The website's source code, including the `layouts/`, the `archetypes/`, and the `_src/` folder are under the MIT license.
 
-### MIT license
-
-Copyright 2016-2018 Lovato Nathan
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+For more information, see [LICENSE](LICENSE).
