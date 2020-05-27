@@ -22,7 +22,10 @@ Help is always welcome!
 
 Found a bug, a typo? Feel free to fix it or [open a new issue](issues/new) for it. Also check out the [existing issues](issues).
 
-If you need to reach us, you can find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
+Get in touch:
+
+- Join the community on [Discord](https://discord.gg/CHYVgar)
+- You can also find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
 ## Licenses
 
