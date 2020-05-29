@@ -16,6 +16,7 @@
   overflow: auto;
   border-radius: $round-radius;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  height: 100%;
 
   position: relative;
   overflow: hidden;
@@ -28,8 +29,24 @@
 
   img {
     width: 100%;
+    object-fit: cover;
+    height: 290px;
     position: relative;
     z-index: 1;
+
+    @include tablet {
+      height: 100%;
+    }
+  }
+
+  &-small {
+    img {
+      height: 190px;
+
+      @include tablet {
+        height: 100%;
+      }
+    }
   }
 
   & > .content {
