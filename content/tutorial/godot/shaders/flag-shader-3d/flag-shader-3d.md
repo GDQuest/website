@@ -1,6 +1,4 @@
 +++
-draft = true
-
 title = "3D flag"
 description = "Learn to animate a flag blowing in the wind with shaders."
 author = "johnny"
