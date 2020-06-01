@@ -19,13 +19,13 @@ In this tutorial you'll learn how to animate a mesh using a shader so it looks l
 
 ## Setting up the scene
 
-First off, create a new 3D scene and add a `MeshInstance` node as a child. Add a new _PlaneMesh_ to it, change its size to have a 3:2 ratio and subdivide it into 32 by 32 subdivisions. We'll need these vertices to deform the flag.
+First off, create a new 3D scene and add a `MeshInstance` node as a child. Add a new _PlaneMesh_ to it, change its size to have a 3:2 ratio and subdivide it into `32` by `32` subdivisions. We'll need these vertices to deform the flag.
 
 Add a new _ShaderMaterial_ to the _PlaneMesh_. Your settings in the inspector should look like this.
 
 ![Mesh settings](./images/mesh-settings.png)
 
-Now we'll set up the shader and generate a noise texture.
+Now, we'll set up the shader and generate a noise texture.
 
 Click into the _ShaderMaterial_ and a new shader to it to open up the shader code editor.
 
@@ -124,7 +124,8 @@ void vertex(){
 	base_uv_offset += TIME*time_scale;
 
 	float noise = texture(uv_offset_texture, base_uv_offset).r;
-	float texture_based_offset = noise * 2.0 - 1.0; // Convert from 0.0 <=> 1.0 to -1.0 <=> 1.0
+	// Convert from [0.0, 1.0] to [-1.0, 1.0]
+	float texture_based_offset = noise * 2.0 - 1.0;
 
 	VERTEX.y += texture_based_offset;
 }
@@ -176,11 +177,14 @@ void vertex(){
 	base_uv_offset += TIME*time_scale;
 
 	float noise = texture(uv_offset_texture, base_uv_offset).r;
-	float texture_based_offset = noise * 2.0 - 1.0; // Convert from 0.0 <=> 1.0 to -1.0 <=> 1.0
-	texture_based_offset *= UV.x; // Apply dampening
+	// Convert from 0.0 <=> 1.0 to -1.0 <=> 1.0
+	float texture_based_offset = noise * 2.0 - 1.0;
+	// Apply dampening
+	texture_based_offset *= UV.x;
 
 	VERTEX.y += texture_based_offset;
-	VERTEX.z += texture_based_offset * face_distortion; // Distort the face to give impression of conserving shape
+	// Distort the face to give impression of conserving shape
+	VERTEX.z += texture_based_offset * face_distortion;
 	VERTEX.x += texture_based_offset * -face_distortion;
 }
 ```
