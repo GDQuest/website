@@ -23,7 +23,7 @@ First off, create a new 3D scene and add a `MeshInstance` node as a child. Add a
 
 Add a new _ShaderMaterial_ to the _PlaneMesh_. Your settings in the inspector should look like this.
 
-![mesh-settings](./images/mesh-settings.png)
+![Mesh settings](./images/mesh-settings.png)
 
 Now we'll set up the shader and generate a noise texture.
 
@@ -142,7 +142,7 @@ texture_based_offset *= UV.x; // Apply dampening
 
 Out flag movement looks quite good from this angle but if you look face on and set the camera to _Orthogonal_, the shape doesn't change in the `x` or `z` axes.
 
-![07.orthogonal-settings](./images/07.orthogonal-settings.png)
+![Orthogonal settings](./images/07.orthogonal-settings.png)
 
 {{< video "./videos/07.rigid-shape.mp4" >}}
 
