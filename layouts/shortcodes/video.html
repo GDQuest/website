@@ -1,3 +1,4 @@
-<video width="{{ with .Get 1 }}px{{ . }}{{ else }}800px{{ end }}" autoplay loop>
+<video controls autoplay loop width="{{ with .Get 1 }}{{ . }}px{{ else }}720px{{ end }}">
     <source src="{{ .Get 0 }}" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
