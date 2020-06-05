@@ -31,6 +31,8 @@ Click into the _ShaderMaterial_ and a new shader to it to open up the shader cod
 
 ![Adding a new shader](./images/new-shader.png)
 
+## Writing the shader
+
 We're going to use _OpenSimplexNoise_ to deform the mesh and get the fluid movement you might find on a flag. Set up the noise texture by first typing the following in the shader code editor.
 
 ```glsl
