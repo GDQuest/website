@@ -5,7 +5,6 @@ author = "zuzana"
 
 date = 2020-06-03T09:31:30-06:00
 weight = 5
-draft = true
 
 [[resources]]
 name = "banner"
