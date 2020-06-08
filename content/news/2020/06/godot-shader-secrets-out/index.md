@@ -48,8 +48,6 @@ You can look forward to these lessons for the next updates:
 
 ![2D water shader](./water2d.png)
 
-This course is **complementary** to our VFX Secrets series, and you can buy the two together at a discount in our **combo bundle**.
-
 ## Free and Open-Source
 
 The code from this project is available under the MIT license. You can use it and modify it freely, even in commercial projects.
