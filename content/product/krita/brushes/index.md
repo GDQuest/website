@@ -32,14 +32,12 @@ The premium tier adds:
 
 {{< calltoaction "//gumroad.com/l/krita-brushes-for-game-artists" "Get the brushes" >}}
 
-
 {{< figure
   src="/img/page/krita-brushes/thumbs-redesign-comparison.png"
   caption="The new thumbnails in version 13"
   alt="Brushes thumbnails comparison" >}}
 
 I take my time to design the presets and ensure that they are worth adding to the pack. I also use them in my daily work so they are tested thoroughly in all kinds of configurations.
-
 
 ## What other artists have to say
 
@@ -49,14 +47,12 @@ I take my time to design the presets and ensure that they are worth adding to th
 
 See more of Zhillustrator's work [on Artstation](//www.artstation.com/artist/zhille)
 
-
 ## Free Krita brushes
 
-{{< banner-img src="/img/page/krita-brushes/krita-brushes-banner-lite.jpg" alt="Krita brushes banner lite" class="-blue" free="true" >}}
+![Krita brushes banner lite](/img/page/krita-brushes/krita-brushes-banner-lite.jpg)
 
 The best part? There is actually a free, smaller version of this set, so you can try it out for yourself.
 [Click here to download the free Krita brushes](//github.com/GDQuest/free-krita-brushes/)
-
 
 ## Changelog
 
