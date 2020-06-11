@@ -5,5 +5,5 @@ date = "2020-05-26"
 
 [[resources]]
 name = "banner"
-src = "banner.jpg"
+src = "krita-tutorials-banner.png"
 +++
