@@ -1,5 +1,4 @@
 {{ define "header_content" }}
-
 <div class="header-background"></div>
 <div class="header-article">
     <h1 class="title">{{.Title}}</h1>
@@ -12,16 +11,13 @@
 </div>
 {{ end }}
 
-
-
 {{ define "main" }}
 <div class="grid center container">
-    <article class="padding-v-base">
+    <article>
         {{ with .Params.banner }}
         <img src="{{ .src }}" alt="{{ .alt }}">
         {{ end }}
         {{ .Content }}
-
         {{ partial "modules/author" . }}
         {{ partial "improve-this-page.html" . }}
     </article>
