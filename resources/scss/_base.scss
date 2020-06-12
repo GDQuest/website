@@ -258,7 +258,6 @@ a,
 }
 
 a:hover,
-.pagination a:hover,
 a.icon:hover,
 a:hover .icon {
   color: $color-link-hover;
@@ -309,23 +308,6 @@ main {
 
 li.current {
   color: $color-gdquest-pink;
-}
-
-.pagination {
-  text-align: center;
-
-  & > * {
-    display: inline-block;
-    margin: 0px $spacing-tiny;
-  }
-
-  a {
-    color: $color-default-text;
-  }
-
-  .active a {
-    color: $color-link-hover;
-  }
 }
 
 .hidden {

@@ -1,0 +1,22 @@
+// List of pages in a section or pagination
+.page-list {
+  margin-top: $spacing-base;
+  text-align: center;
+
+  > * {
+    display: inline-block;
+    margin: 0px $spacing-tiny;
+  }
+
+  a {
+    color: $color-default-text;
+  }
+
+  > .-active > a {
+    color: $color-link-hover;
+  }
+
+  > .-disabled {
+    color: $color-link-hover;
+  }
+}
