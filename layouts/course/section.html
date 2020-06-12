@@ -85,11 +85,9 @@
 </section>
 
 
-<section id="info" class="grid container center margin-top-big">
-    {{ with .Params.author }}
-    {{ with (index $.Site.Data.authors . ) }}
+{{ with .Params.author }}
+{{ with (index $.Site.Data.authors . ) }}
     {{ partial "modules/author" . }}
-    {{ end }}
-    {{ end }}
-</section>
+{{ end }}
+{{ end }}
 {{ end }}
