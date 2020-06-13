@@ -1,15 +1,9 @@
 {{ define "header_content" }}
-{{ if eq .CurrentSection.Parent.Type "course" }}
-{{ $.Scratch.Set "course_page" .CurrentSection.Parent }}
-{{ else if eq .Parent.Type "course"}}
-{{ $.Scratch.Set "course_page" .Parent }}
-{{ end }}
-
 <div class="header-background"></div>
 <div class="header-article grid split2 padding-v-small content">
     <div class="big">
-        <i data-font="dimmed">{{.Parent.Parent.Title}}</i> / {{.CurrentSection.Title}}
-        <h1 class="margin-none">{{.Title}}</h1>
+        <i data-font="dimmed">{{ .Parent.Parent.Title }}</i> / {{ .CurrentSection.Title }}
+        <h1 class="margin-none">{{ .Title }}</h1>
         {{ with .Params.author }}
         {{ with (index $.Site.Data.authors . ) }}
         <p>by: {{ .name }}</p>
@@ -19,34 +13,27 @@
 </div>
 {{ end }}
 
+
 {{ define "main" }}
-
-{{ $course_page := $.Scratch.Get "course_page" }}
-{{ $.Scratch.Set "pages" $course_page.Pages }}
-{{ $page_index := 0 }}
-
+{{ $course_page := .Parent }}
+{{ if eq .CurrentSection.Parent.Type "course" }}
+{{ $course_page = .CurrentSection.Parent }}
+{{ end }}
 <div class="grid split2 container">
     <input type="checkbox" name="toc_toggle" id="toc_toggle" class="hidden">
     <label for="toc_toggle" id="toc_toggle_label"><a class="button full margin-top-base">index</a></label>
 
     <aside class="small side-menu" id="toc">
-        <h4>{{$course_page.Title}}</h4>
+        <h4>{{ $course_page.Title }}</h4>
 
-        {{ $.Scratch.Set "index" 0 }}
-
-        {{if eq .Parent.Type "course_chapter" }}
+        {{ if eq .Parent.Type "course_chapter" }}
         {{ range $course_page.Sections }}
-        <input type="radio" id="{{.File.UniqueID}}" name="sections" class="hidden" {{if eq . $.Page.Parent}} checked {{ end }}>
+        <input type="radio" id="{{ .File.UniqueID }}" name="sections" class="hidden" {{ if eq . $.Page.Parent }} checked {{ end }}>
         <div class="chapter">
-            <label for="{{.File.UniqueID}}"><b>{{.Title}}</b></label>
+            <label for="{{ .File.UniqueID }}"><b>{{ .Title }}</b></label>
             <ul>
-                {{ range (sort .Pages "Date" "asc") }}
-                {{ if eq . $.Page }} {{ $page_index = ($.Scratch.Get "index") }} {{ end }}
-
-                {{ $.Scratch.Add "pages" . }}
-                {{ $.Scratch.Add "index" 1 }}
-
-                <li class="{{if (eq $.Page .)}}current{{ end }}"><a href="{{.Permalink}}">{{.Title}}</a></li>
+                {{ range .Pages.ByDate }}
+                <li class="{{ if (eq $.Page .)}}current{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                 {{ end }}
             </ul>
         </div>
@@ -54,17 +41,6 @@
         {{ end }}
     </aside>
 
-
-    {{ $pages := $.Scratch.Get "pages" }}
-    {{ $pindex := $page_index }}
-    {{ $prev := -1 }}
-    {{ $next := -1 }}
-    {{ if ne $.Page (index (first 1 $pages) 0) }}
-    {{ $prev = (index $pages (sub $pindex 1)) }}
-    {{ end }}
-    {{ if ne $.Page (index (last 1 $pages) 0) }}
-    {{ $next = (index $pages (add $pindex 1)) }}
-    {{ end }}
 
     <article class="padding-v-base big">
         {{ with .Params.banner }}
@@ -92,30 +68,30 @@
                 {{ $res := union (where . "ResourceType" "ne" "image") (where . "ResourceType" "eq" "image") }}
                 {{ range $res }}
                 {{ if eq .ResourceType "image" }}
-                <h6>{{.Name}}</h6>
-                <a download href="{{.Permalink}}">
-                    <img src="{{.Permalink}}" alt="{{.Name}}">
+                <h6>{{ .Name }}</h6>
+                <a download href="{{ .Permalink }}">
+                    <img src="{{ .Permalink }}" alt="{{ .Name }}">
                 </a>
                 {{ else }}
                 <div class="flex justify-space-between align-items-center">
-                    <h6>{{.Name}}</h6>
-                    <a download href="{{.Permalink}}" class="button">download</a>
+                    <h6>{{ .Name }}</h6>
+                    <a download href="{{ .Permalink }}" class="button">download</a>
                 </div>
                 {{ end }}
-                {{if ne . (index (last 1 $res) 0) }}
-                <hr>{{end}}
+                {{ if ne . (index (last 1 $res) 0) }}
+                <hr>{{ end }}
                 {{ end }}
             </section>
-            {{ end}}
+            {{ end }}
 
             <div class="margin-top-big">
                 <hr>
                 <div class="flex justify-space-between">
-                    {{ if ne $prev -1 }}
-                    <a href="{{ $prev.Permalink }}">Previous</a>
+                    {{ with .PrevInSection }}
+                    <a href="{{ .Permalink }}">Previous</a>
                     {{ end }}
-                    {{ if ne $next -1}}
-                    <a href="{{ $next.Permalink }}">Next</a>
+                    {{ with .NextInSection }}
+                    <a href="{{ .Permalink }}">Next</a>
                     {{ end }}
                 </div>
             </div>
