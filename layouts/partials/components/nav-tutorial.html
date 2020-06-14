@@ -1,0 +1,33 @@
+{{ $currentPage := . }}
+<nav class="nav-tutorial" role="navigation">
+    <ul>
+        {{ range .Sections }}
+        <li>
+            <div class="menu-link -section">
+                <a href="{{ if .Sections }}javascript:void(0){{ else }}{{ .URL }}{{ end }}" class="js-toggle {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}-active{{ end }}" class="section" data-target=".{{ .File.UniqueID }}">{{ .Title }}</a>
+
+            </div>
+
+            {{ $children := . }}
+            {{ if .Sections }}
+            {{ $children = .Sections }}
+            {{ else }}
+            {{ $children = .RegularPages }}
+            {{ end }}
+            {{ if $children }}
+            <ul>
+                {{ range $children }}
+                <li>
+                    <div class="menu-link">
+                        <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
+                            {{ .Title }}
+                        </a>
+                    </div>
+                </li>
+                {{ end}}
+            </ul>
+            {{ end}}
+        </li>
+        {{ end}}
+    </ul>
+</nav>

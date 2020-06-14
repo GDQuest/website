@@ -3,12 +3,21 @@
 {{ end }}
 
 {{ define "main" }}
-<section class="container padding-v-base">
-    {{.Content}}
-    <div class="grid split2 list">
+{{ $page := . }}
+{{ if eq .CurrentSection.Parent.Type "tutorial" }}
+{{ $page = .CurrentSection.Parent }}
+{{ else if .IsPage }}
+{{ $page = .CurrentSection }}
+{{ end }}
+<div class="flex">
+    {{ partial "components/nav-tutorial" $page }}
+    <section class="container padding-v-base">
+        {{.Content}}
+        <div class="grid split2">
         {{ range .Pages }}
         {{ .Render "summary" }}
         {{ end }}
-    </div>
-</section>
+        </div>
+    </section>
+</div>
 {{ end }}
