@@ -2,16 +2,29 @@
 <html data-theme="default">
     {{ partial "head" . }}
     <script type="text/javascript">
-function navToggleMenu() {
-  // Toggle adding the "-open" variant to the mobile menu button in the main navigation bar
-  const cssVariantOpen = " -open";
-  var element = document.getElementById("nav-main");
-  if (element.className.endsWith(cssVariantOpen)) {
-    element.className = element.className.replace(cssVariantOpen, "");
-  } else {
-    element.className += cssVariantOpen;
-  }
-}
+     // Toggle adding the "-open" variant to the mobile menu button in the main navigation bar
+     function navToggleMenu() {
+         const cssVariantOpen = " -open";
+         var element = document.getElementById("nav-main");
+         if (element.className.endsWith(cssVariantOpen)) {
+             element.className = element.className.replace(cssVariantOpen, "");
+         } else {
+             element.className += cssVariantOpen;
+         }
+     }
+
+     var navTutorialLinks = document.getElementsByClassName("menu-link", "-section");
+     // Toggles links visible in the side menu
+     function navTutorialMakeSectionActive(menuLink) {
+         for (let i = 0; i < navTutorialLinks.length; i++) {
+             if (navTutorialLinks[i].classList.contains("-active")) {
+                 navTutorialLinks[i].classList.remove("-active");
+                 navTutorialLinks[i].nextElementSibling.classList.add("-folded");
+             }
+         }
+         menuLink.classList.toggle("-active");
+         menuLink.nextElementSibling.classList.remove("-folded");
+     }
     </script>
     <body>
         <header class="darkbg" id="header">

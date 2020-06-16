@@ -3,8 +3,8 @@
     <ul>
         {{ range .Sections }}
         <li>
-            <div class="menu-link -section">
-                <a href="{{ if .Sections }}javascript:void(0){{ else }}{{ .URL }}{{ end }}" class="js-toggle {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}-active{{ end }}" class="section" data-target=".{{ .File.UniqueID }}">{{ .Title }}</a>
+            <div class="menu-link -section" onclick="navTutorialMakeSectionActive(this)">
+                <a href="javascript:void(0)" {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}class="-active"{{ end }} class="section">{{ .Title }}</a>
 
             </div>
 
@@ -15,7 +15,7 @@
             {{ $children = .RegularPages }}
             {{ end }}
             {{ if $children }}
-            <ul>
+            <ul class="-folded">
                 {{ range $children }}
                 <li>
                     <div class="menu-link">
