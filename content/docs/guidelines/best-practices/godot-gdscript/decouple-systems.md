@@ -118,7 +118,7 @@ func party_walk(leader: Actor, path: Array) -> void:
 func get_party_destination(path: Array) -> Vector2:
   var destination: Vector2 = path[path.size() - 1] if not path.empty() else Vector2()
   return destination
-    ```
+```
 
 We can read through `party_command` without looking at the implementation of other functions because we already have a good idea about what it does. We **divided up the implementation into smaller functions** and gave expressive names to these functions.
 
@@ -155,7 +155,7 @@ func party_walk(leader: Actor, path: Array) -> bool:
       path.pop_back()
     member.walk(path)
   return true
-    ```
+```
 
 Sometimes returning `bool` values like this in order to validate a successful execution is a decent idea.
 
