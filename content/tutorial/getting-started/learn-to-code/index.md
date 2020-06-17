@@ -13,7 +13,6 @@ src = "img/banner.png"
 
 +++
 
-
 You want to get started with game creation and programming but don't know where to start? That's what this series is all about!
 
 This first part is for you if you have little to no programming experience. You're going to learn:
@@ -21,12 +20,6 @@ This first part is for you if you have little to no programming experience. You'
 1. That you should **learn programming foundations first**
 1. That **Programming is for everyone**. It's not just about math and it's not just for men or young people
 1. **How to get started today**
-
-{{< youtube q3Og0Z-_En0 >}}
-
-{{< note >}}
-It is the first part of a _Free and Open Source_ intro series to game creation and to the [Godot game engine](//godotengine.org/). It was made possible by 760 generous Kickstarter backers and sponsors.
-{{< /note >}}
 
 ## Take it one step at a time
 
