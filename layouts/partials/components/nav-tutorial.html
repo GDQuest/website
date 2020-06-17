@@ -1,9 +1,31 @@
+<script type="text/javascript">
+ var navTutorialLinks = document.getElementsByClassName("menu-link", "-section");
+ // Toggles links visible in the side menu
+ function navTutorialToggleSection(menuLink) {
+     for (let i = 0; i < navTutorialLinks.length; i++) {
+         if (navTutorialLinks[i].classList.contains("-active")) {
+             navTutorialLinks[i].classList.remove("-active");
+         }
+     }
+     menuLink.classList.toggle("-active");
+     menuLink.nextElementSibling.classList.toggle("-folded");
+ }
+
+ function navTutorialMobileOpen(closeButton) {
+     closeButton.previousElementSibling.classList.toggle("-open")
+ }
+ // Closes mobile navigation
+ // function navTutorialMobileClose(closeButton) {
+ //     closeButton.nextElementSibling.classList.remove("-open")
+ // }
+</script>
+
 {{ $currentPage := . }}
 <nav class="nav-tutorial" role="navigation">
-    <ul>
+    <ul class="list">
         {{ range .Sections }}
         <li>
-            <div class="menu-link -section" onclick="navTutorialMakeSectionActive(this)">
+            <div class="menu-link -section" onclick="navTutorialToggleSection(this)">
                 <a href="javascript:void(0)" {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}class="-active"{{ end }} class="section">{{ .Title }}</a>
 
             </div>
@@ -31,3 +53,4 @@
         {{ end}}
     </ul>
 </nav>
+<a href="javascript:void(0)" id="tutorial-button" class="button -bottom -fullwidth -mobileonly" onclick="navTutorialMobileOpen(this)"><i class="fa fa-bars"></i> Tutorials</a>

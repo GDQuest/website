@@ -12,18 +12,6 @@
              element.className += cssVariantOpen;
          }
      }
-
-     var navTutorialLinks = document.getElementsByClassName("menu-link", "-section");
-     // Toggles links visible in the side menu
-     function navTutorialMakeSectionActive(menuLink) {
-         for (let i = 0; i < navTutorialLinks.length; i++) {
-             if (navTutorialLinks[i].classList.contains("-active")) {
-                 navTutorialLinks[i].classList.remove("-active");
-             }
-         }
-         menuLink.classList.toggle("-active");
-         menuLink.nextElementSibling.classList.toggle("-folded");
-     }
     </script>
     <body>
         <header class="darkbg" id="header">
