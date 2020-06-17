@@ -12,7 +12,7 @@ aliases = [
 
 +++
 
-If you want to contribute to our _Learn to Make Games with Godot_ [Beginner Edtition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) or [Developer Edtition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) documents this is the guide to get you started.
+If you want to contribute to our _Learn to Make Games with Godot_ [Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) or [Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) documents this is the guide to get you started.
 
 These guides are living documents about learning game creation with [Godot](//godotengine.org/) using only **free resources**.
 We welcome all contributors but we want to provide curated learning paths rather than long and confusing lists of mixed tutorials.
@@ -49,7 +49,7 @@ After you made your changes which can range from updating links to reviewing the
 
 ## Beginner Edition
 
-The [Beginner Edtition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) is meant for absolute beginners, people starting off with little to no programming experience. This is a path to get you from zero to your first complete projects using Godot.
+The [Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) is meant for absolute beginners, people starting off with little to no programming experience. This is a path to get you from zero to your first complete projects using Godot.
 
 The first section, **How to Get Into Game Development** introduces game creation with a high-level perspective. We're giving a general intro to game engines, but also the pitfalls and myths around game creation.
 
@@ -61,7 +61,7 @@ The first section, **How to Get Into Game Development** introduces game creation
 
 ## Learn to Make Games with Godot: Developer Edition
 
-The [Developer Edtition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) is for creators who already have programming experience, who might be coming from another engine, and who want to get up to speed with Godot. For this guide, we're mostly looking for short and focused resources that explore specific parts of the engine or that are especially useful to developers.
+The [Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) is for creators who already have programming experience, who might be coming from another engine, and who want to get up to speed with Godot. For this guide, we're mostly looking for short and focused resources that explore specific parts of the engine or that are especially useful to developers.
 
 The first section, **From X to Godot**, includes resources that help people transition from other engines. This is the place for resources specific to differences between game engines.
 
