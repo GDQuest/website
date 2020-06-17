@@ -15,10 +15,7 @@
 {{ define "main" }}
 <section class="grid center container padding-v-base">
     <article>
-        {{ with (.Resources.GetMatch "banner") }}
-        <img src="{{ .Permalink }}" alt="{{ .Name }}">
-        {{ end }}
-
+        {{ partial "components/banner-image" . }}
         {{ partial "table-of-contents" . }}
         {{ .Content }}
         {{ partial "modules/author" . }}

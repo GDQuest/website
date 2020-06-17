@@ -1,0 +1,14 @@
+<!-- Banner image to display at the top of blog posts, tutorials, and other articles -->
+{{ $banner_src := "" }}
+
+{{ if isset .Params "banner" }}
+{{ $banner_src = .Params.banner.src }}
+{{ else }}
+{{ with (.Resources.GetMatch "banner") }}
+{{ $banner_src = .Permalink }}
+{{ end }}
+{{ end }}
+
+{{ with $banner_src }}
+<img src="{{ . }}" alt="Banner image">
+{{ end }}

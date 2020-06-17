@@ -1,9 +1,7 @@
 <div class="card outline">
     {{ $url := .Permalink }}
 
-    {{ with (.Resources.GetMatch "banner") }}
-    <a href="{{ $url }}"><img src="{{ .Permalink }}" alt=""></a>
-    {{ end }}
+    {{ partial "components/banner-image" . }}
 
     <div class="content">
         <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
