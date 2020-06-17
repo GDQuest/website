@@ -1,23 +1,24 @@
 {{ define "header_content" }}
-    {{ partial "components/section-header" . }}
+{{ partial "components/section-header" . }}
 {{ end }}
 
 {{ define "main" }}
-{{ $page := . }}
-{{ if eq .CurrentSection.Parent.Type "tutorial" }}
-{{ $page = .CurrentSection.Parent }}
-{{ else if .IsPage }}
-{{ $page = .CurrentSection }}
-{{ end }}
 <div class="flex">
-    {{ partial "components/nav-tutorial" $page }}
+    {{ if not (isset .Params "remove_menu") }}
+    {{ partial "components/nav-tutorial" .CurrentSection }}
+    <section class="padding-v-base">
+        <article>
+            {{.Content}}
+        </article>
+    </section>
+    {{ else }}
     <section class="container padding-v-base">
-        {{.Content}}
         <div class="grid split2">
-        {{ range .Pages }}
-        {{ .Render "summary" }}
-        {{ end }}
+            {{ range .Pages }}
+            {{ .Render "summary" }}
+            {{ end }}
         </div>
     </section>
+    {{ end }}
 </div>
 {{ end }}
