@@ -1,16 +1,13 @@
 +++
+title = "Learn to Code"
 author = "nathan"
 date = 2018-04-12T09:04:58+09:00
 description = "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design."
-title = "How to Learn to Code Games"
-aliases = [ "/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/",]
+aliases = [ "/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/", "/tutorial/getting-started/learn-to-code/",]
+
 [[resources]]
 name = "banner"
 src = "img/banner.png"
-
-[banner]
-src = "img/banner.png"
-
 +++
 
 You want to get started with game creation and programming but don't know where to start? That's what this series is all about!

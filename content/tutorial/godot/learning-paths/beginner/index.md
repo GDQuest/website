@@ -23,24 +23,24 @@ src = "banner.jpg"
 
 Do you want to learn to make games, but you don't know where to start? Do you have little or no programming experience? This guide is for you!
 
-_If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/getting-started/learn-to-code/index.md" >}}) instead._
+_If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}) instead._
 
 You can always **join the [GDQuest Discord server](//discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](//twitter.com/NathanGDQuest)**.
 
 ## Become a game developer
 
-We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot](//godotengine.org/). 
+We collected and reviewed dozens of **free online resources** to help you learn to make your first video games with the free and open source game engine [Godot](//godotengine.org/).
 
 This learning path will take you from 0 to your first complete games, albeit small ones.
 
 > The journey of a thousand miles begins with one step.
-> 
+>
 > Lao Tzu
 
 Your first creation may not be your dream project, but you're going to learn and grow a lot taking your first steps. You're going to discover a world full of wonders where the further you go, the more creative the process becomes.
 
 > It is good to have an end to journey toward; but it is the journey that matters, in the end.
-> 
+>
 > Ursula K. Le Guin
 
 As you are going to see, there are many great tutorials and tools that you can use to learn game creation from your bedroom for free today.
@@ -49,19 +49,17 @@ Now is a great time to learn game development.
 
 ## Why Godot? What is Godot?
 
-Godot is a 2D and 3D game engine with a fully-fledged editor, but it is different from the other big game engines out there. It is **Free and Open Source Software**, funded by the community, backed by large organizations like Mozilla or Microsoft, and lead by a team of passionate developers shooting for the stars. 
+Godot is a 2D and 3D game engine with a fully-fledged editor, but it is different from the other big game engines out there. It is **Free and Open Source Software**, funded by the community, backed by large organizations like Mozilla or Microsoft, and lead by a team of passionate developers shooting for the stars.
 
 {{< figure
-  src="./img/godot-engine.png"
-  alt="Screenshot of the Godot editor, showing the 3d view"
->}}
+src="./img/godot-engine.png"
+alt="Screenshot of the Godot editor, showing the 3d view" >}}
 
 With **over 1000 contributors** at the time of writing, Godot is becoming more and more competitive even compared to the most significant engines in the games industry.
 
 With separate 2D and 3D engines, an innovative design, it is already packed with a large number of features making 2D game creation fun and rewarding. The team is now working hand-in-hand with the [Vulkan](//www.khronos.org/vulkan/) representatives to provide cutting-edge 3D in version 4.0.
 
 Godot uses the permissive [MIT](//opensource.org/licenses/MIT) license. This means there's no limit to what an excellent team of developers can do with it, even for commercial projects.
-
 
 ## Can I make my dream game?
 
@@ -70,12 +68,12 @@ Game creation takes time and effort. Game developers are people who continuously
 I cannot tell whether you will be able to create your dream project or not, depending on how crazy it is. Still, you can undoubtedly make games that people will enjoy, even alone. It will just take some time and dedication.
 
 > Great things are not done by impulse, but by a series of small things brought together.
-> 
+>
 > Vincent Van Gogh
 
 ## Getting started with game development
 
-The massive amount of information out there on how to get started makes it hard to choose where to start. But we're here to help. 
+The massive amount of information out there on how to get started makes it hard to choose where to start. But we're here to help.
 
 Below, you'll find lists of **curated free online resources**, in both text and video format, to learn to create your own games from with Godot.
 
@@ -84,14 +82,14 @@ Below, you'll find lists of **curated free online resources**, in both text and 
 This section is for you if you know little about game creation and programming. The guide and videos below give some insights into what you should expect:
 
 1. [Making Your First Game: Basics](//www.youtube.com/watch?v=z06QR-tz1_o&list=PLhyKYa0YJ_5C6QC36h5eApOyXtx98ehGi), by Extra Credits, gives great advice on how to make your first game, and general insights on how games are made.
-1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/getting-started/learn-to-code/index.md" >}}) is our guide to learn computer programming.
+1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}) is our guide to learn computer programming.
 1. [Game Engines: what are they and how to choose the right one?](//youtu.be/2tZK75R2K2c)
 
 ![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](//github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
 
 ### Creating your first game with Godot
 
-The best way to learn something new is through a balance of **practice** and brushing your **fundamentals**. 
+The best way to learn something new is through a balance of **practice** and brushing your **fundamentals**.
 
 Here, we've decided to focus on a hands-on approach, which is what we recommend focusing on first: creating actual games. It's motivating to start that way. But we also included a few resources that go through some theory to help you better understand how game engines and programming work.
 
@@ -132,9 +130,9 @@ We've selected the following resources to give you a peek into the vast array of
 
 1. [The Book of Shaders](//thebookofshaders.com/) is one of the best resources out there to get started with shaders, simple programs to manipulate your game's art in realtime, in your game. The book explains how shaders work and what you can achieve with them. At the time of writing this book is incomplete, but still invaluable.
 1. [Godot's Introduction to Math for Game Developers](//docs.godotengine.org/en/3.1/tutorials/math/vector_math.html) will give you some insights into the kind of maths you will use often in your games, starting with vectors. If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
-[Omitted long matching line]
+   [Omitted long matching line]
 
-The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/getting-started/learn-to-code/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
+The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
 
 ## Contributing to this document
 
