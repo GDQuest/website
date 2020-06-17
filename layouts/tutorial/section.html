@@ -3,11 +3,12 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="flex">
+<div class="container flex">
     {{ if not (isset .Params "remove_menu") }}
     {{ partial "components/nav-tutorial" .CurrentSection }}
     <section class="padding-v-base">
         <article>
+            {{ partial "components/banner-image" . }}
             {{.Content}}
         </article>
     </section>
