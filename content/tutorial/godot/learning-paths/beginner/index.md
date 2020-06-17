@@ -19,9 +19,6 @@ aliases = [
 [[resources]]
 name = "banner"
 src = "banner.jpg"
-
-[banner]
-src = "banner.jpg"
 +++
 
 Do you want to learn to make games, but you don't know where to start? Do you have little or no programming experience? This guide is for you!

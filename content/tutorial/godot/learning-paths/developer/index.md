@@ -15,9 +15,6 @@ aliases = [
 [[resources]]
 name = "banner"
 src = "banner.png"
-
-[banner]
-src = "banner.png"
 +++
 
 We gathered a curated list of resources to make your life easier if you want to get started with Godot. This guide is for experienced developers, or game developers coming from a different game engine.

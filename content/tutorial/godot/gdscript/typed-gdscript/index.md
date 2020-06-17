@@ -13,9 +13,6 @@ featured = true
 name = "banner"
 src = "img/banner.png"
 
-[banner]
-src = "img/banner.png"
-
 +++
 
 GDscript is getting **optional** typing syntax in Godot 3.1. In this guide, you'll learn:
