@@ -1,0 +1,23 @@
+.tag-pill {
+  display: inline;
+  padding: 0 $spacing-micro;
+  border-radius: $round-radius;
+  font-weight: 500;
+
+  color: white;
+  background: $color-button-background;
+
+  &.-yellow {
+    color: $color-dark-base;
+    background-color: $color-accent-opt-base;
+  }
+
+  &.-green {
+    color: $color-dark-base;
+    background: $color-gdquest-green;
+  }
+
+  &.-pink {
+    background: $color-gdquest-pink;
+  }
+}

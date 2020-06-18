@@ -38,7 +38,7 @@ All versions come with source Godot projects so you can read the source code, le
 
 ## Videos list
 
-### {{< tag "hobby" >}} Chapter 1: The character controller
+### (hobby) Chapter 1: The character controller
 
 0. Project Structure Overview
 1. [Create the Base Character Scene](//www.youtube.com/watch?v=PKGOWGw3blw)
@@ -54,7 +54,7 @@ All versions come with source Godot projects so you can read the source code, le
 11. Jump Bug Fix And Height Refactoring
 
 
-### {{< tag "hobby" >}} Chapter 2: Combat mechanics: life, attacks and death
+### (hobby) Chapter 2: Combat mechanics: life, attacks and death
 
 0. Intro
 1. [Basic Attack Animation](//www.youtube.com/watch?v=TPJqJDCnxyg)
@@ -69,7 +69,7 @@ All versions come with source Godot projects so you can read the source code, le
 10. Combo Input
 
 
-### {{< tag "hobby" >}} Chapter 3: AI 1: Design 2 simple monsters
+### (hobby) Chapter 3: AI 1: Design 2 simple monsters
 
 1. The Porcupine's States Overview
 1. Spawn And Target
@@ -85,7 +85,7 @@ All versions come with source Godot projects so you can read the source code, le
 1. Coding The Nest That Spawns Flying Enemies
 
 
-### {{< tag "hobby" >}} Chapter 4: AI 2: Add a pattern-based boss
+### (hobby) Chapter 4: AI 2: Add a pattern-based boss
 
 This chapter covers the state programming pattern. It shows how to separate the monster's behaviors in code
 
@@ -103,7 +103,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 12. Simpler attack and hitbox demo
 13. Boss phases
 
-### {{< tag "hobby" >}} Chapter 5: Build levels with Tiled map editor
+### (hobby) Chapter 5: Build levels with Tiled map editor
 
 1. [Intro To Tile-sets](//www.youtube.com/watch?v=TdPgIagt9Yo)
 2. Create A Tile-set
@@ -113,7 +113,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 6. Intro To Tiled Map Editing
 7. Intro to the new [Tileset Editor in Godot 3.1](//www.youtube.com/watch?v=F6VerW98gEc)
 
-### {{< tag "hobby" >}} Chapter 6: Breathe life to the game: world animation and particles
+### (hobby) Chapter 6: Breathe life to the game: world animation and particles
 
 1. Intro to particles2d
 2. Intro to particles 2d 2
@@ -125,7 +125,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 8. Firery cloud
 9. Firery cloud sparkles
 
-### {{< tag "indie" >}} Chapter 7: Design and code the game's User Interface
+### (indie) Chapter 7: Design and code the game's User Interface
 
 ![lifebars in the game world screenshot](./chapter-07-ui-series-screen.png)
 
@@ -138,7 +138,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 7. Adding dynamic colors to the lifebar
 8. Lifebar animation
 
-### {{< tag "indie" >}} Chapter 8: Learn the Game Design Workflow
+### (indie) Chapter 8: Learn the Game Design Workflow
 
 *The first 3 lessons are text-based*
 
@@ -151,7 +151,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 07. Designer Insights Fibretigre
 08. Designer Insights Ed Atomic Racoon
 
-### {{< tag "pro" >}} Chapter 9: Build an Inventory System and Item menu
+### (pro) Chapter 9: Build an Inventory System and Item menu
 
 ![inventory screenshot](./chapter-09-inventory-demo.png)
 
@@ -173,7 +173,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 16. Connecting the two menus
 17. Focus neighbours
 
-### {{< tag "pro" >}} Chapter 10: Design pattern: implement Finite State Machines in Godot
+### (pro) Chapter 10: Design pattern: implement Finite State Machines in Godot
 
 1. Presentation: Introduction To Finite State Machines
 1. Create The Base State Interface
@@ -185,7 +185,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 1. Pushdown Automaton
 1. Pushdown Stagger State
 
-### {{< tag "pro" >}} Chapter 11: Shop
+### (pro) Chapter 11: Shop
 
 ![Shop series banner screenshot](./shop-series-banner.png)
 
@@ -200,7 +200,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 09. Popup design
 10. Popup code
 
-### {{< tag "indie" >}} Chapter 12: Persistence, Polish, and Project Structure
+### (indie) Chapter 12: Persistence, Polish, and Project Structure
 
 This final series rounds out the techniques explored in the course with requests from the Kickstarter backers: looking at how to restructure a project as it grows in complexity, keeping persistent data and improving the game's feel with camera shake.
 
