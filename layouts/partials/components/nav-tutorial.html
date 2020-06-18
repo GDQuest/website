@@ -20,16 +20,20 @@
      }
      closeButton.previousElementSibling.classList.toggle("-open")
  }
- // Closes mobile navigation
- // function navTutorialMobileClose(closeButton) {
- //     closeButton.nextElementSibling.classList.remove("-open")
- // }
 </script>
 
 {{ $currentPage := . }}
+{{ $sections := "" }}
+
+{{ if .IsPage }}
+{{ $sections = $currentPage.Parent.Parent.Sections }}
+{{ else }}
+{{ $sections = .Sections }}
+{{ end }}
+
 <nav class="nav-tutorial" role="navigation">
     <ul class="list">
-        {{ range .Sections }}
+        {{ range $sections }}
         <li>
             <div class="menu-link -section" onclick="navTutorialToggleSection(this)">
                 <a href="javascript:void(0)" {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}class="-active"{{ end }} class="section">{{ .Title }}</a>
