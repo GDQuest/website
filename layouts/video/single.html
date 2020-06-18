@@ -19,33 +19,11 @@
 {{ if eq .CurrentSection.Parent.Type "course" }}
 {{ $course_page = .CurrentSection.Parent }}
 {{ end }}
-<div class="grid split2 container">
-    <input type="checkbox" name="toc_toggle" id="toc_toggle" class="hidden">
-    <label for="toc_toggle" id="toc_toggle_label"><a class="button full margin-top-base">index</a></label>
-
-    <aside class="small side-menu" id="toc">
-        <h4>{{ $course_page.Title }}</h4>
-
-        {{ if eq .Parent.Type "course_chapter" }}
-        {{ range $course_page.Sections }}
-        <input type="radio" id="{{ .File.UniqueID }}" name="sections" class="hidden" {{ if eq . $.Page.Parent }} checked {{ end }}>
-        <div class="chapter">
-            <label for="{{ .File.UniqueID }}"><b>{{ .Title }}</b></label>
-            <ul>
-                {{ range .Pages.ByDate }}
-                <li class="{{ if (eq $.Page .)}}current{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
-        {{ end }}
-        {{ end }}
-    </aside>
-
+<div class="container flex">
+    {{ partialCached "components/nav-tutorial" . .CurrentSection }}
 
     <article class="padding-v-base big">
-        {{ with .Params.banner }}
-        <img src="{{ .src }}" alt="{{ .alt }}">
-        {{ end }}
+        {{ partial "components/banner-image" . }}
 
         {{ with .Params.videoid }}
         {{ partial "modules/video_youtube" . }}
@@ -95,9 +73,7 @@
                     {{ end }}
                 </div>
             </div>
-
         </div>
-
         {{ partial "modules/author" . }}
     </article>
 </div>

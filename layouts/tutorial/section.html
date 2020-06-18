@@ -8,7 +8,7 @@
     {{ partial "components/nav-tutorial" .CurrentSection }}
     <section class="padding-v-base">
         <article>
-            {{ partial "components/banner-image" . }}
+            {{ partialCached "components/banner-image" . .CurrentSection }}
             {{.Content}}
         </article>
     </section>
