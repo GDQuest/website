@@ -4,6 +4,8 @@ date = "2017-03-01T20:29:44+02:00"
 title = "Learn game creation"
 small = "Create games with Godot and Krita"
 
+remove_menu = true
+
 aliases = [
     "/tutorial/game-design/godot/user-interface-tutorials/chapter/0_intro_to_multiplayer_in_godot_3_lobby_demo_overview_/",
     "/tutorial/game-design/godot/user-interface-tutorials/chapter/1_intro_to_multiplayer_in_godot_/",

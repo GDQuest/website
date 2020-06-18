@@ -1,0 +1,68 @@
+.nav-tutorial {
+  width: 300px;
+  padding: $spacing-small;
+
+  a {
+    color: $color-default-text;
+    &:hover {
+      color: $color-link-hover;
+    }
+  }
+
+  ul,
+  li {
+    padding: 0;
+  }
+
+  > .close {
+    display: none;
+  }
+
+  .-folded {
+    display: none;
+  }
+}
+
+.menu-link {
+  display: block;
+
+  &.-active > a {
+    color: $color-link-hover;
+  }
+  &.-section {
+    font-weight: 800;
+  }
+
+  > a {
+    display: block;
+    padding: 16px 0;
+
+    &.-tutorial {
+      padding: 8px;
+    }
+  }
+}
+
+@include mobile {
+  .nav-tutorial {
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    background: $color-default-base;
+    width: 100%;
+    height: calc(100% - 48px);
+    overflow-y: scroll;
+
+    &.-open {
+      display: block;
+
+      > .list {
+        display: block;
+      }
+    }
+
+    > .list {
+    }
+  }
+}

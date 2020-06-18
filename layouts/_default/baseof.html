@@ -2,16 +2,16 @@
 <html data-theme="default">
     {{ partial "head" . }}
     <script type="text/javascript">
-function navToggleMenu() {
-  // Toggle adding the "-open" variant to the mobile menu button in the main navigation bar
-  const cssVariantOpen = " -open";
-  var element = document.getElementById("nav-main");
-  if (element.className.endsWith(cssVariantOpen)) {
-    element.className = element.className.replace(cssVariantOpen, "");
-  } else {
-    element.className += cssVariantOpen;
-  }
-}
+     // Toggle adding the "-open" variant to the mobile menu button in the main navigation bar
+     function navToggleMenu() {
+         const cssVariantOpen = " -open";
+         var element = document.getElementById("nav-main");
+         if (element.className.endsWith(cssVariantOpen)) {
+             element.className = element.className.replace(cssVariantOpen, "");
+         } else {
+             element.className += cssVariantOpen;
+         }
+     }
     </script>
     <body>
         <header class="darkbg" id="header">

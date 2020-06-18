@@ -1,14 +1,25 @@
 {{ define "header_content" }}
-    {{ partial "components/section-header" . }}
+{{ partial "components/section-header" . }}
 {{ end }}
 
 {{ define "main" }}
-<section class="container padding-v-base">
-    {{.Content}}
-    <div class="grid split2 list">
-        {{ range .Pages }}
-        {{ .Render "summary" }}
-        {{ end }}
-    </div>
-</section>
+<div class="container flex">
+    {{ if not (isset .Params "remove_menu") }}
+    {{ partial "components/nav-tutorial" .CurrentSection }}
+    <section class="padding-v-base">
+        <article>
+            {{ partial "components/banner-image" . }}
+            {{.Content}}
+        </article>
+    </section>
+    {{ else }}
+    <section class="container padding-v-base">
+        <div class="grid split2">
+            {{ range .Pages }}
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+</div>
 {{ end }}

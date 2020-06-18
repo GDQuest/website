@@ -1,0 +1,66 @@
+<script type="text/javascript">
+ var navTutorialLinks = document.getElementsByClassName("menu-link", "-section");
+ // Toggles links visible in the side menu
+ function navTutorialToggleSection(menuLink) {
+     for (let i = 0; i < navTutorialLinks.length; i++) {
+         if (navTutorialLinks[i].classList.contains("-active")) {
+             navTutorialLinks[i].classList.remove("-active");
+         }
+     }
+     menuLink.classList.toggle("-active");
+     menuLink.nextElementSibling.classList.toggle("-folded");
+ }
+
+ // Toggles the tutorial menu, altering the overflow of <body>
+ function navTutorialMobileToggle(closeButton) {
+     if (document.body.style.overflowY === "") {
+         document.body.style.overflowY = "hidden";
+     } else {
+         document.body.style.overflowY = "";
+     }
+     closeButton.previousElementSibling.classList.toggle("-open")
+ }
+</script>
+
+{{ $currentPage := . }}
+{{ $sections := "" }}
+
+{{ if .IsPage }}
+{{ $sections = $currentPage.Parent.Parent.Sections }}
+{{ else }}
+{{ $sections = .Sections }}
+{{ end }}
+
+<nav class="nav-tutorial" role="navigation">
+    <ul class="list">
+        {{ range $sections }}
+        <li>
+            <div class="menu-link -section" onclick="navTutorialToggleSection(this)">
+                <a href="javascript:void(0)" {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}class="-active"{{ end }} class="section">{{ .Title }}</a>
+
+            </div>
+
+            {{ $children := . }}
+            {{ if .Sections }}
+            {{ $children = .Sections }}
+            {{ else }}
+            {{ $children = .RegularPages }}
+            {{ end }}
+            {{ if $children }}
+            <ul class="-folded">
+                {{ range $children }}
+                <li>
+                    <div class="menu-link">
+                        <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
+                            {{ .Title }}
+                        </a>
+                    </div>
+                </li>
+                {{ end}}
+            </ul>
+            {{ end}}
+        </li>
+        {{ end}}
+    </ul>
+</nav>
+<button href="javascript:void(0)" class="button -navtutorial -bottom -fullwidth -mobileonly" onclick="navTutorialMobileToggle(this)"><div class="text"><i class="fa fa-bars"></i> Tutorials</div></button>
