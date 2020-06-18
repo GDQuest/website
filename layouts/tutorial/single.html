@@ -11,8 +11,13 @@
 </div>
 {{ end }}
 
+
 {{ define "main" }}
-<div class="grid center container">
-    {{ partial "components/blog-post" . }}
+<div class="container flex">
+    {{ partial "components/nav-tutorial" . }}
+    <section class="padding-v-base">
+        {{ partial "components/blog-post" . }}
+    </section>
 </div>
+
 {{ end }}

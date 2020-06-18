@@ -14,13 +14,6 @@
 
 {{ define "main" }}
 <section class="grid center container padding-v-base">
-    <article>
-        {{ partial "components/banner-image" . }}
-        {{ partial "table-of-contents" . }}
-        {{ .Content }}
-        {{ partial "modules/author" . }}
-        {{ partial "improve-this-page.html" . }}
-    </article>
+    {{ partial "components/blog-post" . }}
 </section>
-
 {{ end }}
