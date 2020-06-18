@@ -57,11 +57,6 @@
     #{$key}-top: $spacing-base;
     #{$key}-bottom: $spacing-base;
   }
-
-  .#{$key}-v-big {
-    #{$key}-top: $spacing-big;
-    #{$key}-bottom: $spacing-big;
-  }
 }
 
 // horizontal only padding and margin

@@ -5,9 +5,7 @@
 {{ define "main" }}
 <section class="container padding-v-base">
     <article>
-        {{ with .Params.banner }}
-        <img src="{{ .src }}" alt="{{ .alt }}">
-        {{ end }}
+        {{ partial "components/banner-image" . }}
         {{ .Content }}
 
         {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}

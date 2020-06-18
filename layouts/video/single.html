@@ -63,7 +63,7 @@
             {{ end }}
 
             {{ with .Resources }}
-            <section id="resources" class="margin-v-big">
+            <section id="resources" class="margin-v-base">
                 <h4>Resources</h4>
                 {{ $res := union (where . "ResourceType" "ne" "image") (where . "ResourceType" "eq" "image") }}
                 {{ range $res }}

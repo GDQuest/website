@@ -14,7 +14,7 @@
 {{ end }}
 
 {{ define "main" }}
-<section class="container margin-v-big">
+<section class="container margin-v-base">
     <h4>latest news</h4>
     <div class="grid split2 list">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
@@ -26,7 +26,7 @@
     </div>
 </section>
 
-<section class="container margin-v-big">
+<section class="container margin-v-base">
     <h4>Latest courses</h4>
     <div class="grid split2 list">
         {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
@@ -38,7 +38,7 @@
     </div>
 </section>
 
-<section class="margin-v-big darkbg">
+<section class="margin-v-base darkbg">
     <div class="container padding-v-base">
         <h3 data-font="centered" class="margin-none">Watch hundreds of free tutorials</h3>
     </div>
@@ -47,7 +47,7 @@
 <section>
     <div class="container">
         <h3 data-font="centered" class="margin-none">Work with the most advanced Free Software</h3>
-        <div class="grid split3 margin-v-big" data-font="centered">
+        <div class="grid split3 margin-v-base" data-font="centered">
             <div class="card outline">
                 <div class="content" style="background-color: #272b30;">
                     <img src="/img/home/godot_logo.png" alt="godot logo" style="width: auto;" width="140px" height="140px">
