@@ -15,8 +15,6 @@ toc = false
 
 The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters from Hobby and Indie, and extra resources:
 
-<!-- TODO: refactor as a 3 columns call to action: use a parent container shortcode? -->
-
 1. [Hobby](//gum.co/vmPA)
 1. [Indie](//gum.co/XEULZ)
 1. [Pro](//gum.co/godot-tutorial-make-professional-2d-games)
