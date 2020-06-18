@@ -10,10 +10,6 @@ keywords = ["krita brushes", "free krita brushes", "krita brush"]
 title = "Make Professional Painterly Game Art with Krita"
 type = "product"
 
-[banner]
-  alt = "Banner for the Krita course. A pig and a rabbit character in the forest."
-  src = "banner.jpg"
-
 [[resources]]
   name = "banner"
   src = "banner.jpg"
@@ -27,7 +23,6 @@ type = "product"
 - Art fundamentals such as value and color contrast
 
 On top of that, if you buy the premium version, you will get step by step exercise sheets and create your own game mockup, ready to use in the game engine of your choice!
-
 
 Check out this **free video from the course** and get a sense for the content:
 

@@ -6,12 +6,7 @@ title = "Code a Professional 3D Character with Godot"
 type = "redirect"
 description = "Learn to create a polished 3D character with a 3rd person camera and professional code in the free game engine Godot."
 
-[banner]
-  alt = "banner"
-  src = "img/banner.png"
-
 [[resources]]
   name = "banner"
   src = "banner.png"
-
 +++

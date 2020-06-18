@@ -8,10 +8,6 @@ product = "krita-brushes"
 keywords = ["krita brushes", "free krita brushes", "best krita brushes", "krita painting brushes", "krita brush"]
 title = "Krita Brushes For Game Artists"
 
-[banner]
-  alt = "Krita brushes banner image"
-  src = "banner.jpg"
-
 [[resources]]
   name = "banner"
   src = "banner.jpg"

@@ -7,10 +7,6 @@ keywords = ["godot", "game design", "game creation", "gamedev"]
 tags = ["godot"]
 title = "make professional 2d games with godot"
 
-[banner]
-  alt = "banner"
-  src = "img/banner.png"
-
 [[resources]]
   name = "banner"
   src = "img/banner.png"
@@ -33,20 +29,18 @@ Unlike in many beginner courses that show how to code a specific game step-by-st
 
 {{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}
 
-
-
 ## What will I learn?
 
 1. Learn to create games **like professionals**
 1. Discover the **best practices** in the Godot Game Engine
-1. Learn game programming techniques that **apply to any game project***
+1. Learn game programming techniques that **apply to any game project\***
 1. Understand how 2d games work with lessons that go beyond the surface
 
 ![Inventory demo screenshot](./content/chapter-09-inventory-demo.png)
 
 ## Requirements
 
-This is *not* a series for complete beginners: you should have at least some programming experience. Check out [our Free tutorials](//youtube.com/c/gdquest) to get started 😄
+This is _not_ a series for complete beginners: you should have at least some programming experience. Check out [our Free tutorials](//youtube.com/c/gdquest) to get started 😄
 
 You will need:
 

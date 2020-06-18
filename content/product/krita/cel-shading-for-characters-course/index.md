@@ -6,10 +6,6 @@ description = "Learn to make cartoon 2d game characters with Krita! Based on the
 keywords = ["krita", "krita 3", "digital painting", "digital art"]
 title = "Make Cel Shaded 2d Characters With Krita"
 
-[banner]
-  alt = "A stylized painting of Pepper and Carrot, 2 characters by David Revoy, over a blue background"
-  src = "banner.jpg"
-
 [[resources]]
   name = "banner"
   src = "banner.jpg"
@@ -24,7 +20,6 @@ This tutorial series will show you how to create your own game characters from s
 1. Lighting and shading tricks with Krita
 
 This is a short, yet a rich series. It comes with **14 video tutorials**, plus a fully **commented art time-lapse**.
-
 
 ## Pre-requisites
 

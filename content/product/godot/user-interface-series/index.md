@@ -7,10 +7,6 @@ keywords = ["godot interface tutorial", "control nodes tutorial", "learn game de
 tags = ["video"]
 title = "Create Professional User Interface in Godot"
 
-[banner]
-  alt = "banner"
-  src = "img/banner.png"
-
 [[resources]]
   name = "banner"
   src = "img/banner.png"
@@ -42,7 +38,6 @@ Be sure to watch our [Free beginner Godot UI tutorials](//www.youtube.com/watch?
 This course will help you **go beyond** our first interface series.
 
 ![Game user interface tutorial screenshot](./img/game-user-interface-tutorial.png)
-
 
 ## What does this course contain?
 

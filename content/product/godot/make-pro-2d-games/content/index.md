@@ -6,10 +6,6 @@ layout = "post"
 keywords = ["godot 3", "godot course", "video list", "course content"]
 title = "Available content in the Godot Course"
 
-[banner]
-  alt = "banner"
-  src = "banner.png"
-
 [[resources]]
   name = "banner"
   src = "banner.png"
@@ -53,7 +49,6 @@ All versions come with source Godot projects so you can read the source code, le
 10. Jump Part 2
 11. Jump Bug Fix And Height Refactoring
 
-
 ### {{< tag "hobby" >}} Chapter 2: Combat mechanics: life, attacks and death
 
 0. Intro
@@ -67,7 +62,6 @@ All versions come with source Godot projects so you can read the source code, le
 8. Combo Animation
 9. Combo Code Setup
 10. Combo Input
-
 
 ### {{< tag "hobby" >}} Chapter 3: AI 1: Design 2 simple monsters
 
@@ -84,24 +78,23 @@ All versions come with source Godot projects so you can read the source code, le
 1. Coding The Flying Enemy
 1. Coding The Nest That Spawns Flying Enemies
 
-
 ### {{< tag "hobby" >}} Chapter 4: AI 2: Add a pattern-based boss
 
 This chapter covers the state programming pattern. It shows how to separate the monster's behaviors in code
 
-01. First look at the state interface
-02. Create the spawn state
-03. Create the roam state
-04. Create the state machine
-05. Code a state sequence
-06. The roam sequence
-07. Code the charge sequence
-08. Make the boss charge
-09  Make the boss die!
-10. Using the builtin owner feature
-11. Dealing and taking damage
-12. Simpler attack and hitbox demo
-13. Boss phases
+1.  First look at the state interface
+2.  Create the spawn state
+3.  Create the roam state
+4.  Create the state machine
+5.  Code a state sequence
+6.  The roam sequence
+7.  Code the charge sequence
+8.  Make the boss charge
+    09 Make the boss die!
+9.  Using the builtin owner feature
+10. Dealing and taking damage
+11. Simpler attack and hitbox demo
+12. Boss phases
 
 ### {{< tag "hobby" >}} Chapter 5: Build levels with Tiled map editor
 
@@ -140,30 +133,30 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### {{< tag "indie" >}} Chapter 8: Learn the Game Design Workflow
 
-*The first 3 lessons are text-based*
+_The first 3 lessons are text-based_
 
-01. You are a designer
-02. A game is made of 4 elements that support a theme
-03. Dan the Rabbit: game concept example
-04. Why And How To Analyze Games
-05. Cross Code Analysis
-06. Designer Insights Emmanuel
-07. Designer Insights Fibretigre
-08. Designer Insights Ed Atomic Racoon
+1.  You are a designer
+2.  A game is made of 4 elements that support a theme
+3.  Dan the Rabbit: game concept example
+4.  Why And How To Analyze Games
+5.  Cross Code Analysis
+6.  Designer Insights Emmanuel
+7.  Designer Insights Fibretigre
+8.  Designer Insights Ed Atomic Racoon
 
 ### {{< tag "pro" >}} Chapter 9: Build an Inventory System and Item menu
 
 ![inventory screenshot](./chapter-09-inventory-demo.png)
 
-01. Project overview
-02. Item base class
-03. Create potion and sword
-04. Item database
-05. Inventory part 1
-06. Inventory part 2
-07. Debugging inventory
-08. Menu overview
-09. Items menu design
+1.  Project overview
+2.  Item base class
+3.  Create potion and sword
+4.  Item database
+5.  Inventory part 1
+6.  Inventory part 2
+7.  Debugging inventory
+8.  Menu overview
+9.  Items menu design
 10. Item button
 11. Tips centering items in containers
 12. Item button code
@@ -189,31 +182,31 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ![Shop series banner screenshot](./shop-series-banner.png)
 
-01. Shop and purse
-02. Design shop base ui
-03. Menu base script
-04. Player and merchant interaction
-05. Buy and sell menus design
-06. Opening buy and sell menus
-07. Info panel
-08. Description panel and fixes
-09. Popup design
+1.  Shop and purse
+2.  Design shop base ui
+3.  Menu base script
+4.  Player and merchant interaction
+5.  Buy and sell menus design
+6.  Opening buy and sell menus
+7.  Info panel
+8.  Description panel and fixes
+9.  Popup design
 10. Popup code
 
 ### {{< tag "indie" >}} Chapter 12: Persistence, Polish, and Project Structure
 
 This final series rounds out the techniques explored in the course with requests from the Kickstarter backers: looking at how to restructure a project as it grows in complexity, keeping persistent data and improving the game's feel with camera shake.
 
-00. Intro
-01. Project structure: 01.final folder structure
-02. Project structure: 02.demo scene structure
-03. Level loader: 01.levels and musicplayer
-04. Level loader: 02.game node
-05. Level loader: 03.final code overview
-06. Save and load: 01.save game
-07. Save and load: 02.create save file
-08. Save and load: 03.load game from json
-09. Save and load: 04.parsing vector2
+0.  Intro
+1.  Project structure: 01.final folder structure
+2.  Project structure: 02.demo scene structure
+3.  Level loader: 01.levels and musicplayer
+4.  Level loader: 02.game node
+5.  Level loader: 03.final code overview
+6.  Save and load: 01.save game
+7.  Save and load: 02.create save file
+8.  Save and load: 03.load game from json
+9.  Save and load: 04.parsing vector2
 10. Save and load: 05.saving and loading in practice
 11. Audio: 01.intro to audio
 12. Audio: 02.intro to audio buses

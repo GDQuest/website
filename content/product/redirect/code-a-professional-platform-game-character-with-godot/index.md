@@ -9,5 +9,4 @@ description = "Code a professional side view 2d game character with the Free gam
 [[resources]]
   name = "banner"
   src = "banner.png"
-
 +++
