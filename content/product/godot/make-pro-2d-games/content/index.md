@@ -1,10 +1,11 @@
 +++
+title = "Available content in the Godot Course"
 author = "nathan"
 category = "Godot"
 date = "2018-10-26"
-layout = "post"
 keywords = ["godot 3", "godot course", "video list", "course content"]
-title = "Available content in the Godot Course"
+
+toc = false
 
 [[resources]]
   name = "banner"

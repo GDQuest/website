@@ -1,4 +1,4 @@
-{{ if and (gt .WordCount 800 ) (ne .Params.toc false) }}
+{{ if and (gt .WordCount 800 ) (and (isset .Params "toc") (ne .Params.toc false)) }}
 <aside>
     <header>
         <h2>Table of contents</h2>
