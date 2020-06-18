@@ -11,7 +11,13 @@
      menuLink.nextElementSibling.classList.toggle("-folded");
  }
 
- function navTutorialMobileOpen(closeButton) {
+ // Toggles the tutorial menu, altering the overflow of <body>
+ function navTutorialMobileToggle(closeButton) {
+     if (document.body.style.overflowY === "") {
+         document.body.style.overflowY = "hidden";
+     } else {
+         document.body.style.overflowY = "";
+     }
      closeButton.previousElementSibling.classList.toggle("-open")
  }
  // Closes mobile navigation
@@ -53,4 +59,4 @@
         {{ end}}
     </ul>
 </nav>
-<button href="javascript:void(0)" class="button -navtutorial -bottom -fullwidth -mobileonly" onclick="navTutorialMobileOpen(this)"><div class="text"><i class="fa fa-bars"></i> Tutorials</div></button>
+<button href="javascript:void(0)" class="button -navtutorial -bottom -fullwidth -mobileonly" onclick="navTutorialMobileToggle(this)"><div class="text"><i class="fa fa-bars"></i> Tutorials</div></button>
