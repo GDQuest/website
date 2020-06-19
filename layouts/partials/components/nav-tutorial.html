@@ -42,7 +42,7 @@
 
             {{ $children := . }}
             {{ if .Sections }}
-            {{ $children = .Sections }}
+            {{ $children = union .Sections .RegularPages }}
             {{ else }}
             {{ $children = .RegularPages }}
             {{ end }}
