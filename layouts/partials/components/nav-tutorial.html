@@ -2,12 +2,6 @@
  var navTutorialLinks = document.getElementsByClassName("menu-link", "-section");
  // Toggles links visible in the side menu
  function navTutorialToggleSection(menuLink) {
-     for (let i = 0; i < navTutorialLinks.length; i++) {
-         if (navTutorialLinks[i].classList.contains("-active")) {
-             navTutorialLinks[i].classList.remove("-active");
-         }
-     }
-     menuLink.classList.toggle("-active");
      menuLink.nextElementSibling.classList.toggle("-folded");
  }
 
@@ -31,27 +25,22 @@
 {{ $sections = .Sections }}
 {{ end }}
 
+{{ if eq $currentPage .CurrentSection }}-active{{ end }}
 <nav class="nav-tutorial" role="navigation">
     <ul class="list">
         {{ range $sections }}
         <li>
             <div class="menu-link -section" onclick="navTutorialToggleSection(this)">
-                <a href="javascript:void(0)" {{ if or (eq $currentPage .) (eq $currentPage .CurrentSection)  }}class="-active"{{ end }} class="section">{{ .Title }}</a>
+                <a href="javascript:void(0)" class="section {{ if eq $currentPage.Parent .CurrentSection }}-active{{ end }}">{{ .Title }}</a>
 
             </div>
 
-            {{ $children := . }}
-            {{ if .Sections }}
-            {{ $children = union .Sections .RegularPages }}
-            {{ else }}
-            {{ $children = .RegularPages }}
-            {{ end }}
+            {{ $children :=  union .Sections .RegularPages  }}
             {{ if $children }}
             <ul class="-folded">
                 {{ range $children }}
                 <li>
                     <div class="menu-link">
-
                         <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
                             {{ with .Params.menuTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }} {{ if eq .Type "course" }}<span class="tag-pill -purple">video</span>{{ end }}
                         </a>
