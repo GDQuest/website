@@ -1,8 +1,8 @@
 +++
 title = "Heightmap-based procedural world map"
+menuTitle = "World map"
 description = "Learn to use noise textures to generate a procedural world map and get started with Procedural Content Generation."
 author = "razvan"
-type = "post"
 
 tags = ["godot", "tutorial"]
 keywords = ["procedural content generation", "procgen", "heightmap", "godot", "godot tutorial"]

@@ -1,12 +1,14 @@
 +++
 title = "30 Days of Godot 2 Tutorials"
+menuTitle = "30 Godot 2 tutorials"
 description = "Daily tutorials brought to you for Free, as part of the [Make Professional 2d games with Godot](//gumroad.com/l/godot-tutorial-make-professional-2d-games) Kickstarter campaign"
 date = "2017-05-27T15:25:47+02:00"
 author = "nathan"
 keywords = [ "godot game engine", "godot tutorial", "game creation tutorial", "free tutorial",]
 type = "course"
-course = "2017_30_days_godot_2_tutorials"
+
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/",]
+
 [[resources]]
 name = "banner"
 src = "banner.jpg"

@@ -2,6 +2,7 @@
 title = "Intro to Multiplayer in Godot"
 description = "In this introduction to networking in Godot, you'll see how Guilherme coded a simple 2d shooting game where two players, can create a server, connect to one another, and face one another in a deathmatch."
 
+menuTitle = "Multiplayer intro"
 author = "nathan"
 date = "2018-08-09T03:45:41.000Z"
 

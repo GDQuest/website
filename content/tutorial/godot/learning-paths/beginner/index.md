@@ -1,5 +1,6 @@
 +++
 title = "Make Games with Godot: Beginner Edition"
+menuTitle = "Beginner edition"
 description = "This learning path and free guide is a curated list of free resources to get started with game development using the Free and Open Source engine Godot"
 
 author = "razvan"

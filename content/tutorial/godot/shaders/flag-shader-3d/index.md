@@ -2,8 +2,7 @@
 title = "3D flag"
 description = "Learn to animate a flag blowing in the wind with shaders."
 author = "johnny"
-type = "post"
-godot_version = "3.2"
+godotVersion = "3.2"
 
 tags = ["godot", "tutorial"]
 keywords = ["godot shaders tutorial", "godot shaders", "flag shader", "godot 3d shaders",]
