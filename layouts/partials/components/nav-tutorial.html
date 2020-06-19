@@ -28,15 +28,16 @@
 <nav class="nav-tutorial" role="navigation">
     <ul class="list">
         {{ range $sections }}
+        {{ $isActiveSection := eq $currentPage.Parent .CurrentSection }}
         <li>
             <div class="menu-link -section" onclick="navTutorialToggleSection(this)">
-                <a href="javascript:void(0)" class="section {{ if eq $currentPage.Parent .CurrentSection }}-active{{ end }}">{{ .Title }}</a>
+                <a href="javascript:void(0)" class="section {{ if $isActiveSection }}-active{{ end }}">{{ .Title }}</a>
 
             </div>
 
             {{ $children :=  union .Sections .RegularPages  }}
             {{ if $children }}
-            <ul class="-folded">
+            <ul class="{{ if not $isActiveSection }}-folded{{ end }}">
                 {{ range $children }}
                 <li>
                     <div class="menu-link">
