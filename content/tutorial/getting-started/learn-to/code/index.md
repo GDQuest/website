@@ -7,7 +7,7 @@ aliases = [ "/tutorial/game-design/godot/become-a-game-creator/first-steps-progr
 
 [[resources]]
 name = "banner"
-src = "img/banner.png"
+src = "learn-to-code-games-banner.png"
 +++
 
 You want to get started with game creation and programming but don't know where to start? That's what this series is all about!

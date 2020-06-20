@@ -6,7 +6,7 @@ aliases = [ "/tutorial/getting-started/",]
 
 [[resources]]
 name = "banner"
-src = "banner.png"
+src = "getting-started-banner.png"
 +++
 
 You want to learn game creation, but you don't know where to start? These guides are for you. We're here to help you take your first steps with programming, design, and more.
