@@ -10,8 +10,6 @@ keywords = [ "gdscript typed", "typed gdscript", "gdscript tutorial", "godot pro
 tags = ["text"]
 aliases = ["/tutorial/game-design/godot/gdscript/typed-gdscript",]
 
-featured = true
-
 [[resources]]
 name = "banner"
 src = "img/banner.png"

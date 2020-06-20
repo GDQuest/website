@@ -6,6 +6,8 @@ description = "This learning path and free guide is a curated list of free resou
 author = "razvan"
 date = "2019-11-06T13:12:32+02:00"
 
+featured = true
+
 weight = 1
 
 aliases = [
