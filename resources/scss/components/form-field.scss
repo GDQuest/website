@@ -1,0 +1,12 @@
+.form-field {
+  margin-top: $spacing-micro;
+  margin-bottom: $spacing-micro;
+
+  .label {
+    font-weight: 500;
+  }
+
+  .field {
+    margin-left: $spacing-micro;
+  }
+}
