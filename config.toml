@@ -116,3 +116,10 @@ privacyEnhanced = true
 [caches.modules]
 dir = ":cacheDir/modules"
 maxAge = -1
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
