@@ -55,7 +55,7 @@ Come chat with the community on Discord!
       more than welcome!
     </p>
     <p class="text--center">
-      <a href="//discord.gg/KVaCsSP" class="button button--pill button--success button--full lead">Join the Discord server</a>
+      <a href="//discord.gg/KVaCsSP" class="button-link">Join the Discord server</a>
     </p>
   </div>
 </div>

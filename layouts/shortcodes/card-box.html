@@ -6,7 +6,7 @@
         {{ .Inner | markdownify }}
         {{ if .Get "url" }}
         <div class="buttons -center">
-            <a href="{{ .Get "url" }}" class="button">{{ with .Get "urlText" }}{{ . }}{{ else }}Learn more{{ end }}</a>
+            <a href="{{ .Get "url" }}" class="button-link">{{ with .Get "urlText" }}{{ . }}{{ else }}Learn more{{ end }}</a>
         </div>
         {{ end }}
     </div>

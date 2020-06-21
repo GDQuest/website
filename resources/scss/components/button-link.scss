@@ -1,13 +1,17 @@
-.button {
-  font-size: $font-size-small;
+.button-link {
   display: inline-block;
-  line-height: normal;
-
-  background-color: $color-button-background;
-  color: $color-accent-main-text;
   border-radius: 24px;
   padding: $spacing-micro $spacing-small;
+
+  line-height: normal;
+  font-size: $font-size-small;
+  font-weight: 700;
+  font-family: $font-title;
+  text-transform: uppercase;
   text-align: center;
+
+  color: $color-accent-main-text;
+  background-color: $color-button-background;
   // For <input> tags with the class button
   border: none;
 
@@ -71,7 +75,7 @@
 }
 
 @include mobile {
-  .button {
+  .button-link {
     &.-mobileonly {
       display: inline-block;
     }

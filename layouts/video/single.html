@@ -53,7 +53,7 @@
                 {{ else }}
                 <div class="flex justify-space-between align-items-center">
                     <h6>{{ .Name }}</h6>
-                    <a download href="{{ .Permalink }}" class="button">download</a>
+                    <a download href="{{ .Permalink }}" class="button-link">download</a>
                 </div>
                 {{ end }}
                 {{ if ne . (index (last 1 $res) 0) }}
