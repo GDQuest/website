@@ -2,11 +2,21 @@
   margin-top: $spacing-micro;
   margin-bottom: $spacing-micro;
 
-  .label {
+  > .label {
     font-weight: 500;
   }
 
-  .field {
+  > .field {
     margin-left: $spacing-micro;
+  }
+
+  > input {
+    padding: $spacing-micro;
+    border-radius: $round-radius;
+    border: 1px solid $base-border-color;
+  }
+
+  > label {
+    margin-right: $spacing-micro;
   }
 }
