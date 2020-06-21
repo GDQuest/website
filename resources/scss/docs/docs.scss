@@ -1,2 +1,6 @@
-// modules
-@import "./modules/chapter";
+// CSS overrides for the hugo learn theme, that we use for the /docs section of the website.
+#chapter {
+  p {
+    text-align: left;
+  }
+}
