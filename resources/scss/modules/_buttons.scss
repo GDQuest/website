@@ -31,8 +31,13 @@
     box-sizing: border-box;
   }
 
-  &.flat {
+  &.-flat {
     background: none;
+    color: $color-link;
+    box-shadow: none;
+  }
+
+  &.-textlight {
     color: $color-accent-main-text;
   }
 
@@ -62,6 +67,7 @@
   &.-mobileonly {
     display: none;
   }
+
 }
 
 @include mobile {
