@@ -267,6 +267,99 @@ a:hover .icon {
   color: $color-link-hover;
 }
 
+article {
+  margin: 0 auto;
+}
+
+article video,
+article img,
+article iframe {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+article pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: $spacing-tiny;
+}
+
+article code {
+  max-width: 100%;
+  white-space: pre-wrap;
+}
+
+article > h1,
+article > h2,
+article > h3 {
+  margin-top: $spacing-big;
+}
+
+article h2 + h3,
+article h1 + h2 {
+  margin-top: 0;
+}
+
+blockquote {
+  margin: 0;
+  border-left: 4px $color-accent-main-base solid;
+  padding: 0 20px;
+  font-style: italic;
+
+  > footer {
+    color: $color-default-text-hl;
+  }
+}
+
+summary {
+  font-weight: bold;
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+details {
+  border: solid 1px darkgray;
+  border-radius: $round-radius;
+  padding: $spacing-tiny;
+}
+
+details[open] summary ~ * {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+figure {
+  margin: 0;
+}
+
+figure > figcaption {
+  padding: 0 20px;
+  font-style: italic;
+}
+
+aside > p:first-child {
+  margin-top: 0;
+}
+
+aside > p:last-child {
+  margin-bottom: 0;
+}
+
+aside {
+  margin: 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 .icon {
   font-size: $font-size-h5;
 }

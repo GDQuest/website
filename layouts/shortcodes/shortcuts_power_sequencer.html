@@ -1,7 +1,7 @@
 {{ with index .Site.Data.blender.power_sequencer_docs }}
 <div class="big">
     {{ range $key, $value := . }}
-    <article id="{{$key}}" class="operator">
+    <article id="{{$key}}" class="blender-operator">
         <h3>{{$value.name}}</h3>
         {{ strings.TrimPrefix "*brief* " $value.description | markdownify }}
         {{ with $value.demo }}
@@ -12,7 +12,7 @@
         <!-- "shortcuts": [[{"type": "X", "value": "PRESS"}, {}, "Delete Direct"],
           [{"type": "DEL", "value": "PRESS"}, {}, "Delete Direct"]]-->
         {{ with $value.shortcuts }}
-        <table class="shortcuts">
+        <table class="keyboard-shortcuts">
             <tbody>
                 {{ range . }}
                 <tr>

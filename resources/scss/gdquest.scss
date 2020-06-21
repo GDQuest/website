@@ -1,17 +1,10 @@
 @import "variables";
-
-@import "base";
+@import "resets";
 @import "layout";
 @import "utils";
 @import "animations";
 
-@import "modules/article";
-@import "modules/blockquote";
-@import "modules/details";
-@import "modules/figure";
 @import "modules/help_blocks";
-@import "modules/shortcuts";
-@import "modules/tags_pill";
 @import "modules/toc";
 
 @import "components/blog-post";
@@ -21,7 +14,9 @@
 @import "components/header-article";
 @import "components/header-background";
 @import "components/header-home";
+@import "components/keyboard-shortcuts";
 @import "components/nav-main";
 @import "components/nav-tutorial";
 @import "components/page-list";
+@import "components/tag-pill";
 @import "components/team-members";
