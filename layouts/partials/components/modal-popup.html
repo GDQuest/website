@@ -1,0 +1,30 @@
+<script type="text/javascript">
+ // TODO: make the modal close when clicking outside of it
+ var modal = document.getElementByClassName("modal-popup")[0];
+
+ function openModalPopup(modal) {
+     modal.style.display = "flex";
+ }
+
+ function closeModalPopup(modal) {
+     modal.style.display = "none";
+ }
+
+ window.onclick = function(event) {
+     if (event.target == modal) {
+         modal.style.display = "none";
+     }
+ }
+</script>
+
+<button onclick="openModalPopup(this.nextElementSibling)">Open Modal</button>
+<div class="modal-popup">
+    <div class="content">
+        <div class="header">
+            <span class="close" onclick="closeModalPopup(this.parentNode.parentNode)" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+        </div>
+        <div class="body">
+            {{ partial "components/mailing-signup" . }}
+        </div>
+    </div>
+</div>
