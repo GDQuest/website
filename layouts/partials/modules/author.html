@@ -1,7 +1,7 @@
 {{ with .Params.author }}
 {{ with (index $.Site.Data.authors . ) }}
 <section>
-    <div class="card darkbg margin-none flex horizontal profile">
+    <div class="card-box darkbg margin-none flex horizontal -profile">
         <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
 
         <div class="padding-small content">

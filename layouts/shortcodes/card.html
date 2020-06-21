@@ -3,14 +3,14 @@
         {{ if .Get "img" }}
         <div class="image"><img src="{{ .Get "img" }}" alt="{{ with .Get "alt" }}{{ . }}{{ else }}Featured picture{{ end }}"></div>{{ end }}
         {{ with .Get "title" }}
-        <h3 class="card-title">{{ . }}</h3>{{ end }}
+        <h3 class="title">{{ . }}</h3>{{ end }}
         {{ with .Get "content" }}
         <div class="content">
             <p>{{ . | markdownify }}</p>
         </div>{{ end }}
 
         {{ if .Get "link" }}
-        <div class="card-footer -center">
+        <div class="card-box-footer -center">
             <a href="{{ .Get "link" }}">{{ with .Get "link_text" }}{{ . }}{{ else }}Link{{ end }}</a>
         </div>
         {{ end }}

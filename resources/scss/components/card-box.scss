@@ -1,31 +1,19 @@
-@mixin card-outline {
-  border: 1px solid $base-border-color;
-}
-
-@mixin padding-h-card {
-  padding-left: $spacing-tiny;
-  padding-right: $spacing-tiny;
-}
-
 @mixin card-middle {
   border-top: none;
   border-radius: 0;
 }
 
-.card {
+.card-box {
   overflow: auto;
   border-radius: $round-radius;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   height: 100%;
+  border: 1px solid $base-border-color;
 
   position: relative;
   overflow: hidden;
 
   @include bg-centered;
-
-  &.outline {
-    @include card-outline;
-  }
 
   img {
     width: 100%;
@@ -39,35 +27,33 @@
     }
   }
 
-  &-small {
-    img {
-      height: 190px;
+  &.-small img {
+    height: 190px;
 
-      @include tablet {
-        height: 100%;
-      }
+    @include tablet {
+      height: 100%;
     }
   }
 
-  & > .content {
+  > .content {
     padding: $spacing-tiny;
     z-index: 2;
     position: relative;
     overflow: auto;
   }
 
-  .title {
-    margin-top: 0px;
+  &.-profile > .content {
+    flex: 2;
   }
 
-  &.profile .avatar {
+  > .avatar {
     background-position: center;
     background-size: cover;
     flex: 0.7;
   }
 
-  &.profile > .content {
-    flex: 2;
+  > .title {
+    margin-top: 0px;
   }
 
   .buttons {
@@ -75,19 +61,19 @@
     margin-top: $spacing-base;
   }
 
-  &.top-half {
+  &.-tophalf {
     border-bottom: none;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
 
-  &.bottom-half {
+  &.-bottomhalf {
     border-top: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
 
-  &.middle {
+  &.-middle {
     @include card-middle;
   }
 }
@@ -95,8 +81,8 @@
 // pseudo card mode for the course chapters section
 @include tablet {
   aside.chapters {
-    @include card-outline;
     @include card-middle;
-    @include padding-h-card;
+    padding-left: $spacing-tiny;
+    padding-right: $spacing-tiny;
   }
 }

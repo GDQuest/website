@@ -5,30 +5,23 @@
 @import "utils";
 @import "animations";
 
-// modules
-@import "modules/card";
-@import "modules/buttons";
-
 @import "modules/article";
 @import "modules/blockquote";
+@import "modules/buttons";
 @import "modules/details";
 @import "modules/figure";
 @import "modules/help_blocks";
-@import "modules/tags_pill";
-
 @import "modules/shortcuts";
+@import "modules/tags_pill";
 @import "modules/toc";
 
 @import "components/blog-post";
-
-@import "components/header-home";
-@import "components/header-background";
+@import "components/card-box";
+@import "components/form-field";
 @import "components/header-article";
-
+@import "components/header-background";
+@import "components/header-home";
 @import "components/nav-main";
 @import "components/nav-tutorial";
-
-@import "components/team-members";
-
 @import "components/page-list";
-@import "components/form-field";
+@import "components/team-members";

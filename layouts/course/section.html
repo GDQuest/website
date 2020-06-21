@@ -6,7 +6,7 @@
     </div>
     {{ with (.Resources.GetMatch "banner") }}
     <div class="big flex direction-col-reverse">
-        <img src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card outline top-half">
+        <img src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card-box -tophalf">
     </div>
     {{ end }}
 </div>
@@ -24,7 +24,7 @@
         </ul>
     </nav>
 
-    <div class="big card bottom-half outline padding-v-base">
+    <div class="big card-box -bottomhalf padding-v-base">
         <div class="padding-tiny">
             {{ .Content }}
         </div>

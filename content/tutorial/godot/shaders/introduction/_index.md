@@ -1,5 +1,5 @@
 +++
-title = "Getting started with Shaders in Godot"
+title = "Godot shaders: Getting Started"
 menuTitle = "Getting started"
 description = "Learn to code shaders from scratch in Godot"
 author = "nathan"
