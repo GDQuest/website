@@ -22,13 +22,14 @@ May has been a busy month. I did my best to keep up with everyone on social netw
 
 Actually, I'm still catching up with work, since I got that shoulder injury. Thankfully, I got faster in some areas, especially answering people online, thus I'm making good progress. On to the news!
 
-{{< card
+{{< card-box
   img="/img/post/2016/05/krita-logo.png"
   title="Krita 3 launch Youtube livestream"
-  content="Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDQuest, and game art in general. I will also create 2D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM <abbr title=\"Central Europe Standard Time (UTC/GMT +2)\">CEST</abbr>"
-  link="//www.youtube.com/watch?v=hlcHDRc-gN8"
-  link_text="Youtube Livestream"
+  url="//www.youtube.com/watch?v=hlcHDRc-gN8"
+  urlText="Youtube Livestream"
   >}}
+"Krita 3 is out tomorrow! I will be live on YouTube to answer all of your questions about the program, GDQuest, and game art in general. I will also create 2D game assets to fill in the blanks. To join the event, click on the link below and show up tomorrow, at 6 PM <abbr title=\"Central Europe Standard Time (UTC/GMT +2)\>CEST</abbr>
+{{< /card-box >}}
 
 ## Krita brushes May update
 

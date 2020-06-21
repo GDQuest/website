@@ -1,0 +1,14 @@
+<div class="card-box">
+    {{ if .Get "img" }}<img src="{{ .Get "img" }}" alt="{{ with .Get "alt" }}{{ . }}{{ else }}Featured picture{{ end }}">{{ end }}
+
+    <div class="content">
+        {{ with .Get "title" }}<h4 class="title" >{{ . }}</h4>{{ end }}
+        {{ .Inner | markdownify }}
+        {{ if .Get "url" }}
+        <div class="buttons -center">
+            <a href="{{ .Get "url" }}" class="button">{{ with .Get "urlText" }}{{ . }}{{ else }}Learn more{{ end }}</a>
+        </div>
+        {{ end }}
+    </div>
+
+</div>

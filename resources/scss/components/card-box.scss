@@ -40,6 +40,11 @@
     z-index: 2;
     position: relative;
     overflow: auto;
+
+    > .title {
+      margin: 0;
+      font-weight: 800;
+    }
   }
 
   &.-profile > .content {
@@ -52,13 +57,13 @@
     flex: 0.7;
   }
 
-  > .title {
-    margin-top: 0px;
-  }
-
   .buttons {
     text-align: right;
     margin-top: $spacing-base;
+
+    &.-center {
+      text-align: center;
+    }
   }
 
   &.-tophalf {
