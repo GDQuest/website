@@ -1,5 +1,5 @@
 +++
-title = "Start Here"
+title = "Get Started"
 description = "Get started with game creation and Godot"
 author = "nathan"
 
