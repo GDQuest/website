@@ -3,7 +3,7 @@
 <div class="header-article grid split2 padding-v-small content">
     <div class="big">
         <i data-font="dimmed">{{ .Parent.Parent.Title }}</i> / {{ .CurrentSection.Title }}
-        <h1 class="margin-none">{{ .Title }}</h1>
+        <h1 class="_unmargin">{{ .Title }}</h1>
         {{ with .Params.author }}
         {{ with (index $.Site.Data.authors . ) }}
         <p>by: {{ .name }}</p>

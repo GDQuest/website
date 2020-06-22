@@ -2,7 +2,7 @@
 <div class="header-background"></div>
 <div class="grid split2 content">
     <div class="small padding-v-small">
-        <h1 class="margin-none">{{.Title}}</h1>
+        <h1 class="_unmargin">{{.Title}}</h1>
     </div>
     {{ with (.Resources.GetMatch "banner") }}
     <div class="big flex direction-col-reverse">
@@ -16,10 +16,10 @@
 {{ define "main" }}
 <section class="grid split2 container">
     <nav class="small padding-v-base chapters">
-        <h3>chapters</h3>
+        <h3>Chapters</h3>
         <ul>
             {{ range ( where .Sections "Type" "course_chapter" ) }}
-            <li><a href="#{{ replace .Params.title " " "-" }}"> {{ .Params.title }} </a></li>
+            <li><a href="#{{ replace .Params.title " " "-" }}">{{ .Params.title }}</a></li>
             {{ end }}
         </ul>
     </nav>
@@ -36,9 +36,9 @@
 
             <!-- Video list -->
             <ol class="collection">
-              {{ range ( where .Pages "Type" "course_chapter" ) }}
-                <h2 id="{{ replace .Params.title " " "-" }}" class="margin-none"> {{ .Params.title }} </h2>
-                {{ range (sort ( where .RegularPages "Type" "video" ) "Date") }}
+              {{ range ( where .Sections "Type" "course_chapter" ) }}
+                <h2 id="{{ replace .Params.title " " "-" }}" class="_unmargin"> {{ .Params.title }} </h2>
+                {{ range ( where .RegularPages "Type" "video" ).ByDate }}
                 <li class="item">
                     {{ if (isset .Params "videoid") }}
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -64,30 +64,19 @@
     </div>
 </section>
 
-
-{{ $related := slice }}
-{{ range where .Site.RegularPages "Section" "product" }}
-  {{ if .Resources.Match "banner" }}
-    {{ $related = $related | append . }}
-  {{ end }}
-{{ end }}
 <section id="related" class="container padding-v-base">
-    <h2>related products</h2>
+    <h2>Related products</h2>
     <div class="grid split2 list">
-        {{ range first 2 $related }}
+        {{ range first 2 (where .Site.RegularPages "Section" "product") }}
         {{ .Render "summary" }}
         {{ end }}
     </div>
 
     <div data-font="centered" class="padding-top-base">
-        <a href="/product" class="button-link">view all</a>
+        <a href="/product" class="button-link">View all</a>
+    </div>
+    <div class="margin-top-base">
+        {{ partial "modules/author" . }}
     </div>
 </section>
-
-
-{{ with .Params.author }}
-{{ with (index $.Site.Data.authors . ) }}
-    {{ partial "modules/author" . }}
-{{ end }}
-{{ end }}
 {{ end }}
