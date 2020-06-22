@@ -20,9 +20,9 @@
 {{ $course_page = .CurrentSection.Parent }}
 {{ end }}
 <div class="container flex">
-    {{ partialCached "components/nav-tutorial" . .CurrentSection }}
+    {{ partial "components/nav-tutorial" . }}
 
-    <article class="padding-v-base big">
+    <article class="blog-post padding-v-base big">
         {{ partial "components/banner-image" . }}
 
         {{ with .Params.videoid }}
@@ -30,15 +30,8 @@
         {{ end }}
 
         <div class="margin-bottom-big margin-top-base">
-            {{ with .Description }}
-            {{ . }}
-            {{ end }}
-
-            {{ with .Content }}
-            <div class="margin-top-big">
-                {{ . }}
-            </div>
-            {{ end }}
+            <p>{{ .Description }}</p>
+            {{ .Content }}
 
             {{ with .Resources }}
             <section id="resources" class="margin-v-base">
