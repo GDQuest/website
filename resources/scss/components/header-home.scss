@@ -41,9 +41,9 @@ $color-purple: #7e3ab791;
     max-width: 60%;
     margin: auto;
 
-    > .button {
+    > a {
       text-shadow: none;
-      box-shadow: $base-hover-shadow;
+      box-shadow: $shadow-small;
     }
   }
 
