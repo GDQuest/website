@@ -7,3 +7,14 @@
     opacity: 1;
   }
 }
+
+@keyframes scroll-down {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

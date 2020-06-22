@@ -1,6 +1,6 @@
 // Popup used for modal email signup
 .modal-popup {
-  display: none;
+  display: flex;
   z-index: 100;
 
   position: fixed;
@@ -12,12 +12,20 @@
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
 
+  &.-hidden {
+    display: none;
+  }
+
   > .content {
     position: relative;
     margin: auto;
     min-width: 640px;
     border-radius: $round-radius;
-    background: white;
+    background: $color-default-base;
+    box-shadow: $shadow-large;
+
+    animation-name: scroll-down;
+    animation-duration: 0.5s;
   }
 
   > .content > .header {
@@ -26,7 +34,7 @@
     border-top-right-radius: $round-radius;
     min-height: 60px;
 
-    color: white;
+    color: $color-default-base;
 
     background: #a73ff2;
   }
@@ -39,13 +47,13 @@
     position: absolute;
     right: 1rem;
     top: .5rem;
-    color: white;
+    color: $color-default-base;
     font-size: $font-size-h2;
     font-weight: 800;
 
     &:hover,
     &:focus {
-      color: $color-link-hover;
+      color: $color-gdquest-yellow;
       text-decoration: none;
       cursor: pointer;
     }
