@@ -1,5 +1,6 @@
 +++
 title = "Introduction to GDScript"
+menuTitle = "Getting Started"
 author = "nathan"
 date = "2020-06-22"
 weight = 1
