@@ -5,4 +5,6 @@ redirect = "//gdquest.mavenseed.com/"
 title = "GDQuest game creation courses on Mavenseed"
 type = "redirect"
 
+hidden = true
+
 +++

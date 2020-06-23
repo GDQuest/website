@@ -5,11 +5,10 @@
 {{ define "main" }}
 <section class="grid split2 container padding-v-base list">
     {{ range .Pages }}
-
-    {{ if (.Resources.Match "banner") }}
-      <div>
-        {{ .Render "summary" }}
-      </div>
+    {{ if not .Params.hidden }}
+    <div>
+      {{ .Render "summary" }}
+    </div>
     {{ end }}
     {{ end }}
 </section>
