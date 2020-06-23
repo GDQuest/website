@@ -30,7 +30,12 @@
         {{ range $sections }}
         {{ $isActiveSection := eq $currentPage.Parent .CurrentSection }}
         <li>
-            <div class="menu-link -section" onclick="navTutorialToggleSection(this)">
+            <div class="menu-link -section" style="justify-content: start" onclick="navTutorialToggleSection(this)">
+                {{ with .Params.icon }}
+                <svg class="menu-icon">
+                    <use xlink:href="/img/icons/menu-icons.svg#{{ . }}" />
+                </svg>
+                {{ end }}
                 <a href="javascript:void(0)" class="section {{ if $isActiveSection }}-active{{ end }}">{{ .Title }}</a>
             </div>
 
@@ -39,7 +44,7 @@
             <ul class="{{ if not $isActiveSection }}-folded{{ end }}">
                 {{ range $children.ByDate }}
                 <li>
-                    <div class="menu-link">
+                    <div class="menu-link -child1">
                         <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
                             {{ with .Params.menuTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
                         </a>

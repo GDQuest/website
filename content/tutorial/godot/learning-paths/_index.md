@@ -4,6 +4,7 @@ description = "Learn Godot with excellent, curated free resources made by the co
 date = 2019-12-09T14:18:14+02:00
 weight = 1
 aliases = [ "/tutorial/godot/learning-paths/",]
+icon = "paths"
 
 type = "_default"
 

@@ -1,4 +1,7 @@
 // Side-bar (desktop) or full-screen menu (mobile) to navigate tutorials and video series. Used in the nav-tutorial partial
+
+$icon-width: 48px;
+
 .nav-tutorial {
   width: 300px;
   padding: $spacing-small;
@@ -33,6 +36,10 @@
     font-weight: 800;
   }
 
+  &.-child1 {
+    padding-left: $icon-width;
+  }
+
   > a {
     display: block;
     padding: 16px 0;
@@ -42,9 +49,17 @@
     }
 
     &.-tutorial {
-      padding: 8px;
+      padding: 8px 0;
     }
   }
+}
+
+.menu-icon {
+  fill: #282728;
+  width: $icon-width;
+  height: $icon-width;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 @include mobile {
