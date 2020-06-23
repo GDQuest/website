@@ -25,7 +25,9 @@
 }
 
 .menu-link {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   &.-section {
     font-weight: 800;

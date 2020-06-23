@@ -41,9 +41,9 @@
                 <li>
                     <div class="menu-link">
                         <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
-                            {{ with .Params.menuTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }} {{ if or (eq .Type "course") (eq .Type "video") }}<span class="tag-pill -purple">video</span>{{ end }}
+                            {{ with .Params.menuTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
                         </a>
-
+                        {{ if or (eq .Type "course") (eq .Type "video") }}<span class="tag-pill -purple">video</span>{{ end }}
                     </div>
                 </li>
                 {{ end}}

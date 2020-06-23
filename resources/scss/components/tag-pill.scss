@@ -4,6 +4,10 @@
   padding: 0 $spacing-micro;
   border-radius: $round-radius;
 
+  max-height: 1.4em;
+  margin-top: auto;
+  margin-bottom: auto;
+
   font-size: 0.9em;
   font-weight: 500;
 
@@ -22,5 +26,9 @@
 
   &.-purple {
     background: $color-gdquest-purple;
+  }
+
+  &.-floatright {
+    float: right;
   }
 }
