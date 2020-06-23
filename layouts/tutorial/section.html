@@ -6,12 +6,10 @@
 <div class="container flex">
     {{ if not (isset .Params "remove_menu") }}
     {{ partial "components/nav-tutorial" .CurrentSection }}
-    <section class="padding-v-base">
-        <article>
-            {{ partialCached "components/banner-image" . .CurrentSection }}
-            {{.Content}}
-        </article>
-    </section>
+    <article class="blog-post padding-v-base">
+        {{ partialCached "components/banner-image" . .CurrentSection }}
+        {{.Content}}
+    </article>
     {{ else }}
     <section class="container padding-v-base">
         <div class="grid split2">
