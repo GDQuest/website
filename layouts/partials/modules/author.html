@@ -1,10 +1,10 @@
 {{ with .Params.author }}
 {{ with (index $.Site.Data.authors . ) }}
-<div class="card-box darkbg _unmargin flex horizontal -profile">
+<div class="card-box -dark _unmargin flex horizontal -profile">
     <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
 
-    <div class="padding-small content">
-        <h3 class="_unmargin" data-font="ultrabold capitalize">{{ .name }}</h3>
+    <div class="content">
+        <h3 class="title _unmargin" data-font="ultrabold capitalize">{{ .name }}</h3>
 
         {{ with .social }}
         <div class="social-links">

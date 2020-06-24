@@ -4,34 +4,52 @@
   border-radius: 0;
 }
 
+.card-image {
+  width: 100%;
+  object-fit: cover;
+  height: 290px;
+  position: relative;
+  z-index: 1;
+
+  @include tablet {
+    height: 100%;
+  }
+
+  &.-small {
+    height: 190px;
+  }
+
+  &.-contain {
+    object-fit: contain;
+  }
+}
+
 .card-box {
   overflow: auto;
   border-radius: $round-radius;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   height: 100%;
   border: 1px solid $base-border-color;
+  background-color: $color-default-base;
+  color: $color-default-text;
 
   overflow: hidden;
-
   @include bg-centered;
 
-  img {
-    width: 100%;
-    object-fit: cover;
-    height: 290px;
-    position: relative;
-    z-index: 1;
-
-    @include tablet {
-      height: 100%;
-    }
+  &.-dark {
+    background-color: $color-dark-base;
+    color: $color-dark-text;
   }
 
-  &.-small img {
-    height: 190px;
+  &.-dark > .content > .title {
+    color: $color-dark-text-hl;
+  }
 
-    @include tablet {
-      height: 100%;
+  &.-dark .social-links > a {
+    color: $color-dark-text;
+
+    &:hover {
+      color: $color-link-hover;
     }
   }
 
