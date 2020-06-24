@@ -65,6 +65,10 @@
     }
   }
 
+  > .content.-darkbg {
+    background-color: $color-dark-base;
+  }
+
   &.-profile > .content {
     flex: 2;
   }
