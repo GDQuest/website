@@ -5,11 +5,13 @@ import config as cfg
 
 
 def sanitize_title(title):
-    return re.sub(
-        r"[-:,/?]|(\[.*\])|(\(.*\))",
+    string = title.lower().replace(" ", "-").replace(".", "-")
+    string = re.sub(
+        r"[_:,/?]|(\[.*\])|(\(.*\))",
         "",
-        title.lower().replace(" ", "_").replace(".", "_"),
+        string,
     )
+    return re.sub(r"-+", "-", string, flags=re.DOTALL)
 
 
 def get_base_path(args, playlist):
