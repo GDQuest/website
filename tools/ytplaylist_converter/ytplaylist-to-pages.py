@@ -115,7 +115,7 @@ def main():
                 config.FRONTMATTER["video"].format(
                     date=snippet.publishedAt,
                     title=snippet.title,
-                    description=snippet.description,
+                    description=snippet.description.split('\n', 1)[0],
                     weight=snippet.position,
                     video_id=snippet.resourceId.videoId,
                     video_duration=video.contentDetails.get_video_seconds_duration(),
