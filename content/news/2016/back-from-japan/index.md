@@ -48,17 +48,15 @@ And hopefully we'll find some time to do a few collabs with other artists. We go
 Come chat with the community on Discord!
 ---------------------
 
-<div class="card-box clearfix">
-  <div class="card-content">
-    <p>I’ve opened a server on Discord for everyone in the community to join and talk about game creation with open source programs.
-      Whether you just want to drop by and say hi, showcase your artwork or share your knowledge about Krita and Godot, you’re
-      more than welcome!
-    </p>
-    <p class="text--center">
-      <a href="//discord.gg/KVaCsSP" class="button-link">Join the Discord server</a>
-    </p>
-  </div>
-</div>
+{{< card-box 
+    img="/tutorial/godot/learning-paths/beginner/banner.jpg"
+    title="I am new to programming" 
+    url="//discord.gg/KVaCsSP" 
+    urlText="Join the Discord server" >}}
+I’ve opened a server on Discord for everyone in the community to join and talk about game creation with open source programs.
+Whether you just want to drop by and say hi, showcase your artwork or share your knowledge about Krita and Godot, you’re
+more than welcome!
+{{< /card-box >}}
 
 Sara Tepes
 ----------
