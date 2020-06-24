@@ -41,7 +41,7 @@
                 {{ if eq .ResourceType "image" }}
                 <h6>{{ .Name }}</h6>
                 <a download href="{{ .Permalink }}">
-                    <img src="{{ .Permalink }}" alt="{{ .Name }}">
+                    <img loading="lazy" src="{{ .Permalink }}" alt="{{ .Name }}">
                 </a>
                 {{ else }}
                 <div class="flex justify-space-between align-items-center">

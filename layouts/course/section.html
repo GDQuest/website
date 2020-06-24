@@ -6,7 +6,7 @@
     </div>
     {{ with (.Resources.GetMatch "banner") }}
     <div class="big flex direction-col-reverse">
-        <img src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card-box -tophalf">
+        <img loading="lazy" src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card-box -tophalf">
     </div>
     {{ end }}
 </div>

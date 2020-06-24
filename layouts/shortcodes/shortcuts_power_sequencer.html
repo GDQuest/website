@@ -5,7 +5,7 @@
         <h3>{{$value.name}}</h3>
         {{ strings.TrimPrefix "*brief* " $value.description | markdownify }}
         {{ with $value.demo }}
-        <p><img src="{{.}}" alt=""></p>
+        <p><img loading="lazy" src="{{.}}" alt=""></p>
         {{ end }}
 
         <!-- Shortcut JSON example: -->
