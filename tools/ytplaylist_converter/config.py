@@ -16,21 +16,14 @@ _SERIES = '''
 +++
 author = "nathan"
 title = "{title}"
-description = """
-{description}
-"""
+description = "{description}"
 date = "{date}"
 
-keywords = ["ENTER KEYWORDS"]
+difficulty = "beginner"
 
-tags = [
-    "free",
-    "training"
-]
+keywords = []
 
 type = "course"
-
-banner = {{ src = "banner.png" }}
 
 [[resources]]"
 src = "banner.png"
@@ -44,8 +37,8 @@ playlistId = "{playlist_id}"
 _CHAPTER = """
 +++
 author = "nathan"
-title = "ENTER TITLE"
-description = "ENTER DESCRIPTION"
+title = "Title"
+description = ""
 
 type = "course_chapter"
 
@@ -59,9 +52,7 @@ _VIDEO = '''
 author = "nathan"
 date = "{date}"
 title = "{title}"
-description = """
-{description}
-"""
+description = "{description}"
 weight = {weight}
 
 type = "video"
