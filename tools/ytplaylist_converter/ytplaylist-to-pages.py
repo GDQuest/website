@@ -15,8 +15,8 @@ import utils
 def generate_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "playlists",
-        nargs="+",
+        "playlist",
+        type=str,
         help="The playlist ID you wish to convert the videos from",
     )
     parser.add_argument(
@@ -63,7 +63,7 @@ def main():
             "When using --path, you should specify a folder structure"
             " using --folders. Use -h for help"
         )
-    elif args.folders is not None and len(args.playlists) != 1:
+    elif args.folders is not None and len(args.playlist) != 1:
         parser.error(
             "When using --folders, multiple playlists aren't allowed."
             " Use -h for help"
@@ -71,7 +71,7 @@ def main():
 
     api = pyyoutube.Api(api_key=config.YT_API_KEY)
     playlists = api.get_playlist_by_id(
-        playlist_id=args.playlists, parts=["snippet"]
+        playlist_id=args.playlist, parts=["snippet"]
     ).items
 
     paths = map(lambda playlist: utils.get_base_path(args, playlist), playlists)
@@ -83,7 +83,7 @@ def main():
                 description=args.description
                 or playlist.snippet.description.split("\n")[0],
                 title=args.title or playlist.snippet.title,
-                playlist_id=args.playlists,
+                playlist_id=args.playlist,
             )
             f.write(frontmatter)
 
@@ -93,7 +93,7 @@ def main():
             f.write(config.FRONTMATTER["chapter"])
 
         playlist_items = api.get_playlist_items(
-            playlist_id=args.playlists, parts=["snippet"], count=None
+            playlist_id=args.playlist, parts=["snippet"], count=None
         ).items
 
         snippets = [playlist.snippet for playlist in playlist_items]
