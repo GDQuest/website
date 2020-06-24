@@ -25,7 +25,7 @@ keywords = []
 
 type = "course"
 
-[[resources]]"
+[[resources]]
 src = "banner.png"
 name = "banner"
 
