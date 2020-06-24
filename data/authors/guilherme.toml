@@ -1,0 +1,12 @@
+name = "Guilherme Oliveira"
+user = "guilherme"
+picture = "img/avatar/guilherme.jpg"
+role = "Developer"
+description = "Web engineer and game developer."
+
+website = "//www.udemy.com/course/godotcourse/"
+
+[social.twitter]
+url = "//twitter.com/datOliveira"
+icon = "twitter"
+name = "Twitter"
