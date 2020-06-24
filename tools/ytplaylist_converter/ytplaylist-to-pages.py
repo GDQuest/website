@@ -7,9 +7,9 @@ import argparse
 import os
 from itertools import chain, groupby
 
-import config as cfg
-import pyyoutube as yt
-import utils as u
+import config
+import pyyoutube
+import utils
 
 
 def generate_parser():
@@ -69,16 +69,16 @@ def main():
             " Use -h for help"
         )
 
-    api = yt.Api(api_key=cfg.YT_API_KEY)
+    api = pyyoutube.Api(api_key=config.YT_API_KEY)
     playlists = api.get_playlist_by_id(
         playlist_id=args.playlists, parts=["snippet"]
     ).items
 
-    paths = map(lambda playlist: u.get_base_path(args, playlist), playlists)
+    paths = map(lambda playlist: utils.get_base_path(args, playlist), playlists)
     for playlist, path in zip(playlists, paths):
         os.makedirs(path, exist_ok=args.force)
-        with open(os.path.join(path, cfg.INDEX), "w") as f:
-            frontmatter = cfg.FRONTMATTER["series"].format(
+        with open(os.path.join(path, config.INDEX), "w") as f:
+            frontmatter = config.FRONTMATTER["series"].format(
                 date=playlist.snippet.publishedAt,
                 description=args.description
                 or playlist.snippet.description.split("\n")[0],
@@ -87,10 +87,10 @@ def main():
             )
             f.write(frontmatter)
 
-        path_chapter = os.path.join(path, cfg.DIR_CHAPTER)
+        path_chapter = os.path.join(path, config.DIR_CHAPTER)
         os.makedirs(path_chapter, exist_ok=args.force)
-        with open(os.path.join(path_chapter, cfg.INDEX), "w") as f:
-            f.write(cfg.FRONTMATTER["chapter"])
+        with open(os.path.join(path_chapter, config.INDEX), "w") as f:
+            f.write(config.FRONTMATTER["chapter"])
 
         playlist_items = api.get_playlist_items(
             playlist_id=args.playlists, parts=["snippet"], count=None
@@ -98,7 +98,7 @@ def main():
 
         snippets = [playlist.snippet for playlist in playlist_items]
         snippets_grouped = groupby(
-            enumerate(snippets), lambda ix: ix[0] // cfg.YT_MAX_RESULTS
+            enumerate(snippets), lambda ix: ix[0] // config.YT_MAX_RESULTS
         )
 
         videos = [
@@ -112,7 +112,7 @@ def main():
         snippet_frontmatter = [
             (
                 snippet,
-                cfg.FRONTMATTER["video"].format(
+                config.FRONTMATTER["video"].format(
                     date=snippet.publishedAt,
                     title=snippet.title,
                     description=snippet.description,
@@ -126,7 +126,7 @@ def main():
         for snippet, frontmatter in snippet_frontmatter:
             path = os.path.join(
                 path_chapter,
-                "{}_{}.md".format(snippet.position, u.sanitize_title(snippet.title)),
+                "{}_{}.md".format(snippet.position, utils.sanitize_title(snippet.title)),
             )
             with open(path, "w",) as f:
                 f.write(frontmatter)
@@ -141,7 +141,7 @@ if __name__ == "__main__":
                 error.strerror, error.filename
             )
         )
-    except yt.error.PyYouTubeException as error:
+    except pyyoutube.error.PyYouTubeException as error:
         print(
             "[error](code {}): {}".format(
                 error.status_code, error.response.json()["error"]["errors"]
