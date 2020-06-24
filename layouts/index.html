@@ -15,7 +15,7 @@
 
 {{ define "main" }}
 <section class="container margin-v-base">
-    <h4>latest news</h4>
+    <h3 data-font="centered">latest news</h3>
     <div class="grid split2 list">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         {{ .Render "summary" }}
@@ -26,58 +26,48 @@
     </div>
 </section>
 
-<section class="container margin-v-base">
-    <h4>Latest courses</h4>
-    <div class="grid split2 list">
-        {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
-        {{ .Render "summary" }}
-        {{ end }}
-    </div>
-    <div data-font="centered" class="margin-top-base">
-        <a href="/tutorial" class="button-link">view all</a>
-    </div>
-</section>
-
 <section class="margin-v-base darkbg">
     <div class="container padding-v-base">
-        <h3 data-font="centered" class="_unmargin">Watch hundreds of free tutorials</h3>
+        <h3 data-font="centered">Watch hundreds of free tutorials</h3>
+        <div class="grid split2 list">
+            {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
+        <div data-font="centered" class="margin-top-base">
+            <a href="/tutorial" class="button-link -textlight">view all</a>
+        </div>
     </div>
 </section>
 
 <section>
     <div class="container">
-        <h3 data-font="centered" class="_unmargin">Work with the most advanced Free Software</h3>
+        <h3 data-font="centered">Work with the most advanced Free Software</h3>
         <div class="grid split3 margin-v-base" data-font="centered">
-            <div class="card-box">
-                <div class="content" style="background-color: #272b30;">
-                    <img src="/img/home/godot_logo.png" alt="godot logo" style="width: auto;" width="140px" height="140px">
-                </div>
+            <div class="card-box -small">
                 <div class="content">
-                    <h5>Godot</h5>
+                    <img class="card-image -small -contain" src="/img/home/godot_logo.png" alt="godot logo">
+                    <h4>Godot</h4>
                     <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
                     <div data-font="centered">
                         <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button-link">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="card-box">
-                <div class="content" style="background-color: #272b30;">
-                    <img src="/img/home/krita_logo.png" alt="krita logo" style="width: auto;" width="140px" height="140px">
-                </div>
+            <div class="card-box -small">
                 <div class="content">
-                    <h5>Krita</h5>
+                    <img class="card-image -small -contain" src="/img/home/krita_logo.png" alt="krita logo">
+                    <h4>Krita</h4>
                     <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
                     <div data-font="centered">
-                        <a href="https://www.youtube.com/watch?v=ZbnQn6h5q0g" class="button-link">Learn more</a>
+                        <a href="https://www.youtube.com/watch?v=ZbnQn6h4q0g" class="button-link">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="card-box">
-                <div class="content" style="background-color: #272b30;">
-                    <img src="/img/home/blender_logo.png" alt="blender logo" style="width: auto;" width="140px" height="140px">
-                </div>
+            <div class="card-box -small">
                 <div class="content">
-                    <h5>blender</h5>
+                    <img class="card-image -small -contain" src="/img/home/blender_logo.png" alt="blender logo">
+                    <h4>blender</h4>
                     <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
                     <div data-font="centered">
                         <a href="https://blender.org/" class="button-link">Learn more</a>
