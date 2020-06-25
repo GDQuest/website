@@ -4,7 +4,7 @@
     {{ .Content }}
     <div class="flex flex-horizontal">
         <div class="card-box">
-            {{ partial "components/mailing-signup" . }}
+            {{ partialCached "components/mailing-signup" . }}
         </div>
         <div class="margin-top-base">
             {{ partial "modules/author" . }}

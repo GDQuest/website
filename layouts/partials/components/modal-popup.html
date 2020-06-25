@@ -14,7 +14,7 @@
             <span class="close" onclick="closeModalPopup(this.parentNode.parentNode.parentNode)" aria-label="Close"><span aria-hidden="true">&times;</span></span>
         </div>
         <div class="body">
-            {{ partial "components/mailing-signup" . }}
+            {{ partialCached "components/mailing-signup" . }}
         </div>
     </div>
 </div>
