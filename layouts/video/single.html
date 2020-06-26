@@ -3,7 +3,6 @@
 <div class="header-article padding-v-small">
     <div class="content-grid">
         <div class="item -span4">
-            {{ partialCached "components/tutorial-breadcrumbs" . .CurrentSection }}
             <h1 class="_unmargin">{{ .Title }}</h1>
             {{ with .Params.author }}
             {{ with (index $.Site.Data.authors . ) }}
