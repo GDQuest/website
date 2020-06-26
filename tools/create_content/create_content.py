@@ -2,6 +2,7 @@
 """Creates a new content page."""
 
 import argparse
+import datetime
 import os
 import re
 from os.path import join
@@ -9,15 +10,52 @@ from os.path import join
 SECTIONS_SUPPORTED = ["tutorial", "news", "tools", "product"]
 AUTHORS = ["nathan", "razvan", "henrique", "johnny", "razoric"]
 
-def title_to_dirname(text: str) -> str:
-    string = text.lower().replace(" ", "-").replace(".", "-")
-    string = re.sub(
-        r"[_:,/?]|(\[.*\])|(\(.*\))",
-        "",
-        string,
-    )
-    return re.sub(r"-+", "-", string, flags=re.DOTALL)
+KINDS = ["course_chapter", "course", "video"]
 
+# Front matter
+FRONT_MATTER_COMMON: dict = {
+    "author": "nathan",
+    "date": datetime.date.today(),
+    "description": "",
+    "title": "",
+    "weight": "5",
+    "keywords": [],
+    "tags": [],
+}
+FRONT_MATTER_TUTORIAL: dict = dict(
+    FRONT_MATTER_COMMON,
+    {"difficulty": "beginner", "resources": {"src": "banner.png", "name": "banner"},},
+)
+FRONT_MATTER_VIDEO: dict = dict(
+    FRONT_MATTER_COMMON, {"videoId": "", "videoDuration": ""}
+)
+FRONT_MATTER_REDIRECT: dict = {
+    "date": datetime.date.today(),
+    "description": "",
+    "title": "",
+    "weight": "5",
+    "redirect": "",
+    "type": "redirect",
+    "tags": [],
+}
+
+front_matter_template = {
+    "news": FRONT_MATTER_COMMON,
+    "tutorial": FRONT_MATTER_TUTORIAL,
+    "course": FRONT_MATTER_TUTORIAL,
+    "course_chapter": FRONT_MATTER_COMMON,
+    "video": FRONT_MATTER_VIDEO,
+    "redirect": FRONT_MATTER_REDIRECT,
+}
+
+
+def title_to_dirname(text: str) -> str:
+    """Converts a title into a sanitized dirname.
+
+    title_to_dirname('Godot for Designers') outputs 'godot-for-designers'"""
+    string = text.lower().replace(" ", "-").replace(".", "-")
+    string = re.sub(r"[_:,/?]|(\[.*\])|(\(.*\))", "", string,)
+    return re.sub(r"-+", "-", string, flags=re.DOTALL)
 
 
 def generate_parser() -> argparse.ArgumentParser:
@@ -49,11 +87,13 @@ def generate_parser() -> argparse.ArgumentParser:
         "-d",
         "--dirname",
         type=str,
-        help=("Name of the content's directory. If not set explicitly, "
-              "generated from the `title` positional argument."),
+        help=(
+            "Name of the content's directory. If not set explicitly, "
+            "generated from the `title` positional argument."
+        ),
     )
     parser.add_argument(
-        "-i", "--video-id", help=("Url or id of a YouTube video."),
+        "-i", "--video-id", help=("ID of a YouTube video."),
     )
 
     parser.add_argument(
@@ -110,19 +150,28 @@ def main():
     if not os.path.exists(path_website):
         raise NotADirectoryError("The directory path does not exist.")
 
-    # Run command from the website path
-    hugo_command = "hugo new {}"
-    if args.kind is not None or args.video is not None:
-        kind = args.kind if args.kind is not None else "video"
-        hugo_command += " --kind " + kind
+    kind: str = args.section
+    if args.video:
+        kind = "video"
+    if args.kind:
+        kind = args.kind
+    assert(kind in front_matter_template)
+
+    # TODO:
+    # - Make request to youtube API
+    # - Populate video front matter
+    # - Convert front-matter to TOML
+    # - Save document to content/
+
+    front_matter: dict = front_matter_template[kind]
+    front_matter["title"] = args.title
+    if args.author:
+        front_matter["author"] = args.author
+    if args.description:
+        front_matter["description"] = args.description
 
     content_dirname = args.dirname if args.dirname else title_to_dirname(args.title)
     path_content = join(args.section, args.dirpath, content_dirname, "index.md")
-
-    author = args.author if args.author else "nathan"
-
-    # TODO: use toml library to populate the front matter
-
 
 
 if __name__ == "__main__":
