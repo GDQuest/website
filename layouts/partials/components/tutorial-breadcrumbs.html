@@ -1,6 +1,6 @@
 <!-- Creates breadcrumbs for tutorial pages, finding the tutorial section to which the page belongs,
      and linking to it. -->
-{{ $section := .Section }}
+{{ $section := .CurrentSection }}
 {{ $currentNode := . }}
 
 {{ range .FirstSection.Sections }}
