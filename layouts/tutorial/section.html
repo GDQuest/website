@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="container flex">
+<div class="content-container flex">
     {{ if not (isset .Params "remove_menu") }}
     {{ partial "components/nav-tutorial" .CurrentSection }}
     <article class="blog-post padding-v-base">
@@ -11,7 +11,7 @@
         {{.Content}}
     </article>
     {{ else }}
-    <section class="container padding-v-base">
+    <section class="content-container padding-v-base">
         <div class="content-grid">
             {{ range .Pages }}
             <div class="item">

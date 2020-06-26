@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-<section class="container padding-v-base">
+<section class="content-container padding-v-base">
     <article>
         {{ partial "components/banner-image" . }}
         {{ .Content }}
@@ -14,7 +14,7 @@
             <div class="item">{{ .Render "summary" }} </div>
             {{ end }}
         </section>
-         <div class="container">{{ partial "pagination-list" . }}</div>
+         <div class="content-container">{{ partial "pagination-list" . }}</div>
         {{ end }}
     </article>
 </section>

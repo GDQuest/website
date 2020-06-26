@@ -14,7 +14,7 @@
 
 
 {{ define "main" }}
-<section class="content-grid split2 container">
+<section class="content-grid split2 content-container">
     <nav class="item -span2 padding-v-base chapters">
         <h3>Chapters</h3>
         <ul>
@@ -66,7 +66,7 @@
     </div>
 </section>
 
-<section id="related" class="container padding-v-base">
+<section id="related" class="content-container padding-v-base">
     <h2>Related products</h2>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "product") }}

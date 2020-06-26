@@ -14,7 +14,7 @@
 {{ end }}
 
 {{ define "main" }}
-<section class="container margin-v-base">
+<section class="content-container margin-v-base">
     <h3 data-font="centered">latest news</h3>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
@@ -29,7 +29,7 @@
 </section>
 
 <section class="margin-v-base darkbg">
-    <div class="container padding-v-base">
+    <div class="content-container padding-v-base">
         <h3 data-font="centered">Watch hundreds of free tutorials</h3>
         <div class="content-grid">
             {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
@@ -45,7 +45,7 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="content-container">
         <h3 data-font="centered">Work with the most advanced Free Software</h3>
         <div class="content-grid margin-v-base" data-font="centered">
             <div class="item -span2">

@@ -8,7 +8,7 @@
 
 {{ define "main" }}
 {{ .Content }}
-<section class="content-grid container padding-v-base">
+<section class="content-grid content-container padding-v-base">
     {{ range .Paginator.Pages }}
     <div class="item">
         {{ .Render "summary" }}
@@ -16,7 +16,7 @@
     {{ end }}
 </section>
 
-<div class="container">
+<div class="content-container">
     {{ partial "pagination-list" . }}
 </div>
 {{ end }}

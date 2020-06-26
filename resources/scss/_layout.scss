@@ -1,11 +1,11 @@
-.container {
-  max-width: 800px;
+.content-container {
+  max-width: $screen-size-min-desktop;
   margin-left: auto;
   margin-right: auto;
 }
 
 @include mobile {
-  .container {
+  .content-container {
     padding-left: $spacing-tiny;
     padding-right: $spacing-tiny;
   }
