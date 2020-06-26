@@ -1,0 +1,32 @@
+<!-- Creates breadcrumbs for tutorial pages, finding the tutorial section to which the page belongs,
+     and linking to it. -->
+{{ $section := .Section }}
+{{ $currentNode := . }}
+
+{{ range .FirstSection.Sections }}
+    {{ if .IsAncestor $currentNode }}
+    {{ $section = . }}
+    {{ end }}
+{{ end }}
+
+{{ $course := . }}
+{{ if eq .CurrentSection.Type "course_chapter" }}
+{{ $course = .Parent.Parent.CurrentSection }}
+{{ end }}
+
+{{ $elements := slice $section }}
+{{ if ne $course . }}
+{{ $elements = slice $section $course }}
+{{ end }}
+
+<ul class="bread-crumbs">
+    {{ range $elements }}
+    <li class="link">
+        <a href="{{ .Permalink }}">{{ if isset . "menuTitle" }}{{ .menuTitle }}{{ else }}{{ .Title }}{{ end }}</a>
+    </li>
+    <span class="divider" aria-hidden="true">›</span>
+    {{ end }}
+    <li class="link -current">
+        <span>{{ if isset . "menuTitle" }}{{ .menuTitle }}{{ else }}{{ .Title }}{{ end }}</span>
+    </li>
+</ul>

@@ -2,7 +2,10 @@
 <div class="header-background"></div>
 <div class="content-grid content">
     <div class="item -span2 padding-v-small">
-        <h1 class="_unmargin">{{.Title}}</h1>
+        <div class="item-list">
+            {{ partialCached "components/tutorial-breadcrumbs" . .CurrentSection }}
+            <h1 class="_unmargin">{{.Title}}</h1>
+        </div>
     </div>
     {{ with (.Resources.GetMatch "banner") }}
     <div class="item -span4 flex direction-col-reverse">
@@ -14,7 +17,7 @@
 
 
 {{ define "main" }}
-<section class="content-grid split2 content-container">
+<section class="content-grid content-container">
     <nav class="item -span2 padding-v-base chapters">
         <h3>Chapters</h3>
         <ul>

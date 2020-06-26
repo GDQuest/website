@@ -1,0 +1,34 @@
+.bread-crumbs {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    overflow: hidden;
+    text-shadow: $shadow-small;
+    font-size: $font-size-small;
+
+    > .link {
+        margin-right: $spacing-micro;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    > .link > a {
+        color: $color-dark-text;
+    }
+
+    > .link > a:hover {
+        color: $color-dark-text-hl;
+    }
+
+    > .link.-current {
+        color: $color-dark-text-hl;
+        margin-right: 0;
+    }
+
+    > .divider {
+        padding-left: $spacing-micro;
+        padding-right: $spacing-micro;
+    }
+}

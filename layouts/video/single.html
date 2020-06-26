@@ -1,14 +1,16 @@
 {{ define "header_content" }}
 <div class="header-background"></div>
-<div class="header-article grid split2 padding-v-small content">
-    <div class="big">
-        <i data-font="dimmed">{{ .Parent.Parent.Title }}</i> / {{ .CurrentSection.Title }}
-        <h1 class="_unmargin">{{ .Title }}</h1>
-        {{ with .Params.author }}
-        {{ with (index $.Site.Data.authors . ) }}
-        <p>by: {{ .name }}</p>
-        {{ end }}
-        {{ end }}
+<div class="header-article padding-v-small">
+    <div class="content-grid">
+        <div class="item -span4">
+            {{ partialCached "components/tutorial-breadcrumbs" . .CurrentSection }}
+            <h1 class="_unmargin">{{ .Title }}</h1>
+            {{ with .Params.author }}
+            {{ with (index $.Site.Data.authors . ) }}
+            <p>by: {{ .name }}</p>
+            {{ end }}
+            {{ end }}
+        </div>
     </div>
 </div>
 {{ end }}
@@ -68,15 +70,15 @@
             </div>
         </div>
 
-    <div class="flex flex-horizontal">
-        <div class="card-box">
-            {{ partialCached "components/mailing-signup" . }}
+        <div class="flex flex-horizontal">
+            <div class="card-box">
+                {{ partialCached "components/mailing-signup" . }}
+            </div>
+            <div class="margin-top-base">
+                {{ partial "modules/author" . }}
+            </div>
+            {{ partial "improve-this-page.html" . }}
         </div>
-        <div class="margin-top-base">
-            {{ partial "modules/author" . }}
-        </div>
-        {{ partial "improve-this-page.html" . }}
-    </div>
     </article>
 </div>
 {{ end }}
