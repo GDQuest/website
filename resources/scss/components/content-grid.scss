@@ -4,11 +4,10 @@
     .content-grid {
       display: grid;
       grid-template-columns: repeat(6, minmax(100px, 1fr));
-      grid-gap: $spacing-base;
+      gap: $spacing-base;
       grid-auto-rows: max-content;
       justify-items: center;
 
-      // Center the item in the grid column by default?
       > .item {
         grid-column: span 3;
 
@@ -26,11 +25,15 @@
       }
     }
   }
+
 }
 
 @include mobile {
-  .content-grid {
-    display: flex;
-    flex-direction: column;
+  @supports (display: grid) {
+    .content-grid {
+      display: grid;
+      grid-template-columns: 100%;
+      gap: $spacing-base;
+    }
   }
 }
