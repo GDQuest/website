@@ -25,15 +25,19 @@
       }
     }
   }
-
 }
 
 @include mobile {
-  @supports (display: grid) {
-    .content-grid {
-      display: grid;
-      grid-template-columns: 100%;
-      gap: $spacing-base;
+  .content-grid {
+    display: flex;
+    flex-direction: column;
+
+    > .item {
+      margin-bottom: $spacing-base;
+    }
+
+    > .item:last-child {
+      margin-bottom: 0;
     }
   }
 }
