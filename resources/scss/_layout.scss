@@ -4,9 +4,11 @@
   margin-right: auto;
 }
 
-// Padding
-.padding-none {
-  padding: 0;
+@include mobile {
+  .container {
+    padding-left: $spacing-tiny;
+    padding-right: $spacing-tiny;
+  }
 }
 
 .padding-tiny {
@@ -33,10 +35,6 @@
   margin-top: $spacing-big;
 }
 
-.margin-bottom-base {
-  margin-bottom: $spacing-base;
-}
-
 .margin-bottom-big {
   margin-bottom: $spacing-big;
 }
@@ -52,32 +50,6 @@
     #{$key}-top: $spacing-base;
     #{$key}-bottom: $spacing-base;
   }
-}
-
-// horizontal only padding and margin
-@each $key in margin, padding {
-  .#{$key}-h-small {
-    #{$key}-left: $spacing-small;
-    #{$key}-right: $spacing-small;
-  }
-
-  .#{$key}-h-base {
-    #{$key}-left: $spacing-base;
-    #{$key}-right: $spacing-base;
-  }
-
-  .#{$key}-h-big {
-    #{$key}-left: $spacing-big;
-    #{$key}-right: $spacing-big;
-  }
-}
-
-.small-spaced-children > * {
-  margin-left: $spacing-small;
-}
-
-.small-spaced-children > :first-child {
-  margin-left: 0;
 }
 
 .flex {
@@ -103,19 +75,4 @@
 .flex-horizontal {
   display: flex;
   flex-direction: column;
-}
-
-.flex.wrap {
-  flex-wrap: wrap;
-}
-
-.flex > .full {
-  flex: 100%;
-}
-
-@include mobile {
-  .container {
-    padding-left: $spacing-tiny;
-    padding-right: $spacing-tiny;
-  }
 }

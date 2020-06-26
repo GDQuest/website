@@ -1,4 +1,5 @@
 // CSS resets
+// TODO: move non-reset styles to components
 html,
 body,
 ol,
@@ -104,8 +105,7 @@ h3,
 h4,
 h5,
 h6,
-[data-font*="title"],
-{
+[data-font*="title"] {
   font-family: $font-title;
   text-transform: uppercase;
   color: $color-default-text-hl;
@@ -120,8 +120,7 @@ h6,
 
 h2,
 h3,
-[data-font~="bold"],
-{
+[data-font~="bold"] {
   font-weight: 700;
 }
 
@@ -349,16 +348,6 @@ aside > p:last-child {
 aside {
   margin: 16px 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 .icon {
   font-size: $font-size-h5;
