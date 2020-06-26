@@ -1,11 +1,11 @@
 {{ define "header_content" }}
 <div class="header-background"></div>
-<div class="grid split2 content">
-    <div class="small padding-v-small">
+<div class="content-grid content">
+    <div class="item -span2 padding-v-small">
         <h1 class="_unmargin">{{.Title}}</h1>
     </div>
     {{ with (.Resources.GetMatch "banner") }}
-    <div class="big flex direction-col-reverse">
+    <div class="item -span4 flex direction-col-reverse">
         <img loading="lazy" src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card-box -tophalf">
     </div>
     {{ end }}
@@ -14,8 +14,8 @@
 
 
 {{ define "main" }}
-<section class="grid split2 container">
-    <nav class="small padding-v-base chapters">
+<section class="content-grid split2 container">
+    <nav class="item -span2 padding-v-base chapters">
         <h3>Chapters</h3>
         <ul>
             {{ range ( where .Sections "Type" "course_chapter" ) }}
@@ -24,51 +24,55 @@
         </ul>
     </nav>
 
-    <div class="big card-box -bottomhalf padding-v-base">
-        <div class="padding-tiny">
-            {{ .Content }}
-        </div>
+    <div class="item -span4">
+        <div class="card-box -bottomhalf ">
+            <div class="padding-tiny">
+                {{ .Content }}
+            </div>
 
-        <hr>
-        <!-- chapter title -->
-        <div class="padding-tiny">
-            <p>{{ .Description | markdownify }}</p>
+            <hr>
+            <!-- chapter title -->
+            <div class="padding-tiny">
+                <p>{{ .Description | markdownify }}</p>
 
-            <!-- Video list -->
-            <ol class="collection">
-              {{ range ( where .Sections "Type" "course_chapter" ) }}
-                <h2 id="{{ replace .Params.title " " "-" }}" class="_unmargin"> {{ .Params.title }} </h2>
-                {{ range ( where .RegularPages "Type" "video" ).ByDate }}
-                <li class="item">
-                    {{ if (isset .Params "videoid") }}
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    {{ else }}
-                    {{ .Title }} <span data-font="dimmed">Upcoming</span>
-                    {{ end }}
-
-                    {{ if or (isset . "document") (isset . "exercise") }}
-                    <span>
-                        {{ if isset . "document" }}
-                        <a href="{{ .document }}"><i class="fa fa-book"></i></a>
+                <!-- Video list -->
+                <ol class="collection">
+                    {{ range ( where .Sections "Type" "course_chapter" ) }}
+                    <h2 id="{{ replace .Params.title " " "-" }}" class="_unmargin"> {{ .Params.title }} </h2>
+                    {{ range ( where .RegularPages "Type" "video" ).ByDate }}
+                    <li class="item">
+                        {{ if (isset .Params "videoid") }}
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        {{ else }}
+                        {{ .Title }} <span data-font="dimmed">Upcoming</span>
                         {{ end }}
-                        {{ if isset . "exercise" }}
-                        <a href="{{ .exercise }}"><i class="fa fa-file"></i></a>
+
+                        {{ if or (isset . "document") (isset . "exercise") }}
+                        <span>
+                            {{ if isset . "document" }}
+                            <a href="{{ .document }}"><i class="fa fa-book"></i></a>
+                            {{ end }}
+                            {{ if isset . "exercise" }}
+                            <a href="{{ .exercise }}"><i class="fa fa-file"></i></a>
+                            {{ end }}
+                        </span>
                         {{ end }}
-                    </span>
+                    </li>
                     {{ end }}
-                </li>
-                {{ end }}
-              {{ end }}
-            </ol>
+                    {{ end }}
+                </ol>
+            </div>
         </div>
     </div>
 </section>
 
 <section id="related" class="container padding-v-base">
     <h2>Related products</h2>
-    <div class="grid split2 list">
+    <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "product") }}
-        {{ .Render "summary" }}
+        <div class="item">
+            {{ .Render "summary" }}
+        </div>
         {{ end }}
     </div>
 

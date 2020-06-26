@@ -1,6 +1,6 @@
 {{ define "header_content" }}
-<div class="grid split2 padding-v-small">
-    <div>
+<div class="content-grid padding-v-small">
+    <div class="item">
         <h1 class="_unmargin">{{.Title}}</h1>
     </div>
 </div>
@@ -8,18 +8,15 @@
 
 {{ define "main" }}
 {{ .Content }}
-<section class="grid split2 container padding-v-base list">
-
+<section class="content-grid container padding-v-base">
     {{ range .Paginator.Pages }}
-
-    <div>
+    <div class="item">
         {{ .Render "summary" }}
     </div>
-
     {{ end }}
 </section>
 
 <div class="container">
-    {{ partial "page-list" . }}
+    {{ partial "pagination-list" . }}
 </div>
 {{ end }}

@@ -1,5 +1,5 @@
 <!-- List of pages in a section or pagination -->
-<ul class="page-list">
+<ul class="pagination-list">
     <li {{ if not .Paginator.HasPrev }} class="disabled" {{ end }}>
         <a aria-label="Previous" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}{{ else }}#{{ end }}">
             <span aria-hidden="true">&larr;</span>

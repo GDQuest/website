@@ -9,12 +9,12 @@
         {{ .Content }}
 
         {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}
-        <section class="grid split2 container list">
+        <section class="content-grid">
             {{ range .Paginator.Pages }}
-            <div>{{ .Render "summary" }} </div>
+            <div class="item">{{ .Render "summary" }} </div>
             {{ end }}
         </section>
-         <div class="container">{{ partial "page-list" . }}</div>
+         <div class="container">{{ partial "pagination-list" . }}</div>
         {{ end }}
     </article>
 </section>

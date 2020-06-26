@@ -13,14 +13,16 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="grid center container">
-    <article class="padding-v-base">
-        {{ with .Params.banner }}
-        <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}">
-        {{ end }}
-        {{ .Content }}
+<div class="container">
+    <div class="content-grid">
+        <article class="padding-v-base item -center">
+            {{ with .Params.banner }}
+            <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}">
+            {{ end }}
+            {{ .Content }}
 
-        {{ partial "modules/team_members" . }}
-    </article>
+            {{ partial "modules/team_members" . }}
+        </article>
+    </div>
 </div>
 {{ end }}

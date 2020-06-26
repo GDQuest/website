@@ -1,15 +1,17 @@
 {{ define "header_content" }}
-    {{ partial "components/section-header" . }}
+{{ partial "components/section-header" . }}
 {{ end }}
 
 {{ define "main" }}
-<section class="grid split2 container padding-v-base list">
-    {{ range .Pages }}
-    {{ if not .Params.hidden }}
-    <div>
-      {{ .Render "summary" }}
+<section class="container padding-v-base">
+    <div class="content-grid">
+        {{ range .Pages }}
+        {{ if not .Params.hidden }}
+        <div class="item">
+            {{ .Render "summary" }}
+        </div>
+        {{ end }}
+        {{ end }}
     </div>
-    {{ end }}
-    {{ end }}
 </section>
 {{ end }}

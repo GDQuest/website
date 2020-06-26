@@ -19,26 +19,30 @@ At GDQuest, we teach you **game creation with free software**. With us, you will
 This page is here to get you started with the tutorials that **best fit your needs**. The guides below are completely free, curated learning paths.
 
 
-<div class="grid split2 list">
+<div class="content-grid">
+<div class="item">
 {{< card-box 
-    img="/tutorial/godot/learning-paths/beginner/banner.jpg"
-    title="I am new to programming" 
-    url="/tutorial/godot/learning-paths/beginner/" 
-    urlText="Beginner's path" >}}
+img="/tutorial/godot/learning-paths/beginner/banner.jpg"
+title="I am new to programming" 
+url="/tutorial/godot/learning-paths/beginner/" 
+urlText="Beginner's path" >}}
 **How do I get started?**
 
 We wrote a curated guide for programming beginners who want to learn game creation and Godot.
 {{< /card-box >}}
+</div>
 
+<div class="item">
 {{< card-box 
-    img="/tutorial/godot/learning-paths/developer/banner.png" 
-    title="I am a developer already" 
-    url="/tutorial/godot/learning-paths/developer/" 
-    urlText="Developer's path" >}}
+img="/tutorial/godot/learning-paths/developer/banner.png" 
+title="I am a developer already" 
+url="/tutorial/godot/learning-paths/developer/" 
+urlText="Developer's path" >}}
 **How do I get up to speed with Godot?**
 
 Check out our Godot guide for developers! It will help you get started with game programming and with the engine fast.
 {{< /card-box >}}
+</div>
 </div>
 
 Or you can [browse all our tutorials](/tutorial).

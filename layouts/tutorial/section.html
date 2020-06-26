@@ -12,9 +12,11 @@
     </article>
     {{ else }}
     <section class="container padding-v-base">
-        <div class="grid split2">
+        <div class="content-grid">
             {{ range .Pages }}
-            {{ .Render "summary" }}
+            <div class="item">
+                {{ .Render "summary" }}
+            </div>
             {{ end }}
         </div>
     </section>

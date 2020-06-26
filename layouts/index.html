@@ -16,9 +16,11 @@
 {{ define "main" }}
 <section class="container margin-v-base">
     <h3 data-font="centered">latest news</h3>
-    <div class="grid split2 list">
+    <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
-        {{ .Render "summary" }}
+        <div class="item">
+            {{ .Render "summary" }}
+        </div>
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
@@ -29,9 +31,11 @@
 <section class="margin-v-base darkbg">
     <div class="container padding-v-base">
         <h3 data-font="centered">Watch hundreds of free tutorials</h3>
-        <div class="grid split2 list">
+        <div class="content-grid">
             {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
-            {{ .Render "summary" }}
+            <div class="item">
+                {{ .Render "summary" }}
+            </div>
             {{ end }}
         </div>
         <div data-font="centered" class="margin-top-base">
@@ -43,40 +47,46 @@
 <section>
     <div class="container">
         <h3 data-font="centered">Work with the most advanced Free Software</h3>
-        <div class="grid split3 margin-v-base" data-font="centered">
-            <div class="card-box -small">
-                <div class="content -darkbg">
-                    <img loading="lazy" src="/img/home/godot_logo.png" alt="godot logo" class="card-image -small -contain" >
-                </div>
-                <div class="content">
-                    <h4>Godot</h4>
-                    <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
-                    <div data-font="centered">
-                        <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button-link">Learn more</a>
+        <div class="content-grid margin-v-base" data-font="centered">
+            <div class="item -span2">
+                <div class="card-box -small">
+                    <div class="content -darkbg">
+                        <img loading="lazy" src="/img/home/godot_logo.png" alt="godot logo" class="card-image -small -contain" >
+                    </div>
+                    <div class="content">
+                        <h4>Godot</h4>
+                        <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
+                        <div data-font="centered">
+                            <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button-link">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card-box -small">
-                <div class="content -darkbg">
-                    <img loading="lazy" src="/img/home/krita_logo.png" alt="krita logo" class="card-image -small -contain">
-                </div>
-                <div class="content">
-                    <h4>Krita</h4>
-                    <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
-                    <div data-font="centered">
-                        <a href="https://www.youtube.com/watch?v=ZbnQn6h4q0g" class="button-link">Learn more</a>
+            <div class="item -span2">
+                <div class="card-box -small">
+                    <div class="content -darkbg">
+                        <img loading="lazy" src="/img/home/krita_logo.png" alt="krita logo" class="card-image -small -contain">
+                    </div>
+                    <div class="content">
+                        <h4>Krita</h4>
+                        <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
+                        <div data-font="centered">
+                            <a href="https://www.youtube.com/watch?v=ZbnQn6h4q0g" class="button-link">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card-box -small">
-                <div class="content -darkbg">
-                    <img loading="lazy" src="/img/home/blender_logo.png" alt="blender logo" class="card-image -small -contain">
-                </div>
-                <div class="content">
-                    <h4>blender</h4>
-                    <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
-                    <div data-font="centered">
-                        <a href="https://blender.org/" class="button-link">Learn more</a>
+            <div class="item -span2">
+                <div class="card-box -small">
+                    <div class="content -darkbg">
+                        <img loading="lazy" src="/img/home/blender_logo.png" alt="blender logo" class="card-image -small -contain">
+                    </div>
+                    <div class="content">
+                        <h4>blender</h4>
+                        <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
+                        <div data-font="centered">
+                            <a href="https://blender.org/" class="button-link">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>

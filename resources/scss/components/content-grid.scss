@@ -1,0 +1,36 @@
+// Grid of content
+@include desktop {
+  @supports (display: grid) {
+    .content-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(100px, 1fr));
+      grid-gap: $spacing-base;
+      grid-auto-rows: max-content;
+      justify-items: center;
+
+      // Center the item in the grid column by default?
+      > .item {
+        grid-column: span 3;
+
+        &.-center {
+          grid-column: 2 / span 4;
+        }
+
+        &.-span2 {
+          grid-column: span 2;
+        }
+
+        &.-span4 {
+          grid-column: span 4;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .content-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
