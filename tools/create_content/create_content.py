@@ -71,7 +71,8 @@ def get_front_matter(args: argparse.Namespace()) -> dict:
     assert kind in front_matter_template
 
     front_matter: dict = front_matter_template[kind]
-    front_matter["title"] = args.title
+    if args.title:
+        front_matter["title"] = args.title
     if args.author:
         front_matter["author"] = args.author
     if args.description:
@@ -79,9 +80,9 @@ def get_front_matter(args: argparse.Namespace()) -> dict:
     if args.video_id:
         video = get_video_data(args.video_id)
         front_matter["videoId"] = args.video_id
-        front_matter["title"] = args.title if args.title != "" else video["title"]
+        front_matter["title"] = args.title if args.title else video["title"]
         front_matter["description"] = (
-            args.description if args.description != "" else video["description"]
+            args.description if args.description else video["description"]
         )
         front_matter["date"] = video["date"]
     if args.menu_title:
@@ -97,9 +98,6 @@ def generate_parser() -> argparse.ArgumentParser:
         help="The section the content should go to. One of {}".format(
             SECTIONS_SUPPORTED
         ),
-    )
-    parser.add_argument(
-        "title", type=str, help=("Title of the content post."),
     )
 
     parser.add_argument(
@@ -129,13 +127,16 @@ def generate_parser() -> argparse.ArgumentParser:
     )
 
     parser.add_argument(
+        "-t", "--title", type=str, help=("Title of the content post."),
+    )
+    parser.add_argument(
         "-a", "--author", help="Author of the post. One of {}".format(AUTHORS)
     )
     parser.add_argument(
         "-D", "--description", help=("Description of the content."),
     )
     parser.add_argument(
-        "-t", "--tags", nargs="+", help=("List of tags to put in the content."),
+        "-T", "--tags", nargs="+", help=("List of tags to put in the content."),
     )
     parser.add_argument(
         "-m",
@@ -208,7 +209,10 @@ def main():
     if not os.path.exists(path_website):
         raise NotADirectoryError("The directory path does not exist.")
 
-    content_dirname = args.dirname if args.dirname else title_to_dirname(args.title)
+    front_matter: dict = get_front_matter(args)
+    front_matter_text: str = "+++\n" + toml.dumps(front_matter) + "+++\n"
+
+    content_dirname = args.dirname if args.dirname else title_to_dirname(front_matter["title"])
     path_content = os.path.realpath(
         join(
             args.path,
@@ -219,9 +223,6 @@ def main():
             "index.md",
         )
     )
-
-    front_matter: dict = get_front_matter(args)
-    front_matter_text: str = "+++\n" + toml.dumps(front_matter) + "+++\n"
 
     save_document(front_matter_text, path_content)
 
