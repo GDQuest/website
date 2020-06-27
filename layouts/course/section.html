@@ -16,14 +16,9 @@
 
 {{ define "main" }}
 <section class="content-grid content-container">
-    <nav class="item -span2 padding-v-base chapters">
-        <h3>Chapters</h3>
-        <ul>
-            {{ range ( where .Sections "Type" "course_chapter" ) }}
-            <li><a href="#{{ replace .Params.title " " "-" }}">{{ .Params.title }}</a></li>
-            {{ end }}
-        </ul>
-    </nav>
+    <div class="item -span2">
+        {{ partial "components/nav-tutorial" .CurrentSection }}
+    </div>
 
     <div class="item -span4">
         <div class="card-box -bottomhalf ">
