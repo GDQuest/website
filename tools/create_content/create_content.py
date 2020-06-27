@@ -31,7 +31,7 @@ FRONT_MATTER_TUTORIAL: dict = {
     "difficulty": "beginner",
     "resources": {"src": "banner.png", "name": "banner"},
 }
-FRONT_MATTER_VIDEO: dict = {**FRONT_MATTER_COMMON, "videoId": "", "videoDuration": ""}
+FRONT_MATTER_VIDEO: dict = {**FRONT_MATTER_COMMON, "videoId": "", "videoDuration": "", "type": "video"}
 FRONT_MATTER_REDIRECT: dict = {
     "date": datetime.date.today().isoformat(),
     "description": "",
