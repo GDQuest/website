@@ -1,0 +1,11 @@
+<!-- Generates the title and tag pills for tutorials -->
+<h1 class="title _unmargin">{{.Title}}</h1>
+<span class="tag-pill -green -shadow">{{ .Params.Difficulty }}</span>
+{{ range .Params.Tags }}
+<span class="tag-pill -shadow">{{ . }}</span>
+{{ end }}
+{{ with .Params.author }}
+{{ with (index $.Site.Data.authors . ) }}
+<p class="_unmargin" style="margin-top: 4px">By: {{ .name }}</p>
+{{ end }}
+{{ end }}

@@ -1,19 +1,12 @@
 {{ define "header_content" }}
 <div class="header-background"></div>
 <div class="content-grid content">
-    <div class="item -span2 padding-v-small">
+    <div class="item -span2">
         {{ partial "components/tutorial-breadcrumbs" . }}
-        <div class="header-article">
-            <h1 class="title _unmargin">{{.Title}}</h1>
-            <span class="tag-pill -green -shadow">{{ .Params.Difficulty }}</span>
-            {{ range .Params.Tags }}
-            <span class="tag-pill -shadow">{{ . }}</span>
-            {{ end }}
-        </div>
-
+        {{ partial "components/tutorial-title" . }}
     </div>
     {{ with (.Resources.GetMatch "banner") }}
-    <div class="item -span4 flex direction-col-reverse">
+    <div class="item -span4">
         <img loading="lazy" src="{{ .Permalink }}" alt="{{ .Name }}" class="side-image card-box -tophalf">
     </div>
     {{ end }}

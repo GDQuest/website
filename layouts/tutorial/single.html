@@ -1,13 +1,13 @@
 {{ define "header_content" }}
 <div class="header-background"></div>
 <div class="header-article">
-    <h1 class="title">{{.Title}}</h1>
-    {{ with .Params.author }}
-    {{ with (index $.Site.Data.authors . ) }}
-    <p class="subtitle">by: {{ .name }} </p>
-    {{ end }}
-    {{ end }}
-</div>
+
+    <div class="content-grid">
+        <div class="item -span4">
+            {{ partial "components/tutorial-breadcrumbs" . }}
+            {{ partial "components/tutorial-title" . }}
+        </div>
+    </div>
 </div>
 {{ end }}
 
