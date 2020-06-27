@@ -84,6 +84,8 @@ def get_front_matter(args: argparse.Namespace()) -> dict:
             args.description if args.description != "" else video["description"]
         )
         front_matter["date"] = video["date"]
+    if args.menu_title:
+        front_matter["menuTitle"] = args.menu_title
     return front_matter
 
 
@@ -134,6 +136,12 @@ def generate_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "-t", "--tags", nargs="+", help=("List of tags to put in the content."),
+    )
+    parser.add_argument(
+        "-m",
+        "--menu-title",
+        type=str,
+        help=("Optional menu title for tutorial navigation."),
     )
     parser.add_argument(
         "-P",
