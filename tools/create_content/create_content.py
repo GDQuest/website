@@ -33,7 +33,7 @@ FRONT_MATTER_TUTORIAL: dict = {
 }
 FRONT_MATTER_VIDEO: dict = {**FRONT_MATTER_COMMON, "videoId": "", "videoDuration": ""}
 FRONT_MATTER_REDIRECT: dict = {
-    "date": datetime.date.today(),
+    "date": datetime.date.today().isoformat(),
     "description": "",
     "title": "",
     "weight": "5",
@@ -59,6 +59,32 @@ def title_to_dirname(text: str) -> str:
     string = text.lower().replace(" ", "-").replace(".", "-")
     string = re.sub(r"[_:,/?]|(\[.*\])|(\(.*\))", "", string,)
     return re.sub(r"-+", "-", string, flags=re.DOTALL)
+
+
+def get_front_matter(args: argparse.Namespace()) -> dict:
+    """Returns the front matter of the article as a python dictionary."""
+    kind: str = args.section
+    if args.video_id:
+        kind = "video"
+    if args.kind:
+        kind = args.kind
+    assert kind in front_matter_template
+
+    front_matter: dict = front_matter_template[kind]
+    front_matter["title"] = args.title
+    if args.author:
+        front_matter["author"] = args.author
+    if args.description:
+        front_matter["description"] = args.description
+    if args.video_id:
+        video = get_video_data(args.video_id)
+        front_matter["videoId"] = args.video_id
+        front_matter["title"] = args.title if args.title != "" else video["title"]
+        front_matter["description"] = (
+            args.description if args.description != "" else video["description"]
+        )
+        front_matter["date"] = video["date"]
+    return front_matter
 
 
 def generate_parser() -> argparse.ArgumentParser:
@@ -146,14 +172,15 @@ def save_document(content: str, path_out: str):
 
 
 def get_video_data(video_id: str) -> str:
-    """Returns the video data as a dictionary with 'title', 'description', and published 'date' as a
-    datetime object."""
+    """Returns the video data as a dictionary with 'title', 'description', and published 'date'."""
     YT_API_KEY = os.getenv("YT_API_KEY")
     api = pyyoutube.Api(api_key=YT_API_KEY)
-    data: dict = api.get_video_by_id(video_id=video_id, parts="snippet", return_json=True)
+    data: dict = api.get_video_by_id(
+        video_id=video_id, parts="snippet", return_json=True
+    )
     snippet: dict = data["items"][0]["snippet"]
     return {
-        "date": datetime.datetime.fromisoformat(snippet["publishedAt"][:-1]),
+        "date": snippet["publishedAt"][:-1],
         "title": snippet["title"],
         "description": snippet["description"].split("\n", 1)[0],
     }
@@ -161,7 +188,6 @@ def get_video_data(video_id: str) -> str:
 
 def main():
     args: argparse.Namespace = generate_parser().parse_args()
-
     if args.section not in SECTIONS_SUPPORTED:
         raise AttributeError(
             "The section {} must be one of {}".format(args.section, SECTIONS_SUPPORTED)
@@ -170,43 +196,26 @@ def main():
         raise AttributeError(
             "The author {} must be one of {}".format(args.author, AUTHORS)
         )
-
     path_website = join(os.getcwd(), args.path)
     if not os.path.exists(path_website):
         raise NotADirectoryError("The directory path does not exist.")
 
-    kind: str = args.section
-    if args.video_id:
-        kind = "video"
-    if args.kind:
-        kind = args.kind
-    assert kind in front_matter_template
-
-    if args.video_id:
-        video = get_video_data(args.video_id)
-
-        import pprint
-        pprint.pprint(video)
-        return
-
-    front_matter: dict = front_matter_template[kind]
-    front_matter["title"] = args.title
-    if args.author:
-        front_matter["author"] = args.author
-    if args.description:
-        front_matter["description"] = args.description
-
     content_dirname = args.dirname if args.dirname else title_to_dirname(args.title)
-    path_content = join(
-        args.path, "content", args.section, args.dirpath, content_dirname, "index.md"
+    path_content = os.path.realpath(
+        join(
+            args.path,
+            "content",
+            args.section,
+            args.dirpath,
+            content_dirname,
+            "index.md",
+        )
     )
-    print(path_content)
-    front_matter_text = "+++\n" + toml.dumps(front_matter) + "+++\n"
 
-    # TODO:
-    # - Populate video front matter
-    # - Convert front-matter to TOML
-    # - Save document to content/
+    front_matter: dict = get_front_matter(args)
+    front_matter_text: str = "+++\n" + toml.dumps(front_matter) + "+++\n"
+
+    save_document(front_matter_text, path_content)
 
 
 if __name__ == "__main__":
