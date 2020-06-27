@@ -5,9 +5,11 @@ import argparse
 import datetime
 import os
 import re
-from os.path import join
+from os.path import join, dirname
 
 import pyyoutube
+import toml
+import json
 
 SECTIONS_SUPPORTED = ["tutorial", "news", "tools", "product"]
 AUTHORS = ["nathan", "razvan", "henrique", "johnny", "razoric"]
@@ -134,11 +136,27 @@ def generate_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def get_video_data(video_id: str):
+def save_document(content: str, path_out: str):
+    """Saves `content` to `path_out`, creating directories if necessary. """
+    out_dir = dirname(path_out)
+    if not os.path.isdir(out_dir):
+        os.makedirs(out_dir)
+    with open(path_out, "w") as document:
+        document.write(content)
+
+
+def get_video_data(video_id: str) -> str:
+    """Returns the video data as a dictionary with 'title', 'description', and published 'date' as a
+    datetime object."""
     YT_API_KEY = os.getenv("YT_API_KEY")
     api = pyyoutube.Api(api_key=YT_API_KEY)
-    video = api.get_video_by_id(video_id=video_id).items
-    return video
+    data: dict = api.get_video_by_id(video_id=video_id, parts="snippet", return_json=True)
+    snippet: dict = data["items"][0]["snippet"]
+    return {
+        "date": datetime.datetime.fromisoformat(snippet["publishedAt"][:-1]),
+        "title": snippet["title"],
+        "description": snippet["description"].split("\n", 1)[0],
+    }
 
 
 def main():
@@ -166,8 +184,8 @@ def main():
 
     if args.video_id:
         video = get_video_data(args.video_id)
-        import pprint
 
+        import pprint
         pprint.pprint(video)
         return
 
@@ -183,6 +201,7 @@ def main():
         args.path, "content", args.section, args.dirpath, content_dirname, "index.md"
     )
     print(path_content)
+    front_matter_text = "+++\n" + toml.dumps(front_matter) + "+++\n"
 
     # TODO:
     # - Populate video front matter
