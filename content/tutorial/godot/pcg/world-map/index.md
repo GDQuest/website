@@ -4,6 +4,7 @@ menuTitle = "World map"
 description = "Learn to use noise textures to generate a procedural world map and get started with Procedural Content Generation."
 author = "razvan"
 
+difficulty = "intermediate"
 tags = ["godot", "tutorial"]
 keywords = ["procedural content generation", "procgen", "heightmap", "godot", "godot tutorial"]
 

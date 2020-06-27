@@ -3,6 +3,7 @@ title = "Beginner UI tutorials"
 description = "Learn to use the powerful UI design tools built into Godot! This tutorial series will help you get started with the engine's advanced UI system."
 date = "2018-05-24"
 
+difficulty = "beginner"
 author = "nathan"
 keywords = [ "godot ui", "godot user interface", "godot ui tutorial"]
 tags = ["video"]

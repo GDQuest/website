@@ -7,5 +7,6 @@ aliases = [ "/tutorial/getting-started/",]
 name = "banner"
 src = "banner.png"
 
+difficulty = "beginner"
 
 +++

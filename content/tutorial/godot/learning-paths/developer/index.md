@@ -11,6 +11,7 @@ aliases = [
   "/tutorial/redirect/guide/developer/",
   "/docs/guides/learn-godot/developer/"
 ]
+difficulty = "intermediate"
 
 [[resources]]
 name = "banner"

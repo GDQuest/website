@@ -7,17 +7,11 @@ tags = ["video"]
 title = "Pixel Art Tutorial"
 type = "course"
 
-[banner]
-  alt = "banner"
-  class = "-blue"
-  src = "banner.jpg"
+difficulty = "beginner"
 
 [[resources]]
   name = "banner"
   src = "banner.jpg"
-
-[[resources]]
-  class = "-blue"
 
 +++
 

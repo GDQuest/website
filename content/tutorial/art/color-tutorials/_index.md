@@ -2,13 +2,12 @@
 author = "nathan"
 date = "2015-06-08T07:05:25.000Z"
 description = "Enter description"
-keywords = ["ENTER KEYWORDS"]
+keywords = []
 tags = ["video"]
 title = "Color Tutorials"
 type = "course"
 
-[banner]
-  src = "banner.png"
+difficulty = "beginner"
 
 [[resources]]
   name = "banner"

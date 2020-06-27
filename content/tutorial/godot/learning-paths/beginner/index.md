@@ -7,6 +7,7 @@ author = "razvan"
 date = "2019-11-06T13:12:32+02:00"
 
 featured = true
+difficulty = "beginner"
 
 weight = 1
 

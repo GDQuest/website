@@ -9,17 +9,12 @@ tags = ["video"]
 title = "Intro To Monster Design For 2d Games"
 type = "course"
 
+difficulty = "beginner"
+
 [banner]
   alt = "Course banner, 2 bear-like monsters painted in Krita"
   class = "-blue"
   src = "banner.jpg"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-
-[[resources]]
-  class = "-blue"
 
 +++
 

@@ -2,6 +2,7 @@
 title = "Darktable Photo Development Tutorials"
 description = "Darktable is a Free and Professional alternative to Adobe Lightroom. A powerful program created by photographer, for photographers."
 
+difficulty = "beginner"
 author = "nathan"
 date = "2018-08-23T23:34:41.000Z"
 

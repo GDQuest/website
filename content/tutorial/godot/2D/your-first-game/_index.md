@@ -4,6 +4,7 @@ menuTitle = "Your First 2D Game"
 description = "Learn to create your first 2D game with Godot, from scratch."
 date = "2020-06-22"
 
+difficulty = "beginner"
 type = "course"
 
 [[resources]]

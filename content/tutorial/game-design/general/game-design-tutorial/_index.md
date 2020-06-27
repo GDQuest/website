@@ -7,6 +7,7 @@ tags = ["video"]
 title = "Game design tutorial"
 type = "course"
 
+difficulty = "beginner"
 [banner]
   src = "banner.png"
 

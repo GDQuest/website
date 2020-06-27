@@ -7,6 +7,7 @@ author = "nathan"
 keywords = [ "godot game engine", "godot tutorial", "game creation tutorial", "free tutorial",]
 type = "course"
 
+difficulty = "beginner"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/",]
 
 [[resources]]

@@ -6,6 +6,7 @@ menuTitle = "Multiplayer intro"
 author = "nathan"
 date = "2018-08-09T03:45:41.000Z"
 
+difficulty = "beginner"
 keywords = [ "godot multiplayer", "godot networking", "godot multiplayer tutorial"]
 tags = ["video",]
 type = "course"

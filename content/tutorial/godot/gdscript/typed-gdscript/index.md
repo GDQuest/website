@@ -6,6 +6,8 @@ author = "guilherme"
 date = 2018-09-04T06:00:00Z
 description = "GDscript is getting optional typing syntax in Godot 3.1! Get started with it in this intro tutorial."
 
+difficulty = "beginner"
+
 keywords = [ "gdscript typed", "typed gdscript", "gdscript tutorial", "godot programming tutorial", "godot typed gdscript", "godot tutorial", "godot 3.1", "godot 3.1 gdscript", "godot 3 tutorial", "gdscript tutorial",]
 tags = ["text"]
 aliases = ["/tutorial/game-design/godot/gdscript/typed-gdscript",]
