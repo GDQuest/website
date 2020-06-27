@@ -75,6 +75,8 @@ def get_front_matter(args: argparse.Namespace()) -> dict:
         front_matter["title"] = args.title
     if args.author:
         front_matter["author"] = args.author
+    if args.difficulty:
+        front_matter["difficulty"] = args.difficulty
     if args.description:
         front_matter["description"] = args.description
     if args.video_id:
@@ -130,10 +132,13 @@ def generate_parser() -> argparse.ArgumentParser:
         "-t", "--title", type=str, help=("Title of the content post."),
     )
     parser.add_argument(
+        "-D", "--description", help=("Description of the content."),
+    )
+    parser.add_argument(
         "-a", "--author", help="Author of the post. One of {}".format(AUTHORS)
     )
     parser.add_argument(
-        "-D", "--description", help=("Description of the content."),
+        "-X", "--difficulty", help="Difficulty level for tutorials. Default value: " + FRONT_MATTER_TUTORIAL["difficulty"]
     )
     parser.add_argument(
         "-T", "--tags", nargs="+", help=("List of tags to put in the content."),
