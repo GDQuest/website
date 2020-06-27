@@ -24,13 +24,12 @@ FRONT_MATTER_COMMON: dict = {
     "keywords": [],
     "tags": [],
 }
-FRONT_MATTER_TUTORIAL: dict = dict(
-    FRONT_MATTER_COMMON,
-    {"difficulty": "beginner", "resources": {"src": "banner.png", "name": "banner"},},
-)
-FRONT_MATTER_VIDEO: dict = dict(
-    FRONT_MATTER_COMMON, {"videoId": "", "videoDuration": ""}
-)
+FRONT_MATTER_TUTORIAL: dict = {
+    **FRONT_MATTER_COMMON,
+    "difficulty": "beginner",
+    "resources": {"src": "banner.png", "name": "banner"},
+}
+FRONT_MATTER_VIDEO: dict = {**FRONT_MATTER_COMMON, "videoId": "", "videoDuration": ""}
 FRONT_MATTER_REDIRECT: dict = {
     "date": datetime.date.today(),
     "description": "",
@@ -74,9 +73,10 @@ def generate_parser() -> argparse.ArgumentParser:
     )
 
     parser.add_argument(
-        "-p" "--path",
+        "-p",
+        "--path",
         type=str,
-        default="",
+        default=".",
         help=(
             "Website's root directory. If none provided, a playlists folder"
             " will be created in the root."
@@ -102,20 +102,18 @@ def generate_parser() -> argparse.ArgumentParser:
         "-a", "--author", help="Author of the post. One of {}".format(AUTHORS)
     )
     parser.add_argument(
-        "-d", "--description", help=("Description of the content."),
+        "-D", "--description", help=("Description of the content."),
     )
     parser.add_argument(
         "-t", "--tags", nargs="+", help=("List of tags to put in the content."),
     )
     parser.add_argument(
-        "-d",
+        "-P",
         "--dirpath",
         type=str,
         default="",
         help=(
-            "Relative path to the content's directory. Relative to the `section` argument. "
-            "If not provided, the content's folder name is generated from the"
-            "content's title."
+            "Relative path to the content's directory. Relative to the `section` argument."
         ),
     )
 
@@ -138,7 +136,7 @@ def generate_parser() -> argparse.ArgumentParser:
 
 def get_video_data(video_id: str):
     YT_API_KEY = os.getenv("YT_API_KEY")
-    api = pyyoutube.Api(api_key=YT_API_KEY())
+    api = pyyoutube.Api(api_key=YT_API_KEY)
     video = api.get_video_by_id(video_id=video_id).items
     return video
 
