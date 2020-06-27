@@ -1,6 +1,8 @@
 <!-- Generates the title and tag pills for tutorials -->
 <h1 class="title _unmargin">{{.Title}}</h1>
-<span class="tag-pill -green -shadow">{{ .Params.Difficulty }}</span>
+{{ with .Params.Difficulty }}
+<span class="tag-pill -green -shadow">{{ . }}</span>
+{{ end }}
 {{ range .Params.Tags }}
 <span class="tag-pill -shadow">{{ . }}</span>
 {{ end }}
