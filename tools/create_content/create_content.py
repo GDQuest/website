@@ -7,6 +7,8 @@ import os
 import re
 from os.path import join
 
+import pyyoutube
+
 SECTIONS_SUPPORTED = ["tutorial", "news", "tools", "product"]
 AUTHORS = ["nathan", "razvan", "henrique", "johnny", "razoric"]
 
@@ -134,6 +136,13 @@ def generate_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def get_video_data(video_id: str):
+    YT_API_KEY = os.getenv("YT_API_KEY")
+    api = pyyoutube.Api(api_key=YT_API_KEY())
+    video = api.get_video_by_id(video_id=video_id).items
+    return video
+
+
 def main():
     args: argparse.Namespace = generate_parser().parse_args()
 
@@ -151,17 +160,18 @@ def main():
         raise NotADirectoryError("The directory path does not exist.")
 
     kind: str = args.section
-    if args.video:
+    if args.video_id:
         kind = "video"
     if args.kind:
         kind = args.kind
-    assert(kind in front_matter_template)
+    assert kind in front_matter_template
 
-    # TODO:
-    # - Make request to youtube API
-    # - Populate video front matter
-    # - Convert front-matter to TOML
-    # - Save document to content/
+    if args.video_id:
+        video = get_video_data(args.video_id)
+        import pprint
+
+        pprint.pprint(video)
+        return
 
     front_matter: dict = front_matter_template[kind]
     front_matter["title"] = args.title
@@ -171,7 +181,15 @@ def main():
         front_matter["description"] = args.description
 
     content_dirname = args.dirname if args.dirname else title_to_dirname(args.title)
-    path_content = join(args.section, args.dirpath, content_dirname, "index.md")
+    path_content = join(
+        args.path, "content", args.section, args.dirpath, content_dirname, "index.md"
+    )
+    print(path_content)
+
+    # TODO:
+    # - Populate video front matter
+    # - Convert front-matter to TOML
+    # - Save document to content/
 
 
 if __name__ == "__main__":
