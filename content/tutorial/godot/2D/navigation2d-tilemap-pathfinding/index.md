@@ -2,7 +2,7 @@
 author = "nathan"
 date = "2019-01-23T18:00:00"
 description = "We made 2 tutorials together with Chris aka KidsCanCode to help you do pathfinding with tile-based maps in Godot 3.1."
-title = "Pathfinding on a TileMap with Navigation2D (Godot 3.1 tutorial)"
+title = "Pathfinding on a TileMap with Navigation2D"
 weight = "5"
 keywords = []
 tags = []

@@ -2,7 +2,7 @@
 author = "nathan"
 date = "2019-08-21T11:03:52"
 description = "Watch the Area2D tutorial by James: https://youtu.be/cQyyD-ykAHU"
-title = "Using Physics Layers and Masks in Godot 3.1 (tutorial)"
+title = "Using Physics Layers and Masks"
 weight = "5"
 keywords = []
 tags = []

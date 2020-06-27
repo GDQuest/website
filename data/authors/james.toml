@@ -1,0 +1,14 @@
+name = "James Taft"
+user = "james"
+picture = "img/avatar/james.jpg"
+role = "Tutor"
+description = "I'm making video games, and video game tutorials."
+
+[social.twitter]
+url = "https://twitter.com/TaftCreates"
+icon = "twitter"
+name = "Twitter"
+[social.youtube]
+url = "https://youtube.com/channel/UCZczqDvepgNqy80gTMGnUXw"
+icon = "youtube"
+name = "Youtube"

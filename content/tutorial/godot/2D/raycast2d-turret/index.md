@@ -1,8 +1,8 @@
 +++
-author = "nathan"
+author = "james"
 date = "2019-09-09T16:59:49"
 description = "Following on the previous Raycast2D tutorial, learn how to create a turret that shoots at the player on sight with James. "
-title = "Godot Nodes 101: Raycast2D Turret (tutorial)"
+title = "Godot Nodes 101: Raycast2D Turret"
 weight = "5"
 keywords = []
 tags = []
