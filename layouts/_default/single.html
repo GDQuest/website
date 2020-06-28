@@ -12,7 +12,7 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="center content-container">
-    {{ .Content }}
-</div>
+<section class="content-container">
+    {{ partial "components/blog-post" . }}
+</section>
 {{ end }}
