@@ -54,7 +54,7 @@ $icon-width: 48px;
   }
 }
 
-.menu-icon {
+.tut-menu-icon {
   fill: #282728;
   width: $icon-width;
   height: $icon-width;
@@ -83,11 +83,10 @@ $icon-width: 48px;
     }
 
     @include tablet {
-
-    > .list {
-      max-width: 480px;
-      margin: auto;
-    }
+      > .list {
+        max-width: 480px;
+        margin: auto;
+      }
     }
   }
 }
