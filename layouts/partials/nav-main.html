@@ -7,9 +7,13 @@
 
 <nav role="navigation" class="nav-main">
     <a href="{{.Site.BaseURL}}" class="logo"><img loading="lazy" src="/img/gdquest-logo.svg" alt="GDQuest logo" /></a>
-    <a href="javascript:void(0);" class="menu" onclick="navToggleMenu(this.parentNode)">
-        <i class="fa fa-bars"></i>
-    </a>
+    <div class="main-menu-icon menu" onclick="navToggleMenu(this.parentNode)">
+        <input type="checkbox" />
+        <div class="bun">
+            <div class="burger">
+            </div>
+        </div>
+    </div>
     <div class="links">
         {{ $currentNode := . }}
         {{ range .Site.Menus.main }}
