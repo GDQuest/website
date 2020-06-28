@@ -63,7 +63,7 @@
 </section>
 
 <section id="related" class="content-container padding-v-base">
-    <h2>Related products</h2>
+    <h2 data-font="centered">Related products</h2>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "product") }}
         <div class="item">
@@ -75,8 +75,10 @@
     <div data-font="centered" class="padding-top-base">
         <a href="/product" class="button-link">View all</a>
     </div>
-    <div class="margin-top-base">
-        {{ partial "modules/author" . }}
+    <div class="content-grid">
+        <div class="item -center margin-top-base">
+            {{ partial "modules/author" . }}
+        </div>
     </div>
 </section>
 {{ end }}
