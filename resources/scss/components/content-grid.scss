@@ -27,10 +27,11 @@
   }
 }
 
-@include mobile {
+@include tablet {
   .content-grid {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
 
     > .item {
       margin-bottom: $spacing-base;

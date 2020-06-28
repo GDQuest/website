@@ -2,14 +2,18 @@
   max-width: $screen-size-min-desktop;
   margin-left: auto;
   margin-right: auto;
-}
 
-@include mobile {
-  .content-container {
+  @include tablet {
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+  }
+
+  @include mobile {
     padding-left: $spacing-tiny;
     padding-right: $spacing-tiny;
   }
 }
+
 
 .padding-tiny {
   padding: $spacing-tiny;

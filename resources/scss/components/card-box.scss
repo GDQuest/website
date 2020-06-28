@@ -36,6 +36,10 @@
   overflow: hidden;
   @include bg-centered;
 
+  @include tablet {
+    max-width: 800px;
+  }
+
   &.-dark {
     background-color: $color-dark-base;
     color: $color-dark-text;
