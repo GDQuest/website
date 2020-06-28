@@ -6,6 +6,10 @@
   max-width: $screen-size-min-desktop;
   height: $spacing-huge;
 
+  font-family: $font-title;
+  text-transform: uppercase;
+  color: $color-default-text-hl;
+
   > .logo {
     > * {
       max-height: 2.8rem;

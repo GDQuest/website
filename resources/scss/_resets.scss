@@ -19,9 +19,7 @@ hr,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -69,9 +67,7 @@ nav ul {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-size: 100%;
   font-weight: normal;
 }
@@ -92,29 +88,16 @@ h4 {
   font-size: $font-size-h4;
 }
 
-h5 {
-  font-size: $font-size-h5;
-}
-
-h6 {
-  font-size: $font-size-normal;
-}
-
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
-[data-font*="title"] {
+h4 {
   font-family: $font-title;
   text-transform: uppercase;
   color: $color-default-text-hl;
 }
 
 h4,
-h5,
-h6,
 [data-font~="semibold"] {
   font-weight: 600;
 }
@@ -130,9 +113,7 @@ h1,
   font-weight: 800;
 }
 
-h4,
-h5,
-h6 {
+h4 {
   margin-top: $spacing-tiny;
   margin-bottom: $spacing-tiny;
 }
@@ -241,9 +222,7 @@ header {
   h1,
   h2,
   h3,
-  h4,
-  h5,
-  h6 {
+  h4 {
     color: $color-dark-text-hl;
   }
 

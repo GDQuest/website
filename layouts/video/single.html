@@ -36,13 +36,13 @@
                 {{ $res := union (where . "ResourceType" "ne" "image") (where . "ResourceType" "eq" "image") }}
                 {{ range $res }}
                 {{ if eq .ResourceType "image" }}
-                <h6>{{ .Name }}</h6>
+                <small>{{ .Name }}</small>
                 <a download href="{{ .Permalink }}">
                     <img loading="lazy" src="{{ .Permalink }}" alt="{{ .Name }}">
                 </a>
                 {{ else }}
                 <div class="flex justify-space-between align-items-center">
-                    <h6>{{ .Name }}</h6>
+                    <small>{{ .Name }}</small>
                     <a download href="{{ .Permalink }}" class="button-link">download</a>
                 </div>
                 {{ end }}
