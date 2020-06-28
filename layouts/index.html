@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<section class="margin-v-base darkbg">
+<section class="darkbg">
     <div class="content-container padding-v-base">
         <h3 data-font="centered">Watch hundreds of free tutorials</h3>
         <div class="content-grid">
@@ -44,52 +44,26 @@
     </div>
 </section>
 
-<section class="margin-top-base">
+<section>
     <div class="content-container padding-v-base" data-font="centered">
         <h3>Work with the most advanced Free Software</h3>
         <div class="content-grid margin-v-base">
+            {{ range $.Site.Data.homepage }}
             <div class="item -span2">
                 <div class="card-box -small">
                     <div class="content -darkbg">
-                        <img loading="lazy" src="/img/home/godot_logo.png" alt="godot logo" class="card-image -small -contain" >
+                        <img loading="lazy" src="{{ .logo }}" alt="{{ .name }} logo" class="card-image -small -contain" >
                     </div>
                     <div class="content">
-                        <h4>Godot</h4>
-                        <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
+                        <h4>{{ .name }}</h4>
+                        <p>{{ .description }}</p>
                         <div>
-                            <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button-link">Learn more</a>
+                            <a href="{{ .url }}" class="button-link">Learn more</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item -span2">
-                <div class="card-box -small">
-                    <div class="content -darkbg">
-                        <img loading="lazy" src="/img/home/krita_logo.png" alt="krita logo" class="card-image -small -contain">
-                    </div>
-                    <div class="content">
-                        <h4>Krita</h4>
-                        <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
-                        <div>
-                            <a href="https://www.youtube.com/watch?v=ZbnQn6h4q0g" class="button-link">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item -span2">
-                <div class="card-box -small">
-                    <div class="content -darkbg">
-                        <img loading="lazy" src="/img/home/blender_logo.png" alt="blender logo" class="card-image -small -contain">
-                    </div>
-                    <div class="content">
-                        <h4>blender</h4>
-                        <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
-                        <div>
-                            <a href="https://blender.org/" class="button-link">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
 </section>
@@ -114,7 +88,7 @@
 <section data-font="centered">
     <div class="content-container">
         <h2>Meet the team</h2>
-        <p>GDQuest is a Free Software project led by an international team of passionate developers and tutors.</p>
+        <p>GDQuest is a Free Software project led by an international team of experienced developers and tutors.</p>
         <div class="content-grid -columns5">
             {{ partial "modules/team_members" . }}
         </div>

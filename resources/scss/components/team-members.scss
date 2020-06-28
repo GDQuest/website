@@ -39,6 +39,10 @@
   }
 }
 
+.social-links {
+  margin: 0.4rem;
+}
+
 @include mobile {
   .team-members {
     grid-template: "a b";

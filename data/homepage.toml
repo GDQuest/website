@@ -1,0 +1,20 @@
+[godot]
+
+name = "Godot"
+logo = "/img/home/godot_logo.png"
+description = "Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers."
+url = "https://www.youtube.com/watch?v=qVl3BYY6zaQ"
+
+[krita]
+
+name = "Krita"
+logo = "/img/home/krita_logo.png"
+description = "Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone."
+url = "https://www.youtube.com/watch?v=ZbnQn6h4q0g"
+
+[blender]
+
+name = "Blender"
+logo = "/img/home/blender_logo.png"
+description = "Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace."
+url = "https://blender.org/"
