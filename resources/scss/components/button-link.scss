@@ -74,10 +74,7 @@
     display: none;
   }
 
-}
-
-@include mobile {
-  .button-link {
+  @include tablet {
     &.-mobileonly {
       display: inline-block;
     }

@@ -62,7 +62,7 @@ $icon-width: 48px;
   margin-bottom: auto;
 }
 
-@include mobile {
+@include tablet {
   .nav-tutorial {
     top: 0;
     left: 0;
@@ -82,7 +82,12 @@ $icon-width: 48px;
       }
     }
 
+    @include tablet {
+
     > .list {
+      max-width: 480px;
+      margin: auto;
+    }
     }
   }
 }

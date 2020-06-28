@@ -35,6 +35,10 @@
 
     > .item {
       margin-bottom: $spacing-base;
+
+      &.-mobileunmargin {
+        margin-bottom: 0;
+      }
     }
 
     > .item:last-child {
