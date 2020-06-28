@@ -1,11 +1,11 @@
 {{ $team_members := slice "nathan" "henrique" "razvan" "razoric" "johnny" }}
-<section class="team-members">
-    {{ range $team_members }}
-    {{ $author := index $.Site.Data.authors . }}
+{{ range $team_members }}
+{{ $author := index $.Site.Data.authors . }}
+<div class="item -span1">
     <article class="team-card">
         <div class="avatar" style="background-image: url({{ $author.picture | absURL }});"></div>
         <header class="name">{{ $author.name }}</header>
         <p class="role">{{ $author.role }}</p>
     </article>
-    {{ end }}
-</section>
+</div>
+{{ end }}

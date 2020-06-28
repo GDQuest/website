@@ -8,11 +8,19 @@
       grid-auto-rows: max-content;
       justify-items: center;
 
+      &.-columns5 {
+        grid-template-columns: repeat(5, minmax(100px, 1fr));
+      }
+
       > .item {
         grid-column: span 3;
 
         &.-center {
           grid-column: 2 / span 4;
+        }
+
+        &.-span1 {
+          grid-column: span 1;
         }
 
         &.-span2 {

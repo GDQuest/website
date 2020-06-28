@@ -15,7 +15,7 @@
 
 {{ define "main" }}
 <section class="content-container margin-v-base">
-    <h3 data-font="centered">latest news</h3>
+    <h3 data-font="centered">Latest news</h3>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         <div class="item">
@@ -45,52 +45,76 @@
 </section>
 
 <section>
-    <div class="content-container">
-        <h3 data-font="centered">Work with the most advanced Free Software</h3>
-        <div class="content-grid margin-v-base" data-font="centered">
-            <div class="item -span2">
-                <div class="card-box -small">
-                    <div class="content -darkbg">
-                        <img loading="lazy" src="/img/home/godot_logo.png" alt="godot logo" class="card-image -small -contain" >
-                    </div>
-                    <div class="content">
-                        <h4>Godot</h4>
-                        <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
-                        <div data-font="centered">
-                            <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button-link">Learn more</a>
-                        </div>
+    <div class="content-container padding-v-base">
+        <h3 data-font="centered">Get Free and Open-Source tools</h3>
+        <p data-font="centered">We develop tools and demos to help you learn to make games faster.</p>
+        <div class="content-grid">
+            {{ range first 2 (where .Site.Pages "Section" "tools") }}
+            <div class="item">
+                {{ .Render "summary" }}
+            </div>
+            {{ end }}
+        </div>
+        <div data-font="centered" class="margin-top-base">
+            <a href="/tools" class="button-link -textlight">view all</a>
+        </div>
+    </div>
+</section>
+
+<section class="content-container" data-font="centered">
+    <h3>Work with the most advanced Free Software</h3>
+    <div class="content-grid margin-v-base">
+        <div class="item -span2">
+            <div class="card-box -small">
+                <div class="content -darkbg">
+                    <img loading="lazy" src="/img/home/godot_logo.png" alt="godot logo" class="card-image -small -contain" >
+                </div>
+                <div class="content">
+                    <h4>Godot</h4>
+                    <p>Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers.</p>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=qVl3BYY6zaQ" class="button-link">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="item -span2">
-                <div class="card-box -small">
-                    <div class="content -darkbg">
-                        <img loading="lazy" src="/img/home/krita_logo.png" alt="krita logo" class="card-image -small -contain">
-                    </div>
-                    <div class="content">
-                        <h4>Krita</h4>
-                        <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
-                        <div data-font="centered">
-                            <a href="https://www.youtube.com/watch?v=ZbnQn6h4q0g" class="button-link">Learn more</a>
-                        </div>
+        </div>
+        <div class="item -span2">
+            <div class="card-box -small">
+                <div class="content -darkbg">
+                    <img loading="lazy" src="/img/home/krita_logo.png" alt="krita logo" class="card-image -small -contain">
+                </div>
+                <div class="content">
+                    <h4>Krita</h4>
+                    <p>Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone.</p>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=ZbnQn6h4q0g" class="button-link">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="item -span2">
-                <div class="card-box -small">
-                    <div class="content -darkbg">
-                        <img loading="lazy" src="/img/home/blender_logo.png" alt="blender logo" class="card-image -small -contain">
-                    </div>
-                    <div class="content">
-                        <h4>blender</h4>
-                        <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
-                        <div data-font="centered">
-                            <a href="https://blender.org/" class="button-link">Learn more</a>
-                        </div>
+        </div>
+        <div class="item -span2">
+            <div class="card-box -small">
+                <div class="content -darkbg">
+                    <img loading="lazy" src="/img/home/blender_logo.png" alt="blender logo" class="card-image -small -contain">
+                </div>
+                <div class="content">
+                    <h4>blender</h4>
+                    <p>Blender is the free and open source 3D creation suite. It covers the entire pipeline from modeling to rendering, and even includes a video editing workspace.</p>
+                    <div>
+                        <a href="https://blender.org/" class="button-link">Learn more</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section data-font="centered">
+        <h2>Meet the team</h2>
+        <p>GDQuest is a Free Software project lead by an international team of passionate developers and tutors.</p>
+        <div class="content-grid -columns5">
+            {{ partial "modules/team_members" . }}
+        </div>
+    </section>
 </section>
+
 {{ end }}
