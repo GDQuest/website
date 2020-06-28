@@ -61,6 +61,11 @@ $screen-size-min-tablet: 760px;
   background-position: center;
 }
 
+@mixin dark-background {
+  background-color: $color-dark-base;
+  color: $color-dark-text;
+}
+
 @mixin tablet {
   @media screen and (max-width: $screen-size-min-desktop) {
     @content;

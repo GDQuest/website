@@ -1,0 +1,25 @@
+// Base skeleton of the page, used in the baseof.html template file
+.page-base {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+
+    > .header {
+        background-color: transparent;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+    .footer {
+        display: flex;
+        min-height: 60px;
+        @include dark-background
+    }
+}
+
+.footer-content {
+    display: block;
+    margin: auto
+}

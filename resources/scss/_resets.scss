@@ -42,6 +42,7 @@ body {
   font-size: $font-size-normal;
   background-color: $color-dark-base;
 
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -251,18 +252,14 @@ header {
   }
 }
 
-a,
-.darkbg a,
-.darkbg a .icon {
+a {
   text-decoration: none;
   color: $color-link;
 
   transition: 0.3s ease-in-out;
 }
 
-a:hover,
-a.icon:hover,
-a:hover .icon {
+a:hover {
   color: $color-link-hover;
 }
 
@@ -404,9 +401,4 @@ li.current {
   h3 {
     font-size: $font-size-h3 * 0.8;
   }
-}
-
-// FIXME: remove
-#header {
-  background-color: transparent;
 }
