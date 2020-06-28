@@ -7,7 +7,7 @@ date = "2017-04-10T13:40:07+02:00"
 paginate = false
 
 [banner]
-src = "img/social-banner.png"
+src = "/img/social-banner.png"
 alt = "Godot course update 4 banner showing characters on a tiles-based map"
 +++
 

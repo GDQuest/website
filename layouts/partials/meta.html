@@ -28,23 +28,26 @@
         {{ end }}
     {{ end }}
 
-    <!-- TWITTER CARD -->
-    <meta name="twitter:title" content="{{ .Title }}" />
-    <meta name="twitter:description" content="{{ .Description }}" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
-
-    {{ if isset .Params "banner" }}
-    <meta property="og:image" content="{{ .Params.banner.src }}" />
-    <meta name="twitter:image" content="{{ .Params.banner.src }}">
-    {{ else }}
-        {{ with (.Resources.GetMatch "banner") }}
-        <meta property="og:image" content="{{ .Permalink }}" />
-        <meta name="twitter:image" content="{{ .Permalink }}">
-        {{ end }}
-    {{ end }}
 {{ else }}
 <meta property="og:type" content="website" />
 {{ end }}
+
+<!-- TWITTER CARD -->
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ .Description }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+
+{{ $banner := "/img/social-banner.png" }}
+{{ if isset .Params "banner" }}
+{{ $banner = .Params.banner.src }}
+{{ else }}
+    {{ with (.Resources.GetMatch "banner") }}
+    {{ $banner = .Permalink }}
+    {{ end }}
+{{ end }}
+
+<meta property="og:image" content="{{ $banner }}" />
+<meta name="twitter:image" content="{{ $banner }}">
 
 {{ hugo.Generator }}
