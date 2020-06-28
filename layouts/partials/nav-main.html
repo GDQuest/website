@@ -1,24 +1,31 @@
-<div class="nav-main">
+<script type="text/javascript">
+ // Toggle adding the "-open" variant to the mobile menu button in the main navigation bar
+ function navToggleMenu(navElement) {
+     navElement.classList.toggle("-open");
+ }
+</script>
+
+<nav role="navigation" class="nav-main">
     <a href="{{.Site.BaseURL}}" class="logo"><img loading="lazy" src="/img/gdquest-logo.svg" alt="GDQuest logo" /></a>
-    <a href="javascript:void(0);" class="menu" onclick="navToggleMenu()">
+    <a href="javascript:void(0);" class="menu" onclick="navToggleMenu(this.parentNode)">
         <i class="fa fa-bars"></i>
     </a>
-    <nav class="links">
+    <div class="links">
         {{ $currentNode := . }}
         {{ range .Site.Menus.main }}
         <a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{ end }} href="{{ .URL }}">
             {{ .Name }}
         </a>
         {{ end }}
-    </nav>
-    <nav class="links -social">
+    </div>
+    <div class="links -social">
         {{ range .Site.Params.social }}
         <a target="_blank" href="{{ .link }}" rel="noopener">
             <i class="fab fa-{{ .icon }}" title="{{ .description }}"></i>
         </a>
         {{ end }}
-    </nav>
-    <a target="_blank" rel="noopener" href="{{ .Site.Params.shop_link.url }}" class="links button-link -yellow">
+    </div>
+    <a target="_blank" rel="noopener" href="{{ .Site.Params.shop_link.url }}" class="links -shop button-link -yellow">
         {{ .Site.Params.shop_link.name }}
     </a>
-</div>
+</nav>

@@ -9,6 +9,7 @@
   font-family: $font-title;
   text-transform: uppercase;
   color: $color-default-text-hl;
+  text-shadow: $shadow-tiny;
 
   > .logo {
     > * {
@@ -16,16 +17,39 @@
     }
   }
 
+  > .menu {
+    display: none;
+    margin: 1rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+
   > .links {
     justify-content: space-between;
     display: inline-block;
     margin-left: 2rem;
+
     font-size: $font-size-normal;
     font-weight: bold;
 
     user-select: none;
 
-    * {
+    > a {
+      margin-left: $spacing-small;
+    }
+
+    &.-social {
+      margin-left: auto;
+      margin-right: 2rem;
+
+      filter: drop-shadow($shadow-tiny);
+    }
+
+    &.-shop {
+      text-shadow: none;
+    }
+
+    > * {
       display: inline-block;
     }
 
@@ -36,21 +60,6 @@
         color: $color-accent-opt-base;
       }
     }
-  }
-  > .links > a {
-    margin-left: $spacing-small;
-  }
-
-  > .-social {
-    margin-left: auto;
-    margin-right: 2rem;
-  }
-
-  > .menu {
-    display: none;
-    margin: 1rem;
-    font-size: 1.6rem;
-    color: white;
   }
 }
 
