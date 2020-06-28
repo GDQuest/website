@@ -16,4 +16,8 @@ $color-gradient-end: #6423d3;
   z-index: -1;
   background-image: url(/img/header-home-background.svg),
     linear-gradient(to left, $color-gradient-start, $color-gradient-end);
+
+  @include tablet {
+    height: 75vh;
+  }
 }
