@@ -16,7 +16,7 @@ $size: 40px;
   width: $size;
   height: $size;
 
-  > .bun {
+  > .outerlines {
     &:before {
       @include pill();
       top: 10%;
@@ -29,7 +29,7 @@ $size: 40px;
       left: 0;
     }
 
-    > .burger {
+    > .centerlines {
       position: absolute;
       display: flex;
       align-items: center;
@@ -52,7 +52,7 @@ $size: 40px;
     height: $size;
     cursor: pointer;
 
-    &:hover ~ .bun {
+    &:hover ~ .outerlines {
       &:before,
       &:after,
       :before,
@@ -61,13 +61,13 @@ $size: 40px;
       }
     }
 
-    &:checked ~ .bun {
+    &:checked ~ .outerlines {
       &:before,
       &:after {
         width: 0;
       }
 
-      .burger {
+      .centerlines {
         &:before {
           transform: rotate(135deg);
         }
