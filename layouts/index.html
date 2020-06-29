@@ -18,7 +18,7 @@
     <h3 data-font="centered">Latest news</h3>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
-        <div class="item">
+        <div class="item -fill">
             {{ .Render "summary" }}
         </div>
         {{ end }}
@@ -33,7 +33,7 @@
         <h3 data-font="centered">Watch hundreds of free tutorials</h3>
         <div class="content-grid">
             {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
-            <div class="item">
+            <div class="item -fill">
                 {{ .Render "summary" }}
             </div>
             {{ end }}
@@ -49,7 +49,7 @@
         <h3>Work with the most advanced Free Software</h3>
         <div class="content-grid margin-v-base">
             {{ range $.Site.Data.homepage }}
-            <div class="item -span2">
+            <div class="item -span2 -fill">
                 <div class="card-box -small">
                     <div class="content -darkbg">
                         <img loading="lazy" src="{{ .logo }}" alt="{{ .name }} logo" class="card-image -small -contain" >
@@ -74,7 +74,7 @@
         <p data-font="centered">We develop tools and demos to help you learn to make games faster.</p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
-            <div class="item">
+            <div class="item -fill">
                 {{ .Render "summary" }}
             </div>
             {{ end }}
