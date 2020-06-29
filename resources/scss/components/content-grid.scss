@@ -45,6 +45,21 @@
     flex-flow: column;
     align-items: center;
 
+    &.-mobilerow {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+
+      > .item {
+        margin-left: $spacing-micro;
+        margin-right: $spacing-micro;
+      }
+
+      > .item:last-child{
+        margin-bottom: $spacing-base;
+      }
+    }
+
     > .item {
       margin-bottom: $spacing-base;
 

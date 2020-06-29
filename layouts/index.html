@@ -89,8 +89,25 @@
     <div class="content-container">
         <h2>Meet the team</h2>
         <p>GDQuest is a Free Software project led by an international team of experienced developers and tutors.</p>
-        <div class="content-grid -columns5">
+        <div class="content-grid -columns5 -mobilerow">
             {{ partial "modules/team_members" . }}
+        </div>
+        <hr class="margin-v-base"/>
+        <div class="margin-v-base">
+            <h2>Ready to get started?</h2>
+            <p class="subtitle">Take your <strong>game creation skills</strong> to the next level <strong>for free</strong></p>
+            <a href="/start-here" class="button-link -yellow -shadow">Get started</a>
+        </div>
+    </div>
+</section>
+
+<hr class="margin-v-base"/>
+<section>
+    <div class="content-container">
+        <div class="content-grid">
+            <div class="item -center">
+                {{ partial "components/mailing-signup" . }}
+            </div>
         </div>
     </div>
 </section>

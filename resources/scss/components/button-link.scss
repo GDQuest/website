@@ -22,6 +22,10 @@
     color: $color-accent-main-text;
   }
 
+  &.-shadow {
+    box-shadow: $shadow-tiny;
+  }
+
   &.-yellow {
     background-color: $color-accent-opt-base;
     color: $color-dark-base;
