@@ -2,7 +2,7 @@
 <!-- Arguments: (dict "context" . "is_summary" bool) -->
 {{ $banner_src := "" }}
 
-{{ if isset .context "banner" }}
+{{ if isset .context.Params "banner" }}
 {{ $banner_src = .context.Params.banner.src }}
 {{ else }}
     {{ with (.context.Resources.GetMatch "banner") }}
