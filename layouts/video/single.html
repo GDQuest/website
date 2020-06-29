@@ -20,7 +20,7 @@
     {{ partial "components/nav-tutorial" . }}
 
     <article class="blog-post padding-v-base big">
-        {{ partial "components/banner-image" . }}
+        {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
 
         {{ with .Params.videoid }}
         {{ partial "modules/video_youtube" . }}

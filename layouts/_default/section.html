@@ -5,7 +5,7 @@
 {{ define "main" }}
 <section class="content-container padding-v-base">
     <article>
-        {{ partial "components/banner-image" . }}
+        {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
         {{ .Content }}
 
         {{ if and .Paginator.Pages (or (and (isset .Params "paginate") .Params.paginate) (not (isset .Params "paginate"))) }}

@@ -1,7 +1,7 @@
 <div class="card-box">
     {{ $url := .Permalink }}
 
-    {{ partial "components/banner-image" . }}
+    {{ partial "components/banner-image" (dict "context" . "is_summary" true) }}
 
     <div class="content">
         <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>

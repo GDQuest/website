@@ -1,5 +1,5 @@
 <article class="blog-post">
-    {{ partial "components/banner-image" . }}
+    {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
     {{ partial "table-of-contents" . }}
     {{ .Content }}
     <div class="flex flex-horizontal">

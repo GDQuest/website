@@ -7,7 +7,7 @@
     {{ if not (isset .Params "remove_menu") }}
     {{ partial "components/nav-tutorial" .CurrentSection }}
     <article class="blog-post padding-v-base">
-        {{ partialCached "components/banner-image" . .CurrentSection }}
+        {{ partialCached "components/banner-image" (dict "context" . "is_summary" false) .CurrentSection }}
         {{.Content}}
     </article>
     {{ else }}

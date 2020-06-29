@@ -1,14 +1,19 @@
 <!-- Banner image to display at the top of blog posts, tutorials, and other articles -->
+<!-- Arguments: (dict "context" . "is_summary" bool) -->
 {{ $banner_src := "" }}
 
-{{ if isset .Params "banner" }}
-{{ $banner_src = .Params.banner.src }}
+{{ if isset .context "banner" }}
+{{ $banner_src = .context.Params.banner.src }}
 {{ else }}
-{{ with (.Resources.GetMatch "banner") }}
-{{ $banner_src = .Permalink }}
-{{ end }}
+    {{ with (.context.Resources.GetMatch "banner") }}
+    {{ $banner_src = .Permalink }}
+    {{ end }}
 {{ end }}
 
-{{ with $banner_src }}
-<img loading="lazy" src="{{ . }}" alt="Banner image">
+{{ if ne $banner_src "" }}
+{{ if .is_summary }}
+<a href="{{ .context.Permalink }}"><img loading="lazy" src="{{ $banner_src }}" alt="Banner image"></a>
+{{ else }}
+<img loading="lazy" src="{{ $banner_src }}" alt="Banner image">
+{{ end }}
 {{ end }}
