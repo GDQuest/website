@@ -1,5 +1,9 @@
 <div class="card-box">
-    {{ if .Get "img" }}<img loading="lazy" src="{{ .Get "img" }}" alt="{{ with .Get "alt" }}{{ . }}{{ else }}Featured picture{{ end }}" class="card-image">{{ end }}
+    {{ if .Get "img" }}
+    {{ with .Get "url" }}<a href="{{ . }}">{{ end }}
+    <img loading="lazy" src="{{ .Get "img" }}" alt="{{ with .Get "alt" }}{{ . }}{{ else }}Featured picture{{ end }}" class="card-image">
+    {{ with .Get "url" }}</a>{{ end }}
+    {{ end }}
 
     <div class="content">
         {{ with .Get "title" }}<h4 class="title" >{{ . }}</h4>{{ end }}

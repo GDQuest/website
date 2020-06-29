@@ -9,7 +9,7 @@ date = 2020-06-21T08:41:31-06:00
 weight = 5
 
 [banner]
-src = "/about/img/social-banner.png"
+src = "/img/social-banner.png"
 +++
 
 Do you want to **become a game developer**? You came to the right place!
@@ -23,7 +23,7 @@ This page is here to get you started with the tutorials that **best fit your nee
 <div class="item">
 {{< card-box 
 img="/tutorial/godot/learning-paths/beginner/banner.jpg"
-title="I am new to programming" 
+title="I am new to code" 
 url="/tutorial/godot/learning-paths/beginner/" 
 urlText="Beginner's path" >}}
 **How do I get started?**

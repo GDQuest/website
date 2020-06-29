@@ -1,6 +1,6 @@
 # GDQuest.com
 
-![Website banner image](content/about/img/social-banner.png)
+![Website banner image](static/img/social-banner.png)
 
 This is the complete source code for [GDQuest.com](http://gdquest.com/). The website is entirely open-source.
 
