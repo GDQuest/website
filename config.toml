@@ -98,6 +98,12 @@ link = "//github.com/GDQuest/"
 icon = "github"
 description = "GDQuest GitHub page"
 
+[[params.social]]
+link = "https://discord.gg/CHYVgar"
+icon = "discord"
+description = "GDQuest community on Discord"
+
+
 # NOTE: from hugo 0.60.0 the default markdown formatter is Goldmark
 [markup.blackfriday]
 angledQuotes = true
