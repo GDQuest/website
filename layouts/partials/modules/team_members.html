@@ -5,15 +5,7 @@
     <article class="team-card">
         <div class="avatar" style="background-image: url({{ $author.picture | absURL }});"></div>
         <header class="name">{{ $author.name }}</header>
-        {{ with $author.social }}
-        <div class="social-links">
-            {{ range . }}
-            <a href="{{ .url }}" title="{{ .name }} page" class="icon" target="_blank" rel="noopener">
-                <i class="fab fa-{{ .icon }}"></i>
-            </a>
-            {{ end }}
-        </div>
-        {{ end }}
+        {{ with $author.social }} {{ partial "components/social-links" . }} {{ end }}
         <p class="role">{{ $author.role }}</p>
     </article>
 </div>

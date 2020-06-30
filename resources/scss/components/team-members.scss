@@ -41,6 +41,18 @@
 
 .social-links {
   margin: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  > .icon {
+    font-size: $font-size-h5;
+    margin-right: 0.2rem;
+  }
+
+  > .icon:last-child {
+    margin-right: 0;
+  }
 }
 
 @include mobile {

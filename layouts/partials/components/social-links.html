@@ -1,0 +1,9 @@
+<!-- List of social links -->
+<!-- Arguments: an array of maps with { url, name, icon } -->
+<div class="social-links">
+    {{ range . }}
+    <a href="{{ .url }}" title="{{ .name }} page" class="icon" target="_blank" rel="noopener">
+        <i class="fab fa-{{ .icon }}"></i>
+    </a>
+    {{ end }}
+</div>
