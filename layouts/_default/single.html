@@ -8,11 +8,12 @@
     {{ end }}
     {{ end }}
 </div>
-</div>
 {{ end }}
 
 {{ define "main" }}
-<section class="content-container">
-    {{ partial "components/blog-post" . }}
+<section class="content-container padding-v-base">
+    <article class="blog-post">
+        {{ .Content }}
+    </article>
 </section>
 {{ end }}
