@@ -30,7 +30,7 @@ Found a bug, a typo? Feel free to fix it or [open a new issue](issues/new) for i
 
 Get in touch:
 
-- Join the community on [Discord](https://discord.gg/CHYVgar)
+- Join the community on [Discord](https://discord.gg/87NNb3Z)
 - You can also find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
 ## Licenses

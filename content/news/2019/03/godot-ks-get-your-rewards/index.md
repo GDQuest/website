@@ -68,7 +68,7 @@ If you want to chat, discuss game development, get support, the best place to do
 
 ### Join the community on Discord
 
-The team and the GDQuest community are active on [Discord](//discord.gg/CHYVgar)! If you have any questions, this is the best place to ask as, when I'm not around, other game developers will be there to chat or to help.
+The team and the GDQuest community are active on [Discord](//discord.gg/87NNb3Z)! If you have any questions, this is the best place to ask as, when I'm not around, other game developers will be there to chat or to help.
 
 ### Twitter and email
 

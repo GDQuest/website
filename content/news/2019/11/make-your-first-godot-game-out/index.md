@@ -65,7 +65,7 @@ Finally, we have [Johnny](//twitter.com/johnnygossdev) in the team who is re-cre
 
 Right now, I am a bit torn between working on the next 2D course, as the code is still relatively fresh in my mind, or doing the 3D mannequin for those of you who are waiting for 3D content. I guess I could bounce between the two, which would help keep work fresh: when you spend months on a course project you can get a bit of fatigue.
 
-In any case, I'm getting to a new course, and I'll keep you posted with our progress on [Twitter](//twitter.com/NathanGDQuest) and [Discord](//discord.gg/CHYVgar).
+In any case, I'm getting to a new course, and I'll keep you posted with our progress on [Twitter](//twitter.com/NathanGDQuest) and [Discord](//discord.gg/87NNb3Z).
 
 But with that, I'll get back to it. See you in the next update!
 

@@ -27,7 +27,7 @@ In my experience emails aren't a great way to keep people up to date. Sometimes 
 
 Firstly, we are doing all of our work [on GitHub](//github.com/GDQuest/), in the open. You can track our activity on the projects' code there.
 
-I am active on [Twitter](//twitter.com/NathanGDQuest), on [YouTube](//www.youtube.com/c/gdquest/), and we have a [Discord server](//discord.gg/uzSR7jB). You can get news or get in touch using any of these three channels.
+I am active on [Twitter](//twitter.com/NathanGDQuest), on [YouTube](//www.youtube.com/c/gdquest/), and we have a [Discord server](//discord.gg/87NNb3Z). You can get news or get in touch using any of these three channels.
 
 ### Does my PayPal pledge contribute to the stretch goals?
 

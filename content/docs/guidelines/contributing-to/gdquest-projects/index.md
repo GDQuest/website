@@ -56,7 +56,7 @@ We are here to review your Work-in-Progress (WIP) code, to help if you have any 
 
 If you want to work on an open issue, make sure that you understand it well by asking for all the information you need in order to tackle it efficiently.
 
-You can also get in touch on the [GDQuest Discord server](//discord.gg/uzSR7jB).
+You can also get in touch on the [GDQuest Discord server](//discord.gg/87NNb3Z).
 
 ## Code style ##
 

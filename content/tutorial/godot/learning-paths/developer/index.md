@@ -22,7 +22,7 @@ We gathered a curated list of resources to make your life easier if you want to 
 
 _For a beginner-friendly introduction to game development with the [Godot game engine](//godotengine.org/), check out the [beginner edition]({{< ref "/tutorial/godot/learning-paths/beginner/index.md" >}}) of this guide._
 
-You're also welcome to [join the GDQuest Discord community](//discord.gg/CHYVgar) to get in touch with fellow game developers.
+You're also welcome to [join the GDQuest Discord community](//discord.gg/87NNb3Z) to get in touch with fellow game developers.
 
 ## Making games with Godot
 

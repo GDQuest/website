@@ -43,7 +43,7 @@ We are also publishing new free tutorials every day during the Kickstarter! So m
 
 If you haven't already, check the [Kickstarter campaign's page](//www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng/). You will find more details there.
 
-Then, I'm here to help. You can reach me [on Twitter](//twitter.com/NathanGDQuest), leave comments [on YouTube](//www.youtube.com/c/gdquest/), or come chat with the community on the [GDQuest Discord server](//discord.gg/CHYVgar).
+Then, I'm here to help. You can reach me [on Twitter](//twitter.com/NathanGDQuest), leave comments [on YouTube](//www.youtube.com/c/gdquest/), or come chat with the community on the [GDQuest Discord server](//discord.gg/87NNb3Z).
 
 Even if you can't back us, a successful campaign will allow us to create more content for the official documentation, and more Free resources. So please consider sharing the word! It's essential for us to keep going.
 

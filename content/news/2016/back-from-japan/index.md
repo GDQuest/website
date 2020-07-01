@@ -51,7 +51,7 @@ Come chat with the community on Discord!
 {{< card-box 
     img="/tutorial/godot/learning-paths/beginner/banner.jpg"
     title="I am new to programming" 
-    url="//discord.gg/KVaCsSP" 
+    url="//discord.gg/87NNb3Z" 
     urlText="Join the Discord server" >}}
 I’ve opened a server on Discord for everyone in the community to join and talk about game creation with open source programs.
 Whether you just want to drop by and say hi, showcase your artwork or share your knowledge about Krita and Godot, you’re

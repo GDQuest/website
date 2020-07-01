@@ -43,11 +43,11 @@ Our concept and mission evolved progressively. First, [Krita](//krita.org/en/) a
 
 ## Get in touch
 
-If you're looking for help with a given program, head to our [Discord](//discord.gg/KVaCsSP) server!
+If you're looking for help with a given program, head to our [Discord](//discord.gg/87NNb3Z) server!
 
 In general, you can find us on:
 
-- [Discord](//discord.gg/KVaCsSP), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
+- [Discord](//discord.gg/87NNb3Z), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
 - [Twitter](//twitter.com/NathanGDQuest) is a popular social network for game developers.
 
 ## Meet the team
