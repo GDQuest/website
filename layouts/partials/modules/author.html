@@ -1,4 +1,5 @@
 {{ with .Params.author }}
+{{ $author := . }}
 {{ with (index $.Site.Data.authors . ) }}
 <div class="card-box -dark _unmargin flex horizontal -profile">
     <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
@@ -6,7 +7,7 @@
     <div class="content">
         <h3 class="title _unmargin" data-font="ultrabold capitalize">{{ .name }}</h3>
 
-        {{ with .social }} {{ partial "components/social-links" . }} {{ end }}
+        {{ with .social }} {{ partialCached "components/social-links" (dict "data" .) $author }} {{ end }}
 
         {{ with .description }}
         <p>{{ . }}</p>

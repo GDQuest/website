@@ -43,7 +43,10 @@
   margin: 0.4rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
+  &.-center {
+    justify-content: center;
+  }
 
   > .icon {
     font-size: $font-size-h5;
