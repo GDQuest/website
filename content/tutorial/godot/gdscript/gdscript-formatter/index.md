@@ -17,7 +17,7 @@ tags = []
 
 Godot 3.2 is lacking a code formatter for GDScript. Formatting your code by hand is a time-consuming process, time you could instead use to code some more.
 
-Thankfully, Pawel Lampe wrote a Python program to save the day, and that's what we're looking at in this short tutorial.
+Thankfully, [Pawel Lampe](https://twitter.com/pawel_lampe) wrote a Python program to save the day, and that's what we're looking at in this short tutorial.
 
 {{% note %}}
 A code formatter, also called beautifier, is a program that take your source code and tidies it up for you. 
