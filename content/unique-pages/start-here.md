@@ -8,6 +8,8 @@ type = "news"
 date = 2020-06-21T08:41:31-06:00
 weight = 5
 
+url = "start-here"
+
 [banner]
 src = "/img/social-banner.png"
 +++
