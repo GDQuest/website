@@ -41,6 +41,16 @@
     box-shadow: none;
   }
 
+  &.-large {
+    font-size: large;
+  }
+
+  &.-center {
+    display: block;
+    margin: auto;
+    max-width: max-content;
+  }
+
   &.-textlight {
     color: $color-accent-main-text;
   }

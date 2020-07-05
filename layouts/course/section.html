@@ -29,6 +29,11 @@
                 {{ .Content }}
                 {{ end }}
 
+                {{ range ( first 1 (where .Sections "Type" "course_chapter") ) }}
+                    {{ range (first 1 .RegularPages.ByWeight) }}
+                    <a class="button-link -center -large" style="display: block; margin: auto" href="{{ .Permalink }}">Start now</a>
+                    {{ end }}
+                {{ end }}
             </div>
         </div>
     </div>
