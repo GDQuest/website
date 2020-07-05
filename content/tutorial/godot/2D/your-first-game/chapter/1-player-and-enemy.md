@@ -4,6 +4,8 @@ author = "nathan"
 date = "2020-06-20"
 description = "Learn to code the player and enemy of our 2D game from scratch."
 
+weight = 1
+
 type = "video"
 videoid = "Mc13Z2gboEk"
 +++
