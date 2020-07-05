@@ -42,7 +42,17 @@ While this is a step-by-step course, you should know:
 
 ## Extended edition
 
-We have a **premium edition** of this course with **extra lessons**, assignments, questions and answers, and more:
+We have a **premium edition** of this course with **extra lessons**, assignments, questions and answers, and more. In the extended version, you will learn to:
 
-{{< calltoaction url="https://gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition" text="Get the extended edition" >}}
+- Add 2D lights to your levels.
+- Create bumpers to jump high.
+- Add slope support.
+- Use UI themes to improve the look of your interface.
 
+{{< calltoaction url="https://gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition" text="Get the extended edition" class="-yellow" >}}
+
+_The extended edition supports our work creating Free Godot courses and open-source demos._
+
+## Start the course now
+
+Click the button below to start the course:

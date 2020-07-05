@@ -1,5 +1,5 @@
 <div data-font="centered" class="padding-v-tiny">
-    <a href="{{ with .Get "url"}}{{ . }}{{ else }}{{ .Get 0 }}{{ end }}" target="_blank" rel="noopener" class="button-link">
+    <a href="{{ with .Get "url"}}{{ . }}{{ else }}{{ .Get 0 }}{{ end }}" target="_blank" rel="noopener" class="button-link {{ with .Get "class" }}{{ . }}{{ end }}">
         {{ with .Get "text"}}{{ . }}{{ else }}{{ .Get 1 }}{{ end }}
     </a>
 </div>
