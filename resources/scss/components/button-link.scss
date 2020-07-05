@@ -35,11 +35,6 @@
     color: $color-dark-base;
   }
 
-  &.full {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
   &.-flat {
     background: none;
     color: $color-link;

@@ -29,32 +29,6 @@
                 {{ .Content }}
                 {{ end }}
 
-                <!-- Video list -->
-                <ol class="collection">
-                    {{ range ( where .Sections "Type" "course_chapter" ) }}
-                    <h2 id="{{ replace .Params.title " " "-" }}" class="_unmargin"> {{ .Params.title }} </h2>
-                    {{ range ( where .RegularPages "Type" "video" ).ByDate }}
-                    <li class="item">
-                        {{ if (isset .Params "videoid") }}
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                        {{ else }}
-                        {{ .Title }} <span data-font="dimmed">Upcoming</span>
-                        {{ end }}
-
-                        {{ if or (isset . "document") (isset . "exercise") }}
-                        <span>
-                            {{ if isset . "document" }}
-                            <a href="{{ .document }}"><i class="fa fa-book"></i></a>
-                            {{ end }}
-                            {{ if isset . "exercise" }}
-                            <a href="{{ .exercise }}"><i class="fa fa-file"></i></a>
-                            {{ end }}
-                        </span>
-                        {{ end }}
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                </ol>
             </div>
         </div>
     </div>
