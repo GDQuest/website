@@ -42,7 +42,7 @@
             {{ $children :=  union .Sections .RegularPages  }}
             {{ if $children }}
             <ul class="{{ if not $isActiveSection }}-folded{{ end }}">
-                {{ range $children.ByDate }}
+                {{ range $children.ByWeight }}
                 <li>
                     <div class="menu-link -child1">
                         <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
