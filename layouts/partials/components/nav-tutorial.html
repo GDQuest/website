@@ -41,7 +41,8 @@
 
             {{ $children :=  union .Sections .RegularPages  }}
             {{ if $children }}
-            <ul class="{{ if not $isActiveSection }}-folded{{ end }}">
+
+            <ul class="{{ if and (ne $currentPage.Type "course") (not $isActiveSection) }}-folded{{ end }}">
                 {{ range $children.ByWeight }}
                 <li>
                     <div class="menu-link -child1">
