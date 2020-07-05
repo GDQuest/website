@@ -23,13 +23,11 @@
     <div class="item -span4 -fill">
         <div class="card-box -bottomhalf ">
             <div class="padding-tiny">
-                {{ .Content }}
-            </div>
-
-            <hr>
-            <!-- chapter title -->
-            <div class="padding-tiny">
+                {{ if eq .Content "" }}
                 <p>{{ .Description | markdownify }}</p>
+                {{ else }}
+                {{ .Content }}
+                {{ end }}
 
                 <!-- Video list -->
                 <ol class="collection">
