@@ -27,7 +27,7 @@ You will learn to:
 - Use Godot's KinematicBody2D and Area2D nodes
 - Create levels with a tileset and tilemap
 
-![Result game screenshot](./project-screenshot.png)
+![Result game screenshot](project-screenshot.png)
 
 And more! All that in 2d. The course is compatible with **Godot 3.1+**.
 

@@ -22,7 +22,7 @@ It was a busy event: even though there were fewer visitors than at FOSDEM, peopl
 
 Julian and Gilles gave a two-hours workshop based on @KidsCanCode's [Your first game](//docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html) tutorial. With dozens of students, it was a success! Not everyone could finish in time but the response was really positive.
 
-![GDQuest in front of the screen, showcasing Godot 3](./conference-e-artsup.jpg)
+![GDQuest in front of the screen, showcasing Godot 3](conference-e-artsup.jpg)
 
 I went to Toulouse to give two presentations. They were both made with Godot 3 to show that we can create more than just games with the engine.
 
@@ -34,7 +34,7 @@ Download the presentation on GitHub:
 
 {{< calltoaction "//github.com/GDQuest/godot-3-presentation" "Godot 3 presentation" >}}
 
-![A word-cloud and a non-exhaustive list of new features in Godot 3](./new-in-godot-3.png)
+![A word-cloud and a non-exhaustive list of new features in Godot 3](new-in-godot-3.png)
 
 The big advantage of using Godot is you can play games right in the slides. Even if you're not interested in the slides themselves, you can reuse the system as a base for game development classes.
 

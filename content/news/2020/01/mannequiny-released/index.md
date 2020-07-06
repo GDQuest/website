@@ -19,7 +19,7 @@ As part of our [2019 Godot Kickstarter campaign](https://www.kickstarter.com/pro
 
 This project became Mannequiny, the Open 3D Mannequin for Godot.
 
-![Screenshot of our 3D Mannequin in the Godot editor](./screenshot.png)
+![Screenshot of our 3D Mannequin in the Godot editor](screenshot.png)
 
 It is Free and Open Source, released under the permissive MIT license. You can find it here: [Godot 3D Mannequin repository](https://github.com/GDQuest/godot-3d-mannequin/). As always, we welcome feedback and contributors!
 

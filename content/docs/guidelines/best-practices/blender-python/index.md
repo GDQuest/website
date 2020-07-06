@@ -109,7 +109,7 @@ This naming scheme makes it easy to find features in the codebase. You can searc
 
 In my code editor, searching code tags for `SEQ _OT`, I instantly get the list of all of the sequencer's operators:
 
-![spacemacs-gtags-search-operators](./imgs/spacemacs-gtags-search-operators.png)
+![spacemacs-gtags-search-operators](imgs/spacemacs-gtags-search-operators.png)
 
 Some class name examples from Blender's source code:
 

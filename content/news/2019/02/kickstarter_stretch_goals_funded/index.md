@@ -35,7 +35,7 @@ That's on top of the [free game creation tutorials](//www.youtube.com/watch?v=7O
 
 We started working on Mannequiny with Luciano. He's created a prototype for the character and the rig. I tested it and cleaned up the mesh's topology in Blender 2.8. It's not perfect but it should be good enough to get started.
 
-![Mannequiny prototype](./img/mannequiny.jpg)
+![Mannequiny prototype](img/mannequiny.jpg)
 
 From there, we're going to take our time to create a solid animated game character. Luciano worked on the amazingly animated Alita, among other feature films. I can't wait to see what he'll do with Mannequiny!
 
@@ -45,6 +45,6 @@ From there, we're going to take our time to create a solid animated game charact
 
 We promised a new video every day during the campaign: we've gone past that already. At the time of writing, our playlist contains 26 videos: [Learn 2d and 3d Game Creation with Godot: 2019 Kickstarter Tutorials](//www.youtube.com/watch?v=7OGxzJQAKmw&list=PLhqJJNjsQ7KEHh1pfBLVnLftf0of-tHQu)
 
-![GDscript intro tutorial](./img/gdscript-intro.png)
+![GDscript intro tutorial](img/gdscript-intro.png)
 
 And we're not done yet! As I write these lines, Guilherme is working on a series about Game Feel, while Henrique is editing the long Intro to GDScript and game programming. 🙂

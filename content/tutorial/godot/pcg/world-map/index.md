@@ -20,7 +20,7 @@ Objectives:
 - Modifying _GradientTexture_ for our needs to use it as a discrete color map in shaders.
 - Using basic shaders with input from GDScript.
 
-![WorldMap presentation](./images/presentation.png)
+![WorldMap presentation](images/presentation.png)
 
 ## Preparing the scene structure
 
@@ -28,14 +28,14 @@ Let's prepare the scene. Create a _Control_ Node at the root and name it WorldMa
 
 Select the two nodes, and in the toolbar, click _Layout -> Full Rect_ to make both nodes span the entire viewport.
 
-![SceneTree Init](./images/scenetree-init.png)
+![SceneTree Init](images/scenetree-init.png)
 
 Select the _HeightMap_ node and in the Inspector:
 
 1. In the _Texture_ slot, create a new _NoiseTexture_ resource and assign an _OpenSimplexNoise_ resource to the _Noise_ property.
 1. Set the _Stretch Mode_ to _Scale_, so the texture scales with the node.
 
-![HeightMap setup](./images/heightmap-setup.png)
+![HeightMap setup](images/heightmap-setup.png)
 
 Save the scene as _WorldMap.tscn_.
 
@@ -52,7 +52,7 @@ export var colormap: GradientTexture
 
 Save the script and head back to the 2D workspace (<kbd>F2</kbd>). In the Inspector, assign a _GradientTexture_ to the _Colormap_ property. Add a _Gradient_ resource to it and add a few color stops to it.
 
-![HeightMap colormap](./images/heightmap-colormap.png)
+![HeightMap colormap](images/heightmap-colormap.png)
 
 Add a new _ShaderMaterial_ to the _Material_ property. Click the newly created material to open the shader editor and use the following shader:
 
@@ -74,7 +74,7 @@ void fragment() {
 
 Copy the _Colormap_'s _GradientTexture_ resource and paste it into the _Colormap_ under _Material -> Shader Param -> Colormap_.
 
-![HeightMap colormap copy/paste](./images/heightmap-colormap-cp-1.png)
+![HeightMap colormap copy/paste](images/heightmap-colormap-cp-1.png)
 
 {{< note >}}
 The _GradientTexture_ is an object of type `Resource`. When we copy and paste it, we're copying a reference to the resource in memory rather than duplicating it. So if you update the gradient in one place, it gets updated everywhere you're using it.
@@ -148,7 +148,7 @@ It's a bit more involved and may only be beneficial for larger images. See this 
 
 Run the project now to see the difference between the visual representation in the editor viewport and the image normalized at runtime.
 
-![HeightMap colormap normalized](./images/heightmap-colormap-normalized.png)
+![HeightMap colormap normalized](images/heightmap-colormap-normalized.png)
 
 ## Getting a toon shaded look
 
@@ -191,12 +191,12 @@ material.set_shader_param("colormap", _discrete(colormap))
 
 If you run the project now you'll get a toon shading like the following:
 
-![HeightMap final toon shading](./images/heightmap-colormap-cellshaded.png)
+![HeightMap final toon shading](images/heightmap-colormap-cellshaded.png)
 
 We use the information stored in the gradient resource to create a discrete color map by expanding the color of each offset towards the right. This means that the last offset isn't taken into account. In the above image, there is no white color generated at the end of the cel-shaded _ImageTexture_.
 
 It's easier to visually explain how we generate the toon shading using the `_discrete()` function. For this reason, we included a demo scene, _GradientDiscrete.tscn_, in our open-source demo.
 
-![GradientDiscrete showcase](./images/gradient-discrete.png)
+![GradientDiscrete showcase](images/gradient-discrete.png)
 
 You can find the demo on Github, in our [Godot mini-tuts demos](https://github.com/GDQuest/godot-mini-tuts-demos). It's in the _godot/pcg/world-map/_ directory.

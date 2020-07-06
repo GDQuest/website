@@ -19,7 +19,7 @@ The last chapter of the Godot course is here! The project is now out of early ac
 
 Unlike many on-demand online courses, it is modular: you can watch the chapters in any order as they all focus on a specific topic.
 
-![Screenshot of the Godot editor with a Zelda-like game demo scene](./img/course-project-screenshot.png)
+![Screenshot of the Godot editor with a Zelda-like game demo scene](img/course-project-screenshot.png)
 
 In every series, you'll learn specific techniques like steering motion or how to code Finite State Machines, that will help you solve the many problems you'll encounter in your projects. As it's not for absolute beginners, **it's not always step-by-step either**.
 
@@ -37,7 +37,7 @@ Is it perfect? No, no course is. But I learned a lot as a tutor along the way th
 
 First, and as promised, the A-RPG game demo from the course is Free and Open Source. You can find it on GitHub: [Action-RPG Godot demo](//github.com/GDQuest/make-pro-2d-games-with-godot/)
 
-![Screenshot from the project](./img/boss-encounter-screenshot.jpg)
+![Screenshot from the project](img/boss-encounter-screenshot.jpg)
 
 Contributors are always welcome! I hope that some of you will join the adventure, help to make this demo look and feel better and that we'll get to create unique projects together moving forward 🙂
 
@@ -79,7 +79,7 @@ Godot Slides as a drag-and-drop system to create presentations with Godot 3. It 
 
 First, I'm taking some time off to travel around Kansai, Japan. I haven't visited that many places since I arrived in early March. We're going on a 3 days trip to Shiga with a close friend. Then I'm taking a week with my family who is coming to visit during the first half of November. I may not get back to your messages during that time.
 
-![Path in front of a temple's entrace](./img/temple-path.jpg)
+![Path in front of a temple's entrace](img/temple-path.jpg)
 
 ## What's coming next ##
 
@@ -95,7 +95,7 @@ I'm hoping that, over time, as the community develops, more people will join the
 
 Moving into the next project, I want to spend a bit of time focusing on the channel and doing collaborative work. Expect more tutorials and demos by the end of the year.
 
-![Sunset over Nara, Japan](./img/sunset-wakakusa.jpg)
+![Sunset over Nara, Japan](img/sunset-wakakusa.jpg)
 
 Oh, look at the clock! Time to get back to programming. 😄
 

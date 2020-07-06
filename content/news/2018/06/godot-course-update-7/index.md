@@ -22,7 +22,7 @@ This builds upon chapters 1 to 3 and brings the [state programming pattern](//ww
 
 As the boss chapter took twice the time I planned to invest in it, I couldn't finish the essentials version in May. I didn't want to cut on quality just to add more tutorials in this release.
 
-{{< video "./boss-demo.mp4" >}}
+{{< video "boss-demo.mp4" >}}
 
 ## Stretch goals
 

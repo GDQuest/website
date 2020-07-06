@@ -18,7 +18,7 @@ Welcome to our first newsletter! In it, you will find:
 
 We redesigned our website, [GDQuest.com](https://www.gdquest.com/) to be able to release **more free tutorials**, text-based ones in particular. It now offers better navigation, mobile-friendly menus, faster page loading times, and much more.
 
-![Screenshot of the shader tutorial page](./website-new-look.png)
+![Screenshot of the shader tutorial page](website-new-look.png)
 
 Here are two tutorials we released recently:
 
@@ -33,13 +33,13 @@ We've been active on GitHub with our shaders and procedural generation tools.
 
 [Godot Shaders](https://github.com/GDQuest/godot-shaders) is getting an advanced 3D toon shader material, complete with metallic and specular reflections.
 
-![Advanced toon shader screenshot](./advanced-toon-shader.png)
+![Advanced toon shader screenshot](advanced-toon-shader.png)
 
 It's a work-in-progress, but it already supports more features than the built-in toon shader. For instance, our toon objects cast shadows onto one-another.
 
 As for [procedural generation](https://github.com/GDQuest/godot-procedural-generation) algorithms, Razvan added a world map data generator with biomes, rivers, and a heatmap.
 
-![Procedural world map screenshot](./world-map-generator.png)
+![Procedural world map screenshot](world-map-generator.png)
 
 While at first glance, the result is "just an image", this is the back-bone of complex world generation. You can use those pixels as input data to produce huge 2D or 3D worlds with different biomes. Using shaders has two advantages:
 
@@ -63,7 +63,7 @@ If you make 3D games and need to animate characters, check out [Rig on the Fly](
 
 We are now using that method on the [Open 3D Mannequin](https://github.com/GDQuest/godot-3d-mannequin), allowing anyone to animate it.
 
-![Mannequiny rigged with rig on the fly in blender](./mannequiny-rig-on-the-fly.png)
+![Mannequiny rigged with rig on the fly in blender](mannequiny-rig-on-the-fly.png)
 
 ## Tips of the week
 

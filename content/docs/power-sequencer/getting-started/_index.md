@@ -50,7 +50,7 @@ Power Sequencer sets the strips it imports to use proxies automatically, based o
 1. Click the white triangle "⏴" to expand the add-on's preferences.
 1. Click on the checkboxes under "Proxy" to set sequences to use these proxy sizes by default.
 
-![Proxy preferences in the addon](./img/setting-proxy-preferences.png)
+![Proxy preferences in the addon](img/setting-proxy-preferences.png)
 
 ## Cutting and trimming ##
 
@@ -60,17 +60,17 @@ A fair part of our work as editors it to make cuts in the source footage. The ad
 
 Trim strips quickly by using the interactive trim tool <kbd>T</kbd>.
 
-{{< video "./img/trim-interactive.mp4" "706" >}}
+{{< video "img/trim-interactive.mp4" "706" >}}
 
 Tap <kbd>Shift</kbd> after entering this mode to trim all channels.
 
-{{< video "./img/trim-interactive-shift.mp4" "706" >}}
+{{< video "img/trim-interactive-shift.mp4" "706" >}}
 
 ### Three-point editing ###
 
 A quick way to remove the beginning or end of strips is to use three-point editing. Move the time cursor over the strip and press <kbd>I</kbd> to remove the left portion of the strip, or <kbd>O</kbd> to remove the right.
 
-{{< video "./img/trim-three-point.mp4" "706" >}}
+{{< video "img/trim-three-point.mp4" "706" >}}
 
 If you want to target a single strip, hover the mouse cursor over the strip before using the hotkeys.
 
@@ -81,7 +81,7 @@ Showing the waveforms of audio makes cutting silence easier. To preview audio wa
 1. Select the audio strips on which you want to see waveforms.
 2. Go to the Power Sequencer menu and click `Audio -> Toggle Waveforms` or press <kbd>Alt</kbd> <kbd>W</kbd>.
 
-{{< video "./img/audio-waveforms.mp4" "706" >}}
+{{< video "img/audio-waveforms.mp4" "706" >}}
 
 You can then use the interactive trim tool to cut your audio visually.
 
@@ -91,7 +91,7 @@ The Concatenate feature removes the gap between a selected strip and the strip t
 
 If you want to concatenate all strips on a selected channel, press <kbd>Shift</kbd> <kbd>C</kbd>. This command removes all gaps to the right of the selected strip(s).
 
-{{< video "./img/concatenate.mp4" "706" >}}
+{{< video "img/concatenate.mp4" "706" >}}
 
 ### Speeding up playback
 
@@ -115,7 +115,7 @@ Fades help to create transitions between parts of your video. There are several 
 
 To add a fade to the start and end of strips, select them, go to the Power Sequencer menu and click `Transitions -> Fade Add` or press <kbd>F</kbd>.
 
-{{< video "./img/fade-in-out.mp4" "706" >}}
+{{< video "img/fade-in-out.mp4" "706" >}}
 
 To only add a fade in at the start of strips, select the strips and press <kbd>Ctrl</kbd> <kbd>F</kbd>.
 
@@ -127,7 +127,7 @@ Use the graph editor to fine-tune fades. You can replace the hovered area with t
 
 In the graph editor, select a node and press <kbd>G</kbd>. Use the mouse to move the node around to alter the graph.
 
-{{< video "./img/fade-edit.mp4" "706" >}}
+{{< video "img/fade-edit.mp4" "706" >}}
 
 To remove any fades on a strip, click `Transitions -> Fade Clear` in the Power Sequencer menu or press <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>F</kbd> .
 
@@ -135,7 +135,7 @@ To remove any fades on a strip, click `Transitions -> Fade Clear` in the Power S
 
 Select the strip and go to the Power Sequencer menu. Click `Transitions -> Crossfade Add` or press <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>C</kbd>. This adds a crossfade between the selected strip and the strip to its right
 
-{{< video "./img/crossfade-add.mp4" "706" >}}
+{{< video "img/crossfade-add.mp4" "706" >}}
 
 For crossfades to work best, you should keep related strips in a single channel. Blender will add a gamma cross strip between two visual strips. It makes it easy to remove the crossfade later and prevents your editing board from getting messy.
 
@@ -143,7 +143,7 @@ For crossfades to work best, you should keep related strips in a single channel.
 
 To adjust the location of the crossfade between two strips, select the crossfade strip and go to `Transitions -> Crossfade Edit` in the Power Sequencer menu <kbd>G</kbd>. Drag the crossfade strip using the mouse.
 
-{{< video "./img/crossfade-edit.mp4" "706" >}}
+{{< video "img/crossfade-edit.mp4" "706" >}}
 
 To remove a crossfade, select the crossfade strip and go to `Transitions -> Crossfade Remove`. This deletes the crossfade strip and moves the handles of the strips to form a cut again.
 
@@ -164,7 +164,7 @@ To easily set the preview range:
 1. Select all strips by pressing <kbd>A</kbd>.
 2. Go to `Preview -> Preview to Selection` or press <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>P</kbd>.
 
-{{< video "./img/preview-to-selection.mp4" "706" >}}
+{{< video "img/preview-to-selection.mp4" "706" >}}
 
 ### Rendering the video ###
 

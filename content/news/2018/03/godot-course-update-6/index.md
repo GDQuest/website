@@ -61,6 +61,6 @@ Solid source code structure, many new features, improved UX, docs from the sourc
 
 We are looking to team up on a **tutorial** to help fellow tutorial makers and Blender users to learn to use its powerful video editing workspace. The tutorial will come with open source stock footage from Japan
 
-![](./cherry-blossom-trees.jpg)
+![](cherry-blossom-trees.jpg)
 
 See you soon for more content!

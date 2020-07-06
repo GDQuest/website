@@ -26,7 +26,7 @@ The first UI chapter is in both the [Indie](//gumroad.com/l/XEULZ) and [Pro](//g
 
 ## Chapter 7: Game User Interface
 
-{{< video "./gui-demo-720p.mp4" "720" >}}
+{{< video "gui-demo-720p.mp4" "720" >}}
 
 In this series, we first look at **Godot's pause system**, and how to create a simple pause menu. This gives us an opportunity to look at the reusable UI theme system. [Themes](//godot.readthedocs.io/en/3.0/tutorials/gui/gui_skinning.html?highlight=theme) are resources you can reuse across menus and across projects to save time with GUI design.
 
@@ -41,7 +41,7 @@ It builds upon our lifebar animation basics tutorial:
 
 ## Create an Inventory and an Item menu
 
-![inventory screenshot](./chapter-09-inventory-demo.png)
+![inventory screenshot](chapter-09-inventory-demo.png)
 
 The inventory series is one of the most complex ones to date in the course. Alone, it contains **17 video tutorials**!
 

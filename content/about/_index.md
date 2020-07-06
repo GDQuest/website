@@ -27,13 +27,13 @@ GDQuest is a growing library of [game creation tutorials](/tutorial) and [open-s
 
 ## The story of GDQuest
 
-![Portrait of Nathan, GDQuest founder](./img/nathan.png)
+![Portrait of Nathan, GDQuest founder](img/nathan.png)
 
 Hi, I'm Nathan, GDQuest's founder.
 
 GDQuest was initially a small YouTube channel focused on game art tutorials.
 
-![Screenshot of an old game project with rabbits](./img/rabbit-adventures-resonant-craft.jpg)
+![Screenshot of an old game project with rabbits](img/rabbit-adventures-resonant-craft.jpg)
 
 Back then, we found that a lot of the available free 2D game art videos were step-by-step, like recipes to achieve specific results. We tried to approach teaching differently: to share the techniques used by professionals game artists and the related foundations.
 

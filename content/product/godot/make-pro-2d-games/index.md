@@ -19,7 +19,7 @@ With this course, you will learn to **create the main mechanics** and systems in
 
 Unlike in many beginner courses that show how to code a specific game step-by-step, this one will teach you **professional game creation techniques** you can apply to any type of game!
 
-![Player GUI screenshot](./content/chapter-07-ui-series-screen.png)
+![Player GUI screenshot](content/chapter-07-ui-series-screen.png)
 
 > Purchasing the Pro course is the best investment I have made. I can't imagine how much time it saved me compared to trying to learn from ad-hoc tutorials.
 >
@@ -36,7 +36,7 @@ Unlike in many beginner courses that show how to code a specific game step-by-st
 1. Learn game programming techniques that **apply to any game project\***
 1. Understand how 2d games work with lessons that go beyond the surface
 
-![Inventory demo screenshot](./content/chapter-09-inventory-demo.png)
+![Inventory demo screenshot](content/chapter-09-inventory-demo.png)
 
 ## Requirements
 

@@ -42,4 +42,4 @@ We hope these changes will be merged into the official demos soon and we can sta
 
 Until then, feel free to [check out these changes](https://github.com/GDQuest/godot-kickstarter-2019/tree/master/platformer-2d-rework) and let us know what you think!
 
-[image-platformer]: ./img/platformer-2d.png
+[image-platformer]: img/platformer-2d.png

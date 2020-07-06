@@ -17,7 +17,7 @@ title = "Waiting for Godot 3: Why There Was No Course Update in September"
 
 Godot 3 is coming out much later than planned. Alpha 2 isn't even out yet. This means breaking changes keep happening on the engine. In the past few weeks alone there were important improvements to 2D physics and the UI system. The devs even renamed `_fixed_process` to `_physics_process`. Today I finished a long UI design tutorial only to learn a new Layout menu just arrived.
 
-{{< figure src="./ui_gui_step_tutorial_containers_structure.png" caption="This tutorial will show you how to create a flexible GUI in Godot" alt="GUI tutorial containers breakdown, colored frames around icons and panels" >}}
+{{< figure src="ui_gui_step_tutorial_containers_structure.png" caption="This tutorial will show you how to create a flexible GUI in Godot" alt="GUI tutorial containers breakdown, colored frames around icons and panels" >}}
 
 If I produced gameplay programming videos now for the course, they'd soon become obsolete. That's why the Essentials and Pro versions didn't ship yet.
 

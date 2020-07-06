@@ -26,7 +26,7 @@ The course comes in 3 versions. Indie contains all of Hobby, and Pro contains al
 
 If you're only looking for UI tutorials, check out our standalone course:
 
-![Ui design series banner image](./ui-master-series-banner.png)
+![Ui design series banner image](ui-master-series-banner.png)
 
 {{< calltoaction url="//gum.co/oifP" text="Create User Interface Godot Course" >}}
 
@@ -127,7 +127,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### (indie) Chapter 7: Design and code the game's User Interface
 
-![lifebars in the game world screenshot](./chapter-07-ui-series-screen.png)
+![lifebars in the game world screenshot](chapter-07-ui-series-screen.png)
 
 1. Coding and handling pause in Godot
 2. Design the pause menu
@@ -153,7 +153,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### (pro) Chapter 9: Build an Inventory System and Item menu
 
-![inventory screenshot](./chapter-09-inventory-demo.png)
+![inventory screenshot](chapter-09-inventory-demo.png)
 
 01. Project overview
 02. Item base class
@@ -187,7 +187,7 @@ This chapter covers the state programming pattern. It shows how to separate the 
 
 ### (pro) Chapter 11: Shop
 
-![Shop series banner screenshot](./shop-series-banner.png)
+![Shop series banner screenshot](shop-series-banner.png)
 
 01. Shop and purse
 02. Design shop base ui

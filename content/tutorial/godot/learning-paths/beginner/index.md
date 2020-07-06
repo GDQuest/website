@@ -54,7 +54,7 @@ Now is a great time to learn game development.
 Godot is a 2D and 3D game engine with a fully-fledged editor, but it is different from the other big game engines out there. It is **Free and Open Source Software**, funded by the community, backed by large organizations like Mozilla or Microsoft, and lead by a team of passionate developers shooting for the stars.
 
 {{< figure
-src="./img/godot-engine.png"
+src="img/godot-engine.png"
 alt="Screenshot of the Godot editor, showing the 3d view" >}}
 
 With **over 1000 contributors** at the time of writing, Godot is becoming more and more competitive even compared to the most significant engines in the games industry.
@@ -87,7 +87,7 @@ This section is for you if you know little about game creation and programming. 
 1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}) is our guide to learn computer programming.
 1. [Game Engines: what are they and how to choose the right one?](//youtu.be/2tZK75R2K2c)
 
-![OpenRPG](./img/open-rpg.jpeg)<br />_[OpenRPG](//github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
+![OpenRPG](img/open-rpg.jpeg)<br />_[OpenRPG](//github.com/GDQuest/godot-open-rpg) in-game screenshot. An example project - turn-based RPG game made with Godot by the GDQuest community._
 
 ### Creating your first game with Godot
 
@@ -101,7 +101,7 @@ Here, we've decided to focus on a hands-on approach, which is what we recommend 
 1. [3D Roll the Ball](//www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) by BornCG is a playlist that includes a tutorial series to create a small 3D game from scratch.
 1. [Make a Match 3 game like Candy Crush using Godot](//www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) by Mister Taft Creates is a step-by-step series that goes through the creation of a complete **match-3 game**, like Candy Crush. It is the longest series in this step, requiring some dedication.
 
-![Your First Godot Game - 2D Platformer](./img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](//github.com/GDQuest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
+![Your First Godot Game - 2D Platformer](img/platformer.png)<br />_A complete beginner-friendly [Open Source Project](//github.com/GDQuest/Your-First-Game-Godot-2d-Platformer). Beginners should start small, with manageable projects._
 
 Other useful guides to use along with the videos above:
 
@@ -114,7 +114,7 @@ There soon comes a point at which sticking to step-by-step tutorials isn't enoug
 
 After all, the goal is to get to the point where you can make your own games, right? And no tutorial will do that for you.
 
-![Independent Developer](./img/independent.jpg)
+![Independent Developer](img/independent.jpg)
 
 To get you one step away from the tutorial zone, the resources below go a little deeper into what game design and development are about.
 

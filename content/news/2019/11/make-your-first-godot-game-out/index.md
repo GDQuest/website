@@ -69,6 +69,6 @@ In any case, I'm getting to a new course, and I'll keep you posted with our prog
 
 But with that, I'll get back to it. See you in the next update!
 
-[image-fps]: ./james-beginner-fps.png
-[image-mannequin]: ./mannequin-prototype-1.png
-[image-platformer]: ./platformer-2d.png
+[image-fps]: james-beginner-fps.png
+[image-mannequin]: mannequin-prototype-1.png
+[image-platformer]: platformer-2d.png

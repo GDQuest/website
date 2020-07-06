@@ -32,7 +32,7 @@ This progressively evolved into a larger mission: we want to **bring game develo
 
 When people work hand in hand and share their knowledge and their work, that's beneficial to everyone. By helping others and contributing to open source projects you not only learn a lot: we get to create projects that go beyond what we can produce on our own individually.
 
-![Open RPG map screenshot](./openrpg-0.3-map.png)
+![Open RPG map screenshot](openrpg-0.3-map.png)
 
 Our recent [OpenRPG](//github.com/GDQuest/godot-turn-based-rpg) is a good example of that. We were going to build a quick demo about turn-based combat to fill an old Godot Patreon backers' request. Other developers joined the project, and after 2 months we have a flexible base gameplay engine to create RPGs with a dialogue system, mobile support, combat system, character growth...
 
@@ -56,7 +56,7 @@ This new project builds on everything we learned this year and all the feedback 
 
 I am a proud Linux user now! I got a computer from [System76](//system76.com/) that runs an Ubuntu-based Linux distribution called [Pop_OS!](//system76.com/pop). It's optimized for developers and the experience is outstanding so far. 🙂
 
-![New Linux laptop](./linux-desktop.jpg)
+![New Linux laptop](linux-desktop.jpg)
 
 I'm impressed at how slick the Linux desktop has become compared to five or six years ago. I think it's really comparable to Windows and Mac in terms of usability now.
 

@@ -55,11 +55,11 @@ Static types also give you better code completion options. Below, you can see th
 
 You've probably stored a node in a variable before, and typed a dot to be left with no autocomplete suggestions:
 
-![code completion options for dynamic](./img/code-completion-dynamic.png)
+![code completion options for dynamic](img/code-completion-dynamic.png)
 
 This is due to dynamic code. Godot cannot know what node or value type you're passing to the function. If you write the type explicitely however, you will get all public methods and variables from the node:
 
-![code completion options for typed](./img/code-completion-typed.png)
+![code completion options for typed](img/code-completion-typed.png)
 
 In the future, typed GDScript will also increase code performance: Just In Time compilation and other compiler improvements are already on the roadmap!
 
@@ -149,7 +149,7 @@ This happens when you get a child node. Let's take a timer for example: with dyn
 
 You can use casting to tell Godot the type you expect when you get a node: `($Timer as Timer)`, `($Player as KinematicBody2D)`, etc. Godot will ensure the type works and if so, the line number will turn green at the left of the script editor.
 
-![Safe vs Unsafe Line](./img/safe-unsafe-line.png)
+![Safe vs Unsafe Line](img/safe-unsafe-line.png)
 
 {{< note >}}
 You can turn off safe lines or change their color in the editor settings.
@@ -243,19 +243,19 @@ The warning system complements typed GDscript. It's here to help you avoid mista
 
 You can configure warnings in the Project Settings under a new section called `GDscript`:
 
-![warning system project settings](./img/warning-system-settings.png)
+![warning system project settings](img/warning-system-settings.png)
 
 You can find a list of warnings for the active GDscript file in the script editor's status bar. The example below has 3 warnings:
 
-![warning system example](./img/warning-example.png)
+![warning system example](img/warning-example.png)
 
 To ignore specific warnings in one file, insert a special comment of the form `#warning-ignore:warning-id`, or click on the ignore link to the right of the warning's description. Godot will add a comment above the corresponding line and the code won't trigger the corresponding warning anymore:
 
-![warning system ignore example](./img/warning-system-ignore.png)
+![warning system ignore example](img/warning-system-ignore.png)
 
 Warnings won't prevent the game from running, but you can turn them into errors if you'd like. This way your game won't compile unless you fix all warnings. Head to `GDscript` section of the Project Settings to turn on this option. Here's the same file as the previous example with warnings as errors turned on:
 
-![warnings as errors](./img/warning-system-errors.png)
+![warnings as errors](img/warning-system-errors.png)
 
 ## Cases Where You Can't Specify Types
 

@@ -18,7 +18,7 @@ This makes them **independent** and **reusable** across projects. This also make
 
 For an example of this, see the Player in our [Godot Platformer 2D project](//github.com/GDQuest/godot-platformer-2d).
 
-{{< figure src="../img/aggregation-player-scene-tree.png" >}}
+{{< figure src=".img/aggregation-player-scene-tree.png" >}}
 
 {{% notice note %}}
 In Object-Oriented Programming, **aggregation** is a type of **association** between objects. In the example above, the `Player` object uses other objects such as the `Hook` or the `CameraRig` but these can still work even if we remove the association with the `Player` node.
@@ -31,7 +31,7 @@ In Object-Oriented Programming, **aggregation** is a type of **association** bet
 Godot relies on its node tree. It's a recursive data structure such that we can pick any node in the tree with all of its children and this is a tree itself. You can consider each branch of the scene tree as an independent scene.
 
 {{< figure
-    src="../img/scene_tree.png"
+    src=".img/scene_tree.png"
     caption="Screenshot of a real system scene tree layout from [OpenRPG](//github.com/GDQuest/godot-open-rpg)" >}}
 
 In the example above, you can view each node as a separate scene, be it `Board` or `QuestSystem`.

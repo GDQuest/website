@@ -20,7 +20,7 @@ The 4th update of the [Godot 3 course](//gumroad.com/l/godot-tutorial-make-profe
 Godot 3 [just came out](//godotengine.org/article/godot-3-0-released), and with some more work done on the official documentation and a nice collab with Mike from GameFromScratch, I will now focus my efforts fully on the course.
 
 {{< figure
-  src="./new-website-design.png"
+  src="new-website-design.png"
   alt="Godotengine.org's redesigned landing page for the Godot 3 release"
   title="The new website design by djrm looks gorgeous."
 >}}
@@ -30,7 +30,7 @@ Don’t forget to drop by on Discord to get answers for your questions, to give 
 Note that I am moving house to Nara, Japan, on February 28th.
 
 {{< figure
-  src="./miyajima-deers.jpg"
+  src="miyajima-deers.jpg"
   alt="Deer in front of a restaurant's entrance in Miyajima, Japan"
   title="This is actually Miyajima, but there are also friendly wild deers in Nara"
 >}}

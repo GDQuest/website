@@ -66,11 +66,11 @@ You should **suppress or close any program that can distract the viewer** from t
 
 **Set the desktop audio channel to record at a low volume** so it doesn't cover your voice. I keep it at -20db to -30db most of the time in OBS Studio.
 
-![OBS mixer](./img/obs-mixer.png)
+![OBS mixer](img/obs-mixer.png)
 
 When you make a small mistake or need to re-record a sentence, **clap in front of the mic**. This produces a sharp vertical line on the audio waveform that makes it easy for the editor to find and remove the faulty parts.
 
-![Clap on audio waveform](./img/waveform.png)
+![Clap on audio waveform](img/waveform.png)
 
 
 ### Setting up the microphone ###
@@ -123,7 +123,7 @@ For instance, in Godot, I use 20pt for the editor's font and 23pt for the code. 
 
 Use a program like [Key-Mon](https://code.google.com/archive/p/key-mon/) to display key presses, mouse clicks, etc.
 
-![Screenshot of key-mon](./img/key-mon.png)
+![Screenshot of key-mon](img/key-mon.png)
 
 You can install Key-Mon using the Python package manager: `pip install key-mon`.
 
@@ -163,13 +163,13 @@ For example, after creating a node in Godot, in the docker on the left, we confi
 
 The blender `video.blend` template includes an animated pointer arrow.
 
-![pointer arrow example](./img/pointer-arrow-demo.png)
+![pointer arrow example](img/pointer-arrow-demo.png)
 
 Use this arrow to help guide the student's eye to small icons or when jumping to a distant area of the interface. Especially when it's not obvious on screen.
 
 ### Blender video editing template ###
 
-Use our [video editing template](./files/video.blend) to get your projects started. This requires some [assets](files/assets.zip), that you need to place in `~/Videos/assets`.
+Use our [video editing template](files/video.blend) to get your projects started. This requires some [assets](files/assets.zip), that you need to place in `~/Videos/assets`.
 
 If you use the Gnome desktop, you can place it in the `~/Templates` directory to register it as a [template](https://help.gnome.org/users/gnome-help/stable/files-templates.html.en) when creating new files.
 
@@ -185,7 +185,7 @@ The video editing layout displays the graph editor in the top-left to animate st
 
 You can use the animated arrow to point at specific elements, for example, at icons in a Godot tutorial.
 
-![Selecting the arrow](./img/template-arrow-select.png)
+![Selecting the arrow](img/template-arrow-select.png)
 
 To do so, you'll need to install and activate the [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/) add-on.
 

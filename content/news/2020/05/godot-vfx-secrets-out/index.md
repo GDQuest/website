@@ -29,7 +29,7 @@ You should know how to work with Godot's editor and have GDScript foundations fo
 
 If you have no experience with Godot, check out our complete [Free Godot guide for beginners]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) to get you started.
 
-![Trail effect](./trail.png)
+![Trail effect](trail.png)
 
 ## Early access
 

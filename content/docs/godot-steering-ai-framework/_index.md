@@ -7,7 +7,7 @@ chapter = false
 aliases = ["/docs/godot-steering-toolkit/"]
 +++
 
-![Project banner, displaying arrows following a dotted path](./godot-steering-ai-framework-banner.svg)
+![Project banner, displaying arrows following a dotted path](godot-steering-ai-framework-banner.svg)
 
 This toolkit is a framework for the [Godot engine](https://godotengine.org/). It takes a lot of inspiration from the excellent [GDX-AI](https://github.com/libgdx/gdx-ai) framework for the [LibGDX](https://libgdx.badlogicgames.com/) java-based framework.
 

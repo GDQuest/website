@@ -10,7 +10,7 @@ weight = 5
 aliases = ["/blender/power-sequencer/", "/docs/documentation/power-sequencer"]
 +++
 
-![Banner image](./blender-power-sequencer-banner.svg)
+![Banner image](blender-power-sequencer-banner.svg)
 
 
 At GDQuest we edit all of our videos with [Blender](https://www.blender.org/). It's a powerful tool, but its default workflow can feel a little slow.

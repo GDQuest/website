@@ -15,7 +15,7 @@ weight = 5
 
 In this tutorial you'll learn how to animate a mesh using a shader so it looks like it's blowing in the wind.
 
-{{< video "./videos/final.mp4" "720" >}}
+{{< video "videos/final.mp4" "720" >}}
 
 ## Setting up the scene
 
@@ -23,13 +23,13 @@ First off, create a new 3D scene and add a `MeshInstance` node as a child. Add a
 
 Add a new _ShaderMaterial_ to the _PlaneMesh_. Your settings in the inspector should look like this.
 
-![Mesh settings](./images/mesh-settings.png)
+![Mesh settings](images/mesh-settings.png)
 
 Now, we'll set up the shader and generate a noise texture.
 
 Click into the _ShaderMaterial_ and a new shader to it to open up the shader code editor.
 
-![Adding a new shader](./images/new-shader.png)
+![Adding a new shader](images/new-shader.png)
 
 ## Writing the shader
 
@@ -45,11 +45,11 @@ The `shader_type` tells Godot what kind of shader it's working with. We use `spa
 
 Add a new _NoiseTexture_ from the inspector.
 
-![Adding a new noise texture](./images/new-noise.png)
+![Adding a new noise texture](images/new-noise.png)
 
 Click into it and create a new _OpenSimplexNoise_ resource. Make sure _Seamless_ is set to `true` so we don't have obvious seams when the texture repeats.
 
-![Adding new OpenSimplexNoise](./images/new-open-simplex.png)
+![Adding new OpenSimplexNoise](images/new-open-simplex.png)
 
 Now we have our noise texture, we can sample it in the shader. We do this in the vertex function which controls each vertex of the mesh.
 
@@ -63,7 +63,7 @@ void vertex(){
 }
 ```
 
-![Noisy flag](./images/02.adding-noise.png)
+![Noisy flag](images/02.adding-noise.png)
 
 The flag is looking a bit rough and spiky so we'll zoom in on the noise texture by a given scale to "stretch" it out. This will smooth the peaks and valleys.
 
@@ -85,7 +85,7 @@ void vertex(){
 }
 ```
 
-![Stretched out noise](./images/03.stretched-noise.png)
+![Stretched out noise](images/03.stretched-noise.png)
 
 It's looking softer but it needs _movement_!
 
@@ -95,7 +95,7 @@ We move along the texture by adding the in built `TIME` variable which tracks th
 base_uv_offset += TIME;
 ```
 
-{{< video "./videos/04.adding-movement.mp4" >}}
+{{< video "videos/04.adding-movement.mp4" >}}
 
 Add a new uniform which will control the speed of the shifting texture.
 
@@ -116,7 +116,7 @@ void vertex(){
 }
 ```
 
-{{< video "./videos/04.slowing-movement.mp4" >}}
+{{< video "videos/04.slowing-movement.mp4" >}}
 
 You may notice the flag looks like it's hovering above the floor. This is because sampling the noise texture returns a value between `0.0` and `1.0`. Let's convert these values to values between `-1.0` to `1.0` instead.
 
@@ -133,7 +133,7 @@ void vertex(){
 }
 ```
 
-{{< video "./videos/05.fixing-offset.mp4" >}}
+{{< video "videos/05.fixing-offset.mp4" >}}
 
 Flags are attached to something on one side so they don't fly away in the wind. We'll simulate this by applying dampening. We want our offset strength, or coefficient, to be `0.0` on the left and at full strength on the right. Conveniently, we can use the `UV` for this by multiplying `texture_based_offset` by `UV.x`.
 
@@ -141,13 +141,13 @@ Flags are attached to something on one side so they don't fly away in the wind. 
 texture_based_offset *= UV.x; // Apply dampening
 ```
 
-{{< video "./videos/06.adding-dampening.mp4" >}}
+{{< video "videos/06.adding-dampening.mp4" >}}
 
 Out flag movement looks quite good from this angle but if you look face on and set the camera to _Orthogonal_, the shape doesn't change in the `x` or `z` axes.
 
-![Orthogonal settings](./images/07.orthogonal-settings.png)
+![Orthogonal settings](images/07.orthogonal-settings.png)
 
-{{< video "./videos/07.rigid-shape.mp4" >}}
+{{< video "videos/07.rigid-shape.mp4" >}}
 
 To fix this we'll add `face_distortion` uniform which dictates how much we want the face to be warped, based on the sampled noise texture.
 
@@ -162,7 +162,7 @@ VERTEX.z += texture_based_offset * face_distortion;
 VERTEX.x += texture_based_offset * -face_distortion;
 ```
 
-{{< video "./videos/07.distorted-shape.mp4" >}}
+{{< video "videos/07.distorted-shape.mp4" >}}
 
 Here is the final vertex shader.
 

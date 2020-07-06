@@ -61,7 +61,7 @@ We've worked on open [guidelines](//github.com/GDQuest/gdquest-projects/blob/mas
 
 [Luciano](//twitter.com/lucianomunoz_) sent me the first five animations of Mannequiny, the Free mannequin you'll get on the Godot asset library. With that, we can create the 3D tutorials for the New Features in Godot 3.1 series: IK, root motion, etc.
 
-{{< video "./mannequiny-idle.mp4" "720" >}}
+{{< video "mannequiny-idle.mp4" "720" >}}
 
 I'm also doing a little extra, next week: organizing a new Docs Sprint for Godot 3.2. The reference's completion rate has gone down with massive improvements to Godot 3.1. Together, we can complete it pretty fast, but we need to join forces.
 

@@ -15,7 +15,7 @@ To give your game worlds some depth and appeal, you want to add some life to the
 
 In this tutorial, we are going to use particles to create an **animated star field** that covers the entire screen.
 
-{{< video "./videos/02-final-effect.mp4" "640" >}}
+{{< video "videos/02-final-effect.mp4" "640" >}}
 
 You will also be able to use the techniques we're going to explore for many other visual effects:
 
@@ -96,7 +96,7 @@ Click on the CurveTexture, then on the Curve inside of it to display the graph e
 
 In the curve editor, the horizontal axis represents the particle's _Lifetime_, and the vertical axis represents its scale relative to the _Scale_ property. A value of 0.5 in the curve's vertical axis with a value of 2 in the _Scale_ property means the particle will have the same size of its source texture. Here is a sample linear animation:
 
-{{< video "./videos/01-linear-scale-curve.mp4" "640" >}}
+{{< video "videos/01-linear-scale-curve.mp4" "640" >}}
 
 For our effect, we will make the stars twinkle instead of just fading in and out once. To achieve that, we need to add some extra points in our curve to have the particle scale up and down at least twice.
 
@@ -122,7 +122,7 @@ With that, our material is ready. Only some tweaks left, and our effect will be 
 
 Let's go back to the _StarField_ node. Click the back arrow at the top of the Inspector to go back to the previously edited object.
 
-![Clicking the back arrow to go back to the last edited node](./images/09-previously-edited-object.png)
+![Clicking the back arrow to go back to the last edited node](images/09-previously-edited-object.png)
 
 When we open the scene or first load it in a game, stars slowly appear as the particle system starts to spawn them. You can test how the effect will look like the first time it loads by Left-clicking on the _Particles_ menu at the toolbar and **Restart** the particles.
 
@@ -159,6 +159,6 @@ Change each `ParallaxLayer`'s _Motion Scale_ property to make them move at diffe
 
 With that, our effect is ready! Here is how it looks like with a `Camera2D` moving around.
 
-{{< video "./videos/02-final-effect.mp4" "640" >}}
+{{< video "videos/02-final-effect.mp4" "640" >}}
 
 _Remember you can find the demo for this visual effect and many others in our GitHub repository [Godot Visual Effects](https://github.com/GDQuest/godot-visual-effects)._

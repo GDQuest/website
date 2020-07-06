@@ -17,7 +17,7 @@ In this course, you will learn how to **best create User Interfaces** for your g
 
 This series is included in our larger [Make Professional Games with Godot]({{< ref "/product/godot/make-pro-2d-games/index.md" >}}) course. We made it as a standalone if you only want to learn about interface! So you only pay for the chapters you need 😄
 
-![Shop menu screenshot](./img/shop-menu-screenshot.png)
+![Shop menu screenshot](img/shop-menu-screenshot.png)
 
 I've been one of the biggest contributors to Gdoot's official UI tutorials, like the [Intro to Godot's UI system](//www.youtube.com/watch?v=y1E_y9AIqow). In this course, I'm bringing all my experience and research to **save you dozens of hours** learning to create UI... that works! 😄
 
@@ -37,7 +37,7 @@ Be sure to watch our [Free beginner Godot UI tutorials](//www.youtube.com/watch?
 
 This course will help you **go beyond** our first interface series.
 
-![Game user interface tutorial screenshot](./img/game-user-interface-tutorial.png)
+![Game user interface tutorial screenshot](img/game-user-interface-tutorial.png)
 
 ## What does this course contain?
 

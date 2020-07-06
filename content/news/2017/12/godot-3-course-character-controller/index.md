@@ -23,7 +23,7 @@ Use the coupon code "early" to **get 20% off** while the course is in early acce
 In this series, you'll learn how to create a fairly robust **character controller**: we're covering input, walk and run speed, handling collisions, adding a bump animation when the character hits something... with a lot of techniques exposed along the way.
 
 <video width="854" height="480" autoplay loop>
-  <source src="./character-controller-demo-small.mp4" type="video/mp4">
+  <source src="character-controller-demo-small.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -33,7 +33,7 @@ As each chapter is a self-contained series, you can go ahead and watch it now! I
 
 There is one more tutorial coming in the next update, as it wasn't ready in time for Christmas: the top-down jump mechanic. The one [I edited live with Blender](//www.youtube.com/watch?v=uVLtbNDRF4E) yesterday.
 
-![Banner for the Blender VSE video editing livestream](./blender-stream-square.jpg)
+![Banner for the Blender VSE video editing livestream](blender-stream-square.jpg)
 
 ## Coming next
 

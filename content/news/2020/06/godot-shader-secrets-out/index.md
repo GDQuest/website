@@ -15,7 +15,7 @@ Today, we bring you a new tutorial series on key **shader programming tricks**. 
 
 You are going to create fun deformation and transition effects, full-screen filters, make particles spawn from your shaders, and more!
 
-![2D dissolve shader showing Robi in flames](./robi-in-flames.png)
+![2D dissolve shader showing Robi in flames](robi-in-flames.png)
 
 ## What you will learn
 
@@ -37,7 +37,7 @@ This course is currently in **Early Access**. You can get it now for a lower pri
 
 {{< calltoaction "https://gdquest.mavenseed.com/courses/shader-secrets-learn-to-code-2d-and-3d-shaders-in-godot" "Get the course now" >}}
 
-![2D outline shader screenshot](./outline2d.png)
+![2D outline shader screenshot](outline2d.png)
 
 You can look forward to these lessons for the next updates:
 
@@ -46,7 +46,7 @@ You can look forward to these lessons for the next updates:
 - Wind
 - Top-down view 2D cloud shadows
 
-![2D water shader](./water2d.png)
+![2D water shader](water2d.png)
 
 ## Free and Open-Source
 

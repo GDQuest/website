@@ -240,7 +240,7 @@ In most video editing programs I can select clips, select a fade tool, and click
 
 Here is an example in the Olive video editor:
 
-![Olive editor example](./img/olive-fade-example.png)
+![Olive editor example](img/olive-fade-example.png)
 
 I applied a fade and the fade duration snapped to the playhead.
 {{< / example >}}

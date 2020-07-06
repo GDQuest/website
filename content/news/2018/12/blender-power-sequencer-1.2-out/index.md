@@ -38,7 +38,7 @@ A fair amount of tools will now **automatically select*** the strips under the m
 
 There's now a Power Sequencer menu in the Video Sequence Editor's toolbar. It gives you a list of available features and their shortcuts. It's here to help you discover new tools in the add-on.
 
-![Menu screenshot](./power-sequencer-menu.png)
+![Menu screenshot](power-sequencer-menu.png)
 
 ### Edit to music
 

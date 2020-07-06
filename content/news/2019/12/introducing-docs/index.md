@@ -37,7 +37,7 @@ There, you will find guides like our [Godot learning path for beginners]({{ ref 
 
 You can find the table of contents at the top of the window. Hover the black icon to see a list of sections to jump to:
 
-![Documents Pages ToC](./img/toc.png)
+![Documents Pages ToC](img/toc.png)
 
 That is it for this update. Here are a few insightful guides for you to check out in the new section:
 

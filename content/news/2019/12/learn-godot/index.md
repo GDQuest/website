@@ -26,7 +26,7 @@ We ended up creating two guides:
 
 ## Read our learning paths now
 
-![Beginner and Developer Learning Paths](./img/paths.png)
+![Beginner and Developer Learning Paths](img/paths.png)
 
 The learning paths are available now in our new [docs section]({{< ref "docs/_index.md" >}}).
 
