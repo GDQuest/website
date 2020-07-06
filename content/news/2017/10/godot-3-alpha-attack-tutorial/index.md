@@ -69,7 +69,7 @@ Their latest game, Monsters from Outer Space, is a Godot game.
 
 ## Mario Fux
 
-![Konqi, the KDE mascot, in front of a Swiss pike](./img/randa-meetings/konqi-randa.png)
+![Konqi, the KDE mascot, in front of a Swiss pike](img/randa-meetings/konqi-randa.png)
 
 Mario is a kind, busy teacher, developer, and free software advocate. Every year he organizes the large [Randa meetings](//randa-meetings.ch/) in Switzerland for the KDE foundation. I joined them in 2016 to eat swiss delicacies give a hand and meet fellow developers. Along with the school he works at, they supported both Kickstarter campaigns.
 
