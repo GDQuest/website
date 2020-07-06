@@ -5,6 +5,7 @@ redirect = "//gdquest.mavenseed.com/courses/code-a-professional-3d-character-wit
 title = "Code a Professional 3D Character with Godot"
 type = "redirect"
 description = "Learn to create a polished 3D character with a 3rd person camera and professional code in the free game engine Godot."
+keywords = ["3D", "intermediate"]
 
 [[resources]]
   name = "banner"

@@ -10,6 +10,8 @@ difficulty = "beginner"
 type = "course"
 programVersion = "3.1"
 
+keywords = ["2D", "beginner", "godot course", "getting started"]
+
 [[resources]]
 name = "banner"
 src = "your-first-2d-game-banner.png"

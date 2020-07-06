@@ -5,6 +5,7 @@ redirect = "//gdquest.mavenseed.com/courses/code-a-professional-platform-game-ch
 title = "Code a Professional Platform Game Character With Godot"
 type = "redirect"
 description = "Code a professional side view 2d game character with the Free game engine Godot!"
+keywords = ["2D", "platform", "platformer", "godot course"]
 
 [[resources]]
   name = "banner"

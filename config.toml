@@ -103,16 +103,18 @@ link = "https://discord.gg/87NNb3Z"
 icon = "discord"
 description = "GDQuest community on Discord"
 
+[related]
+threshold = 80.0
+includeNewer = false
+toLower = false
 
-# NOTE: from hugo 0.60.0 the default markdown formatter is Goldmark
-[markup.blackfriday]
-angledQuotes = true
-fractions = false
-hrefTargetBlank = false
-latexDashes = true
-plainIdAnchors = true
-extensions = []
-extensionmask = []
+  [[related.indices]]
+  name = "keywords"
+  weight = 100.0
+
+  [[related.indices]]
+  name = "date"
+  weight = 10.0
 
 [privacy]
 [privacy.googleAnalytics]

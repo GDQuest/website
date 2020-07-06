@@ -1,0 +1,18 @@
+{{ $productSection := .Site.GetPage "section" "product" }}
+{{ $related := $productSection.RegularPages.Related . }}
+{{ if not $related }}
+{{ $related = first 2 $productSection.RegularPages }}
+{{ end }}
+{{ with $related }}
+<h2 data-font="centered">Related products</h2>
+<div class="content-grid">
+    {{ range first 2 . }}
+    <div class="item">
+        {{ .Render "summary" }}
+    </div>
+    {{ end }}
+</div>
+<div data-font="centered" class="padding-top-base">
+    <a href="/product" class="button-link">View all</a>
+</div>
+{{ end }}
