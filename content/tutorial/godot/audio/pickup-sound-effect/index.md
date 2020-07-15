@@ -2,7 +2,6 @@
 title = "Cutting sound effects"
 author = "henrique"
 date = 2020-07-15
-draft = true
 +++
 
 When dealing with sound effects, it is a common problem to have the audio cut when picking collectibles like coins, hearts, or when killing enemies.

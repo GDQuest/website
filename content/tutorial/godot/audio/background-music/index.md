@@ -1,6 +1,5 @@
 +++
 title = "Persistent background music"
-draft = true
 author = "henrique"
 menuTitle = "Persistent BGM"
 +++
