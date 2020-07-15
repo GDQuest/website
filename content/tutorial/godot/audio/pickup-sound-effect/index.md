@@ -1,5 +1,5 @@
 +++
-title = "Pickup sound effects"
+title = "Cutting sound effects"
 author = "henrique"
 date = 2020-07-15
 draft = true
@@ -8,6 +8,8 @@ draft = true
 When dealing with sound effects, it is a common problem to have the audio cut when picking collectibles like coins, hearts, or when killing enemies.
 
 Sound effects stop because we often free the node that's playing the sound indirectly. For instance, when the player touches a coin, we call `queue_free()` on the _Coin_ node. The _Coin_ contains an _AudioStreamPlayer_ that gets removed from the game before it finishes playing the "picked" sound effect.
+
+![Screenshot of a Godot demo with five aligned coins](coin-demo.png)
 
 To solve that, we can use an _AnimationPlayer_. Godot's animation system allows us to sequence audio, animations, and to call functions using as many animation tracks as we want.
 
@@ -62,3 +64,7 @@ The critical part is the _Picked_ animation. Let's break it down:
 First, we add an _Audio Playback Track_ that uses the _AudioStreamPlayer_ to play the _Coin.ogg_ sound. Then we disable the _Area2D > Monitoring_ and _Monitorable_ properties to prevent it from detecting any mouse events. In parallel, we animate the _Sprite > Position_ and _Modulation_ to give players visual feedback. Doing so shows that the coin got picked. 
 
 Then we have a _Call Method Track_ with a keyframe on the very end of the animation calling the `queue_free` method on the _Coin_ object, ensuring it gets removed from the _SceneTree_ after the sound effect and visual animation finish.
+
+{{< note >}}
+You can download our open-source sample project in the [Godot mini demos](https://github.com/GDQuest/godot-mini-tuts-demos) repository. It is in the `audio/pickup-sound-effect` directory.
+{{< /note >}}

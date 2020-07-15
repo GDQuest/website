@@ -1,7 +1,8 @@
 +++
 title = "Persistent background music"
 draft = true
-author = henrique
+author = "henrique"
+menuTitle = "Persistent BGM"
 +++
 
 Background music is one of the most immersive elements of a game. It dictates the mood and pace of a level or even of the whole play through, but there's a common mistake that may happen when we are working with background music in most game engines. When transitioning between game scenes the music gets cut and is common that it restart from beginning, completely breaking the immersion.
@@ -21,3 +22,7 @@ Let's turn our _BackgroundMusic_ into an _Autoload_ now. In the _Project > Proje
 ![Enabling the BackgroundMusic as an Autoload](02.background-music-autoload.png)
 
 Now whenever you test your game the _BackgroundMusic_ will instance alongside the scene you are testing and won't be removed unless you manually `queue_free` it and with that our _BackgroundMusic_ can keep playing throughout scenes.
+
+{{< note >}}
+You can download our open-source sample project in the [Godot mini demos](https://github.com/GDQuest/godot-mini-tuts-demos) repository. It is in the `audio/background-music` directory.
+{{< /note >}}
