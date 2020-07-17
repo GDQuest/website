@@ -1,11 +1,9 @@
 +++
 author = "nathan"
-date = 2020-07-02
-description = ""
+date = 2020-07-19
+description = "Welcome to our newsletter, where you'll find game creation tips, resources, and interesting projects you should check out, all revolving around the Godot game engine."
 weight = 5
-title = "GDQuest weekly 01"
-
-draft = true
+title = "GDQuest weekly #1"
 +++
 
 Welcome to our first newsletter! In it, you will find:
@@ -22,8 +20,9 @@ We redesigned our website, [GDQuest.com](https://www.gdquest.com/) to be able to
 
 Here are two tutorials we released recently:
 
-1. Shaders: [Creating an animated 3D flag](https://www.gdquest.com/tutorial/godot/shaders/flag-shader-3d/)
-2. Procedural generation: [Heightmap-based world map](https://www.gdquest.com/tutorial/godot/pcg/world-map/)
+1. Shaders: [Creating an animated 3D flag]({{< ref "tutorial/godot/shaders/flag-shader-3d/index.md" >}})
+2. Procedural generation: [Heightmap-based world map]({{< ref "tutorial/godot/pcg/world-map/index.md" >}})
+3. Audio: preventing [cutting sound effects]({{< ref "tutorial/godot/audio/pickup-sound-effect/index.md" >}}) using animations.
 
 _Did you know? All our code is free software, including our website. And all our free tutorials, guides, and graphic design are under the [CC-By 4.0](https://creativecommons.org/licenses/by/4.0/) license. You can find the source code [on GitHub](https://github.com/GDQuest/website/)._
 
@@ -52,12 +51,12 @@ Next, Razvan is working on a dungeon generator based on physics and minimum spar
 
 ## Recommended projects
 
-This week, I have two projects to recommend you: 
+This week, I have two projects to recommend you:
 
 1. The Weekly Wait, a Godot newsletter
 2. Rig on the Fly for Blender
 
-[The Weekly Wait](https://weeklywait.substack.com/) is a **weekly recap** of what is happening around the Godot community and development. It's short and to the point. You can [read the second issue](https://weeklywait.substack.com/p/the-weekly-wait-2).
+[The Weekly Wait](https://weeklywait.substack.com/) is a **weekly recap** of what is happening around the Godot community and development. It's short and to the point. You can [read the fifth issue](https://weeklywait.substack.com/p/the-weekly-wait-5).
 
 If you make 3D games and need to animate characters, check out [Rig on the Fly](https://gitlab.com/dypsloom/rigonthefly/)! This free Blender add-on adds support for the rigging workflow used on games like Halo 4 and Destiny. In short, it allows you to generate simple, animation-specific rigs for your characters, and to bake the animation data. It takes some getting used to, but it simplifies rigging and animation a **lot**.
 
