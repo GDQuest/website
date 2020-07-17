@@ -12,7 +12,8 @@ To test the site locally:
 
 1. Install [hugo extended](https://github.com/gohugoio/hugo/releases). On the GitHub releases page of hugo, look for an executable named `hugo_extended_...`. This version of Hugo includes tools to process pictures and SCSS code.
 1. Clone this repository.
-1. In your terminal, navigate to the repository's folder and run `hugo server --buildDrafts`.
+1. In your terminal, navigate to the repository's folder and run `npm install`. You need to have [node.js](https://nodejs.org/en/) installed for that.
+1. Once all node packages are installed, run `hugo server --buildDrafts`.
 
 This will build the website locally, including draft pages, watch for any file changes, and make it accessible via a URL like `localhost:1313`.
 
@@ -55,8 +56,6 @@ This metadata uses the TOML markup language. If the variable `draft` has the val
 For SCSS code, we follow the [RSCSS](https://rscss.io/) (_Reasonable System for CSS Stylesheet Structure_) style guide.
 
 Note: some of the CSS code still doesn't follow the style guide. We're progressively moving code to that style-guide as we go.
-
-
 
 ## Contributing
 
