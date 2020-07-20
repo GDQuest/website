@@ -13,8 +13,6 @@ In the [background music tutorial]({{< ref "tutorial/godot/audio/background-musi
 
 What if we want to **transition between two soundtracks smoothly**? In this tutorial, you'll learn to crossfade two music tracks smoothly.
 
-<!-- TODO: redo from here -->
-
 {{< video "demo.mp4" >}}
 
 ## Setting up the scene
@@ -78,3 +76,7 @@ func crossfade_to(audio_stream: AudioStream) -> void:
 ```
 
 You can use the script above by adding _BackgroundMusic_ as an [autoload](https://docs.godotengine.org/en/stable/getting_started/step_by_step/singletons_autoload.html) in your project and calling `BackgroundMusic.crossfade_to()`. Note that the function takes an `AudioStream`.
+
+{{< note >}}
+You can download our open-source sample project in the [Godot mini demos](https://github.com/GDQuest/godot-mini-tuts-demos) repository. It is in the `audio/background-music-transition` directory.
+{{< /note >}}
