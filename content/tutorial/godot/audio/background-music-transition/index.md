@@ -3,65 +3,78 @@ title = "Crossfade Background Music"
 author = "henrique"
 
 date = 2020-07-17
-draft = true
 
 difficulty = "beginner"
-keywords = ["godot audio", "godot music", "godot audio transition"]
+keywords = ["godot audio", "godot crossfade" "godot music", "godot audio transition"]
 +++
 
-# Crossfade background music
 
-To give each of our game levels a strong identity on top of good visuals and unique characters and enemies we need good unique music.
+In the [background music tutorial]({{< ref "tutorial/godot/audio/background-music/index.md" >}}), we saw how to keep the music playing when transitioning between game levels or screens. 
 
-As seen in the background music mini-tutorial one of the problems in transitioning between scenes is that the music is often cutoff. With the solution provided there, we solve the problem when we have one single music playing, but how to make smooth transitions between menu music to a level music? Or between exploration music to combat music?
+What if we want to **transition between two soundtracks smoothly**? In this tutorial, you'll learn to crossfade two music tracks smoothly.
 
-If we simply change the current playing music there will be a subtle cut in the previous song and a sudden start in the next. Well, if you listen to music on any media player it is common to have what is called a _crossfade_ that makes so that as the previous music is finishing the volume smoothly drops and the volume from the next music smoothly raises.
+<!-- TODO: redo from here -->
 
-<video controls width="640">
-   <source src="demo.mp4"
-           type="video/mp4">
-</video>
+{{< video "demo.mp4" >}}
 
-To achieve a _crossfade_ effect in Godot we need a _Node_ that uses two _AudioStreamPlayers_ one for each music track, as such:
+## Setting up the scene
+
+To achieve a _crossfade_ effect in Godot, we need two _AudioStreamPlayer_ nodes, one for each music track. Create a new scene with a node named _BackgroundMusic_. Add two _AudioStreamPlayer_ and an _AnimationPlayer_ node as its children. I've called the stream players _Track1_ and _Track2_. Leave them without a stream and set them to not autoplay as we will control them from _BackgroundMusic_'s script.
 
 ![Crossfade background music scene structure](01.crossfade-scene-tree.png)
 
-As for the actual effect, we can add an _AnimationPlayer_ and animate the _Track > Volume dB_ from `0.0` to `-80.0` and do the opposite for the _Track2 > Volume dB_. The duration of the animation dictates the duration of the effect.
 
-![Crossfade animation](02.crossfade-animation.png)
+Let's start with the crossfade animations. We need two, respectively, to fade from track one to track two and vice-versa.
 
-With the effect in place, we need to work with a bit of logic so that we are always toggling between the tracks. For instance, when we fade from _Track_ to _Track2_, in the next _crossfade_ we need to fade from _Track2_ to _Track_.
+Animate the _Volume dB_ property of the audio tracks. One Node should animate from `0.0` to `-80.0` dB, and the other from `-80.0` to `0.0`. For the track that ends the animation at `-80.0` dB, add a track and keyframe that sets its `Playing` property to `false`.
 
-Let's attach a script to the _BackgroundMusic_. This node performs the _Crossfade_ animation between two songs and can change the next music to be played.
+Here is my animation _FadeToTrack1_:
 
-```
+![Animation fading from track two to track one](02.fade-to-track-1.png)
+
+And _FadeToTrack2_:
+
+![Animation fading from track one to track two](03.fade-to-track-2.png)
+
+Note that you need to change the easing on the animation keys at the start of the animation. Because audio volume follows a logarithmic scale, linear interpolation will cause the music to fade out in a split second. Instead, we want them to blend for a moment.
+
+![Using a non-linear audio easing](04.audio-interpolation.png)
+
+One curve should ease in, as on the image above, and the other ease out.
+
+
+## Coding the crossfade
+
+We need some code to play music and automatically fade from one track to the other. Internally, our _BackgroundMusic_ Node should toggle between the two audio stream players. From the user's perspective, all we want is to call a function and let the fade happen magically.
+
+Attach a script to _BackgroundMusic_ and add the following code to it.
+
+```gdscript
 extends Node
 
-var next_music: AudioStream setget set_next_music
-
-var _play_backwards := false
-
+# References to the nodes in our scene
 onready var _anim_player := $AnimationPlayer
-onready var _track_1 := $Track
+onready var _track_1 := $Track1
 onready var _track_2 := $Track2
-onready var _next_track := _track_2
 
 
-func crossfade() -> void:
-	_next_track.play()
-	if not _play_backwards:
-		_anim_player.play("Crossfade")
-		_next_track = _track_1
+# crossfades to a new audio stream
+func crossfade_to(audio_stream: AudioStream) -> void:
+	# If both tracks are playing, we're calling the function in the middle of a fade.
+	# We return early to avoid jumps in the sound.
+	if _track_1.playing and _track_2.playing:
+		return
+
+	# The `playing` property of the stream players tells us which track is active. 
+	# If it's track two, we fade to track one, and vice-versa.
+	if _track_2.playing:
+		_track_1.stream = audio_stream
+		_track_1.play()
+		_anim_player.play("FadeToTrack1")
 	else:
-		_anim_player.play_backwards("Crossfade")
-		_next_track = _track_2
-	_play_backwards = not _play_backwards
-
-
-func set_next_music(audio_stream: AudioStream) -> void:
-	next_music = audio_stream
-	_next_track.stream = next_music
-
+		_track_2.stream = audio_stream
+		_track_2.play()
+		_anim_player.play("FadeToTrack2")
 ```
 
-It plays our _Crossfade_ animation backward whenever `_play_backwards == true`, so we always toggle this variable when we call `crossfade`. We also toggle the `_next_track` between the `_track_1` and the `track_2` to ensure that when we set the `next_music` it sets it on the track that is not currently playing.
+You can use the script above by adding _BackgroundMusic_ as an [autoload](https://docs.godotengine.org/en/stable/getting_started/step_by_step/singletons_autoload.html) in your project and calling `BackgroundMusic.crossfade_to()`. Note that the function takes an `AudioStream`.
