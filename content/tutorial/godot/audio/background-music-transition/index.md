@@ -5,7 +5,7 @@ author = "henrique"
 date = 2020-07-17
 
 difficulty = "beginner"
-keywords = ["godot audio", "godot crossfade" "godot music", "godot audio transition"]
+keywords = ["godot audio", "godot crossfade", "godot music", "godot audio transition"]
 +++
 
 
