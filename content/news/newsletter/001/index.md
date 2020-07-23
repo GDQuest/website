@@ -4,6 +4,9 @@ date = 2020-07-19
 description = "Welcome to our newsletter, where you'll find game creation tips, resources, and interesting projects you should check out, all revolving around the Godot game engine."
 weight = 5
 title = "GDQuest weekly #1"
+
+[banner]
+src = "/img/newsletter-banner.png"
 +++
 
 Welcome to our first newsletter! In it, you will find:
