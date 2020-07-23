@@ -18,7 +18,9 @@
             <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}">
             {{ end }}
             {{ .Content }}
-            {{ partial "modules/team_members" . }}
+            <div class="content-grid -columns3 -mobilerow">
+                {{ partial "modules/team_members" . }}
+            </div>
         </article>
     </div>
 </div>
