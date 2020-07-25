@@ -1,0 +1,16 @@
+<!-- Horizontal author card with the avatar on the left and author description and links on the right. -->
+<!-- . is an author's hash map from $.Site.Data.authors -->
+<div class="card-box -dark _unmargin flex horizontal -profile">
+    <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
+    <div class="content">
+        <h3 class="title _unmargin" data-font="ultrabold capitalize">{{ .name }}</h3>
+        {{ $user := .user }}
+        {{ with .social }} {{ partialCached "components/social-links" (dict "data" .) $user "notCentered" }} {{ end }}
+        {{ with .description }}
+        <p>{{ . }}</p>
+        {{ end }}
+        <div class="buttons">
+            <a href="/about/profiles/{{.user}}" class="button-link -flat -textlight">learn more</a>
+        </div>
+    </div>
+</div>

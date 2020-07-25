@@ -1,0 +1,9 @@
+<!-- Individual small team card to put in a grid -->
+<!-- . is an author's hash map from $.Site.Data.authors -->
+<article class="team-card">
+    <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
+    <header class="name">{{ .name }}</header>
+    {{ $user := .user }}
+    {{ with .social }} {{ partialCached "components/social-links" (dict "data" . "isCentered" true) $user "centered" }} {{ end }}
+    <p class="role">{{ .role }}</p>
+</article>

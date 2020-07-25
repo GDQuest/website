@@ -1,0 +1,7 @@
+{{ $team_members := slice "nathan" "henrique" "razvan" "razoric" "johnny" }}
+{{ range $team_members }}
+{{ $author := index $.Site.Data.authors . }}
+<div class="item -span1">
+    {{ partialCached "components/team-card" (index $.Site.Data.authors .) . }}
+</div>
+{{ end }}

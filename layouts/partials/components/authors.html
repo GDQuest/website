@@ -1,0 +1,22 @@
+<!-- Displays one or more authors -->
+{{ $authors := slice .Params.author }}
+{{ with .Params.coAuthors }}
+{{ $authors = $authors | append . }}
+{{ end }}
+
+<h3>Made by</h3>
+
+{{ if eq (len $authors) 1 }}
+    {{ range $authors }}
+    {{ partialCached "components/single-author" (index $.Site.Data.authors .) . }}
+    {{ end }}
+{{ else }}
+    <p>Our tutorials are the result of careful teamwork to ensure we produce high quality content. The following team members worked on this one:</p>
+    <div class="content-grid -columns3 -center">
+    {{ range $authors }}
+    <div class="item -span1">
+        {{ partialCached "components/team-card" (index $.Site.Data.authors .) . }}
+    </div>
+    {{ end }}
+    </div>
+{{ end }}
