@@ -1,22 +1,46 @@
-{{ with .Params.author }}
-{{ $author := . }}
-{{ with (index $.Site.Data.authors . ) }}
-<div class="card-box -dark _unmargin flex horizontal -profile">
-    <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
+{{ $authors := slice .Params.author }}
+{{ with .Params.coAuthors }}
+{{ $authors = $authors | append . }}
+{{ end }}
 
-    <div class="content">
-        <h3 class="title _unmargin" data-font="ultrabold capitalize">{{ .name }}</h3>
+<h3>Made by</h3>
 
-        {{ with .social }} {{ partialCached "components/social-links" (dict "data" .) $author }} {{ end }}
+{{ if eq (len $authors) 1 }}
+    {{ range $authors }}
+    {{ $author := . }}
+    {{ with (index $.Site.Data.authors . ) }}
+    <div class="card-box -dark _unmargin flex horizontal -profile">
+        <div class="avatar" style="background-image: url({{ .picture | absURL }});"></div>
 
-        {{ with .description }}
-        <p>{{ . }}</p>
-        {{ end }}
+        <div class="content">
+            <h3 class="title _unmargin" data-font="ultrabold capitalize">{{ .name }}</h3>
 
-        <div class="buttons">
-            <a href="/about/profiles/{{.user}}" class="button-link -flat -textlight">learn more</a>
+            {{ with .social }} {{ partialCached "components/social-links" (dict "data" .) $author }} {{ end }}
+
+            {{ with .description }}
+            <p>{{ . }}</p>
+            {{ end }}
+
+            <div class="buttons">
+                <a href="/about/profiles/{{.user}}" class="button-link -flat -textlight">learn more</a>
+            </div>
         </div>
     </div>
-</div>
-{{ end }}
+    {{ end }}
+    {{ end }}
+{{ else }}
+    <p>Our tutorials are the result of careful teamwork to ensure we produce high quality content. The following team members worked on this one:</p>
+    <div class="content-grid -columns3 -center">
+    {{ range $authors }}
+    {{ $author := index $.Site.Data.authors . }}
+    <div class="item -span1">
+        <article class="team-card">
+            <div class="avatar" style="background-image: url({{ $author.picture | absURL }});"></div>
+            <header class="name">{{ $author.name }}</header>
+            {{ with $author.social }} {{ partialCached "components/social-links" (dict "data" . "isCentered" true) $author }} {{ end }}
+            <p class="role">{{ $author.role }}</p>
+        </article>
+    </div>
+    {{ end }}
+    </div>
 {{ end }}

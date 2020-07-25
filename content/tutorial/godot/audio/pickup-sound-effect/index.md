@@ -7,6 +7,8 @@ weight = 5
 difficulty = "beginner"
 
 keywords = ["godot audio", "godot audio cut"]
+
+coAuthors = ["nathan"]
 +++
 
 When dealing with sound effects, it is a common problem to have the audio cut when picking collectibles like coins, hearts, or when killing enemies.

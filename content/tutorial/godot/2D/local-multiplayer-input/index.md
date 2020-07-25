@@ -2,6 +2,7 @@
 title = "Local Multiplayer Input"
 description = ""
 author = "henrique"
+coAuthors = ["johnny"]
 
 date = 2020-07-25T10:25:59-03:00
 weight = 5

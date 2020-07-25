@@ -8,6 +8,8 @@ date = 2020-07-15
 difficulty = "beginner"
 
 keywords = ["godot audio", "godot music", "godot audio cut"]
+
+coAuthors = ["nathan"]
 +++
 
 Background music is one of the most immersive elements of a game. It dictates the mood and pace of a level or even of the whole play through, but there's a common mistake that may happen when we are working with background music in most game engines. When transitioning between game scenes the music gets cut and is common that it restart from beginning, completely breaking the immersion.

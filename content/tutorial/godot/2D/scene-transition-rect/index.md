@@ -2,6 +2,7 @@
 title = "Scene Transitions"
 description = "Learn how to make smooth scene transitions in Godot"
 author = "henrique"
+coAuthors = ["johnny"]
 
 date = 2020-07-22T16:10:18-03:00
 weight = 5

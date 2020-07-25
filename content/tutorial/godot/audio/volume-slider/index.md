@@ -8,6 +8,8 @@ weight = 5
 
 difficulty = "beginner"
 keywords = ["godot audio", "audio settings", "godot music", "godot sound effects", "godot interface"]
+
+coAuthors = ["nathan"]
 +++
 
 Let's see how to let players control your game's audio volume with sliders. You can use that in your game's audio settings, both on desktop and mobile platforms.

@@ -2,6 +2,7 @@
 title = "Spawning"
 description = ""
 author = "henrique"
+coAuthors = ["johnny"]
 
 date = 2020-07-24T15:27:28-03:00
 weight = 5

@@ -1,4 +1,6 @@
 +++
+author = "nathan"
+coAuthors = ["razoric", "henrique", "razvan"]
 title = "Make your First 2D Game with Godot"
 menuTitle = "Your First 2D Game"
 description = "Learn to create your first 2D game with Godot, from scratch."
@@ -15,6 +17,7 @@ keywords = ["2D", "beginner", "godot course", "getting started"]
 [[resources]]
 name = "banner"
 src = "your-first-2d-game-banner.png"
+
 +++
 
 This complete free course will help you learn to create games with the Godot game engine, from zero.
