@@ -23,7 +23,7 @@
         {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
 
         {{ with .Params.videoid }}
-        {{ partial "modules/video_youtube" . }}
+        {{ partial "components/video-youtube" . }}
         {{ end }}
 
         <div class="margin-bottom-big margin-top-base">
