@@ -5,7 +5,6 @@ author = "henrique"
 
 date = 2020-07-24T15:27:28-03:00
 weight = 5
-draft = true
 
 difficulty = "beginner"
 keywords = ["instance", "spawner", "spawn object", "create object", "tutorial"]
@@ -34,7 +33,7 @@ extends Position2D
 export var spawn_scene: PackedScene
 ```
 
-Let's work on the spawning logic. We want to create new `spawn_scene`  instances at the _Spawner2D_ position, then add them as its children. There's a problem, though; when the _Spawner2D_ moves, its children also move. To prevent this, we need to `set_as_toplevel(true)` every time we instance a new `spawn`.
+Let's work on the spawning logic. We want to create new `spawn_scene` instances at the _Spawner2D_ position, then add them as its children. There's a problem, though; when the _Spawner2D_ moves, its children also move. To prevent this, we need to `set_as_toplevel(true)` every time we instance a new `spawn`.
 
 ```gd
 func spawn(_spawn_scene := spawn_scene) -> void:
