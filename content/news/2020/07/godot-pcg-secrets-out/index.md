@@ -3,9 +3,8 @@ title = "PCG Secrets: The Art of Procedural Generation in Godot"
 description = "Learn to generate procedural game worlds with the free game engine Godot."
 author = "zuzana"
 
-date = 2020-06-02T09:23:39-06:00
+date = 2020-07-27
 weight = 5
-draft = true
 
 [[resources]]
   src = "pcg-secrets-banner.png"
