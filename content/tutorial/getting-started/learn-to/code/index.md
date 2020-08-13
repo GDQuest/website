@@ -93,7 +93,7 @@ Keep the **KISS** principle in mind to avoid frustration: **Keep it Short and Sw
 
 ## The first language you'll learn isn't that important
 
-There are [hundreds of programming languages](//www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't that\* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
+There are [hundreds of programming languages](//www.wikiwand.com/en/List_of_programming_languages) out there. But it isn't *that* bad: by learning one language you learn a lot more than syntax. You're going to learn concepts like variables, loops, and objects that work about the same in most programming languages. C++, Java, C#, etc. have a lot of similarities so moving from one to the next won't feel like starting over again.
 
 {{< figure
 src="img/programming-languages-books.jpg"
