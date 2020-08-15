@@ -5,6 +5,7 @@ date = 2018-04-12T09:04:58+09:00
 description = "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design."
 aliases = [ "/tutorial/game-design/godot/become-a-game-creator/first-steps-programming/", "/tutorial/getting-started/learn-to-code/",]
 
+weight = 1
 featured = true
 
 [[resources]]
