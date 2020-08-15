@@ -35,7 +35,7 @@ Since Godot 3.2, an icon in the script editor's margin indicates signal connecti
 
 With these guidelines and in our work, we're trying to decouple code to create independent, reusable, and scalable systems. This comes at a cost: we lose the ability to connect signals across separate systems easily, and it tends to lead to spaghetti code. The Event singleton is a pattern to reduce this effect at the expense of introducing a global dependency.
 
-{{< figure src=".img/scene_tree.png">}}
+{{< figure src="../img/scene_tree.png">}}
 
 We couldn't directly connect a signal in a deeply nested node from `DialogSystem` to a nested node in the `Board` tree branch while following the decoupling guidelines.
 
