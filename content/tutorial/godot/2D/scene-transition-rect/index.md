@@ -67,7 +67,7 @@ func transition_to(_next_scene := next_scene_path) -> void:
 	_anim_player.play("Fade")
 	yield(_anim_player, "animation_finished")
 	# Changes the scene
-	get_tree().change_scene(to)
+	get_tree().change_scene(_next_scene)
 ```
 
 ## Using the SceneTransitionRect
