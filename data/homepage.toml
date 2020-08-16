@@ -3,14 +3,14 @@
 name = "Godot"
 logo = "/img/home/godot_logo.png"
 description = "Godot allows you to create both 2d and 3d games with ease, thanks to its fully-fledged, modern editor. Made by game developers, for game developers."
-url = "https://www.youtube.com/watch?v=qVl3BYY6zaQ"
+url = "https://youtu.be/qVl3BYY6zaQ"
 
 [krita]
 
 name = "Krita"
 logo = "/img/home/krita_logo.png"
 description = "Krita is a professional open source painting program. Made by experienced artists and engineers hoping to make art more accessible to everyone."
-url = "https://www.youtube.com/watch?v=ZbnQn6h4q0g"
+url = "https://youtu.be/ZbnQn6h5q0g"
 
 [blender]
 
