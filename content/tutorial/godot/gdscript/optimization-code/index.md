@@ -2,6 +2,7 @@
 title = "Writing more optimized code"
 description = "A list of tips to write faster GDScript code in Godot."
 author = "razoric"
+menuTitle = "Optimization 3 - Write better code"
 
 date = 2020-08-18T19:08:58-04:00
 weight = 5
@@ -20,7 +21,7 @@ An **important** disclaimer, as ever whenever talking about code optimization, i
 
 You also do _not_ want to optimize in a vacuum. Unless you have the knowledge that some part of your code is actually slow, or is slow enough to impact the enjoyment of the game, you could be making your code harder to read for almost no gain. Run the profiler and measure your code.
 
-_Never assume anything._ Measure.
+_Never assume anything._ [Measure](../optimization-measure).
 
 ## Cache the results of expensive calls ahead of time
 

@@ -2,10 +2,10 @@
 title = "Getting started with debugging"
 description = "Learn how to debug your project in Godot with the debugger"
 author = "razoric"
-programVersion = "3.2"
+menuTitle = "Debugging basics"
 
 date = 2020-08-17T13:19:24-04:00
-weight = 5
+weight = 3
 draft = true
 
 difficulty = "beginner"
