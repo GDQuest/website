@@ -112,7 +112,7 @@ You can customize the result after instancing. Look at how you are creating node
 ```gdscript
 var body = preload("res://Shared/KinematicActor.tscn").instance()
 
-var enemy_behavior = preload("res://Enemies/EnemyBehavior.gd).new()
+var enemy_behavior = preload("res://Enemies/EnemyBehavior.gd").new()
 body.add_child(enemy_behavior)
 
 add_child(body)
