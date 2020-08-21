@@ -117,7 +117,9 @@ Godot is a fully featured beginner-friendly general game engine, packed in a sma
 
 It has mature documentation, although it's a bit unorganized at the moment. The community is friendly and helpful, and Godot is a developer-friendly game engine.
 
-If you want to learn more, we made a short video to show you what you can achieve with it: [Godot Explained in 5 Minutes](https://youtu.be/KjX5llYZ5eQ).
+If you want to learn more, we made a short video to show you what you can achieve with it:
+
+{{< youtube "KjX5llYZ5eQ" >}}
 
 To get you started, we wrote a complete [beginner learning path]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}). It only contains free resources.
 
