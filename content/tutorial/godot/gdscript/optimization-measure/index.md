@@ -1,7 +1,6 @@
 +++
-title = "Measuring the speed of your code"
+title = "Measuring code performances"
 description = "Using the profiler and measuring individual blocks of code with timers"
-menuTitle = "Optimization 1 - Measure your code"
 author = "razoric"
 coAuthors = ["nathan"]
 
