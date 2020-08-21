@@ -9,7 +9,6 @@ date = 2020-08-17T13:19:24-04:00
 weight = 3
 
 difficulty = "beginner"
-tags = ["tutorial", "godot", "gdscript"]
 keywords = ["godot debugging tutorial", "gdscript debugging", "debug gdscript", "debug godot"]
 +++
 

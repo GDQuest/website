@@ -9,7 +9,6 @@ weight = 5
 draft = true
 
 difficulty = "intermediate"
-tags = ["tutorial", "godot", "gdscript"]
 keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot optimization"]
 +++
 
