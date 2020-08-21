@@ -4,8 +4,6 @@ date = 2020-08-07
 author = "nathan"
 description = "This week, get new procedural generation algorithms, Godot tutorials, and a glimpse of our upcoming Kickstarter!"
 
-draft=true
-
 weight = 5
 
 [banner]
