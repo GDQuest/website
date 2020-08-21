@@ -146,3 +146,5 @@ The [VSCode plugin for Godot](https://github.com/godotengine/godot-vscode-plugin
 </p>
 
 And that's it. You now know more than enough to get started debugging your projects. You don't have any excuse to litter your code with `print()` statements anymore!
+
+If you'd like to support our work, we are on Kickstarter to crowdfund [Godot 2D Secrets](https://www.kickstarter.com/projects/gdquest/godot-2d-secrets-level-up-your-game-creation-skills), a comprehensive course to help you level up your game creation skills. All the details are on the Kickstarter campaign page.
