@@ -15,7 +15,9 @@ keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot op
 
 ![The profiler](images/profiler.png)
 
-You run your game from Godot and play around. It's fun, it's becoming feature complete, and you feel it's getting close to release. But then you open the skill tree, and it grinds to a halt as something snags in your code. Watching the skill tree scroll by like it's a slide show is unacceptable. What went wrong? Is it the calculation of positioning the skill tree elements? Is it the UI? Is it looking at what is already unlocked? Is it the rendering?
+You run your game from Godot and play around. It's fun, it's becoming feature complete, and you feel it's getting close to release. 
+
+But then, you open the skill tree, and it grinds to a halt as something snags in your code. Watching the skill tree scroll by like it's a slide show is unacceptable. What went wrong? Is it the calculation of positioning the skill tree elements? Is it the UI? Is it looking at what is already unlocked? Is it the rendering?
 
 You could try to optimize everything and run the game again and again until you find the culprit, but you can be smarter about this and narrow down the possibilities. Enter Godot's profiler.
 
