@@ -32,9 +32,12 @@ MultiMeshInstance.
 
 Each light after the first adds a draw call.
 
-Casting shadows adds draw calls per light as it draws each mesh from the viewpoint of the light.
+Casting shadows adds draw calls depending on the light type.
 
-Light baking.
+- Directional lights adds 4 draw calls per light per object that casts shadows each frame.
+- Omni and spot lights add 1 draw call per object whenever objects or the light changes, otherwise cached
+
+Consider Light baking.
 
 ### Reduce material and shader changes
 
