@@ -27,6 +27,8 @@ For 3D, the monitors relevant to rendering are under the _Raster_ category: obje
 
 Mat changes is when the CPU tells the GPU to switch to a new material, shader changes is when changing shader code, and surface changes is changing geometry. Godot tries to optimize the render order to make fewer of these changes as possible. Draw calls are the CPU telling the GPU to render something.
 
+As you go through the case of optimizing your 3D scene, you should keep two considerations: a target FPS and a target hardware. The one you're developing on is a good candidate, though if you want your game to be able to run on slower machines than your development computer, consider gaining access to one and testing your game on it.
+
 ## Optimizing away draw calls and state changes
 
 The GPU is an excited hunting hound held back by a harness. It's ready to go and is waiting for the grip to loosen so it can go as fast as it can. But before it goes, the CPU has to prepare it. It has to tell it what it's about to draw, what data to use, and in what order. The more work the CPU has to do, the longer the GPU waits and the lower the framerate. Communication to the GPU is a lot slower than a GPU on its own, so minimizing that prep time is vital to a low framerate.
@@ -86,3 +88,7 @@ When writing shader code, expensive calculations can happen on the vertex shader
 If you have a lot of data you can pre-calculate, consider encoding it into a texture and looking up the value with a call to `texture` instead of calculating it on the fly per fragment.
 
 Ensuring your code runs as fast as possible and does not use dynamic branching can give you performance gains.
+
+## Optimize for consistency
+
+As a final consideration, if you cannot hit your target FPS on your target hardware because your game has grown in scope and you're running out of time, go down to the next lower FPS target and optimize to stay there. A full resolution constant 30 FPS game will feel better than a game that runs somewhere between 35 and 50 FPS, dipping up and down as it plays.
