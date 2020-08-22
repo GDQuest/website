@@ -99,6 +99,4 @@ If you'd like to learn about it, we have a 5-minute video to get you started:
 
 {{< youtube "KjX5llYZ5eQ" >}}
 
-If you'd like to support our work, we are on Kickstarter to crowdfund [Godot 2D Secrets](https://www.kickstarter.com/projects/gdquest/godot-2d-secrets-level-up-your-game-creation-skills), a comprehensive course to help you level up your game creation skills. All the details are on the Kickstarter campaign page.
-
 We create many [free educational resources]({{< ref "tutorial/godot/_index.md" >}}), as well as more advanced [premium Godot courses](https://gdquest.mavenseed.com) to help you go beyond the basics.

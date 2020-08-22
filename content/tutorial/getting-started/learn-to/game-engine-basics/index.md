@@ -124,5 +124,3 @@ If you want to learn more, we made a short video to show you what you can achiev
 To get you started, we wrote a complete [beginner learning path]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}). It only contains free resources.
 
 We also sell [in-depth courses](https://gdquest.mavenseed.com) to help you get beyond the initial steps.
-
-If you'd like to support our work, we are on Kickstarter to crowdfund [Godot 2D Secrets](https://www.kickstarter.com/projects/gdquest/godot-2d-secrets-level-up-your-game-creation-skills), a comprehensive course to help you level up your game creation skills. All the details are on the Kickstarter campaign page.
