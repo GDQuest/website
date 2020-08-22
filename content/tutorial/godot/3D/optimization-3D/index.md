@@ -51,9 +51,9 @@ One more way to have great lighting on your static scene without actually using 
 
 ### Reduce material and shader changes
 
-While Godot does its best to sort objects to minimize state change like switching materials and shaders, it has its limits. You can help it along by giving the same material _instance_ to more objects. For example, small objects could have their UVs occupy different places but they end up sharing the same texture map. That way, they can have the same material instance. Then they can even share the same texture, letting them share the same material.
+While Godot does its best to sort objects to minimize state change like switching materials and shaders, it has its limits. You can help it along by giving the same material _instance_ to more objects. For example, small objects could have their UVs occupy different places but they end up sharing the same texture map. That way, they can have the same material instance.
 
-Avoid the temptation to rewrite shaders with the same code. Save the shader and re-use it to reduce the number of shader changes.
+Do not rewrite shaders with the same code. Save the shader and re-use it to reduce the number of shader changes.
 
 ## The graphics card's amount of work and fill-rates
 
@@ -61,9 +61,9 @@ Once the CPU gives the go-ahead, the GPU can do all the work it needs to do on i
 
 ### Reduce overdrawing
 
-Godot hides what is outside the bounds of the camera (frustum culling) but it does not do tests to check whether objects are behind walls. Overdrawing means drawing objects despite being behind other objects and being invisible. This results in effort wasted by the GPU.
+Godot hides what is outside the bounds of the camera (frustum culling) but it does not do tests to check whether objects are behind walls. Overdrawing means drawing objects despite them being behind other objects and, as a result, not visible. This results in effort wasted by the GPU.
 
-You should design your levels and scene trees in such a way that you can toggle visibility on large portions of your level when you know it will be invisible. When the player steps into a closed room, automatically close the door behind them and hide the rest of the level until they open the door. Have clever wall placement so that players cannot see outside the walls at the level geometry beyond them, which gives you a great place to put triggers going in and out that hide geometry.
+You should design your levels and scene trees in such a way that you can toggle visibility on large portions of your level when you know it will be invisible. When the player steps into a closed room, automatically close the door behind them and hide the rest of the level until they open the door. Have clever wall placement so that players cannot see the level geometry outside them and hide it, which gives you a great place to put triggers going in and out that hide geometry.
 
 ### Reduce the amount of vertices to draw
 
@@ -85,4 +85,4 @@ When writing shader code, expensive calculations can happen on the vertex shader
 
 If you have a lot of data you can pre-calculate, consider encoding it into a texture and looking up the value with a call to `texture` instead of calculating it on the fly per fragment.
 
-Ensure your code runs as fast as possible and does not use dynamic branching can give you performance gains.
+Ensuring your code runs as fast as possible and does not use dynamic branching can give you performance gains.
