@@ -8,14 +8,14 @@ This page explains how to install and to update the framework in your projects.
 
 At the time of writing, Godot doesn't have a package manager, that is to say, a tool to easily install and remove dependencies in a project. Here are some instructions and tips to get the framework into your project.
 
-In short, to get started, you only need to copy the `src/` directory and copy it into your project. Once you open your project in Godot, the engine will automatically register all `GSAI*` classes and give you full auto-completion for them.
+In short, to get started, you can either copy the `addons/com.gdquest.godot-steering-ai-framework` directory and copy it into your project, or you can clone or submodule the files from [this repository](https://github.com/GDQuest/godot-steering-ai-framework-submodule). Keep your project organized and keep things in a directory! Once you open your project in Godot, the engine will automatically register all `GSAI*` classes and give you full auto-completion for them.
 
 ## First install ##
 
 To install the framework:
 
 1. Download the latest [GitHub release](https://github.com/GDQuest/godot-steering-ai-framework/releases).
-2. Copy the content of the `project/src/` directory.
+2. Copy the content of the `godot/addons/com.gdquest.godot-steering-ai-framework/` directory.
 3. Paste the files into your Godot project.
 
 We recommend to place the framework in a directory where you will store all your third-party libraries or dependencies. For example `res://src/libraries/godot_steering_framework/`.
@@ -37,4 +37,4 @@ To update to a new version:
 1. Close your Godot project.
 1. Delete your copy of the framework's files.
 1. Download the latest [GitHub release](https://github.com/GDQuest/godot-steering-ai-framework/releases).
-1. Copy the content of the `project/src/` directory where you initially copied the files.
+1. Copy the content of the `godot/addons/com.gdquest.godot-steering-ai-framework/` directory where you initially copied the files.
