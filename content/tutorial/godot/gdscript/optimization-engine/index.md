@@ -1,84 +1,91 @@
 +++
-title = "Optimizing code by leveraging Godot's native speed"
+title = "Making the most of Godot's speed"
 description = "A list of tips to reduce the amount of manual work you do and use the speed of Godot's C++."
 author = "razoric"
-menuTitle = "Optimization 2 - Use Godot's speed"
+coAuthors = ["nathan"]
+menuTitle = "Using Godot's Speed"
 
 date = 2020-08-18T11:07:59-04:00
 weight = 4
-draft = true
 
-difficulty = "beginner"
+difficulty = "intermediate"
 keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot optimization"]
 +++
 
-Making a game run fast means also having fast code. You can code well in GDSCript and get good performance, but there is one shortcut you can follow to have fast code without much, and sometimes _less_, effort: Making Godot do the work for you.
+To make a game run fast, you need your code to run fast too. You can try to write optimized GDSCript patterns to get decent performances. But there is often a better way that makes your code run faster and with less effort: letting Godot do the work for you.
 
-## Focus optimization where it counts
+## GDScript, Godot, and C++
 
-An **important** disclaimer, as ever whenever talking about code optimization, is to not optimize where there is little gain. Making your `_ready` function blazing fast is all well and good, but this is something that gets called once and never again. The real gains for optimization are blocks of code that run often. A slow block of code inside a large loop is a far more important target for optimization than code that runs once.
+Every feature built into the engine relies on _compiled_, native, and fast C++ code. The engine's code also tends to get faster and more stable over time, as many contributors optimize it. In GDScript, every function that you did not code yourself calls the C++ code. As a result, you can have much faster code by using Godot's built-in functions and objects instead of writing them yourself.
 
-You also do _not_ want to optimize in a vacuum. Unless you have the knowledge that some part of your code is actually slow, or is slow enough to impact the enjoyment of the game, you could be making your code harder to read for almost no gain. Run the profiler and measure your code.
+On the other hand, GDScript is an interpreted language. In Godot 3.2, it runs about as fast as interpreted Python, so it is probably two orders of magnitude slower than compiled C++.
 
-_Never assume anything._ [Measure](../optimization-measure).
+By relying on built-in nodes and features:
 
-## GDScript, Godot and C++
+1. You have to write less code.
+2. You get code that is shorter and easier to read.
+3. Your game runs faster.
 
-Godot runs on C++ and the GDScript interpreter is a go-between your code and the engine. The Godot developers program every feature that's built-in to the engine in optimal, _compiled_, native and fast C++. Every function that you did not code yourself calls C++ code. That means you can have much faster code by using Godot's built-in functions and objects instead of going through the effort of writing them yourself.
+## Optimize when it makes a difference
 
-You don't recreate code that already exists, you get code that is shorter and easier to read, _and_ you get a faster game.
+A necessary disclaimer: only optimize code when it makes a measurable difference. Optimizing for no gain in the player's experience is a waste of time.
+
+For example, functions like `_ready()` only get called once upon adding a node to the scene tree. The real performance gains are in blocks of code that run often, or in performance-intensive code, like procedural world generation. In general, a slow block of code inside a loop should be a priority target for optimization.
+
+You also do _not_ want to optimize in a vacuum. Unless you know that some part of your code impacts the game's performances, do not optimize it. Optimizing code generally increases its complexity and reduces your ability to change it later.
+
+{{< note >}}
+You should always run the profiler and measure your code's execution speed before optimizing a function. To learn to use it and measure your code's performances, read our [profiler guide]({{< ref "tutorial/godot/gdscript/optimization-measure/index.md" >}}).
+{{< / note >}}
 
 ## Make the engine work for you
 
-This is a list of tips for some common tasks that can be common across game projects, though by no means an exhaustive one.
+Let's look at a non-exhaustive list of tips for some common tasks the engine can do for you.
 
-### Prefer math from Godot over manual calculations
+## Use built-in math functions over manual calculations
 
-GDScript exposes a variety of math and number manipulating functions that are better than you at calculating data. [Look over the list](https://docs.godotengine.org/en/stable/classes/class_@gdscript.html) and prefer using those over manually calculating values whenever possible. Here are a few common cases in game development:
+GDScript exposes a library of functions to do math calculations. Explore @GDScript in the built-in class reference to find functions built into the language. You should use those instead of manually calculating values whenever possible. Here are a few common ones.
 
 Checking if a value is negative or positive:
 
 ```gdscript
-# SLOW
+# Slow
 var result = 0
 if value < 0:
     result = -1
 elif value > 0:
     result = 1
 
-
-# FAST
+# Fast
 result = sign(value)
 ```
 
-Bring a value down from [current_min ... current_max] to [intended_min ... intended_max] range
+Remapping a value from the [current_min, current_max] range to [intended_min, intended_max] range:
 
 ```gdscript
-# SLOW
+# Slow
 value = (value - current_min) / (current_max - current_min) * (intended_max - intended_min) - intended_min
 
-
-# FAST
+# Fast
 value = range_lerp(value, current_min, current_max, intended_min, intended_max)
 ```
 
-Find the next power of 2
+Finding the next power of two:
 
 ```gdscript
-# SLOW
+# Slow
 value = pow(2, ceil(log(value) / log(2)))
 
-
-# FAST
+# Fast
 value = nearest_po2(value)
 ```
 
-### Prefer instancing scene files over building scene trees
+## Favor instancing scenes
 
-It's common to manually build scene trees because you want to have a custom node set up for each entity you create. But calling each `new()` and `add_child()` one at a time, and configuring property as you go is going to be cause more code and will be a lot slower than `instance()`.
+It's common to manually build scene trees because you want to have a custom node set up for each entity you create. But calling `new()` and `add_child()` one at a time means many separate function calls into the engine. Doing so is a lot slower than instancing a `PackedScene` with its `instance()` method.
 
 ```gdscript
-# SLOW: Build a script with a kinematic body 2D circle with a timer
+# Slow: building the scene in GDScript
 var CustomBody = preload("res://player/TimedKinematic.gd")
 var body = CustomBody.new()
 
@@ -100,29 +107,30 @@ timer.connect("timeout", body, "_on_Timer_timeout")
 
 add_child(body)
 
-
-# FAST: Build a script with a kinematic body 2D circle with a timer
+# Fast: Build a script with a kinematic body 2D circle with a timer
 var body = preload("res://player/TimedKinematic.tscn").instance()
 add_child(body)
 ```
 
-You can customize the result after instancing. Look at how you are creating node trees and try to find common elements. If they all follow the same template but have different properties, then instance it as a scene and change the properties afterwards. If they all follow the same starting template but have different nodes, create a scene that has those common elements and add the rest manually.
+Look at how you are creating node trees and try to find common elements. If they all follow the same template but have different properties, save the node branch as a scene and instance it. You can always change some of the instance's properties at runtime, using GDScript.
 
 ```gdscript
 var body = preload("res://Shared/KinematicActor.tscn").instance()
 
 var enemy_behavior = preload("res://Enemies/EnemyBehavior.gd").new()
-body.add_child(enemy_behavior)
+body.behavior = enemy_behavior
 
 add_child(body)
 ```
 
-### Use an Area node to find the nearest neighbor
+## Use Area nodes to find the nearest neighbor
 
-Finding the nearest object is a common task for path-finding, AI targeting or interact button prompts. When you are not dealing with physics, it can be tempting to think of grabbing a list of objects in the world and checking for distances to find the nearest one.
+Finding the nearest object is a common task for path-finding, AI targeting, or interactive switches. When you are not dealing with physics, it can be tempting to check for distances between objects to find the nearest one.
+
+Here's a code example that does so by looping over all interactive objects in the current level:
 
 ```gdscript
-# SLOW: Find the nearest interactive object out of a list
+# Slow: 
 var interactive_objects = get_tree().find_nodes_in_group("interactive")
 var minimum_distance = INF
 var nearest_object
@@ -138,10 +146,14 @@ for object in interactive_objects:
 return object
 ```
 
-Depending on the number of objects in your game world, this can be adequate or it can be an utter disaster, notably when called every frame. Imagine a puzzle room where you can pick up every curios, piece of bread, spoon, plate or wheel of cheese! Instead, you could affix an Area node to the objects that you can interact with and apply a cleverly placed Area node to the player's interaction detector. Let the physics engine find objects for you and filter out the rest.
+Depending on the number of interactive objects in your scene, it can run fine or be an utter disaster.
+
+Imagine a puzzle room where you can pick up every piece of bread, spoon, plate, or wheel of cheese! Instead, you can attach an `Area` node to the objects with which you can interact and add an `Area` node to the player's interaction detector. Let the physics engine find objects for you and filter out the rest. Physics engines can have many optimizations like splitting the world in a grid to compare with few as few objects as possible.
+
+The following code finds the nearest interactive object that is close to the player, using an area.
 
 ```gdscript
-# FAST: Find the nearest interactive object out of a list
+# Fast: 
 var interactive_objects = interact_area.get_overlapping_areas()
 
 var minimum_distance = INF
@@ -158,14 +170,13 @@ for object in interactive_objects:
 return object
 ```
 
-The distance calculation is the same, but the amount of objects that are in the list go from looking at the entire active game world to a small area hovering inches in front of the player's face or hand.
+The distance calculation is the same, but the amount of objects in the list goes from looking at the entire active game world to a small area hovering inches in front of the player's face.
 
-### The Geometry class
+## The Geometry class
 
-The user has clicked on the screen and you want to check if the point that got clicked on is inside some sprite's hitbox. You figure that the hit box is a rectangle and the click is a point, and come up with an algorithm. You put it in a function so you can call it from different places.
+The user clicks on the screen and you want to check if the point is inside some sprite's bounding-box. Here's the manual way to do it:
 
 ```gdscript
-# SLOW: Check if a point is inside a rectangle
 func is_point_in_rect(point, rect):
     return (
         point.x > rect.position.x and
@@ -175,17 +186,32 @@ func is_point_in_rect(point, rect):
     )
 ```
 
-That's fast enough. But then you come up with sprites that have different shapes, like intricate ships or weird beasts, and checking if the user clicks on them means checking against their geometry. Internet research leads you to the Point In Polygon article on Wikipedia that uses rays and odd numbered intersection counts. With enough research and iterations you could probably come up with a decent implementation, but it's a lot of GDScript math and is going to start slow.
+That's fast enough. But then you come up with sprites that have different shapes, like intricate ships or weird beasts, and checking if the user clicks on them means checking against their geometry.
 
-In comes one of the lesser known heroes of the Godot engine, the static `Geometry` class. Geometry has [a list of functions](https://docs.godotengine.org/en/stable/classes/class_geometry.html) designed around getting information about and manipulating shapes in 2D and 3D. You can find what you need for most geometry purposes in there.
+For that, Godot provides the static [Geometry](https://docs.godotengine.org/en/stable/classes/class_geometry.html) class. `Geometry` has a list of functions to get information about and manipulate shapes in 2D and 3D. You can find what you need for most geometry purposes there.
 
 ```gdscript
-# FAST: Check if a point is inside a rectangle
-var is_in_rect = Geometry.is_point_in_polygon(get_global_mouse_position() - global_position, collider_shape.polygon)
+# Fast: Check if a point is inside a polygon
+var is_in_rect = Geometry.is_point_in_polygon(point, collider_shape.polygon)
 ```
 
 ## More helpers and functions
 
-Get to know the nodes. Open the _Add Node_ window in Godot and go down the list, then check the [official documentation](https://docs.godotengine.org/en/stable/) to find out what it can do. Some well known stars include [Tween](https://docs.godotengine.org/en/stable/classes/class_tween.html), [Line2D](https://docs.godotengine.org/en/stable/classes/class_line2d.html), [RayCast2D](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html) and its 3D [counterpart](https://docs.godotengine.org/en/stable/classes/class_raycast.html), [AnimationPlayer](https://docs.godotengine.org/en/stable/search.html?q=AnimationPlayer) and [Timer](https://docs.godotengine.org/en/stable/classes/class_timer.html). The GUI nodes that inherit from Control like the containers also can do a lot of work to organize your user interface.
+Godot is full of nodes that can do good work for you. The most difficult aspect of this kind of optimization is finding the features.
 
-Look at the [class reference](https://docs.godotengine.org/en/stable/classes/index.html) on the official documentation and see if any of the class names jump out at you. A couple noteworthy standouts for 3D are the [SurfaceTool](https://docs.godotengine.org/en/stable/classes/class_surfacetool.html) and [MeshDataTool](https://docs.godotengine.org/en/stable/classes/class_meshdatatool.html) classes.
+Get to know the nodes. Open the _Add Node_ window in Godot and go down the list, then check the [official documentation](https://docs.godotengine.org/en/stable/) to find out what it can do.
+
+I recommend you to browse at the built-in class reference (<kbd>Shift</kbd> <kbd>F1</kbd>)  looking for class names that sound useful.
+
+Here are some widely-used ones:
+
+- [Tween](https://docs.godotengine.org/en/stable/classes/class_tween.html).
+- [Line2D](https://docs.godotengine.org/en/stable/classes/class_line2d.html).
+- [RayCast2D](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html) and its 3D counterpart.
+- [RayCast](https://docs.godotengine.org/en/stable/classes/class_raycast.html).
+- [AnimationPlayer](https://docs.godotengine.org/en/stable/search.html?q=AnimationPlayer) .
+- [Timer](https://docs.godotengine.org/en/stable/classes/class_timer.html). 
+
+When it comes to physics, read about the four types of [physics bodies](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-objects) available in the engine.
+
+Two noteworthy standouts for 3D are the [SurfaceTool](https://docs.godotengine.org/en/stable/classes/class_surfacetool.html) and [MeshDataTool](https://docs.godotengine.org/en/stable/classes/class_meshdatatool.html) classes. They help you create and manipulate 3D meshes.
