@@ -1,12 +1,10 @@
 +++
-title = "Writing more optimized code"
+title = "Optimizing GDScript code"
 description = "A list of tips to write faster GDScript code in Godot."
 author = "razoric"
-menuTitle = "Optimization 3 - Write better code"
 
 date = 2020-08-18T19:08:58-04:00
 weight = 5
-draft = true
 
 difficulty = "intermediate"
 keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot optimization"]
@@ -14,19 +12,21 @@ keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot op
 
 Some code optimizations are universal across most programming languages. Some are specific to GDScript.
 
-## Focus optimization where it counts
+In this guide, we share some general tips and GDScript-specific techniques to improve your code's execution speed in Godot 3.2.
 
-An **important** disclaimer, as ever whenever talking about code optimization, is to not optimize where there is little gain. Making your `_ready` function blazing fast is all well and good, but this is something that gets called once and never again. The real gains for optimization are blocks of code that run often. A slow block of code inside a large loop is a far more important target for optimization than code that runs once.
+{{< note >}}
+We recommend you to only optimize code you know is slowing down the game or hurting your players' experience. You should always use the profiler and measure how specific functions impact performances.
 
-You also do _not_ want to optimize in a vacuum. Unless you have the knowledge that some part of your code is actually slow, or is slow enough to impact the enjoyment of the game, you could be making your code harder to read for almost no gain. Run the profiler and measure your code.
+Things such as improvements to the GDScript compiler may remove the need for some of these optimizations.
 
-_Never assume anything._ [Measure](../optimization-measure).
+To learn to use it and measure your code's performances, read our [Godot profiler guide]({{< ref "tutorial/godot/gdscript/optimization-measure/index.md" >}}).
+{{< /note >}}
 
-## Cache the results of expensive calls ahead of time
+## Cache expensive calls ahead of time
 
-If you have an expression that always returns the same thing, you should calculate it ahead of time and put the result in a variable. A prime example in Godot is `get_node` (or its shorthand `$`). It has a cost and repeating it throughout a single frame is wasteful.
+If you have an expression that always returns the same value, you should execute it ahead of time and store the result in a variable. A prime example in Godot is `get_node()` or its shorthand `$`. If there is no need to call `get_node()` more than once per node. It has a cost and repeating it throughout a single frame is wasteful.
 
-Avoid doing:
+Avoid:
 
 ```gdscript
 var direction
@@ -37,7 +37,7 @@ func _process(delta):
     direction = Vector2.UP.rotated(turret.rotation)
 ```
 
-Prefer doing:
+Prefer:
 
 ```gdscript
 var direction
@@ -48,23 +48,24 @@ func _process(delta):
     direction = Vector2.UP.rotated(turret.rotation)
 ```
 
-If there is no need to call `get_node` more than once per node, then there is also no need to do more math than you need to. Cache the results of values that will stay constant throughout a loop before entering the loop.
+Then, there is also no need to do more math than you need to. Cache the results of values that will stay constant throughout a loop before entering the loop.
 
 ```gdscript
-# SLOW
-var alloy_strength = 1
-var alloy_thickness = 5
-var alloy_layers = 15
+# Slow
+var alloy_strength = 1.0
+var alloy_thickness = 5.0
+var alloy_layers = 15.0
 
 for robot in army:
     robot.armor = pow(alloy_strength * alloy_thickness, alloy_layers) + robot.native_armor
 
 
-# FASTER
-var alloy_strength = 1
-var alloy_thickness = 5
-var alloy_layers = 15
+# Faster
+var alloy_strength = 1.0
+var alloy_thickness = 5.0
+var alloy_layers = 15.0
 
+# Here, we're calculating the base armor rating of robots outside of the loop
 var base_armor = pow(alloy_strength * alloy_thickness, alloy_layers)
 
 for robot in army:
@@ -73,20 +74,9 @@ for robot in army:
 
 ## 1D array over an array of arrays
 
-In small sizes that are not accessed often, iterating over an array of arrays is a negligible time difference measured in the order of nanoseconds. But for large arrays or arrays that you access often (or both!), the time difference adds up.
+In small arrays that are not accessed often, iterating over nested arrays over a single array is negligible. But for large sets of data or arrays you access often, the time difference adds up.
 
 ```gdscript
-# 0.000009 seconds
-for x in 9:
-    for y in 3:
-        var element = my_array[y][x]
-
-
-# 0.000005 seconds
-for x in 9:
-    for y in 3:
-        var element = my_array[y * 9 + x]
-
 # 0.115443 seconds
 for x in 1000:
     for y in 1000:
@@ -97,12 +87,9 @@ for x in 1000:
 for x in 1000:
     for y in 1000:
         var element = my_array[y * 1000 + x]
-```
 
-If the order you access the elements does not matter, accessing a large 1D array sequentially instead of in a nested loop is almost twice as fast.
 
-```gdscript
-# 0.062938 seconds
+# 0.062938 seconds, about 45% faster than the first example
 for i in 1000000:
     var element = my_array[i]
 ```
@@ -110,7 +97,7 @@ for i in 1000000:
 The most interesting part comes when using Godot's native iterator instead of using indices to access elements in an array. Both 1D and 2D arrays get similar, _superior_ speeds with code like this:
 
 ```gdscript
-# 0.048952 seconds
+# 0.048952 seconds, almost 60% faster than the first example
 for x in 1000:
     for element in my_array[x]:
         #...
@@ -120,39 +107,45 @@ for element in my_array:
     #...
 ```
 
-Of course, you do not always have the luxury of accessing elements in any order, and sometimes you need the position of the element in the array for more processing. But it's a tradeoff to keep in mind.
+Of course, you do not always have the luxury of accessing elements in any order. Sometimes, you need to know the position of the element in the array for more processing. But it's a tradeoff to keep in mind.
 
 If you want high performing arrays in GDScript, the main takeaways are:
 
--   1D arrays are faster than multi-dimensional arrays
--   Single loops are faster than nested loops
--   Accessing an array element with the iterator (`for element in array:`) is faster than using indices (`for i in array.size():`)
+- 1D arrays are faster than multi-dimensional arrays
+- Single loops are faster than nested loops
+- Accessing an array element with the iterator `for element in array` is faster than using indices, e.g. `for i in array.size()`.
 
 ## Remove elements from the back of the array
 
-Whenever you remove an element from an array, Godot has to resize the array. When the removed element is the last one, that's all it has to do. When the removed element is in the front or in the middle, Godot also has to move every element in its new place, and that's a slower operation.
+Whenever you add or remove an element at position within an array, Godot has to resize the array and move all the elements. The cost of this operation is proportional to the number of entries in the array. When the removed element is the last one, the engine only needs to resize the array, discarding the last value.
 
-Use `pop_back()` and `push_back()`/`append()` whenever possible when removing from or adding elements to an array.
+Favor `pop_back()` and `push_back()` or `append()` when removing or adding elements to an array. Avoid `pop_front()` and `push_front()`.
 
-## Use the correct data structure and algorithm
+## Use the correct data structure and algorithm for the job
 
-This is not a GDScript specific issue, but is one that affects all algorithms. It's also more difficult to give examples for as every algorithm will benefit differently from a good data structure.
+This is not a GDScript-specific issue, but the data structures you use affects all algorithms.
 
-But I can still give you a rule of thumb for GDScript in particular at the most basic level:
+Here are three rules of thumb for choosing data structures with GDScript:
 
--   If you want to remove elements from a collection at any location at any time, prefer a Dictionary.
--   If you are going to access elements from a collection by key randomly, prefer a Dictionary.
--   If you lay your elements in order, use an Array.
+- If you want to remove elements from a collection at any location and at any time, use a `Dictionary`.
+- If you are going to access elements from a collection by key randomly, use a `Dictionary`.
+- If you lay your elements in order, use an `Array`.
 
-Consider creating custom structure that better fit your needs. Don't be afraid to research how other people do it outside of GDScript and come up with your own version in Godot.
+For more information, read the [Data preferences](https://docs.godotengine.org/en/stable/getting_started/workflow/best_practices/data_preferences.html) page in the official manual.
 
-## Prefer debugging and breakpoints instead of printing
+## Use breakpoints instead of printing
 
-Calling `print()` is actually expensive. Godot has to build the string, inform the standard buffer, and display the printed data. The buffer has a finite amount of space available to it at any given time and it's easy to fill it up. When the buffer is full, it pauses while outputting what it does have, which slows Godot down even further and prompts it to give the error `[output overflow, print less text!]`.
+Calling the `print()` function is expensive. You don't want to export your games with many print statements left in.
+
+Instead, you can use [the built-in debugger]({{< ref "tutorial/godot/gdscript/debugging/index.md" >}}) to inspect your game at runtime. Another option is to call `print_debug()`, which only runs in debug builds of your game, or when testing it from the editor.
+
+{{< note >}}
+Printing is slow because Godot has to build the string, pass it to the standard input, and display the printed data. The call to `print()` involves passing data to your computer's peripherals, like the display, which is slow. The print buffer also has a finite amount of space available and it easy to fill it up. When the buffer is full, it pauses while outputting its content, which slows Godot down even further and prompts it to give the error `[output overflow, print less text!]`.
+{{< /note >}}
 
 It can have a significant impact on framerate at no benefit to the end-user.
 
-You can get more benefit than printing by putting a breakpoint and looking at the variables. If you want to print some data for debug purposes, prefer small messages. If you want to have a large dump of data, which is useful to analyze any invisible or hard to track errors, prefer printing to a log file such as through an autoloaded singleton.
+If you want to read a large dump of text or data, which is useful to analyze errors that are hard to track down, output text to a log file. You can do so by creating an [Autoload](https://docs.godotengine.org/en/stable/getting_started/step_by_step/singletons_autoload.html) dedicated to logging:
 
 ```gdscript
 extends Node
@@ -172,24 +165,29 @@ func print_msg(message, source):
     log.write_line("%s (%s:%s:%s): %s" % [source, current_time.hour, current_time.minute, current_time.second, message])
 ```
 
-## Iteration over recursion
+## Favor iteration over recursion
 
-Function calls are not free and add up over time. Recursion is powerful, but deep recursion stacks can cause performance issues. You shouldn't optimize them away _just_ because you are using recursion, but if you _are_ looking to get more optimal code, consider converting them to a loop to avoid excessive numbers of function calls. The gains become significant the larger the stack.
+Every time you call a function, the compiler creates an object to store some information about it. One piece of information is which function called the current one, allowing the compiler to return to the caller. Recursion, that is to say, having a function call itself, causes these objects to stack up.
+
+Recursion can be powerful and lead to code that's easy to read. For small recursion loops, the performance impact is negligible. You shouldn't optimize them away _just_ because you are using recursion. But if you _are_ looking to get more optimal code, consider converting recursive functions to a loop to avoid excessive numbers of calls.
 
 ```gdscript
-func recursive_find_by_type_name(parent, type_name):
+# Loop over nodes recursively to find one of a given type.
+# This is a recursive function as it calls itself.
+func find_by_type_name_recursive(parent, type_name):
     for child in parent.get_children():
         if child.get_class() == type_name:
             return child
         else:
-            var result = _find_by_type_name(child, type_name)
+            var result = find_by_type_name_recursive(child, type_name)
             if result:
                 return result
 
     return null
 
-
-func looped_find_by_type_name(parent, type_name):
+# Same as the previous function but using a while loop.
+# The deeper the scene tree, the higher the performance gain.
+func find_by_type_name(parent, type_name):
     var parent_stack = [parent]
 
     while parent_stack.size() > 0:
@@ -206,33 +204,40 @@ func looped_find_by_type_name(parent, type_name):
 
 ## Invert loops of function calls with a function call with a loop
 
-As I said in the recursion example above, function calls are slower than instructions. Try to replace loops that call a function with a function that uses a loop and pass the data you need in its parameters.
+Function calls are slower than instructions as the compiler needs to store some state for them. Instead of calling a function many times in a loop, putting the loop inside a single function is significantly faster.
 
 ```gdscript
+var tiles = []
 for i in range(1000):
-    do_something(i)
+    # We're calling `create_random_tile` one thousand times
+    var new_tile = create_random_tile()
+    tiles.append(new_tile)
 
 
-func do_something(x):
+func create_random_tile():
     #...
 ```
 
-is going to be much slower than
+Is going to be much slower than:
 
 ```gdscript
-    do_something()
+# Here, we only have one function call
+var tiles = create_random_tiles()
 
 
-func do_something():
+func create_random_tiles():
+    var tiles = []
     for i in range(1000):
-        #...
+        # ...
+    return tiles
 ```
 
-## Replace if/else chains with match where possible
+## Favor match over long conditional chains
 
-Long chains of if, elif and else blocks can grow in cost. Godot has to parse each condition one after the other so long as it's false. Match instead parses the value once, looks at the list of matches, and jumps to the correct one. It's faster and cleaner too.
+Long chains of if, elif, and else blocks can grow in cost. Godot has to parse and evaluate each condition before running the comparison. Match instead evaluates the expression once, looks at the list of matches, and jumps to the correct one. Using `match` is not only faster; the code is often easier to read.
 
 ```gdscript
+# Evaluates `student.eye_color` once for every if or elif statement.
 if student.eye_color == "Green":
     #...
 elif student.eye_color == "Blue":
@@ -241,12 +246,11 @@ elif student.eye_color == "Brown":
     #...
 elif student.eye_color == "Black":
     #...
-elif student.eye_color == "Red":
-    #...
 else:
     #...
 
 
+# Evaluates `student.eye_color` only once.
 match student.eye_color:
     "Green":
         #...
@@ -256,15 +260,19 @@ match student.eye_color:
         #...
     "Black":
         #...
-    "Red":
-        #...
     _:
         #...
 ```
 
+{{< note >}}
+As always, the difference in execution speed is negligible in code that only runs once. It only starts to add up in loops.
+{{< /note >}}
+
 ## Leave loops and functions as soon as possible
 
-Don't do more work than you need to. As soon as you have found the value you were looking for or you have reached a point where you know for certain that the loop will always be false, try to leave it as soon as possible.
+Use the `return` keyword in functions or `continue` and `break` in loops to skip instructions you don't need to run.
+
+As soon as you have found the value you were looking, try to leave it as soon as possible.
 
 ```gdscript
 func get_inventory_from(container):
@@ -283,12 +291,16 @@ func get_inventory_from(container):
 
 ## Micro-optimizations
 
-You have some optimizations that cause large differences, like removing the elements from the back of an array or caching expensive results. Then you have the little things you probably shouldn't sweat but can be good practice. Gains here are much smaller than other optimization tips.
+You have some optimizations that cause large differences, like removing the elements from the back of an array or caching expensive results. Then, you have the little things you probably shouldn't sweat but can be good practices. Gains here are much smaller than with previous optimization tips.
 
--   If you have a `or` or `and` boolean operation, try to put conditions that are _more likely_ to return true on the left side of `or`, and conditions that are _more likely_ to return false on the left side of `and`.
--   In `if/elif/else` chains and `match` statements, try to put the candidates that appear more commonly near the top of the chain.
--   Rephrase math to remove expensive operations. Compare `distance_squared_to` instead of `distance_to` to avoid square root. If you divide by `x` more than 3 times, pre-calculate `1/x` and multiply by that instead.
+Here are three examples:
+
+1.  If you have a `or` or `and` boolean operation, try to put conditions that are _more likely_ to return true on the left side of `or`, and conditions that are _more likely_ to return false on the left side of `and`.
+1.  In conditional chains or `match` statements, try to put the candidates that appear more commonly near the top of the chain.
+1.  Rephrase math to remove expensive operations. Compare `distance_squared_to` instead of `distance_to` to avoid a square root operation. If you divide by a value more than three times, pre-calculate that and store it in a variable.
 
 ## Use GDNative
 
-When all else fails and you've wrung every bit of performance optimization you can out of your algorithm and it's as fast as you can make it with GDScript, you're at a point where you should be investing into a C++ GDNative library.
+Even with all the optimization you try to add, GDScript might fail you with performance-intensive algorithms, like heavy procedural generation or a heatmap pathfinding.
+
+If this happens, you will want to look into using either C# or a C++ [GDNative](https://docs.godotengine.org/en/stable/tutorials/plugins/gdnative/gdnative-cpp-example.html) library.
