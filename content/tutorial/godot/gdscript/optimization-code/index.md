@@ -2,6 +2,7 @@
 title = "Optimizing GDScript code"
 description = "A list of tips to write faster GDScript code in Godot."
 author = "razoric"
+coAuthors = ["nathan"]
 
 date = 2020-08-18T19:08:58-04:00
 weight = 5
