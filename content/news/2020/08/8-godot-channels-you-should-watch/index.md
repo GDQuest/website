@@ -3,10 +3,12 @@ title = "8 Godot Tutorial Channels You Should Watch"
 description = "There are more and more content creators making videos for Godot and it can be hard to find the good ones. Here are some we warmly recommend, including some that deserve a lot more viewers."
 author = "nathan"
 
-date = 2020-07-02
+date = 2020-08-25
 weight = 5
 
-draft = true
+[[resources]]
+name = "banner"
+src = "8-new-channels-banner.png"
 +++
 
 There is a growing number of people making tutorials for Godot. It can not only be hard to find them but also to know which are the best ones.
