@@ -6,6 +6,8 @@ author = "nathan"
 date = 2020-08-22
 weight = 5
 
+aliases = ["godot-pcg-secrets-out"]
+
 [banner]
 src = "/img/product/godot/2d-secrets.png"
 +++
