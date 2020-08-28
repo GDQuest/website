@@ -15,6 +15,8 @@ There is a growing number of people making tutorials for Godot. It can not only 
 
 Here are eight channels you should check out for Godot tutorials. Some are already well established, some not so popular. All these creators are actively producing content at the time of writing.
 
+{{< youtube "LbORGmdJCfQ" >}}
+
 ## The big ones
 
 Let's start with two established channels from experienced tutors.
