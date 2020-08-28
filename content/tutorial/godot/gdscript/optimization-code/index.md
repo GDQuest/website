@@ -233,12 +233,24 @@ func create_random_tiles():
     return tiles
 ```
 
-## Favor match over long conditional chains
+## Conditional chains are 20% faster than match
 
-Long chains of if, elif, and else blocks can grow in cost. Godot has to parse and evaluate each condition before running the comparison. Match instead evaluates the expression once, looks at the matches' list, and jumps to the correct one. Using `match` is not only faster; the code is often easier to read.
+You can use the `match` keyword as an equivalent of chains of if, elif, else statements. They can look a bit like `case` statements in some languages. Currently though, `match` is a little slower than `if` for equivalent code. In my tests, the speed difference was about 15% to 20%.
 
 ```gdscript
-# Evaluates `student.eye_color` once for every if or elif statement.
+match student.eye_color:
+    "Green":
+        #...
+    "Blue":
+        #...
+    "Brown":
+        #...
+    "Black":
+        #...
+    _:
+        #...
+
+# About 20% faster than the code above.
 if student.eye_color == "Green":
     #...
 elif student.eye_color == "Blue":
@@ -251,18 +263,6 @@ else:
     #...
 
 
-# Evaluates `student.eye_color` only once.
-match student.eye_color:
-    "Green":
-        #...
-    "Blue":
-        #...
-    "Brown":
-        #...
-    "Black":
-        #...
-    _:
-        #...
 ```
 
 {{< note >}}
