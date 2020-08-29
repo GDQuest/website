@@ -25,7 +25,7 @@ src = "banner.jpg"
 
 Do you want to learn to make games, but you don't know where to start? Do you have little or no programming experience? This guide is for you!
 
-_If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}) instead._
+_If you are an experienced developer, check out [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) instead._
 
 You can always **join the [GDQuest Discord server](//discord.gg/CHYVgar)** for a welcoming community of game developer and designer enthusiasts. And if you want to **keep up to date** with news from GDQuest we encourage you to **follow the [official Twitter account](//twitter.com/NathanGDQuest)**.
 
@@ -134,7 +134,7 @@ We've selected the following resources to give you a peek into the vast array of
 1. [Godot's Introduction to Math for Game Developers](//docs.godotengine.org/en/3.1/tutorials/math/vector_math.html) will give you some insights into the kind of maths you will use often in your games, starting with vectors. If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
    [Omitted long matching line]
 
-The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
+The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
 
 ## Contributing to this document
 
