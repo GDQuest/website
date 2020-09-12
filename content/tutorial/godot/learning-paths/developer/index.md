@@ -39,7 +39,7 @@ There are several places where you can learn about the differences between Godot
 
 ### Godot UI, themes and much more
 
-Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not the friendliest of developer experiences, but we have a few guides to help you.
+Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not be the friendliest of developer experiences, but we have a few guides to help you.
 
 {{< figure
   src="img/rpginabox.png"
