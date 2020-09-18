@@ -243,33 +243,17 @@ caption="One in four Python developer uses it for educational purposes" >}}
 <!-- You can write all kinds of programs in Python. Developers around the world use it to create anything from basics scripts to self-improving artificial intelligence, complex cross-platform applications or website back-ends like YouTube's. Both small and large companies like Google and Microsoft hire Python developers. -->
 <!-- {{< /note >}} -->
 
-## Three resources to learn Python step by step
+## Two resources to learn to code for free
 
-I don't want to flood you with a long list of resources. Instead here's three that I like: two interactive courses which you can complete in your browser without having to download any tool and a free ebook that will help you automate repetitive tasks on your computer with Python.
+I don't want to flood you with a long list of resources. Instead, here are two free courses that I recommend.
 
-### Dive into Python 3
+### Harvard's CS50 open course
 
-You can get started right now with the Python programming language using [Dive into Python](//diveinto.org/python3/table-of-contents.html). It is a practical introduction to the language, showing you real-world uses from the start.
-
-If you want to go further after that, there's a is a great free ebook called [Python Data Science](//runestone.academy/runestone/books/published/pythonds/index.html). This resource will help you develop a good understanding of how computers process data and how to write efficient programs, performance-wise.
-
-### The Python Tutorial
-
-Language creators generally want as many people as possible to use their language. The official website is often one of the best sources you can find to learn everything there is to know about available features and the standard library: the toolset that ships with a programming language.
-
-![Official python tutorial screenshot](img/python-official-tutorial.png)
-
-Python comes with tons of tools, and they're all covered in details in the official reference. The community also wrote a comprehensive intro tutorial that reads like a book.
-
-Read the [official Python tutorial](//docs.python.org/3/tutorial/index.html)
-
-{{< note >}}
-Python's docs website doesn't have the best layout. I use and recommend [Zeal](//zealdocs.org/), a Free documentation browser for programmers, to quickly search and read the docs for multiple languages. You can find the Python tutorial after you download the corresponding docset (click on the menu option `Tools ➡ Docsets`)
-{{</ note >}}
+[CS50](https://cs50.harvard.edu/x/2020/) is a free course that will teach you to think like a programmer. It doesn't focus on a particular programming language, although it includes Python. Instead, it explains what programmers do and focuses on the most important techniques and tools you need to learn to become a programmer. The course is designed for programming beginners. Each lesson gives you many details on why things work in a particular way.
 
 ### Automate the Boring Stuff with Python
 
-Put your new Python knowledge to good use with this [free book](//automatetheboringstuff.com/)! It is a collection of nice tricks to make your computer work for you. Need to rename many files in a complex way or automate web searches? Each of these programming drills will help you better understand your computer and the Python language by giving you new tools which will help you save time in your future projects.
+Al SwiePut your new Python knowledge to good use with this [free book](//automatetheboringstuff.com/)! It is a collection of nice tricks to make your computer work for you. Need to rename many files in a complex way or automate web searches? Each of these programming drills will help you better understand your computer and the Python language by giving you new tools to save time in your future projects.
 
 ![Automate the Boring Stuff with Python ebook cover](img/automate-boring-stuff-with-python-cover.png)
 
