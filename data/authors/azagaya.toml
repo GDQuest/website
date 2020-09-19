@@ -1,0 +1,12 @@
+name = "Pablo Fonovich"
+user = "azagaya"
+picture = "img/avatar/azagaya.png"
+role = "Tutor"
+description = "Electronic Engineer and indie game developer."
+
+website = "//github.com/azagaya"
+
+[social.twitter]
+url = "//twitter.com/AzagayaVJ"
+icon = "twitter"
+name = "Twitter"
