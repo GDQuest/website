@@ -1,14 +1,14 @@
 +++
 title = "Lighting with 2D normal maps"
 description = "Learn how to use Normal Maps with Godot for 2D games."
-author = "pablo"
+author = "azagaya"
 
 date = 2020-09-18T18:12:50-03:00
 weight = 5
 draft = true
 
 difficulty = "beginner"
-keywords = ["tutorial", "2D"]
+keywords = ["Godot normal map", "2D normal map", "2D game lighting"]
 +++
 
 _Normal maps_ allow you to add volume and details to any sprite or 3D object's surface. A normal map's pixels encode the direction the surface is facing, allowing the engine to fake volume when interacting with lights.
@@ -43,6 +43,8 @@ Nothing changes because normal maps only affect lit surfaces. Add a _Light2D_ no
 
 Assign the _LightSprite.png_ texture to it, move the light over the sprite, and increase its _Range -> Height_ property. The light's _Height_ controls how far the light is from our sprite on the Z-axis. Increasing the value accentuates the lighting effect.
 
+{{< video "videos/light-settings.mp4" "720" >}}
+
 The sprite should look embossed. However, the scene may be too bright overall, making the shading not look believable. You can use a _CanvasModulate_ and set its _Color_ property to a dark gray for a better result. In this case, the _CanvasModulate_ node allows you to simulate the ambient light property of 3D environments, tinting the entire scene.
 
 {{< video "videos/simple-sprite-with-normal.mp4" "720" >}}
@@ -53,7 +55,11 @@ You can use normal maps with seamless textures as with any sprite. To do so, sel
 
 Create a new scene with the same nodes as the previous one, but use _simplebrick.png_ and _simplebrick_n.png_ for the sprite's _Texture_ and _Normal Map_, respectively.
 
-Also, enable the _Region_ property and set the _Rect_ to something bigger than the original texture. Provided both the normal map and the texture are set to _Repeat_, you should end up with something like this:
+Also, enable the _Region_ property and set the _Rect_ to something bigger than the original texture.
+
+{{< video "videos/seamless-texture.mp4" "720" >}}
+
+Provided both the normal map and the texture are set to _Repeat_, you should end up with something like this:
 
 {{< video "videos/seamless-with-normal.mp4" "720" >}}
 
@@ -89,9 +95,17 @@ To assign a normal map to animated sprites, we have to use a shader.
 
 Add an _AnimatedSprite_ node to the scene. In the _Inspector_, add a new _SpriteFrames_ resource in the _Frames_ property. 
 
+{{< video "videos/create-sprite-frames.mp4" "720" >}}
+
 Click on the newly created resource to open the _SpriteFrames_ bottom panel. Click on the grid-like button with the tooltip "Add frames from Spritesheet". In the popup file dialog, double-click _spritesheet.png_ and set the _Horizontal_ and _Vertical_ settings to `11` and `1`, respectively. 
 
-Click "Select all frames" in the window's top-right and click "Add 11 Frames". Set the _FPS_ setting in the _SpriteFrames_ editor to `12`. If you turn on _Playing_ in the _Inspector_, you should see the idle animation playing on your _AnimatedSprite_.
+{{< video "videos/select-spritesheet.mp4" "720" >}}
+
+Click "Select all frames" in the window's top-right and click "Add 11 Frames". Set the _FPS_ setting in the _SpriteFrames_ editor to `12`. 
+
+{{< video "videos/set-frames.mp4" "720" >}}
+
+If you turn on _Playing_ in the _Inspector_, you should see the idle animation playing on your _AnimatedSprite_.
 
 {{< video "videos/comparing-animations.mp4" "720" >}}
 
@@ -106,7 +120,8 @@ uniform sampler2D normal_map;
 
 void fragment(){
 	// Converts the texture data into a unit vector, with each channel in the [-1, 1] range
-	NORMAL = 2.0 * texture(normal_map, UV).rgb - 1.0;
+
+NORMAL = 2.0 * texture(normal_map, UV).rgb - 1.0;
 }
 ```
 
@@ -139,6 +154,8 @@ Now you know how to use normal maps with sprites, you probably want your environ
 Once you created a tileset and at least one tile, you should see a group named _Selected Tile_ in the _Inspector_. You can assign a normal map to the corresponding property there. Note that in Godot 3.2, you need to assign the normal map of the whole tileset to each tile manually. This is a bit tedious, but that's how it is for now.
 
 We included a tileset for you to try this out, `tile.png`.
+
+{{< video "videos/set-normal-tilemap.mp4" "720" >}}
 
 {{< note >}} If you are using autotiles, you need to set the normal map once per autotile. {{< /note >}}
 
