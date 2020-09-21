@@ -5,7 +5,6 @@ author = "azagaya"
 
 date = 2020-09-18T18:12:50-03:00
 weight = 5
-draft = true
 
 difficulty = "beginner"
 keywords = ["Godot normal map", "2D normal map", "2D game lighting"]
