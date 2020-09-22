@@ -25,7 +25,7 @@ You will learn to add normal maps to:
 
 {{< video "videos/comparing-animations.mp4" "720" >}}
 
-To download the sprites we'll use in the following examples, [click here](https://github.com/GDQuest/godot-mini-tuts-demos/releases/download/untagged-1f11c44a177b76d8c6b0/NormalMapHintsAssets.zip). Each image comes with a corresponding normal map named with the `_n` suffix. For instance, `azagaya_n.png` is the normal map for `azagaya.png`.
+To download the sprites we'll use in the following examples, [click here](https://github.com/GDQuest/godot-mini-tuts-demos/releases/download/NormalMapHintsAssets/NormalMapHintsAssets.zip). Each image comes with a corresponding normal map named with the `_n` suffix. For instance, `azagaya_n.png` is the normal map for `azagaya.png`.
 
 We're going to focus on using normal maps in Godot here. To learn more about how normal maps work under the hood, read [What are normal maps?](https://laigter.readthedocs.io/en/latest/Introduction/intro.html#what-are-normal-maps) in Laigter's documentation.
 
