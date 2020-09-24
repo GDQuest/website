@@ -1,11 +1,11 @@
 +++
-title = "Limited Player Vision"
+title = "Limited player vision with lights"
+menuTitle = "Limited player vision"
 description = "Learn how to make limited player vision with lights and masks."
 author = "azagaya"
 
 date = 2020-09-23T17:55:55-03:00
 weight = 5
-draft = true
 
 difficulty = "beginner"
 keywords = ["Light Masks", "Limited Vision"]
