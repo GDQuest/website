@@ -39,7 +39,7 @@ We want the _UISpriteSelector_ to be able to notify when the user changed the te
 signal sprite_changed(texture)
 ```
 
-We need an array to hold all the possible texture the user can choose. We also need an integer to hold the index of the currently selected texture in the array. Let's declare an empty array called `_sprites`, and an integer called `_index`. Every time we change the `_index` value, we also want to update the texture. In other words, the index and the texture are tied to one another. Using a setter function makes it explicit that the process is tied to the property.
+We need an array to hold all the possible textures the user can choose. We also need an integer to hold the index of the currently selected texture in the array. Let's declare an empty array called `_sprites`, and an integer called `_index`. Every time we change the `_index` value, we also want to update the texture. In other words, the index and the texture are tied to one another. Using a setter function makes it explicit that the process is tied to the property.
 
 ```gd
 var _sprites := []
@@ -62,7 +62,7 @@ func _set_index(value: int) -> void:
 	emit_signal("sprite_changed", texture)
 ```
 
-The `wrapi` function "wraps" an integer value between a minimum and maximum value, passed as parameters. In the code snippet above, the value to wrap is `value`, the minimum is `0`, and the maximum is `_sprites.size()`. This allows us that when the `_index` variable exceeds the index of the last sprite, it will return to zero. Also, when the index takes the value `-1` it will become the maximum minus one (`_sprites.size()-1` in this case). With this function, we can cycle through all the available sprites in the `_sprites` array, in both directions.
+The `wrapi` function "wraps" an integer value between a minimum and maximum value, passed as parameters. In the code snippet above, the value to wrap is `value`, the minimum is `0`, and the maximum is `_sprites.size()`. With this function, when the `_index` variable exceeds the index of the last sprite, it will return to zero. Also, when the index takes the value `-1` it will become the maximum minus one (`_sprites.size()-1` in this case). With this function, we can cycle through all the available sprites in the `_sprites` array, in both directions.
 
 Now we need to code the function that will be called when the user presses the buttons. When pressing the `PreviousButton`, we want the `_index` to decrease by `1`. Similarly, when pressing the `NextButton`, `_index` should increase by `1`. So let's make two functions for that:
 
@@ -134,7 +134,7 @@ const DATA := {
 
 Note that each key of the dictionary refers to a customizable part of the character. Each entry of the dictionary contains an array with all the possible textures for each part.
 
-When the scene is ready, we should populate the GUI. Add a loop in the `_ready()` function that adds an instance o _UISpriteSelector_ for each part of the character. In there, we will call the `setup()` function of the sprite selector with the corresponding textures. Also, we are going to connect the `sprite_changed` signal of the sprite selector wit a function called `_on_SpriteSelector_sprite_changed()`. We are going to define that last function later.
+When the scene is ready, we should populate the GUI. Add a loop in the `_ready()` function that adds an instance o _UISpriteSelector_ for each part of the character. In there, we will call the `setup()` function of the sprite selector with the corresponding textures. Also, we are going to connect the `sprite_changed` signal of the sprite selector with a function called `_on_SpriteSelector_sprite_changed()`. We are going to define that last function later.
 
 ```gd
 func _ready() -> void:
