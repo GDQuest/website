@@ -2,6 +2,7 @@
 title = "Lighting with 2D normal maps"
 description = "Learn how to use Normal Maps with Godot for 2D games."
 author = "azagaya"
+coAuthors = ["nathan"]
 
 date = 2020-09-18T18:12:50-03:00
 weight = 5

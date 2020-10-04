@@ -1,7 +1,8 @@
 +++
 title = "Character Customization"
-description = "Learn how to customize your character in-game."
+description = "Create a menu to customize your character's look in-game."
 author = "azagaya"
+coAuthors = ["nathan"]
 
 date = 2020-09-30T19:22:42-03:00
 weight = 5
@@ -11,7 +12,7 @@ difficulty = "beginner"
 keywords = ["customization"]
 +++
 
-In this tutorial, you will learn how to customize a character through a GUI and see the results in real-time. In the end, you will be able to customize the __hat__, the __head__ and the __sunglasses__ of the character.
+In this tutorial, you will learn how to customize a character through a GUI and see the results in real-time. In the end, you will be able to customize the **hat**, the **head** and the **sunglasses** of the character.
 
 {{< video "final-result.mp4" "720" >}}
 
@@ -34,7 +35,7 @@ extends Control
 
 # Emitted every time the selected texture changes
 signal sprite_changed(texture)
-# We store all possible textures in the _sprites array, and the index of the 
+# We store all possible textures in the _sprites array, and the index of the
 # currently selected one in _index
 var _sprites := []
 # Every time we change the `_index` value, we also want to update the texture.
@@ -136,13 +137,13 @@ func _ready() -> void:
 
 
 func _on_SpriteSelector_sprite_changed(texture: StreamTexture, key: String) -> void:
-	# When a texture changes, we emit the corresponding signal, to notify the 
+	# When a texture changes, we emit the corresponding signal, to notify the
 	# character in the main scene.
 	emit_signal(key + "_changed", texture)
 
 ```
 
-When calling the `emit_signal()` function, we use `key+"_changed` because `key` contains the name of the part that was changed. For instance, if a __hat__ changes, `key` should be equal to `"hat"`, and thus, `hat_changed` would be emitted. The `texture` parameter of this function comes from the signal defined in the _UISpriteSelector_.
+When calling the `emit_signal()` function, we use `key+"_changed` because `key` contains the name of the part that was changed. For instance, if a **hat** changes, `key` should be equal to `"hat"`, and thus, `hat_changed` would be emitted. The `texture` parameter of this function comes from the signal defined in the _UISpriteSelector_.
 
 ## Character
 

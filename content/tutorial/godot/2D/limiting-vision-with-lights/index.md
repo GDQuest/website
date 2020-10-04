@@ -3,6 +3,7 @@ title = "Limited player vision with lights"
 menuTitle = "Limited player vision"
 description = "Learn how to make limited player vision with lights and masks."
 author = "azagaya"
+coAuthors = ["nathan"]
 
 date = 2020-09-23T17:55:55-03:00
 weight = 5
