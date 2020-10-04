@@ -25,71 +25,52 @@ Start by creating a new scene, with a `Control` node as root, and name it _UISpr
 
 ![Sprite Selector scene](img/sprite-selector-scene.png)
 
-Attach a 
-new script to the _UISpriteSelector_, and give it a class name, so you can create variables of this class later.
+Attach the following script to the newly created _UISpriteSelector_ scene.
 
 ```gd
 class_name UISpriteSelector
 extends Control
-```
+# Scene with the necessary controls to select a texture for the customization
 
-We want the _UISpriteSelector_ to be able to notify when the user changed the texture. So, declare a signal called `sprite_changed`. This signal must have a parameter, so you can pass the newly selected texture.
-
-```gd
+# Emitted every time the selected texture changes
 signal sprite_changed(texture)
-```
-
-We need an array to hold all the possible textures the user can choose. We also need an integer to hold the index of the currently selected texture in the array. Let's declare an empty array called `_sprites`, and an integer called `_index`. Every time we change the `_index` value, we also want to update the texture. In other words, the index and the texture are tied to one another. Using a setter function makes it explicit that the process is tied to the property.
-
-```gd
+# We store all possible textures in the _sprites array, and the index of the 
+# currently selected one in _index
 var _sprites := []
+# Every time we change the `_index` value, we also want to update the texture.
+# Using a setter function makes this relationship more explicit.
 var _index := 0 setget _set_index
-```
-Also, let's declare a variable that holds the reference to the `TextureRect`, so we can access it easily later.
 
-```gd
 onready var texture_rect: TextureRect = $TextureRect
-```
-Note that the `onready` keyword will make this assignment happen after the scene is ready, so we are sure that the referenced node already exists and it is in the tree.
 
-Let's code the _setter_ function above. The function should modify the `_index` value, pick the texture corresponding to that index, assign it to the `texture_rect->texture` property, and emit the signal to notify about these changes.
+# We define a setup function to fill the `_sprites` array with the corresponding
+# textures, and to select the first one by default
+func setup(sprite_textures: Array) -> void:
+	_sprites = sprite_textures
+	_set_index(0)
 
-```gd
-func _set_index(value: int) -> void:
-	_index = wrapi(value, 0, _sprites.size())
-	var texture: StreamTexture = _sprites[_index]
-	texture_rect.texture = texture
-	emit_signal("sprite_changed", texture)
-```
 
-The `wrapi` function "wraps" an integer value between a minimum and maximum value, passed as parameters. In the code snippet above, the value to wrap is `value`, the minimum is `0`, and the maximum is `_sprites.size()`. With this function, when the `_index` variable exceeds the index of the last sprite, it will return to zero. Also, when the index takes the value `-1` it will become the maximum minus one (`_sprites.size()-1` in this case). With this function, we can cycle through all the available sprites in the `_sprites` array, in both directions.
-
-Now we need to code the function that will be called when the user presses the buttons. When pressing the `PreviousButton`, we want the `_index` to decrease by `1`. Similarly, when pressing the `NextButton`, `_index` should increase by `1`. So let's make two functions for that:
-
-```gd
+# Connect this functions to the pressed signal of the corresponding buttons
+# to select next or previous texture.
 func _on_PreviousButton_pressed() -> void:
 	_set_index(_index - 1)
 
 
 func _on_NextButton_pressed() -> void:
-
 	_set_index(_index + 1)
+
+
+# We use this function to update the _index value, and the selected texture
+func _set_index(value: int) -> void:
+	# We use wrapi function to cycle through the values between `0` and
+    # `_sprites.size()-1`.
+	_index = wrapi(value, 0, _sprites.size())
+	var texture: StreamTexture = _sprites[_index]
+	# Update the texture, to show the selected one
+	texture_rect.texture = texture
+	emit_signal("sprite_changed", texture)
+
 ```
-
-Calling the `_set_index` setter function will both update the value of the `_index` variable, and select the corresponding texture. 
-
-Connect the `pressed` signal of _PreviousButton_ and _NextButton_ to the corresponding functions above. With this, the functions will run when pressing the buttons.
-
-Finally, 
-let's make a `setup` function. We will use this function to pass the sprites this scene should contain on its `_sprites` array.
-
-```gd
-func setup(sprite_textures: Array) -> void:
-	_sprites = sprite_textures
-	_set_index(0)
-```
-
-After assigning the corresponding textures to the `_sprites` array, we call `_set_index(0)` to select the first texture in the array.
 
 ## Character Customizer Scene
 
@@ -99,20 +80,22 @@ We can use the _UISpriteSelector_ scene created previously to build a GUI that a
 
 In the image above, we placed the scene in the top-left corner, because we want to have the customization controls there.
 
-Let's attach a new script to this scene. We need signals to notify the character that a texture was changed by the user:
+Let's attach a new script to this scene.
 
 ```gd
 extends Control
+# This script builds the character customizer GUI, with a `UISpriteSelector`
+# for each customizable part.
 
+# Emitted every time the user changed the hat texture
 signal hat_changed(texture)
+# Same as above, but for the head texture
 signal head_changed(texture)
+# Same as above, but for the glasses texture
 signal glasses_changed(texture)
 
-```
-
-We are going to use a dictionary to hold all the available textures for the customizable parts of the character.
-
-```gd
+# `DATA` dictionary contains the possible textures of each part of the
+# character. Each key of the dictionary represents a customizable part.
 const DATA := {
 	"hat" :
 	[
@@ -130,28 +113,33 @@ const DATA := {
 		preload("Sprites/head2.png"),
 		preload("Sprites/head3.png") ]
 	}
-```
 
-Note that each key of the dictionary refers to a customizable part of the character. Each entry of the dictionary contains an array with all the possible textures for each part.
+const sprite_selector_scene: PackedScene = preload("UISpriteSelector.tscn")
 
-When the scene is ready, we should populate the GUI. Add a loop in the `_ready()` function that adds an instance o _UISpriteSelector_ for each part of the character. In there, we will call the `setup()` function of the sprite selector with the corresponding textures. Also, we are going to connect the `sprite_changed` signal of the sprite selector with a function called `_on_SpriteSelector_sprite_changed()`. We are going to define that last function later.
+onready var vbox_container: VBoxContainer = $Panel/VBoxContainer
 
-```gd
+
 func _ready() -> void:
+	# We need an instance of `UISpriteSelector` for each customizable part
 	for key in DATA:
+        # Get the textures available for the current `key`
 		var textures: Array = DATA[key]
 		var sprite_selector: UISpriteSelector = sprite_selector_scene.instance()
 		vbox_container.add_child(sprite_selector)
+		# After adding the `sprite_selector`, we add the corresponding textures
+		# using `setup()` function
 		sprite_selector.setup(textures)
+		# Connect the `sprite_changed` signal of the `sprite_selector` to the
+		# `_on_SpriteSelector_sprite_changed` fucntion, and pass `key` as an
+		# extra parameter, to know which texture changed.
 		sprite_selector.connect("sprite_changed", self, "_on_SpriteSelector_sprite_changed", [key])
-```
-Note that we added an extra `key` parameter to the signal connection. In each iteration of the loop, the `key` variable takes a string value corresponding to one of the customizable parts of the character. Passing this value in the signal connection lets us know what part of the character changed.
 
-Finally, let's declare the remaining function. On it, we are going to emit the signal corresponding to the changed part.
 
-```gd
 func _on_SpriteSelector_sprite_changed(texture: StreamTexture, key: String) -> void:
+	# When a texture changes, we emit the corresponding signal, to notify the 
+	# character in the main scene.
 	emit_signal(key + "_changed", texture)
+
 ```
 
 When calling the `emit_signal()` function, we use `key+"_changed` because `key` contains the name of the part that was changed. For instance, if a __hat__ changes, `key` should be equal to `"hat"`, and thus, `hat_changed` would be emitted. The `texture` parameter of this function comes from the signal defined in the _UISpriteSelector_.
@@ -168,18 +156,18 @@ Attach a script to the _Player_ scene.
 
 ```gd
 extends KinematicBody2D
-
+# Character script with some basic movement, and the functions needed to update
+# the sprites of the customizable parts.
 export var speed := 300.0
 
 onready var body := $Body
+# We store references to each customizable sprite, for later use
 onready var hat := $Body/Hat
 onready var glasses := $Body/Glasses
 onready var head := $Body/Head
-```
 
-Let's add some movement code to it, for demonstrations purposes only.
 
-```gd
+# Basic movement is handled here, just for demonstration purposes.
 func _physics_process(_delta) -> void:
 	var direction := Vector2(
 		Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left"),
@@ -190,19 +178,19 @@ func _physics_process(_delta) -> void:
 
 	if direction.x != 0:
 		body.scale.x = sign(direction.x)
-```
 
-In this script, we have to update the textures of each sprite when the user selects a new texture from the GUI. So, add the following three functions.
-
-```gd
+# This functions changes the `glasses.texture`. Needs to be connected to the
+# `glasses_changed` signal of the `UICharacterCustomizer`
 func _on_CharacterCustomizer_glasses_changed(texture) -> void:
 	glasses.texture = texture
 
 
+# Same as previous funciton, but for the `hat`.
 func _on_CharacterCustomizer_hat_changed(texture) -> void:
 	hat.texture = texture
 
 
+# Same as previous function, but for the `head`.
 func _on_CharacterCustomizer_head_changed(texture) -> void:
 	head.texture = texture
 ```
@@ -211,4 +199,8 @@ In the main scene, we are going to connect the signals emitted from the _UIChara
 
 ## Main Scene
 
-Make a new scene from a `Node2D`, and name it _Main_. Add the _Player_ and a `CanvasLayer` to it. Then, add the _UICharacterCustomizer_ scene to the `CanvasLayer` node. This will make the GUI stay fixed in relation to the screen. Remember to connect the `hat_changed`, `head_changed` and `glasses_changed` signals from the _UICharacterCustomizer_, to the matching functions defined in the _Player_ script. This way, when the user changes some texture from the GUI, the character sprite will be updated as well.
+Make a new scene from a `Node2D`, and name it _Main_. Add the _Player_ and a `CanvasLayer` to it. Then, add the _UICharacterCustomizer_ scene to the `CanvasLayer` node. This will make the GUI stay fixed in relation to the screen.
+
+![Main scene](img/main-scene.png)
+
+Remember to connect the `hat_changed`, `head_changed` and `glasses_changed` signals from the _UICharacterCustomizer_, to the matching functions defined in the _Player_ script. This way, when the user changes some texture from the GUI, the character sprite will be updated as well.
