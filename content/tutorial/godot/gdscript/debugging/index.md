@@ -38,7 +38,6 @@ You can open the debugger in two ways:
 
 ![The debugger tab in the lower panel](images/debugger_bottom_bar.png)
 
-
 ## Breakpoints
 
 A breakpoint tells the client running the code to ask the debugger to pause the program's execution and report to the programmer. In Godot, when you test your game, and the compiler reaches a breakpoint, the game pauses. At this point, the debugger panel displays some information. It tells you on which line the breakpoint happened, shows you a stack trace, and fills with information about the game's current state.
@@ -75,15 +74,15 @@ The compiler traces back to the initial caller and stops when it can't dig any f
 
 If you click on any element in the list, you can see the execution state of each of those function calls. It is useful when you want to know why you got certain parameters or which conditional block or `for` loop called the function.
 
-In the bottom right, you can find the list of all variables the debugger can see in the current call stack frame and their values. Clicking on a different line in the _Stack Frames_ switches those variables to the corresponding stack frame. 
+In the bottom right, you can find the list of all variables the debugger can see in the current call stack frame and their values. Clicking on a different line in the _Stack Frames_ switches those variables to the corresponding stack frame.
 
 ![The variables panel](images/variables_panel.png)
 
 The variables area is split into three categories: locals, members, and globals.
 
--   Locals are the variables defined in the current function.
--   Members are variables that are part of the current class or classes it extends.
--   Globals are variables accessible through Autolads, nodes that are accessible globally in the project.
+- Locals are the variables defined in the current function.
+- Members are variables that are part of the current class or classes it extends.
+- Globals are variables accessible through Autolads, nodes that are accessible globally in the project.
 
 Godot does _not_ put variables from its built-in classes, like `Node` or `Object`, in this panel, so it doesn't become crowded. But you _can_ view those variables using the inspector.
 
@@ -122,7 +121,7 @@ func get_movement() -> Vector2:
 	)
 ```
 
-If you click the _Step Into_ button, or press the shortcut key <kbd>F11</kbd>, the compiler will step into the `get_movement()` function and pause on its first line. 
+If you click the _Step Into_ button, or press the shortcut key <kbd>F11</kbd>, the compiler will step into the `get_movement()` function and pause on its first line.
 
 If you click the _Step Over_ button, or press the shortcut key <kbd>F10</kbd>, the compiler executes the `get_movement()` function and pauses on the next line after its end. In this case, it is the call to `move_and_slide()`.
 
@@ -138,11 +137,11 @@ You can select any node and see its state in the _Inspector_, just like in the d
 
 ![The remote scene for a game](images/remote_scene.png)
 
-<p class="note">
+{{< note >}}
 Godot's debugger works with a server and a client, with the editor running a server and the game acting as a client. They communicate through a virtual network through notifications. You can replace the editor with your own server or an external editor, like Visual Studio Code.
 
 The [VSCode plugin for Godot](https://github.com/godotengine/godot-vscode-plugin) offers debugger support for GDScript.
-</p>
+{{< / note >}}
 
 And that's it. You now know more than enough to get started debugging your projects. You don't have any excuse to litter your code with `print()` statements anymore!
 
