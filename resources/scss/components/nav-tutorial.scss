@@ -18,6 +18,17 @@ $icon-width: 48px;
     padding: 0;
   }
 
+  > .title {
+    margin-bottom: 0.2em;
+
+    font-family: $font-title;
+    font-size: $font-size-h4;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $color-default-text-hl;
+  }
+
   > .close {
     display: none;
   }

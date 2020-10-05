@@ -1,3 +1,4 @@
+<!-- Side menu for the /tutorial/ section -->
 <script type="text/javascript">
  var navTutorialLinks = document.getElementsByClassName("menu-link", "-section");
  // Toggles links visible in the side menu
@@ -26,6 +27,8 @@
 {{ end }}
 
 <nav class="nav-tutorial" role="navigation">
+    <div class="title">Menu</div>
+    <hr />
     <ul class="list">
         {{ range $sections }}
         {{ $isActiveSection := eq $currentPage.Parent .CurrentSection }}
