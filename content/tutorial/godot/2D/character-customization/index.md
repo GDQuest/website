@@ -12,91 +12,107 @@ difficulty = "beginner"
 keywords = ["customization"]
 +++
 
-In this tutorial, you will learn how to customize a character through a GUI and see the results in real-time. In the end, you will be able to customize the **hat**, the **head** and the **sunglasses** of the character.
+In this tutorial, you will learn how to customize a character through a GUI and see real-time results. By the end, you will be able to customize the character's hat, the head, and sunglasses.
 
 {{< video "final-result.mp4" "720" >}}
 
-You can download the full project of this tutorial [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/character-customization).
+You can download the full project [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/character-customization).
 
-For selecting the desired textures for each part of the character, we will make a GUI that lets the user choose between the different options. As the code for changing any of the parts is the same, we are going to make a single scene with the functions to cycle between the available textures. Then we are going to use three instances of that scene to build the final GUI.
+To select the desired textures for each part of the character, we will make a User Interface (UI) that lets the user cycle between the different options. As the code for changing any part is the same, we will make a single scene with the functions to cycle between the available textures. Then we will use three instances of that scene to build the final interface.
 
-## Sprite Selector Scene
+## Creating a widget to select sprites
 
-Start by creating a new scene, with a `Control` node as root, and name it _UISpriteSelector_. Add to the scene two `Button` nodes, and a `TextureRec`. Name the buttons _PreviousButton_ and _Next Button_. They will be used to cycle between the possible textures, and the `TextureRect` will display the currently selected one. Arrange the scene so it looks like this:
+Let's first create a UI component we can duplicate in our menu.
+
+Create a new scene with a `Control` node as root, and name it _UISpriteSelector_. Add two `Button` nodes to the scene and a `TextureRect`. Name the buttons _PreviousButton_ and _NextButton_. We will use them to cycle between available textures, and the `TextureRect` will display the currently selected one. Use the _Layout_ in the toolbar to anchor the _PreviousButton_ on the center left and the _NextButton_ on the center right. Your scene should look like this:
 
 ![Sprite Selector scene](img/sprite-selector-scene.png)
 
-Attach the following script to the newly created _UISpriteSelector_ scene.
+Add a script to the newly created _UISpriteSelector_ scene.
+
+Before writing code, we should connect the buttons' `pressed` signal to _UISpriteSelector_. For each button, select it, head to the _Node_ dock, and double click _pressed_. In the newly opened window, click on the _Connect_ button.
+
+![Window to connect a signal via the editor](img/signals-connecting-button.png)
+
+You should see the signal connected like so:
+
+![Connected pressed signal](img/signals-button-connected.png)
+
+Here's the `UISpriteSelector`'s code and how it works:
 
 ```gd
+# Scene with the necessary controls to select a texture for the customization
 class_name UISpriteSelector
 extends Control
-# Scene with the necessary controls to select a texture for the customization
 
-# Emitted every time the selected texture changes
+# Emitted when the selected texture changes.
 signal sprite_changed(texture)
-# We store all possible textures in the _sprites array, and the index of the
-# currently selected one in _index
+# We store all available textures to cycle through in this array.
 var _sprites := []
-# Every time we change the `_index` value, we also want to update the texture.
-# Using a setter function makes this relationship more explicit.
+# The index of the currently selected texture from the `_sprites` array.
 var _index := 0 setget _set_index
 
+# We store a reference to the TextureRect node to update its texture.
 onready var texture_rect: TextureRect = $TextureRect
 
-# We define a setup function to fill the `_sprites` array with the corresponding
-# textures, and to select the first one by default
+# This function allows another node to pass an array of textures to store in `_sprites`
 func setup(sprite_textures: Array) -> void:
 	_sprites = sprite_textures
+	# We reset the index to update the texture. See `_set_index()` below.
 	_set_index(0)
 
 
-# Connect this functions to the pressed signal of the corresponding buttons
-# to select next or previous texture.
+# We use this function to update the _index value and the selected texture.
+# We use a setter function because we always want to update the texture when the _index value changes.
+func _set_index(value: int) -> void:
+	# `wrapi()` cycles the value between the second and the third argument - 1.
+	# Here, we use it to cycle between our textures.
+	_index = wrapi(value, 0, _sprites.size())
+	# The next two lines get and display the newly selected texture.
+	var texture: StreamTexture = _sprites[_index]
+	texture_rect.texture = texture
+	emit_signal("sprite_changed", texture)
+
+
+# The two callbacks below were generated by Godot.
 func _on_PreviousButton_pressed() -> void:
+	# When clicking the previous button, we lower the index by one.
 	_set_index(_index - 1)
 
 
 func _on_NextButton_pressed() -> void:
+	# When clicking the next button, we increment the index by one.
 	_set_index(_index + 1)
-
-
-# We use this function to update the _index value, and the selected texture
-func _set_index(value: int) -> void:
-	# We use wrapi function to cycle through the values between `0` and
-    # `_sprites.size()-1`.
-	_index = wrapi(value, 0, _sprites.size())
-	var texture: StreamTexture = _sprites[_index]
-	# Update the texture, to show the selected one
-	texture_rect.texture = texture
-	emit_signal("sprite_changed", texture)
-
 ```
 
-## Character Customizer Scene
+## The character customization menu
 
-We can use the _UISpriteSelector_ scene created previously to build a GUI that allows the user to customize the character. Create a new scene with a `Control` as a root node. Name it _UICharacterCustomizer_. After that, add a `Panel` node to the scene. We are going to use it as a background for the GUI. Add also a `VBoxContainer` as a child of the `Panel`. We will add the _UISpriteSelector_ instances as children of this container, so they automatically arrange as rows. Your scene should look like this:
+We can use the _UISpriteSelector_ scene created previously to build a menu to customize game characters.
+
+Create a new scene with a _Control_ as its root node. Name it _UICharacterCustomizer_. After that, add a _Panel_ node to the scene. We are going to use it as a background. Add a _VBoxContainer_ as the _Panel_'s child. We will add the _UISpriteSelector_ instances as children of this container via code so they automatically stack vertically. Your scene should look like this:
 
 ![Character Customizer scene](img/character-customizer-scene.png)
 
-In the image above, we placed the scene in the top-left corner, because we want to have the customization controls there.
+In the image above, we anchored _UISpriteSelector_ in the top-right corner using the _Layout_ menu.
 
-Let's attach a new script to this scene.
+Create a new script for _UISpriteSelector_.
 
 ```gd
-extends Control
 # This script builds the character customizer GUI, with a `UISpriteSelector`
 # for each customizable part.
+extends Control
 
-# Emitted every time the user changed the hat texture
+# We're going to have three customizable parts on our character:
+# the hat, head, and glasses. We define three corresponding signals.
+# Emitted when the user changes the hat texture.
 signal hat_changed(texture)
-# Same as above, but for the head texture
+# Same as above, but for the head texture.
 signal head_changed(texture)
-# Same as above, but for the glasses texture
+# Same as above, but for the glasses texture.
 signal glasses_changed(texture)
 
-# `DATA` dictionary contains the possible textures of each part of the
-# character. Each key of the dictionary represents a customizable part.
+# The `DATA` dictionary contains the possible textures of each part of the
+# character. Each key represents a customizable part.
 const DATA := {
 	"hat" :
 	[
@@ -115,39 +131,40 @@ const DATA := {
 		preload("Sprites/head3.png") ]
 	}
 
-const sprite_selector_scene: PackedScene = preload("UISpriteSelector.tscn")
+# We want to instance our UISpriteSelector scene from code so we preload it.
+const SpriteSelectorScene: PackedScene = preload("UISpriteSelector.tscn")
 
 onready var vbox_container: VBoxContainer = $Panel/VBoxContainer
 
 
+# When the node enters the tree, we instantiate `SpriteSelectorScene` for each 
+# customizable part.
 func _ready() -> void:
-	# We need an instance of `UISpriteSelector` for each customizable part
 	for key in DATA:
         # Get the textures available for the current `key`
 		var textures: Array = DATA[key]
-		var sprite_selector: UISpriteSelector = sprite_selector_scene.instance()
+		# Create an instance of the `SpriteSelectorScene`
+		var sprite_selector: UISpriteSelector = SpriteSelectorScene.instance()
 		vbox_container.add_child(sprite_selector)
-		# After adding the `sprite_selector`, we add the corresponding textures
-		# using `setup()` function
+		# We feed the UI widget's textures by calling its `setup()` method.
 		sprite_selector.setup(textures)
-		# Connect the `sprite_changed` signal of the `sprite_selector` to the
-		# `_on_SpriteSelector_sprite_changed` fucntion, and pass `key` as an
-		# extra parameter, to know which texture changed.
+		# We connect to the `UISpriteSelector`'s `sprite_changed` signal, binding the `key` as an
+		# extra parameter, to know which texture changed and emit the corresponding signal.
 		sprite_selector.connect("sprite_changed", self, "_on_SpriteSelector_sprite_changed", [key])
 
 
+# When a texture changes, we emit the corresponding signal, to notify the
+# character in the main scene.
 func _on_SpriteSelector_sprite_changed(texture: StreamTexture, key: String) -> void:
-	# When a texture changes, we emit the corresponding signal, to notify the
-	# character in the main scene.
 	emit_signal(key + "_changed", texture)
 
 ```
 
-When calling the `emit_signal()` function, we use `key+"_changed` because `key` contains the name of the part that was changed. For instance, if a **hat** changes, `key` should be equal to `"hat"`, and thus, `hat_changed` would be emitted. The `texture` parameter of this function comes from the signal defined in the _UISpriteSelector_.
+When calling the `emit_signal()` function, we use `key + "*changed` because `key` corresponds to the part we customized. For instance, if a hat changes, `key` should be equal to `"hat"`, and `hat_changed` would be emitted. The `texture` parameter of this function comes from the signal defined in the _UISpriteSelector_.
 
-## Character
+## Customizing the character
 
-The only remaining task is making a character to customize. Create a new scene, with a `KinematicBody2D` node as root, and name it _Player_. This character should have a sprite for each customizable part. In this case, we are going to have three sprites, named _Head_, _Glasses_, and _Hat_. Build the scene like in the following image.
+The only remaining task is making a character to customize. Create a new scene, with a `KinematicBody2D` node as root, and name it _Player_. This character should have a sprite for each customizable part. In this case, we will have three sprites: _Head_, _Glasses_, and _Hat_. Build the scene like in the following image.
 
 ![Player scene](img/player-scene.png)
 
@@ -156,13 +173,14 @@ We placed all `Sprite` nodes as children of a `Node2D` called _Body_. With this,
 Attach a script to the _Player_ scene.
 
 ```gd
-extends KinematicBody2D
 # Character script with some basic movement, and the functions needed to update
 # the sprites of the customizable parts.
+extends KinematicBody2D
+
 export var speed := 300.0
 
 onready var body := $Body
-# We store references to each customizable sprite, for later use
+# We store references to each customizable sprite, for later use.
 onready var hat := $Body/Hat
 onready var glasses := $Body/Glasses
 onready var head := $Body/Head
@@ -180,7 +198,8 @@ func _physics_process(_delta) -> void:
 	if direction.x != 0:
 		body.scale.x = sign(direction.x)
 
-# This functions changes the `glasses.texture`. Needs to be connected to the
+
+# This functions changes the glasses' texture. It needs to be connected to the
 # `glasses_changed` signal of the `UICharacterCustomizer`
 func _on_CharacterCustomizer_glasses_changed(texture) -> void:
 	glasses.texture = texture
@@ -196,12 +215,12 @@ func _on_CharacterCustomizer_head_changed(texture) -> void:
 	head.texture = texture
 ```
 
-In the main scene, we are going to connect the signals emitted from the _UICharacterCustomizer_ scene to the three functions defined above.
+In the main scene, we will connect the signals emitted from the _UICharacterCustomizer_ scene to the three functions defined above.
 
-## Main Scene
+## Putting it all together in the main scene
 
-Make a new scene from a `Node2D`, and name it _Main_. Add the _Player_ and a `CanvasLayer` to it. Then, add the _UICharacterCustomizer_ scene to the `CanvasLayer` node. This will make the GUI stay fixed in relation to the screen.
+Make a new scene from a `Node2D`, and name it _Main_. Add the _Player_ and a `CanvasLayer` to it. Then, add the _UICharacterCustomizer_ scene to the `CanvasLayer` node. Doing so makes the interface follow the screen.
 
 ![Main scene](img/main-scene.png)
 
-Remember to connect the `hat_changed`, `head_changed` and `glasses_changed` signals from the _UICharacterCustomizer_, to the matching functions defined in the _Player_ script. This way, when the user changes some texture from the GUI, the character sprite will be updated as well.
+Remember to connect the `hat_changed`, `head_changed` and `glasses_changed` signals from the _UICharacterCustomizer_, to the matching functions defined in the _Player_ script. This way, when the user changes some texture from the interface, the character sprite will be updated as well.
