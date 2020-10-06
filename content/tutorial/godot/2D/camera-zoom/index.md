@@ -80,7 +80,7 @@ func _set_zoom_level(value: float) -> void:
 
  {{< video "videos/camera-zoom-no-smooth.mp4">}}
 
-This zoom effect is not visually pleasant, so to make it smooth we should use the _Tween_ node. We will interpolate from the current _zoom_level_ to the _value_ obtained as an argument during _zoom_duration_. Find [here](https://docs.godotengine.org/es/stable/classes/class_tween.html) more details about Tween node.
+This zoom effect is not visually pleasant, so to make it smooth we should use the _Tween_ node. We will interpolate from the current _zoom_level_ to the clamped _value_ obtained as an argument during _zoom_duration_. Find [here](https://docs.godotengine.org/es/stable/classes/class_tween.html) more details about Tween node.
 
 ```gdscript
 func _set_zoom_level(value: float) -> void:
