@@ -1,90 +1,95 @@
 +++
-title = "Smooth Zoom with Camera 2D node"
-description = "Learn how to implement a camera with smooth zoom for Godot 2D games."
+title = "Zooming with the mouse wheel"
+description = "Learn how to implement a camera with smooth zoom."
 author = "raformatico"
+coAuthors = ["nathan"]
 
-date = 2020-09-18T18:12:50-03:00
+date = 2020-10-06
 weight = 5
 
 difficulty = "beginner"
-keywords = ["Godot", "Camera 2D", "Smooth Zoom"]
-
+keywords = ["godot camera zoom", "godot smooth zoom"]
 +++
 
-In this tutorial, you will use a `Camera2D` and a `Tween` node to implement a smooth zoom. You will be able to use this same code and structure in a wide variety of games.
+In this tutorial, you will learn to make a camera zoom smoothly in 2D using tween animation. We will code a camera that can zoom using the mouse wheel with a minimum and maximum zoom level.
 
-More, specifically with this tutorial you will learn to:
+{{< video "videos/camera-zoom.mp4" >}}
 
-* Control the zoom of the game using the mouse wheel
-* Center the camera and its zoom in the player
-* Render the zoom as a smooth transition
-* Restrict zoom level between a maximum and a minimum
-
- {{< video "videos/camera-zoom.mp4" >}}
-
-Find the full project [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/camera-zoom).
+You can find the full project [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/camera-zoom).
 
 ## Setting up the Scene
 
-Firstly, we need to create a new scene with a _Camera2D_ as root named _ZoomingCamera2D_ and a child _Tween_.
+First, we need to create a new scene with a _Camera2D_ as its root. Name it _ZoomingCamera2D_ and add a _Tween_ node as a child.
 
-![Zoom Scene Tree](img/camera_scene.jpg)
+![Zoom Scene Tree](images/camera_scene.png)
 
-Remember that this _ZoomingCamera2D_ should be set as _Current_ to ensure that it will be active. 
+In the _Inspector_, set the camera node as _Current_ so Godot uses it as our game's camera. The active camera is always the last one that set its `current` property to `true`.
 
-![Inspector of ZoomingCamera2D](img/camera_inspector.jpg)
+![Inspector of ZoomingCamera2D](images/camera_inspector.png)
 
-Finally, to get the camera and its zoom centered in the _Player_ the _ZoomingCamera2D_ should be a child of our _Player_.
+## Input actions
 
-![Inspector of ZoomingCamera2D](img/player_scene.jpg)
+Below, you will see we have some input actions we defined in the _Project -> Project Settings... -> Input Map_. Three are related to movement and two map the mouse wheel button to zooming in and out.
+
+![Screenshot of the input map window with the actions](images/input_map.png)
+
+## Attaching the camera to a Player scene
+
+We designed a player-controlled ship to test our camera for this small demo. It's a `KinematicBody2D` node with the following code attached to it:
+
+```gdscript
+# Ship that rotates and moves forward, similar to classics like Asteroid.
+class_name Player
+extends KinematicBody2D
+
+export var speed := 250
+export var angular_speed := 2.0
+
+
+func _physics_process(delta):
+	# Calculation of the direction to rotate.
+	var direction := Input.get_action_strength("right") - Input.get_action_strength("left")
+	var velocity = Input.get_action_strength("move") * transform.x * speed
+	rotation += direction * angular_speed * delta
+	move_and_slide(velocity)
+```
+
+Finally, to get the camera and its zoom centered in the _Player_, the _ZoomingCamera2D_ should be a child of our _Player_.
+
+![Inspector of ZoomingCamera2D](images/player_scene.png)
 
 ## Coding the zoom
 
-Attach a new script to  _ZoomingCamera2D_ and define the variables of this _class_: the minimum and maximum values for the zoom_level (_min_zoom_ and _max_zoom_), the amount of zoom we add or subtract (_zoom_factor_) and the time of the zoom transition (_zoom_duration_).
-
-The key part of this tutorial is to modify in the way we want the zoom_level. Therefore, we use _\_zoom_level_ with a setter to easily control its changes.
+Attach a new script to _ZoomingCamera2D_. Let's define some properties to control the camera's zoom range and speed.
 
 ```gdscript
 class_name ZoomingCamera2D
 extends Camera2D
 
+# Lower cap for the `_zoom_level`.
 export var min_zoom := 0.5
+# Upper cap for the `_zoom_level`.
 export var max_zoom := 2.0
+# Controls how much we increase or decrease the `_zoom_level` on every turn of the scroll wheel.
 export var zoom_factor := 0.1
+# Duration of the zoom's tween animation.
 export var zoom_duration := 0.2
 
+# The camera's target zoom level.
 var _zoom_level := 1.0 setget _set_zoom_level
 
+# We store a reference to the scene's tween node.
 onready var tween: Tween = $Tween
 ```
 
-After this, we capture the action of the mouse wheel and call the _\_set_zoom_level_ function. Note, that we should link the actions _zoom_in_ and _zoom_out_ as mouse wheel up and down in the _Input Map_. 
-
-![Actions in the Input Map](img/input_map.jpg)
-
-```gdscript
-func _unhandled_input(event):
-	if event.is_action_pressed("zoom_in"):
-		_set_zoom_level(_zoom_level - zoom_factor)
-	if event.is_action_pressed("zoom_out"):
-		_set_zoom_level(_zoom_level + zoom_factor)
-```
-
-We define _\_set_zoom_level_ function to change _zoom_ property of the _Zooming_Camera2D_. Additionally, to restrict the zoom level between a maximum and a minimum we use [clamp](https://docs.godotengine.org/en/stable/development/cpp/common_engine_methods_and_macros.html#clamp-a-value).
+Let's look at `_zoom_level`'s setter function next. We use it to trigger the tween animation and smoothly zoom in and out.
 
 ```gdscript
 func _set_zoom_level(value: float) -> void:
+	# We limit the value between `min_zoom` and `max_zoom`
 	_zoom_level = clamp(value, min_zoom, max_zoom)
-	zoom = Vector2(_zoom_level, _zoom_level)
-```
-
- {{< video "videos/camera-zoom-no-smooth.mp4">}}
-
-This zoom effect is not visually pleasant, so to make it smooth we should use the _Tween_ node. We will interpolate from the current _zoom_level_ to the clamped _value_ obtained as an argument during _zoom_duration_. Find [here](https://docs.godotengine.org/es/stable/classes/class_tween.html) more details about Tween node.
-
-```gdscript
-func _set_zoom_level(value: float) -> void:
-	_zoom_level = clamp(value, min_zoom, max_zoom)
+	# Then, we ask the tween node to animate the camera's `zoom` property from its current value
+	# to the target zoom level.
 	tween.interpolate_property(
 		self,
 		"zoom",
@@ -92,8 +97,21 @@ func _set_zoom_level(value: float) -> void:
 		Vector2(_zoom_level, _zoom_level),
 		zoom_duration,
 		tween.TRANS_SINE,
+		# Easing out means we start fast and slow down as we reach the target value.
 		tween.EASE_OUT
 	)
 	tween.start()
+```
+
+Finally, we use the `_unhandled_input()` callback to update the camera's zoom level, using the input actions defined earlier. Notice how the `Camera2D.zoom` value zooms in when it becomes smaller and zooms out when it increases.
+
+```gdscript
+func _unhandled_input(event):
+	if event.is_action_pressed("zoom_in"):
+		# Inside a given class, we need to either write `self._zoom_level = ...` or explicitly
+		# call the setter function to use it.
+		_set_zoom_level(_zoom_level - zoom_factor)
+	if event.is_action_pressed("zoom_out"):
+		_set_zoom_level(_zoom_level + zoom_factor)
 ```
 

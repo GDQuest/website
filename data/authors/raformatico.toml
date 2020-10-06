@@ -1,0 +1,16 @@
+name = "Rafael Rodríguez"
+user = "raformatico"
+picture = "img/avatar/raformatico.png"
+role = "Tutor"
+description = "Vocational teacher. Security expert and game developer wanna be. I work to build a fairer world."
+
+website = "//raformatico.com/"
+
+[social.twitter]
+url = "//twitter.com/raformatico"
+icon = "twitter"
+name = "Twitter"
+[social.youtube]
+url = "//youtube.com/c/raformatico"
+icon = "youtube"
+name = "Youtube"
