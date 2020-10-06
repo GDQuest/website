@@ -6,7 +6,6 @@ coAuthors = ["nathan"]
 
 date = 2020-09-30T19:22:42-03:00
 weight = 5
-draft = true
 
 difficulty = "beginner"
 keywords = ["customization"]
