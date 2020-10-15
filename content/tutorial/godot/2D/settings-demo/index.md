@@ -49,7 +49,7 @@ signal toggled(is_button_pressed)
 # Using a setter lets us change the text when the `title` variable changes.
 export var title := "" setget set_title
 
-# We store a reference to the Label node, to update its text.
+# We store a reference to the Label node to update its text.
 onready var label := $Label
 
 
@@ -68,12 +68,13 @@ func set_title(value: String) -> void:
 	label.text = title
 ```
 
-{{< note >}}In the previous code, we used the `tool` keyword. This way we can see the label's text updated when changing the `title` variable from the editor.{{< /note >}}
-{{< note >}}In the `set_title()` function, we wait until the scene is ready if `label` happens to be `null`. This is because `$Label` will not be available until the scene is ready. {{< /note >}}
+{{< note >}}In the previous code, we used the `tool` keyword. This way, we can see the label's text updated when changing the editor's `title` variable.
+
+In the `set_title()` function, we wait until the scene is ready if `label` happens to be `null`. This is because `$Label` will not be available until the scene is ready. {{< /note >}}
 
 ## Creating a widget to choose screen resolution
 
-Now, let's create a scene that lets the user choose the screen resolution from a list of predefined values. 
+Now, let's create a scene that enables the user to choose the screen resolution from a list of predefined values. 
 
 Create a new scene, with an `HBoxContainer` node as root, and name it _UIResolutionSelector_. Add a `Label` to the container, and change its text to "Resolution". Then, also add an `OptionButton` to the container.
 
@@ -83,7 +84,7 @@ Select the `OptionButton` node in the scene tree, and you will notice that a but
 
 ![Item Editor](images/ItemEditor.png)
 
-It is important to define the items as shown in the image above. Doing so, lets us split the text of the selected item, to get the resolution in both dimensions.
+It is important to define the items as shown in the image above. Doing so lets us split the selected item's text to get the resolution in both dimensions.
 
 Attach a new script to the scene, and connect the `item_selected` signal, similarly as we did with the checkbox's `toggled` signal in the _UISettingCheckbox_ scene.
 
@@ -116,13 +117,13 @@ func _on_OptionButton_item_selected(_index: int) -> void:
 
 ## Creating the Video Settings widget
 
-Let's create a new scene, with a `Panel` node as root. Add a `VBoxContainer` node to it. Add two _UISettingCheckbox_ instances as children of the newly added container, and name them _UIFullScreenCheckbox_ and _UIVsyncCheckbox_. Also, for each instance, change the `title` attribute in the inspector to "Full Screen" and "VSync" respectively. You should note how the labels of those instances changed in the editor, thanks to the `tool` keyword. 
+Let's create a new scene, with a `Panel` node as root. Add a `VBoxContainer` node to it. Add two _UISettingCheckbox_ instances as children of the newly added container, and name them _UIFullScreenCheckbox_ and _UIVsyncCheckbox_. For each instance, change the `title` attribute in the inspector to "Full Screen" and "VSync" respectively. Note how those instances' labels changed in the editor, thanks to the `tool` keyword. 
 
 After that, add a _UIResolutionSelector_ instance also as a child of the container node.
 
 Finally, add a `Button` to the container, name it _ApplyButton_, and change its text to "Apply". We are going to use this button to notify when the user wants to apply the selected settings.
 
-Those are the important nodes for this scene, but you can go ahead and make it prettier like is shown below if you wish.
+Those are the important nodes for this scene, but you can go ahead and make it prettier, as shown below.
 
 ![UIVideoSettings scene](images/UIVideoSettings.png)
 
@@ -173,9 +174,9 @@ Let's make a new scene, with a `Node2D` as the root node, and name it _Main_. Ad
 ![Main scene](images/Main.png)
 
 
-As shown in the _UIVideoSettings.gd_ script, we defined an `apply_button_pressed` signal, with the settings dictionary as an argument. So let's attach a script to our main scene, and connect that signal to it.
+As shown in the _UIVideoSettings.gd_ script, we defined an `apply_button_pressed` signal, with the settings dictionary as an argument. So let's attach a script to our main scene and connect that signal to it.
 
-In this script, we are going to update the video settings of the game, to those received from the `apply_button_signal`. This is the full script and how it works:
+In this script, we update the game's video settings to those received from the `apply_button_signal`:
 
 ```gd
 # Controls and updates the actual game settings this node receives from the
@@ -201,9 +202,8 @@ func _on_UIVideoSettings_apply_button_pressed(settings) -> void:
 	update_settings(settings)
 ```
 
-In the code above, you can see we used `SceneTree.STRETCH_MODE_2D` and `SceneTree.STRETCH_ASPECT_KEEP`. If you want to know more about those options, you can check out this tutorial:
+You can see in the code above we used `SceneTree.STRETCH_MODE_2D` and `SceneTree.STRETCH_ASPECT_KEEP`. If you want to know more about those options, you can check out this tutorial:
 
 {{< youtube "gkY6X-bziHQ" >}}
 
-{{< note >}} The demo will start with the settings configured in the _Project Settings_. You could add the code necessary to start from the default values in the _UIVideoSettings_ scene, but that is out of the scope of this tutorial. {{< /note >}}
-
+{{< note >}} The demo will start with the settings configured in the _Project Settings_. You could add the code necessary to start from the default values in the _UIVideoSettings_ scene, but that is out of this tutorial's scope. {{< /note >}}
