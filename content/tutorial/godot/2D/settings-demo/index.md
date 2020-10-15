@@ -61,10 +61,10 @@ func _on_CheckBox_toggled(button_pressed: bool) -> void:
 # This function will be executed when `title` variable changes.
 func set_title(value: String) -> void:
 	title = value
-    # Wait until the scene is ready if `label` is null.
+	# Wait until the scene is ready if `label` is null.
 	if not label:
 		yield(self, "ready")
-    # Update the label's text
+	# Update the label's text
 	label.text = title
 ```
 
@@ -102,16 +102,16 @@ onready var option_button: OptionButton = $OptionButton
 
 
 func _update_selected_item(text: String) -> void:
-    # The resolution options are written in the form "XRESxYRES".
-    # Using `split_floats` we get an array with both values as floats.
+	# The resolution options are written in the form "XRESxYRES".
+	# Using `split_floats` we get an array with both values as floats.
 	var values := text.split_floats("x")
-    # Emit a signal for informing the newly selected resolution
-    emit_signal("resolution_changed", Vector2(values[0], values[1]))
+	# Emit a signal for informing the newly selected resolution
+	emit_signal("resolution_changed", Vector2(values[0], values[1]))
 
 
 func _on_OptionButton_item_selected(_index: int) -> void:
-    # Call the `_update_selected_item` function when the user selects
-    # a new item in the `OptionButton`
+	# Call the `_update_selected_item` function when the user selects
+	# a new item in the `OptionButton`
 	_update_selected_item(option_button.text)
 ```
 
@@ -144,7 +144,7 @@ var _settings := {resolution = Vector2(640, 480), fullscreen = false, vsync = fa
 
 # Emit the `apply_button_pressed` signal, when user presses the button.
 func _on_ApplyButton_pressed() -> void:
-    # Send the last selected settings with the signal
+	# Send the last selected settings with the signal
 	emit_signal("apply_button_pressed", _settings)
 
 
