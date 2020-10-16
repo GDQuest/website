@@ -21,13 +21,13 @@ You can download the full project [here](https://github.com/GDQuest/godot-mini-t
 
 ## Creating a widget for configuring **vsync** and **fullscreen**
 
-Create a new scene with an `HBoxContainer` node as root, and name it _UISettingCheckbox_. Add a `CheckBox` and a `Label` to it. We are going to use the label to identify the setting controlled by the `CheckBox`. Your scene tree should look like this:
+Create a new scene with an `HBoxContainer` node as root, and name it _UISettingCheckbox_. Add a `CheckBox` and a `Label` to it. We'll use the label to identify the setting controlled by the `CheckBox`. Your scene tree should look like this:
 
 ![UISettingCheckbox scene](images/UISettingCheckbox.png)
 
 Attach a new script to the _UISettingCheckbox_ scene.
 
-We should connect the checkbox's `toggled` signal to the _UISettingCheckbox_. So, select the checkbox in the scene tree, head to the _Node_ dock, and double click _toggled_. Press the _Connect_ button in the window that pops up.
+We should connect the checkbox's `toggled` signal to the _UISettingCheckbox_. Select the checkbox in the scene tree, head to the _Node_ dock, and double click _toggled_. Press the _Connect_ button in the window that pops up.
 
 ![Connection](images/Connection.png)
 
@@ -35,7 +35,7 @@ You should see the signal connected like this:
 
 ![Connected](images/Connected.png)
 
-After that, complete the script as it is shown and explained below.
+After that, complete the script as it's shown and explained below.
 
 ```gd
 # Scene with a checkbox to switch settings with boolean values
@@ -70,7 +70,7 @@ func set_title(value: String) -> void:
 
 {{< note >}}In the previous code, we used the `tool` keyword. This way, we can see the label's text updated when changing the editor's `title` variable.
 
-In the `set_title()` function, we wait until the scene is ready if `label` happens to be `null`. This is because `$Label` will not be available until the scene is ready. {{< /note >}}
+In the `set_title()` function, we wait until the scene is ready if `label` happens to be `null` because `$Label` won't be available until the scene is ready. {{< /note >}}
 
 ## Creating a widget to choose screen resolution
 
@@ -80,13 +80,17 @@ Create a new scene, with an `HBoxContainer` node as root, and name it _UIResolut
 
 ![UIResolutionSelector scene](images/UIResolutionSelector.png)
 
-Select the `OptionButton` node in the scene tree, and you will notice that a button called "Items" appears in the toolbar. Press this button and add "640x360", "1280x720" and "1920x1080" items. This will make those options to be available in the `OptionButton`.
+Select the `OptionButton` node in the scene tree, and you'll notice that a button called "Items" appears in the toolbar. 
+
+![Items button](images/Items.png)
+
+Press this button and add "640x360", "1280x720" and "1920x1080" items. This will make those options to be available in the `OptionButton`.
 
 ![Item Editor](images/ItemEditor.png)
 
-It is important to define the items as shown in the image above. Doing so lets us split the selected item's text to get the resolution in both dimensions.
+It's important to define the items as shown in the image above. Doing so lets us split the selected item's text to get the resolution in both dimensions.
 
-Attach a new script to the scene, and connect the `item_selected` signal, similarly as we did with the checkbox's `toggled` signal in the _UISettingCheckbox_ scene.
+Attach a new script to the scene, and connect the `item_selected` signal, as we did with the checkbox's `toggled` signal in the _UISettingCheckbox_ scene.
 
 Here's the _UIResolutionSelector_'s code and how its work:
 
@@ -123,11 +127,11 @@ After that, add a _UIResolutionSelector_ instance also as a child of the contain
 
 Finally, add a `Button` to the container, name it _ApplyButton_, and change its text to "Apply". We are going to use this button to notify when the user wants to apply the selected settings.
 
-Those are the important nodes for this scene, but you can go ahead and make it prettier, as shown below.
+These are the important nodes for this scene, but you can go ahead and make it prettier, as shown below.
 
 ![UIVideoSettings scene](images/UIVideoSettings.png)
 
-Attach a script to the scene and connect the `resolution_changed` signal of the _UIResolutionSelector_ to the script, as we did earlier. Also, we need to connect the `toggled` signal of the two _UISettingCheckbox_ instances. After that, complete the script as it follows:
+Attach a script to the scene and connect the `resolution_changed` signal of the _UIResolutionSelector_ to the script, as we did earlier. We also need to connect the `toggled` signal of the two _UISettingCheckbox_ instances. After that, complete the script as it follows:
 
 ```gd
 # User interface that allows the player to select game settings.
@@ -138,7 +142,7 @@ extends Control
 # Emitted when the user presses the "apply" button.
 signal apply_button_pressed(settings)
 
-# We are going to store the selected settings in a dictionary
+# We store the selected settings in a dictionary
 var _settings := {resolution = Vector2(640, 480), fullscreen = false, vsync = false}
 
 
@@ -155,7 +159,7 @@ func _on_UIResolutionSelector_resolution_changed(new_resolution: Vector2) -> voi
 	_settings.resolution = new_resolution
 
 
-# Store the fullscreen seting. This will be called any time the users toggles
+# Store the fullscreen setting. This will be called any time the users toggles
 # the UIFullScreenCheckbox
 func _on_UIFullscreenCheckbox_toggled(is_button_pressed: bool) -> void:
 	_settings.fullscreen = is_button_pressed
@@ -174,7 +178,7 @@ Let's make a new scene, with a `Node2D` as the root node, and name it _Main_. Ad
 ![Main scene](images/Main.png)
 
 
-As shown in the _UIVideoSettings.gd_ script, we defined an `apply_button_pressed` signal, with the settings dictionary as an argument. So let's attach a script to our main scene and connect that signal to it.
+As shown in the _UIVideoSettings.gd_ script, we defined an `apply_button_pressed` signal, with the settings dictionary as an argument. Attach a script to our main scene and connect the `apply_button_pressed` signal to it.
 
 In this script, we update the game's video settings to those received from the `apply_button_signal`:
 
@@ -206,4 +210,4 @@ You can see in the code above we used `SceneTree.STRETCH_MODE_2D` and `SceneTree
 
 {{< youtube "gkY6X-bziHQ" >}}
 
-{{< note >}} The demo will start with the settings configured in the _Project Settings_. You could add the code necessary to start from the default values in the _UIVideoSettings_ scene, but that is out of this tutorial's scope. {{< /note >}}
+{{< note >}} The demo will start with the settings configured in the _Project Settings_. You could add the code necessary to start from the default values in the _UIVideoSettings_ scene, but this is beyond the scope of this tutorial. {{< /note >}}
