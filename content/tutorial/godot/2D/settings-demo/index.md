@@ -1,11 +1,11 @@
 +++
-title = "Video Settings Demo"
-description = "Create a interface to edit video settings in run-time."
+title = "Game Settings"
+description = "Create an interface to edit video settings at runtime."
 author = "azagaya"
+coAuthors = ["johnny", "nathan"]
 
 date = 2020-10-13T17:56:45-03:00
 weight = 5
-draft = true
 
 difficulty = "beginner"
 keywords = ["settings"]
@@ -13,7 +13,7 @@ keywords = ["settings"]
 
 In this tutorial, you will learn how to edit video settings in run-time. By the end, you will be able to change the **resolution** of the game, toggle **vsync**, and choose between **fullscreen** and windowed mode.
 
- {{< video "videos/settings-demo.mp4" "720" >}}
+{{< video "videos/settings-demo.mp4" "720" >}}
 
 You can download the full project [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/settings-demo).
 
@@ -37,7 +37,7 @@ You should see the signal connected like this:
 
 After that, complete the script as it's shown and explained below.
 
-```gd
+```gdscript
 # Scene with a checkbox to switch settings with boolean values
 tool
 extends Control
@@ -74,13 +74,13 @@ In the `set_title()` function, we wait until the scene is ready if `label` happe
 
 ## Creating a widget to choose screen resolution
 
-Now, let's create a scene that enables the user to choose the screen resolution from a list of predefined values. 
+Now, let's create a scene that enables the user to choose the screen resolution from a list of predefined values.
 
 Create a new scene, with an `HBoxContainer` node as root, and name it _UIResolutionSelector_. Add a `Label` to the container, and change its text to "Resolution". Then, also add an `OptionButton` to the container.
 
 ![UIResolutionSelector scene](images/UIResolutionSelector.png)
 
-Select the `OptionButton` node in the scene tree, and you'll notice that a button called "Items" appears in the toolbar. 
+Select the `OptionButton` node in the scene tree, and you'll notice that a button called "Items" appears in the toolbar.
 
 ![Items button](images/Items.png)
 
@@ -94,7 +94,7 @@ Attach a new script to the scene, and connect the `item_selected` signal, as we 
 
 Here's the _UIResolutionSelector_'s code and how its work:
 
-```gd
+```gdscript
 # Scene with an OptionButton to select the resolution from a list of options
 extends Control
 
@@ -121,7 +121,7 @@ func _on_OptionButton_item_selected(_index: int) -> void:
 
 ## Creating the Video Settings widget
 
-Let's create a new scene, with a `Panel` node as root. Add a `VBoxContainer` node to it. Add two _UISettingCheckbox_ instances as children of the newly added container, and name them _UIFullScreenCheckbox_ and _UIVsyncCheckbox_. For each instance, change the `title` attribute in the inspector to "Full Screen" and "VSync" respectively. Note how those instances' labels changed in the editor, thanks to the `tool` keyword. 
+Let's create a new scene, with a `Panel` node as root. Add a `VBoxContainer` node to it. Add two _UISettingCheckbox_ instances as children of the newly added container, and name them _UIFullScreenCheckbox_ and _UIVsyncCheckbox_. For each instance, change the `title` attribute in the inspector to "Full Screen" and "VSync" respectively. Note how those instances' labels changed in the editor, thanks to the `tool` keyword.
 
 After that, add a _UIResolutionSelector_ instance also as a child of the container node.
 
@@ -133,7 +133,7 @@ These are the important nodes for this scene, but you can go ahead and make it p
 
 Attach a script to the scene and connect the `resolution_changed` signal of the _UIResolutionSelector_ to the script, as we did earlier. We also need to connect the `toggled` signal of the two _UISettingCheckbox_ instances. After that, complete the script as it follows:
 
-```gd
+```gdscript
 # User interface that allows the player to select game settings.
 # To see how we update the actual window and rendering settings, see
 # `Main.gd`.
@@ -177,12 +177,11 @@ Let's make a new scene, with a `Node2D` as the root node, and name it _Main_. Ad
 
 ![Main scene](images/Main.png)
 
-
 As shown in the _UIVideoSettings.gd_ script, we defined an `apply_button_pressed` signal, with the settings dictionary as an argument. Attach a script to our main scene and connect the `apply_button_pressed` signal to it.
 
 In this script, we update the game's video settings to those received from the `apply_button_signal`:
 
-```gd
+```gdscript
 # Controls and updates the actual game settings this node receives from the
 # user interface.
 extends Node2D
