@@ -4,7 +4,6 @@ author = "nathan"
 category = ["news"]
 date = "2017-10-24T08:10:10+02:00"
 description = "We made two new Godot tutorials in collaboration with Heartbeast. Read this post to learn how to create close combat and ranged attacks!"
-keywords = ["tutorial", "Godot 3", "Kickstarter", "Attack", "ranged attack tutorial", "sword attack tutorial"]
 title = "Godot 3 Close and Ranged Attack Tutorials"
 
 [[resources]]

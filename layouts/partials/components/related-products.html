@@ -1,8 +1,6 @@
 {{ $productSection := .Site.GetPage "section" "product" }}
 {{ $related := $productSection.RegularPages.Related . }}
-{{ if not $related }}
-{{ $related = first 2 $productSection.RegularPages }}
-{{ end }}
+{{ if not $related }} {{ $related = first 2 $productSection.RegularPages }} {{ end }}
 {{ with $related }}
 <h2 data-font="centered">Related products</h2>
 <div class="content-grid">
