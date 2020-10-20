@@ -10,7 +10,6 @@ type = "redirect"
 redirect = "https://github.com/GDQuest/godot-procedural-generation"
 
 [banner]
-src = "/img/tools/godot/banner-pcg-secrets.png"
+src = "/img/tools/godot/banner-godot-pcg-secrets.png"
 +++
-
 
