@@ -111,7 +111,7 @@ description = "GDQuest community on Discord"
 
 [related]
 threshold = 80.0
-includeNewer = false
+includeNewer = true
 toLower = false
 
   [[related.indices]]
