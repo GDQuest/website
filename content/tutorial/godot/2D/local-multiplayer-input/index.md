@@ -8,7 +8,7 @@ date = 2020-07-25T10:25:59-03:00
 weight = 5
 
 difficulty = "beginner"
-keywords = ["multiplayer", "local", "input", "tutorial"]
+keywords = ["godot multiplayer", "local multiplayer", "input", "godot networking"]
 +++
 
 A common mistake when coding player movement is using constants for the inputs. For instance:
