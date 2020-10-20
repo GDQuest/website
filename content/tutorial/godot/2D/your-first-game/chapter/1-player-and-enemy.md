@@ -32,7 +32,7 @@ Then, scroll down to the stretch section and set:
 - Mode: _2d_
 - Aspect: _expand_
 
-![Showing the project's window settings](errata-display.png)
+![Showing the project's window settings](../errata-display.png)
 
 
 These two settings will make the game viewport resize with the window. Without them, when you increase the window size, more of the game level would show. The expand aspect setting makes it so when you change the ratio of the window, it shows a little more or less of the game world to preserve the proportions of the game sprites. You can play with these settings to see the differences they make.
