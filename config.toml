@@ -11,8 +11,14 @@ assetDir = "resources"
 
 googleAnalytics = "UA-58510266-1"
 
+[outputFormats]
+  [outputFormats.search]
+    mediaType = "application/json"
+    baseName = "search"
+    isPlainText = true
+
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = [ "HTML", "RSS", "SEARCH" ]
 
 [[menu.main]]
 identifier  = "tutorial"
