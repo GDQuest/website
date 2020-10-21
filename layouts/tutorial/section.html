@@ -13,7 +13,17 @@
     {{ else }}
     <section class="content-container padding-v-base">
         <div class="content-grid">
-            {{ range .Pages }}
+            {{ $pagesCount := 3 }}
+            {{ range first 1 .Pages }}
+            <div class="item">
+                {{ .Render "summary" }}
+            </div>
+            {{ end }}
+            <div class="item">
+                <h2>Latest tutorials</h2>
+                {{ partialCached "components/newest-tutorial-list" . }}
+            </div>
+            {{ range last (sub $pagesCount 1) .Pages }}
             <div class="item">
                 {{ .Render "summary" }}
             </div>

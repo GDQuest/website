@@ -1,0 +1,8 @@
+<ul>
+    {{ range first 8 (where .Site.RegularPages.ByLastmod.Reverse "Section" "tutorial") }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <span data-font="dimmed">({{ .Date.Format "January 2, 2006" }})</span>
+    </li>
+    {{ end }}
+</ul>
