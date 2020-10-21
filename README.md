@@ -68,6 +68,16 @@ Get in touch:
 - Join the community on [Discord](https://discord.gg/87NNb3Z)
 - You can also find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
+## Translating pages
+
+The website supports translations into any language. We are currently working on a Spanish version of the tutorials, and we're looking to support languages such as French and Japanese. If you'd like to contribute to translating tutorials or other pieces of content, you're most welcome!
+
+To translate a page, you need to head to the corresponding directory inside the repository's `content` folder, copy the `index.md` file you'll find there, and add the language's code to the extension.
+
+For example, to translate the game settings tutorial to French, you need to head to the directory `content/tutorial/godot/2D/character-customization/`, duplicate the file `index.md`, which is the tutorial written in English, and name the copy `index.fr.md`. For Spanish, name the file `index.es.md`, and you can call it `name.ja.md` for Japanese.
+
+In general, you need to add the corresponding two-letter country code to the copied markdown file's extension.
+
 ## Licenses
 
 The website uses two licenses for its content and its source code, respectively:
