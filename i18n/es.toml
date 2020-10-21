@@ -1,0 +1,11 @@
+[languages]
+other = "Idiomas"
+
+[gdquest_title]
+other = "Crea tus propios videojuegos"
+
+[gdquest_subtitle]
+other = "Desarolla juegos profesionales con software libre y gratuito"
+
+[getting_started]
+other = "Comenzar"

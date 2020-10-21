@@ -4,9 +4,9 @@
     <div class="header-title">
         <div class="image -bear-1"></div>
         <div class="title">
-            <h1 class="_unmargin">Become a Game Developer</h1>
-            <p class="subtitle">Create professional games with Free and Open Source Software</p>
-            <a href="/start-here" class="button-link -yellow">Get started</a>
+            <h1 class="_unmargin">{{ i18n "gdquest_title" }}</h1>
+            <p class="subtitle">{{ i18n "gdquest_subtitle" }}</p>
+            <a href="/start-here" class="button-link -yellow">{{ i18n "getting_started" }}</a>
         </div>
         <div class="image -bear-2"></div>
     </div>
@@ -24,13 +24,13 @@
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
-        <a href="/news" class="button-link">view all</a>
+        <a href="/news" class="button-link">{{ i18n "view_all" }}</a>
     </div>
 </section>
 
 <section class="darkbg">
     <div class="content-container padding-v-base">
-        <h3 data-font="centered">Watch hundreds of free tutorials</h3>
+        <h3 data-font="centered">{{ i18n "home_tutorials" }}</h3>
         <div class="content-grid">
             {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
             <div class="item -fill">
@@ -39,14 +39,14 @@
             {{ end }}
         </div>
         <div data-font="centered" class="margin-top-base">
-            <a href="/tutorial" class="button-link -textlight">view all</a>
+            <a href="/tutorial" class="button-link -textlight">{{ i18n "view_all" }}</a>
         </div>
     </div>
 </section>
 
 <section>
     <div class="content-container padding-v-base" data-font="centered">
-        <h3>Work with the most advanced Free Software</h3>
+        <h3>{{ i18n "home_free_software" }}</h3>
         <div class="content-grid margin-v-base">
             {{ range $.Site.Data.homepage }}
             <div class="item -span2 -fill">
@@ -58,7 +58,7 @@
                         <h4>{{ .name }}</h4>
                         <p>{{ .description }}</p>
                         <div>
-                            <a href="{{ .url }}" class="button-link">Learn more</a>
+                            <a href="{{ .url }}" class="button-link">{{ i18n "learn_more" }}</a>
                         </div>
                     </div>
                 </div>
@@ -70,8 +70,8 @@
 
 <section class="darkbg">
     <div class="content-container padding-v-base">
-        <h3 data-font="centered">Get Free and Open-Source tools</h3>
-        <p data-font="centered">We develop tools and demos to help you learn to make games faster.</p>
+        <h3 data-font="centered">{{ i18n "home_tools" }}</h3>
+        <p data-font="centered">{{ i18n "home_tools_description" }}</p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
             <div class="item -fill">
@@ -80,23 +80,23 @@
             {{ end }}
         </div>
         <div data-font="centered" class="margin-top-base">
-            <a href="/tools" class="button-link -textlight">view all</a>
+            <a href="/tools" class="button-link -textlight">{{ i18n "view_all" }}</a>
         </div>
     </div>
 </section>
 
 <section data-font="centered">
     <div class="content-container">
-        <h2>Meet the team</h2>
-        <p>GDQuest is a Free Software project led by an international team of experienced developers and tutors.</p>
+        <h2>{{ i18n "home_team" }}</h2>
+        <p>{{ i18n "home_team_description" }}</p>
         <div class="content-grid -columns5 -mobilerow">
             {{ partial "components/team-members" . }}
         </div>
         <hr class="margin-v-base"/>
         <div class="margin-v-base">
-            <h2>Ready to get started?</h2>
-            <p class="subtitle">Take your <strong>game creation skills</strong> to the next level <strong>for free</strong></p>
-            <a href="/start-here" class="button-link -yellow -shadow">Get started</a>
+            <h2>{{ i18n "home_ready" }}</h2>
+            <p class="subtitle">{{ i18n "home_ready_description" }}</p>
+            <a href="/start-here" class="button-link -yellow -shadow">{{ i18n "getting_started" }}</a>
         </div>
     </div>
 </section>
