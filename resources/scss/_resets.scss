@@ -289,7 +289,7 @@ blockquote {
 summary {
   font-weight: bold;
 
-  :hover {
+  &:hover {
     cursor: pointer;
   }
 }
