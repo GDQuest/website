@@ -1,0 +1,40 @@
+.language-dropdown {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 2.6rem;
+    text-align: center;
+
+    border: 1px solid white;
+    color: #fff;
+
+    border-radius: $round-radius;
+    padding: $spacing-micro;
+
+    &:hover {
+        cursor: pointer;
+        > .list > li,
+        > .list:focus-within > li,
+        > .list:hover {
+            display: block;
+        }
+    }
+
+    > .list {
+        > li {
+            padding: 0;
+            margin-top: $spacing-micro;
+            margin-bottom: $spacing-micro;
+            display: none;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            > a {
+                color: white;
+                width: 100%;
+            }
+        }
+    }
+}
