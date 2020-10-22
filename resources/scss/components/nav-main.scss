@@ -12,6 +12,8 @@
   text-shadow: $shadow-tiny;
 
   > .logo {
+    margin-right: $spacing-base;
+
     > * {
       max-height: 2.8rem;
     }
@@ -19,15 +21,13 @@
 
   > .menu {
     display: none;
-    margin: 1rem;
-    font-size: 1.6rem;
+    margin: $spacing-tiny;
     color: white;
   }
 
   > .links {
-    justify-content: space-between;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: $spacing-tiny;
 
     font-size: $font-size-normal;
     font-weight: bold;
@@ -35,12 +35,16 @@
     user-select: none;
 
     > a {
-      margin-left: $spacing-small;
+      margin-left: $spacing-tiny;
+    }
+
+    > a:first-of-type {
+      margin-left: 0;
     }
 
     &.-social {
       margin-left: auto;
-      margin-right: 2rem;
+      margin-right: $spacing-tiny;
 
       filter: drop-shadow($shadow-tiny);
     }
@@ -66,8 +70,8 @@
 
 @include tablet {
   .nav-main {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: $spacing-base;
+    margin-right: $spacing-base;
     justify-content: space-between;
 
     > .menu {
@@ -85,7 +89,7 @@
       flex-direction: column;
       height: fit-content;
 
-      margin: 2rem;
+      margin: $spacing-base;
       margin-bottom: 3rem;
       font-size: 1.2em;
 
@@ -106,7 +110,7 @@
       }
 
       > .links:first-of-type {
-        margin-top: 2rem;
+        margin-top: $spacing-base;
       }
 
       > .links.-social {
@@ -114,7 +118,7 @@
       }
 
       > .links.-social > a {
-        margin-left: $spacing-small;
+        margin-left: $spacing-tiny;
       }
 
       > .links.-social > a:first-child {

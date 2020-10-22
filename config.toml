@@ -4,7 +4,7 @@ title = "GDQuest"
 titleCaseStyle = "Chicago"
 theme = "github.com/matcornic/hugo-theme-learn"
 
-disableLanguages = ["fr", "es", "ja"]
+disableLanguages = ["es", "fr", "ja"]
 
 paginate = 6
 paginatePath = "page"
@@ -22,46 +22,9 @@ isPlainText = true
 [outputs]
 home = [ "HTML", "RSS", "SEARCH" ]
 
-[[menu.main]]
-identifier  = "tutorial"
-name        = "Tutorials"
-url         = "/tutorial/"
-weight      = 1
-
-[[menu.main]]
-identifier  = "tools"
-name        = "Tools"
-url         = "/tools/"
-weight      = 2
-
-[[menu.main]]
-identifier  = "product"
-name        = "products"
-url         = "/product/"
-weight      = 3
-
-[[menu.main]]
-identifier  = "news"
-name        = "News"
-url         = "/news/"
-weight      = 4
-
-[[menu.main]]
-identifier  = "docs"
-name        = "Docs"
-url         = "/docs/"
-weight      = 5
-
-[[menu.main]]
-identifier  = "about"
-name        = "About"
-url         = "/about/"
-weight      = 6
-
 # Shortcuts in the docs section
 [[menu.shortcuts]]
 name = "<i class='fas fa-level-up-alt'></i>&nbsp;Back to GDQuest.com"
-identifier = "gdquest.com"
 url = "//"
 weight = 1
 
@@ -150,15 +113,111 @@ unsafe = true
 [languages.en]
 languageName = "English"
 weight = 1
+[[languages.en.menu.main]]
+name        = "Tutorials"
+url         = "/tutorial/"
+weight      = 1
+[[languages.en.menu.main]]
+name        = "Tools"
+url         = "/tools/"
+weight      = 2
+[[languages.en.menu.main]]
+name        = "products"
+url         = "/product/"
+weight      = 3
+[[languages.en.menu.main]]
+name        = "News"
+url         = "/news/"
+weight      = 4
+[[languages.en.menu.main]]
+name        = "Docs"
+url         = "/docs/"
+weight      = 5
+[[languages.en.menu.main]]
+name        = "About"
+url         = "/about/"
+weight      = 6
 
 [languages.es]
 languageName = "Español"
 weight = 2
+[[languages.es.menu.main]]
+name        = "Tutoriales"
+url         = "/tutorial/"
+weight      = 1
+[[languages.es.menu.main]]
+name        = "Software"
+url         = "/tools/"
+weight      = 2
+[[languages.es.menu.main]]
+name        = "Productos"
+url         = "/product/"
+weight      = 3
+[[languages.es.menu.main]]
+name        = "Noticias"
+url         = "/news/"
+weight      = 4
+[[languages.es.menu.main]]
+name        = "Docs"
+url         = "/docs/"
+weight      = 5
+[[languages.es.menu.main]]
+name        = "Acerca"
+url         = "/about/"
+weight      = 6
 
 [languages.fr]
 languageName = "Français"
 weight = 3
+[[languages.fr.menu.main]]
+name        = "Tutoriels"
+url         = "/tutorial/"
+weight      = 1
+[[languages.fr.menu.main]]
+name        = "Outils"
+url         = "/tools/"
+weight      = 2
+[[languages.fr.menu.main]]
+name        = "Produits"
+url         = "/product/"
+weight      = 3
+[[languages.fr.menu.main]]
+name        = "News"
+url         = "/news/"
+weight      = 4
+[[languages.fr.menu.main]]
+name        = "Docs"
+url         = "/docs/"
+weight      = 5
+[[languages.fr.menu.main]]
+name        = "À propos"
+url         = "/about/"
+weight      = 6
 
 [languages.ja]
 languageName = "日本語"
 weight = 4
+[[languages.ja.menu.main]]
+name        = "チュートリアル"
+url         = "/tutorial/"
+weight      = 1
+[[languages.ja.menu.main]]
+name        = "ツール"
+url         = "/tools/"
+weight      = 2
+[[languages.ja.menu.main]]
+name        = "製品"
+url         = "/product/"
+weight      = 3
+[[languages.ja.menu.main]]
+name        = "ニュース"
+url         = "/news/"
+weight      = 4
+[[languages.ja.menu.main]]
+name        = "ドキュメント"
+url         = "/docs/"
+weight      = 5
+[[languages.ja.menu.main]]
+name        = "会社情報"
+url         = "/about/"
+weight      = 6

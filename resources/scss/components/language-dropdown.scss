@@ -1,0 +1,50 @@
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 2.6rem;
+    text-align: center;
+
+    border: 1px solid white;
+    color: #fff;
+
+    border-radius: $round-radius;
+    padding: $spacing-micro;
+
+    &:hover {
+        cursor: pointer;
+        > .list > li,
+        > .list:focus-within > li,
+        > .list:hover {
+            display: block;
+        }
+    }
+
+    > .list {
+        position: absolute;
+
+        > li {
+            padding: 0;
+            margin-top: $spacing-tiny;
+            margin-bottom: $spacing-tiny;
+            display: none;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            > a {
+                color: white;
+                width: 100%;
+            }
+            > a:hover {
+                color: $color-gdquest-yellow;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .language-dropdown {
+        display: none;
+    }
+}

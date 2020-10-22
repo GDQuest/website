@@ -1,0 +1,44 @@
+[languages]
+other = "Langues"
+
+[gdquest_title]
+other = "Crée tes propres jeux vidéo"
+
+[gdquest_subtitle]
+other = "Développe des jeux professionnels à l'aide de logiciels libres et gratuits"
+
+[getting_started]
+other = "Commencer"
+
+[view_all]
+other = "Tout voir"
+
+[learn_more]
+other = "Plus"
+
+[home_news]
+other = "Dernières news"
+
+[home_tutorials]
+other = "Des centaines de tutoriels gratuits"
+
+[home_free_software]
+other = "Utilise les logiciels libres les plus avancés"
+
+[home_tools]
+other = "Nos outils libres et gratuits"
+
+[home_tools_description]
+other = "Nous développons des démos et des outils pour t'aider à créer des jeux plus vite."
+
+[home_team]
+other = "Notre équipe"
+
+[home_team_description]
+other = "GDQuest est un project de technologies libres mené par une équipe internationale de développeurs et d'enseignants expérimentés."
+
+[home_ready]
+other = "Prêt à débuter?"
+
+[home_ready_description]
+other = "Amène tes compétences de création de jeux au niveau supérieur gratuitement."

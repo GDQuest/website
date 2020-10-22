@@ -1,0 +1,44 @@
+[languages]
+other = "Languages"
+
+[gdquest_title]
+other = "Become a game developer"
+
+[gdquest_subtitle]
+other = "Create professional games with Free and Open Source Software"
+
+[getting_started]
+other = "Get started"
+
+[view_all]
+other = "View all"
+
+[learn_more]
+other = "Learn more"
+
+[home_news]
+other = "Latest news"
+
+[home_tutorials]
+other = "Hundreds of free tutorials"
+
+[home_free_software]
+other = "Work with the most advanced Free Software"
+
+[home_tools]
+other = "Get Free and Open-Source tools"
+
+[home_tools_description]
+other = "We develop tools and demos to help you learn to make games faster."
+
+[home_team]
+other = "Meet the team"
+
+[home_team_description]
+other = "GDQuest is a Free Software project led by an international team of experienced developers and tutors."
+
+[home_ready]
+other = "Ready to get started?"
+
+[home_ready_description]
+other = "Take your game creation skills to the next level for free."

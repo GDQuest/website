@@ -1,0 +1,13 @@
+<!-- Drop-down menu allowing the user to change the website's language. -->
+{{ if gt (len $.Site.Home.AllTranslations) 1 }}
+<nav role="navigation" class="language-dropdown">
+    <span>{{ .Site.Language.Lang }}</span>
+    <ul class="list" aria-label="submenu">
+        {{ range $.Site.Home.AllTranslations }}
+        {{ if ne $.Site.Language.Lang .Language.Lang }}
+        <li><a href="{{ .Permalink }}">{{ .Language.Lang }}</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}
