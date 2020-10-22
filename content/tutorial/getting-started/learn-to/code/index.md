@@ -284,7 +284,7 @@ Got questions about getting started with programming? [Send me a tweet](//twitte
 I'll add the most useful answers here. Click on questions to unfold them.
 
 <details>
-<summary>{{< icon book >}} What programming techniques and tools should I learn exactly before doing game code?</summary>
+<summary>What programming techniques and tools should I learn exactly before doing game code?</summary>
 
 It's a tough question as the answer depends on you, on what your goals are exactly and on how comfortable you are with computers. If you want to create games I don't expect you to spend hundreds of hours on programming basics before you'll make your first game. I worked as a designer and an artist for years myself and learned to appreciate code over time.
 
@@ -313,7 +313,7 @@ And some other important concepts we will look at later in this series, like the
 </details>
 
 <details>
-<summary>{{< icon book >}} Why do you recommend Python and not another language?</summary>
+<summary>Why do you recommend Python and not another language?</summary>
 
 The target of this article is teenagers, adults, and people learning on their own using free resources available on the Internet.
 
@@ -333,7 +333,7 @@ Then there's the fact that the [Godot game engine](//godotengine.org) is a great
 </details>
 
 <details>
-<summary>{{< icon cog >}} What about performances? I heard Python is slow.</summary>
+<summary>What about performances? I heard Python is slow.</summary>
 
 When you're just starting to learn how to code, the language or the engine's performances should be the least of your concerns. Your first goal should be to learn to read and write code, not to write optimized code, that tends to be complex.
 

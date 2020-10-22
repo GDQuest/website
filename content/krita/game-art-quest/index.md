@@ -11,8 +11,8 @@ title = "Krita"
 
 A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
 
-- [{{< icon paint-brush default >}} Krita brushes]({{< ref "/product/krita/brushes/index.md" >}})
-- [{{< icon book default >}} Free course](/tutorial/art/krita-tutorial-for-game-artists/)
+- [Krita brushes]({{< ref "/product/krita/brushes/index.md" >}})
+- [Free course](/tutorial/art/krita-tutorial-for-game-artists/)
 
 ## Make Professional Painterly Game Art with Krita
 
@@ -20,7 +20,7 @@ A free Krita course focusing on the tools the program offers for game artists an
 
 Want to go a step further and learn to make professional sprites? Then, this course is for you.
 
-[{{< icon book default >}} Learn more]({{< ref "/product/krita/painterly-game-art/index.md" >}})
+[Learn more]({{< ref "/product/krita/painterly-game-art/index.md" >}})
 
 ## Discover Game Art Quest
 

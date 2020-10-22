@@ -20,7 +20,7 @@ title = "Game Art Quest vol1 done! Off to Japan"
 Yes, the first volume of Game Art Quest is done. 6.2 hours of free Krita tutorials (some are still upcoming on the channel). 7 hours if you include the first bonus series of the year: [Introduction to monster design for 2D games](//www.youtube.com/playlist?list=PLhqJJNjsQ7KExm_EYLVhD6yf4Afax24fV). Looking back at the Kickstarter description, this is already more than the promised as far as the total length is concerned.
 
 
-- [Early access](//gum.co/krita-tutorial-for-game-artists) {{< icon shopping-cart success >}}
+- [Early access](//gum.co/krita-tutorial-for-game-artists)
 - [Available tutorials](/tutorial/art/krita-tutorial-for-game-artists/) (free)
 
 The extra premium brushes and their companion tutorials are also getting pretty big. With this month's update, it now includes 34 presets and more than 30 minutes of video tutorials. And more coming monthly.
@@ -51,7 +51,7 @@ The 2 cloud builder brushes in this release make it effortless to paint game-rea
 
 The Lite set also got some love. It is now twice as big, for a total of 16 presets. It is completely free, and gets an update every 2 months.
 
-- [Krita brushes premium](//gum.co/krita-brushes-for-game-artists) {{< icon shopping-cart success >}}
+- [Krita brushes premium](//gum.co/krita-brushes-for-game-artists)
 - [Lite version](//github.com/GDQuest/free-krita-brushes/) (free)
 
 ## Plans for the week

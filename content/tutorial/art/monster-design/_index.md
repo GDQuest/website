@@ -20,6 +20,6 @@ difficulty = "beginner"
 
 The intro to monster design is the first free training released on GDQuest. In about 40 minutes, it will **run you through the thought process a game artist might follow to design monsters**. It both covers the thought process behind the design of a monster and an example of monster drawing with pen, paper and Krita.
 
-## {{< icon link default >}} Useful links
+## Useful links
 
 - [Free Krita tutorial for Game Artists](/tutorial/art/krita-tutorial-for-game-artists/)
