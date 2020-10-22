@@ -1,7 +1,6 @@
 .language-dropdown {
-    display: flex;
-    flex-direction: column;
-    float: right;
+    position: relative;
+    display: inline-block;
     width: 2.6rem;
     text-align: center;
 
@@ -21,10 +20,12 @@
     }
 
     > .list {
+        position: absolute;
+
         > li {
             padding: 0;
-            margin-top: $spacing-micro;
-            margin-bottom: $spacing-micro;
+            margin-top: $spacing-tiny;
+            margin-bottom: $spacing-tiny;
             display: none;
 
             &:last-of-type {
@@ -35,6 +36,15 @@
                 color: white;
                 width: 100%;
             }
+            > a:hover {
+                color: $color-gdquest-yellow;
+            }
         }
+    }
+}
+
+@include tablet {
+    .language-dropdown {
+        display: none;
     }
 }
