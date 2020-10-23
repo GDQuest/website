@@ -9,8 +9,6 @@ disableLanguages = ["es", "fr", "ja"]
 paginate = 6
 paginatePath = "page"
 
-assetDir = "resources"
-
 googleAnalytics = "UA-58510266-1"
 
 [outputFormats]
