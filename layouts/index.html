@@ -15,7 +15,7 @@
 
 {{ define "main" }}
 <section class="content-container margin-v-base">
-    <h3 data-font="centered">Latest news</h3>
+    <h3 data-font="centered">{{ i18n "home_news" }}</h3>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         <div class="item -fill">
