@@ -206,7 +206,7 @@ name        = "ツール"
 url         = "/tools/"
 weight      = 2
 [[languages.ja.menu.main]]
-name        = "製品"
+name        = "プロダクト"
 url         = "/product/"
 weight      = 3
 [[languages.ja.menu.main]]
