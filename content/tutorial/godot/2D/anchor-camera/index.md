@@ -7,63 +7,58 @@ coAuthors = ["nathan"]
 date = 2020-10-25
 weight = 5
 
-difficulty = "beginner"
-keywords = ["godot camera anchor"]
+difficulty = "intermediate"
+keywords = ["godot camera anchor", "2d camera"]
 
 +++
 
-Your ship advances through the space and the game camera follows it, but when it enters in a specific area it faces the final boss of your game. The camera should change its anchor position to warn the player but also to make easier the final fight. How can you do that?
+In this tutorial, you will learn to make the camera dynamically switch between following a character and anchoring to a given location. You will:
+
+- Toggle anchoring the camera to the player or a fixed place when entering and leaving specific areas.
+- Use steering behaviors to animate the camera's zoom and position smoothly.
 
 {{< video "videos/anchor-camera.mp4" >}}
 
-In this tutorial you will be able to answer this question, you will learn to:
-
-* Change the anchor and the zoom of the camera when the player enters in a specific part of the map.
-* Interpolate the camera position from the player to different anchor points and vice versa.
-
 You can find the full project [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/anchor-camera).
 
-## Main components
+## How it's done
 
-The main components to achieve this effect are the followings:
+In short, we have a camera that follows a target point using the arrive steering behavior, a vector math formula that makes an object smoothly move towards a target. The target can be the character the camera is attached to or any global position.
 
-**1. _Anchor2D_: Camera anchor area** [here](#creating-a-camera-anchor-area)
+When entering and leaving specific areas, we change the camera's target.
 
-This extends an _Area2D_ node instantiated in the game scene. If the player enters in this area the camera should change its anchor point to the center of the anchor area (_Anchor2D_). This node also has a property which indicates the _zoom_level_ of the camera in the area.
+## The code's structure
 
-**2. _AnchorDetector2D_: Area to detect when the player enters in an anchor area** [here](#camera-to-change-its-zoom-and-anchor-point)
+We created three nodes to build the system:
 
-The player has this _Area2D_ node as a child. It is intended to detect when the player enters or goes out in an _Anchor2D_. It should notify through signals these events to the _AnchorCamera2D_.
-
-**3. _AnchorCamera2D_: Camera to change its zoom and anchor point** [here](#camera-to-change-its-zoom-and-anchor-point)
-
-_Camera2D_ node which is a child of the player. This node is in charge of changing the camera anchor and zoom level in function of the received signals from the player. It presents methods to do so in a smooth way.
-
-**4. _Player_: Player to test the camera** [here](#creating-the-player-scene)
-
-_KinematicBody2D_ node which plays the role of the player of this demo. It has _AnchorDetector2D_ and _AnchorCamera2D_ as their children.
+1. _AnchorCamera2D_, the camera we attach to the player. Although we keep it as a child of the player, we set it to be a top-level node, so it moves independently of its parent. It smoothly follows the player by default unless the ship enters an anchor area.
+1. _Anchor2D_, areas that work as anchors. When the player enters this `Area2D`, the camera's target becomes this node's location and zoom level.
+1. _AnchorDetector2D_, is an area node we attach to the player to detect when it enters or exits an anchor area.
 
 ### Collision layers
 
-Bellow, you will see we have in the _Project -> Project Settings -> 2D Physics_ three 2D physics layers defined: _actors_, _obstacles_ and _anchors_. 
+We set these three 2D physics layers in _Project -> Project Settings -> 2D Physics_: _actors_, _obstacles_, and _anchors_.
 
 ![2D Physics layers](images/2dPhysics.png)
 
-These layers will make easier managing the collisions as the _AnchorDetector2D_ will only detects areas in anchors' layer.
+These layers make it easier to manage collisions as the _AnchorDetector2D_ should only detect areas in the _anchors_ layer.
 
-## Creating a camera anchor area
 
-First, we need to create a new scene with a root _Area2D_ node named _Anchor2D_. Add a _CollisionShape2D_ child node and optionally a _Sprite_ with a texture to show the size of the anchor area in the game.
+## The anchor area
+
+Let's start with the anchor area as the detector and camera depend on it.
+
+Create a new scene with a root _Area2D_ node named _Anchor2D_ with a _CollisionShape2D_ as its child. The collision shape defines the anchor area. We also used a _Sprite_ node to visualize the area's bounds when running the game.
 
 ![Anchor Area2D scene](images/anchorScene.png)
 
-Define the size of the _CollsionShape2D_ to 1920 pixels wide and 1080 pixels height. As the _Extents_ property represents half the size of the shape, we set it to 960x540:
-
-![Anchor Area2D properties](images/anchorCollision.png)
-
-The purpose of this area is to be detected by other areas, therefore in the _Inspector_ of the _Anchor2D_ we enable monitorable and disable monitoring checkboxes. It does not scan any layer (no mask bit enabled) and its 2D physic layer is the third one: _anchors_.
+Set the _Anchor2D_'s _Collision -> Layer_ to _anchors_ only and turn off _Monitoring_ and any _Collision -> Mask_. Doing so makes the anchor detectable, but it doesn't detect other physics bodies and areas itself.
 
 ![Collision shape size](images/anchorProperties.png)
+
+We want our anchors to be rectangular areas. To that end, add a _RectangleShape2D_ to the _CollsionShape2D_'s _Shape_ property. You can open the resource and set its _Extents_ to half the screen resolution, so the area covers one screen by default. We set it to 960x540 as our project has a resolution of 1920x1080.
+
+![Anchor Area2D properties](images/anchorCollision.png)
 
 Attach a new script to _Anchor2D_ with the following code:
 
@@ -71,57 +66,60 @@ Attach a new script to _Anchor2D_ with the following code:
 class_name Anchor2D
 extends Area2D
 
-# The camera's zoom level to be set entering in this area.
+# The camera's target zoom level while in this area.
 export var zoom_level := 1.0
 ```
 
-## Area to detect the entrance in an _Anchor2D_
+## The anchor detector
 
-Secondly, we need to create a new scene with another _Area2D_ node as root, this time name it _AnchorDetector2D_ as it will be the area in charge of detecting _Anchor2D_ nodes. Add a _CollisionShape2D_ node as child.
+We'll use another area to detect anchors. Create a new scene with another _Area2D_ node as root, this time name it _AnchorDetector2D_. Add a _CollisionShape2D_ node as a child.
+
 ![Anchor Detector scene](images/anchorDetectorScene.png)
 
-The size of the _CollisionShape2D_ should be a little smaller than the _CollisionShape2D_ of the player we will be attaching this _AnchorDetector2D_.
+The size of the _CollisionShape2D_ should be a little smaller than the _CollisionShape2D_ of the Player.
 
 ![Anchor Detector size](images/playerAnchor.png)
 
-To be able to detect _Anchor2D_ nodes in the _Inspector_ set the following properties:
+This one is going to monitor for anchor areas. Select _AnchorDetector2D_ and set its properties as follows:
+
+- Turn off _Monitorable_.
+- Turn off all _Collision -> Layer_.
+- Set the _Collision -> Mask_.
 
 ![Anchor Detector properties](images/anchorDetector.png)
 
-Connect the signals _area_entered_ and _area_exited_ of the _AnchorDetector2D_ to detect when it enters or leaves an _Anchor2D_ (third physic 2D layer associated with anchors).
+Connect the signals _area_entered_ and _area_exited_ of the _AnchorDetector2D_ to itself. We will use this to detect when it enters or leaves an _Anchor2D_ area.
 
 ![Signal connections](images/signals_0.png)
 
-When the node enters or leaves an _Anchor2D_ it will emit the signal _anchor_detected_ or _anchor_detached_ respectively that will be received by the _AnchorCamera2D_. Attach a script with the following code to do so:
+When the node enters or leaves an _Anchor2D_, it will emit the signal _anchor_detected_ or _anchor_detached_, respectively, that we will listen to on the camera. Attach a script to the _AnchorDetector2D_.
 
 ```gdscript
 class_name AnchorDetector2D
 extends Area2D
 
-# Signal to emit when entering in a `Anchor2D`. It should be received in `AnchorCamera2D`.
+# Emitted when entering an anchor area.
 signal anchor_detected(anchor)
-# Signal to emit when the detector stop being inside of any `Anchor2D`. It should be received in 
-# `AnchorCamera2D`.
+# Emitted after exiting all anchor areas.
 signal anchor_detached
 
 
-# Emit the signal `anchor_detected` when entering in an `Anchor2D`. Send the `Anchor2D` as 
-# an argument
 func _on_area_entered(area: Anchor2D) -> void:
 	emit_signal("anchor_detected", area)
 
 
-# Emit the signal `anchor_detached` when exiting an `Anchor2D` and if there is no other 
-# `Anchor2D` overlapping with us.
+# When exiting an area, we have to ensure we're not entering another anchor.
 func _on_area_exited(area: Anchor2D) -> void:
 	var areas: Array = get_overlapping_areas()
+	# To do so, we check that's there's but one overlapping area left and that it's
+	# the one passed to this callback function.
 	if get_overlapping_areas().size() == 1 and area == areas[0]:
 		emit_signal("anchor_detached")
 ```
 
-## Camera to change its zoom and anchor point
+## The camera
 
-Thirdly, create a new scene with a _Camera2D_ node as root and name it _AnchorCamera2D_. In the _Inspector_, set the camera node as _Current_ so Godot uses it as our game's camera.
+Create a new scene with a _Camera2D_ node as root and name it _AnchorCamera2D_. In the _Inspector_, set the camera node as _Current_, so Godot uses it as our game's camera.
 
 ![Camera2D is current](images/cameraCurrent.png)
 
@@ -131,38 +129,41 @@ Attach a script to the _AnchorCamera2D_ with the following code:
 class_name AnchorCamera2D
 extends Camera2D
 
-# Radius in wich decrease the movement speed of the camera.
+# Distance to the target in pixels below which the camera slows down.
 const SLOW_RADIUS := 300.0
 
-# Maximum speed of the camera's movement.
+# Maximum speed in pixels per second.
 export var max_speed := 2000.0
 
-# Current velocity to move the camera.
 var _velocity = Vector2.ZERO
-# The camera's center.
+# Global position of an anchor area. If it's equal to `Vector2.ZERO`,
+# the camera doesn't have an anchor point and follows its owner.
 var _anchor_position := Vector2.ZERO
-# The camera's target zoom.
 var _target_zoom := 1.0
 
 
 func _ready() -> void:
-	# The movement of the camera should be indenpent of its parent.
+	# Setting a node as top-level makes it move independently of its parent.
 	set_as_toplevel(true)
 
 
+# Every frame, we update the camera's zoom level and position.
 func _physics_process(delta: float) -> void:
 	update_zoom()
 
-	# Camera's anchor point: the player position or the anchor if we are inside of one.
+	# The camera's target position can either be `_anchor_position` if the value isn't
+	# `Vector2.ZERO` or the owner's position. The owner is the root node of the scene in which we
+	# instanced and saved the camera. In our demo, it's the Player.
 	var target_position: Vector2 = (
 		owner.global_position
 		if _anchor_position.is_equal_approx(Vector2.ZERO)
 		else _anchor_position
 	)
+
 	arrive_to(target_position)
 
 
-# Entering in an `Anchor2D` we receive the anchor object and change our `_anchor_position` and 
+# Entering in an `Anchor2D` we receive the anchor object and change our `_anchor_position` and
 # `_target_zoom`
 func _on_AnchorDetector2D_anchor_detected(anchor: Anchor2D) -> void:
 	_anchor_position = anchor.global_position
@@ -175,40 +176,36 @@ func _on_AnchorDetector2D_anchor_detached() -> void:
 	_target_zoom = 1.0
 
 
-# Method to update the zoom in a smooth way.
+# Smoothly update the zoom level using a linear interpolation.
 func update_zoom() -> void:
 	if not is_equal_approx(zoom.x, _target_zoom):
-		# We make a linear interpolation between the current and the target zoom. The weight used
-		# considere the delta value to make it independent of the frame rate
+		# The weight we use considers the delta value to make the animation frame-rate independent.
 		var new_zoom_level: float = lerp(
 			zoom.x, _target_zoom, 1.0 - pow(0.008, get_physics_process_delta_time())
 		)
-		# Update the new value of zoom
 		zoom = Vector2(new_zoom_level, new_zoom_level)
 
 
-# Method to gradually steer the camera center to a new point.
+# Gradually steers the camera to the `target_position` using the arrive steering behavior.
 func arrive_to(target_position: Vector2) -> void:
 	var distance_to_target := position.distance_to(target_position)
-	# We approach the new camera's center at maximum speed (considering the zoom) until we are 
-	# closer to the target point than the `SLOW_RADIUS`. Then we reduce this speed multiplying it
-	# by a factor in function of the distance to the target
+	# We approach the `target_position` at maximum speed, taking the zoom into account, until we
+	# get close to the target point.
 	_velocity = (target_position - position).normalized() * max_speed * zoom.x
+	# If we're close enough to the target, we gradually slow down the camera.
 	if distance_to_target < SLOW_RADIUS * zoom.x:
 		_velocity *= (distance_to_target / (SLOW_RADIUS * zoom.x))
-	
-	# Update the new camera's center using the calculated velocity and delta
-	position += _velocity * get_physics_process_delta_time()
-```
 
-As we will show in the next section, this camera node will be instantiated as child of the player and the signals _anchor_detected_ and _anchor_detached_ will be connected to the methods _\_on_AnchorDetector2D_anchor_detected_ and _\_on_AnchorDetector2D_anchor_detached_.
+	position += _velocity * get_physics_process_delta_time()
+
+```
 
 ## Creating the Player scene
 
-We designed a player-controlled ship to test our camera for this small demo. It's a `KinematicBody2D` node with the following code attached to it:
+We designed a player-controlled ship to test our camera for this small demo. It's a _KinematicBody2D_ node with the following code attached to it:
 
 ```gdscript
-# Ship that rotates and moves forward, similar to classics like Asteroid.
+# Ship that rotates and moves forward, similar to the game classic Asteroid.
 class_name Player
 extends KinematicBody2D
 
@@ -217,24 +214,27 @@ export var angular_speed := 3.0
 
 
 func _physics_process(delta):
-	# Calculation of the direction to rotate.
 	var direction := Input.get_action_strength("right") - Input.get_action_strength("left")
 	var velocity = Input.get_action_strength("move") * transform.x * speed
 	rotation += direction * angular_speed * delta
 	move_and_slide(velocity)
 ```
 
-To get the camera centered in the _Player_, the _AnchorCamera2D_ should be a child of our _Player_ and to detect _Anchor2D_ nodes to change the camera anchor we also instantiate _AnchorDetector2D_.
+To control the Player's movement, we defined the following input actions in _Project -> Project Settings... -> Input Map_: _right_, _left_, and _move_.
+
+![Screenshot of the input map window with the actions](images/input_map.png)
+
+The _AnchorCamera2D_ should be a child of our _Player_ to follow it by default, using the `owner` variable. To detect _Anchor2D_ nodes, we also instantiate _AnchorDetector2D_.
 
 ![Player scene](images/Player.png)
 
-To communicate the _AnchorDetector2D_ with the _AnchorCamera2D_ we connect the signals _anchor_detected_ and _anchor_detached_ from _AnchorDetector2D_ with the methods _on_AnchorDetector2D_anchor_detected_ and _on_AnchorDetector2D_anchor_detached_ in _AnchorCamera2D_.
+We need to connect the signals _anchor_detected_ and _anchor_detached_ from _AnchorDetector2D_ to the methods _on_AnchorDetector2D_anchor_detected_ and _on_AnchorDetector2D_anchor_detached_ of _AnchorCamera2D_.
 
 ![Connection of signals _anchor_detected_ and _anchor_detached_](images/signals.png)
 
-### Input actions
+And that is it! 
 
-Finally, to control the movement of the player we defined in the _Project -> Project Settings... -> Input Map_ the following input actions: _right_, _left_ and _move_.
+{{< video "videos/anchor-camera.mp4" >}}
 
-![Screenshot of the input map window with the actions](images/input_map.png)
+With the connections done and some anchor areas in the level, the camera dynamically moves between the player and other areas of interest.
 
