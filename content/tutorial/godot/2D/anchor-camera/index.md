@@ -134,6 +134,8 @@ const SLOW_RADIUS := 300.0
 
 # Maximum speed in pixels per second.
 export var max_speed := 2000.0
+# Mass to slow down the camera's movement
+export var mass := 2.0
 
 var _velocity = Vector2.ZERO
 # Global position of an anchor area. If it's equal to `Vector2.ZERO`,
@@ -191,11 +193,12 @@ func arrive_to(target_position: Vector2) -> void:
 	var distance_to_target := position.distance_to(target_position)
 	# We approach the `target_position` at maximum speed, taking the zoom into account, until we
 	# get close to the target point.
-	_velocity = (target_position - position).normalized() * max_speed * zoom.x
+	var desired_velocity := (target_position - position).normalized() * max_speed * zoom.x
 	# If we're close enough to the target, we gradually slow down the camera.
 	if distance_to_target < SLOW_RADIUS * zoom.x:
 		_velocity *= (distance_to_target / (SLOW_RADIUS * zoom.x))
 
+	_velocity += (desired_velocity - _velocity) / mass
 	position += _velocity * get_physics_process_delta_time()
 
 ```
