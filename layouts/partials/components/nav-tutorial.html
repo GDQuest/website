@@ -19,11 +19,18 @@
 
 {{ $currentPage := . }}
 {{ $sections := "" }}
+{{ $isIntermediatePage := false }}
 
 {{ if .IsPage }}
+{{/* "Leaf" page such as `/tutorial/godot/audio/volume-slider/`. */}}
 {{ $sections = $currentPage.Parent.Parent.Sections }}
-{{ else }}
+{{ else if .Sections }}
+{{/* Root section page. */}}
 {{ $sections = .Sections }}
+{{ else }}
+{{/* Intermediate page such as `/tutorial/godot/audio/`. */}}
+{{ $isIntermediatePage = true }}
+{{ $sections = $currentPage.Parent.Sections }}
 {{ end }}
 
 <nav class="nav-tutorial" role="navigation">
@@ -31,7 +38,13 @@
     <hr />
     <ul class="list">
         {{ range $sections }}
-        {{ $isActiveSection := eq $currentPage.Parent .CurrentSection }}
+
+        {{ $isActiveSection := false }}
+        {{ if $isIntermediatePage }}
+        {{ $isActiveSection = eq $currentPage .CurrentSection }}
+        {{ else }}
+        {{ $isActiveSection = eq $currentPage.Parent .CurrentSection }}
+        {{ end }}
         <li>
             <div class="menu-link -section" style="justify-content: start" onclick="navTutorialToggleSection(this)">
                 {{ with .Params.icon }}
