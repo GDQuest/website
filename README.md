@@ -4,6 +4,15 @@
 
 This is the complete source code for [GDQuest.com](http://gdquest.com/). The website is entirely open-source.
 
+**Table of Contents:**
+
+- [Getting started](#getting-started)
+- [Writing content](#writing-content)
+- [Style guide](#style-guide)
+- [Contributing](#contributing)
+- [Translating pages](#translating-pages)
+- [Licenses](#licenses)
+
 ## Getting started
 
 The website uses the static site engine [hugo](https://gohugo.io).
@@ -70,13 +79,25 @@ Get in touch:
 
 ## Translating pages
 
-The website supports translations into any language. We are currently working on a Spanish version of the tutorials, and we're looking to support languages such as French and Japanese. If you'd like to contribute to translating tutorials or other pieces of content, you're most welcome!
+The website supports translations into any language.
 
-To translate a page, you need to head to the corresponding directory inside the repository's `content` folder, copy the `index.md` file you'll find there, and add the language's code to the extension.
+We are currently working on a Spanish version of the tutorials, and we're looking to support languages such as French and Japanese. If you'd like to contribute to translating tutorials or other pieces of content, you're most welcome!
 
-For example, to translate the game settings tutorial to French, you need to head to the directory `content/tutorial/godot/2D/character-customization/`, duplicate the file `index.md`, which is the tutorial written in English, and name the copy `index.fr.md`. For Spanish, name the file `index.es.md`, and you can call it `name.ja.md` for Japanese.
+There are two ways you can translate a page:
 
-In general, you need to add the corresponding two-letter country code to the copied markdown file's extension.
+1. Use [Gitlocalize](https://gitlocalize.com/repo/5450/), which gives you an accessible online editor and handy tools like one-click machine translation. Watch their [two-minute tutorial](https://www.youtube.com/watch?v=b09LDukIJiU) to get started.
+2. Translate the files on your computer and use git instead. More on that below.
+
+### Translating a page manually
+
+To translate a page manually on your computer, you need to:
+
+1. Fork this repository.
+1. Clone your fork on your computer.
+1. Head to the page's corresponding directory inside the repository's `content` folder.
+1. Duplicate the `index.md` file you'll find there and add the target language's two-letter code to the extension.
+
+For example, to translate the [game settings tutorial](https://www.gdquest.com/tutorial/godot/2d/settings-demo/) to French, you need to head to the directory `content/tutorial/godot/2D/character-customization/`, duplicate the file `index.md`, which is the tutorial written in English, and name the copy `index.fr.md`. For Spanish, name the file `index.es.md`. You can call it `name.ja.md` for Japanese. In general, you need to add the corresponding two-letter country code to the copied markdown file's extension.
 
 ## Licenses
 
