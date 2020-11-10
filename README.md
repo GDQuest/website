@@ -77,6 +77,17 @@ Get in touch:
 - Join the community on [Discord](https://discord.gg/87NNb3Z)
 - You can also find [GDQuest on Twitter](https://twitter.com/NathanGDQuest)
 
+### Browser support
+
+When working on new features, keep in mind this website only supports
+*evergreen browsers*:
+
+- Chrome (latest version and N-1 version)
+- Edge (latest version and N-1 version)
+- Firefox (latest version, N-1 version, and latest ESR version)
+- Opera (latest version and N-1 version)
+- Safari (latest version and N-1 version)
+
 ## Translating pages
 
 The website supports translations into any language.
