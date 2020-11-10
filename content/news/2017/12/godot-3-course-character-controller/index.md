@@ -22,10 +22,7 @@ Use the coupon code "early" to **get 20% off** while the course is in early acce
 
 In this series, you'll learn how to create a fairly robust **character controller**: we're covering input, walk and run speed, handling collisions, adding a bump animation when the character hits something... with a lot of techniques exposed along the way.
 
-<video width="854" height="480" autoplay loop>
-  <source src="character-controller-demo-small.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+{{< video "character-controller-demo-small.mp4" "854" >}}
 
 I took care to not only make the code work, but to go beyond the basics. As you'll see the controller is **reusable**. That's something you won't find in the majority of online courses: using object-oriented design, both the AI and playable characters can share the same movement code.
 
