@@ -6,9 +6,9 @@ title = "Code a Professional Platform Game Character With Godot"
 type = "redirect"
 description = "Code a professional side view 2d game character with the Free game engine Godot!"
 keywords = ["2D", "platform", "platformer", "godot course"]
+price = "20$"
 
 [[resources]]
   name = "banner"
   src = "banner.png"
-price = "20$"
 +++
