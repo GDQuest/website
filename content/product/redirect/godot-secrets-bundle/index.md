@@ -4,6 +4,7 @@ description = "A bundle with our four secrets courses at the price of three! It 
 author = "nathan"
 
 date = 2020-11-20
+price = "120$"
 
 type = "redirect"
 redirect = "https://gdquest.mavenseed.com/courses/godot-2d-vfx-shaders-and-pcg-secrets-bundle"

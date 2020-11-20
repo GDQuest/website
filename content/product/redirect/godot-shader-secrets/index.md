@@ -12,4 +12,6 @@ keywords = ["2D", "shaders", "shader", "godot course"]
 
 [banner]
 src = "/img/tools/godot/banner-godot-shader-secrets.png"
+
+price = "40$"
 +++

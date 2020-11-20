@@ -64,6 +64,10 @@
     overflow: auto;
 
     > .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
       margin: 0;
       font-weight: 800;
     }
@@ -109,6 +113,8 @@
     @include card-middle;
   }
 }
+
+
 
 // pseudo card mode for the course chapters section
 @include tablet {

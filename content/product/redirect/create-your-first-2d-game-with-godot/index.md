@@ -10,4 +10,6 @@ keywords = ["2D", "platform", "platformer", "beginner", "godot course", "getting
 [[resources]]
   name = "banner"
   src = "banner.png"
+
+price = "15$"
 +++

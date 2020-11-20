@@ -4,6 +4,7 @@ description = "Learn to design beautiful 2D visual effects with the free game en
 author = "nathan"
 
 date = 2020-05-22
+price = "40$"
 
 type = "redirect"
 redirect = "//gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot"

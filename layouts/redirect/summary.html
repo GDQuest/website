@@ -1,0 +1,11 @@
+<div class="card-box">
+    {{ partial "components/banner-image" (dict "context" . "is_summary" true) }}
+
+    <div class="content">
+        <!-- Title with optional price tag -->
+        <h4 data-font="ultrabold" class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ with .Params.Price }}<small><span class="tag-pill -shadow -purple" style="margin-left: auto">{{ . }}</span></small>{{ end }}
+        </h4>
+        <p>{{ .Description | markdownify }} </p>
+    </div>
+</div>

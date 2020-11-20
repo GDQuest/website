@@ -12,4 +12,6 @@ keywords = ["godot 2d", "godot game creation", "make games with godot", "godot 2
 
 [banner]
 src = "/img/tools/godot/banner-godot-2d-secrets.png"
+
+price = "40$"
 +++

@@ -12,4 +12,6 @@ keywords = ["2D", "procedural", "procgen", "pcg", "procedural content generation
 
 [banner]
 src = "/img/tools/godot/banner-godot-pcg-secrets.png"
+
+price = "30$"
 +++

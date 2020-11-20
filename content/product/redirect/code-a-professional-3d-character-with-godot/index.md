@@ -10,4 +10,5 @@ keywords = ["3D", "intermediate"]
 [[resources]]
   name = "banner"
   src = "banner.png"
+price = "30$"
 +++
