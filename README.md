@@ -79,8 +79,7 @@ Get in touch:
 
 ### Browser support
 
-When working on new features, keep in mind this website only supports
-*evergreen browsers*:
+When working on new features, keep in mind this website only supports _evergreen browsers_:
 
 - Chrome (latest version and N-1 version)
 - Edge (latest version and N-1 version)
@@ -98,6 +97,8 @@ There are two ways you can translate a page:
 
 1. Use [Gitlocalize](https://gitlocalize.com/repo/5450/), which gives you an accessible online editor and handy tools like one-click machine translation. Watch their [two-minute tutorial](https://www.youtube.com/watch?v=b09LDukIJiU) to get started.
 2. Translate the files on your computer and use git instead. More on that below.
+
+We recommend using an AI-powered translation tool like [DeepL](https://www.deepl.com/translator) to generate a translation you can then edit and refine. It will save you a lot of time and work. GitLocalize has a button to translate a document automatically.
 
 ### Translating a page manually
 
