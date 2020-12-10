@@ -35,6 +35,8 @@
             > a {
                 color: white;
                 width: 100%;
+                // Make links easier to target with mouse/touch.
+                padding: 10px 0;
             }
             > a:hover {
                 color: $color-gdquest-yellow;
@@ -45,6 +47,34 @@
 
 @include tablet {
     .language-dropdown {
+        margin: 10px 0;
+
+        // Display on mobile is toggled using the navbar (see `nav-main.scss`).
         display: none;
+
+        &:hover {
+            > .list > li,
+            > .list:focus-within > li,
+            > .list:hover {
+                display: unset;
+            }
+        }
+
+        span {
+            // Highlight the currently active language.
+            color: $color-gdquest-yellow;
+        }
+
+        > .list {
+            position: unset;
+            display: inline;
+            width: 100%;
+
+        }
+
+        > .list li a {
+            // Make links easier to target with mouse/touch.
+            padding: 10px;
+        }
     }
 }

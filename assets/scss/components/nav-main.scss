@@ -124,6 +124,15 @@
       > .links.-social > a:first-child {
         margin: unset;
       }
+
+      > .language-dropdown {
+        display: inline-block;
+        width: 100%;
+
+        > .list > li {
+          display: inline;
+        }
+      }
     }
   }
 }
