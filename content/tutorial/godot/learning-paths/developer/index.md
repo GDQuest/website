@@ -123,7 +123,7 @@ General game development resources:
 - [Red Blob Games](//www.redblobgames.com/) blog is an online resource that explores topics in great detail with lots of interactive examples. It's one of the best resources out there
 - [The Nature of Code](//natureofcode.com/). This free online book is about understanding how the mathematical principles behind our physical world can help us create compelling digital worlds. It's interactive and explors a wide variety of topics
 - [Game AI Pro](//www.gameaipro.com/). This free online book series gathers multiple recipes in AI and behavior topics. These are very advanced overviews that don't often provide complete code but instead explore high-level ideas. This leaves the developer to do the hard work of implementing them which may be a great exercise
-- [Procedural Content Generation in Games](//pcgbook.com/) is a free online book that explores creating content using procedural generation algorithms. It doesn't go into code which leaves the reader to explore advanced ideas themselves
+- [Procedural Content Generation in Games](http://pcgbook.com/) is a free online book that explores creating content using procedural generation algorithms. It doesn't go into code which leaves the reader to explore advanced ideas themselves
 - [GPU Gems](//developer.nvidia.com/gpugems/GPUGems/) is a free online book series by NVidia that goes through very advanced GPU topics. Some of these ideas are low-level to the point that they could very well be implemented at the game engine development stage
 
 (Non)Conferences useful for gathering further game development ideas:
