@@ -9,8 +9,6 @@ disableLanguages = ["es", "fr", "ja"]
 paginate = 6
 paginatePath = "page"
 
-googleAnalytics = "UA-58510266-1"
-
 [outputFormats]
 [outputFormats.search]
 mediaType = "application/json"
@@ -86,11 +84,6 @@ name = "date"
 weight = 10.0
 
 [privacy]
-[privacy.googleAnalytics]
-disable = false
-anonymizeIP = true
-respectDoNotTrack = true
-useSessionStorage = true
 [privacy.youtube]
 disable = false
 privacyEnhanced = true

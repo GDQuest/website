@@ -30,13 +30,3 @@ numéro de téléphone: +1 (877) 448-4820
 Sauf indication contraire pour des fichiers spécifiques, le code source de ce site est libre et disponible sous license MIT. Les articles, videos et images publiés sur le site sont disponibles sous license [Creative Commons 4.0 Attribution International](https://creativecommons.org/licenses/by/4.0/).
 
 Vous pouvez les attribuer ainsi: "CC-By 4.0 GDQuest and contributors - [https://www.gdquest.com/](https://www.gdquest.com/)". Les sources sont disponibles sur [la page GitHub du site](//github.com/GDQuest/GDQuest-website).
-
-## Google Analytics
-
-Google Analytics utilise des « cookies » qui sont des fichiers texte placés sur votre ordinateur afin d'aider le site Web à analyser la manière dont les utilisateurs font usage du site. Les informations générées par le cookie concernant votre utilisation du site Web (y compris votre adresse IP) sera transmise et stockée par Google sur ses serveurs aux États-Unis. 
-
-Google utilisera ces informations aux fins d'évaluer votre utilisation du site Web, de compiler des rapports sur l'activité du site Web à destination des exploitants du site Web et de fournir d'autres services se rapportant à l'activité du site Web et à l'usage d'Internet. 
-
-Google pourra également communiquer ces informations à des tiers lorsque cela est requis par la loi ou lorsque ces tiers traitent les informations pour le compte de Google. Google, s'engage à ne pas associer votre adresse IP à d'autres données détenues par Google. 
-
-Vous avez la possibilité de refuser l'usage de cookies en sélectionnant les consignes requises sur votre navigateur ; veuillez cependant noter que si vous agissez de la sorte, il est possible que vous ne puissiez plus utiliser la totalité des fonctionnalités de ce site Web. En utilisant ce site Web, vous acceptez que Google traite des données vous concernant de la manière et aux fins décrites ci-dessus.
