@@ -1,1 +1,3 @@
-# github.com/matcornic/hugo-theme-learn v0.0.0-20201112094855-ae732f39317e
+# github.com/gohugoio/hugo-mod-jslibs/instantpage v0.5.1
+# github.com/instantpage/instant.page v5.1.0+incompatible
+# github.com/matcornic/hugo-theme-learn v0.0.0-20201205103925-0c0b906ae12f

@@ -101,7 +101,7 @@ defaultMarkdownHandler = "goldmark"
 unsafe = true
 
 [module]
-[[imports]]
+[[module.imports]]
 path = "github.com/gohugoio/hugo-mod-jslibs/instantpage"
 
 [languages]
