@@ -107,6 +107,10 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
 unsafe = true
 
+[module]
+[[imports]]
+path = "github.com/gohugoio/hugo-mod-jslibs/instantpage"
+
 [languages]
 [languages.en]
 languageName = "English"
