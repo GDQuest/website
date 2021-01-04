@@ -2,8 +2,8 @@
 author = "nathan"
 date = "2019-07-16T08:34:54+09:00"
 description = "This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes."
-title = "Best Practices: Godot GDScript"
-menuTitle = "Godot GDScript"
+title = "Godot GDScript guidelines"
+menuTitle = "GDScript"
 weight = 2
 aliases = ["/open-source/guidelines/godot-gdscript/"]
 

@@ -7,17 +7,17 @@ date = 2019-12-11T15:52:58+01:00
 weight = 5
 +++
 
-We learn our entire lives, often without realizing it. As a result, learning and teaching can seem like mysterious processes. 
+We learn our entire lives, often without realizing it. As a result, learning and teaching can seem like mysterious processes.
 
 There are different ways to learn, and some can be more efficient than others to develop new skills like learning through guided experimentation as opposed to rote memorization.
 
-As tutors, to me, our role goes beyond transmitting information. We can help people to learn faster, to get over roadblocks, and to become more independent in their learning. 
+As tutors, to me, our role goes beyond transmitting information. We can help people to learn faster, to get over roadblocks, and to become more independent in their learning.
 
 This living document contains some notes and guidelines for the educational style of our tutorials. It is based on my experience teaching online and face-to-face.
 
 <!-- Add a summary and a list of broad principles that serve as a foundation for our teaching style. -->
 
-## We learn when we're engaged in an activity ##
+## We learn when we're engaged in an activity
 
 Practice is essential to learning. Putting what you learned in your own words, and applying what you're learning, as you're learning it. So is getting sufficient feedback for every step that we take learning a given discipline.
 
@@ -35,17 +35,17 @@ We can do so by multiplying the opportunities for the viewer to engage in learni
 
 <!-- TODO: write more on viewer questions and quizzes, exercises, challenges, and getting people to take part in community projects. We can take a look at FreeCodeCamp as an example. -->
 
-## Going past step-by-step ##
+## Going past step-by-step
 
 Step-by-step tutorials are easy to produce, and they can ease designers who aren't comfortable with programming into the daunting process of creating software. But as soon as we try to cover the reality of development, step-by-step videos tend to dumb it down into a seemingly linear process while design and programming are both nonlinear, creative problem-solving activities.
 
 That is because step-by-step videos are long. The majority of the content shows typing individual lines of code, which shifts the focus towards the implementation details. As we have to write a lot, we end up focusing on writing the code without typos instead of thinking hard about the big picture. Yet, I believe the big picture and general techniques is the part we should teach.
 
-### Code overviews ###
+### Code overviews
 
 Commenting on a finished project's structure can be useful to explain high-level abstractions and a program's flow, especially if the lesson is short and to the point. It can help experienced developers or students to expand their library of patterns and solutions that they can apply to their projects.
 
-### A middle-ground: pasting code snippets ###
+### A middle-ground: pasting code snippets
 
 To replace code overviews, we could shift towards an approach that's half-way through step-by-step and just commenting on the final code. We can achieve that creating start Godot project with only the files required for the tutorial, extracted from a larger project. But more than the assets.
 
@@ -60,7 +60,7 @@ Then paste blocks of code one by one to show a way to implement the solution and
 
 The tutorials don't have to cover every single line. We can also have pre-built methods or extra objects done and hidden from the viewer. Anything that's not relevant to the tutorial, but required for the demo to work.
 
-## We should teach techniques and concepts over recipes ##
+## We should teach techniques and concepts over recipes
 
 > Give a man a fish and you feed him for a day; teach a man to fish, and you feed him for a lifetime.
 
@@ -72,7 +72,7 @@ The idea applies to game programming as well: the principles we use and the way 
 
 When you create a tutorial on a given topic, try to offer more than a description of what each line of code does. You can explain the thought process that led you to structure your project in a certain way, mention other potential solutions you could try, their advantages and drawbacks. If you decide to teach a pattern, explain its general form. You can also indicate the limits of your example or the tutorial compared to a real-world scenario. Game code can get complicated and messy once you start to connect systems.
 
-## Keep the language simple ##
+## Keep the language simple
 
 To me, the ability to explain complex topics in simple terms is a sign of mastery and maturity. Mastery because it takes a great deal of experience to boil down a technique or a concept to its essence. Maturity as pride or one's ego can prevent us from making hard-learned knowledge accessible to everyone else.
 

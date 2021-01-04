@@ -5,6 +5,7 @@ author = "nathan"
 
 date = 2020-03-20T18:16:27-06:00
 weight = 5
+aliases = ["docs/guidelines/best-practices/tutorial-outline"]
 +++
 
 This document is a guide and example to help you write useful tutorial outlines. Your outline should capture the essential points of a tutorial and help get productive peer reviews early on.

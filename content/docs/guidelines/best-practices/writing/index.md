@@ -1,5 +1,5 @@
 +++
-title = "Writing guidelines"
+title = "Writing style guide"
 description = "This page contains our writing guidelines for tutorials and, in general, accessible writing."
 author = "nathan"
 
@@ -123,11 +123,23 @@ Instead, specify what the pronoun refers to:
 
 The following guidelines are more specific to writing code documentation and tutorials. We share some conventions between the two for consistency.
 
-### Avoid using the future tense
+### Formatting rules
 
-In technical writing, we almost always use the present tense. Depending on the case, you can replace "will" with the present tense, "let's," or "be + going to."
+When mentioning labels as seen in the editor, including node names, dock names, and property names, use _italics_. This helps the user to find them in the interface and distinguishes them from code.
 
-Lastly, in cases where you cannot avoid the future tense, consider using "should" instead of "will" to suggest that something is likely to happen, rather than certain.
+> Select the _Blueprint_ node and in the _Inspector_, set its _Value_ to `5`.
+
+Write labels as they appear in the interface or for the user, with title case. For example, Godot capitalizes property names and settings by default. For example:
+
+> Select the node and in the _Inspector_, change the _Initial Velocity -> Velocity_'s `x` to `-100`.
+
+Use `inline code` when mentioning symbols, i.e. variable names, function names, and any code in a sentence. Also use it for values, as in "set the _Health_ to `10`."
+
+Use parentheses with function names to differentiate them from variables:
+
+> We call the `update()` function. [...] We increment the `count` on every loop iteration.
+
+For properties nested in a foldable category of the _Inspector_ or in sub-menus, use arrows, like so: _Collision -> Layer_ or _Debug -> Visible Collision_.
 
 ### Spell out numbers, except in code
 
@@ -135,19 +147,11 @@ Write numbers in words when counting objects, except if the numbers in question 
 
 For example:
 
-> Create two `Control` nodes as siblings. Resize the first node to take two-thirds of the viewport's width.
+> Create two _Control_ nodes as siblings. Resize the first node to take two-thirds of the viewport's width.
 
 Here is an example with code:
 
 > Set the `max_health` to `5`.
-
-### Use italics to refer to keywords in the interface
-
-Write keywords or expressions as they appear in the interface or for the user in italics. Doing so differentiates the words from inline code.
-
-For example, Godot capitalizes property names and settings by default. For example:
-
-> In the _Initial Velocity_ category, change the _Velocity_'s `x` to `-100`.
 
 ### Use plain English over symbols
 

@@ -2,7 +2,7 @@
 author = "nathan"
 date = "2018-12-04T09:30:19+09:00"
 description = "This document is based on the GNU Kind Communications Guidelines by Richard Stallman."
-title = "Best Practices: Communication"
+title = "Kind Communication Guidelines"
 menuTitle = "Communication"
 weight = 1
 aliases = [
@@ -12,11 +12,11 @@ aliases = [
 
 +++
 
-*Version v1.0.0*
+_Version v1.0.0_
 
-*This document is based on the [GNU Kind Communications Guidelines](//www.gnu.org/philosophy/kind-communication.html) by Richard Stallman.*
+_This document is based on the [GNU Kind Communications Guidelines](//www.gnu.org/philosophy/kind-communication.html) by Richard Stallman._
 
-*In short*, our goal with these guidelines is to **build a welcoming, a safe, and a productive space for every creator and contributor**. We're here to push Free Software projects forward together and **be kind and supportive to one another**, working past our differences.
+_In short_, our goal with these guidelines is to **build a welcoming, a safe, and a productive space for every creator and contributor**. We're here to push Free Software projects forward together and **be kind and supportive to one another**, working past our differences.
 
 We encourage contributions from **anyone** who wishes to help with the development of any GDQuest project, **regardless of gender, race, religion, cultural background, and any other demographic characteristics, as well as personal political views**.
 
@@ -52,6 +52,6 @@ Please don't raise unrelated political issues in these projects' discussions, be
 
 By making an effort to follow these guidelines, we will encourage more contribution to our projects, and our discussions will be friendlier and reach conclusions more easily.
 
-----
+---
 
 <a name="1-footnote"><sup>1</sup></a> Honoring people's preferences about gender identity includes not referring to them in ways that conflict with that identity. For instance, not to use pronouns that conflict with it for them. There are several ways to avoid that; one way is to use gender-neutral pronouns, since they don't conflict with any possible gender identity. One such pronoun is singular use of “they.” Another is “person.”
