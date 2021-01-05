@@ -135,6 +135,8 @@ Write labels as they appear in the interface or for the user, with title case. F
 
 Use `inline code` when mentioning symbols, i.e. variable names, function names, and any code in a sentence. Also use it for values, as in "set the _Health_ to `10`."
 
+Absolute and relative file paths should also be inline code as they're as seen in scripts: `res://path/to/file.tres` and `file.tres`.
+
 Use parentheses with function names to differentiate them from variables:
 
 > We call the `update()` function. [...] We increment the `count` on every loop iteration.
