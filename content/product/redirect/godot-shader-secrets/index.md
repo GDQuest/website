@@ -7,7 +7,7 @@ date = 2020-06-07
 price = "40$"
 
 type = "redirect"
-redirect = "//gdquest.mavenseed.com/courses/shader-secrets-learn-to-code-2d-and-3d-shaders-in-godot"
+redirect = "//gdquest.mavenseed.com/courses/godot-shader-secrets"
 
 keywords = ["2D", "shaders", "shader", "godot course"]
 

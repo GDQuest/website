@@ -7,7 +7,7 @@ date = 2020-05-22
 price = "40$"
 
 type = "redirect"
-redirect = "//gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot"
+redirect = "//gdquest.mavenseed.com/courses/godot-vfx-secrets"
 keywords = ["2D", "vfx", "visual effects", "beginner", "godot course"]
 
 [banner]

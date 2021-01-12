@@ -12,7 +12,7 @@ keywords = ["godot", "course"]
 src = "/img/tools/godot/banner-godot-vfx-secrets.png"
 +++
 
-Our [Godot visual effects course](//gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot) got its first complete release! It is now out of early access.
+Our [Godot visual effects course](//gdquest.mavenseed.com/courses/godot-vfx-secrets) got its first complete release! It is now out of early access.
 
 With this course, you will learn to create effects such as the laser beam, explosions, or smooth trails.
 
@@ -30,7 +30,7 @@ You should know how to work with Godot's editor and have GDScript foundations fo
 
 If you have no experience with Godot, check out our complete [Free Godot guide for beginners]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) to get you started.
 
-{{< calltoaction "//gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot" "Get the course now!" >}}
+{{< calltoaction "//gdquest.mavenseed.com/courses/godot-vfx-secrets" "Get the course now!" >}}
 
 _The course comes with lifetime free updates and a 30 days refund warranty._
 

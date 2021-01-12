@@ -7,7 +7,7 @@ date = 2020-09-10
 price = "30$"
 
 type = "redirect"
-redirect = "//gdquest.mavenseed.com/courses/pcg-secrets-the-art-of-procedural-generation-in-godot"
+redirect = "//gdquest.mavenseed.com/courses/godot-pcg-secrets"
 
 keywords = ["2D", "procedural", "procgen", "pcg", "procedural content generation", "godot course"]
 

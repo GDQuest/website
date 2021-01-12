@@ -14,7 +14,7 @@ name = "banner"
 src = "banner.png"
 +++
 
-Our [new course](//gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot) to learn to design **2D visual effects for games** in Godot is out!
+Our [new course](//gdquest.mavenseed.com/courses/godot-vfx-secrets) to learn to design **2D visual effects for games** in Godot is out!
 
 This tutorial series focuses on the use of particle systems and related effects. It will teach you essential techniques to design effects such as explosions, lasers, or background animation.
 
@@ -35,7 +35,7 @@ If you have no experience with Godot, check out our complete [Free Godot guide f
 
 Get the course now, while it's in early-access, for less! The price will go up once we release more updates. Once you bought it, updates are free.
 
-{{< calltoaction "//gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot" "Get the course now!" >}}
+{{< calltoaction "//gdquest.mavenseed.com/courses/godot-vfx-secrets" "Get the course now!" >}}
 
 {{< video "laser-beam.mp4" "706" >}}
 

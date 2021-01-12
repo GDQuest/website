@@ -44,7 +44,7 @@ Get your hands on the course now for a **lower price** as we create new tutorial
 
 Once you bought the course, you get **lifetime free updates**. All the new content we add will come at no extra cost!
 
-{{< calltoaction "//gdquest.mavenseed.com/courses/pcg-secrets-the-art-of-procedural-generation-in-godot" "Get the course now" >}}
+{{< calltoaction "//gdquest.mavenseed.com/courses/godot-pcg-secrets" "Get the course now" >}}
 
 In this first release, the course covers the **Random Walker algorithm**, as seen in Spelunky. It's a general-purpose level generator that works for all sorts of games, 2D and 3D, although in the course's example, we cover a side-scrolling game.
 
