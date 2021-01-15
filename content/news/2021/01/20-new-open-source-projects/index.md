@@ -3,9 +3,8 @@ title = "20 New Open Source Projects"
 description = "In 2020, we created two dozens of free and open-source code repositories with game demos, assets like shaders and VFX, and tools to help you on your game development journey with Godot. Here's a run through all of them."
 author = "nathan"
 
-date = 2021-01-15
+date = 2021-01-14
 weight = 5
-draft = true
 
 categories = ["news"]
 
