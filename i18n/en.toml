@@ -2,10 +2,13 @@
 other = "Languages"
 
 [gdquest_title]
-other = "Become a game developer"
+other = "Become a game developer with Godot"
 
 [gdquest_subtitle]
-other = "Create professional games with Free and Open Source Software"
+other = "Learn the techniques professionals use to create stunning games, using Free and Open Source Software."
+
+[getting_started_free]
+other = "Get started for free"
 
 [getting_started]
 other = "Get started"

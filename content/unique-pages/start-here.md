@@ -16,10 +16,11 @@ src = "/img/social-banner.png"
 
 Do you want to **become a game developer**? You came to the right place!
 
-At GDQuest, we teach you **game creation with free software**. With us, you will learn the ins and outs of the Godot game engine.
+At GDQuest, we teach you **game creation with the free and open-source game engine [Godot](https://godotengine.org/)**. 
 
-This page is here to get you started with the tutorials that **best fit your needs**. The guides below are completely free, curated learning paths.
+With us, you will learn the ins and outs of this feature-packed 2D and 3D game engine. We have the largest base of resources and tutorials for Godot.
 
+This page is here to get you started with the tutorials that **best fit your needs**. The guides below are completely free and curated learning paths.
 
 <div class="content-grid">
 <div class="item">

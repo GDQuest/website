@@ -2,10 +2,13 @@
 other = "Langues"
 
 [gdquest_title]
-other = "Crée tes propres jeux vidéo"
+other = "Deviens un développeur de jeux avec Godot"
 
 [gdquest_subtitle]
-other = "Développe des jeux professionnels à l'aide de logiciels libres et gratuits"
+other = "Apprends les techniques des professionnels pour créer des jeux impressionants à l'aide de logiciels libres."
+
+[getting_started_free]
+other = "Commencer gratuitement"
 
 [getting_started]
 other = "Commencer"

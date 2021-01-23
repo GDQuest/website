@@ -2,10 +2,13 @@
 other = "Idiomas"
 
 [gdquest_title]
-other = "Crea tus propios videojuegos"
+other = "Crea tus propios videojuegos con Godot"
 
 [gdquest_subtitle]
-other = "Desarolla juegos profesionales con software libre y gratuito"
+other = "Aprenda las técnicas que utilizan los profesionales para crear juegos impresionantes con software libre."
+
+[getting_started_free]
+other = "Comenzar gratis"
 
 [getting_started]
 other = "Comenzar"
