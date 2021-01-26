@@ -38,21 +38,22 @@ $color-purple: #7e3ab791;
   }
 
   > .title {
-    max-width: 60%;
+    max-width: 30rem;
     margin: auto;
+
+    > .subtitle {
+      color: white;
+      text-shadow: $color-purple 0px 2px 3px;
+      font-size: large;
+    }
 
     > a {
       text-shadow: none;
       box-shadow: $shadow-small;
+      font-size: large;
     }
   }
 
-  > .subtitle {
-    max-width: 50%;
-    color: white;
-    text-shadow: $color-purple 0px 2px 3px;
-    font-size: large;
-  }
 }
 
 @include mobile {
