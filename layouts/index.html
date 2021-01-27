@@ -47,56 +47,16 @@
 </section>
 
 <section class="content-container margin-v-base">
-    <h3 data-font="centered">{{ i18n "home_news" }}</h3>
+    <h3 data-font="centered">{{ i18n "home_tutorials" }}</h3>
     <div class="content-grid">
-        {{ range first 2 (where .Site.RegularPages "Section" "news") }}
+        {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
         <div class="item -fill">
             {{ .Render "summary" }}
         </div>
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
-        <a href="/news" class="button-link">{{ i18n "view_all" }}</a>
-    </div>
-</section>
-
-<section class="darkbg">
-    <div class="content-container padding-v-base">
-        <h3 data-font="centered">{{ i18n "home_tutorials" }}</h3>
-        <div class="content-grid">
-            {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
-            <div class="item -fill">
-                {{ .Render "summary" }}
-            </div>
-            {{ end }}
-        </div>
-        <div data-font="centered" class="margin-top-base">
-            <a href="/tutorial" class="button-link -textlight">{{ i18n "view_all" }}</a>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="content-container padding-v-base" data-font="centered">
-        <h3>{{ i18n "home_free_software" }}</h3>
-        <div class="content-grid margin-v-base">
-            {{ range $.Site.Data.homepage }}
-            <div class="item -span2 -fill">
-                <div class="card-box -small">
-                    <div class="content -darkbg">
-                        <img loading="lazy" src="{{ .logo }}" alt="{{ .name }} logo" class="card-image -small -contain" >
-                    </div>
-                    <div class="content">
-                        <h4>{{ .name }}</h4>
-                        <p>{{ .description }}</p>
-                        <div>
-                            <a href="{{ .url }}" class="button-link">{{ i18n "learn_more" }}</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
-        </div>
+        <a href="/tutorial" class="button-link -textlight">{{ i18n "view_all" }}</a>
     </div>
 </section>
 
@@ -117,6 +77,20 @@
     </div>
 </section>
 
+<section class="content-container margin-v-base">
+    <h3 data-font="centered">{{ i18n "home_news" }}</h3>
+    <div class="content-grid">
+        {{ range first 2 (where .Site.RegularPages "Section" "news") }}
+        <div class="item -fill">
+            {{ .Render "summary" }}
+        </div>
+        {{ end }}
+    </div>
+    <div data-font="centered" class="margin-top-base">
+        <a href="/news" class="button-link">{{ i18n "view_all" }}</a>
+    </div>
+</section>
+
 <section data-font="centered">
     <div class="content-container">
         <h2>{{ i18n "home_team" }}</h2>
@@ -128,7 +102,7 @@
         <div class="margin-v-base">
             <h2>{{ i18n "home_ready" }}</h2>
             <p class="subtitle">{{ i18n "home_ready_description" }}</p>
-            <a href="/start-here" class="button-link -yellow -shadow">{{ i18n "getting_started" }}</a>
+            <a href="/start-here" class="button-link -yellow -shadow">{{ i18n "getting_started_free" }}</a>
         </div>
     </div>
 </section>
