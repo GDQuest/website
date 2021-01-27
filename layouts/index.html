@@ -47,7 +47,8 @@
 </section>
 
 <section class="content-container margin-v-base">
-    <h3 data-font="centered">{{ i18n "home_tutorials" }}</h3>
+    <h2 data-font="centered">{{ i18n "home_tutorials" }}</h2>
+    <p data-font="centered">{{ i18n "home_tutorials_description" }}</p>
     <div class="content-grid">
         {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
         <div class="item -fill">
@@ -62,7 +63,7 @@
 
 <section class="darkbg">
     <div class="content-container padding-v-base">
-        <h3 data-font="centered">{{ i18n "home_tools" }}</h3>
+        <h2 data-font="centered">{{ i18n "home_tools" }}</h2>
         <p data-font="centered">{{ i18n "home_tools_description" }}</p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
@@ -78,7 +79,7 @@
 </section>
 
 <section class="content-container margin-v-base">
-    <h3 data-font="centered">{{ i18n "home_news" }}</h3>
+    <h2 data-font="centered">{{ i18n "home_news" }}</h2>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         <div class="item -fill">

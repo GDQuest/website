@@ -25,14 +25,17 @@ other = "Latest news"
 [home_tutorials]
 other = "Hundreds of free tutorials"
 
+[home_tutorials_description]
+other = "Learn Godot with the largest base of free learning resources. We have everything you need to get started."
+
 [home_free_software]
 other = "Work with the most advanced Free Software"
 
 [home_tools]
-other = "Get Free and Open-Source tools"
+other = "Free and Open-Source tools"
 
 [home_tools_description]
-other = "We develop tools and demos to help you learn to make games faster."
+other = "We made over 100 open-source Godot demos and tools to help you learn to make games faster."
 
 [home_team]
 other = "Meet the team"

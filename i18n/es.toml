@@ -13,6 +13,9 @@ other = "Comenzar gratis"
 [getting_started]
 other = "Comenzar"
 
+[home_tutorials_description]
+other = "Aprenda Godot con la mayor base de recursos de aprendizaje gratuitos. Tenemos todo lo que necesitas para empezar."
+
 [subscribers]
 other = "suscriptores"
 
