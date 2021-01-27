@@ -45,3 +45,15 @@ other = "Prêt à débuter?"
 
 [home_ready_description]
 other = "Amène tes compétences de création de jeux au niveau supérieur gratuitement."
+
+[subscribers]
+other = "abonnés"
+
+[million_views]
+other = "millions de vues"
+
+[successful_kickstarters]
+other = "campagnes Kickstarter réussies"
+
+[years_teaching_godot]
+other = "annés à enseigner Godot"

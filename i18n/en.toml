@@ -45,3 +45,17 @@ other = "Ready to get started?"
 
 [home_ready_description]
 other = "Take your game creation skills to the next level for free, with Godot."
+
+
+# Used on the homepage
+[subscribers]
+other = "subscribers"
+
+[million_views]
+other = "million views"
+
+[successful_kickstarters]
+other = "successful Kickstarter campaigns"
+
+[years_teaching_godot]
+other = "years teaching Godot"

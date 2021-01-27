@@ -12,3 +12,15 @@ other = "Comenzar gratis"
 
 [getting_started]
 other = "Comenzar"
+
+[subscribers]
+other = "suscriptores"
+
+[million_views]
+other = "milliones de vistas"
+
+[successful_kickstarters]
+other = "campañas exitosas de Kickstarter"
+
+[years_teaching_godot]
+other = "años de enseñar Godot"
