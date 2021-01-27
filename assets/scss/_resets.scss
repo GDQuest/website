@@ -337,10 +337,6 @@ main {
   position: relative;
   padding-bottom: $spacing-base;
 
-  // prevent collapsing margin
-  padding-top: 1px;
-  margin-top: -1px;
-
   z-index: 200;
 }
 
