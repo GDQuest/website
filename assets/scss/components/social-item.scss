@@ -1,0 +1,38 @@
+
+.social-item {
+    margin: 0;
+    font-size: large;
+
+    &.-kickstarter {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .image {
+        filter: drop-shadow($shadow-small);
+    }
+
+    .text {
+        margin-top: 0.4rem;
+    }
+
+    .-youtube {
+        max-width: 200px;
+    }
+
+    .-kickstarter {
+        max-width: 270px;
+    }
+
+    .-godot {
+        max-width: 200px;
+    }
+}
+
+@include tablet
+{
+    .social-item {
+        margin-top: $spacing-small;
+        margin-bottom: $spacing-small;
+    }
+}
