@@ -15,8 +15,7 @@
         <title>{{ .Title }}{{ if ne .Title "" }} &middot; {{ end }}{{ .Site.Title }}</title>
         <meta http-equiv="Refresh" content="0; url={{ $reditect_url }}" />
         {{ partialCached "favicon" . }}
-        {{ $postCSS_options := (dict "targetPath" "style.css" "outputStyle" "compressed" )}}
-        {{ $stylesheet := resources.Get "scss/gdquest.scss" | resources.ToCSS $postCSS_options | postCSS }}
+        {{ $stylesheet := resources.Get "scss/gdquest.scss" | resources.ToCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
     </head>
     <body style="height: 100vh">

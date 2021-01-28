@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800&display=swap" rel="stylesheet">
     <!-- font-awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    {{ $postCSS_options := (dict "targetPath" "style.css" "outputStyle" "compressed" )}}
     {{ $stylesheet := resources.Get "scss/gdquest.scss" | resources.ToCSS | minify | fingerprint }}
     <script>
         // Use lazy loading for autoplaying videos.

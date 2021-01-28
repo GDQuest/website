@@ -1,4 +1,3 @@
-{{ $postCSS_options := (dict "targetPath" "docs_styles.css" "outputStyle" "compressed" )}}
-{{ $stylesheet := resources.Get "scss/docs/docs.scss" | resources.ToCSS $postCSS_options | postCSS }}
+{{ $stylesheet := resources.Get "scss/docs/docs.scss" | resources.ToCSS | minify | fingerprint }}
 
 <link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
