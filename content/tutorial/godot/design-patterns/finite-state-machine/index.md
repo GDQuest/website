@@ -27,7 +27,7 @@ _The code examples you'll see in this guide are simple to keep it short and clea
 
 _But please note the pattern is mostly worth it when you start to have more complex code. For a concrete example, see our [Open 3D Mannequin](https://github.com/GDQuest/godot-3d-mannequin)._
 
-This guide was open-sourced from and made possible by our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets). If you'd like to level up your game development skills, check it out!
+**This guide was open-sourced from and made possible by our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets). If you'd like to level up your game development skills, check it out!**
 
 ## The problem
 
@@ -561,3 +561,5 @@ Compared to our initial example, grouping all the logic in one place, you can se
 That's why we saw a simpler solution first. I invite you only to use a state machine when you need it, which you'll learn to judge through practice.
 
 That does it for the pattern's basics. In a future guide, you'll learn more about the `owner` property and how to get auto-completion in your states, how to handle signal connections, and more.
+
+**If you liked this guide, you'll certainly like our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets), in which you'll find many more in-depth Godot tutorials to take your skills to the next level.**
