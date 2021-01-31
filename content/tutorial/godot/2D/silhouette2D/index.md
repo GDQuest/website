@@ -89,13 +89,13 @@ func _physics_process(_delta) -> void:
 		animated_sprite.scale.x = sign(direction.x)
 ```
 
-Save this scene as `Character.tscn`
+You can save this scene as `Character.tscn`
 	
-## Shaders
+## Drawing the mask and the silhouette
 
-We will use two shaders to accomplish this effect.
+We will use two shaders to accomplish this effect: one draws a mask to distinguish the parts of the character that are behind an obstacle. The other uses the mask to either draw the character's texture or an outline of it.
 
-Add a shader to the _Mask_ with the following code:
+Add a shader to the _Mask_ node with the following code.
 
 ```glsl
 shader_type canvas_item;
@@ -107,11 +107,11 @@ void fragment() {
 }
 ```
 
-This shader assigns a value of `10` to the _Mask_ sprite's red channel and preserves the input texture's opacity.
+This shader assigns a value of `10` to the _Mask_'s red color channel and preserves the input texture's opacity.
 
 ![The mask sprite with the masking shader applied](mask-sprite.png)
 
-Why this value? It's arbitrary, but we use it to detect where the mask is rendering or not. Because it's so high, in another shader, we can check for pixels that have a high value and render the character there.
+Why this value? It's arbitrary, but we use it to detect where the mask is rendering or not. Because it's so high, in another shader, we can check for pixels rendered to the screen texture that have a high value and render the character there.
 
 Now, add another shader to the _Sprite_ node, with the following code:
 
@@ -123,7 +123,7 @@ uniform vec4 silhouette_color : hint_color;
 
 void fragment() {
 	// We sample the screen texture at this point, which has the Mask node's pixels
-	// rendered on screen.
+	// rendered on it.
 	vec4 screen_color = texture(SCREEN_TEXTURE, SCREEN_UV);
 	vec4 tex_color = texture(TEXTURE, UV);
 	COLOR = tex_color;
@@ -138,7 +138,7 @@ void fragment() {
 
 ![Silhouette drawn on screen](silhouette-effect.png)
 
-Drawing the complete silhouette feels a bit heavy, doesn't it? Here's a variation of that shader that draws an outline instead of a full silhouette.
+Drawing the complete silhouette feels a bit heavy, doesn't it? Here's a variation of that shader that draws an outline instead of a full silhouette. You can find a complete outline shader demo in our open-source [Godot Shaders library](https://github.com/GDQuest/godot-shaders).
 
 ```glsl
 shader_type canvas_item;
@@ -180,32 +180,41 @@ void fragment() {
 }
 ```
 	
-## Level scene
+To test the effect, we just have to place an obstacle in front of the character. You can instantiate the `Character` scene in a new scene, put a sprite in front of it and the outline should appear.
 
-Let's create a level.
+![Character silhouette showing behind the Godot logo](character-silhouette-godot-icon.png)
 
-Create a scene with a `Node2D` as root, and add a `TileMap` and name it _FloorTileMap_. Add an `YSort` node, with a `TileMap` child named _WallsTileMap_. Also, add an instance of the character scene as a child of the `YSort`. Explaining what the `YSort` node does is out of the scope of this tutorial, but you can check the official documentation [here](https://docs.godotengine.org/en/stable/classes/class_ysort.html).
+## Using the effect in an interior scene
 
-The `TileMap` inside the `YSort` is for the level's walls, and the one outside is for the floor. The reason for this setup is that we need the walls sometimes to render behind the player and other times in front of the player. So we need them to be in a tilemap affected by the `YSort`. 
+If you download the demo that comes with this tutorial, we prepared a dungeon level to show how this could work in the context of an interior scene.
+
+Our scene has both a floor and walls separated into two tilemap nodes: _FloorTileMap_ and _WallsTileMap_. 
+
+The _WallsTileMap_ lives inside a _YSort_ node with the _Character_.
+
+The reason for this setup is that we need the walls sometimes to render behind the player and other times in front of them. So we need them to be in a tilemap affected by the `YSort`. 
 
 As the floor should always render behind the character, we draw it in a separated `TileMap` outside above the `YSort` node in the scene tree.
 
-For the _WallsTileMap_ to be rendered as we expect, check the _Cell -> Y Sort_ option in the inspector, and change the _Cell -> Tile Origin_ to _Bottom Left_. As the Guard's feet are placed at the character's scene origin, with the tile origin set to the bottom left corner, we ensure that as soon as the character's foot surpasses the wall tile's bottom left corner, it will be rendered behind it.
-
-Set up the tilemaps using the provided assets, and create a level like this:
-
-![Level scene](images/level-scene.png)
-
-When setting up the wall tilemap, make sure to set the collision polygon at the bottom of each wall tile. This is needed for this example to work in this perspective. For example, these are the collisions used in the example project:
-
-![TileMap collisions](images/tilemap-collisions.png)
-
-Finally, execute the level scene, and check that the silhouette appears when a wall hides the character.
+For the _WallsTileMap_ to render as we expect, I checked the _Cell -> Y Sort_ option in the _Inspector_, and changed the _Cell -> Tile Origin_ to _Bottom Left_. As the Guard's feet are placed at the character's scene origin, with the tile origin set to the bottom left corner, we ensure that as soon as the character's feet move above a wall tile's bottom left corner, the character will render behind the wall.
 
 ![Character outline displaying behind a wall](outline-result.png)
 
-This approach has a shortcoming, though: as we draw and render each character's outline separately, they can overlap. This isn't an issue if you use the simpler silhouette shader, but as our outline is transparent, you can get a result as illustrated below.
+When setting up the wall tilemap, I made sure to set the collision polygon at the bottom of each wall tile so the player could move behind the walls.
+
+![TileMap collisions](tilemap-collisions.png)
+
+That's it for an overview of how you'd use the effect.
+
+Note that our approach has a limitation: as we draw and render each character's outline separately, they can overlap. 
+
+This isn't an issue if you use the silhouette shader, but with a transparent outline, you can get overlapping lines as shown below.
 
 ![Screenshot with multiple guard's outlines overlapping](technique-shortcoming.png)
 
-Working around this requires a more complex rendering setup, by rendering all your game's characters at once to a single viewport that spans the entire screen and applying our shaders to two full-screen textures that copy this viewport.
+There are two options to work around this:
+
+1. In the outline shader, instead of drawing transparent pixels inside the outline, output the screen texture's colors.
+2. You could render all your game's characters at once to a single viewport that spans the entire screen and apply the shaders to two full-screen textures that copy this viewport, making this a full-screen post-processing effect.
+
+The second option can give you the most flexibility. We use that kind of setup in our [Godot 2D Space Game](https://github.com/GDQuest/godot-2d-space-game). It works great on desktop, but note it may be costly on some low-end mobile devices. It's also a more complex setup where you need to duplicate your characters so they exist both inside your game world and in the post-processing effect layer.
