@@ -14,7 +14,22 @@
 <div class="content-container flex">
     {{ partial "components/nav-tutorial" . }}
     <section class="padding-v-base">
-        {{ partial "components/blog-post" . }}
+        <article class="blog-post">
+            {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
+            {{ partial "table-of-contents" . }}
+            {{ .Content }}
+            {{ partial "components/next-and-previous" . }}
+            <div class="flex flex-horizontal">
+                <div class="card-box margin-top-base">
+                    {{ partialCached "components/mailing-signup" . }}
+                </div>
+                <div class="margin-top-base">
+                    {{ partial "components/authors" . }}
+                </div>
+                {{ partial "improve-this-page.html" . }}
+            </div>
+        </article>
+
         {{ partial "components/related-products" . }}
         {{ partial "components/related-pages" . }}
     </section>

@@ -1,0 +1,14 @@
+<!-- Displays next and previous buttons at the bottom of a tutorial -->
+<div class="content-grid -columns3 margin-top-base">
+    <!-- /!\ WITH THE DEFAULT HUGO SORT ORDER, which .NextInSection and .PrevInSection use, the order is reversed: previous points to the next page and vice-versa. -->
+    {{ with .NextInSection }}
+    <a aria-label="Previous" class="item -span1 button-link" href="{{.Permalink}}"> <span aria-hidden="true">&larr;</span> Previous </a>
+    {{ end }}
+    <div class="item -span1">
+
+    </div>
+    {{ with .PrevInSection }}
+    <a aria-label="Next" class="item -span1 button-link" href="{{.Permalink}}"> Next <span aria-hidden="true">&rarr;</span>
+    </a>
+    {{ end }}
+</div>
