@@ -2,7 +2,7 @@
 {{ $related := $productSection.RegularPages.Related . }}
 {{ if not $related }} {{ $related = first 2 $productSection.RegularPages }} {{ end }}
 {{ with $related }}
-<h2 data-font="centered">Related products</h2>
+<h2 data-font="centered">Related courses</h2>
 <div class="content-grid">
     {{ range first 2 . }}
     <div class="item">
