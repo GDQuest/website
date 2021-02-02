@@ -2,6 +2,7 @@
 title = "Drawing a character's silhouette"
 description = "Display the silhouette of a character hidden behind a wall."
 author = "azagaya"
+coAuthors = ["nathan"]
 
 date = 2021-01-23T13:26:00-03:00
 weight = 5
@@ -38,7 +39,7 @@ Also, add a `CollisionShape2D` as a child of the `KinematicBody2D` and in the _I
 
 Your scene should look like this:
 
-![Character Scene](images/character-scene.png)
+![Character Scene](character-scene.png)
 
 Select the _Sprite_ and, in the _Inspector_, set its _Z Index -> Z Index_ to a high value like `100`. We'll use it to display the silhouette, which we want to render above walls and other objects. That's why we want to set the z-index so high.
 
@@ -56,7 +57,7 @@ Under the _Render_ category in the inspector, disable _HDR_ and change the node'
 
 Lastly, change the _Update Mode_ property to _Always_. Your viewport's settings in the inspector should look like this:
 
-![Settings of Viewport](images/viewport-config.png)
+![Settings of Viewport](viewport-config.png)
 
 As the viewport's top-left corner corresponds to the scene's origin, we need to offset the _AnimatedSprite_ node or it'll get cropped. Set its _Transform -> Position_ to `16` in both `x` and `y`.
 
