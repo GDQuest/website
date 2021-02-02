@@ -48,6 +48,18 @@ And to tackle many tasks, you need to decide where to start and how to organize 
 
 And we're here to help you acquire them.
 
+## What they say about our tuts
+
+We've been teaching people to make games with for years. Here's what they have to say about our tutorials.
+
+![Heartbeast tweet](/img/testimonials/heartbeast-fsm-tutorial-tweet.png)
+
+<p align="center"><i><a href="https://www.youtube.com/user/uheartbeast">Heartbeast</a>, a Godot tutor and game developer with 160,000+ subscribers on YouTube.</i></p>
+
+![A bit awake tweet](/img/testimonials/a-bit-awake-tweet.png)
+
+<p align="center"><i><a href="https://abitawake.com/">A Bit Awake</a>, a Canadian game studio making commercial games with Godot.</i></p>
+
 ## At your service since 2015
 
 ![Nathan's picture](/about/img/nathan.png)
@@ -58,11 +70,17 @@ I made hundreds of [video tutorials on YouTube](https://www.youtube.com/c/gdques
 
 The project grew since then, and we're now, we're a team of experienced game developers, tutors, and Free Software enthusiasts dedicated to teaching and supporting Godot, our engine of choice.
 
+_New to Godot? We made a 5-minute video to get you started._
+
 {{< youtube "KjX5llYZ5eQ" >}}
 
 We not only use Godot: we directly contribute to the program and its ecosystem, including the official documentation. In 2020, I even got hired to write its [new Getting Started series](https://godotengine.org/article/godot-docs-improvements-report).
 
 Between our videos, [written tutorials](/tutorial), and dozens of [open-source game demos and tools](/tools), we already have the largest base of free resources and tutorials for Godot.
+
+![Akien tweet](/img/testimonials/akien-tweet.png)
+
+<p align="center"><i><a href="https://twitter.com/akien">Rémi Verschelde</a>, Godot's project manager.</i></p>
  
 ## Getting started 
 
@@ -95,22 +113,3 @@ Check out our Godot guide for developers! It will help you get started with game
 </div>
 
 Alternatively, you can [browse all our tutorials](/tutorial).
-
-## What people say about us
-
-GDQuest started in 2015 as a hobby project. It grew little by little, and we're now glad to have people like you who benefit from our work and allow us to do it full-time.
-
-Here's what some of you have to say about our work.
-
-> Nathan's work on Godot courses as well as official docs has been incredibly valuable so far.
-> Content creators like him are as important to the engine's growth and quality as engine
-> developers.
->
-> — [Rémi Verschelde](https://twitter.com/akien), Godot project manager.
-
-
-> If you want to get started with the @GodotEngine, @NathanGDQuest is a great instructor to learn from.
->
-> — [Heartbeast](https://www.youtube.com/user/uheartbeast), Godot and Game Maker instructor.
-
-For daily tips, tricks, and news, [Follow GDQuest on Twitter](https://twitter.com/NathanGDQuest).
