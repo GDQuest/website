@@ -41,6 +41,8 @@ Some of the techniques you'll see here apply to about any grid-based game, wheth
 
 **This entire series is brought to you from our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets). It's complete and entirely free and open-source.**
 
+As usual on GDQuest, the code's free and open-source. You can find the complete demo here: [2D Tactical RPG Movement](https://github.com/GDQuest/godot-2d-tactical-rpg-movement) demo.
+
 In the first lesson, we'll start by looking at how we can handle grid interactions and the code structure we'll use in this project.
 
 Let's get started!
