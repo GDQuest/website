@@ -1,0 +1,11 @@
+// Styles for the mailing-signup mailchimp form.
+.mailing-signup {
+    text-align: center;
+    margin-left: $spacing-tiny;
+    margin-right: $spacing-tiny;
+
+    .content {
+        max-width: 600px;
+        margin: auto
+    }
+}
