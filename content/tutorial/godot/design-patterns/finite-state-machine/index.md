@@ -424,15 +424,15 @@ func update(delta: float) -> void:
 	# If you have platforms that break when standing on them, you need that check for 
 	# the character to fall.
 	if not owner.is_on_floor():
-		_state_machine.transition_to("Air")
+		state_machine.transition_to("Air")
 		return
 
 	if Input.is_action_just_pressed("jump"):
 		# As we'll only have one air state for both jump and fall, we use the `msg` dictionary 
 		# to tell the next state that we want to jump.
-		_state_machine.transition_to("Air", {do_jump = true})
+		state_machine.transition_to("Air", {do_jump = true})
 	elif Input.is_action_pressed("move_left") or Input.is_action_pressed("move_right"):
-		_state_machine.transition_to("Run")
+		state_machine.transition_to("Run")
 ```
 
 Notice the use of `Node.owner` in the `enter()` function. In a saved scene, the `owner` property points to the root node. In our player's scene, every node's `owner` points to the _Player_ node. 
@@ -527,7 +527,7 @@ func physics_update(delta: float) -> void:
 Finally, we have the air state. It controls the jump and fall, which you could alternatively split into two states. I like to merge them into one because I want the horizontal air movement to be consistent whether the character is going up or down.
 
 ```gdscript
-# Jump.gd
+# Air.gd
 extends PlayerState
 
 
@@ -559,7 +559,5 @@ func physics_update(delta: float) -> void:
 Compared to our initial example, grouping all the logic in one place, you can see how much code and setup using a state machine adds. With only three states like these and an un-refined movement, it's probably not worth it. As with many patterns, it's only as your projects grow in complexity that you start to benefit from them.
 
 That's why we saw a simpler solution first. I invite you only to use a state machine when you need it, which you'll learn to judge through practice.
-
-That does it for the pattern's basics. In a future guide, you'll learn more about the `owner` property and how to get auto-completion in your states, how to handle signal connections, and more.
 
 **If you liked this guide, you'll certainly like our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets), in which you'll find many more in-depth Godot tutorials to take your skills to the next level.**
