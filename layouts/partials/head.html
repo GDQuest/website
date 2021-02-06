@@ -40,6 +40,8 @@
         });
     </script>
 
+    <!-- Analytics. -->
+    <script async defer data-domain="gdquest.com" src="https://plausible.io/js/plausible.js"></script>
 
     <link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
     {{ partial "meta" . }}
@@ -50,5 +52,4 @@
         {{ end }}
     {{ end }}
     {{ block "header_extra" . }} {{ end }}
-
 </head>
