@@ -1,7 +1,7 @@
 // Styles for buttons, that we mostly use on links.
 .button-link {
   display: inline-block;
-  border-radius: 24px;
+  border-radius: 8px;
   padding: $spacing-micro $spacing-small;
 
   line-height: normal;
@@ -43,6 +43,11 @@
 
   &.-large {
     font-size: large;
+  }
+
+  &.-tall {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   &.-center {
