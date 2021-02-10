@@ -10,6 +10,8 @@ type = "video"
 videoid = "Mc13Z2gboEk"
 +++
 
+If you haven't already, you can download the project's assets on the [project's repository](https://github.com/GDQuest/godot-beginner-2d-platformer/releases) (look for the file `start-assets.zip`).
+
 ## Errata
 
 ### Missing segment at 32:21
