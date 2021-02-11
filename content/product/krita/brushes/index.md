@@ -1,5 +1,11 @@
 +++
-aliases = ["brush-pack", "game-art-quest/brush-pack", "krita-brushes-for-game-artists", "product/krita-brushes"]
+aliases = [
+  "/brush-pack",
+  "/product/krita/brushes/version-14",
+  "/game-art-quest/brush-pack",
+  "/krita-brushes-for-game-artists",
+  "/product/krita-brushes"
+]
 author = "nathan"
 category = "Krita"
 date = "2017-01-30"
@@ -54,7 +60,9 @@ The best part? There is actually a free, smaller version of this set, so you can
 
 ### Version 14 - July 2017
 
-See the full release notes: [4 new vegetation presets](version-14)
+The new release of the GDQuest Krita brushes comes with 4 vegetation presets. In the past year, I learned a lot about Krita's brush engines, its strengths and limitations. I also tried to release a lot of presets to stuff up the pack. It's now time to slow down, and improve the releases. Starting with this one, the focus is on quality over quantity.
+
+The new presets are all documented. They come with a bit of text and an example picture to show you how to use them. **The premium version adds short, voiceless video demos, to get up to speed even faster!** 
 
 ### Version 13 - April 2017
 

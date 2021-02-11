@@ -6,5 +6,6 @@ title = "My 8 best game design resources"
 type = "video"
 videoid = "zY2V3ky0law"
 
+aliases = ["/game-design/my-7-most-valuable-game-design-resources/"]
 +++
 

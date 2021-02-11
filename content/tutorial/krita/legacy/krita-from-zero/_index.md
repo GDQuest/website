@@ -12,7 +12,6 @@ type = "course"
 name = "banner"
 src = "banner.jpg"
 
-aliases = [ "game-art-quest/volume-1/course-public", "game-art-quest/volume1", "game-art-quest/volume-1", "game-art-quest/volume-1/krita-tutorial-for-game-artists", "krita-tutorial/volume-1/krita-tutorial-for-game-artists", "krita-tutorial-for-game-artists", "tutorial/art/krita_tutorial_for_game_artists", "/tutorial/art/krita-tutorial-for-game-artists/", "/tutorial/krita/krita-from-zero/",]
 +++
 
 
