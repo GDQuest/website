@@ -1,5 +1,5 @@
 +++
-title = "Getting started with debugging"
+title = "Getting started with debugging in Godot"
 description = "Learn how to debug your project in Godot with the debugger"
 author = "razoric"
 coAuthors = ["nathan"]
