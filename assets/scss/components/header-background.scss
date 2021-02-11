@@ -5,7 +5,11 @@ $color-gradient-end: #6423d3;
 
 .header-background {
   position: fixed;
-  height: 560px;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
   top: 0;
   left: 0;
   bottom: 0;
@@ -16,8 +20,4 @@ $color-gradient-end: #6423d3;
   z-index: -1;
   background-image: url(/img/header-home-background.svg),
     linear-gradient(to left, $color-gradient-start, $color-gradient-end);
-
-  @include tablet {
-    height: 75vh;
-  }
 }
