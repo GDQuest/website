@@ -20,6 +20,14 @@ At GDQuest, we teach you **game creation with the free and open-source game engi
 
 We give you the tools and educational resources you need to learn everything about the engine while developing the core skills you need to make unique games.
 
+We have plenty of free tutorials for you to get started, to the point it can be a bit hard to know which to follow first.
+
+That's why we made a free 7-day course.
+
+Every day, you'll get an email with carefully selected tutorials and guides to get up to speed with Godot quickly.
+
+{{< mailing-signup-get-started >}}
+
 ## The problem with most tutorials
 
 There's a ton of free tutorials out there, but they often just teach you one trick in isolation and rarely go past beginner-level.
@@ -62,7 +70,7 @@ We've been teaching people to make games with for years. Here's what they have t
 
 ## At your service since 2015
 
-![Nathan's picture](/about/img/nathan.png)
+<img src="/about/img/nathan.png" alt="Nathan's picture" style="float: right; border-radius: 200px;" />
 
 Hey, I'm Nathan. I created GDQuest in 2015 to help you learn game art and game development with free and open-source software.
 
@@ -70,7 +78,7 @@ I made hundreds of [video tutorials on YouTube](https://www.youtube.com/c/gdques
 
 The project grew since then, and we're now, we're a team of experienced game developers, tutors, and Free Software enthusiasts dedicated to teaching and supporting Godot, our engine of choice.
 
-_New to Godot? We made a 5-minute video to get you started._
+_New to Godot? I made a 5-minute video to get you started._
 
 {{< youtube "KjX5llYZ5eQ" >}}
 
@@ -111,5 +119,3 @@ Check out our Godot guide for developers! It will help you get started with game
 {{< /card-box >}}
 </div>
 </div>
-
-Alternatively, you can [browse all our tutorials](/tutorial).
