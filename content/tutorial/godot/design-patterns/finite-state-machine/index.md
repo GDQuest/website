@@ -46,7 +46,7 @@ var speed := 500.0
 var jump_impulse := 1200.0
 var base_gravity := 4000.0
 
-var _velocity
+var _velocity := Vector2.ZERO
 
 
 func _physics_process(delta: float) -> void:
@@ -55,10 +55,10 @@ func _physics_process(delta: float) -> void:
 		Input.get_action_strength("move_right")
 		- Input.get_action_strength("move_left")
 	)
-	var is_jumping := is_on_floor() and Input.is_action_just_pressed("jump")
+	var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
 
 	# Calculating horizontal velocity.
-	_velocity.x = input_direction_x * speed * delta
+	_velocity.x = input_direction_x * speed
 	# Calculating vertical velocity.
 	_velocity.y += base_gravity * delta
 	if is_jumping:
@@ -84,7 +84,7 @@ var glide_acceleration := 1000.0
 var glide_gravity := 1000.0
 var glide_jump_impulse := 500.0
 
-var _velocity
+var _velocity := Vector2.ZERO
 # There's also a new boolean value to keep track of the gliding state.
 var _is_gliding := false
 
@@ -95,22 +95,22 @@ func _physics_process(delta: float) -> void:
 		Input.get_action_strength("move_right")
 		- Input.get_action_strength("move_left")
 	)
-	var is_jumping := is_on_floor() and Input.is_action_just_pressed("jump")
+	var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
 
 	# Initiating gliding, only when the character is in the air.
 	if Input.is_action_just_pressed("glide") and not is_on_floor():
 		_is_gliding = true
 
 	# canceling gliding
-	if _is_gliding and Input.is_action_just_pressed("jump"):
+	if _is_gliding and Input.is_action_just_pressed("move_up"):
 		_is_gliding = false
 
 	# Calculating horizontal velocity.
 	if _is_gliding:
-		_velocity.x += input_direction_x * glide_acceleration * delta
+		_velocity.x += input_direction_x * glide_acceleration
 		_velocity.x = min(_velocity.x, glide_max_speed)
 	else:
-		_velocity.x = input_direction_x * speed * delta
+		_velocity.x = input_direction_x * speed
 
 	# Calculating vertical velocity.
 	var gravity := glide_gravity if _is_gliding else base_gravity
@@ -134,7 +134,7 @@ The code doubled in size, even though our character movement is still dead simpl
 Did you notice the error up there?
 
 ```gdscript
-var is_jumping := is_on_floor() and Input.is_action_just_pressed("jump")
+var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
 ```
 
 We want to allow jumping during glide, but I forgot to update the `is_jumping` variable, and so it doesn't work. When you put all your movements and state in one place, these changes are easy to miss. More issues in the code above make it brittle and difficult to change, even though it is still relatively small. But we don't have sounds, animations, and movement is still basic. In a real game project, the code gets messy fast.
@@ -162,29 +162,29 @@ enum States {ON_GROUND, IN_AIR, GLIDING}
 #...
 
 # With a variable that keeps track of the current state, we don't need to add more booleans.
-var _state := States.ON_GROUND
+var _state : int = States.ON_GROUND
 
 
 func _physics_process(delta: float) -> void:
 	#...
 	# Instead of using different functions and variables, we can now use a single variable 
 	# to manage the current state.
-	var is_jumping := _state == States.ON_GROUND and Input.is_action_just_pressed("jump")
+	var is_jumping: bool = _state == States.ON_GROUND and Input.is_action_just_pressed("move_up")
 
 	# To change state, we change the value of the `_state` variable
 	if Input.is_action_just_pressed("glide") and _state == States.IN_AIR:
 		_state = States.GLIDING
 
 	# Canceling gliding.
-	if _state == States.GLIDING and Input.is_action_just_pressed("jump"):
-		_state == States.GLIDING = States.IN_AIR
+	if _state == States.GLIDING and Input.is_action_just_pressed("move_up"):
+		_state = States.IN_AIR
 
 	# Calculating horizontal velocity.
 	if _state == States.GLIDING:
 		_velocity.x += input_direction_x * glide_acceleration * delta
 		_velocity.x = min(_velocity.x, glide_max_speed)
 	else:
-		_velocity.x = input_direction_x * speed * delta
+		_velocity.x = input_direction_x * speed
 
 	# Calculating vertical velocity.
 	var gravity := glide_gravity if _state == States.GLIDING else base_gravity
@@ -195,7 +195,7 @@ func _physics_process(delta: float) -> void:
 		_state = States.IN_AIR
 
 	# Moving the character.
-	_velocity = move_and_slide(_velocity)
+	_velocity = move_and_slide(_velocity, Vector2.UP)
 
 	# If we're gliding and we collide with something, we turn gliding off and the character falls.
 	if _state == States.GLIDING and get_slide_count() > 0:
@@ -239,7 +239,7 @@ So, there are some benefits to using this solution.
 
 However, you're left with a lot of code in one place and the ability for any function to access variables it does not need and should not be aware of. 
 
-And to do so, you want to add extra functions and conditions to change your object's properties when you enter and exit a given state. Having an all in one place is error-prone.
+And to do so, you want to add extra functions and conditions to change your object's properties when you enter and exit a given state. Having it all in one place is error-prone.
 
 Now, imagine you want to reuse some of the states for monsters. Well, with this example, either you reuse all the code or nothing. You can't just take the ability to climb walls or to make combos with a sword.
 
@@ -427,7 +427,7 @@ func update(delta: float) -> void:
 		state_machine.transition_to("Air")
 		return
 
-	if Input.is_action_just_pressed("jump"):
+	if Input.is_action_just_pressed("move_up"):
 		# As we'll only have one air state for both jump and fall, we use the `msg` dictionary 
 		# to tell the next state that we want to jump.
 		state_machine.transition_to("Air", {do_jump = true})
