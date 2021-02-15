@@ -1,8 +1,9 @@
 +++
-title = "Learn to Write Typed GDscript in Godot 3.1"
+title = "Using Type Hints with Godot's GDScript"
 menuTitle = "Typed GDScript"
 
 author = "guilherme"
+coAuthors = ["nathan"]
 date = 2018-09-04T06:00:00Z
 description = "GDscript is getting optional typing syntax in Godot 3.1! Get started with it in this intro tutorial."
 
