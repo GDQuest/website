@@ -8,7 +8,7 @@ description = "With Mike Acton's unique practice routine for developers, you can
 weight = 2
 +++
 
-**With [Mike Acton](https://medium.com/@mike_acton)'s unique practice routine for developers, you can greatly accelerate your learning.**
+With [Mike Acton](https://medium.com/@mike_acton)'s unique practice routine for developers, you can greatly accelerate your learning.
 
 Mike's the former game engine director at Insomniac Games, now working on Unity's Data-Oriented Technology Stack (DOTS). 
 
