@@ -5,16 +5,16 @@ author = "nathan"
 date = 2021-02-14
 description = "With Mike Acton's unique practice routine for developers, you can greatly accelerate your learning. Here's how."
 
-weight = 2
+weight = 10
 +++
 
-With [Mike Acton](https://medium.com/@mike_acton)'s unique practice routine for developers, you can greatly accelerate your learning.
+With Mike Acton's [unique practice routine](https://medium.com/@mike_acton/12-tips-for-making-the-best-use-of-your-time-909be33398b4) for developers, you can greatly accelerate your learning.
 
 Mike's the former game engine director at Insomniac Games, now working on Unity's Data-Oriented Technology Stack (DOTS). 
 
 His take on how to practice as a developer was a _revelation_ for me.
 
-While he presented it in a talk for _engine developers_, it's a method you can apply even when getting started with game programming.
+While he presented it in a talk for engine developers, [solving the right problems for engine developers](https://www.youtube.com/watch?v=4B00hV3wmMY), it's a method you can apply even when getting started with game programming.
 
 ## Learning efficiently
 
@@ -112,3 +112,5 @@ Every day, set a timer, and ensure that you **turn off any source of distraction
 Embrace this profoundly interesting challenge where you are competing with your former self. Try to better yourself every day.
 
 I've applied this method to both writing and programming to great effect.
+
+**If you're looking for more insights game development, check out our free series to [get started with Godot]({{< ref "unique-pages/get-started.md" >}}).**
