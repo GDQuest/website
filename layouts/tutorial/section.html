@@ -20,8 +20,8 @@
             </div>
             {{ end }}
             <div class="item">
-                <h2>Latest tutorials</h2>
-                {{ partialCached "components/newest-tutorial-list" . }}
+                <h2>Latest updates</h2>
+                {{ partialCached "components/last-updated-tutorial-list" . }}
             </div>
             {{ range last (sub $pagesCount 1) .Pages }}
             <div class="item">
