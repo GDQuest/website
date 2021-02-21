@@ -31,6 +31,12 @@
     color: $color-dark-base;
   }
 
+  &.-shop {
+    color: $color-accent-main-text;
+    background: transparent;
+    border: 2px solid white;
+  }
+
   &.-yellow:hover {
     color: $color-dark-base;
   }
