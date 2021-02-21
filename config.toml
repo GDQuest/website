@@ -6,6 +6,8 @@ theme = "github.com/matcornic/hugo-theme-learn"
 
 disableLanguages = ["es", "fr", "ja"]
 
+disableKinds = ["taxonomy", "term"]
+
 paginate = 6
 paginatePath = "page"
 
