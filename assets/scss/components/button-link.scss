@@ -17,8 +17,7 @@
   border: none;
 
   &:hover {
-    transform: scale(1.04);
-    box-shadow: $shadow-small;
+    background-color: $color-button-background-hover;
     color: $color-accent-main-text;
   }
 
@@ -27,18 +26,23 @@
   }
 
   &.-yellow {
-    background-color: $color-accent-opt-base;
+    background-color: $color-gdquest-yellow;
     color: $color-dark-base;
+
+    &:hover {
+      background-color: $color-gdquest-yellow-hover;
+    }
   }
 
   &.-shop {
     color: $color-accent-main-text;
     background: transparent;
     border: 2px solid white;
-  }
 
-  &.-yellow:hover {
-    color: $color-dark-base;
+    &:hover {
+      color: $color-dark-base;
+      background-color: white;
+    }
   }
 
   &.-flat {
