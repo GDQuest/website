@@ -1,4 +1,4 @@
-// Header for articles
+// Header for news articles
 $color-purple: #7e3ab791;
 
 .header-article {
@@ -11,6 +11,10 @@ $color-purple: #7e3ab791;
   }
 
   > .subtitle {
+    color: $color-white-transparent;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 6px;
     text-shadow: $color-purple 0px 2px 3px;
   }
 }
