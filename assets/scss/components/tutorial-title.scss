@@ -1,0 +1,15 @@
+.tutorial-title {
+    > * {
+        margin: 0;
+    }
+
+    > .title {
+        text-shadow: $shadow-small;
+    }
+
+    > .subtitle {
+        margin-top: 4px;
+        color: #ffffffd4;
+        text-shadow: $shadow-small;
+    }
+}
