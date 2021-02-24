@@ -4,6 +4,8 @@ description = "How to learn to code? How to become a game developer? Get started
 date = "2020-05-20"
 aliases = [ "/tutorial/getting-started/",]
 
+weight = 10
+
 [[resources]]
 name = "banner"
 src = "getting-started-banner.png"

@@ -3,6 +3,8 @@ title = "Godot tutorials"
 description = "Learn to use the Free and Open-Source Godot game engine with short tutorials."
 date = "2020-05-26"
 
+weight = 1
+
 [[resources]]
 name = "banner"
 src = "banner.png"
