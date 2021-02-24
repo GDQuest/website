@@ -8,8 +8,9 @@
     }
 
     > .subtitle {
-        margin-top: 4px;
+        margin-top: $spacing-micro;
         color: $color-white-transparent;
         text-shadow: $shadow-small;
+        margin-bottom: $spacing-tiny;
     }
 }

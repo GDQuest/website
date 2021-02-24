@@ -7,10 +7,11 @@
     {{ range .Params.Tags }}
     <span class="tag-pill -shadow">{{ . }}</span>
     {{ end }}
+    <p class="subtitle">
     {{ with .Params.author }}
     {{ with (index $.Site.Data.authors . ) }}
-    <p class="subtitle">By: {{ .name }}</p>
+        By: {{ .name }}
     {{ end }}
-    {{ end }}
-
+        {{ end }} - {{ .Date.Format "January 2, 2006" }}
+    </p>
 </div>

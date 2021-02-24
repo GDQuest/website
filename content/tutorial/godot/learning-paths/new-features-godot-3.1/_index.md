@@ -2,7 +2,7 @@
 author = "nathan"
 title = "New Features in Godot 3.1"
 description = "Discover the main new features in Godot 3.1."
-date = "2020-06-24"
+date = "2019-06-24"
 
 difficulty = "beginner"
 

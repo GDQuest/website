@@ -2,16 +2,19 @@
 <div class="header-background"></div>
 <div class="header-article">
     <h1 class="title">{{.Title}}</h1>
+    <p class="subtitle">
     {{ with .Params.author }}
     {{ with (index $.Site.Data.authors . ) }}
-    <p class="subtitle">by: {{ .name }} </p>
+        By: {{ .name }}
     {{ end }}
     {{ end }}
+ - {{ .Date.Format "January 2, 2006" }}</p>
+
 </div>
 {{ end }}
 
 {{ define "main" }}
-<section class="content-container padding-v-base">
+<section class="content-container padding-v-small">
     {{ partial "components/blog-post" . }}
 </section>
 {{ end }}
