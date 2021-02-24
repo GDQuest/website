@@ -8,9 +8,9 @@ name = "banner"
 src = "banner.png"
 +++
 
-Welcome to our Godot tutorials! Here, you will find a variety of tutorials to learn specific aspects of game development with the Godot game engine.
+Here's a large collection of free tutorials and courses for Godot, with techniques you will not find anywhere else.
 
-We also create a lot of tools and free and open-source projects. You can find them on our [GitHub](http://github.com/GDQuest/).
+Enjoy both short tutorials to solve a specific problem and long, in-depth guides to level up your game development skills.
 
 ## Getting started with Godot
 

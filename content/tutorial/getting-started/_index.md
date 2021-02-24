@@ -9,6 +9,6 @@ name = "banner"
 src = "getting-started-banner.png"
 +++
 
-You want to learn game creation, but you don't know where to start? These guides are for you. We're here to help you take your first steps with programming, design, and more.
+You're new to code and you don't know how to get started? Or perhaps you learned some programming hands-on but you feel like you don't fully understand what you're doing.
 
-This section is still relatively empty. The guide [Learn to Code](learn-to/code) will get you started with computer programming, a recommended starting point to learn to use complex game engines such as [Godot]({{< ref "tutorial/godot/_index.md" >}}).
+Here, you will learn the essentials to get started with programming and game development: how to learn to code, what game engines are, and more.
