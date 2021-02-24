@@ -8,7 +8,7 @@ $color-purple: #7e3ab791;
 }
 
 .header-title {
-  text-shadow: $color-purple 0px 4px 4px;
+  text-shadow: $shadow-large;
   display: flex;
 
   > .image {
@@ -43,7 +43,7 @@ $color-purple: #7e3ab791;
 
     > .subtitle {
       color: white;
-      text-shadow: $color-purple 0px 2px 3px;
+      text-shadow: $shadow-small;
       font-size: large;
     }
 
