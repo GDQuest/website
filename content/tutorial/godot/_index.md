@@ -7,7 +7,7 @@ weight = 1
 
 [[resources]]
 name = "banner"
-src = "banner.png"
+src = "godot-tutorials-banner.png"
 +++
 
 Here's a large collection of free tutorials and courses for Godot, with techniques you will not find anywhere else.
