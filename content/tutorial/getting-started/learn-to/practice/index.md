@@ -113,4 +113,38 @@ Embrace this profoundly interesting challenge where you are competing with your 
 
 I've applied this method to both writing and programming to great effect.
 
-**If you're looking for more insights game development, check out our free series to [get started with Godot]({{< ref "unique-pages/get-started.md" >}}).**
+## Become a game developer, with Godot
+
+If you found this guide useful, you'll surely enjoy our 7-day free series to get started with game development and Godot.
+
+{{< mailing-signup-get-started >}}
+
+## Your questions
+
+Here are the answers to the questions you sent me.
+
+**If I don't finish making whatever system I planned in the 30-minute span, do I start from scratch again the next day?**
+
+Yes, you should start over every day. That's where the practice happens: you're *deliberately* working on something small and specific, which you can tackle in one sitting.
+
+This idea of *deliberate practice* comes back in many fields. To become good at drawing hands, you'll analyze and draw a dozen hands every day until you get it. You're thoughtfully focusing on one weakness to get over it.
+
+**If I solved a problem yesterday, don't I already have the solution for the next day?**
+
+No, the idea is you shouldn't repeat what you did by heart but keep looking for ways to improve. Between two days, you can take a minute to analyze what worked well and what didn't, then write down ideas to improve or topics to research.
+
+In games, as so much of your code influences how the game feels, once you got the best solution you can find to a problem, you can shift focus to improving the controls and design.
+
+Also, there are almost always many solutions to a problem, so you can try to find alternate ones.
+
+**What if I don't know how to make the thing I want to practice? Should I start with a tutorial?**
+
+If you're completely new to a domain, say, networking, sure, you should read a guide to get started. You can't practice online multiplayer if you have no idea what a server is or how computers communicate over a network.
+
+That said, in general, when it comes to *practice*, I would recommend working alone, offline, and try to figure it out by yourself. If you're stuck and made no progress after your first session, try to find online resources.
+
+If you do this, you'll develop that essential skill of solving problems creatively, an absolute necessity to become an excellent and employable developer.
+
+I rarely use tutorials, even when I have no idea how to solve a problem. I will read up on algorithms, data structures, and general ideas or observe and analyze another game or program, but I avoid step-by-step guides.
+
+Many tutorials' solutions are subpar because most tutorial writers are inexperienced hobbyists or students who didn't really dig the topic. For Godot tutorials, I mostly recommend KidsCanCode, Heartbeast, Godot Tutorials, Game Development Center for networking, and us, GDQuest.
