@@ -1,5 +1,6 @@
 +++
-title = "Top-down movements"
+title = "How to do top-down game movement in Godot"
+menuTitle = "Top-down movement"
 description = "Learn how to start moving your character with a top down view."
 author = "raformatico"
 coAuthors = ["nathan"]
@@ -12,24 +13,37 @@ keywords = ["godot top down movement", "godot player movement"]
 
 +++
 
-In this tutorial, you will learn to implement three different movements for your character in Godot:
-1. Rotate and move forward/backwards. A similar movement to the typical space ship game, like _Asteroids_.
-2. Basic top-down movement in eight directions.
-3. Top-down movement with steering behavior to make the movement more organic.
+In this tutorial, you will learn to implement three different movements for your characters in Godot:
 
-{{< video "videos/top-down-movement.mp4" >}}
+1. Rotating and moving forward or backward, as seen in the classic space shooter _Asteroids_.
+2. Moving in eight directions.
+3. Using steering to make the motion smooth and organic.
 
 You can find the full source code of the project [here](https://github.com/GDQuest/godot-mini-tuts-demos/tree/master/2d/top-down-movement).
 
+{{< video "videos/top-down-movement.mp4" >}}
+
 ## Input actions
 
-Below, you will see we have some input actions we defined in the _Project -> Project Settings... -> Input Map_. The last three are related to how we change the scene to test all the different movements, we will show this at the end of the tutorial as a bonus knowledge pill.
+For this project, I defined some input mappings, as shown in the image below.
+
+I assume you know how to set up input mappings this and will let you create these actions in the _Project -> Project Settings... -> Input Map_.
+
+<!-- TODO: add explanation on how to create one input mapping, then tell user to repeat the steps for the others. -->
+
+<!-- TODO: remove the text below, crop the screenshot to only have the movement inputs, and only mention the relevant loading actions in the bonus section. -->
+
+The last three are related to how we change the scene to test all the different movements, we will show this at the end of the tutorial as a bonus knowledge pill.
+
+<!-- TODO: add joystick inputs. The use of `Input.get_action_strength()` in the whole tutorial gives you support for analog controls, it'd be nice to make use of them. You'll need to update the demo accordingly -->
 
 ![Screenshot of the input map window with the actions](images/input_map.png)
 
 ## Setting up the Player Scene
 
-First, we create a scene and add a _KinematicBody2D_ as its parent node and two children a _CollisionShape2D_ and an _AnimatedSprite_. We use here an _AnimatedSprite_ as we will be changing its texture depending on the direction of the movement, you can use a regular _Sprite_ node if you are not going to do this.
+First, we'll create a base scene we can use to implement every movement.
+
+We create a scene with a _KinematicBody2D_ named _PlayerTopDown_ as the root and two children: a _CollisionShape2D_ and an _AnimatedSprite_. We use an _AnimatedSprite_ here to change the character's texture depending on the movement direction.
 
 ![Player Scene](images/player_nodes.png)
 
@@ -37,15 +51,21 @@ In the _Inspector_, add a _New SpriteFrames_ in the `Frames` property of the _An
 
 ![New SpriteFrames](images/animated_sprite_1.png)
 
-Remember the indexes of the different textures, as you will have to match them with the directions in the code.
+Remember the indices of the different sprites, as you will have to match them with the directions in the code.
 
 ![Textures of the AnimatedSprite](images/animated_sprite_2.png)
 
-The final step is to add a script to the root node (_KinematicBody2D_) coding the movement you want to implement (see sections below).
+## Moving like a ship in space, as in Asteroids
 
-## Rotate and move forward/backwards
+Let's start with the asteroids movement as it's the shortest and simplest.
 
-In this movement, we do not change the texture as we will be rotating the character and moving it in the `y` direction, attach a script to the _KinematicBody2D_ with the following code to implement this movement.
+We want some kind of spaceship that rotates when we press `left` or `right`, moves forward when we press `up` and backward when we press `down`.
+
+In this tutorial, notice how we use `Input.get_action_strength()` to calculate the player's input direction. This function gives us support for analog controllers, like joysticks, allowing the player to move more precisely than with the keyboard.
+
+The function will return `1.0` if you press a key on the keyboard and a value between `0.0` and `1.0` when using a joystick. This is why we can directly do subtractions with it.
+
+Attach a script to the _PlayerTopDown_ node with the following code to implement this movement.
 
 ```gdscript
 # Movement where the character rotates and moves forward or backward.
@@ -58,8 +78,11 @@ export var angular_speed := 5.0
 
 
 func _physics_process(delta):
+	# See how we're using Input.get_action_strength() to calculate the direction we rotate.
+	# The value will be in the [-1.0, 1.0] range.
 	var rotate_direction := Input.get_action_strength("right") - Input.get_action_strength("left")
 	rotation += rotate_direction * angular_speed * delta
+	# Below, we calculate the forward or backward move direction and directly multiply it to calculate a velocity.
 	# `transform.y` stores the node's local axes, allowing us to move it in the direction it's currently facing.
 	var velocity := (Input.get_action_strength("down") - Input.get_action_strength("up")) * transform.y * speed
 	move_and_slide(velocity)
@@ -67,7 +90,17 @@ func _physics_process(delta):
 
 ## Top-down movement
 
-To implement a top-down movement in eight directions attach a script to the _KinematicBody2D_ root node with the following code.
+To implement a top-down movement in eight directions, replace your _PlayerTopDown_ node's script with the following code.
+
+Below, we introduce a function to update our character's sprite.
+
+We also normalize our direction vector. Doing this ensures it always has a length of `1.0` (or `0.0` if the player isn't pressing any movement key).
+
+Why? When you press both right and down, without normalizing the vector the direction calculation below would result in `Vector2(1, 1)`. Such a vector has a length of about `1.4` (it's the diagonal of a square of width `1.0`). But when you only press the right key, the vector would be `Vector2(1.0, 0.0)` and have a length of `1.0`.
+
+In that case, the character would end up moving 40% faster when going diagonally compared to moving left, right, up, or down.
+
+The `Vector2.normalized()` method prevents this issue.
 
 ```gdscript
 extends KinematicBody2D
@@ -75,7 +108,8 @@ extends KinematicBody2D
 # Movement speed in pixels per second.
 export var speed := 500
 
-# Mapping of direction to a sprite index.
+# We map a direction to a frame index of our AnimatedSprite node's sprite frames.
+# See how we use it below to update the character's look direction in the game.
 var _sprites := {Vector2.RIGHT: 1, Vector2.LEFT: 2, Vector2.UP: 3, Vector2.DOWN: 4}
 var _velocity := Vector2.ZERO
 
@@ -83,9 +117,15 @@ onready var animated_sprite: AnimatedSprite = $AnimatedSprite
 
 
 func _physics_process(_delta: float) -> void:
+	# Once again, we call `Input.get_action_strength()` to support analog movement.
 	var direction := Vector2(
+		# This first line calculates the X direction, the vector's first component.
 		Input.get_action_strength("right") - Input.get_action_strength("left"),
+		# And here, we calculate the Y direction. Note that the Y axis points 
+		# DOWN in games.
+		# That is to say, a Y value of `1.0` points downward.
 		Input.get_action_strength("down") - Input.get_action_strength("up")
+	# And we normalize the vector, giving it a length of 1.0.
 	).normalized()
 	move_and_slide(speed * direction)
 
@@ -104,16 +144,17 @@ func _unhandled_input(event):
 
 func _update_sprite(direction: Vector2) -> void:
 	animated_sprite.frame = _sprites[direction]
-
 ```
 
-{{< note >}}In the previous code, we used `get_action_strength()` instead of `is_action_pressed()` to take into account the intensity of an analog stick.  
+## Smoother movement with steering behaviors
 
-If the control used to play the game is a keyboard, the value returned will be 0 or 1. {{< /note >}}
+There's a series of little movement algorithms for games called steering behaviors that game developers use a lot.
 
-## Adding steering behavior
+You can use them to smooth out your characters' movement and give them a bit of inertia.
 
-If you want to get a more organic movement you can change the previous `physics_process` function with this one. This way the character will approach smoothly to the target point:
+. This way the character will move more smoothly smoothly to the target point:
+
+<!-- TODO: the friction variable isn't defined here -->
 
 ```gdscript
 func _physics_process(delta):
@@ -125,22 +166,27 @@ func _physics_process(delta):
 	var target_velocity = direction * speed
 	_velocity += (target_velocity - _velocity) * friction
 	_velocity = move_and_slide(_velocity)
-
 ```
 
-You can use a steering behavior not only for approaching the target point but also for accelerating upto the maximum speed. For a more in-depth study of steering behaviors, go and check out our [intro to steering behaviors](https://www.gdquest.com/tutorial/godot/2d/intro-to-steering-behaviors/).
+You can use a steering behavior not only to smoothly arrive to a target point but also to accelerate and deccelerate gradually.
 
-## Bonus! Setting up the Scenes to Test Different Movements
+These behaviors are commonly used for AI but also in arcade racing games, and much more.
+
+To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}).
+
+## Bonus: loading different scenes with a keyboard shortcut
+
+In the open-source demo we prepared for you, you can load different mini-game scenes by pressing <kbd>1</kbd>, <kbd>2</kbd>, or <kbd>3</kbd> on your keyboard. Here's how we achieved that, as a bonus.
 
 There are three scenes to test all the movements with a similar structure but changing the player node. These scenes are composed of an instantiated scene (_Level1_) with some obstacles, a _Sprite_ for the level background and a _StaticBody2D_ to set the limits of the level. They have another instantiated scene (_SceneIndicator_) to show a title with the name of the movement we are testing.
 
 ![Scene structure for testing the movements](images/general_scene_nodes.png)
 
-And finally, they have 4 particle emitters to generate little white squares you see moving in the back (just for aesthetic reasons).
+And finally, they have four particle emitters to generate little white squares you see moving in the back (just for aesthetic reasons).
 
 ![Scene structure for testing the movements](images/general_scene.png)
 
-We have changed the background default color of the scene, you can do this in _Project -> Project Settings... -> Rendering -> Environment -> Default Clear Color_.
+We have changed the background default color of the scene. You can do this in _Project -> Project Settings... -> Rendering -> Environment -> Default Clear Color_.
 
 ![Scene of a test level](images/background_color.png)
 
