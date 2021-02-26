@@ -4,7 +4,7 @@ description = "Learn to create professional 2D games with the Godot game engine.
 author = "nathan"
 
 date = 2020-09-22
-price = "40$"
+price = "60$"
 
 type = "redirect"
 redirect = "https://gdquest.mavenseed.com/courses/godot-2d-secrets"
