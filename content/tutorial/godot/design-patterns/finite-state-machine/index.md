@@ -169,6 +169,8 @@ func _physics_process(delta: float) -> void:
 	#...
 	# Instead of using different functions and variables, we can now use a single variable 
 	# to manage the current state.
+	# Our character is jumping if they're on the ground and the player presses "move_up"
+	# If both conditions are met, the expression below will evaluate to `true`.
 	var is_jumping: bool = _state == States.ON_GROUND and Input.is_action_just_pressed("move_up")
 
 	# To change state, we change the value of the `_state` variable
