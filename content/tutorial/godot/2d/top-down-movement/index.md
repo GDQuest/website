@@ -25,17 +25,13 @@ You can find the full source code of the project [here](https://github.com/GDQue
 
 ## Input actions
 
-For this project, I defined some input mappings, as shown in the image below.
+We use input actions to link a specific event (keystrokes, mouse or joystick interactions) with an action in our game. For instance, when we want our character to jump when we press the space key, the mouse right-click or the _x_ button of the joystick, we should link an action to these three events.
 
-I assume you know how to set up input mappings this and will let you create these actions in the _Project -> Project Settings... -> Input Map_.
+To create an action named _right_ open _Project -> Project Settings... -> Input Map_ write in the _Action_ field _right_ and press the _Add_ button. You can see this action has appeared in the list below.
 
-<!-- TODO: add explanation on how to create one input mapping, then tell user to repeat the steps for the others. -->
+Now, to link events to trigger this action click on the + button you can find at the end of the field _right_ (the one you have just created). Add one _Key_ for the right arrow and another one for the _D_ key. Finally, as we will be using movements for an analogue controller add a _Joy Axis_ to the right.
 
-<!-- TODO: remove the text below, crop the screenshot to only have the movement inputs, and only mention the relevant loading actions in the bonus section. -->
-
-The last three are related to how we change the scene to test all the different movements, we will show this at the end of the tutorial as a bonus knowledge pill.
-
-<!-- TODO: add joystick inputs. The use of `Input.get_action_strength()` in the whole tutorial gives you support for analog controls, it'd be nice to make use of them. You'll need to update the demo accordingly -->
+You can review the rest of the actions you have to specify in the following image.
 
 ![Screenshot of the input map window with the actions](images/input_map.png)
 
@@ -59,7 +55,7 @@ Remember the indices of the different sprites, as you will have to match them wi
 
 Let's start with the asteroids movement as it's the shortest and simplest.
 
-We want some kind of spaceship that rotates when we press `left` or `right`, moves forward when we press `up` and backward when we press `down`.
+We want some kind of spaceship that rotates when we press `rotate_left` or `rotate_right`, moves forward when we press `up` and backward when we press `down`.
 
 In this tutorial, notice how we use `Input.get_action_strength()` to calculate the player's input direction. This function gives us support for analog controllers, like joysticks, allowing the player to move more precisely than with the keyboard.
 
@@ -80,7 +76,7 @@ export var angular_speed := 5.0
 func _physics_process(delta):
 	# See how we're using Input.get_action_strength() to calculate the direction we rotate.
 	# The value will be in the [-1.0, 1.0] range.
-	var rotate_direction := Input.get_action_strength("right") - Input.get_action_strength("left")
+	var rotate_direction := Input.get_action_strength("rotate_right") - Input.get_action_strength("rotate_left")
 	rotation += rotate_direction * angular_speed * delta
 	# Below, we calculate the forward or backward move direction and directly multiply it to calculate a velocity.
 	# `transform.y` stores the node's local axes, allowing us to move it in the direction it's currently facing.
@@ -90,17 +86,11 @@ func _physics_process(delta):
 
 ## Top-down movement
 
-To implement a top-down movement in eight directions, replace your _PlayerTopDown_ node's script with the following code.
+To implement a top-down movement in eight directions, replace your _PlayerTopDown_ node's script with the following code. 
 
-Below, we introduce a function to update our character's sprite.
+Below, we introduce a function to update our character's sprite. We also normalize our direction vector. Doing this ensures it always has a length of `1.0` (or `0.0` if the player isn't pressing any movement key).
 
-We also normalize our direction vector. Doing this ensures it always has a length of `1.0` (or `0.0` if the player isn't pressing any movement key).
-
-Why? When you press both right and down, without normalizing the vector the direction calculation below would result in `Vector2(1, 1)`. Such a vector has a length of about `1.4` (it's the diagonal of a square of width `1.0`). But when you only press the right key, the vector would be `Vector2(1.0, 0.0)` and have a length of `1.0`.
-
-In that case, the character would end up moving 40% faster when going diagonally compared to moving left, right, up, or down.
-
-The `Vector2.normalized()` method prevents this issue.
+Why? When you press both right and down, without normalizing the vector the direction calculation below would result in `Vector2(1, 1)`. Such a vector has a length of about `1.4` (it's the diagonal of a square of width `1.0`). But when you only press the right key, the vector would be `Vector2(1.0, 0.0)` and have a length of `1.0`. In that case, the character would end up moving 40% faster when going diagonally compared to moving left, right, up, or down. The `Vector2.normalized()` method prevents this issue.
 
 ```gdscript
 extends KinematicBody2D
@@ -125,8 +115,13 @@ func _physics_process(_delta: float) -> void:
 		# DOWN in games.
 		# That is to say, a Y value of `1.0` points downward.
 		Input.get_action_strength("down") - Input.get_action_strength("up")
-	# And we normalize the vector, giving it a length of 1.0.
-	).normalized()
+	)
+	# When aiming the joystick diagonally, the direction vector can have a length 
+	# greater than 1.0, making the character move faster than our maximum expected
+	# speed. When that happens, we limit the vector's length to ensure the player 
+	# can't go beyond the maximum speed.
+	if direction.length() > 1.0:
+		direction = direction.normalized()
 	move_and_slide(speed * direction)
 
 
@@ -148,31 +143,32 @@ func _update_sprite(direction: Vector2) -> void:
 
 ## Smoother movement with steering behaviors
 
-There's a series of little movement algorithms for games called steering behaviors that game developers use a lot.
+There's a series of little movement algorithms for games called steering behaviors that game developers use a lot. You can use them to smooth out your characters' movements and give them a bit of inertia. 
 
-You can use them to smooth out your characters' movement and give them a bit of inertia.
+For this new movement, you need to add a new variable at the beginning of the previous script (`friction`) which will be controlling the inertia of the movement. You can play with this value to see how it affects your character movement. A greater value will make your character reacts more rapidly and lower values imply a higher time to reach the maximum speed or to stop the movement.
 
-. This way the character will move more smoothly smoothly to the target point:
+```gdscript
+# A factor that controls the character's inertia.
+export var friction = 0.18
+```
 
-<!-- TODO: the friction variable isn't defined here -->
+Change the previous `_physics_process` with this new method:
 
 ```gdscript
 func _physics_process(delta):
 	var direction := Vector2(
 		Input.get_action_strength("right") - Input.get_action_strength("left"),
 		Input.get_action_strength("down") - Input.get_action_strength("up")
-	).normalized()
+	)
+	if direction.length() > 1.0:
+		direction = direction.normalized()
 	# Using the follow steering behavior.
 	var target_velocity = direction * speed
 	_velocity += (target_velocity - _velocity) * friction
 	_velocity = move_and_slide(_velocity)
 ```
 
-You can use a steering behavior not only to smoothly arrive to a target point but also to accelerate and deccelerate gradually.
-
-These behaviors are commonly used for AI but also in arcade racing games, and much more.
-
-To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}).
+You can use a steering behavior not only to smoothly arrive to a target point but also to accelerate and decelerate gradually. These behaviors are commonly used for AI but also in arcade racing games, and much more. To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}).
 
 ## Bonus: loading different scenes with a keyboard shortcut
 
@@ -188,7 +184,7 @@ And finally, they have four particle emitters to generate little white squares y
 
 We have changed the background default color of the scene. You can do this in _Project -> Project Settings... -> Rendering -> Environment -> Default Clear Color_.
 
-![Scene of a test level](images/background_color.png)
+![Changing the default background color](images/background_color.png)
 
 And finally, the following script changes the scene depending on the number you pressed (1-3):
 
@@ -209,3 +205,4 @@ func _unhandled_input(event):
 		get_tree().change_scene(rotate_move_scene)
 ```
 
+Remember to add these three actions to the input maps of the project as we have seen before.
