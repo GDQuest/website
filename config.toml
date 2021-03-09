@@ -123,10 +123,6 @@ name        = "products"
 url         = "/product/"
 weight      = 3
 [[languages.en.menu.main]]
-name        = "News"
-url         = "/news/"
-weight      = 4
-[[languages.en.menu.main]]
 name        = "Docs"
 url         = "/docs/"
 weight      = 5
@@ -150,10 +146,6 @@ weight      = 2
 name        = "Productos"
 url         = "/product/"
 weight      = 3
-[[languages.es.menu.main]]
-name        = "Noticias"
-url         = "/news/"
-weight      = 4
 [[languages.es.menu.main]]
 name        = "Docs"
 url         = "/docs/"
@@ -179,10 +171,6 @@ name        = "Produits"
 url         = "/product/"
 weight      = 3
 [[languages.fr.menu.main]]
-name        = "News"
-url         = "/news/"
-weight      = 4
-[[languages.fr.menu.main]]
 name        = "Docs"
 url         = "/docs/"
 weight      = 5
@@ -206,10 +194,6 @@ weight      = 2
 name        = "プロダクト"
 url         = "/product/"
 weight      = 3
-[[languages.ja.menu.main]]
-name        = "ニュース"
-url         = "/news/"
-weight      = 4
 [[languages.ja.menu.main]]
 name        = "ドキュメント"
 url         = "/docs/"
