@@ -9,6 +9,7 @@ class SearchEngine {
   searchInput = null
   resultsField = null
   resultsTemplate = null
+  fuse = null
   searchQuery = ''
   summaryInclude = 60
   fuseOptions = {
@@ -57,6 +58,18 @@ class SearchEngine {
     summaryInclude,
   }) {
     this.searchInput = searchInput
+
+    // live search
+    this.searchInput.onkeyup = (e) => {
+      if (this.fuse === null) return
+      this.searchQuery = e.target.value
+      this.executeSearch(e.target.value)
+
+      var queryParams = new URLSearchParams(window.location.search)
+      queryParams.set('s', e.target.value)
+      history.replaceState(null, null, '?' + queryParams.toString())
+    }
+
     this.resultsField = resultsField
     this.resultsTemplate = resultsTemplate
     this.url = url
@@ -69,10 +82,24 @@ class SearchEngine {
     }
 
     this.searchQuery = this.constructor.param('s')
+    this.searchInput.value = this.searchQuery
 
-    if (this.searchQuery) {
-      this.searchInput.value = this.searchQuery
-      this.executeSearch(this.searchQuery)
+    this.fetchArticles()
+  }
+
+  /**
+   * Cache search index file
+   */
+  fetchArticles = () => {
+    const Http = new XMLHttpRequest()
+    Http.open('GET', this.url)
+    Http.send()
+
+    Http.onreadystatechange = (e) => {
+      this.fuse = new Fuse(JSON.parse(Http.response), this.fuseOptions)
+      if (this.searchQuery) {
+        this.executeSearch(this.searchQuery)
+      }
     }
   }
 
@@ -81,28 +108,20 @@ class SearchEngine {
    * @param {*} searchQuery
    */
   executeSearch = (searchQuery) => {
-    const Http = new XMLHttpRequest()
-    Http.open('GET', this.url)
-    Http.send()
-
-    Http.onreadystatechange = (e) => {
-      var pages = JSON.parse(Http.response)
-      var fuse = new Fuse(pages, this.fuseOptions)
-      var result = fuse.search(searchQuery)
-      if (result.length > 0) {
-        this.populateResults(result)
-        this.resultsField.querySelector('#no-result').style.display = 'none'
-      } else {
-        this.resultsField.querySelector('#no-result').style.display = ''
-      }
+    var result = this.fuse.search(searchQuery)
+    if (result.length > 0) {
+      this.resultsField.innerHTML = ''
+      this.populateResults(result)
+    } else {
+      this.resultsField.innerHTML = 'No matches found'
     }
   }
 
   populateResults = (result) => {
     result.forEach((value, key) => {
-      var contents = value.item.content
-      var snippet = ''
-      var snippetHighlights = []
+      let contents = value.item.content
+      let snippet = ''
+      let snippetHighlights = []
 
       if (this.fuseOptions.tokenize) {
         snippetHighlights.push(this.searchQuery)
@@ -140,9 +159,9 @@ class SearchEngine {
       }
 
       // pull template from hugo template definition
-      var templateDefinition = this.resultsTemplate.innerHTML
+      let templateDefinition = this.resultsTemplate.innerHTML
       // replace values
-      var output = this.render(templateDefinition, {
+      let output = this.render(templateDefinition, {
         key: key,
         title: value.item.title,
         link: value.item.uri,

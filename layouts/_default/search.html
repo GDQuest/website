@@ -4,9 +4,9 @@
     <form action="{{ "search" | absURL }}">
       <input id="search-query" name="s"/>
     </form>
-    <div id="search-results">
+    <div id="search-results-container">
      <h3>Matching pages</h3>
-
+      <div id="search-results"></div>
       <div id="no-result" style="display:none">
         <p>No matches found</p>
       </div>
