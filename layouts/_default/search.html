@@ -1,8 +1,8 @@
 {{ define "main" }}
 <section class="content-container padding-v-base">
     <div style="max-width: 700px; margin: auto;">
-        <form action="{{ "search" | absURL }}">
-            <input id="search-query" class="search-bar -fullwidth" name="s" autocomplete="off" />
+        <form action="{{ "search" | absURL }}" class="search-bar">
+            <input id="search-query" class="input -fullwidth" name="s" autocomplete="off" />
         </form>
         <div id="search-results-container">
             <h3>Search results</h3>

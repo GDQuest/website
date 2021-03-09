@@ -1,17 +1,48 @@
 .search-bar {
-  display: block;
-  margin: auto;
-  font-size: large;
-  border: 3px solid $color-link;
-  border-radius: 8px;
-  padding: 4px;
+  display: flex;
 
-  &.-fullwidth {
-    width: 100%;
-  }
-
-  &:focus {
+  > .input {
+    padding: $spacing-micro;
+    border: 3px solid $color-link;
+    border-radius: $round-radius;
     outline: none;
-    border-color: $color-link-hover;
+
+    &.-withbutton {
+      border-right: none;
+      border-radius: $round-radius 0 0 $round-radius;
+    }
+
+    &.-fullwidth {
+      width: 100%;
+    }
+
+    &.-center {
+      display: block;
+      margin: auto;
+    }
   }
+
+  > .icon {
+    width: 42px;
+    height: 48px;
+    border: 3px solid $color-link;
+    background: $color-link;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 $round-radius $round-radius 0;
+    cursor: pointer;
+
+    transition: 200ms all;
+
+    &:hover {
+      background: $color-link-hover;
+      border-color: $color-link-hover;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $color-link-hover;
+    }
+  }
+
 }
