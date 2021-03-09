@@ -3,9 +3,24 @@
 
   > .input {
     padding: $spacing-micro;
-    border: 3px solid $color-link;
+    border: 2px solid $color-accent-main-text;
     border-radius: $round-radius;
     outline: none;
+    color: $color-accent-main-text;
+    background: transparent;
+
+    &::placeholder {
+      color: transparentize($color-accent-main-text, 0.3) ;
+    }
+
+    &.-blue {
+      border-color: $color-link;
+      color: $color-default-text;
+
+      &::placeholder {
+        color: transparentize($color-default-text, 0.3);
+      }
+    }
 
     &.-withbutton {
       border-right: none;
@@ -24,19 +39,20 @@
 
   > .icon {
     width: 42px;
-    height: 48px;
-    border: 3px solid $color-link;
-    background: $color-link;
+    height: 40px;
+    border: 2px solid $color-accent-main-text;
+    background: $color-accent-main-text;
     text-align: center;
-    color: #fff;
+    color: $color-gdquest-purple;
     border-radius: 0 $round-radius $round-radius 0;
     cursor: pointer;
 
     transition: 200ms all;
 
     &:hover {
-      background: $color-link-hover;
-      border-color: $color-link-hover;
+      background: transparent;
+      color: $color-accent-main-text;
+      border-color: $color-accent-main-text;
     }
 
     &:focus {
@@ -44,5 +60,6 @@
       border-color: $color-link-hover;
     }
   }
-
 }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button { display: none; }
