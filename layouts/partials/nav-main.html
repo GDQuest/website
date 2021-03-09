@@ -29,8 +29,10 @@
         </a>
         {{ end }}
     </div>
+    <div class="links">
+        <div>
+            {{ partial "components/search-bar" }}
+        </div>
+    </div>
     {{ partial "components/language-dropdown" . }}
-    <a target="_blank" rel="noopener" href="{{ .Site.Params.shop_link.url }}" class="links -shop button-link">
-        {{ .Site.Params.shop_link.name }}
-    </a>
 </nav>
