@@ -1,0 +1,17 @@
+.search-bar {
+  display: block;
+  margin: auto;
+  font-size: large;
+  border: 3px solid $color-link;
+  border-radius: 8px;
+  padding: 4px;
+
+  &.-fullwidth {
+    width: 100%;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: $color-link-hover;
+  }
+}
