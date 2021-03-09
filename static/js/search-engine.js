@@ -12,7 +12,7 @@ class SearchEngine {
   fuse = null;
   searchQuery = "";
   summaryInclude = 60;
-  minQueryLength = 3;
+  minQueryLength = 2;
   fuseOptions = {
     shouldSort: true,
     includeMatches: true,
@@ -24,7 +24,9 @@ class SearchEngine {
     minMatchCharLength: 2,
     keys: [
       {name: "title", weight: 0.8},
-      {name: "tags", weight: 0.3},
+      {name: "keywords", weight: 0.3},
+      {name: "section", weight: 0.5},
+      {name: "category", weight: 0.5},
       {name: "description", weight: 0.3},
       {name: "content", weight: 0.5},
       {name: "uri", weight: 0.2},
