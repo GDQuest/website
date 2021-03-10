@@ -13,6 +13,7 @@ class SearchEngine {
   searchQuery = "";
   summaryInclude = 60;
   minQueryLength = 2;
+  maxResults = 20;
   fuseOptions = {
     shouldSort: true,
     includeMatches: true,
@@ -127,7 +128,7 @@ class SearchEngine {
 
   populateResults = (result) => {
     this.resultsField.innerHTML = "";
-    result.forEach((value, key) => {
+    result.slice(0, this.maxResults).forEach((value, key) => {
       let contents = value.item.content;
       let snippet = "";
       let snippetHighlights = [];

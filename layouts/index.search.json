@@ -1,6 +1,6 @@
 {{ $index := slice }}
 {{ range where .Site.Pages "Section" "tutorial" }}
-    {{ if ne .Content "" }}
+    {{ if ne .Type "course_chapter" }}
         {{ $section := index (split (index (split .RelPermalink "tutorial/") 1) "/") 0 }}
         {{ $category := index (split (index (split .RelPermalink (printf "%s/" $section)) 1) "/") 0 }}
         {{ $index = $index | append (dict
