@@ -25,11 +25,15 @@ You can find the full source code of the project [here](https://github.com/GDQue
 
 ## Input actions
 
-We use input actions to link a specific event (keystrokes, mouse or joystick interactions) with an action in our game. For instance, when we want our character to jump when we press the space key, the mouse right-click or the _x_ button of the joystick, we should link an action to these three events.
+We use input actions to link a specific event (keystrokes, mouse, or joystick interactions) with an action in our game.
+
+For instance, if we want our character to jump when we press the space key, right-click, or the gamepad's _X_ button, we should link an action to these three events.
 
 To create an action named _right_ open _Project -> Project Settings... -> Input Map_ write in the _Action_ field _right_ and press the _Add_ button. You can see this action has appeared in the list below.
 
-Now, to link events to trigger this action click on the + button you can find at the end of the field _right_ (the one you have just created). Add one _Key_ for the right arrow and another one for the _D_ key. Finally, as we will be using movements for an analogue controller add a _Joy Axis_ to the right.
+Now, to link events to trigger this action, click on the + button you can find at the end of the field _right_ (the one you have just created). Add one _Key_ for the right arrow and another one for the _D_ key.
+
+Finally, as we want to support analog movement (joysticks), add a _Joy Axis_ to the right.
 
 You can review the rest of the actions you have to specify in the following image.
 
@@ -43,19 +47,19 @@ We create a scene with a _KinematicBody2D_ named _PlayerTopDown_ as the root and
 
 ![Player Scene](images/player_nodes.png)
 
-In the _Inspector_, add a _New SpriteFrames_ in the `Frames` property of the _AnimatedSprite_ with all the textures of your character. 
+In the _Inspector_, add a _New SpriteFrames_ in the `Frames` property of the _AnimatedSprite_ with all your character's textures. 
 
 ![New SpriteFrames](images/animated_sprite_1.png)
 
-Remember the indices of the different sprites, as you will have to match them with the directions in the code.
+Remember the different sprites' indices, as you will have to match them with the directions in the code.
 
 ![Textures of the AnimatedSprite](images/animated_sprite_2.png)
 
 ## Moving like a ship in space, as in Asteroids
 
-Let's start with the asteroids movement as it's the shortest and simplest.
+Let's start with the asteroids' movement as it's the shortest and simplest.
 
-We want some kind of spaceship that rotates when we press `rotate_left` or `rotate_right`, moves forward when we press `up` and backward when we press `down`.
+We want some spaceship that rotates when we press `rotate_left` or `rotate_right`, moves forward when we press `up`, and backward when we press `down`.
 
 In this tutorial, notice how we use `Input.get_action_strength()` to calculate the player's input direction. This function gives us support for analog controllers, like joysticks, allowing the player to move more precisely than with the keyboard.
 
@@ -90,7 +94,7 @@ To implement a top-down movement in eight directions, replace your _PlayerTopDow
 
 Below, we introduce a function to update our character's sprite. We also normalize our direction vector. Doing this ensures it always has a length of `1.0` (or `0.0` if the player isn't pressing any movement key).
 
-Why? When you press both right and down, without normalizing the vector the direction calculation below would result in `Vector2(1, 1)`. Such a vector has a length of about `1.4` (it's the diagonal of a square of width `1.0`). But when you only press the right key, the vector would be `Vector2(1.0, 0.0)` and have a length of `1.0`. In that case, the character would end up moving 40% faster when going diagonally compared to moving left, right, up, or down. The `Vector2.normalized()` method prevents this issue.
+Why? When you press both right and down without normalizing the vector, the direction calculation below will result in `Vector2(1, 1)`. Such a vector has a length of about `1.4` (it's the diagonal of a square of width `1.0`). But when you only press the right key, the vector would be `Vector2(1.0, 0.0)` and have a length of `1.0`. In that case, the character would end up moving 40% faster when going diagonally compared to moving left, right, up, or down. The `Vector2.normalized()` method prevents this issue.
 
 ```gdscript
 extends KinematicBody2D
@@ -111,7 +115,7 @@ func _physics_process(_delta: float) -> void:
 	var direction := Vector2(
 		# This first line calculates the X direction, the vector's first component.
 		Input.get_action_strength("right") - Input.get_action_strength("left"),
-		# And here, we calculate the Y direction. Note that the Y axis points 
+		# And here, we calculate the Y direction. Note that the Y-axis points 
 		# DOWN in games.
 		# That is to say, a Y value of `1.0` points downward.
 		Input.get_action_strength("down") - Input.get_action_strength("up")
@@ -145,7 +149,9 @@ func _update_sprite(direction: Vector2) -> void:
 
 There's a series of little movement algorithms for games called steering behaviors that game developers use a lot. You can use them to smooth out your characters' movements and give them a bit of inertia. 
 
-For this new movement, you need to add a new variable at the beginning of the previous script (`friction`) which will be controlling the inertia of the movement. You can play with this value to see how it affects your character movement. A greater value will make your character reacts more rapidly and lower values imply a higher time to reach the maximum speed or to stop the movement.
+For this new movement, you need to add a new variable at the beginning of the previous script (`friction`), which will be controlling the inertia of the movement. You can play with this value to see how it affects your character movement.
+
+A greater value will make your character react more rapidly. Lower values imply a higher time to reach the maximum speed or stop the movement.
 
 ```gdscript
 # A factor that controls the character's inertia.
@@ -168,13 +174,19 @@ func _physics_process(delta):
 	_velocity = move_and_slide(_velocity)
 ```
 
-You can use a steering behavior not only to smoothly arrive to a target point but also to accelerate and decelerate gradually. These behaviors are commonly used for AI but also in arcade racing games, and much more. To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}).
+You can use a steering behavior to arrive at a target point smoothly and accelerate and decelerate gradually.
+
+These behaviors are commonly used for AI but also in arcade racing games and much more.
+
+To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}).
 
 ## Bonus: loading different scenes with a keyboard shortcut
 
 In the open-source demo we prepared for you, you can load different mini-game scenes by pressing <kbd>1</kbd>, <kbd>2</kbd>, or <kbd>3</kbd> on your keyboard. Here's how we achieved that, as a bonus.
 
-There are three scenes to test all the movements with a similar structure but changing the player node. These scenes are composed of an instantiated scene (_Level1_) with some obstacles, a _Sprite_ for the level background and a _StaticBody2D_ to set the limits of the level. They have another instantiated scene (_SceneIndicator_) to show a title with the name of the movement we are testing.
+There are three scenes to test all the movements with a similar structure but changing the player node. These scenes are composed of an instantiated scene (_Level1_) with some obstacles, a _Sprite_ for the level background, and a _StaticBody2D_ to set the limits of the level.
+
+They have another instantiated scene (_SceneIndicator_) to show a title with the name of the movement we are testing.
 
 ![Scene structure for testing the movements](images/general_scene_nodes.png)
 
@@ -205,4 +217,4 @@ func _unhandled_input(event):
 		get_tree().change_scene(rotate_move_scene)
 ```
 
-Remember to add these three actions to the input maps of the project as we have seen before.
+Remember to add these three actions to the project's input maps, as we have seen before.
