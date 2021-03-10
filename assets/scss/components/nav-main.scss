@@ -13,6 +13,7 @@
 
   > .logo {
     margin-right: $spacing-base;
+    filter: drop-shadow($shadow-tiny);
 
     > * {
       max-height: 2.8rem;

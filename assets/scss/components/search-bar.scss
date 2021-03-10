@@ -8,6 +8,7 @@
     outline: none;
     color: $color-accent-main-text;
     background: transparent;
+    filter: drop-shadow($shadow-tiny);
 
     &::placeholder {
       color: transparentize($color-accent-main-text, 0.3) ;
@@ -16,6 +17,7 @@
     &.-blue {
       border-color: $color-link;
       color: $color-default-text;
+      filter: none;
 
       &::placeholder {
         color: transparentize($color-default-text, 0.3);
