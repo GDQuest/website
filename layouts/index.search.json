@@ -1,15 +1,17 @@
 {{ $index := slice }}
 {{ range where .Site.Pages "Section" "tutorial" }}
-{{ $section := index (split (index (split .RelPermalink "tutorial/") 1) "/") 0 }}
-{{ $category := index (split (index (split .RelPermalink (printf "%s/" $section)) 1) "/") 0 }}
-{{ $index = $index | append (dict
-                             "uri" .Permalink
-                             "title" .Title
-                             "description" .Description
-                             "content" .Summary
-                             "keywords" .Keywords
-                             "category" $category
-                             "section" $section) }}
+    {{ if ne .Content "" }}
+        {{ $section := index (split (index (split .RelPermalink "tutorial/") 1) "/") 0 }}
+        {{ $category := index (split (index (split .RelPermalink (printf "%s/" $section)) 1) "/") 0 }}
+        {{ $index = $index | append (dict
+                                    "uri" .Permalink
+                                    "title" .Title
+                                    "description" .Description
+                                    "content" .Summary
+                                    "keywords" .Keywords
+                                    "category" $category
+                                    "section" $section) }}
+    {{ end }}
 {{ end }}
 {{ $index | jsonify }}
 
