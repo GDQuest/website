@@ -14,7 +14,7 @@ keywords = ["getting started with godot", "godot getting started", "learn godot"
 type = "course"
 
 [[resources]]
-src = "banner.png"
+src = "get-started-with-godot-banner.png"
 name = "banner"
 
 playlistId = "PLhqJJNjsQ7KEcm-iYJ2a8UCRN62bTneKa"
