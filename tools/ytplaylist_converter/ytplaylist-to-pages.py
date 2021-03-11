@@ -5,6 +5,7 @@
 # Google Privacy Policy: https://policies.google.com/privacy#enforcement
 import argparse
 import os
+import sys
 from itertools import chain, groupby
 
 import config
@@ -12,7 +13,9 @@ import pyyoutube
 import utils
 
 
-def generate_parser():
+def parse_command_line_arguments() -> argparse.Namespace:
+    """Parses command-line arguments using argparse and returns them as a Namespace
+object."""
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "playlist",
@@ -32,8 +35,9 @@ def generate_parser():
         type=str,
         nargs="+",
         help=(
-            "Folder structure in which a playlist series should be placed"
-            " i.e. '--folders game-design godot' will result in 'game-design/godot/TITLE'"
+            "Folder structure in which a playlist series should be placed" "
+            i.e. '--folders game-design godot' will result in
+            'game-design/godot/TITLE'"
         ),
     )
     parser.add_argument(
@@ -52,22 +56,25 @@ def generate_parser():
             " will be used as the series' description."
         ),
     )
-    return parser
 
-
-def main():
-    parser = generate_parser()
     args = parser.parse_args()
     if args.path is not None and args.folders is None:
         parser.error(
             "When using --path, you should specify a folder structure"
             " using --folders. Use -h for help"
         )
+        sys.exit(1)
     elif args.folders is not None and len(args.playlist) != 1:
         parser.error(
             "When using --folders, multiple playlists aren't allowed."
             " Use -h for help"
         )
+        sys.exit(1)
+    return args
+
+
+def main():
+    args = parse_command_line_arguments()
 
     api = pyyoutube.Api(api_key=config.YT_API_KEY)
     playlists = api.get_playlist_by_id(
@@ -109,24 +116,21 @@ def main():
         ]
         videos = chain.from_iterable(videos)
 
-        snippet_frontmatter = [
-            (
-                snippet,
-                config.FRONTMATTER["video"].format(
+        snippet_frontmatter = []
+        for snippet, video in zip(snippets, videos):
+            index = snippet.position + 1
+            frontmatter = config.FRONTMATTER["video"].format(
                     date=snippet.publishedAt,
                     title=snippet.title,
                     description=snippet.description.split('\n', 1)[0],
-                    weight=snippet.position,
+                    # Add 1 so the weight starts at 1, not 0.
+                    weight=index,
                     video_id=snippet.resourceId.videoId,
                     video_duration=video.contentDetails.get_video_seconds_duration(),
-                ),
-            )
-            for snippet, video in zip(snippets, videos)
-        ]
-        for snippet, frontmatter in snippet_frontmatter:
+                )
             path = os.path.join(
                 path_chapter,
-                "{}_{}.md".format(snippet.position, utils.sanitize_title(snippet.title)),
+                "{}_{}.md".format(index, utils.sanitize_title(snippet.title)),
             )
             with open(path, "w",) as f:
                 f.write(frontmatter)
