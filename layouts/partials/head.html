@@ -1,44 +1,25 @@
 <head>
     <title>{{ .Title }}{{ if ne .Title "" }} &middot; {{ end }}{{ .Site.Title }}</title>
-    {{ with .OutputFormats.Get "rss" -}}
+    {{ with .OutputFormats.Get "rss" }}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{ end }}
     <link rel="canonical" href="{{ .Permalink }}" />
     {{ partialCached "favicon" . }}
     <!-- title font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800&display=swap" rel="stylesheet">
     <!-- font-awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!--     GDQuest stylesheet
+    -->
     {{ $stylesheet := resources.Get "scss/gdquest.scss" | resources.ToCSS | minify | fingerprint }}
-    <script>
-        // Use lazy loading for autoplaying videos.
-        // This is not required for Chrome as it performs lazy loading for such videos
-        // automatically, but other browsers like Firefox don't do this yet.
-        document.addEventListener("DOMContentLoaded", function() {
-            const lazyVideos = [].slice.call(document.querySelectorAll("video[data-lazy]"));
-            if ("IntersectionObserver" in window) {
-                const lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
-                    entries.forEach(function(video) {
-                        if (video.isIntersecting) {
-                            for (let source in video.target.children) {
-                                const videoSource = video.target.children[source];
-                                if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
-                                    videoSource.src = videoSource.dataset.src;
-                                }
-                            }
-
-                            video.target.load();
-                            lazyVideoObserver.unobserve(video.target);
-                        }
-                    });
-                });
-
-                lazyVideos.forEach(function(lazyVideo) {
-                    lazyVideoObserver.observe(lazyVideo);
-                });
-            }
-        });
-    </script>
+    <!--     Build main javascript.
+    -->
+    {{ $lazyVideo := resources.Get "js/lazy-load-videos.js" }}
+    {{ $lazyVideoYoutube := resources.Get "js/lazy-load-videos-youtube.js" }}
+    {{ $nav := resources.Get "js/navigation-controls.js" }}
+    {{ $js := slice $nav $lazyVideo $lazyVideoYoutube | resources.Concat "js/main.js" | resources.Minify }}
+    <script src="{{ $js.RelPermalink }}"></script>
 
     <!-- Analytics. -->
     <script async defer data-domain="gdquest.com" src="https://plausible.io/js/plausible.js"></script>
