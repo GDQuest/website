@@ -65,14 +65,8 @@
                         <a href="{{ .Permalink }}" class="-tutorial {{ if eq $currentPage . }}-active{{end}}">
                             {{ with .Params.menuTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
                         </a>
-                        {{ if (eq .Type "video") }}
-                        <span class="tag-pill -purple">video</span>
-                        {{ else }}
-                            {{ if (eq .Type "course") }}
-                            <span class="tag-pill -yellow">series</span>
-                            {{ else }}
-                            <span class="tag-pill">text</span>
-                            {{ end }}
+                        {{ with partialCached "functions/get-tutorial-pill-data" . . }}
+                        <span class="tag-pill {{ .class }}">{{ .type }}</span>
                         {{ end }}
                     </div>
                 </li>

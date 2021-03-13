@@ -1,0 +1,11 @@
+<!-- Returns a dict with the form { type: String, class: String } to use to create a tag-pill for the tutorial with a different color and label based on the content's type. -->
+
+{{ $data := dict "type" "text" "class" "" }}
+{{ if (eq .Type "video") }}
+{{ $data = dict "type" "video" "class" "-purple" }}
+{{ else }}
+    {{ if (eq .Type "course") }}
+    {{ $data = dict "type" "series" "class" "-yellow" }}
+    {{ end }}
+{{ end }}
+{{ return $data }}

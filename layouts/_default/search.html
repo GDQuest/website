@@ -18,9 +18,10 @@
 <script id="search-result-template" type="text/x-js-template">
  <div id="summary-${key}">
  <h4><a href="${link}">${title}</a></h4>
+${ isset category }<span class="tag-pill">${category}</span>${ end }
+<span class="tag-pill ${pillClass}">${type}</span>
+${ isset difficulty }<span class="tag-pill -green">${difficulty}</span>${ end }
  <p>${snippet}</p>
- ${ isset tags }<p>Tags: ${tags}</p>${ end }
- ${ isset categories }<p>Categories: ${categories}</p>${ end }
  </div>
 </script>
 

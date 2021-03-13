@@ -176,14 +176,18 @@ class SearchEngine {
         title: value.item.title,
         link: value.item.uri,
         snippet: snippet,
+        category: value.item.category,
+        difficulty: value.item.difficulty,
+        type: value.item.type,
+        pillClass: value.item.pillClass,
       });
       this.resultsField.innerHTML += output;
 
       snippetHighlights.forEach((keyword) => {
-        let markInstance = new Mark(document.querySelector(`#summary-${key}`));
-        markInstance.unmark({
+        let markTitleInstance = new Mark(document.querySelector(`#summary-${key}`));
+        markTitleInstance.unmark({
           done: function () {
-            markInstance.mark(keyword, {});
+            markTitleInstance.mark(keyword, {exclude: ["span"]});
           },
         });
       });

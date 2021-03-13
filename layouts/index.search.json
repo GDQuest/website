@@ -1,15 +1,23 @@
 {{ $index := slice }}
 {{ range where .Site.Pages "Section" "tutorial" }}
     {{ if ne .Type "course_chapter" }}
+
+        {{ $tutorialData := dict }}
+        {{ with partialCached "functions/get-tutorial-pill-data" . . }}
+        {{ $tutorialData = . }}
+        {{ end }}
+
         {{ $section := index (split (index (split .RelPermalink "tutorial/") 1) "/") 0 }}
         {{ $category := index (split (index (split .RelPermalink (printf "%s/" $section)) 1) "/") 0 }}
         {{ $index = $index | append (dict
                                     "uri" .Permalink
                                     "title" .Title
-                                    "description" .Description
-                                    "content" .Summary
+                                    "content" .Description
                                     "keywords" .Keywords
                                     "category" $category
+                                    "difficulty" .Params.difficulty
+                                    "type" $tutorialData.type
+                                    "pillClass" $tutorialData.class
                                     "section" $section) }}
     {{ end }}
 {{ end }}
