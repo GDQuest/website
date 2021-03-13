@@ -20,17 +20,24 @@ isPlainText = true
 [outputs]
 home = [ "HTML", "RSS", "SEARCH" ]
 
+[[module.mounts]]
+source = "static/js"
+target = "assets/js"
+
+# Required for the virtual file system to build css
+[[module.mounts]]
+source = "assets/scss"
+target = "assets/scss"
+
 # Shortcuts in the docs section
 [[menu.shortcuts]]
 name = "<i class='fas fa-level-up-alt'></i>&nbsp;Back to GDQuest.com"
 url = "//"
 weight = 1
 
-
 [author]
 name = "Nathan Lovato"
 email = "nathan@gdquest.com"
-
 
 # Site parameters
 [params]

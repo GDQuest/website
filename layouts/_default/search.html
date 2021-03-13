@@ -25,9 +25,11 @@ ${ isset difficulty }<span class="tag-pill -green">${difficulty}</span>${ end }
  </div>
 </script>
 
-<script src="{{ "js/mark.min.js" | relURL }}"></script>
-<script src="{{ "js/fuse.js@6.4.6" | relURL }}"></script>
-<script src="{{ "js/search-engine.js" | relURL }}"></script>
+{{ $mark := resources.Get "js/mark.min.js" }}
+{{ $fuse := resources.Get "js/fuse.min.js" }}
+{{ $searchEngine := resources.Get "js/search-engine.js" }}
+{{ $js := slice $mark $fuse $searchEngine | resources.Concat "js/search.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
 <script type="text/javascript">
  window.addEventListener("DOMContentLoaded", (event) => {
      var search = new SearchEngine({
