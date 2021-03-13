@@ -6,5 +6,5 @@ title = "Custom Camera 3: Simplifying the code"
 type = "video"
 videoid = "AQXjid5jemI"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter1/5_custom_camera_in_godot_2_let's_simplify_the_code!",]
-
+weight = 6
 +++

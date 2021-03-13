@@ -6,5 +6,5 @@ title = "Tool: Top-Down Tileset Template"
 type = "video"
 videoid = "09QrdSEGtwI"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter1/8__topdown_tileset_template_",]
-
+weight = 9
 +++

@@ -1,4 +1,5 @@
 +++
+weight = 6
 author = "nathan"
 date = "2017-06-10T14:59:07.000Z"
 description = "Learn how to use the vector dot product to detect if an enemy is within the player’s cone of vision or FOV."

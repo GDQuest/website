@@ -6,5 +6,5 @@ title = "Intro to tilesets in the Godot Engine"
 type = "video"
 videoid = "OhlMUvpmWuA"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter1/4_introduction_to_tilesets_in_the_godot_engine",]
-
+weight = 5
 +++

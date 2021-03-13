@@ -6,5 +6,5 @@ title = "Intro to the Animation Tools"
 type = "video"
 videoid = "d9t3CdMks7M"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter1/7_intro_to_the_animation_tools_in_the_godot_game_engine",]
-
+weight = 8
 +++

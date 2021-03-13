@@ -1,5 +1,6 @@
 +++
-aliases = ["/post/2016/krita/recommended-graphic-tablets/"]
+aliases = ["/post/2016/krita/recommended-graphic-tablets/", "/post/recommended-graphic-tablets/"]
+
 author = "nathan"
 category = ["Hardware"]
 date = "2016-03-23T10:08:53+01:00"

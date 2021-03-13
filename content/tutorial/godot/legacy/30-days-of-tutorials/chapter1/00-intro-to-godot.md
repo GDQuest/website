@@ -6,5 +6,6 @@ title = "Intro to the Godot game engine"
 type = "video"
 videoid = "eHtIcbrii2Y"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter1/0_intro_to_the_godot_game_engine",]
+weight = 1
 
 +++

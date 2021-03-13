@@ -1,4 +1,5 @@
 +++
+weight = 1
 author = "nathan"
 date = "2017-06-20T08:16:23.000Z"
 description = "Learn how to use the powerful Signals in Godot, and what signals and the observer pattern are."

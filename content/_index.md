@@ -14,5 +14,6 @@ aliases = [
    "/tutorial/darktable/video/chapter/",
    "/tutorial/darktable/video/chapter/00-darktable-review",
    "/tutorial/darktable/video/chapter/01-get-started-with-darkroom",
+   "/freebies"
 ]
 +++

@@ -6,5 +6,5 @@ title = "Intro to Vectors for Game Creators"
 type = "video"
 videoid = "ZoMmiQes_lE"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter2/14_introduction_to_vectors_for_game_creators_",]
-
+weight = 6
 +++

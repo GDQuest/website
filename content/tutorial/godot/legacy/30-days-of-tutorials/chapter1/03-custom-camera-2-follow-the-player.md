@@ -6,5 +6,5 @@ title = "Custom Camera 2: Follow the Player"
 type = "video"
 videoid = "FkxZECaD5To"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter1/3_custom_camera_in_godot_part_2_follow_the_player",]
-
+weight = 4
 +++

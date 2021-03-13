@@ -6,5 +6,5 @@ title = "Making the Player Move: Grid-based Movement 4/4"
 type = "video"
 videoid = "A7xcmDeIoLY"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter2/13_make_the_player_move_on_a_grid_in_godot_gridbased_movement_44",]
-
+weight = 5
 +++

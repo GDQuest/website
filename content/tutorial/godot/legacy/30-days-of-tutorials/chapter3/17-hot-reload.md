@@ -1,4 +1,5 @@
 +++
+weight = 2
 author = "nathan"
 date = "2017-06-06T15:59:07.000Z"
 description = "Learn how to update the game preview in realtime when you edit a script or a level in Godot!"

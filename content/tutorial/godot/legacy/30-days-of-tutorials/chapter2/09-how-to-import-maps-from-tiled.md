@@ -6,5 +6,5 @@ title = "How to Import Maps from Tiled"
 type = "video"
 videoid = "jFq4Eve_Db8"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter2/9_how_to_import_maps_from_tiled_in_godot",]
-
+weight = 1
 +++

@@ -6,5 +6,5 @@ title = "Shortcuts to Code Faster in the GDscript Editor"
 type = "video"
 videoid = "rMx35lyXCpk"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter2/15_shortcuts_to_code_faster_in_the_gdscript_editor_",]
-
+weight = 7
 +++

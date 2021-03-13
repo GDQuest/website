@@ -6,5 +6,5 @@ title = "Grid-based movement 1/4"
 type = "video"
 videoid = "BWBD3i00AfM"
 aliases = [ "/tutorial/game-design/godot/30-days-free-game-creation-tutorial/chapter2/10_simple_topdown_character_movement_in_godot_gridbased_movement_14",]
-
+weight = 2
 +++
