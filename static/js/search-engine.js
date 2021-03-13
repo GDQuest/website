@@ -26,8 +26,8 @@ class SearchEngine {
     keys: [
       {name: "title", weight: 0.8},
       {name: "keywords", weight: 0.3},
-      {name: "section", weight: 0.5},
       {name: "category", weight: 0.5},
+      {name: "type", weight: 0.6},
       {name: "description", weight: 0.3},
       {name: "content", weight: 0.5},
       {name: "uri", weight: 0.2},

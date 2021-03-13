@@ -1,14 +1,14 @@
 {{ $index := slice }}
 {{ range where .Site.Pages "Section" "tutorial" }}
     {{ if ne .Type "course_chapter" }}
+        {{ $section := index (split (index (split .RelPermalink "tutorial/") 1) "/") 0 }}
+        {{ $category := index (split (index (split .RelPermalink (printf "%s/" $section)) 1) "/") 0 }}
 
         {{ $tutorialData := dict }}
         {{ with partialCached "functions/get-tutorial-pill-data" . . }}
         {{ $tutorialData = . }}
         {{ end }}
 
-        {{ $section := index (split (index (split .RelPermalink "tutorial/") 1) "/") 0 }}
-        {{ $category := index (split (index (split .RelPermalink (printf "%s/" $section)) 1) "/") 0 }}
         {{ $index = $index | append (dict
                                     "uri" .Permalink
                                     "title" .Title
@@ -17,8 +17,7 @@
                                     "category" $category
                                     "difficulty" .Params.difficulty
                                     "type" $tutorialData.type
-                                    "pillClass" $tutorialData.class
-                                    "section" $section) }}
+                                    "pillClass" $tutorialData.class) }}
     {{ end }}
 {{ end }}
 {{ $index | jsonify }}
