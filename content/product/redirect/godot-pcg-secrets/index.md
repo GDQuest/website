@@ -4,7 +4,7 @@ description = "Create procedural worlds and gameplay with Godot."
 author = "nathan"
 
 date = 2020-09-10
-price = "30$"
+price = "40$"
 
 type = "redirect"
 redirect = "//gdquest.mavenseed.com/courses/godot-pcg-secrets"
