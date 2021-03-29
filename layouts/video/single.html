@@ -56,13 +56,12 @@
             {{ partial "components/next-and-previous" . }}
         </div>
 
-        {{ partial "welcomments/comments" (dict "context" . "websiteId" "JkcjXa5tVOPkFEPsZfhQ" ) }}
-        <div class="flex flex-horizontal">
-            <div class="margin-top-base">
-                {{ partial "components/authors" . }}
-            </div>
-            {{ partial "improve-this-page.html" . }}
+        <div class="margin-top-base">
+            {{ partial "components/authors" . }}
         </div>
+
+        {{ partial "welcomments/comments" (dict "context" . "websiteId" "JkcjXa5tVOPkFEPsZfhQ" ) }}
+        {{ partial "improve-this-page.html" . }}
     </article>
 </div>
 
