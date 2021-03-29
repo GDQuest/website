@@ -29,6 +29,10 @@ target = "assets/js"
 source = "assets/scss"
 target = "assets/scss"
 
+[[module.mounts]]
+source = "static/img"
+target = "assets/img"
+
 # Shortcuts in the docs section
 [[menu.shortcuts]]
 name = "<i class='fas fa-level-up-alt'></i>&nbsp;Back to GDQuest.com"
@@ -102,6 +106,7 @@ privacyEnhanced = true
 dir = ":cacheDir/modules"
 maxAge = -1
 
+
 [markup]
 defaultMarkdownHandler = "goldmark"
 
@@ -110,6 +115,7 @@ defaultMarkdownHandler = "goldmark"
 unsafe = true
 
 [module]
+
 [[module.imports]]
 path = "github.com/gohugoio/hugo-mod-jslibs/instantpage"
 

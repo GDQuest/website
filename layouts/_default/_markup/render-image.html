@@ -1,1 +1,16 @@
-<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+{{ $path := .Destination | safeURL }}
+{{ $alt := .Text }}
+{{ $resource := .Page.Resources.GetMatch .Destination }}
+
+{{ with $resource }}
+     {{ if and (eq .ResourceType "image") (ne .MediaType.SubType "svg") }}
+     <img src="{{ .Permalink | safeURL }}"
+          alt="{{ $alt }}"
+          {{ with .Title}}title="{{ . }}"{{ end }}
+          {{ with .Width }}width="{{ . }}"{{ end }}
+          {{ with .Height }}height="{{ . }}"{{ end }}
+     />
+     {{ else }}
+     <img src="$path" alt="$alt" />
+     {{ end }}
+{{ end }}
