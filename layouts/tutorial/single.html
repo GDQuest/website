@@ -19,17 +19,20 @@
             {{ partial "table-of-contents" . }}
             {{ .Content }}
             {{ partial "components/next-and-previous" . }}
-            <div class="flex flex-horizontal">
-                <div class="margin-top-base">
-                    {{ partial "components/authors" . }}
-                </div>
-                {{ partial "improve-this-page.html" . }}
+
+            <div class="margin-top-base">
+                {{ partial "components/authors" . }}
             </div>
+
         </article>
 
         {{ partial "components/related-products" . }}
         {{ partial "components/related-pages" . }}
+
+        {{ partial "welcomments/comments" (dict "context" . "websiteId" "JkcjXa5tVOPkFEPsZfhQ" ) }}
+        {{ partial "improve-this-page.html" . }}
     </section>
+
 </div>
 
 {{ end }}

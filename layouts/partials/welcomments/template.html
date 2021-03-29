@@ -1,0 +1,33 @@
+<article
+    id="{{ .elementId }}"
+    class="{{ .elementClassName }}"
+    data-comment-id="{{ .id }}"
+    data-author-name="{{ .authorName }}"
+    data-nesting-level="{{ .nestingLevel }}"
+    itemprop="comment" itemscope itemtype="https://schema.org/Comment">
+
+    <div class="comment-header">
+        <div class="avatar">
+            <img {{ printf "src=\"%s\"" .avatarUrl | safeHTMLAttr }} alt="{{ .authorName }}"/>
+        </div>
+        <div class="author">
+            <h4 itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <span itemprop="name">{{ .authorName }}</span>
+            </h4>
+            <p>
+                <a {{ printf "href=\"#welcomments__comment-%s\"" .id | safeHTMLAttr }} itemprop="url">
+                    <time datetime="{{ .dateXmlSchema }}" itemprop="datePublished">
+                        {{ .formattedDate }}
+                    </time>
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div itemprop="text">{{ .message }}</div>
+
+    <a class="button-link"
+       {{ printf "href=\"%s/websites/%s/comments/%s/reply\"" .apiUrl .websiteId .id | safeHTMLAttr }}>
+        Reply to {{ .authorName }}
+    </a>
+</article>
