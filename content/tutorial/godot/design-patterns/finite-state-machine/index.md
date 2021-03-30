@@ -5,7 +5,7 @@ description = "The State pattern is an essential one for game developers. In thi
 author = "nathan"
 
 date = 2021-01-28T13:33:37-06:00
-weight = 5
+weight = 2
 
 difficulty = "intermediate"
 keywords = ["godot tutorial", "finite state machine", "godot fsm", "godot tutorial", "godot state pattern", "godot programming patterns", "godot design patterns"]

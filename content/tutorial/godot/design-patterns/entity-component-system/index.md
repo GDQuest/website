@@ -6,7 +6,7 @@ author = "razoric"
 coAuthors = ["nathan"]
 
 date = 2021-03-04
-weight = 5
+weight = 2
 
 difficulty = "intermediate"
 keywords = ["godot tutorial", "entity component system", "godot ecs", "godot programming patterns", "godot design patterns"]

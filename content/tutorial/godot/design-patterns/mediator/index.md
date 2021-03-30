@@ -2,7 +2,7 @@
 title = "The mediator pattern"
 menuTitle = "Mediator"
 description = ""
-author = "nathan"
+author = "razoric"
 
 date = 2021-03-30
 weight = 5
