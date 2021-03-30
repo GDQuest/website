@@ -47,11 +47,10 @@
         {{ end }}
         <li>
             <div class="menu-link -section" style="justify-content: start" onclick="navTutorialToggleSection(this)">
-                {{ with .Params.icon }}
+
                 <svg class="tut-menu-icon">
-                    <use xlink:href="/img/icons/menu-icons.svg#{{ . }}" />
+                    <use xlink:href="/img/icons/menu-icons.svg#{{ with .Params.icon }}{{ . }}{{ end }}" />
                 </svg>
-                {{ end }}
                 <a href="javascript:void(0)" class="section {{ if $isActiveSection }}-active{{ end }}">{{ .Title }}</a>
             </div>
 
