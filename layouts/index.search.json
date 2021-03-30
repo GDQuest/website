@@ -14,7 +14,7 @@
                                     "title" .Title
                                     "content" .Description
                                     "keywords" .Keywords
-                                    "category" $category
+                                    "category" (replace $category "-" " ")
                                     "difficulty" .Params.difficulty
                                     "type" $tutorialData.type
                                     "pillClass" $tutorialData.class) }}
