@@ -9,13 +9,16 @@
     {{ $allComments = index .context.Site.Data.welcomments $slug }}
   {{ end }}
 
-    <h3 id="welcomments__comment-count-title">
-        {{ if gt $allComments 0 }}
-        {{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }}
-        {{ else }}
-        No comments yet!
-        {{ end }}
-    </h3>
+  {{ if gt $allComments 0 }}
+  <h3 id="welcomments__comment-count-title">
+    {{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }}
+  </h3>
+  {{ else }}
+  <h3 id="welcomments__comment-count-title">
+    No questions yet
+  </h3>
+  <p>Got a question or feedback regarding this guide?<br/>Please use the form below.</p>
+  {{ end }}
 
   <section id="welcomments__comment-container">
     {{ range $allComments }}
