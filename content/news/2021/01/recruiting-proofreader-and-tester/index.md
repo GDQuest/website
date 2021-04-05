@@ -13,7 +13,13 @@ name = "banner"
 src = "proofreader-job-posting-banner.jpg"
 +++
 
-**You know GDQuest and would like to help more people learn Godot and game development? Read on!**
+**We're not taking applications for this job anymore.**
+
+**Thank you for your time and interest.**
+
+## Original job posting
+
+You know GDQuest and would like to help more people learn Godot and game development? Read on!
 
 I'm looking for someone to edit our tutorials and other writings like newsletters, as well as someone who could test our tutorials before releasing them.
 
@@ -98,19 +104,19 @@ This is a remote and freelance job, paid per project.
 
 ## How to apply
 
-Send me an email at nathan [at] gdquest [dot] com with the subject line:
+**As mentioned at the start of the page, we're not taking applications for this position anymore.**
 
-> _Editor and tester positions: YOUR\_NAME_
+<!-- > _Editor and tester positions: YOUR\_NAME_ -->
 
-**Include the following information:**
+<!-- **Include the following information:** -->
 
-1. The position(s) you're applying for: proofreader, course tester, or both.
-1. The experience you have that relates to the position(s).
-1. A portfolio, website, or projects you've worked on that show that experience and required skills for the job.
-1. Why you'd like to work with GDQuest.
+<!-- 1. The position(s) you're applying for: proofreader, course tester, or both. -->
+<!-- 1. The experience you have that relates to the position(s). -->
+<!-- 1. A portfolio, website, or projects you've worked on that show that experience and required skills for the job. -->
+<!-- 1. Why you'd like to work with GDQuest. -->
 
-A tip for maximizing your chances: be genuine and direct! You don't need to write like you're applying to a big corporation; I don't like that.
+<!-- A tip for maximizing your chances: be genuine and direct! You don't need to write like you're applying to a big corporation; I don't like that. -->
 
-And show me things you've worked on! I want to see you've got the skills; I won't take your word for it.
+<!-- And show me things you've worked on! I want to see you've got the skills; I won't take your word for it. -->
 
-**Please note that in case you don't use the correct email subject line or don't include the required information, I won't consider your candidature.**
+<!-- **Please note that in case you don't use the correct email subject line or don't include the required information, I won't consider your candidature.** -->
