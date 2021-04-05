@@ -1,7 +1,8 @@
 // Blocks to give special notes, examples, or tips to users in our tutorials and articles.
 .note,
 .tips,
-.example {
+.example,
+.warning {
   display: block;
   padding: 0 $spacing-tiny;
   padding-bottom: $spacing-tiny;
@@ -14,16 +15,21 @@
 }
 
 .tips {
-  border: 1px $color-gdquest-pink solid;
+  border: 1px $color-gdquest-purple solid;
 }
 
 .example {
   border: 1px $color-gdquest-green solid;
 }
 
+.warning {
+  border: 1px $color-gdquest-pink solid;
+}
+
 .note:before,
 .tips:before,
-.example:before {
+.example:before,
+.warning:before {
   display: block;
   margin: 0 -1 * $spacing-tiny 10px -1 * $spacing-tiny;
   padding-left: $spacing-tiny;
@@ -36,15 +42,28 @@
 
 .note:before {
   content: "Note";
+  padding-top: 4px;
+  padding-bottom: 4px;
   background-color: $color-accent-main-base;
 }
 
 .tips:before {
   content: "Tips";
+  padding-top: 4px;
+  padding-bottom: 4px;
   background-color: $color-gdquest-pink;
 }
 
 .example:before {
   content: "Example";
+  padding-top: 4px;
+  padding-bottom: 4px;
   background-color: $color-gdquest-green;
+}
+
+.warning:before {
+  content: "⚠ Warning";
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: $color-gdquest-pink;
 }

@@ -13,9 +13,11 @@ name = "banner"
 src = "proofreader-job-posting-banner.jpg"
 +++
 
+{{% warning %}}
 **We're not taking applications for this job anymore.**
 
 **Thank you for your time and interest.**
+{{% /warning %}}
 
 ## Original job posting
 
@@ -104,7 +106,9 @@ This is a remote and freelance job, paid per project.
 
 ## How to apply
 
+{{% warning %}}
 **As mentioned at the start of the page, we're not taking applications for this position anymore.**
+{{% /warning %}}
 
 <!-- > _Editor and tester positions: YOUR\_NAME_ -->
 
