@@ -4,7 +4,8 @@
 
 {{ with $resource }}
      {{ if and (eq .ResourceType "image") (ne .MediaType.SubType "svg") }}
-     <img src="{{ .Permalink | safeURL }}"
+     <img loading="lazy"
+          src="{{ .Permalink | safeURL }}"
           alt="{{ $alt }}"
           {{ with .Title}}title="{{ . }}"{{ end }}
           {{ with .Width }}width="{{ . }}"{{ end }}
