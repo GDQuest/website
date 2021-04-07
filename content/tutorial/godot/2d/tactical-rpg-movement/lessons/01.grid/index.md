@@ -46,7 +46,14 @@ You don't have to be afraid of freeing any node that has a reference to the grid
 
 ## Creating the grid script
 
-Let's get coding. You can open the start project included in the course downloads, `tactical-rpg/start-project/`. It contains the sprites we'll use in this series.
+Let's get coding. You can find a start project on the [Tactical RPG movement repository](https://github.com/GDQuest/godot-2d-tactical-rpg-movement). It contains the sprites we'll use in this series.
+
+To download it:
+
+1. Click the link above.
+2. Click the green `Code` button, then click `Download ZIP`.
+3. Navigate to the downloaded .zip file and extract it.
+4. _Import_ the `start-project/` directory in Godot.
 
 Right-click on the _FileSystem_ tab and create a new script where we'll define our `Grid` class. Name it `Grid.gd` and make it extend `Resource`.
 
