@@ -2,8 +2,8 @@
 // TODO: move non-reset styles to components
 html,
 body,
-ol,
 ul,
+ol,
 li,
 dl,
 dt,
@@ -47,6 +47,7 @@ body {
 ul,
 ol {
   list-style-position: inside;
+  padding-left: $spacing-base;
 }
 
 li > ul {
@@ -55,8 +56,8 @@ li > ul {
 
 ul li,
 ol li {
-  padding-top: $spacing-micro;
-  padding-bottom: $spacing-micro;
+  padding-top: $spacing-nano;
+  padding-bottom: $spacing-nano;
 }
 
 nav ul {
