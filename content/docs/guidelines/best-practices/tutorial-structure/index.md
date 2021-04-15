@@ -7,14 +7,15 @@ date = 2021-04-09
 weight = 5
 +++
 
-This guide covers our guidelines to structure tutorials well and make them as enjoyable as possible for the users.
+This guide covers our guidelines to structure tutorials well and make them as enjoyable as possible for users.
+<!--- It feels like the part about writing for different audiences should be in a separate guide for quick reference. There's enough material to split it and it's also likely to grow. This allows us to keep the present guide purely about STRUCTURE. In the intro or conclusion of the current tutorial we can add a note saying: "While the same general structure can apply to every tutorial, the pace and amount of details in the guide's body will differ greatly depending on the target audience." and link to the guide dedicated to writing for different target audiences.--->
 
 In this guide, you'll learn:
 
 - How to structure a tutorial's header, body, and footer.
-- How to write good code comments for a tutorial.
-- The flow of your tutorial's main sections should follow.
-- The differences in writing tutorials for different audiences.
+- How to include code in the main sections.
+- How to keep a natural flow.
+- How to write tutorials for different audiences. <!--to be removed if this subject gets explored in a separate guide-->
 
 We'll first look at the structure of a good tutorial and then discuss writing tutorials for different users.
 
@@ -22,19 +23,20 @@ This guide doesn't cover grammar and formatting. You can find those in our [writ
 
 ## Header
 
-**The introduction or header sells the reader on the tutorial or lesson.**
+**The header is an introduction that sells the reader on the tutorial or lesson.**
 
-It gives them everything they need to understand what they're stepping into in a condensed format.
+In a condensed form, it gives them everything they need to understand what the tutorial is about. They should be able to identify at a glance if this is the material they're looking for.
 
-You need to **help the reader visualize the result and stay motivated**: they need to know what they'll get for reading to the end.
+The reader needs to know what they're getting in return for reading to the end. For that, you need to **help the reader visualize the result and stay motivated**.
+
 
 To do so:
 
 1. Use a _descriptive title_ with words the audience would use and search for.
-2. _Explain the problem or topic_ this tutorial covers in one or two sentences. Use this intro to develop and contextualize the tutorial's title.
+2. _Explain the problem or topic_ covered in the tutorial using one or two sentences. Use this intro to develop and provide context for the tutorial's title.
 3. _Show the result_. Use a screenshot or a short video clip if possible.
-4. _List the things they'll learn_.
-5. _Mention or list the prerequisites_ to follow the tutorial. If possible, link to an existing series or guide to learn these prerequisites.
+4. _List the things they'll learn_ in logical order.
+5. _Mention or list the prerequisites_ to following the tutorial keeping the user's level in mind. Whenever possible, link to an existing series or guide to learn these prerequisites.
 6. Explain _how you'll tackle the problem at hand_ and why in a sentence or a short paragraph.
 
 In a series, you should do the above both in the project's introduction and in every lesson:
@@ -44,19 +46,19 @@ In a series, you should do the above both in the project's introduction and in e
 
 ## Tutorial body
 
-You should split the rest of your tutorial into logical sections following the outline you gave in the introduction.
+You should split the rest of your tutorial into logical sections following the outline you gave in the introduction. <!--- Link to the document covering the outline --->
 
-Phrase each section's heading to explain the problem you're going to solve.
+Avoid headings that sound like labels (_eg_: "PathFinder class"). Instead, phrase each section's heading to explain the problem you're going to solve in the section (_eg_: "Coding a class to find the optimal path between two point").
 
-For example, don't write "PathFinder class." Instead, write "Coding a class to find the optimal path between 2 points."
-
-Inside each section, you want to detail the steps to achieve the result.
+Inside each section, detail the steps to achieve the result.
 
 ### Favor appending code
 
-When the tutorial requires editing existing code, favor appending code at the end of existing functions; avoid adding code at the start or in the middle of a function as it's hard to track for the user to track.
+- When the tutorial requires editing existing code, favor appending code at the end of existing functions; Avoid adding code at the start or in the middle of a function. It makes it harder for the user to track changes.
 
-### Code comments
+- If there is no elegant way around adding or substituting code in the middle of a function, find a way to highlight the change to make it easily identifiable for the user. <!--- Do we want to set a method here? for example: git's +/- in front of added/removed lines? --->
+
+### Include code comments
 
 Code listings should include comments that explain:
 
@@ -67,24 +69,23 @@ Code listings should include comments that explain:
 
 - What the code does without paraphrasing it.
 
-    - How the implementation affects performance
+    - How the implementation affects performance.
     - How a function works under the hood or what it does.
     - Edge cases you're accounting for.
 
 You can alternatively write those explanations before a short code listing.
 
-### Flow of a good tutorial body
+### Craft the flow of the tutorial
 
 **A good tutorial should use the flow that feels most natural to the reader.**
 
 It's a balancing act that involves:
 
 - Avoiding frequent back-and-forth between files.
-- Avoiding a robotic structure:
+- Avoiding a robotic structure. In other words:
 
-  1. Creating the whole scene structure with all nodes first.
-  2. Creating a bunch of empty scripts.
-  3. Then, filling scripts from top to bottom sequentially.
+  1. Avoid creating the whole scene structure with all nodes first.
+  2. Avoid creating a bunch of empty scripts and then filling them sequentially from top to bottom.
 
 The robotic structure is most convenient for the writer, but feels like copying mindlessly for the reader, even if you do your best to explain everything.
 
@@ -92,15 +93,15 @@ The robotic structure is most convenient for the writer, but feels like copying 
 
 You want to limit frequent context switches yet teach mechanics one at a time. Your role as a tutor is to arrange the order in which you cover everything to minimize friction.
 
-Ideally, the reader should be able to run their game or edited scene without errors at the end of each section. And that, even if not much is happening at this point.
+Ideally, at the end of each section, the reader should be able to run their game or edited scene without errors even if not much is happening at this point.
 
 At the end of every lesson in a series, the game should be in a testable and working state.
 
 ## Footer
 
-At the end of a tutorial, give the reader a summary of what they achieved and learned. Give them insights about how they can go further, and, if possible, give them a related lesson they can check out next.
+At the end of a tutorial, give the reader a summary of what they achieved and learned. Give them insights into how they can go further, and if possible, give them a related lesson they can check out next.
 
-## Writing tutorials for different audiences
+## Writing tutorials for different audiences <!--Move to a separate dedicated tutorial.-->
 
 While the same general structure can apply to every tutorial, the pace and amount of details in the guide's body will differ greatly depending on the target audience.
 
@@ -115,12 +116,12 @@ While the same general structure can apply to every tutorial, the pace and amoun
   - They can read longer code listings with fewer comments.
   - You can assume they are comfortable with the Godot editor. They know where to find the main docs and main screens.
 
-- _Advanced_ users have written sizeable programs and have years of experience behind that.
+- _Advanced_ users have written sizeable programs and have years of experience doing so.
 
   - They can read code directly without comment and understand programming jargon.
   - They are looking for solutions to tough and large problems, like how to architecture entire systems, or really niche ones.
 
-There's a gradient between these users, especially between beginners and intermediate-level developers. These "beginner plus" users aren't independent in reading and writing code yet, but they don't want handholding all the way either.
+There's a gradient between these levels, especially between beginners and intermediate-level developers. While "beginner plus" users aren't fully independent yet when it comes to reading and writing code, they don't want too much handholding either.
 
 ### Guidelines for each audience
 
