@@ -20,15 +20,15 @@ Then, you'll get an example of a complete tutorial outline.
 
 ## What's an outline
 
-The outline of an article or tutorial is a rough plan that conveys the document's main points and structure.
+An article or tutorial outline is a rough plan that conveys the document's main points and structure.
 
-It's a preliminary step professional writers and teachers use to quickly iterate on a lesson or a course's content.
+It's a preliminary step professional writers and teachers use to iterate on a lesson or a course's content quickly.
 
 We use them for individual lessons, videos, but also to plan series and entire projects.
 
 Professionals follow a process similar to outlining in many fields:
 
-- Programmers and designers first prototype software and games.
+- Programmers and designers prototype software and games.
 - 3D artists first block in 3D models and animations.
 - Entrepreneurs plan projects before executing them.
 
@@ -38,7 +38,7 @@ Every time, they save countless hours of work doing so. Writing is no different.
 
 **Outlines are short and condensed writeups**.
 
-They allow you to put your thoughts on paper and organize them in a short amount of time, before spending hours, if not days developping the content.
+They allow you to put your thoughts on paper and organize them in a short amount of time, before spending hours, if not days developing the content.
 
 At the outline stage, you can focus entirely on your lessons' structure and main teaching points. You can get a review and reorder, add, or delete parts in a matter of seconds.
 
@@ -67,24 +67,59 @@ Getting straight to writing leads to poor tutorials. You end up introducing topi
 To write a good outline:
 
 1. If your tutorial revolves around any code or project, create and get review on it first.
-1. Write down a bullet-list capturing **key information** about your tutorial.
+1. Write down a bullet list capturing **key information** about your tutorial.
 1. Write [the tutorial's header]({{< ref "/docs/guidelines/best-practices/tutorial-structure/index.md" >}}#header).
 1. Write descriptive headings and sub-headings. They represent the tutorial's flow.
 1. Fill each section (heading) with short notes and code snippets.
 
-<!-- TODO: write about process to code a demo project and get a code review. -->
+### Coding the project and getting a review
 
-## Key information
+Before writing a tutorial outline, you should create the project and get a thorough code review if it involves code.
 
-You should first write down key information about your tutorial, and have it at the top of your outline:
+The outline depends entirely on your code.
+
+To code the project and get review on it, check out the following guide: [Coding a Godot demo]({{< ref "/docs/guidelines/best-practices/creating-demos/index.md" >}}).
+
+### Key information
+
+You should first write down key information about your tutorial and have it at the top of your outline:
 
 - **Title**: your tutorial's final title. It should be descriptive and answer a problem or a need from the users.
 - **Pitch**: a description of the whole tutorial and its value proposition in one to two short sentences.
 - **Audience**: one of our [target audiences]({{< ref "/docs/guidelines/best-practices/tutorial-audiences/index.md" >}}), the intended group of readers for your tutorial.
-- **Teaching points**: a bullet-list of the key teaching points and new techniques covered in the tutorial.
+- **Teaching points**: a bullet list of the key teaching points and new techniques covered in the tutorial.
 
 This information forces you to be clear about what you're writing about. It also gives teammates the necessary context to review your work.
 
+### Writing the tutorial's header
+
+Next, you want to turn your key information into a concrete list of things the user will learn in the tutorial, prerequisites, and your tutorial's introduction.
+
+You can learn more in our [tutorial structure guide]({{< ref "/docs/guidelines/best-practices/tutorial-structure/index.md" >}}).
+
+### Write descriptive headings
+
+Headings structure a document. They split it into subsections, each with a _specific teaching goal_.
+
+**Every subheading should correspond to solving a given problem, implementing a new mechanic, or answering a broad question.**
+
+Also, you want to write the headings to be as descriptive and appealing as possible: 
+
+- Avoid using new class names and technical titles.
+- Avoid one or two-word headings.
+- Try to capture the problem you'll solve or game mechanic you'll add in the heading.
+
+For example, do not write "Player script." Instead, write "Coding the player's movement."
+
+Another example: do not write "Area2D node." Instead, write "Detecting hits using the Area2D node."
+
+### Add notes and code snippets
+
+After writing the headings, once you are satisfied with the order, add a few lines and code snippets to start to sketch the content of each.
+
+You want to focus on key teaching points and the order in which you'll teach.
+
+Write down questions the readers might have and try to do some troubleshooting. You should work with a peer at this stage to ensure you do not forget anything.
 
 ## Outline example: Drawing strokes around 2D sprites
 
