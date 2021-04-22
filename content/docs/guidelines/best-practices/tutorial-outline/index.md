@@ -12,19 +12,19 @@ This guide will help you write useful tutorial outlines, the first step to write
 
 You'll learn:
 
-- What's an outline.
+- What an outline is.
 - Why you should always write outlines for your tutorials.
 - How to write an outline.
 
-Then, you'll get an example of a complete tutorial outline.
+You will also be able to refer to an example of a complete tutorial outline.
 
 ## What's an outline
 
-An article or tutorial outline is a rough plan that conveys the document's main points and structure.
+An article or tutorial outline is a rough plan that sets the document's main points and structure.
 
-It's a preliminary step professional writers and teachers use to iterate on a lesson or a course's content quickly.
+It's a preliminary step used by professional writers and teachers to plan a lesson and quickly iterate course content.
 
-We use them for individual lessons, videos, but also to plan series and entire projects.
+We use outlines for single lessons and videos, but also to plan series and entire projects.
 
 Professionals follow a process similar to outlining in many fields:
 
@@ -32,105 +32,113 @@ Professionals follow a process similar to outlining in many fields:
 - 3D artists first block in 3D models and animations.
 - Entrepreneurs plan projects before executing them.
 
-Every time, they save countless hours of work doing so. Writing is no different.
+By doing so, they save countless hours of work. Writing is no different.
 
 ## Why you should always write outlines
 
-**Outlines are short and condensed writeups**.
+**An outline is the basic  skeleton around which you build your write-up**. Without one, it becomes much harder to shape your content and make sure it stands.
 
-They allow you to put your thoughts on paper and organize them in a short amount of time, before spending hours, if not days developing the content.
+Outlines allow you to put your thoughts on paper and organize them in a short amount of time, before spending hours, if not days, developing the content.
 
-At the outline stage, you can focus entirely on your lessons' structure and main teaching points. You can get a review and reorder, add, or delete parts in a matter of seconds.
-
-There are _immense benefits_ to outlining:
-
-- You'll get reviews and constructive feedback as early as possible in the writing process.
-- You'll focus on the tutorial's structure and main points and nail them before investing hours into writing.
-- It makes the writing process straightforward. After review, you only have to fill your outline from top to bottom.
+At the outline stage, you can focus entirely on the structure of your lesson and decide your main teaching points. You can get a review and reorder, add, or delete parts in a matter of seconds. 
 
 Reviewing and reordering a complete 2000-word tutorial can take hours of work.
 
-In contrast, at the outline stage, it takes _at most_ several minutes.
+In contrast, at the outline stage, it takes _at most_ a few minutes.
 
-Thanks to all the above, you'll save a lot of time both to yourself and the person reviewing and editing your work.
+In short, there are _immense benefits_ to outlining:
 
-**My mind doesn't work like that. I feel more comfortable writing straight away?**
 
-If outlining feels difficult at first, that's completely normal.
+- You can focus on the tutorial structure and nail down the main points before investing hours in writing.
+- You can get reviews and constructive feedback as early as possible in the writing process.
+- You can make the writing process easier and more straightforward. After review, you only have to flesh out your outline from top to bottom.
 
-It's a skill; you need to practice creating outlines for the process to become natural.
 
-Getting straight to writing leads to poor tutorials. You end up introducing topics and new techniques in a sub-par order. Students struggle to follow your logic.
+_An outline is a small but essential early investment. It saves both your time and the time of anyone reviewing and editing your work._
+
+**My mind doesn't work this way. I feel more comfortable writing directly?**
+
+Outlining doesn't necessarily come naturally. You can expect it to feel difficult or alien at first.
+
+It's a skill you hone. The more you practice it, the easier it gets. Eventually, it becomes second nature to you: an automatic first step in your writing process.  
+
+Getting straight into writing leads to poor tutorials. You end up introducing topics and new techniques in sub-par order. As a result, your students struggle to follow your logic.
 
 ## How to write an outline
 
 To write a good outline:
 
-1. If your tutorial revolves around any code or project, create and get review on it first.
-1. Write down a bullet list capturing **key information** about your tutorial.
-1. Write [the tutorial's header]({{< ref "/docs/guidelines/best-practices/tutorial-structure/index.md" >}}#header).
-1. Write descriptive headings and sub-headings. They represent the tutorial's flow.
+1. First, start by creating and getting review on the code or project you will be referring to. This applies whenever your tutorial revolves around a piece of code or a specific project. 
+1. Make a bullet list capturing **key information** about your tutorial such as: the title, the pitch, the audience and the learning points. 
+1. Write [the tutorial header]({{< ref "/docs/guidelines/best-practices/tutorial-structure/index.md" >}}#header).
+1. Create logical sections that each cover a main teaching point in your tutorial. Write descriptive headings and sub-headings for each section. They represent the tutorial's flow.
 1. Fill each section (heading) with short notes and code snippets.
 
 ### Coding the project and getting a review
 
-Before writing a tutorial outline, you should create the project and get a thorough code review if it involves code.
+Before writing a tutorial outline, you should create the project and get a thorough code review whenever the tutorial involves code.
 
 The outline depends entirely on your code.
 
-To code the project and get review on it, check out the following guide: [Coding a Godot demo]({{< ref "/docs/guidelines/best-practices/creating-demos/index.md" >}}).
+To code the project and get it reviewed, check out the following guide: [Coding a Godot demo]({{< ref "/docs/guidelines/best-practices/creating-demos/index.md" >}}).
 
-### Key information
+### Listing key information
 
-You should first write down key information about your tutorial and have it at the top of your outline:
+At the very top of your outline, you should first and foremost write a list of key information about the tutorial.
 
-- **Title**: your tutorial's final title. It should be descriptive and answer a problem or a need from the users.
+- **Title**: your tutorial's final title. It should be descriptive and answer a problem or a need that the users have.
 - **Pitch**: a description of the whole tutorial and its value proposition in one to two short sentences.
 - **Audience**: one of our [target audiences]({{< ref "/docs/guidelines/best-practices/tutorial-audiences/index.md" >}}), the intended group of readers for your tutorial.
 - **Teaching points**: a bullet list of the key teaching points and new techniques covered in the tutorial.
 
-This information forces you to be clear about what you're writing about. It also gives teammates the necessary context to review your work.
+This information forces you to be clear on what you're writing about. It also gives teammates the necessary context to review your work.
 
-### Writing the tutorial's header
+### Writing the tutorial header
 
-Next, you want to turn your key information into a concrete list of things the user will learn in the tutorial, prerequisites, and your tutorial's introduction.
+Next, you want to turn your key information into:
+- a concrete list of things the user will learn in the tutorial
+- a list or a mention of prerequisites
+- an introduction to your tutorial
 
-You can learn more in our [tutorial structure guide]({{< ref "/docs/guidelines/best-practices/tutorial-structure/index.md" >}}).
+You can learn more about the composition of a header in our [tutorial structure guide]({{< ref "/docs/guidelines/best-practices/tutorial-structure/index.md" >}}).
 
-### Write descriptive headings
+### Defining sections with descriptive headings
 
 Headings structure a document. They split it into subsections, each with a _specific teaching goal_.
 
 **Every subheading should correspond to solving a given problem, implementing a new mechanic, or answering a broad question.**
 
-Also, you want to write the headings to be as descriptive and appealing as possible: 
+You want to make sure your headings are as descriptive and appealing as possible: 
 
 - Avoid using new class names and technical titles.
 - Avoid one or two-word headings.
-- Try to capture the problem you'll solve or game mechanic you'll add in the heading.
+- Try to capture the problem you will be solving or the game mechanic you will be adding in the section.
 
 For example, do not write "Player script." Instead, write "Coding the player's movement."
 
 Another example: do not write "Area2D node." Instead, write "Detecting hits using the Area2D node."
 
-### Add notes and code snippets
+### Adding notes and code snippets
 
-After writing the headings, once you are satisfied with the order, add a few lines and code snippets to start to sketch the content of each.
+Once you've written the heading and you're satisfied with their order, add a few lines and code snippets to start shaping the content of each section.
 
 You want to focus on key teaching points and the order in which you'll teach.
 
 Write down questions the readers might have and try to do some troubleshooting. You should work with a peer at this stage to ensure you do not forget anything.
 
-## Outline example: Drawing strokes around 2D sprites
+---
+## Example Outline
+####Let's have a look at the outline of a tutorial that teaches how to draw strokes around 2D sprites.
 
 - **Title**: Drawing outlines around 2D sprites.
-- **Pitch** (or short description): Learn to create an outline shader for 2D sprites, with three variations. Inner, Outer, and both way strokes.
+- **Pitch** (or short description): Learn to create an outline shader for 2D sprites, with three variations: Inner, Outer, and both way strokes.
 - **Audience**: intermediate-level, developers who might have professional experience, but no knowledge of shader programming.
 - **Techniques** (teaching points):
   - Sampling textures at an offset. `texture(TEXTURE, UV + vec2(x_offset, y_offset))`
   - Computing and combining masks.
   - Using `smoothstep` to soften value transitions.
 
+<!-- Shouldn't the Intro be below what you will learn? What about prerequisites?-->
 Intro: Start with examples of gameplay situations where this shader can be useful, like outlining collectibles or interactive objects on hover.
 
 VIDEO: animated example of showing the strokes on mouse hover.
@@ -149,7 +157,7 @@ Boil down the high-level steps to 1 or 2 paragraphs.
 ### Coding the stroke shader
 
 Create a material and a canvas item shader.
-Add two uniforms, `line_color` and `line_thickness`
+Add two uniforms, `line_color` and `line_thickness`.
 Calculate the size of `line_thickness` in UV space.
 
 ### Creating the outer stroke
