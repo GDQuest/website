@@ -13,6 +13,14 @@ name = "banner"
 src = "typer.jpg"
 +++
 
+{{% warning %}}
+**We're not taking applications for this job anymore.**
+
+**Thank you for your time and interest.**
+{{% /warning %}}
+
+## Original job posting
+
 I'm hiring a full-time assistant tutor to accelerate the creation of new Godot courses and update existing ones.
 
 This is a remote _freelance_ full-time position, paid per project.
@@ -82,20 +90,24 @@ You also need experience developing games and to be familiar with the Godot game
 
 **How to apply**
 
-To apply, please send me an email at `nathan [at] gdquest [dot] com` with the following subject:
+{{% warning %}}
+**As mentioned at the start of the page, we're not taking applications for this position anymore.**
+{{% /warning %}}
 
-> Assistant tutor position: Your Name
+<!-- To apply, please send me an email at `nathan [at] gdquest [dot] com` with the following subject: -->
 
-**Please include the following information:**
+<!-- > Assistant tutor position: Your Name -->
 
-1. A portfolio or projects you've worked on that show that experience and required skills for the job. You can send a link to your git repositories, tutorials you've written, and more.
-1. The experience you have that relates to the job.
-1. Your curriculum, ideally attached to the email as a PDF.
-1. Why you'd like to work with GDQuest.
+<!-- **Please include the following information:** -->
 
-A tip for maximizing your chances: be genuine and direct! You don't need to write like you're applying to a big corporation.
+<!-- 1. A portfolio or projects you've worked on that show that experience and required skills for the job. You can send a link to your git repositories, tutorials you've written, and more. -->
+<!-- 1. The experience you have that relates to the job. -->
+<!-- 1. Your curriculum, ideally attached to the email as a PDF. -->
+<!-- 1. Why you'd like to work with GDQuest. -->
 
-And be sure to _show_ me things you've worked on. I want to see you've got the required skills; I won't take your word for it.
+<!-- A tip for maximizing your chances: be genuine and direct! You don't need to write like you're applying to a big corporation. -->
 
-**Please note that in case you don't use the correct email subject line or don't include the required information, I won't consider your candidature.**
+<!-- And be sure to _show_ me things you've worked on. I want to see you've got the required skills; I won't take your word for it. -->
+
+<!-- **Please note that in case you don't use the correct email subject line or don't include the required information, I won't consider your candidature.** -->
 
