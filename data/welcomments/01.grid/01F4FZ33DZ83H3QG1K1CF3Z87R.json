@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Daniel"
+  },
+  "date": "2021-04-29T23:23:14Z",
+  "id": "01F4FZ33DZ83H3QG1K1CF3Z87R",
+  "message": "I couldn't save the Grid script until I created a root node, which wasn't specified in the tutorial.  This created a scene which again, was not mentioned in the tutorial.  Without doing this, the Grid resource does not appear when attempting to add a new Resource in the FileSystem. Is there a way to create the Grid.gd file without a scene?  This really confused me."
+}
