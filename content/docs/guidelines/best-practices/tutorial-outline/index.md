@@ -138,7 +138,6 @@ Write down questions the readers might have and try to do some troubleshooting. 
   - Computing and combining masks.
   - Using `smoothstep` to soften value transitions.
 
-<!-- Shouldn't the Intro be below what you will learn? What about prerequisites?-->
 Intro: Start with examples of gameplay situations where this shader can be useful, like outlining collectibles or interactive objects on hover.
 
 VIDEO: animated example of showing the strokes on mouse hover.
@@ -151,6 +150,10 @@ You will learn to:
 - Use `smoothstep` to soften value transitions.
 
 ### In short
+
+Pre-requisites:
+
+- You're comfortable with the basics of shader programming and the `fragment()` function. If not, head to our [intro to shader programming in Godot](https://www.gdquest.com/tutorial/godot/shaders/introduction/chapter/0-intro-to-shader-programming/) series.
 
 Boil down the high-level steps to 1 or 2 paragraphs.
 
