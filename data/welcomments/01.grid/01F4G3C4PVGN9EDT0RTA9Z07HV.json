@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "GDQuest"
+  },
+  "date": "2021-04-30T00:38:05Z",
+  "id": "01F4G3C4PVGN9EDT0RTA9Z07HV",
+  "message": "Sure, there are a few ways:\n\n1. You can create scripts from the Script main screen (Ctrl F3 in Godot 3.3).\n2. You can create scripts and resources by right-clicking in the FileSystem dock.\n\nThese two ways don't require a scene.",
+  "replying_to": "01F4FZ33DZ83H3QG1K1CF3Z87R"
+}
