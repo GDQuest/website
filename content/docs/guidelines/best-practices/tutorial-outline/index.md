@@ -36,7 +36,7 @@ By doing so, they save countless hours of work. Writing is no different.
 
 ## Why you should always write outlines
 
-**An outline is the basic  skeleton around which you build your write-up**. Without one, it becomes much harder to shape your content and make sure it stands.
+**An outline is the basic skeleton around which you build your write-up**. Without one, it becomes much harder to shape your content and make sure it stands.
 
 Outlines allow you to put your thoughts on paper and organize them in a short amount of time, before spending hours, if not days, developing the content.
 
