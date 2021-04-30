@@ -35,7 +35,7 @@ To do so:
 2. _Explain the problem or topic_ covered in the tutorial using one or two sentences. Use this intro to develop and provide context for the tutorial's title.
 3. _Show the result_. Use a screenshot or a short video clip if possible.
 4. _List the things they'll learn_ in logical order.
-5. _Mention or list the prerequisites_ to following the tutorial keeping the user's level in mind. Whenever possible, link to an existing series or guide to learn these prerequisites.
+5. _Mention or list the prerequisites_ to following the tutorial keeping the user's level in mind. Whenever possible, link to an existing series or guide that covers these prerequisites.
 6. Explain _how you'll tackle the problem at hand_ and why in a sentence or a short paragraph.
 
 In a series, you should do the above both in the project's introduction and in every lesson:
@@ -45,7 +45,7 @@ In a series, you should do the above both in the project's introduction and in e
 
 ## Tutorial body
 
-You should split the rest of your tutorial into logical sections following the outline you gave in the introduction. <!--- Link to the document covering the outline --->
+You should split the rest of your tutorial into logical sections following the outline you gave in the introduction. <!--- This still needs a reference to the guide covering the outline --->
 
 Avoid headings that sound like labels (_eg_: "PathFinder class"). Instead, phrase each section's heading to explain the problem you're going to solve in the section (_eg_: "Coding a class to find the optimal path between two point").
 
@@ -68,9 +68,9 @@ Code listings should include comments that explain:
 
 - What the code does without paraphrasing it.
 
-    - How the implementation affects performance.
-    - How a function works under the hood or what it does.
-    - Edge cases you're accounting for.
+    - How does the implementation affect performance?
+    - How does a function works under the hood or what does it do?
+    - What edge cases are you accounting for?
 
 You can alternatively write those explanations before a short code listing.
 
@@ -94,9 +94,9 @@ You want to limit frequent context switches yet teach mechanics one at a time. Y
 
 Ideally, at the end of each section, the reader should be able to run their game or edited scene without errors even if not much is happening at this point.
 
-At the end of every lesson in a series, the game should be in a testable and working state.
+Similarly, at the end of every lesson in a series, the game should be in a testable and working state.
 
 ## Footer
 
-At the end of a tutorial, give the reader a summary of what they achieved and learned. Give them insights into how they can go further, and if possible, give them a related lesson they can check out next.
+At the end of a tutorial, give the reader a summary of what they achieved and learned. Give them insights into how they can go further, and if possible, give them a related lesson they can check out next. <!-- Note: We just told them to write a footer but then didn't do it in this guide.-->
 
