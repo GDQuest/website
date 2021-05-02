@@ -13,7 +13,7 @@ aliases = ["/open-source/guidelines/godot-gdscript/"]
 
 +++
 
-This guide covers best practices when writing GDScript code. We use it to keep our code clean and maintainable. It's meant as a complementary resource to the [oficial GDScript guidelines](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html).
+This guide covers best practices when writing GDScript code. We use it to keep our code clean and maintainable. It's meant as a complementary resource to the [official GDScript guidelines](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html).
 
 The ideas in this article are inspired by best practices from a variety of languages. We draw from the work of the Python community, some functional programming principles, and the official GDScript documentation:
 
@@ -38,6 +38,7 @@ We wrote these GDScript programming guidelines with a few goals in mind:
 ### In Short
 
 We follow the same [code order](http://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/gdscript_styleguide.html#code-order) from the official GDScript style guide. Here is a complete example that follows these guidelines:
+<!-- Should code comments be wrapped at a certain length to avoid side scrolling on mobile? -->
 
 ```gdscript
 # Hierarchical State machine for the player.
@@ -99,7 +100,7 @@ func _on_state_changed(previous: Node, new: Node) -> void:
 ### Code style ###
 
 Start with the optional `class_name` if needed. Then add the `extends` keyword if the class extends a built-in type. Following that, you should have the class's docstring:
-
+<!-- why is the docstring in first position in both this snippet and the top example? -->
 ```gdscript
 # A brief description of the class's role and functionality.
 #
@@ -123,10 +124,10 @@ signal talk_finished
 
 
 {{% notice note %}}
-From Godot 3.2, you can write docstrings above any property, signal, or function as a series of comments above their definition, and the GDScript language server will show them in the docs completion. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
+Starting from Godot 3.2, you can write docstrings as a series of comments above any class, property, signal, or function. The GDScript language server will show the comments as part of the declaration's description in the code completion popup. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
 {{% / notice %}}
-
-After that enums, constants, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order.
+<!-- Seems like this should be above and should provide an explanation for why you placed doctsrings come class_name and extends despite saying they should follow -->
+After signals, the order is: enums, constants, exported variables, public variables (regular name), and pseudo-private variables (starting with `_`), in this order.
 
 Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. This order is important because exported variables might depend on previously defined enums and constants.
 
@@ -142,13 +143,13 @@ export var is_active := true
 
 _Note:_ for booleans, always include a name prefix like `is_`, `can_`, or `has_`.
 
-After this are public and pseudo-private member variables. Their names should use `snake_case` and `_snake_case_with_leading_underscore` respectively.
+After enums, there's public and then pseudo-private variables. Their names should use `snake_case` and `_snake_case_with_leading_underscore` respectively.
 
 Define setters and getters when properties alter the object's state or if changing the property triggers methods. Care needs to be taken when doing this because we can easily loose track of hidden alterations and behaviors.
 
 Include a docstring in the setters/getters if they modify the node/class state in complex ways.
 
-Start with a leading underscore when writing setters or getters for private variables just like the variable.
+Start with a leading underscore when writing setters or getters for a private variable just like you do for the variable itself.
 
 ```gdscript
 var animation_length := 1.5
@@ -167,7 +168,7 @@ onready var ysort := $YSort
 ```
 
 
-Next define virtual methods from Godot (those starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them from other code blocks.
+Next, define virtual methods from Godot (the built-in methods starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them from other code blocks.
 
 ```gdscript
 func _init() -> void:
@@ -196,16 +197,16 @@ func _ready() -> void:
   connect("area_entered", self, "_on_area_entered")
 ```
 
-Then define public methods. Include type hints for variables and the return type. You can use a brief comment to describe what the function does and what it returns.
+Then, define public methods. Include type hints for variables and the return type. You can use a brief comment to describe what the function does and what it returns.
 
-Start the sentence with `Returns` when describing the return value. Use the present tense and direct voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
+Start the sentence with `Returns` when describing the return value. Use the present tense and active voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
 
 ```gdscript
 func can_move(cell_coordinates: Vector2) -> bool:
   return grid[cell_coordinates] != TileTypes.WALL
 ```
 
-Use `return` only at the beginning and end of functions. At the beginning of the function we use `return` as a guard mechanism if the conditions for executing the function aren't met.
+Use `return` only at the beginning and end of functions. At the beginning of the function, we use `return` as a guard mechanism if the conditions for executing the function aren't met.
 
 **Don't** return in the middle of the method. It makes it harder to track returned values.
 
