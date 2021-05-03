@@ -124,7 +124,7 @@ signal talk_finished
 ```
 
 {{% notice note %}}
-Starting from Godot 3.2, you can write docstrings as a series of comments above any class, property, signal, or function. The GDScript language server will show the comments as part of the description in the code completion box. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
+Starting from Godot 3.2, you can write docstrings as a series of comments above any class, property, signal, or function. The GDScript language server will show the comments as part of the description in the docs preview, if your code editor supports this feature. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
 {{% / notice %}}
 
 After signals, the order is: enums, constants, exported variables, public variables (regular name), and pseudo-private variables (starting with `_`), in this order.
@@ -374,6 +374,7 @@ We arrange and name our files in a way that reflects and informs us on the proje
 In short, the rules are:
 
 - Name directories, scenes, and script files in `PascalCase`.
+- Name scripts and scenes after a scene's root node.
 - Name other files without spaces in the name.
 - Group assets, scripts, and scenes together whenever possible.
 
@@ -390,7 +391,6 @@ For other files, we just make sure to not leave spaces in the names. This is mos
 ![](images/names-filesystem.png)
 
 Always name your script and scene after the scene's root node if applicable. This makes it much easier to search for the files corresponding to a scene.
-<!-- "Name scripts and scenes after a scene's root node", should probably be included in the top list -->
 When you update a scene's filename, be sure to update the scenes root node and the corresponding script file.
 
 ### Group assets, scripts, and scenes together
