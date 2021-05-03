@@ -1,7 +1,7 @@
 +++
 author = "nathan"
 date = "2019-07-16T08:34:54+09:00"
-description = "This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes."
+description = "This guide covers some best practices to write solid GDScript code and keep a sane code-base when developing projects of growing sizes."
 title = "Godot GDScript guidelines"
 menuTitle = "GDScript"
 weight = 2
@@ -14,7 +14,7 @@ aliases = ["/open-source/guidelines/godot-gdscript/"]
 
 This guide covers our guidelines when writing GDScript code.
 
-We use it to keep our code clean and maintainable. They build upon the [official GDScript guidelines](http://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html).
+We use it to keep our code clean and maintainable. It builds upon the [official GDScript guidelines](http://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html).
 
 We will cover:
 
@@ -30,9 +30,9 @@ For our Godot demo creation guidelines, check out this document instead: [Coding
 
 We wrote these GDScript programming guidelines with a few goals in mind:
 
-- Avoid coupling and having systems depend on (or break!) one another.
-- Manage boundaries, that is to say, the places where different systems interact with one another.
-- Keep the code readable while working as a team. As developers, we spend more time reading code than writing it.
+- To avoid coupling and having systems depend on (or break!) one another.
+- To manage boundaries, that is to say, the places where different systems interact with one another.
+- To keep the code readable while working as a team. As developers, we spend more time reading code than writing it.
 
 ## Complete example
 
@@ -115,7 +115,7 @@ class_name MyNode
 extends Node
 ```
 
-Signals go first and don't use parentheses unless they pass function parameters. Use the past tense to name signals. Append `_started` or `_finished` if the signal corresponds to the beginning or the end of an action.
+Signals come next and don't use parentheses unless they pass function parameters. Use the past tense to name signals. Append `_started` or `_finished` if the signal corresponds to the beginning or the end of an action.
 
 ```gdscript
 signal moved
@@ -124,10 +124,10 @@ signal talk_finished
 ```
 
 {{% notice note %}}
-From Godot 3.2, you can write docstrings above any property, signal, or function as a series of comments above their definition, and the GDScript language server will show them in the docs completion. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
+Starting from Godot 3.2, you can write docstrings as a series of comments above any class, property, signal, or function. The GDScript language server will show the comments as part of the description in the code completion box. You can also use that to create a code reference with our tool [GDScript Docs Maker](https://github.com/GDQuest/gdscript-docs-maker).
 {{% / notice %}}
 
-After that enums, constants, exported, public (regular name), and pseudo-private (starting with `_`) variables, in this order.
+After signals, the order is: enums, constants, exported variables, public variables (regular name), and pseudo-private variables (starting with `_`), in this order.
 
 Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. This order is important because exported variables might depend on previously defined enums and constants.
 
@@ -143,13 +143,13 @@ export var is_active := true
 
 _Note:_ for booleans, always include a name prefix like `is_`, `can_`, or `has_`.
 
-After this are public and pseudo-private member variables. Their names should use `snake_case` and `_snake_case_with_leading_underscore` respectively.
+After enums and constants, we have public and then pseudo-private member variables. Their names should use `snake_case` and `_snake_case_with_leading_underscore` respectively.
 
-Define setters and getters when properties alter the object's state or if changing the property triggers methods. Care needs to be taken when doing this because we can easily loose track of hidden alterations and behaviors.
+Define setters and getters when properties alter the object's state or if changing the property triggers methods. Do this carefully to avoid losing track of hidden alterations and behaviors.
 
 Include a docstring in the setters/getters if they modify the node/class state in complex ways.
 
-Start with a leading underscore when writing setters or getters for private variables just like the variable.
+Start with a leading underscore when writing setters or getters for a private variable just like you would for the variable itself.
 
 ```gdscript
 var animation_length := 1.5
@@ -167,7 +167,7 @@ onready var timer := $HungerCheckTimer
 onready var ysort := $YSort
 ```
 
-Next define virtual methods from Godot (those starting with a leading `_`, e.g. `_ready`). Always leave 2 blanks lines between methods to visually distinguish them from other code blocks.
+Next, define virtual methods from Godot (the built-in methods starting with a leading `_`, e.g. `_ready`). Always leave 2 blank lines between methods to visually distinguish them from other code blocks.
 
 ```gdscript
 func _init() -> void:
@@ -196,16 +196,16 @@ func _ready() -> void:
 	connect("area_entered", self, "_on_area_entered")
 ```
 
-Then define public methods. Include type hints for variables and the return type. You can use a brief comment to describe what the function does and what it returns.
+Then, define public methods. Include type hints for variables and the return type. You can use a brief comment to describe what the function does and what it returns.
 
-Start the sentence with `Returns` when describing the return value. Use the present tense and direct voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
+Start the sentence with `Returns` when describing the return value. Use the present tense and active voice. See Godot's [documentation writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html) for more information.
 
 ```gdscript
 func can_move(cell_coordinates: Vector2) -> bool:
 	return grid[cell_coordinates] != TileTypes.WALL
 ```
 
-Use `return` only at the beginning and end of functions. At the beginning of the function we use `return` as a guard mechanism if the conditions for executing the function aren't met.
+Use `return` only at the beginning and end of functions. At the beginning of the function, we use `return` as a guard mechanism if the conditions for executing the function aren't met.
 
 **Don't** return in the middle of the method. It makes it harder to track returned values.
 
@@ -258,7 +258,7 @@ func get_move_direction() -> Vector2:
 var direction := get_move_direction() # The variable's type is Vector2
 ```
 
-**Let Godot infer the type whenever you can**. It's less error prone because the system keeps better track of types than we humanly can. It also pushes us to have proper return values for all the functions and methods that we write.
+**Let Godot infer the type whenever you can**. It's less error prone because the system keeps better track of types than we humanly can. It also pushes us to have proper return values for all the functions and methods we write.
 
 Since the compiler doesn't enforce static types, sometimes we have to help it out. Take the following example:
 
@@ -278,7 +278,7 @@ Variant pop_back()
 
 `Variant` is a generic type that can hold any type Godot supports. That's why we have to explicitly write variable types when dealing with these functions: `var text: String = arr.pop_back()`.
 
-You'll get this issue with all built-in methods that return the engine's `Variant` type.
+You'll face this issue with all built-in methods that return the engine's `Variant` type.
 
 ## Avoid `null` references
 
@@ -291,17 +291,17 @@ if not variable:
 	return
 ```
 
-With type hints and type inference you will naturally avoid `null` though:
+With type hints and type inference you will naturally avoid `null`:
 
 ```gdscript
 var speed := Vector2.ZERO
 var path := TrajectorySpline.new()
 ```
 
-It's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
+This said, it's impossible to get rid of `null` completely because GDScript relies on built-in functions that work with `null` values.
 
 {{% notice note %}}
-`None`, `null`, `NULL`, and similar references could be the biggest mistake in the history of computing. Here's a detailed explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+`None`, `null`, `NULL`, and similar references may well be the biggest mistake in the history of computing. Here's a detailed explanation from the man who invented it himself: [Null References: The Billion Dollar Mistake](//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
 {{% /notice %}}
 
 ## Write self-documenting code and use comments sparingly
@@ -312,7 +312,7 @@ Use clear variable names in plain English and write full words. E.g. `character_
 
 **Do not** repeat words in the method's name and its arguments. E.g. write `Inventory.add(item)`, not `Inventory.add_item(item)`. The same goes for signals.
 
-Use plain verbs instead of repeating the class's name in signals:
+Use plain verbs instead of repeating the class name in signals:
 
 ```gdscript
 class_name Event
@@ -322,7 +322,7 @@ signal started
 signal completed
 ```
 
-You _may_ use short variable names inside of your methods, for local variables, to avoid repeating a type hint for instance.
+You _may_ use short variable names for local variables inside your methods to avoid repeating a type hint.
 
 In the example below, the variable `e`, an instance of `Element`, only appears in 4 consecutive lines so the code stays readable:
 
@@ -338,9 +338,9 @@ func _set_elements(elements: int) -> bool:
 
 ### Use comments if they save time or add key explanations
 
-Your code should be **self-explanatory whenever possible**. Sometimes you may have a long block of code that you can't change, or have some strange code to work around an engine bug.
+Your code should be **self-explanatory whenever possible**. Sometimes you may have a long block of code that you can't change, or some strange code to work around an engine bug.
 
-In these cases, writing a short comment above the corresponding block can save everyone a lot of time including your future self.
+In these cases, writing a short comment above the corresponding block can save everyone a lot of time, including your future self.
 
 In this example, the code involves transforming and multiplying matrices to calculate a position in Godot's 2D viewport. A one-line comment can capture what it does and avoid having to make sense of the calculations:
 
@@ -353,7 +353,7 @@ func drag_to(event_position: Vector2) -> void:
 	var target_position: Vector2 = transform_inv.xform(viewport_position.round())
 ```
 
-Here's a comment that explains why a seemingly strange line of code is necessary so another developer doesn't remove it accidentally:
+In the following example, the comment explains why a seemingly strange line of code is necessary. This ensures another developer doesn't remove it accidentally:
 
 ```gdscript
 extends BattlerAI
@@ -369,17 +369,17 @@ func choose_action(actor: Battler, targets: Array = []):
 
 We follow some guidelines to keep the name of our files meaningful and consistent.
 
-We arrange and name our files in such a way the file structure gives you information about the project's code structure.
+We arrange and name our files in a way that reflects and informs us on the project's code structure.
 
 In short, the rules are:
 
 - Name directories, scenes, and script files in `PascalCase`.
 - Name other files without spaces in the name.
-- Group assets, scripts, and scenes together when possible.
+- Group assets, scripts, and scenes together whenever possible.
 
 ### Naming directories and files
 
-Our main guideline is we use `PascalCase` for everything that represents a category or a "class" in our project.
+Our main guideline is to use `PascalCase` for everything that represents a category or a "class" in our project.
 
 We use `PascalCase` for directories, scripts, and scenes, but also to name individual nodes inside of scenes.
 
@@ -390,7 +390,7 @@ For other files, we just make sure to not leave spaces in the names. This is mos
 ![](images/names-filesystem.png)
 
 Always name your script and scene after the scene's root node if applicable. This makes it much easier to search for the files corresponding to a scene.
-
+<!-- "Name scripts and scenes after a scene's root node", should probably be included in the top list -->
 When you update a scene's filename, be sure to update the scenes root node and the corresponding script file.
 
 ### Group assets, scripts, and scenes together
@@ -405,11 +405,11 @@ This helps to:
 
 It comes at a little maintenance cost, as you sometimes need to move files when re-factoring the code.
 
-If a `Character` scene uses two sprites and two different scripts, the scene file, the sprites and description all be in the one directory named `Character`. You would also want to include sounds and other resources that are exclusive to the character in the same directory.
+If a `Character` scene uses two sprites and two different scripts, the scene file, the sprites and description should all be in one directory named `Character`. You would also want to include sounds and other resources that are exclusive to the character in the same directory.
 
 For files that are shared across multiple scenes throughout the project, like the UI theme resource, reusable sprites, sounds, shaders, or even scripts and scenes, we place them in a directory named `Common`.
 
-In the `Common` directory, we follow the same principles as the above, trying to group related files together.
+In the `Common` directory, we follow the same principles as stated above, trying to group related files together.
 
 ![](images/common-directory-content.png)
 
@@ -419,7 +419,7 @@ In some cases, we use Godot's `addons` directory. This is mostly for files that 
 
 ## References
 
-In this styleguide, we drew inspiration from the work of the Python community, some functional programming principles, and the official GDScript documentation:
+In this style guide, we drew inspiration from the work of the Python community, some functional programming principles, and the official GDScript documentation:
 
 1. [GDScript Style Guide](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
 1. [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html)
