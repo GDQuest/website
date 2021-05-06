@@ -77,6 +77,10 @@ func stop() -> void:
 	clear()
 ```
 
+Before we test the path, you'll need to head back to the _Inspector_ and assign our grid to the node's _Grid_ property.
+
+![The grid resource attached to the UnitPath node](05.unit-path.png)
+
 ## Testing our path
 
 To test the path drawing, we can write some temporary code in the _UnitPath_'s `_ready()` callback.
