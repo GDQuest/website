@@ -1,9 +1,9 @@
-<!-- Lists last updated tutorials -->
+<!-- Lists last updated tutorials with their last modification date. -->
 <ul>
-    {{ range first 8 (where .Site.RegularPages.ByLastmod.Reverse "Section" "tutorial") }}
+    {{ range first 10 (where .Site.RegularPages.ByLastmod.Reverse "Section" "tutorial") }}
     <li>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <span data-font="dimmed">({{ .Date.Format "January 2, 2006" }})</span>
+        <span data-font="dimmed">({{ .Lastmod.Format "January 2, 2006" }})</span>
     </li>
     {{ end }}
 </ul>
