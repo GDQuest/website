@@ -4,7 +4,7 @@ description = ""
 author = "nathan"
 
 date = 2021-04-09
-weight = 5
+weight = 3
 +++
 
 This guide covers our guidelines to structure tutorials well and make them as enjoyable as possible for users.

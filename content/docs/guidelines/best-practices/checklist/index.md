@@ -22,7 +22,7 @@ Use this checklist to ensure you didn't forget any key point in your Godot code 
 ## Writing
 
 - [ ] I wrote an outline and submitted it for peer review.
-- [ ] I ran my writing through a spell checker (Spell Right is a good extension for Code).
+- [ ] I ran my writing through a spell checker ([Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright) is a good extension for Code).
 - [ ] I ran my writing through a prose linter like [writegood](https://github.com/btford/write-good) (available as a Code extension). [Hemingway App](https://hemingwayapp.com/) is an alternative.
   - [ ] There are few occurrences of passive voice in the t4ext.
   - [ ] There are no very long sentences.

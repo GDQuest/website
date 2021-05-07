@@ -4,7 +4,7 @@ description = ""
 author = "nathan"
 
 date = 2021-04-09
-weight = 5
+weight = 4
 +++
 
 How to write tutorials for different audiences.

@@ -4,7 +4,7 @@ description = "This document is an example of writing tutorial outlines that cap
 author = "nathan"
 
 date = 2020-03-20T18:16:27-06:00
-weight = 5
+weight = 4
 aliases = ["docs/guidelines/best-practices/tutorial-outline"]
 +++
 
