@@ -48,19 +48,19 @@ A demo that takes you 20 to 30 hours of programming work might take 70 or more h
 
 ## Our recommended workflow to produce demos efficiently
 
-Before you start coding, ask all questions you need to ensure everyone agrees with the project's direction and scope.
+Before you start coding, ask all the questions you need to ensure everyone agrees with the project's direction and scope.
 
-First, you want to prototype your project. Create the minimum amount of code to convey the intended mechanic and feel, using basic geometric shapes, and submit it for review by creating a pull request.
+First, you want to prototype your project. Using basic geometric shapes, create the minimum amount of code to convey the intended mechanic and feel. Then, submit it for review by creating a pull request.
 
-For projects that take two days of work or less, you can push it to completion after a positive review of the prototype. There again, submit your code for a final code review.
+For projects that take two days of work or less, you can push on to completion after a positive review of the prototype. There again, submit your code for a final code review.
 
-For projects that take more than two days of work (12-16 hours coding), you should agree on milestones beforehand with the reviewer and submit each for review as a pull request.
+For projects that take more than two days of work (12-16 hours coding), you should agree on milestones beforehand with the reviewer. Use a pull request to submit your code for review at each milestone.
 
 ### Use geometric shapes for the visuals
 
 For the visuals, stick to basic geometric shapes: rectangles, circles, triangles... your demo should work as intended with the simplest visuals possible.
 
-Using geometric shapes forces you to get the demo's feel right, while polished assets can take your attention away hide design problems.
+Using geometric shapes forces you to get the demo's feel right, while polished assets can take your attention away and hide design problems.
 
 A professional game artist will then take care of producing the final assets for your demo.
 
