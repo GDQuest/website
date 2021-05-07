@@ -31,8 +31,8 @@ While the same general structure can apply to every tutorial, the pace and amoun
 
 - _Advanced_ users have written sizeable programs and have years of experience doing so.
 
-  - They can read code directly without comment and understand programming jargon.
-  - They are looking for solutions to tough and large problems, like how to architecture entire systems, or really niche ones.
+  - They can read code directly without comments and they understand programming jargon.
+  - They are looking for solutions to tough and large problems, like how to architect entire systems, or really niche ones.
 
 There's a gradient between these levels, especially between beginners and intermediate-level developers. While "beginner plus" users aren't fully independent yet when it comes to reading and writing code, they don't want too much handholding either.
 
@@ -42,7 +42,7 @@ There's a gradient between these levels, especially between beginners and interm
 - Write detailed code comments.
 - Include spatial indications like the side of the screen on which they'll find a given button.
 - Use many pictures to help them visualize the steps.
-- Use minimum jargon.
+- Use minimum jargon and when you do, paraphrase the term to teach it, or use it in a way that allows the context to define it clearly. 
 - Do your best to anticipate and answer their questions.
 - Troubleshoot common mistakes and errors.
 
