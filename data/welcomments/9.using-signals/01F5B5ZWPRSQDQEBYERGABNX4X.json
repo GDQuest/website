@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Dominic"
+  },
+  "date": "2021-05-10T13:03:19Z",
+  "id": "01F5B5ZWPRSQDQEBYERGABNX4X",
+  "message": "Hey Nathan, I followed this video up to 16:52 and I have a problem with my code. Here's what it is so far:\n\nEnemy Code:\n\nextends Area2D\n\nvar angle_increase_speed = PI\nvar radius = Vector2(300.0, 150.0)\n\nvar angle = 0.0\n\nonready var start_position = position\nonready var previous_position = start_position\n\n\nfunc _process(delta):\n\tangle = wrapf(angle + angle_increase_speed * delta, 0.0, 2 * PI)\n\t\n\tvar direction = Vector2(cos(angle), sin(2*angle))\n\t\n\tprevious_position = position\n\tposition = start_position + direction * radius\n\trotation = (position - previous_position).angle()\n\nGodot Code:\n\nextends Sprite\n\nvar speed = 400\nvar angular_speed = PI\n\n\nfunc _ready():\n\tvar timer = get_node(\"VisibilityTimer\")\n\ttimer.connect(\"timeout\", self, \"_on_Timer_timeout\")\n\n\nfunc _process(delta):\n\trotation += angular_speed * delta\n\tvar velocity = Vector2.UP.rotated(rotation) * speed\n\tposition += velocity * delta\n\n\nfunc _on_Button_pressed():\n\tset_process(not is_processing())\n\n\nfunc _on_Timer_timeout():\n\tvisible = not visible\n\nLifeBar Code:\n\nextends TextureProgress\n\n\nfunc _on_Player_heath_changed(new_changed):\n\tvalue = new_health\n\nPlayer Code:\n\nextends Area2D\n\nsignal health_changed(new_health)\n\nvar health = 10\n\n\nfunc take_damage(amount):\n\thealth -= amount\n\tif health < 0:\n\t\thealth = 0\n\n\tget_node(\"AnimationPlayer\").play(\"take_damage\")\n\temit_signal(\"health_changed\", health)\n\n\nfunc _on_area_entered(area):\n\ttake_damage(2)\n"
+}
