@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Tito"
+  },
+  "date": "2021-05-14T20:55:36Z",
+  "id": "01F5PAKHNAT08BTAVYJ7RGQYPD",
+  "message": "Hello, I am a new developer learning GD script and I am having a problem where I have the enemy chase the player. The problem is that instead of chasing the player, it instead goes after a point to the lower right of the character. My player does not have any offsets except for a lantern that the player holds to shoot fireballs at the enemy. The enemy does not take damage yet but that will be implemented someday"
+}
