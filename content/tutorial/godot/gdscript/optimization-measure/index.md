@@ -33,7 +33,7 @@ You can clear the data by clicking the _Clear_ button anytime. Use the _Measure_
 
 The profiler's interface is split into two. There is a list of functions on the left and the performance graph on the right.
 
-The main measurements are frame time, physics time, idle time, and physics time.
+The main measurements are frame time, physics frame, idle time, and physics time.
 
 - The _frame time_ is the time it takes Godot to execute all the logic for an entire image, from physics to rendering.
 - _Physics frame_ is the time Godot has allocated between physics updates. In an ideal scenario, the frame time is whatever you chose: 16.66 milliseconds by default, which corresponds to 60FPS. It's a frame of reference you can use for everything else around it.
