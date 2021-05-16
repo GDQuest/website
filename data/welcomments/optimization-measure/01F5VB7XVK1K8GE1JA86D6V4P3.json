@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Nathan"
+  },
+  "date": "2021-05-16T19:42:56Z",
+  "id": "01F5VB7XVK1K8GE1JA86D6V4P3",
+  "message": "The mark \"%s\" in a string is a placeholder you can replace with a value by adding a % sign after the string.\n\nFor example, \n\n```gdscript\nvar character_name = \"Bob\"\nprint(\"My name is %s\" % character_name)\n```\n\nWill output:\n\n```sh\nMy name is Bob\n```",
+  "replying_to": "01F5RSZHGTCJWSDJAW603G9QHB"
+}
