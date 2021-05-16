@@ -129,7 +129,7 @@ Starting from Godot 3.2, you can write docstrings as a series of comments above 
 
 After signals, the order is: enums, constants, exported variables, public variables (regular name), and pseudo-private variables (starting with `_`), in this order.
 
-Enum type names should be in `CamelCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. This order is important because exported variables might depend on previously defined enums and constants.
+Enum type names should be in `PascalCase` while the enum values themselves should be in `ALL_CAPS_SNAKE_CASE`. This order is important because exported variables might depend on previously defined enums and constants.
 
 ```gdscript
 enum TileTypes { EMPTY=-1, WALL, DOOR }
