@@ -47,14 +47,14 @@ Commenting on a finished project's structure can be useful to explain high-level
 
 ### A middle-ground: pasting code snippets
 
-To replace code overviews, we could shift towards an approach that's half-way through step-by-step and just commenting on the final code. We can achieve that creating start Godot project with only the files required for the tutorial, extracted from a larger project. But more than the assets.
+To replace code overviews, we could shift towards an approach that's half-way through step-by-step and just commenting on the final code. We can achieve that by creating a Godot project with only the files required for the tutorial, extracted from a larger project. 
 
 The projects would include:
 
-- Anything that's not relevant to the tutorial but required pre-built and encapsulated. Assets, scenes, and scripts.
-- Some empty API in place for the scripts that are relevant to the tutorial: properties, the methods' signature, docstrings, all that based on the guidelines, but no individual instructions.
+- Anything that's not relevant to the tutorial but required pre-built and encapsulated: Assets, scenes, and scripts.
+- Some empty API in place for the scripts that are relevant to the tutorial: properties, the methods' signature, docstrings, but no individual instructions.
 
-With the API in place, you can quickly explain the class's responsibility and how the interface will help you to solve the problem at hand. It allows you to focus on code structure.
+With the API in place, you can quickly explain the class's responsibility and how the interface will help you solve the problem at hand. It allows you to focus on code structure.
 
 Then paste blocks of code one by one to show a way to implement the solution and flesh out the details.
 
