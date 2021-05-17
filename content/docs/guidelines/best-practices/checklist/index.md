@@ -1,7 +1,7 @@
 +++
 title = "The checklist"
 description = ""
-author = "sally"
+author = "nathan"
 
 date = 2021-05-16
 weight = 5
@@ -60,7 +60,7 @@ weight = 5
 - [ ] I followed the code style guidelines and syntax rules
     - [ ] Docstrings start with `##`
     - [ ] Signals are plain verbs in past tense and do not repeat class names
-    - [ ] No parentheses if signals do not pass function parameters
+    - [ ] Signals take no parentheses if they do not pass function parameters
     - [ ] Signals corresponding to the beginning or end of an action are called `<action>_started` or `<action>_finished`
     - [ ] Function names are verbs
     - [ ] Variable names are nouns
@@ -70,12 +70,12 @@ weight = 5
     - [ ] Pseudo-private variables names are in `_snake_case_with_leading_underscore` 
     - [ ] Setters and getters are defined every time properties alter the object’s state
     - [ ] Docstrings are added for setters and getters if they modify the node/class state in a complex way
-    - [ ] Setters and getters are for a private variable start with a leading underscore
+    - [ ] Setters and getters for a private variable start with a leading underscore
     - [ ] Onready variables are placed right before `_init` and/or `_ready` functions
     - [ ] Methods are separated by 2 blank lines
     - [ ] Signal callbacks use `_on_NodeName_signal_name` 
-    - [ ] No `NodeName` if the object connects to itself
-    - [ ] Variables have type hints and function have the correct return type 
+    - [ ] `NodeName` is omitted when the object connects to itself
+    - [ ] Variables have type hints and functions have the correct return type 
     - [ ] Docstrings are added to public functions to describe what they do and what they return
     - [ ] Docstrings describing what a function returns start with `Returns`
     - [ ] Comments and docstrings use the present tense and active voice
@@ -97,7 +97,7 @@ weight = 5
     - [ ] I grouped assets, scripts and scenes together whenever possible
     - [ ] I placed files we may reuse across projects in Godot’s addons directory (besides editor plug-ins)
 
-- [ ] I submitted my code for final review (and at every milestone if necessary)
+- [ ] I submitted my code for final review and at every milestone if necessary
 - [ ] I included the tutorial header in a comment in each pull request
 
 
@@ -120,7 +120,7 @@ weight = 5
 - [ ] I reread the writing style guidelines in (checklist 5) before getting started
 - [ ] I put myself in the reader’s shoes
     - [ ] I started from the users’ problem
-    - [ ] I remembered what it was like when *I* was trying to learn the concepts
+    - [ ] I remembered what it was like when I was trying to learn the concepts
     - [ ] I explained why I chose to structure my project this way
     - [ ] I mentioned other potential solutions, their advantages and drawbacks
     - [ ] If I'm teaching a pattern, I explained its general form
@@ -157,7 +157,7 @@ weight = 5
 - [ ] I crafted the flow of my tutorial
     - [ ] I avoided frequent back-and-forth between files
     - [ ] I did not use a robotic structure
-    - [ ] I adding game mechanics and features one after the other
+    - [ ] I added game mechanics and features one after the other
     - [ ] I made sure the reader can run their game or edited scene at the end of each section without errors
 
 ### 4.2 Writing a footer
@@ -169,7 +169,7 @@ weight = 5
     - [ ] The title includes search words for the problem I'm solving
     - [ ] The introductory sentences do explain the problem or topic 
     - [ ] I showed the result in a screenshot or video clip
-    - [ ] The list of learning is complete and in logical order
+    - [ ] The list of learnings is complete and in logical order
     - [ ] I did not forget any important prerequisites 
     - [ ] I did follow the sentence or short paragraph in which I explained how I will tackle the problem
 
@@ -192,7 +192,7 @@ weight = 5
 - [ ] I did not use ambiguous pronouns like “this” and “that” without specifying the noun they refer to
 - [ ] I used italics to mention labels like node names, dock names, or property names
 - [ ] I wrote labels as they appear in the interface
-- [ ] I used inline code for symbols (variable names, function names), values and any code in a sentence 
+- [ ] I used inline code for symbols, variable names, function names, values and any code in a sentence 
 - [ ] I used inline code for absolute and relative paths
 - [ ] I used parentheses in function names to differentiate them from variables
 - [ ] I spelled out numbers in words outside of the code
@@ -201,7 +201,7 @@ weight = 5
 - [ ] I capitalized only the first letter of other headings
 - [ ] I created meaningful links that describe what the user will accomplish if they click
 
-## 6. Reviewing my own work and using editing tools 
+## 6. Reviewing my work and using editing tools 
 - [ ] I reread and edited my text for clarity
 - [ ] I followed all the steps I gave and made sure they lead to the expected results
 - [ ] I used a markdown formatter
