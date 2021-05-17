@@ -4,7 +4,7 @@ description = ""
 author = "nathan"
 
 date = 2021-04-17
-weight = 5
+weight = 4
 +++
 
 This guide details the process to create a code demo for a game development tutorial.

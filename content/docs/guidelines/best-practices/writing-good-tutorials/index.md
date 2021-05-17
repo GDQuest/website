@@ -4,7 +4,7 @@ description = "Our guidelines to writing good tutorials that serve the needs of 
 author = "nathan"
 
 date = 2021-01-03
-weight = 5
+weight = 2
 
 aliases = ["/docs/guidelines/best-practices/tutorials/"]
 +++

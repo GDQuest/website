@@ -4,11 +4,10 @@ description = ""
 author = "nathan"
 
 date = 2021-04-09
-weight = 5
+weight = 3
 +++
 
 This guide covers our guidelines to structure tutorials well and make them as enjoyable as possible for users.
-<!--- In the intro or conclusion of the current tutorial we can add a note saying: "While the same general structure can apply to every tutorial, the pace and amount of details in the guide's body will differ greatly depending on the target audience." and link to the guide dedicated to writing for different target audiences.--->
 
 In this guide, you'll learn:
 
@@ -45,7 +44,7 @@ In a series, you should do the above both in the project's introduction and in e
 
 ## Tutorial body
 
-You should split the rest of your tutorial into logical sections following the outline you gave in the introduction. <!--- This still needs a reference to the guide covering the outline --->
+You should split the rest of your tutorial into logical sections following the outline you gave in the introduction. <!-- This still needs a reference to the guide covering the outline -->
 
 Avoid headings that sound like labels (_eg_: "PathFinder class"). Instead, phrase each section's heading to explain the problem you're going to solve in the section (_eg_: "Coding a class to find the optimal path between two point").
 
@@ -55,7 +54,7 @@ Inside each section, detail the steps to achieve the result.
 
 - When the tutorial requires editing existing code, favor appending code at the end of existing functions; Avoid adding code at the start or in the middle of a function. It makes it harder for the user to track changes.
 
-- If there is no elegant way around adding or substituting code in the middle of a function, find a way to highlight the change to make it easily identifiable for the user. <!--- Do we want to set a method here? for example: git's +/- in front of added/removed lines? --->
+- If there is no elegant way around adding or substituting code in the middle of a function, find a way to highlight the change to make it easily identifiable for the user. <!-- Do we want to set a method here? for example: git's +/- in front of added/removed lines? -->
 
 ### Include code comments
 
@@ -98,5 +97,4 @@ Similarly, at the end of every lesson in a series, the game should be in a testa
 
 ## Footer
 
-At the end of a tutorial, give the reader a summary of what they achieved and learned. Give them insights into how they can go further, and if possible, give them a related lesson they can check out next. <!-- Note: We just told them to write a footer but then didn't do it in this guide.-->
-
+At the end of a tutorial, give the reader a summary of what they achieved and learned. Give them insights into how they can go further, and if possible, give them a related lesson they can check out next. 
