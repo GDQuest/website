@@ -114,7 +114,7 @@ It's motivating to start that way.
 
 But we also included a few resources that go through some theory to help you better understand how game engines and programming work.
 
-[Getting Started with Godot in 2021]({{< ref "/docs/power-sequencer/getting-started/_index.md" >}}) is a free course that covers everything you need to get started with Godot. By the end, you'll create complete 2D and 3D games from start to finish.
+[Getting Started with Godot in 2021](//https://www.youtube.com/watch?v=42HKCFf5Lf4&list=PLhqJJNjsQ7KEcm-iYJ2a8UCRN62bTneKa) is a free course that covers everything you need to get started with Godot. By the end, you'll create complete 2D and 3D games from start to finish.
 
 ![3D game banner](img/3d-game-banner.png)
 
