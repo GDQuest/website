@@ -216,7 +216,23 @@ weight = 5
 - [ ] I used a spellchecker
 - [ ] I used an online tool like the [Hemingway app](https://hemingwayapp.com/) or [Grammarly](https://www.grammarly.com/) for sentence length and style
 
-## 7. Submitting the tutorial for review
+## 7. Adding great pictures
+
+- [ ] I set up Godot's interface following the guidelines
+
+  - [ ] I'm using the default editor theme
+  - [ ] My screen resolution is 1920×1080
+  - [ ] My editor font size is 22 points
+  - [ ] My code font size is 24 points
+
+- [ ] I used many contextual pictures to illustrate the content
+- [ ] I crop pictures to only show what's necessary
+- [ ] I trimmed pictures to avoid inconsistent borders
+- [ ] I outlined key areas with a 4 pixels yellow stroke
+- [ ] I used short video clips and animated GIFs spangly
+- [ ] I optimized all the media files
+
+## 8. Submitting the tutorial for review
 
 - [ ] I submitted my tutorial to an editor
 - [ ] A reviewer tested my demo
