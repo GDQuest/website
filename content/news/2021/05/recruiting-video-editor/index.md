@@ -3,16 +3,14 @@ title = "We are hiring a part-time video editor"
 description = "We're recruiting a freelance professional video editor to edit videos on our channel and in our courses."
 author = "nathan"
 
-date = 2021-05-22
-publishDate = 2021-05-30
-draft = true
+date = 2021-05-25
 weight = 5
 
 categories = ["news"]
 
 [[resources]]
 name = "banner"
-src = "typer.jpg"
+src = "video-editor.jpg"
 +++
 
 Do you know GDQuest and would like to help more people learn Godot and game development? Read on!
@@ -48,7 +46,7 @@ We also create courses that include videos with much simpler editing.
 
 They generally only require cutting wrong takes and a few inserts without much animation. We would be happy to delegate them if that's something you can tackle.
 
-*Required skills and traits:**
+**Required skills and traits:**
 
 - You are proficient in English or a native speaker (the minimum required level is C1).
 - You have professional video editing experience.
