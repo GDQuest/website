@@ -13,6 +13,14 @@ name = "banner"
 src = "video-editor.jpg"
 +++
 
+{{% warning %}}
+**We're not taking applications for this job anymore.**
+
+**Thank you for your time and interest.**
+{{% /warning %}}
+
+## Original job posting
+
 Do you know GDQuest and would like to help more people learn Godot and game development? Read on!
 
 I'm looking for a professional video editor to edit our channel and our courses' videos.
@@ -61,19 +69,23 @@ Perks of working with us:
 
 ## How to apply
 
-To apply, please send me an email at `nathan [at] gdquest [dot] com` with the following subject:
+{{% warning %}}
+**As mentioned at the start of the page, we're not taking applications for this position anymore.**
+{{% /warning %}}
 
-> Video editing job: Your Name
+<!-- To apply, please send me an email at `nathan [at] gdquest [dot] com` with the following subject: -->
 
-**Please include the following information:**
+<!-- > Video editing job: Your Name -->
 
-- Links to your video editing work: videos you edited, a showreel, a portfolio...
-- The price you would charge for a dynamic video like this one: https://www.youtube.com/watch?v=flsPNcVH2D0
-- A video tutorial like this one (5', mostly simple cuts): https://www.youtube.com/watch?v=F53qTyIiZDc
-- Why you'd like to work with us.
+<!-- **Please include the following information:** -->
 
-A tip for maximizing your chances: be genuine and direct! You don't need to write like you're applying to a big corporation.
+<!-- - Links to your video editing work: videos you edited, a showreel, a portfolio... -->
+<!-- - The price you would charge for a dynamic video like this one: https://www.youtube.com/watch?v=flsPNcVH2D0 -->
+<!-- - A video tutorial like this one (5', mostly simple cuts): https://www.youtube.com/watch?v=F53qTyIiZDc -->
+<!-- - Why you'd like to work with us. -->
 
-And be sure to _show_ me things you've worked on. I want to see you've got the required skills; I won't take your word for it.
+<!-- A tip for maximizing your chances: be genuine and direct! You don't need to write like you're applying to a big corporation. -->
 
-**Please note that in case you don't use the correct email subject line or don't include the required information, I won't consider your candidature.**
+<!-- And be sure to _show_ me things you've worked on. I want to see you've got the required skills; I won't take your word for it. -->
+
+<!-- **Please note that in case you don't use the correct email subject line or don't include the required information, I won't consider your candidature.** -->
