@@ -11,3 +11,7 @@ url = "//www.instagram.com/razcore.art/"
 icon = "instagram"
 name = "Instagram"
 
+[social.github]
+url = "//github.com/razcore-code"
+icon = "github"
+name = "GitHub"
