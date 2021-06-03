@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Doureyd"
+  },
+  "date": "2021-06-03T22:27:43Z",
+  "id": "01F79ZTK863EZ2RAWMXTED0708",
+  "message": "Little fix for the clamp function, we have to remove 1 from the size to get the proper positon :\n\nout.x = clamp(out.x, 0, size.x - 1)\nout.y = clamp(out.y, 0, size.y - 1)\n\n\nThanks for all those ressources by the way!"
+}
