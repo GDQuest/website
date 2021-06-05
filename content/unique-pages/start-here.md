@@ -74,7 +74,7 @@ We've been teaching people to make games with for years. Here's what they have t
 
 Hey, I'm Nathan. I created GDQuest in 2015 to help you learn game art and game development with free and open-source software.
 
-I made hundreds of [video tutorials on YouTube](https://www.youtube.com/c/gdquest), where we have **more than 135,000 subscribers**.
+I made hundreds of [video tutorials on YouTube](https://www.youtube.com/c/gdquest), where we have **more than 145,000 subscribers**.
 
 The project grew since then, and we're now, we're a team of experienced game developers, tutors, and Free Software enthusiasts dedicated to teaching and supporting Godot, our engine of choice.
 
