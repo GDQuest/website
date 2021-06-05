@@ -1,4 +1,4 @@
-<video controls autoplay muted loop playsinline width="{{ with .Get 1 }}{{ . }}px{{ else }}720px{{ end }}" data-lazy>
+<video controls autoplay muted loop playsinline width="{{ with .Get 1 }}{{ . }}px{{ else }}800px{{ end }}" data-lazy>
     {{/* Use `data-src` instead of `src` to support lazy loading (see head.html). */}}
     <source data-src="{{ .Get 0 }}" type="video/mp4">
     Your browser does not support the video tag.
