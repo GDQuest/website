@@ -120,7 +120,7 @@ weight = 5
 
 ### 4.1 Crafting the tutorial body
 
-- [ ] I reread the writing style guidelines in (checklist 5) before getting started
+- [ ] I reread the writing style guidelines (in checklist 5) before getting started
 - [ ] I put myself in the reader's shoes
   - [ ] I started from the users' problem
   - [ ] I remembered what it was like when I was trying to learn the concepts
@@ -142,9 +142,11 @@ weight = 5
 - [ ] Inside each section, I detailed the steps to achieve the results
   - [ ] I verified my section headings are descriptive of the problem, not labels
 - [ ] I supported my teaching with visuals
-  - [ ] The pictures illustrate or show the result of an action
+  - [ ] I set up Godot's interface according to the guidelines (in checklist 7) before taking any screenshots
+  - [ ] I only included relevant detail in image crops
   - [ ] The images are as close as possible to the relevant text
   - [ ] I labeled and referred to the visuals clearly
+  - [ ] I kept inline videos and animated gifs to a minimum 
 - [ ] I crafted my code references
   - [ ] I tried to append code at the end of existing functions rather than in the middle
   - [ ] I highlighted the change if I had to append or substitute code in the middle of a function
@@ -226,11 +228,11 @@ weight = 5
   - [ ] My code font size is 24 points
 
 - [ ] I used many contextual pictures to illustrate the content
-- [ ] I crop pictures to only show what's necessary
+- [ ] I cropped pictures to only show what's necessary
 - [ ] I trimmed pictures to avoid inconsistent borders
 - [ ] I outlined key areas with a 4 pixels yellow stroke
-- [ ] I used short video clips and animated GIFs spangly
-- [ ] I optimized all the media files
+- [ ] I used short inline video clips and animated GIFs sparingly
+- [ ] I ran the scripts and commands to batch optimize all media files
 
 ## 8. Submitting the tutorial for review
 
