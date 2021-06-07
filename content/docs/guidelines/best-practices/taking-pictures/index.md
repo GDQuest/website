@@ -14,14 +14,14 @@ You want to:
 - Use many contextual pictures.
 - Set up Godot's interface to take consistent screenshots.
 - Crop, trim, and outline pictures in a certain way.
-- Use inline videos and animated GIFs sparingly.
+- Keep inline videos and animated GIFs to a minimum.
 - Optimize your file sizes with our image and video optimizer programs.
 
 ## Use many contextual pictures
 
 You want to use many small and contextual images to help people visualize what you are talking about. It's a critical part of writing great tutorials and guides.
 
-Whenever you talk about properties in the _Inspector_, add a small image for that property and maybe the surrounding ones.
+Whenever you talk about properties in the _Inspector_, add a small image of that property and include the surrounding ones to help the user locate it.
 
 ![](02.copy-action-menu-params.png)
 
@@ -33,7 +33,7 @@ Or, if they're not familiar with the genre, they can look for a video of the gam
 
 ## Setting up the Godot interface for consistent images
 
-We should all have the same interface in Godot to take consistent images:
+We should all have the same interface in Godot to take consistent screenshots:
 
 - Use the default editor theme.
 - Work with a 1920×1080 resolution.
@@ -62,7 +62,7 @@ You should never show more than necessary.
 
 Showing irrelevant parts of the interface adds visual noise. It makes it harder to understand where to look in the screenshot.
 
-For example, if you're talking about an animation, take a screenshot of the animation editor. Or you could take the animation editor along with the viewport.
+For example, if you're talking about an animation, take a screenshot of the animation editor. Or you could take a shot of the animation editor along with the viewport.
 
 ![](15.animation-die.png)
 
@@ -122,7 +122,7 @@ You sometimes want to include animated pictures and videos to better illustrate 
 
 We have some guidelines for those:
 
-- Use the video clips sparingly. This is mostly because our online platform does not support inline videos, so we need a fallback for the online version of the course.
+- Use video clips sparingly. This is mostly because our online platform does not support inline videos, so we need a fallback for the online version of the course.
 - Shorter is better. Keep video clips under 10 seconds. Even under 5 seconds if you can.
 - Isolate exactly what you're trying to illustrate.
 - Only capture the portion of the screen you need to capture.
