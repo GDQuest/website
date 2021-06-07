@@ -166,4 +166,4 @@ Here's a command to do so.
 optimize_videos.sh --tune animation --no-audio --resize "'min(1280\,iw)'":-2 -i **.mp4
 ```
 
-You can optimize files only once, in batch, when you finish writing an entire series. You don't have to do it as you go. A reviewer or project maintainer can also do it for you.
+You can optimize files only once, in batch, when you finish writing an entire series.
