@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "G"
+  },
+  "date": "2021-06-19T16:56:08Z",
+  "id": "01F8JK6YAXS5WRPK1X4ZWDC6C1",
+  "message": "the flood_fill method doesn't check to make sure a cell is occupied by another unit or obstacle. How come the user can't walk onto another units cell, when playing the game?"
+}
