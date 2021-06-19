@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "GDQuest",
+    "website": "https://gdquest.com"
+  },
+  "date": "2021-06-19T22:31:37Z",
+  "id": "01F8K6D7M06D83Y9SYAEFEC2N3",
+  "message": "Whatever works and is sensible is fine. I'd just update the `is_occupied()` function to check for obstacles in general. As you said, could be just checking for units + other obstacles.\n\nWalls and other things could share a type with units only if they need to share properties like be destructible, have a health, stats...\n\nOtherwise, that might make your codebase confusing.\n\nInstead of having just a dictionary of units, you can have one dictionary for the units, one for immovable obstacles. But that depends entirely on all the features you want in your game.",
+  "replying_to": "01F8JT3B1ZE5SQATSZTP5BZZVX"
+}
