@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "GDQuest",
+    "website": "https://gdquest.com"
+  },
+  "date": "2021-06-19T17:08:39Z",
+  "id": "01F8JKXWAF3KH46ARHCMM3B0XM",
+  "message": "It does check for the cell being occupied:\n\n```gdscript\nif is_occupied(coordinates):\n    continue\n```",
+  "replying_to": "01F8JK6YAXS5WRPK1X4ZWDC6C1"
+}
