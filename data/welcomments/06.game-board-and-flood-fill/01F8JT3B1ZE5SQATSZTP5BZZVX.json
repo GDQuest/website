@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "G"
+  },
+  "date": "2021-06-19T18:56:30Z",
+  "id": "01F8JT3B1ZE5SQATSZTP5BZZVX",
+  "message": "Oh I see, it checks to if it is occupied when it moves before it adds it on to the stack. Thanks\n\nSo follow up question. What if I wanted to add walls that the player could walk on. I was thinking I could do that by creating a scene, similar to a unit scene, that would also have a cell var, just like a unit. And then the GameBoard could have an array of walls and func is_occupied could also check for walls as well as units.\nOr perhaps the best way to accomplish that is by making a wall a type of unit.\nOr perhaps the best way to accomplish that is by making walls and units a child class of something else.",
+  "replying_to": "01F8JKXWAF3KH46ARHCMM3B0XM"
+}
