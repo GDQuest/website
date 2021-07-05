@@ -10,7 +10,7 @@ title = "Krita"
 
 A free Krita course focusing on the tools the program offers for game artists and digital painters. It covers everything you need to work efficiently.
 
-- [Krita brushes]({{< ref "/product/krita/brushes/index.md" >}})
+- Krita brushes (product unavailable).
 - [Free course](/tutorial/art/krita-tutorial-for-game-artists/)
 
 ## Make Professional Painterly Game Art with Krita
@@ -19,7 +19,9 @@ A free Krita course focusing on the tools the program offers for game artists an
 
 Want to go a step further and learn to make professional sprites? Then, this course is for you.
 
-[Learn more]({{< ref "/product/krita/painterly-game-art/index.md" >}})
+{{% warning %}}
+This product is not available anymore.
+{{% /warning %}}
 
 ## Discover Game Art Quest
 
@@ -35,7 +37,7 @@ To become a more efficient artist, you have to sharpen your observation skills a
   src="/img/page/game-art-quest/krita-screenshot.png"
   alt="Nathan's picture" >}}
 
-The [second course]({{< ref "/product/krita/painterly-game-art/index.md" >}}) also covers the unique constraints game artists face in their work. You have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, **your art has to support the gameplay: it shapes the game experience**.
+The second course (not available anymore) also covers the unique constraints game artists face in their work. You have to make assets with a target resolution and camera in mind. You have to carefully draw your alpha masks. More importantly, as a game artist, **your art has to support the gameplay: it shapes the game experience**.
 
 Game Art Quest was funded [on Kickstarter](//www.kickstarter.com/projects/gdquest/game-art-quest-make-professional-2d-art-with-krita) by 424 artists!
 

@@ -21,13 +21,6 @@ Update: the course is now out! Learn more below.
 
 It is available in 3 different versions to fit your budget and your very needs. You'll get 20% off your purchase with the coupon code "early" for the duration of the early access. Learn more below:
 
-
-<script src="//gumroad.com/js/gumroad-embed.js"></script>
-<div class="gumroad-product-embed" data-gumroad-product-id="krita-game-art-tutorial-1" data-outbound-embed="true"><a href="//gumroad.com/l/krita-game-art-tutorial-1">Loading...</a></div>
-<noscript>
-<a href="{{< ref "/product/krita/painterly-game-art/index.md" >}}">Access the Krita training</a>
-</noscript>
-
-If you only want to know when the course will be out, subscribe below and I'll let you know via email:
-
-{{< gumroad-follow >}}
+{{% warning %}}
+The course is not available anymore.
+{{% /warning %}}

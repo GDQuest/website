@@ -203,5 +203,3 @@ As far as I'm concerned, the program is mature for professional use. It's not pe
 Krita 3 is out now!
 
 [Download Krita 3](//krita.org/en/download/krita-desktop/)
-
-And check out my [Krita 3 game art course]({{< ref "/product/krita/painterly-game-art/index.md" >}})!
