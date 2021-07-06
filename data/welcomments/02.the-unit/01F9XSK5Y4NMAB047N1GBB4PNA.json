@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "ImADummy"
+  },
+  "date": "2021-07-06T11:35:01Z",
+  "id": "01F9XSK5Y4NMAB047N1GBB4PNA",
+  "message": "After adding the walk_along() function. I got a \"Attemp to call function 'add-point' in base 'null instance' on a null instance\"\n\nI think I'm lost "
+}
