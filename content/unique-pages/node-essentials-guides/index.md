@@ -3,9 +3,7 @@ title = "Learn the secrets of Godot's nodes!"
 description = "Get a shortcut to learn areas, rich text labels, and viewports in Godot."
 author = "nathan"
 
-draft = true
-
-date = 2021-06-03
+date = 2021-07-14
 
 url = "node-essentials-guides"
 +++
@@ -16,20 +14,17 @@ Nodes are central to Godot, but there is an *overwhelming* amount of them, with 
 
 What if you could get a shortcut? Guides that teach you only the most valuable features and how to use them in your games?
 
-These **free node essentials guides** are exactly that.
+These **free node essentials guides** are precisely that.
 
-In this series, you'll get 3 complete node guides and Godot demos that cover the many ways to use:
+In this series, you'll get three complete node guides and Godot demos that cover the many ways to use:
 
-- `Area2D`.
-- `RichTextLabel`.
-- `Viewport`.
+- `KinematicBody2D`, the most commonly used node to code game characters.
+- `RichTextLabel`, the one node for all your game dialogues.
+- `AnimationPlayer`, which will save you countless lines of code.
 
-You'll learn how to create hit and hurt boxes with with `Area2D`.
+You'll see how to push rocks and other obstacles as in 2D Zelda games.
 
-{{< video "videos/area2d-hitbox-demo.m4v" >}}
-<!-- You'll learn how to create a split-screen view for co-op that only splits when characters get far away. -->
-
-<!-- ![](images/viewport-split-screen.png) -->
+{{< video "videos/kinematicbody2d-push-topdown.mp4" >}}
 
 You'll discover how to show information about a keyword on hover in dialogues with `RichTextLabel`.
 
@@ -37,7 +32,11 @@ You can use that for quests or a glossary.
 
 {{< video "videos/richtextlabel-hover.m4v" >}}
 
-And so much more. Each guide covers 3 to 9 real game uses like the above.
+You'll learn to sequence attack patterns with `AnimationPlayer`.
+
+{{< video "videos/animplayer-enemy-attack-queue.mp4" >}}
+
+And so much more. Each guide covers the node's key features and ways to use it in games.
 
 {{< mailing-signup-node-essentials >}}
 
@@ -63,13 +62,17 @@ Each guide follows the same format to help you learn each node quickly:
 1. Then, we cover how you can use that node in a real game with critical code snippets.
 1. Finally, we answer your questions and share extra pro tips.
 
+You'll get long, written guides, each with a dedicated Godot project to learn from.
+
+![Screenshot of the KinematicBody2D node guide](images/guide-screenshot.png)
+
 <!-- Here's the full list of all the demos you'll get in this series: -->
 
 <!-- TODO: list all the use cases from the guides? -->
 
 ## Get the free node guides now
 
-To get the free guides, click the button below and enter your email address. You'll get them over the next 3 days.
+To get the free guides, click the button below and enter your email address. You'll get them over the next three days.
 
 {{< mailing-signup-node-essentials >}}
 
