@@ -70,7 +70,7 @@ You'll get long, written guides, each with a dedicated Godot project to learn fr
 
 <!-- TODO: list all the use cases from the guides? -->
 
-## Get the free node guides now
+## Get the free node guides
 
 To get the free guides, click the button below and enter your email address. You'll get them over the next three days.
 
