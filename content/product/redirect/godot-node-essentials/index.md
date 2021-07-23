@@ -8,7 +8,7 @@ publishDate = 2021-07-16
 price = "60$"
 
 type = "redirect"
-redirect = "https://gdquest.mavenseed.com/courses/godot-2d-secrets"
+redirect = "https://gdquest.mavenseed.com/courses/godot-node-essentials"
 
 keywords = ["godot nodes", "godot cookbook", "godot 3d course", "godot 2d course", "godot ui course"]
 
