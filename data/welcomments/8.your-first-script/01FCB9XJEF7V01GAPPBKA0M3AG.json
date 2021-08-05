@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "BenjiRenji"
+  },
+  "date": "2021-08-05T14:01:50Z",
+  "id": "01FCB9XJEF7V01GAPPBKA0M3AG",
+  "message": "delta is the time that passed between two frames in seconds. So if the game runs at 60fps, delta is 0.0166. That's why, if you multiply that with 100.0 you end up around 1.\n\nA problem will start occurring when the fps will fluctuate. You can't be sure the game will always run at 60fps. Maybe you have a lot going on at certain points in the game and fps start dropping to 50 or even 40fps on a slow computer. If you use a constant value for your velocity your whole game will start to become slow motion because the process function is visited less than 60 times a second.\n\nHowever if you use delta, it'll start to increase when your fps drop (0.02 for 50fps). That way your character will move further between frames which makes its movement constant as you have fewer frames.\nIn the end you will have a smooth running game when you multiply by delta, even if the fps are changing.\n\nIf you enjoy physics: delta is dt (delta T, the time difference) in basic physics formulas for the calculation of the distance traveled at a given velocity: s = v * dt\nOr, if you have a constant acceleration: s = 0.5 * a * dt^2 + v * dt",
+  "replying_to": "01FBBX3CVGVV4FXPPD26N6A8M0"
+}
