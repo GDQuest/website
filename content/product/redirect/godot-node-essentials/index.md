@@ -5,7 +5,7 @@ author = "nathan"
 
 date = 2021-07-15
 publishDate = 2021-07-16
-price = "60$"
+price = "80$"
 
 type = "redirect"
 redirect = "https://gdquest.mavenseed.com/courses/godot-node-essentials"
