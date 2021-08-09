@@ -4,7 +4,7 @@ description = "This ultimate bundle gives you access to ALL our current and futu
 author = "nathan"
 
 date = 2021-01-15
-price = "295$"
+price = "315$"
 
 type = "redirect"
 redirect = "https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle"
