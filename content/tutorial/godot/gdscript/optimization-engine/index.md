@@ -162,7 +162,9 @@ var nearest_object
 var current_position = global_transform().origin
 
 for object in interactive_objects:
-    var distance = object.global_transform.origin.distance_to(current_position)
+    # Using Vector2.distance_squared_to() for distance comparisons also improves performance.
+    # That's because calculating a regular distance involves a heavy square root operation.
+    var distance = object.global_transform.origin.distance_squared_to(current_position)
     if distance < minimum_distance:
         minimum_distance = distance
         nearest_object = object
