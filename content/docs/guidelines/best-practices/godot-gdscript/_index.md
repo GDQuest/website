@@ -421,8 +421,8 @@ In some cases, we use Godot's `addons` directory. This is mostly for files that 
 
 In this style guide, we drew inspiration from the work of the Python community, some functional programming principles, and the official GDScript documentation:
 
-1. [GDScript Style Guide](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
-1. [Static typing in GDScript](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/static_typing.html)
+1. [GDScript Style Guide](//docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html)
+1. [Static typing in GDScript](//docs.godotengine.org/en/stable/getting_started/scripting/gdscript/static_typing.html)
 1. [Docs writing guidelines](//docs.godotengine.org/en/latest/community/contributing/docs_writing_guidelines.html)
 1. [Boundaries - A talk by Gary Bernhardt from SCNA 2012](//www.destroyallsoftware.com/talks/boundaries) & [Functional Core, Imperative Shell](//www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell)
 1. [The Clean Architecture in Python](//www.youtube.com/watch?v=DJtef410XaM)
