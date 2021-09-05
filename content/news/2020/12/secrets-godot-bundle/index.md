@@ -1,16 +1,14 @@
-+++
-title = "The Godot Secrets bundle"
-description = "Get our four Godot Secrets courses at the price of three."
-author = "nathan"
-
-date = 2020-12-10
-weight = 5
-
-categories = ["news"]
-
-[banner]
-src = "/img/product/godot/secrets-bundle.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/product/godot/secrets-bundle.png
+categories:
+- news
+date: "2020-12-10T00:00:00-06:00"
+description: Get our four Godot Secrets courses at the price of three.
+title: The Godot Secrets bundle
+weight: 5
+---
 
 This year, we started making text based courses on your request. We now have four available: Shader Secrets, VFX Secrets, PCG Secrets, and 2D Secrets.
 

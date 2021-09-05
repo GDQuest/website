@@ -1,15 +1,18 @@
-+++
-title = "Local Multiplayer Input"
-description = ""
-author = "henrique"
-coAuthors = ["johnny"]
-
-date = 2020-07-25T10:25:59-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["godot multiplayer", "local multiplayer", "input", "godot networking"]
-+++
+---
+author: henrique
+coAuthors:
+- johnny
+date: "2020-07-25T10:25:59-03:00"
+description: ""
+difficulty: beginner
+keywords:
+- godot multiplayer
+- local multiplayer
+- input
+- godot networking
+title: Local Multiplayer Input
+weight: 5
+---
 
 A common mistake when coding player movement is using constants for the inputs. For instance:
 

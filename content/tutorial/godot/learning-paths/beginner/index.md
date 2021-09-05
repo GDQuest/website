@@ -1,27 +1,22 @@
-+++
-title = "Make Games with Godot: Beginner Edition"
-menuTitle = "Beginner edition"
-description = "This learning path and free guide is a curated list of free resources to get started with game development using the Free and Open Source engine Godot"
-
-author = "razvan"
-date = "2019-11-06T13:12:32+02:00"
-
-featured = true
-difficulty = "beginner"
-
-weight = 1
-
-aliases = [
-    "/open-source/guides/learn-godot/beginner/",
-    "/tutorial/godot/learning-paths/beginner/",
-    "/tutorial/redirect/guide/beginner/",
-    "/docs/guides/learn-godot/beginner/"
-]
-
-[[resources]]
-name = "banner"
-src = "banner.jpg"
-+++
+---
+aliases:
+- /open-source/guides/learn-godot/beginner/
+- /tutorial/godot/learning-paths/beginner/
+- /tutorial/redirect/guide/beginner/
+- /docs/guides/learn-godot/beginner/
+author: razvan
+date: "2019-11-06T13:12:32+02:00"
+description: This learning path and free guide is a curated list of free resources
+  to get started with game development using the Free and Open Source engine Godot
+difficulty: beginner
+featured: true
+menuTitle: Beginner edition
+resources:
+- name: banner
+  src: banner.jpg
+title: 'Make Games with Godot: Beginner Edition'
+weight: 1
+---
 
 Do you want to learn to make games, but you don't know where to start?
 

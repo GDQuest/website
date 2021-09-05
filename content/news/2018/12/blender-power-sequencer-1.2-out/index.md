@@ -1,17 +1,29 @@
-+++
-aliases = ["/post/2018/12/blender-power-sequencer-1.2-out/"]
-author = "nathan"
-categories = ["news"]
-date = "2018-12-27T10:32:04+09:00"
-description = "This is the biggest update to our Free Blender VSE plugin for content creators. Tons of new features and improvements are waiting for you!"
-keywords = ["blender vse", "blender power sequencer", "blender sequencer addon", "blender vse plugin", "video sequence editor", "blender sequencer", "blender 3d", "free blender plugin", "blender addon", "video editing", "open source"]
-title = "Blender Power Sequencer 1.2 is Out"
-
-[[resources]]
-  name = "banner"
-  src = "banner-power-sequencer-1.2.jpg"
-
-+++
+---
+aliases:
+- /post/2018/12/blender-power-sequencer-1.2-out/
+author: nathan
+categories:
+- news
+date: "2018-12-27T10:32:04+09:00"
+description: This is the biggest update to our Free Blender VSE plugin for content
+  creators. Tons of new features and improvements are waiting for you!
+keywords:
+- blender vse
+- blender power sequencer
+- blender sequencer addon
+- blender vse plugin
+- video sequence editor
+- blender sequencer
+- blender 3d
+- free blender plugin
+- blender addon
+- video editing
+- open source
+resources:
+- name: banner
+  src: banner-power-sequencer-1.2.jpg
+title: Blender Power Sequencer 1.2 is Out
+---
 
 Our Free Blender add-on for content creators got a MASSIVE update.
 

@@ -1,13 +1,14 @@
-+++
-author = "nathan"
-date = 2020-07-25
-description = "This week, we share new shaders, new free Godot tutorials, and take a quick look at ConceptGraph, a promising procedural modeling application made in Godot."
-weight = 5
-title = "GDQuest weekly #2"
-
-[banner]
-src = "/img/newsletter-banner.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/newsletter-banner.png
+date: "2020-07-25T00:00:00-06:00"
+description: This week, we share new shaders, new free Godot tutorials, and take a
+  quick look at ConceptGraph, a promising procedural modeling application made in
+  Godot.
+title: 'GDQuest weekly #2'
+weight: 5
+---
 
 This week, we're coming to you with new Godot tutorials, shaders, and visual effects.
 

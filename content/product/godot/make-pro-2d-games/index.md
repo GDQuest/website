@@ -1,17 +1,23 @@
-+++
-author = "nathan"
-category = "godot"
-date = "2018-09-05"
-description = "get your game creation skills to the next level with the godot game engine! learn the best programming practices and explore essential programming patterns."
-keywords = ["2D", "intermediate", "godot", "game design", "game creation", "gamedev"]
-tags = ["godot"]
-title = "make professional 2d games with godot"
-
-[[resources]]
-  name = "banner"
-  src = "img/banner.png"
-
-+++
+---
+author: nathan
+category: godot
+date: "2018-09-05"
+description: get your game creation skills to the next level with the godot game engine!
+  learn the best programming practices and explore essential programming patterns.
+keywords:
+- 2D
+- intermediate
+- godot
+- game design
+- game creation
+- gamedev
+resources:
+- name: banner
+  src: img/banner.png
+tags:
+- godot
+title: make professional 2d games with godot
+---
 
 ## Become a better game developer!
 

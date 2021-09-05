@@ -1,13 +1,13 @@
-+++
-title = "5 habits to write good tutorials"
-description = "Our guidelines to writing good tutorials that serve the needs of our users."
-author = "nathan"
-
-date = 2021-01-03
-weight = 2
-
-aliases = ["/docs/guidelines/best-practices/tutorials/"]
-+++
+---
+aliases:
+- /docs/guidelines/best-practices/tutorials/
+author: nathan
+date: "2021-01-03T00:00:00-06:00"
+description: Our guidelines to writing good tutorials that serve the needs of our
+  users.
+title: 5 habits to write good tutorials
+weight: 2
+---
 
 This guide covers the 5 essential habits of good tutorial writing:
 

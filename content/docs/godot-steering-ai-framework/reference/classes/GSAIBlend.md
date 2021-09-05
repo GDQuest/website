@@ -1,9 +1,17 @@
-+++
-title = "GSAIBlend"
-description = "Blends multiple steering behaviors into one, and returns a weighted\nacceleration from their calculations.\n\nStores the behaviors internally as dictionaries of the form\n{\nbehavior : GSAISteeringBehavior,\nweight : float\n}"
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Blends multiple steering behaviors into one, and returns a weighted
+  acceleration from their calculations.
+
+  Stores the behaviors internally as dictionaries of the form
+  {
+  behavior : GSAISteeringBehavior,
+  weight : float
+  }
+title: GSAIBlend
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

@@ -1,23 +1,20 @@
-+++
-author = "nathan"
-title = "New Features in Godot 3.1"
-description = "Discover the main new features in Godot 3.1."
-date = "2019-06-24"
-
-difficulty = "beginner"
-
-keywords = ["godot new features", "godot features", "godot 3.1"]
-
-type = "course"
-
-weight = 100
-
-[[resources]]
-src = "new-features-banner.png"
-name = "banner"
-
-playlistId = "PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9"
-+++
+---
+author: nathan
+date: "2019-06-24"
+description: Discover the main new features in Godot 3.1.
+difficulty: beginner
+keywords:
+- godot new features
+- godot features
+- godot 3.1
+resources:
+- name: banner
+  playlistId: PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9
+  src: new-features-banner.png
+title: New Features in Godot 3.1
+type: course
+weight: 100
+---
 
 Every Godot version brings a breadth of new features. It was especially the case for Godot 3.1.
 

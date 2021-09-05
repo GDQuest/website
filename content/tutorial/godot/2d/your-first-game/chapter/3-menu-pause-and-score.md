@@ -1,14 +1,13 @@
-+++
-title = "Menus, Pause, and Score"
-author = "nathan"
-date = "2020-06-22"
-description = "Now the game works, let's add the score, the interface, and give the player the ability to pause the game."
-
-weight = 3
-
-type = "video"
-videoid = "mjWwWIEyib8"
-+++
+---
+author: nathan
+date: "2020-06-22"
+description: Now the game works, let's add the score, the interface, and give the
+  player the ability to pause the game.
+title: Menus, Pause, and Score
+type: video
+videoid: mjWwWIEyib8
+weight: 3
+---
 
 This third part focuses entirely on the user interface and gives the player the ability to pause the game, which you will need to do in pretty much every project.
 

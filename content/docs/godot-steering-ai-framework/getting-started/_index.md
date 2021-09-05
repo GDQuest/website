@@ -1,9 +1,10 @@
-+++
-date = "2020-02-02T00:00:00+00:00"
-title = "Getting Started"
-weight = 2
-aliases = ["/docs/godot-steering-toolkit/getting-started/"]
-+++
+---
+aliases:
+- /docs/godot-steering-toolkit/getting-started/
+date: "2020-02-02T00:00:00+00:00"
+title: Getting Started
+weight: 2
+---
 
 This guide will get you started using the tool with a complete AI agent example written in GDScript.
 

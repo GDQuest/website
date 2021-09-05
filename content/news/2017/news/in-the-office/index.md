@@ -1,22 +1,25 @@
-+++
-aliases = [
-  "/post/2017/news/in-the-office/",
-  "/in-the-office/"
-]
-author = "nathan"
-category = ["news"]
-date = "2017-01-21T17:35:09+01:00"
-description = "The past 2 months have been hectic. I’ll pass on the details, but since a few days, I’m renting an office. After so much time struggling to work from home, you can’t imagine how great it feels!"
-keywords = ["community", "gdquest", "gdquest news"]
-title = "In the office - January news"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "In the office article banner image"
-
-+++
+---
+aliases:
+- /post/2017/news/in-the-office/
+- /in-the-office/
+author: nathan
+category:
+- news
+date: "2017-01-21T17:35:09+01:00"
+description: The past 2 months have been hectic. I’ll pass on the details, but since
+  a few days, I’m renting an office. After so much time struggling to work from home,
+  you can’t imagine how great it feels!
+keywords:
+- community
+- gdquest
+- gdquest news
+resources:
+- name: banner
+  params:
+    alt: In the office article banner image
+  src: banner.jpg
+title: In the office - January news
+---
 
 {{< youtube aouow3pfa7Q >}}
 

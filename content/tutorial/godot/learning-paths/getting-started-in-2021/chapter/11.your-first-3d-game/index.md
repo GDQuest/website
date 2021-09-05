@@ -1,17 +1,15 @@
-+++
-author = "nathan"
-date = "2021-04-20"
-publishDate = "2021-04-22"
-title = "Code your first complete 3D game with godot"
-menuTitle = "Your first 3D game"
-description = ""
-weight = 11
-
-type = "video"
-
-videoId = "YiE9tcoCfhE"
-videoDuration = 5626
-+++
+---
+author: nathan
+date: "2021-04-20"
+description: ""
+menuTitle: Your first 3D game
+publishDate: "2021-04-22"
+title: Code your first complete 3D game with godot
+type: video
+videoDuration: 5626
+videoId: YiE9tcoCfhE
+weight: 11
+---
 
 In this final lesson in the course, you'll code a 3D game from start to finish in Godot.
 

@@ -1,17 +1,18 @@
-+++
-title = "Available content in the Godot Course"
-author = "nathan"
-category = "Godot"
-date = "2018-10-26"
-keywords = ["godot 3", "godot course", "video list", "course content"]
-
-toc = false
-
-[[resources]]
-  name = "banner"
-  src = "banner.png"
-
-+++
+---
+author: nathan
+category: Godot
+date: "2018-10-26"
+keywords:
+- godot 3
+- godot course
+- video list
+- course content
+resources:
+- name: banner
+  src: banner.png
+title: Available content in the Godot Course
+toc: false
+---
 
 The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters from Hobby and Indie, and extra resources:
 

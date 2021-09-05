@@ -1,16 +1,16 @@
-+++
-title = "Godot learning paths"
-description = "Learn Godot with excellent, curated free resources made by the community. These paths will help you learn the engine step-by-step."
-date = 2019-12-09T14:18:14+02:00
-weight = 1
-aliases = [ "/tutorial/godot/learning-paths/",]
-icon = "paths"
-
-type = "_default"
-
-[banner]
-src = "beginner/banner.jpg"
-+++
+---
+aliases:
+- /tutorial/godot/learning-paths/
+banner:
+  src: beginner/banner.jpg
+date: "2019-12-09T14:18:14+02:00"
+description: Learn Godot with excellent, curated free resources made by the community.
+  These paths will help you learn the engine step-by-step.
+icon: paths
+title: Godot learning paths
+type: _default
+weight: 1
+---
 
 The [Godot](//godotengine.org) game engine is one of the fastest growing <abbr title="Free and Open Source Software">FOSS</abbr> game creation tools at our disposal.
 

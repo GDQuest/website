@@ -1,20 +1,23 @@
-+++
-aliases = ["/post/2019/12/introducing-docs/"]
-title = "Introducing our docs"
-description = "We added a new section to the website to share our coding guidelines and our manuals."
-author = "razvan"
-
-date = 2019-12-11T16:54:51+02:00
-weight = 5
-
-categories = ["news"]
-keywords = ["gdquest", "gdquest website", "website", "faq"]
-
-[[resources]]
-name = "banner"
-src = "img/banner.png"
-
-+++
+---
+aliases:
+- /post/2019/12/introducing-docs/
+author: razvan
+categories:
+- news
+date: "2019-12-11T16:54:51+02:00"
+description: We added a new section to the website to share our coding guidelines
+  and our manuals.
+keywords:
+- gdquest
+- gdquest website
+- website
+- faq
+resources:
+- name: banner
+  src: img/banner.png
+title: Introducing our docs
+weight: 5
+---
 
 <!-- If this file goes under contents/docs be sure to start chapters with ##, not # -->
 

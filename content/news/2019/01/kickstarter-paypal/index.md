@@ -1,16 +1,19 @@
-+++
-aliases = ["/post/2019/01/kickstarter-paypal/"]
-author = "nathan"
-categories = ["news"]
-date = 2019-01-26T16:29:51+09:00
-description = "Now we've comfortably moved past our initial goal, you can support our 2d and 3d Godot courses via PayPal!"
-keywords = ["gdquest"]
-title = "Support our Kickstarter via PayPal"
-
-[[resources]]
-name = "banner"
-src = "banner.jpg"
-+++
+---
+aliases:
+- /post/2019/01/kickstarter-paypal/
+author: nathan
+categories:
+- news
+date: "2019-01-26T16:29:51+09:00"
+description: Now we've comfortably moved past our initial goal, you can support our
+  2d and 3d Godot courses via PayPal!
+keywords:
+- gdquest
+resources:
+- name: banner
+  src: banner.jpg
+title: Support our Kickstarter via PayPal
+---
 
 
 The Kickstarter campaign ended on February 8, 2019. Pledges are now closed.

@@ -1,10 +1,8 @@
-+++
-author = "nathan"
-title = "Videos"
-description = "Learn to code 2D steering behaviors in Godot."
-
-type = "course_chapter"
-
-weight = 1
-+++
+---
+author: nathan
+description: Learn to code 2D steering behaviors in Godot.
+title: Videos
+type: course_chapter
+weight: 1
+---
 

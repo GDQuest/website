@@ -1,12 +1,11 @@
-+++
-title = "Best Practices"
-disableToc = true
-
-date = 2019-12-09T14:35:29+02:00
-weight = 1
-pre = "A. "
-chapter = true
-+++
+---
+chapter: true
+date: "2019-12-09T14:35:29+02:00"
+disableToc: true
+pre: 'A. '
+title: Best Practices
+weight: 1
+---
 
 # Best Practices
 

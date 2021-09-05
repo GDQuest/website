@@ -1,14 +1,13 @@
-+++
-title = "Krita tutorials"
-description = "Paint and create beautiful game assets with Krita, an award-winning painting program."
-date = "2020-05-26"
-
-weight = 99
-
-[[resources]]
-name = "banner"
-src = "krita-tutorials-banner.png"
-+++
+---
+date: "2020-05-26"
+description: Paint and create beautiful game assets with Krita, an award-winning painting
+  program.
+resources:
+- name: banner
+  src: krita-tutorials-banner.png
+title: Krita tutorials
+weight: 99
+---
 
 Learn to use the Free and open-source digital painting program Krita!
 

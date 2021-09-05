@@ -1,14 +1,13 @@
-+++
-title = "Godot 2D Secrets in early access"
-description = "Our latest course saw its first release in early access! It features the JRPG combat core series and four mini tutorials. Many updates to come."
-author = "nathan"
-
-date = 2020-10-18
-weight = 5
-
-[banner]
-src = "/img/product/godot/2d-secrets.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/product/godot/2d-secrets.png
+date: "2020-10-18T00:00:00-06:00"
+description: Our latest course saw its first release in early access! It features
+  the JRPG combat core series and four mini tutorials. Many updates to come.
+title: Godot 2D Secrets in early access
+weight: 5
+---
 
 The first early access release of [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets) is out.
 

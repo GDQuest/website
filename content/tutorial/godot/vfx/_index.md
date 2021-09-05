@@ -1,8 +1,7 @@
-+++
-title = "Visual Effects"
-description = "Create fire, lasers, and other special effects."
-date = "2020-06-22"
-icon = "vfx"
-
-draft = true
-+++
+---
+date: "2020-06-22"
+description: Create fire, lasers, and other special effects.
+draft: true
+icon: vfx
+title: Visual Effects
+---

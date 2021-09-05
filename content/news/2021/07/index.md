@@ -1,17 +1,15 @@
-+++
-title = "Master Godot's nodes with Godot Node Essentials"
-description = "The most in-depth cookbook for Godot is out now in early access."
-author = "nathan"
-
-date = 2021-07-16
-weight = 5
-
-categories = ["news"]
-
-[[resources]]
-name = "banner"
-src = "node-essentials-banner.png"
-+++
+---
+author: nathan
+categories:
+- news
+date: "2021-07-16T00:00:00-06:00"
+description: The most in-depth cookbook for Godot is out now in early access.
+resources:
+- name: banner
+  src: node-essentials-banner.png
+title: Master Godot's nodes with Godot Node Essentials
+weight: 5
+---
 
 **Godot has tons of nodes packed with time-saving features.**
 

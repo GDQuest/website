@@ -1,15 +1,14 @@
-+++
-title = "Shader Secrets: Learn to Code 2D and 3D Shaders in Godot"
-description = "Our shader course, Shader Secrets, is out in early access! Learn to write professional shaders for games in the professional free game engine Godot."
-author = "zuzana"
-
-date = 2020-06-03T09:31:30-06:00
-weight = 5
-
-[[resources]]
-name = "banner"
-src = "shader-secrets-banner.png"
-+++
+---
+author: zuzana
+date: "2020-06-03T09:31:30-06:00"
+description: Our shader course, Shader Secrets, is out in early access! Learn to write
+  professional shaders for games in the professional free game engine Godot.
+resources:
+- name: banner
+  src: shader-secrets-banner.png
+title: 'Shader Secrets: Learn to Code 2D and 3D Shaders in Godot'
+weight: 5
+---
 
 Today, we bring you a new tutorial series on key **shader programming tricks**. Learn to write professional shaders for games in the professional free game engine Godot.
 

@@ -1,19 +1,20 @@
-+++
-title = "Format your Code with GDFormat"
-menuTitle = "Code Formatter"
-
-author = "nathan"
-date = 2020-07-01
-description = "Never format your code by hand again! Let GDFormat do it for you."
-
-type = "video"
-videoId = "eWbZCQ30vFw"
-
-difficulty = "beginner"
-
-keywords = ["godot gdformat", "gdscript toolkit", "gdscript code formatter", "godot code formatter", "gdscript code format"]
-tags = []
-+++
+---
+author: nathan
+date: "2020-07-01T00:00:00-06:00"
+description: Never format your code by hand again! Let GDFormat do it for you.
+difficulty: beginner
+keywords:
+- godot gdformat
+- gdscript toolkit
+- gdscript code formatter
+- godot code formatter
+- gdscript code format
+menuTitle: Code Formatter
+tags: []
+title: Format your Code with GDFormat
+type: video
+videoId: eWbZCQ30vFw
+---
 
 Godot 3.2 is lacking a code formatter for GDScript. Formatting your code by hand is a time-consuming process, time you could instead use to code some more.
 

@@ -1,15 +1,17 @@
-+++
-title = "Measuring code performances"
-description = "Using the profiler and measuring individual blocks of code with timers"
-author = "razoric"
-coAuthors = ["nathan"]
-
-date = 2020-08-19T14:00:45-04:00
-weight = 4
-
-difficulty = "beginner"
-keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot optimization"]
-+++
+---
+author: razoric
+coAuthors:
+- nathan
+date: "2020-08-19T14:00:45-04:00"
+description: Using the profiler and measuring individual blocks of code with timers
+difficulty: beginner
+keywords:
+- gdscript optimization tutorial
+- godot code optimizing
+- godot optimization
+title: Measuring code performances
+weight: 4
+---
 
 You run your game from Godot and play around. It's fun, it's becoming feature complete, and you feel it's getting close to release.
 

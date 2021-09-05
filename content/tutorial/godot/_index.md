@@ -1,14 +1,12 @@
-+++
-title = "Godot tutorials"
-description = "Learn to use the Free and Open-Source Godot game engine with short tutorials."
-date = "2020-05-26"
-
-weight = 1
-
-[[resources]]
-name = "banner"
-src = "godot-tutorials-banner.png"
-+++
+---
+date: "2020-05-26"
+description: Learn to use the Free and Open-Source Godot game engine with short tutorials.
+resources:
+- name: banner
+  src: godot-tutorials-banner.png
+title: Godot tutorials
+weight: 1
+---
 
 Here's a large collection of free tutorials and courses for Godot, with techniques you will not find anywhere else.
 

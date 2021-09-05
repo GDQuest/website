@@ -1,10 +1,11 @@
-+++
-title = "Creating the Unit"
-author = "nathan"
-date = "2021-01-30"
-description = "We create a scene for the game's units and use the path follow node to set up their movement system."
-weight = 3
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We create a scene for the game's units and use the path follow node to
+  set up their movement system.
+title: Creating the Unit
+weight: 3
+---
 
 In this lesson, we'll create the unit, another core building block of the movement system.
 

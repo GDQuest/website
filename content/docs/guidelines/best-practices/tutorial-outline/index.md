@@ -1,12 +1,13 @@
-+++
-title = "Writing tutorial outlines"
-description = "This document is an example of writing tutorial outlines that capture the essential points of a tutorial and help get productive peer reviews early on."
-author = "nathan"
-
-date = 2020-03-20T18:16:27-06:00
-weight = 4
-aliases = ["docs/guidelines/best-practices/tutorial-outline"]
-+++
+---
+aliases:
+- docs/guidelines/best-practices/tutorial-outline
+author: nathan
+date: "2020-03-20T18:16:27-06:00"
+description: This document is an example of writing tutorial outlines that capture
+  the essential points of a tutorial and help get productive peer reviews early on.
+title: Writing tutorial outlines
+weight: 4
+---
 
 This guide will help you write useful tutorial outlines, the first step to write a great article or tutorial.
 

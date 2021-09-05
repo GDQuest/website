@@ -1,17 +1,16 @@
-+++
-title = "We are hiring a part-time video editor"
-description = "We're recruiting a freelance professional video editor to edit videos on our channel and in our courses."
-author = "nathan"
-
-date = 2021-05-25
-weight = 5
-
-categories = ["news"]
-
-[[resources]]
-name = "banner"
-src = "video-editor.jpg"
-+++
+---
+author: nathan
+categories:
+- news
+date: "2021-05-25T00:00:00-06:00"
+description: We're recruiting a freelance professional video editor to edit videos
+  on our channel and in our courses.
+resources:
+- name: banner
+  src: video-editor.jpg
+title: We are hiring a part-time video editor
+weight: 5
+---
 
 {{% warning %}}
 **We're not taking applications for this job anymore.**

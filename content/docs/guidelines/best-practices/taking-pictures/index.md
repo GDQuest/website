@@ -1,11 +1,10 @@
-+++
-title = "Taking great pictures"
-description = "Our guidelines "
-author = "nathan"
-
-date = 2021-05-23
-weight = 4
-+++
+---
+author: nathan
+date: "2021-05-23T00:00:00-06:00"
+description: 'Our guidelines '
+title: Taking great pictures
+weight: 4
+---
 
 These are all our guidelines regarding creating pictures, animated GIFs, and inline videos for our online tutorials and courses.
 

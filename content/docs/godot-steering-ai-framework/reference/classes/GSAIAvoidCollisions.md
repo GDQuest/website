@@ -1,9 +1,11 @@
-+++
-title = "GSAIAvoidCollisions"
-description = "Steers the agent to avoid obstacles in its path. Approximates obstacles as\nspheres."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Steers the agent to avoid obstacles in its path. Approximates obstacles as
+  spheres.
+title: GSAIAvoidCollisions
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

@@ -1,24 +1,24 @@
-+++
-author = "nathan"
-title = "Getting started with Godot in 2021"
-menuTitle = "Getting Started"
-description = "This series will teach you all the most essential techniques you need to know to get started with Godot, with hands-on examples."
-date = "2021-02-10T18:29:41Z"
-
-weight = 1
-
-difficulty = "beginner"
-
-keywords = ["getting started with godot", "godot getting started", "learn godot", "godot for beginners", "godot 2021"]
-
-type = "course"
-
-[[resources]]
-src = "get-started-with-godot-banner.png"
-name = "banner"
-
-playlistId = "PLhqJJNjsQ7KEcm-iYJ2a8UCRN62bTneKa"
-+++
+---
+author: nathan
+date: "2021-02-10T18:29:41Z"
+description: This series will teach you all the most essential techniques you need
+  to know to get started with Godot, with hands-on examples.
+difficulty: beginner
+keywords:
+- getting started with godot
+- godot getting started
+- learn godot
+- godot for beginners
+- godot 2021
+menuTitle: Getting Started
+resources:
+- name: banner
+  playlistId: PLhqJJNjsQ7KEcm-iYJ2a8UCRN62bTneKa
+  src: get-started-with-godot-banner.png
+title: Getting started with Godot in 2021
+type: course
+weight: 1
+---
 
 You want to learn Godot or game development but don't know how to get started? Or you tried some tutorials already, but you don't feel like you understand how the engine works or how to code your games?
 

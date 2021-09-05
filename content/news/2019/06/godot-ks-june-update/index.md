@@ -1,16 +1,26 @@
-+++
-aliases = ["/post/2019/06/godot-ks-june-update/"]
-author = "nathan"
-categories = ["news"]
-date = 2019-06-06T16:55:35+09:00
-description = "Time for an update on what we've done and what's coming next as part of the 2019 Godot Kickstarter project. See the Godot 3.1 New Features Series, Mannequiny, and more in this post. 🙂"
-keywords = ["gdquest", "godot kickstarter", "gdquest kickstarter", "crowdfunding", "godot game engine", "godot course", "faq"]
-title = "June update, what we've done, what's next"
-
-[[resources]]
-name = "banner"
-src = "banner.jpg"
-+++
+---
+aliases:
+- /post/2019/06/godot-ks-june-update/
+author: nathan
+categories:
+- news
+date: "2019-06-06T16:55:35+09:00"
+description: "Time for an update on what we've done and what's coming next as part
+  of the 2019 Godot Kickstarter project. See the Godot 3.1 New Features Series, Mannequiny,
+  and more in this post. \U0001F642"
+keywords:
+- gdquest
+- godot kickstarter
+- gdquest kickstarter
+- crowdfunding
+- godot game engine
+- godot course
+- faq
+resources:
+- name: banner
+  src: banner.jpg
+title: June update, what we've done, what's next
+---
 
 
 I've been focusing on work quite a bit lately and felt a little behind with communication. 

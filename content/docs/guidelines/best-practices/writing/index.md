@@ -1,11 +1,11 @@
-+++
-title = "Writing style guide"
-description = "This page contains our writing guidelines for tutorials and, in general, accessible writing."
-author = "nathan"
-
-date = 2019-12-14T21:49:21+01:00
-weight = 4
-+++
+---
+author: nathan
+date: "2019-12-14T21:49:21+01:00"
+description: This page contains our writing guidelines for tutorials and, in general,
+  accessible writing.
+title: Writing style guide
+weight: 4
+---
 
 This page explains our writing style and the guidelines we follow to write clearly.
 

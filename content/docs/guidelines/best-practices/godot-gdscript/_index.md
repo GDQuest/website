@@ -1,16 +1,17 @@
-+++
-author = "nathan"
-date = "2019-07-16T08:34:54+09:00"
-description = "This guide covers some best practices to write solid GDScript code and keep a sane code-base when developing projects of growing sizes."
-title = "Godot GDScript guidelines"
-menuTitle = "GDScript"
-weight = 5
-aliases = ["/open-source/guidelines/godot-gdscript/"]
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-+++
+---
+aliases:
+- /open-source/guidelines/godot-gdscript/
+author: nathan
+date: "2019-07-16T08:34:54+09:00"
+description: This guide covers some best practices to write solid GDScript code and
+  keep a sane code-base when developing projects of growing sizes.
+menuTitle: GDScript
+resources:
+- name: banner
+  src: banner.jpg
+title: Godot GDScript guidelines
+weight: 5
+---
 
 This guide covers our guidelines when writing GDScript code.
 

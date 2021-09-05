@@ -1,17 +1,17 @@
-+++
-title = "How to do top-down game movement in Godot"
-menuTitle = "Top-down movement"
-description = "Learn how to start moving your character with a top down view."
-author = "raformatico"
-coAuthors = ["nathan"]
-
-date = 2021-02-14
-weight = 5
-
-difficulty = "beginner"
-keywords = ["godot top down movement", "godot player movement"]
-
-+++
+---
+author: raformatico
+coAuthors:
+- nathan
+date: "2021-02-14T00:00:00-06:00"
+description: Learn how to start moving your character with a top down view.
+difficulty: beginner
+keywords:
+- godot top down movement
+- godot player movement
+menuTitle: Top-down movement
+title: How to do top-down game movement in Godot
+weight: 5
+---
 
 In this tutorial, you will learn to implement three different movements for your characters in Godot:
 

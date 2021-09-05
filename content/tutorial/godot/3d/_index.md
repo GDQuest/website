@@ -1,6 +1,6 @@
-+++
-title = "3D Games"
-description = "Learn to create 3D games."
-date = "2020-06-24"
-icon = "3D"
-+++
+---
+date: "2020-06-24"
+description: Learn to create 3D games.
+icon: 3D
+title: 3D Games
+---

@@ -1,9 +1,11 @@
-+++
-title = "GSAIRadiusProximity"
-description = "Determines any agent that is in the specified list as being neighbors with the owner agent if\nthey lie within the specified radius."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Determines any agent that is in the specified list as being neighbors with the owner agent if
+  they lie within the specified radius.
+title: GSAIRadiusProximity
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

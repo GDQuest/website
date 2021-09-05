@@ -1,16 +1,21 @@
-+++
-title = "Coding an Entity-Component System in Godot"
-menuTitle = "Entity-Component System"
-description = "Learn to create an ECS to add flexibility to your simulation games and other Godot projects."
-author = "razoric"
-coAuthors = ["nathan"]
-
-date = 2021-03-04
-weight = 2
-
-difficulty = "intermediate"
-keywords = ["godot tutorial", "entity component system", "godot ecs", "godot programming patterns", "godot design patterns"]
-+++
+---
+author: razoric
+coAuthors:
+- nathan
+date: "2021-03-04T00:00:00-06:00"
+description: Learn to create an ECS to add flexibility to your simulation games and
+  other Godot projects.
+difficulty: intermediate
+keywords:
+- godot tutorial
+- entity component system
+- godot ecs
+- godot programming patterns
+- godot design patterns
+menuTitle: Entity-Component System
+title: Coding an Entity-Component System in Godot
+weight: 2
+---
 
 The Entity Component System architectural pattern, ECS for short, is a way of designing concrete objects by adding one or more components representing a specialized data set. For example, a `Transform` component may have a 3D position, rotation, and scale, whereas a `PowerSource` component may have power units provided and an efficiency rating.
 

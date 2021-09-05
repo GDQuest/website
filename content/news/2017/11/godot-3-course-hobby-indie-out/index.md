@@ -1,18 +1,21 @@
-+++
-aliases = ["/post/2017/11/godot-3-course-hobby-indie-out/"]
-author = "nathan"
-category = ["news"]
-date = "2017-11-05T16:29:59+01:00"
-description = "The new version is finally out! You will find improvements and an extra video in the Finite State Machine chapter, and a new Game Design chapter. This one includes 3 html-based course documents and 40 minutes of video."
-title = "Godot 3 course: Hobby and Indie versions out in early access"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "Course release 2 banner, with an isometric diagram of the game's elemental tetrad"
-
-+++
+---
+aliases:
+- /post/2017/11/godot-3-course-hobby-indie-out/
+author: nathan
+category:
+- news
+date: "2017-11-05T16:29:59+01:00"
+description: The new version is finally out! You will find improvements and an extra
+  video in the Finite State Machine chapter, and a new Game Design chapter. This one
+  includes 3 html-based course documents and 40 minutes of video.
+resources:
+- name: banner
+  params:
+    alt: Course release 2 banner, with an isometric diagram of the game's elemental
+      tetrad
+  src: banner.jpg
+title: 'Godot 3 course: Hobby and Indie versions out in early access'
+---
 
 
 The new version is finally out! You will find improvements and an extra video in the Finite State Machine chapter, and a new Game Design chapter. This one includes 3 html-based course documents and 40 minutes of video.

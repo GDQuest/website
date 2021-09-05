@@ -1,15 +1,13 @@
-+++
-title = "PCG Secrets: The Art of Procedural Generation in Godot"
-description = "Learn to generate procedural game worlds with the free game engine Godot."
-author = "zuzana"
-
-date = 2020-07-27
-weight = 5
-
-[[resources]]
-  src = "pcg-secrets-banner.png"
-  name = "banner"
-+++
+---
+author: zuzana
+date: "2020-07-27T00:00:00-06:00"
+description: Learn to generate procedural game worlds with the free game engine Godot.
+resources:
+- name: banner
+  src: pcg-secrets-banner.png
+title: 'PCG Secrets: The Art of Procedural Generation in Godot'
+weight: 5
+---
 
 Check out our new series on procedural generation! This new advanced course will teach you to generate **procedural game worlds** with the free game engine Godot.
 

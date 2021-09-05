@@ -1,9 +1,11 @@
-+++
-title = "GSAITargetAcceleration"
-description = "A desired linear and angular amount of acceleration requested by the steering\nsystem."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  A desired linear and angular amount of acceleration requested by the steering
+  system.
+title: GSAITargetAcceleration
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

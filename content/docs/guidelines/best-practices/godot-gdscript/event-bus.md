@@ -1,10 +1,11 @@
-+++
-author = "nathan"
-date = "2020-01-16T10:34:54+02:00"
-description = "This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes."
-title = "Best Practices: Godot GDScript - Event Bus"
-menuTitle = "Event Bus"
-+++
+---
+author: nathan
+date: "2020-01-16T10:34:54+02:00"
+description: This guide covers some best practices to write solid GDScript code, to
+  keep a sane code-base when developing projects of growing sizes.
+menuTitle: Event Bus
+title: 'Best Practices: Godot GDScript - Event Bus'
+---
 
 This guide covers a pattern to maintain signal connections in Godot projects of growing sizes.
 

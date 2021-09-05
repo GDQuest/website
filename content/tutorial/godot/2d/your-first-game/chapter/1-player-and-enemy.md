@@ -1,14 +1,12 @@
-+++
-title = "Player and Enemy"
-author = "nathan"
-date = "2020-06-20"
-description = "Learn to code the player and enemy of our 2D game from scratch."
-
-weight = 1
-
-type = "video"
-videoid = "Mc13Z2gboEk"
-+++
+---
+author: nathan
+date: "2020-06-20"
+description: Learn to code the player and enemy of our 2D game from scratch.
+title: Player and Enemy
+type: video
+videoid: Mc13Z2gboEk
+weight: 1
+---
 
 If you haven't already, you can download the project's assets on the [project's repository](https://github.com/GDQuest/godot-beginner-2d-platformer/releases) (look for the file `start-assets.zip`).
 

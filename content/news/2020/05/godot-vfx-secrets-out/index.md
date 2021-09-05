@@ -1,18 +1,19 @@
-+++
-title = "Design 2D visual effects for games in Godot"
-description = "Our new course to learn to design 2D visual effects for games in Godot is out!"
-author = "zuzana"
-
-date = 2020-05-19T15:33:39-06:00
-weight = 5
-
-categories = ["news"]
-keywords = ["godot", "course"]
-
-[[resources]]
-name = "banner"
-src = "banner.png"
-+++
+---
+author: zuzana
+categories:
+- news
+date: "2020-05-19T15:33:39-06:00"
+description: Our new course to learn to design 2D visual effects for games in Godot
+  is out!
+keywords:
+- godot
+- course
+resources:
+- name: banner
+  src: banner.png
+title: Design 2D visual effects for games in Godot
+weight: 5
+---
 
 Our [new course](//gdquest.mavenseed.com/courses/godot-vfx-secrets) to learn to design **2D visual effects for games** in Godot is out!
 

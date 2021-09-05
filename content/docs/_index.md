@@ -1,10 +1,10 @@
-+++
-date = "2019-12-06T12:53:12+02:00"
-title = "GDQuest Documents"
-disableToc = true
-
-aliases = ["/docs/guides/"]
-+++
+---
+aliases:
+- /docs/guides/
+date: "2019-12-06T12:53:12+02:00"
+disableToc: true
+title: GDQuest Documents
+---
 
 Welcome to the GDQuest docs section.
 

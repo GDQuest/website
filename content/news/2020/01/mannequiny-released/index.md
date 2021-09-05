@@ -1,19 +1,25 @@
-+++
-aliases = ["/post/2020/01/mannequiny-released/"]
-title = "Mannequiny: Free 3D character for Godot out"
-description = "We made and released a Free and Open Source 3D character controller for Godot 3.2. Meet Mannequiny!"
-author = "razoric"
-
-date = 2020-01-17T15:00:00+00:00
-weight = 5
-
-categories = ["news"]
-keywords = ["godot", "godot engine", "asset", "3D", "controller", "character"]
-
-[[resources]]
-name = "banner"
-src = "banner.png"
-+++
+---
+aliases:
+- /post/2020/01/mannequiny-released/
+author: razoric
+categories:
+- news
+date: "2020-01-17T15:00:00Z"
+description: We made and released a Free and Open Source 3D character controller for
+  Godot 3.2. Meet Mannequiny!
+keywords:
+- godot
+- godot engine
+- asset
+- 3D
+- controller
+- character
+resources:
+- name: banner
+  src: banner.png
+title: 'Mannequiny: Free 3D character for Godot out'
+weight: 5
+---
 
 As part of our [2019 Godot Kickstarter campaign](https://www.kickstarter.com/projects/gdquest/create-your-own-games-with-godot-the-free-game-eng), we promised to create an open-source 3D character controller to help you prototype 3D games. 
 

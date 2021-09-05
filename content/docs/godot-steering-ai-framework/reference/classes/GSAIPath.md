@@ -1,9 +1,11 @@
-+++
-title = "GSAIPath"
-description = "Represents a path made up of Vector3 waypoints, split into segments path\nfollow behaviors can use."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Represents a path made up of Vector3 waypoints, split into segments path
+  follow behaviors can use.
+title: GSAIPath
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

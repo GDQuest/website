@@ -1,15 +1,21 @@
-+++
-title = "Finite State Machine in Godot"
-menuTitle = "Finite State Machine"
-description = "The State pattern is an essential one for game developers. In this guide, you'll learn to create a finite state machine in Godot."
-author = "nathan"
-
-date = 2021-01-28T13:33:37-06:00
-weight = 2
-
-difficulty = "intermediate"
-keywords = ["godot tutorial", "finite state machine", "godot fsm", "godot tutorial", "godot state pattern", "godot programming patterns", "godot design patterns"]
-+++
+---
+author: nathan
+date: "2021-01-28T13:33:37-06:00"
+description: The State pattern is an essential one for game developers. In this guide,
+  you'll learn to create a finite state machine in Godot.
+difficulty: intermediate
+keywords:
+- godot tutorial
+- finite state machine
+- godot fsm
+- godot tutorial
+- godot state pattern
+- godot programming patterns
+- godot design patterns
+menuTitle: Finite State Machine
+title: Finite State Machine in Godot
+weight: 2
+---
 
 _Split an object's finite number of states or behaviors into individual state objects and only allow one of them to control their host at a time._
 

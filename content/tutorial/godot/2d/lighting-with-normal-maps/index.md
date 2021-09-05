@@ -1,15 +1,17 @@
-+++
-title = "Lighting with 2D normal maps"
-description = "Learn how to use Normal Maps with Godot for 2D games."
-author = "azagaya"
-coAuthors = ["nathan"]
-
-date = 2020-09-18T18:12:50-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["Godot normal map", "2D normal map", "2D game lighting"]
-+++
+---
+author: azagaya
+coAuthors:
+- nathan
+date: "2020-09-18T18:12:50-03:00"
+description: Learn how to use Normal Maps with Godot for 2D games.
+difficulty: beginner
+keywords:
+- Godot normal map
+- 2D normal map
+- 2D game lighting
+title: Lighting with 2D normal maps
+weight: 5
+---
 
 _Normal maps_ allow you to add volume and details to any sprite or 3D object's surface. A normal map's pixels encode the direction the surface is facing, allowing the engine to fake volume when interacting with lights.
 

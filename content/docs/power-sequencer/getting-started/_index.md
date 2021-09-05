@@ -1,12 +1,13 @@
-+++
-title = "Getting Started"
-description = "Get to know Power Sequencer's core tools and workflow in this introductory guide."
-author = "nathan"
-
-date = 2019-12-19T10:23:34+01:00
-weight = 0
-aliases = ["/docs/documentation/power-sequencer/getting-started"]
-+++
+---
+aliases:
+- /docs/documentation/power-sequencer/getting-started
+author: nathan
+date: "2019-12-19T10:23:34+01:00"
+description: Get to know Power Sequencer's core tools and workflow in this introductory
+  guide.
+title: Getting Started
+weight: 0
+---
 
 This guide is here to get you started with Power Sequencer. It will show you time-saving features when editing with the add-on.
 

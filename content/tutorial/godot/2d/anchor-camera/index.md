@@ -1,15 +1,17 @@
-+++
-title = "Dynamic camera targets"
-description = "Learn to code a camera that dynamically and smoothly follows the player or anchors to specific areas."
-author = "raformatico"
-coAuthors = ["nathan"]
-
-date = 2020-10-25
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot camera anchor", "2d camera"]
-+++
+---
+author: raformatico
+coAuthors:
+- nathan
+date: "2020-10-25T00:00:00-06:00"
+description: Learn to code a camera that dynamically and smoothly follows the player
+  or anchors to specific areas.
+difficulty: intermediate
+keywords:
+- godot camera anchor
+- 2d camera
+title: Dynamic camera targets
+weight: 5
+---
 
 In this tutorial, you will learn to make the camera dynamically switch between following a character and anchoring to a given location. You will:
 

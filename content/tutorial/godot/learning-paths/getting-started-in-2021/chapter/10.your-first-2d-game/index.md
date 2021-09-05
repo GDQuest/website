@@ -1,17 +1,15 @@
-+++
-author = "nathan"
-date = "2021-04-13"
-publishDate = "2021-04-15"
-title = "Code your first complete 2D game with godot"
-menuTitle = "Your first 2D game"
-description = ""
-weight = 10
-
-type = "video"
-
-videoId = "WEt2JHEe-do"
-videoDuration = 4296
-+++
+---
+author: nathan
+date: "2021-04-13"
+description: ""
+menuTitle: Your first 2D game
+publishDate: "2021-04-15"
+title: Code your first complete 2D game with godot
+type: video
+videoDuration: 4296
+videoId: WEt2JHEe-do
+weight: 10
+---
 
 In this lesson, you will get to create a complete 2D game from scratch and step-by-step.
 

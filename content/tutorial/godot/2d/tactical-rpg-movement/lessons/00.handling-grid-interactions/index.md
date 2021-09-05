@@ -1,11 +1,11 @@
-+++
-title = "Handling grid interactions"
-author = "nathan"
-date = "2021-01-30"
-description = "In this first lesson, we discuss two solutions to handling grid interactions, and explain the approach we'll use in this series."
-
-weight = 1
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: In this first lesson, we discuss two solutions to handling grid interactions,
+  and explain the approach we'll use in this series.
+title: Handling grid interactions
+weight: 1
+---
 
 There are two main ways to handle grid movement and interactions in an engine like Godot:
 

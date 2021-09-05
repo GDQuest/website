@@ -1,15 +1,12 @@
-+++
-title = "Godot Procedural Generation"
-description = "A growing collection of PCG algorithms in Godot."
-author = "nathan"
-
-date = 2020-06-23
-weight = 2
-
-type = "redirect"
-redirect = "https://github.com/GDQuest/godot-procedural-generation"
-
-[banner]
-src = "/img/tools/godot/banner-godot-pcg-secrets.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/tools/godot/banner-godot-pcg-secrets.png
+date: "2020-06-23T00:00:00-06:00"
+description: A growing collection of PCG algorithms in Godot.
+redirect: https://github.com/GDQuest/godot-procedural-generation
+title: Godot Procedural Generation
+type: redirect
+weight: 2
+---
 

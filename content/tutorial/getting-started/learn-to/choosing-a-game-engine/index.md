@@ -1,13 +1,13 @@
-+++
-title = "Choosing the right game engine"
-
-description = "What do you have to think about when choosing the right game engine for you."
-author = "razvan"
-coAutors = ["nathan"]
-
-date = 2020-08-18T18:25:08+03:00
-weight = 3
-+++
+---
+author: razvan
+coAutors:
+- nathan
+date: "2020-08-18T18:25:08+03:00"
+description: What do you have to think about when choosing the right game engine for
+  you.
+title: Choosing the right game engine
+weight: 3
+---
 
 In this article, we are looking at a few questions you should ask yourself when browsing for game engines.
 

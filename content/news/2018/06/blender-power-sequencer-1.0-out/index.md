@@ -1,19 +1,31 @@
-+++
-aliases = ["/post/2018/06/blender-power-sequencer-1.0-out/"]
-author = "nathan"
-categories = ["news", "blender"]
-date = "2018-06-09T13:18:14+09:00"
-description = "Our Free Blender add-on adds over 40 new features to the Video Sequence Editor, including smart mouse-based cut and trim tools, instant imports, and more!"
-keywords = ["blender", "VSE", "sequencer", "power sequencer", "video editing", "open source", "add-on", "plugin", "blender 2.79", "gdquest"]
-title = "Blender Power Sequencer 1.0 is out!"
-
-[[resources]]
-  name = "banner"
-  src = "banner-power-sequencer-1.0.png"
-  [resources.params]
-    alt = "Power Sequencer v1.0 logo"
-
-+++
+---
+aliases:
+- /post/2018/06/blender-power-sequencer-1.0-out/
+author: nathan
+categories:
+- news
+- blender
+date: "2018-06-09T13:18:14+09:00"
+description: Our Free Blender add-on adds over 40 new features to the Video Sequence
+  Editor, including smart mouse-based cut and trim tools, instant imports, and more!
+keywords:
+- blender
+- VSE
+- sequencer
+- power sequencer
+- video editing
+- open source
+- add-on
+- plugin
+- blender 2.79
+- gdquest
+resources:
+- name: banner
+  params:
+    alt: Power Sequencer v1.0 logo
+  src: banner-power-sequencer-1.0.png
+title: Blender Power Sequencer 1.0 is out!
+---
 
 [Power Sequencer](/blender/power-sequencer) is a **Free add-on** to help Content Creators edit faster with Blender.
 

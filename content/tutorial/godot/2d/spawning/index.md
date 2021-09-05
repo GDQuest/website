@@ -1,15 +1,19 @@
-+++
-title = "Spawning"
-description = ""
-author = "henrique"
-coAuthors = ["johnny"]
-
-date = 2020-07-24T15:27:28-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["instance", "spawner", "spawn object", "create object", "tutorial"]
-+++
+---
+author: henrique
+coAuthors:
+- johnny
+date: "2020-07-24T15:27:28-03:00"
+description: ""
+difficulty: beginner
+keywords:
+- instance
+- spawner
+- spawn object
+- create object
+- tutorial
+title: Spawning
+weight: 5
+---
 
 When we play games such as MMORPGs, it's common to ask experienced players, "Where does this monster spawn?".
 

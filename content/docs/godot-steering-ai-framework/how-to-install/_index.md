@@ -1,8 +1,8 @@
-+++
-date = "2020-02-13"
-title = "Installation"
-weight = 1
-+++
+---
+date: "2020-02-13"
+title: Installation
+weight: 1
+---
 
 This page explains how to install and to update the framework in your projects.
 

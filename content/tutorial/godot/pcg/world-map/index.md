@@ -1,16 +1,22 @@
-+++
-title = "Heightmap-based procedural world map"
-menuTitle = "World map"
-description = "Learn to use noise textures to generate a procedural world map and get started with Procedural Content Generation."
-author = "razvan"
-
-difficulty = "intermediate"
-tags = ["godot", "tutorial"]
-keywords = ["procedural content generation", "procgen", "heightmap", "godot", "godot tutorial"]
-
-date = 2020-05-20T10:51:41+03:00
-weight = 5
-+++
+---
+author: razvan
+date: "2020-05-20T10:51:41+03:00"
+description: Learn to use noise textures to generate a procedural world map and get
+  started with Procedural Content Generation.
+difficulty: intermediate
+keywords:
+- procedural content generation
+- procgen
+- heightmap
+- godot
+- godot tutorial
+menuTitle: World map
+tags:
+- godot
+- tutorial
+title: Heightmap-based procedural world map
+weight: 5
+---
 
 This tutorial goes over a simple world map generator using _NoiseTexture_, a modified _GradientTexture_, and shaders.
 

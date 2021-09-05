@@ -1,16 +1,17 @@
-+++
-title = "Limited player vision with lights"
-menuTitle = "Limited player vision"
-description = "Learn how to make limited player vision with lights and masks."
-author = "azagaya"
-coAuthors = ["nathan"]
-
-date = 2020-09-23T17:55:55-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["Light Masks", "Limited Vision"]
-+++
+---
+author: azagaya
+coAuthors:
+- nathan
+date: "2020-09-23T17:55:55-03:00"
+description: Learn how to make limited player vision with lights and masks.
+difficulty: beginner
+keywords:
+- Light Masks
+- Limited Vision
+menuTitle: Limited player vision
+title: Limited player vision with lights
+weight: 5
+---
 
 In this tutorial, you will learn how to make a player with limited vision using `Light2D` nodes. 
 

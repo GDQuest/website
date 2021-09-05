@@ -1,16 +1,14 @@
-+++
-author = "nathan"
-date = "2021-04-07"
-publishDate = "2021-04-08"
-title = "Using Signals"
-description = ""
-weight = 9
-
-type = "video"
-
-videoId = "NK_SYVO7lMA"
-videoDuration = 1066
-+++
+---
+author: nathan
+date: "2021-04-07"
+description: ""
+publishDate: "2021-04-08"
+title: Using Signals
+type: video
+videoDuration: 1066
+videoId: NK_SYVO7lMA
+weight: 9
+---
 
 In this lesson, you will get to connect and use Godot's signals.
 

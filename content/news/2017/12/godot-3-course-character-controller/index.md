@@ -1,19 +1,21 @@
-+++
-aliases = ["/post/2017/12/godot-3-course-character-controller/"]
-author = "nathan"
-categories = ["news"]
-date = "2017-12-25T15:54:59+01:00"
-description = "10 videos, 1h 40mn of tutorials and 8 Godot examples are waiting for you in the Godot course on Gumroad."
-keywords = ["gdquest"]
-title = "Godot course Christmas update: The character controller"
-
-[[resources]]
-  name = "banner"
-  src = "banner.png"
-  [resources.params]
-    alt = "Godot course update 3 banner, with a character jumping"
-
-+++
+---
+aliases:
+- /post/2017/12/godot-3-course-character-controller/
+author: nathan
+categories:
+- news
+date: "2017-12-25T15:54:59+01:00"
+description: 10 videos, 1h 40mn of tutorials and 8 Godot examples are waiting for
+  you in the Godot course on Gumroad.
+keywords:
+- gdquest
+resources:
+- name: banner
+  params:
+    alt: Godot course update 3 banner, with a character jumping
+  src: banner.png
+title: 'Godot course Christmas update: The character controller'
+---
 
 
 The Christmas update of the Godot 3 course is out on Gumroad! It's available in all early access versions of the course: [Hobby](//gumroad.com/l/vmPA), [Indie](//gumroad.com/l/XEULZ) and [Pro](//gumroad.com/l/godot-tutorial-make-professional-2d-games).

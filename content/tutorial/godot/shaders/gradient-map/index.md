@@ -1,16 +1,17 @@
-+++
-title = "Gradient map"
-description = "Learn to alter sprite colors with shaders."
-author = "johnny"
-programVersion = "3.2"
-
-difficulty = "intermediate"
-keywords = ["godot shaders tutorial", "godot shaders", "gradient map shader", "godot 2d shaders",]
-
-date = "2020-07-19"
-weight = 5
-
-+++
+---
+author: johnny
+date: "2020-07-19"
+description: Learn to alter sprite colors with shaders.
+difficulty: intermediate
+keywords:
+- godot shaders tutorial
+- godot shaders
+- gradient map shader
+- godot 2d shaders
+programVersion: "3.2"
+title: Gradient map
+weight: 5
+---
 
 In this tutorial, you'll learn how to use a shader to change a sprite's colors. This is useful for refining or completely changing the mood of your game. It's also part of many image filters in apps such as Instagram.
 

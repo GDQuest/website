@@ -1,15 +1,17 @@
-+++
-title = "Optimizing GDScript code"
-description = "A list of tips to write faster GDScript code in Godot."
-author = "razoric"
-coAuthors = ["nathan"]
-
-date = 2020-08-18T19:08:58-04:00
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot optimization"]
-+++
+---
+author: razoric
+coAuthors:
+- nathan
+date: "2020-08-18T19:08:58-04:00"
+description: A list of tips to write faster GDScript code in Godot.
+difficulty: intermediate
+keywords:
+- gdscript optimization tutorial
+- godot code optimizing
+- godot optimization
+title: Optimizing GDScript code
+weight: 5
+---
 
 Some code optimizations are universal across most programming languages. Some are specific to GDScript.
 

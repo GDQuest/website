@@ -1,19 +1,24 @@
-+++
-aliases = ["/post/2019/12/godot-3d-course-ea/"]
-title = "Code a Professional 3D Character with Godot: Early Access"
-description = "Our first 3D course for Godot 3.2 will teach you how to code a professional game character."
-author = "nathan"
-
-date = 2019-12-24T11:28:06+01:00
-weight = 5
-
-categories = ["news"]
-keywords = ["gdquest", "godot", "3d", "godot course", "mavenseed"]
-
-[[resources]]
-name = "banner"
-src = "Professional-3D-Character-800w.png"
-+++
+---
+aliases:
+- /post/2019/12/godot-3d-course-ea/
+author: nathan
+categories:
+- news
+date: "2019-12-24T11:28:06+01:00"
+description: Our first 3D course for Godot 3.2 will teach you how to code a professional
+  game character.
+keywords:
+- gdquest
+- godot
+- 3d
+- godot course
+- mavenseed
+resources:
+- name: banner
+  src: Professional-3D-Character-800w.png
+title: 'Code a Professional 3D Character with Godot: Early Access'
+weight: 5
+---
 
 We made a course to create a third-person game character in Godot. It is based on our [Free and Open-Source 3D mannequin](//github.com/GDQuest/godot-3d-mannequin).
 

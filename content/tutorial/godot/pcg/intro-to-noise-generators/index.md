@@ -1,15 +1,17 @@
-+++
-title = "Intro to procedural noise"
-description = "Noise generators are the bread and butter of procedural content generation. What are they exactly? That's what you'll learn in this tutorial."
-author = "nathan"
-
-date = 2021-01-30
-weight = 5
-draft = true
-
-difficulty = "beginner"
-keywords = ["godot pcg tutorial", "godot noise", "godot procedural generation"]
-+++
+---
+author: nathan
+date: "2021-01-30T00:00:00-06:00"
+description: Noise generators are the bread and butter of procedural content generation.
+  What are they exactly? That's what you'll learn in this tutorial.
+difficulty: beginner
+draft: true
+keywords:
+- godot pcg tutorial
+- godot noise
+- godot procedural generation
+title: Intro to procedural noise
+weight: 5
+---
 
 In this lesson, we will talk about noise in procedural generation and the ways we can use it to generate object positions in Godot.
 

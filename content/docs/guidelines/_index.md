@@ -1,11 +1,9 @@
-+++
-title = "Guidelines"
-
-chapter = true
-
-date = 2019-12-09T11:02:00+02:00
-weight = 2
-+++
+---
+chapter: true
+date: "2019-12-09T11:02:00+02:00"
+title: Guidelines
+weight: 2
+---
 
 # Guidelines
 

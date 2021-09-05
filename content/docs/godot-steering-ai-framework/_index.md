@@ -1,11 +1,13 @@
-+++
-date = "2020-02-02T00:00:00+00:00"
-title = "Godot Steering AI Framework"
-description = "A free and open-source framework to create smart AI agents for your Godot games, in both 2D and in 3D."
-weight = 5
-chapter = false
-aliases = ["/docs/godot-steering-toolkit/"]
-+++
+---
+aliases:
+- /docs/godot-steering-toolkit/
+chapter: false
+date: "2020-02-02T00:00:00+00:00"
+description: A free and open-source framework to create smart AI agents for your Godot
+  games, in both 2D and in 3D.
+title: Godot Steering AI Framework
+weight: 5
+---
 
 ![Project banner, displaying arrows following a dotted path](godot-steering-ai-framework-banner.svg)
 

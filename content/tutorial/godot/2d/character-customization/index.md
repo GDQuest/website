@@ -1,15 +1,15 @@
-+++
-title = "Character Customization"
-description = "Create a menu to customize your character's look in-game."
-author = "azagaya"
-coAuthors = ["nathan"]
-
-date = 2020-09-30T19:22:42-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["customization"]
-+++
+---
+author: azagaya
+coAuthors:
+- nathan
+date: "2020-09-30T19:22:42-03:00"
+description: Create a menu to customize your character's look in-game.
+difficulty: beginner
+keywords:
+- customization
+title: Character Customization
+weight: 5
+---
 
 In this tutorial, you will learn how to customize a character through a GUI and see real-time results. By the end, you will be able to customize the character's hat, the head, and sunglasses.
 

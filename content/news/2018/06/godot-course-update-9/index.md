@@ -1,18 +1,19 @@
-+++
-aliases = ["/post/2018/06/godot-course-update-9/"]
-author = "nathan"
-categories = ["news"]
-date = "2018-06-30T15:39:19+09:00"
-description = "With two hours of extra hard tutorials dedicated to particles, this month's update will show you how to create appealing visual effects from scratch."
-title = "Godot course release 9: particles!"
-
-[[resources]]
-  name = "banner"
-  src = "godot-course-release-9-banner.png"
-  [resources.params]
-    alt = "Godot course update 9 banner, fireball flying over a purple abstract background"
-
-+++
+---
+aliases:
+- /post/2018/06/godot-course-update-9/
+author: nathan
+categories:
+- news
+date: "2018-06-30T15:39:19+09:00"
+description: With two hours of extra hard tutorials dedicated to particles, this month's
+  update will show you how to create appealing visual effects from scratch.
+resources:
+- name: banner
+  params:
+    alt: Godot course update 9 banner, fireball flying over a purple abstract background
+  src: godot-course-release-9-banner.png
+title: 'Godot course release 9: particles!'
+---
 
 This month's update adds **2 hours of tutorials** dedicated to particles! There are now over **70 video tutorials** in the course's [Pro version](//gumroad.com/l/godot-tutorial-make-professional-2d-games).
 

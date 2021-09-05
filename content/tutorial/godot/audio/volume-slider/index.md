@@ -1,16 +1,19 @@
-+++
-title = "Volume Slider"
-description = "Learn how to control audio volume through a slider interface"
-author = "henrique"
-
-date = 2020-07-18T10:12:43-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["godot audio", "audio settings", "godot music", "godot sound effects", "godot interface"]
-
-coAuthors = ["nathan"]
-+++
+---
+author: henrique
+coAuthors:
+- nathan
+date: "2020-07-18T10:12:43-03:00"
+description: Learn how to control audio volume through a slider interface
+difficulty: beginner
+keywords:
+- godot audio
+- audio settings
+- godot music
+- godot sound effects
+- godot interface
+title: Volume Slider
+weight: 5
+---
 
 Let's see how to let players control your game's audio volume with sliders. You can use that in your game's audio settings, both on desktop and mobile platforms.
 

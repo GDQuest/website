@@ -1,17 +1,22 @@
-+++
-aliases = ["/post/2020/01/2d-platformer-demo-rework/"]
-author = "johnny"
-categories = ["news"]
-date = 2020-01-29T12:00:00+00:00
-description = "We've finished up reworking the official 2D Platformer demo using our code guidelines. Take a look at what we changed and why."
-weight = 5
-keywords = ["gdquest", "godot engine", "learn godot"]
-title = "We Remade the Official Godot 2D Platformer Demo"
-
-[[resources]]
-name = "banner"
-src = "img/banner.png"
-+++
+---
+aliases:
+- /post/2020/01/2d-platformer-demo-rework/
+author: johnny
+categories:
+- news
+date: "2020-01-29T12:00:00Z"
+description: We've finished up reworking the official 2D Platformer demo using our
+  code guidelines. Take a look at what we changed and why.
+keywords:
+- gdquest
+- godot engine
+- learn godot
+resources:
+- name: banner
+  src: img/banner.png
+title: We Remade the Official Godot 2D Platformer Demo
+weight: 5
+---
 
 We’ve finished making changes to the **official 2D platformer demo**! 
 

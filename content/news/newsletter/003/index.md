@@ -1,14 +1,13 @@
-+++
-title = "GDQuest weekly #3"
-date = 2020-08-07
-author = "nathan"
-description = "This week, get new procedural generation algorithms, Godot tutorials, and a glimpse of our upcoming Kickstarter!"
-
-weight = 5
-
-[banner]
-src = "/img/newsletter-banner.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/newsletter-banner.png
+date: "2020-08-07T00:00:00-06:00"
+description: This week, get new procedural generation algorithms, Godot tutorials,
+  and a glimpse of our upcoming Kickstarter!
+title: 'GDQuest weekly #3'
+weight: 5
+---
 
 This week, I'm coming to you with:
 

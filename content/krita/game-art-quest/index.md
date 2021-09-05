@@ -1,8 +1,12 @@
-+++
-aliases = ["/game-art-quest/", "/game-art-quest/roadmap/", "/krita-tutorial/", "/krita/game_art_quest"]
-small = "Krita tutorial series for game artists"
-title = "Krita"
-+++
+---
+aliases:
+- /game-art-quest/
+- /game-art-quest/roadmap/
+- /krita-tutorial/
+- /krita/game_art_quest
+small: Krita tutorial series for game artists
+title: Krita
+---
 
 ## Free Krita tutorial for game artists
 

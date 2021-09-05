@@ -1,17 +1,15 @@
- +++
-title = "We are hiring a full-time Godot assistant tutor"
-description = "We're recruiting a freelance professional tutor for full-time work."
-author = "nathan"
-
-date = 2021-04-15
-weight = 5
-
-categories = ["news"]
-
-[[resources]]
-name = "banner"
-src = "typer.jpg"
-+++
+---
+author: nathan
+categories:
+- news
+date: "2021-04-15T00:00:00-06:00"
+description: We're recruiting a freelance professional tutor for full-time work.
+resources:
+- name: banner
+  src: typer.jpg
+title: We are hiring a full-time Godot assistant tutor
+weight: 5
+---
 
 {{% warning %}}
 **We're not taking applications for this job anymore.**

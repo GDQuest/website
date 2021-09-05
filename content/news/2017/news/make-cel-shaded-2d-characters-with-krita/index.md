@@ -1,19 +1,26 @@
-+++
-aliases = ["/post/2017/news/make-cel-shaded-2d-characters-with-krita/"]
-author = "nathan"
-category = ["news"]
-date = "2017-05-04T08:42:22+02:00"
-description = "The second Krita game art course is out on May 9. Meet Pepper and Carrot, the 2 heroes of the webcomic by David Revoy, and learn cartoon game art!"
-keywords = ["krita brushes", "anniversary", "update", "gdquest brushes", "sale", "gdquest news"]
-title = "Make Cel Shaded 2d Characters With Krita"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "A stylized painting of Carrot, an orange cat, over a blue background"
-
-+++
+---
+aliases:
+- /post/2017/news/make-cel-shaded-2d-characters-with-krita/
+author: nathan
+category:
+- news
+date: "2017-05-04T08:42:22+02:00"
+description: The second Krita game art course is out on May 9. Meet Pepper and Carrot,
+  the 2 heroes of the webcomic by David Revoy, and learn cartoon game art!
+keywords:
+- krita brushes
+- anniversary
+- update
+- gdquest brushes
+- sale
+- gdquest news
+resources:
+- name: banner
+  params:
+    alt: A stylized painting of Carrot, an orange cat, over a blue background
+  src: banner.jpg
+title: Make Cel Shaded 2d Characters With Krita
+---
 
 The second Krita game art tutorial series is out! Meet Pepper, Carrot, and cel shading. This course is based on the world of Pepper&Carrot, a webcomic under the CCBy 4.0 licence by [David Revoy](//davidrevoy.com/).
 

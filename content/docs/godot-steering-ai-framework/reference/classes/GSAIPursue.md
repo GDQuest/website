@@ -1,9 +1,11 @@
-+++
-title = "GSAIPursue"
-description = "Calculates an acceleration to make an agent intercept another based on the\ntarget agent's movement."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Calculates an acceleration to make an agent intercept another based on the
+  target agent's movement.
+title: GSAIPursue
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

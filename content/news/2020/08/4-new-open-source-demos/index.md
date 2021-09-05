@@ -1,14 +1,13 @@
-+++
-title = "We Made 4 More Open-Source Godot Demos and 7 Tutorials"
-description = "During the Godot 2D Secrets Kickstarter campaign, we made Free game demos, tutorials, and videos. Here are all the links and what we'll do next."
-author = "nathan"
-
-date = 2020-08-28
-weight = 5
-
-[banner]
-src = "/img/product/godot/2d-secrets.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/product/godot/2d-secrets.png
+date: "2020-08-28T00:00:00-06:00"
+description: During the Godot 2D Secrets Kickstarter campaign, we made Free game demos,
+  tutorials, and videos. Here are all the links and what we'll do next.
+title: We Made 4 More Open-Source Godot Demos and 7 Tutorials
+weight: 5
+---
 
 During the [Godot 2D Secrets Kickstarter](https://www.kickstarter.com/projects/gdquest/godot-2d-secrets-level-up-your-game-creation-skills) campaign, we worked hard to revitalize our YouTube channel, write new tutorials, and code new game demos in preparation for the course.
 

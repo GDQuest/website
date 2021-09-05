@@ -1,16 +1,18 @@
-+++
-title = "Choosing the right save game format"
-menuTitle = "Save formats"
-description = ""
-author = "razoric"
-coAuthor = ["nathan"]
-
-date = 2021-03-30
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot best practices", "godot save", "godot save game"]
-+++
+---
+author: razoric
+coAuthor:
+- nathan
+date: "2021-03-30T00:00:00-06:00"
+description: ""
+difficulty: intermediate
+keywords:
+- godot best practices
+- godot save
+- godot save game
+menuTitle: Save formats
+title: Choosing the right save game format
+weight: 5
+---
 
 Frequently, we see questions come up about saving the player's game data. The questions are often about what that file should look like.
 

@@ -1,19 +1,27 @@
-+++
-aliases = ["/post/2018/01/godot-course-update-4/"]
-author = "nathan"
-categories = ["news"]
-date = "2018-02-01T13:25:29+01:00"
-description = "The 4th update of the course is out! It concludes chapters 1 and 8, and brings a new series dedicated to tilesets."
-keywords = ["gdquest", "godot 3", "godot course update", "tilesets", "tilemap", "tiles", "level design"]
-title = "Godot 3 course, tilesets update out!"
-
-[[resources]]
-  name = "banner"
-  src = "banner.png"
-  [resources.params]
-    alt = "Godot course update 4 banner showing characters on a tiles-based map"
-
-+++
+---
+aliases:
+- /post/2018/01/godot-course-update-4/
+author: nathan
+categories:
+- news
+date: "2018-02-01T13:25:29+01:00"
+description: The 4th update of the course is out! It concludes chapters 1 and 8, and
+  brings a new series dedicated to tilesets.
+keywords:
+- gdquest
+- godot 3
+- godot course update
+- tilesets
+- tilemap
+- tiles
+- level design
+resources:
+- name: banner
+  params:
+    alt: Godot course update 4 banner showing characters on a tiles-based map
+  src: banner.png
+title: Godot 3 course, tilesets update out!
+---
 
 The 4th update of the [Godot 3 course](//gumroad.com/l/godot-tutorial-make-professional-2d-games) is out! It includes the new tilesets and tilemap chapter, along with new videos to flesh out chapter *01.The character controller* and chapter *08.Game pre-production*.
 

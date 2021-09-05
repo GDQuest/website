@@ -1,12 +1,12 @@
-+++
-title = "Become a developer in only 30 minutes a day"
-menuTitle = "30-minute practice"
-author = "nathan"
-date = 2021-02-14
-description = "With Mike Acton's unique practice routine for developers, you can greatly accelerate your learning. Here's how."
-
-weight = 10
-+++
+---
+author: nathan
+date: "2021-02-14T00:00:00-06:00"
+description: With Mike Acton's unique practice routine for developers, you can greatly
+  accelerate your learning. Here's how.
+menuTitle: 30-minute practice
+title: Become a developer in only 30 minutes a day
+weight: 10
+---
 
 With Mike Acton's [unique practice routine](https://medium.com/@mike_acton/12-tips-for-making-the-best-use-of-your-time-909be33398b4) for developers, you can greatly accelerate your learning.
 

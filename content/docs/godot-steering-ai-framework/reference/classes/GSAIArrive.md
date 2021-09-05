@@ -1,9 +1,11 @@
-+++
-title = "GSAIArrive"
-description = "Calculates acceleration to take an agent to its target's location. The\ncalculation attempts to arrive with zero remaining velocity."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Calculates acceleration to take an agent to its target's location. The
+  calculation attempts to arrive with zero remaining velocity.
+title: GSAIArrive
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

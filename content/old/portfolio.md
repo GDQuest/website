@@ -1,6 +1,6 @@
-+++
-title = "Portfolio"
-type = "redirect"
-redirect = "//gdquest.com"
-url = "/game-design-portfolio"
-+++
+---
+redirect: //gdquest.com
+title: Portfolio
+type: redirect
+url: /game-design-portfolio
+---

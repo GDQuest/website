@@ -1,12 +1,10 @@
-+++
-title = "Learn the secrets of Godot's nodes!"
-description = "Get a shortcut to learn areas, rich text labels, and viewports in Godot."
-author = "nathan"
-
-date = 2021-07-14
-
-url = "node-essentials-guides"
-+++
+---
+author: nathan
+date: "2021-07-14T00:00:00-06:00"
+description: Get a shortcut to learn areas, rich text labels, and viewports in Godot.
+title: Learn the secrets of Godot's nodes!
+url: node-essentials-guides
+---
 
 ![](images/node-essentials-banner.png)
 

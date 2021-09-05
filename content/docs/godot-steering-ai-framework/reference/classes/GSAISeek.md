@@ -1,9 +1,11 @@
-+++
-title = "GSAISeek"
-description = "Calculates an acceleration to take an agent to a target agent's position\ndirectly."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Calculates an acceleration to take an agent to a target agent's position
+  directly.
+title: GSAISeek
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

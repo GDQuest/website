@@ -1,16 +1,19 @@
-+++
-title = "Getting started with debugging in Godot"
-description = "Learn how to debug your project in Godot with the debugger"
-author = "razoric"
-coAuthors = ["nathan"]
-menuTitle = "Debugging basics"
-
-date = 2020-08-17T13:19:24-04:00
-weight = 3
-
-difficulty = "beginner"
-keywords = ["godot debugging tutorial", "gdscript debugging", "debug gdscript", "debug godot"]
-+++
+---
+author: razoric
+coAuthors:
+- nathan
+date: "2020-08-17T13:19:24-04:00"
+description: Learn how to debug your project in Godot with the debugger
+difficulty: beginner
+keywords:
+- godot debugging tutorial
+- gdscript debugging
+- debug gdscript
+- debug godot
+menuTitle: Debugging basics
+title: Getting started with debugging in Godot
+weight: 3
+---
 
 Is your code full of `print()` calls like this?
 

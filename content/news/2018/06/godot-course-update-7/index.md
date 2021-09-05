@@ -1,20 +1,28 @@
-+++
-aliases = ["/post/2018/06/godot-course-update-7/"]
-author = "nathan"
-categories = ["news"]
-date = "2018-06-01T18:19:32+09:00"
-description = "Like every month, the Godot 3 course got a new chapter. This time it's dedicated to boss creation, the State programming patterns and all the techniques you'll need to create a convincing pattern-based boss in Godot."
-keywords = ["gdquest", "godot 3", "godot course update", "gamedev", "boss godot", "godot game engine"]
-title = "Godot 3 course: the boss chapter is out!"
-type = "post"
-
-[[resources]]
-  name = "banner"
-  src = "2018-05-release-8.png"
-  [resources.params]
-    alt = "Godot course update 8 banner, with a large blue pig on a green background"
-
-+++
+---
+aliases:
+- /post/2018/06/godot-course-update-7/
+author: nathan
+categories:
+- news
+date: "2018-06-01T18:19:32+09:00"
+description: Like every month, the Godot 3 course got a new chapter. This time it's
+  dedicated to boss creation, the State programming patterns and all the techniques
+  you'll need to create a convincing pattern-based boss in Godot.
+keywords:
+- gdquest
+- godot 3
+- godot course update
+- gamedev
+- boss godot
+- godot game engine
+resources:
+- name: banner
+  params:
+    alt: Godot course update 8 banner, with a large blue pig on a green background
+  src: 2018-05-release-8.png
+title: 'Godot 3 course: the boss chapter is out!'
+type: post
+---
 
 In this month's update you get one new chapter in the course. This is the hardest and probably the biggest series I made so far: chapter 5 is dedicated to boss creation.
 

@@ -1,14 +1,13 @@
-+++
-author = "nathan"
-date = "2020-06-24T16:34:04Z"
-title = "Make the AI follow the leader"
-menuTitle = "Follow a leader"
-description = "Make the AI agent follow another agent from a distance using the arrive to steering behavior."
-weight = 4
-
-type = "video"
-
-videoId = "v4AfmliVhlM"
-videoDuration = 763
-+++
+---
+author: nathan
+date: "2020-06-24T16:34:04Z"
+description: Make the AI agent follow another agent from a distance using the arrive
+  to steering behavior.
+menuTitle: Follow a leader
+title: Make the AI follow the leader
+type: video
+videoDuration: 763
+videoId: v4AfmliVhlM
+weight: 4
+---
 

@@ -1,15 +1,18 @@
-+++
-author = "henrique"
-date = 2020-06-30
-description = ""
-title = "Create an Animated Starfield in Godot"
-weight = "5"
-keywords = ["godot particles tutorial", "godot stars", "starfield", "godot background particles"]
-tags = []
-difficulty = "beginner"
-menuTitle = "2D Starfield"
-
-+++
+---
+author: henrique
+date: "2020-06-30T00:00:00-06:00"
+description: ""
+difficulty: beginner
+keywords:
+- godot particles tutorial
+- godot stars
+- starfield
+- godot background particles
+menuTitle: 2D Starfield
+tags: []
+title: Create an Animated Starfield in Godot
+weight: "5"
+---
 
 To give your game worlds some depth and appeal, you want to add some life to the background. Particles can be a good option to achieve effects like falling leaves, rain, and twinkling stars.
 

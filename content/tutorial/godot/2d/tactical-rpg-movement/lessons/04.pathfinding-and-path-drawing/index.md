@@ -1,10 +1,11 @@
-+++
-title = "Pathfinding and path drawing"
-author = "nathan"
-date = "2021-01-30"
-description = "We use the AStar pathfinding algorithm to set up pathfinding on our game grid."
-weight = 5
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We use the AStar pathfinding algorithm to set up pathfinding on our game
+  grid.
+title: Pathfinding and path drawing
+weight: 5
+---
 
 In this lesson, we will create a `PathFinder` class that extends Godot's built-in `AStar2D`, an implementation of the AStar pathfinding algorithm. 
 

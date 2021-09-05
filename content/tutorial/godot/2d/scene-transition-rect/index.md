@@ -1,15 +1,18 @@
-+++
-title = "Scene Transitions"
-description = "Learn how to make smooth scene transitions in Godot"
-author = "henrique"
-coAuthors = ["johnny"]
-
-date = 2020-07-22T16:10:18-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["transition", "scene change", "load scene", "tutorial"]
-+++
+---
+author: henrique
+coAuthors:
+- johnny
+date: "2020-07-22T16:10:18-03:00"
+description: Learn how to make smooth scene transitions in Godot
+difficulty: beginner
+keywords:
+- transition
+- scene change
+- load scene
+- tutorial
+title: Scene Transitions
+weight: 5
+---
 
 _Scenes_ are the building blocks of game development with Godot Engine. They can be simple props, whole levels, or even the entire game world. It's common to have each level or screen saved as an individual _PackedScene_ and use the [`SceneTree.change_to`](https://docs.godotengine.org/en/stable/classes/class_scenetree.html#class-scenetree-method-change-scene) method to transition between them. Here's a quick tip to prevent breaking immersion when transitioning between scenes: make transitions!
 

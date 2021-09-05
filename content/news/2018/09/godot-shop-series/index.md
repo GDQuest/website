@@ -1,18 +1,31 @@
-+++
-aliases = ["/post/2018/09/godot-shop-series/"]
-title = "The Shop Course Series is Out Now"
-author = "nathan"
-description = "Learn to create a shop for all kinds of games! This course builds upon the inventory and the game interface series to help you go even further with Godot's UI system."
-
-date = "2018-09-01T08:18:06+09:00"
-
-categories = ["news"]
-keywords = ["Godot user interface tutorial", "Godot engine ui", "Godot control tutorial", "Godot ui tutorial", "Godot interface tutorial", "Godot inventory tutorial", "Godot lifebar tutorial", "Godot game engine", "Godot 3 course", "game design", "Godot 3", "gdquest"]
-
-[[resources]]
-src = "banner.png"
-name = "banner"
-+++
+---
+aliases:
+- /post/2018/09/godot-shop-series/
+author: nathan
+categories:
+- news
+date: "2018-09-01T08:18:06+09:00"
+description: Learn to create a shop for all kinds of games! This course builds upon
+  the inventory and the game interface series to help you go even further with Godot's
+  UI system.
+keywords:
+- Godot user interface tutorial
+- Godot engine ui
+- Godot control tutorial
+- Godot ui tutorial
+- Godot interface tutorial
+- Godot inventory tutorial
+- Godot lifebar tutorial
+- Godot game engine
+- Godot 3 course
+- game design
+- Godot 3
+- gdquest
+resources:
+- name: banner
+  src: banner.png
+title: The Shop Course Series is Out Now
+---
 
 This month's course update wraps up the UI arc of the project. With 3 chapters, it's more content than initially planned (_a recurring theme at this point_), hopefully for the better 😉
 

@@ -1,24 +1,26 @@
-+++
-author = "nathan"
-coAuthors = ["razoric", "henrique", "razvan"]
-title = "Make your First 2D Game with Godot"
-menuTitle = "Your First 2D Game"
-description = "Learn to create your first 2D game with Godot, from scratch."
-date = "2020-06-22"
-
-weight = 1
-
-difficulty = "beginner"
-type = "course"
-programVersion = "3.1"
-
-keywords = ["2D", "beginner", "godot course", "getting started"]
-
-[[resources]]
-name = "banner"
-src = "your-first-2d-game-banner.png"
-
-+++
+---
+author: nathan
+coAuthors:
+- razoric
+- henrique
+- razvan
+date: "2020-06-22"
+description: Learn to create your first 2D game with Godot, from scratch.
+difficulty: beginner
+keywords:
+- 2D
+- beginner
+- godot course
+- getting started
+menuTitle: Your First 2D Game
+programVersion: "3.1"
+resources:
+- name: banner
+  src: your-first-2d-game-banner.png
+title: Make your First 2D Game with Godot
+type: course
+weight: 1
+---
 
 This completely free course will help you learn to create games with the Godot game engine from zero.
 

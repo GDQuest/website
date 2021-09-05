@@ -1,15 +1,16 @@
-+++
-title = "Zooming with the mouse wheel"
-description = "Learn how to implement a camera with smooth zoom."
-author = "raformatico"
-coAuthors = ["nathan"]
-
-date = 2020-10-06
-weight = 5
-
-difficulty = "beginner"
-keywords = ["godot camera zoom", "godot smooth zoom"]
-+++
+---
+author: raformatico
+coAuthors:
+- nathan
+date: "2020-10-06T00:00:00-06:00"
+description: Learn how to implement a camera with smooth zoom.
+difficulty: beginner
+keywords:
+- godot camera zoom
+- godot smooth zoom
+title: Zooming with the mouse wheel
+weight: 5
+---
 
 In this tutorial, you will learn to make a camera zoom smoothly in 2D using tween animation. We will code a camera that can zoom using the mouse wheel with a minimum and maximum zoom level.
 

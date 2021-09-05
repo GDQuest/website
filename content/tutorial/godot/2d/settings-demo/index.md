@@ -1,15 +1,16 @@
-+++
-title = "Game Settings"
-description = "Create an interface to edit video settings at runtime."
-author = "azagaya"
-coAuthors = ["johnny", "nathan"]
-
-date = 2020-10-13T17:56:45-03:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["settings"]
-+++
+---
+author: azagaya
+coAuthors:
+- johnny
+- nathan
+date: "2020-10-13T17:56:45-03:00"
+description: Create an interface to edit video settings at runtime.
+difficulty: beginner
+keywords:
+- settings
+title: Game Settings
+weight: 5
+---
 
 In this tutorial, you will learn how to edit video settings in run-time. By the end, you will be able to change the **resolution** of the game, toggle **vsync**, and choose between **fullscreen** and windowed mode.
 

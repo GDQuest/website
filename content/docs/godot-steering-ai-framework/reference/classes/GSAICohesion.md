@@ -1,9 +1,11 @@
-+++
-title = "GSAICohesion"
-description = "Calculates an acceleration that attempts to move the agent towards the center\nof mass of the agents in the area defined by the `GSAIProximity`."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Calculates an acceleration that attempts to move the agent towards the center
+  of mass of the agents in the area defined by the `GSAIProximity`.
+title: GSAICohesion
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

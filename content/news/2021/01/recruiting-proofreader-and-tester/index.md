@@ -1,17 +1,16 @@
- +++
-title = "We are looking for a proofreader and a tutorial tester"
-description = "We're recruiting a freelance professional proofreader and a tester for part-time work."
-author = "nathan"
-
-date = 2021-04-02
-weight = 5
-
-categories = ["news"]
-
-[[resources]]
-name = "banner"
-src = "proofreader-job-posting-banner.jpg"
-+++
+---
+author: nathan
+categories:
+- news
+date: "2021-04-02T00:00:00-06:00"
+description: We're recruiting a freelance professional proofreader and a tester for
+  part-time work.
+resources:
+- name: banner
+  src: proofreader-job-posting-banner.jpg
+title: We are looking for a proofreader and a tutorial tester
+weight: 5
+---
 
 {{% warning %}}
 **We're not taking applications for this job anymore.**

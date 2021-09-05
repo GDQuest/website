@@ -1,15 +1,22 @@
-+++
-aliases = ["/post/2016/krita/recommended-graphic-tablets/", "/post/recommended-graphic-tablets/"]
-
-author = "nathan"
-category = ["Hardware"]
-date = "2016-03-23T10:08:53+01:00"
-description = "On this page, you can find a list of the graphic tablets I recommend for Game Art Quest. Flat tablets are perfect for everyone to start with at a low price, while screen tablets are a better fit if you do a lot of line work."
-keywords = ["graphic tablet", "Wacom", "Huion", "Monoprice"]
-title = "Recommended graphic tablets"
-type = "post"
-
-+++
+---
+aliases:
+- /post/2016/krita/recommended-graphic-tablets/
+- /post/recommended-graphic-tablets/
+author: nathan
+category:
+- Hardware
+date: "2016-03-23T10:08:53+01:00"
+description: On this page, you can find a list of the graphic tablets I recommend
+  for Game Art Quest. Flat tablets are perfect for everyone to start with at a low
+  price, while screen tablets are a better fit if you do a lot of line work.
+keywords:
+- graphic tablet
+- Wacom
+- Huion
+- Monoprice
+title: Recommended graphic tablets
+type: post
+---
 
 
 <img src="/img/post/hardware/huion-vs-wacom.jpg" alt="Huion vs Wacom graphic tablet banner" class="img-responsive" />

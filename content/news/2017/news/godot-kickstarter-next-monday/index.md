@@ -1,19 +1,26 @@
-+++
-aliases = ["/post/2017/news/godot-kickstarter-next-monday/"]
-author = "nathan"
-category = ["news"]
-date = "2017-05-09T09:18:18+02:00"
-description = "It's happening! On Monday, May 22, GDQuest will be on Kickstarter to fund the first professional game creation course for Godot 3!"
-keywords = ["gdquest", "godot game engine", "game creation", "kickstarter", "crowdfunding"]
-title = "Godot Course Kickstarter Next Monday"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "A diagram showing the condition 'hit', linked to the word 'damage', next to the Godot engine and Kickstarter logos"
-
-+++
+---
+aliases:
+- /post/2017/news/godot-kickstarter-next-monday/
+author: nathan
+category:
+- news
+date: "2017-05-09T09:18:18+02:00"
+description: It's happening! On Monday, May 22, GDQuest will be on Kickstarter to
+  fund the first professional game creation course for Godot 3!
+keywords:
+- gdquest
+- godot game engine
+- game creation
+- kickstarter
+- crowdfunding
+resources:
+- name: banner
+  params:
+    alt: A diagram showing the condition 'hit', linked to the word 'damage', next
+      to the Godot engine and Kickstarter logos
+  src: banner.jpg
+title: Godot Course Kickstarter Next Monday
+---
 
 Do you want to become a better game developer? Gdquest will be on Kickstarter next week, to fund the creation of a game creation course for the new Godot game engine. More precisely for Godot 3, which will be out this summer!
 

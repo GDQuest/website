@@ -1,16 +1,25 @@
-+++
-aliases = ["/post/2019/03/godot-ks-get-your-rewards/"]
-author = "nathan"
-categories = ["news"]
-date = 2019-03-06T10:23:08+09:00
-description = "You will receive your rewards via email as we release courses and tutorials in early access. Here's our guide on how to find and unlock your access on Gumroad."
-keywords = ["gdquest", "godot kickstarter", "gdquest kickstarter", "crowdfunding", "godot game engine", "godot course", "faq"]
-title = "How to get your Kickstarter rewards"
-
-[[resources]]
-name = "banner"
-src = "banner.jpg"
-+++
+---
+aliases:
+- /post/2019/03/godot-ks-get-your-rewards/
+author: nathan
+categories:
+- news
+date: "2019-03-06T10:23:08+09:00"
+description: You will receive your rewards via email as we release courses and tutorials
+  in early access. Here's our guide on how to find and unlock your access on Gumroad.
+keywords:
+- gdquest
+- godot kickstarter
+- gdquest kickstarter
+- crowdfunding
+- godot game engine
+- godot course
+- faq
+resources:
+- name: banner
+  src: banner.jpg
+title: How to get your Kickstarter rewards
+---
 
 **To get all your rewards, please add our email to your address book!** Otherwise, your reward emails may land in the spam box. It's `nathan [at] gdquest`.com.
 

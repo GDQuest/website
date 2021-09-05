@@ -1,16 +1,25 @@
-+++
-aliases = ["/post/2019/02/kickstarter_stretch_goals_funded/"]
-author = "nathan"
-categories = ["news"]
-date = 2019-02-06T10:23:08+09:00
-description = "The Kickstarter got past 28,000€ this morning, so we will create the Godot 3.1 new features official series! There's a little over 2 days left to support us and get the new course."
-keywords = ["gdquest", "godot kickstarter", "gdquest kickstarter", "crowdfunding", "godot game engine", "godot course"]
-title = "You unlocked all the stretch goals!"
-
-[[resources]]
-name = "banner"
-src = "banner.jpg"
-+++
+---
+aliases:
+- /post/2019/02/kickstarter_stretch_goals_funded/
+author: nathan
+categories:
+- news
+date: "2019-02-06T10:23:08+09:00"
+description: The Kickstarter got past 28,000€ this morning, so we will create the
+  Godot 3.1 new features official series! There's a little over 2 days left to support
+  us and get the new course.
+keywords:
+- gdquest
+- godot kickstarter
+- gdquest kickstarter
+- crowdfunding
+- godot game engine
+- godot course
+resources:
+- name: banner
+  src: banner.jpg
+title: You unlocked all the stretch goals!
+---
 
 
 There's two days left to wrap up the campaign. With over 28,000€ in pledges already, taking PayPal into account, you unlocked all stretch goals! We're blessed to have such a supportive community. 🙂

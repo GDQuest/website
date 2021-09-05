@@ -1,17 +1,15 @@
- +++
-title = "How Much We Earned in 2020, Our Goals in 2021"
-description = "The past year in review and what we hope to achieve this year."
-author = "nathan"
-
-date = 2021-01-31T08:49:29-06:00
-weight = 5
-
-categories = ["news"]
-
-[[resources]]
-name = "banner"
-src = "2020-in-review.jpg"
-+++
+---
+author: nathan
+categories:
+- news
+date: "2021-01-31T08:49:29-06:00"
+description: The past year in review and what we hope to achieve this year.
+resources:
+- name: banner
+  src: 2020-in-review.jpg
+title: How Much We Earned in 2020, Our Goals in 2021
+weight: 5
+---
 
 2020 has been a tough year for everyone, having to stay so much at home with the pandemic.
 

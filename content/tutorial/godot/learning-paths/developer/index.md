@@ -1,22 +1,21 @@
-+++
-title = "Make Games with Godot: Developer Edition"
-menuTitle = "Developer Edition"
-description = "This free guide is a curated list of free resources that help with transitioning to Godot - the Free and Open Source game engine."
-author = "razvan"
-date = "2019-11-11 09:47:26+0200"
-weight = 2
-aliases = [ 
-  "/open-source/guides/learn-godot/developer/",
-  "/tutorial/godot/learning-paths/developer/",
-  "/tutorial/redirect/guide/developer/",
-  "/docs/guides/learn-godot/developer/"
-]
-difficulty = "intermediate"
-
-[[resources]]
-name = "banner"
-src = "banner.png"
-+++
+---
+aliases:
+- /open-source/guides/learn-godot/developer/
+- /tutorial/godot/learning-paths/developer/
+- /tutorial/redirect/guide/developer/
+- /docs/guides/learn-godot/developer/
+author: razvan
+date: 2019-11-11 09:47:26+0200
+description: This free guide is a curated list of free resources that help with transitioning
+  to Godot - the Free and Open Source game engine.
+difficulty: intermediate
+menuTitle: Developer Edition
+resources:
+- name: banner
+  src: banner.png
+title: 'Make Games with Godot: Developer Edition'
+weight: 2
+---
 
 We gathered a curated list of resources to make your life easier if you want to get started with Godot. This guide is for experienced developers, or game developers coming from a different game engine.
 

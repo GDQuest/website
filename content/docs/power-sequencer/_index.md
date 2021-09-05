@@ -1,14 +1,13 @@
-+++
-title = "Blender Power Sequencer"
-description = "The Free Blender add-on for video editors"
-
-date = "2018-01-04T19:46:48+01:00"
-
-chapter = false
-
-weight = 5
-aliases = ["/blender/power-sequencer/", "/docs/documentation/power-sequencer"]
-+++
+---
+aliases:
+- /blender/power-sequencer/
+- /docs/documentation/power-sequencer
+chapter: false
+date: "2018-01-04T19:46:48+01:00"
+description: The Free Blender add-on for video editors
+title: Blender Power Sequencer
+weight: 5
+---
 
 ![Banner image](blender-power-sequencer-banner.svg)
 

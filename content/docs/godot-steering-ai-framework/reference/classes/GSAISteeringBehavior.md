@@ -1,9 +1,16 @@
-+++
-title = "GSAISteeringBehavior"
-description = "Base class for all steering behaviors.\n\nSteering behaviors calculate the linear and the angular acceleration to be\nto the agent that owns them.\n\nThe `calculate_steering` function is the entry point for all behaviors.\nIndividual steering behaviors encapsulate the steering logic."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Base class for all steering behaviors.
+
+  Steering behaviors calculate the linear and the angular acceleration to be
+  to the agent that owns them.
+
+  The `calculate_steering` function is the entry point for all behaviors.
+  Individual steering behaviors encapsulate the steering logic.
+title: GSAISteeringBehavior
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

@@ -1,9 +1,9 @@
-+++
-title = "GSAIGroupBehavior"
-description = "Base type for group-based steering behaviors."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: Base type for group-based steering behaviors.
+title: GSAIGroupBehavior
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

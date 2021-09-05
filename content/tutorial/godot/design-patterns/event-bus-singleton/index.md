@@ -1,15 +1,17 @@
-+++
-title = "The Events bus singleton"
-menuTitle = "Event bus singleton"
-description = ""
-author = "nathan"
-
-date = 2021-03-30
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot design patterns", "godot event bus", "godot signals", "godot global signals"]
-+++
+---
+author: nathan
+date: "2021-03-30T00:00:00-06:00"
+description: ""
+difficulty: intermediate
+keywords:
+- godot design patterns
+- godot event bus
+- godot signals
+- godot global signals
+menuTitle: Event bus singleton
+title: The Events bus singleton
+weight: 5
+---
 
 We use a pattern on almost every project at GDQuest: a singleton that only emits signals.
 

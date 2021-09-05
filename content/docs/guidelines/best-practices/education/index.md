@@ -1,11 +1,12 @@
-+++
-title = "Education in online tutorials"
-description = "This living document contains some notes and insights based on my experience teaching online and face-to-face, and some principles to get ideas across in online education."
-author = "nathan"
-
-date = 2019-12-11T15:52:58+01:00
-weight = 5
-+++
+---
+author: nathan
+date: "2019-12-11T15:52:58+01:00"
+description: This living document contains some notes and insights based on my experience
+  teaching online and face-to-face, and some principles to get ideas across in online
+  education.
+title: Education in online tutorials
+weight: 5
+---
 
 We learn our entire lives, often without realizing it. As a result, learning and teaching can seem like mysterious processes.
 

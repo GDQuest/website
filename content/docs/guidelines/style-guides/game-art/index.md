@@ -1,11 +1,12 @@
-+++
-title = "Game art style guide"
-menuTitle = "Art style guide"
-description = "This document describes an accessible art style to create game art efficiently. This is the style we use in our Godot tutorials."
-author = "henrique"
-date = "2020-02-06"
-weight = 5
-+++
+---
+author: henrique
+date: "2020-02-06"
+description: This document describes an accessible art style to create game art efficiently.
+  This is the style we use in our Godot tutorials.
+menuTitle: Art style guide
+title: Game art style guide
+weight: 5
+---
 
 This document describes an accessible art style to create game art efficiently. This is the style we use in our [Godot tutorials](https://youtu.be/Mc13Z2gboEk). It uses a flat design to make the sprites read well.
 

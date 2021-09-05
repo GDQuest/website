@@ -1,14 +1,15 @@
-+++
-title = "Introduction to GDScript"
-menuTitle = "Getting Started"
-author = "nathan"
-date = "2020-06-22"
-weight = 1
-description = "This tutorial is for programming beginners. It will help you get started with the GDScript programming language."
-difficulty = "beginner"
-type = "video"
-videoid = "UcdwP1Q2UlU"
-+++
+---
+author: nathan
+date: "2020-06-22"
+description: This tutorial is for programming beginners. It will help you get started
+  with the GDScript programming language.
+difficulty: beginner
+menuTitle: Getting Started
+title: Introduction to GDScript
+type: video
+videoid: UcdwP1Q2UlU
+weight: 1
+---
 
 This is a beginner-level presentation to help you understand Godot's GDScript programming language and the essential programming concepts that apply to many languages. This one-hour free lesson explains how things like variables, functions, type hints, and so on work.
 

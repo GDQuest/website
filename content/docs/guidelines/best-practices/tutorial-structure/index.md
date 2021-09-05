@@ -1,11 +1,10 @@
-+++
-title = "Tutorial structure guidelines"
-description = ""
-author = "nathan"
-
-date = 2021-04-09
-weight = 3
-+++
+---
+author: nathan
+date: "2021-04-09T00:00:00-06:00"
+description: ""
+title: Tutorial structure guidelines
+weight: 3
+---
 
 This guide covers our guidelines to structure tutorials well and make them as enjoyable as possible for users.
 

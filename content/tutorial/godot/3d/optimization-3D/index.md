@@ -1,15 +1,15 @@
-+++
-title = "Optimizing a 3D scene"
-description = "Improve your framerate in 3D by optimizing meshes and materials"
-author = "razoric"
-coAuthors = ["nathan"]
-
-date = 2020-08-21T14:22:00-04:00
-weight = 5
-
-difficulty = "beginner"
-keywords = ["tutorial"]
-+++
+---
+author: razoric
+coAuthors:
+- nathan
+date: "2020-08-21T14:22:00-04:00"
+description: Improve your framerate in 3D by optimizing meshes and materials
+difficulty: beginner
+keywords:
+- tutorial
+title: Optimizing a 3D scene
+weight: 5
+---
 
 Rendering in 3D is more complicated than in 2D. Some knowledge of how your engine renders its scenes can make it easier to know why your game slows down.
 

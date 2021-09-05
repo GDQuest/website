@@ -1,9 +1,11 @@
-+++
-title = "GSAIPriority"
-description = "Container for multiple behaviors that returns the result of the first child\nbehavior with non-zero acceleration."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Container for multiple behaviors that returns the result of the first child
+  behavior with non-zero acceleration.
+title: GSAIPriority
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

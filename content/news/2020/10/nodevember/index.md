@@ -1,16 +1,14 @@
-+++
-title = "Nodevember 2020"
-description = "Nodevember is a yearly event to encourage and promote procedural art. Challenge yourself creating art with code and nodes!"
-author = "nathan"
-
-date = 2020-10-31
-weight = 5
-
-[[resources]]
-name = "banner"
-src = "banner.png"
-
-+++
+---
+author: nathan
+date: "2020-10-31T00:00:00-06:00"
+description: Nodevember is a yearly event to encourage and promote procedural art.
+  Challenge yourself creating art with code and nodes!
+resources:
+- name: banner
+  src: banner.png
+title: Nodevember 2020
+weight: 5
+---
 
 _The team behind the Nodevember event contacted us to raise awareness about it after a great start in 2019. We're all invited to challenge ourselves by doing procedural art every day with our favorite tools. You'll find all the details in their press release below._
 

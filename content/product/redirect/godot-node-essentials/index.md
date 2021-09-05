@@ -1,17 +1,18 @@
-+++
-title = "Godot Node Essentials"
-description = "Learn to create professional 2D games with the Godot game engine."
-author = "nathan"
-
-date = 2021-07-15
-publishDate = 2021-07-16
-price = "80$"
-
-type = "redirect"
-redirect = "https://gdquest.mavenseed.com/courses/godot-node-essentials"
-
-keywords = ["godot nodes", "godot cookbook", "godot 3d course", "godot 2d course", "godot ui course"]
-
-[banner]
-src = "/img/tools/godot/banner-godot-node-essentials.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/tools/godot/banner-godot-node-essentials.png
+date: "2021-07-15T00:00:00-06:00"
+description: Learn to create professional 2D games with the Godot game engine.
+keywords:
+- godot nodes
+- godot cookbook
+- godot 3d course
+- godot 2d course
+- godot ui course
+price: 80$
+publishDate: "2021-07-16T00:00:00-06:00"
+redirect: https://gdquest.mavenseed.com/courses/godot-node-essentials
+title: Godot Node Essentials
+type: redirect
+---

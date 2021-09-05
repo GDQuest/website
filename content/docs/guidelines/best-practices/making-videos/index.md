@@ -1,14 +1,14 @@
-+++
-title = "Video tutorial guidelines"
-description = "This document is a living tool to help us improve the educational value and the consistency of our video lessons."
-
-author = "nathan"
-date = "2019-07-07T09:34:00+09:00"
-
-menuTitle = "Video Tutorials"
-weight = 20
-aliases = ["/open-source/guidelines/gdquest-videos/"]
-+++
+---
+aliases:
+- /open-source/guidelines/gdquest-videos/
+author: nathan
+date: "2019-07-07T09:34:00+09:00"
+description: This document is a living tool to help us improve the educational value
+  and the consistency of our video lessons.
+menuTitle: Video Tutorials
+title: Video tutorial guidelines
+weight: 20
+---
 
 This document is a living guide to help us improve the quality and consistency across all our tutorials. It focuses on practical tips about writing, recording, and editing. For notes on education, see [Education in online tutorials]({{< ref "docs/guidelines/best-practices/education/index.md" >}}).
 

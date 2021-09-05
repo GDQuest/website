@@ -1,16 +1,16 @@
-+++
-title = "Godot VFX Secrets 1.0 is out now"
-description = "Our visual effects course for Godot is now out with 4 new effects and lessons. Get it now!"
-author = "nathan"
-
-date = 2020-07-11
-weight = 5
-
-keywords = ["godot", "course"]
-
-[banner]
-src = "/img/tools/godot/banner-godot-vfx-secrets.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/tools/godot/banner-godot-vfx-secrets.png
+date: "2020-07-11T00:00:00-06:00"
+description: Our visual effects course for Godot is now out with 4 new effects and
+  lessons. Get it now!
+keywords:
+- godot
+- course
+title: Godot VFX Secrets 1.0 is out now
+weight: 5
+---
 
 Our [Godot visual effects course](//gdquest.mavenseed.com/courses/godot-vfx-secrets) got its first complete release! It is now out of early access.
 

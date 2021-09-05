@@ -1,18 +1,17 @@
-+++
-title = "20 New Open Source Projects"
-description = "In 2020, we created two dozens of free and open-source code repositories with game demos, assets like shaders and VFX, and tools to help you on your game development journey with Godot. Here's a run through all of them."
-author = "nathan"
-
-date = 2021-01-14
-weight = 5
-
-categories = ["news"]
-
-[[resources]]
-  name = "banner"
-  src = "00.wires-and-smelting.png"
-
-+++
+---
+author: nathan
+categories:
+- news
+date: "2021-01-14T00:00:00-06:00"
+description: In 2020, we created two dozens of free and open-source code repositories
+  with game demos, assets like shaders and VFX, and tools to help you on your game
+  development journey with Godot. Here's a run through all of them.
+resources:
+- name: banner
+  src: 00.wires-and-smelting.png
+title: 20 New Open Source Projects
+weight: 5
+---
 
 Since the start, our goal at GDQuest has been to help you become a better game developer using Free Software.
 

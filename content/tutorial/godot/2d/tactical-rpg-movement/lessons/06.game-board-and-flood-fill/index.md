@@ -1,10 +1,11 @@
-+++
-title = "The flood fill algorithm"
-author = "nathan"
-date = "2021-01-30"
-description = "We implement the flood fill algorithm to find and draw the cells a unit can walk to."
-weight = 7
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We implement the flood fill algorithm to find and draw the cells a unit
+  can walk to.
+title: The flood fill algorithm
+weight: 7
+---
 
 In this lesson, we will finally create the _GameBoard_ and implement the flood fill algorithm.
 

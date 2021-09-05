@@ -1,14 +1,16 @@
-+++
-title = "Crossfade Background Music"
-author = "henrique"
-
-date = 2020-07-17
-
-difficulty = "beginner"
-keywords = ["godot audio", "godot crossfade", "godot music", "godot audio transition"]
-
-coAuthors = ["nathan"]
-+++
+---
+author: henrique
+coAuthors:
+- nathan
+date: "2020-07-17T00:00:00-06:00"
+difficulty: beginner
+keywords:
+- godot audio
+- godot crossfade
+- godot music
+- godot audio transition
+title: Crossfade Background Music
+---
 
 
 In the [background music tutorial]({{< ref "tutorial/godot/audio/background-music/index.md" >}}), we saw how to keep the music playing when transitioning between game levels or screens. 

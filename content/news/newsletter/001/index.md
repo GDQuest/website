@@ -1,13 +1,14 @@
-+++
-author = "nathan"
-date = 2020-07-19
-description = "Welcome to our newsletter, where you'll find game creation tips, resources, and interesting projects you should check out, all revolving around the Godot game engine."
-weight = 5
-title = "GDQuest weekly #1"
-
-[banner]
-src = "/img/newsletter-banner.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/newsletter-banner.png
+date: "2020-07-19T00:00:00-06:00"
+description: Welcome to our newsletter, where you'll find game creation tips, resources,
+  and interesting projects you should check out, all revolving around the Godot game
+  engine.
+title: 'GDQuest weekly #1'
+weight: 5
+---
 
 Welcome to our first newsletter! In it, you will find:
 

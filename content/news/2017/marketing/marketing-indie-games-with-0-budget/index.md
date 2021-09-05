@@ -1,23 +1,24 @@
-+++
-aliases = [
-  "/post/2017/marketing/marketing-indie-games-with-0-budget/",
-  "/game-design/marketing-indie-games-on-a-0-budget-notes/"
-]
-author = "nathan"
-category = ["tutorials"]
-date = "2017-04-06T20:33:30+01:00"
-description = "Here are some synthetic notes I took from IndieGameGirl's talk \"Marketing your indie games with a 0$ budget\""
-social = true
-keywords = ["marketing indie games with 0 budget", "indie game marketing"]
-title = "Marketing indie games with no budget – Notes"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "Sunrise in the game Firewatch"
-
-+++
+---
+aliases:
+- /post/2017/marketing/marketing-indie-games-with-0-budget/
+- /game-design/marketing-indie-games-on-a-0-budget-notes/
+author: nathan
+category:
+- tutorials
+date: "2017-04-06T20:33:30+01:00"
+description: Here are some synthetic notes I took from IndieGameGirl's talk "Marketing
+  your indie games with a 0$ budget"
+keywords:
+- marketing indie games with 0 budget
+- indie game marketing
+resources:
+- name: banner
+  params:
+    alt: Sunrise in the game Firewatch
+  src: banner.jpg
+social: true
+title: Marketing indie games with no budget – Notes
+---
 
 Emmy Jonhassen, aka IndieGameGirl, gave a talk named [Marketing Indie Games on a $0 Budget](//www.indiegamegirl.com/no-budget-marketing/). It offers a nice introduction to the topic, so I decided to share synthetic notes for it.
 

@@ -1,15 +1,15 @@
-+++
-title = "Design patterns in Godot"
-menuTitle = "Introduction"
-description = "Before diving in design patterns, we discuss what they are and why we're doing a series dedicated to Godot."
-author = "nathan"
-
-date = 2021-03-30
-weight = 1
-
-difficulty = "intermediate"
-keywords = ["godot design patterns"]
-+++
+---
+author: nathan
+date: "2021-03-30T00:00:00-06:00"
+description: Before diving in design patterns, we discuss what they are and why we're
+  doing a series dedicated to Godot.
+difficulty: intermediate
+keywords:
+- godot design patterns
+menuTitle: Introduction
+title: Design patterns in Godot
+weight: 1
+---
 
 Welcome to our series on programming patterns in Godot and GDScript.
 

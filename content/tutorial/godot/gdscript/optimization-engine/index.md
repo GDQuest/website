@@ -1,16 +1,19 @@
-+++
-title = "Making the most of Godot's speed"
-description = "A list of tips to reduce the amount of manual work you do and use the speed of Godot's C++."
-author = "razoric"
-coAuthors = ["nathan"]
-menuTitle = "Using Godot's Speed"
-
-date = 2020-08-18T11:07:59-04:00
-weight = 4
-
-difficulty = "intermediate"
-keywords = ["gdscript optimization tutorial", "godot code optimizing", "godot optimization"]
-+++
+---
+author: razoric
+coAuthors:
+- nathan
+date: "2020-08-18T11:07:59-04:00"
+description: A list of tips to reduce the amount of manual work you do and use the
+  speed of Godot's C++.
+difficulty: intermediate
+keywords:
+- gdscript optimization tutorial
+- godot code optimizing
+- godot optimization
+menuTitle: Using Godot's Speed
+title: Making the most of Godot's speed
+weight: 4
+---
 
 To make a game run fast, you need your code to run fast too. You can try to write optimized GDSCript patterns to get decent performances. But there is often a better way that makes your code run faster and with less effort: letting Godot do the work for you.
 

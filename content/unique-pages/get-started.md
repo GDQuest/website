@@ -1,12 +1,10 @@
-+++
-title = "Get started with Godot"
-description = "Get started with Godot with our best free tutorials and open-source demos."
-author = "nathan"
-
-date = 2021-02-10
-
-url = "get-started"
-+++
+---
+author: nathan
+date: "2021-02-10T00:00:00-06:00"
+description: Get started with Godot with our best free tutorials and open-source demos.
+title: Get started with Godot
+url: get-started
+---
 
 If you're new to Godot, we made **tons of free tutorials** and **open-source demos** to help you get started creating games.
 

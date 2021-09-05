@@ -1,15 +1,13 @@
-+++
-author = "nathan"
-title = "About us"
-small = "GDQuest, its mission, and the people behind it"
-date = "2017-04-10T13:40:07+02:00"
-
-paginate = false
-
-[banner]
-src = "/img/social-banner.png"
-alt = "Godot course update 4 banner showing characters on a tiles-based map"
-+++
+---
+author: nathan
+banner:
+  alt: Godot course update 4 banner showing characters on a tiles-based map
+  src: /img/social-banner.png
+date: "2017-04-10T13:40:07+02:00"
+paginate: false
+small: GDQuest, its mission, and the people behind it
+title: About us
+---
 
 On GDQuest, we help you **become a game developer** using the free and open-source game engine **Godot**.
 

@@ -1,17 +1,19 @@
-+++
-title = "Keeping your Godot code clean and readable"
-menuTitle = "Clean code"
-description = ""
-author = "razoric"
-coAuthor = ["nathan"]
-toc = true
-
-date = 2021-03-30
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot best practices", "godot clean code", "gdscript style"]
-+++
+---
+author: razoric
+coAuthor:
+- nathan
+date: "2021-03-30T00:00:00-06:00"
+description: ""
+difficulty: intermediate
+keywords:
+- godot best practices
+- godot clean code
+- gdscript style
+menuTitle: Clean code
+title: Keeping your Godot code clean and readable
+toc: true
+weight: 5
+---
 
 ## Introduction
 

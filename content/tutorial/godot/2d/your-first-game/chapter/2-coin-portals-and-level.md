@@ -1,14 +1,13 @@
-+++
-title = "Coins, Portals, and Level"
-author = "nathan"
-date = "2020-06-21"
-description = "Let's add the collectible coins, portals to teleport between levels, and do level design to make our game playable."
-
-weight = 2
-
-type = "video"
-videoid = "6ziIyx60N6I"
-+++
+---
+author: nathan
+date: "2020-06-21"
+description: Let's add the collectible coins, portals to teleport between levels,
+  and do level design to make our game playable.
+title: Coins, Portals, and Level
+type: video
+videoid: 6ziIyx60N6I
+weight: 2
+---
 
 In this video, you will get to create collectible coins that increase your score, portals that teleport the player between levels, and will do level design, so you can test your character, your enemy, and have fun with it.
 

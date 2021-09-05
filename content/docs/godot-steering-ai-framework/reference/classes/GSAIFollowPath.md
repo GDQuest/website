@@ -1,9 +1,10 @@
-+++
-title = "GSAIFollowPath"
-description = "Produces a linear acceleration that moves the agent along the specified path."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: Produces a linear acceleration that moves the agent along the specified
+  path.
+title: GSAIFollowPath
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

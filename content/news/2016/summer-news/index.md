@@ -1,23 +1,23 @@
-+++
-aliases = [
-  "/post/2016/summer-news/",
-  "/post/2016/09/summer-news/"
-]
-author = "nathan"
-category = ["News"]
-date = "2016-09-08T13:49:48+02:00"
-description = "It has been a while since the last behind the scenes post. Time for a batch of fresh news about Krita, GDQuest, and everything alike."
-keywords = ["community"]
-title = "Summer Update"
-type = "post"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "Summer sunset"
-
-+++
+---
+aliases:
+- /post/2016/summer-news/
+- /post/2016/09/summer-news/
+author: nathan
+category:
+- News
+date: "2016-09-08T13:49:48+02:00"
+description: It has been a while since the last behind the scenes post. Time for a
+  batch of fresh news about Krita, GDQuest, and everything alike.
+keywords:
+- community
+resources:
+- name: banner
+  params:
+    alt: Summer sunset
+  src: banner.jpg
+title: Summer Update
+type: post
+---
 
 _It has been a while since the last behind the scenes news post. There's been good progress with the tutorials and the brushes. I've been hard at work lately, especially changing my workflow to increase production speed, maintaining the same quality. On the other hand, I haven't been able to update the website and social networks as often as I would've liked. Aside from that..._
 

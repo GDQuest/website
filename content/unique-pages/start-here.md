@@ -1,18 +1,14 @@
-+++
-title = "Become a game developer"
-description = "Get started with game creation and Godot."
-author = "nathan"
-
-type = "news"
-
-date = 2020-06-21T08:41:31-06:00
-weight = 5
-
-url = "start-here"
-
-[banner]
-src = "/img/social-banner.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/social-banner.png
+date: "2020-06-21T08:41:31-06:00"
+description: Get started with game creation and Godot.
+title: Become a game developer
+type: news
+url: start-here
+weight: 5
+---
 
 Do you want to **become an independent game developer**? You came to the right place!
 

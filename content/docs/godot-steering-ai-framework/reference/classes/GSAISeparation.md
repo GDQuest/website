@@ -1,9 +1,15 @@
-+++
-title = "GSAISeparation"
-description = "Calculates an acceleration that repels the agent from its neighbors in the\ngiven `GSAIProximity`.\n\nThe acceleration is an average based on all neighbors, multiplied by a\nstrength decreasing by the inverse square law in relation to distance, and it\naccumulates."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  Calculates an acceleration that repels the agent from its neighbors in the
+  given `GSAIProximity`.
+
+  The acceleration is an average based on all neighbors, multiplied by a
+  strength decreasing by the inverse square law in relation to distance, and it
+  accumulates.
+title: GSAISeparation
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

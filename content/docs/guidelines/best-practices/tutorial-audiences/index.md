@@ -1,11 +1,10 @@
-+++
-title = "Writing for different audiences"
-description = ""
-author = "nathan"
-
-date = 2021-04-09
-weight = 4
-+++
+---
+author: nathan
+date: "2021-04-09T00:00:00-06:00"
+description: ""
+title: Writing for different audiences
+weight: 4
+---
 
 How to write tutorials for different audiences.
 

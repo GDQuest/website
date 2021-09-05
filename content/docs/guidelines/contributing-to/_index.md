@@ -1,12 +1,11 @@
-+++
-title = "Contributing"
-disableToc = true
-
-date = 2019-12-09T14:02:34+02:00
-weight = 2
-chapter = true
-pre = "B. "
-+++
+---
+chapter: true
+date: "2019-12-09T14:02:34+02:00"
+disableToc: true
+pre: 'B. '
+title: Contributing
+weight: 2
+---
 
 # Contributing #
 

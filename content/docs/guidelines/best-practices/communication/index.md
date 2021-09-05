@@ -1,16 +1,15 @@
-+++
-author = "nathan"
-date = "2018-12-04T09:30:19+09:00"
-description = "This document is based on the GNU Kind Communications Guidelines by Richard Stallman."
-title = "Kind Communication Guidelines"
-menuTitle = "Communication"
-weight = 1
-aliases = [
-  "/open-source/code-of-conduct/",
-  "/open-source/guidelines/kind-communication-guidelines/"
-]
-
-+++
+---
+aliases:
+- /open-source/code-of-conduct/
+- /open-source/guidelines/kind-communication-guidelines/
+author: nathan
+date: "2018-12-04T09:30:19+09:00"
+description: This document is based on the GNU Kind Communications Guidelines by Richard
+  Stallman.
+menuTitle: Communication
+title: Kind Communication Guidelines
+weight: 1
+---
 
 _Version v1.0.0_
 

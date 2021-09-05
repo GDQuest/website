@@ -1,11 +1,10 @@
-+++
-title = "The checklist"
-description = ""
-author = "nathan"
-
-date = 2021-05-16
-weight = 5
-+++
+---
+author: nathan
+date: "2021-05-16T00:00:00-06:00"
+description: ""
+title: The checklist
+weight: 5
+---
 
 - Use this checklist as a guide to make sure you're not forgetting anything at every stage of your project.
 - It is best referred to as you work along rather than at the very end.

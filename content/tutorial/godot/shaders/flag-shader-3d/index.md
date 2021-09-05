@@ -1,17 +1,20 @@
-+++
-title = "3D flag"
-description = "Learn to animate a flag blowing in the wind with shaders."
-author = "johnny"
-programVersion = "3.2"
-
-difficulty = "intermediate"
-tags = ["godot", "tutorial"]
-keywords = ["godot shaders tutorial", "godot shaders", "flag shader", "godot 3d shaders",]
-
-date = "2020-05-31"
-weight = 5
-
-+++
+---
+author: johnny
+date: "2020-05-31"
+description: Learn to animate a flag blowing in the wind with shaders.
+difficulty: intermediate
+keywords:
+- godot shaders tutorial
+- godot shaders
+- flag shader
+- godot 3d shaders
+programVersion: "3.2"
+tags:
+- godot
+- tutorial
+title: 3D flag
+weight: 5
+---
 
 In this tutorial you'll learn how to animate a mesh using a shader so it looks like it's blowing in the wind.
 

@@ -1,21 +1,22 @@
-+++
-title = "Tactical RPG Movement series"
-menuTitle = "TRPG movement series"
-description = "Learn to move units on a grid-based game board, avoiding obstacles, finding a path to their target, and much more in this free Godot tutorial series."
-author = "nathan"
-date = "2021-01-30"
-
-difficulty = "beginner"
-keywords = ["godot tactical rpg", "godot grid movement", "godot grid-based", "godot trpg tutorial"]
-
-type = "course"
-
-weight = 1
-
-[[resources]]
-name = "banner"
-src = "tactical-rpg-result.png"
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: Learn to move units on a grid-based game board, avoiding obstacles, finding
+  a path to their target, and much more in this free Godot tutorial series.
+difficulty: beginner
+keywords:
+- godot tactical rpg
+- godot grid movement
+- godot grid-based
+- godot trpg tutorial
+menuTitle: TRPG movement series
+resources:
+- name: banner
+  src: tactical-rpg-result.png
+title: Tactical RPG Movement series
+type: course
+weight: 1
+---
 
 **As a kid, tactical RPGs fascinated me.**
 

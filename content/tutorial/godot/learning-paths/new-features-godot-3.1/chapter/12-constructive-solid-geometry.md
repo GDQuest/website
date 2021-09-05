@@ -1,14 +1,11 @@
-+++
-author = "nathan"
-date = "2019-04-18T17:01:14Z"
-title = "Constructive Solid Geometry"
-description = ""
-
-weight = 12
-
-type = "video"
-
-videoId = "fL76VNl2_5Q"
-videoDuration = 623
-+++
+---
+author: nathan
+date: "2019-04-18T17:01:14Z"
+description: ""
+title: Constructive Solid Geometry
+type: video
+videoDuration: 623
+videoId: fL76VNl2_5Q
+weight: 12
+---
 

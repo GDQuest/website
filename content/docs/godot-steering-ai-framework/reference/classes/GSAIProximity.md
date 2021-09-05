@@ -1,9 +1,9 @@
-+++
-title = "GSAIProximity (abstract)"
-description = "Base container type that stores data to find the neighbors of an agent."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: Base container type that stores data to find the neighbors of an agent.
+title: GSAIProximity (abstract)
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

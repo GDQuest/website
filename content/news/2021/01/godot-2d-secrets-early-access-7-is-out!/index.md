@@ -1,17 +1,19 @@
-+++
-title = "Godot 2d Secrets 0.7.0 Is Out!"
-description = "Our latest Godot course got a new major content update, with the Factorio-like inventory series."
-author = "nathan"
-
-date = 2021-01-29
-weight = 5
-
-categories = ["news"]
-keywords = ["godot 2d secrets", "godot early access", "godot course"]
-
-[banner]
-src = "/img/product/godot/2d-secrets.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/product/godot/2d-secrets.png
+categories:
+- news
+date: "2021-01-29T00:00:00-06:00"
+description: Our latest Godot course got a new major content update, with the Factorio-like
+  inventory series.
+keywords:
+- godot 2d secrets
+- godot early access
+- godot course
+title: Godot 2d Secrets 0.7.0 Is Out!
+weight: 5
+---
 
 The 10th early-access update of [Godot 2D secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets) is out now!
 

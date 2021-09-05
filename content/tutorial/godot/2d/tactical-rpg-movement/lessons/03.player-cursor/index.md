@@ -1,10 +1,11 @@
-+++
-title = "The player's cursor"
-author = "nathan"
-date = "2021-01-30"
-description = "We code the cursor, which allows the player to navigate the grid with either the mouse or the keyboard."
-weight = 4
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We code the cursor, which allows the player to navigate the grid with
+  either the mouse or the keyboard.
+title: The player's cursor
+weight: 4
+---
 
 The cursor will allow the player to navigate the game board and to interact with a cell.
 

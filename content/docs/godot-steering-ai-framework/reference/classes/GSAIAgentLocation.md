@@ -1,9 +1,9 @@
-+++
-title = "GSAIAgentLocation"
-description = "Represents an agent with only a location and an orientation."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: Represents an agent with only a location and an orientation.
+title: GSAIAgentLocation
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

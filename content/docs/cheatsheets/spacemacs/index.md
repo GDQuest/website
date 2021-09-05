@@ -1,11 +1,11 @@
-+++
-author = "nathan"
-date = "2019-08-27T11:32:05+02:00"
-description = "A list of some features I find most useful in Spacemacs."
-title = "Spacemacs"
-aliases = ["/open-source/cheatsheets/spacemacs/"]
-
-+++
+---
+aliases:
+- /open-source/cheatsheets/spacemacs/
+author: nathan
+date: "2019-08-27T11:32:05+02:00"
+description: A list of some features I find most useful in Spacemacs.
+title: Spacemacs
+---
 
 Here is my living cheatsheet, a growing list of vim tips and spacemacs features I find particularly useful.
 <!-- Use shortcuts template and data? -->

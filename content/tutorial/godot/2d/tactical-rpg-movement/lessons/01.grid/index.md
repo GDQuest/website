@@ -1,10 +1,11 @@
-+++
-title = "The Grid"
-author = "nathan"
-date = "2021-01-30"
-description = "We lay the foundations of our grid-based system using a Resource that we'll attach to the nodes that need access to the grid."
-weight = 2
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We lay the foundations of our grid-based system using a Resource that
+  we'll attach to the nodes that need access to the grid.
+title: The Grid
+weight: 2
+---
 
 In a game like a turn-based tactical RPG, many actions take place on a grid.
 

@@ -1,19 +1,27 @@
-+++
-aliases = ["/post/2019/12/learn-godot/"]
-title = "Learn Godot for Free with our Learning Paths"
-description = "Our two curated Godot learning paths for beginners and developers are out!"
-author = "razvan"
-
-date = 2019-12-11T17:52:21+02:00
-weight = 5
-
-categories = ["news"]
-keywords = ["gdquest", "gdquest website", "website", "godot", "godotengine", "education", "learn", "faq"]
-
-[[resources]]
-name = "banner"
-src = "banner.jpg"
-+++
+---
+aliases:
+- /post/2019/12/learn-godot/
+author: razvan
+categories:
+- news
+date: "2019-12-11T17:52:21+02:00"
+description: Our two curated Godot learning paths for beginners and developers are
+  out!
+keywords:
+- gdquest
+- gdquest website
+- website
+- godot
+- godotengine
+- education
+- learn
+- faq
+resources:
+- name: banner
+  src: banner.jpg
+title: Learn Godot for Free with our Learning Paths
+weight: 5
+---
 
 *The game screenshot in the banner is from the Godot game [TailQuest: Defense](https://store.steampowered.com/app/824090/TailQuest_Defense/).*
 

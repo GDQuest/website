@@ -1,16 +1,15 @@
-+++
-title = "Contributing to: Make Games with Godot Guides"
-menuTitle = "Make Games with Godot Guides"
-description = "Do you want to contribute to our Learn to Make Games with Godot guides? This document will get you started on that."
-author = "razvan"
-date = "2019-11-19 09:21:59+0200"
-weight = 2
-aliases = [
-  "/open-source/contributing-learn-godot/",
-  "/open-source/guidelines/contributing-to-learn-godot/"
-]
-
-+++
+---
+aliases:
+- /open-source/contributing-learn-godot/
+- /open-source/guidelines/contributing-to-learn-godot/
+author: razvan
+date: 2019-11-19 09:21:59+0200
+description: Do you want to contribute to our Learn to Make Games with Godot guides?
+  This document will get you started on that.
+menuTitle: Make Games with Godot Guides
+title: 'Contributing to: Make Games with Godot Guides'
+weight: 2
+---
 
 If you want to contribute to our _Learn to Make Games with Godot_ [Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) or [Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) documents this is the guide to get you started.
 

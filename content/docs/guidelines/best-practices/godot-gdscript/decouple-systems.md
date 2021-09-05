@@ -1,10 +1,11 @@
-+++
-author = "nathan"
-date = "2020-01-29T08:11:34+02:00"
-description = "This guide covers some best practices to write solid GDScript code, to keep a sane code-base when developing projects of growing sizes."
-title = "Best Practices: Godot GDScript - Decouple Systems"
-menuTitle = "Decouple Systems"
-+++
+---
+author: nathan
+date: "2020-01-29T08:11:34+02:00"
+description: This guide covers some best practices to write solid GDScript code, to
+  keep a sane code-base when developing projects of growing sizes.
+menuTitle: Decouple Systems
+title: 'Best Practices: Godot GDScript - Decouple Systems'
+---
 
 This chapter looks at how to create and manage decoupled systems in Godot and take advantage of the game engine tools for building **reusable** and **independent** building blocks for our projects.
 

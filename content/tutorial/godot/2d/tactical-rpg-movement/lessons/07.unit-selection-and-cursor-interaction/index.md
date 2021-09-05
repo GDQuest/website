@@ -1,10 +1,11 @@
-+++
-title = "Unit selection and cursor interaction"
-author = "nathan"
-date = "2021-01-30"
-description = "We add the ability to select units with the cursor and to move to a target cell."
-weight = 8
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We add the ability to select units with the cursor and to move to a target
+  cell.
+title: Unit selection and cursor interaction
+weight: 8
+---
 
 In this lesson, we'll work on the last piece of the puzzle: coordinating interactions between the cursor, the units, and the board.
 

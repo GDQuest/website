@@ -1,13 +1,13 @@
-+++
-title = "Game Engine Basics"
-
-description = "What are game engines and what are the important factors to consider when browsing for game engines on the market."
-author = "razvan"
-coAutors = ["nathan"]
-
-date = 2020-08-15T21:52:08+03:00
-weight = 2
-+++
+---
+author: razvan
+coAutors:
+- nathan
+date: "2020-08-15T21:52:08+03:00"
+description: What are game engines and what are the important factors to consider
+  when browsing for game engines on the market.
+title: Game Engine Basics
+weight: 2
+---
 
 In this guide, you will get an introduction to game engines.
 

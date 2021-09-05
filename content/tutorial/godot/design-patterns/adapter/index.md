@@ -1,15 +1,15 @@
-+++
-title = "The adapter pattern"
-menuTitle = "Adapter"
-description = ""
-author = "razoric"
-
-date = 2021-03-30
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot design patterns", "godot adapter pattern"]
-+++
+---
+author: razoric
+date: "2021-03-30T00:00:00-06:00"
+description: ""
+difficulty: intermediate
+keywords:
+- godot design patterns
+- godot adapter pattern
+menuTitle: Adapter
+title: The adapter pattern
+weight: 5
+---
 
 _The Adapter acts as a wrapper between two objects. It catches calls meant for one object and transforms them into a format that is recognizable for another._
 

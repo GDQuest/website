@@ -1,15 +1,18 @@
-+++
-title = "Drawing a character's silhouette"
-description = "Display the silhouette of a character hidden behind a wall."
-author = "azagaya"
-coAuthors = ["nathan"]
-
-date = 2021-01-23T13:26:00-03:00
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot silhouette tutorial", "godot xray", "godot see through walls", "godot character outline"]
-+++
+---
+author: azagaya
+coAuthors:
+- nathan
+date: "2021-01-23T13:26:00-03:00"
+description: Display the silhouette of a character hidden behind a wall.
+difficulty: intermediate
+keywords:
+- godot silhouette tutorial
+- godot xray
+- godot see through walls
+- godot character outline
+title: Drawing a character's silhouette
+weight: 5
+---
 
 In this tutorial, you will learn how to use viewports and shaders to display an outline when a wall hides a character in Godot.
 

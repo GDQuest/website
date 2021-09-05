@@ -1,10 +1,11 @@
-+++
-title = "Drawing the path"
-author = "nathan"
-date = "2021-01-30"
-description = "We write code to draw a path from a unit to the cursor interactively, as in games like Fire Emblem."
-weight = 6
-+++
+---
+author: nathan
+date: "2021-01-30"
+description: We write code to draw a path from a unit to the cursor interactively,
+  as in games like Fire Emblem.
+title: Drawing the path
+weight: 6
+---
 
 We can now use our `PathFinder` to draw a preview of the path the player wants its unit to walk.
 

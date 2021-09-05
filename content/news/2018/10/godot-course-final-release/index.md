@@ -1,17 +1,28 @@
-+++
-aliases = ["/post/2018/10/godot-course-final-release/"]
-author = "nathan"
-categories = ["news"]
-date = "2018-10-28"
-description = "Our course is complete and out of early access! We're looking back at a year of free tutorials and open source contributions."
-keywords = ["Godot 3 course", "Godot gdquest course", "Godot tutorial", "Godot free demos", "Godot RPG", "Godot Zelda-like", "Learn Godot", "Learn game creation", "Godot slideshow", "Godot presentation"]
-title = "The Godot Course's Final Chapter is Out"
-
-[[resources]]
-  name = "banner"
-  src = "img/banner-github.png"
-
-+++
+---
+aliases:
+- /post/2018/10/godot-course-final-release/
+author: nathan
+categories:
+- news
+date: "2018-10-28"
+description: Our course is complete and out of early access! We're looking back at
+  a year of free tutorials and open source contributions.
+keywords:
+- Godot 3 course
+- Godot gdquest course
+- Godot tutorial
+- Godot free demos
+- Godot RPG
+- Godot Zelda-like
+- Learn Godot
+- Learn game creation
+- Godot slideshow
+- Godot presentation
+resources:
+- name: banner
+  src: img/banner-github.png
+title: The Godot Course's Final Chapter is Out
+---
 
 The last chapter of the Godot course is here! The project is now out of early access. 😄
 

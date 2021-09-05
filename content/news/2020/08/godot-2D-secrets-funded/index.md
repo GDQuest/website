@@ -1,16 +1,15 @@
-+++
-title = "Godot 2D Secrets: Funded in 48 Hours"
-description = "We are on Kickstarter to crowdfund a comprehensive Godot course to make 2D games. It was funded in less than 48 hours!"
-author = "nathan"
-
-date = 2020-08-22
-weight = 5
-
-aliases = ["godot-pcg-secrets-out"]
-
-[banner]
-src = "/img/product/godot/2d-secrets.png"
-+++
+---
+aliases:
+- godot-pcg-secrets-out
+author: nathan
+banner:
+  src: /img/product/godot/2d-secrets.png
+date: "2020-08-22T00:00:00-06:00"
+description: We are on Kickstarter to crowdfund a comprehensive Godot course to make
+  2D games. It was funded in less than 48 hours!
+title: 'Godot 2D Secrets: Funded in 48 Hours'
+weight: 5
+---
 
 **Learn a breadth of techniques** professionals use to create 2D games!
 

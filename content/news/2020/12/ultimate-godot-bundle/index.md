@@ -1,16 +1,15 @@
-+++
-title = "The Ultimate Godot Course Bundle"
-description = "Get all our Godot courses, available or future ones, at a discount! Lifetime free updates."
-author = "nathan"
-
-date = 2020-12-22T10:53:57-06:00
-weight = 5
-
-categories = ["news"]
-
-[banner]
-src = "/img/product/godot/ultimate-bundle.png"
-+++
+---
+author: nathan
+banner:
+  src: /img/product/godot/ultimate-bundle.png
+categories:
+- news
+date: "2020-12-22T10:53:57-06:00"
+description: Get all our Godot courses, available or future ones, at a discount! Lifetime
+  free updates.
+title: The Ultimate Godot Course Bundle
+weight: 5
+---
 
 We released our Ultimate bundle, a pack containing all our present and future Godot courses. It allows you to buy once and get all our premium tutorials, including new ones we will add in the future.
 

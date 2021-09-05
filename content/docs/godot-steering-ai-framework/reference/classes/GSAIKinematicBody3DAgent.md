@@ -1,9 +1,11 @@
-+++
-title = "GSAIKinematicBody3DAgent"
-description = "A specialized steering agent that updates itself every frame so the user does\nnot have to using a KinematicBody"
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  A specialized steering agent that updates itself every frame so the user does
+  not have to using a KinematicBody
+title: GSAIKinematicBody3DAgent
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

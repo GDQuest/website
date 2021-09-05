@@ -1,22 +1,25 @@
-+++
-aliases = [
-  "/post/2017/news/first-krita-course-out/",
-  "/first-krita-course-out/"
-]
-author = "nathan"
-category = ["news"]
-date = "2017-04-14T13:06:14+02:00"
-description = "After months of work, the Make Professional Painterly Game Art with Krita course is out! It's the first and only Krita course about 2d game art."
-keywords = ["krita game art", "krita game art tutorial", "gdquest news"]
-title = "Make Professional Game Art with Krita out now!"
-
-[[resources]]
-  name = "banner"
-  src = "banner.jpg"
-  [resources.params]
-    alt = "Article banner, illustration with a cute rabbit and pig character in front of a forest"
-
-+++
+---
+aliases:
+- /post/2017/news/first-krita-course-out/
+- /first-krita-course-out/
+author: nathan
+category:
+- news
+date: "2017-04-14T13:06:14+02:00"
+description: After months of work, the Make Professional Painterly Game Art with Krita
+  course is out! It's the first and only Krita course about 2d game art.
+keywords:
+- krita game art
+- krita game art tutorial
+- gdquest news
+resources:
+- name: banner
+  params:
+    alt: Article banner, illustration with a cute rabbit and pig character in front
+      of a forest
+  src: banner.jpg
+title: Make Professional Game Art with Krita out now!
+---
 
 After months of work, the Make Professional Painterly Game Art with Krita course is out!
 

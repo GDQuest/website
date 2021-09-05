@@ -1,13 +1,11 @@
-
-+++
-title = "Learn to code with Godot"
-description = "We're preparing a course and learning app for you to learn to code with Godot."
-author = "nathan"
-
-date = 2021-07-03
-
-url = "learn-to-code"
-+++
+---
+author: nathan
+date: "2021-07-03T00:00:00-06:00"
+description: We're preparing a course and learning app for you to learn to code with
+  Godot.
+title: Learn to code with Godot
+url: learn-to-code
+---
 
 We're preparing a course and a learning app for you to learn programming and game creation from zero, with the free and open-source engine Godot.
 

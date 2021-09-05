@@ -1,18 +1,24 @@
-+++
-aliases = ["/post/2018/07/godot-course-update-user-interface/"]
-title = "GUI and Inventory tutorials: Godot course release 10"
-description = "Learn to use unique techniques to design your game's UI with Godot!"
-author = "nathan"
-
-date = "2018-07-30T15:39:19+09:00"
-
-[[resources]]
-src = "banner.png"
-name = "banner"
-
-categories = "news"
-keywords = ["Godot 3 course gdquest", "Godot 2d tutorial", "Godot ui tutorial", "Godot inventory tutorial", "Godot lifebar tutorial", "Godot 3", "Godot user interface tutorial", "gdquest"]
-+++
+---
+aliases:
+- /post/2018/07/godot-course-update-user-interface/
+author: nathan
+date: "2018-07-30T15:39:19+09:00"
+description: Learn to use unique techniques to design your game's UI with Godot!
+resources:
+- categories: news
+  keywords:
+  - Godot 3 course gdquest
+  - Godot 2d tutorial
+  - Godot ui tutorial
+  - Godot inventory tutorial
+  - Godot lifebar tutorial
+  - Godot 3
+  - Godot user interface tutorial
+  - gdquest
+  name: banner
+  src: banner.png
+title: 'GUI and Inventory tutorials: Godot course release 10'
+---
 
 The UI course update is up! That's the biggest monthly release to date 😊
 

@@ -1,14 +1,18 @@
-+++
-author = "nathan"
-date = "2019-09-13T10:17:18+02:00"
-redirect = "//gdquest.mavenseed.com/courses/code-a-professional-platform-game-character-with-godot"
-title = "Code a Professional Platform Game Character With Godot"
-type = "redirect"
-description = "Code a professional side view 2d game character with the Free game engine Godot!"
-keywords = ["2D", "platform", "platformer", "godot course"]
-price = "20$"
-
-[[resources]]
-  name = "banner"
-  src = "banner.png"
-+++
+---
+author: nathan
+date: "2019-09-13T10:17:18+02:00"
+description: Code a professional side view 2d game character with the Free game engine
+  Godot!
+keywords:
+- 2D
+- platform
+- platformer
+- godot course
+price: 20$
+redirect: //gdquest.mavenseed.com/courses/code-a-professional-platform-game-character-with-godot
+resources:
+- name: banner
+  src: banner.png
+title: Code a Professional Platform Game Character With Godot
+type: redirect
+---

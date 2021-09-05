@@ -1,9 +1,11 @@
-+++
-title = "GSAISpecializedAgent (abstract)"
-description = "A base class for a specialized steering agent that updates itself every frame\nso the user does not have to. All other specialized agents derive from this."
-author = "razoric"
-date = "2020-02-25"
-+++
+---
+author: razoric
+date: "2020-02-25"
+description: |-
+  A base class for a specialized steering agent that updates itself every frame
+  so the user does not have to. All other specialized agents derive from this.
+title: GSAISpecializedAgent (abstract)
+---
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 

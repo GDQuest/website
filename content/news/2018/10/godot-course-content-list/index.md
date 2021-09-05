@@ -1,20 +1,22 @@
-+++
-aliases = [
-  "/post/2018/10/godot-course-content-list/",
-  "/product/godot/make-pro-2d-games/content/"
-]
-author = "nathan"
-category = "Godot"
-date = "2018-10-26"
-description = "The Godot course is now complete! Here's a list of all the tutorials each version contains."
-keywords = ["godot 3", "godot course", "video list", "course content"]
-title = "Available content in the Godot Course"
-
-[[resources]]
-  name = "banner"
-  src = "banner.png"
-
-+++
+---
+aliases:
+- /post/2018/10/godot-course-content-list/
+- /product/godot/make-pro-2d-games/content/
+author: nathan
+category: Godot
+date: "2018-10-26"
+description: The Godot course is now complete! Here's a list of all the tutorials
+  each version contains.
+keywords:
+- godot 3
+- godot course
+- video list
+- course content
+resources:
+- name: banner
+  src: banner.png
+title: Available content in the Godot Course
+---
 
 The course comes in 3 versions. Indie contains all of Hobby, and Pro contains all chapters from Hobby and Indie, and extra resources:
 

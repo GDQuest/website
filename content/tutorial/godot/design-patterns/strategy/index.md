@@ -1,15 +1,15 @@
-+++
-title = "The strategy pattern"
-menuTitle = "Strategy"
-description = ""
-author = "razoric"
-
-date = 2021-03-30
-weight = 5
-
-difficulty = "intermediate"
-keywords = ["godot design patterns", "godot strategy pattern"]
-+++
+---
+author: razoric
+date: "2021-03-30T00:00:00-06:00"
+description: ""
+difficulty: intermediate
+keywords:
+- godot design patterns
+- godot strategy pattern
+menuTitle: Strategy
+title: The strategy pattern
+weight: 5
+---
 
 The Strategy pattern defines a _family_ of algorithms, each coded in a separate class with the same interface.
 

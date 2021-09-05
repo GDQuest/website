@@ -1,15 +1,22 @@
-+++
-aliases = ["/post/2016/programming/hugo-tips-concat-node-paths-variable/"]
-author = "nathan"
-category = ["Webdesign"]
-date = "2016-04-20T09:34:58+02:00"
-description = "Have you ever wondered how to access a file from your database based on a variable in your front matter in Hugo? This tutorial will show you how to achieve that using the index function."
-highlight = "templates"
-keywords = ["hugo", "gohugo", "static html engine", "create a website"]
-title = "Hugo Tips: Concatenate paths with variables"
-type = "post"
-
-+++
+---
+aliases:
+- /post/2016/programming/hugo-tips-concat-node-paths-variable/
+author: nathan
+category:
+- Webdesign
+date: "2016-04-20T09:34:58+02:00"
+description: Have you ever wondered how to access a file from your database based
+  on a variable in your front matter in Hugo? This tutorial will show you how to achieve
+  that using the index function.
+highlight: templates
+keywords:
+- hugo
+- gohugo
+- static html engine
+- create a website
+title: 'Hugo Tips: Concatenate paths with variables'
+type: post
+---
 
 <span class="text-muted"> This tutorial is a post I initially wrote on the [Hugo](//gohugo.io/) forums. Hugo is the static website generator that powers GDQuest.
 It is a really flexible and elegant system, based on Google's Go programming language. Sometimes, it is a bit hard to use for a non-tech-savvy user. So I decided to share some tips on things that got me stuck at some point. </span>

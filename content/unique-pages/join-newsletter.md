@@ -1,12 +1,10 @@
-+++
-title = "Join GDQuest Weekly!"
-description = "Receive Godot tips, free and open-source tools, new tutorials, and more."
-author = "nathan"
-
-date = 2020-07-02
-
-url = "newsletter"
-+++
+---
+author: nathan
+date: "2020-07-02T00:00:00-06:00"
+description: Receive Godot tips, free and open-source tools, new tutorials, and more.
+title: Join GDQuest Weekly!
+url: newsletter
+---
 
 ![GDQuest banner](/img/social-banner.png)
 
