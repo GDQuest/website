@@ -14,11 +14,12 @@ What if you could get a shortcut? Guides that teach you only the most valuable f
 
 These **free node essentials guides** are precisely that.
 
-In this series, you'll get three complete node guides and Godot demos that cover the many ways to use:
+In this series, you'll get four complete node guides and Godot demos spanning over 2D, UI, and 3D:
 
 - `KinematicBody2D`, the most commonly used node to code game characters.
 - `RichTextLabel`, the one node for all your game dialogues.
 - `AnimationPlayer`, which will save you countless lines of code.
+- `Area`, the most versatile of Godot's nodes.
 
 You'll see how to push rocks and other obstacles as in 2D Zelda games.
 
@@ -34,7 +35,11 @@ You'll learn to sequence attack patterns with `AnimationPlayer`.
 
 {{< video "videos/animplayer-enemy-attack-queue.mp4" >}}
 
-And so much more. Each guide covers the node's key features and ways to use it in games.
+And you'll learn to do AI, collect coins, and much more in 3D with `Area`.
+
+{{< video "videos/3d-areas.mp4" >}}
+
+That's only a glimpse of all you'll get. Each guide covers the node's key features and ways to use it in games.
 
 {{< mailing-signup-node-essentials >}}
 
