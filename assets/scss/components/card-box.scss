@@ -57,6 +57,10 @@
     }
   }
 
+  &.-p-tiny {
+    padding: $spacing-tiny;
+  }
+
   > .content {
     padding: $spacing-tiny;
     z-index: 2;
