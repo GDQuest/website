@@ -13,7 +13,7 @@
 {{ define "main" }}
 <div class="content-container flex">
     {{ partial "components/nav-tutorial" . }}
-    <section class="padding-v-base">
+    <section class="padding-v-base width-full">
         <article class="blog-post">
             {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
             {{ partial "table-of-contents" . }}

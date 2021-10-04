@@ -7,11 +7,39 @@
 }
 
 .comment-form {
-    display: block;
-    width: inherit;
+  display: block;
+  width: inherit;
+
+  .optional-group {
+    display: flex;
+
+    .optional-item {
+      flex: 1;
+      margin-right: $spacing-micro;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    .optional-item + .optional-item {
+      margin-left: $spacing-micro;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      .optional-item {
+        margin: 0 !important;
+      }
+    }
+  }
 }
 
 .form-group {
+  &.-spacebottom {
+    margin-bottom: $spacing-tiny;
+  }
+
   > .label {
     display: block;
     font-size: $font-size-small;
