@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Gary Hulst"
+  },
+  "date": "2021-10-05T06:26:58Z",
+  "id": "01FH7J4H57CA3D02JYCNTMN0XR",
+  "message": "btw - I duplicated the start button & renamed the signal \"_on_exit_pressed\" & created this function; \n\nfunc _on_exit_pressed():\n\t$Button.hide()\n\tget_tree().quit()\n\nfor \"exit\" which works if you select \"exit\" at the start of the game (1st time) BUT if you click start first the \"exit\" button is not hidden from view...that is where I am a little stuck\n ",
+  "replying_to": "01FH7H858EKGXE8CFP53GE4A09"
+}
