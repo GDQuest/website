@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Andre"
+  },
+  "date": "2021-10-10T21:36:39Z",
+  "id": "01FHP25T1B9TG9QJAGT0Z17P5F",
+  "message": "Hi, could it be possible to add code example for this section under the Avoid bubbling signals? \n1. Pass the UILifeBar a reference to the Health node via a function call but only for a one-time setup and connecting signals. The UI shouldn’t store the reference. That way, coupling stays low.\n\nNot sure what this means exactly. "
+}
