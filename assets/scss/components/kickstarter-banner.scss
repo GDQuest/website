@@ -1,0 +1,40 @@
+// Banner with countdown for Kickstarter campaigns.
+.kickstarter-banner {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background: #032769;
+  padding: 2rem;
+  text-align: center;
+
+  > .title {
+    color: white;
+    margin-top: 0;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+  }
+  .subtitle {
+    color: #f2f2f2;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .countdown {
+    color: #78d7ff;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  > a {
+    margin-top: 1rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.kickstarter-logo {
+  max-height: 1.5rem;
+}

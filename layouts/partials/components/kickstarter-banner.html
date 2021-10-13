@@ -1,0 +1,24 @@
+<div id="kickstarter-banner" class="kickstarter-banner">
+  <h2 class="title">LEARN TO CODE FROM ZERO</h2>
+  <div>
+    <span class="subtitle">
+      On
+      <img
+        class="kickstarter-logo"
+        src="/img/kickstarter-logo-green.png"
+        alt="Kickstarter"
+      />
+    </span>
+    <span class="countdown">|</span>
+    <span id="kickstarter-countdown" class="countdown">Until October 31</span>
+  </div>
+  <a href="https://www.kickstarter.com/projects/gdquest/learn-to-code-from-zero-with-godot-the-free-game-engine" class="button-link -yellow -shadow -large -tall">
+    Learn more
+  </a>
+</div>
+
+{{ $js := resources.Get "js/kickstarter-countdown.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
+<script type="text/javascript">
+kickstarterCountdown("2021-11-01");
+</script>
