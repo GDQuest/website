@@ -11,6 +11,7 @@
                 </section>
             </header>
             <main class="content">
+                {{ partial "components/kickstarter-banner" . }}
                 {{ block "main" . }} {{ end }}
             </main>
             {{ partialCached "footer-main" . }}
