@@ -20,7 +20,7 @@ function kickstarterCountdown(dateString) {
     console.log(days, hours);
 
     const countdown = document.getElementById("kickstarter-countdown");
-    if (now < startTime) {
+    if (now < startTimeUTC) {
       const hours = Math.floor((startTimeUTC - now) / hour);
       countdown.innerHTML = `Starting in ${hours} hours`;
     } else if (days >= 3) {
