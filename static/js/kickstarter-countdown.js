@@ -17,7 +17,6 @@ function kickstarterCountdown(dateString) {
     const distance = endTime - now + timeOffsetUTC;
     const days = Math.floor(distance / day);
     const hours = Math.floor((distance % day) / hour);
-    console.log(days, hours);
 
     const countdown = document.getElementById("kickstarter-countdown");
     if (now < startTimeUTC) {
