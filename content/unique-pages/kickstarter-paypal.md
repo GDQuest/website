@@ -25,7 +25,7 @@ But you will get your rewards like every other backer, via email.
 
 ## Step 1: make your pledge using PayPal
 
-Click the button corresponding to your desired pledge and on the PayPal web page, click the _Send_ button to make the payment:
+Click the button corresponding to your desired pledge, and on the PayPal web page, click the _Send_ button to make the payment:
 
 <ul>
   <li><a class="button-link -yellow -large" href="http://paypal.me/GDQuest/40EUR">
