@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Jim"
+  },
+  "date": "2021-10-30T10:11:33Z",
+  "id": "01FK8AXQKHEV6EF94KZ3D6VZR0",
+  "message": "So I ran into the same problem. For me it was because I was using the code with the comments as the Unit.gd script and that lead me to add the extra with the points var and calling walk_along() in the middle rather than at the end of the _ready() function. Once I moved it to the correct place in the _ready() function, it worked fine. ",
+  "replying_to": "01F9XSK5Y4NMAB047N1GBB4PNA"
+}
