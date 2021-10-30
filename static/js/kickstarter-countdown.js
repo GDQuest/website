@@ -10,7 +10,7 @@ function kickstarterCountdown(dateString) {
   const startTimeUTC = startTime - timeOffsetUTC;
 
   // November 1st
-  const endTime = Date.UTC(2021, 10, 1);
+  const endTime = Date.UTC(2021, 9, 31, 21);
 
   const updateCountdown = () => {
     const now = new Date().getTime();
