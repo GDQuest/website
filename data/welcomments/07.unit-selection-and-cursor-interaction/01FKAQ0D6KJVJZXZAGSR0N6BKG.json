@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Jim"
+  },
+  "date": "2021-10-31T08:21:13Z",
+  "id": "01FKAQ0D6KJVJZXZAGSR0N6BKG",
+  "message": "Very interesting tutorial. But when I get to the end, I still cannot select the unit with the cursor. A light orange aura surrounds the squirrel unit, and a dark orange path comes from one position. It also did movement at the start, but I deleted the hard coded text forcing that from earlier in the tutorial, but that did not fix the ability to select them. On the terminal, I get the error message:\n```\nE 0:04:11.687   event_get_action_status: The InputMap action \"click\" doesn't exist.\n     Condition \"!E\" is true. Returned: false\n    core/input_map.cpp:240 @ event_get_action_status()\n   Cursor.gd:43 @ _unhandled_input()\n```\nAnd this points to line 43 of my Cursor.gd script: \n```\nelif event.is_action_pressed(\"click\") or event.is_action_pressed(\"ui_accept\"):\n\t\t#  In that case, we emit a signal to let another node handle that input. The game board will\n\t\t#  have the responsibility of looking at the cell's content.\n\t\temit_signal(\"accept_pressed\", cell)\n\t\tget_tree().set_input_as_handled()\n```\nOn the Cursor node, I have added the signals described above. So I am not sure what I have missed. "
+}
