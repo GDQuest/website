@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Jan"
+  },
+  "date": "2021-10-31T21:14:47Z",
+  "id": "01FKC38VX5CSWPSP8JGNSEEY9W",
+  "message": "Dear GDQuest, \nfirst of all, thanks for the great content!! \n\nNow, it looks like there is a small gremlin in the AnchorDetector2D code (both on page and on github).\n\nif get_overlapping_areas().size() \n== 1 and area == areas[0]:\n emit_signal(\"anchor_detached\")\n\nmakes it impossible for the camera to return to non-anchored zone. \n\nThat change fixed my issue: \nif get_overlapping_areas().size() == 0:\n emit_signal(\"anchor_detached\")\n\nThanks, \nJ"
+}
