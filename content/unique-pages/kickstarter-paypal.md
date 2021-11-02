@@ -6,7 +6,9 @@ title: Pledge via PayPal
 url: kickstarter-paypal
 ---
 
-You can make a pledge using PayPal below.
+You can still pledge via PayPal until November 7.
+
+If you pledged on Kickstarter but your credit card isn't supported, you can use PayPal instead. You'll find all the information below.
 
 **To complete your pledge and become a backer, you need to:**
 
@@ -46,6 +48,12 @@ I'll need your PayPal receipt number to register your payment. When you pay via 
 <div class="ml-form-embed" data-account="2869099:u1n3t9l6q4"
 data-form="4859708:s1n7c5"></div>
 
-_If the form doesn't appear, please ensure JavaScript is turned on. If you use a browser like Brave, the Shields may prevent the form from appearing. If that happens, please try to open the page in a Private Window._
+_If the form doesn't appear, please [click here](https://landing.mailerlite.com/webforms/landing/s1n7c5) to access the form on a dedicated page._
 
 If you have any other issue, you can reach me directly using our [contact form](https://gdquest.mavenseed.com/p/contact). I'm here to help.
+
+## Your questions
+
+### When will I get access to the rewards?
+
+We'll give you access to the courses you pledged for after November 7 and by November 9, along with other PayPal backers.
