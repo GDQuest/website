@@ -15,7 +15,7 @@ keywords:
 - shaders
 - gdquest godot course
 - learn godot
-price: 315$
+price: 365$
 redirect: https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle
 title: Ultimate Godot course bundle
 type: redirect
