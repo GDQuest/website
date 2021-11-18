@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Mark Smith"
+  },
+  "date": "2021-11-18T23:29:39Z",
+  "id": "01FMTP4RM3GK2CHVKFE7WEJ6BQ",
+  "message": "You really need to answer which settings are essential (for beginners) in GODOT projects settings. I turned off integer math because it is so stupid and seems totally unnecessary. It triggers even if you have an integer function like ceil() or floor(). "
+}
