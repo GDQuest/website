@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Sarah Z."
+  },
+  "date": "2021-11-29T20:39:44Z",
+  "id": "01FNPPSH02G740P5K6CA2TAPM5",
+  "message": "I also noticed Jan's issue above, and their fix worked, but I had another issue:\nRather than be stuck to the player, the camera continues to \"follow\" them, as though it had smoothing enabled, leaving it trailing behind them.\n\nAlso, when you load a scene, if your character isn't centered on the node, it will noticeably \"drag\" your camera over to them.\n\nIs there a way to take this script and edit it so that neither of these are the case anymore?",
+  "message_html": "<p>\nI also noticed Jan’s issue above, and their fix worked, but I had another issue:\nRather than be stuck to the player, the camera continues to “follow” them, as though it had smoothing enabled, leaving it trailing behind them.</p><p>\nAlso, when you load a scene, if your character isn’t centered on the node, it will noticeably “drag” your camera over to them.</p><p>\nIs there a way to take this script and edit it so that neither of these are the case anymore?</p>"
+}
