@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "jack"
+  },
+  "date": "2021-11-30T09:46:18Z",
+  "id": "01FNR3SSEW6KHJBHP2J8TRMZCC",
+  "message": "Hey I had the same error, not sure if you got around to fixing it yet. What fixed it for me is I went into Input Map in the Project Settings and bound left mouse click to a input named \"click\" which is defined in the cursor script. Hope that helped",
+  "message_html": "<p>\nHey I had the same error, not sure if you got around to fixing it yet. What fixed it for me is I went into Input Map in the Project Settings and bound left mouse click to a input named “click” which is defined in the cursor script. Hope that helped</p>",
+  "replying_to": "01FKAQ0D6KJVJZXZAGSR0N6BKG"
+}
