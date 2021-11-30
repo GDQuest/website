@@ -197,7 +197,7 @@ func arrive_to(target_position: Vector2) -> void:
 	var desired_velocity := (target_position - position).normalized() * max_speed * zoom.x
 	# If we're close enough to the target, we gradually slow down the camera.
 	if distance_to_target < SLOW_RADIUS * zoom.x:
-		_velocity *= (distance_to_target / (SLOW_RADIUS * zoom.x))
+		desired_velocity *= (distance_to_target / (SLOW_RADIUS * zoom.x))
 
 	_velocity += (desired_velocity - _velocity) / mass
 	position += _velocity * get_physics_process_delta_time()
