@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Todd Zircher"
+  },
+  "date": "2021-12-02T19:23:13Z",
+  "id": "01FNY9KJ92T91DM18ETB48F5MF",
+  "message": "Neat, I was able to follow along on that although I think some changes to 3.4 slowed me down a bit.\n\nLet's say I wanted to take that map and generate a hex map from it.  Would I go about it by changing the noise source or changing the shader that reads the noise?",
+  "message_html": "<p>\nNeat, I was able to follow along on that although I think some changes to 3.4 slowed me down a bit.</p><p>\nLet’s say I wanted to take that map and generate a hex map from it.  Would I go about it by changing the noise source or changing the shader that reads the noise?</p>"
+}
