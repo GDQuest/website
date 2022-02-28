@@ -127,7 +127,7 @@ General game development resources:
 
 (Non)Conferences useful for gathering further game development ideas:
 
-- [NotGDC](//www.notgdc.fun/). "A game development non-conference, for everyone". Game developers who don't go to the highly-sought-after Game Developers Conference now have a place to interact with one another. Just like the GDC Vault below, NotGDC explores a wide variety of topics and inspirational talks and methodologies for game development
+- [NotGDC](http://www.notgdc.fun/). "A game development non-conference, for everyone". Game developers who don't go to the highly-sought-after Game Developers Conference now have a place to interact with one another. Just like the GDC Vault below, NotGDC explores a wide variety of topics and inspirational talks and methodologies for game development
 - [GDC Vault](//gdcvault.com/free). The Game Developers Conference Vault gathers in-depth design, technical and inspirational talks and slides from the game development industry. It's a must-have resource for exploring further topics in the game creation process
 
 Non-gamedev related:
