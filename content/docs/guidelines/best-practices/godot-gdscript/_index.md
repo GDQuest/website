@@ -40,9 +40,9 @@ We wrote these GDScript programming guidelines with a few goals in mind:
 Here is a complete class example that follows our guidelines. We'll break it down in the following section.
 
 ```gdscript
-## Hierarchical State machine for the player.
-##
-## Initializes states and delegates engine callbacks to the state.
+# Hierarchical State machine for the player.
+#
+# Initializes states and delegates engine callbacks to the state.
 class_name StateMachine
 extends Node
 
@@ -72,8 +72,8 @@ func _physics_process(delta: float) -> void:
 		state.physics_process(delta)
 
 
-## Replaces the current state with the state at `target_state_path` if the path
-## is valid. Passes the `msg` dictionary to the new state's `enter` function.
+# Replaces the current state with the state at `target_state_path` if the path
+# is valid. Passes the `msg` dictionary to the new state's `enter` function.
 func transition_to(target_state_path: String, msg: Dictionary = {}) -> void:
 		if not has_node(target_state_path):
 				return
@@ -104,14 +104,14 @@ Start with the optional `class_name` if needed. Then add the `extends` keyword i
 If you include a class docstring, it should always be at the top and start with two leading dash signs: `##`. This Godot 4 syntax differentiates docstrings from comments and will generate a reference page for your class.
 
 ```gdscript
-## A brief description of the class's role and functionality.
-##
-## A longer description if needed, possibly of multiple paragraphs. Properties and method names
-## should be in backticks like so: `_process`, `x` etc.
-##
-## You can use *markdown* in the docstrings.
-##
-## Keep lines under 100 characters long.
+# A brief description of the class's role and functionality.
+#
+# A longer description if needed, possibly of multiple paragraphs. Properties and method names
+# should be in backticks like so: `_process`, `x` etc.
+#
+# You can use *markdown* in the docstrings.
+#
+# Keep lines under 100 characters long.
 class_name MyNode
 extends Node
 ```
@@ -213,8 +213,8 @@ Use `return` only at the beginning and end of functions. At the beginning of the
 Here's an example of a **clean** and readable method:
 
 ```gdscript
-## If this sector has a planet, checks the 8 sectors around it.
-## If there are planets in those sectors, creates a travel lane between the two of them.
+# If this sector has a planet, checks the 8 sectors around it.
+# If there are planets in those sectors, creates a travel lane between the two of them.
 func _generate_travel_lanes(sector: Vector2) -> void:
 	var planet: Dictionary = _sectors[sector].planet
 	if not planet:
