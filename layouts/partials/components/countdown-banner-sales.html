@@ -1,0 +1,34 @@
+<!-- Banner to display at the top of the website for sales. -->
+<!-- Params: -->
+
+<!-- - title: the title -->
+<!-- - content: markdownified content -->
+<!-- - endDate: the datetime for the end date as a string -->
+<!-- - callToAction (optional): button text -->
+<!-- - subtitle (optional): optional subtitle with bold text -->
+<div class="banner-container">
+  <img src="/img/kickstarter/david.svg" class="character" />
+  <div id="countdown-banner" class="countdown-banner">
+    <h2 class="title">{{ .title }}</h2>
+    <p>{{ .content | markdownify }}</p>
+    {{ with .subtitle }}
+    <span class="subtitle">{{ . }}</span>
+    {{ end }}
+    <div>
+      <span id="countdown" class="countdown -yellow">Until October 31</span>
+    </div>
+    <a
+      href="{{.link}}"
+      class="button-link -yellow -shadow -large -tall"
+    >
+      {{ with .callToAction }}{{.}}{{else}}Learn more{{end}}
+    </a>
+  </div>
+  <img src="/img/kickstarter/lula.svg" class="character" />
+</div>
+
+{{ $js := resources.Get "js/countdown.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
+<script type="text/javascript">
+  countdown(new Date("{{.endDate}}"))
+</script>

@@ -5,6 +5,13 @@
         <div class="page-base">
             <header class="header darkbg">
                 <div class="header-background"></div>
+                {{ partial "components/countdown-banner-sales" (dict
+                "title" "Welcome to Godot sale!"
+                "content" "50% off on all Godot courses with coupon code **WELCOME-TO-GODOT**."
+                "endDate" "2022-07-24T12:00"
+                "link" "https://gdquest.mavenseed.com/courses"
+                "callToAction" "Learn more"
+                ) }}
                 {{ partial "nav-main" . }}
                 <section class="content-container">
                     {{ block "header_content" . }} {{ end }}

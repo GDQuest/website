@@ -1,6 +1,6 @@
 <div class="banner-container">
   <img src="/img/kickstarter/david.svg" class="character" />
-  <div id="kickstarter-banner" class="kickstarter-banner">
+  <div id="countdown-banner" class="countdown-banner">
     <h2 class="title">LEARN TO CODE FROM ZERO, WITH GODOT</h2>
     <div>
       <span class="subtitle">
@@ -12,7 +12,7 @@
         />
       </span>
       <span class="countdown">|</span>
-      <span id="kickstarter-countdown" class="countdown">Until October 31</span>
+      <span id="countdown" class="countdown">Until October 31</span>
     </div>
     <a
       href="https://www.kickstarter.com/projects/gdquest/learn-to-code-from-zero-with-godot-the-free-game-engine"
@@ -24,8 +24,8 @@
   <img src="/img/kickstarter/lula.svg" class="character" />
 </div>
 
-{{ $js := resources.Get "js/kickstarter-countdown.js" }}
+{{ $js := resources.Get "js/countdown.js" }}
 <script src="{{ $js.RelPermalink }}"></script>
 <script type="text/javascript">
-  kickstarterCountdown()
+  countdown()
 </script>
