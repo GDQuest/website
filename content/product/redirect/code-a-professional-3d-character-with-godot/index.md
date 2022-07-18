@@ -6,7 +6,7 @@ description: Learn to create a polished 3D character with a 3rd person camera an
 keywords:
 - 3D
 - intermediate
-price: 30$
+price: 29.95$
 redirect: //gdquest.mavenseed.com/courses/code-a-professional-3d-character-with-godot
 resources:
 - name: banner

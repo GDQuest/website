@@ -11,7 +11,7 @@ keywords:
 - pcg
 - procedural content generation
 - godot course
-price: 40$
+price: 39.95$
 redirect: //gdquest.mavenseed.com/courses/godot-pcg-secrets
 title: Godot PCG Secrets
 type: redirect

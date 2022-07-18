@@ -10,7 +10,7 @@ keywords:
 - beginner
 - godot course
 - getting started
-price: 15$
+price: 14.95$
 redirect: //gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition
 resources:
 - name: banner

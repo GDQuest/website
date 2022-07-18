@@ -13,7 +13,7 @@ keywords:
 - make games with godot
 - procedural content generation
 - shaders
-price: 150$
+price: 149.95$
 redirect: https://gdquest.mavenseed.com/courses/godot-2d-vfx-shaders-and-pcg-secrets-bundle
 title: Godot secrets bundle
 type: redirect
