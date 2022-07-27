@@ -1,11 +1,4 @@
 {
-    "power_sequencer.align_audios": {
-        "demo": "https://i.imgur.com/xkBUzDj.gif",
-        "description": "*brief* Align two audio strips\n\n\nTries to synchronize the selected audio strip to the active audio strip by comparing the sound.\nUseful to synchronize audio of the same event recorded with different microphones.\n\nTo use this feature, you must have [ffmpeg](https://www.ffmpeg.org/download.html) and\n[scipy](https://www.scipy.org/install.html) installed on your computer and available on the PATH (command line) to work.\n\nThe longer the audio files, the longer the tool can take to run, as it has to convert, analyze,\nand compare the audio sources to work.",
-        "keymap": "Sequencer",
-        "name": "Align Audios",
-        "shortcuts": []
-    },
     "power_sequencer.channel_offset": {
         "demo": "",
         "description": "Move selected strip to the nearest open channel above/down",
@@ -19,9 +12,23 @@
                     "value": "PRESS"
                 },
                 {
-                    "direction": "up"
+                    "direction": "up",
+                    "trim_target_channel": false
                 },
                 "Move to Open Channel Above"
+            ],
+            [
+                {
+                    "alt": true,
+                    "ctrl": true,
+                    "type": "UP_ARROW",
+                    "value": "PRESS"
+                },
+                {
+                    "direction": "up",
+                    "trim_target_channel": true
+                },
+                "Move to Channel Above and Trim"
             ],
             [
                 {
@@ -30,9 +37,23 @@
                     "value": "PRESS"
                 },
                 {
-                    "direction": "down"
+                    "direction": "down",
+                    "trim_target_channel": false
                 },
                 "Move to Open Channel Below"
+            ],
+            [
+                {
+                    "alt": true,
+                    "ctrl": true,
+                    "type": "DOWN_ARROW",
+                    "value": "PRESS"
+                },
+                {
+                    "direction": "down",
+                    "trim_target_channel": true
+                },
+                "Move to Channel Below and Trim"
             ]
         ]
     },
@@ -49,7 +70,7 @@
                 },
                 {
                     "concatenate_all": false,
-                    "to_left": true
+                    "is_towards_left": true
                 },
                 "Concatenate and select the next strip in the channel"
             ],
@@ -61,7 +82,7 @@
                 },
                 {
                     "concatenate_all": true,
-                    "to_left": true
+                    "is_towards_left": true
                 },
                 "Concatenate all strips in selected channels"
             ],
@@ -73,7 +94,7 @@
                 },
                 {
                     "concatenate_all": false,
-                    "to_left": false
+                    "is_towards_left": false
                 },
                 "Concatenate and select the previous strip in the channel towards the right"
             ],
@@ -86,7 +107,7 @@
                 },
                 {
                     "concatenate_all": true,
-                    "to_left": false
+                    "is_towards_left": false
                 },
                 "Shift Alt C; Concatenate all strips in channel towards the right"
             ]
@@ -131,7 +152,7 @@
     },
     "power_sequencer.crossfade_add": {
         "demo": "https://i.imgur.com/ZyEd0jD.gif",
-        "description": "*brief* Adds cross fade between selected sequence and the closest sequence to its right\n\n\nBased on the active strip, finds the closest next sequence of a similar type, moves it\nso it overlaps the active strip, and adds a gamma cross effect between them. Works with\nMOVIE, IMAGE and META strips",
+        "description": "*brief* Adds cross fade between selected sequence and the closest sequence to its right\n\nBased on the active strip, finds the closest next sequence of a similar type, moves it\nso it overlaps the active strip, and adds a gamma cross effect between them. Works with\nMOVIE, IMAGE and META strips",
         "keymap": "Sequencer",
         "name": "Crossfade Add",
         "shortcuts": [
@@ -156,7 +177,7 @@
     },
     "power_sequencer.delete_direct": {
         "demo": "",
-        "description": "Deletes strips without confirmation, and cleans up crossfades nicely.",
+        "description": "Deletes strips without confirmation, and cleans up crossfades nicely",
         "keymap": "Sequencer",
         "name": "Delete Direct",
         "shortcuts": [
@@ -264,7 +285,7 @@
     },
     "power_sequencer.expand_to_surrounding_cuts": {
         "demo": "",
-        "description": "*Brief* Expand selected strips to surrounding cuts\n\nFinds potential gaps surrounding each block of selected sequences and extends the corresponding\nsequence handle to it.",
+        "description": "*Brief* Expand selected strips to surrounding cuts\n\nFinds potential gaps surrounding each block of selected sequences and extends the corresponding\nsequence handle to it",
         "keymap": "Sequencer",
         "name": "Expand To Surrounding Cuts",
         "shortcuts": [
@@ -281,7 +302,7 @@
     },
     "power_sequencer.fade_add": {
         "demo": "https://i.imgur.com/XoUM2vw.gif",
-        "description": "*brief* Adds or updates a fade animation for either visual or audio strips.\n\nFade options:\n\n- In, Out, In and Out create a fade animation of the given duration from\nthe start of the sequence, to the end of the sequence, or on both sides\n- From playhead: the fade animation goes from the start of sequences under the playhead to the playhead\n- To playhead: the fade animation goes from the playhead to the end of sequences under the playhead\n\nBy default, the duration of the fade is 1 second.",
+        "description": "*brief* Adds or updates a fade animation for either visual or audio strips\n\nFade options:\n\n- In, Out, In and Out create a fade animation of the given duration from\nthe start of the sequence, to the end of the sequence, or on both sides\n- From playhead: the fade animation goes from the start of sequences under the playhead to the playhead\n- To playhead: the fade animation goes from the playhead to the end of sequences under the playhead\n\nBy default, the duration of the fade is 1 second",
         "keymap": "Sequencer",
         "name": "Fade Add",
         "shortcuts": [
@@ -321,7 +342,7 @@
     },
     "power_sequencer.fade_clear": {
         "demo": "",
-        "description": "*brief* Removes fade animation from selected sequences.\n\nRemoves opacity or volume animation on selected sequences and resets the\nproperty to a value of 1.0. Works on all types of sequences.",
+        "description": "*brief* Removes fade animation from selected sequences\n\nRemoves opacity or volume animation on selected sequences and resets the\nproperty to a value of 1.0. Works on all types of sequences",
         "keymap": "Sequencer",
         "name": "Fade Clear",
         "shortcuts": [
@@ -473,11 +494,11 @@
             ]
         ]
     },
-    "power_sequencer.make_still_image": {
+    "power_sequencer.make_hold_frame": {
         "demo": "",
-        "description": "*brief* Make still image from active strip\n\n\nConverts image under the cursor to a still image, to create a pause effect in the video,\nusing the active sequence",
+        "description": "*brief* Make a hold frame from the active strip\n\nConverts the image under the cursor to a hold frame, to create a pause effect in the video,\nusing the active sequence",
         "keymap": "Sequencer",
-        "name": "Make Still Image",
+        "name": "Make Hold Frame",
         "shortcuts": []
     },
     "power_sequencer.marker_delete_closest": {
@@ -503,13 +524,6 @@
             ]
         ]
     },
-    "power_sequencer.marker_go_to_next": {
-        "demo": "",
-        "description": "Moves the time cursor to the next marker",
-        "keymap": "Sequencer",
-        "name": "Marker Go To Next",
-        "shortcuts": []
-    },
     "power_sequencer.marker_snap_to_cursor": {
         "demo": "",
         "description": "Snap selected marker to the time cursor",
@@ -529,6 +543,13 @@
         "description": "Snap selected strips to markers with the same name",
         "keymap": "Sequencer",
         "name": "Markers Snap Matching Strips",
+        "shortcuts": []
+    },
+    "power_sequencer.merge_from_scene_strip": {
+        "demo": "",
+        "description": "*brief* Copies all sequences and markers from a SceneStrip's scene into\nthe active scene. Optionally delete the source scene and the strip\n\nWARNING: Currently the operator doesn't recreate any animation data,\nbe careful by choosing to delete the scene after the merge",
+        "keymap": "Sequencer",
+        "name": "Merge From Scene Strip",
         "shortcuts": []
     },
     "power_sequencer.meta_resize_to_content": {
@@ -571,7 +592,7 @@
     },
     "power_sequencer.mouse_trim": {
         "demo": "https://i.imgur.com/wVvX4ex.gif",
-        "description": "*brief* Cut or Trim strips quickly with the mouse cursor\n\n\nClick somewehre in the Sequencer to insert a cut, click and drag to trim\nWith this function you can quickly cut and remove a section of strips while keeping or\ncollapsing the remaining gap.\nPress <kbd>Ctrl</kbd> to snap to cuts.\n\nA [video demo](https://youtu.be/GiLmDhmMVAM?t=1m35s) is available.",
+        "description": "*brief* Cut or Trim strips quickly with the mouse cursor\n\n\nClick somewhere in the Sequencer to insert a cut, click and drag to trim\nWith this function you can quickly cut and remove a section of strips while keeping or\ncollapsing the remaining gap.\nPress <kbd>Ctrl</kbd> to snap to cuts.\n\nA [video demo](https://youtu.be/GiLmDhmMVAM?t=1m35s) is available.",
         "keymap": "Sequencer",
         "name": "Mouse Trim",
         "shortcuts": [
@@ -705,6 +726,24 @@
         "name": "Open Project Directory",
         "shortcuts": []
     },
+    "power_sequencer.open_scene_strip": {
+        "demo": "",
+        "description": "Sets the current scene to the scene in the SceneStrip",
+        "keymap": "Sequencer",
+        "name": "Open Scene Strip",
+        "shortcuts": [
+            [
+                {
+                    "alt": true,
+                    "ctrl": true,
+                    "type": "E",
+                    "value": "PRESS"
+                },
+                {},
+                "Open Strip Scene"
+            ]
+        ]
+    },
     "power_sequencer.playback_speed_decrease": {
         "demo": "",
         "description": "*brief* Decrease playback speed incrementally down to normal\n\n\nPlayback speed may be set to any of the following speeds:\n\n* Normal (1x)\n* Fast (1.33x)\n* Faster (1.66x)\n* Double (2x)\n* Triple (3x)\n\nActivating this operator will decrease playback speed through each\nof these steps until minimum speed is reached.",
@@ -746,7 +785,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "NUMPAD_1",
+                    "type": "ONE",
                     "value": "PRESS"
                 },
                 {
@@ -757,7 +796,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "NUMPAD_2",
+                    "type": "TWO",
                     "value": "PRESS"
                 },
                 {
@@ -768,7 +807,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "NUMPAD_3",
+                    "type": "THREE",
                     "value": "PRESS"
                 },
                 {
@@ -779,7 +818,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "NUMPAD_4",
+                    "type": "FOUR",
                     "value": "PRESS"
                 },
                 {
@@ -790,7 +829,7 @@
             [
                 {
                     "ctrl": true,
-                    "type": "NUMPAD_5",
+                    "type": "FIVE",
                     "value": "PRESS"
                 },
                 {
@@ -921,7 +960,7 @@
     },
     "power_sequencer.select_all_left_or_right": {
         "demo": "",
-        "description": "*Brief* Selects all strips left or right of the time cursor.",
+        "description": "*Brief* Selects all strips left or right of the time cursor",
         "keymap": "Sequencer",
         "name": "Select All Left Or Right",
         "shortcuts": [
@@ -1009,7 +1048,7 @@
     },
     "power_sequencer.snap": {
         "demo": "",
-        "description": "*Brief* Snaps selected strips to the time cursor ignoring locked sequences.\n\nAutomatically selects sequences if there is no active selection.",
+        "description": "*Brief* Snaps selected strips to the time cursor ignoring locked sequences.\n\nAutomatically selects sequences if there is no active selection",
         "keymap": "Sequencer",
         "name": "Snap",
         "shortcuts": [
@@ -1026,7 +1065,7 @@
     },
     "power_sequencer.snap_selection": {
         "demo": "",
-        "description": "*Brief* Snap the entire selection to the time cursor.\n\nAutomatically selects sequences if there is no active selection.\nTo snap each strip individually, see Snap.",
+        "description": "*Brief* Snap the entire selection to the time cursor.\n\nAutomatically selects sequences if there is no active selection.\nTo snap each strip individually, see Snap",
         "keymap": "Sequencer",
         "name": "Snap Selection",
         "shortcuts": [
@@ -1073,7 +1112,7 @@
             [
                 {
                     "alt": true,
-                    "type": "NUMPAD_2",
+                    "type": "TWO",
                     "value": "PRESS"
                 },
                 {
@@ -1084,7 +1123,7 @@
             [
                 {
                     "alt": true,
-                    "type": "NUMPAD_3",
+                    "type": "THREE",
                     "value": "PRESS"
                 },
                 {
@@ -1095,7 +1134,7 @@
             [
                 {
                     "alt": true,
-                    "type": "NUMPAD_4",
+                    "type": "FOUR",
                     "value": "PRESS"
                 },
                 {
@@ -1107,7 +1146,7 @@
     },
     "power_sequencer.split_strips_under_cursor": {
         "demo": "https://i.imgur.com/ZyEd0jD.gif",
-        "description": "Splits all strips under cursor including muted strips, but excluding locked strips.\nAuto selects sequences under the time cursor when you don't have a selection.",
+        "description": "Splits all strips under cursor including muted strips, but excluding locked strips.\nAuto selects sequences under the time cursor when you don't have a selection",
         "keymap": "Sequencer",
         "name": "Split Strips Under Cursor",
         "shortcuts": [
@@ -1183,7 +1222,7 @@
     },
     "power_sequencer.trim_left_or_right_handles": {
         "demo": "",
-        "description": "Trims or extends the handle closest to the time cursor for all selected strips.\n\nIf you keep the Shift key down, the edit will ripple through the timeline.\nAuto selects sequences under the time cursor when you don't have a selection.",
+        "description": "Trims or extends the handle closest to the time cursor for all selected strips.\n\nIf you keep the Shift key down, the edit will ripple through the timeline.\nAuto selects sequences under the time cursor when you don't have a selection",
         "keymap": "Sequencer",
         "name": "Trim Left Or Right Handles",
         "shortcuts": [
@@ -1285,20 +1324,35 @@
             ]
         ]
     },
-    "sequencer.refresh_all": {
+    "power_sequencer.value_offset": {
         "demo": "",
-        "description": "",
+        "description": "Instantly offset selected strips, either using frames or seconds. Allows to nudge the selection quickly, using keyboard shortcuts",
         "keymap": "Sequencer",
-        "name": "Refresh All",
+        "name": "Value Offset",
         "shortcuts": [
             [
                 {
+                    "alt": true,
                     "shift": true,
-                    "type": "R",
+                    "type": "LEFT_ARROW",
                     "value": "PRESS"
                 },
-                {},
-                "Refresh All"
+                {
+                    "direction": "left"
+                },
+                "Offset the selection to the left."
+            ],
+            [
+                {
+                    "alt": true,
+                    "shift": true,
+                    "type": "RIGHT_ARROW",
+                    "value": "PRESS"
+                },
+                {
+                    "direction": "right"
+                },
+                "Offset the selection to the right."
             ]
         ]
     }
