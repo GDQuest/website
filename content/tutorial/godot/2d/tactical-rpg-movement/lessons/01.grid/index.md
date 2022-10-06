@@ -19,13 +19,13 @@ However, you don't need everything in the game to access the `Grid`: only five c
 
 There is an excellent alternative to using a singleton in Godot: using a resource.
 
-Like singletons, many nodes can share access to a given resource. Unlike singletons, only the nodes that explicitly hold a reference to a resource can access it. 
+Like singletons, many nodes can share access to a given resource. Unlike singletons, only the nodes that explicitly hold a reference to a resource can access it.
 
 _What's the point, if you can use a singleton instead?_
 
 This forces you to be **deliberate** about giving nodes access to the grid: you _must_ define a dedicated variable in their script. We'll use exported variables to do so.
 
-Using a "less convenient" option removes the temptation of using the singleton in unintended ways and coupling it to more parts of the game than needed. 
+Using a "less convenient" option removes the temptation of using the singleton in unintended ways and coupling it to more parts of the game than needed.
 
 If you're really careful and intentional about how you use singletons and prefer their convenience, you may use them instead.
 
@@ -58,6 +58,12 @@ To download it:
 
 Right-click on the _FileSystem_ tab and create a new script where we'll define our `Grid` class. Name it `Grid.gd` and make it extend `Resource`.
 
+![](01.script-section.webp)
+
+![](01.new-script.webp)
+
+![](01.script-type-list.webp)
+
 ![](01.creating-grid-script.png)
 
 ```gdscript
@@ -68,9 +74,9 @@ class_name Grid
 extends Resource
 
 # The grid's size in rows and columns.
-export var size := Vector2(20, 20)
+@export var size := Vector2(20, 20)
 # The size of a cell in pixels.
-export var cell_size := Vector2(80, 80)
+@export var cell_size := Vector2(80, 80)
 
 # Half of ``cell_size``.
 # We will use this to calculate the center of a grid cell in pixels, on the screen.
@@ -133,13 +139,21 @@ There are two advantages to doing that:
 
 You'd have a one-dimensional array representing your grid's state and an AStar2D instance using the same indices. We won't be using such an array in this series. Instead, we'll use a dictionary to keep track of units conveniently, as you'll see when we work on the _GameBoard_.
 
-However, in games with large maps, using a 1D array along with the AStar pathfinding can allow you to update the AStar graph fast whenever a unit moves or an obstacle disappears, at the cost of a little more code complexity, maybe.
+However, in games with large maps, using a 1D array along with the AStar pathfinding can allow you to update the AStar graph fast whenever a unit moves or an obstacle disappears, at the cost of a little more code complexity.
 
 ## Creating the grid resource
 
 Let's create the resource file we'll attach to our nodes in future lessons. It'll define the grid's base properties.
 
-Right-click in the _FileSystem_ tab to create a _New Resource..._. And create a resource of type "Grid". I've named it `Grid.tres`.
+Right-click in the _FileSystem_ tab to create a _New Resource..._.
+
+![](01.filesystem-new-resource.webp)
+e
+And create a resource of type "Grid".
+
+![](01.new-grid-resource.webp)
+
+I've named it `Grid.tres`.
 
 The resource opens in the _Inspector_. You can leave the default values we defined in the script.
 

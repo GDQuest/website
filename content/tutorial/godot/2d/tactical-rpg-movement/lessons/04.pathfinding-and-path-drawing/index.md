@@ -7,7 +7,7 @@ title: Pathfinding and path drawing
 weight: 5
 ---
 
-In this lesson, we will create a `PathFinder` class that extends Godot's built-in `AStar2D`, an implementation of the AStar pathfinding algorithm. 
+In this lesson, we will create a `PathFinder` class that extends Godot's built-in `AStar2D`, an implementation of the AStar pathfinding algorithm.
 
 We will use it to move units to a cell picked by the player, but also to display a preview of the path the unit will walk, inspired by Fire Emblem.
 
@@ -28,14 +28,12 @@ Once the graph is set, you call the `find_path()` function with the indices corr
 
 You can already see the _catch_: the AStar object works with unique IDs for each point in the graph.
 
-This is where our grid class comes in handy with its `as_index()` method. With this method, we can calculate a unique index for each cell coordinates in our grid.
+This is where our grid class comes in handy with its `as_index()` method. With this method, we can calculate a unique index for all cell coordinates in our grid.
 
 Here is the code for the `PathFinder` class. Create a new script and save it there.
 
 ```gdscript
 # Finds the path between two points among walkable cells using the AStar pathfinding algorithm.
-class_name PathFinder
-extends Reference
 
 # We will use that constant in "for" loops later. It defines the directions in which we allow a unit
 # to move in the game: up, left, right, down.
@@ -65,7 +63,7 @@ func _init(grid: Grid, walkable_cells: Array) -> void:
 
 
 # Returns the path found between `start` and `end` as an array of Vector2 coordinates.
-func calculate_point_path(start: Vector2, end: Vector2) -> PoolVector2Array:
+func calculate_point_path(start: Vector2, end: Vector2) -> PackedVector2Array:
 	# With the AStar algorithm, we have to use the points' indices to get a path. This is why we
 	# need a reliable way to calculate an index given some input coordinates.
 	# Our Grid.as_index() method does just that.
@@ -77,19 +75,21 @@ func calculate_point_path(start: Vector2, end: Vector2) -> PoolVector2Array:
 		# The AStar2D object then finds the best path between the two indices.
 		return _astar.get_point_path(start_index, end_index)
 	else:
-		return PoolVector2Array()
+		return PackedVector2Array()
 
 
 # Adds and connects the walkable cells to the Astar2D object.
 func _add_and_connect_points(cell_mappings: Dictionary) -> void:
-	# This function works with two loops. First, we register all our points in the AStar graph.
+	# This function works with two loops.
+
+	# First, we register all our points in the AStar graph.
 	# We pass each cell's unique index and the corresponding Vector2 coordinates to the
 	# AStar2D.add_point() function.
 	for point in cell_mappings:
 		_astar.add_point(cell_mappings[point], point)
 
-	# Then, we loop over the points again, and we connect them with all their neighbors. We use
-	# another function to find the neighbors given a cell's coordinates.
+	# Then, we loop over the points again, and we connect them with all their neighbors.
+	# We use another function to find the neighbors given a cell's coordinates.
 	for point in cell_mappings:
 		for neighbor_index in _find_neighbor_indices(point, cell_mappings):
 			# The AStar2D.connect_points() function connects two points on the graph by index, *not*

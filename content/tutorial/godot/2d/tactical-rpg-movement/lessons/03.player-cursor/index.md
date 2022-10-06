@@ -19,27 +19,33 @@ Our cursor will also move automatically at a fixed rate if you keep a direction 
 
 ## Creating the cursor
 
-Create the cursor scene with a _Node2D_ as its root named _Cursor_, a _Sprite_ node, and a _Timer_ node we'll use to limit the frequency of movement when keeping a direction key down.
+Create a new scene, with a _Node2D_ as its root.
+![](03.create2dscene.webp)
 
+Name the root node to _Cursor_. Create 2 child nodes:
+1. Sprite2D
+2. Timer
+
+We will use the timer to limit the frequency of movement when keeping a direction key down.
 ![](03.cursor-scene.png)
 
 We need to set the _Timer_ to _One Shot_. By default, timers keep running in a loop. But to make them work as a cooldown, we have to toggle off that behavior.
 
 ![](03.timer-one-shot.png)
 
-Assign the texture `menu_selection_arrow.png` to the _Sprite_'s _Texture_. I've rotated the sprite so it points down at the origin like so.
+Assign the texture `menu_selection_arrow.png` to the _Sprite2D_'s _Texture_. Rotate the sprite so it points down at the origin like this:
 
-![](03.cursor-texture-rotated.png)
+![](03.rotated-cursor.webp)
 
 Attach a script to the _Cursor_, and let's get coding.
 
 ```gdscript
+extends Node2D
+
 # Player-controlled cursor. Allows them to navigate the game grid, select units, and move them.
 # Supports both keyboard and mouse (or touch) input.
 # The `tool` mode allows us to preview the drawing code you'll see below in the editor.
-tool
-class_name Cursor
-extends Node2D
+@tool
 
 # We'll use signals to keep the cursor decoupled from other nodes.
 # When the player moves the cursor or wants to interact with a cell, we emit a signal and let
@@ -51,35 +57,39 @@ signal accept_pressed(cell)
 signal moved(new_cell)
 
 # Grid resource, giving the node access to the grid size, and more.
-export var grid: Resource = preload("res://Grid.tres")
+@export var grid : Resource = preload("res://Grid.tres")
 # Time before the cursor can move again in seconds.
 # You can see how we use it in the unhandled input function below.
-export var ui_cooldown := 0.1
+@export var ui_cooldown := 0.1
 
 # Coordinates of the current cell the cursor is hovering.
-var cell := Vector2.ZERO setget set_cell
+var hoveredCell : Vector2 = Vector2.ZERO :
+	set (value):
+		hoveredCell = on_cell_hover(value)
+	get:
+		return hoveredCell
 
 # We use the timer to have a cooldown on the cursor movement.
-onready var _timer: Timer = $Timer
+@onready var _timer: Timer = $Timer
 
 
 # When the cursor enters the scene tree, we snap its position to the centre of the cell and we
 # initialise the timer with our ui_cooldown variable.
 func _ready() -> void:
 	_timer.wait_time = ui_cooldown
-	position = grid.calculate_map_position(cell)
+	position = grid.calculate_map_position(hoveredCell)
 
 
 func _unhandled_input(event: InputEvent) -> void:
 	# If the user moves the mouse, we capture that input and update the node's cell in priority.
 	if event is InputEventMouseMotion:
-		self.cell = grid.calculate_grid_coordinates(event.position)
+		hoveredCell = grid.calculate_grid_coordinates(event.position)
 	# If we are already hovering the cell and click on it, or we press the enter key, the player
 	# wants to interact with that cell.
 	elif event.is_action_pressed("click") or event.is_action_pressed("ui_accept"):
 		#  In that case, we emit a signal to let another node handle that input. The game board will
 		#  have the responsibility of looking at the cell's content.
-		emit_signal("accept_pressed", cell)
+		emit_signal("accept_pressed", hoveredCell)
 		get_tree().set_input_as_handled()
 
 	# The code below is for the cursor's movement.
@@ -98,13 +108,13 @@ func _unhandled_input(event: InputEvent) -> void:
 	# Here, we update the cursor's current cell based on the input direction. See the set_cell()
 	# function below to see what changes that triggers.
 	if event.is_action("ui_right"):
-		self.cell += Vector2.RIGHT
+		hoveredCell += Vector2.RIGHT
 	elif event.is_action("ui_up"):
-		self.cell += Vector2.UP
+		hoveredCell += Vector2.UP
 	elif event.is_action("ui_left"):
-		self.cell += Vector2.LEFT
+		hoveredCell += Vector2.LEFT
 	elif event.is_action("ui_down"):
-		self.cell += Vector2.DOWN
+		hoveredCell += Vector2.DOWN
 
 
 # We use the draw callback to a rectangular outline the size of a grid cell, with a width of two
@@ -112,24 +122,25 @@ func _unhandled_input(event: InputEvent) -> void:
 func _draw() -> void:
 	# Rect2 is built from the position of the rectangle's top-left corner and its size. To draw the
 	# square around the cell, the start position needs to be `-grid.cell_size / 2`.
-	draw_rect(Rect2(-grid.cell_size / 2, grid.cell_size), Color.aliceblue, false, 2.0)
+	draw_rect(Rect2(-grid.cell_size / 2, grid.cell_size), Color.ALICE_BLUE, false, 2.0)
 
 
 # This function controls the cursor's current position.
-func set_cell(value: Vector2) -> void:
+func on_cell_hover(value: Vector2) -> Vector2:
 	# We first clamp the cell coordinates and ensure that we weren't trying to move outside the
 	# grid's boundaries.
-	var new_cell: Vector2 = grid.clamp(value)
-	if new_cell.is_equal_approx(cell):
-		return
+	var new_cell : Vector2 = grid.clamp(value)
+	if new_cell.is_equal_approx(hoveredCell):
+		return value
 
-	cell = new_cell
 	# If we move to a new cell, we update the cursor's position, emit a signal, and start the
 	# cooldown timer that will limit the rate at which the cursor moves when we keep the direction
 	# key down.
-	position = grid.calculate_map_position(cell)
-	emit_signal("moved", cell)
+	position = grid.calculate_map_position(new_cell)
+	emit_signal("moved", new_cell)
 	_timer.start()
+
+	return value
 ```
 
 You can now instantiate your cursor in the _Main_ scene to test it. Its code is self-contained, so it should work out of the box.
