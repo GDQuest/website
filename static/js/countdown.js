@@ -4,6 +4,7 @@
 // Expects datetimes as input parameters.
 function countdown(endDate) {
   const hour = 60 * 60 * 1000,
+    minute = 60 * 1000,
     day = hour * 24;
 
   const endTime = endDate.getTime();
@@ -14,18 +15,15 @@ function countdown(endDate) {
     const now = new Date().getTime();
     const distance = endTimeUTC - now + timeOffsetUTC;
     const days = Math.floor(distance / day);
-    const hours = Math.floor((distance % day) / hour);
 
     const countdown = document.getElementById("countdown");
     if (days >= 3) {
       countdown.innerText = `${days} days left`;
     } else {
-      let hours = Math.floor((distance % (day * 3)) / hour);
-      if (hours > 1) {
-        countdown.innerText = `${hours} hours left`;
-      } else {
-        countdown.innerText = `${hours} hour left`;
-      }
+      let hours = Math.floor((distance % (day * 3)) / hour).toString().padStart(2, "0");
+      let minutes = Math.floor(distance % hour / minute).toString().padStart(2, "0");
+      let seconds = Math.floor((distance % minute / 1000)).toString().padStart(2, "0");
+      countdown.innerText = `${hours}:${minutes}:${seconds}`;
     }
     if (distance < 0) {
       const banner = document.getElementById("countdown-banner");
@@ -33,6 +31,6 @@ function countdown(endDate) {
       clearInterval(intervalCallback);
     }
   };
-  const intervalCallback = setInterval(updateCountdown, hour);
+  const intervalCallback = setInterval(updateCountdown, 1000);
   updateCountdown();
 }

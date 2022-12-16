@@ -7,6 +7,10 @@
 
   color: white;
   background: #032769;
+  background-image: none;
+  background-image: linear-gradient(225deg, #003595 0%, #5527B9 50%, #00307B 100%);
+
+  text-shadow: $shadow-small;
 
   > .character {
     max-height: 160px;
@@ -25,6 +29,7 @@
     margin-top: 0;
     font-weight: 1000;
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .subtitle {
     color: #f2f2f2;
@@ -34,7 +39,7 @@
     margin-bottom: 1rem;
   }
   .countdown {
-    color: #78d7ff;
+    color: #ffe560;
     font-size: 1.9rem;
     font-weight: 1000;
     text-transform: uppercase;
@@ -46,6 +51,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+  > p { font-size: large; }
 }
 .kickstarter-logo {
   max-height: 1.5rem;
