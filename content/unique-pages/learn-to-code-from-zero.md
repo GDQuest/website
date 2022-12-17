@@ -8,4 +8,4 @@ url: learn-to-code-from-zero
 weight: 5
 ---
 
- <iframe src="https://gdquest.github.io/learn-gdscript/" title="Free app to learn GDScript" style="min-width: 800px; min-height: 480px; margin: auto; display: block;" ></iframe> 
+<iframe allowfullscreen src="https://gdquest.github.io/learn-gdscript/" title="Free app to learn GDScript" style="min-width: 800px; min-height: 480px; margin: auto; display: block;" ></iframe> 
