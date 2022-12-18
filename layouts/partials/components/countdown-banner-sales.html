@@ -7,6 +7,7 @@
 <!-- - callToAction (optional): button text -->
 <!-- - link: call to action button url -->
 <!-- - subtitle (optional): optional subtitle with bold text -->
+<!-- - useSnow (optional): if true, show snowflakes -->
 <div class="banner-container">
   <img src="/img/kickstarter/david.svg" class="character" />
   <div id="countdown-banner" class="countdown-banner">
@@ -33,3 +34,8 @@
 <script type="text/javascript">
   countdown(new Date("{{.endDate}}"))
 </script>
+
+{{ with .useSnow }}
+{{ $snow := resources.Get "js/snowInBanner.js" | js.Build (dict "minify" true) }}
+<script defer type="text/javascript" src="{{ $snow.RelPermalink }}"></script>
+{{ end }}
