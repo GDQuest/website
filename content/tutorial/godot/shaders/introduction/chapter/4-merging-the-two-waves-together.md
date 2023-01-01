@@ -1,6 +1,4 @@
 ---
-aliases:
-- /tutorial/game-design/godot/introduction-to-shaders/chapter/4-merging-the-two-waves-together
 author: nathan
 date: "2018-07-23T16:29:50.000Z"
 description: Following on the last tutorial, in this one we merge and stack the two

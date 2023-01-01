@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2020/01/2d-platformer-demo-rework/
 author: johnny
 categories:
 - news

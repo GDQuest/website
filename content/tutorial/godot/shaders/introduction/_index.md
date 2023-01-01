@@ -1,6 +1,4 @@
 ---
-aliases:
-- /tutorial/game-design/godot/introduction-to-shaders/
 author: nathan
 date: "2018-08-13"
 description: Learn to code shaders from scratch in Godot

@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/08/power-sequencer-1.1/
 author: nathan
 categories:
 - news

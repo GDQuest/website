@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2020/01/mannequiny-released/
 author: razoric
 categories:
 - news

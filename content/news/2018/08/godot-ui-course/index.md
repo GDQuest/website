@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/08/godot-ui-course/
 author: nathan
 categories:
 - news

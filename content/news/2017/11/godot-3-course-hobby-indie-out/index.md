@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/11/godot-3-course-hobby-indie-out/
 author: nathan
 category:
 - news

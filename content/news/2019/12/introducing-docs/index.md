@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/12/introducing-docs/
 author: razvan
 categories:
 - news

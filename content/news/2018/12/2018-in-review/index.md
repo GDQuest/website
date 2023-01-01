@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/12/2018-in-review/
 author: nathan
 categories:
 - news

@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/news/2d-games-godot-kickstarter-live/
 author: nathan
 category:
 - news

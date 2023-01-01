@@ -1,6 +1,4 @@
 ---
-aliases:
-- /tutorial/game-design/godot/user-interface-tutorials/
 author: nathan
 banner:
   src: banner.png

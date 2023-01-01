@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/12/godot-3d-course-ea/
 author: nathan
 categories:
 - news

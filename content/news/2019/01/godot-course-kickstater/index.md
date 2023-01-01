@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/01/godot-course-kickstater/
 author: nathan
 categories:
 - news

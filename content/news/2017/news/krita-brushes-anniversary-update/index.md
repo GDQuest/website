@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/news/krita-brushes-anniversary-update/
 author: nathan
 category:
 - news

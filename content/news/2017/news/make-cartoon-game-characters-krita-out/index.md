@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/news/make-cartoon-game-characters-krita-out/
 author: nathan
 category:
 - news

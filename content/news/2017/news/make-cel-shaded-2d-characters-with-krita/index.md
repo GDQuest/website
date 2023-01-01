@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/news/make-cel-shaded-2d-characters-with-krita/
 author: nathan
 category:
 - news

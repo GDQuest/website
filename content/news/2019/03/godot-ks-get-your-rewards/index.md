@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/03/godot-ks-get-your-rewards/
 author: nathan
 categories:
 - news

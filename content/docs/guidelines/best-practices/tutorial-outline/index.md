@@ -1,6 +1,4 @@
 ---
-aliases:
-- docs/guidelines/best-practices/tutorial-outline
 author: nathan
 date: "2020-03-20T18:16:27-06:00"
 description: This document is an example of writing tutorial outlines that capture

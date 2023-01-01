@@ -1,7 +1,4 @@
 ---
-aliases:
-- /post/2017/news/first-krita-course-out/
-- /first-krita-course-out/
 author: nathan
 category:
 - news

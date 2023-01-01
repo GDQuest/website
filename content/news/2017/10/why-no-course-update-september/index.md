@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/10/why-no-course-update-september/
 author: nathan
 category:
 - news

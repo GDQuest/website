@@ -1,7 +1,4 @@
 ---
-aliases:
-- /open-source/contributing-guidelines/
-- /open-source/guidelines/contributing-to-gdquest-projects/
 author: nathan
 date: "2018-11-05T09:30:19+09:00"
 description: Do you want to become a Free Software contributor? This guide is here

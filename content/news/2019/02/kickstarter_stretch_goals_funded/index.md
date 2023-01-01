@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/02/kickstarter_stretch_goals_funded/
 author: nathan
 categories:
 - news

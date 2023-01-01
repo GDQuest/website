@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/10/godot-3-alpha-attack-tutorial/
 author: nathan
 category:
 - news

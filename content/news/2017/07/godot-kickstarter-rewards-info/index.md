@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/07/godot-kickstarter-rewards-info/
 author: nathan
 category:
 - news

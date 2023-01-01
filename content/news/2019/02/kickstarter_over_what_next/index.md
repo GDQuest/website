@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/02/kickstarter_over_what_next/
 author: nathan
 categories:
 - news

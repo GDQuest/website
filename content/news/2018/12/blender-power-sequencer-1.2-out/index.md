@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/12/blender-power-sequencer-1.2-out/
 author: nathan
 categories:
 - news

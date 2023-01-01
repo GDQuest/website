@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/06/godot-course-update-7/
 author: nathan
 categories:
 - news

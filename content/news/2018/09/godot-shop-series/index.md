@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/09/godot-shop-series/
 author: nathan
 categories:
 - news

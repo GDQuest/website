@@ -1,7 +1,4 @@
 ---
-aliases:
-- /open-source/contributing-learn-godot/
-- /open-source/guidelines/contributing-to-learn-godot/
 author: razvan
 date: 2019-11-19 09:21:59+0200
 description: Do you want to contribute to our Learn to Make Games with Godot guides?

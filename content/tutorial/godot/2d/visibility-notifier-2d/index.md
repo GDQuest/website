@@ -1,6 +1,4 @@
 ---
-aliases:
-- /tutorial/godot/2D/visibility-nodes/
 author: henrique
 date: 2019-05-17T17:00:01
 description: In this Godot tutorial, Pigdev shows you how to react to easily detect

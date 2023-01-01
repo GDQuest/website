@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/06/godot-ks-june-update/
 author: nathan
 categories:
 - news

@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/news/gaq-early-access/
 author: nathan
 category:
 - news

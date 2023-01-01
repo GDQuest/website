@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/11/back-from-the-capitole/
 author: nathan
 categories:
 - news

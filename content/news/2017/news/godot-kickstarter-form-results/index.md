@@ -1,7 +1,4 @@
 ---
-aliases:
-- /post/2017/news/godot-kickstarter-form-results/
-- /post/2017/news/godot_engine_kickstarter/
 author: nathan
 category:
 - news

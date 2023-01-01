@@ -1,6 +1,4 @@
 ---
-aliases:
-- /open-source/guidelines/gdquest-videos/
 author: nathan
 date: "2019-07-07T09:34:00+09:00"
 description: This document is a living tool to help us improve the educational value

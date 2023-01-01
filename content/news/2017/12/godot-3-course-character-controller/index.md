@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/12/godot-3-course-character-controller/
 author: nathan
 categories:
 - news

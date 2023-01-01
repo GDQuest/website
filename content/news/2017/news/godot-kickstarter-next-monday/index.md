@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2017/news/godot-kickstarter-next-monday/
 author: nathan
 category:
 - news

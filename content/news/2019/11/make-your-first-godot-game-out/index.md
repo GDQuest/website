@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/11/make-your-first-godot-game-out/
 author: nathan
 categories:
 - news

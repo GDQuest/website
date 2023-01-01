@@ -1,7 +1,4 @@
 ---
-aliases:
-- /post/2017/news/in-the-office/
-- /in-the-office/
 author: nathan
 category:
 - news

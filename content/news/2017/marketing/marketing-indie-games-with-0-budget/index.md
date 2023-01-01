@@ -1,7 +1,4 @@
 ---
-aliases:
-- /post/2017/marketing/marketing-indie-games-with-0-budget/
-- /game-design/marketing-indie-games-on-a-0-budget-notes/
 author: nathan
 category:
 - tutorials

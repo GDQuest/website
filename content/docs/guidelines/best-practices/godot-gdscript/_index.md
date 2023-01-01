@@ -1,6 +1,4 @@
 ---
-aliases:
-- /open-source/guidelines/godot-gdscript/
 author: nathan
 date: "2019-07-16T08:34:54+09:00"
 description: This guide covers some best practices to write solid GDScript code and

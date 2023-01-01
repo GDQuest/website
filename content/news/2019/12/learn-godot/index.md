@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/12/learn-godot/
 author: razvan
 categories:
 - news

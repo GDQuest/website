@@ -1,6 +1,4 @@
 ---
-aliases:
-- godot-pcg-secrets-out
 author: nathan
 banner:
   src: /img/product/godot/2d-secrets.png

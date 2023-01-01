@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/07/godot-course-update-user-interface/
 author: nathan
 date: "2018-07-30T15:39:19+09:00"
 description: Learn to use unique techniques to design your game's UI with Godot!

@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2018/10/godot-course-final-release/
 author: nathan
 categories:
 - news

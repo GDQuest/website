@@ -1,6 +1,4 @@
 ---
-aliases:
-- /post/2019/01/kickstarter-paypal/
 author: nathan
 categories:
 - news

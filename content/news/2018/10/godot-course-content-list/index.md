@@ -1,7 +1,4 @@
 ---
-aliases:
-- /post/2018/10/godot-course-content-list/
-- /product/godot/make-pro-2d-games/content/
 author: nathan
 category: Godot
 date: "2018-10-26"

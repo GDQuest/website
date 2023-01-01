@@ -1,6 +1,4 @@
 ---
-aliases:
-- /tutorial/game-design/godot/user-interface-tutorials/chapter/7_animated_experience_bar_in_godot_
 author: nathan
 date: "2018-10-03T16:29:54.000Z"
 description: After coding a Leveling System (//youtu.be/V-VJra5lrv0), we're going
