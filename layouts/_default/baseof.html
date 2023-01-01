@@ -3,14 +3,6 @@
     {{ partial "head" . }}
     <body>
         <div class="page-base">
-            {{ partialCached "components/countdown-banner-sales" ( dict
-            "title" "Christmas sale"
-            "content" "Get <span style=\"color: #ffe560;\"><strong>50% off</strong></span> on all our courses and bundles with the coupon code <span style=\"color: #ffe560;\"><strong>DISCOUNT50</strong></span></br>*Only until the year ends.*"
-            "endDate" "2023-01-01T00:00"
-            "callToAction" "Check out our Godot courses"
-            "link" "https://gdquest.mavenseed.com/courses/"
-            "useSnow" true
-            ) }}
             <header class="header darkbg">
                 <div class="header-background"></div>
                 {{ partial "nav-main" . }}
