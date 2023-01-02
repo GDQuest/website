@@ -32,12 +32,6 @@ target = "assets/scss"
 source = "static/img"
 target = "assets/img"
 
-# Shortcuts in the docs section
-[[menu.shortcuts]]
-name = "<i class='fas fa-level-up-alt'></i>&nbsp;Back to GDQuest.com"
-url = "//"
-weight = 1
-
 [author]
 name = "Nathan Lovato"
 email = "nathan@gdquest.com"
@@ -133,10 +127,6 @@ name        = "products"
 url         = "/product/"
 weight      = 3
 [[languages.en.menu.main]]
-name        = "Docs"
-url         = "/docs/"
-weight      = 5
-[[languages.en.menu.main]]
 name        = "About"
 url         = "/about/"
 weight      = 6
@@ -156,10 +146,6 @@ weight      = 2
 name        = "Productos"
 url         = "/product/"
 weight      = 3
-[[languages.es.menu.main]]
-name        = "Docs"
-url         = "/docs/"
-weight      = 5
 [[languages.es.menu.main]]
 name        = "Acerca"
 url         = "/about/"
@@ -181,10 +167,6 @@ name        = "Produits"
 url         = "/product/"
 weight      = 3
 [[languages.fr.menu.main]]
-name        = "Docs"
-url         = "/docs/"
-weight      = 5
-[[languages.fr.menu.main]]
 name        = "À propos"
 url         = "/about/"
 weight      = 6
@@ -204,10 +186,6 @@ weight      = 2
 name        = "プロダクト"
 url         = "/product/"
 weight      = 3
-[[languages.ja.menu.main]]
-name        = "ドキュメント"
-url         = "/docs/"
-weight      = 5
 [[languages.ja.menu.main]]
 name        = "会社情報"
 url         = "/about/"
