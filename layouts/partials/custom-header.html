@@ -1,6 +1,0 @@
-{{ $stylesheet := resources.Get "scss/docs/docs.scss" | resources.ToCSS | minify | fingerprint }}
-
-<link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
-<!-- Analytics. -->
-<script async defer data-domain="gdquest.com" src="https://plausible.io/js/plausible.js"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>

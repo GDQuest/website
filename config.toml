@@ -2,7 +2,6 @@ baseURL = "//gdquest.com/"
 languageCode = "en-us"
 title = "GDQuest"
 titleCaseStyle = "Chicago"
-theme = "github.com/matcornic/hugo-theme-learn"
 
 disableLanguages = ["es", "fr", "ja"]
 
@@ -48,8 +47,6 @@ email = "nathan@gdquest.com"
 topline = "Game Design Quest"
 home = "home"
 highlight = "default"
-stylesheet = "concise.css"
-themeVariant = "blue"
 
 ytapikey = "AIzaSyAUCyzwHmO71chFn7wMa6VlBNzk0tpkFYk"
 

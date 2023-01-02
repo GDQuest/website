@@ -158,7 +158,3 @@ The book explains how shaders work and what you can achieve with them. At the ti
 If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
 
 The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
-
-## Contributing to this document
-
-If you want to contribute to this document please read and follow our [Contributing to: Make Games with Godot Guides]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}). Your support is very appreciated. Please help us improve our quality for everyone!

@@ -1,9 +1,10 @@
 ---
+type: redirect
+redirect: https://gdquest.gitbook.io/gdquests-guidelines/
 aliases:
 - /docs/guides/
 date: "2019-12-06T12:53:12+02:00"
-disableToc: true
-title: GDQuest Documents
+title: GDQuest guidelines
 ---
 
 Welcome to the GDQuest docs section.

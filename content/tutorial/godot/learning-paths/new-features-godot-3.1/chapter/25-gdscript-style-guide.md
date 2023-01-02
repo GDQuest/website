@@ -9,4 +9,4 @@ videoId: CGg3LAo91pY
 weight: 25
 ---
 
-Read our GDScript guidelines for robust code [here]({{< ref "/docs/guidelines/best-practices/godot-gdscript/_index.md" >}}).
+Read our GDScript guidelines for robust code [here](https://gdquest.gitbook.io/gdquests-guidelines/godot-gdscript-guidelines).

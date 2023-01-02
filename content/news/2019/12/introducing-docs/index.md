@@ -19,7 +19,7 @@ weight: 5
 
 <!-- If this file goes under contents/docs be sure to start chapters with ##, not # -->
 
-Over the past few days we've been working on a new section that brings all our useful guides, like our [GDScript styleguide]({{< ref "docs/guidelines/best-practices/godot-gdscript/_index.md" >}}) in one place.
+Over the past few days we've been working on a new section that brings all our useful guides, like our [GDScript styleguide](https://gdquest.gitbook.io/gdquests-guidelines/godot-gdscript-guidelines) in one place.
 
 Now, we have a beautiful [docs section]({{< ref "docs/_index.md" >}}) based on the excellent [Hugo learn theme](//learn.netlify.com). This is the first step in a series of improvements we are making to improve your experience on this website.
 
@@ -44,7 +44,7 @@ That is it for this update. Here are a few insightful guides for you to check ou
 
 1. [Make Games with Godot: Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}})
 1. [Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}})
-1. Our [GDScript styleguide]({{< ref "docs/guidelines/best-practices/godot-gdscript/_index.md" >}})
+1. Our [GDScript styleguide](https://gdquest.gitbook.io/gdquests-guidelines/godot-gdscript-guidelines)
 
 We will keep improving these documents moving forward. Enjoy!
 

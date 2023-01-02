@@ -136,10 +136,6 @@ Non-gamedev related:
 
 The [previous part]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) in this series [Learn to Make Games with Godot: Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) explores basic resources for the enthusiasts out there that want to understand how to use the Godot game engine, starting from the very beginning.
 
-## Contributing to this document
-
-If you want to contribute to this document please read and follow our [contributor's guide]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}). Your help is much appreciated.
-
 ## Support GDQuest
 
 If you want to go further with game creation and support our work, check out our [game creation courses](//gdquest.mavenseed.com/).

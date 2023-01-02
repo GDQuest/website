@@ -70,10 +70,6 @@ We wrap up with two more useful lists for anyone that dives into complex problem
 1. How to get help when you are stuck with the engine.
 2. A list of top-quality extra resources to explore that are not Godot-specific yet very useful.
 
-## Contributing
-
-These guides are living documents. If you want to suggest high quality resources to enrich the guide, check out our [contributor's guidelines]({{< ref "docs/guidelines/contributing-to/learn-godot/index.md" >}}).
-
 We want to thank our backers kindly: without your help, we could not afford to open source so much of our work.
 
 We hope you'll enjoy the guides!
