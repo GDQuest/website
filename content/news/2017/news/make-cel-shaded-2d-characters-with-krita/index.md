@@ -30,17 +30,16 @@ The second Krita game art tutorial series is out! Meet Pepper, Carrot, and cel s
 
 This is a short, yet a rich series. It comes with **14 video tutorials**, plus a fully **commented art time-lapse**.
 
-{{< figure
-    src="/img/product/krita/cel-shaded-game-art/pepper-and-carrot-artwork.jpg"
-    caption="Meet Pepper and Carrot, the 2 characters from the course"
-    alt="Pepper and Carrot side by side, painted with a cartoon art style" >}}
+![Pepper and Carrot side by side, painted with a cartoon art style](/img/product/krita/cel-shaded-game-art/pepper-and-carrot-artwork.jpg)
+
+*Meet Pepper and Carrot, the 2 characters from the course*
 
 ## Pre-requisites
 
 1. If you have never used Krita before or don’t feel comfortable with it, check out my [6 hours long free Krita course](/tutorial/art/krita-tutorial-for-game-artists/).
 1. The pace of the course is like the tutorials you will find on the GDQuest channel, you can check them out first and see if they work for you before you buy.
 
-{{< figure src="/img/post/2017/news/godot-engine-kickstarter/krita-course-cel-shading.jpg" alt="3 stylized characters used to teach lighting fundamentals" caption="Learn lighting and shading tricks with Krita" >}}
+![3 stylized characters used to teach lighting fundamentals](/img/post/2017/news/godot-engine-kickstarter/krita-course-cel-shading.jpg)
 
 ## 30 days moneyback
 
@@ -54,7 +53,6 @@ The course is available on Gumroad. Click the button below to access it. If you 
 
 This series wraps up the Game Art Quest Kickstarter project. Next, we're working together with the Godot developers to offer the first professional course for this wonderful open source engine! [Subscribe to the Youtube channel](//www.youtube.com/c/gdquest) to know when it's available. I'm preparing 30 free tutorials for the 30 days of the Kickstarter campaign.
 
-{{< figure
-    src="/img/product/krita/cel-shaded-game-art/pepper-carrot-cover-by-david-revoy.jpg"
-    caption="Pepper and Carrot, CC-By 4.0 David Revoy"
-    alt="Pepper smiling and holding a colorful potion inside her house" >}}
+![Pepper smiling and holding a colorful potion inside her house](/img/product/krita/cel-shaded-game-art/pepper-carrot-cover-by-david-revoy.jpg)
+
+*Pepper and Carrot, CC-By 4.0 David Revoy*

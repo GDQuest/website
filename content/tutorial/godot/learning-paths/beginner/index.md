@@ -30,9 +30,7 @@ We made, collected, and reviewed dozens of **free resources** to help you learn 
 
 This learning path will take you from zero to completing your first games.
 
-{{< figure
-src="img/godot-engine.png"
-alt="Screenshot of the Godot editor, showing the 3d view" >}}
+[Screenshot of the Godot editor, showing the 3d view](img/godot-engine.png)
 
 In this guide, you'll get free resources to learn:
 
@@ -158,3 +156,4 @@ The book explains how shaders work and what you can achieve with them. At the ti
 If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
 
 The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
+

@@ -22,10 +22,9 @@ It's been a year already. 12 months, 12 consecutive updates. This anniversary re
 
 The updated design reads a lot better when the thumbnails get small. If you work on a laptop, a tablet, or if you have a lot of presets in the docker, you can now spot the one you want faster.
 
-{{< figure
-    src="presets-docker-comparison.jpg"
-    caption="The old brushes and the new ones in the presets docker. That's quite a change, isn't it?"
-    alt="Comparison of the old brush thumbnails and the new ones" >}}
+![Comparison of the old brush thumbnails and the new ones](presets-docker-comparison.jpg)
+
+*The old brushes and the new ones in the presets docker. That's quite a change, isn't it?*
 
 There are up to 4 elements in each thumbnail:
 
@@ -34,11 +33,9 @@ There are up to 4 elements in each thumbnail:
 1. **The pictogram**, in the top-right corner, tells you what the brush is intended for
 1. **The stroke** is prominent, in the center
 
+![The 4 components of a brush thumbnail, and the assembled result](brush-thumbnail-components.jpg)
 
-{{< figure
-    src="brush-thumbnail-components.jpg"
-    caption="A handful of layers are all it takes to generate the complete thumbnail"
-    alt="The 4 components of a brush thumbnail, and the assembled result" >}}
+*A handful of layers are all it takes to generate the complete thumbnail*
 
 I wrote a python script to automate the process, and make it easier to improve them moving forward. As this is a big change, I'm counting on you to tell me what you think!
 

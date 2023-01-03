@@ -31,9 +31,8 @@ The second premium Krita game art course, Make Cel Shaded Game Characters, is ou
 
 The course is based on Pepper and Carrot, the main 2 characters of a webcomic by [David Revoy](//davidrevoy.com/). It's available under the [CC-By 4.0 licence](//creativecommons.org/licenses/by/4.0/). It's very common to work on an existing IP or world as a game artist, and David's comic allows us to do just that.
 
-{{< figure
-    src="/img/product/krita/cel-shaded-game-art/pepper-and-carrot-artwork.jpg"
-    caption="Meet Pepper and Carrot, turned into sprites for the tutorials"
-    alt="Pepper and Carrot side by side, painted with a cartoon art style" >}}
+![Pepper and Carrot side by side, painted with a cartoon art style](/img/product/krita/cel-shaded-game-art/pepper-and-carrot-artwork.jpg)
+
+*Meet Pepper and Carrot, turned into sprites for the tutorials*
 
 I hope you'll like it! And see you soon on Kickstarter for a [game creation course with Godot]({{< ref "/news/2017/news/godot-engine-kickstarter/index.md" >}}).

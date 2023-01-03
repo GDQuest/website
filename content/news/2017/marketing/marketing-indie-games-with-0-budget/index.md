@@ -44,10 +44,7 @@ Each and every screenshot is its own little piece of art. If you follow artists 
 1. Make sure they are well lit, with both good brightness and contrast.
 1. The screens should look appealing, and really they should tell a story.
 
-{{< figure
-    src="firewatch-sunrise.jpg"
-    alt="Beautiful sunrise scene in the game Firewatch" >}}
-
+![Beautiful sunrise scene in the game Firewatch](firewatch-sunrise.jpg)
 
 ### 3- Press release
 
@@ -76,7 +73,7 @@ The landing page is a powerful marketing asset. It is a vitrine for your game, t
 1. Mention good reviews and testimonials from influent sources.
 1. At the bottom, leave links to your presskit and ways to contact you.
 
-{{< figure src="hollow-knight-teaser.jpg" caption="Hollow knight has a great landing page" alt="Hollow knight game screenshot" >}}
+![Hollow knight game screenshot](hollow-knight-teaser.jpg)
 
 ### 5- Devblog
 

@@ -56,9 +56,3 @@ Although I'm back to work since last week, I'm still recovering. If you wondered
 Aside from that, I've open sourced my [Blender video editing add-on](//github.com/GDQuest/GDQuest-VSE). The average tutorial has more than 100 cuts, and I needed tools to do that as efficiently as possible. It's still not ready for public use, but at least it's out there, so anyone can check it out, and start playing with the features. If there are users, you can expect me to improve it a bit faster!
 
 ![Screenshot of Blender showing the cuts on an tutorial](cuts-on-tutorials.jpg)
-
-
-## For those who missed the Kickstarter
-
-You missed the campaign? Subscribe to Gumroad to know when the course will be available! You can have a discount if you get it in early access.
-

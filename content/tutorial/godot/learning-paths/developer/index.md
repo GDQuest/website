@@ -40,11 +40,7 @@ There are several places where you can learn about the differences between Godot
 
 Godot treats UI-related objects differently to play-related objects. This may be confusing initially but Godot has a powerful theming mechanism that goes along with this. It may not be the friendliest of developer experiences, but we have a few guides to help you.
 
-{{< figure
-  src="img/rpginabox.png"
-  alt="Screenshot of RPG in a box, a beginner-friendly rpg engine made in Godot"
-  caption="RPG in a Box, an RPG engine made with Godot"
->}}
+![Screenshot of RPG in a box, a beginner-friendly rpg engine made in Godot](img/rpginabox.png)
 
 To get started with UI, themes and much more, have a look at the following educational resources:
 
@@ -55,10 +51,9 @@ To get started with UI, themes and much more, have a look at the following educa
 
 Using Shaders in Godot is where the engine truly shines. It offers a simplified OpenGL-like scripting language (for coders) and a visual node editor (for designers) that are ridiculously easy to use. Apart from these, it comes with simplified models for creating materials directly in the options panel - the inspector.
 
-{{< figure
-src="img/shaders.png"
-caption="Godot includes a visual shader programming tool"
-alt="Godot Visual Shaders Editor" >}}
+![Godot Visual Shaders Editor](img/shaders.png)
+
+*Godot includes a visual shader programming tool*
 
 Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot. They start slow before ramping up in difficulty:
 

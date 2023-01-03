@@ -23,7 +23,7 @@ title: 'Waiting for Godot 3: Why There Was No Course Update in September'
 
 Godot 3 is coming out much later than planned. Alpha 2 isn't even out yet. This means breaking changes keep happening on the engine. In the past few weeks alone there were important improvements to 2D physics and the UI system. The devs even renamed `_fixed_process` to `_physics_process`. Today I finished a long UI design tutorial only to learn a new Layout menu just arrived.
 
-{{< figure src="ui_gui_step_tutorial_containers_structure.png" caption="This tutorial will show you how to create a flexible GUI in Godot" alt="GUI tutorial containers breakdown, colored frames around icons and panels" >}}
+![GUI tutorial containers breakdown, colored frames around icons and panels](ui_gui_step_tutorial_containers_structure.png)
 
 If I produced gameplay programming videos now for the course, they'd soon become obsolete. That's why the Essentials and Pro versions didn't ship yet.
 
@@ -31,11 +31,11 @@ If I produced gameplay programming videos now for the course, they'd soon become
 
 [Omitted long matching line]
 
-{{< figure src="godot-docs-sprint-05.png" caption="In 5 docs sprints, thanks to everyone, the 3.0 docs grew a lot" alt="Godot docs sprint 05 banner image, with the Gobot docs logo" >}}
+![Godot docs sprint 05 banner image, with the Gobot docs logo](godot-docs-sprint-05.png)
 
 [Omitted long matching line]
 
-{{< figure src="spacemacs.png" caption="Emacs might well be the most powerful and customizable text editor I've used. It has a steep learning curve though" alt="Spacemacs text editor with the logo on the left and a Python file on the right" >}}
+![Spacemacs text editor with the logo on the left and a Python file on the right](spacemacs.png)
 
 _More happened with the French administration, but I'll spare you the boring details._
 
@@ -43,7 +43,7 @@ _More happened with the French administration, but I'll spare you the boring det
 
 In October, you'll get an update with the Game Design chapter, including insights from successful indie game designers: [Yakkafo](//twitter.com/yakkafo), designer on Event[0], [AtomicRacoonFR](//twitter.com/AtomicRaccoonFR) and the incredible [FibreTigre](//twitter.com/FibreTigre).
 
-{{< figure src="event-0.jpg" caption="Event[0] lets you chat with an AI with plain text" alt="An old computer screen sitting on a piano" >}}
+![An old computer screen sitting on a piano](event-0.jpg)
 
 Mark Brown aka Game Maker's Toolkit made a [neat video](//www.youtube.com/watch?v=bCJw4hQkPj4) about @Yakkafo's game.
 
@@ -53,7 +53,7 @@ I asked you on Discord what I should focus on until Godot 3's beta comes out. An
 
 Thanks to Chris's work on beginner-friendly tutorials, like the new [Your First Game](//docs.godotengine.org/en/latest/learning/step_by_step/your_first_game.html), together we can produce more content and take on more complex topics like the UI system, Animation and Particles.
 
-{{< figure src="//docs.godotengine.org/en/latest/_images/dodge_preview.gif" caption="Chris's new getting started tutorial for Godot 3 makes you code an avoid the monsters game" alt="Small aliens crawling on the screen, and the player has to avoid them" >}}
+![Small aliens crawling on the screen, and the player has to avoid them](//docs.godotengine.org/en/latest/_images/dodge_preview.gif)
 
 If you've got any concern or question, never hesitate to contact me directly on Discord, [Twitter](//twitter.com/NathanGDQuest/) or via Kickstarter/Email.
 Thank you kindly for your time and see you soon!

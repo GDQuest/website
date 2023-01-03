@@ -107,7 +107,7 @@ This scratches the surface of what general engines can do for you, but that hope
 
 Making games isn't an easy task, but answering this question is a bit more complicated. You have instances of highly popular simple games like Flappy Birds, but these are mostly exceptions. Even with these, you need to understand programming, visual design, and audio.
 
-{{< figure src="godot-game.jpg" alt="Godot Game: TailQuest" caption="[Godot Game: TailQuest](https://store.steampowered.com/app/824090/TailQuest_Defense/)" >}}
+![Godot Game: TailQuest](godot-game.jpg)
 
 One of the first questions you want to answer is which first game engine you should pick. One of the more critical aspects is its user-friendliness. Documentation and community support matter more than high performances at first. Regardless of the tool you choose, you'll have to learn the basics of game development. These skills are transferable to other game engines.
 
