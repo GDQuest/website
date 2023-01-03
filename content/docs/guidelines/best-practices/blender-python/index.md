@@ -7,5 +7,4 @@ description: This is a living guide to help you write great Python code for Blen
   It will help you write code that's easy to read, to review, and to maintain, without
   compromising on performances.
 title: 'Best Practices: Blender Python'
-weight: 100
 ---

@@ -35,7 +35,7 @@ The add-on brings over 40 new core editing features to Blender, including:
 1. Change the playback speed on the fly
 1. Instant render with presets
 
-{{< button "Get Power Sequencer" "//github.com/GDQuest/Blender-power-sequencer/releases" "centered" >}}
+{{< calltoaction "Get Power Sequencer" "//github.com/GDQuest/Blender-power-sequencer/releases" >}}
 
 It builds upon the great work done on the Blender Velvets and the VSEQF tools, in a project that gets **continuous support**.
 We use Blender at GDQuest to edit [all our video tutorials](//youtube.com/c/gdquest).

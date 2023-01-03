@@ -78,4 +78,3 @@ That said, I'm going to take a *hopefully* well-deserved break with the deers!
 
 See you soon for more content!
 
-{{< shop-call-to-action >}}

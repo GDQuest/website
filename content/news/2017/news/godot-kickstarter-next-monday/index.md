@@ -60,9 +60,6 @@ Crowdfunding, by essence, involves the community. It Cannot happen without you.
 
 The Kickstarter starts on Monday 22 at 12 PM CEST.
 
-Subscribe below and get notified via email when the Kickstarter is up! 
-{{< gumroad-follow >}}
-
 If you haven't already:
 
 -   [Subscribe to the Youtube channel](//youtube.com/c/gdquest)

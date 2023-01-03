@@ -50,8 +50,4 @@ I'm confident it'll help you get your art to the next level. So confident you ha
 You should have some experience with drawing and digital art. The pace and difficulty of the course is similar to the [GDQuest Youtube channel](//youtube.com/c/gdquest).
 You also want to know a bit about Krita. My free series will cover everything you need in that regards: [Free Krita tutorial](/tutorial/art/krita-tutorial-for-game-artists/) (50 videos!)
 
-If you want to be notified when there's a promotion for the course or other products on GDQuest, just enter your email below!
-
-{{< gumroad-follow >}}
-
 I hope to see you soon again on GDQuest :)

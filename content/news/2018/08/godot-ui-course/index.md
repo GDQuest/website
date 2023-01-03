@@ -50,8 +50,4 @@ Do you prefer text? I also wrote four long tutorials for Godot's official manual
 1. [Design the GUI](//godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_game_user_interface.html)
 1. [Control the game’s UI with code](//godot.readthedocs.io/en/latest/getting_started/step_by_step/ui_code_a_life_bar.html)
 
-Want to know when our courses are on sale, or when we release something new? Enter your email below!
-
-{{< gumroad-follow >}}
-
 Thank you kindly for your time.

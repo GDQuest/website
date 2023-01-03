@@ -62,4 +62,3 @@ Aside from that, I've open sourced my [Blender video editing add-on](//github.co
 
 You missed the campaign? Subscribe to Gumroad to know when the course will be available! You can have a discount if you get it in early access.
 
-{{< gumroad-follow >}}

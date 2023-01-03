@@ -244,7 +244,6 @@ func _on_area_entered(bullet : Bullet) -> void:
 The `bullet` variable could hold any `CollisionObject2D` here, but we make sure it is our `Bullet`, a node we created for our project.
 If it's anything else, like an `Area2D`, or any node that doesn't extend `Bullet`, the `bullet` variable will be `null`.
 
-{{< shop-call-to-action >}}
 
 ## Warning System
 

@@ -241,10 +241,6 @@ caption="One in four Python developer uses it for educational purposes" >}}
 >
 > <footer>Jetbrains 2017 <a href="//www.jetbrains.com/research/python-developers-survey-2017/#types-of-development">Python developers survey</a></footer>
 
-<!-- {{< note >}}
-<!-- You can write all kinds of programs in Python. Developers around the world use it to create anything from basics scripts to self-improving artificial intelligence, complex cross-platform applications or website back-ends like YouTube's. Both small and large companies like Google and Microsoft hire Python developers. -->
-<!-- {{< /note >}} -->
-
 ## Two resources to learn to code for free
 
 I don't want to flood you with a long list of resources. Instead, here are two free courses that I recommend.
@@ -275,7 +271,6 @@ It is time for you to use the resources above and to start building your program
 
 In the next part we'll get started with game design. You can find me [on Twitter](//twitter.com/NathanGDQuest) if you have questions!
 
-{{< shop-call-to-action >}}
 
 _Big thanks to [Simon Love](//twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](//www.lkokemohr.de/) for being an awesome mentor._ 😄
 

@@ -63,7 +63,3 @@ Thank you kindly for your time and see you soon!
 ## Get in touch!
 
 Need to reach me? Send me a message anytime [@NathanGDQuest](//twitter.com/NathanGDQuest) on Twitter.
-
-Want to know when a training series is on sale or when a new one comes out? Feel free to subscribe to the GDQuest shop:
-
-{{< gumroad-follow >}}
