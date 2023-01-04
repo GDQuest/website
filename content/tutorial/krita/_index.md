@@ -1,6 +1,4 @@
 ---
-type: redirect
-redirect: https://www.youtube.com/watch?v=Uc5H1ZjuQ4w&list=PLhqJJNjsQ7KEtFciikafqWU-OeU4SEejC
 date: "2020-05-26"
 description: Paint and create beautiful game assets with Krita, an award-winning painting
   program.
