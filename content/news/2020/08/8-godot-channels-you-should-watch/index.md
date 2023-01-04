@@ -71,7 +71,7 @@ Ombarus deserves a lot more attention than he gets.
 
 He covers topics that almost no one else touches on, like using Godot's profiler in his game [Solar Rogue](https://www.youtube.com/watch?v=_Bmy0203ZUU) or code patterns that can save you time and effort.
 
-Our signals tutorial about the [Events Signal Bus Pattern]({{< ref "tutorial/godot/gdscript/events-signals-pattern/index.md" >}}) was based on his research and experimentation.
+Our signals tutorial about the [Events Signal Bus Pattern](/tutorial/godot/gdscript/events-signals-pattern/) was based on his research and experimentation.
 
 His last video, about game data architecture, is well worth your time!
 {{< youtube WyFbiUKgs8Q >}}
@@ -116,4 +116,4 @@ If I missed any major channel, someone who's been making tutorials for the engin
 
 Many new creators are going out on YouTube lately whom we haven't talked about here. This will be for a future article.
 
-_We also create many [Godot tutorials]({{< ref "tutorial/godot/_index.md" >}}). If you don't want to miss any of our tutorials, but also get Godot tips and recommendations, be sure to [join our newsletter](https://gdquest.us13.list-manage.com/subscribe?u=3615f79caa5ec656a8f7dfdbc&id=9aeb15f656)._
+_We also create many [Godot tutorials](/tutorial/godot/). If you don't want to miss any of our tutorials, but also get Godot tips and recommendations, be sure to [join our newsletter](https://gdquest.us13.list-manage.com/subscribe?u=3615f79caa5ec656a8f7dfdbc&id=9aeb15f656)._

@@ -108,7 +108,7 @@ As you can see in the _Output_ bottom panel, lines only appear when the _Visibil
 
 These are the two main uses of the visibility nodes: emitting signals and toggling processing automatically. They come in handy in many situations and help you improve performance significantly, especially in large game levels.
 
-For instance, you can use these notifiers to preload a next room or chunk of an open world when the player enters an area. In that, it's an excellent alternative to the [Area2D]({{ ref "/tutorial/godot/2D/area2d/index.md" }}) node.
+For instance, you can use these notifiers to preload a next room or chunk of an open world when the player enters an area. In that, it's an excellent alternative to the [Area2D](/tutorial/godot/2d/area2d/) node.
 
 There are many more cases you'll find these nodes useful. Now, it's up to you to use these new powers wisely!
 

@@ -20,7 +20,7 @@ You will learn:
 ![Godot Assets in Editor](godot-engine.png)
 
 {{< note >}}
-If you're a developer already and you know about game engines, we have [a more advanced guide]({{< ref "tutorial/getting-started/learn-to/choosing-a-game-engine/index.md" >}}) about choosing your game engine.
+If you're a developer already and you know about game engines, we have [a more advanced guide](/tutorial/getting-started/learn-to/choosing-a-game-engine/) about choosing your game engine.
 {{</ note >}}
 
 ## What's a game engine?
@@ -75,7 +75,7 @@ Here are some cons:
 - You have to adapt to the engine's workflow and the way it works.
 - You also have to work with its quirks and weaknesses.
 
-Of course, these depend a lot on your current skills. If you have no programming experience, creating an engine might not even be an option. You'll want to [learn to code]({{< ref  "tutorial/getting-started/learn-to/game-engine-basics/index.md" >}}) first and maybe gain some experience coding small programs and games to get your feet wet first.
+Of course, these depend a lot on your current skills. If you have no programming experience, creating an engine might not even be an option. You'll want to [learn to code](/tutorial/getting-started/learn-to/game-engine-basics/) first and maybe gain some experience coding small programs and games to get your feet wet first.
 
 ## How does a game engine work?
 
@@ -121,6 +121,6 @@ If you want to learn more, we made a short video to show you what you can achiev
 
 {{< youtube "KjX5llYZ5eQ" >}}
 
-To get you started, we wrote a complete [beginner learning path]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}). It only contains free resources.
+To get you started, we wrote a complete [beginner learning path](/tutorial/godot/learning-paths/beginner/). It only contains free resources.
 
 We also sell [in-depth courses](https://gdquest.mavenseed.com) to help you get beyond the initial steps.

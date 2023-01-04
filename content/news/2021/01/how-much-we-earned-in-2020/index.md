@@ -19,7 +19,7 @@ In 2020, Godot saw steady growth in its userbase. It's become more powerful, its
 
 **It's been a year of a kind for us as well, learning to work more closely as a team and open-sourcing all our code.**
 
-We've tried to make the most of it. Among other things, last year, we created [20 new open-source projects]({{< ref "news/2021/01/20-new-open-source-projects/index.md" >}}).
+We've tried to make the most of it. Among other things, last year, we created [20 new open-source projects](/news/2021/01/20-new-open-source-projects/).
 
 We released a mix of assets for game developers, demos to study good programming practices in Godot, and tools like our steering AI framework.
 
@@ -94,7 +94,7 @@ As for money, we launched a new offer of an [ultimate Godot course bundle](https
 
 I hope that this year again, you will follow us, learn from our tutorials, and keep improving your game development skills.
 
-Since the start of the year, we haven't stopped working. We have already released a few new free tutorials, like our complete [tactical RPG grid-based movement series]({{< ref "tutorial/godot/2d/tactical-rpg-movement/_index.md" >}}) or our [finite state machine guide]({{< ref "tutorial/godot/design-patterns/finite-state-machine/index.md" >}}) for Godot. It's just the start. There are many more to come.
+Since the start of the year, we haven't stopped working. We have already released a few new free tutorials, like our complete [tactical RPG grid-based movement series](/tutorial/godot/2d/tactical-rpg-movement/) or our [finite state machine guide](/tutorial/godot/design-patterns/finite-state-machine/) for Godot. It's just the start. There are many more to come.
 
 If you want to receive new tutorials, you should really [subscribe to our channel](https://www.youtube.com/c/gdquest/) and [follow me on Twitter](https://twitter.com/NathanGDQuest).
 

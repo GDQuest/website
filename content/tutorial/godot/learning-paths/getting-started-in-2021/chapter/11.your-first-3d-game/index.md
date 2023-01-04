@@ -37,5 +37,5 @@ Now, you're probably wondering: "what should I do next?"
 
 Here are two actions you can take to keep learning and improving:
 
-1. If you haven't already, subscribe to our [free getting started with game development 7-day course]({{< ref "/unique-pages/get-started.md" >}}). It covers topics we couldn't talk about here, including how to practice efficiently and more Godot learning resources I recommend.
-2. You'll find many more curated free tutorials to keep learning Godot in our [Godot beginner's learning path]({{< ref "/tutorial/godot/learning-paths/beginner/index.md" >}}).
+1. If you haven't already, subscribe to our [free getting started with game development 7-day course](/get-started/). It covers topics we couldn't talk about here, including how to practice efficiently and more Godot learning resources I recommend.
+2. You'll find many more curated free tutorials to keep learning Godot in our [Godot beginner's learning path](/tutorial/godot/learning-paths/beginner/).

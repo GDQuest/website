@@ -16,5 +16,5 @@ Enjoy both short tutorials to solve a specific problem and long, in-depth guides
 
 If you are new to Godot, we prepared two learning paths for you. They only contain free resources:
 
-1. [Beginner Godot learning path]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}})
-1. [Developer Godot learning path]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}})
+1. [Beginner Godot learning path](/tutorial/godot/learning-paths/beginner/)
+1. [Developer Godot learning path](/tutorial/godot/learning-paths/developer/)

@@ -22,7 +22,7 @@ We recommend you only optimize code you know is slowing down the game or hurting
 
 Things such as improvements to the GDScript compiler may remove the need for some of these optimizations.
 
-To learn to use it and measure your code's performances, read our [Godot profiler guide]({{< ref "tutorial/godot/gdscript/optimization-measure/index.md" >}}).
+To learn to use it and measure your code's performances, read our [Godot profiler guide](/tutorial/godot/gdscript/optimization-measure/).
 {{< /note >}}
 
 ## Cache expensive calls ahead of time
@@ -140,7 +140,7 @@ For more information, read the [Data preferences](https://docs.godotengine.org/e
 
 Calling the `print()` function is expensive. You don't want to export your games with many print statements left in.
 
-Instead, you can use [the built-in debugger]({{< ref "tutorial/godot/gdscript/debugging/index.md" >}}) to inspect your game at runtime. Another option is to call `print_debug()`, which only runs in your game's debug builds or when testing it from the editor.
+Instead, you can use [the built-in debugger](/tutorial/godot/gdscript/debugging/) to inspect your game at runtime. Another option is to call `print_debug()`, which only runs in your game's debug builds or when testing it from the editor.
 
 {{< note >}}
 Printing is slow because Godot has to build the string, pass it to the standard input, and display the printed data. The call to `print()` involves passing data to your computer's peripherals, like the display, which is slow. The print buffer also has a finite amount of space available, and it easy to fill it up. When the buffer is full, it pauses while outputting its content, which slows Godot down even further and prompts it to give the error `[output overflow, print less text!]`.

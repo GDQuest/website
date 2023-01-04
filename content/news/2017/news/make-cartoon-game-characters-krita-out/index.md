@@ -35,4 +35,4 @@ The course is based on Pepper and Carrot, the main 2 characters of a webcomic by
 
 *Meet Pepper and Carrot, turned into sprites for the tutorials*
 
-I hope you'll like it! And see you soon on Kickstarter for a [game creation course with Godot]({{< ref "/news/2017/news/godot-engine-kickstarter/index.md" >}}).
+I hope you'll like it! And see you soon on Kickstarter for a [game creation course with Godot](/news/2017/news/godot-engine-kickstarter/).

@@ -24,9 +24,9 @@ We redesigned our website, [GDQuest.com](https://www.gdquest.com/) to be able to
 
 Here are two tutorials we released recently:
 
-1. Shaders: [Creating an animated 3D flag]({{< ref "tutorial/godot/shaders/flag-shader-3d/index.md" >}})
-2. Procedural generation: [Heightmap-based world map]({{< ref "tutorial/godot/pcg/world-map/index.md" >}})
-3. Audio: preventing [cutting sound effects]({{< ref "tutorial/godot/audio/pickup-sound-effect/index.md" >}}) using animations.
+1. Shaders: [Creating an animated 3D flag](/tutorial/godot/shaders/flag-shader-3d/)
+2. Procedural generation: [Heightmap-based world map](/tutorial/godot/pcg/world-map/)
+3. Audio: preventing [cutting sound effects](/tutorial/godot/audio/pickup-sound-effect/) using animations.
 
 _Did you know? All our code is free software, including our website. And all our free tutorials, guides, and graphic design are under the [CC-By 4.0](https://creativecommons.org/licenses/by/4.0/) license. You can find the source code [on GitHub](https://github.com/GDQuest/website/)._
 

@@ -55,7 +55,7 @@ If you've worked with Godot for a while, you'll love the overview style that foc
 
 Instead, they save you time by focusing on crucial code snippets and techniques to create specific game mechanics with Godot.
 
-If you're new to Godot, you can start with our free five-hour course: [Getting Started with Godot in 2021]({{< ref "/tutorial/godot/learning-paths/getting-started-in-2021/_index.md" >}}).
+If you're new to Godot, you can start with our free five-hour course: [Getting Started with Godot in 2021](/tutorial/godot/learning-paths/getting-started-in-2021).
 
 ## What you'll get
 

@@ -13,7 +13,7 @@ title: Crossfade Background Music
 ---
 
 
-In the [background music tutorial]({{< ref "tutorial/godot/audio/background-music/index.md" >}}), we saw how to keep the music playing when transitioning between game levels or screens. 
+In the [background music tutorial](/tutorial/godot/audio/background-music/), we saw how to keep the music playing when transitioning between game levels or screens.
 
 What if we want to **transition between two soundtracks smoothly**? In this tutorial, you'll learn to crossfade two music tracks smoothly.
 

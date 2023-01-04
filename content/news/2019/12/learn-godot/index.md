@@ -34,10 +34,10 @@ We ended up creating two guides:
 
 ![Beginner and Developer Learning Paths](img/paths.png)
 
-The learning paths are available now in our new [docs section]({{< ref "docs/_index.md" >}}).
+The learning paths are available now in our new [docs section](/docs/).
 
-1. [Make Games with Godot: Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}).
-1. [Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}).
+1. [Make Games with Godot: Beginner Edition](/tutorial/godot/learning-paths/beginner/).
+1. [Make Games with Godot: Developer Edition](/tutorial/godot/learning-paths/developer/).
 
 ## How to use the guides
 

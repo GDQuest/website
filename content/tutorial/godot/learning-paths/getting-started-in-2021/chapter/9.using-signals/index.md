@@ -26,7 +26,7 @@ First, we'll talk about what makes signals a useful feature. Then, we'll touch o
 
 ## Why use signals
 
-As we saw back in the lesson about [Godot's 4 essential concepts]({{< ref "tutorial/godot/learning-paths/getting-started-in-2021/chapter/2.4-essential-building-blocks.md" >}}), signals allow you to make nodes communicate. 
+As we saw back in the lesson about [Godot's 4 essential concepts](/tutorial/godot/learning-paths/getting-started-in-2021/chapter/2.4-essential-building-blocks), signals allow you to make nodes communicate.
 
 There are multiple ways to make nodes communicate in code.
 

@@ -19,7 +19,7 @@ weight: 2
 
 We gathered a curated list of resources to make your life easier if you want to get started with Godot. This guide is for experienced developers, or game developers coming from a different game engine.
 
-_For a beginner-friendly introduction to game development with the [Godot game engine](//godotengine.org/), check out the [beginner edition]({{< ref "/tutorial/godot/learning-paths/beginner/index.md" >}}) of this guide._
+_For a beginner-friendly introduction to game development with the [Godot game engine](/godotengine.org/), check out the [beginner edition](/tutorial/godot/learning-paths/beginner/) of this guide._
 
 You're also welcome to [join the GDQuest Discord community](//discord.gg/87NNb3Z) to get in touch with fellow game developers.
 
@@ -129,7 +129,7 @@ Non-gamedev related:
 
 - [Paul's Online Math Notes](//tutorial.math.lamar.edu/) is one of the best resources for exploring math topics going from plain and simple algebra and calculus to advanced topics such as vector calculus and differential equations. This is a good place to start learning advanced mathematics with applications in physics and game development. It's especially useful for those who want to get into creating physics models
 
-The [previous part]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) in this series [Learn to Make Games with Godot: Beginner Edition]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) explores basic resources for the enthusiasts out there that want to understand how to use the Godot game engine, starting from the very beginning.
+The [previous part](/tutorial/godot/learning-paths/beginner/) in this series [Learn to Make Games with Godot: Beginner Edition](/tutorial/godot/learning-paths/beginner/) explores basic resources for the enthusiasts out there that want to understand how to use the Godot game engine, starting from the very beginning.
 
 ## Support GDQuest
 

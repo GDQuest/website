@@ -21,11 +21,11 @@ The second part of the JRPG series, dedicated to the user interface, will come o
 
 We also wrote and released five "mini tuts" for this update. These are standalone tutorials on a given topic that we made available for free:
 
-1. [2D Lighting with normal maps]({{< ref "tutorial/godot/2D/lighting-with-normal-maps/index.md" >}})
-1. [Limiting player vision with lights]({{< ref "tutorial/godot/2D/limiting-vision-with-lights/index.md" >}})
-1. [Smooth 2D camera zoom]({{< ref "tutorial/godot/2D/camera-zoom/index.md" >}})
-1. [2D Character customization]({{< ref "tutorial/godot/2D/character-customization/index.md" >}})
-1. [Game settings]({{< ref "tutorial/godot/2D/settings-demo/index.md" >}})
+1. [2D Lighting with normal maps](/tutorial/godot/2d/lighting-with-normal-maps/)
+1. [Limiting player vision with lights](/tutorial/godot/2d/limiting-vision-with-lights/)
+1. [Smooth 2D camera zoom](/tutorial/godot/2d/camera-zoom/)
+1. [2D Character customization](/tutorial/godot/2d/character-customization/)
+1. [Game settings](/tutorial/godot/2d/settings-demo/)
 
 ## Coming next
 

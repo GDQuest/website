@@ -15,7 +15,7 @@ weight: 5
 
 Since the start, our goal at GDQuest has been to help you become a better game developer using Free Software.
 
-Over the years, we made videos, [tutorials]({{< ref "/tutorial/godot/_index.md" >}}), and we generally try to spend at least half our time producing free content. In 2020, we kept at it, focusing on creating open-source demos, assets, and more.
+Over the years, we made videos, [tutorials](/tutorial/godot/), and we generally try to spend at least half our time producing free content. In 2020, we kept at it, focusing on creating open-source demos, assets, and more.
 
 We created no less than 20 new GitHub repositories, with tons of resources and the same focus on code quality we always strive for.
 

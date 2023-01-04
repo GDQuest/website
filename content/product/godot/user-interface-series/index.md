@@ -24,9 +24,15 @@ tags:
 title: Create Professional User Interface in Godot
 ---
 
+{{% warning %}}
+This course is not available for sale anymore as it became too outdated. 
+
+If you're an experienced developer, check out our cookbook [Godot Node Essentials](/product/redirect/godot-node-essentials/) instead. If you're new to game development, check out [Learn to Code From Zero with Godot](/product/redirect/learn-to-code-from-zero/).
+{{% /warning %}}
+
 In this course, you will learn how to **best create User Interfaces** for your games with the open source [Godot Engine](//godotengine.org/).
 
-This series is included in our larger [Make Professional Games with Godot]({{< ref "/product/godot/make-pro-2d-games/index.md" >}}) course. We made it as a standalone if you only want to learn about interface! So you only pay for the chapters you need 😄
+This series is included in our larger [Make Professional Games with Godot](/product/godot/make-pro-2d-games/) course. We made it as a standalone if you only want to learn about interface! So you only pay for the chapters you need 😄
 
 ![Shop menu screenshot](img/shop-menu-screenshot.png)
 

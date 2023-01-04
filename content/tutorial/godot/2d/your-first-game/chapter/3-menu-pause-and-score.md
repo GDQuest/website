@@ -13,6 +13,6 @@ This third part focuses entirely on the user interface and gives the player the 
 
 ## What next?
 
-After this, I recommend our [tactical RPG movement series]({{< ref "tutorial/godot/2d/tactical-rpg-movement/_index.md" >}}). It's completely free and focuses on grid-based movement, in a demo inspired by Fire Emblem and Advance Wars.
+After this, I recommend our [tactical RPG movement series](/tutorial/godot/2d/tactical-rpg-movement/). It's completely free and focuses on grid-based movement, in a demo inspired by Fire Emblem and Advance Wars.
 
-Our [intro to steering behaviors]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}) is also really useful if you want to see something different, more related to artificial intelligence and top-down movement. These movement functions are super helpful in game development.
+Our [intro to steering behaviors](/tutorial/godot/2d/intro-to-steering-behaviors/) is also really useful if you want to see something different, more related to artificial intelligence and top-down movement. These movement functions are super helpful in game development.

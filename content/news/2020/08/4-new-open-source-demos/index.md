@@ -30,13 +30,13 @@ The first four demos are games we will cover in the course Godot 2D Secrets. But
 
 François wrote about debugging and performance optimization, two topics that many of you requested, while Razvan wrote two articles about choosing game engines:
 
-1. [Getting started with debugging]({{< ref "tutorial/godot/gdscript/debugging/index.md" >}})
-1. [Measuring code performances]({{< ref "tutorial/godot/gdscript/optimization-measure/index.md" >}})
-1. [Making the most of Godot's speed]({{< ref "tutorial/godot/gdscript/optimization-engine/index.md" >}})
-1. [Optimizing GDScript code]({{< ref "tutorial/godot/gdscript/optimization-code/index.md" >}})
-1. [3D rendering optimization]({{< ref "tutorial/godot/3d/optimization-3d/index.md" >}})
-1. [Game Engine Basics]({{< ref "tutorial/getting-started/learn-to/game-engine-basics/index.md" >}})
-1. [Choosing the right game engine]({{< ref "tutorial/getting-started/learn-to/choosing-a-game-engine/index.md" >}})
+1. [Getting started with debugging](/tutorial/godot/gdscript/debugging/)
+1. [Measuring code performances](/tutorial/godot/gdscript/optimization-measure/)
+1. [Making the most of Godot's speed](/tutorial/godot/gdscript/optimization-engine/)
+1. [Optimizing GDScript code](/tutorial/godot/gdscript/optimization-code/)
+1. [3D rendering optimization](/tutorial/godot/3d/optimization-3d/)
+1. [Game Engine Basics](/tutorial/getting-started/learn-to/game-engine-basics/)
+1. [Choosing the right game engine](/tutorial/getting-started/learn-to/choosing-a-game-engine/)
 
 ## New videos on our channel
 

@@ -38,7 +38,7 @@ For example, functions like `_ready()` only get called once upon adding a node t
 You also do _not_ want to optimize in a vacuum. Unless you know that some part of your code impacts the game's performances, do not optimize it. Optimizing code generally increases its complexity and reduces your ability to change it later.
 
 {{< note >}}
-You should always run the profiler and measure your code's execution speed before optimizing a function. To learn to use it and measure your code's performances, read our [Godot profiler guide]({{< ref "tutorial/godot/gdscript/optimization-measure/index.md" >}}).
+You should always run the profiler and measure your code's execution speed before optimizing a function. To learn to use it and measure your code's performances, read our [Godot profiler guide](../optimization-measure).
 {{< / note >}}
 
 ## Make the engine work for you

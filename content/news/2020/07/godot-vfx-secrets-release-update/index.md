@@ -28,7 +28,7 @@ You should know how to work with Godot's editor and have GDScript foundations fo
 
 ![](shockwave-meteorite.png)
 
-If you have no experience with Godot, check out our complete [Free Godot guide for beginners]({{< ref "tutorial/godot/learning-paths/beginner/index.md" >}}) to get you started.
+If you have no experience with Godot, check out our complete [Free Godot guide for beginners](/tutorial/godot/learning-paths/beginner/) to get you started.
 
 {{< calltoaction "//gdquest.mavenseed.com/courses/godot-vfx-secrets" "Get the course now!" >}}
 

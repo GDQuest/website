@@ -18,9 +18,9 @@ Knowing where you can compromise to draw out more performance is important. In t
 {{< note >}}
 Your game may slow down because of your gameplay code. We prepared three guides to help you improve your GDScript code's performances:
 
-1. [Measuring your code's speed]({{< ref "tutorial/godot/gdscript/optimization-measure/index.md" >}})
-1. [Using Godot's optimized, built-in tools]({{< ref "tutorial/godot/gdscript/optimization-engine/index.md" >}})
-1. [Optimizing GDScript code]({{< ref "tutorial/godot/gdscript/optimization-code/index.md" >}})
+1. [Measuring your code's speed](/tutorial/godot/gdscript/optimization-measure/)
+1. [Using Godot's optimized, built-in tools](/tutorial/godot/gdscript/optimization-engine/)
+1. [Optimizing GDScript code](/tutorial/godot/gdscript/optimization-code/)
 {{< /note >}}
 
 ## The graphics Monitor

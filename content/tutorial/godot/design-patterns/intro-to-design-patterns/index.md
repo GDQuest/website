@@ -179,7 +179,7 @@ It uses the concept of entities and components and will give you a sense of the 
 
 However, it's a particular use case to work around the absence of some language features in GDScript (for example, interfaces), and it doesn't fully implement the architecture.
 
-We wrote a guide dedicated to it: [Entity-Component System in GDScript]({{< ref "tutorial/godot/design-patterns/entity-component-system/index.md" >}}).
+We wrote a guide dedicated to it: [Entity-Component System in GDScript](/tutorial/godot/design-patterns/entity-component-system/).
 
 _For an ECS to give any performance benefits, you need to write it in a compiled language like C or C++. Some users worked on experiments like these, particularly Andrea Catalina, a core contributor who worked on Godot's physics. It's a module you can compile the engine with._
 

@@ -24,5 +24,5 @@ In this series, we go through each new and updated feature one by one, so you kn
 
 If you're looking for more general Godot courses, we prepared completely free series for you:
 
-1. If you're fairly new to programming, check out our [getting started series for beginners]({{< ref "unique-pages/get-started.md" >}}).
-1. If you're an experienced developer, you'll certainly like our [developer's learning path to Godot]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}).
+1. If you're fairly new to programming, check out our [getting started series for beginners](/get-started/).
+1. If you're an experienced developer, you'll certainly like our [developer's learning path to Godot](/tutorial/godot/learning-paths/developer/).

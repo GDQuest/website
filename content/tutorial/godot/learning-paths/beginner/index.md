@@ -39,7 +39,7 @@ In this guide, you'll get free resources to learn:
 - How to get started making games
 - How to create your first games with Godot
 
-_This guide is for people who are new to game development. If you are an experienced developer, check out our [developer's learning path]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}) instead._
+_This guide is for people who are new to game development. If you are an experienced developer, check out our [developer's learning path](/tutorial/godot/learning-paths/developer/) instead._
 
 ## Getting into the right mindset
 
@@ -92,7 +92,7 @@ With its permissive _MIT license_, there are no conditions or strings attached, 
 This section is for you if you know little about game creation and programming. The guide and videos below give some insights into what you should expect:
 
 1. [Making Your First Game: Basics](//www.youtube.com/watch?v=z06QR-tz1_o&list=PLhyKYa0YJ_5C6QC36h5eApOyXtx98ehGi), by Extra Credits, gives great advice on how to make your first game, and general insights on how games are made.
-1. [Become a Game Developer: How to Learn to Code]({{< ref "tutorial/getting-started/learn-to/code/index.md" >}}) is our guide to learn computer programming.
+1. [Become a Game Developer: How to Learn to Code](/tutorial/getting-started/learn-to/code/) is our guide to learn computer programming.
 1. [Game Engines: what are they and how to choose the right one?](//youtu.be/2tZK75R2K2c)
 
 ![OpenRPG](img/open-rpg.jpeg)
@@ -107,7 +107,7 @@ It's motivating to start that way.
 
 But we also included a few resources that go through some theory to help you better understand how game engines and programming work.
 
-[Getting Started with Godot in 2021]({{< ref "/tutorial/godot/learning-paths/getting-started-in-2021/_index.md" >}}) is a free course that covers everything you need to get started with Godot. By the end, you'll create complete 2D and 3D games from start to finish.
+[Getting Started with Godot in 2021](/tutorial/godot/learning-paths/getting-started-in-2021/) is a free course that covers everything you need to get started with Godot. By the end, you'll create complete 2D and 3D games from start to finish.
 
 ![3D game banner](img/3d-game-banner.png)
 
@@ -155,5 +155,5 @@ The book explains how shaders work and what you can achieve with them. At the ti
 
 If you're allergic to mathematics, you should still give it a read! The approach is different from the way you probably learned at school.
 
-The next part in this series, [Learn to Make Games with Godot: Developer Edition]({{< ref "tutorial/godot/learning-paths/developer/index.md" >}}), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
+The next part in this series, [Learn to Make Games with Godot: Developer Edition](/tutorial/godot/learning-paths/developer/), explores advanced resources for more experienced developers who want to go one step further, or perhaps go from being hobbyists to becoming professionals.
 

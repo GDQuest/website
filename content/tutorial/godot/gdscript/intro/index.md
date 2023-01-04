@@ -19,4 +19,4 @@ It's all about programming fundamentals and will help you better understand ever
 
 It's a useful page to bookmark and to watch and rewatch as you learn to create games.
 
-If you want a hands-on, step-by-step tutorial, you should check our [free complete beginner platformer game course]({{< ref "tutorial/godot/2d/your-first-game/_index.md" >}}).
+If you want a hands-on, step-by-step tutorial, you should check our [free complete beginner platformer game course](/tutorial/godot/2d/your-first-game/).

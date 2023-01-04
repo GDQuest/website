@@ -13,7 +13,7 @@ In this article, we are looking at a few questions you should ask yourself when 
 
 This guide is for people who already have some experience making games and would like to pick the right tool for their next project.
 
-{{< note >}}If you're just starting out, check out our guide [Game Engine Basics]({{< ref "tutorial/getting-started/learn-to/game-engine-basics/index.md" >}}). It will give you an introduction to game engines.{{</ note >}}
+{{< note >}}If you're just starting out, check out our guide [Game Engine Basics](/tutorial/getting-started/learn-to/game-engine-basics/). It will give you an introduction to game engines.{{</ note >}}
 
 When it comes to picking the right tool for any job, there isn't a simple answer that works for everyone. Every developer has to weigh the pros of each option based on their needs. A framework that works well for us might not work for you. An engine that worked for your previous game might not be the best for the next project, either.
 
@@ -99,4 +99,4 @@ If you'd like to learn about it, we have a 5-minute video to get you started:
 
 {{< youtube "KjX5llYZ5eQ" >}}
 
-We create many [free educational resources]({{< ref "tutorial/godot/_index.md" >}}), as well as more advanced [premium Godot courses](https://gdquest.mavenseed.com) to help you go beyond the basics.
+We create many [free educational resources](/tutorial/godot/), as well as more advanced [premium Godot courses](https://gdquest.mavenseed.com) to help you go beyond the basics.

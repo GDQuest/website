@@ -178,7 +178,7 @@ You can use a steering behavior to arrive at a target point smoothly and acceler
 
 These behaviors are commonly used for AI but also in arcade racing games and much more.
 
-To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot]({{< ref "tutorial/godot/2d/intro-to-steering-behaviors/_index.md" >}}).
+To learn more about steering behaviors, check out our [free intro to steering behaviors in Godot](/tutorial/godot/2d/intro-to-steering-behaviors/).
 
 ## Bonus: loading different scenes with a keyboard shortcut
 

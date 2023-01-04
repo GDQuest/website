@@ -19,6 +19,12 @@ tags:
 title: make professional 2d games with godot
 ---
 
+{{% warning %}}
+This course is not available for sale anymore as it became too outdated. 
+
+If you're an experienced developer, check out our cookbook [Godot Node Essentials](/product/redirect/godot-node-essentials/) instead. If you're new to game development, check out [Learn to Code From Zero with Godot](/product/redirect/learn-to-code-from-zero/).
+{{% /warning %}}
+
 ## Become a better game developer!
 
 With this course, you will learn to **create the main mechanics** and systems in your own games, using the Free [Godot Game Engine](//godotengine.org/).

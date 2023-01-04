@@ -15,7 +15,7 @@ This week, we're coming to you with new Godot tutorials, shaders, and visual eff
 In short:
 
 - [Godot Shaders](https://github.com/GDQuest/godot-shaders) got five new shaders.
-- We released five new [Godot tutorials]({{< ref "/tutorial/godot/_index.md" >}}), four dedicated to audio, one for shaders.
+- We released five new [Godot tutorials](/tutorial/godot/), four dedicated to audio, one for shaders.
 - We are preparing a new Kickstarter campaign to produce a lot of free content. More on that next week.
 
 ## New shaders

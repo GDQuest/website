@@ -44,7 +44,7 @@ This course is for **beginners**. It gives many details about programming and ho
 
 While this is a step-by-step course, you should know:
 
-1. The basics of Godot's GDScript language. We have a [Free GDScript Intro]({{< ref "tutorial/godot/gdscript/intro/index.md" >}}) lesson to get you started.
+1. The basics of Godot's GDScript language. We have a [Free GDScript Intro](/tutorial/godot/gdscript/intro/) lesson to get you started.
 2. How to use Godot's editor.
 
 ## Extended edition
