@@ -1,0 +1,255 @@
+<!-- Banner to display at the top of the website for sales. -->
+<!-- Params: -->
+
+<!-- - endDate: the datetime for the end date as a string -->
+<div class="banner-container" id="top-banner">
+  <div class="bg-video-container">
+    <video playsinline autoplay muted loop poster="" class="bg-video">
+      <source src="https://cdn.discordapp.com/attachments/854366249848799232/1075034140245770342/2023-02-14_13-40-01.mp4" type="video/mp4">
+    </video>
+    <div class="bg-video-overlay"></div>
+  </div>
+  <div id="countdown-banner" class="countdown-banner">
+    <h2 class="title">Godot 4.0 is here!</h2>
+    <p class="banner-content">
+      <span class="banner-content-main">Megasale on all our courses and bundles</span>
+      <span class="banner-content-main">Get 50% off</span>
+      <span class="banner-content-secondary">
+        <span class="banner-content-secondary-content">with coupon code
+          <span class="banner-content-coupon">GODOT4</span>
+        </span>
+      </span>
+      <span class="banner-content-tertiary">valid until March 8 2023</span>
+    </p>
+    {{ with .subtitle }}
+    <span class="subtitle">{{ . }}</span>
+    {{ end }}
+
+    <div class="show-on-close">
+      <span id="countdown" class="countdown -yellow">Until October 31</span>
+      <span class="only-on-close">
+        for the Godot 4.0 megasale!
+      </span>
+    </div>
+    
+    <a
+      href="https://gdquest.mavenseed.com/courses/"
+      class="button-link -yellow -shadow -large -tall"
+    >
+    Shop our Godot courses
+    </a>
+
+    <a href="#" class="banner-button banner-button-hide" id="hide_banner_button" title="hide banner"></a>
+  </div>
+</div>
+<div style="position: relative; width: 100%; z-index: 10;">
+  <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="hide banner"></a>
+</div>
+
+
+<style>
+  .banner-container{
+    color:white;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 640px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .banner-container .title{
+    --color: #3891C6;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 0;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  .banner-container p{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+  }
+  .banner-container .countdown{
+    color: white;
+    text-shadow: 
+      0 0 16px rgb(255, 65, 255),
+      0 0 46px rgb(255, 65, 125), 
+      0 0 106px rgb(255, 65, 125)
+    ;
+    margin-top: 1em;
+  }
+  .banner-container .button-link:hover {
+    background: rgb(255, 223, 64);
+  }
+  .banner-container .button-link{
+    text-shadow: none;
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(255, 213, 0);
+    color: rgb(106, 25, 0);
+    border-bottom: 4px solid rgb(206, 124, 0);
+    display: block;
+    font-size: 1.3rem
+  }
+  .banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+    font-weight: bold;
+  }
+  .banner-content-coupon{
+    font-size: 1.3rem;
+    border-radius: .4em;
+    border: 1px dashed #fff;
+    padding: .1em .3em;
+  }
+  .banner-content-main{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+  .banner-content-secondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .banner-content-main, .banner-content-secondary-content{
+    font-size: 1.7rem;
+  }
+  .bg-video-container{
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .bg-video-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #53157B87;
+  }
+  .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .only-on-close{
+    display: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  .banner-closed .countdown{
+    text-shadow: none;
+    font-size: 1rem;
+  }
+  .banner-closed .show-on-close{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6C2CDA;
+    justify-content: center;
+    align-items: center;
+    gap: .7em;
+  }
+  .banner-closed .only-on-close{
+    display: flex;
+  }
+  .banner-button{
+    position: absolute;
+    margin-top:0;
+    right: 0;
+    height: 2rem;
+    font-size: 2rem;
+    background: #a140f0;
+    padding: .2em .4em;
+    color: white;
+  }
+  .banner-button-hide{
+    bottom: 0;
+    border-radius: .2em .2em 0 0;
+  }
+  .banner-button-show{
+    top: -1rem;
+    background-color: #6C2CDA;
+    border-radius: 0 0 .2em .2em;
+    display: none;
+  }
+  .banner-button:hover{
+    color: white;
+  }
+  .banner-button-hide::after{
+    content: "⌃";
+  }
+  .banner-button-show::after{
+    content: "⌄";
+    line-height: 0.3;
+    display: block;
+  }
+  .banner-closed .banner-button-show{
+    display: block;
+  }
+  .banner-closed .banner-button-hide{
+    display: none;
+  }
+
+  .banner-closed .banner-container{
+    max-height: 2rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    .banner-container{
+      padding: 1em 1em;
+    }
+    .banner-container .title{
+      font-size: 3rem;
+    }
+    .banner-content-secondary-content{
+      font-size: 1.2em;
+    }
+    .banner-content-coupon{
+      font-size: 1em;
+    }
+    .banner-content-tertiary{
+      font-size: .7em;
+    }
+    .banner-container .button-link{
+      font-size: .8rem;
+    }
+  }
+</style>
+
+{{ $js := resources.Get "js/countdown.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
+<script type="text/javascript">
+  countdown(new Date("{{.endDate}}"))
+</script>
+
+<script>
+  const onClick = (evt)=>{
+    evt.preventDefault()
+    document.body.classList.toggle("banner-closed")
+    localStorage.setItem("closed", document.body.classList.contains("closed") ? "yes" : "no")
+  }
+  
+  const hide_button = document.getElementById("hide_banner_button");
+  hide_button.addEventListener("click", onClick)
+  
+  const show_button = document.getElementById("show_banner_button");
+  show_button.addEventListener("click", onClick)
+  
+  if(localStorage.getItem("closed") == "yes"){
+    document.body.classList.add("banner-closed")
+  }
+</script>
