@@ -10,32 +10,10 @@ $color-purple: #7e3ab791;
 .header-title {
   text-shadow: $shadow-large;
   display: flex;
-
-  > .image {
-    background-image: url(/img/sprites-bears.png);
-    background-repeat: no-repeat;
-    display: block;
-    max-width: 180px;
-    z-index: -1;
-  }
-
-  a {
-    color: $color-accent-main-text;
-  }
-
-  .-bear-1 {
-    width: 157px;
-    height: 195px;
-    background-position: -3px -3px;
-  }
-
-  .-bear-2 {
-    position: relative;
-    top: 0.8rem;
-    width: 128px;
-    height: 169px;
-    background-position: -166px -3px;
-  }
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+  background-size: contain;
+  background-image: url(/img/sophia-front.png), url(/img/gdbot-front.png);
 
   > .title {
     max-width: 30rem;
