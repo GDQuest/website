@@ -150,6 +150,7 @@
   .banner-closed .countdown{
     text-shadow: none;
     font-size: 1rem;
+    margin: 0;
   }
   .banner-closed .show-on-close{
     display: flex;
@@ -161,7 +162,7 @@
     background-color: #6C2CDA;
     justify-content: center;
     align-items: center;
-    gap: .7em;
+    gap: .5em;
   }
   .banner-closed .only-on-close{
     display: flex;
@@ -240,7 +241,7 @@
   const onClick = (evt)=>{
     evt.preventDefault()
     document.body.classList.toggle("banner-closed")
-    localStorage.setItem("closed", document.body.classList.contains("closed") ? "yes" : "no")
+    localStorage.setItem("closed", document.body.classList.contains("banner-closed") ? "yes" : "no")
   }
   
   const hide_button = document.getElementById("hide_banner_button");
@@ -249,6 +250,7 @@
   const show_button = document.getElementById("show_banner_button");
   show_button.addEventListener("click", onClick)
   
+  console.log(localStorage.getItem("closed"))
   if(localStorage.getItem("closed") == "yes"){
     document.body.classList.add("banner-closed")
   }
