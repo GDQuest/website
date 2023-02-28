@@ -1,7 +1,3 @@
-<!-- Banner to display at the top of the website for sales. -->
-<!-- Params: -->
-
-<!-- - endDate: the datetime for the end date as a string -->
 <div class="banner-container" id="top-banner">
   <div class="bg-video-container">
     <video playsinline autoplay muted loop poster="" class="bg-video">
@@ -19,11 +15,8 @@
           <span class="banner-content-coupon">GODOT4</span>
         </span>
       </span>
-      <span class="banner-content-tertiary">valid until March 8 2023</span>
+      <span class="banner-content-tertiary">valid until March 8, 2023</span>
     </p>
-    {{ with .subtitle }}
-    <span class="subtitle">{{ . }}</span>
-    {{ end }}
 
     <div class="show-on-close">
       <span id="countdown" class="countdown -yellow">Until October 31</span>
@@ -56,9 +49,31 @@
     max-height: 640px;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    background: #032769;
+    background-image: none;
+    background-image: linear-gradient(225deg, #003595 0%, #5527B9 50%, #00307B 100%);
+  }
+  .countdown-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem 0.8rem;
+    text-align: center;
+    z-index: 100;
+  }
+  .banner-container .countdown {
+    color: #ffe560;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
   }
   .banner-container .title{
     --color: #3891C6;
+    color: white;
+    font-weight: 1000;
     font-size: 5rem;
     font-weight: 800;
     color: #fff;
@@ -91,34 +106,38 @@
     color: rgb(106, 25, 0);
     border-bottom: 4px solid rgb(206, 124, 0);
     display: block;
-    font-size: 1.3rem
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .banner-content{
+  .banner-container .banner-content{
     display: flex;
     flex-direction: column;
     gap: .2em;
     font-weight: bold;
   }
-  .banner-content-coupon{
+  .banner-container .banner-content-coupon{
     font-size: 1.3rem;
     border-radius: .4em;
     border: 1px dashed #fff;
     padding: .1em .3em;
   }
-  .banner-content-main{
+  .banner-container .banner-content-main{
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
   }
-  .banner-content-secondary{
+  .banner-container .banner-content-secondary{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
   }
-  .banner-content-main, .banner-content-secondary-content{
+  .banner-container .banner-content-main, .banner-container .banner-content-secondary-content{
     font-size: 1.7rem;
   }
-  .bg-video-container{
+  .banner-container .bg-video-container{
     width: 100%;
     height: 100%;
     background:#fff;
@@ -127,7 +146,7 @@
     left: 0;
     overflow: hidden;
   }
-  .bg-video-overlay{
+  .banner-container .bg-video-overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -135,24 +154,29 @@
     right: 0;
     background-color: #53157B87;
   }
-  .bg-video {
+  .banner-container .bg-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
   }
-  .only-on-close{
+
+  .banner-container .banner-expired .banner-container{
+    display: none;
+  }
+
+  .banner-container  .only-on-close{
     display: none;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
   }
-  .banner-closed .countdown{
+  .banner-closed .banner-container  .countdown{
     text-shadow: none;
     font-size: 1rem;
     margin: 0;
   }
-  .banner-closed .show-on-close{
+  .banner-closed .banner-container .show-on-close{
     display: flex;
     position: absolute;
     top: 0;
@@ -164,7 +188,7 @@
     align-items: center;
     gap: .5em;
   }
-  .banner-closed .only-on-close{
+  .banner-closed .banner-container .only-on-close{
     display: flex;
   }
   .banner-button{
@@ -216,42 +240,87 @@
     .banner-container .title{
       font-size: 3rem;
     }
-    .banner-content-secondary-content{
+    .banner-container .banner-content-secondary-content{
       font-size: 1.2em;
     }
-    .banner-content-coupon{
+    .banner-container .banner-content-coupon{
       font-size: 1em;
     }
-    .banner-content-tertiary{
+    .banner-container .banner-content-tertiary{
       font-size: .7em;
     }
-    .banner-container .button-link{
+    .banner-container .banner-container .button-link{
       font-size: .8rem;
     }
   }
 </style>
-
-{{ $js := resources.Get "js/countdown.js" }}
-<script src="{{ $js.RelPermalink }}"></script>
-<script type="text/javascript">
-  countdown(new Date("{{.endDate}}"))
-</script>
-
 <script>
-  const onClick = (evt)=>{
-    evt.preventDefault()
-    document.body.classList.toggle("banner-closed")
-    localStorage.setItem("closed", document.body.classList.contains("banner-closed") ? "yes" : "no")
-  }
-  
-  const hide_button = document.getElementById("hide_banner_button");
-  hide_button.addEventListener("click", onClick)
-  
-  const show_button = document.getElementById("show_banner_button");
-  show_button.addEventListener("click", onClick)
-  
-  console.log(localStorage.getItem("closed"))
-  if(localStorage.getItem("closed") == "yes"){
-    document.body.classList.add("banner-closed")
-  }
+  ((parentElement, countdownElements, endDate) => {
+    const hour = 60 * 60 * 1000,
+      minute = 60 * 1000,
+      day = hour * 24;
+
+    const endTime = endDate.getTime();
+    const timeOffsetUTC = endDate.getTimezoneOffset() * 60 * 1000;
+    const endTimeUTC = endTime - timeOffsetUTC;
+
+    console.log(endDate, endTime, endTimeUTC)
+
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const distance = endTimeUTC - now + timeOffsetUTC;
+      const days = Math.floor(distance / day);
+
+      console.log(distance)
+      if (days >= 3) {
+        countdownElements.forEach(countdownElement => {
+          countdownElement.innerText = `${days} days left`;
+        })
+      } else {
+        let hours = Math.floor((distance % (day * 3)) / hour).toString().padStart(2, "0");
+        let minutes = Math.floor(distance % hour / minute).toString().padStart(2, "0");
+        let seconds = Math.floor((distance % minute / 1000)).toString().padStart(2, "0");
+        countdownElements.forEach(countdownElement => {
+          countdown.innerText = `${hours}:${minutes}:${seconds}`;
+        })
+      }
+      if (distance < 0) {
+        document.body.classList.add("banner-expired")
+        parentElement.parentNode.removeChild(parentElement);
+        clearInterval(intervalCallback);
+      }
+    };
+    const intervalCallback = setInterval(updateCountdown, 1000);
+    updateCountdown();
+  })(
+    document.querySelector("#top-banner"),
+    Array.from(document.querySelectorAll("#top-banner .countdown")),
+    new Date( "{{.endDate}}")
+  );
+
+  ((hide_button, show_button, className = "banner-closed") => {
+    const TRUE = "yes"
+    const FALSE = "no"
+    if(!hide_button || !show_button) {
+      return
+    }
+    const onClick = (evt)=>{
+      evt.preventDefault()
+      document.body.classList.toggle(className)
+      localStorage.setItem(className, document.body.classList.contains(className) ? TRUE : FALSE)
+    }
+    
+    
+    hide_button.addEventListener("click", onClick)
+    
+    show_button.addEventListener("click", onClick)
+    
+    if(localStorage.getItem(className) === TRUE){
+      document.body.classList.add(className)
+    }
+
+  })(
+    document.getElementById("hide_banner_button"),
+    document.getElementById("show_banner_button")
+  )
 </script>
