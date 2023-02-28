@@ -196,21 +196,26 @@
     display: flex;
   }
   .banner-button{
+    --banner-button-size: 2rem;
     position: absolute;
     margin-top:0;
     right: 0;
-    height: 2rem;
-    font-size: 2rem;
+    height: var(--banner-button-size);
+    font-size: var(--banner-button-size);
     background: #a140f0;
     padding: .2em .4em;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
   }
   .banner-button-hide{
     bottom: 0;
     border-radius: .2em .2em 0 0;
   }
   .banner-button-show{
-    top: -1rem;
     background-color: #6C2CDA;
     border-radius: 0 0 .2em .2em;
     display: none;
@@ -218,13 +223,23 @@
   .banner-button:hover{
     color: white;
   }
-  .banner-button-hide::after{
-    content: "⌃";
+  .banner-button::after{
+    --chevron-size: 0.45em;
+    --chevron-width: 0.15em;
+    border-style: solid;
+    border-width: var(--chevron-width) var(--chevron-width) 0 0;
+    content: '';
+    display: inline-block;
+    height: var(--chevron-size);
+    width: var(--chevron-size);
+    position: relative;
+    top: 0.3rem;
+    vertical-align: middle;
+    transform: rotate(-45deg);
   }
   .banner-button-show::after{
-    content: "⌄";
-    line-height: 0.3;
-    display: block;
+    top: -0.9rem;
+    transform: rotate(135deg);
   }
   .banner-closed .banner-button-show{
     display: block;
@@ -255,6 +270,11 @@
     }
     .banner-container .banner-container .button-link{
       font-size: .8rem;
+    }
+    .banner-button{
+      right: 50%;
+      transform: translateX(50%);
+      width: calc(var(--banner-button-size) * 2);
     }
   }
 </style>
