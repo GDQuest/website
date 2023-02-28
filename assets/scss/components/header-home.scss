@@ -35,10 +35,9 @@ $color-purple: #7e3ab791;
 }
 
 @include mobile {
+  
   .header-title {
-    > .image {
-      display: none;
-    }
+    background-image: none;
 
     > .title {
       max-width: 100%;
