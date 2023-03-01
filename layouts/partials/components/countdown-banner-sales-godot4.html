@@ -9,6 +9,7 @@
     <h2 class="title">Godot 4.0 is here!</h2>
     <p class="banner-content">
       <span class="banner-content-main">Megasale on all our courses and bundles</span>
+      <span class="banner-content-main" style="font-size: 1.3rem; color:#ffd500;">With free update to upcoming Godot 4 courses*</span>
       <span class="banner-content-main">Get 50% off</span>
       <span class="banner-content-secondary">
         <span class="banner-content-secondary-content">with coupon code
@@ -17,7 +18,7 @@
       </span>
       <span class="banner-content-tertiary">valid until March 8, 2023</span>
     </p>
-
+    
     <div class="show-only-when-closed">
       <span id="countdown" class="countdown -yellow">Until October 31</span>
       <span class="only-on-close">
@@ -26,11 +27,12 @@
     </div>
     
     <a
-      href="https://gdquest.mavenseed.com/courses/"
-      class="button-link -yellow -shadow -large -tall"
+    href="https://gdquest.mavenseed.com/courses/"
+    class="button-link -yellow -shadow -large -tall"
     >
     Shop our Godot courses
-    </a>
+  </a>
+  <p class="banner-content-tertiary banner-small-bottom-text">* Godot 4 courses are currently planned for Learn to Code, Node Essentials, and Shaders Secrets</p>
 
     <a href="#" class="banner-button banner-button-hide" id="hide_banner_button" title="hide banner"></a>
   </div>
@@ -48,7 +50,7 @@
     position:relative;
     display: flex;
     flex-direction: column;
-    max-height: 640px;
+    max-height: 720px;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     width: 100%;
@@ -185,6 +187,10 @@
 		color: black;
 		font-family: var(--font-title);
   }
+  .banner-container .show-only-when-closed{
+    background-color: rgba(255, 213, 0, 0);
+    transition: background-color .2s ease-in-out;
+  }
   .banner-closed .banner-container .show-only-when-closed{
     display: flex;
     position: absolute;
@@ -192,10 +198,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(255, 213, 0);
+    background-color: rgba(255, 213, 0);
     justify-content: center;
     align-items: center;
     gap: .5em;
+    transition: background-color .2s ease-in-out .2s;
   }
   .banner-closed .banner-container .only-on-close{
     display: flex;
@@ -261,6 +268,9 @@
     max-height: 2rem;
   }
 
+  .banner-small-bottom-text{
+    margin-top:1rem;
+  }
   @media screen and (max-width: 480px) {
     .banner-container{
       padding: 1em 1em;
@@ -274,7 +284,7 @@
     .banner-container .banner-content-coupon{
       font-size: 1em;
     }
-    .banner-container .banner-content-tertiary{
+    .banner-content-tertiary{
       font-size: .7em;
     }
     .banner-container .banner-container .button-link{
@@ -282,6 +292,9 @@
     }
     .banner-button-hide{
       background-color: #a03bf1;
+    }
+    .banner-closed .banner-container .countdown, .banner-closed .banner-container .only-on-close{
+      font-size: .8rem;
     }
   }
 </style>
