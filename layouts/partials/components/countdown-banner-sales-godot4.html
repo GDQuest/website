@@ -32,7 +32,7 @@
     >
     Shop our Godot courses
   </a>
-  <span style="margin-top:1rem;">* Godot 4 courses are currently planned for Learn to Code, Node Essentials, and Shaders Secrets</span>
+  <p class="banner-content-tertiary banner-small-bottom-text">* Godot 4 courses are currently planned for Learn to Code, Node Essentials, and Shaders Secrets</p>
 
     <a href="#" class="banner-button banner-button-hide" id="hide_banner_button" title="hide banner"></a>
   </div>
@@ -50,7 +50,7 @@
     position:relative;
     display: flex;
     flex-direction: column;
-    max-height: 640px;
+    max-height: 720px;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     width: 100%;
@@ -263,6 +263,9 @@
     max-height: 2rem;
   }
 
+  .banner-small-bottom-text{
+    margin-top:1rem;
+  }
   @media screen and (max-width: 480px) {
     .banner-container{
       padding: 1em 1em;
@@ -276,7 +279,7 @@
     .banner-container .banner-content-coupon{
       font-size: 1em;
     }
-    .banner-container .banner-content-tertiary{
+    .banner-content-tertiary{
       font-size: .7em;
     }
     .banner-container .banner-container .button-link{
@@ -284,6 +287,9 @@
     }
     .banner-button-hide{
       background-color: #a03bf1;
+    }
+    .banner-closed .banner-container .countdown, .banner-closed .banner-container .only-on-close{
+      font-size: .8rem;
     }
   }
 </style>
