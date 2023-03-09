@@ -37,8 +37,8 @@ const element = `
     <a href="#" class="banner-button banner-button-hide" id="hide_banner_button" title="hide banner"></a>
   </div>
 </div>
-<div style="position: relative; width: 100%; z-index: 10;">
-  <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="hide banner"></a>
+<div style="position: relative; width: 100%; z-index: 10; pointer-events: none; height: 2rem">
+  <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="show banner"></a>
 </div>
 </div>
 `
@@ -235,14 +235,16 @@ const style = `
     background: var(--banner-close-button-bg);
     color: var(--banner-close-button-fg);
   }
+  .banner-button-hide:hover{
+    color: var(--banner-close-button-fg);
+  }
   .banner-button-show{
+    pointer-events: auto;
     background-color: rgb(255, 213, 0);
     border-radius: 0 0 .2em .2em;
 		color: black;
     display: none;
-  }
-  .banner-button:hover{
-    color: white;
+    z-index: 10;
   }
   .banner-button-show:hover{
     color: black;
@@ -344,9 +346,7 @@ const style = `
     document.body.dataset.bannerButtonsAugmented = true
     const TRUE = "yes"
     const FALSE = "no"
-    console.log(hide_button, show_button, className)
     if(!hide_button || !show_button) {
-      console.log("sfsdfsf")
       return
     }
     const onClick = (evt)=>{
