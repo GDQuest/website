@@ -2,6 +2,7 @@
 ;(() => {
 const urlBasis = 'https://www.gdquest.com'
 const element = `
+<div>
 <div class="banner-container" id="top-banner">
   <div class="bg-video-container" style="background-image: url(${urlBasis}/img/godot-4-dance-still.png)">
     <video playsinline autoplay muted loop class="bg-video">
@@ -38,6 +39,7 @@ const element = `
 </div>
 <div style="position: relative; width: 100%; z-index: 10;">
   <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="hide banner"></a>
+</div>
 </div>
 `
 
@@ -342,7 +344,9 @@ const style = `
     document.body.dataset.bannerButtonsAugmented = true
     const TRUE = "yes"
     const FALSE = "no"
+    console.log(hide_button, show_button, className)
     if(!hide_button || !show_button) {
+      console.log("sfsdfsf")
       return
     }
     const onClick = (evt)=>{
