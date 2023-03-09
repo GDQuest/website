@@ -1,10 +1,11 @@
 <script>
 ;(() => {
+const urlBasis = 'https://www.gdquest.com'
 const element = `
 <div class="banner-container" id="top-banner">
-  <div class="bg-video-container" style="background-image: url(/img/godot-4-dance-still.png)">
-    <video playsinline autoplay muted loop poster="/img/godot-4-dance-still.png" class="bg-video">
-      <source src="/img/godot-4-dance.mp4" type="video/mp4">
+  <div class="bg-video-container" style="background-image: url(${urlBasis}/img/godot-4-dance-still.png)">
+    <video playsinline autoplay muted loop class="bg-video">
+      <source src="${urlBasis}/img/godot-4-dance.mp4" type="video/mp4">
     </video>
     <div class="bg-video-overlay"></div>
   </div>
