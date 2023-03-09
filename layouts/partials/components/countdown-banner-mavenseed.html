@@ -1,3 +1,5 @@
+
+
 <div class="banner-container" id="top-banner">
   <div class="bg-video-container" style="background-image: url(/img/godot-4-dance-still.png)">
     <video playsinline autoplay muted loop poster="/img/godot-4-dance-still.png" class="bg-video">
@@ -27,7 +29,7 @@
     >
     Check our Roadmap
   </a>
-  <p class="banner-content-tertiary">* Godot 4 courses are currently planned for Learn to Code, Node Essentials, and Shaders Secrets</p>
+  <p class="banner-content-tertiary">* Godot 4 courses are planned for Learn to Code, Node Essentials, and Shaders Secrets</p>
 
     <a href="#" class="banner-button banner-button-hide" id="hide_banner_button" title="hide banner"></a>
   </div>
@@ -35,9 +37,14 @@
 <div style="position: relative; width: 100%; z-index: 10;">
   <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="hide banner"></a>
 </div>
-
-
 <style>
+  :root{
+    --banner-close-button-bg:#8b3de4 /*#f0f4f8*/;
+    --banner-close-button-fg: white /*black*/;
+  }  
+  /** fonts ** /
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap');
+  /**/
   .banner-container{
 		--font-main: "Poppins", sans-serif;
 		--font-title: "Montserrat", sans-serif;
@@ -84,7 +91,6 @@
   .banner-container p{
 		font-family: var(--font-main);
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
-    font-weight: bold;
   }
   .banner-container .banner-glow{
     color: white;
@@ -157,7 +163,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #53157B87;
+    background-color: #53157BB3;
   }
   .banner-container .bg-video {
     width: 100%;
@@ -220,7 +226,8 @@
   .banner-button-hide{
     bottom: 0;
     border-radius: .2em .2em 0 0;
-    background: #8b3de4;
+    background: var(--banner-close-button-bg);
+    color: var(--banner-close-button-fg);
   }
   .banner-button-show{
     background-color: rgb(255, 213, 0);
@@ -265,7 +272,7 @@
 
 
   .banner-content-tertiary{
-    font-size: .8em;
+    font-size: 1em;
     margin-bottom: 0;
   }
 
@@ -297,7 +304,13 @@
   }
 </style>
 <script>
-  ((hide_button, show_button, className = "banner-closed") => {
+;(() => {
+
+  if(document.location.pathname.startsWith("/lesson")){
+    return
+  }
+
+  function activateButtons(hide_button, show_button, className = "banner-closed"){
     if(document.body.dataset.bannerButtonsAugmented){
       return
     }
@@ -322,8 +335,28 @@
       document.body.classList.add(className)
     }
 
-  })(
+  }
+
+  function prependToBody(htmlString){
+    if(!htmlString || !htmlString.trim()){
+      return
+    }
+    const insertAsfirst = (parent, child) => parent.insertBefore(child, parent.firstChild);
+    
+    const createElement = () => {
+      const div = document.createElement('div');
+      div.innerHTML = htmlString.trim();
+      return div.firstChild;
+    }
+
+    insertAsfirst(document.body, createElement())
+  }
+
+  prependToBody('')
+
+  activateButtons(
     document.getElementById("hide_banner_button"),
     document.getElementById("show_banner_button")
   )
+})();
 </script>
