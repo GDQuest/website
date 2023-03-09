@@ -1,5 +1,6 @@
-
-
+<script>
+;(() => {
+const element = `
 <div class="banner-container" id="top-banner">
   <div class="bg-video-container" style="background-image: url(/img/godot-4-dance-still.png)">
     <video playsinline autoplay muted loop poster="/img/godot-4-dance-still.png" class="bg-video">
@@ -37,7 +38,9 @@
 <div style="position: relative; width: 100%; z-index: 10;">
   <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="hide banner"></a>
 </div>
-<style>
+`
+
+const style = `
   :root{
     --banner-close-button-bg:#8b3de4 /*#f0f4f8*/;
     --banner-close-button-fg: white /*black*/;
@@ -302,12 +305,33 @@
       font-size: .8rem;
     }
   }
-</style>
-<script>
-;(() => {
+`
+
 
   if(document.location.pathname.startsWith("/lesson")){
     return
+  }
+
+
+  function hashCode(str) {
+    let hash = 0;
+    for (let i = 0, len = str.length; i < len; i++) {
+        let chr = str.charCodeAt(i);
+        hash = (hash << 5) - hash + chr;
+        hash |= 0; // Convert to 32bit integer
+    }
+    return hash;
+  }
+
+  function appendStyle(text){
+    const id = "added-style-"+hashCode(text)
+    if(document.getElementById(id)){
+      return
+    }
+    const style = document.createElement('style');
+    style.innerHTML = text;
+    style.id = id
+    document.head.appendChild(style);
   }
 
   function activateButtons(hide_button, show_button, className = "banner-closed"){
@@ -337,8 +361,8 @@
 
   }
 
-  function prependToBody(htmlString){
-    if(!htmlString || !htmlString.trim()){
+  function prependToBody(parent, htmlString){
+    if(!htmlString || !htmlString.trim() || !parent){
       return
     }
     const insertAsfirst = (parent, child) => parent.insertBefore(child, parent.firstChild);
@@ -349,11 +373,11 @@
       return div.firstChild;
     }
 
-    insertAsfirst(document.body, createElement())
+    insertAsfirst(parent, createElement())
   }
 
-  prependToBody('')
-
+  prependToBody(document.body, element)
+  appendStyle(style)
   activateButtons(
     document.getElementById("hide_banner_button"),
     document.getElementById("show_banner_button")
