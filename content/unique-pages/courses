@@ -1,0 +1,10 @@
+---
+author: nathan
+date: "2023-03-01"
+description: Get started with game creation and Godot.
+title: Courses
+url: courses
+weight: 5
+type: redirect
+redirect: https://gdquest.mavenseed.com/courses
+---
