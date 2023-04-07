@@ -96,7 +96,7 @@ After this first poor tutorial series, you asked for more, and I kept going. You
 
 Our increasing revenue allowed us to become a team, create open-source demos and tools, and contribute to Godot directly.
 
-**We now have over 100,000 subscribers on YouTube, 4 successful Kickstarter campaigns, and over 100 free and open-source demos and tools on GitHub.**
+**We now have over 200,000 subscribers on YouTube, 5 successful Kickstarter campaigns, and over 100 free and open-source demos and tools on GitHub.**
 
 That's where the story is at, thanks to the community.
 
@@ -116,8 +116,3 @@ In general, you can find us on:
 
 - [Discord](//discord.gg/87NNb3Z), the best place for questions or support. That's where we hang out with the community. If I'm away, other creators will be around to answer your questions.
 - [Twitter](//twitter.com/NathanGDQuest) is a popular social network for game developers.
-
-## Meet the team
-
-GDQuest wouldn't be much without its team. Here are the folks who work on the project consistently.
-
