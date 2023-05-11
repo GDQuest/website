@@ -19,7 +19,7 @@ It features a character that can run, jump, make a melee attack, aim, shoot, and
 
 There are two kinds of enemies: flying wasps that fire bullets and beetles that attack you on the ground. The environment comes with breakable crates, jumping pads, and coins that move to the player's character.
 
-{{< calltoaction url="https://github.com/gdquest-demos/godot-4-3d-third-person-controller/archive/refs/tags/0.1.0.zip" text="Download the Godot 4 project" >}}
+{{< calltoaction url="https://gdquest-demos.github.io/godot-4-3d-third-person-controller/" text="Get the Godot 4 project" >}}
 
 *This project requires at least Godot 4 beta 7 to work. There are some [known issues](https://github.com/gdquest-demos/godot-4-3d-third-person-controller/issues) in various beta releases.*
 
