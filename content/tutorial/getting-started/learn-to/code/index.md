@@ -238,7 +238,7 @@ I don't want to flood you with a long list of resources. Instead, here are two f
 
 ### Harvard's CS50 open course
 
-[CS50](https://cs50.harvard.edu/x/2023/) is a free course that will teach you to think like a programmer. It doesn't focus on a particular programming language, although it includes Python. Instead, it explains what programmers do and focuses on the most important techniques and tools you need to learn to become a programmer. The course is designed for programming beginners. Each lesson gives you many details on why things work in a particular way.
+[CS50](https://cs50.harvard.edu/x/) is a free course that will teach you to think like a programmer. It doesn't focus on a particular programming language, although it includes Python. Instead, it explains what programmers do and focuses on the most important techniques and tools you need to learn to become a programmer. The course is designed for programming beginners. Each lesson gives you many details on why things work in a particular way.
 
 ### Automate the Boring Stuff with Python
 
