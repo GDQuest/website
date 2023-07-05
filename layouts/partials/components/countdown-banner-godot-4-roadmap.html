@@ -1,0 +1,391 @@
+<script>
+;(() => {
+const urlBasis = 'https://www.gdquest.com'
+const element = `
+<div>
+<div class="banner-container" id="top-banner">
+  <div class="bg-video-container" style="background-image: url(${urlBasis}/img/godot-4-dance-still.png)">
+    <video playsinline autoplay muted loop class="bg-video">
+      <source src="${urlBasis}/img/godot-4-dance.mp4" type="video/mp4">
+    </video>
+    <div class="bg-video-overlay"></div>
+  </div>
+  <div id="countdown-banner" class="countdown-banner">
+    <h2 class="title">We're working on brand new Godot 4.0 courses!</h2>
+    <p class="banner-content">
+      <span class="banner-content-main" style="font-size: 1.5rem; color:#ffd500; margin-bottom: 0.8rem">All our courses are currently for Godot 3.5</span>
+      <span class="banner-content-main banner-glow">This is your last chance to get started</span>
+      <span class="banner-content-main banner-glow">and get a free update to upcoming Godot 4.0 Courses*</span>
+    </p>
+    
+    <div class="show-only-when-closed">
+      <span class="only-on-close">
+        <a href="https://gdquest.mavenseed.com/community/15301-our-roadmap-for-godot-4-updates-to-courses">
+          Our roadmap for the Godot 4.0 update
+        </a>
+      </span>
+    </div>
+    
+    <a
+    href="https://gdquest.mavenseed.com/community/15301-our-roadmap-for-godot-4-updates-to-courses"
+    class="button-link -yellow -shadow -large -tall"
+    >
+    Check our Roadmap
+  </a>
+  <p class="banner-content-tertiary">* Godot 4 courses are planned for Learn to Code, Node Essentials, and Shaders Secrets</p>
+
+    <a href="#" class="banner-button banner-button-hide" id="hide_banner_button" title="hide banner"></a>
+  </div>
+</div>
+<div style="position: relative; width: 100%; z-index: 10; pointer-events: none; height: 2rem">
+  <a href="#" class="banner-button banner-button-show" id="show_banner_button" title="show banner"></a>
+</div>
+</div>
+`
+
+const style = `
+  :root{
+    --banner-close-button-bg:#8b3de4 /*#f0f4f8*/;
+    --banner-close-button-fg: white /*black*/;
+  }  
+  /** fonts ** /
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap');
+  /**/
+  .banner-container{
+		--font-main: "Poppins", sans-serif;
+		--font-title: "Montserrat", sans-serif;
+    color:white;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 720px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    background: #032769;
+    background-image: none;
+    background-image: linear-gradient(225deg, #003595 0%, #5527B9 50%, #00307B 100%);
+  }
+  .countdown-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem 0.8rem;
+    text-align: center;
+    z-index: 100;
+  }
+  .banner-container .countdown {
+    color: #ffe560;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+		font-family: var(--font-title);
+  }
+  .banner-container .title{
+    --color: #3891C6;
+		font-family: var(--font-title);
+    color: white;
+    font-weight: 1000;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 auto;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  .banner-container p{
+		font-family: var(--font-main);
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  .banner-container .banner-glow{
+    color: white;
+    text-shadow: 
+      0 0 16px rgb(255, 65, 255),
+      0 0 46px rgb(255, 65, 125), 
+      0 0 106px rgb(255, 65, 125)
+    ;
+  }
+  .banner-container .button-link:hover {
+    /*background: rgb(255, 223, 64);*/
+    background: transparent;
+  }
+  .banner-container .button-link{
+    border: 2px solid white;
+    text-shadow: none;
+		font-family: var(--font-title);
+    font-weight: bold;
+    text-transform: uppercase;
+    /*background: rgb(255, 213, 0);*/
+    background:transparent;
+    color: white;
+    /*border-bottom: 4px solid rgb(206, 124, 0);*/
+    display: block;
+    font-size: 1rem;
+    margin: 1rem auto;
+    max-width: 400px;
+    padding: .7rem 1rem;
+  }
+  .banner-container .banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+    font-weight: bold;
+  }
+  .banner-container .banner-content-coupon{
+    font-size: 1.3rem;
+    border-radius: .4em;
+    border: 1px dashed #fff;
+    padding: .1em .3em;
+  }
+  .banner-container .banner-content-main{
+    font-family: var(--font-title);
+    text-transform: uppercase;
+  }
+  .banner-container .banner-content-secondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .banner-container .banner-content-main, .banner-container .banner-content-secondary-content{
+    font-size: 1.2rem;
+  }
+  .banner-container .bg-video-container{
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner-container .bg-video-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #53157BB3;
+  }
+  .banner-container .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .banner-container .banner-expired .banner-container{
+    display: none;
+  }
+
+  .banner-container .only-on-close{
+    display: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .banner-closed .banner-container .countdown, .banner-container .only-on-close{
+    text-shadow: none;
+    font-size: 1rem;
+    margin: 0;
+		color: black;
+		font-family: var(--font-title);
+  }
+  .banner-container .show-only-when-closed{
+    background-color: rgba(255, 213, 0, 0);
+    transition: background-color .2s ease-in-out;
+  }
+  .banner-closed .banner-container .show-only-when-closed{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 213, 0);
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    transition: background-color .2s ease-in-out .2s;
+  }
+  .banner-closed .banner-container .only-on-close{
+    display: flex;
+  }
+  .banner-button{
+    --banner-button-size: 2rem;
+    position: absolute;
+    margin-top:0;
+    right: 0;
+    height: var(--banner-button-size);
+    font-size: var(--banner-button-size);
+    padding: .2em .4em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+  .banner-button-hide{
+    bottom: 0;
+    border-radius: .2em .2em 0 0;
+    background: var(--banner-close-button-bg);
+    color: var(--banner-close-button-fg);
+  }
+  .banner-button-hide:hover{
+    color: var(--banner-close-button-fg);
+  }
+  .banner-button-show{
+    pointer-events: auto;
+    background-color: rgb(255, 213, 0);
+    border-radius: 0 0 .2em .2em;
+		color: black;
+    display: none;
+    z-index: 10;
+  }
+  .banner-button-show:hover{
+    color: black;
+  }
+  .banner-button::after{
+    --chevron-size: 0.45em;
+    --chevron-width: 0.15em;
+    border-style: solid;
+    border-width: var(--chevron-width) var(--chevron-width) 0 0;
+    content: '';
+    display: inline-block;
+    height: var(--chevron-size);
+    width: var(--chevron-size);
+    position: relative;
+    top: 0.3rem;
+    vertical-align: middle;
+    transform: rotate(-45deg);
+  }
+  .banner-button-show::after{
+    top: -0.9rem;
+    transform: rotate(135deg);
+  }
+  .banner-closed .banner-button-show{
+    display: block;
+  }
+  .banner-closed .banner-button-hide{
+    display: none;
+  }
+
+  .banner-closed .banner-container{
+    max-height: 2rem;
+  }
+
+
+  .banner-content-tertiary{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    .banner-container{
+      padding: 1em 1em;
+    }
+    .banner-container .title{
+      font-size: 2rem;
+    }
+    .banner-container .banner-content-secondary-content{
+      font-size: 1.2em;
+    }
+    .banner-container .banner-content-coupon{
+      font-size: 1em;
+    }
+    .banner-content-tertiary{
+      font-size: .7em;
+    }
+    .banner-container .banner-container .button-link{
+      font-size: .8rem;
+    }
+    .banner-button-hide{
+      background-color: #a03bf1;
+    }
+    .banner-closed .banner-container .countdown, .banner-closed .banner-container .only-on-close{
+      font-size: .8rem;
+    }
+  }
+`
+
+
+  if(document.location.pathname.startsWith("/lesson")){
+    return
+  }
+
+
+  function hashCode(str) {
+    let hash = 0;
+    for (let i = 0, len = str.length; i < len; i++) {
+        let chr = str.charCodeAt(i);
+        hash = (hash << 5) - hash + chr;
+        hash |= 0; // Convert to 32bit integer
+    }
+    return hash;
+  }
+
+  function appendStyle(text){
+    const id = "added-style-"+hashCode(text)
+    if(document.getElementById(id)){
+      return
+    }
+    const style = document.createElement('style');
+    style.innerHTML = text;
+    style.id = id
+    document.head.appendChild(style);
+  }
+
+  function activateButtons(hide_button, show_button, className = "banner-closed"){
+    if(document.body.dataset.bannerButtonsAugmented){
+      return
+    }
+    document.body.dataset.bannerButtonsAugmented = true
+    const TRUE = "yes"
+    const FALSE = "no"
+    if(!hide_button || !show_button) {
+      return
+    }
+    const onClick = (evt)=>{
+      evt.preventDefault()
+      document.body.classList.toggle(className)
+      localStorage.setItem(className, document.body.classList.contains(className) ? TRUE : FALSE)
+    }
+    
+    
+    hide_button.addEventListener("click", onClick)
+    
+    show_button.addEventListener("click", onClick)
+    
+    if(localStorage.getItem(className) === TRUE){
+      document.body.classList.add(className)
+    }
+
+  }
+
+  function prependToBody(parent, htmlString){
+    if(!htmlString || !htmlString.trim() || !parent){
+      return
+    }
+    const insertAsfirst = (parent, child) => parent.insertBefore(child, parent.firstChild);
+    
+    const createElement = () => {
+      const div = document.createElement('div');
+      div.innerHTML = htmlString.trim();
+      return div.firstChild;
+    }
+
+    insertAsfirst(parent, createElement())
+  }
+
+  prependToBody(document.body, element)
+  appendStyle(style)
+  activateButtons(
+    document.getElementById("hide_banner_button"),
+    document.getElementById("show_banner_button")
+  )
+})();
+</script>
