@@ -3,6 +3,20 @@
     if (document.location.pathname.startsWith("/lesson")) {
       return;
     }
+    const replacements = {
+      bundle: "https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle",
+      fonts:
+        "https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap",
+      article:
+        "https://www.gdquest.com/news/2023/07/discontinuing-ultimate-bundle/",
+      image: "/img/banner/ultimate_bundle_golden_banner_small.webp",
+      closeButtonColor: "#873be3", //mavenseed is ""#f0f4f8"", gdquest is "#873be3"
+    };
+    function template(source, replacements) {
+      return source
+        .trim()
+        .replace(/%%(.*)%%/g, (_, token) => replacements[token] || "");
+    }
     (function appendStyle(text) {
       function hashCode(str) {
         let hash = 0;
@@ -18,24 +32,19 @@
         return;
       }
       const style = document.createElement("style");
-      style.innerHTML = text;
+      style.innerHTML = template(text, replacements);
+      console.log(style.innerHTML);
       style.id = id;
       document.head.appendChild(style);
     })(`
 :root {
   --banner-close-button-left: initial;
   --banner-close-button-right: 0;
-  /** ** /
-  --banner-close-button-bg: #f0f4f8;
+  --banner-close-button-bg: %%closeButtonColor%%;
   --banner-close-button-fg: black;
-  /** **/
-  /** **/
-  --banner-close-button-bg: #873be3;
-  --banner-close-button-fg: black;
-  /** **/
 }
 /** fonts **/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap");
+@import url("%%fonts%%");
 /**/
 .banner-container {
   --font-main: "Poppins", sans-serif;
@@ -345,7 +354,7 @@
 
       const createElement = () => {
         const div = document.createElement("div");
-        div.innerHTML = htmlString.trim();
+        div.innerHTML = template(htmlString, replacements);
         return div.firstChild;
       };
 
@@ -353,9 +362,9 @@
     })(`<div>
   <div class="banner-container" id="top-banner">
     <div class="banner-container-image">
-      <a href="https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle">
+      <a href="%%bundle%%">
         <image
-          src="/img/banner/ultimate_bundle_golden_banner_small.webp"
+          src="%%image%%"
           alt="a golden ticket displaying the text 'ultimate bundle'"
         />
       </a>
@@ -387,7 +396,7 @@
         </span>
       </p>
       <a
-        href="https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle"
+        href="%%bundle%%"
         class="button-link"
       >
         Get the Ultimate Bundle
@@ -395,7 +404,7 @@
 
       <p class="banner-content-tertiary banner-small-bottom-text">
         <a
-          href="https://www.gdquest.com/news/2023/07/discontinuing-ultimate-bundle/"
+          href="%%article%%"
         >
           <sup>*</sup>READ MORE about the Ultimate Bundle and why we're
           discontinuing it
@@ -476,12 +485,10 @@
     ) {
       const TRUE = "yes";
       const FALSE = "no";
-      console.log(hide_button, show_button);
       if (!hide_button || !show_button) {
         return;
       }
       const onClick = (evt) => {
-        console.log("sd");
         evt.preventDefault();
         document.body.classList.toggle(className);
         localStorage.setItem(
