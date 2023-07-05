@@ -33,7 +33,6 @@
       }
       const style = document.createElement("style");
       style.innerHTML = template(text, replacements);
-      console.log(style.innerHTML);
       style.id = id;
       document.head.appendChild(style);
     })(`
@@ -100,13 +99,9 @@
   border-bottom: 1px solid white;
   font-weight: normal;
 }
-.banner-container p.banner-small-bottom-text {
-  padding: 0;
-  margin: 0.7rem 0 0 0;
-}
+
 .banner-container .neon {
   color: #ffe560;
-  font-size: 1.9rem;
   font-weight: 1000;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -125,8 +120,9 @@
 }
 .banner-container p {
   font-family: var(--font-main);
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+  /*text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);*/
   font-weight: bold;
+  margin: 0;
 }
 .banner-container .neon {
   color: white;
@@ -136,7 +132,6 @@
 .banner-container .button-link {
   text-align: center;
   text-decoration: none;
-  margin-top: 1rem;
   margin-right: auto;
   min-width: 12em;
   border-radius: 8px;
@@ -152,8 +147,8 @@
   background: transparent;
   color: white;
   display: block;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
   max-width: 400px;
   padding: 0.9rem 1.1rem;
 }
@@ -183,6 +178,12 @@
   font-family: var(--font-title);
   text-transform: uppercase;
 }
+.banner-container .banner-content-yellow {
+  font-size: 1.3rem;
+  color: #ffd500;
+  margin-top: 0.5rem;
+  text-shadow: 1px 1px 4px #000;
+}
 .banner-container .banner-content-secondary {
   display: flex;
   flex-direction: column;
@@ -204,7 +205,7 @@
   font-weight: bold;
 }
 .countdown {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 .banner-closed .banner-container .countdown,
@@ -220,6 +221,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 .banner-closed .banner-container .show-only-when-closed {
+  margin: 0;
   display: flex;
   position: absolute;
   top: 0;
@@ -231,7 +233,6 @@
   align-items: center;
   gap: 0.5em;
   transition: background-color 0.2s ease-in-out 0.2s;
-  margin: 0;
 }
 .banner-closed .banner-container .only-on-close {
   display: flex;
@@ -299,7 +300,7 @@
 .banner-closed .banner-container {
   max-height: 2rem;
 }
-.banner-closed .banner-container-image {
+.banner-closed .banner-container-image, .banner-closed .banner-content, .banner-closed .title, .banner-closed .button-link, .banner-closed .banner-small-bottom-text {
   display: none;
 }
 /**/
@@ -307,17 +308,27 @@
   .banner-container {
     padding: 1em 1em 3em 1em;
     flex-direction: column;
+    gap: .7rem;
   }
   .banner-container-image {
     margin: 2.4rem auto 0 auto;
-    max-width: 80%;
+    max-width: 100%;
+  }
+  .banner-container .banner-content-main, .banner-container .banner-content-secondary-content{
+    font-size: 1.2rem;
+  }
+  .banner-container .banner-content-yellow {
+    font-size: 1rem;
   }
   .countdown-banner {
     text-align: center;
+    padding: 0;
+  }
+  .banner-container p {
+    margin-top: 1rem;
   }
   .banner-container .title {
-    font-size: 3rem;
-
+    font-size: 1.8rem;
     margin: 0 auto;
   }
   .banner-container .button-link {
@@ -330,7 +341,7 @@
     font-size: 1em;
   }
   .banner-content-tertiary {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   /** close/open buttons **/
   .banner-button {
@@ -377,20 +388,14 @@
           on July 15 2023 at Midnight UTC</span
         >
         <span
-          class="banner-content-main"
-          style="
-            font-size: 1.3rem;
-            color: #ffd500;
-            margin-top: 0.5rem;
-            text-shadow: 1px 1px 4px #000;
-          "
+          class="banner-content-main banner-content-yellow"
           >Anyone who already owns it will continue to have <br />
           lifetime access to all present & future Godot courses</span
         >
       </p>
 
       <p class="show-only-when-closed">
-        <span id="countdown" class="countdown">Until July 15</span>
+        <span id="countdown" class="countdown neon">Until July 15</span>
         <span class="only-on-close">
           before the ultimate bundle is discontinued
         </span>
@@ -406,8 +411,8 @@
         <a
           href="%%article%%"
         >
-          <sup>*</sup>READ MORE about the Ultimate Bundle and why we're
-          discontinuing it
+          <sup>*</sup>READ MORE about about why we're
+          discontinuing the Ultimate Bundle
         </a>
       </p>
 
