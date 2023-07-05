@@ -1,7 +1,7 @@
 ---
 author: nathan
 banner:
-  src: /img/product/godot/ultimate-bundle.png
+  src: /img/product/godot/ultimate-bundle.webp
 categories:
 - news
 date: "2020-12-22T10:53:57-06:00"

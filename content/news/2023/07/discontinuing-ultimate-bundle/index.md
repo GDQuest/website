@@ -5,9 +5,8 @@ author: nathan
 date: "2023-07-04"
 categories:
     - news
-resources:
-- name: banner
-  src: banner.png
+banner:
+  src: /img/product/godot/ultimate-bundle.webp
 weight: 5
 featured: true
 ---
@@ -16,7 +15,7 @@ featured: true
 
 **What’s the Ultimate Bundle?**
 
-So far, for anyone in the know, it’s been possible to get unlimited lifetime access to all present and future GDQuest courses and learning resources. This golden ticket of sorts is what we’ve called: The Ultimate Bundle. It has been available on our website for about USD 379.95 (with purchasing power parity depending on the country you’re from).
+So far, for anyone in the know, it’s been possible to get unlimited lifetime access to all present and future Godot courses and learning resources. This golden ticket of sorts is what we’ve called: The Ultimate Bundle. It has been available on our website for about USD 379.95 (with purchasing power parity depending on the country you’re from).
 
 **Wait, what if I already bought the Ultimate Bundle?**
 

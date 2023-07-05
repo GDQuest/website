@@ -1,7 +1,7 @@
 ---
 author: nathan
 banner:
-  src: /img/product/godot/ultimate-bundle.png
+  src: /img/product/godot/ultimate-bundle.webp
 date: "2021-01-15T00:00:00-06:00"
 description: This ultimate bundle gives you access to ALL our current and future Godot
   courses, at a discount. It's like a lifetime membership.
