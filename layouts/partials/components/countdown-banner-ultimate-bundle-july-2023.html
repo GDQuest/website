@@ -1,0 +1,505 @@
+<script>
+  (function Banner() {
+    if (document.location.pathname.startsWith("/lesson")) {
+      return;
+    }
+    (function appendStyle(text) {
+      function hashCode(str) {
+        let hash = 0;
+        for (let i = 0, len = str.length; i < len; i++) {
+          let chr = str.charCodeAt(i);
+          hash = (hash << 5) - hash + chr;
+          hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+      }
+      const id = "added-style-" + hashCode(text);
+      if (document.getElementById(id)) {
+        return;
+      }
+      const style = document.createElement("style");
+      style.innerHTML = text;
+      style.id = id;
+      document.head.appendChild(style);
+    })(`
+:root {
+  --banner-close-button-left: initial;
+  --banner-close-button-right: 0;
+  /** ** /
+  --banner-close-button-bg: #f0f4f8;
+  --banner-close-button-fg: black;
+  /** **/
+  /** **/
+  --banner-close-button-bg: #873be3;
+  --banner-close-button-fg: black;
+  /** **/
+}
+/** fonts **/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap");
+/**/
+.banner-container {
+  --font-main: "Poppins", sans-serif;
+  --font-title: "Montserrat", sans-serif;
+  color: white;
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  background: #032769;
+  background-image: none;
+  background-image: linear-gradient(
+    225deg,
+    #003595 0%,
+    #5527b9 50%,
+    #00307b 100%
+  );
+  padding: 2rem;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+.banner-container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+.banner-container-image img,
+.banner-container-image a {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+.countdown-banner {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.banner-small-bottom-text a,
+.banner-small-bottom-text a:visited,
+.banner-small-bottom-text a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  font-weight: normal;
+}
+.banner-container p.banner-small-bottom-text {
+  padding: 0;
+  margin: 0.7rem 0 0 0;
+}
+.banner-container .neon {
+  color: #ffe560;
+  font-size: 1.9rem;
+  font-weight: 1000;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: var(--font-title);
+}
+.banner-container .title {
+  --color: #3891c6;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 1000;
+  font-size: 2.3rem;
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.banner-container p {
+  font-family: var(--font-main);
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+.banner-container .neon {
+  color: white;
+  text-shadow: 0 0 16px rgb(255, 65, 255), 0 0 46px rgb(255, 65, 125),
+    0 0 106px rgb(255, 65, 125);
+}
+.banner-container .button-link {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: auto;
+  min-width: 12em;
+  border-radius: 8px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  cursor: pointer;
+  border: 2px solid white;
+  text-shadow: none;
+  font-family: var(--font-title);
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(255, 213, 0);
+  background: transparent;
+  color: white;
+  display: block;
+  font-size: 1rem;
+  line-height: 1rem;
+  max-width: 400px;
+  padding: 0.9rem 1.1rem;
+}
+.banner-container .banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.banner-container em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+.banner-container em::before,
+.banner-container em::after {
+  content: "*";
+  color: #ffd500;
+}
+.banner-container .banner-content-coupon {
+  font-size: 1.3rem;
+  border-radius: 0.4em;
+  border: 1px dashed #fff;
+  padding: 0.1em 0.3em;
+}
+.banner-container .banner-content-main {
+  font-family: var(--font-title);
+  text-transform: uppercase;
+}
+.banner-container .banner-content-secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.banner-container .banner-content-main,
+.banner-container .banner-content-secondary-content {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+.banner-expired .banner-container {
+  display: none;
+}
+
+.banner-container .only-on-close {
+  display: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.countdown {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.banner-closed .banner-container .countdown,
+.banner-container .only-on-close {
+  text-shadow: none;
+  font-size: 1rem;
+  margin: 0;
+  color: black;
+  font-family: var(--font-title);
+}
+.banner-container .show-only-when-closed {
+  background-color: rgba(255, 213, 0, 0);
+  transition: background-color 0.2s ease-in-out;
+}
+.banner-closed .banner-container .show-only-when-closed {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 213, 0);
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  transition: background-color 0.2s ease-in-out 0.2s;
+  margin: 0;
+}
+.banner-closed .banner-container .only-on-close {
+  display: flex;
+}
+/** close/open buttons **/
+.banner-button {
+  --banner-button-size: 2rem;
+  position: absolute;
+  margin-top: 0;
+  left: var(--banner-close-button-left);
+  right: var(--banner-close-button-right);
+  height: var(--banner-button-size);
+  font-size: var(--banner-button-size);
+  padding: 0.2em 0.4em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+.banner-button-hide {
+  bottom: -1px;
+  border-radius: 0.2em 0.2em 0 0;
+  background: var(--banner-close-button-bg);
+  color: var(--banner-close-button-fg);
+}
+.banner-button-hide:hover {
+  color: var(--banner-close-button-fg);
+}
+.banner-button-show {
+  background-color: rgb(255, 213, 0);
+  border-radius: 0 0 0.2em 0.2em;
+  color: black;
+  display: none;
+}
+.banner-button-show:hover {
+  color: black;
+}
+.banner-button::after {
+  --chevron-size: 0.45em;
+  --chevron-width: 0.15em;
+  border-style: solid;
+  border-width: var(--chevron-width) var(--chevron-width) 0 0;
+  content: "";
+  display: inline-block;
+  height: var(--chevron-size);
+  width: var(--chevron-size);
+  position: relative;
+  top: 0.3rem;
+  vertical-align: middle;
+  transform: rotate(-45deg);
+}
+.banner-button-show::after {
+  top: -1.1rem;
+  transform: rotate(135deg);
+}
+.banner-closed .banner-button-show {
+  display: block;
+}
+.banner-closed .banner-button-hide {
+  display: none;
+}
+
+.banner-closed .banner-container {
+  max-height: 2rem;
+}
+.banner-closed .banner-container-image {
+  display: none;
+}
+/**/
+@media screen and (max-width: 980px) {
+  .banner-container {
+    padding: 1em 1em 3em 1em;
+    flex-direction: column;
+  }
+  .banner-container-image {
+    margin: 2.4rem auto 0 auto;
+    max-width: 80%;
+  }
+  .countdown-banner {
+    text-align: center;
+  }
+  .banner-container .title {
+    font-size: 3rem;
+
+    margin: 0 auto;
+  }
+  .banner-container .button-link {
+    margin-left: auto;
+  }
+  .banner-container .banner-content-secondary-content {
+    font-size: 1.2em;
+  }
+  .banner-container .banner-content-coupon {
+    font-size: 1em;
+  }
+  .banner-content-tertiary {
+    font-size: 0.7em;
+  }
+  /** close/open buttons **/
+  .banner-button {
+    left: 50%;
+    right: initial;
+    transform: translateX(-50%);
+    width: calc(var(--banner-button-size) * 2);
+  }
+  .banner-closed .banner-container .countdown,
+  .banner-closed .banner-container .only-on-close {
+    font-size: 0.8rem;
+  }
+  /**/
+}`);
+    (function insertHTML(htmlString) {
+      if (!htmlString) {
+        return;
+      }
+      const insertAsfirst = (parent, child) =>
+        parent.insertBefore(child, parent.firstChild);
+
+      const createElement = () => {
+        const div = document.createElement("div");
+        div.innerHTML = htmlString.trim();
+        return div.firstChild;
+      };
+
+      insertAsfirst(document.body, createElement());
+    })(`<div>
+  <div class="banner-container" id="top-banner">
+    <div class="banner-container-image">
+      <a href="https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle">
+        <image
+          src="/img/banner/ultimate_bundle_golden_banner_small.png"
+          alt="a golden ticket displaying the text 'ultimate bundle'"
+        />
+      </a>
+    </div>
+    <div id="countdown-banner" class="countdown-banner">
+      <h2 class="title neon">Last Call !</h2>
+      <p class="banner-content">
+        <span class="banner-content-main"
+          >We're discontinuing<sup>*</sup> the Ultimate Bundle <br />
+          on July 15 2023 at Midnight UTC</span
+        >
+        <span
+          class="banner-content-main"
+          style="
+            font-size: 1.3rem;
+            color: #ffd500;
+            margin-top: 0.5rem;
+            text-shadow: 1px 1px 4px #000;
+          "
+          >Anyone who already owns it will continue to have <br />
+          lifetime access to all present & future Godot courses</span
+        >
+      </p>
+
+      <p class="show-only-when-closed">
+        <span id="countdown" class="countdown">Until July 15</span>
+        <span class="only-on-close">
+          before the ultimate bundle is discontinued
+        </span>
+      </p>
+      <a
+        href="https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle"
+        class="button-link"
+      >
+        Get the Ultimate Bundle
+      </a>
+
+      <p class="banner-content-tertiary banner-small-bottom-text">
+        <a
+          href="https://www.gdquest.com/news/2023/07/discontinuing-ultimate-bundle/"
+        >
+          <sup>*</sup>READ MORE about the Ultimate Bundle and why we're
+          discontinuing it
+        </a>
+      </p>
+
+      <a
+        href="#"
+        class="banner-button banner-button-hide"
+        id="hide_banner_button"
+        title="hide banner"
+      ></a>
+    </div>
+  </div>
+  <div style="position: relative; width: 100%; z-index: 10">
+    <a
+      href="#"
+      class="banner-button banner-button-show"
+      id="show_banner_button"
+      title="show banner"
+    ></a>
+  </div>
+</div>
+
+  `);
+    (function prepareCountdown(parentElement, countdownElements, endDate) {
+      if (!parentElement || countdownElements.length == 0) {
+        return;
+      }
+      const hour = 60 * 60 * 1000,
+        minute = 60 * 1000,
+        day = hour * 24;
+
+      const endTime = endDate.getTime();
+      const timeOffsetUTC = endDate.getTimezoneOffset() * 60 * 1000;
+      const endTimeUTC = endTime - timeOffsetUTC;
+
+      const updateCountdown = () => {
+        const now = new Date().getTime();
+        const distance = endTimeUTC - now + timeOffsetUTC;
+        const days = Math.floor(distance / day);
+
+        if (days >= 3) {
+          countdownElements.forEach((countdownElement) => {
+            countdownElement.innerText = `${days} days left`;
+          });
+        } else {
+          let hours = Math.floor((distance % (day * 3)) / hour)
+            .toString()
+            .padStart(2, "0");
+          let minutes = Math.floor((distance % hour) / minute)
+            .toString()
+            .padStart(2, "0");
+          let seconds = Math.floor((distance % minute) / 1000)
+            .toString()
+            .padStart(2, "0");
+          countdownElements.forEach((countdownElement) => {
+            countdown.innerText = `${hours}:${minutes}:${seconds}`;
+          });
+        }
+        if (distance < 0) {
+          document.body.classList.add("banner-expired");
+          parentElement.parentNode.removeChild(parentElement);
+          clearInterval(intervalCallback);
+        }
+      };
+      const intervalCallback = setInterval(updateCountdown, 1000);
+      updateCountdown();
+    })(
+      document.querySelector("#top-banner"),
+      Array.from(document.querySelectorAll("#top-banner .countdown")),
+      new Date("2023-07-15T00:00")
+    );
+    (function openCloseBanner(
+      hide_button,
+      show_button,
+      className = "banner-closed"
+    ) {
+      const TRUE = "yes";
+      const FALSE = "no";
+      console.log(hide_button, show_button);
+      if (!hide_button || !show_button) {
+        return;
+      }
+      const onClick = (evt) => {
+        console.log("sd");
+        evt.preventDefault();
+        document.body.classList.toggle(className);
+        localStorage.setItem(
+          className,
+          document.body.classList.contains(className) ? TRUE : FALSE
+        );
+      };
+
+      hide_button.addEventListener("click", onClick);
+
+      show_button.addEventListener("click", onClick);
+
+      if (localStorage.getItem(className) === TRUE) {
+        document.body.classList.add(className);
+      }
+    })(
+      document.getElementById("hide_banner_button"),
+      document.getElementById("show_banner_button")
+    );
+  })();
+</script>
