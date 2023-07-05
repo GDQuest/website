@@ -72,17 +72,24 @@
   box-sizing: border-box;
   align-items: stretch;
 }
-.banner-container-image {
+.banner-container-image{
+  max-width: 50%;
+}
+.banner-container-image, .banner-container-image a{
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 50%;
 }
 .banner-container-image img,
 .banner-container-image a {
   object-fit: contain;
+  object-position: center center;
   max-width: 100%;
   max-height: 100%;
+  background: black;
+}
+.banner-container-image a{
+  border: 1px solid black;
 }
 .countdown-banner {
   display: flex;
@@ -105,7 +112,6 @@
   color: #ffe560;
   font-weight: 1000;
   text-transform: uppercase;
-  margin-bottom: 1rem;
   font-family: var(--font-title);
 }
 .banner-container .title {
@@ -114,7 +120,7 @@
   text-transform: uppercase;
   color: white;
   font-weight: 1000;
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   margin: 0;
   color: #fff;
   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
@@ -178,9 +184,12 @@
 .banner-container .banner-content-main {
   font-family: var(--font-title);
   text-transform: uppercase;
+  max-width: 34rem;
+  margin-left: auto;
+  margin-right: auto;
 }
-.banner-container .banner-content-yellow {
-  font-size: 1.3rem;
+.banner-container .banner-content-main.banner-content-yellow {
+  font-size: 1rem;
   color: #ffd500;
   margin-top: 0.5rem;
   text-shadow: 1px 1px 4px #000;
@@ -193,7 +202,7 @@
 }
 .banner-container .banner-content-main,
 .banner-container .banner-content-secondary-content {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.3;
 }
 .banner-expired .banner-container {
@@ -206,7 +215,7 @@
   font-weight: bold;
 }
 .countdown {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 .banner-closed .banner-container .countdown,
@@ -325,6 +334,7 @@
     text-align: center;
     padding: 0;
     gap: 0rem;
+    padding: 1rem 0;
   }
   .banner-container p {
     margin-top: 1rem;
@@ -386,12 +396,12 @@
       <h2 class="title neon">Last Call !</h2>
       <p class="banner-content">
         <span class="banner-content-main"
-          >We're discontinuing<sup>*</sup> the Ultimate Bundle <br />
+          >We're discontinuing<sup>*</sup> the Ultimate Bundle
           on July 15 2023 at Midnight UTC</span
         >
         <span
           class="banner-content-main banner-content-yellow"
-          >Anyone who already owns it will continue to have <br />
+          >Anyone who already owns it will continue to have
           lifetime access to all present & future Godot courses</span
         >
       </p>
@@ -413,7 +423,7 @@
         <a
           href="%%article%%"
         >
-          <sup>*</sup>READ MORE about about why we're
+          <sup>*</sup>READ MORE about why we're
           discontinuing the Ultimate Bundle
         </a>
       </p>
