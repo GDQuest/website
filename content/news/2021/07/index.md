@@ -31,4 +31,3 @@ Links:
 
 - **Learn everything about Node Essentials** and get it here: [Godot node essentials](https://gdquest.mavenseed.com/courses/godot-node-essentials)
 - [Get three complete node essentials guides](/node-essentials-guides) for free
-- [Ultimate Godot course bundle](https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle)

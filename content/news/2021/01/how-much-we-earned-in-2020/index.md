@@ -90,8 +90,6 @@ I also announced that we would focus on Godot this year. And by doing that, I ho
 
 We can become more efficient, more demanding with our work, and better listen to your needs and wishes.
 
-As for money, we launched a new offer of an [ultimate Godot course bundle](https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle/) that is currently selling well and that, I hope, will support our funding goals.
-
 I hope that this year again, you will follow us, learn from our tutorials, and keep improving your game development skills.
 
 Since the start of the year, we haven't stopped working. We have already released a few new free tutorials, like our complete [tactical RPG grid-based movement series](/tutorial/godot/2d/tactical-rpg-movement/) or our [finite state machine guide](/tutorial/godot/design-patterns/finite-state-machine/) for Godot. It's just the start. There are many more to come.

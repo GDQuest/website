@@ -11,7 +11,7 @@ weight: 5
 featured: true
 ---
 
-## As of July 15 at midnight UTC, we’re discontinuing the [Ultimate Bundle](https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle).
+## As of July 15 at midnight UTC, we’re discontinuing the Ultimate Bundle.
 
 **What’s the Ultimate Bundle?**
 

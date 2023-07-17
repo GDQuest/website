@@ -157,7 +157,3 @@ If you want to further your Godot skills, advance to the next level as a game de
 
 They come with a **60-days refund warranty**, DRM free downloadable lessons, and questions and answers.
 
-We even have an [ultimate Godot course bundle](https://gdquest.mavenseed.com/courses/ultimate-gdquest-bundle) that gives you free access to all our current and future Godot training series at a discount.
-
-![Ultimate bundle banner](/img/product/godot/ultimate-bundle.png)
-
