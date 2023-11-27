@@ -28,13 +28,23 @@
   }
 
   > .links {
-    display: inline-block;
     margin-left: $spacing-tiny;
 
     font-size: $font-size-normal;
     font-weight: bold;
 
     user-select: none;
+
+    > a .new {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .new .new-text {
+      color: $color-accent-opt-base;
+      font-size: 0.9rem;
+    }
 
     > a {
       margin-left: $spacing-tiny;
@@ -105,6 +115,10 @@
         flex-direction: column;
         text-align: center;
         margin-top: 0.6rem;
+
+        > .new {
+          margin-top: $spacing-nano;
+        }
       }
 
       > .links > a {
