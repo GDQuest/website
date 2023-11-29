@@ -1,0 +1,243 @@
+<style>
+  #sales-banner {
+    background-color: rgb(250 204 21);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+    font-weight: 800;
+    margin: auto;
+    position: relative;
+  }
+
+  @media (min-width: 768px) {
+    #sales-banner {
+      padding-right: 5rem;
+      padding-left: 5rem;
+    }
+  }
+
+  .sales-banner-container {
+    display: flex;
+    position: relative;
+    margin: auto;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    .sales-banner-container {
+      max-width: 64rem;
+      gap: 1rem;
+    }
+  }
+
+  .sales-banner-text-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #920440;
+    font-size: 1rem;
+  }
+  @media (min-width: 768px) {
+    .sales-banner-text-header {
+      font-size: 20px;
+    }
+  }
+
+  .sales-banner-lucy-container {
+    bottom: 0;
+    right: 20px;
+    margin-top: -0.5rem;
+    height: 7.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .sales-banner-lucy-container {
+      position: absolute;
+      right: 0;
+      margin-top: 0;
+      height: 10rem;
+    }
+  }
+
+  .sales-banner-center-container {
+    display: flex;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @media (min-width: 768px) {
+    .sales-banner-center-container {
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+</style>
+
+<!-- Sales coupon banner -->
+<div id="sales-banner" class="sales-banner">
+  <div class="sales-banner-container">
+    <p class="sales-banner-text-header">
+      Godot 4 courses Launching in Early Access starting Jan 30
+    </p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+      "
+    >
+      <div style="position: relative">
+        <!-- TODO: port lucy over -->
+        <div class="sales-banner-lucy-container"></div>
+      </div>
+
+      <div class="sales-banner-center-container">
+        <p
+          style="
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            font-weight: 900;
+            color: rgb(103 37 214);
+
+            @media (min-width: 768px) {
+              font-size: 2.25rem;
+              line-height: 2.5rem;
+            }
+          "
+        >
+          <!-- TODO: change text to you can now pre-order Godot 4.2 courses -->
+          godot 4.2 is out!
+        </p>
+        <p
+          style="
+            margin-bottom: 0.25rem;
+            color: #ffffff;
+            font-size: 20px;
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+            text-shadow: #ff417d 3px 0px 0px, #ff417d 2.83487px 0.981584px 0px,
+              #ff417d 2.35766px 1.85511px 0px, #ff417d 1.62091px 2.52441px 0px,
+              #ff417d 0.705713px 2.91581px 0px,
+              #ff417d -0.287171px 2.98622px 0px,
+              #ff417d -1.24844px 2.72789px 0px, #ff417d -2.07227px 2.16926px 0px,
+              #ff417d -2.66798px 1.37182px 0px, #ff417d -2.96998px 0.42336px 0px,
+              #ff417d -2.94502px -0.571704px 0px,
+              #ff417d -2.59586px -1.50383px 0px,
+              #ff417d -1.96093px -2.27041px 0px,
+              #ff417d -1.11013px -2.78704px 0px,
+              #ff417d -0.137119px -2.99686px 0px,
+              #ff417d 0.850987px -2.87677px 0px,
+              #ff417d 1.74541px -2.43999px 0px, #ff417d 2.44769px -1.73459px 0px,
+              #ff417d 2.88051px -0.838247px 0px;
+            @media (min-width: 768px) {
+              font-size: 1.875rem;
+              line-height: 2.25rem;
+            }
+          "
+        >
+          Save up to 50%
+        </p>
+
+        <!-- Days counter, update display every minute or hour -->
+        <!-- TODO: change to new figma design -->
+        <div
+          style="
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 800;
+            @media (min-width: 768px) {
+              font-size: 1.875rem;
+              line-height: 2.25rem;
+            }
+          "
+        >
+          <span
+            id="days-count"
+            style="
+              display: inline-block;
+              padding-left: 0.75rem;
+              padding-right: 0.75rem;
+              background-color: rgb(103 37 214);
+              border-radius: 0.75rem;
+              border-width: 4px;
+              border-color: rgb(30 41 59);
+              color: #ffffff;
+            "
+            >0
+          </span>
+          <span id="days-word">days</span> left
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script defer type="text/javascript">
+  function calculateTimeLeft(endDate) {
+    const now = new Date();
+    const timeDeltaMs = endDate.getTime() - now.getTime();
+    const remainingDays = Math.max(
+      0,
+      Math.ceil(timeDeltaMs / (1000 * 60 * 60 * 24))
+    );
+    return remainingDays;
+  }
+
+  const endDate = new Date("2023-12-10T00:00:00Z");
+  function updateDate() {
+    const daysLeft = calculateTimeLeft(endDate);
+    console.log(daysLeft);
+    document.getElementById("days-count").innerHTML = daysLeft;
+    document.getElementById("days-word").innerHTML =
+      daysLeft === 1 ? "day" : "days";
+    return daysLeft;
+  }
+  const timer = setInterval(() => {
+    const daysLeft = updateDate();
+    if (daysLeft <= 0) {
+      clearInterval(timer);
+    }
+  }, 1000 * 60 * 60);
+  updateDate();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
