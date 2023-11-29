@@ -1,5 +1,7 @@
 <style>
   #sales-banner {
+    font-family: "Montserrat", sans-serif;
+
     background-color: rgb(250 204 21);
     padding-left: 2rem;
     padding-right: 2rem;
@@ -33,9 +35,17 @@
     }
   }
 
+  .sales-banner-wrap-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
   .sales-banner-text-header {
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 0.75rem;
     color: #920440;
     font-size: 1rem;
   }
@@ -43,6 +53,35 @@
     .sales-banner-text-header {
       font-size: 20px;
     }
+  }
+  .sales-banner-text-pre-order {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(103 37 214);
+    text-transform: uppercase;
+  }
+  .sales-banner-text-godot-4 {
+    font-size: 2.125rem;
+    font-weight: 900;
+    color: rgb(103 37 214);
+    text-transform: uppercase;
+  }
+  .sales-banner-text-save-up-to {
+    font-size: 1.875rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+    color: #ffffff;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+    text-shadow: #ff417d 3px 0px 0px, #ff417d 2.83487px 0.981584px 0px,
+      #ff417d 2.35766px 1.85511px 0px, #ff417d 1.62091px 2.52441px 0px,
+      #ff417d 0.705713px 2.91581px 0px, #ff417d -0.287171px 2.98622px 0px,
+      #ff417d -1.24844px 2.72789px 0px, #ff417d -2.07227px 2.16926px 0px,
+      #ff417d -2.66798px 1.37182px 0px, #ff417d -2.96998px 0.42336px 0px,
+      #ff417d -2.94502px -0.571704px 0px, #ff417d -2.59586px -1.50383px 0px,
+      #ff417d -1.96093px -2.27041px 0px, #ff417d -1.11013px -2.78704px 0px,
+      #ff417d -0.137119px -2.99686px 0px, #ff417d 0.850987px -2.87677px 0px,
+      #ff417d 1.74541px -2.43999px 0px, #ff417d 2.44769px -1.73459px 0px,
+      #ff417d 2.88051px -0.838247px 0px;
   }
 
   .sales-banner-lucy-container {
@@ -61,9 +100,9 @@
     }
   }
 
-  .sales-banner-center-container {
+  .sales-banner-center-text-column {
     display: flex;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     margin-top: -1rem;
     flex-direction: column;
     justify-content: center;
@@ -71,108 +110,82 @@
     text-transform: uppercase;
   }
   @media (min-width: 768px) {
-    .sales-banner-center-container {
+    .sales-banner-center-text-column {
       margin-top: 0;
       text-align: left;
     }
+  }
+
+  .days-counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .days-counter-container {
+      position: absolute;
+      bottom: 1rem;
+      right: 0;
+    }
+  }
+  .days-counter-top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #6725d6;
+  }
+  #days-count {
+    color: #d3078e;
+  }
+
+  .days-counter-button {
+    color: #fff;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    background: #6725d6;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 </style>
 
 <!-- Sales coupon banner -->
 <div id="sales-banner" class="sales-banner">
   <div class="sales-banner-container">
-    <p class="sales-banner-text-header">
+    <div class="sales-banner-text-header">
       Godot 4 courses Launching in Early Access starting Jan 30
-    </p>
-    <div
-      style="
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: center;
-      "
-    >
+    </div>
+    <div class="sales-banner-wrap-container" style="">
       <div style="position: relative">
-        <!-- TODO: port lucy over -->
-        <div class="sales-banner-lucy-container"></div>
+        <div class="sales-banner-lucy-container">
+          {{ partial "components/countdown-banner-lucy" }}
+        </div>
       </div>
 
-      <div class="sales-banner-center-container">
-        <p
-          style="
-            font-size: 1.875rem;
-            line-height: 2.25rem;
-            font-weight: 900;
-            color: rgb(103 37 214);
+      <div class="sales-banner-center-text-column">
+        <div class="sales-banner-text-pre-order">you can now pre-order</div>
+        <div class="sales-banner-text-godot-4">godot 4 courses</div>
+        <div class="sales-banner-text-save-up-to">Save up to 50%</div>
+      </div>
 
-            @media (min-width: 768px) {
-              font-size: 2.25rem;
-              line-height: 2.5rem;
-            }
-          "
-        >
-          <!-- TODO: change text to you can now pre-order Godot 4.2 courses -->
-          godot 4.2 is out!
-        </p>
-        <p
-          style="
-            margin-bottom: 0.25rem;
-            color: #ffffff;
-            font-size: 20px;
-            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
-            text-shadow: #ff417d 3px 0px 0px, #ff417d 2.83487px 0.981584px 0px,
-              #ff417d 2.35766px 1.85511px 0px, #ff417d 1.62091px 2.52441px 0px,
-              #ff417d 0.705713px 2.91581px 0px,
-              #ff417d -0.287171px 2.98622px 0px,
-              #ff417d -1.24844px 2.72789px 0px, #ff417d -2.07227px 2.16926px 0px,
-              #ff417d -2.66798px 1.37182px 0px, #ff417d -2.96998px 0.42336px 0px,
-              #ff417d -2.94502px -0.571704px 0px,
-              #ff417d -2.59586px -1.50383px 0px,
-              #ff417d -1.96093px -2.27041px 0px,
-              #ff417d -1.11013px -2.78704px 0px,
-              #ff417d -0.137119px -2.99686px 0px,
-              #ff417d 0.850987px -2.87677px 0px,
-              #ff417d 1.74541px -2.43999px 0px, #ff417d 2.44769px -1.73459px 0px,
-              #ff417d 2.88051px -0.838247px 0px;
-            @media (min-width: 768px) {
-              font-size: 1.875rem;
-              line-height: 2.25rem;
-            }
-          "
-        >
-          Save up to 50%
-        </p>
-
-        <!-- Days counter, update display every minute or hour -->
-        <!-- TODO: change to new figma design -->
-        <div
-          style="
-            font-size: 1.5rem;
-            line-height: 2rem;
-            font-weight: 800;
-            @media (min-width: 768px) {
-              font-size: 1.875rem;
-              line-height: 2.25rem;
-            }
-          "
-        >
-          <span
-            id="days-count"
-            style="
-              display: inline-block;
-              padding-left: 0.75rem;
-              padding-right: 0.75rem;
-              background-color: rgb(103 37 214);
-              border-radius: 0.75rem;
-              border-width: 4px;
-              border-color: rgb(30 41 59);
-              color: #ffffff;
-            "
-            >0
-          </span>
-          <span id="days-word">days</span> left
+      <div class="days-counter-container">
+        <div class="days-counter-top-row">
+          <span id="days-count">0</span>
+          <span id="days-word">days</span> left!
         </div>
+        <a
+          href="https://school.gdquest.com/godot-4-early-access"
+          class="days-counter-button"
+        >
+          Check out new courses!
+        </a>
       </div>
     </div>
   </div>
@@ -206,38 +219,3 @@
   }, 1000 * 60 * 60);
   updateDate();
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

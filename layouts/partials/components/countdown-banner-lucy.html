@@ -1,0 +1,239 @@
+<style>
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(-2%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeOut {
+    0%,
+    100% {
+      opacity: 0;
+      fill-opacity: 0;
+    }
+    20%,
+    50% {
+      opacity: 1;
+      fill-opacity: 1;
+    }
+  }
+  .lucyBounce {
+    animation: bounce 0.7s linear infinite;
+  }
+
+  .lucyBlur {
+    filter: blur(6px);
+  }
+
+  .lucyParticle {
+    animation: fadeOut 4s forwards ease-in-out;
+    transform-origin: right;
+    transform-box: fill-box;
+    color: #fff;
+  }
+
+  .lucy-svg {
+    bottom: 0;
+    right: 1.25rem;
+    margin-top: -0.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .lucy-svg {
+      position: absolute;
+      right: 0;
+      margin-top: 0;
+      height: 10rem;
+    }
+  }
+</style>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 2300 1000"
+  class="lucy-svg"
+>
+  <defs>
+    <filter id="turbulence" x="0" y="0">
+      <feTurbulence
+        numOctaves="1"
+        baseFrequency="0.00001 0.00013"
+        seed="2"
+        type="fractalNoise"
+      ></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" scale="100"></feDisplacementMap>
+    </filter>
+    <linearGradient
+      id="gradient"
+      x1="0"
+      x2="1"
+      y1="0.5"
+      y2="0.5"
+      gradientUnits="objectBoundingBox"
+      spreadMethod="repeat"
+    >
+      <stop stop-color="#c5effa" offset="0.01"></stop>
+      <stop stop-color="#fee3fd" offset="0.1"></stop>
+      <stop stop-color="#ffffff" offset="0.2"></stop>
+      <stop stop-color="#fefee8" offset="0.3"></stop>
+      <stop stop-color="#fdfd87" offset="0.4"></stop>
+      <stop stop-color="#f5fced" offset="0.75"></stop>
+      <stop stop-color="#c5effa" offset="1"></stop>
+      <animate
+        attributeName="x1"
+        dur="700ms"
+        from="0"
+        to="-1"
+        repeatCount="indefinite"
+      ></animate>
+      <animate
+        attributeName="x2"
+        dur="700ms"
+        from="1"
+        to="0"
+        repeatCount="indefinite"
+      ></animate>
+    </linearGradient>
+    <path
+      d="m11.23705,220.2026c0,162.66304 707.3488,164.87399 969.74167,181.36444c262.39211,16.48816 385.914,23.38667 578.98742,20.21149c76.79054,-1.25205 196.86165,-15.09793 229.94867,-15.60943c163.1234,-27.49936 170.86017,-353.737 0,-399.75223c-33.11069,-0.53441 -155.57597,-0.0229 -233.20477,4.66466c-207.46821,12.55259 -366.5026,28.88349 -643.72542,47.59862c-277.22436,18.71666 -901.74756,38.83196 -901.74756,161.51635l0,0.00611l-0.00001,-0.00001z"
+      id="trail"
+    ></path>
+    <path
+      id="sparkle"
+      transform="scale(32)"
+      d="m 0.78844872,12.423727 -0.66508,0.23961 a 0.18661402,0.18661402 0 0 0 0,0.35114 l 0.66508,0.23961 a 0.63944173,0.63944173 0 0 1 0.38481998,0.38476 l 0.23974,0.66511 a 0.18670324,0.18670324 0 0 0 0.35128,0 l 0.23974,-0.66511 a 0.63944173,0.63944173 0 0 1 0.38482,-0.38476 l 0.66508,-0.23961 a 0.18661402,0.18661402 0 0 0 0,-0.35114 l -0.66508,-0.23961 a 0.63934581,0.63934581 0 0 1 -0.38479,-0.38477 l -0.23982,-0.6656 a 0.18663562,0.18663562 0 0 0 -0.35118,0 l -0.23982,0.6656 a 0.63934581,0.63934581 0 0 1 -0.38478998,0.38477 z"
+    ></path>
+    <filter id="blurSome">
+      <feGaussianBlur stdDeviation="10"></feGaussianBlur>
+    </filter>
+    <filter id="blurMore">
+      <feGaussianBlur stdDeviation="40"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  <g id="lucy-container" class="lucyBounce">
+    <g class="lucyBlur">
+      <g id="g3" transform="translate(40, 350)" filter="url(#turbulence)">
+        <use href="#trail" fill="url(#gradient)"></use>
+      </g>
+    </g>
+
+    <image
+      href="https://school.gdquest.com/_next/static/media/lucy-run.5430d4b2.png"
+      height="100%"
+      x="1500"
+      preserveAspectRatio="xMidYMin meet"
+      image-rendering="optimizeSpeed"
+      style="image-rendering: pixelated"
+    ></image>
+  </g>
+</svg>
+
+<script defer type="text/javascript">
+  function playParticlesAnimation() {
+    function randomIntFromInterval(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+    const container = document.getElementById("lucy-container");
+    let previous = 0;
+    let lastSpawnTime = 0;
+    let timeElapsed = 0;
+    let animationFrame = 0;
+    // Number of particles spawned by second.
+    const particleSpawnRate = 3;
+
+    const particles = [];
+    class Particle {
+      element;
+      x;
+      y;
+      velocity;
+      opacity;
+      lifetime = 4;
+
+      constructor() {
+        this.x = randomIntFromInterval(-100, 100) + 1400;
+        this.y = randomIntFromInterval(-100, 100) + 180;
+        this.velocity = {
+          x: randomIntFromInterval(-350, -450) * 1.2,
+          y: randomIntFromInterval(-200, 100),
+        };
+        this.opacity = 1;
+
+        const star = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "use"
+        );
+        star.setAttribute("href", "#sparkle");
+        star.setAttribute("fill", "#fff");
+        star.setAttribute("x", this.x + "");
+        star.setAttribute("y", this.y + "");
+        star.setAttribute("class", "lucyParticle");
+        this.element = star;
+        container.appendChild(star);
+      }
+
+      process(time, delta) {
+        this.lifetime -= delta;
+        if (this.lifetime <= 0) {
+          this.destructor();
+        }
+
+        this.x += this.velocity.x * delta;
+        this.y += (this.velocity.y + (Math.sin(time / 100) * 40 + 10)) * delta;
+        this.element.setAttribute("x", this.x + "");
+        this.element.setAttribute("y", this.y + "");
+      }
+
+      destructor() {
+        this.element.remove();
+      }
+    }
+
+    const animate = (time) => {
+      console.log(time)
+      const elapsed = time - previous;
+      previous = time;
+      timeElapsed += elapsed;
+      const delta = elapsed / 1000;
+
+      if (timeElapsed > lastSpawnTime + 1000 / particleSpawnRate) {
+        const particle = new Particle();
+        particles.push(particle);
+        lastSpawnTime = timeElapsed;
+      }
+
+      particles.forEach((p) => {
+        p.process(time, delta);
+      });
+
+      animationFrame = requestAnimationFrame(animate);
+
+      if (
+        turbulence.current == null ||
+        image.current == null ||
+        container.current == null
+      ) {
+        return;
+      }
+
+      const x = Math.sin(time / 200 + 2) * 0.0001 + 0.0001;
+      const y = Math.sin(time / 50.0) * 0.0001 + 0.0001;
+      turbulence.current.setAttribute(
+        "baseFrequency",
+        `${x.toFixed(5)} ${y.toFixed(5)}`
+      );
+    };
+
+    animationFrame = requestAnimationFrame(animate);
+
+    return () => {
+      cancelAnimationFrame(animationFrame);
+    };
+  }
+  playParticlesAnimation();
+</script>
