@@ -282,7 +282,6 @@
   const endDate = new Date("2023-12-10T00:00:00Z");
   function updateDate() {
     const daysLeft = calculateTimeLeft(endDate);
-    console.log(daysLeft);
     document.getElementById("days-count").innerHTML = daysLeft;
     document.getElementById("days-word").innerHTML =
       daysLeft === 1 ? "day" : "days";
