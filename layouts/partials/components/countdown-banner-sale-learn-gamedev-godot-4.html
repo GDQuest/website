@@ -1,0 +1,298 @@
+<style>
+  #sales-banner {
+    font-family: "Montserrat", sans-serif;
+
+    background-color: rgb(250 204 21);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+    font-weight: 800;
+    margin: auto;
+    position: relative;
+  }
+
+  @media (min-width: 768px) {
+    #sales-banner {
+      padding-right: 5rem;
+      padding-left: 5rem;
+    }
+  }
+
+  .sales-banner-container {
+    display: flex;
+    position: relative;
+    margin: auto;
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (min-width: 800px) {
+    .sales-banner-container {
+      max-width: 64rem;
+      gap: 0.5rem;
+    }
+  }
+  @media (min-width: 1140px) {
+    .sales-banner-container {
+      gap: 1.25rem;
+    }
+  }
+
+  .sales-banner-wrap-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 800px) {
+    .sales-banner-wrap-container {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  @media (min-width: 1140px) {
+    .sales-banner-wrap-container {
+      align-items: unset;
+    }
+  }
+
+  @media (min-width: 1140px) {
+    .sales-banner-wrap-container {
+      justify-items: center;
+      justify-content: center;
+    }
+  }
+  .sales-banner-text-header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: #920440;
+    font-size: 1rem;
+  }
+  @media (min-width: 800px) {
+    .sales-banner-text-header {
+      font-size: 1.1rem;
+    }
+  }
+  @media (min-width: 1140px) {
+    .sales-banner-text-header {
+      font-size: 1.25rem;
+    }
+  }
+  .sales-banner-text-pre-order {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(103 37 214);
+    text-transform: uppercase;
+  }
+  @media (min-width: 800px) {
+    .sales-banner-text-pre-order {
+      font-size: 1.34rem;
+    }
+  }
+  .sales-banner-text-godot-4 {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgb(103 37 214);
+    text-transform: uppercase;
+  }
+  @media (min-width: 800px) {
+    .sales-banner-text-godot-4 {
+      font-size: 1.875rem;
+    }
+  }
+  .sales-banner-text-save-up-to {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+    color: #ffffff;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+    text-shadow: #ff417d 3px 0px 0px, #ff417d 2.83487px 0.981584px 0px,
+      #ff417d 2.35766px 1.85511px 0px, #ff417d 1.62091px 2.52441px 0px,
+      #ff417d 0.705713px 2.91581px 0px, #ff417d -0.287171px 2.98622px 0px,
+      #ff417d -1.24844px 2.72789px 0px, #ff417d -2.07227px 2.16926px 0px,
+      #ff417d -2.66798px 1.37182px 0px, #ff417d -2.96998px 0.42336px 0px,
+      #ff417d -2.94502px -0.571704px 0px, #ff417d -2.59586px -1.50383px 0px,
+      #ff417d -1.96093px -2.27041px 0px, #ff417d -1.11013px -2.78704px 0px,
+      #ff417d -0.137119px -2.99686px 0px, #ff417d 0.850987px -2.87677px 0px,
+      #ff417d 1.74541px -2.43999px 0px, #ff417d 2.44769px -1.73459px 0px,
+      #ff417d 2.88051px -0.838247px 0px;
+  }
+  @media (min-width: 1140px) {
+    .sales-banner-text-save-up-to {
+      font-size: 1.875rem;
+    }
+  }
+
+  .sales-banner-lucy-parent-container {
+    position: relative;
+    margin: auto;
+    width: fit-content;
+  }
+  @media (min-width: 800px) {
+    .sales-banner-lucy-parent-container {
+      margin: 0;
+    }
+  }
+  .sales-banner-lucy-container {
+    bottom: 0;
+    right: 20px;
+    margin-top: -0.5rem;
+    height: fit-content;
+  }
+
+  @media (min-width: 1140px) {
+    .sales-banner-lucy-container {
+      position: absolute;
+      right: 0;
+      margin-top: 0;
+      height: 10rem;
+    }
+  }
+
+  .sales-banner-center-text-column {
+    display: flex;
+    padding-bottom: 0;
+    margin-top: -1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @media (min-width: 800px) {
+    .sales-banner-center-text-column {
+      margin-top: 0;
+      padding-bottom: 1rem;
+      text-align: left;
+    }
+  }
+  @media (min-width: 1140px) {
+    .sales-banner-center-text-column {
+      margin-top: 0;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .days-counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  @media (min-width: 1140px) {
+    .days-counter-container {
+      position: absolute;
+      padding-bottom: 0;
+      bottom: 1rem;
+      right: 0;
+    }
+  }
+  .days-counter-top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 0.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #6725d6;
+  }
+  @media (min-width: 800px) {
+    .days-counter-top-row {
+      font-size: 1.5rem;
+    }
+  }
+  #days-count {
+    color: #d3078e;
+  }
+
+  .days-counter-button {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    background: #6725d6;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .days-counter-button:hover {
+    color: #ffd500;
+  }
+
+  @media (min-width: 800px) {
+    .days-counter-button {
+      font-size: 1.15rem;
+      padding: 1rem;
+    }
+  }
+</style>
+
+<!-- Sales coupon banner -->
+<div id="sales-banner" class="sales-banner">
+  <div class="sales-banner-container">
+    <div class="sales-banner-text-header">
+      Godot 4 courses Launching in Early Access starting Jan 30
+    </div>
+    <div class="sales-banner-wrap-container">
+      <div class="sales-banner-lucy-parent-container">
+        <div class="sales-banner-lucy-container">
+          {{ partial "components/countdown-banner-lucy" }}
+        </div>
+      </div>
+
+      <div class="sales-banner-center-text-column">
+        <div class="sales-banner-text-pre-order">you can now pre-order</div>
+        <div class="sales-banner-text-godot-4">godot 4 courses</div>
+        <div class="sales-banner-text-save-up-to">Save up to 50%</div>
+      </div>
+
+      <div class="days-counter-container">
+        <div class="days-counter-top-row">
+          <span id="days-count">0</span>
+          <span id="days-word">days</span> left!
+        </div>
+        <a
+          href="https://school.gdquest.com/godot-4-early-access"
+          class="days-counter-button"
+        >
+          Check out new courses!
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script defer type="text/javascript">
+  function calculateTimeLeft(endDate) {
+    const now = new Date();
+    const timeDeltaMs = endDate.getTime() - now.getTime();
+    const remainingDays = Math.max(
+      0,
+      Math.ceil(timeDeltaMs / (1000 * 60 * 60 * 24))
+    );
+    return remainingDays;
+  }
+
+  const endDate = new Date("2023-12-10T00:00:00Z");
+  function updateDate() {
+    const daysLeft = calculateTimeLeft(endDate);
+    console.log(daysLeft);
+    document.getElementById("days-count").innerHTML = daysLeft;
+    document.getElementById("days-word").innerHTML =
+      daysLeft === 1 ? "day" : "days";
+    return daysLeft;
+  }
+  const timer = setInterval(() => {
+    const daysLeft = updateDate();
+    if (daysLeft <= 0) {
+      clearInterval(timer);
+    }
+  }, 1000 * 60 * 60);
+  updateDate();
+</script>
