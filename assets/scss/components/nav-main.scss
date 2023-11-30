@@ -39,9 +39,12 @@
       display: flex;
       flex-direction: column;
       gap: 0.2rem;
+      position: relative;
     }
 
     .new .new-text {
+      position: absolute;
+      transform: translateY(-1rem);
       color: $color-accent-opt-base;
       font-size: 0.9rem;
     }
