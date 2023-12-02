@@ -9,7 +9,7 @@ resources:
 - name: banner
   params:
     alt: A diverse group of characters playing and developing games
-  src: gdschool-social-banner.webp
+  src: banner.webp
 weight: 5
 featured: true
 ---
