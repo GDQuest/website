@@ -9,7 +9,7 @@ resources:
 - name: banner
   params:
     alt: A diverse group of characters playing and developing games
-  src: banner.webp
+  src: thumbnail-bundle-great-starter-kit.webp
 weight: 5
 featured: true
 ---
