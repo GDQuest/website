@@ -186,8 +186,7 @@
   @media (min-width: 1140px) {
     .days-counter-container {
       position: absolute;
-      padding-bottom: 0;
-      bottom: 1rem;
+      bottom: 0;
       right: 0;
     }
   }
@@ -249,14 +248,10 @@
       <div class="sales-banner-center-text-column">
         <div class="sales-banner-text-pre-order">you can now pre-order</div>
         <div class="sales-banner-text-godot-4">godot 4 courses</div>
-        <div class="sales-banner-text-save-up-to">Save up to 50%</div>
+        <div class="sales-banner-text-save-up-to">Save up to 30%</div>
       </div>
 
       <div class="days-counter-container">
-        <div class="days-counter-top-row">
-          <span id="days-count">0</span>
-          <span id="days-word">days</span> left!
-        </div>
         <a
           href="https://school.gdquest.com/godot-4-early-access"
           class="days-counter-button"
@@ -293,5 +288,5 @@
       clearInterval(timer);
     }
   }, 1000 * 60 * 60);
-  updateDate();
+  // updateDate();
 </script>
