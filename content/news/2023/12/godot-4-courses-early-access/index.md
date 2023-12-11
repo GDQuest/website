@@ -33,7 +33,7 @@ In that case, we would recommend getting the [3D course](https://school.gdquest
 
 ## For a limited time, you can save up to 50% by pre-ordering Godot 4 courses
 
-At the moment, you can add the extra Godot 4.2 coupon **EARLYBIRD** to the existing presale to save even more.
+Until December 10, 2023, you can add the extra Godot 4.2 coupon **EARLYBIRD** to the existing presale to save even more.
 
 If you know anyone who's learning, this might be a good opportunity to share with them.
 
