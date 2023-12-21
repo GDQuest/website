@@ -15,7 +15,10 @@ type: news
 
 With Godot 4, to help you get your foot in the door, we developed an <abbr title="Educational Technology">EdTech</abbr> called **Godot Tours** that allows you to learn interactively, step-by-step, directly inside the Godot Editor. 
 
+![Screenshot of one of the first steps of the tour, showing the running game and a bubble inviting you to run the game.](tour-101-screenshot-02.webp)
+
 In this first completely Free Tour, we take you on a quick guided walk through the user interface and help you find your way around the editor and break the ice with Godot.
+
 
 Download the tour project files:
 
@@ -25,6 +28,8 @@ text="Download Godot Tours 101"
 class="-large -tall" >}}
 
 <hr style="margin-top: 3rem; margin-bottom: 3rem;" />
+
+
 
 ### How to use
 
