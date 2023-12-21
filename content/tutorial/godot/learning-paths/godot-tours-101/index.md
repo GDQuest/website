@@ -24,14 +24,16 @@ url="//github.com/gdquest-demos/godot-tours-101-the-godot-editor/releases/downlo
 text="Download Godot Tours 101"
 class="-large -tall" >}}
 
-## How to use
+<hr style="margin-top: 3rem; margin-bottom: 3rem;" />
+
+### How to use
 
 1. Click the download button above to download a Godot project containing the tour.
 2. Import the project in Godot. You will need Godot **4.2** for this to work.
 3. A menu will appear in Godot and let you select and start the tour.
 
 
-## How to import Godot project files in the Godot editor
+### How to import Godot project files in the Godot editor
 
 The download button above downloads a ZIP file. To import it in Godot, you need to:
 
