@@ -10,7 +10,8 @@ resources:
   src: godot-tours-banner.webp
 title: 'Godot Tours: 101 - The Godot Editor'
 weight: 1
-type: news
+type: video
+videoId: L2D1kT8zOrw
 ---
 
 With Godot 4, to help you get your foot in the door, we developed an <abbr title="Educational Technology">EdTech</abbr> called **Godot Tours** that allows you to learn interactively, step-by-step, directly inside the Godot Editor. 
