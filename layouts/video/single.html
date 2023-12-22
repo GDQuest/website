@@ -20,10 +20,11 @@
     {{ partial "components/nav-tutorial" . }}
 
     <article class="blog-post padding-v-base big">
-        {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
-
+        
         {{ with .Params.videoid }}
         {{ partial "components/video-youtube" . }}
+        {{ else }}
+        {{ partial "components/banner-image" (dict "context" . "is_summary" false) }}
         {{ end }}
 
         <div class="margin-bottom-big margin-top-base">
