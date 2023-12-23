@@ -38,6 +38,14 @@
         &.-span4 {
           grid-column: span 4;
         }
+
+        &.-span6 {
+          grid-column: span 6;
+        }
+
+        &.-justify-start {
+          justify-self: start;
+        }
       }
     }
   }
