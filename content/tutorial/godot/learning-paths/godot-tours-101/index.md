@@ -35,7 +35,7 @@ class="-large -tall" >}}
 ### How to use
 
 1. Click the download button above to download a Godot project containing the tour.
-2. Import the project in Godot. You will need Godot **4.2** for this to work.
+2. Import the project in Godot. You will need Godot **4.2 standard** (*not* the .NET edition) for this to work.
 3. A menu will appear in Godot and let you select and start the tour.
 
 
