@@ -107,6 +107,10 @@ It's motivating to start that way.
 
 But we also included a few Godot 4 resources that go through some theory to help you better understand how game engines and programming work.
 
+[Godot Tours 101 - The Godot Editor](/tutorial/godot/learning-paths/godot-tours-101/) is a free interactive tour of the Godot editor. It's the first interactive tutorial that runs directly in the Godot editor.
+
+[![Banner image showing the Godot bot over text saying Free Godot Tour](img/tour-101-screenshot.webp)](/tutorial/godot/learning-paths/godot-tours-101/)
+
 [Learn GDScript From Zero](/tutorial/godot/learning-paths/learn-gdscript-from-zero/) is a completely free and open-source 10-hour interactive course that'll teach you coding foundations, with exercises you can do right in your browser. It's up-to-date for Godot 4 and it’s the best starting point for your gamedev learning pathway.
 
 [![Learn GDScript From Zero banner, with a group of characters learning programming together.](img/learn-gdscript-banner.png)](/tutorial/godot/learning-paths/learn-gdscript-from-zero/)
