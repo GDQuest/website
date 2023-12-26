@@ -30,7 +30,7 @@ We made, collected, and reviewed dozens of **free resources** to help you learn 
 
 This learning path will take you from zero to completing your first games.
 
-[Screenshot of the Godot editor, showing the 3d view](img/godot-engine.png)
+![Screenshot of the Godot editor, showing the 3d view](img/godot-engine.png)
 
 In this guide, you'll get free resources to learn:
 
@@ -105,23 +105,20 @@ Here, we've decided to focus on a hands-on approach, which is what we recommend 
 
 It's motivating to start that way.
 
-But we also included a few resources that go through some theory to help you better understand how game engines and programming work.
+But we also included a few Godot 4 resources that go through some theory to help you better understand how game engines and programming work.
 
-[Getting Started with Godot in 2021](/tutorial/godot/learning-paths/getting-started-in-2021/) is a free course that covers everything you need to get started with Godot. By the end, you'll create complete 2D and 3D games from start to finish.
+[Learn GDScript From Zero](/tutorial/godot/learning-paths/learn-gdscript-from-zero/) is a completely free and open-source 10-hour interactive course that'll teach you coding foundations, with exercises you can do right in your browser. It's up-to-date for Godot 4 and it’s the best starting point for your gamedev learning pathway.
 
-![3D game banner](img/3d-game-banner.png)
+[![Learn GDScript From Zero banner, with a group of characters learning programming together.](img/learn-gdscript-banner.png)](/tutorial/godot/learning-paths/learn-gdscript-from-zero/)
 
-[Intro to GDScript for Programming Beginners](//youtu.be/UcdwP1Q2UlU). Learn Godot's simple programming language for games, **GDScript**. GDScript is designed specifically for games and for Godot, so it is faster to pick up than most programming languages out there.
+[Create your first complete 2D game in Godot 4](/tutorial/godot/2d/first-2d-game-godot-4/) is a free 2-hour course where you'll create your first complete game from zero, with Godot 4.
 
-[Mobile Game: Circle Jump](//kidscancode.org/godot_recipes/games/circle_jump/) by KidsCanCode is an end-to-end game development series going through the process of building a **one-touch attractive mobile game**.
+[![Thumbnail of the first 2D game from zero free course, with a cute orange character holding two blue guns, a bat, and slimes on either side of the character, and the Godot robot looking up at them.](img/2d-game-from-zero-thumbnail.webp)](/tutorial/godot/2d/first-2d-game-godot-4/)
 
-[3D Roll the Ball](//www.youtube.com/playlist?list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ) by BornCG is a playlist that includes a tutorial series to create a small 3D game from scratch.
-
-[Make a Match 3 game like Candy Crush using Godot](//www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2) by Mister Taft Creates is a step-by-step series that goes through the creation of a complete **match-3 game**, like Candy Crush. It is the longest series in this section, requiring some dedication.
 
 Here's a series of useful guides to use along with the videos above: [the GDScript guide](//docs.godotengine.org/en/latest/getting_started/scripting/gdscript/index.html) explains GDScript core concepts.
 
-Every Godot game developer will, without a doubt, have to search a thing or two about GDScript, and this is the number one place to find the answerers.
+Every Godot game developer will, without a doubt, have to search a thing or two about GDScript, and this is the number one place to find the answers.
 
 ### Become a more independent developer
 

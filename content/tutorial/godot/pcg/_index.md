@@ -6,5 +6,5 @@ icon: pcg
 resources:
 - name: banner
   src: banner.jpg
-title: Procedural Content Generation
+title: Procedural Generation
 ---

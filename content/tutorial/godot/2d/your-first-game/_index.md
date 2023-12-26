@@ -12,17 +12,21 @@ keywords:
 - beginner
 - godot course
 - getting started
-menuTitle: Your First 2D Game
+menuTitle: Your First 2D Game (Godot 3)
 programVersion: "3.1"
 resources:
 - name: banner
   src: your-first-2d-game-banner.png
 title: Make your First 2D Game with Godot
 type: course
-weight: 1
+weight: 10
 ---
 
-This completely free course will help you learn to create games with the Godot game engine from zero.
+**New free Godot 4 course!** [Create your first complete 2D game in Godot 4](/tutorial/godot/2d/first-2d-game-godot-4/)
+
+----
+
+This completely free course will help you learn to create games with Godot 3, from zero.
 
 ## What you will learn
 
