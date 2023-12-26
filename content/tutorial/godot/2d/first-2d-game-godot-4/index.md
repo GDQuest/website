@@ -17,7 +17,7 @@ title: Create Your First 2D Game From Zero with Godot 4
 weight: 1
 type: video
 videoDuration: ""
-videoId: ""
+videoId: "GwCiGixlqiU"
 ---
 
 ## Download the files to follow along
