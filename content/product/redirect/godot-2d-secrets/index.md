@@ -9,7 +9,7 @@ keywords:
 - godot game creation
 - make games with godot
 - godot 2d tutorial
-price: 79.95$
+price: $79.95
 redirect: https://gdquest.mavenseed.com/courses/godot-2d-secrets
 title: Godot 2D Secrets
 type: redirect

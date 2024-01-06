@@ -11,7 +11,7 @@ keywords:
 - godot 2d course
 - godot 3d course
 - godot 4 course
-price: 259.95$
+price: $259.95
 redirect: https://school.gdquest.com/products/bundle_godot_4_starter_kit
 type: redirect
 ---

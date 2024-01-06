@@ -9,7 +9,7 @@ keywords:
 - godot beginner course
 - godot 2d course
 - godot 4 course
-price: 99.95$
+price: $99.95
 redirect: https://school.gdquest.com/products/learn_2d_gamedev_godot_4
 type: redirect
 ---

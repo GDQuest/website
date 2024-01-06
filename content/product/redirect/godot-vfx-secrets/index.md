@@ -12,7 +12,7 @@ keywords:
 - visual effects
 - beginner
 - godot course
-price: 39.95$
+price: $39.95
 redirect: //gdquest.mavenseed.com/courses/godot-vfx-secrets
 title: Godot VFX Secrets
 type: redirect
