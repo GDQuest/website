@@ -7,7 +7,7 @@ keywords:
 - 3D
 - intermediate
 price: $29.95
-redirect: //gdquest.mavenseed.com/courses/code-a-professional-3d-character-with-godot
+redirect: https://school.gdquest.com/products/code_a_professional_3d_character_with_godot_3
 resources:
 - name: banner
   src: banner.png

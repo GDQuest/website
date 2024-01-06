@@ -9,7 +9,7 @@ keywords:
 - platformer
 - godot course
 price: $19.95
-redirect: //gdquest.mavenseed.com/courses/code-a-professional-platform-game-character-with-godot
+redirect: https://school.gdquest.com/products/code_a_2d_platform_game_character_part_1_godot_3
 resources:
 - name: banner
   src: banner.png

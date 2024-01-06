@@ -12,7 +12,7 @@ keywords:
 - godot ui course
 price: $79.95
 publishDate: "2021-07-16T00:00:00-06:00"
-redirect: https://gdquest.mavenseed.com/courses/godot-node-essentials
+redirect: https://school.gdquest.com/products/node_essentials_godot_3
 title: Godot Node Essentials
 type: redirect
 ---

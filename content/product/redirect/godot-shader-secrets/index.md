@@ -11,7 +11,7 @@ keywords:
 - shader
 - godot course
 price: $39.95
-redirect: //gdquest.mavenseed.com/courses/godot-shader-secrets
+redirect: https://school.gdquest.com/products/shaders_secrets_godot_3
 title: Godot Shader Secrets
 type: redirect
 ---

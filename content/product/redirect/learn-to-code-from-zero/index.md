@@ -10,7 +10,7 @@ keywords:
 - godot 2d course
 - godot tutorial
 price: $79.95
-redirect: https://gdquest.mavenseed.com/courses/learn-to-code-from-zero-with-godot
+redirect: https://school.gdquest.com/products/learn_to_code_with_godot_3
 title: Learn to Code From Zero, With Godot
 type: redirect
 ---

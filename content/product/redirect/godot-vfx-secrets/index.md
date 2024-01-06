@@ -13,7 +13,7 @@ keywords:
 - beginner
 - godot course
 price: $39.95
-redirect: //gdquest.mavenseed.com/courses/godot-vfx-secrets
+redirect: https://school.gdquest.com/products/vfx_secrets_godot_3
 title: Godot VFX Secrets
 type: redirect
 ---
