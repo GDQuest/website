@@ -29,5 +29,5 @@ Note that Godot Node Essentials is part of our Ultimate Godot course bundle.
 
 Links:
 
-- **Learn everything about Node Essentials** and get it here: [Godot node essentials](https://gdquest.mavenseed.com/courses/godot-node-essentials)
+- **Learn everything about Node Essentials** and get it here: [Godot node essentials](https://school.gdquest.com/products/node_essentials_godot_3)
 - [Get three complete node essentials guides](/node-essentials-guides) for free

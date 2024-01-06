@@ -27,7 +27,7 @@ We released a mix of assets for game developers, demos to study good programming
 
 _Stylized fire shader by QBieShay, based on a Unity guide by [MinionsArt](https://twitter.com/minionsart)._
 
-We also released [6 Godot courses](https://gdquest.mavenseed.com/courses/) to keep our revenue flowing and compensate for sales going down.
+We also released [6 Godot courses](https://school.gdquest.com/) to keep our revenue flowing and compensate for sales going down.
 
 As a result, we released fewer videos than I would have liked. That's something we'll change in 2021.
 

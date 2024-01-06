@@ -1,5 +1,5 @@
 ---
 type: redirect
-redirect: https://gdquest.mavenseed.com/courses
+redirect: https://school.gdquest.com/
 url: courses
 ---

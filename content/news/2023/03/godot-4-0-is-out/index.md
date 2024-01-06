@@ -50,4 +50,4 @@ You'll find examples of the new 3D rendering, AI navigation links for agents to 
 
 If you want to support more work like this, consider buying one of our courses! All our Godot courses are 50% off until March 8, 2023, with the coupon code **GODOT4**.
 
-{{< calltoaction "https://gdquest.mavenseed.com/courses/" "SHOP OUR GODOT COURSES" >}}
+{{< calltoaction "https://school.gdquest.com/" "SHOP OUR GODOT COURSES" >}}

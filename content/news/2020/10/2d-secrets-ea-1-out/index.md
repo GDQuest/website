@@ -9,11 +9,11 @@ title: Godot 2D Secrets in early access
 weight: 5
 ---
 
-The first early access release of [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets) is out.
+The first early access release of [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3) is out.
 
 It comes with the Japanese RPG combat core series and its 21 tutorials. 
 
-{{< calltoaction "https://gdquest.mavenseed.com/courses/godot-2d-secrets" "Learn more" >}}
+{{< calltoaction "https://school.gdquest.com/products/godot_2d_secrets_godot_3" "Learn more" >}}
 
 The second part of the JRPG series, dedicated to the user interface, will come out in the next update. 
 

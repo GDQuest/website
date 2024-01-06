@@ -123,4 +123,4 @@ If you want to learn more, we made a short video to show you what you can achiev
 
 To get you started, we wrote a complete [beginner learning path](/tutorial/godot/learning-paths/beginner/). It only contains free resources.
 
-We also sell [in-depth courses](https://gdquest.mavenseed.com) to help you get beyond the initial steps.
+We also sell [in-depth courses](https://school.gdquest.com/) to help you get beyond the initial steps.

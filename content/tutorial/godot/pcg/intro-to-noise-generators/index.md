@@ -15,7 +15,7 @@ weight: 5
 
 In this lesson, we will talk about noise in procedural generation and the ways we can use it to generate object positions in Godot.
 
-**This guide was open-sourced from and made possible by our course [Godot PCG Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets).**
+**This guide was open-sourced from and made possible by our course [Godot PCG Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3).**
 
 In computer programming, the word "noise" designates series of random numbers.
 
@@ -94,4 +94,4 @@ When generating random positions, we can use a simple strategy to keep scripts r
 
 You can find open-source code examples that show just that in our [Godot Procedural Generation](https://github.com/GDQuest/godot-procedural-generation) project, in the `SpaceInfiniteGeneration/` directory. There, you'll find two scenes illustrating and algorithms to generate white and blue noise: `WhiteNoiseGenerator` and `BlueNoiseGenerator`.
 
-**This guide is an excerpt from our course dedicated to procedural content generation, [Godot PCG Secrets](https://gdquest.mavenseed.com/courses/godot-pcg-secrets). If you'd like an in-depth course on the topic, covering many algorithms and projects, check it out!**
+**This guide is an excerpt from our course dedicated to procedural content generation, [Godot PCG Secrets](https://school.gdquest.com/products/pcg_secrets_godot_3). If you'd like an in-depth course on the topic, covering many algorithms and projects, check it out!**

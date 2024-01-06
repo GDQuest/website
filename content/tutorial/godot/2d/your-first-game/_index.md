@@ -62,7 +62,7 @@ We have a **premium edition** of this course with **extra lessons**, assignments
 
 It only costs **15$** and comes with questions and answers. The videos are cut into bite-sized lessons to help you learn at your pace, DRM-free downloadable content, and a 60-day refund warranty.
 
-{{< calltoaction url="https://gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition" text="Get the extra tutorials" class="-yellow" >}}
+{{< calltoaction url="https://school.gdquest.com/products/your_first_2d_game_with_godot_3" text="Get the extra tutorials" class="-yellow" >}}
 
 _The extended edition supports our work creating Free Godot courses and open-source demos._
 

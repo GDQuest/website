@@ -10,7 +10,7 @@ url: kickstarter-paypal
 
 The Learn to Code from Zero course will be available in pre-order in the coming days.
 
-Below, you will find some of the original information. If you are a PayPal backer and have any issues, you can contact me via our [contact form](https://gdquest.mavenseed.com/p/contact).
+Below, you will find some of the original information. If you are a PayPal backer and have any issues, you can contact me via our [contact form](https://school.gdquest.com/about-us/contact).
 
 <hr>
 

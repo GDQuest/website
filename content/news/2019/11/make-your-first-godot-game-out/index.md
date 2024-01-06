@@ -27,8 +27,7 @@ It will teach you how to create a 2D platformer with the Free game engine Godot.
 The final course has about **60 lessons** and **6 hours of video content** in the extended edition. It comes in two versions:
 
 1. The **free edition** on our YouTube channel. You can already [watch the first part](//youtu.be/Mc13Z2gboEk).
-1. An [extended edition](//gdquest.mavenseed.com/courses/create-your-first-2d-game-with-godot-extended-edition
-) is available for 9.95 USD. It gives you access to bonus tutorials, content, and directly supports our work.
+1. An [extended edition](https://school.gdquest.com/products/your_first_2d_game_with_godot_3) is available at a low price. It gives you access to bonus tutorials, content, and directly supports our work.
 
 {{< youtube Mc13Z2gboEk >}}
 
@@ -37,7 +36,7 @@ Also, this [Godot platform game](//github.com/GDQuest/Your-First-Game-Godot-2d-P
 
 ## Available now for backers
 
-If you backed our 2019 Kickstarter you should already have access to the course: all you have to do is [log into Mavenseed](//gdquest.mavenseed.com/customers/sign_in) with your account.
+If you backed our 2019 Kickstarter you should already have access to the course: all you have to do is [log into our school website](https://school.gdquest.com/auth/otp) with your account.
 
 For now, I am only releasing the course on Mavenseed because there features that are not available on Gumroad: 
 

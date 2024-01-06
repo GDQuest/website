@@ -102,7 +102,7 @@ That's where the story is at, thanks to the community.
 
 But we're just getting started. And we'd like to write the next page with you.
 
-GDQuest is a growing library of [free Godot tutorials](/tutorial), [Godot courses](https://gdquest.mavenseed.com/courses/), and [open-source projects](https://github.com/GDQuest/) to help you become the game developer you want to be.
+GDQuest is a growing library of [free Godot tutorials](/tutorial), [Godot courses](https://school.gdquest.com/), and [open-source projects](https://github.com/GDQuest/) to help you become the game developer you want to be.
 
 Join our community today, enjoy our free learning resources, and level up your game creation skills!
 

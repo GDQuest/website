@@ -133,6 +133,6 @@ The [previous part](/tutorial/godot/learning-paths/beginner/) in this series [Le
 
 ## Support GDQuest
 
-If you want to go further with game creation and support our work, check out our [game creation courses](//gdquest.mavenseed.com/).
+If you want to go further with game creation and support our work, check out our [game creation courses](https://school.gdquest.com/).
 
 To keep up to date with news from us, [follow GDQuest on Twitter](//twitter.com/NathanGDQuest).

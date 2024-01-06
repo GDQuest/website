@@ -45,11 +45,11 @@ DevDuck showed in a video how he used our random walker demo as a starting point
 
 {{< youtube "_4qM19qvWSA" >}}
 
-We created three companion courses, [Shader Secrets](https://gdquest.mavenseed.com/courses/godot-shader-secrets), [VFX secrets](https://gdquest.mavenseed.com/courses/godot-vfx-secrets), and [PCG secrets](https://gdquest.mavenseed.com/courses/godot-pcg-secrets), to fund all that free code. We sold enough copies to keep those projects going, so you can expect more in 2021!
+We created three companion courses, [Shader Secrets](https://school.gdquest.com/products/shaders_secrets_godot_3), [VFX secrets](https://school.gdquest.com/products/vfx_secrets_godot_3), and [PCG secrets](https://school.gdquest.com/products/pcg_secrets_godot_3), to fund all that free code. We sold enough copies to keep those projects going, so you can expect more in 2021!
 
 ## Game demos
 
-Since last year, we have produced many game demos, from small to relatively large. They are for educational purposes, and most of them are funded by our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets) and the 650+ Kickstarter backers who made it possible.
+Since last year, we have produced many game demos, from small to relatively large. They are for educational purposes, and most of them are funded by our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3) and the 650+ Kickstarter backers who made it possible.
 
 I'll run you through the projects quickly as there are many.
 

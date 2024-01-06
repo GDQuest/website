@@ -33,7 +33,7 @@ _The code examples you'll see in this guide are simple to keep it short and clea
 
 _But please note the pattern is mostly worth it when you start to have more complex code. For a concrete example, see our [Open 3D Mannequin](https://github.com/GDQuest/godot-3d-mannequin)._
 
-**This guide was open-sourced from and made possible by our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets). If you'd like to level up your game development skills, check it out!**
+**This guide was open-sourced from and made possible by our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3). If you'd like to level up your game development skills, check it out!**
 
 ## The problem
 
@@ -568,4 +568,4 @@ Compared to our initial example, grouping all the logic in one place, you can se
 
 That's why we saw a simpler solution first. I invite you only to use a state machine when you need it, which you'll learn to judge through practice.
 
-**If you liked this guide, you'll certainly like our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets), in which you'll find many more in-depth Godot tutorials to take your skills to the next level.**
+**If you liked this guide, you'll certainly like our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3), in which you'll find many more in-depth Godot tutorials to take your skills to the next level.**

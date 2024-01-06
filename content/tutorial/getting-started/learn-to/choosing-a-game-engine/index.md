@@ -99,4 +99,4 @@ If you'd like to learn about it, we have a 5-minute video to get you started:
 
 {{< youtube "KjX5llYZ5eQ" >}}
 
-We create many [free educational resources](/tutorial/godot/), as well as more advanced [premium Godot courses](https://gdquest.mavenseed.com) to help you go beyond the basics.
+We create many [free educational resources](/tutorial/godot/), as well as more advanced [premium Godot courses](https://school.gdquest.com) to help you go beyond the basics.

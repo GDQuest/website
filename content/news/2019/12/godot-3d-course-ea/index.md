@@ -24,7 +24,7 @@ We made a course to create a third-person game character in Godot. It is based o
 
 The first part is out in **early access** with 20 lessons and 2 hours of content. 
 
-[Get the course now](//gdquest.mavenseed.com/courses/code-a-professional-3d-character-with-godot) at a lower price: it will **increase by $10** with the next update.
+[Get the course now](https://school.gdquest.com/products/code_a_professional_3d_character_with_godot_3) at a lower price: it will **increase by $10** with the next update.
 
 The next update will be free for everyone who bought the course. This new chapter will be dedicated to the camera rig, with features to make it smoothly slide against the floor. You will also learn to add an aim mode that the player can toggle in and out of, and more.
 
@@ -42,6 +42,6 @@ This series is for intermediate-level users. You need to have some experience wi
 
 You can find more information on the course's page:
 
-{{< calltoaction url="//gdquest.mavenseed.com/courses/code-a-professional-3d-character-with-godot" text="Get the course now" >}}
+{{< calltoaction url="https://school.gdquest.com/products/code_a_professional_3d_character_with_godot_3" text="Get the course now" >}}
 
 See you soon for the next update.

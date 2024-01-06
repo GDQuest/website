@@ -145,7 +145,7 @@ And with that, you should be able to select and move units. Also, you can place 
 
 This concludes our free tactical RPG movement series with Godot.
 
-**If you'd like to go further, check out our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets), from which it was open-sourced.**
+**If you'd like to go further, check out our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3), from which it was open-sourced.**
 
 It comes with longer tutorial series than this one, challenges to improve your game development skills, questions and answers, and lifetime free updates.
 

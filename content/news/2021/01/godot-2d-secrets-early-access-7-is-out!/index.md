@@ -15,7 +15,7 @@ title: Godot 2d Secrets 0.7.0 Is Out!
 weight: 5
 ---
 
-The 10th early-access update of [Godot 2D secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets) is out now!
+The 10th early-access update of [Godot 2D secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3) is out now!
 
 It adds a chapter that covers a **Factorio-like inventory system in-depth**.
 
@@ -72,4 +72,4 @@ We have a solid workflow right now, so you can rest assured that it won't affect
 
 With that, I'll see you in the next update.
 
-You can already enjoy the new release of [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets).
+You can already enjoy the new release of [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3).

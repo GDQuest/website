@@ -34,7 +34,7 @@ Also, we made a [free shaders video series](https://www.youtube.com/playlist?lis
 
 This course is currently in **Early Access**. You can get it now for a lower price as we create new tutorials. The price will increase with the next update. Once you got the course, you will get **lifetime free updates**.
 
-{{< calltoaction "https://gdquest.mavenseed.com/courses/godot-shader-secrets" "Get the course now" >}}
+{{< calltoaction "https://school.gdquest.com/products/shaders_secrets_godot_3" "Get the course now" >}}
 
 ![2D outline shader screenshot](outline2d.png)
 

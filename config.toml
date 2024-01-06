@@ -52,7 +52,7 @@ license_copyright= "GDQuest and contributors"
 
 [params.shop_link]
 name        = "Shop"
-url         = "//gdquest.mavenseed.com/courses"
+url         = "https://school.gdquest.com/"
 
 [[params.social]]
 link = "//www.youtube.com/c/gdquest"

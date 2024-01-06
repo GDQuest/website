@@ -40,7 +40,7 @@ All that with pathfinding and movement preview.
 
 Some of the techniques you'll see here apply to about any grid-based game, whether you want to create a rogue-like, an RPG, or even a puzzle game!
 
-**This entire series is brought to you from our course [Godot 2D Secrets](https://gdquest.mavenseed.com/courses/godot-2d-secrets). It's complete and entirely free and open-source.**
+**This entire series is brought to you from our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3). It's complete and entirely free and open-source.**
 
 As usual on GDQuest, the code's free and open-source. You can find the complete demo here: [2D Tactical RPG Movement](https://github.com/GDQuest/godot-2d-tactical-rpg-movement) demo.
 

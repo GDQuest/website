@@ -26,7 +26,7 @@ You will also be able to use the techniques we're going to explore for many othe
 - Making particles appear and disappear smoothly with scale animation.
 - Designing a particle system that covers the entire screen.
 
-_This tutorial is a free sample from our course [VFX Secrets](https://gdquest.mavenseed.com/courses/vfx-secrets-design-2d-visual-effects-for-games-in-godot). You can find the source code for the starfield and more on our GitHub repository [Godot Visual Effects](https://github.com/GDQuest/godot-visual-effects)._
+_This tutorial is a free sample from our course [VFX Secrets](https://school.gdquest.com/products/vfx_secrets_godot_3). You can find the source code for the starfield and more on our GitHub repository [Godot Visual Effects](https://github.com/GDQuest/godot-visual-effects)._
 
 ## Pre-requisites
 

@@ -5,7 +5,7 @@ author = "nathan"
 
 description = "Short description"
 
-productUrl = "https://gdquest.mavenseed.com/"
+productUrl = "https://school.gdquest.com/"
 
 [[resources]]
   name = "banner"
