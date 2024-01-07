@@ -14,7 +14,7 @@ keywords:
 - procedural content generation
 - shaders
 price: $149.95
-redirect: https://gdquest.mavenseed.com/courses/godot-2d-vfx-shaders-and-pcg-secrets-bundle
+redirect: https://school.gdquest.com/products/secrets_bundle_godot_3
 title: Godot secrets bundle
 type: redirect
 ---

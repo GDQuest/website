@@ -16,4 +16,4 @@ There are now available in a bundle giving you access to all four of them at a d
 
 You can learn all the details on the product page.
 
-{{< calltoaction "//gdquest.mavenseed.com/courses/godot-2d-vfx-shaders-and-pcg-secrets-bundle" "Learn more" >}}
+{{< calltoaction "https://school.gdquest.com/products/secrets_bundle_godot_3" "Learn more" >}}
