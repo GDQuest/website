@@ -1,19 +1,20 @@
 ---
 aliases:
-- /open-source/guides/learn-godot/developer/
-- /tutorial/godot/learning-paths/developer/
-- /tutorial/redirect/guide/developer/
-- /docs/guides/learn-godot/developer/
+  - /open-source/guides/learn-godot/developer/
+  - /tutorial/godot/learning-paths/developer/
+  - /tutorial/redirect/guide/developer/
+  - /docs/guides/learn-godot/developer/
 author: razvan
 date: 2019-11-11 09:47:26+0200
-description: This free guide is a curated list of free resources that help with transitioning
+description:
+  This free guide is a curated list of free resources that help with transitioning
   to Godot - the Free and Open Source game engine.
 difficulty: intermediate
 menuTitle: Developer Edition
 resources:
-- name: banner
-  src: banner.png
-title: 'Make Games with Godot: Developer Edition'
+  - name: banner
+    src: banner.png
+title: "Make Games with Godot: Developer Edition"
 weight: 2
 ---
 
@@ -53,7 +54,7 @@ Using Shaders in Godot is where the engine truly shines. It offers a simplified 
 
 ![Godot Visual Shaders Editor](img/shaders.png)
 
-*Godot includes a visual shader programming tool*
+_Godot includes a visual shader programming tool_
 
 Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot. They start slow before ramping up in difficulty:
 
@@ -118,7 +119,7 @@ General game development resources:
 - [The Nature of Code](//natureofcode.com/). This free online book is about understanding how the mathematical principles behind our physical world can help us create compelling digital worlds. It's interactive and explors a wide variety of topics
 - [Game AI Pro](//www.gameaipro.com/). This free online book series gathers multiple recipes in AI and behavior topics. These are very advanced overviews that don't often provide complete code but instead explore high-level ideas. This leaves the developer to do the hard work of implementing them which may be a great exercise
 - [Procedural Content Generation in Games](http://pcgbook.com/) is a free online book that explores creating content using procedural generation algorithms. It doesn't go into code which leaves the reader to explore advanced ideas themselves
-- [GPU Gems](//developer.nvidia.com/gpugems/GPUGems/) is a free online book series by NVidia that goes through very advanced GPU topics. Some of these ideas are low-level to the point that they could very well be implemented at the game engine development stage
+- [GPU Gems](https://developer.nvidia.com/gpugems/gpugems/) is a free online book series by NVidia that goes through very advanced GPU topics. Some of these ideas are low-level to the point that they could very well be implemented at the game engine development stage
 
 (Non)Conferences useful for gathering further game development ideas:
 
