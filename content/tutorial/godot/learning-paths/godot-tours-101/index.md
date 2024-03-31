@@ -36,8 +36,14 @@ class="-large -tall" >}}
 
 1. Click the download button above to download a Godot project containing the tour.
 2. Import the project in Godot. You will need Godot **4.2 standard** (*not* the .NET edition) for this to work.
-3. A menu will appear in Godot and let you select and start the tour.
+3. Activate the Godot Tours plugin.
+  1. Click on *Project -> Project Settings...* at the top left of the editor.
+  2. A pop-up window opens. Click on the *Plugins* tab.
+  3. The tab lists plugins that are available in the project. Notice the empty check box to the right of the Godot Tours plugin. Click the checkbox to enable the plugin.
 
+Shortly after enabling the plugin, you should see the editor dim down behind the window. Click the *Close* button at the bottom of the Project Settings window to close it.
+
+You will see a menu listing the tours available in the project. Click the first tour in the menu to select it (*101: The Godot Editor*), and then click the *START LEARNING* button at the bottom to get started.
 
 ### How to import Godot project files in the Godot editor
 
