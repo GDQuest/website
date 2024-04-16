@@ -3,35 +3,39 @@ author: razoric
 coAuthors:
 - nathan
 date: "2021-03-04T00:00:00-06:00"
-description: Learn to create an ECS to add flexibility to your simulation games and
+description: Learn to code an entity component pattern to add flexibility to your simulation games and
   other Godot projects.
 difficulty: intermediate
 keywords:
 - godot tutorial
-- entity component system
+- entity component
 - godot ecs
 - godot programming patterns
 - godot design patterns
-menuTitle: Entity-Component System
-title: Coding an Entity-Component System in Godot
+menuTitle: Entity-Component Pattern
+title: Coding the Entity-Component pattern in Godot
 weight: 2
+aliases:
+- /tutorial/godot/design-patterns/entity-component-system/
 ---
 
-The Entity Component System architectural pattern, ECS for short, is a way of designing concrete objects by adding one or more components representing a specialized data set. For example, a `Transform` component may have a 3D position, rotation, and scale, whereas a `PowerSource` component may have power units provided and an efficiency rating.
+The Entity Component pattern, EC for short, is a way of designing concrete objects by adding one or more components representing a specialized data set. For example, a `Transform` component may have a 3D position, rotation, and scale, whereas a `PowerSource` component may have power units provided and an efficiency rating.
 
-Systems are classes that take a collection of relevant components from entities and commit operations based on the data and commit changes. For example, a `Physics` system could collect the position and collision components from entities and then resolve collisions.
+There's a similarly named structural pattern, ECS, which stands for Entity-Component-System. These days, ECS refers to a performance-oriented pattern where you store components in contiguous memory blocks and update them in systems that process them in parallel. Some game engines like [Bevy](https://bevyengine.org/) use it at their core.
 
-![Entity-component system code diagram](ecs-diagram.png)
+In this guide, we'll focus on the Entity-Component pattern, which is just about having some data and behavior in separate components. We'll show you how to implement it in Godot to add flexibility to your simulation games and other projects. While we'll talk about some classes working as systems, and draw some inspiration from ECS, we're only concerned with a high-level design pattern for flexibility here.
 
-_Didn't you have a big write-up about ECS being a pattern we don't need in Godot earlier?_, you ask.
+![Entity-component pattern code diagram](ecs-diagram.png)
+
+_Didn't you have a big write-up about this being a pattern we don't need in Godot earlier?_, you ask.
 
 And you're right, we did.
 
-Often, when people ask about the Entity Component System architecture in Godot, they think of it as the engine's foundation or a replacement to Godot's nodes tree. But as we argued, Godot's nodes tree system can complete most tasks on its own.
+Often, when people ask about the Entity Component pattern or ECS architecture in Godot, they think of it as the engine's foundation or a replacement to Godot's nodes tree. But as we argued, Godot's nodes tree system can complete most tasks on its own.
 
 But it has limitations in _some_ cases. In those cases, you can draw inspiration from this pattern to help decouple objects.
 
-You can see an example of this Entity-Component-System in action [on our code repository](https://github.com/GDQuest/godot-design-patterns). It contains a demo scene that corresponds to this guide.
+You can see an example of this Entity-Component pattern in action [on our code repository](https://github.com/GDQuest/godot-design-patterns). It contains a demo scene that corresponds to this guide.
 
 ## The problem
 
@@ -208,11 +212,11 @@ Entities can access the data from their components using `get_node()` and connec
 
 ## Adding a system to track and use components
 
-You could stop at the entity-component couple, which already solves our initial problem.
+You could stop at the entity-component couple, which already solves our initial problem. We'll add a class we'll call a system to track and update components.
 
-The system part in the ECS helps you collect a specific kind of components and update them sequentially. You can use systems to help keep your code grouped somewhere. When it comes time for the game to act, systems act on any instanced entities with the components the system cares about. Below, you'll see the example of a `PowerSystem` that finds all `PowerReceiver` and `PowerSource` components and processes them. 
+The system part in the Entity Component helps you collect a specific kind of components and update them sequentially. You can use systems to help keep your code grouped somewhere. When it comes time for the game to act, systems act on any instanced entities with the components the system cares about. Below, you'll see the example of a `PowerSystem` that finds all `PowerReceiver` and `PowerSource` components and processes them. 
 
-When used as an architectural pattern in a generalist game engine's core, systems help group components in memory and optimize them.
+_This is different from how systems are used in ECS: when used as an architectural pattern in a generalist game engine's core, components are kept in contiguous memory blocks, and systems process them in parallel, which helps offer great performance when you don't know how people will use your engine._
 
 In the example below, we use groups to identify entities a system cares about. When you assign a power source component to an entity, assign it to the power_sources group. The system can then receive all the entities that are relevant by calling `SceneTree.get_nodes_in_group()` or `SceneTree.is_in_group()`.
 
@@ -352,7 +356,7 @@ func _on_PowerReceiver_power_received(power: float, delta: float) -> void:
 
 ```
 
-With this ECS pattern, you increase the complexity of your objects' update cycle. In exchange, you get objects that know nothing about their surroundings outside of their scenes, giving you a lot of flexibility in how you can reuse code.
+With this Entity Component pattern, you increase the complexity of your objects' update cycle. In exchange, you get objects that know nothing about their surroundings outside of their scenes, giving you a lot of flexibility in how you can reuse code.
 
 Systems take care of keeping track and updating components, and you do not have to copy-paste code or have deep class inheritance trees.
 
