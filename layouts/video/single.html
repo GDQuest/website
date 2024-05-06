@@ -31,29 +31,6 @@
             <p>{{ .Description }}</p>
             {{ .Content }}
 
-            {{ with .Resources }}
-            <section id="resources" class="margin-v-base">
-                <h4>Resources</h4>
-                {{ $res := union (where . "ResourceType" "ne" "image") (where . "ResourceType" "eq" "image") }}
-                {{ range $res }}
-                {{ if eq .ResourceType "image" }}
-                <small>{{ .Name }}</small>
-                <a download href="{{ .Permalink }}">
-                    <img loading="lazy" src="{{ .Permalink }}" alt="{{ .Name }}">
-                </a>
-                {{ else }}
-                <div class="flex justify-space-between align-items-center">
-                    <small>{{ .Name }}</small>
-                    <a download href="{{ .Permalink }}" class="button-link">download</a>
-                </div>
-                {{ end }}
-                {{ if ne . (index (last 1 $res) 0) }}
-                <hr>{{ end }}
-                {{ end }}
-            </section>
-            {{ end }}
-
-
             {{ partial "components/next-and-previous" . }}
         </div>
 
