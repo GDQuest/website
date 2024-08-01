@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "ConfusedButInterested"
-  },
-  "date": "2021-07-24T09:21:22Z",
-  "id": "01FBBX3CVGVV4FXPPD26N6A8M0",
-  "message": "I don't understand the use of delta\n\nWhen the Vector2 is set to (1.0, 1.0) you see it move on your screen\n\nWhen it is set to (100.0, 100.0) it moves insanely fast right out of your screen\n\nWhen you then add \"* delta\" to the end of THAT\nIt moves as fast as the (1.0, 1.0) speed\n\nWhy not just use the (1.0, 1.0) and save all the extra times you have to put \"delta\" in??"
-}

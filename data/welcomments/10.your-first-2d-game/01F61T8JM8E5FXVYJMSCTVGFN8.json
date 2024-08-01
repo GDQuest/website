@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Dominic"
-  },
-  "date": "2021-05-19T08:00:52Z",
-  "id": "01F61T8JM8E5FXVYJMSCTVGFN8",
-  "message": "Hi Nathan, my player’s animations won’t play. Here’s my code and scene trees (so far):\r\n\r\nPlayer Code:\r\n\r\nextends Area2D\r\n\r\nexport var speed = 400.0 var screen_size = Vector2.ZERO\r\n\r\nfunc _ready(): screen_size = get_viewport_rect().size\r\n\r\nfunc _process(delta): var direction = Vector2.ZERO if Input.is_action_pressed(“move_right”): direction.x += 1 if Input.is_action_pressed(“move_left”): direction.x -= 1\r\n\r\nif Input.is_action_pressed(\"move_down\"):\r\n\tdirection.y += 1\r\nif Input.is_action_pressed(\"move_up\"):\r\n\tdirection.y -= 1\r\n\r\nif direction.length() > 1:\r\n\tdirection = direction.normalized()\r\n\t$AnimatedSprite.play()\r\nelse:\r\n\t$AnimatedSprite.stop()\r\n\r\nposition += direction * speed * delta\r\nposition.x = clamp(position.x, 0, screen_size.x)\r\nposition.y = clamp(position.y, 0, screen_size.y)\r\n\r\nif direction.x != 0:\r\n\t$AnimatedSprite.animation = \"right\"\r\n\t$AnimatedSprite.flip_h = direction.x <  0\r\n\t$AnimatedSprite.flip_v = false\r\nelif direction.y != 0:\r\n\t$AnimatedSprite.animation = \"up\"\r\n\t$AnimatedSprite.flip_v = direction\r"
-}

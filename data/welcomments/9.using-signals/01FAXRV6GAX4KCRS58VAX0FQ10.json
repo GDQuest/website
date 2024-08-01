@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "AnonymousVoid"
-  },
-  "date": "2021-07-18T21:37:37Z",
-  "id": "01FAXRV6GAX4KCRS58VAX0FQ10",
-  "message": "Hey, I followed the entire tutorial and it was great! One thing I think you could improve on is that the links to the project resources open in the current tab, an easy way to fix this would be to add the following tag to the anchor link in your HTML: **target=\"_blank\"**"
-}

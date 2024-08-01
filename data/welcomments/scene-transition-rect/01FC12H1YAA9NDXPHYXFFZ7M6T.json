@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "ar"
-  },
-  "date": "2021-08-01T14:40:15Z",
-  "id": "01FC12H1YAA9NDXPHYXFFZ7M6T",
-  "message": "I have the same thing - animation is not showing. Actually I have a feeling that the tutorial is not clear enough. Like - is the SceneTrsansitionRect a scene on its own? or is it attached as a node in the scene I want to transition from?"
-}

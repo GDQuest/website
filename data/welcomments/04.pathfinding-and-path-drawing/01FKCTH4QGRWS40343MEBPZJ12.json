@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Jim"
-  },
-  "date": "2021-11-01T04:01:16Z",
-  "id": "01FKCTH4QGRWS40343MEBPZJ12",
-  "message": "Sorry, but I am confused as to where the script is supposed to be saved. The tutorial states: \n\"Here is the code for the PathFinder class. Create a new script and save it there\"\nBut where \"there\" is isn't clear. Is it supposed to be saved as part of the Grid scene? Is it supposed to be saved as a new Resource or new Script? "
-}

@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Branden"
-  },
-  "date": "2021-07-08T17:38:44Z",
-  "id": "01FA3K6KZBKN9V74JMR8TWCN1V",
-  "message": "I'm unable to make my player jump with space bar, W, or the up arrow key. I went through the instruction and also copied/pasted the code from the example with no success. I also made sure gravity was set to 4k like the instructor did. My collision mask, and speed/direction variables have the same values. He just won't jump."
-}

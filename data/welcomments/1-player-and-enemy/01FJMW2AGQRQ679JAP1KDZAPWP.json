@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "henry",
-    "website": "https://www.moonrabbithaven.com"
-  },
-  "date": "2021-10-22T20:46:21Z",
-  "id": "01FJMW2AGQRQ679JAP1KDZAPWP",
-  "message": "hey, at ~1:20:00 into the video, after I check the process_parent & physics_process_parent boxes, the enemy stops moving *whenever* it's off screen, even if it starts off screen."
-}

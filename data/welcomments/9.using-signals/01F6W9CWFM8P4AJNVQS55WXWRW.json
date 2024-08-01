@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Ethan"
-  },
-  "date": "2021-05-29T14:45:37Z",
-  "id": "01F6W9CWFM8P4AJNVQS55WXWRW",
-  "message": "I see the problem. In the LifeBar code, you have new_changed as a parameter, and you have new_health assigned to value in the next line.\n\nIt is important to make sure to name your variables correctly. Otherwise, your code will not work correctly.\n\nYou can either change the parameter to new_health or change new_health in value = new_health to new_changed.",
-  "replying_to": "01F5B5ZWPRSQDQEBYERGABNX4X"
-}

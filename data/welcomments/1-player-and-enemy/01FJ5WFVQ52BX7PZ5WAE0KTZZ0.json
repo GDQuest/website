@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Alan"
-  },
-  "date": "2021-10-17T01:05:08Z",
-  "id": "01FJ5WFVQ52BX7PZ5WAE0KTZZ0",
-  "message": "I found that my character was not jumping. The issue was in my code. typing velocity instead of direction.y\n\nSee line 25 of the Player.gd at time 1:02:44 - \n https://youtu.be/Mc13Z2gboEk?t=3764"
-}

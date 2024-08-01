@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Axel"
-  },
-  "date": "2021-05-13T16:33:23Z",
-  "id": "01F5K96PC1RC7D5731PWTRYJG4",
-  "message": "That's actually not the proper fix : the problem occurred due to bad positioning of the StompDetector and CollisionShape2D.\n\nI lowered the StompDetector (so its origin is slightly closer to the center of the enemy) and stomping works well.",
-  "replying_to": "01F5K8ZN3HQ77ANYHAVVE7QWG5"
-}

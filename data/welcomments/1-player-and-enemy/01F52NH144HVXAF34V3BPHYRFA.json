@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Hao Huynh"
-  },
-  "date": "2021-05-07T05:41:39Z",
-  "id": "01F52NH144HVXAF34V3BPHYRFA",
-  "message": "I can't make the enemy die when I jump on it\nI copied your code entirely so I didn't know where the issue was\nThere was a few difference in the signal window though. \nit said \"body_entered(body:Node)\"\nHowever, I changed it back to Physics2D in the script\nAnd when you said to deactivate collision2D on the enemy, since I didn;t see you do it in the video so I didn't know where to follow\n\nextends \"res://source/Actors/Actor.gd\"\n\nfunc _ready() -> void:\n\tset_physics_process(false)\n\t_velocity.x = -speed.x\n\t\nfunc _on_StompDetector_body_entered(body: PhysicsBody2D) -> void:\n\tif body.global_position.y >\tget_node(\"StompDetector\").global_position.y:\n\t\treturn\n\tqueue_free()\n\t\nfunc _physics_process(delta: float) -> void:\n\t_velocity.y += gravity * delta\n\tif is_on_wall():\n\t\t_velocity.x *= -1.0\n\t_velocity.y = move_and_slide(_velocity, FLOOR_NORMAL).y\n\t\t\n\t\t"
-}

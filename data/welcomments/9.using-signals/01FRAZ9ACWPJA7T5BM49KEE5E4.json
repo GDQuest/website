@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Alena"
-  },
-  "date": "2022-01-01T14:04:22Z",
-  "id": "01FRAZ9ACWPJA7T5BM49KEE5E4",
-  "message": "Hello, I followed the video and love it so far, but there is one thing I did not quite understand when you were explaining the last piece of code in the function around 14:18 in the video (chapter about \"Creating a custom signal\"). \nIn the very beginning of this chapter you explain briefly the code you already made:\n  \n  The function \"take_damage(amount)\" makes the player node play \"take_damage\" animation that makes the node blink every time it is touched by the other node (enemy), but how did you create that blinking effect in the first place? I could not find it in the code, so is that just one of the already-made signals for a sprite? \n  And why did'nt this function start with \"_\" like the others?\n\nThanks for the help in advance (and for this amazing tutorial series).\n I did not have trouble following your words, this one function just made me wonder.",
-  "message_html": "<p>\nHello, I followed the video and love it so far, but there is one thing I did not quite understand when you were explaining the last piece of code in the function around 14:18 in the video (chapter about “Creating a custom signal”). \nIn the very beginning of this chapter you explain briefly the code you already made:</p><p>\n  The function “take<em>damage(amount)” makes the player node play “take_damage” animation that makes the node blink every time it is touched by the other node (enemy), but how did you create that blinking effect in the first place? I could not find it in the code, so is that just one of the already-made signals for a sprite? \n  And why did’nt this function start with “</em>“ like the others?</p><p>\nThanks for the help in advance (and for this amazing tutorial series).\n I did not have trouble following your words, this one function just made me wonder.</p>"
-}

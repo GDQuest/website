@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Leonel Lima",
-    "website": "https://www.leonellima.com"
-  },
-  "date": "2021-08-28T23:17:07Z",
-  "id": "01FE7GTVMBRHRZ1X0M87Q9FQVX",
-  "message": "I think one might have cyclic dependencies problem in here.\nOnce you try queue_free(), each state will have a reference to the owner, making it impossible to release it."
-}

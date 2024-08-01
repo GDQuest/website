@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Anonymous"
-  },
-  "date": "2021-08-23T03:25:52Z",
-  "id": "01FDRGP1E96T13CT1425D0KMPF",
-  "message": "Also make the code not 0.0 for gravity because then it doesn't exisist. For jumping I sugguest the code to be -10.0"
-}

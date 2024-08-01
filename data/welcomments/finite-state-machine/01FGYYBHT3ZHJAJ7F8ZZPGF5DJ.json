@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Marcin Kuna"
-  },
-  "date": "2021-10-01T22:07:21Z",
-  "id": "01FGYYBHT3ZHJAJ7F8ZZPGF5DJ",
-  "message": "Since every State implements all methods (process, physics_process etc), won't they be executed at once?\nI think that StateManager should execute set_process(false), set_physics_process(false) after exit() so previous is fully inactive."
-}

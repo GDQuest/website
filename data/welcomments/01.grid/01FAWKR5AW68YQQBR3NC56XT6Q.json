@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Pieter"
-  },
-  "date": "2021-07-18T10:49:20Z",
-  "id": "01FAWKR5AW68YQQBR3NC56XT6Q",
-  "message": "I had the same issue as Daniel.\nI created the script as in your option 2. When pressing ctrl-s to save I got that error that a root node is required. Also when creating the new resource I could not find \"Grid\".\nClosing Godot and Reopening fixed the issue. (The script was now \"saved\" and I could locate it when creating \"New Resource\")",
-  "replying_to": "01F4G3C4PVGN9EDT0RTA9Z07HV"
-}

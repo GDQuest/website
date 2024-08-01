@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Brice"
-  },
-  "date": "2021-09-04T21:15:31Z",
-  "id": "01FESAN82J75S3J6PQQB9SP76D",
-  "message": "I had this same problem. I fixed it by putting the colorRect onto a CanvasLayer since my scene main node was a Node2D.",
-  "replying_to": "01F762SE7GXA08BBM622X21525"
-}

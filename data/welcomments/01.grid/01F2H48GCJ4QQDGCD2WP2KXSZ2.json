@@ -1,8 +1,0 @@
-{
-  "id": "01F2H48GCJ4QQDGCD2WP2KXSZ2",
-  "date": "2021-04-05T13:41:25.522706",
-  "author": {
-    "name": "Matt"
-  },
-  "message": "In the guide above (https://www.gdquest.com/tutorial/godot/2d/tactical-rpg-movement/lessons/01.grid/) It references \"course downloads, tactical-rpg/start-project/\" without a link on the page to where I could find this it was quite difficult to track it down, but I eventually found it with some Github searching. Would be a nice quality of life to add a course download section (unless it's here and I am blind) or maybe a hyperlink.\n\nhttps://github.com/GDQuest/godot-2d-tactical-rpg-movement"
-}

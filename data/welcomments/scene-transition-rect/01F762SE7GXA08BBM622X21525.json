@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Andrea"
-  },
-  "date": "2021-06-02T10:02:33Z",
-  "id": "01F762SE7GXA08BBM622X21525",
-  "message": "Hello and THX for this tutorial!\nEverything works fine, but the animation is not displayed. \nIf the animation lasts two seconds, the scene change will take 2 seconds, but without the fade effect. I can't understand why the animation is not showing. Can you help me?"
-}

@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "MrMoobles"
-  },
-  "date": "2021-07-22T17:08:31Z",
-  "id": "01FB7K1B86JT8JTN82QG3BK2B8",
-  "message": "Figured it out (with the help of a friendly Redditor), I hadn't saved the Grid.gd after adding the script and couldn't call on it when creating the resource",
-  "replying_to": "01FB7J8KY8NG6FJR5RH4MG1BCV"
-}

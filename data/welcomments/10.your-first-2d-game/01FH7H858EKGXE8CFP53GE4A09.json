@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "Gary H"
-  },
-  "date": "2021-10-05T06:11:28Z",
-  "id": "01FH7H858EKGXE8CFP53GE4A09",
-  "message": "Hi Nathan,\n\nI hope you are well.\n\nFirstly, thank you for these fantastic tutorials.\n\nA quick question - an enhancement request you might say - how would we include an exit option as part of the game?\n\nPlacing the button is ok, I am thinking more about the coding side of it, like would we use the same signal but how do we differentiate a start game to exit game in the code etc.?\n\nMany Thanks,\n\nGary "
-}
