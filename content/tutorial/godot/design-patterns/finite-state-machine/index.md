@@ -51,7 +51,7 @@ The bubbles represent states, and the arrows indicate transitions. Next to each 
 You use finite state machines to:
 
 - Make it easier to add new states and behaviors to your game. For example, you can add a new state for a character to glide without changing the code for the other states.
-- Better control the transitions between states, ensuring that the character doesn't play the wrong animation in a given state, for example.
+- Control better the transitions between states, ensuring that the character doesn't play the wrong animation in a given state, for example.
 - Split your code into separate states, making reading and isolating behaviors easier.
 
 It's an alternative to other forms of composition, to stacks for tracking navigation, or to more powerful patterns like goal oriented action planning and behavior trees for AIs.
