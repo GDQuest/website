@@ -1,8 +1,7 @@
 ---
 author: nathan
-date: "2021-01-28T13:33:37-06:00"
-description: The State pattern is an essential one for game developers. In this guide,
-  you'll learn to create a finite state machine in Godot.
+date: "2024-07-31"
+description: The State pattern is an essential one for game developers. In this guide, you'll learn to create a finite state machine in Godot and when to use the pattern.
 difficulty: intermediate
 keywords:
 - godot tutorial
@@ -13,353 +12,430 @@ keywords:
 - godot programming patterns
 - godot design patterns
 menuTitle: Finite State Machine
-title: Finite State Machine in Godot
+title: Finite State Machine in Godot 4
 weight: 2
 ---
 
-_Split an object's finite number of states or behaviors into individual state objects and only allow one of them to control their host at a time._
+In this guide, you'll learn to create a Finite State Machine (FSM) in Godot 4. We'll talk about the problem this pattern tries to solve and see two ways to implement it: using a simple variable and functions, and using nodes for a visual representation.
 
-You've probably heard of this pattern called **State**, or **Finite State Machines**, often represented as a graph.
+You'll learn:
 
-![](state-diagram.png)
+- What a Finite State Machine is and when to use it in games.
+- What problem the pattern helps solve.
+- How to implement a Finite State Machine in Godot with a simple variable, if statements, and functions.
+- How to implement a more complex FSM with nodes.
+- When to use either implementation.
+- What are the benefits and drawbacks of using a state machine.
 
-It's a natural way to mentally break down a game entity or a program into high-level states. It's widely used in games.
+The code examples in this guide come from the open-source companion demo in our [Godot design pattern demos](https://github.com/GDQuest/godot-design-patterns).
 
-In this guide, we'll see how to implement it in Godot, with GDScript code and nodes. We will use the convenient `owner` property of nodes to keep our state code simple.
+## Finite State Machines in games
 
-Before that, let's start by looking at the problem this pattern tries to solve and an intermediate solution for simple cases.
+In short, a Finite State Machine is a way to organize your code by breaking it down into separate states. Each state has its own code and behavior, and the machine can only be in one state at a time.
 
-_The code examples you'll see in this guide are simple to keep it short and clear. You can find a complete companion demo in our [Godot design patterns](https://github.com/GDQuest/godot-design-patterns) repository._
+For example, a character in a game can be in an idle state (standing still), a running state, or a jumping state. With a state machine, you can ensure that only one of these states is active at any given time, and only the code for that state is executed every frame.
 
-_But please note the pattern is mostly worth it when you start to have more complex code. For a concrete example, see our [Open 3D Mannequin](https://github.com/GDQuest/godot-3d-mannequin)._
+There are four conditions for talking about a state machine:
 
-**This guide was open-sourced from and made possible by our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3). If you'd like to level up your game development skills, check it out!**
+1. There is a fixed set of states.
+1. The machine can be in one state at a time. 
+1. The machine receives events like inputs or signals. 
+1. States have transitions mapped to events. When a state receive a given event, it tells the machine to transition to the corresponding state.
 
-## The problem
+We can naturally represent the behaviors of a game character with a little graph like this.
 
-Imagine you have a character that needs to stand idle, run, and jump.
+![A graph showing three states, idle, running, and jumping, with arrows representing transitions between the states](finite_state_machine_sketch.png)
+
+The bubbles represent states, and the arrows indicate transitions. Next to each arrow, we have a corresponding input that triggers the transition: it can be the player pressing a key or something happening in the game world, like the character colliding with the floor.
+
+You use finite state machines to:
+
+- Make it easier to add new states and behaviors to your game. For example, you can add a new state for a character to glide without changing the code for the other states.
+- Better control the transitions between states, ensuring that the character doesn't play the wrong animation in a given state, for example.
+- Split your code into separate states, making reading and isolating behaviors easier.
+
+It's an alternative to other forms of composition, to stacks for tracking navigation, or to more powerful patterns like goal oriented action planning and behavior trees for AIs.
+
+The caveat of state machines is that their structure is inflexible: the entity can only be in one of the states you define at a time, and the transitions between states are often hard-coded. It works very well for simple pattern-based AIs and player characters. For example, the main character of Celeste uses a finite state machine.
+
+You can introduce a state machine in your game when you have a character or another game entity that can be in different states, and you don't feel like you can manage all the behaviors with simple imperative code.
+
+## The problem with boolean variables
+
+Let's start with a simple example to illustrate the problem the state pattern helps solve. Imagine that you have a character that needs to stand idle, run, and jump.
 
 ![](beginner-platformer.png)
 
-In its update loop, you write all the conditions for it to do all these actions, and it goes just fine. `KinematicBody2D` in Godot makes it especially easy to detect if the character is on the floor or not.
+The character has a script with all the movement logic in its `_physics_process()` function. The code may look like this:
 
 ```gdscript
-# Character that moves and jumps.
-class_name Player
-extends KinematicBody2D
+extends CharacterBody2D
 
 var speed := 500.0
-var jump_impulse := 1200.0
+var jump_impulse := 1800.0
 var base_gravity := 4000.0
 
-var _velocity := Vector2.ZERO
+@onready var animation_player := %AnimationPlayer
 
 
 func _physics_process(delta: float) -> void:
-	# Starting with input.
-	var input_direction_x: float = (
-		Input.get_action_strength("move_right")
-		- Input.get_action_strength("move_left")
-	)
-	var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
+	# Horizontal movement and gravity.
+	var input_direction_x := Input.get_axis("move_left", "move_right")
+	velocity.x = input_direction_x * speed
+	velocity.y += base_gravity * delta
 
-	# Calculating horizontal velocity.
-	_velocity.x = input_direction_x * speed
-	# Calculating vertical velocity.
-	_velocity.y += base_gravity * delta
+	# Jumping.
+	var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
 	if is_jumping:
-		_velocity.y = -jump_impulse
-	# Moving the character.
-	_velocity = move_and_slide(_velocity)
+		velocity.y = -jump_impulse
+
+	# Animation.
+	if not is_on_floor():
+		if velocity.y < 0:
+			animation_player.play("jump")
+		else:
+			animation_player.play("fall")
+	elif input_direction_x != 0.0:
+		animation_player.play("run")
+	else:
+		animation_player.play("idle")
+
+	move_and_slide(velocity)
 ```
 
-That's simple enough. Now, we want the character to glide, but only if it's in the air. When it's gliding, the character falls slower and they can't turn around instantly. Also, when gliding, the player can hop, canceling the glide, and jumping lower than a regular jump.
+In its update loop, you write all the conditions for it to do all these actions, and it goes just fine. `CharacterBody2D` in Godot makes it especially easy to detect if the character is jumping thanks to the `is_on_floor()` function.
+
+Simple enough! Now, what if you want the player to be able to glide when it's in the air? When gliding, the character falls slower and can't turn around instantly. Also, when gliding, the player can hop, canceling the glide and jumping lower than a regular jump.
+
+A typical way to differentiate this new gliding behavior is to add a boolean variable to the script. You can then check this variable in `_physics_process()` to change the character's behavior. 
+
+This code just shows the changes related to animation, which is a very easy way to demonstrate the problem. In a real project, you'd have to add more checks to handle the character's movement, jump, and other mechanics.
 
 ```gdscript
-# Character that moves, jumps, and glides.
-class_name Player
-extends KinematicBody2D
-
-var speed := 500.0
-var jump_impulse := 1200.0
-var base_gravity := 4000.0
-
-# Here are the new variables for gliding.
-var glide_max_speed := 1000.0
-var glide_acceleration := 1000.0
-var glide_gravity := 1000.0
-var glide_jump_impulse := 500.0
-
-var _velocity := Vector2.ZERO
-# There's also a new boolean value to keep track of the gliding state.
-var _is_gliding := false
+# ...
+# We introduce a new boolean variable to track if the character is gliding.
+var is_gliding := false
 
 
 func _physics_process(delta: float) -> void:
-	# Starting with input.
-	var input_direction_x: float = (
-		Input.get_action_strength("move_right")
-		- Input.get_action_strength("move_left")
-	)
-	var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
+	# ...
 
-	# Initiating gliding, only when the character is in the air.
+	# Initiating and canceling gliding.
 	if Input.is_action_just_pressed("glide") and not is_on_floor():
-		_is_gliding = true
+		is_gliding = true
+	if is_gliding and (
+		Input.is_action_just_pressed("move_up") or get_slide_count() > 0
+	):
+		is_gliding = false
 
-	# canceling gliding
-	if _is_gliding and Input.is_action_just_pressed("move_up"):
-		_is_gliding = false
+	# ...
 
-	# Calculating horizontal velocity.
-	if _is_gliding:
-		_velocity.x += input_direction_x * glide_acceleration
-		_velocity.x = min(_velocity.x, glide_max_speed)
-	else:
-		_velocity.x = input_direction_x * speed
-
-	# Calculating vertical velocity.
-	var gravity := glide_gravity if _is_gliding else base_gravity
-	_velocity.y += gravity * delta
-	if is_jumping:
-		var impulse = jump_impulse if is_on_floor() else glide_jump_impulse
-		_velocity.y = -jump_impulse
-
-	# Moving the character.
-	_velocity = move_and_slide(_velocity)
-
-	# If we're gliding and we collide with something, we turn gliding off and the character falls.
-	if _is_gliding and get_slide_count() > 0:
-		_is_gliding = false
+	# Animation.
+	if not is_on_floor():
+		if is_gliding:
+			animation_player.play("glide")
+		else:
+			if velocity.y < 0:
+				animation_player.play("jump")
+			else:
+				animation_player.play("fall")
+	# ...
 ```
 
-We have to add conditional checks in multiple places to distinguish glide movement from other movements.
+What do you notice? Two things are not great:
 
-The code doubled in size, even though our character movement is still dead simple. We had to introduce a boolean variable to check if the character is gliding. If it weren't for `KinematicBody2D`'s convenient `is_on_floor()` method, we'd need another one for that.
+1. I have to add one boolean to track if the character is gliding. So, when I add a new mechanic, I likely need to add a new boolean variable to track it. If my character can glide, climb ladders, and shoot, I'll have to keep track of three new boolean variables? That's not great.
+2. I had to edit the existing jump animation logic to add a new glide animation. So, to add a new mechanic, I have to change the code for the existing mechanics. That's not great either.
 
-Did you notice the error up there?
+If you try adding a dozen more mechanics like that, using only boolean variables to keep track of your character's current state, it soon becomes error-prone. You quickly end up with too many conditions to check to know what the character can or cannot do.
+
+That's where finite state machines come in.
+
+## Implementing a Final State Machine with one variable 
+
+The first version of the finite state machine I want to show you is the simplest one, and it works in many cases. It consists of replacing all the boolean variables you might introduce with a single variable that keeps track of the character's current state.
+
+The states themselves are members of an enum, so numbers under the hood.
 
 ```gdscript
-var is_jumping := is_on_floor() and Input.is_action_just_pressed("move_up")
+extends CharacterBody2D
+
+# This enum lists all the possible states the character can be in.
+enum States {IDLE, RUNNING, JUMPING, FALLING, GLIDING}
+
+# This variable keeps track of the character's current state.
+var state: States = States.IDLE
 ```
 
-We want to allow jumping during glide, but I forgot to update the `is_jumping` variable, and so it doesn't work. When you put all your movements and state in one place, these changes are easy to miss. More issues in the code above make it brittle and difficult to change, even though it is still relatively small. But we don't have sounds, animations, and movement is still basic. In a real game project, the code gets messy fast.
+That's it! Well, that's the first step. You can now use this variable to track the character's behavior: running, jumping, falling, etc. You can then use it in conditions to know what the character can or cannot do.
 
-Now, imagine the project moves forward, and you realize that you also want the character to dash, climb on walls, grab ledges, climb ladders, shoot, do combos with a sword, and a bazillion other things. You need more variables to check in which states the character is, and conditional combinations explode.
-
-If you try to shove it all in the same class, using only boolean variables to keep track of your character's current state, it soon becomes unmanageable. In particular, every variable you add in one place increases the chance of bugs creeping up on you. That's because there are just too many conditions to check to know what the character can or cannot do right now and properly chain the behaviors.
-
-You could and should split your code into multiple functions, but that won't be enough to manage the overwhelming possible interactions between all the character's states.
-
-## State variable
-
-A simple solution to this problem is to define a variable named `state` that stores a text string or a member from an enumeration and helps you keep track of which state the character is in.
-
-You can then use it in conditions or in a match block to know what the character can or cannot do.
+Here is an example of horizontal movement when gliding, running, or in the air.
 
 ```gdscript
-# Character that moves and jumps.
-class_name Player
-extends KinematicBody2D
+func _physics_process(delta: float) -> void:
+	# ...
+	if state == States.GLIDING:
+		velocity.x += input_direction_x * glide_acceleration * delta
+		velocity.x = min(velocity.x, glide_max_speed)
+	elif state in [States.RUNNING, States.JUMPING, States.FALLING]:
+		velocity.x = input_direction_x * speed
+	# ...
+```
 
-# An enum allows us to keep track of valid states.
-enum States {ON_GROUND, IN_AIR, GLIDING}
+Notice how:
 
-#...
+1. Instead of the boolean check before, you now check if the `state` variable is equal to a given state.
+2. You can use the `in` keyword and an array to check if the state is in a list of states.
 
-# With a variable that keeps track of the current state, we don't need to add more booleans.
-var _state : int = States.ON_GROUND
+The conditions themselves are not very different from the boolean checks. The first benefit comes when switching states. You only have to worry about the `state` variable, which you can update in a series of `if` and `elif` blocks.
 
+The following code groups all the logic for switching the current state in one place.
+
+```gdscript
+func _physics_process(delta: float) -> void:
+	# ...
+	var is_initiating_jump := is_on_floor() and Input.is_action_just_pressed("move_up")
+	if is_initiating_jump:
+		state = States.JUMPING
+	elif state == States.JUMPING and velocity.y > 0.0:
+		state = States.FALLING
+	elif state in [States.JUMPING, States.FALLING] and Input.is_action_just_pressed("glide"):
+		state = States.GLIDING
+	# ...
+```
+
+These state changes are often called transitions. The code constrains which state the character can go to and from which other state. So, with this approach, you have a single variable to worry about and a single place to manage all the conditions for initiating a jump, opening the glider, attacking, and so on.
+
+There's more! There is often code you only want to run once when leaving or entering a specific state. For example, when the player jumps, you want to change the velocity to make the character go up. When the player starts gliding, you want to change the gravity to make the character fall slower.
+
+You can do that with a [setter function](https://school.gdquest.com/glossary/setter_getter) bound to the `state` variable.
+
+The code below shows the `set_state()` function that changes gravity when starting and stopping gliding.
+
+```gdscript
+var state: States = States.ON_GROUND: set = set_state
+
+# We have two different gravity values, one for the character on the ground and one for when gliding.
+var base_gravity := 4000.0
+var glide_gravity := 400.0
+# This is the current gravity, which is applied to the character every frame.
+var current_gravity := base_gravity
 
 func _physics_process(delta: float) -> void:
-	#...
-	# Instead of using different functions and variables, we can now use a single variable 
-	# to manage the current state.
-	# Our character is jumping if they're on the ground and the player presses "move_up"
-	# If both conditions are met, the expression below will evaluate to `true`.
-	var is_jumping: bool = _state == States.ON_GROUND and Input.is_action_just_pressed("move_up")
+	# ...
+	velocity.y += current_gravity * delta
+	# ...
 
-	# To change state, we change the value of the `_state` variable
-	if Input.is_action_just_pressed("glide") and _state == States.IN_AIR:
-		_state = States.GLIDING
 
-	# Canceling gliding.
-	if _state == States.GLIDING and Input.is_action_just_pressed("move_up"):
-		_state = States.IN_AIR
+func set_state(new_state: int) -> void:
+	var previous_state := state
+	state = new_state
 
-	# Calculating horizontal velocity.
-	if _state == States.GLIDING:
-		_velocity.x += input_direction_x * glide_acceleration * delta
-		_velocity.x = min(_velocity.x, glide_max_speed)
-	else:
-		_velocity.x = input_direction_x * speed
+	# You can check both the previous and the new state to determine what to do when the state changes. This checks the previous state.
+	if previous_state == States.GLIDING:
+		current_gravity = base_gravity
 
-	# Calculating vertical velocity.
-	var gravity := glide_gravity if _state == States.GLIDING else base_gravity
-	_velocity.y += gravity * delta
-	if is_jumping:
-		var impulse = glide_jump_impulse if _state == States.GLIDING else jump_impulse
-		_velocity.y = -jump_impulse
-		_state = States.IN_AIR
-
-	# Moving the character.
-	_velocity = move_and_slide(_velocity, Vector2.UP)
-
-	# If we're gliding and we collide with something, we turn gliding off and the character falls.
-	if _state == States.GLIDING and get_slide_count() > 0:
-		_state = States.IN_AIR
-
-	if is_on_floor():
-		_state = States.ON_GROUND
+	# Here, I check the new state.
+	if state == States.GLIDING:
+		current_gravity = glide_gravity
 ```
 
-_That's not the state pattern yet, only an intermediate solution that can help you in some cases._
-
-This is a significant improvement over using boolean values only already. How? We won't have to add booleans and have to switch multiple if we add more states.
-
-You can also wrap state changes in a function to initialize and do a cleanup, for example, by changing the horizontal acceleration and maximum speed when you are in the air.
+The `set_state()` function is also a good place to change the character's animation. In many cases, animations correspond to the state the character switched to.
 
 ```gdscript
-var ground_speed := 500.0
-var air_speed := 300.0
-
-var _speed := 500.0
-
-
-func change_state(new_state: int) -> void:
-	var previous_state := _state
-	_state = new_state
-
-	# Initialize the new state.
-	match _state:
-		States.IN_AIR:
-			_speed = air_speed
-		States.ON_GROUND:
-			_speed = ground_speed
-
-	# Clean up the previous state.
-	match previous_state:
-		States.IN_AIR:
-			#...
+func set_state(new_state: int) -> void:
+	# ...
+	if state == States.IDLE:
+		animation_player.play("idle")
+	elif state == States.RUNNING:
+		animation_player.play("run")
+	elif state == States.JUMPING:
+		animation_player.play("jump")
+	# ...
 ```
 
-So, there are some benefits to using this solution.
+Woohoo! You now have a simple finite state machine that you can use to manage your character's behavior. You can add new states and transitions easily and have a single place to manage all the conditions for changing states.
 
-However, you're left with a lot of code in one place and the ability for any function to access variables it does not need and should not be aware of. 
+This is only one finite state machine implementation that gives a good idea of the basic principles behind the pattern. It's simple and works well whenever you only need to manage a few states and transitions. With some experience, you can manage complex entities with this approach.
 
-And to do so, you want to add extra functions and conditions to change your object's properties when you enter and exit a given state. Having it all in one place is error-prone.
+The main limitations of this implementation are:
 
-Now, imagine you want to reuse some of the states for monsters. Well, with this example, either you reuse all the code or nothing. You can't just take the ability to climb walls or to make combos with a sword.
+1. It's not very visual.
+2. You cannot make the code reusable easily. If you have states you'd like multiple enemies to have access to, like patrol, follow, or flee, you'll have to copy-paste the code from one enemy to another.
 
-That's where the state pattern and finite state machines come in.
+The last issue can be addressed with relatively small changes, like turning some of the state code into a library of functions or [objects](https://school.gdquest.com/glossary/object) that can be reused across scenes and scripts.
 
-## State pattern
+Another common way to implement a finite state machine is to use separate classes for each state. This approach is called the "State pattern", a specific form of a state machine that aims to keep the code of different states completely independent.
 
-The point of the state pattern is to segregate every state into a stand-alone object. That is to say, one object for the ground or run state, one for the jump state, and so on.
+In Godot, the most popular way to implement this pattern is using nodes, which allows you to visualize and debug states easily.
 
-We also implement a state machine that keeps track of the current state, takes care of cleanly transitioning from one state to another, and always delegates update and input callbacks to the active state only.
+## Implementing a Finite State Machine with nodes
 
-![](state-diagram.png)
+Let's learn to code a finite state machine using nodes. In this implementation, we create a script that extends `Node` for each state the character can be in and put all the code for that state in the script.
 
-This has several benefits:
+I used and taught this approach years ago when I started using and making tutorials for Godot because I found it learning-friendly. The main advantages of using nodes are that:
 
-- Each state only has access to the properties it needs instead of all the other states' specific variables.
-- Optionally, we can write characters and states in such a way we can reuse behaviors.
-- Each behavior is encapsulated in one file, making it easy to debug and jump to it in your codebase.
-- The state machine becomes a generic and reusable component so we can share it in our codebase.
+- You can visualize the states in the editor without coding or using a plugin.
+- Each state lives in a separate script, keeping the code compartmentalized and short for each state.
+- You can use the node functions you're already used to when coding in Godot.
+- If you like encapsulation, you can put all the data and logic in individual state scripts. Unlike in the previous example, where all variables live in the same script.
 
-## How to code it
+The trade-offs are: 
 
-Let's see how to implement the foundations. We are going to code a simple character with idle, run, and jump states.
+- Compared to the version without objects, you tend to end up with some duplicate code because the states now have their own logic.
+- It takes more code than having it all in one script.
+If you like encapsulation, your character data and logic can become fragmented. You'll find yourself moving variables around as you iterate over your characters and need data shared between states. It's a common problem with encapsulation.
 
-We need to code two main components:
+These days, well, for one, I don't use the pattern so often, and I also prefer different implementations. Using nodes and separate scripts fragments the code too much to my taste, and you end up trading a bit of productivity for it. When I can, I favor a simpler approach, like the one we saw before.
 
-1. The `StateMachine` that will hold an active state and delegate work to it. It will also change the active state.
-1. A virtual `State` base class that every concrete state will inherit. Doing this ensures that every state has some methods the finite state machine can call.
+However, the node-based state machine is one of the community's favorite implementations and has become pretty typical in Godot. The same basic principles apply to all other possible implementations, so let's go over it.
 
-We'll start with the `State` class as the state machine uses it.
+In the State pattern, each state is one object. So, their code is not directly part of the character's physics process loop. You need a way to track the current state and manually call its update function on the engine's processing tick.
+
+For that, we can use two base scripts: 
+
+1. **A State [class](https://school.gdquest.com/glossary/class_keyword).** It's a small [virtual base class](https://school.gdquest.com/glossary/virtual_class) that ensures every state has the same set of update functions available, giving all states a common interface.
+2. **A state machine class.** It tracks the current state, changes the current state, and calls the state's update functions. This way, only the current state's code runs every frame.
+
+These two classes allow you to create multiple state machines in your projects, each with its own set of states. You can also code individual states to be pluggable and reusable across different state machines.
+
+Let's see how to code it with a simple example: a character that can stand idle, run, and jump. We'll start with the `State` class as the state machine depends on it.
 
 ### The state class
 
-We are going to make every state extends the `Node` class. This will allow us to create state nodes directly in the editor.
+In this implementation, we will use nodes for the different states. We need to be careful because if we define the `_physics_process()` or `_process()` functions in the state script and put code in there, multiple states will process simultaneously. We want only one state's code to run at a time.
 
-With a state machine, we want to control the active state and delegate process, physics process, input, and other callbacks.
+So, we define functions that will allow the state machine to control which state's code runs and when.
 
-To do so, we are going to give our state class functions a different name. Each of those is a virtual function, meaning that we want to override them to create state classes like the ground movement we will code in a moment.
+I went with five functions:
+
+1. `enter()`: It's called when the state becomes active.
+2. `exit()`: It's called when the state is about to change. The `enter()` and `exit()` functions correspond to the code we put in the `set_state()` function in the single variable implementation.
+3. `handle_input()`: The state machine calls it when receiving input events, for example, through `_unhandled_input()`.
+4. `update()`: The state machine calls it on the engine's main loop tick.
+5. `physics_update()`: The state machine calls it on the engine's physics update tick.
+
+Finally, the state emits a signal when it wants to transition to another state: `finished`. The state machine can connect to this signal and change the active state accordingly.
 
 ```gdscript
-# Virtual base class for all states.
-class_name State
-extends Node
+## Virtual base class for all states.
+## Extend this class and override its methods to implement a state.
+class_name State extends Node
 
-# Reference to the state machine, to call its `transition_to()` method directly.
-# That's one unorthodox detail of our state implementation, as it adds a dependency between the
-# state and the state machine objects, but we found it to be most efficient for our needs.
-# The state machine node will set it.
-var state_machine = null
+## Emitted when the state finishes and wants to transition to another state.
+signal finished(next_state_path: String, data: Dictionary)
 
-
-# Virtual function. Receives events from the `_unhandled_input()` callback.
+## Called by the state machine when receiving unhandled input events.
 func handle_input(_event: InputEvent) -> void:
 	pass
 
-
-# Virtual function. Corresponds to the `_process()` callback.
+## Called by the state machine on the engine's main loop tick.
 func update(_delta: float) -> void:
 	pass
 
-
-# Virtual function. Corresponds to the `_physics_process()` callback.
+## Called by the state machine on the engine's physics update tick.
 func physics_update(_delta: float) -> void:
 	pass
 
-
-# Virtual function. Called by the state machine upon changing the active state. The `msg` parameter
-# is a dictionary with arbitrary data the state can use to initialize itself.
-func enter(_msg := {}) -> void:
+## Called by the state machine upon changing the active state. The `data` parameter
+## is a dictionary with arbitrary data the state can use to initialize itself.
+func enter(previous_state_path: String, data := {}) -> void:
 	pass
 
-
-# Virtual function. Called by the state machine before changing the active state. Use this function
-# to clean up the state.
+## Called by the state machine before changing the active state. Use this function
+## to clean up the state.
 func exit() -> void:
 	pass
-
 ```
 
-### The finite state machine
+### The finite state machine class
 
-The finite state machine class uses the state. It keeps track of an active state, handles transitions between them, and delegates built-in callbacks. Like `_process()`, `_physics_process()`, and so on.
+The finite state machine class uses the state. It keeps track of the active state (for example, "running") and calls the state's functions when needed. In the game, the state machine will be the parent node of all states.
 
-We chose to let the states call the `transition_to()` method on the finite state machine in our implementation.
-
-That way, every state is responsible for defining possible transitions to other states. Also, to transition to another state, we pass in the name of the state node we want to transition to.
+First, I pick a starting state for the state machine. I use an immediately invoked function expression (IFFE) to use the first child node if no initial state is set. This way, you can optionally pick the initial state in the editor.
 
 ```gdscript
-# Generic state machine. Initializes states and delegates engine callbacks
-# (_physics_process, _unhandled_input) to the active state.
-class_name StateMachine
-extends Node
+class_name StateMachine extends Node
 
-# Emitted when transitioning to a new state.
-signal transitioned(state_name)
+## The initial state of the state machine. If not set, the first child node is used.
+@export var initial_state: State = null
 
-# Path to the initial active state. We export it to be able to pick the initial state in the inspector.
-export var initial_state := NodePath()
+## The current state of the state machine.
+@onready var state: State = (func get_initial_state() -> State:
+	return initial_state if initial_state != null else get_child(0)
+).call()
+```
 
-# The current active state. At the start of the game, we get the `initial_state`.
-onready var state: State = get_node(initial_state)
+As mentioned, the states will be children of the state machine. We can use Godot's `find_children()` function to get all the states and connect to their `finished` signal to transition to the next state. I do that in the `_ready()` function. There, we also call the first state's `enter()` function to initialize it.
+
+```gdscript
+func _ready() -> void:
+	# Give every state a reference to the state machine.
+	for state_node: State in find_children("*", "State"):
+		state_node.finished.connect(_transition_to_next_state)
+
+	# State machines usually access data from the root node of the scene they're part of: the owner.
+	# We wait for the owner to be ready to guarantee all the data and nodes the states may need are available.
+	await owner.ready
+	state.enter("")
+```
+
+Here's the `_transition_to_next_state()` function. It changes the active state when the state emits the signal. Because we use nodes for states, we can check if a state exists using `has_node()` before transitioning to it.
+
+Then, in this function, we call the current state's `exit()` function, change the active state, and call the new state's `enter()` function. This allows the exiting state to run cleanup code and the entering state to initialize itself.
+
+For example, in a gliding state, you will want to lower the character's gravity to make it fall slower. When transitioning from a gliding to a jumping state, you might want to:
+
+- Reset gravity to the default value. This should be in the gliding state's `exit()` function so that gravity is reset whenever you leave the gliding state.
+- Set the character's vertical velocity to the jump impulse. This should be in the jump state's `enter()` function.
+
+```gdscript
+func _transition_to_next_state(target_state_path: String, data: Dictionary = {}) -> void:
+	if not has_node(target_state_path):
+		printerr(owner.name + ": Trying to transition to state " + target_state_path + " but it does not exist.")
+		return
+
+	var previous_state_path := state.name
+	state.exit()
+	state = get_node(target_state_path)
+	state.enter(previous_state_path, data)
+```
+
+The rest of the code calls the state's functions to update and process input.
+
+```gdscript
+func _unhandled_input(event: InputEvent) -> void:
+	state.handle_input(event)
+
+
+func _process(delta: float) -> void:
+	state.update(delta)
+
+
+func _physics_process(delta: float) -> void:
+	state.physics_update(delta)
+```
+
+Here's the full code for the `StateMachine` class:
+
+```gdscript
+class_name StateMachine extends Node
+
+@export var initial_state: State = null
+
+@onready var state: State = (func get_initial_state() -> State:
+	return initial_state if initial_state != null else get_child(0)
+).call()
 
 
 func _ready() -> void:
-	yield(owner, "ready")
-	# The state machine assigns itself to the State objects' state_machine property.
-	for child in get_children():
-		child.state_machine = self
-	state.enter()
+	for state_node: State in find_children("*", "State"):
+		state_node.finished.connect(_transition_to_next_state)
+
+	await owner.ready
+	state.enter("")
 
 
-# The state machine subscribes to node callbacks and delegates them to the state objects.
 func _unhandled_input(event: InputEvent) -> void:
 	state.handle_input(event)
 
@@ -372,200 +448,230 @@ func _physics_process(delta: float) -> void:
 	state.physics_update(delta)
 
 
-# This function calls the current state's exit() function, then changes the active state,
-# and calls its enter function.
-# It optionally takes a `msg` dictionary to pass to the next state's enter() function.
-func transition_to(target_state_name: String, msg: Dictionary = {}) -> void:
-	# Safety check, you could use an assert() here to report an error if the state name is incorrect.
-	# We don't use an assert here to help with code reuse. If you reuse a state in different state machines
-	# but you don't want them all, they won't be able to transition to states that aren't in the scene tree.
-	if not has_node(target_state_name):
+func _transition_to_next_state(target_state_path: String, data: Dictionary = {}) -> void:
+	if not has_node(target_state_path):
+		printerr(owner.name + ": Trying to transition to state " + target_state_path + " but it does not exist.")
 		return
 
+	var previous_state_path := state.name
 	state.exit()
-	state = get_node(target_state_name)
-	state.enter(msg)
-	emit_signal("transitioned", state.name)
-
+	state = get_node(target_state_path)
+	state.enter(previous_state_path, data)
 ```
 
-Another approach to state transitions would be to have every function of the `State` class return an arbitrary text string or enum member and let the `StateMachine` handle all the transitions. That second approach can help make states a bit more reusable between scenes as they do not know the other available states they can transition to.
+Now, we can create concrete states so you see how to use the state machine in practice.
 
-Although the `StateMachine.transition_to()` method above uses a conditional check to make the system work even if states try to transition to an unavailable one.
+### The player scene
 
-## Applying the state pattern to our player
+In this example, I have a player character that's a `CharacterBody2D` node. It has a minimal script with exported variables to control the character's speed, jump impulse, and gravity. In this script, you can expose all the properties and functions you want your states to access.
 
-Let's see how to code the foundations of our character now. We will create three new scripts that extend `State`, one for each of three states our character will have: idle, run, and air that will handle both jump and fall.
+```gdscript
+class_name Player extends CharacterBody2D
 
-The `State` objects will take control of a host. In our case, it will always be the scene's root node. To that end, we set up our scene structure with a _KinematicBody2D_ as the root named _Player_, which has a _CollisionShape2D_, and a _Sprite_.
+@export var speed := 500.0
+@export var gravity := 4000.0
+@export var jump_impulse := 1800.0
+```
 
-![](player-scene-start.png)
+This node is the host of the state machine: The states are components that take control of a given node and access any other nodes they need through it.
 
-We also add a node with our `StateMachine.gd` script attached to it, and three more nodes with three new `Idle`, `Run`, and `Air` scripts that all extend `State`.
-
-![](player-scene-done.png)
-
-There are two ways you can go about controlling the _Player_ from the state nodes:
+There are two ways you can go about controlling the player from the state scripts:
 
 1. Have all the character controller's properties stored on the root _Player_ node.
 2. Have properties defined in the relevant state, like having `jump_impulse` on the jump state only.
 
-We'll use the first approach because it allows configuring an instance of the player in another scene. It generally groups all the scene's settings in one place, and it'll also allow you to write shared code in the `Player.gd` script, to which all states will have access.
+I prefer using the first approach because it allows easy tweaking of the player variables.
 
-### Writing the first state
+In Godot, we can access the root node of the scene the state is part of using the `owner` property. Alternatively, you can define properties on individual states to control which nodes they affect and to change their settings. This way, you can reuse state scripts across different characters or entities. For a playable character in a single-player game, that's unnecessary, so I use the `owner` property below.
 
-Now, we can start to control the _Player_ node from our state scripts.
+Let's go over the player states' code to get a better idea of how it all ties together.
 
-For each state, we only have to override the methods that it needs. In the case of idle, we only define transitions when pressing a key. If it is <kbd>Left</kbd> or <kbd>Right</kbd>, we go to the run state. If we press <kbd>Space</kbd>, we go to the jump state. Finally, if the floor disappears from under the character, we transition to the air state so it falls.
+### Implementing the states
 
-```gdscript
-# Idle.gd
-extends State
-
-# Upon entering the state, we set the Player node's velocity to zero.
-func enter(_msg := {}) -> void:
-	# We must declare all the properties we access through `owner` in the `Player.gd` script.
-	owner.velocity = Vector2.ZERO
-
-
-func update(delta: float) -> void:
-	# If you have platforms that break when standing on them, you need that check for 
-	# the character to fall.
-	if not owner.is_on_floor():
-		state_machine.transition_to("Air")
-		return
-
-	if Input.is_action_just_pressed("move_up"):
-		# As we'll only have one air state for both jump and fall, we use the `msg` dictionary 
-		# to tell the next state that we want to jump.
-		state_machine.transition_to("Air", {do_jump = true})
-	elif Input.is_action_pressed("move_left") or Input.is_action_pressed("move_right"):
-		state_machine.transition_to("Run")
-```
-
-Notice the use of `Node.owner` in the `enter()` function. In a saved scene, the `owner` property points to the root node. In our player's scene, every node's `owner` points to the _Player_ node. 
-
-It's a convenient property the engine uses for scene serialization and that we can leverage. It has a limitation, though: its type is `Node`, so in the editor, we don't get full auto-completion and linting errors for the node the states control.
-
-### Adding auto-completion and type checks
-
-We can improve the situation by creating a short and specific `PlayerState` script. It contains some boilerplate code to get full completion and type checks for the `Player` node.
-
+First, to get good autocompletion and type checks in the editor, I create a base class that extends `State` and stores a typed reference to the `owner` node. I also create constants to represent the different states the character can be in and help limit the risk of typos when transitioning between states.
 
 ```gdscript
-# Boilerplate class to get full autocompletion and type checks for the `player` when coding the player's states.
-# Without this, we have to run the game to see typos and other errors the compiler could otherwise catch while scripting.
-class_name PlayerState
-extends State
+class_name PlayerState extends State
 
-# Typed reference to the player node.
+const IDLE = "Idle"
+const RUNNING = "Running"
+const JUMPING = "Jumping"
+const FALLING = "Falling"
+
 var player: Player
 
 
 func _ready() -> void:
-	# The states are children of the `Player` node so their `_ready()` callback will execute first.
-	# That's why we wait for the `owner` to be ready first.
-	yield(owner, "ready")
-	# The `as` keyword casts the `owner` variable to the `Player` type.
-	# If the `owner` is not a `Player`, we'll get `null`.
+	await owner.ready
 	player = owner as Player
-	# This check will tell us if we inadvertently assign a derived state script
-	# in a scene other than `Player.tscn`, which would be unintended. This can
-	# help prevent some bugs that are difficult to understand.
-	assert(player != null)
+	assert(player != null, "The PlayerState state type must be used only in the player scene. It needs the owner to be a Player node.")
 ```
 
-We then update the `Idle` state to extend `PlayerState` and replace every occurrence of `owner` by our new `player` variable.
+Then, I create scripts that extend `PlayerState` for the idle, running, jumping, and falling states.
+
+![](player_state_files.png)
+
+In the player scene, I instantiate the state machine and add the states as children of the state machine node.
+
+![](player_scene_tree.png)
+
+Here's the code for the idle state. Upon entering the state, I set the player's horizontal velocity to zero. In this example, we assume that nothing can push the player when idle, so it should not move horizontally.
+
+In the `physics_update()` function, I apply gravity to make the character fall when the floor disappears from under them and check for input to transition to the running or jumping state.
 
 ```gdscript
 extends PlayerState
 
-
-func enter(_msg := {}) -> void:
-	player.velocity = Vector2.ZERO
-
+func enter(previous_state_path: String, data := {}) -> void:
+	player.velocity.x = 0.0
+	player.animation_player.play("idle")
 
 func physics_update(_delta: float) -> void:
-	if not player.is_on_floor():
-		state_machine.transition_to("Air")
-		return
+	player.velocity.y += player.gravity * _delta
+	player.move_and_slide(velocity, FLOOR_NORMAL)
 
-	if Input.is_action_just_pressed("move_up"):
-		state_machine.transition_to("Air", {do_jump = true})
+	if not player.is_on_floor():
+		finished.emit(FALLING)
+	elif Input.is_action_just_pressed("move_up"):
+		finished.emit(JUMPING)
 	elif Input.is_action_pressed("move_left") or Input.is_action_pressed("move_right"):
-		state_machine.transition_to("Run")
+		finished.emit(RUNNING)
 ```
 
-### The Run state
-
-Here is now the run state, in which we use the owner property of the node to control the player. 
+The running state is similar but has extra logic to move the player horizontally. Actually, all of these simple states follow a similar pattern: they change the animation on enter, have some movement logic in `physics_update()`, and check for input to transition to another state.
 
 ```gdscript
-# Run.gd
 extends PlayerState
 
+func enter(previous_state_path: String, data := {}) -> void:
+	player.animation_player.play("run")
 
 func physics_update(delta: float) -> void:
-	# Notice how we have some code duplication between states. That's inherent to the pattern,
-	# although in production, your states will tend to be more complex and duplicate code
-	# much more rare.
+	var input_direction_x := Input.get_axis("move_left", "move_right")
+	player.velocity.x = player.speed * input_direction_x
+	player.velocity.y += player.gravity * delta
+	player.move_and_slide()
+
 	if not player.is_on_floor():
-		state_machine.transition_to("Air")
-		return
-
-	# We move the run-specific input code to the state.
-	# A good alternative would be to define a `get_input_direction()` function on the `Player.gd`
-	# script to avoid duplicating these lines in every script.
-	var input_direction_x: float = (
-		Input.get_action_strength("move_right")
-		- Input.get_action_strength("move_left")
-	)
-	player.velocity.x = player.speed * input_direction_x
-	player.velocity.y += player.gravity * delta
-	player.velocity = player.move_and_slide(player.velocity, Vector2.UP)
-
-	if Input.is_action_just_pressed("move_up"):
-		state_machine.transition_to("Air", {do_jump = true})
+		finished.emit(FALLING)
+	elif Input.is_action_just_pressed("move_up"):
+		finished.emit(JUMPING)
 	elif is_equal_approx(input_direction_x, 0.0):
-		state_machine.transition_to("Idle")
+		finished.emit(IDLE)
 ```
 
-### The Air state
-
-Finally, we have the air state. It controls the jump and fall, which you could alternatively split into two states. I like to merge them into one because I want the horizontal air movement to be consistent whether the character is going up or down.
+The jumping state changes the player's vertical velocity on entry to make them jump. It applies gravity each frame to make the player fall back down. The state checks if the player is on the floor to transition to the idle state and if the player is falling to transition to the falling state.
 
 ```gdscript
-# Air.gd
 extends PlayerState
 
-
-# If we get a message asking us to jump, we jump.
-func enter(msg := {}) -> void:
-	if msg.has("do_jump"):
-		player.velocity.y = -player.jump_impulse
-
+func enter(previous_state_path: String, data := {}) -> void:
+	player.velocity.y = -player.jump_impulse
+	player.animation_player.play("jump")
 
 func physics_update(delta: float) -> void:
-	# Horizontal movement.
-	var input_direction_x: float = (
-		Input.get_action_strength("move_right")
-		- Input.get_action_strength("move_left")
-	)
+	var input_direction_x := Input.get_axis("move_left", "move_right")
 	player.velocity.x = player.speed * input_direction_x
-	# Vertical movement.
 	player.velocity.y += player.gravity * delta
-	player.velocity = player.move_and_slide(player.velocity, Vector2.UP)
+	player.move_and_slide()
 
-	# Landing.
-	if player.is_on_floor():
-		if is_equal_approx(player.velocity.x, 0.0):
-			state_machine.transition_to("Idle")
-		else:
-			state_machine.transition_to("Run")
+	if player.velocity.y >= 0:
+		finished.emit(FALLING)
 ```
 
-Compared to our initial example, grouping all the logic in one place, you can see how much code and setup using a state machine adds. With only three states like these and an un-refined movement, it's probably not worth it. As with many patterns, it's only as your projects grow in complexity that you start to benefit from them.
+Finally, here's the falling state. It's similar to running and gives the player control over the character while falling. The main difference is that the player can't jump while falling.
 
-That's why we saw a simpler solution first. I invite you only to use a state machine when you need it, which you'll learn to judge through practice.
+```gdscript
+extends PlayerState
 
-**If you liked this guide, you'll certainly like our course [Godot 2D Secrets](https://school.gdquest.com/products/godot_2d_secrets_godot_3), in which you'll find many more in-depth Godot tutorials to take your skills to the next level.**
+func enter(previous_state_path: String, data := {}) -> void:
+	player.animation_player.play("fall")
+
+func physics_update(delta: float) -> void:
+	var input_direction_x := Input.get_axis("move_left", "move_right")
+	player.velocity.x = player.speed * input_direction_x
+	player.velocity.y += player.gravity * delta
+	player.move_and_slide()
+
+	if player.is_on_floor():
+		if is_equal_approx(input_direction_x, 0.0):
+			finished.emit(IDLE)
+		else:
+			finished.emit(RUNNING)
+```
+
+Compared to the single variable implementation, this approach adds more total code and multiple files to browse to update the character. It also keeps individual states' code short and compartmentalized. 
+
+The idea behind the State pattern is just that: to keep the code for each state separate, typically using objects. This way, you can add new states and behaviors to your character without changing the other states' logic; you just have to add new transitions.
+
+There are many alternative implementations for this pattern. Once you have the basic idea, it does not really matter if the objects representing the states are nodes, inner classes, or scripts that extend `RefCounted` and that you load and instantiate in your character class.
+
+If you don't particularly want to see states as nodes in the scene, I suggest trying inner classes to keep all the code in one file. It allows quick navigation, a quick overview of all your character's code structure with folding, 
+
+## When to use either implementation
+
+We just saw two implementations of a state machine. But how do you pick which to use?
+
+There are two cases in which I would recommend using the State pattern over a simpler script with a `state` variable:
+
+1. If you have a really complex character with pretty long state code, like the player controller of a commercial platformer or Metroidvania game, the separation can make the cognitive load of the code a bit easier to manage as you will spend months, if not years, refining it. Having separate classes for the states can make the growing code easier to navigate.
+2. If you need to make states that can be reused across different characters or entities. If all your character logic is imperative and contained in one script, you cannot reuse the code elsewhere. However, reusability can also come from simpler approaches like writing a function library.
+
+In either case, I would only introduce the State pattern once it becomes necessary for the project. I typically prototype with the simplest code possible first, and once I have a good idea of how the character should behave and feel, I [refactor](https://school.gdquest.com/glossary/refactor) it. It is much faster to iterate over a simple script than a state machine with separate classes.
+
+Even if you end up refactoring the code later, starting with the simplest code possible is often a good idea as you're likely to throw it away or need to rewrite it anyway.
+
+## Benefits and drawbacks of using a state machine
+
+At the beginning of the guide, we saw the problem state machines help solve: They allow us to add new mechanics and behaviors to an entity without changing the existing code. That's their main advantage.
+
+Another advantage is that, because you can organize your code, it's easier to find the logic for a specific behavior and to isolate bugs when the entity has a lot of code. You can also use different implementations of state machines to make behaviors reusable throughout your game.
+
+The main drawbacks are:
+
+1. They can be overkill for simple entities. You don't need a state machine if you have a character that can only run and jump. Just write the code!
+2. State machines can make the code a bit longer and slower to read overall, depending on how you implement them. You need to read all the code of an entity to understand what it does exactly. The more boilerplate and splitting you have, the more time it takes to read and navigate the code.
+3. You may end up duplicating code. Each state has its own logic and you may end up with similar code in multiple states. You can address this problem by moving shared code to a library of functions or objects you can reuse across states.
+4. State machines tend to have a rigid structure and don't scale well to behaviors with complex interactions. We've seen how you need to code the transitions between states manually. If you have dozens of states that can transition to each other in all sorts of ways, it can become difficult to manage.
+
+You can address the last problem by splitting complex state machines into multiple state machines running in parallel or by extending the State pattern with more features. For example, you can give states a hierarchy so that a state can have child states that can only execute in sequence (for attack combos, for example).
+
+## Conclusion
+
+Simple state machines and the State pattern are useful tools for game characters, mobs, or any entity following movement and attack patterns.
+
+In this guide, you learned how to implement a state machine in two ways in Godot: with a single variable and functions and with nodes. You've also seen the State pattern's benefits and drawbacks and when to use it.
+
+You can find the companion demo for this guide in the [Godot design pattern demos repository](https://github.com/gdquest-demos/godot-design-patterns).
+
+## Your questions
+
+<details>
+<summary>How would I connect to signals in different states?</summary>
+
+What if the state needs to listen to signals like a timer timing out or a hurtbox detecting a hit? You can connect to signals in the state's `enter()` function and disconnect in the `exit()` function. This way, you ensure that the state listens to signals only when it's active.
+
+```gdscript
+func enter(previous_state_path: String, data := {}) -> void:
+	player.cooldown_timer.timeout.connect(_on_cooldown_timeout)
+
+func exit() -> void:
+	player.cooldown_timer.timeout.disconnect(_on_cooldown_timeout)
+
+func _on_cooldown_timeout() -> void:
+	finished.emit(IDLE)
+```
+</details>
+
+<details>
+<summary>Should I use a state machine plugin?</summary>
+Plugins are good for visualization, but they have a major caveat for me: To make an all-purpose state machine plugin, you tend to rely on strings, signals, and dynamic typing. So, you introduce code and data that will not give you good auto-completion or error reporting during development.
+
+Plus, as you can see, implementing a state machine can take as little as a couple dozen lines of code, and you can add features to it as needed.
+
+If you have some experience, this isn't much work, and you can tailor the pattern to your needs and preferences. 
+
+I recommend using a state machine plugin mostly if you have teammates who need a user interface to set up and wire a state machine but are uncomfortable with code. 
+
+Other patterns, like behavior trees, can make more sense to use as a library or plugin because they involve much more code and can benefit from being written in a language like C++ for performance, like bitbrain's [beehave](https://github.com/bitbrain/beehave) plugin. However, state machines are a simple structure.
+</details>
