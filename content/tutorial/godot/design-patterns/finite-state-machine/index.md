@@ -40,7 +40,7 @@ There are four conditions for talking about a state machine:
 1. There is a fixed set of states.
 1. The machine can be in one state at a time. 
 1. The machine receives events like inputs or signals. 
-1. States have transitions mapped to events. When a state receive a given event, it tells the machine to transition to the corresponding state.
+1. The states have transitions mapped to events. When a state receives a given event, it tells the machine to transition to the corresponding state.
 
 We can naturally represent the behaviors of a game character with a little graph like this.
 
