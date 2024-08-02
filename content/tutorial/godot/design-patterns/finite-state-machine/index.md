@@ -54,15 +54,15 @@ You use finite state machines to:
 - Control better the transitions between states, ensuring that the character doesn't play the wrong animation in a given state, for example.
 - Split your code into separate states, making reading and isolating behaviors easier.
 
-It's an alternative to other forms of composition, to stacks for tracking navigation, or to more powerful patterns like goal oriented action planning and behavior trees for AIs.
+State machines constitute an alternative to other forms of composition such as stacks (for tracking navigation), or more powerful patterns like Goal Oriented Action Planning and behavior trees (for AIs).
 
-The caveat of state machines is that their structure is inflexible: the entity can only be in one of the states you define at a time, and the transitions between states are often hard-coded. It works very well for simple pattern-based AIs and player characters. For example, the main character of Celeste uses a finite state machine.
+The caveat of state machines is that their structure is inflexible: the entity can only be in one of the states you define at a time, and the transitions between states are often hard-coded. It works very well for simple pattern-based AIs and player characters. For example, the main character of the game Celeste uses a finite state machine.
 
 You can introduce a state machine in your game when you have a character or another game entity that can be in different states, and you don't feel like you can manage all the behaviors with simple imperative code.
 
 ## The problem with boolean variables
 
-Let's start with a simple example to illustrate the problem the state pattern helps solve. Imagine that you have a character that needs to stand idle, run, and jump.
+Let's start with a simple example to illustrate the problem that the state pattern helps solve. Imagine that you have a character that needs to stand idle, run, and jump.
 
 ![](beginner-platformer.png)
 
