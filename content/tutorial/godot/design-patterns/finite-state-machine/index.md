@@ -109,7 +109,7 @@ Simple enough! Now, what if you want the player to be able to glide when it's in
 
 A typical way to differentiate this new gliding behavior is to add a boolean variable to the script. You can then check this variable in `_physics_process()` to change the character's behavior. 
 
-This code just shows the changes related to animation, which is a very easy way to demonstrate the problem. In a real project, you'd have to add more checks to handle the character's movement, jump, and other mechanics.
+This code shows the changes related to animation, which is a very easy way to demonstrate the problem.
 
 ```gdscript
 # ...
@@ -146,6 +146,88 @@ What do you notice? Two things are not great:
 
 1. I have to add one boolean to track if the character is gliding. So, when I add a new mechanic, I likely need to add a new boolean variable to track it. If my character can glide, climb ladders, and shoot, I'll have to keep track of three new boolean variables? That's not great.
 2. I had to edit the existing jump animation logic to add a new glide animation. So, to add a new mechanic, I have to change the code for the existing mechanics. That's not great either.
+
+Below, you can find a longer code example for managing a character's behavior that can move, jump, and glide using boolean variables.
+
+<details>
+<summary>Gliding player code without a finite state machine</summary>
+
+In this code example, we use one boolean variable per behavior the character can have. Notice how many booleans we have to change each time the character changes behavior.
+
+It's necessary with this approach because a given behavior can be triggered by several others: you can fall from gliding, jumping, or when standing on a disappearing platform, for example.
+
+Also, notice how we have to change to the same animation from multiple code blocks in the `_physics_process()` function.
+
+```gdscript
+extends CharacterBody2D
+
+var is_idle = true
+var is_running = false
+var is_jumping = false
+var is_falling = false
+var is_gliding = false
+
+# ...
+
+func _physics_process(delta: float) -> void:
+	var input_direction_x := Input.get_axis("move_left", "move_right")
+
+	# Initiating a jump.
+	if (is_idle or is_running or is_gliding) and Input.is_action_just_pressed("move_up"):
+		animation_player.play("jump")
+		var impulse := jump_impulse
+		velocity.y = -jump_impulse
+		if is_gliding:
+			current_gravity = base_gravity
+
+		is_idle = false
+		is_running = false
+		is_gliding = false
+		is_jumping = true
+	elif (is_jumping and velocity.y > 0.0) or ((is_idle or is_running) and not is_on_floor()):
+		animation_player.play("fall")
+
+		is_idle = false
+		is_running = false
+		is_jumping = false
+		is_falling = true
+	elif (is_jumping or is_falling) and Input.is_action_just_pressed("glide"):
+		animation_player.play("glide")
+
+		is_jumping = false
+		is_falling = false
+		is_gliding = true
+		current_gravity = glide_gravity
+		velocity.y = max(velocity.y, 0.0)
+	elif is_gliding and Input.is_action_just_pressed("move_up"):
+		animation_player.play("jump")
+
+		is_jumping = true
+		is_gliding = false
+		velocity.y = -glide_jump_impulse
+		current_gravity = base_gravity
+	elif is_gliding and (get_slide_collision_count() > 0 or Input.is_action_just_pressed("glide")):
+		animation_player.play("fall")
+
+		is_falling = true
+		is_gliding = false
+		current_gravity = base_gravity
+	elif is_on_floor():
+		is_jumping = false
+		is_falling = false
+		is_gliding = false
+		if input_direction_x != 0.0:
+			is_running = true
+			animation_player.play("run")
+		else:
+			is_idle = true
+			velocity.x = 0.0
+			animation_player.play("idle")
+```
+
+Of course, there are ways to simplify this code. You could use the currently playing animation to determine the character's state, for example. But that'd be using the animations as a finite state machine! So, that's an alternative to what we'll learn next.
+
+</details>
 
 If you try adding a dozen more mechanics like that, using only boolean variables to keep track of your character's current state, it soon becomes error-prone. You quickly end up with too many conditions to check to know what the character can or cannot do.
 
