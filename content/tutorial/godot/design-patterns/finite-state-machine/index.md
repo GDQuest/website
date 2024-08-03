@@ -233,7 +233,7 @@ If you try adding a dozen more mechanics like that, using only boolean variables
 
 That's where finite state machines come in.
 
-## Implementing a Final State Machine with one variable 
+## Implementing a Finite State Machine with one variable 
 
 The first version of the finite state machine I want to show you is the simplest one, and it works in many cases. It consists of replacing all the boolean variables you might introduce with a single variable that keeps track of the character's current state.
 
