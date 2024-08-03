@@ -100,7 +100,7 @@ func _physics_process(delta: float) -> void:
 	else:
 		animation_player.play("idle")
 
-	move_and_slide(velocity)
+	move_and_slide()
 ```
 
 In its update loop, you write all the conditions for it to do all these actions, and it goes just fine. `CharacterBody2D` in Godot makes it especially easy to detect if the character is jumping thanks to the `is_on_floor()` function.
@@ -610,7 +610,7 @@ func enter(previous_state_path: String, data := {}) -> void:
 
 func physics_update(_delta: float) -> void:
 	player.velocity.y += player.gravity * _delta
-	player.move_and_slide(velocity, FLOOR_NORMAL)
+	player.move_and_slide()
 
 	if not player.is_on_floor():
 		finished.emit(FALLING)
