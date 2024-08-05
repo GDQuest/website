@@ -16,7 +16,7 @@ title: Finite State Machine in Godot 4
 weight: 2
 ---
 
-In this guide, you'll learn to create a Finite State Machine (FSM) in Godot 4. We'll talk about the problem this pattern tries to solve and see two ways to implement it: using a simple variable and functions, and using nodes for a visual representation.
+In this guide, you will learn how to create a Finite State Machine (FSM) in Godot 4. We'll talk about the problem this pattern tries to solve and see two ways to implement it: using a simple variable and functions, and using nodes for a visual representation.
 
 You'll learn:
 
