@@ -343,7 +343,7 @@ This is only one finite state machine implementation that gives a good idea of t
 The main limitations of this implementation are:
 
 1. It's not very visual.
-2. You cannot make the code reusable easily. If you have states you'd like multiple enemies to have access to, like patrol, follow, or flee, you'll have to copy-paste the code from one enemy to another.
+2. You cannot easily make the code reusable. If you have states that you'd like multiple enemies to have access to, like patrol, follow, or flee, you'll have to copy-paste the code from one enemy to another.
 
 The last issue can be addressed with relatively small changes, like turning some of the state code into a library of functions or [objects](https://school.gdquest.com/glossary/object) that can be reused across scenes and scripts.
 
@@ -355,22 +355,22 @@ In Godot, the most popular way to implement this pattern is using nodes, which a
 
 Let's learn to code a finite state machine using nodes. In this implementation, we create a script that extends `Node` for each state the character can be in and put all the code for that state in the script.
 
-I used and taught this approach years ago when I started using and making tutorials for Godot because I found it learning-friendly. The main advantages of using nodes are that:
+I used and taught this approach years ago when I first stared making tutorials for Godot because I found it learning-friendly. The main advantages of using nodes are that:
 
 - You can visualize the states in the editor without coding or using a plugin.
 - Each state lives in a separate script, keeping the code compartmentalized and short for each state.
 - You can use the node functions you're already used to when coding in Godot.
-- If you like encapsulation, you can put all the data and logic in individual state scripts. Unlike in the previous example, where all variables live in the same script.
+- You can put all the data and logic in individual state scripts, unlike in the previous example where all variables live in the same script. This is great if you like encapsulation.
 
 The trade-offs are: 
 
-- Compared to the version without objects, you tend to end up with some duplicate code because the states now have their own logic.
+- Compared to the version without objects, you tend to end up with some duplicate code because each state now has its own logic.
 - It takes more code than having it all in one script.
 If you like encapsulation, your character data and logic can become fragmented. You'll find yourself moving variables around as you iterate over your characters and need data shared between states. It's a common problem with encapsulation.
 
-These days, well, for one, I don't use the pattern so often, and I also prefer different implementations. Using nodes and separate scripts fragments the code too much to my taste, and you end up trading a bit of productivity for it. When I can, I favor a simpler approach, like the one we saw before.
+These days, I tend to choose different implementations over the state pattern. Using nodes and separate scripts fragments the code too much for my taste, and you end up trading a bit of productivity for it. Whenever possible, I favor a simpler approach, like the one we saw before with the single variable.
 
-However, the node-based state machine is one of the community's favorite implementations and has become pretty typical in Godot. The same basic principles apply to all other possible implementations, so let's go over it.
+Nevertheless, the node-based state machine remains one of the community's favorite implementations and has become pretty typical in Godot. The same basic principles apply to it as to all other possible implementations. Let's go over them!
 
 In the State pattern, each state is one object. So, their code is not directly part of the character's physics process loop. You need a way to track the current state and manually call its update function on the engine's processing tick.
 
