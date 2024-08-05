@@ -62,7 +62,7 @@ You can introduce a state machine in your game when you have a character or anot
 
 ## The problem with boolean variables
 
-Let's start with a simple example to illustrate the problem that the state pattern helps solve. Imagine that you have a character that needs to stand idle, run, and jump.
+Let's start with a simple example to illustrate the problem that the State pattern helps solve. Imagine that you have a character that needs to stand idle, run, and jump.
 
 ![](beginner-platformer.png)
 
