@@ -147,10 +147,10 @@ What do you notice? Two things are not great:
 1. I have to add one boolean to track if the character is gliding. So, when I add a new mechanic, I likely need to add a new boolean variable to track it. If my character can glide, climb ladders, and shoot, I'll have to keep track of three new boolean variables? That's not great.
 2. I had to edit the existing jump animation logic to add a new glide animation. So, to add a new mechanic, I have to change the code for the existing mechanics. That's not great either.
 
-Below, you can find a longer code example for managing a character's behavior that can move, jump, and glide using boolean variables.
+For a character that can move, jump and glide, here's an example of what your code would look like if you tried managing the character's behavior using boolean variables:
 
 <details>
-<summary>Gliding player code without a finite state machine</summary>
+<summary>Examine gliding player code **without** a finite state machine</summary>
 
 In this code example, we use one boolean variable per behavior the character can have. Notice how many booleans we have to change each time the character changes behavior.
 
@@ -372,7 +372,7 @@ These days, I tend to choose different implementations over the state pattern. U
 
 Nevertheless, the node-based state machine remains one of the community's favorite implementations and has become pretty typical in Godot. The same basic principles apply to it as to all other possible implementations. Let's go over them!
 
-In the State pattern, each state is one object. So, their code is not directly part of the character's physics process loop. You need a way to track the current state and manually call its update function on the engine's processing tick.
+In the State pattern, each state is one object. So, its code is not directly part of the character's physics process loop. You need a way to track the current state and manually call its update function on the engine's processing tick.
 
 For that, we can use two base scripts: 
 
@@ -381,7 +381,7 @@ For that, we can use two base scripts:
 
 These two classes allow you to create multiple state machines in your projects, each with its own set of states. You can also code individual states to be pluggable and reusable across different state machines.
 
-Let's see how to code it with a simple example: a character that can stand idle, run, and jump. We'll start with the `State` class as the state machine depends on it.
+Let's see how to do this with a simple example: a character that can stand idle, run, and jump. We'll start with the `State` class as the state machine depends on it.
 
 ### The state class
 
@@ -434,7 +434,7 @@ func exit() -> void:
 
 The finite state machine class uses the state. It keeps track of the active state (for example, "running") and calls the state's functions when needed. In the game, the state machine will be the parent node of all states.
 
-First, I pick a starting state for the state machine. I use an immediately invoked function expression (IFFE) to use the first child node if no initial state is set. This way, you can optionally pick the initial state in the editor.
+First, I pick a starting state for the state machine. I use an immediately invoked function expression (IIFE) to use the first child node if no initial state is set. This way, you can optionally pick the initial state in the editor.
 
 ```gdscript
 class_name StateMachine extends Node
@@ -541,7 +541,7 @@ func _transition_to_next_state(target_state_path: String, data: Dictionary = {})
 	state.enter(previous_state_path, data)
 ```
 
-Now, we can create concrete states so you see how to use the state machine in practice.
+Now that we can create concrete states, let's see how to use the state machine in practice.
 
 ### The player scene
 
@@ -566,7 +566,7 @@ I prefer using the first approach because it allows easy tweaking of the player 
 
 In Godot, we can access the root node of the scene the state is part of using the `owner` property. Alternatively, you can define properties on individual states to control which nodes they affect and to change their settings. This way, you can reuse state scripts across different characters or entities. For a playable character in a single-player game, that's unnecessary, so I use the `owner` property below.
 
-Let's go over the player states' code to get a better idea of how it all ties together.
+Let's go over the code of the player states to get a better idea of how it all ties together.
 
 ### Implementing the states
 
@@ -682,7 +682,7 @@ func physics_update(delta: float) -> void:
 			finished.emit(RUNNING)
 ```
 
-Compared to the single variable implementation, this approach adds more total code and multiple files to browse to update the character. It also keeps individual states' code short and compartmentalized. 
+Compared to the single variable implementation, this approach adds more total code and multiple files to browse to update the character. On the other hand, it keeps the code of individual states short and compartmentalized. 
 
 The idea behind the State pattern is just that: to keep the code for each state separate, typically using objects. This way, you can add new states and behaviors to your character without changing the other states' logic; you just have to add new transitions.
 
@@ -705,7 +705,7 @@ Even if you end up refactoring the code later, starting with the simplest code p
 
 ## Benefits and drawbacks of using a state machine
 
-At the beginning of the guide, we saw the problem state machines help solve: They allow us to add new mechanics and behaviors to an entity without changing the existing code. That's their main advantage.
+At the beginning of the guide, we examined the problem that state machines help us solve: They allow us to add new mechanics and behaviors to an entity without changing the existing code. That's their main advantage.
 
 Another advantage is that, because you can organize your code, it's easier to find the logic for a specific behavior and to isolate bugs when the entity has a lot of code. You can also use different implementations of state machines to make behaviors reusable throughout your game.
 
@@ -751,9 +751,9 @@ Plugins are good for visualization, but they have a major caveat for me: To make
 
 Plus, as you can see, implementing a state machine can take as little as a couple dozen lines of code, and you can add features to it as needed.
 
-If you have some experience, this isn't much work, and you can tailor the pattern to your needs and preferences. 
+With a little bit of experience, this isn't much work, and you can tailor the pattern to your needs and preferences. 
 
 I recommend using a state machine plugin mostly if you have teammates who need a user interface to set up and wire a state machine but are uncomfortable with code. 
 
-Other patterns, like behavior trees, can make more sense to use as a library or plugin because they involve much more code and can benefit from being written in a language like C++ for performance, like bitbrain's [beehave](https://github.com/bitbrain/beehave) plugin. However, state machines are a simple structure.
+Other patterns, like behavior trees, can make more sense to use as a library or plugin because they involve much more code and can benefit from being written in a language like C++ for performance, (eg: bitbrain's [beehave](https://github.com/bitbrain/beehave) plugin). However, state machines are a simple structure.
 </details>
