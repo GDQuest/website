@@ -90,9 +90,48 @@
     content: "close";
   }
 
+  .banner_summer_2024_closedBannerCallout {
+    font-size: 1rem;
+    font-weight: 700;
+    margin:0;
+    color: white;
+    text-transform: uppercase;
+    font-family:
+      var(--font-montserrat),
+      Montserrat,
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      Segoe UI,
+      Roboto,
+      Helvetica Neue,
+      Arial,
+      Noto Sans,
+      sans-serif,
+      Apple Color Emoji,
+      Segoe UI Emoji,
+      Segoe UI Symbol,
+      Noto Color Emoji;
+  }
+  .banner_summer_2024_onlyWhenClosed {
+    display: block;
+  }
+  .banner_summer_2024_onlyWhenOpen {
+    display: none;
+  }
+
   .banner_summer_2024_isClosed {
     max-height: 0;
   }
+
+  .banner_summer_2024_isClosed .banner_summer_2024_onlyWhenClosed {
+    display: none;
+  }
+  .banner_summer_2024_isClosed .banner_summer_2024_onlyWhenOpen {
+    display: block;
+  }
+
   .banner_summer_2024_isClosed .banner_summer_2024_main{
     visibility: hidden;
   }
@@ -774,10 +813,13 @@
     </svg>
   </div>
   <div class="banner_summer_2024_footer">
-    <span> 
+    <span class="banner_summer_2024_onlyWhenClosed">
       Duck 3d Model by <a href="https://skfb.ly/oGQXr">Ryan King Art</a>,
       Flowers courtesy of <a href="https://www.freepik.com">Freepik</a>.
     </span>
+    <h4 class="banner_summer_2024_onlyWhenOpen banner_summer_2024_closedBannerCallout">
+      Catch the summer sale!
+    </h4>
     <button
       id="banner_summer_2024_close_button"
       aria-label="open or close banner"
