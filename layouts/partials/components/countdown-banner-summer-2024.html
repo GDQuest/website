@@ -846,7 +846,7 @@
     };
 
     const getPaddedDays = ({ days }, padding = 2) =>
-      String(days).padStart(padding, "0");
+      String(days + 1).padStart(padding, "0");
 
     const createCountdownTimer = (endDate, onTick, refreshRate = 1000) => {
       const interval = setInterval(() => {
@@ -871,8 +871,8 @@
       return createCountdownTimer(endDate, onUpdate, refreshRate);
     };
 
-    const endDate = new Date("2024-08-26").getTime();
-
+    const endDate = new Date("2024-08-26T00:00:00.000+02:00").getTime();
+    
     const initialDays = getPaddedDays(getTimeRemaining(endDate), 1);
 
     const setDaysRemaining = (days) => {
