@@ -46,6 +46,8 @@
 		gap: 1rem;
 		justify-content: center;
 		align-items: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 	@media (min-width: 800px) {
 		.sales-banner-wrap-container {
@@ -87,6 +89,12 @@
 		font-weight: 700;
 		color: rgb(103 37 214);
 		text-transform: uppercase;
+	}
+	.sales-banner-text-asterisk{
+		font-size: 0.8rem;
+		font-weight: 700;
+		color: rgb(103 37 214);
+		padding-top: .2rem;
 	}
 	@media (min-width: 800px) {
 		.sales-banner-text-pre-order {
@@ -150,6 +158,7 @@
 			right: 0;
 			margin-top: 0;
 			height: 10rem;
+			bottom: 0;
 		}
 	}
 
@@ -187,7 +196,8 @@
 		.days-counter-container {
 			position: absolute;
 			bottom: 0;
-			right: 0;
+			right: -5rem;
+			padding-right: 1rem;
 		}
 	}
 	.days-counter-top-row {
@@ -227,7 +237,7 @@
 	@media (min-width: 800px) {
 		.days-counter-button {
 			font-size: 1.15rem;
-			padding: 1rem;
+			padding: 0.7rem 1rem;
 		}
 	}
 </style>
@@ -235,9 +245,8 @@
 <!-- Sales coupon banner -->
 <div id="sales-banner" class="sales-banner">
 	<div class="sales-banner-container">
-		<div class="sales-banner-text-header">
-			Godot 4 courses Launching in Early Access starting Jan 30
-		</div>
+		
+		
 		<div class="sales-banner-wrap-container">
 			<div class="sales-banner-lucy-parent-container">
 				<div class="sales-banner-lucy-container">
@@ -246,9 +255,11 @@
 			</div>
 
 			<div class="sales-banner-center-text-column">
-				<div class="sales-banner-text-pre-order">you can now pre-order</div>
 				<div class="sales-banner-text-godot-4">godot 4 courses</div>
-				<div class="sales-banner-text-save-up-to">Save up to 25%</div>
+				<div class="sales-banner-text-pre-order">Now in Early Access below launch price!<span class="sales-banner-asterisk">*</span>
+				</div>
+				<div class="sales-banner-text-save-up-to">Start now and save</div>
+				<div class="sales-banner-text-asterisk"><span class="sales-banner-asterisk">*</span> final launch price is subject to increase</div>
 			</div>
 
 			<div class="days-counter-container">
