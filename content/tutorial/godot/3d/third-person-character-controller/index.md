@@ -1,20 +1,21 @@
 ---
 author: nathan
 date: "2024-10-03"
-description: Code your first 3D character controller in Godot 4, step-by-step, for free!
+description: Code your first 3D third-person character controller in Godot 4, step-by-step, for free!
 difficulty: beginner
 keywords:
 - godot 4 3d tutorial
 - godot 4 beginner tutorial
 - godot 4 third person controller
 - 3D character controller godot 4
-menuTitle: 3D Character Controller
+menuTitle: Third Person Character
 programVersion: "4.3"
 resources:
 - name: banner
   src: thumbnail_3d_character_controller.webp
 title: Create a 3D Character Controller in Godot 4
 weight: 1
+type: video
 ---
 
 ## Download the Godot template
