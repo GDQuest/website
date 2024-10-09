@@ -16,6 +16,7 @@ resources:
 title: Create a 3D Character Controller in Godot 4
 weight: 1
 type: video
+videoId: JlgZtOFMdfc
 ---
 
 ## Download the Godot template
