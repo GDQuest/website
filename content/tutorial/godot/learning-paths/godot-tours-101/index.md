@@ -14,7 +14,7 @@ type: video
 videoId: L2D1kT8zOrw
 ---
 
-With Godot 4, to help you get your foot in the door, we developed an <abbr title="Educational Technology">EdTech</abbr> called **Godot Tours** that allows you to learn interactively, step-by-step, directly inside the Godot Editor. 
+With Godot 4, to help you get your foot in the door, we developed an <abbr title="Educational Technology">EdTech</abbr> called **Godot Tours** that allows you to learn interactively, step-by-step, directly inside the Godot Editor.
 
 ![Screenshot of one of the first steps of the tour, showing the running game and a bubble inviting you to run the game.](tour-101-screenshot-02.webp)
 
@@ -23,8 +23,8 @@ In this first completely Free Tour, we take you on a quick guided walk through t
 
 Download the tour project files:
 
-{{< calltoaction 
-url="//github.com/gdquest-demos/godot-tours-101-the-godot-editor/releases/download/1.0.0/godot-tours-101-the-godot-editor-1.0.0.zip" 
+{{< calltoaction
+url="https://github.com/gdquest-demos/godot-tours-101-the-godot-editor/archive/refs/tags/1.1.0.zip"
 text="Download Godot Tours 101"
 class="-large -tall" >}}
 
