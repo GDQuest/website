@@ -20,7 +20,7 @@ weight: 2
 
 We gathered a curated list of resources to make your life easier if you want to get started with Godot. This guide is for experienced developers, or game developers coming from a different game engine.
 
-_For a beginner-friendly introduction to game development with the [Godot game engine](/godotengine.org/), check out the [beginner edition](/tutorial/godot/learning-paths/beginner/) of this guide._
+_For a beginner-friendly introduction to game development with the [Godot game engine](https://godotengine.org), check out the [beginner edition](/tutorial/godot/learning-paths/beginner/) of this guide._
 
 You're also welcome to [join the GDQuest Discord community](//discord.gg/87NNb3Z) to get in touch with fellow game developers.
 
@@ -58,9 +58,9 @@ _Godot includes a visual shader programming tool_
 
 Godot is very flexible when it comes to VFX driven by shaders. The following resources introduce you to shaders in Godot. They start slow before ramping up in difficulty:
 
-1. [Intro to Shaders in Godot: 2D and 3D Water Tutorials](//www.youtube.com/playlist?list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP) is a good starting point to get your feet wet and see how easy it is to write Godot shaders. They are much simpler than Unity's. The tutorial mostly goes through 2D shaders, but this playlist includes Bastiaan's 3D examples as well
+1. [Intro to Shaders in Godot 3](//www.youtube.com/playlist?list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP) is a good starting point to get your feet wet and see how easy it is to write Godot shaders. They are much simpler than Unity's. The tutorial mostly goes through 2D shaders, but this playlist includes Bastiaan's 3D examples as well
 1. [Visual Shader Editor in Godot 3.1: Dissolve Shader](//youtu.be/sf_Dc4ew3eM) is a tutorial that goes through a practical 3D dissolve shader effect with the use of the Visual Shader Editor which was brought back in Godot 3.1
-1. [Godot Shaders playlist](//www.youtube.com/playlist?list=PL9NDikg3iIaXtGQY6HIgzUxfuMTkybzyx) is a playlist with fairly advanced 2D shaders. It goes through specific examples such as procedural fog, cartoon fire, simple water, paper burn, Mandelbrot fractal and lava as well as looking at the Visual Shader Editor in Godot 3.1 and its limitations
+1. [Godot Shaders playlist](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP) is a playlist with fairly advanced 2D shaders. It goes through specific examples such as procedural fog, cartoon fire, simple water, paper burn, Mandelbrot fractal and lava as well as looking at the Visual Shader Editor in Godot 3.1 and its limitations
 1. [Godot Grass shader tutorial](//youtu.be/uMB3-g8v1B0) this is an advanced 3D tutorial for adding grass on terrain using shaders. It has a GitHub project that goes along with the video which can be found in the description
 
 ### Extending Godot
