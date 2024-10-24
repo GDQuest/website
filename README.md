@@ -62,7 +62,7 @@ This metadata uses the TOML markup language. If the variable `draft` has the val
 
 ## Style guide
 
-For SCSS code, we follow the [RSCSS](https://rscss.io/) (_Reasonable System for CSS Stylesheet Structure_) style guide.
+For SCSS code, we follow the [RSCSS](https://rstacruz.github.io/rscss/) (_Reasonable System for CSS Stylesheet Structure_) style guide.
 
 Note: some of the CSS code still doesn't follow the style guide. We're progressively moving code to that style-guide as we go.
 
