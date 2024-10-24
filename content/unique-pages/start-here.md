@@ -12,7 +12,7 @@ weight: 5
 
 Do you want to **become an independent game developer**? You came to the right place!
 
-At GDQuest, we teach you **game creation with the free and open-source game engine [Godot](https://godotengine.org/)**. 
+At GDQuest, we teach you **game creation with the free and open-source game engine [Godot](https://godotengine.org/)**.
 
 We give you the tools and educational resources you need to learn everything about the engine while developing the core skills you need to make unique games.
 
@@ -30,11 +30,11 @@ There's a ton of free tutorials out there, but they often just teach you one tri
 
 Also, while they show you _how_ to do things, they rarely explain _why_.
 
-You can follow dozens, but when it comes to making your own games, _you don't know where to start_. 
+You can follow dozens, but when it comes to making your own games, _you don't know where to start_.
 
 That's because you learned recipes, which is fine and useful. We also teach powerful tricks that way.
 
-But recipes alone will only get you so far if you lack the foundations. 
+But recipes alone will only get you so far if you lack the foundations.
 
 To become an independent game developer, you need more than that. You need to hone fundamental skills, including:
 
@@ -56,11 +56,11 @@ And we're here to help you acquire them.
 
 We've been teaching people to make games with for years. Here's what they have to say about our tutorials.
 
-![Heartbeast tweet](/img/testimonials/heartbeast-fsm-tutorial-tweet.png)
+<img src="/img/testimonials/heartbeast-fsm-tutorial-tweet.png" alt="Heartbeast tweet">
 
 <p align="center"><i><a href="https://www.youtube.com/user/uheartbeast">Heartbeast</a>, a Godot tutor and game developer with 160,000+ subscribers on YouTube.</i></p>
 
-![A bit awake tweet](/img/testimonials/a-bit-awake-tweet.png)
+<img src="/img/testimonials/a-bit-awake-tweet.png" alt="A bit awake tweet">
 
 <p align="center"><i><a href="https://abitawake.com/">A Bit Awake</a>, a Canadian game studio making commercial games with Godot.</i></p>
 
@@ -74,28 +74,28 @@ I made hundreds of [video tutorials on YouTube](https://www.youtube.com/c/gdques
 
 The project grew since then, and we're now, we're a team of experienced game developers, tutors, and Free Software enthusiasts dedicated to teaching and supporting Godot, our engine of choice.
 
-_New to Godot? I made a 5-minute video to get you started._
+_New to Godot? I made a 7-minute video to get you started._
 
-{{< youtube "KjX5llYZ5eQ" >}}
+{{< youtube "yS9cuu5o5Ug" >}}
 
 We not only use Godot: we directly contribute to the program and its ecosystem, including the official documentation. In 2020, I even got hired to write its [new Getting Started series](https://godotengine.org/article/godot-docs-improvements-report).
 
 Between our videos, [written tutorials](/tutorial), and dozens of [open-source game demos and tools](/tools), we already have the largest base of free resources and tutorials for Godot.
 
-![Akien tweet](/img/testimonials/akien-tweet.png)
+<img src="/img/testimonials/akien-tweet.png" alt="Akien tweet" />
 
 <p align="center"><i><a href="https://twitter.com/akien">Rémi Verschelde</a>, Godot's project manager.</i></p>
- 
-## Getting started 
+
+## Getting started
 
 We prepared two completely free and curated learning guides to get you started with the tutorials that **best fit your needs**.
 
 <div class="content-grid">
 <div class="item">
-{{< card-box 
+{{< card-box
 img="/tutorial/godot/learning-paths/beginner/banner.jpg"
-title="I am new to code" 
-url="/tutorial/godot/learning-paths/beginner/" 
+title="I am new to code"
+url="/tutorial/godot/learning-paths/beginner/"
 urlText="Beginner's path" >}}
 **How do I get started?**
 
@@ -104,10 +104,10 @@ We wrote a curated guide for programming beginners who want to learn game creati
 </div>
 
 <div class="item">
-{{< card-box 
-img="/tutorial/godot/learning-paths/developer/banner.png" 
-title="I am a developer already" 
-url="/tutorial/godot/learning-paths/developer/" 
+{{< card-box
+img="/tutorial/godot/learning-paths/developer/banner.png"
+title="I am a developer already"
+url="/tutorial/godot/learning-paths/developer/"
 urlText="Developer's path" >}}
 **How do I get up to speed with Godot?**
 
