@@ -14,7 +14,7 @@ weight: 5
 featured: true
 ---
 
-Godot 4.2 just came out, and it is definitely a version we can teach. We started applying some of our own new ed-tech (educational technology) to course content. With this, we're glad to announce the continuous roll-out of [Godot 4 courses](https://school.gdquest.com/godot-4-early-access) starting Jan 30.
+Godot 4.3 just came out, and it is definitely a version we can teach. We started applying some of our own new ed-tech (educational technology) to course content. With this, we're glad to announce the continuous roll-out of [Godot 4 courses](https://school.gdquest.com/godot-4-early-access) starting Jan 30.
 
 ![Five banners of our upcoming Godot 4 courses]( course-banners.webp)
 
@@ -33,7 +33,7 @@ In that case, we would recommend getting the [3D course](https://school.gdquest
 
 ## For a limited time, you can save up to 50% by pre-ordering Godot 4 courses
 
-Until December 10, 2023, you can add the extra Godot 4.2 coupon **EARLYBIRD** to the existing presale to save even more.
+Until December 10, 2023, you can add the extra Godot 4.3 coupon **EARLYBIRD** to the existing presale to save even more.
 
 If you know anyone who's learning, this might be a good opportunity to share with them.
 
