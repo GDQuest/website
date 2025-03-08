@@ -1,0 +1,845 @@
+{
+  "taxonomies": {
+    "format": {
+      "video": {
+        "title": "Video",
+        "title_plural": "Videos",
+        "search": [
+          "video",
+          "videos",
+          "youtube",
+          "vimeo"
+        ],
+        "description": "Video tutorials, guides, and resources.",
+        "slug": "video",
+        "url": "taxonomy/format/video",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "web_guide": {
+        "title": "Web Guide",
+        "title_plural": "Web Guides",
+        "search": [
+          "web guide",
+          "web guides",
+          "tutorial",
+          "guide"
+        ],
+        "description": "Guides for web development.",
+        "slug": "web_guide",
+        "url": "taxonomy/format/web_guide",
+        "items": [
+          "input_cheatsheet"
+        ]
+      },
+      "downloadable": {
+        "title": "Downloadable",
+        "title_plural": "Downloadables",
+        "search": [
+          "downloadable",
+          "downloadables",
+          "resource",
+          "file",
+          "asset"
+        ],
+        "description": "Downloadable content that you can download and use",
+        "slug": "downloadable",
+        "url": "taxonomy/format/downloadable",
+        "items": [
+          "sophia"
+        ]
+      },
+      "interactive": {
+        "title": "Interactive",
+        "title_plural": "Interactives",
+        "search": [
+          "interactive",
+          "interactives",
+          "simulation",
+          "experiment"
+        ],
+        "description": "Interactive learning tools that allow users to explore concepts and learn through experimentation.",
+        "slug": "interactive",
+        "url": "taxonomy/format/interactive",
+        "items": []
+      }
+    },
+    "godot_version": {
+      "3": {
+        "title": "Godot 3.x",
+        "title_plural": "Godot 3.x",
+        "search": [
+          "godot 3.x",
+          "godot 3.x",
+          "godot 3",
+          "godot 3.1",
+          "godot 3.2",
+          "godot 3.3",
+          "godot 3.4",
+          "godot 3.4",
+          "godot 3.5",
+          "godot 3.6"
+        ],
+        "description": "Godot 3.x resources, tutorials, and assets.",
+        "slug": "3",
+        "url": "taxonomy/godot_version/3",
+        "items": [
+          "input_cheatsheet"
+        ]
+      },
+      "4": {
+        "title": "Godot 4.x",
+        "title_plural": "Godot 4.x",
+        "search": [
+          "godot 4.x",
+          "godot 4.x",
+          "godot 4",
+          "godot 4.1",
+          "godot 4.2",
+          "godot 4.3",
+          "godot 4.4",
+          "godot 4.5",
+          "godot 4.6"
+        ],
+        "description": "Godot 4.x resources, tutorials, and assets.",
+        "slug": "4",
+        "url": "taxonomy/godot_version/4",
+        "items": [
+          "character_movement",
+          "sophia",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      }
+    },
+    "tag": {
+      "character_controller": {
+        "title": "Character Controller",
+        "title_plural": "Character Controllers",
+        "search": [
+          "character controller",
+          "character controllers",
+          "movement",
+          "player",
+          "character"
+        ],
+        "description": "Character controllers are scripts that handle the movement of a player character in a game.",
+        "slug": "character_controller",
+        "url": "taxonomy/tag/character_controller",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "study_guide": {
+        "title": "Study Guide",
+        "title_plural": "Study Guides",
+        "search": [
+          "study guide",
+          "study guides",
+          "reference"
+        ],
+        "description": "Study guides that provide a summary of information or instructions.",
+        "slug": "study_guide",
+        "url": "taxonomy/tag/study_guide",
+        "items": []
+      },
+      "input": {
+        "title": "Input",
+        "title_plural": "Inputs",
+        "search": [
+          "input",
+          "inputs",
+          "keyboard",
+          "mouse",
+          "gamepad",
+          "joystick",
+          "controller"
+        ],
+        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
+        "slug": "input",
+        "url": "taxonomy/tag/input",
+        "items": [
+          "input_cheatsheet"
+        ]
+      },
+      "design_pattern": {
+        "title": "Design Pattern",
+        "title_plural": "Design Patterns",
+        "search": [
+          "design pattern",
+          "design patterns",
+          "software design",
+          "architecture"
+        ],
+        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
+        "slug": "design_pattern",
+        "url": "taxonomy/tag/design_pattern",
+        "items": [
+          "input_cheatsheet"
+        ]
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "3d": {
+        "title": "3D",
+        "title_plural": "3D",
+        "search": [
+          "3d",
+          "3d",
+          "three dimensions",
+          "3 dimensions"
+        ],
+        "description": "3D assets, scenes, tutorials, and projects.",
+        "slug": "3d",
+        "url": "taxonomy/tag/3d",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "cheatsheet": {
+        "title": "Cheatsheet",
+        "title_plural": "Cheatsheets",
+        "search": [
+          "cheatsheet",
+          "cheatsheets",
+          "reference",
+          "quick reference",
+          "quickstart",
+          "clue card"
+        ],
+        "description": "Quick reference guides that provide a summary of information or instructions.",
+        "slug": "cheatsheet",
+        "url": "taxonomy/tag/cheatsheet",
+        "items": [
+          "input_cheatsheet"
+        ]
+      },
+      "3d_model": {
+        "title": "3D Model",
+        "title_plural": "3D Models",
+        "search": [
+          "3d model",
+          "3d models",
+          "character",
+          "object",
+          "model"
+        ],
+        "description": "3d models of characters, objects, and scenes.",
+        "slug": "3d_model",
+        "url": "taxonomy/tag/3d_model",
+        "items": [
+          "sophia"
+        ]
+      },
+      "character_skin": {
+        "title": "Character Skin",
+        "title_plural": "Character Skins",
+        "search": [
+          "character skin",
+          "character skins",
+          "model",
+          "texture",
+          "character"
+        ],
+        "description": "Rigged 3D characters with animations and textures.",
+        "slug": "character_skin",
+        "url": "taxonomy/tag/character_skin",
+        "items": [
+          "sophia"
+        ]
+      }
+    },
+    "type": {
+      "shader": {
+        "title": "Shader",
+        "title_plural": "Shaders",
+        "search": [
+          "shader",
+          "shaders",
+          "graphics",
+          "shader",
+          "rendering",
+          "shading",
+          "material",
+          "lighting",
+          "vertex",
+          "fragment",
+          "compute",
+          "geometry",
+          "tessellation"
+        ],
+        "description": "Shaders are programs that run on the GPU to render graphics.",
+        "slug": "shader",
+        "url": "taxonomy/type/shader",
+        "items": []
+      },
+      "learning_resource": {
+        "title": "Learning Resource",
+        "title_plural": "Learning Resources",
+        "search": [
+          "learning resource",
+          "learning resources",
+          "learning",
+          "resource",
+          "tutorial",
+          "guide",
+          "manual",
+          "documentation"
+        ],
+        "description": "Learning resources that provide information, instructions, or guidance for learning a topic or skill.",
+        "slug": "learning_resource",
+        "url": "taxonomy/type/learning_resource",
+        "items": [
+          "input_cheatsheet",
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "asset": {
+        "title": "Asset or Model",
+        "title_plural": "Assets or Models",
+        "search": [
+          "asset or model",
+          "assets or models",
+          "asset",
+          "model",
+          "3d",
+          "2d",
+          "3d model",
+          "2d model",
+          "3d asset",
+          "2d asset"
+        ],
+        "description": "3D or 2D assets or models for use in game development.",
+        "slug": "asset",
+        "url": "taxonomy/type/asset",
+        "items": [
+          "sophia"
+        ]
+      },
+      "demo": {
+        "title": "Demo, Code Template",
+        "title_plural": "Demos, Code Templates",
+        "search": [
+          "demo, code template",
+          "demos, code templates",
+          "demo",
+          "code",
+          "template",
+          "example",
+          "sample",
+          "snippet"
+        ],
+        "description": "Demos or code templates that you can use to learn or build upon",
+        "slug": "demo",
+        "url": "taxonomy/type/demo",
+        "items": []
+      }
+    },
+    "license": {
+      "mit": {
+        "title": "MIT",
+        "title_plural": "MIT",
+        "search": [
+          "mit",
+          "mit",
+          "license",
+          "open source"
+        ],
+        "description": "The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.",
+        "slug": "mit",
+        "url": "taxonomy/license/mit",
+        "items": [
+          "input_cheatsheet",
+          "character_movement",
+          "sophia",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "ccby": {
+        "title": "CC BY-SA",
+        "title_plural": "CC BY-SA",
+        "search": [
+          "cc by-sa",
+          "cc by-sa",
+          "license",
+          "creative commons",
+          "share-alike",
+          "open source"
+        ],
+        "description": "The CC BY-SA license is a Creative Commons license that requires attribution and that any derivative works be distributed under the same license.",
+        "slug": "ccby",
+        "url": "taxonomy/license/ccby",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
+      "cc0": {
+        "title": "CC0",
+        "title_plural": "CC0",
+        "search": [
+          "cc0",
+          "cc0",
+          "license",
+          "public domain",
+          "creative commons",
+          "open source"
+        ],
+        "description": "The CC0 license is a public domain dedication tool that allows creators to waive all their copyright and related rights in their works, thereby placing them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+        "slug": "cc0",
+        "url": "taxonomy/license/cc0",
+        "items": []
+      }
+    }
+  },
+  "items": {
+    "input_cheatsheet": {
+      "slug": "input_cheatsheet",
+      "title": "Input Cheatsheet",
+      "label": "A quick guide to capturing and using inputs in Godot",
+      "tags": [
+        "cheatsheet",
+        "design_pattern",
+        "input"
+      ],
+      "type": "learning_resource",
+      "format": "web_guide",
+      "url": "input_cheatsheet",
+      "godot_version": "3",
+      "license": [
+        "mit"
+      ],
+      "description": "A quick guide to capturing and using inputs in Godot",
+      "links": [],
+      "sources": [],
+      "search": [
+        "input cheatsheet",
+        "a quick guide to capturing and using inputs in godot",
+        "a quick guide to capturing and using inputs in godot",
+        "cheatsheet",
+        "design_pattern",
+        "input",
+        "learning_resource"
+      ],
+      "date_created": {
+        "year": 2024,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 8,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 8,
+        "date": "2024-12-08T19:00:08.519Z",
+        "dateDMY": [
+          8,
+          12,
+          2024
+        ],
+        "dateMDY": [
+          12,
+          8,
+          2024
+        ],
+        "dateDDMMYYYY": [
+          "08",
+          "12",
+          "2024"
+        ],
+        "dateMMDDYYYY": [
+          "12",
+          "08",
+          "2024"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 1,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "st",
+        "hours": 22,
+        "minutes": 13,
+        "seconds": 5,
+        "date": "2025-03-01T21:13:05.501Z",
+        "dateDMY": [
+          1,
+          3,
+          2025
+        ],
+        "dateMDY": [
+          3,
+          1,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "01",
+          "03",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "01",
+          "2025"
+        ]
+      },
+      "discord_invite": ""
+    },
+    "character_movement": {
+      "slug": "character_movement",
+      "title": "Character Movement in 3D",
+      "label": "Code a third person 3D character controller",
+      "tags": [
+        "tutorial",
+        "3d",
+        "character_controller"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "url": "character_movement",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Code a third person 3D character controller",
+      "links": [],
+      "cover": {
+        "height": 1080,
+        "width": 1920,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/character_movement/cover.jpg",
+        "relPath": "character_movement/cover.jpg",
+        "newSrc": "https://www.gdquest.com/library/character_movement/cover.jpg",
+        "originalSrc": "cover.jpg"
+      },
+      "sources": [],
+      "search": [
+        "character movement in 3d",
+        "code a third person 3d character controller",
+        "code a third person 3d character controller",
+        "tutorial",
+        "3d",
+        "character_controller",
+        "learning_resource"
+      ],
+      "date_created": {
+        "year": 2024,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 8,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 8,
+        "date": "2024-12-08T19:00:08.519Z",
+        "dateDMY": [
+          8,
+          12,
+          2024
+        ],
+        "dateMDY": [
+          12,
+          8,
+          2024
+        ],
+        "dateDDMMYYYY": [
+          "08",
+          "12",
+          "2024"
+        ],
+        "dateMMDDYYYY": [
+          "12",
+          "08",
+          "2024"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 1,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "st",
+        "hours": 22,
+        "minutes": 22,
+        "seconds": 25,
+        "date": "2025-03-01T21:22:25.374Z",
+        "dateDMY": [
+          1,
+          3,
+          2025
+        ],
+        "dateMDY": [
+          3,
+          1,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "01",
+          "03",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "01",
+          "2025"
+        ]
+      },
+      "discord_invite": ""
+    },
+    "sophia": {
+      "slug": "sophia",
+      "title": "Sophia 3D Model",
+      "label": "A 3D model of Sophia",
+      "tags": [
+        "3d_model",
+        "character_skin"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "url": "sophia",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "A 3D model of Sophia",
+      "links": [],
+      "cover": {
+        "width": 1062,
+        "height": 1241,
+        "ratio": 0.8557614826752619,
+        "aspectRatio": "portrait",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/models/sophia/cover.png",
+        "relPath": "models/sophia/cover.png",
+        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
+        "originalSrc": "./cover.png"
+      },
+      "sources": [],
+      "search": [
+        "sophia 3d model",
+        "a 3d model of sophia",
+        "a 3d model of sophia",
+        "3d_model",
+        "character_skin",
+        "asset"
+      ],
+      "downloads": [
+        {
+          "label": "sophia.zip",
+          "url": "sophia.zip",
+          "external": true
+        }
+      ],
+      "date_created": {
+        "year": 2024,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 15,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 15,
+        "minutes": 52,
+        "seconds": 33,
+        "date": "2024-12-15T14:52:33.108Z",
+        "dateDMY": [
+          15,
+          12,
+          2024
+        ],
+        "dateMDY": [
+          12,
+          15,
+          2024
+        ],
+        "dateDDMMYYYY": [
+          "15",
+          "12",
+          "2024"
+        ],
+        "dateMMDDYYYY": [
+          "12",
+          "15",
+          "2024"
+        ]
+      },
+      "date_modified": {
+        "year": 2024,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 19,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 13,
+        "minutes": 46,
+        "seconds": 37,
+        "date": "2024-12-19T12:46:37.267Z",
+        "dateDMY": [
+          19,
+          12,
+          2024
+        ],
+        "dateMDY": [
+          12,
+          19,
+          2024
+        ],
+        "dateDDMMYYYY": [
+          "19",
+          "12",
+          "2024"
+        ],
+        "dateMMDDYYYY": [
+          "12",
+          "19",
+          "2024"
+        ]
+      },
+      "discord_invite": ""
+    },
+    "first_3d_game_godot4_arena_fps": {
+      "slug": "first_3d_game_godot4_arena_fps",
+      "title": "Your first 3D game with Godot 4",
+      "label": "Make a 3D FPS arena survival game",
+      "tags": [
+        "tutorial",
+        "3d",
+        "character_controller"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "url": "first_3d_game_godot4_arena_fps",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
+      "links": [],
+      "cover": {
+        "width": 1755,
+        "height": 987,
+        "ratio": 1.778115501519757,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/first_3d_game_godot4_arena_fps/cover.png",
+        "relPath": "first_3d_game_godot4_arena_fps/cover.png",
+        "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
+        "originalSrc": "cover.png"
+      },
+      "sources": [],
+      "search": [
+        "your first 3d game with godot 4",
+        "make a 3d fps arena survival game",
+        "create a 3d fps arena survival game using godot 4. implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
+        "tutorial",
+        "3d",
+        "character_controller",
+        "learning_resource"
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 3,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "rd",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-03-03T00:00:00.000Z",
+        "dateDMY": [
+          3,
+          3,
+          2025
+        ],
+        "dateMDY": [
+          3,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "03",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 8,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 14,
+        "minutes": 49,
+        "seconds": 0,
+        "date": "2025-03-08T13:49:00.588Z",
+        "dateDMY": [
+          8,
+          3,
+          2025
+        ],
+        "dateMDY": [
+          3,
+          8,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "08",
+          "03",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "08",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/DmTHFZAgHS"
+    }
+  }
+}

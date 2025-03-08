@@ -1,0 +1,991 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Video | GDQuest Library | GDQuest</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://www.gdquest.com/library/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Search | Video | GDQuest Library">
+<meta name="twitter:title" content="Search | Video | GDQuest Library"><meta name="description" content="Video tutorials, guides, and resources." />
+<meta name="twitter:description" content="Video tutorials, guides, and resources.">
+<meta property="og:description" content="Video tutorials, guides, and resources."><meta property="og:image" content="https://www.gdquest.com/library//your_first_3d_game/cover.png">
+<meta name="twitter:image" content="https://www.gdquest.com/library//your_first_3d_game/cover.png"><meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+    </head>
+    <body class="dark searchPage">
+        <header class="mainNavContainer">
+            <nav class="mainNavWrapper">
+  <a href="#" class="mainNavLogo gdquestLogo">
+    <span>GDQuest</span>
+  </a>
+
+  <div id="main-menu" class="mainNavItemsList" popover>
+    <button
+      popovertarget="main-menu"
+      aria-hidden="true"
+      class="mainNavButtonClose buttonClose"
+    >
+      <span>close</span>
+    </button><a class="mainNavItem " href="/tutorial">Tutorials</a><a class="mainNavItem " href="/tools">tools</a><a class="mainNavItem " href="/product">products</a><a class="mainNavItem " href="/about">About</a><a class="mainNavItem is-new" href="https://school.gdquest.com">Godot 4 courses</a><section class="fontSizeResizer showWhenJSLoads" hidden>
+    <button class="fontSizeResizerIncrease" title="Increase font size">
+        <span>increase font size</span>
+    </button>
+    <button class="fontSizeResizerReset" title="Reset font size">
+        <span>reset font size</span>
+    </button>
+    <button class="fontSizeResizerDecrease" title="Decrease font size">
+        <span>decrease font size</span>
+    </button>
+</section>
+
+    <div class="mainNavSecondaryItems"><form action="https://www.gdquest.com/search/" method="get" class="headerSiteSearch">
+  <input
+    type="search"
+    name="s"
+    placeholder="Search"
+    class="headerSiteSearchInput"
+  />
+  <button type="submit" class="headerSiteSearchButton">
+    <span>search</span>
+  </button>
+</form><a href="https://discord.gg/87NNb3Z" class="socialLink">
+        <span>Join us on Discord</span>
+      </a>
+    </div>
+  </div>
+  <button
+    class="mainNavButtonOpen"
+    popovertarget="main-menu"
+    aria-hidden="true"
+  >
+    <span>menu</span>
+  </button>
+</nav>
+
+        </header>
+
+        
+    <main id="main" class="listPage">
+        <section class="taxonomyPageHeader">
+  
+  <img src="[object Object]" alt="Video" />
+  
+  <h1>Video</h1>
+  <p>Video tutorials, guides, and resources.</p>
+</section>
+    
+        <div class="mainSearch makeUsableWhenJSLoads" style="pointer-events: none">
+    <form
+        role="search"
+        method="GET"
+        aria-label="Filter items"
+        action="search.vto"
+    >
+        <div class="mainSearchFilters" id="mainSearchFilters" popover>
+            <h5 class="mainSearchFiltersHeader">
+                <span>Filters</span>
+                <button
+                    class="mainSearchFiltersHeaderCloseButton"
+                    popovertarget="mainSearchFilters"
+                    popovertargetaction="hide"
+                    type="button"
+                >
+                    <span>Close Filters</span>
+                </button>
+            </h5>
+            <fieldset class="mainSearchFiltersCategory">
+                <legend>Category</legend>
+                <div
+                    class="mainSearchFiltersItems"
+                    id="mainSearchFiltersCategoryItems"
+                >
+                    <input
+                        type="radio"
+                        name="categories"
+                        value=""
+                        id="mainSearchFiltersCategoryAll"
+                        checked="checked"
+                    />
+                    <label
+                        for="mainSearchFiltersCategoryAll"
+                        class="mainSearchFiltersResetOption"
+                        >All</label
+                    >
+                    <input
+                        type="radio"
+                        name="categories"
+                        value="learning_resources"
+                        id="mainSearchFiltersCategoryLearningResources"
+                    />
+                    <label for="mainSearchFiltersCategoryLearningResources"
+                        >Learning resources</label
+                    >
+                    <input
+                        type="radio"
+                        name="categories"
+                        value="assets_models"
+                        id="mainSearchFiltersCategoryAssetsModels"
+                    />
+                    <label for="mainSearchFiltersCategoryAssetsModels"
+                        >Assets, Models</label
+                    >
+                    <input
+                        type="radio"
+                        name="categories"
+                        value="shaders"
+                        id="mainSearchFiltersCategoryShaders"
+                    />
+                    <label for="mainSearchFiltersCategoryShaders"
+                        >Shaders</label
+                    >
+                    <input
+                        type="radio"
+                        name="categories"
+                        value="tools_plugins"
+                        id="mainSearchFiltersCategoryToolsPlugins"
+                    />
+                    <label for="mainSearchFiltersCategoryToolsPlugins"
+                        >Tools, Plugins</label
+                    >
+                </div>
+            </fieldset>
+            <fieldset class="mainSearchFiltersSubjectTags">
+                <legend>Tags</legend>
+                <div
+                    class="mainSearchFiltersItems mainSearchFiltersSubjectTagsList"
+                >
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="2D"
+                        id="mainSearchFiltersTag2D"
+                    />
+                    <label for="mainSearchFiltersTag2D">2D</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="3D"
+                        id="mainSearchFiltersTag3D"
+                    />
+                    <label for="mainSearchFiltersTag3D">3D</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="character_controller"
+                        id="mainSearchFiltersTagCharacterController"
+                    />
+                    <label for="mainSearchFiltersTagCharacterController"
+                        >Character Controller</label
+                    >
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="animation"
+                        id="mainSearchFiltersTagAnimation"
+                    />
+                    <label for="mainSearchFiltersTagAnimation">Animation</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="shader"
+                        id="mainSearchFiltersTagShader"
+                    />
+                    <label for="mainSearchFiltersTagShader">Shader</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="gdscript"
+                        id="mainSearchFiltersTagGdscript"
+                    />
+                    <label for="mainSearchFiltersTagGdscript">GDScript</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="state_machines"
+                        id="mainSearchFiltersTagStateMachines"
+                    />
+                    <label for="mainSearchFiltersTagStateMachines"
+                        >State Machines</label
+                    >
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="tilemaps"
+                        id="mainSearchFiltersTagTilemaps"
+                    />
+                    <label for="mainSearchFiltersTagTilemaps">Tilemaps</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="input"
+                        id="mainSearchFiltersTagInput"
+                    />
+                    <label for="mainSearchFiltersTagInput">Input</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="signals"
+                        id="mainSearchFiltersTagSignals"
+                    />
+                    <label for="mainSearchFiltersTagSignals">Signals</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="arrays"
+                        id="mainSearchFiltersTagArrays"
+                    />
+                    <label for="mainSearchFiltersTagArrays">Arrays</label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="clipping_mask"
+                        id="mainSearchFiltersTagClippingMask"
+                    />
+                    <label for="mainSearchFiltersTagClippingMask"
+                        >Clipping Mask</label
+                    >
+                    <button
+                        type="button"
+                        class="mainSearchFiltersSubjectTagsClearLink showWhenJSLoads"
+                    >
+                        clear all tags
+                    </button>
+                </div>
+            </fieldset>
+            <fieldset class="mainSearchFiltersFormat">
+                <legend>Format</legend>
+                <div class="mainSearchFiltersItems">
+                    <input
+                        type="radio"
+                        name="format"
+                        value=""
+                        id="mainSearchFiltersFormatAll"
+                        checked="checked"
+                    />
+                    <label
+                        for="mainSearchFiltersFormatAll"
+                        class="mainSearchFiltersResetOption"
+                        >All</label
+                    >
+                    <input
+                        type="radio"
+                        name="format"
+                        value="video"
+                        id="mainSearchFiltersFormatVideo"
+                    />
+                    <label for="mainSearchFiltersFormatVideo">Video</label>
+                    <input
+                        type="radio"
+                        name="format"
+                        value="web_guide"
+                        id="mainSearchFiltersFormatWebGuide"
+                    />
+                    <label for="mainSearchFiltersFormatWebGuide"
+                        >Web Guide</label
+                    >
+                    <input
+                        type="radio"
+                        name="format"
+                        value="interactive"
+                        id="mainSearchFiltersFormatInteractive"
+                    />
+                    <label for="mainSearchFiltersFormatInteractive"
+                        >Interactive</label
+                    >
+                    <input
+                        type="radio"
+                        name="format"
+                        value="downloadable"
+                        id="mainSearchFiltersFormatDownloadable"
+                    />
+                    <label for="mainSearchFiltersFormatDownloadable"
+                        >Downloadable Files</label
+                    >
+                </div>
+            </fieldset>
+            <fieldset class="mainSearchFiltersGodotVersion">
+                <legend>Version</legend>
+                <div class="mainSearchFiltersItems">
+                    <input
+                        type="radio"
+                        name="godot_version"
+                        value=""
+                        id="mainSearchFiltersGodotVersionAny"
+                        checked="checked"
+                    />
+                    <label
+                        for="mainSearchFiltersGodotVersionAny"
+                        class="mainSearchFiltersResetOption"
+                        >Any</label
+                    >
+                    <input
+                        type="radio"
+                        name="godot_version"
+                        value="4.x"
+                        id="mainSearchFiltersGodotVersion4"
+                    />
+                    <label for="mainSearchFiltersGodotVersion4">4.x</label>
+                    <input
+                        type="radio"
+                        name="godot_version"
+                        value="3.x"
+                        id="mainSearchFiltersGodotVersion3"
+                    />
+                    <label for="mainSearchFiltersGodotVersion3">3.x</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="mainSearchField">
+            <label for="mainSearchFieldInput" class="mainSearchFieldLabel">
+                Filter Items</label
+            >
+            <input
+                type="search"
+                name="search"
+                id="mainSearchFieldInput"
+                placeholder="Type one or several keywords"
+                class="mainSearchFieldInput"
+            />
+            <button type="submit" class="mainSearchFieldButton">
+                <span>Submit Search Query</span>
+            </button>
+        </div>
+        <div class="mainSearchSelectedTerms">
+            <button class="mainSearchSelectedTermsClearAllButton" type="button">
+                clear all
+            </button>
+        </div>
+    </form>
+    <button class="mainSearchFiltersButton" popovertarget="mainSearchFilters">
+        <span>Open Filter options</span>
+    </button>
+    <noscript>
+        this search box runs in the client and depends on Javascript. It won't
+        work with Javascript disabled!
+    </noscript>
+</div>
+
+    
+        <section class="searchResultsGrid">
+    <h4 class="searchResultsGridSummary">
+        <span class="searchResultsGridSummaryAmount">1</span>
+        result out of
+        <span class="searchResultsGridSummaryTotal">114</span>
+    </h4>
+
+   <ul
+    class="gridItemsList"
+    role="group"
+    aria-label="Recent Releases Items"
+    aria-roledescription="grid"
+>
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+    <li
+	class="itemCard"
+	role="group"
+	aria-label="1 of 4"
+	aria-roledescription="item card"
+>
+	<div class="itemCardCover">
+		<img src="components/itemCard/cover.jpeg" alt="" />
+		<div class="itemCardCoverNoImage" aria-hidden="true">
+			<span class="itemCardCoverNoImageMainTitle">inputs</span>
+			<span class="itemCardCoverNoImageSubTitle">cheatsheet</span>
+		</div>
+	</div>
+	<h4 class="itemCardHeader">
+		<a href="item.vto">Code a Third Person 3D Character Controller </a>
+	</h4>
+	<dl>
+		<div>
+			<dt>Type</dt>
+			<dd>
+				<a href="search.vto">Learning Resource</a>
+			</dd>
+		</div>
+		<div>
+			<dt>Format</dt>
+			<dd><a href="search.vto">Video</a></dd>
+		</div>
+		<div>
+			<dt>Version</dt>
+			<dd><a href="search.vto">Godot 4</a></dd>
+		</div>
+		<div>
+			<dt>Tags</dt>
+			<dd>
+				<ul class="itemCardTagsList" role="list">
+					<li><a href="search.vto">Tutorial</a></li>
+					<li><a href="search.vto">3D</a></li>
+					<li><a href="search.vto">Character Controller</a></li>
+				</ul>
+			</dd>
+		</div>
+	</dl>
+</li>
+
+</ul>
+
+
+    <p class="searchResultsGridEndOfSearch">
+        <span>End of library results</span>
+    </p>
+</section>
+    
+        <div class="emailCampaign">
+  <div
+    class="emailCampaignForm"
+    action="https://school.gdquest.com/newsletter/signup"
+    method="post"
+  >
+    <img class="emailCampaignImage" src="https://www.gdquest.com/library/all-together.png" alt="" />
+    <h4 class="emailCampaignTitle">
+      <em>Free library</em> new releases straight to your inbox!
+    </h4>
+    
+<iframe src="https://cdn.forms-content.sg-form.com/19d386b7-ea38-11ef-afd6-f2ea452526b2"></iframe>
+
+    <p class="emailCampaignDisclaimer">
+      By subscribing, you agree to receive the latest announcements, releases,
+      and sales from GDQuest. Read our
+      <a href="#">privacy policy</a>
+    </p>
+  </div>
+</div>
+
+    
+        <section class="promoIntro">
+    <h3>Learn by following a full curriculum from a to Z</h3>
+    <h4>
+        it’s a great way to break free of tutorials and A good way to support
+        GDQuest!
+    </h4>
+</section>
+
+    
+        <section class="promoGDSchool">
+	<h5 class="promoGDSchoolTitle">
+		Join us in
+		<span class="promoGDSchoolTitleLogo">
+			<span>GDSchool</span>
+		</span>
+	</h5>
+	<div class="promoGDSchoolBody"><figure class="quoteBubble">
+	<blockquote class="quoteBubbleContents"><p>
+			Don’t stop here. Step-by-step tutorials are fun but they only take
+			you so far.
+		</p>
+		<p><strong>
+			Try one of our proven study programs to become an independent
+			Gamedev truly capable of realizing the games you’ve always wanted to
+			make.
+		</strong></p></blockquote>
+	<figcaption class="quoteBubbleAuthor">
+		<h4 class="quoteBubbleAuthorName">Nathan</h4>
+		<h5 class="quoteBubbleAuthorTitle">Founder and teacher at GDQuest</h5>
+	</figcaption>
+</figure>
+<ul class="promoGDSchoolBodyList" role="list">
+			<li>
+				<a href="https://school.gdquest.com/products/bundle_godot_4_starter_kit">
+					<img src="https://www.gdquest.com/library/starter-kit.png" alt="Starter Kit" />
+				</a>
+			</li>
+			<li>
+				<a href="https://school.gdquest.com/products/bundle_learn_gamedev_godot_4">
+					<img
+						src="https://www.gdquest.com/library/from-zero.png"
+						alt="Learn Gamedev from Zero"
+					/>
+				</a>
+			</li>
+		</ul>
+		<a href="https://school.gdquest.com" class="promoGDSchoolBodyHighlightLink"
+			>Check out GDSchool</a
+		>
+	</div>
+</section>
+
+    </main>
+
+
+        <footer class="mainPageFooter">
+	<ul class="mainPageFooterWrapper" role="list">
+		<li class="mainPageFooterSocials">
+			<a
+				href="#"
+				class="mainPageFooterSocialsLogo gdquestLogo"
+				aria-hidden="true"
+			>
+				<span>GDQuest</span>
+			</a>
+			<p class="mainPageFooterSocialsBlurb">
+				On GDQuest, we help you become a game developer using Godot, the
+				free and open-source game engine
+			</p>
+			<ul class="mainPageFooterSocialsLinks">
+				<li>
+					<a
+						href="https://twitter.com/NathanGDQuest"
+						class="socialLink"
+						><span>Twitter</span></a
+					>
+				</li>
+				<li>
+					<a
+						href="https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ?sub_confirmation=1"
+						class="socialLink"
+						><span>Youtube</span></a
+					>
+				</li>
+				<li>
+					<a href="https://discord.gg/87NNb3Z" class="socialLink"
+						><span>Discord</span></a
+					>
+				</li>
+			</ul>
+		</li>
+		<li class="mainPageFooterMailingList">
+			<h3 class="mainPageFooterMailingListTitle">
+				Get the latest from GDQuest
+			</h3>
+			
+<iframe src="https://cdn.forms-content.sg-form.com/19d386b7-ea38-11ef-afd6-f2ea452526b2"></iframe>
+
+			<p class="mainPageFooterMailingListDisclaimer">
+				By subscribing, you agree to receive the latest announcements,
+				releases, and sales from GDQuest. Read our
+				<a href="#">privacy policy</a>.
+			</p>
+		</li>
+		<li class="mainPageFooterQuickLinks">
+			<h3>Quick Links</h3>
+			<ul>
+				<li>
+					<a href="#">Learn to Code From Zero With Godot</a>
+				</li>
+				<li>
+					<a href="#">The Great Godot 4 Starter Kit</a>
+				</li>
+				<li>
+					<a href="#">Schools & Educators</a>
+				</li>
+				<li>
+					<a href="#">see all</a>
+				</li>
+			</ul>
+		</li>
+		<li class="mainPageFooterAbout">
+			<h3>About</h3>
+			<ul>
+				<li><a href="#">Who are we?</a></li>
+				<li><a href="#">Terms of Service</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</li>
+	</ul>
+</footer>
+
+
+        <script src="https://www.gdquest.com/library/client.js" type="module"></script>
+    </body>
+</html>
+

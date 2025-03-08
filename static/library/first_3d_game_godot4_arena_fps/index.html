@@ -1,0 +1,1457 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Your first 3D game with Godot 4 | GDQuest</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://www.gdquest.com/library/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Your first 3D game with Godot 4">
+<meta name="twitter:title" content="Your first 3D game with Godot 4"><meta name="description" content="Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends." />
+<meta name="twitter:description" content="Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.">
+<meta property="og:description" content="Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends."><meta property="og:image" content="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png">
+<meta name="twitter:image" content="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png"><meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+    </head>
+    <body class="dark itemPage">
+        <header class="mainNavContainer">
+            <nav class="mainNavWrapper">
+  <a href="#" class="mainNavLogo gdquestLogo">
+    <span>GDQuest</span>
+  </a>
+
+  <div id="main-menu" class="mainNavItemsList" popover>
+    <button
+      popovertarget="main-menu"
+      aria-hidden="true"
+      class="mainNavButtonClose buttonClose"
+    >
+      <span>close</span>
+    </button><a class="mainNavItem " href="/tutorial">Tutorials</a><a class="mainNavItem " href="/tools">tools</a><a class="mainNavItem " href="/product">products</a><a class="mainNavItem " href="/about">About</a><a class="mainNavItem is-new" href="https://school.gdquest.com">Godot 4 courses</a><section class="fontSizeResizer showWhenJSLoads" hidden>
+    <button class="fontSizeResizerIncrease" title="Increase font size">
+        <span>increase font size</span>
+    </button>
+    <button class="fontSizeResizerReset" title="Reset font size">
+        <span>reset font size</span>
+    </button>
+    <button class="fontSizeResizerDecrease" title="Decrease font size">
+        <span>decrease font size</span>
+    </button>
+</section>
+
+    <div class="mainNavSecondaryItems"><form action="https://www.gdquest.com/search/" method="get" class="headerSiteSearch">
+  <input
+    type="search"
+    name="s"
+    placeholder="Search"
+    class="headerSiteSearchInput"
+  />
+  <button type="submit" class="headerSiteSearchButton">
+    <span>search</span>
+  </button>
+</form><a href="https://discord.gg/87NNb3Z" class="socialLink">
+        <span>Join us on Discord</span>
+      </a>
+    </div>
+  </div>
+  <button
+    class="mainNavButtonOpen"
+    popovertarget="main-menu"
+    aria-hidden="true"
+  >
+    <span>menu</span>
+  </button>
+</nav>
+
+        </header>
+
+        
+	<div class="itemSummaryBrowserHero">
+<section class="itemSummaryBrowser">
+	<div class="itemSummaryBrowserDisplay">
+		<div class="itemSummaryBrowserDisplayLoading"></div>
+	<div class="itemSummaryCardWrapper">
+	<article class="itemSummaryCard">
+		<span class="itemSummaryCardBackground" aria-hidden="true"></span>
+		<h4 class="itemSummaryCardTitle">
+			<a href="item.vto">Create your first 3D Game from Zero</a>
+		</h4>
+		<h3 class="itemSummaryCardDate">2025/03/08</h3><img
+			class="itemSummaryCardCover"
+			src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png"
+			alt=""
+		/><dl class="itemSummaryCardAttributes">
+			<div>
+				<dt>Type</dt>
+				<dd><a href="">Learning Resource</a></dd>
+			</div>
+			<div>
+				<dt>Format</dt>
+				<dd>Video</dd>
+			</div>
+			<div>
+				<dt>Version</dt>
+				<dd><a href="search.vto">Godot 4.x</a></dd>
+			</div>
+			<div>
+				<dt>Subject Tags</dt>
+				<dd class="itemSummaryCardAttributesTags">
+					<ul>
+						<li><a>3D</a></li>
+						<li><a>Full Game</a></li>
+					</ul>
+				</dd>
+			</div>
+		</dl>
+		<ul class="itemSummaryCardFeatures" role="list">
+			<li>Downloadable Demo</li>
+			<li>FAQ/Troubleshooting</li>
+			<li>Bonus</li>
+		</ul>
+		<dl class="itemSummaryCardLicenses">
+			<div>
+				<dt class="itemSummaryCardLicensesCodeLabel">Code</dt>
+				<dd>
+					<ul role="list">
+						<li>
+							<a href="search.vto">MIT</a>
+						</li>
+					</ul>
+				</dd>
+			</div>
+			<div>
+				<dt class="itemSummaryCardLicensesAssetsLabel">Assets</dt>
+				<dd>
+					<ul role="list">
+						<li>
+							<a href="search.vto">CC By 4.0</a>
+						</li>
+					</ul>
+				</dd>
+			</div>
+			<div>
+				<dt class="itemSummaryCardLicensesAllElseLabel">All else</dt>
+				<dd>Copyright 2016-2024, GDQuest</dd>
+			</div>
+		</dl>
+		<dl class="itemSummaryCardDates">
+			<dt>Created</dt>
+			<dl>2025/03/03</dl>
+			<dt>Updated</dt>
+			<dl>2025/03/08</dl>
+		</dl>
+		
+<!-- Claps button is hidden -->
+
+	</article>
+</div>
+
+	</div>
+  
+</section>
+
+</div>
+
+	<section class="contentPageGrid">
+	<div
+	class="tableOfContentsWrapper isToggled showWhenJSLoads"
+	id="tableOfContents"
+	hidden
+>
+	<div class="tableOfContentsContainer">
+		<button
+			class="tableOfContentsToggleButton"
+			aria-controls="tableOfContents"
+			data-is="toggler-button"
+			aria-expanded="true"
+		>
+			<span>Toggle Table of Contents</span>
+		</button>
+		<nav class="tableOfContentsPane showWhenJSLoads" hidden>
+			<ul
+				data-is="article-toc"
+				class="tableOfContentsMainList"
+				role="list"
+			></ul>
+		</nav>
+	</div>
+</div>
+
+		<main class="prose">
+      <p><h1 class="hasIconBefore icon-app c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Your First 3D Game With Godot</h1></p>
+<section class="custom-component QuoteBubbleNathan"><p>Welcome! This free beginner Godot course will teach you how to code your first complete 3D game, step-by-step, from start to finish.</p><p>You will learn how to create a 3D FPS arena survival game with a player character that can move, jump, and shoot, and enemies that chase and push you off the platforms. You will also learn how to create a level, add sound effects, and export the game to share it with others.</p><p>This video series is for people who are new to Godot and gamedev and want to get their feet wet.</p><p>To fully understand the code, it's helpful to know a little bit of coding. Any language will do. If you're completely new to coding, you can check out our free web app: <a href="https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app#lets-get-started">Learn GDScript From Zero</a>. It'll introduce you to GDScript, the programming language we use in this video series.</p><p>Bear in mind that when you learn Godot's GDScript, you're not stuck with it! Your coding knowledge is transferable to any other programming language like C#. We teach GDScript because it's particularly easy to pick up and it's well-integrated in Godot, so it's a great way to get started.</p></section>
+<p>This video comes with two zip files:</p>
+<ol>
+<li>The workbook version contains the assets. You need to follow along with the video and create the game yourself, step by step.</li>
+<li>The solutions version contains the finished code and code checkpoints. If you're stuck at some point and the troubleshooting points below do not answer your question, you can open the solution project in Godot and compare your scenes and scripts against it.</li>
+</ol>
+<p>Below each video, you will also find a folded code reference to check your scripts against without having to leave the page.</p>
+<p><h1 class="hasIconBefore icon-download c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Download files</h1></p>
+<ul>
+<li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-assets-1.1.0.zip">Assets to follow along</a></li>
+<li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-completed-1.1.0.zip">Completed project to use for reference</a></li>
+</ul>
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="true" class="info">
+    Turn off type hints in the project settings to follow along
+</dt>
+<dd>
+    <div>
+        
+<p>GDScript, the game scripting language we use in this tutorial, has an optional syntax called <em>type hints</em>. It's a way to tell the computer what type of data a variable or a function uses (a number, text, a node, etc.). By default, type hints are turned on in Godot 4.3 and later.</p>
+<p>So when you type <code class="language-gdscript">func _process</code> in a script, Godot will automatically add type hints by default:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">:</span> <span class="token class-name">float</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token class-name">void</span><span class="token punctuation">:</span>
+</span></code></pre>
+<p>In this beginner tutorial, we don't use type hints to keep the code simple and easy to follow. If you have type hints enabled in your project settings, you can turn them off to follow along with the videos.</p>
+<p>Go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Editor</span><span class="settingsInTextSection settingsInTextSectionLast">Editor Settings...</span></span> (on macOS, instead, go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Godot</span><span class="settingsInTextSection settingsInTextSectionLast">Editor Settings...</span></span>), search for "Type hints", and in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Text Editor</span><span class="settingsInTextSection settingsInTextSectionLast">Completion</span></span> section, uncheck the <em>Add Type Hints</em> option. You can enable it again after completing the tutorial.</p>
+<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+
+    </div>
+</dd>
+</dl>
+<h2>1. Setting up</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451728?h=1323494251&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="error">
+    When I run the scene, I don't get the same scene playing as you do
+</dt>
+<dd>
+    <div>
+        
+<p>The scene that plays when you click the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Play" aria-hidden="true"><span class="iconGodotLabel">Play</span></span>Play Main Scene</span> button or press <span class="gdquest-godot-shortcut shortcut-windows shortcut-linux"><kbd ><span class="gdquest-keyboard-key-sequence gdquest-keyboard-key-letters-2">f5</span></kbd><span class="shortcut-none shortcut-mac"> (on Mac: </span><span class="shortcut-mac"><kbd ><span class="gdquest-keyboard-key-sequence gdquest-keyboard-key-letters-3">⌘</span><span class="gdquest-keyboard-key-sequence gdquest-keyboard-key-letters-1">b</span></kbd></span><span class="shortcut-none shortcut-mac">)</span></span> is the project's main scene. If you see a different scene playing than the video, it means that your project's main scene is set to run a different scene file.</p>
+<p>There are two common ways to change the project's main scene:</p>
+<ol>
+<li>Using the scene tabs above the viewport</li>
+<li>Using the <em>FileSystem</em> dock</li>
+</ol>
+<p>You can also look for a scene file (a file that ends with ".tscn") in the <em>FileSystem</em> dock, right-click it, and select <em>Set as Main Scene</em>. You will see the filename turn blue to indicate that this scene is the one that will run when running your project.</p>
+
+    </div>
+</dd>
+</dl>
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="info">
+    In this clip, I search for the level scene in the FileSystem dock and set it as the main scene
+</dt>
+<dd>
+    <div>
+        
+<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+
+    </div>
+</dd>
+</dl>
+<h3>Checkpoint</h3>
+<p>At the end of this section, you should be able to verify that:</p>
+<p><div class="checkpointBullet">In the player scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Position</span></span> set to (0, 0, 0) in the Inspector</div><div class="checkpointBullet">
+In the player scene, the <em>gun_model</em> is a child of the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node
+In the temporary level scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node faces the yellow platforms. Its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span></span> should be set to (0, 180, 0) in the Inspector</div></p>
+<h2>2. Coding the camera rotation</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451747?h=98bfef9546&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="error">
+    I get an error that says 'null instance'
+</dt>
+<dd>
+    <div>
+        
+<p>If you see an error message like this when running the game: <span class="codeErrorInText">Invalid access to property or key 'rotation_degrees' on a base object of type 'null instance'.</span>, it means that the engine could not get the node you're trying to access.</p>
+<p>In this example, this error could occur on this line:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span></code></pre>
+<p>We're trying to change the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node's rotation, but the engine can't find the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node.</p>
+<p>There are two common causes for this error:</p>
+<ol>
+<li>In the scene, the camera node is not marked with the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-SceneUniqueName" aria-hidden="true"><span class="iconGodotLabel">SceneUniqueName</span></span>Scene unique name</span> symbol. To use the <code class="language-gdscript">%</code> shortcut in the script, the node must have a unique name in the scene. Right-click the node in the <em>Scene</em> dock and select <span class="iconGodotWrapper"><span class="iconGodot iconGodot-SceneUniqueName" aria-hidden="true"><span class="iconGodotLabel">SceneUniqueName</span></span>Access as Unique Name</span>.</li>
+<li>In scripts, you access nodes by name, not by their type. The name of the node in the <em>Scene</em> dock and in the script must match exactly. If the node in the scene is named <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span>, the script must access it with <code class="language-gdscript">%Camera3D</code>. If instead you rename the node to <span class="iconGodotWrapper"><span class="iconGodot iconGodot-PlayerCamera" aria-hidden="true"><span class="iconGodotLabel">PlayerCamera</span></span>PlayerCamera</span>, you must change the script to <code class="language-gdscript">%PlayerCamera</code>.</li>
+</ol>
+
+    </div>
+</dd>
+</dl>
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the player scene, the root <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Position</span></span> and <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span></span> are both set to (0, 0, 0)</div>
+<div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node is marked as unique name (it has a % icon in the <em>Scene</em> dock)</div>
+<div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node and <em>gun_model</em>'s <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span></span> are set to (0, 0, 0)</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="c8tfbswlhj7"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 2:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_unhandled_input</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event <span class="token keyword">is</span> InputEventMouseMotion<span class="token punctuation">:</span>
+</span><span class="code-line">		rotation_degrees<span class="token punctuation">.</span>y <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token number">0.5</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token function">clamp</span><span class="token punctuation">(</span>
+</span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
+</span><span class="code-line">		<span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>3. Limiting mouse</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451758?h=6f5d737e05&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cpx6nivndvg"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 3:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_unhandled_input</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event <span class="token keyword">is</span> InputEventMouseMotion<span class="token punctuation">:</span>
+</span><span class="code-line">		rotation_degrees<span class="token punctuation">.</span>y <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token number">0.5</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token function">clamp</span><span class="token punctuation">(</span>
+</span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
+</span><span class="code-line">		<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"ui_cancel"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		Input<span class="token punctuation">.</span><span class="token function">set_mouse_mode</span><span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token constant">MOUSE_MODE_VISIBLE</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>4. Ground movement</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451770?h=cd0624d20e&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="error">
+    My player moves strangely, it does not really follow the camera
+</dt>
+<dd>
+    <div>
+        
+<p>If you have issues with the player's movement, in particular, if it's not aligned with the camera, this can mean that a node is offset or rotated in the player scene while it shouldn't.</p>
+<p>Review the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes in the player scene. In the Inspector, locate the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Position</span></span> property. A position on the X axis that is not zero means that the node is offset left or right relative to its parent. And a value that is not zero on the Z axis means that the node is offset forward or back relative to its parent.</p>
+<p>Also, make sure that the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span></span> of both nodes is also set to (0, 0, 0) in the Inspector. If either node is rotated, this will affect the movement calculations in code.</p>
+<p>More generally, review the checkpoint in each section to help you identify what might be wrong and what the needed values for this project are.</p>
+
+    </div>
+</dd>
+</dl>
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><span class="settingsInTextSection">Project Settings...</span><span class="settingsInTextSection settingsInTextSectionLast">Input map</span></span> tab, you have four input actions: "move_left", "move_right", "move_forward", and "move_back"</div>
+<div class="checkpointBullet">In the player scene, the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes still have their <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span></span> set to (0, 0, 0) in the Inspector</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="czpakuh8yyt"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 4:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_unhandled_input</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event <span class="token keyword">is</span> InputEventMouseMotion<span class="token punctuation">:</span>
+</span><span class="code-line">		rotation_degrees<span class="token punctuation">.</span>y <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token number">0.5</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token function">clamp</span><span class="token punctuation">(</span>
+</span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
+</span><span class="code-line">		<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"ui_cancel"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		Input<span class="token punctuation">.</span><span class="token function">set_mouse_mode</span><span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token constant">MOUSE_MODE_VISIBLE</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">const</span> <span class="token constant">SPEED</span> <span class="token operator">=</span> <span class="token number">5.5</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_2D <span class="token operator">=</span> Input<span class="token punctuation">.</span><span class="token function">get_vector</span><span class="token punctuation">(</span>
+</span><span class="code-line">		<span class="token string">"move_left"</span><span class="token punctuation">,</span> <span class="token string">"move_right"</span><span class="token punctuation">,</span> <span class="token string">"move_forward"</span><span class="token punctuation">,</span> <span class="token string">"move_back"</span>
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_3D <span class="token operator">=</span> <span class="token function">Vector3</span><span class="token punctuation">(</span>
+</span><span class="code-line">		input_direction_2D<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> input_direction_2D<span class="token punctuation">.</span>y
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> transform<span class="token punctuation">.</span>basis <span class="token operator">*</span> input_direction_3D
+</span><span class="code-line">
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>x <span class="token operator">=</span> direction<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>z <span class="token operator">=</span> direction<span class="token punctuation">.</span>z <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token function">move_and_slide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>5. The jump</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451781?h=a0b6e248f6&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><span class="settingsInTextSection">Project Settings...</span><span class="settingsInTextSection settingsInTextSectionLast">General</span></span> tab, in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Display</span><span class="settingsInTextSection settingsInTextSectionLast">Window</span></span> section, the <em>Viewport Width</em> is set to <code class="language-gdscript">1920</code> and the <em>Viewport Height</em> is set to <code class="language-gdscript">1080</code>. Also, the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Stretch</span><span class="settingsInTextSection settingsInTextSectionLast">Mode</span></span> is set to "viewport"</div>
+<div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><span class="settingsInTextSection">Project Settings...</span><span class="settingsInTextSection settingsInTextSectionLast">Input map</span></span> tab, you have a "jump" input action</div>
+<div class="checkpointBullet">In the player scene, the <em>Reticle</em> node is centered in the 2D viewport. It should have 4 green pins centered on it</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cy0trpdvgxch"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 4. I highlighted the new lines of code for the jump mechanic:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_unhandled_input</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event <span class="token keyword">is</span> InputEventMouseMotion<span class="token punctuation">:</span>
+</span><span class="code-line">		rotation_degrees<span class="token punctuation">.</span>y <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token number">0.5</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token function">clamp</span><span class="token punctuation">(</span>
+</span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
+</span><span class="code-line">		<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"ui_cancel"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		Input<span class="token punctuation">.</span><span class="token function">set_mouse_mode</span><span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token constant">MOUSE_MODE_VISIBLE</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">const</span> <span class="token constant">SPEED</span> <span class="token operator">=</span> <span class="token number">5.5</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_2D <span class="token operator">=</span> Input<span class="token punctuation">.</span><span class="token function">get_vector</span><span class="token punctuation">(</span>
+</span><span class="code-line">		<span class="token string">"move_left"</span><span class="token punctuation">,</span> <span class="token string">"move_right"</span><span class="token punctuation">,</span> <span class="token string">"move_forward"</span><span class="token punctuation">,</span> <span class="token string">"move_back"</span>
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_3D <span class="token operator">=</span> <span class="token function">Vector3</span><span class="token punctuation">(</span>
+</span><span class="code-line">		input_direction_2D<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> input_direction_2D<span class="token punctuation">.</span>y
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> transform<span class="token punctuation">.</span>basis <span class="token operator">*</span> input_direction_3D
+</span><span class="code-line">
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>x <span class="token operator">=</span> direction<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>z <span class="token operator">=</span> direction<span class="token punctuation">.</span>z <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>	velocity<span class="token punctuation">.</span>y <span class="token operator">-=</span> <span class="token number">20.0</span> <span class="token operator">*</span> delta
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">if</span> Input<span class="token punctuation">.</span><span class="token function">is_action_just_pressed</span><span class="token punctuation">(</span><span class="token string">"jump"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token function">is_on_floor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		velocity<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">10.0</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">elif</span> Input<span class="token punctuation">.</span><span class="token function">is_action_just_released</span><span class="token punctuation">(</span><span class="token string">"jump"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> velocity<span class="token punctuation">.</span>y <span class="token operator">></span> <span class="token number">0.0</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		velocity<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token function">move_and_slide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>6. Creating the level</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451791?h=9daba54269&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the game scene, all the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CSGBox3D" aria-hidden="true"><span class="iconGodotLabel">CSGBox3D</span></span>CSGBox3D</span> nodes have their <em>Use Collision</em> property turned on in the Inspector</div></p>
+<h2>7. Player shooting mechanics</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451806?h=c71530aa4f&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<section class="custom-component QuoteBubbleNathan"><p><strong>Errata:</strong> In the video, in the bullet scene, we turn the <em>Projectile</em> node 90 degrees on the Y axis to make it face forward. However, due to how the bullet is coded, it ends up facing backwards.</p><p>This is not very noticeable when playing so it's fine to leave it as-is, but in the checkpoint below I've corrected the angle value to -90 degrees to make the projectile model face the right way.</p></section>
+<p>At the end of this section, you should be able to verify that:</p>
+<p><div class="checkpointBullet">In the player scene, there is no leftover bullet</div>
+<div class="checkpointBullet">In the bullet scene, the child <em>Projectile</em> has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span></span> set to (0, -90, 0) so that it faces forward (in the video, we turned it the opposite way)</div>
+<div class="checkpointBullet">In the player scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is set to <em>One Shot</em></div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="c28cig6a8vs9"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/bullet_3d.gd</span> script at the end of part 7:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Area3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">const</span> <span class="token constant">SPEED</span> <span class="token operator">=</span> <span class="token number">55.0</span>
+</span><span class="code-line"><span class="token keyword">const</span> <span class="token constant">RANGE</span> <span class="token operator">=</span> <span class="token number">40.0</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> travelled_distance <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	position <span class="token operator">+=</span> transform<span class="token punctuation">.</span>basis<span class="token punctuation">.</span>z <span class="token operator">*</span> <span class="token constant">SPEED</span> <span class="token operator">*</span> delta
+</span><span class="code-line">	travelled_distance <span class="token operator">+=</span> <span class="token constant">SPEED</span> <span class="token operator">*</span> delta
+</span><span class="code-line">	<span class="token keyword">if</span> travelled_distance <span class="token operator">></span> <span class="token constant">RANGE</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+<p>And here's the player script, <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span>. I highlighted the new lines of code for the shooting mechanic:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_unhandled_input</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event <span class="token keyword">is</span> InputEventMouseMotion<span class="token punctuation">:</span>
+</span><span class="code-line">		rotation_degrees<span class="token punctuation">.</span>y <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token number">0.5</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token function">clamp</span><span class="token punctuation">(</span>
+</span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
+</span><span class="code-line">		<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"ui_cancel"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		Input<span class="token punctuation">.</span><span class="token function">set_mouse_mode</span><span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token constant">MOUSE_MODE_VISIBLE</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">const</span> <span class="token constant">SPEED</span> <span class="token operator">=</span> <span class="token number">5.5</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_2D <span class="token operator">=</span> Input<span class="token punctuation">.</span><span class="token function">get_vector</span><span class="token punctuation">(</span>
+</span><span class="code-line">		<span class="token string">"move_left"</span><span class="token punctuation">,</span> <span class="token string">"move_right"</span><span class="token punctuation">,</span> <span class="token string">"move_forward"</span><span class="token punctuation">,</span> <span class="token string">"move_back"</span>
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_3D <span class="token operator">=</span> <span class="token function">Vector3</span><span class="token punctuation">(</span>
+</span><span class="code-line">		input_direction_2D<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> input_direction_2D<span class="token punctuation">.</span>y
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> transform<span class="token punctuation">.</span>basis <span class="token operator">*</span> input_direction_3D
+</span><span class="code-line">
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>x <span class="token operator">=</span> direction<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>z <span class="token operator">=</span> direction<span class="token punctuation">.</span>z <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>y <span class="token operator">-=</span> <span class="token number">20.0</span> <span class="token operator">*</span> delta
+</span><span class="code-line">	<span class="token keyword">if</span> Input<span class="token punctuation">.</span><span class="token function">is_action_just_pressed</span><span class="token punctuation">(</span><span class="token string">"jump"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token function">is_on_floor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		velocity<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">10.0</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> Input<span class="token punctuation">.</span><span class="token function">is_action_just_released</span><span class="token punctuation">(</span><span class="token string">"jump"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> velocity<span class="token punctuation">.</span>y <span class="token operator">></span> <span class="token number">0.0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		velocity<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token function">move_and_slide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">if</span> Input<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"shoot"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token operator">%</span>Timer<span class="token punctuation">.</span><span class="token function">is_stopped</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token function">shoot_bullet</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">shoot_bullet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">const</span> <span class="token constant">BULLET_3D</span> <span class="token operator">=</span> <span class="token keyword">preload</span><span class="token punctuation">(</span><span class="token string">"res://player/bullet_3d.tscn"</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">var</span> new_bullet <span class="token operator">=</span> <span class="token constant">BULLET_3D</span><span class="token punctuation">.</span><span class="token function">instantiate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token operator">%</span>Marker3D<span class="token punctuation">.</span><span class="token function">add_child</span><span class="token punctuation">(</span>new_bullet<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	new_bullet<span class="token punctuation">.</span>transform <span class="token operator">=</span> <span class="token operator">%</span>Marker3D<span class="token punctuation">.</span>global_transform
+</span><span class="code-line inserted"><span class="token operator">+</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token operator">%</span>Timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="error">
+    In the bullet scene, I don't see the bullet's two grey surfaces as in the video. I only see one gray shell.
+</dt>
+<dd>
+    <div>
+        
+<p>Before we add the colors to the bullet mesh, the different meshes can be a bit difficult to see depending on the shading applied to the scene.</p>
+<p>If when loading a mesh, you don't really see highlights and shadows on it, double check that the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-PreviewSun" aria-hidden="true"><span class="iconGodotLabel">PreviewSun</span></span>Toggle preview sunlight</span> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-PreviewEnvironment" aria-hidden="true"><span class="iconGodotLabel">PreviewEnvironment</span></span>Toggle preview environment</span> icons are activated in the toolbar above the viewport.</p>
+<p>These two icons control the scene's preview lighting. If they are turned off, the scene will have no lighting and will generally turn a bit dark gray (unless it's a game level and it contains light nodes), which makes it hard to see the different meshes.</p>
+
+    </div>
+</dd>
+</dl>
+<h2>8. Creating the mob and pursuing the player</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451822?h=25a9576abd&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cmzll75rabrg"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/bat/bat_model.gd</span> script at the end of this section:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> animation_tree <span class="token operator">=</span> <span class="token operator">%</span>AnimationTree
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	animation_tree<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">"parameters/OneShot/request"</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+</span></code></pre>
+<p>Here is the mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> bat_model <span class="token operator">=</span> <span class="token operator">%</span>bat_model
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+<p>Finally, here's the updated bullet script, <span data-is="file-in-text" data-file-only="false">res://player/bullet_3d.gd</span>:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Area3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">const</span> <span class="token constant">SPEED</span> <span class="token operator">=</span> <span class="token number">55.0</span>
+</span><span class="code-line"><span class="token keyword">const</span> <span class="token constant">RANGE</span> <span class="token operator">=</span> <span class="token number">40.0</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> travelled_distance <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	position <span class="token operator">+=</span> transform<span class="token punctuation">.</span>basis<span class="token punctuation">.</span>z <span class="token operator">*</span> <span class="token constant">SPEED</span> <span class="token operator">*</span> delta
+</span><span class="code-line">	travelled_distance <span class="token operator">+=</span> <span class="token constant">SPEED</span> <span class="token operator">*</span> delta
+</span><span class="code-line">	<span class="token keyword">if</span> travelled_distance <span class="token operator">></span> <span class="token constant">RANGE</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_body_entered</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">if</span> body<span class="token punctuation">.</span><span class="token function">has_method</span><span class="token punctuation">(</span><span class="token string">"take_damage"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		body<span class="token punctuation">.</span><span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>9. Making the mob follow the player</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451842?h=3e4df4c403&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="error">
+    After creating an animation tree node I do not see the animation tree panel
+</dt>
+<dd>
+    <div>
+        
+<p>In Godot 4.3, there's a bug where when creating an <span class="iconGodotWrapper"><span class="iconGodot iconGodot-AnimationTree" aria-hidden="true"><span class="iconGodotLabel">AnimationTree</span></span>AnimationTree</span> node, the <em>AnimationTree</em> bottom panel does not automatically expand. You have to open it manually by clicking the <em>AnimationTree</em> label at the bottom of the editor.</p>
+
+    </div>
+</dd>
+</dl>
+<h3>Checkpoint</h3>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="c0r354kokchea"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span> script at the end of this section. I highlighted the new lines of code for the mob to follow the player:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">var</span> speed <span class="token operator">=</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token number">2.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> bat_model <span class="token operator">=</span> <span class="token operator">%</span>bat_model
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>@<span class="token keyword">onready</span> <span class="token keyword">var</span> player <span class="token operator">=</span> <span class="token function">get_node</span><span class="token punctuation">(</span><span class="token string">"/root/Game/Player"</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">var</span> direction <span class="token operator">=</span> global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>player<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	direction<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	linear_velocity <span class="token operator">=</span> direction <span class="token operator">*</span> speed
+</span><span class="code-line inserted"><span class="token operator">+</span>	bat_model<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>y <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">FORWARD</span><span class="token punctuation">.</span><span class="token function">signed_angle_to</span><span class="token punctuation">(</span>direction<span class="token punctuation">,</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">PI</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>10. Making the mob die</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451861?h=7fd147ad2b&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="info">
+    Why the bat rotates if you touch it
+</dt>
+<dd>
+    <div>
+        
+<p>In this game, we use a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> node for mobs (for the bat). A <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> is largely controlled by the physics engine and you influence it through collisions and forces.</p>
+<p>By default, a rigid body 3D node is set to automatically rotate under the influence of impacts and forces. When you collide with a bat with the player character this creates an impact that causes the bat to start spinning. The same happens when bats collide with one another.</p>
+<p>It's a behavior that we want when killing a bat because we want it to roll on the floor and rolling on the floor is powered by the same system.</p>
+<p>For simplicity in the video, we keep the rotation by default, but if you want to suppress this behavior while the bats are flying around, you can lock the mob's rotation by turning on the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Deactivation</span><span class="settingsInTextSection settingsInTextSectionLast">Lock Rotation</span></span> property of the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> node (the <em>Mob</em> node) in the Inspector.</p>
+<img src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/images/troubleshooting_lock_rotation.png" alt="The Lock Rotation property turned on in the Inspector">
+<p>This will, however, cause the bats not to roll anymore when killing them. So to make them roll upon dying, in the <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span> script, you need to add a line of code to remove rotation lock. You can add the following lines at the end of the <code class="language-gdscript">take_damage()</code> function for that:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">&#x3C;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token keyword">return</span>
+</span><span class="code-line">
+</span><span class="code-line">	bat_skin<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">	health <span class="token operator">-=</span> <span class="token number">1</span>
+</span><span class="code-line">	hurt_sound<span class="token punctuation">.</span>pitch_scale <span class="token operator">=</span> <span class="token function">randfn</span><span class="token punctuation">(</span><span class="token number">1.0</span><span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">)</span>
+</span><span class="code-line">	hurt_sound<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token function">set_physics_process</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span>
+</span><span class="code-line">		gravity_scale <span class="token operator">=</span> <span class="token number">1.0</span>
+</span><span class="code-line">		<span class="token keyword">var</span> direction_back <span class="token operator">=</span> player<span class="token punctuation">.</span>global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">		<span class="token keyword">var</span> random_upward_force <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span> <span class="token operator">*</span> <span class="token function">randf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">5.0</span>
+</span><span class="code-line">		<span class="token function">apply_central_impulse</span><span class="token punctuation">(</span>direction_back<span class="token punctuation">.</span><span class="token function">rotated</span><span class="token punctuation">(</span>Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">,</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">0.2</span><span class="token punctuation">,</span> <span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">10.0</span> <span class="token operator">+</span> random_upward_force<span class="token punctuation">)</span>
+</span><span class="code-line">		timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>		lock_rotation <span class="token operator">=</span> <span class="token boolean">false</span>
+</span></code></pre>
+
+    </div>
+</dd>
+</dl>
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the mob scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is set to <em>One Shot</em></div>
+<div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node's <code class="language-gdscript">timeout</code> signal is connected to the <em>Mob</em> node's <code class="language-gdscript">_on_timer_timeout</code> function</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cimxkciyqde"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span> script at the end of this section. I highlighted the new lines of code for the mob to follow the player:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">var</span> health <span class="token operator">=</span> <span class="token number">3</span>
+</span><span class="code-line"><span class="token keyword">var</span> speed <span class="token operator">=</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token number">2.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> bat_model <span class="token operator">=</span> <span class="token operator">%</span>bat_model
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token operator">%</span>Timer
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> player <span class="token operator">=</span> <span class="token function">get_node</span><span class="token punctuation">(</span><span class="token string">"/root/Game/Player"</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>player<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">	direction<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">	linear_velocity <span class="token operator">=</span> direction <span class="token operator">*</span> speed
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>y <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">FORWARD</span><span class="token punctuation">.</span><span class="token function">signed_angle_to</span><span class="token punctuation">(</span>direction<span class="token punctuation">,</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">PI</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">if</span> health <span class="token operator">&#x3C;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token keyword">return</span>
+</span><span class="code-line">
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>	health <span class="token operator">-=</span> <span class="token number">1</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">if</span> health <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token function">set_physics_process</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		gravity_scale <span class="token operator">=</span> <span class="token number">1.0</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token keyword">var</span> direction <span class="token operator">=</span> player<span class="token punctuation">.</span>global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token keyword">var</span> random_upward_force <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span> <span class="token operator">*</span> <span class="token function">randf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">5.0</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token function">apply_central_impulse</span><span class="token punctuation">(</span>direction<span class="token punctuation">.</span><span class="token function">rotated</span><span class="token punctuation">(</span>Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">,</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">0.2</span><span class="token punctuation">,</span> <span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">10.0</span> <span class="token operator">+</span> random_upward_force<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>11. Spawning mobs continuously</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451878?h=7abfa33017&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cbxrflo892wi"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/spawner_3d.gd</span> script at the end of this section. I highlighted the new lines of code for the mob to follow the player:</p>
+<p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">The reference to the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is unused in the script. You can remove it if you want to keep your code free of unused references. I still included it here to match the video.</div></div></p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">export</span> <span class="token keyword">var</span> mob_to_spawn<span class="token punctuation">:</span> <span class="token class-name">PackedScene</span> <span class="token operator">=</span> <span class="token keyword">null</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> marker_3d <span class="token operator">=</span> <span class="token variable">$Marker3D</span>
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token operator">%</span>Timer
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">var</span> new_mob <span class="token operator">=</span> mob_to_spawn<span class="token punctuation">.</span><span class="token function">instantiate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token function">add_child</span><span class="token punctuation">(</span>new_mob<span class="token punctuation">)</span>
+</span><span class="code-line">	new_mob<span class="token punctuation">.</span>global_position <span class="token operator">=</span> marker_3d<span class="token punctuation">.</span>global_position
+</span></code></pre>
+</div></div></div></div>
+<h2>12. Scoring</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451897?h=11a0de95a4&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the game scene, the <em>MobSpawner3D</em> node's <code class="language-gdscript">mob_spawned</code> signal is connected to the <em>Game</em> node</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cfo5g4lqjur"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/spawner_3d.gd</span> script at the end of this section. I highlighted the new lines of code to emit a signal when a mob spawns.</p>
+<p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">The reference to the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is unused in the script. You can remove it if you want to keep your code free of unused references. I still included it here to match the video.</div></div></p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">signal</span> <span class="token function">mob_spawned</span><span class="token punctuation">(</span>mob<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">export</span> <span class="token keyword">var</span> mob_to_spawn<span class="token punctuation">:</span> <span class="token class-name">PackedScene</span> <span class="token operator">=</span> <span class="token keyword">null</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> marker_3d <span class="token operator">=</span> <span class="token variable">$Marker3D</span>
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token operator">%</span>Timer
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">var</span> new_mob <span class="token operator">=</span> mob_to_spawn<span class="token punctuation">.</span><span class="token function">instantiate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token function">add_child</span><span class="token punctuation">(</span>new_mob<span class="token punctuation">)</span>
+</span><span class="code-line">	new_mob<span class="token punctuation">.</span>global_position <span class="token operator">=</span> marker_3d<span class="token punctuation">.</span>global_position
+</span><span class="code-line inserted"><span class="token operator">+</span>	mob_spawned<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span>new_mob<span class="token punctuation">)</span>
+</span></code></pre>
+<p>Here's the updated mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>, with the new lines to track death and emit a signal:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">signal</span> died
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> health <span class="token operator">=</span> <span class="token number">3</span>
+</span><span class="code-line"><span class="token keyword">var</span> speed <span class="token operator">=</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token number">2.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> bat_model <span class="token operator">=</span> <span class="token operator">%</span>bat_model
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token operator">%</span>Timer
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> player <span class="token operator">=</span> <span class="token function">get_node</span><span class="token punctuation">(</span><span class="token string">"/root/Game/Player"</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>player<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">	direction<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">	linear_velocity <span class="token operator">=</span> direction <span class="token operator">*</span> speed
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>y <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">FORWARD</span><span class="token punctuation">.</span><span class="token function">signed_angle_to</span><span class="token punctuation">(</span>direction<span class="token punctuation">,</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">PI</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">&#x3C;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token keyword">return</span>
+</span><span class="code-line">
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	health <span class="token operator">-=</span> <span class="token number">1</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token function">set_physics_process</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span>
+</span><span class="code-line">		gravity_scale <span class="token operator">=</span> <span class="token number">1.0</span>
+</span><span class="code-line">		<span class="token keyword">var</span> direction <span class="token operator">=</span> player<span class="token punctuation">.</span>global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">		<span class="token keyword">var</span> random_upward_force <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span> <span class="token operator">*</span> <span class="token function">randf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">5.0</span>
+</span><span class="code-line">		<span class="token function">apply_central_impulse</span><span class="token punctuation">(</span>direction<span class="token punctuation">.</span><span class="token function">rotated</span><span class="token punctuation">(</span>Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">,</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">0.2</span><span class="token punctuation">,</span> <span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">10.0</span> <span class="token operator">+</span> random_upward_force<span class="token punctuation">)</span>
+</span><span class="code-line">		timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>		died<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+<p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> player_score <span class="token operator">=</span> <span class="token number">0</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> label <span class="token operator">:=</span> <span class="token operator">%</span>Label
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">increase_score</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	player_score <span class="token operator">+=</span> <span class="token number">1</span>
+</span><span class="code-line">	label<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Score: "</span> <span class="token operator">+</span> <span class="token function">str</span><span class="token punctuation">(</span>player_score<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_mob_spawner_3d_mob_spawned</span><span class="token punctuation">(</span>mob<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	mob<span class="token punctuation">.</span>died<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>increase_score<span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>13. Adding sound</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451917?h=343ed5b80d&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the player scene, there is an <span class="iconGodotWrapper"><span class="iconGodot iconGodot-AudioStreamPlayer" aria-hidden="true"><span class="iconGodotLabel">AudioStreamPlayer</span></span>AudioStreamPlayer</span> node (which plays at a constant volume), and in the mob scene, there are <span class="iconGodotWrapper"><span class="iconGodot iconGodot-AudioStreamPlayer3D" aria-hidden="true"><span class="iconGodotLabel">AudioStreamPlayer3D</span></span>AudioStreamPlayer3D</span> nodes for the hurt and KO sounds (so their volume fades with the distance to the player)</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cnz3an0stdg"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>And here's the player script, <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span>. I highlighted the added line of code for playing the shooting sound:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_unhandled_input</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event <span class="token keyword">is</span> InputEventMouseMotion<span class="token punctuation">:</span>
+</span><span class="code-line">		rotation_degrees<span class="token punctuation">.</span>y <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token number">0.5</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">-=</span> event<span class="token punctuation">.</span>relative<span class="token punctuation">.</span>y <span class="token operator">*</span> <span class="token number">0.2</span>
+</span><span class="code-line">		<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token function">clamp</span><span class="token punctuation">(</span>
+</span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
+</span><span class="code-line">		<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"ui_cancel"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		Input<span class="token punctuation">.</span><span class="token function">set_mouse_mode</span><span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token constant">MOUSE_MODE_VISIBLE</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">const</span> <span class="token constant">SPEED</span> <span class="token operator">=</span> <span class="token number">5.5</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_2D <span class="token operator">=</span> Input<span class="token punctuation">.</span><span class="token function">get_vector</span><span class="token punctuation">(</span>
+</span><span class="code-line">		<span class="token string">"move_left"</span><span class="token punctuation">,</span> <span class="token string">"move_right"</span><span class="token punctuation">,</span> <span class="token string">"move_forward"</span><span class="token punctuation">,</span> <span class="token string">"move_back"</span>
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> input_direction_3D <span class="token operator">=</span> <span class="token function">Vector3</span><span class="token punctuation">(</span>
+</span><span class="code-line">		input_direction_2D<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> input_direction_2D<span class="token punctuation">.</span>y
+</span><span class="code-line">	<span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> transform<span class="token punctuation">.</span>basis <span class="token operator">*</span> input_direction_3D
+</span><span class="code-line">
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>x <span class="token operator">=</span> direction<span class="token punctuation">.</span>x <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>z <span class="token operator">=</span> direction<span class="token punctuation">.</span>z <span class="token operator">*</span> <span class="token constant">SPEED</span>
+</span><span class="code-line">
+</span><span class="code-line">	velocity<span class="token punctuation">.</span>y <span class="token operator">-=</span> <span class="token number">20.0</span> <span class="token operator">*</span> delta
+</span><span class="code-line">	<span class="token keyword">if</span> Input<span class="token punctuation">.</span><span class="token function">is_action_just_pressed</span><span class="token punctuation">(</span><span class="token string">"jump"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token function">is_on_floor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		velocity<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">10.0</span>
+</span><span class="code-line">	<span class="token keyword">elif</span> Input<span class="token punctuation">.</span><span class="token function">is_action_just_released</span><span class="token punctuation">(</span><span class="token string">"jump"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> velocity<span class="token punctuation">.</span>y <span class="token operator">></span> <span class="token number">0.0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		velocity<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token function">move_and_slide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">if</span> Input<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"shoot"</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token operator">%</span>Timer<span class="token punctuation">.</span><span class="token function">is_stopped</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token function">shoot_bullet</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">shoot_bullet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">const</span> <span class="token constant">BULLET_3D</span> <span class="token operator">=</span> <span class="token keyword">preload</span><span class="token punctuation">(</span><span class="token string">"res://player/bullet_3d.tscn"</span><span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token keyword">var</span> new_bullet <span class="token operator">=</span> <span class="token constant">BULLET_3D</span><span class="token punctuation">.</span><span class="token function">instantiate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">	<span class="token operator">%</span>Marker3D<span class="token punctuation">.</span><span class="token function">add_child</span><span class="token punctuation">(</span>new_bullet<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	new_bullet<span class="token punctuation">.</span>transform <span class="token operator">=</span> <span class="token operator">%</span>Marker3D<span class="token punctuation">.</span>global_transform
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token operator">%</span>Timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token operator">%</span>AudioStreamPlayer<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+<p>Here's the updated mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>, with the lines of code to play the hurt and KO sounds highlighted:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">signal</span> died
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> health <span class="token operator">=</span> <span class="token number">3</span>
+</span><span class="code-line"><span class="token keyword">var</span> speed <span class="token operator">=</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token number">2.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> bat_model <span class="token operator">=</span> <span class="token operator">%</span>bat_model
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token operator">%</span>Timer
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> player <span class="token operator">=</span> <span class="token function">get_node</span><span class="token punctuation">(</span><span class="token string">"/root/Game/Player"</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span>@<span class="token keyword">onready</span> <span class="token keyword">var</span> hurt_sound <span class="token operator">=</span> <span class="token operator">%</span>HurtSound
+</span><span class="code-line inserted"><span class="token operator">+</span>@<span class="token keyword">onready</span> <span class="token keyword">var</span> ko_sound <span class="token operator">=</span> <span class="token operator">%</span>KOSound
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>player<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">	direction<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">	linear_velocity <span class="token operator">=</span> direction <span class="token operator">*</span> speed
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>y <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">FORWARD</span><span class="token punctuation">.</span><span class="token function">signed_angle_to</span><span class="token punctuation">(</span>direction<span class="token punctuation">,</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">PI</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">&#x3C;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token keyword">return</span>
+</span><span class="code-line">
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	health <span class="token operator">-=</span> <span class="token number">1</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	hurt_sound<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		ko_sound<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">		<span class="token function">set_physics_process</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span>
+</span><span class="code-line">		gravity_scale <span class="token operator">=</span> <span class="token number">1.0</span>
+</span><span class="code-line">		<span class="token keyword">var</span> direction <span class="token operator">=</span> player<span class="token punctuation">.</span>global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">		<span class="token keyword">var</span> random_upward_force <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span> <span class="token operator">*</span> <span class="token function">randf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">5.0</span>
+</span><span class="code-line">		<span class="token function">apply_central_impulse</span><span class="token punctuation">(</span>direction<span class="token punctuation">.</span><span class="token function">rotated</span><span class="token punctuation">(</span>Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">,</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">0.2</span><span class="token punctuation">,</span> <span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">10.0</span> <span class="token operator">+</span> random_upward_force<span class="token punctuation">)</span>
+</span><span class="code-line">		timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">		died<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>14. Kill plane</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451930?h=734fb29dd3&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">The <em>KillPlane</em> node's <code class="language-gdscript">body_entered</code> signal is connected to the <em>Game</em> node (not its <code class="language-gdscript">area_entered</code> signal, which wouldn't detect the player)</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="c2lmmwnnfzza"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>, with the new function for the kill plane highlighted:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> player_score <span class="token operator">=</span> <span class="token number">0</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> label <span class="token operator">:=</span> <span class="token operator">%</span>Label
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">increase_score</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	player_score <span class="token operator">+=</span> <span class="token number">1</span>
+</span><span class="code-line">	label<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Score: "</span> <span class="token operator">+</span> <span class="token function">str</span><span class="token punctuation">(</span>player_score<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_mob_spawner_3d_mob_spawned</span><span class="token punctuation">(</span>mob<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	mob<span class="token punctuation">.</span>died<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>increase_score<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">_on_kill_plane_body_entered</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reload_current_scene<span class="token punctuation">.</span><span class="token function">call_deferred</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>15. Adding visual effects and completing the level</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451946?h=f5a67a69cf&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3>Checkpoint</h3>
+<p><div class="checkpointBullet">In the mob scene, the <em>Mob</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><span class="settingsInTextSection settingsInTextSectionLast">Layer</span></span> property is set to layer 2</div>
+<div class="checkpointBullet">In the player scene, the <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><span class="settingsInTextSection settingsInTextSectionLast">Mask</span></span> property is set to both layers 1 and 2 (so it collides with both the floor and mobs)</div>
+<div class="checkpointBullet">In the bullet scene, the <em>Bullet3D</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><span class="settingsInTextSection settingsInTextSectionLast">Mask</span></span> property is set to both layers 1 and 2 (so it dies when touching solid ground and detects and damages the mobs)</div></p>
+<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cazhghf276z7"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>, at the end of this section. I highlighted the lines to draw the mob's VFX.</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> player_score <span class="token operator">=</span> <span class="token number">0</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> label <span class="token operator">:=</span> <span class="token operator">%</span>Label
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">increase_score</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	player_score <span class="token operator">+=</span> <span class="token number">1</span>
+</span><span class="code-line">	label<span class="token punctuation">.</span>text <span class="token operator">=</span> <span class="token string">"Score: "</span> <span class="token operator">+</span> <span class="token function">str</span><span class="token punctuation">(</span>player_score<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">do_poof</span><span class="token punctuation">(</span>mob_position<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">const</span> <span class="token constant">SMOKE_PUFF</span> <span class="token operator">=</span> <span class="token keyword">preload</span><span class="token punctuation">(</span><span class="token string">"res://mob/smoke_puff/smoke_puff.tscn"</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token keyword">var</span> poof <span class="token operator">:=</span> <span class="token constant">SMOKE_PUFF</span><span class="token punctuation">.</span><span class="token function">instantiate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token function">add_child</span><span class="token punctuation">(</span>poof<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	poof<span class="token punctuation">.</span>global_position <span class="token operator">=</span> mob_position
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_mob_spawner_3d_mob_spawned</span><span class="token punctuation">(</span>mob<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line deleted"><span class="token operator">-</span>	mob<span class="token punctuation">.</span>died<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>increase_score<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	mob<span class="token punctuation">.</span>died<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span><span class="token keyword">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token function">increase_score</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>		<span class="token function">do_poof</span><span class="token punctuation">(</span>mob<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token function">do_poof</span><span class="token punctuation">(</span>mob<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_kill_plane_body_entered</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reload_current_scene<span class="token punctuation">.</span><span class="token function">call_deferred</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+<p>And here's the updated mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>:</p>
+<pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">signal</span> died
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">var</span> health <span class="token operator">=</span> <span class="token number">3</span>
+</span><span class="code-line"><span class="token keyword">var</span> speed <span class="token operator">=</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token number">2.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> bat_model <span class="token operator">=</span> <span class="token operator">%</span>bat_model
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token operator">%</span>Timer
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> player <span class="token operator">=</span> <span class="token function">get_node</span><span class="token punctuation">(</span><span class="token string">"/root/Game/Player"</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> hurt_sound <span class="token operator">=</span> <span class="token operator">%</span>HurtSound
+</span><span class="code-line">@<span class="token keyword">onready</span> <span class="token keyword">var</span> ko_sound <span class="token operator">=</span> <span class="token operator">%</span>KOSound
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_physics_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">var</span> direction <span class="token operator">=</span> global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>player<span class="token punctuation">.</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">	direction<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token number">0.0</span>
+</span><span class="code-line">	linear_velocity <span class="token operator">=</span> direction <span class="token operator">*</span> speed
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>y <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">FORWARD</span><span class="token punctuation">.</span><span class="token function">signed_angle_to</span><span class="token punctuation">(</span>direction<span class="token punctuation">,</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">PI</span>
+</span><span class="code-line">
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">&#x3C;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token keyword">return</span>
+</span><span class="code-line">
+</span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	health <span class="token operator">-=</span> <span class="token number">1</span>
+</span><span class="code-line">	hurt_sound<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">	<span class="token keyword">if</span> health <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+</span><span class="code-line">		ko_sound<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line">		<span class="token function">set_physics_process</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span>
+</span><span class="code-line">		gravity_scale <span class="token operator">=</span> <span class="token number">1.0</span>
+</span><span class="code-line">		<span class="token keyword">var</span> direction <span class="token operator">=</span> player<span class="token punctuation">.</span>global_position<span class="token punctuation">.</span><span class="token function">direction_to</span><span class="token punctuation">(</span>global_position<span class="token punctuation">)</span>
+</span><span class="code-line">		<span class="token keyword">var</span> random_upward_force <span class="token operator">=</span> Vector3<span class="token punctuation">.</span><span class="token constant">UP</span> <span class="token operator">*</span> <span class="token function">randf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">5.0</span>
+</span><span class="code-line">		<span class="token function">apply_central_impulse</span><span class="token punctuation">(</span>direction<span class="token punctuation">.</span><span class="token function">rotated</span><span class="token punctuation">(</span>Vector3<span class="token punctuation">.</span><span class="token constant">UP</span><span class="token punctuation">,</span> <span class="token function">randf_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">0.2</span><span class="token punctuation">,</span> <span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">10.0</span> <span class="token operator">+</span> random_upward_force<span class="token punctuation">)</span>
+</span><span class="code-line">		timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line deleted"><span class="token operator">-</span>		died<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line">
+</span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line inserted"><span class="token operator">+</span>	died<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span></code></pre>
+</div></div></div></div>
+<h2>16. Exporting the game</h2>
+
+
+
+<div class="videoEmbed video-vimeo">
+<iframe src="https://player.vimeo.com/video/1060451959?h=4f0946de95&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<p><h1 class="hasIconBefore icon-patch c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Updates / Code patches</h1></p>
+<ul>
+<li>This learning resource was created with Godot 4.2 and updated to Godot 4.3</li>
+<li>No errors have been reported. <a href="https://school.gdquest.com/about-us/contact?subject=Reporting%20an%20error%20in%20%22first_3d_game_godot4_arena_fps%22">REPORT AN ERROR</a></li>
+</ul>
+<p><h1 class="hasIconBefore icon-bonus c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Bonus</h1></p>
+<p>You can go a lot further with this game. After completing the tutorial, the challenges below will help you improve your skills and make the game your own.</p>
+<section class="custom-component QuoteBubbleNathan"><p>Remember that programming is a skill and you will only improve if you copy, customize, and then create.</p><p>We prepared some challenges to help you get started, experimenting and making the project yours. They come with hints and a solution to compare against in the solutions version of the Godot project files you downloaded.</p><p>The challenges will take research and experimentation. Each of them comes with hints that help you one step of the way at a time.</p><p>These challenges are, well, challenging! You will need to research and help each other to beat them. If you can't beat them, no worries! The bulk of the learning and skill improvement happens when you work hard and try to implement mechanics and search for a solution. You can always come back to the challenges later when you have more experience.</p></section>
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="question">
+    How do I know if I beat a challenge or if my code is a valid solution?
+</dt>
+<dd>
+    <div>
+        
+<p>In programming, there are often many ways to achieve the same result. When you're getting started, as long as your result looks similar to the challenge video example, you're all good. The challenge is in getting the result in the game, not writing the code in a specific way.</p>
+<p>Writing code that is as simple as can be will come with experience.</p>
+
+    </div>
+</dd>
+</dl>
+<div class="challenge">
+  <h3 class="challengeTitle">Challenge:</h3> 
+<p>Add a time limit to the game, this is the time the player needs to survive. Display the remaining time centered at the top of the screen.</p>
+<p>If the player stays alive all the time, display a message centered on the screen to congratulate them.</p>
+<p>The final result should look something like this:</p>
+<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+<p>Check out the <code class="language-gdscript">get_tree().paused</code> property to pause the game when it ends.</p>
+<p><div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cp5y9xbbxu9o"><div class="disclosureDetailsContent"><div class="hintContent">There are two nodes you used in the series that will come in handy in this challenge: <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Label" aria-hidden="true"><span class="iconGodotLabel">Label</span></span>Label</span>.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cif930kftty"><div class="disclosureDetailsContent"><div class="hintContent">You can create a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node with its wait time set to the duration of the game to track the remaining time for you.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="c5l8oxmv4o6y"><div class="disclosureDetailsContent"><div class="hintContent">Connect to the timer's <code class="language-gdscript">timeout</code> signal to know when the time ran out and want to display the end text.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cs4eo35zbwz"><div class="disclosureDetailsContent"><div class="hintContent">Set the timer node to one shot to make sure that it only emits its <code class="language-gdscript">timeout</code> signal once.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cijpc52ehz8"><div class="disclosureDetailsContent"><div class="hintContent">To display the remaining time, create a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Label" aria-hidden="true"><span class="iconGodotLabel">Label</span></span>Label</span> node, get a reference to the timer node, and read its remaining time.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="ctaa43yx40r"><div class="disclosureDetailsContent"><div class="hintContent">You need to convert the remaining time to text to be able to display it through the label's text property.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="c6g4ykg4ktbt"><div class="disclosureDetailsContent"><div class="hintContent">By default, the player will continue moving and mobs spawning and pushing the player when the label shows up. You can pause the game using the <code class="language-gdscript">get_tree().paused</code> property.</div></div></div></div></p>
+
+</div>
+<div class="challenge">
+  <h3 class="challengeTitle">Challenge:</h3> 
+<p>Add a health bar and make the player take damage when colliding with the bats.</p>
+<p>The results should look something like this:</p>
+<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+<p>If you've watched the tutorial <a href="https://www.gdquest.com/tutorial/godot/2d/first-2d-game-godot-4/">Your First 2D Game with Godot 4</a> before, the principle behind this challenge is similar to the player health in the 2D tutorial. However, some of the required code will be different because this is 3D and the mobs are <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> nodes.</p>
+<p><div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cwf906kt5la"><div class="disclosureDetailsContent"><div class="hintContent">You can use a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-ProgressBar" aria-hidden="true"><span class="iconGodotLabel">ProgressBar</span></span>ProgressBar</span> node to display the player health.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cd5n1ghq47ug"><div class="disclosureDetailsContent"><div class="hintContent">You can add the progress bar directly as a child of the player node in the player scene. It makes it easy to access and update from the player script.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="ccz9g1mhy5jo"><div class="disclosureDetailsContent"><div class="hintContent">Add a variable to the player script to track the health.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czetemq88nm"><div class="disclosureDetailsContent"><div class="hintContent">You need to detect when mobs are touching the player to subtract health gradually every frame.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="cs4yvmcj178e"><div class="disclosureDetailsContent"><div class="hintContent">The player node is a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node and you can get a count of detected collisions using this method. Warning: this includes collisions with the ground.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="c95fj4apuxh"><div class="disclosureDetailsContent"><div class="hintContent">You can remove a small amount from the health each frame multiplied by the number of colliding mobs.</div></div></div></div>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="co21wqxq6ws"><div class="disclosureDetailsContent"><div class="hintContent">When the player health reaches zero, it's game over and you can reload the scene.</div></div></div></div></p>
+
+</div>
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="info">
+    Pausing the game in Godot
+</dt>
+<dd>
+    <div>
+        
+<p>Godot has built-in properties to pause the game and control what the player can do while the game is paused.</p>
+<p><strong>Pausing the game with get_tree().paused</strong></p>
+<p>To pause the game, you need to:</p>
+<ol>
+<li>Get the game's scene tree (it's the object that manages all the nodes in your game) by calling <code class="language-gdscript">get_tree()</code>.</li>
+<li>Change the <code class="language-gdscript">paused</code> property of the scene tree to <code class="language-gdscript">true</code>.</li>
+</ol>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>paused <span class="token operator">=</span> <span class="token boolean">true</span>
+</span></code></pre>
+<p>To unpause the game, you set the scene tree's <code class="language-gdscript">paused</code> property to <code class="language-gdscript">false</code>.</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>paused <span class="token operator">=</span> <span class="token boolean">false</span>
+</span></code></pre>
+<p>By default, this pauses <strong>all</strong> nodes in your game, which will prevent the player from doing anything, including navigating a pause menu or unpausing the game.</p>
+<p>To control which nodes pause and which continue running, you need to change the <em>process mode</em> property of the nodes you want to control.</p>
+<p><strong>Keeping nodes active while the game is paused</strong></p>
+<p>When you select a node, if you scroll to the bottom of the Inspector dock, you will see the property <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Process</span><span class="settingsInTextSection settingsInTextSectionLast">Mode</span></span>.</p>
+<p>By default, it's set to <em>Inherit</em>, which means the node will inherit the pause behavior from its parent node. By default, the root of the scene tree is paused when the game is paused and that's why all nodes in the game are paused.</p>
+<p>You can set a node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Process</span><span class="settingsInTextSection settingsInTextSectionLast">Mode</span></span> to <em>Always</em> instead to keep it and all its children running while the game is paused.</p>
+<p>You can do this for the root node of a pause menu or a game over menu, for example, to keep it interactive while the game is paused.</p>
+<p>Here's how to do it in code:</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">_ready</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token class-name">void</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token comment"># This code keeps the node to which the script is attached running while the</span>
+</span><span class="code-line">	<span class="token comment"># game is paused.</span>
+</span><span class="code-line">	process_mode <span class="token operator">=</span> Node<span class="token punctuation">.</span><span class="token constant">PROCESS_MODE_ALWAYS</span>
+</span></code></pre>
+<p><strong>Toggling pause with a key</strong></p>
+<p>You can toggle the game's pause state by checking if a key is pressed in the <code class="language-gdscript">_input()</code> function.</p>
+<pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">_input</span><span class="token punctuation">(</span>event<span class="token punctuation">:</span> <span class="token class-name">InputEvent</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token class-name">void</span><span class="token punctuation">:</span>
+</span><span class="code-line">	<span class="token keyword">if</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"toggle_pause"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+</span><span class="code-line">		<span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>paused <span class="token operator">=</span> <span class="token keyword">not</span> <span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>paused
+</span></code></pre>
+<p>In this code, we:</p>
+<ol>
+<li>Check if the input action <code class="language-gdscript">"toggle_pause"</code> is pressed. Doing this in the <code class="language-gdscript">_input()</code> function allows you to catch input events before the user interface and other nodes in the scene.</li>
+<li>Toggle the game's pause state by setting the scene tree's <code class="language-gdscript">paused</code> property to the opposite of its current value. If the game is paused, the <code class="language-gdscript">paused</code> property will be <code class="language-gdscript">true</code>, and writing <code class="language-gdscript">not</code> before it will set it to <code class="language-gdscript">false</code>, and vice versa.</li>
+</ol>
+<p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">You'll need to register the input action <code class="language-gdscript">"toggle_pause"</code> in the project settings for this code to work. Go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><span class="settingsInTextSection">Project Settings...</span><span class="settingsInTextSection settingsInTextSectionLast">Input Map</span></span> to register an input action.</div></div></p>
+
+    </div>
+</dd>
+</dl>
+<dl data-is="collapsible-list" class="calloutsList">
+<dt data-open="false" class="question">
+    Isn't it redundant to call get_tree() multiple times? And doesn't it affect performance?
+</dt>
+<dd>
+    <div>
+        
+<p>In GDScript, calling functions like <code class="language-gdscript">get_tree()</code> is a very cheap operation. Calling an engine's built-in function like this is surprisingly much faster than calling a function you would write yourself in the same script.</p>
+<p>The engine is optimized to handle these calls efficiently. So you don't need to worry about performance when calling built-in functions like <code class="language-gdscript">get_tree()</code> multiple times in a script, especially not as a beginner.</p>
+<p>When you gain experience and start working on performance-intensive code, you can start measuring the performance of different parts of your code.</p>
+
+    </div>
+</dd>
+</dl>
+    </main>
+		<div class="shareWidget">
+	
+<!-- Claps button is hidden -->
+
+	<button
+	class="clipboardButton"
+	data-is="clipboard-button"
+	data-clipboard="currentURL"
+	title="Copy url to clipboard"
+	aria-pressed="false"
+	aria-live="polite"
+>
+	<span class="clipboardButtonLabel">Copy URL to clipboard</span>
+	<span data-clipboard-message="" aria-hidden="true"
+		>Copied to clipboard!</span
+	>
+</button>
+
+</div>
+
+		<div class="itemPageMeta">
+  
+  <section class="promoGDSchool">
+	<h5 class="promoGDSchoolTitle">
+		Join us in
+		<span class="promoGDSchoolTitleLogo">
+			<span>GDSchool</span>
+		</span>
+	</h5>
+	<div class="promoGDSchoolBody"><figure class="quoteBubble">
+	<blockquote class="quoteBubbleContents"><p>
+			Don’t stop here. Step-by-step tutorials are fun but they only take
+			you so far.
+		</p>
+		<p><strong>
+			Try one of our proven study programs to become an independent
+			Gamedev truly capable of realizing the games you’ve always wanted to
+			make.
+		</strong></p></blockquote>
+	<figcaption class="quoteBubbleAuthor">
+		<h4 class="quoteBubbleAuthorName">Nathan</h4>
+		<h5 class="quoteBubbleAuthorTitle">Founder and teacher at GDQuest</h5>
+	</figcaption>
+</figure>
+<ul class="promoGDSchoolBodyList" role="list">
+			<li>
+				<a href="https://school.gdquest.com/products/bundle_godot_4_starter_kit">
+					<img src="https://www.gdquest.com/library/starter-kit.png" alt="Starter Kit" />
+				</a>
+			</li>
+			<li>
+				<a href="https://school.gdquest.com/products/bundle_learn_gamedev_godot_4">
+					<img
+						src="https://www.gdquest.com/library/from-zero.png"
+						alt="Learn Gamedev from Zero"
+					/>
+				</a>
+			</li>
+		</ul>
+		<a href="https://school.gdquest.com" class="promoGDSchoolBodyHighlightLink"
+			>Check out GDSchool</a
+		>
+	</div>
+</section>
+
+  
+<section class="itemDiscordInvite">
+    <h4>This tutorial has a discord channel!</h4>
+    <p>Connect with fellow beginners and pros building games and learning.</p>
+    <span>20,000 members</span>
+    <a href="https://discord.gg/DmTHFZAgHS">Join Server</a>
+</section>
+</div>
+
+	</section>
+<div class="contributeBlockWrapper">
+	<section aria-roledescription="contribution links" class="contributeBlock">
+		<h1 class="hasIconBefore icon-github">
+			Contribute to GDQuest's Free Library
+		</h1>
+
+		<p class="contributeBlockEmphasized">
+			There are multiple ways you can join our effort to create free and
+			open source gamedev resources that are accessible to everyone!
+		</p>
+
+		<ul role="list">
+			<li>
+				<p>
+					<img
+						src="https://www.gdquest.com/library/head-gobot.png"
+						alt=""
+						style="
+							--shape: url('https://www.gdquest.com/library/head-gobot.png');
+						"
+					/>
+					Sponsor this library by learning gamedev with us on
+					<a href="https://school.gdquest.com" class="gdschoolLogo">
+						<span>GDSchool</span>
+					</a>
+				</p>
+				<a
+					href="https://school.gdquest.com"
+					class="contributeBlockFooterLink contributeBlockFooterLinkLearnMore"
+				>
+					<span>Learn More</span>
+				</a>
+			</li>
+			<li>
+				<p>
+					<img
+						src="https://www.gdquest.com/library/head-sophia.png"
+						alt=""
+						style="
+							--shape: url('https://www.gdquest.com/library/head-sophia.png');
+						"
+					/>
+					Improve and build on assets or suggest edits on
+					<a href="https://github.com/gdquest" class="githubLogo"
+						><span>Github</span></a
+					>
+				</p>
+				<a
+					href="https://github.com/gdquest"
+					class="contributeBlockFooterLink contributeBlockFooterLinkContribute"
+				>
+					<span>Contribute</span>
+				</a>
+			</li>
+			<li>
+				<p>
+					<img
+						src="https://www.gdquest.com/library/head-gdbot.png"
+						alt=""
+						style="
+							--shape: url('https://www.gdquest.com/library/head-gdbot.png');
+						"
+					/>
+					share this page and talk about GDQUest on
+					<a class="socialLink" href="https://reddit.com"
+						><span>Reddit</span></a
+					>
+					<a class="socialLink" href="https://youtube.com"
+						><span>Youtube</span></a
+					>
+					<a class="socialLink" href="https://twitter.com"
+						><span>Twitter</span></a
+					>
+					…
+				</p>
+				<button
+					class="contributeBlockFooterLink contributeBlockFooterLinkShare"
+					data-is="clipboard-button"
+					data-clipboard="currentURL"
+					title="Copy url to clipboard"
+					aria-pressed="false"
+				>
+					<span>Share</span>
+					<span data-clipboard-message>Copied to clipboard!</span>
+				</button>
+				<!-- replace with:<button
+	class="clipboardButton"
+	data-is="clipboard-button"
+	data-clipboard="currentURL"
+	title="Copy url to clipboard"
+	aria-pressed="false"
+	aria-live="polite"
+>
+	<span class="clipboardButtonLabel">Copy URL to clipboard</span>
+	<span data-clipboard-message="" aria-hidden="true"
+		>Copied to clipboard!</span
+	>
+</button>
+ -->
+			</li>
+		</ul>
+	</section>
+</div>
+
+
+        <footer class="mainPageFooter">
+	<ul class="mainPageFooterWrapper" role="list">
+		<li class="mainPageFooterSocials">
+			<a
+				href="#"
+				class="mainPageFooterSocialsLogo gdquestLogo"
+				aria-hidden="true"
+			>
+				<span>GDQuest</span>
+			</a>
+			<p class="mainPageFooterSocialsBlurb">
+				On GDQuest, we help you become a game developer using Godot, the
+				free and open-source game engine
+			</p>
+			<ul class="mainPageFooterSocialsLinks">
+				<li>
+					<a
+						href="https://twitter.com/NathanGDQuest"
+						class="socialLink"
+						><span>Twitter</span></a
+					>
+				</li>
+				<li>
+					<a
+						href="https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ?sub_confirmation=1"
+						class="socialLink"
+						><span>Youtube</span></a
+					>
+				</li>
+				<li>
+					<a href="https://discord.gg/87NNb3Z" class="socialLink"
+						><span>Discord</span></a
+					>
+				</li>
+			</ul>
+		</li>
+		<li class="mainPageFooterMailingList">
+			<h3 class="mainPageFooterMailingListTitle">
+				Get the latest from GDQuest
+			</h3>
+			
+<iframe src="https://cdn.forms-content.sg-form.com/19d386b7-ea38-11ef-afd6-f2ea452526b2"></iframe>
+
+			<p class="mainPageFooterMailingListDisclaimer">
+				By subscribing, you agree to receive the latest announcements,
+				releases, and sales from GDQuest. Read our
+				<a href="#">privacy policy</a>.
+			</p>
+		</li>
+		<li class="mainPageFooterQuickLinks">
+			<h3>Quick Links</h3>
+			<ul>
+				<li>
+					<a href="#">Learn to Code From Zero With Godot</a>
+				</li>
+				<li>
+					<a href="#">The Great Godot 4 Starter Kit</a>
+				</li>
+				<li>
+					<a href="#">Schools & Educators</a>
+				</li>
+				<li>
+					<a href="#">see all</a>
+				</li>
+			</ul>
+		</li>
+		<li class="mainPageFooterAbout">
+			<h3>About</h3>
+			<ul>
+				<li><a href="#">Who are we?</a></li>
+				<li><a href="#">Terms of Service</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</li>
+	</ul>
+</footer>
+
+
+        <script src="https://www.gdquest.com/library/client.js" type="module"></script>
+    </body>
+</html>
