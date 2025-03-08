@@ -7,8 +7,9 @@ disableLanguages = ["es", "fr", "ja"]
 
 disableKinds = ["taxonomy", "term"]
 
-paginate = 6
-paginatePath = "page"
+[pagination]
+pagerSize = 6
+path = "page"
 
 [outputFormats]
 [outputFormats.search]

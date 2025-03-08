@@ -14,7 +14,7 @@
 
     <!--     GDQuest stylesheet
     -->
-    {{ $stylesheet := resources.Get "scss/gdquest.scss" | resources.ToCSS | minify | fingerprint }}
+    {{ $stylesheet := resources.Get "scss/gdquest.scss" | toCSS | minify | fingerprint }}
     <!--     Build main javascript.
     -->
     {{ $lazyVideo := resources.Get "js/lazy-load-videos.js" }}
