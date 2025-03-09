@@ -4,6 +4,7 @@
         <title>Your first 3D game with Godot 4 | GDQuest</title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="https://www.gdquest.com/library/style.css" />
+        <script src="https://www.gdquest.com/library/head.js" type="module"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="Your first 3D game with Godot 4">
 <meta name="twitter:title" content="Your first 3D game with Godot 4"><meta name="description" content="Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends." />
@@ -13,7 +14,7 @@
 <meta name="twitter:card" content="summary_large_image">
 
     </head>
-    <body class="dark itemPage">
+    <body class="itemPage">
         <header class="mainNavContainer">
             <nav class="mainNavWrapper">
   <a href="#" class="mainNavLogo gdquestLogo">
@@ -39,6 +40,17 @@
     </button>
 </section>
 
+    <button title="Toggle theme" class="themeToggle" data-is="theme-toggle">
+  <span class="themeToggleLabel">Toggle Theme</span>
+  <span class="themeToggleIcons">
+    <span class="themeToggleIconsIcon themeToggleIconsIconDark">
+      <span>🌙</span>
+    </span>
+    <span class="themeToggleIconsIcon themeToggleIconsIconLight">
+      <span>☀️</span>
+    </span>
+  </span>
+</button>
     <div class="mainNavSecondaryItems"><form action="https://www.gdquest.com/search/" method="get" class="headerSiteSearch">
   <input
     type="search"
@@ -179,15 +191,19 @@
 </div>
 
 		<main class="prose">
-      <p><h1 class="hasIconBefore icon-app c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Your First 3D Game With Godot</h1></p>
-<section class="custom-component QuoteBubbleNathan"><p>Welcome! This free beginner Godot course will teach you how to code your first complete 3D game, step-by-step, from start to finish.</p><p>You will learn how to create a 3D FPS arena survival game with a player character that can move, jump, and shoot, and enemies that chase and push you off the platforms. You will also learn how to create a level, add sound effects, and export the game to share it with others.</p><p>This video series is for people who are new to Godot and gamedev and want to get their feet wet.</p><p>To fully understand the code, it's helpful to know a little bit of coding. Any language will do. If you're completely new to coding, you can check out our free web app: <a href="https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app#lets-get-started">Learn GDScript From Zero</a>. It'll introduce you to GDScript, the programming language we use in this video series.</p><p>Bear in mind that when you learn Godot's GDScript, you're not stuck with it! Your coding knowledge is transferable to any other programming language like C#. We teach GDScript because it's particularly easy to pick up and it's well-integrated in Godot, so it's a great way to get started.</p></section>
+      <h1 class="hasIconBefore icon-app custom-component-SectionTitle">
+Your First 3D Game With Godot
+</h1>
+<section class="custom-component-QuoteBubbleNathan"><p>Welcome! This free beginner Godot course will teach you how to code your first complete 3D game, step-by-step, from start to finish.</p><p>You will learn how to create a 3D FPS arena survival game with a player character that can move, jump, and shoot, and enemies that chase and push you off the platforms. You will also learn how to create a level, add sound effects, and export the game to share it with others.</p><p>This video series is for people who are new to Godot and gamedev and want to get their feet wet.</p><p>To fully understand the code, it's helpful to know a little bit of coding. Any language will do. If you're completely new to coding, you can check out our free web app: <a href="https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app#lets-get-started">Learn GDScript From Zero</a>. It'll introduce you to GDScript, the programming language we use in this video series.</p><p>Bear in mind that when you learn Godot's GDScript, you're not stuck with it! Your coding knowledge is transferable to any other programming language like C#. We teach GDScript because it's particularly easy to pick up and it's well-integrated in Godot, so it's a great way to get started.</p></section>
 <p>This video comes with two zip files:</p>
 <ol>
 <li>The workbook version contains the assets. You need to follow along with the video and create the game yourself, step by step.</li>
 <li>The solutions version contains the finished code and code checkpoints. If you're stuck at some point and the troubleshooting points below do not answer your question, you can open the solution project in Godot and compare your scenes and scripts against it.</li>
 </ol>
 <p>Below each video, you will also find a folded code reference to check your scripts against without having to leave the page.</p>
-<p><h1 class="hasIconBefore icon-download c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Download files</h1></p>
+<h1 class="hasIconBefore icon-download custom-component-SectionTitle">
+Download files
+</h1>
 <ul>
 <li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-assets-1.1.0.zip">Assets to follow along</a></li>
 <li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-completed-1.1.0.zip">Completed project to use for reference</a></li>
@@ -204,8 +220,8 @@
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">_process</span><span class="token punctuation">(</span>delta<span class="token punctuation">:</span> <span class="token class-name">float</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token class-name">void</span><span class="token punctuation">:</span>
 </span></code></pre>
 <p>In this beginner tutorial, we don't use type hints to keep the code simple and easy to follow. If you have type hints enabled in your project settings, you can turn them off to follow along with the videos.</p>
-<p>Go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Editor</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Editor Settings...</span><wbr></wbr></span> (on macOS, instead, go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Godot</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Editor Settings...</span><wbr></wbr></span>), search for "Type hints", and in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Text Editor</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Completion</span><wbr></wbr></span> section, uncheck the <em>Add Type Hints</em> option. You can enable it again after completing the tutorial.</p>
-<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+<p>Go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Editor</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Editor Settings...</span><wbr/></span> (on macOS, instead, go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Godot</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Editor Settings...</span><wbr/></span>), search for "Type hints", and in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Text Editor</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Completion</span><wbr/></span> section, uncheck the <em>Add Type Hints</em> option. You can enable it again after completing the tutorial.</p>
+<div class="videoFile custom-component-VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" type="video/mp4"/>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/info_turn_off_type_hints.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
 
     </div>
 </dd>
@@ -243,16 +259,16 @@
 <dd>
     <div>
         
-<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+<div class="videoFile custom-component-VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" type="video/mp4"/>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/troubleshoot_main_scene_filesystem.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
 
     </div>
 </dd>
 </dl>
 <h3>Checkpoint</h3>
 <p>At the end of this section, you should be able to verify that:</p>
-<p><div class="checkpointBullet">In the player scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr></wbr></span> set to (0, 0, 0) in the Inspector</div><div class="checkpointBullet">
+<p><div class="checkpointBullet">In the player scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr/></span> set to (0, 0, 0) in the Inspector</div><div class="checkpointBullet">
 In the player scene, the <em>gun_model</em> is a child of the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node
-In the temporary level scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node faces the yellow platforms. Its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr></wbr></span> should be set to (0, 180, 0) in the Inspector</div></p>
+In the temporary level scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node faces the yellow platforms. Its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> should be set to (0, 180, 0) in the Inspector</div></p>
 <h2>2. Coding the camera rotation</h2>
 
 
@@ -283,9 +299,9 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </dd>
 </dl>
 <h3>Checkpoint</h3>
-<p><div class="checkpointBullet">In the player scene, the root <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr></wbr></span> and <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr></wbr></span> are both set to (0, 0, 0)</div>
+<p><div class="checkpointBullet">In the player scene, the root <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr/></span> and <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> are both set to (0, 0, 0)</div>
 <div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node is marked as unique name (it has a % icon in the <em>Scene</em> dock)</div>
-<div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node and <em>gun_model</em>'s <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr></wbr></span> are set to (0, 0, 0)</div></p>
+<div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node and <em>gun_model</em>'s <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> are set to (0, 0, 0)</div></p>
 <div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh14"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 2:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
@@ -341,16 +357,16 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
     <div>
         
 <p>If you have issues with the player's movement, in particular, if it's not aligned with the camera, this can mean that a node is offset or rotated in the player scene while it shouldn't.</p>
-<p>Review the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes in the player scene. In the Inspector, locate the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr></wbr></span> property. A position on the X axis that is not zero means that the node is offset left or right relative to its parent. And a value that is not zero on the Z axis means that the node is offset forward or back relative to its parent.</p>
-<p>Also, make sure that the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr></wbr></span> of both nodes is also set to (0, 0, 0) in the Inspector. If either node is rotated, this will affect the movement calculations in code.</p>
+<p>Review the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes in the player scene. In the Inspector, locate the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr/></span> property. A position on the X axis that is not zero means that the node is offset left or right relative to its parent. And a value that is not zero on the Z axis means that the node is offset forward or back relative to its parent.</p>
+<p>Also, make sure that the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> of both nodes is also set to (0, 0, 0) in the Inspector. If either node is rotated, this will affect the movement calculations in code.</p>
 <p>More generally, review the checkpoint in each section to help you identify what might be wrong and what the needed values for this project are.</p>
 
     </div>
 </dd>
 </dl>
 <h3>Checkpoint</h3>
-<p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr></wbr><span class="settingsInTextSection">Project Settings...</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Input map</span><wbr></wbr></span> tab, you have four input actions: "move_left", "move_right", "move_forward", and "move_back"</div>
-<div class="checkpointBullet">In the player scene, the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes still have their <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr></wbr></span> set to (0, 0, 0) in the Inspector</div></p>
+<p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Input map</span><wbr/></span> tab, you have four input actions: "move_left", "move_right", "move_forward", and "move_back"</div>
+<div class="checkpointBullet">In the player scene, the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes still have their <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> set to (0, 0, 0) in the Inspector</div></p>
 <div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh16"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 4:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
@@ -393,8 +409,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </div>
 
 <h3>Checkpoint</h3>
-<p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr></wbr><span class="settingsInTextSection">Project Settings...</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">General</span><wbr></wbr></span> tab, in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Display</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Window</span><wbr></wbr></span> section, the <em>Viewport Width</em> is set to <code class="language-gdscript">1920</code> and the <em>Viewport Height</em> is set to <code class="language-gdscript">1080</code>. Also, the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Stretch</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr></wbr></span> is set to "viewport"</div>
-<div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr></wbr><span class="settingsInTextSection">Project Settings...</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Input map</span><wbr></wbr></span> tab, you have a "jump" input action</div>
+<p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">General</span><wbr/></span> tab, in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Display</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Window</span><wbr/></span> section, the <em>Viewport Width</em> is set to <code class="language-gdscript">1920</code> and the <em>Viewport Height</em> is set to <code class="language-gdscript">1080</code>. Also, the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Stretch</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr/></span> is set to "viewport"</div>
+<div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Input map</span><wbr/></span> tab, you have a "jump" input action</div>
 <div class="checkpointBullet">In the player scene, the <em>Reticle</em> node is centered in the 2D viewport. It should have 4 green pins centered on it</div></p>
 <div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh17"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 4. I highlighted the new lines of code for the jump mechanic:</p>
@@ -454,10 +470,10 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </div>
 
 <h3>Checkpoint</h3>
-<section class="custom-component QuoteBubbleNathan"><p><strong>Errata:</strong> In the video, in the bullet scene, we turn the <em>Projectile</em> node 90 degrees on the Y axis to make it face forward. However, due to how the bullet is coded, it ends up facing backwards.</p><p>This is not very noticeable when playing so it's fine to leave it as-is, but in the checkpoint below I've corrected the angle value to -90 degrees to make the projectile model face the right way.</p></section>
+<section class="custom-component-QuoteBubbleNathan"><p><strong>Errata:</strong> In the video, in the bullet scene, we turn the <em>Projectile</em> node 90 degrees on the Y axis to make it face forward. However, due to how the bullet is coded, it ends up facing backwards.</p><p>This is not very noticeable when playing so it's fine to leave it as-is, but in the checkpoint below I've corrected the angle value to -90 degrees to make the projectile model face the right way.</p></section>
 <p>At the end of this section, you should be able to verify that:</p>
 <p><div class="checkpointBullet">In the player scene, there is no leftover bullet</div>
-<div class="checkpointBullet">In the bullet scene, the child <em>Projectile</em> has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr></wbr></span> set to (0, -90, 0) so that it faces forward (in the video, we turned it the opposite way)</div>
+<div class="checkpointBullet">In the bullet scene, the child <em>Projectile</em> has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> set to (0, -90, 0) so that it faces forward (in the video, we turned it the opposite way)</div>
 <div class="checkpointBullet">In the player scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is set to <em>One Shot</em></div></p>
 <div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh18"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/bullet_3d.gd</span> script at the end of part 7:</p>
@@ -649,7 +665,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <p>In this game, we use a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> node for mobs (for the bat). A <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> is largely controlled by the physics engine and you influence it through collisions and forces.</p>
 <p>By default, a rigid body 3D node is set to automatically rotate under the influence of impacts and forces. When you collide with a bat with the player character this creates an impact that causes the bat to start spinning. The same happens when bats collide with one another.</p>
 <p>It's a behavior that we want when killing a bat because we want it to roll on the floor and rolling on the floor is powered by the same system.</p>
-<p>For simplicity in the video, we keep the rotation by default, but if you want to suppress this behavior while the bats are flying around, you can lock the mob's rotation by turning on the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Deactivation</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Lock Rotation</span><wbr></wbr></span> property of the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> node (the <em>Mob</em> node) in the Inspector.</p>
+<p>For simplicity in the video, we keep the rotation by default, but if you want to suppress this behavior while the bats are flying around, you can lock the mob's rotation by turning on the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Deactivation</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Lock Rotation</span><wbr/></span> property of the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> node (the <em>Mob</em> node) in the Inspector.</p>
 <img src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/images/troubleshooting_lock_rotation.png" alt="The Lock Rotation property turned on in the Inspector">
 <p>This will, however, cause the bats not to roll anymore when killing them. So to make them roll upon dying, in the <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span> script, you need to add a line of code to remove rotation lock. You can add the following lines at the end of the <code class="language-gdscript">take_damage()</code> function for that:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
@@ -985,9 +1001,9 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </div>
 
 <h3>Checkpoint</h3>
-<p><div class="checkpointBullet">In the mob scene, the <em>Mob</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Layer</span><wbr></wbr></span> property is set to layer 2</div>
-<div class="checkpointBullet">In the player scene, the <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Mask</span><wbr></wbr></span> property is set to both layers 1 and 2 (so it collides with both the floor and mobs)</div>
-<div class="checkpointBullet">In the bullet scene, the <em>Bullet3D</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Mask</span><wbr></wbr></span> property is set to both layers 1 and 2 (so it dies when touching solid ground and detects and damages the mobs)</div></p>
+<p><div class="checkpointBullet">In the mob scene, the <em>Mob</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Layer</span><wbr/></span> property is set to layer 2</div>
+<div class="checkpointBullet">In the player scene, the <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mask</span><wbr/></span> property is set to both layers 1 and 2 (so it collides with both the floor and mobs)</div>
+<div class="checkpointBullet">In the bullet scene, the <em>Bullet3D</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mask</span><wbr/></span> property is set to both layers 1 and 2 (so it dies when touching solid ground and detects and damages the mobs)</div></p>
 <div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh24"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
 <p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>, at the end of this section. I highlighted the lines to draw the mob's VFX.</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
@@ -1079,14 +1095,18 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <iframe src="https://player.vimeo.com/video/1060451959?h=4f0946de95&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<p><h1 class="hasIconBefore icon-patch c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Updates / Code patches</h1></p>
+<h1 class="hasIconBefore icon-patch custom-component-SectionTitle">
+Updates / Code patches
+</h1>
 <ul>
 <li>This learning resource was created with Godot 4.2 and updated to Godot 4.3</li>
 <li>No errors have been reported. <a href="https://school.gdquest.com/about-us/contact?subject=Reporting%20an%20error%20in%20%22first_3d_game_godot4_arena_fps%22">REPORT AN ERROR</a></li>
 </ul>
-<p><h1 class="hasIconBefore icon-bonus c u s t o m - c o m p o n e n t   S e c t i o n T i t l e">Bonus</h1></p>
+<h1 class="hasIconBefore icon-bonus custom-component-SectionTitle">
+Bonus
+</h1>
 <p>You can go a lot further with this game. After completing the tutorial, the challenges below will help you improve your skills and make the game your own.</p>
-<section class="custom-component QuoteBubbleNathan"><p>Remember that programming is a skill and you will only improve if you copy, customize, and then create.</p><p>We prepared some challenges to help you get started, experimenting and making the project yours. They come with hints and a solution to compare against in the solutions version of the Godot project files you downloaded.</p><p>The challenges will take research and experimentation. Each of them comes with hints that help you one step of the way at a time.</p><p>These challenges are, well, challenging! You will need to research and help each other to beat them. If you can't beat them, no worries! The bulk of the learning and skill improvement happens when you work hard and try to implement mechanics and search for a solution. You can always come back to the challenges later when you have more experience.</p></section>
+<section class="custom-component-QuoteBubbleNathan"><p>Remember that programming is a skill and you will only improve if you copy, customize, and then create.</p><p>We prepared some challenges to help you get started, experimenting and making the project yours. They come with hints and a solution to compare against in the solutions version of the Godot project files you downloaded.</p><p>The challenges will take research and experimentation. Each of them comes with hints that help you one step of the way at a time.</p><p>These challenges are, well, challenging! You will need to research and help each other to beat them. If you can't beat them, no worries! The bulk of the learning and skill improvement happens when you work hard and try to implement mechanics and search for a solution. You can always come back to the challenges later when you have more experience.</p></section>
 <dl data-is="collapsible-list" class="calloutsList">
 <dt data-open="false" class="question">
     How do I know if I beat a challenge or if my code is a valid solution?
@@ -1105,30 +1125,100 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <p>Add a time limit to the game, this is the time the player needs to survive. Display the remaining time centered at the top of the screen.</p>
 <p>If the player stays alive all the time, display a message centered on the screen to congratulate them.</p>
 <p>The final result should look something like this:</p>
-<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+<div class="videoFile custom-component-VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" type="video/mp4"/>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_time_limit.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
 <p>Check out the <code class="language-gdscript">get_tree().paused</code> property to pause the game when it ends.</p>
-<p><div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh9"><div class="disclosureDetailsContent"><div class="hintContent">There are two nodes you used in the series that will come in handy in this challenge: <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Label" aria-hidden="true"><span class="iconGodotLabel">Label</span></span>Label</span>.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh10"><div class="disclosureDetailsContent"><div class="hintContent">You can create a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node with its wait time set to the duration of the game to track the remaining time for you.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh0"><div class="disclosureDetailsContent"><div class="hintContent">Connect to the timer's <code class="language-gdscript">timeout</code> signal to know when the time ran out and want to display the end text.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh1"><div class="disclosureDetailsContent"><div class="hintContent">Set the timer node to one shot to make sure that it only emits its <code class="language-gdscript">timeout</code> signal once.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh11"><div class="disclosureDetailsContent"><div class="hintContent">To display the remaining time, create a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Label" aria-hidden="true"><span class="iconGodotLabel">Label</span></span>Label</span> node, get a reference to the timer node, and read its remaining time.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh2"><div class="disclosureDetailsContent"><div class="hintContent">You need to convert the remaining time to text to be able to display it through the label's text property.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh3"><div class="disclosureDetailsContent"><div class="hintContent">By default, the player will continue moving and mobs spawning and pushing the player when the label shows up. You can pause the game using the <code class="language-gdscript">get_tree().paused</code> property.</div></div></div></div></p>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh9"><div class="disclosureDetailsContent"><div class="hintContent">
+There are two nodes you used in the series that will come in handy in this challenge: 
+<span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span>
+ and 
+<span class="iconGodotWrapper"><span class="iconGodot iconGodot-Label" aria-hidden="true"><span class="iconGodotLabel">Label</span></span>Label</span>
+.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh10"><div class="disclosureDetailsContent"><div class="hintContent">
+You can create a 
+<span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span>
+ node with its wait time set to the duration of the game to track the remaining time for you.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh0"><div class="disclosureDetailsContent"><div class="hintContent">
+Connect to the timer's 
+<code class="language-gdscript">timeout</code>
+ signal to know when the time ran out and want to display the end text.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh1"><div class="disclosureDetailsContent"><div class="hintContent">
+Set the timer node to one shot to make sure that it only emits its 
+<code class="language-gdscript">timeout</code>
+ signal once.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh11"><div class="disclosureDetailsContent"><div class="hintContent">
+To display the remaining time, create a 
+<span class="iconGodotWrapper"><span class="iconGodot iconGodot-Label" aria-hidden="true"><span class="iconGodotLabel">Label</span></span>Label</span>
+ node, get a reference to the timer node, and read its remaining time.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh2"><div class="disclosureDetailsContent"><div class="hintContent">
+You need to convert the remaining time to text to be able to display it through the label's text property.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh3"><div class="disclosureDetailsContent"><div class="hintContent">
+By default, the player will continue moving and mobs spawning and pushing the player when the label shows up. You can pause the game using the 
+<code class="language-gdscript">get_tree().paused</code>
+ property.
+</div></div></div></div>
 
 </div>
 <div class="challenge">
   <h3 class="challengeTitle">Challenge:</h3> 
 <p>Add a health bar and make the player take damage when colliding with the bats.</p>
 <p>The results should look something like this:</p>
-<div class="videoFile custom-component VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" type="video/mp4"></source>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
+<div class="videoFile custom-component-VideoFile videoFileUseDefaultAspectRatio videoFileRounded"><video src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" class="videoFileVideo" width="100" height="100" autoplay="false" muted="true" loop="true" controls="true" playsInline="true"><source data--src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" type="video/mp4"/>Your browser does not support the video tag. <a href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4">Download the video instead</a></video><div class="videoFileButtonsContainer"><a class="videoFileButtonsContainerButtonNewTab" href="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/videos/challenge_health_bar.mp4" target="_blank" title="open in new tab"><span>open in new tab</span></a></div></div>
 <p>If you've watched the tutorial <a href="https://www.gdquest.com/tutorial/godot/2d/first-2d-game-godot-4/">Your First 2D Game with Godot 4</a> before, the principle behind this challenge is similar to the player health in the 2D tutorial. However, some of the required code will be different because this is 3D and the mobs are <span class="iconGodotWrapper"><span class="iconGodot iconGodot-RigidBody3D" aria-hidden="true"><span class="iconGodotLabel">RigidBody3D</span></span>RigidBody3D</span> nodes.</p>
-<p><div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh12"><div class="disclosureDetailsContent"><div class="hintContent">You can use a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-ProgressBar" aria-hidden="true"><span class="iconGodotLabel">ProgressBar</span></span>ProgressBar</span> node to display the player health.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh4"><div class="disclosureDetailsContent"><div class="hintContent">You can add the progress bar directly as a child of the player node in the player scene. It makes it easy to access and update from the player script.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh5"><div class="disclosureDetailsContent"><div class="hintContent">Add a variable to the player script to track the health.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh6"><div class="disclosureDetailsContent"><div class="hintContent">You need to detect when mobs are touching the player to subtract health gradually every frame.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh13"><div class="disclosureDetailsContent"><div class="hintContent">The player node is a <span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span> node and you can get a count of detected collisions using this method. Warning: this includes collisions with the ground.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh7"><div class="disclosureDetailsContent"><div class="hintContent">You can remove a small amount from the health each frame multiplied by the number of colliding mobs.</div></div></div></div>
-<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh8"><div class="disclosureDetailsContent"><div class="hintContent">When the player health reaches zero, it's game over and you can reload the scene.</div></div></div></div></p>
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh12"><div class="disclosureDetailsContent"><div class="hintContent">
+You can use a 
+<span class="iconGodotWrapper"><span class="iconGodot iconGodot-ProgressBar" aria-hidden="true"><span class="iconGodotLabel">ProgressBar</span></span>ProgressBar</span>
+ node to display the player health.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh4"><div class="disclosureDetailsContent"><div class="hintContent">
+You can add the progress bar directly as a child of the player node in the player scene. It makes it easy to access and update from the player script.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh5"><div class="disclosureDetailsContent"><div class="hintContent">
+Add a variable to the player script to track the health.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh6"><div class="disclosureDetailsContent"><div class="hintContent">
+You need to detect when mobs are touching the player to subtract health gradually every frame.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh13"><div class="disclosureDetailsContent"><div class="hintContent">
+The player node is a 
+<span class="iconGodotWrapper"><span class="iconGodot iconGodot-CharacterBody3D" aria-hidden="true"><span class="iconGodotLabel">CharacterBody3D</span></span>CharacterBody3D</span>
+ node and you can get a count of detected collisions using this method. Warning: this includes collisions with the ground.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh7"><div class="disclosureDetailsContent"><div class="hintContent">
+You can remove a small amount from the health each frame multiplied by the number of colliding mobs.
+</div></div></div></div>
+
+
+<div data-is-disclosure="true" data-open="true" class="hint"><div class="disclosureSummary"><span class="hintLabel">click to reveal <strong>hint</strong></span></div><div class="disclosureDetails" id="czzgbaldh8"><div class="disclosureDetailsContent"><div class="hintContent">
+When the player health reaches zero, it's game over and you can reload the scene.
+</div></div></div></div>
 
 </div>
 <dl data-is="collapsible-list" class="calloutsList">
@@ -1153,9 +1243,9 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <p>By default, this pauses <strong>all</strong> nodes in your game, which will prevent the player from doing anything, including navigating a pause menu or unpausing the game.</p>
 <p>To control which nodes pause and which continue running, you need to change the <em>process mode</em> property of the nodes you want to control.</p>
 <p><strong>Keeping nodes active while the game is paused</strong></p>
-<p>When you select a node, if you scroll to the bottom of the Inspector dock, you will see the property <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Process</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr></wbr></span>.</p>
+<p>When you select a node, if you scroll to the bottom of the Inspector dock, you will see the property <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Process</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr/></span>.</p>
 <p>By default, it's set to <em>Inherit</em>, which means the node will inherit the pause behavior from its parent node. By default, the root of the scene tree is paused when the game is paused and that's why all nodes in the game are paused.</p>
-<p>You can set a node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Process</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr></wbr></span> to <em>Always</em> instead to keep it and all its children running while the game is paused.</p>
+<p>You can set a node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Process</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr/></span> to <em>Always</em> instead to keep it and all its children running while the game is paused.</p>
 <p>You can do this for the root node of a pause menu or a game over menu, for example, to keep it interactive while the game is paused.</p>
 <p>Here's how to do it in code:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">func</span> <span class="token function">_ready</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token class-name">void</span><span class="token punctuation">:</span>
@@ -1174,7 +1264,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <li>Check if the input action <code class="language-gdscript">"toggle_pause"</code> is pressed. Doing this in the <code class="language-gdscript">_input()</code> function allows you to catch input events before the user interface and other nodes in the scene.</li>
 <li>Toggle the game's pause state by setting the scene tree's <code class="language-gdscript">paused</code> property to the opposite of its current value. If the game is paused, the <code class="language-gdscript">paused</code> property will be <code class="language-gdscript">true</code>, and writing <code class="language-gdscript">not</code> before it will set it to <code class="language-gdscript">false</code>, and vice versa.</li>
 </ol>
-<p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">You'll need to register the input action <code class="language-gdscript">"toggle_pause"</code> in the project settings for this code to work. Go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr></wbr><span class="settingsInTextSection">Project Settings...</span><wbr></wbr><span class="settingsInTextSection settingsInTextSectionLast">Input Map</span><wbr></wbr></span> to register an input action.</div></div></p>
+<p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">You'll need to register the input action <code class="language-gdscript">"toggle_pause"</code> in the project settings for this code to work. Go to <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Input Map</span><wbr/></span> to register an input action.</div></div></p>
 
     </div>
 </dd>
