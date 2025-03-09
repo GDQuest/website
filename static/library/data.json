@@ -108,8 +108,8 @@
         "url": "taxonomy/godot_version/4",
         "items": [
           "character_movement",
-          "sophia",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "sophia"
         ]
       }
     },
@@ -370,8 +370,8 @@
         "items": [
           "input_cheatsheet",
           "character_movement",
-          "sophia",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "sophia"
         ]
       },
       "ccby": {
@@ -619,6 +619,115 @@
       },
       "discord_invite": ""
     },
+    "first_3d_game_godot4_arena_fps": {
+      "slug": "first_3d_game_godot4_arena_fps",
+      "title": "Your first 3D game with Godot 4",
+      "label": "Make a 3D FPS arena survival game",
+      "tags": [
+        "tutorial",
+        "3d",
+        "character_controller"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "url": "first_3d_game_godot4_arena_fps",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
+      "links": [],
+      "cover": {
+        "width": 1755,
+        "height": 987,
+        "ratio": 1.778115501519757,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/first_3d_game_godot4_arena_fps/cover.png",
+        "relPath": "first_3d_game_godot4_arena_fps/cover.png",
+        "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
+        "originalSrc": "cover.png"
+      },
+      "sources": [],
+      "search": [
+        "your first 3d game with godot 4",
+        "make a 3d fps arena survival game",
+        "create a 3d fps arena survival game using godot 4. implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
+        "tutorial",
+        "3d",
+        "character_controller",
+        "learning_resource"
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 3,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "rd",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-03-03T00:00:00.000Z",
+        "dateDMY": [
+          3,
+          3,
+          2025
+        ],
+        "dateMDY": [
+          3,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "03",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 8,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 14,
+        "minutes": 49,
+        "seconds": 0,
+        "date": "2025-03-08T13:49:00.588Z",
+        "dateDMY": [
+          8,
+          3,
+          2025
+        ],
+        "dateMDY": [
+          3,
+          8,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "08",
+          "03",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "08",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/DmTHFZAgHS"
+    },
     "sophia": {
       "slug": "sophia",
       "title": "Sophia 3D Model",
@@ -731,115 +840,6 @@
         ]
       },
       "discord_invite": ""
-    },
-    "first_3d_game_godot4_arena_fps": {
-      "slug": "first_3d_game_godot4_arena_fps",
-      "title": "Your first 3D game with Godot 4",
-      "label": "Make a 3D FPS arena survival game",
-      "tags": [
-        "tutorial",
-        "3d",
-        "character_controller"
-      ],
-      "type": "learning_resource",
-      "format": "video",
-      "url": "first_3d_game_godot4_arena_fps",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
-      "links": [],
-      "cover": {
-        "width": 1755,
-        "height": 987,
-        "ratio": 1.778115501519757,
-        "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/first_3d_game_godot4_arena_fps/cover.png",
-        "relPath": "first_3d_game_godot4_arena_fps/cover.png",
-        "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
-        "originalSrc": "cover.png"
-      },
-      "sources": [],
-      "search": [
-        "your first 3d game with godot 4",
-        "make a 3d fps arena survival game",
-        "create a 3d fps arena survival game using godot 4. implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
-        "tutorial",
-        "3d",
-        "character_controller",
-        "learning_resource"
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "March",
-        "monthShort": "Mar",
-        "monthNumber": 3,
-        "dayOfMonth": 3,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "rd",
-        "hours": 1,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-03-03T00:00:00.000Z",
-        "dateDMY": [
-          3,
-          3,
-          2025
-        ],
-        "dateMDY": [
-          3,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "03",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "03",
-          "03",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "March",
-        "monthShort": "Mar",
-        "monthNumber": 3,
-        "dayOfMonth": 8,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 14,
-        "minutes": 49,
-        "seconds": 0,
-        "date": "2025-03-08T13:49:00.588Z",
-        "dateDMY": [
-          8,
-          3,
-          2025
-        ],
-        "dateMDY": [
-          3,
-          8,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "08",
-          "03",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "03",
-          "08",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/DmTHFZAgHS"
     }
   }
 }
