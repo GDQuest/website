@@ -145,25 +145,6 @@
         "url": "taxonomy/tag/study_guide",
         "items": []
       },
-      "input": {
-        "title": "Input",
-        "title_plural": "Inputs",
-        "search": [
-          "input",
-          "inputs",
-          "keyboard",
-          "mouse",
-          "gamepad",
-          "joystick",
-          "controller"
-        ],
-        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
-        "slug": "input",
-        "url": "taxonomy/tag/input",
-        "items": [
-          "input_cheatsheet"
-        ]
-      },
       "design_pattern": {
         "title": "Design Pattern",
         "title_plural": "Design Patterns",
@@ -178,23 +159,6 @@
         "url": "taxonomy/tag/design_pattern",
         "items": [
           "input_cheatsheet"
-        ]
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
         ]
       },
       "3d": {
@@ -264,6 +228,42 @@
         "url": "taxonomy/tag/character_skin",
         "items": [
           "sophia"
+        ]
+      },
+      "input": {
+        "title": "Input",
+        "title_plural": "Inputs",
+        "search": [
+          "input",
+          "inputs",
+          "keyboard",
+          "mouse",
+          "gamepad",
+          "joystick",
+          "controller"
+        ],
+        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
+        "slug": "input",
+        "url": "taxonomy/tag/input",
+        "items": [
+          "input_cheatsheet"
+        ]
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
         ]
       }
     },
