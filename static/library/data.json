@@ -180,6 +180,23 @@
           "input_cheatsheet"
         ]
       },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ]
+      },
       "3d": {
         "title": "3D",
         "title_plural": "3D",
@@ -247,23 +264,6 @@
         "url": "taxonomy/tag/character_skin",
         "items": [
           "sophia"
-        ]
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
         ]
       }
     },
@@ -697,32 +697,32 @@
         "month": "March",
         "monthShort": "Mar",
         "monthNumber": 3,
-        "dayOfMonth": 8,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
+        "dayOfMonth": 13,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 14,
-        "minutes": 49,
-        "seconds": 0,
-        "date": "2025-03-08T13:49:00.588Z",
+        "hours": 22,
+        "minutes": 38,
+        "seconds": 18,
+        "date": "2025-03-13T21:38:18.130Z",
         "dateDMY": [
-          8,
+          13,
           3,
           2025
         ],
         "dateMDY": [
           3,
-          8,
+          13,
           2025
         ],
         "dateDDMMYYYY": [
-          "08",
+          "13",
           "03",
           "2025"
         ],
         "dateMMDDYYYY": [
           "03",
-          "08",
+          "13",
           "2025"
         ]
       },
