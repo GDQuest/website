@@ -5,6 +5,8 @@ author = "nathan"
 
 description = "Short description"
 
+godot_version: 4
+
 productUrl = "https://school.gdquest.com/"
 
 [[resources]]

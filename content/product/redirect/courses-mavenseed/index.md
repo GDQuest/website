@@ -5,4 +5,6 @@ hidden: true
 redirect: https://school.gdquest.com/
 title: GDQuest game creation courses
 type: redirect
+godot_version: 3
+sort: 100
 ---

@@ -15,4 +15,6 @@ publishDate: "2021-07-16T00:00:00-06:00"
 redirect: https://school.gdquest.com/products/node_essentials_godot_3
 title: Godot Node Essentials
 type: redirect
+godot_version: 3
+sort: 100
 ---

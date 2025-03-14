@@ -1,4 +1,4 @@
-<div class="card-box">
+<div class="card-box {{ if eq .Params.godot_version 4 }}is_godot4{{else}}is_godot3{{end}}{{ if .Params.is_bundle }} is_bundle{{ end }}">
     {{ partial "components/banner-image" (dict "context" . "is_summary" true) }}
 
     <div class="content">

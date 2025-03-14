@@ -14,4 +14,6 @@ price: $39.95
 redirect: https://school.gdquest.com/products/shaders_secrets_godot_3
 title: Godot Shader Secrets
 type: redirect
+godot_version: 3
+sort: 100
 ---

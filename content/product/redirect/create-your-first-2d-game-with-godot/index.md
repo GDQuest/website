@@ -17,4 +17,6 @@ resources:
   src: banner.png
 title: Create your First 2D Game with Godot
 type: redirect
+godot_version: 3
+sort: 100
 ---

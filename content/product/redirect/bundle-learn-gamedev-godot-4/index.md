@@ -5,6 +5,7 @@ author: nathan
 banner:
   src: /img/product/godot/bundle-learn-gamedev-godot-4.webp
 date: "2023-11-27"
+godot_version: 4
 keywords:
 - godot beginner course
 - godot 2d course
@@ -13,4 +14,6 @@ keywords:
 price: $179.95
 redirect: https://school.gdquest.com/products/bundle_learn_gamedev_godot_4
 type: redirect
+sort: 2
+is_bundle: true
 ---

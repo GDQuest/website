@@ -85,3 +85,19 @@
     }
   }
 }
+
+
+.product-section-title{
+  margin-block: 5rem 2rem;
+  &:first-child{
+    margin-block-start: 1.5rem;
+  }
+  > button{
+    all: inherit;
+    width: 100%;
+    display: block;
+    &.isJSProcessed{
+      cursor: pointer;
+    }
+  }
+}

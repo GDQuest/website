@@ -13,4 +13,6 @@ price: $79.95
 redirect: https://school.gdquest.com/products/godot_2d_secrets_godot_3
 title: Godot 2D Secrets
 type: redirect
+godot_version: 3
+sort: 100
 ---

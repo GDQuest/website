@@ -4,14 +4,32 @@
 
 {{ define "main" }}
 <section class="content-container padding-v-base">
+    <h2 class="product-section-title">Godot 4 Courses</h2>
     <div class="content-grid">
-        {{ range .Pages }}
-        {{ if not .Params.hidden }}
+        {{ range sort .Pages ".Params.sort" }}
+        {{ if and (not .Params.hidden) (eq .Params.godot_version 4) }}
         <div class="item">
             {{ .Render "summary" }}
         </div>
         {{ end }}
         {{ end }}
     </div>
+    <h2 class="product-section-title"><button aria-expanded="true" aria-controls="godot-3-courses" data-close="true">Godot 3 Courses</button></h2>
+    <div class="collapsible" id="godot-3-courses">
+        <div class="collapsible-content">
+            <div class="content-grid">
+                {{ range .Pages }}
+                {{ if and (not .Params.hidden) (eq .Params.godot_version 3) }}
+                <div class="item">
+                    {{ .Render "summary" }}
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
 </section>
+{{ $js := resources.Get "js/collapsible.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
 {{ end }}
+

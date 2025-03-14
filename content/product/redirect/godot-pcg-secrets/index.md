@@ -15,4 +15,6 @@ price: $39.95
 redirect: https://school.gdquest.com/products/pcg_secrets_godot_3
 title: Godot PCG Secrets
 type: redirect
+godot_version: 3
+sort: 100
 ---

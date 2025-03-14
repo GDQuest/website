@@ -13,4 +13,6 @@ keywords:
 price: $99.95
 redirect: https://school.gdquest.com/products/node_essentials_godot_4
 type: redirect
+godot_version: 4
+sort: 100
 ---

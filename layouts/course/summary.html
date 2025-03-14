@@ -1,8 +1,8 @@
-<div class="card-box darkbg">
+<div class="card-box darkbg {{ if .Params.is_godot4 }}is_godot4{{else}}is_godot3{{end}}{{ if .Params.is_bundle }} is_bundle{{ end }}">
     {{ $url := .Permalink }}
 
     {{ partial "components/banner-image" (dict "context" . "is_summary" true) }}
-
+    
     <div class="content">
         <h4 data-font="ultrabold" class="title"><a href="{{ $url }}">{{ .Title }}</a></h4>
         <div class="flex justify-space-between" data-font="small dimmed">

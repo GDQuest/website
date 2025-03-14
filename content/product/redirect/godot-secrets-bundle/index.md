@@ -17,4 +17,6 @@ price: $149.95
 redirect: https://school.gdquest.com/products/secrets_bundle_godot_3
 title: Godot secrets bundle
 type: redirect
+godot_version: 3
+sort: 100
 ---

@@ -5,6 +5,7 @@ author: nathan
 banner:
   src: /img/product/godot/bundle-godot-4-starter-kit.webp
 date: "2023-11-27"
+godot_version: 4
 keywords:
 - godot beginner course
 - godot advanced course
@@ -14,4 +15,6 @@ keywords:
 price: $259.95
 redirect: https://school.gdquest.com/products/bundle_godot_4_starter_kit
 type: redirect
+sort: 1
+is_bundle: true
 ---
