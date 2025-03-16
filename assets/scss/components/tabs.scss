@@ -1,0 +1,78 @@
+@use "sass:color";
+$selectedColor: #ac3ef5;
+$lineColor: $selectedColor;
+$lineWidth: 3px;
+$shadowColor: rgba(darken($lineColor, 20%), .2);
+.isJSTabsProcessed{
+    & > [role="tablist"]{
+        padding-inline: 0;
+        display: flex;
+        justify-content: start;
+        position: relative;
+        align-items: center;
+        transform: translateX(-1rem);
+        &:after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 5rem;
+            position: absolute;
+            inset-block-start: 100%;
+            border-top: $lineWidth solid $lineColor;
+        }
+        [role="tab"]{
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            display: flex;
+            align-items: end;
+            text-transform: uppercase;
+            border-radius: 5px;
+            &:focus{
+                outline: 2px dashed $selectedColor;
+                outline-offset: 3px;
+            }
+            &::after, &::before{
+                content: "";
+                position: absolute;
+                inset: 0;
+                border-radius: 5px;
+                transition: background 0.2s ease-out;
+            }
+            > span{
+                font-weight: 500;
+                //font-family: montserrat, sans-serif;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-inline: 1.2rem;
+                padding-block: 1rem;
+                border: $lineWidth solid transparent;
+                border-block-end-width: 0;
+                inset-block-end: - $lineWidth;
+                border-radius: 5px 5px 0 0;
+                color: $selectedColor;//#0d99ed;
+                background: white;
+            }
+            &[aria-selected="true"]{
+                z-index:1;
+                > span{
+                    border-color: $lineColor;
+                    color: rgb(72, 72, 72);
+                    font-weight: 700;
+                }
+            }
+            &[aria-selected="true"], &:hover{
+
+            }
+        }
+    }
+    [data-is-tabname]{
+        display: none;
+    }
+    [role="tabpanel"][aria-hidden="true"] {
+        display: none;
+    }
+  
+}

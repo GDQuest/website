@@ -1,4 +1,4 @@
-document.querySelectorAll('button[aria-expanded="true"][aria-controls]').forEach((/** HTMLButtonElement */button) => {
+document.querySelectorAll('button[aria-expanded="true"][aria-controls]').forEach((/** @type {HTMLButtonElement} */button) => {
     if(button.classList.contains("isJSProcessed")){
         return
     }

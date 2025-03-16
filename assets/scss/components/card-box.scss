@@ -1,4 +1,6 @@
 // Styles for the cards we use all around the website, for authors at the end of articles, etc.
+@use 'sass:color';
+
 @mixin card-middle {
   border-top: none;
   border-radius: 0;
@@ -69,7 +71,7 @@
 
     > .title {
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: space-between;
 
       margin: 0;
@@ -122,22 +124,30 @@
     overflow: visible;
     &::before {
       --f: .5em;
-      content: "Godot 4";
-      font-size: 28px;
-      font-weight: bold;
-      color: #fff;
+      $color: #3b9fe7;
+      $colorShadow: darken($color, 30%);
+      $colorText: #fff;
+      $textShadow: darken($color, 60%);
+      content: "early access";
+      text-transform: uppercase;
+      font-size: 16px;
+      text-shadow: 1px 1px $textShadow;
+      -webkit-text-stroke: 2px $colorShadow;
+      paint-order: stroke fill;
+      font-weight: 900;
+      color: $colorText;
       position: absolute;
       top: 0;
       left: 0;
       line-height: 1.8;
       padding-inline: 1lh;
       padding-bottom: var(--f);
-      border-image: conic-gradient(#0008 0 0) 51%/var(--f);
+      border-image: conic-gradient($colorShadow 0 0) 51%/var(--f);
       clip-path: polygon(
         100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
       transform: translate(calc((cos(45deg) - 1)*100%), -100%) rotate(-45deg);
       transform-origin: 100% 100%;
-      background-color: #F07818; /* the main color  */
+      background-color: $color;
     }
   }
 }
