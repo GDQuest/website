@@ -3,8 +3,16 @@
 
     <div class="content">
         <!-- Title with optional price tag -->
-        <h4 data-font="ultrabold" class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ with .Params.Price }}<small><span class="tag-pill -shadow -purple" style="margin-left: auto">{{ . }}</span></small>{{ end }}
+        <h4 data-font="ultrabold" class="title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <small class="price">
+            {{ if and (.Params.price_discounted) (.Params.price_final) }}
+            <span class="tag-pill -shadow -purple price-discounted">{{ .Params.price_discounted }}</span>
+            <span class="tag-pill price-final">{{ .Params.price_final }}</span>
+            {{ else if .Params.price }}
+            <span class="tag-pill -shadow -purple">{{ .Params.price }}</span>
+        {{ end }}
+        </small>
         </h4>
         <p>{{ .Description | markdownify }} </p>
     </div>

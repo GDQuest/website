@@ -31,8 +31,6 @@ document.querySelectorAll('[data-is-tabs]').forEach((/** @type {HTMLDivElement} 
     const tabsList = document.createElement('div')
     tabsList.setAttribute("role", "tablist")
 
-    console.log(tabGroup.querySelectorAll('[data-tabtitle]'))
-
     const tabs = Array.from(tabGroup.querySelectorAll('[data-tabtitle]')).map((/** @type {HTMLDivElement} */tabPanel, index) => {
         console.log(tabPanel)
         if(!tabPanel.id){
@@ -69,7 +67,7 @@ document.querySelectorAll('[data-is-tabs]').forEach((/** @type {HTMLDivElement} 
 
     let selectedTab = -1
 
-    function setSelectedTab(currentTab){
+    function setSelectedTab(currentTab, andFocus = true){
         if(currentTab === selectedTab){
             return
         }
@@ -79,7 +77,9 @@ document.querySelectorAll('[data-is-tabs]').forEach((/** @type {HTMLDivElement} 
                 tab.setAttribute("aria-selected", "true")
                 tab.removeAttribute("tabindex")
                 tab.tab.setAttribute("aria-hidden", "false")
-                tab.tab.focus()
+                if(andFocus){
+                    tab.tab.focus()
+                }
             } else {
                 tab.setAttribute("aria-selected", "false")
                 tab.setAttribute("tabindex", "-1")
@@ -119,7 +119,7 @@ document.querySelectorAll('[data-is-tabs]').forEach((/** @type {HTMLDivElement} 
 
     const hash = window.location.hash
     const tabIndex = hash !== "" && tabs.findIndex(tab => tab.getAttribute("href") === hash)
-    setSelectedTab(tabIndex !== false && tabIndex !== -1 ? tabIndex : 0)
+    setSelectedTab(tabIndex !== false && tabIndex !== -1 ? tabIndex : 0, false)
 
     tabGroup.prepend(tabsList)
 })

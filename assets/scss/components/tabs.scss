@@ -1,8 +1,9 @@
 @use "sass:color";
 $selectedColor: #ac3ef5;
-$lineColor: $selectedColor;
-$lineWidth: 3px;
+$lineColor: black;
+$lineWidth: 1px;
 $shadowColor: rgba(darken($lineColor, 20%), .2);
+
 .isJSTabsProcessed{
     & > [role="tablist"]{
         padding-inline: 0;
@@ -11,6 +12,9 @@ $shadowColor: rgba(darken($lineColor, 20%), .2);
         position: relative;
         align-items: center;
         transform: translateX(-1rem);
+        @include tablet{
+            transform: translateX(0);
+        }
         &:after{
             content: "";
             display: block;
@@ -46,14 +50,23 @@ $shadowColor: rgba(darken($lineColor, 20%), .2);
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding-inline: 1.2rem;
+                padding-inline: calc(min(1.2rem, 3vw));
                 padding-block: 1rem;
                 border: $lineWidth solid transparent;
                 border-block-end-width: 0;
                 inset-block-end: - $lineWidth;
-                border-radius: 5px 5px 0 0;
+                border-radius: 3px 3px 0 0;
                 color: $selectedColor;//#0d99ed;
                 background: white;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    height: 10px;
+                    width: 100%;
+                    background: white;
+                    inset-block-end: -3px;
+                    inset-inline-start: 0;
+                }
             }
             &[aria-selected="true"]{
                 z-index:1;
@@ -63,9 +76,6 @@ $shadowColor: rgba(darken($lineColor, 20%), .2);
                     font-weight: 700;
                 }
             }
-            &[aria-selected="true"], &:hover{
-
-            }
         }
     }
     [data-is-tabname]{
@@ -73,6 +83,9 @@ $shadowColor: rgba(darken($lineColor, 20%), .2);
     }
     [role="tabpanel"][aria-hidden="true"] {
         display: none;
+    }
+    [role="tabpanel"]:focus-visible {
+        outline: none;
     }
   
 }

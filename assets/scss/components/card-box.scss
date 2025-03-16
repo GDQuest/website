@@ -77,6 +77,34 @@
       margin: 0;
       font-weight: 800;
     }
+
+    .price{
+      margin-inline-start: auto;
+      display: grid;
+      width: fit-content;
+      gap: .3rem;
+      & > *{
+        text-align: center;
+      }
+      &-final{
+        background: transparent;
+        color: inherit;
+        position: relative;
+        &:after{
+          content:"";
+          position: absolute;
+          display: block;
+          width: 90%;
+          height:100%;
+          height: 1.5px;
+          background-color: #9d47ec;
+          bottom: 50%;
+          left: 5%;
+          transform: rotate(-7deg);
+        }
+      }
+
+    }
   }
 
   > .content.-darkbg {
@@ -130,7 +158,7 @@
       $textShadow: darken($color, 60%);
       content: "early access";
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 1rem;
       text-shadow: 1px 1px $textShadow;
       -webkit-text-stroke: 2px $colorShadow;
       paint-order: stroke fill;
@@ -148,6 +176,9 @@
       transform: translate(calc((cos(45deg) - 1)*100%), -100%) rotate(-45deg);
       transform-origin: 100% 100%;
       background-color: $color;
+      @include tablet{
+        font-size: .6rem;
+      }
     }
   }
 }

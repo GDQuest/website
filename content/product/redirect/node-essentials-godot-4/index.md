@@ -10,7 +10,8 @@ keywords:
 - godot 2d course
 - godot 3d course
 - godot 4 course
-price: $99.95
+price_final: $99.95
+price_discounted: $84
 redirect: https://school.gdquest.com/products/node_essentials_godot_4
 type: redirect
 godot_version: 4
