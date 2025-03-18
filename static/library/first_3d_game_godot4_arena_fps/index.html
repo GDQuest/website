@@ -88,7 +88,7 @@
 		<h4 class="itemSummaryCardTitle">
 			<a href="">Create your first 3D Game from Zero</a>
 		</h4>
-		<h3 class="itemSummaryCardDate">2025/03/13</h3><img
+		<h3 class="itemSummaryCardDate">2025/03/18</h3><img
 			class="itemSummaryCardCover"
 			src="https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png"
       width="500"
@@ -151,10 +151,25 @@
 			<dt>Created</dt>
 			<dl>2025/03/03</dl>
 			<dt>Updated</dt>
-			<dl>2025/03/13</dl>
+			<dl>2025/03/18</dl>
 		</dl>
 		
-<div class="clapsButton clapsButtonPlaceholder"></div>
+<button
+	class="clapsButton"
+	title="Clap"
+	aria-pressed="false"
+	aria-live="polite"
+>
+	<span class="clapsButtonLabel">
+		<span> Clap </span>
+	</span>
+	<span class="clapsButtonAmount">
+		<span class="clapsButtonAmountAbbreviated" aria-hidden="true"
+			>45000</span
+		>
+		<span class="clapsButtonAmountTotal" aria-live="polite">45000</span>
+	</span>
+</button>
 
 	</article>
 </div>
@@ -205,8 +220,8 @@ Your First 3D Game With Godot
 Download files
 </h1>
 <ul>
-<li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-assets-1.1.0.zip">Assets to follow along</a></li>
-<li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-completed-1.1.0.zip">Completed project to use for reference</a></li>
+<li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-assets-1.1.0.zip">Assets</a></li>
+<li><a href="https://github.com/gdquest-demos/getting-started-with-godot-4/releases/download/1.1.0/3d-project-completed-1.1.0.zip">Completed project</a></li>
 </ul>
 <dl data-is="collapsible-list" class="calloutsList">
 <dt data-open="true" class="info">
@@ -302,7 +317,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <p><div class="checkpointBullet">In the player scene, the root <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Position</span><wbr/></span> and <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> are both set to (0, 0, 0)</div>
 <div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node is marked as unique name (it has a % icon in the <em>Scene</em> dock)</div>
 <div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> node and <em>gun_model</em>'s <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> are set to (0, 0, 0)</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh14"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/player.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 2:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
 </span><span class="code-line">
@@ -315,7 +330,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">			<span class="token operator">%</span>Camera3D<span class="token punctuation">.</span>rotation_degrees<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">60.0</span><span class="token punctuation">,</span> <span class="token number">60.0</span>
 </span><span class="code-line">		<span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>3. Limiting mouse</h2>
 
 
@@ -325,7 +340,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </div>
 
 <h3>Checkpoint</h3>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh15"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/player.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 3:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
 </span><span class="code-line">
@@ -340,7 +355,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	<span class="token keyword">elif</span> event<span class="token punctuation">.</span><span class="token function">is_action_pressed</span><span class="token punctuation">(</span><span class="token string">"ui_cancel"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">		Input<span class="token punctuation">.</span><span class="token function">set_mouse_mode</span><span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token constant">MOUSE_MODE_VISIBLE</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>4. Ground movement</h2>
 
 
@@ -367,7 +382,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <h3>Checkpoint</h3>
 <p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Input map</span><wbr/></span> tab, you have four input actions: "move_left", "move_right", "move_forward", and "move_back"</div>
 <div class="checkpointBullet">In the player scene, the <em>Player</em> and <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Camera3D" aria-hidden="true"><span class="iconGodotLabel">Camera3D</span></span>Camera3D</span> nodes still have their <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> set to (0, 0, 0) in the Inspector</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh16"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/player.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 4:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
 </span><span class="code-line">
@@ -399,7 +414,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">
 </span><span class="code-line">	<span class="token function">move_and_slide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>5. The jump</h2>
 
 
@@ -412,7 +427,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <p><div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">General</span><wbr/></span> tab, in the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Display</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Window</span><wbr/></span> section, the <em>Viewport Width</em> is set to <code class="language-gdscript">1920</code> and the <em>Viewport Height</em> is set to <code class="language-gdscript">1080</code>. Also, the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Stretch</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mode</span><wbr/></span> is set to "viewport"</div>
 <div class="checkpointBullet">In the <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Project</span><wbr/><span class="settingsInTextSection">Project Settings...</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Input map</span><wbr/></span> tab, you have a "jump" input action</div>
 <div class="checkpointBullet">In the player scene, the <em>Reticle</em> node is centered in the 2D viewport. It should have 4 green pins centered on it</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh17"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/player.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span> script at the end of part 4. I highlighted the new lines of code for the jump mechanic:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
 </span><span class="code-line">
@@ -450,7 +465,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">
 </span><span class="code-line">	<span class="token function">move_and_slide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>6. Creating the level</h2>
 
 
@@ -470,12 +485,12 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </div>
 
 <h3>Checkpoint</h3>
-<section class="custom-component-QuoteBubbleNathan"><p><strong>Errata:</strong> In the video, in the bullet scene, we turn the <em>Projectile</em> node 90 degrees on the Y axis to make it face forward. However, due to how the bullet is coded, it ends up facing backwards.</p><p>This is not very noticeable when playing so it's fine to leave it as-is, but in the checkpoint below I've corrected the angle value to -90 degrees to make the projectile model face the right way.</p></section>
+<section class="custom-component-QuoteBubbleNathan"><p><strong>Correction:</strong> In the video, in the bullet scene, we turn the <em>Projectile</em> node 90 degrees on the Y axis to make it face forward. However, due to how the bullet is coded, it ends up facing backwards.</p><p>This is not very noticeable when playing so it's fine to leave it as-is, but in the checkpoint below I've corrected the angle value to -90 degrees to make the projectile model face the right way.</p></section>
 <p>At the end of this section, you should be able to verify that:</p>
 <p><div class="checkpointBullet">In the player scene, there is no leftover bullet</div>
 <div class="checkpointBullet">In the bullet scene, the child <em>Projectile</em> has its <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Transform</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Rotation</span><wbr/></span> set to (0, -90, 0) so that it faces forward (in the video, we turned it the opposite way)</div>
 <div class="checkpointBullet">In the player scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is set to <em>One Shot</em></div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh18"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/bullet_3d.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://player/bullet_3d.gd</span> script at the end of part 7:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Area3D</span>
 </span><span class="code-line">
@@ -491,7 +506,9 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	<span class="token keyword">if</span> travelled_distance <span class="token operator">></span> <span class="token constant">RANGE</span><span class="token punctuation">:</span>
 </span><span class="code-line">		<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-<p>And here's the player script, <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span>. I highlighted the new lines of code for the shooting mechanic:</p>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/player.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
+<p>Here's the player script, <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span>. I highlighted the new lines of code for the shooting mechanic:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
 </span><span class="code-line">
 </span><span class="code-line">
@@ -541,7 +558,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line inserted"><span class="token operator">+</span>
 </span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token operator">%</span>Timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <dl data-is="collapsible-list" class="calloutsList">
 <dt data-open="false" class="error">
     In the bullet scene, I don't see the bullet's two grey surfaces as in the video. I only see one gray shell.
@@ -565,7 +582,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </div>
 
 <h3>Checkpoint</h3>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh19"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/bat/bat_model.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/bat/bat_model.gd</span> script at the end of this section:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
 </span><span class="code-line">
@@ -574,6 +591,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	animation_tree<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">"parameters/OneShot/request"</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
 </span></code></pre>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/mob.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here is the mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
 </span><span class="code-line">
@@ -582,6 +601,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/bullet_3d.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Finally, here's the updated bullet script, <span data-is="file-in-text" data-file-only="false">res://player/bullet_3d.gd</span>:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Area3D</span>
 </span><span class="code-line">
@@ -603,7 +624,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	<span class="token keyword">if</span> body<span class="token punctuation">.</span><span class="token function">has_method</span><span class="token punctuation">(</span><span class="token string">"take_damage"</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">		body<span class="token punctuation">.</span><span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>9. Making the mob follow the player</h2>
 
 
@@ -625,7 +646,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </dd>
 </dl>
 <h3>Checkpoint</h3>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh20"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/mob.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span> script at the end of this section. I highlighted the new lines of code for the mob to follow the player:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
 </span><span class="code-line">
@@ -646,7 +667,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">take_damage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	bat_model<span class="token punctuation">.</span><span class="token function">hurt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>10. Making the mob die</h2>
 
 
@@ -694,7 +715,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <h3>Checkpoint</h3>
 <p><div class="checkpointBullet">In the mob scene, the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is set to <em>One Shot</em></div>
 <div class="checkpointBullet">The <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node's <code class="language-gdscript">timeout</code> signal is connected to the <em>Mob</em> node's <code class="language-gdscript">_on_timer_timeout</code> function</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh21"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/mob.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span> script at the end of this section. I highlighted the new lines of code for the mob to follow the player:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
 </span><span class="code-line">
@@ -734,7 +755,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>11. Spawning mobs continuously</h2>
 
 
@@ -743,7 +764,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <iframe loading="lazy" src="https://player.vimeo.com/video/1060451878?h=7abfa33017&&badge=0" title="video" width="560" height="315" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh25"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/spawner_3d.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/spawner_3d.gd</span> script at the end of this section. I highlighted the new lines of code for the mob to follow the player:</p>
 <p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">The reference to the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is unused in the script. You can remove it if you want to keep your code free of unused references. I still included it here to match the video.</div></div></p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
@@ -759,7 +780,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	<span class="token function">add_child</span><span class="token punctuation">(</span>new_mob<span class="token punctuation">)</span>
 </span><span class="code-line">	new_mob<span class="token punctuation">.</span>global_position <span class="token operator">=</span> marker_3d<span class="token punctuation">.</span>global_position
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>12. Scoring</h2>
 
 
@@ -770,7 +791,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 
 <h3>Checkpoint</h3>
 <p><div class="checkpointBullet">In the game scene, the <em>MobSpawner3D</em> node's <code class="language-gdscript">mob_spawned</code> signal is connected to the <em>Game</em> node</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh26"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/spawner_3d.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false">res://mob/spawner_3d.gd</span> script at the end of this section. I highlighted the new lines of code to emit a signal when a mob spawns.</p>
 <p><div class="note"><span class="noteIcon" aria-hidden="true"></span><span class="noteTitle">NOTE:</span><div class="noteDescription">The reference to the <span class="iconGodotWrapper"><span class="iconGodot iconGodot-Timer" aria-hidden="true"><span class="iconGodotLabel">Timer</span></span>Timer</span> node is unused in the script. You can remove it if you want to keep your code free of unused references. I still included it here to match the video.</div></div></p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
@@ -789,6 +810,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	new_mob<span class="token punctuation">.</span>global_position <span class="token operator">=</span> marker_3d<span class="token punctuation">.</span>global_position
 </span><span class="code-line inserted"><span class="token operator">+</span>	mob_spawned<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span>new_mob<span class="token punctuation">)</span>
 </span></code></pre>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/mob.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the updated mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>, with the new lines to track death and emit a signal:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
 </span><span class="code-line">
@@ -832,6 +855,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://game.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>:</p>
 <pre class="language-gdscript"><code class="language-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
 </span><span class="code-line">
@@ -848,7 +873,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_mob_spawner_3d_mob_spawned</span><span class="token punctuation">(</span>mob<span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	mob<span class="token punctuation">.</span>died<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>increase_score<span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>13. Adding sound</h2>
 
 
@@ -859,7 +884,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 
 <h3>Checkpoint</h3>
 <p><div class="checkpointBullet">In the player scene, there is an <span class="iconGodotWrapper"><span class="iconGodot iconGodot-AudioStreamPlayer" aria-hidden="true"><span class="iconGodotLabel">AudioStreamPlayer</span></span>AudioStreamPlayer</span> node (which plays at a constant volume), and in the mob scene, there are <span class="iconGodotWrapper"><span class="iconGodot iconGodot-AudioStreamPlayer3D" aria-hidden="true"><span class="iconGodotLabel">AudioStreamPlayer3D</span></span>AudioStreamPlayer3D</span> nodes for the hurt and KO sounds (so their volume fades with the distance to the player)</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh22"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://player/player.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>And here's the player script, <span data-is="file-in-text" data-file-only="false">res://player/player.gd</span>. I highlighted the added line of code for playing the shooting sound:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">CharacterBody3D</span>
 </span><span class="code-line">
@@ -911,6 +936,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	<span class="token operator">%</span>Timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token operator">%</span>AudioStreamPlayer<span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/mob.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the updated mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>, with the lines of code to play the hurt and KO sounds highlighted:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
 </span><span class="code-line">
@@ -959,7 +986,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_timer_timeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>14. Kill plane</h2>
 
 
@@ -970,7 +997,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 
 <h3>Checkpoint</h3>
 <p><div class="checkpointBullet">The <em>KillPlane</em> node's <code class="language-gdscript">body_entered</code> signal is connected to the <em>Game</em> node (not its <code class="language-gdscript">area_entered</code> signal, which wouldn't detect the player)</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh23"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://game.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>, with the new function for the kill plane highlighted:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
 </span><span class="code-line">
@@ -991,7 +1018,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line inserted"><span class="token operator">+</span><span class="token keyword">func</span> <span class="token function">_on_kill_plane_body_entered</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line inserted"><span class="token operator">+</span>	<span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reload_current_scene<span class="token punctuation">.</span><span class="token function">call_deferred</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>15. Adding visual effects and completing the level</h2>
 
 
@@ -1004,7 +1031,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 <p><div class="checkpointBullet">In the mob scene, the <em>Mob</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Layer</span><wbr/></span> property is set to layer 2</div>
 <div class="checkpointBullet">In the player scene, the <em>Player</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mask</span><wbr/></span> property is set to both layers 1 and 2 (so it collides with both the floor and mobs)</div>
 <div class="checkpointBullet">In the bullet scene, the <em>Bullet3D</em> node's <span class="settingsInText"><span class="settingsInTextSection settingsInTextSectionFirst">Collision</span><wbr/><span class="settingsInTextSection settingsInTextSectionLast">Mask</span><wbr/></span> property is set to both layers 1 and 2 (so it dies when touching solid ground and detects and damages the mobs)</div></p>
-<div data-is-disclosure="true" data-open="false" class="codeReference"><div class="disclosureSummary"><h4 class="hasIconBefore icon-code codeReferenceTitle">Code Reference</h4></div><div class="disclosureDetails" id="cndthdngh24"><div class="disclosureDetailsContent"><div class="codeReferenceContent"><p>Here's the complete code for the <span data-is="file-in-text" data-file-only="false"></span> script at the end of this lesson:</p>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://game.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>Here's the game script, <span data-is="file-in-text" data-file-only="false">res://game.gd</span>, at the end of this section. I highlighted the lines to draw the mob's VFX.</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">Node3D</span>
 </span><span class="code-line">
@@ -1037,6 +1064,8 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line"><span class="token keyword">func</span> <span class="token function">_on_kill_plane_body_entered</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span><span class="token punctuation">:</span>
 </span><span class="code-line">	<span class="token function">get_tree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reload_current_scene<span class="token punctuation">.</span><span class="token function">call_deferred</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
+</div></div></dd></dl>
+<dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="code fileCodeReference"><span>Code Reference: <span data-is="file-in-text" data-file-only="true">res://mob/mob.gd</span></span></dt><dd ><div ><div class="fileCodeReferenceContent">
 <p>And here's the updated mob script, <span data-is="file-in-text" data-file-only="false">res://mob/mob.gd</span>:</p>
 <pre class="language-gdscript"><code class="language-diff-gdscript code-highlight"><span class="code-line"><span class="token keyword">extends</span> <span class="token class-name">RigidBody3D</span>
 </span><span class="code-line">
@@ -1086,7 +1115,7 @@ In the temporary level scene, the <span class="iconGodotWrapper"><span class="ic
 </span><span class="code-line">	<span class="token function">queue_free</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span><span class="code-line inserted"><span class="token operator">+</span>	died<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </span></code></pre>
-</div></div></div></div>
+</div></div></dd></dl>
 <h2>16. Exporting the game</h2>
 
 
@@ -1286,7 +1315,22 @@ When the player health reaches zero, it's game over and you can reload the scene
     </main>
 		<div class="shareWidget">
 	
-<div class="clapsButton clapsButtonPlaceholder"></div>
+<button
+	class="clapsButton"
+	title="Clap"
+	aria-pressed="false"
+	aria-live="polite"
+>
+	<span class="clapsButtonLabel">
+		<span> Clap </span>
+	</span>
+	<span class="clapsButtonAmount">
+		<span class="clapsButtonAmountAbbreviated" aria-hidden="true"
+			>45000</span
+		>
+		<span class="clapsButtonAmountTotal" aria-live="polite">45000</span>
+	</span>
+</button>
 
 	<button
 	class="clipboardButton"
@@ -1373,13 +1417,6 @@ When the player health reaches zero, it's game over and you can reload the scene
 		<ul role="list">
 			<li>
 				<p>
-					<img
-						src="https://www.gdquest.com/library/head-gobot.png"
-						alt=""
-						style="
-							--shape: url('https://www.gdquest.com/library/head-gobot.png');
-						"
-					/>
 					Sponsor this library by learning gamedev with us on
 					<a href="https://school.gdquest.com" class="gdschoolLogo">
 						<span>GDSchool</span>
@@ -1394,13 +1431,6 @@ When the player health reaches zero, it's game over and you can reload the scene
 			</li>
 			<li>
 				<p>
-					<img
-						src="https://www.gdquest.com/library/head-sophia.png"
-						alt=""
-						style="
-							--shape: url('https://www.gdquest.com/library/head-sophia.png');
-						"
-					/>
 					Improve and build on assets or suggest edits on
 					<a href="https://github.com/gdquest" class="githubLogo"
 						><span>Github</span></a
@@ -1415,13 +1445,6 @@ When the player health reaches zero, it's game over and you can reload the scene
 			</li>
 			<li>
 				<p>
-					<img
-						src="https://www.gdquest.com/library/head-gdbot.png"
-						alt=""
-						style="
-							--shape: url('https://www.gdquest.com/library/head-gdbot.png');
-						"
-					/>
 					share this page and talk about GDQUest on
 					<a class="socialLink" href="https://reddit.com"
 						><span>Reddit</span></a
