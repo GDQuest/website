@@ -161,8 +161,9 @@
 	aria-live="polite"
 >
 	<span class="clapsButtonLabel">
-		<span> Clap </span>
+		<span>Clap</span>
 	</span>
+  <span class="clapsButtonBubble">+1</span>
 	<span class="clapsButtonAmount">
 		<span class="clapsButtonAmountAbbreviated" aria-hidden="true"
 			>45000</span
@@ -186,15 +187,15 @@
 	id="tableOfContents"
 	hidden
 >
+  <button
+    class="tableOfContentsToggleButton"
+    aria-controls="tableOfContents"
+    data-is="toggler-button"
+    aria-expanded="true"
+  >
+    <span>Toggle Table of Contents</span>
+  </button>
 	<div class="tableOfContentsContainer">
-		<button
-			class="tableOfContentsToggleButton"
-			aria-controls="tableOfContents"
-			data-is="toggler-button"
-			aria-expanded="true"
-		>
-			<span>Toggle Table of Contents</span>
-		</button>
 		<nav class="tableOfContentsPane showWhenJSLoads" hidden>
 			<ul
 				data-is="article-toc"
@@ -241,6 +242,7 @@
 </dl>
     </main>
 		<div class="shareWidget">
+  <span>
 	
 <button
 	class="clapsButton"
@@ -249,8 +251,9 @@
 	aria-live="polite"
 >
 	<span class="clapsButtonLabel">
-		<span> Clap </span>
+		<span>Clap</span>
 	</span>
+  <span class="clapsButtonBubble">+1</span>
 	<span class="clapsButtonAmount">
 		<span class="clapsButtonAmountAbbreviated" aria-hidden="true"
 			>45000</span
@@ -259,6 +262,8 @@
 	</span>
 </button>
 
+  </span>
+  <span>
 	<button
 	class="clipboardButton"
 	data-is="clipboard-button"
@@ -267,16 +272,60 @@
 	aria-pressed="false"
 	aria-live="polite"
 >
-	<span class="clipboardButtonLabel">Copy URL to clipboard</span>
-	<span data-clipboard-message="" aria-hidden="true"
-		>Copied to clipboard!</span
+    <span class="clipboardButtonLabel">Copy URL to clipboard</span>
+  <span data-is="clipboard-message" aria-hidden="true"
+		>Copied to clibpboard!</span
 	>
 </button>
 
+  </span>
 </div>
 
 		<div class="itemPageMeta">
-  
+  <section class="itemPageMetaLinks">
+    <h4>
+      <span>More on <a href="search.vto">"3D"</a></span>
+    </h4>
+    <ul>
+      <li>
+        <span>In the library</span>
+        <ul>
+          <li>
+            <em>Glossary Entry:</em
+            ><a href="item.vto">"Character Controller"</a>
+          </li>
+          <li>
+            <a href="item.vto">3D character Movement in Godot in 6 minutes</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span>In GDSchool</span>
+        <ul>
+          <li>
+            <ol>
+              <li>
+                <a href="#"><em>M9.L2:</em> Character controller</a>
+              </li>
+              <li><a href="#">Top Down Movement</a></li>
+              <li><a href="#">Pick Up Gamedev From Zero</a></li>
+            </ol>
+          </li>
+          <li>
+            <ol>
+              <li>
+                <a href="#"><em>M3.L4:</em> Coding player movement</a>
+              </li>
+              <li><a href="#">Gobot the Sorcerer</a></li>
+              <li>
+                <a href="#">Learn 3D Gamedev Accross 3 genres</a>
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
   <section class="promoGDSchool">
 	<h5 class="promoGDSchoolTitle">
 		Become an Indie Gamedev with GDQuest!
@@ -325,7 +374,7 @@
 	</section>
 <div class="contributeBlockWrapper">
 	<section aria-roledescription="contribution links" class="contributeBlock">
-		<h1 class="hasIconBefore icon-github">
+		<h1 class="hasIconBefore icon-github" data-toc-title="Contribute to the Free Library">
 			Contribute to GDQuest's Free Library
 		</h1>
 
@@ -377,30 +426,21 @@
 					>
 					…
 				</p>
-				<button
-					class="contributeBlockFooterLink contributeBlockFooterLinkShare"
-					data-is="clipboard-button"
-					data-clipboard="currentURL"
-					title="Copy url to clipboard"
-					aria-pressed="false"
-				>
-					<span>Share</span>
-					<span data-clipboard-message>Copied to clipboard!</span>
-				</button>
-				<!-- replace with:<button
-	class="clipboardButton"
+        <button
+	class="contributeBlockFooterLink contributeBlockFooterLinkShare"
 	data-is="clipboard-button"
 	data-clipboard="currentURL"
 	title="Copy url to clipboard"
 	aria-pressed="false"
 	aria-live="polite"
 >
-	<span class="clipboardButtonLabel">Copy URL to clipboard</span>
-	<span data-clipboard-message="" aria-hidden="true"
-		>Copied to clipboard!</span
+          <span>Share</span>
+        <span data-is="clipboard-message" aria-hidden="true"
+		>Copied to clibpboard!</span
 	>
 </button>
- -->
+
+				
 			</li>
 		</ul>
 	</section>

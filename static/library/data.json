@@ -440,6 +440,7 @@
         "input",
         "learning_resource"
       ],
+      "lessons": [],
       "date_created": {
         "year": 2024,
         "month": "December",
@@ -549,6 +550,7 @@
         "character_controller",
         "learning_resource"
       ],
+      "lessons": [],
       "date_created": {
         "year": 2024,
         "month": "December",
@@ -637,7 +639,13 @@
         "ccby"
       ],
       "description": "Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
-      "links": [],
+      "links": [
+        {
+          "label": "Learn GDScript From Zero with our interactive App",
+          "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app",
+          "external": true
+        }
+      ],
       "cover": {
         "width": 1920,
         "height": 1080,
@@ -658,6 +666,7 @@
         "character_controller",
         "learning_resource"
       ],
+      "lessons": [],
       "date_created": {
         "year": 2025,
         "month": "March",
@@ -701,10 +710,10 @@
         "dayName": "Tuesday",
         "dayShort": "Tue",
         "dayOrdinal": "th",
-        "hours": 3,
-        "minutes": 34,
-        "seconds": 3,
-        "date": "2025-03-18T02:34:03.692Z",
+        "hours": 17,
+        "minutes": 48,
+        "seconds": 38,
+        "date": "2025-03-18T16:48:38.909Z",
         "dateDMY": [
           18,
           3,
@@ -764,6 +773,7 @@
         "character_skin",
         "asset"
       ],
+      "lessons": [],
       "downloads": [
         {
           "label": "sophia.zip",
