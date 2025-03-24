@@ -28,19 +28,7 @@
       class="mainNavButtonClose buttonClose"
     >
       <span>close</span>
-    </button><a class="mainNavItem " href="/tutorial">Tutorials</a><a class="mainNavItem " href="/tools">tools</a><a class="mainNavItem " href="/product">products</a><a class="mainNavItem " href="/about">About</a><a class="mainNavItem is-new" href="https://school.gdquest.com">Godot 4 courses</a><section class="fontSizeResizer showWhenJSLoads" hidden>
-    <button class="fontSizeResizerIncrease" title="Increase font size">
-        <span>increase font size</span>
-    </button>
-    <button class="fontSizeResizerReset" title="Reset font size">
-        <span>reset font size</span>
-    </button>
-    <button class="fontSizeResizerDecrease" title="Decrease font size">
-        <span>decrease font size</span>
-    </button>
-</section>
-
-    <button title="Toggle theme" class="themeToggle" data-is="theme-toggle">
+    </button><a class="mainNavItem " href="/tutorial">Tutorials</a><a class="mainNavItem " href="/tools">tools</a><a class="mainNavItem " href="/product">products</a><a class="mainNavItem " href="/about">About</a><a class="mainNavItem is-new" href="https://school.gdquest.com">Godot 4 courses</a><button title="Toggle theme" class="themeToggle" data-is="theme-toggle">
   <span class="themeToggleLabel">Toggle Theme</span>
   <span class="themeToggleIcons">
     <span class="themeToggleIconsIcon themeToggleIconsIconDark">
@@ -213,9 +201,9 @@
 <p>The character is rigged and ready to be animated. It comes with a few animations already!</p>
 <section class="custom-component-GodotEmbed" src="/static/3d_characters/3d_characters.html#model=sophia"></section>
     </main>
-		<div class="shareWidget">
-  <span>
-	
+		<div class="shareWidget shareWidgetContainer">
+  <div class="shareWidgetContent">
+    
 <button
 	class="clapsButton"
 	title="Clap"
@@ -234,9 +222,8 @@
 	</span>
 </button>
 
-  </span>
-  <span>
-	<button
+    <span class="shareWidgetSeparator" aria-hidden="true"></span>
+    <button
 	class="clipboardButton"
 	data-is="clipboard-button"
 	data-clipboard="currentURL"
@@ -244,15 +231,14 @@
 	aria-pressed="false"
 	aria-live="polite"
 >
-    <span class="clipboardButtonLabel">Copy URL to clipboard</span>
-  <span data-is="clipboard-message" aria-hidden="true"
+      <span class="clipboardButtonLabel">Copy URL to clipboard</span>
+    <span data-is="clipboard-message" aria-hidden="true"
 		>Copied to clibpboard!</span
 	>
 </button>
 
-  </span>
+  </div>
 </div>
-
 		<div class="itemPageMeta">
   <section class="itemPageMetaLinks">
     <h4>
@@ -346,7 +332,7 @@
 	</section>
 <div class="contributeBlockWrapper">
 	<section aria-roledescription="contribution links" class="contributeBlock">
-		<h1 class="hasIconBefore icon-github" data-toc-title="Contribute to the Free Library">
+		<h1 class="hasIconBefore icon-github" data-toc-title="Contribute to the Library">
 			Contribute to GDQuest's Free Library
 		</h1>
 
