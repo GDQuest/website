@@ -16,6 +16,15 @@
         "items": [
           "character_movement",
           "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": [
+          {
+            "id": "video-tutorials",
+            "text": "Video Tutorials",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "web_guide": {
@@ -32,6 +41,15 @@
         "url": "taxonomy/format/web_guide",
         "items": [
           "input_cheatsheet"
+        ],
+        "toc": [
+          {
+            "id": "web-guides",
+            "text": "Web Guides",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "downloadable": {
@@ -49,6 +67,15 @@
         "url": "taxonomy/format/downloadable",
         "items": [
           "sophia"
+        ],
+        "toc": [
+          {
+            "id": "downloadable-content",
+            "text": "Downloadable Content",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "interactive": {
@@ -63,7 +90,16 @@
         "description": "Interactive learning tools that allow users to explore concepts and learn through experimentation.",
         "slug": "interactive",
         "url": "taxonomy/format/interactive",
-        "items": []
+        "items": [],
+        "toc": [
+          {
+            "id": "interactive-learning-tools",
+            "text": "Interactive Learning tools",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
       }
     },
     "godot_version": {
@@ -87,6 +123,15 @@
         "url": "taxonomy/godot_version/3",
         "items": [
           "input_cheatsheet"
+        ],
+        "toc": [
+          {
+            "id": "godot",
+            "text": "Godot ",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "4": {
@@ -110,6 +155,15 @@
           "character_movement",
           "first_3d_game_godot4_arena_fps",
           "sophia"
+        ],
+        "toc": [
+          {
+            "id": "godot",
+            "text": "Godot ",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       }
     },
@@ -130,7 +184,8 @@
         "items": [
           "character_movement",
           "first_3d_game_godot4_arena_fps"
-        ]
+        ],
+        "toc": []
       },
       "study_guide": {
         "title": "Study Guide",
@@ -143,7 +198,8 @@
         "description": "Study guides that provide a summary of information or instructions.",
         "slug": "study_guide",
         "url": "taxonomy/tag/study_guide",
-        "items": []
+        "items": [],
+        "toc": []
       },
       "input": {
         "title": "Input",
@@ -162,7 +218,8 @@
         "url": "taxonomy/tag/input",
         "items": [
           "input_cheatsheet"
-        ]
+        ],
+        "toc": []
       },
       "design_pattern": {
         "title": "Design Pattern",
@@ -178,7 +235,26 @@
         "url": "taxonomy/tag/design_pattern",
         "items": [
           "input_cheatsheet"
-        ]
+        ],
+        "toc": []
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
       },
       "3d": {
         "title": "3D",
@@ -195,6 +271,15 @@
         "items": [
           "character_movement",
           "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": [
+          {
+            "id": "3d",
+            "text": "3D",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "cheatsheet": {
@@ -213,6 +298,15 @@
         "url": "taxonomy/tag/cheatsheet",
         "items": [
           "input_cheatsheet"
+        ],
+        "toc": [
+          {
+            "id": "cheatsheets",
+            "text": "Cheatsheets",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "3d_model": {
@@ -230,6 +324,15 @@
         "url": "taxonomy/tag/3d_model",
         "items": [
           "sophia"
+        ],
+        "toc": [
+          {
+            "id": "3d-models",
+            "text": "3D Models",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "character_skin": {
@@ -247,23 +350,15 @@
         "url": "taxonomy/tag/character_skin",
         "items": [
           "sophia"
-        ]
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
         ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
+        "toc": [
+          {
+            "id": "character-skin-3d",
+            "text": "Character Skin 3D",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       }
     },
@@ -289,7 +384,16 @@
         "description": "Shaders are programs that run on the GPU to render graphics.",
         "slug": "shader",
         "url": "taxonomy/type/shader",
-        "items": []
+        "items": [],
+        "toc": [
+          {
+            "id": "shaders",
+            "text": "Shaders",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
       },
       "learning_resource": {
         "title": "Learning Resource",
@@ -311,6 +415,15 @@
           "input_cheatsheet",
           "character_movement",
           "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": [
+          {
+            "id": "learning-resources",
+            "text": "Learning Resources",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "asset": {
@@ -333,6 +446,15 @@
         "url": "taxonomy/type/asset",
         "items": [
           "sophia"
+        ],
+        "toc": [
+          {
+            "id": "assets-or-models",
+            "text": "Assets or Models",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "demo": {
@@ -351,7 +473,16 @@
         "description": "Demos or code templates that you can use to learn or build upon",
         "slug": "demo",
         "url": "taxonomy/type/demo",
-        "items": []
+        "items": [],
+        "toc": [
+          {
+            "id": "demos-or-code-templates",
+            "text": "Demos or Code Templates",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
       }
     },
     "license": {
@@ -372,6 +503,15 @@
           "character_movement",
           "first_3d_game_godot4_arena_fps",
           "sophia"
+        ],
+        "toc": [
+          {
+            "id": "mit-license",
+            "text": "MIT License",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "ccby": {
@@ -391,6 +531,15 @@
         "items": [
           "character_movement",
           "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": [
+          {
+            "id": "cc-bysa-license",
+            "text": "CC BY-SA License",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
         ]
       },
       "cc0": {
@@ -407,7 +556,16 @@
         "description": "The CC0 license is a public domain dedication tool that allows creators to waive all their copyright and related rights in their works, thereby placing them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
         "slug": "cc0",
         "url": "taxonomy/license/cc0",
-        "items": []
+        "items": [],
+        "toc": [
+          {
+            "id": "cc0-license",
+            "text": "CC0 License",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
       }
     }
   },
@@ -509,7 +667,16 @@
           "2025"
         ]
       },
-      "discord_invite": ""
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "input-cheatsheet",
+          "text": "Input Cheatsheet",
+          "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
     },
     "character_movement": {
       "slug": "character_movement",
@@ -535,7 +702,7 @@
         "width": 1920,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/character_movement/cover.jpg",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/character_movement/cover.jpg",
         "relPath": "character_movement/cover.jpg",
         "newSrc": "https://www.gdquest.com/library/character_movement/cover.jpg",
         "originalSrc": "cover.jpg"
@@ -619,7 +786,24 @@
           "2025"
         ]
       },
-      "discord_invite": ""
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "character-movement-in-3d",
+          "text": "Character movement in 3D",
+          "depth": 1,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "troubleshooting",
+              "text": "Troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        }
+      ]
     },
     "first_3d_game_godot4_arena_fps": {
       "slug": "first_3d_game_godot4_arena_fps",
@@ -651,7 +835,7 @@
         "height": 1080,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/first_3d_game_godot4_arena_fps/cover.png",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/first_3d_game_godot4_arena_fps/cover.png",
         "relPath": "first_3d_game_godot4_arena_fps/cover.png",
         "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
         "originalSrc": "cover.png"
@@ -666,7 +850,25 @@
         "character_controller",
         "learning_resource"
       ],
-      "lessons": [],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 3D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 2,
+            "label": "Get to Know 3D",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/get_to_know_3d/"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Godot Tours",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/get_to_know_3d/godot_tours",
+            "number": 1
+          }
+        }
+      ],
       "date_created": {
         "year": 2025,
         "month": "March",
@@ -735,7 +937,282 @@
           "2025"
         ]
       },
-      "discord_invite": "https://discord.gg/DmTHFZAgHS"
+      "discord_invite": "https://discord.gg/DmTHFZAgHS",
+      "toc": [
+        {
+          "id": "your-first-3d-game-with-godot",
+          "text": "Your First 3D Game With Godot",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "setting-up",
+              "text": "Setting up",
+              "depth": 2,
+              "prefix": "1",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "coding-the-camera-rotation",
+              "text": "Coding the camera rotation",
+              "depth": 2,
+              "prefix": "2",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "limiting-mouse",
+              "text": "Limiting mouse",
+              "depth": 2,
+              "prefix": "3",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ground-movement",
+              "text": "Ground movement",
+              "depth": 2,
+              "prefix": "4",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "the-jump",
+              "text": "The jump",
+              "depth": 2,
+              "prefix": "5",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "creating-the-level",
+              "text": "Creating the level",
+              "depth": 2,
+              "prefix": "6",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "player-shooting-mechanics",
+              "text": "Player shooting mechanics",
+              "depth": 2,
+              "prefix": "7",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "creating-the-mob-and-pursuing-the-player",
+              "text": "Creating the mob and pursuing the player",
+              "depth": 2,
+              "prefix": "8",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "making-the-mob-follow-the-player",
+              "text": "Making the mob follow the player",
+              "depth": 2,
+              "prefix": "9",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "making-the-mob-die",
+              "text": "Making the mob die",
+              "depth": 2,
+              "prefix": "10",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "spawning-mobs-continuously",
+              "text": "Spawning mobs continuously",
+              "depth": 2,
+              "prefix": "11",
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "scoring",
+              "text": "Scoring",
+              "depth": 2,
+              "prefix": "12",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "adding-sound",
+              "text": "Adding sound",
+              "depth": 2,
+              "prefix": "13",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "kill-plane",
+              "text": "Kill plane",
+              "depth": 2,
+              "prefix": "14",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "adding-visual-effects-and-completing-the-level",
+              "text": "Adding visual effects and completing the level",
+              "depth": 2,
+              "prefix": "15",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "checkpoint",
+                  "text": "Checkpoint",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "exporting-the-game",
+              "text": "Exporting the game",
+              "depth": 2,
+              "prefix": "16",
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "bonus",
+          "text": "Bonus",
+          "depth": 1,
+          "icon": "bonus",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
     },
     "sophia": {
       "slug": "sophia",
@@ -759,7 +1236,7 @@
         "height": 1241,
         "ratio": 0.8557614826752619,
         "aspectRatio": "portrait",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/src/items/models/sophia/cover.png",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
         "relPath": "models/sophia/cover.png",
         "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
         "originalSrc": "./cover.png"
@@ -849,7 +1326,16 @@
           "2024"
         ]
       },
-      "discord_invite": ""
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "sophia-3d-model",
+          "text": "Sophia 3D Model",
+          "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
     }
   }
 }
