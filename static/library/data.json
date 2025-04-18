@@ -238,6 +238,24 @@
         ],
         "toc": []
       },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
+      },
       "3d": {
         "title": "3D",
         "title_plural": "3D",
@@ -342,24 +360,6 @@
             "children": []
           }
         ]
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
-        ],
-        "toc": []
       }
     },
     "type": {
@@ -1050,32 +1050,32 @@
         "month": "April",
         "monthShort": "Apr",
         "monthNumber": 4,
-        "dayOfMonth": 10,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
+        "dayOfMonth": 18,
+        "dayName": "Friday",
+        "dayShort": "Fri",
         "dayOrdinal": "th",
-        "hours": 22,
-        "minutes": 54,
-        "seconds": 43,
-        "date": "2025-04-10T20:54:43.280Z",
+        "hours": 17,
+        "minutes": 41,
+        "seconds": 52,
+        "date": "2025-04-18T15:41:52.739Z",
         "dateDMY": [
-          10,
+          18,
           4,
           2025
         ],
         "dateMDY": [
           4,
-          10,
+          18,
           2025
         ],
         "dateDDMMYYYY": [
-          "10",
+          "18",
           "04",
           "2025"
         ],
         "dateMMDDYYYY": [
           "04",
-          "10",
+          "18",
           "2025"
         ]
       },
@@ -1086,14 +1086,6 @@
           "text": "Your First 3D Game With Godot",
           "depth": 1,
           "icon": "app",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "download-files",
-          "text": "Download files",
-          "depth": 1,
-          "icon": "download",
           "hasChildren": true,
           "children": [
             {
@@ -1129,8 +1121,8 @@
               ]
             },
             {
-              "id": "limiting-mouse",
-              "text": "Limiting mouse",
+              "id": "limiting-the-mouse",
+              "text": "Limiting the mouse",
               "depth": 2,
               "prefix": "3",
               "hasChildren": true,
@@ -1145,8 +1137,8 @@
               ]
             },
             {
-              "id": "ground-movement",
-              "text": "Ground movement",
+              "id": "coding-ground-movement",
+              "text": "Coding ground movement",
               "depth": 2,
               "prefix": "4",
               "hasChildren": true,
@@ -1161,8 +1153,8 @@
               ]
             },
             {
-              "id": "the-jump",
-              "text": "The jump",
+              "id": "jump-and-fall",
+              "text": "Jump and fall",
               "depth": 2,
               "prefix": "5",
               "hasChildren": true,
@@ -1193,8 +1185,8 @@
               ]
             },
             {
-              "id": "player-shooting-mechanics",
-              "text": "Player shooting mechanics",
+              "id": "coding-the-shooting-mechanics",
+              "text": "Coding the Shooting mechanics",
               "depth": 2,
               "prefix": "7",
               "hasChildren": true,
@@ -1209,8 +1201,8 @@
               ]
             },
             {
-              "id": "creating-the-mob-and-pursuing-the-player",
-              "text": "Creating the mob and pursuing the player",
+              "id": "creating-the-mob",
+              "text": "Creating the mob",
               "depth": 2,
               "prefix": "8",
               "hasChildren": true,
@@ -1225,8 +1217,8 @@
               ]
             },
             {
-              "id": "making-the-mob-follow-the-player",
-              "text": "Making the mob follow the player",
+              "id": "getting-the-mob-to-follow-the-player",
+              "text": "Getting the mob to follow the player",
               "depth": 2,
               "prefix": "9",
               "hasChildren": true,
@@ -1241,8 +1233,8 @@
               ]
             },
             {
-              "id": "making-the-mob-die",
-              "text": "Making the mob die",
+              "id": "damaging-and-killing-the-mob",
+              "text": "Damaging and killing the mob",
               "depth": 2,
               "prefix": "10",
               "hasChildren": true,
@@ -1257,8 +1249,8 @@
               ]
             },
             {
-              "id": "spawning-mobs-continuously",
-              "text": "Spawning mobs continuously",
+              "id": "spawning-the-mobs-continuously-from-spawners",
+              "text": "Spawning the mobs continuously from spawners",
               "depth": 2,
               "prefix": "11",
               "hasChildren": false,
@@ -1281,8 +1273,8 @@
               ]
             },
             {
-              "id": "adding-sound",
-              "text": "Adding sound",
+              "id": "adding-sounds",
+              "text": "Adding sounds",
               "depth": 2,
               "prefix": "13",
               "hasChildren": true,
@@ -1297,8 +1289,8 @@
               ]
             },
             {
-              "id": "kill-plane",
-              "text": "Kill plane",
+              "id": "setting-up-the-kill-plane",
+              "text": "Setting up the kill plane",
               "depth": 2,
               "prefix": "14",
               "hasChildren": true,
@@ -1313,8 +1305,8 @@
               ]
             },
             {
-              "id": "adding-visual-effects-and-completing-the-level",
-              "text": "Adding visual effects and completing the level",
+              "id": "adding-visual-effects-and-refining-the-level",
+              "text": "Adding visual effects and refining the level",
               "depth": 2,
               "prefix": "15",
               "hasChildren": true,
@@ -1337,6 +1329,14 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
         },
         {
           "id": "updates-code-patches",
