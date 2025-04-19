@@ -221,6 +221,41 @@
         ],
         "toc": []
       },
+      "design_pattern": {
+        "title": "Design Pattern",
+        "title_plural": "Design Patterns",
+        "search": [
+          "design pattern",
+          "design patterns",
+          "software design",
+          "architecture"
+        ],
+        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
+        "slug": "design_pattern",
+        "url": "taxonomy/tag/design_pattern",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
+      },
       "3d": {
         "title": "3D",
         "title_plural": "3D",
@@ -325,41 +360,6 @@
             "children": []
           }
         ]
-      },
-      "design_pattern": {
-        "title": "Design Pattern",
-        "title_plural": "Design Patterns",
-        "search": [
-          "design pattern",
-          "design patterns",
-          "software design",
-          "architecture"
-        ],
-        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
-        "slug": "design_pattern",
-        "url": "taxonomy/tag/design_pattern",
-        "items": [
-          "input_cheatsheet"
-        ],
-        "toc": []
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
-        ],
-        "toc": []
       }
     },
     "type": {
@@ -1054,10 +1054,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 14,
-        "minutes": 24,
-        "seconds": 49,
-        "date": "2025-04-19T12:24:49.006Z",
+        "hours": 20,
+        "minutes": 45,
+        "seconds": 7,
+        "date": "2025-04-19T18:45:07.144Z",
         "dateDMY": [
           19,
           4,
