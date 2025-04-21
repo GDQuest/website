@@ -153,8 +153,8 @@
         "url": "taxonomy/godot_version/4",
         "items": [
           "character_movement",
-          "sophia",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "sophia"
         ],
         "toc": [
           {
@@ -235,24 +235,6 @@
         "url": "taxonomy/tag/design_pattern",
         "items": [
           "input_cheatsheet"
-        ],
-        "toc": []
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
         ],
         "toc": []
       },
@@ -360,6 +342,24 @@
             "children": []
           }
         ]
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
       }
     },
     "type": {
@@ -501,8 +501,8 @@
         "items": [
           "input_cheatsheet",
           "character_movement",
-          "sophia",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "sophia"
         ],
         "toc": [
           {
@@ -805,129 +805,6 @@
         }
       ]
     },
-    "sophia": {
-      "slug": "sophia",
-      "title": "Sophia 3D Model",
-      "label": "A 3D model of Sophia",
-      "tags": [
-        "3d_model",
-        "character_skin"
-      ],
-      "type": "asset",
-      "format": "downloadable",
-      "url": "sophia",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "A 3D model of Sophia",
-      "links": {},
-      "cover": {
-        "width": 1062,
-        "height": 1241,
-        "ratio": 0.8557614826752619,
-        "aspectRatio": "portrait",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
-        "relPath": "models/sophia/cover.png",
-        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
-        "originalSrc": "./cover.png"
-      },
-      "sources": [],
-      "search": [
-        "sophia 3d model",
-        "a 3d model of sophia",
-        "a 3d model of sophia",
-        "3d_model",
-        "character_skin",
-        "asset"
-      ],
-      "lessons": [],
-      "downloads": [
-        {
-          "label": "sophia.zip",
-          "url": "sophia.zip",
-          "category": "download"
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 10,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 23,
-        "seconds": 56,
-        "date": "2025-04-10T16:23:56.623Z",
-        "dateDMY": [
-          10,
-          4,
-          2025
-        ],
-        "dateMDY": [
-          4,
-          10,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "10",
-          "04",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "10",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 10,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 23,
-        "seconds": 56,
-        "date": "2025-04-10T16:23:56.623Z",
-        "dateDMY": [
-          10,
-          4,
-          2025
-        ],
-        "dateMDY": [
-          4,
-          10,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "10",
-          "04",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "10",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "sophia-3d-model",
-          "text": "Sophia 3D Model",
-          "depth": 1,
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "first_3d_game_godot4_arena_fps": {
       "slug": "first_3d_game_godot4_arena_fps",
       "title": "Your first 3D game with Godot 4",
@@ -1050,32 +927,32 @@
         "month": "April",
         "monthShort": "Apr",
         "monthNumber": 4,
-        "dayOfMonth": 19,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 20,
-        "minutes": 45,
-        "seconds": 7,
-        "date": "2025-04-19T18:45:07.144Z",
+        "dayOfMonth": 21,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "st",
+        "hours": 16,
+        "minutes": 14,
+        "seconds": 54,
+        "date": "2025-04-21T14:14:54.391Z",
         "dateDMY": [
-          19,
+          21,
           4,
           2025
         ],
         "dateMDY": [
           4,
-          19,
+          21,
           2025
         ],
         "dateDDMMYYYY": [
-          "19",
+          "21",
           "04",
           "2025"
         ],
         "dateMMDDYYYY": [
           "04",
-          "19",
+          "21",
           "2025"
         ]
       },
@@ -1351,6 +1228,129 @@
           "text": "Bonus",
           "depth": 1,
           "icon": "bonus",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "sophia": {
+      "slug": "sophia",
+      "title": "Sophia 3D Model",
+      "label": "A 3D model of Sophia",
+      "tags": [
+        "3d_model",
+        "character_skin"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "url": "sophia",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "A 3D model of Sophia",
+      "links": {},
+      "cover": {
+        "width": 1062,
+        "height": 1241,
+        "ratio": 0.8557614826752619,
+        "aspectRatio": "portrait",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
+        "relPath": "models/sophia/cover.png",
+        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
+        "originalSrc": "./cover.png"
+      },
+      "sources": [],
+      "search": [
+        "sophia 3d model",
+        "a 3d model of sophia",
+        "a 3d model of sophia",
+        "3d_model",
+        "character_skin",
+        "asset"
+      ],
+      "lessons": [],
+      "downloads": [
+        {
+          "label": "sophia.zip",
+          "url": "sophia.zip",
+          "category": "download"
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 10,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 23,
+        "seconds": 56,
+        "date": "2025-04-10T16:23:56.623Z",
+        "dateDMY": [
+          10,
+          4,
+          2025
+        ],
+        "dateMDY": [
+          4,
+          10,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "10",
+          "04",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "10",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 10,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 23,
+        "seconds": 56,
+        "date": "2025-04-10T16:23:56.623Z",
+        "dateDMY": [
+          10,
+          4,
+          2025
+        ],
+        "dateMDY": [
+          4,
+          10,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "10",
+          "04",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "10",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "sophia-3d-model",
+          "text": "Sophia 3D Model",
+          "depth": 1,
           "hasChildren": false,
           "children": []
         }
