@@ -23,7 +23,7 @@ In this first completely free tour, we take you on a quick guided walk through t
 Download the tour project files:
 
 {{< calltoaction
-url="https://github.com/gdquest-demos/godot-tours-101-the-godot-editor/archive/refs/tags/2.0.0.zip"
+url="https://github.com/gdquest-demos/godot-tours-101-the-godot-editor/archive/refs/tags/2.1.0.zip"
 text="Download Godot Tours 101"
 class="-large -tall" >}}
 
