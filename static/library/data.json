@@ -238,6 +238,24 @@
         ],
         "toc": []
       },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
+      },
       "3d": {
         "title": "3D",
         "title_plural": "3D",
@@ -342,24 +360,6 @@
             "children": []
           }
         ]
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
-        ],
-        "toc": []
       }
     },
     "type": {
