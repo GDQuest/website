@@ -3,15 +3,23 @@
     defer
     src="https://identity.netlify.com/v1/netlify-identity-widget.js"
 ></script>
+<style>
+    body {
+        scroll-behavior: smooth;
+    }
+</style>
 {{ end }} {{ define "header_content" }}
 <div class="header-background"></div>
 <div class="header-home" data-font="centered">
     <div class="header-title">
         <div class="title">
             <h1 class="_unmargin">Become a game developer with Godot</h1>
-            <p class="subtitle">Learn the techniques professionals use to create stunning games, using Free and Open Source Software.</p>
+            <p class="subtitle">
+                Learn the techniques professionals use to create stunning games,
+                using Free and Open Source Software.
+            </p>
             <a
-                href="/start-here"
+                href="#free-tutorials"
                 class="button-link -yellow -shadow -large -tall"
                 >Get started for free</a
             >
@@ -19,7 +27,7 @@
     </div>
 </div>
 {{ end }} {{ define "main" }}
-<section class="darkbg">
+<section id="free-tutorials" class="darkbg">
     <div class="content-container padding-v-base">
         <div class="content-grid -columns3" data-font="centered">
             <div class="social-item">
@@ -63,7 +71,10 @@
 
 <section class="content-container margin-v-base">
     <h2 data-font="centered">Hundreds of free tutorials</h2>
-    <p data-font="centered">Learn Godot with the largest base of free learning resources. We have everything you need to get started.</p>
+    <p data-font="centered">
+        Learn Godot with the largest base of free learning resources. We have
+        everything you need to get started.
+    </p>
     <div class="content-grid">
         {{ range first 2 (where (where .Site.Pages "Section" "tutorial")
         ".Params.featured" true ) }}
@@ -71,25 +82,24 @@
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
-        <a href="/tutorial" class="button-link -textlight"
-            >View all</a
-        >
+        <a href="/tutorial" class="button-link -textlight">View all</a>
     </div>
 </section>
 
-<section class="darkbg">
+<section id="free-learning-tools" class="darkbg">
     <div class="content-container padding-v-base">
-        <h2 data-font="centered">Free and Open-Source tools</h2>
-        <p data-font="centered">We made over 100 open-source Godot demos and tools to help you learn to make games faster.</p>
+        <h2 data-font="centered">Free Learning Tools</h2>
+        <p data-font="centered">
+            We made over 100 open-source Godot demos and tools to help you learn
+            to make games faster.
+        </p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
         <div data-font="centered" class="margin-top-base">
-            <a href="/tools" class="button-link -textlight"
-                >View all</a
-            >
+            <a href="/tools" class="button-link -textlight">View all</a>
         </div>
     </div>
 </section>
@@ -111,11 +121,14 @@
         <hr class="margin-v-base" />
         <div class="margin-v-base">
             <h2>Ready to get started?</h2>
-            <p class="subtitle">Take your game creation skills to the next level for free, with Godot.</p>
+            <p class="subtitle">
+                Take your game creation skills to the next level for free, with
+                Godot.
+            </p>
             <a
-                href="/start-here"
+                href="https://school.gdquest.com/"
                 class="button-link -yellow -shadow -large -tall"
-                >Get started for free</a
+                >Study Gamedev with GDQuest</a
             >
         </div>
     </div>
