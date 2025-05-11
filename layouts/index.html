@@ -1,44 +1,61 @@
 {{ define "header_extra" }}
-<script defer  src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-{{ end }}
-
-{{ define "header_content" }}
+<script
+    defer
+    src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+></script>
+{{ end }} {{ define "header_content" }}
 <div class="header-background"></div>
 <div class="header-home" data-font="centered">
     <div class="header-title">
         <div class="title">
             <h1 class="_unmargin">{{ i18n "gdquest_title" }}</h1>
             <p class="subtitle">{{ i18n "gdquest_subtitle" }}</p>
-            <a href="/start-here" class="button-link -yellow -shadow -large -tall">{{ i18n "getting_started_free" }}</a>
+            <a
+                href="/start-here"
+                class="button-link -yellow -shadow -large -tall"
+                >{{ i18n "getting_started_free" }}</a
+            >
         </div>
     </div>
 </div>
-{{ end }}
-
-{{ define "main" }}
+{{ end }} {{ define "main" }}
 <section class="darkbg">
     <div class="content-container padding-v-base">
         <div class="content-grid -columns3" data-font="centered">
             <div class="social-item">
                 <a href="https://www.youtube.com/c/gdquest">
-                    <img src="/img/home/logo-youtube-grey.png" alt="YouTube logo in grey" class="image -youtube" />
+                    <img
+                        src="/img/home/logo-youtube-grey.png"
+                        alt="YouTube logo in grey"
+                        class="image -youtube"
+                    />
                 </a>
-                <div class="text">200,000+ {{i18n "subscribers"}}<br />
-                    20+ {{i18n "million_views"}}</div>
+                <div class="text">
+                    290,000+ {{i18n "subscribers"}}<br />
+                    35+ {{i18n "million_views"}}
+                </div>
             </div>
             <div class="social-item -kickstarter">
                 <a href="https://www.kickstarter.com/profile/gdquest/created">
-                    <img src="/img/home/logo-kickstarter-grey.png" alt="Kickstarter logo in grey" class="image -kickstarter" />
+                    <img
+                        src="/img/home/logo-kickstarter-grey.png"
+                        alt="Kickstarter logo in grey"
+                        class="image -kickstarter"
+                    />
                 </a>
-                <div class="text">
-
-                    5 {{i18n "successful_kickstarters"}}</div>
+                <div class="text">5 {{i18n "successful_kickstarters"}}</div>
             </div>
             <div class="social-item">
                 <a href="https://godotengine.org/">
-                    <img src="/img/home/logo-godot-grey.png" alt="Godot logo in grey" class="image -godot" />
+                    <img
+                        src="/img/home/logo-godot-grey.png"
+                        alt="Godot logo in grey"
+                        class="image -godot"
+                    />
                 </a>
-                <div class="text">7 {{i18n "years_teaching_godot"}}</div>
+                <div class="text">
+                    {{ sub now.Year 2015 }} {{i18n "years_teaching_godot"}}
+                </div>
             </div>
         </div>
     </div>
@@ -48,14 +65,15 @@
     <h2 data-font="centered">{{ i18n "home_tutorials" }}</h2>
     <p data-font="centered">{{ i18n "home_tutorials_description" }}</p>
     <div class="content-grid">
-        {{ range first 2 (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) }}
-        <div class="item -fill">
-            {{ .Render "summary" }}
-        </div>
+        {{ range first 2 (where (where .Site.Pages "Section" "tutorial")
+        ".Params.featured" true ) }}
+        <div class="item -fill">{{ .Render "summary" }}</div>
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
-        <a href="/tutorial" class="button-link -textlight">{{ i18n "view_all" }}</a>
+        <a href="/tutorial" class="button-link -textlight"
+            >{{ i18n "view_all" }}</a
+        >
     </div>
 </section>
 
@@ -65,13 +83,13 @@
         <p data-font="centered">{{ i18n "home_tools_description" }}</p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
-            <div class="item -fill">
-                {{ .Render "summary" }}
-            </div>
+            <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
         <div data-font="centered" class="margin-top-base">
-            <a href="/tools" class="button-link -textlight">{{ i18n "view_all" }}</a>
+            <a href="/tools" class="button-link -textlight"
+                >{{ i18n "view_all" }}</a
+            >
         </div>
     </div>
 </section>
@@ -80,9 +98,7 @@
     <h2 data-font="centered">{{ i18n "home_news" }}</h2>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
-        <div class="item -fill">
-            {{ .Render "summary" }}
-        </div>
+        <div class="item -fill">{{ .Render "summary" }}</div>
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
@@ -92,11 +108,15 @@
 
 <section data-font="centered">
     <div class="content-container">
-        <hr class="margin-v-base"/>
+        <hr class="margin-v-base" />
         <div class="margin-v-base">
             <h2>{{ i18n "home_ready" }}</h2>
             <p class="subtitle">{{ i18n "home_ready_description" }}</p>
-            <a href="/start-here" class="button-link -yellow -shadow -large -tall">{{ i18n "getting_started_free" }}</a>
+            <a
+                href="/start-here"
+                class="button-link -yellow -shadow -large -tall"
+                >{{ i18n "getting_started_free" }}</a
+            >
         </div>
     </div>
 </section>
