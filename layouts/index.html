@@ -8,12 +8,12 @@
 <div class="header-home" data-font="centered">
     <div class="header-title">
         <div class="title">
-            <h1 class="_unmargin">{{ i18n "gdquest_title" }}</h1>
-            <p class="subtitle">{{ i18n "gdquest_subtitle" }}</p>
+            <h1 class="_unmargin">Become a game developer with Godot</h1>
+            <p class="subtitle">Learn the techniques professionals use to create stunning games, using Free and Open Source Software.</p>
             <a
                 href="/start-here"
                 class="button-link -yellow -shadow -large -tall"
-                >{{ i18n "getting_started_free" }}</a
+                >Get started for free</a
             >
         </div>
     </div>
@@ -31,8 +31,8 @@
                     />
                 </a>
                 <div class="text">
-                    290,000+ {{i18n "subscribers"}}<br />
-                    35+ {{i18n "million_views"}}
+                    290,000+ subscribers<br />
+                    35+ million views
                 </div>
             </div>
             <div class="social-item -kickstarter">
@@ -43,7 +43,7 @@
                         class="image -kickstarter"
                     />
                 </a>
-                <div class="text">5 {{i18n "successful_kickstarters"}}</div>
+                <div class="text">5 successful Kickstarter campaigns</div>
             </div>
             <div class="social-item">
                 <a href="https://godotengine.org/">
@@ -54,7 +54,7 @@
                     />
                 </a>
                 <div class="text">
-                    {{ sub now.Year 2015 }} {{i18n "years_teaching_godot"}}
+                    {{ sub now.Year 2015 }} years teaching Godot
                 </div>
             </div>
         </div>
@@ -62,8 +62,8 @@
 </section>
 
 <section class="content-container margin-v-base">
-    <h2 data-font="centered">{{ i18n "home_tutorials" }}</h2>
-    <p data-font="centered">{{ i18n "home_tutorials_description" }}</p>
+    <h2 data-font="centered">Hundreds of free tutorials</h2>
+    <p data-font="centered">Learn Godot with the largest base of free learning resources. We have everything you need to get started.</p>
     <div class="content-grid">
         {{ range first 2 (where (where .Site.Pages "Section" "tutorial")
         ".Params.featured" true ) }}
@@ -72,15 +72,15 @@
     </div>
     <div data-font="centered" class="margin-top-base">
         <a href="/tutorial" class="button-link -textlight"
-            >{{ i18n "view_all" }}</a
+            >View all</a
         >
     </div>
 </section>
 
 <section class="darkbg">
     <div class="content-container padding-v-base">
-        <h2 data-font="centered">{{ i18n "home_tools" }}</h2>
-        <p data-font="centered">{{ i18n "home_tools_description" }}</p>
+        <h2 data-font="centered">Free and Open-Source tools</h2>
+        <p data-font="centered">We made over 100 open-source Godot demos and tools to help you learn to make games faster.</p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
             <div class="item -fill">{{ .Render "summary" }}</div>
@@ -88,21 +88,21 @@
         </div>
         <div data-font="centered" class="margin-top-base">
             <a href="/tools" class="button-link -textlight"
-                >{{ i18n "view_all" }}</a
+                >View all</a
             >
         </div>
     </div>
 </section>
 
 <section class="content-container margin-v-base">
-    <h2 data-font="centered">{{ i18n "home_news" }}</h2>
+    <h2 data-font="centered">Latest news</h2>
     <div class="content-grid">
         {{ range first 2 (where .Site.RegularPages "Section" "news") }}
         <div class="item -fill">{{ .Render "summary" }}</div>
         {{ end }}
     </div>
     <div data-font="centered" class="margin-top-base">
-        <a href="/news" class="button-link">{{ i18n "view_all" }}</a>
+        <a href="/news" class="button-link">View all</a>
     </div>
 </section>
 
@@ -110,12 +110,12 @@
     <div class="content-container">
         <hr class="margin-v-base" />
         <div class="margin-v-base">
-            <h2>{{ i18n "home_ready" }}</h2>
-            <p class="subtitle">{{ i18n "home_ready_description" }}</p>
+            <h2>Ready to get started?</h2>
+            <p class="subtitle">Take your game creation skills to the next level for free, with Godot.</p>
             <a
                 href="/start-here"
                 class="button-link -yellow -shadow -large -tall"
-                >{{ i18n "getting_started_free" }}</a
+                >Get started for free</a
             >
         </div>
     </div>
