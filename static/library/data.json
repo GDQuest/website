@@ -238,24 +238,6 @@
         ],
         "toc": []
       },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
-        ],
-        "toc": []
-      },
       "3d": {
         "title": "3D",
         "title_plural": "3D",
@@ -360,6 +342,24 @@
             "children": []
           }
         ]
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
       }
     },
     "type": {
@@ -837,7 +837,7 @@
           },
           {
             "label": "Shaders made by GDQuest",
-            "url": "https://github.com/GDQuest-Products/godot-shader-secrets",
+            "url": "https://github.com/gdquest-demos/godot-shaders",
             "category": "library"
           }
         ],
@@ -931,10 +931,10 @@
         "dayName": "Sunday",
         "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 19,
-        "minutes": 25,
-        "seconds": 49,
-        "date": "2025-05-11T17:25:49.313Z",
+        "hours": 21,
+        "minutes": 22,
+        "seconds": 3,
+        "date": "2025-05-11T19:22:03.913Z",
         "dateDMY": [
           11,
           5,
