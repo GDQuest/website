@@ -836,7 +836,7 @@
             "category": "library"
           },
           {
-            "label": "GDQuest's Shader Secrets repo on Github",
+            "label": "Shaders made by GDQuest",
             "url": "https://github.com/GDQuest-Products/godot-shader-secrets",
             "category": "library"
           }
@@ -931,10 +931,10 @@
         "dayName": "Sunday",
         "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 52,
-        "seconds": 25,
-        "date": "2025-05-11T16:52:25.423Z",
+        "hours": 19,
+        "minutes": 25,
+        "seconds": 49,
+        "date": "2025-05-11T17:25:49.313Z",
         "dateDMY": [
           11,
           5,
