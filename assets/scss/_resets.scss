@@ -35,6 +35,10 @@ html {
   box-sizing: inherit;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-base;
   font-size: $font-size-normal;
