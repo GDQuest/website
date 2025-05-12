@@ -14,6 +14,7 @@
         "slug": "video",
         "url": "taxonomy/format/video",
         "items": [
+          "first_2d_game_godot4_vampire_survivor",
           "character_movement",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -27,25 +28,23 @@
           }
         ]
       },
-      "web_guide": {
-        "title": "Web Guide",
-        "title_plural": "Web Guides",
+      "glossary_entry": {
+        "title": "Glossary Entry",
+        "title_plural": "Glossary Entries",
         "search": [
-          "web guide",
-          "web guides",
-          "tutorial",
-          "guide"
+          "glossary entry",
+          "glossary entries",
+          "dictionary",
+          "definition"
         ],
-        "description": "Guides for web development.",
-        "slug": "web_guide",
-        "url": "taxonomy/format/web_guide",
-        "items": [
-          "input_cheatsheet"
-        ],
+        "description": "Definitions of terms and concepts.",
+        "slug": "glossary_entry",
+        "url": "taxonomy/format/glossary_entry",
+        "items": [],
         "toc": [
           {
-            "id": "web-guides",
-            "text": "Web Guides",
+            "id": "glossary-entry",
+            "text": "Glossary Entry",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -72,6 +71,31 @@
           {
             "id": "downloadable-content",
             "text": "Downloadable Content",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "web_guide": {
+        "title": "Web Guide",
+        "title_plural": "Web Guides",
+        "search": [
+          "web guide",
+          "web guides",
+          "tutorial",
+          "guide"
+        ],
+        "description": "Guides for web development.",
+        "slug": "web_guide",
+        "url": "taxonomy/format/web_guide",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": [
+          {
+            "id": "web-guides",
+            "text": "Web Guides",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -152,14 +176,36 @@
         "slug": "4",
         "url": "taxonomy/godot_version/4",
         "items": [
+          "first_2d_game_godot4_vampire_survivor",
           "character_movement",
-          "sophia",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "sophia"
         ],
         "toc": [
           {
             "id": "godot",
             "text": "Godot ",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "general": {
+        "title": "General",
+        "title_plural": "General",
+        "search": [
+          "general",
+          "general"
+        ],
+        "description": "Resources that apply to any version of Godot (or possibly not for Godot at all).",
+        "slug": "general",
+        "url": "taxonomy/godot_version/general",
+        "items": [],
+        "toc": [
+          {
+            "id": "generic-resources",
+            "text": "Generic resources",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -182,8 +228,7 @@
         "slug": "character_controller",
         "url": "taxonomy/tag/character_controller",
         "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
+          "character_movement"
         ],
         "toc": []
       },
@@ -200,6 +245,87 @@
         "url": "taxonomy/tag/study_guide",
         "items": [],
         "toc": []
+      },
+      "input": {
+        "title": "Input",
+        "title_plural": "Inputs",
+        "search": [
+          "input",
+          "inputs",
+          "keyboard",
+          "mouse",
+          "gamepad",
+          "joystick",
+          "controller"
+        ],
+        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
+        "slug": "input",
+        "url": "taxonomy/tag/input",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
+      "design_pattern": {
+        "title": "Design Pattern",
+        "title_plural": "Design Patterns",
+        "search": [
+          "design pattern",
+          "design patterns",
+          "software design",
+          "architecture"
+        ],
+        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
+        "slug": "design_pattern",
+        "url": "taxonomy/tag/design_pattern",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
+      "tutorial": {
+        "title": "Tutorial",
+        "title_plural": "Tutorials",
+        "search": [
+          "tutorial",
+          "tutorials",
+          "guide",
+          "how-to"
+        ],
+        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
+        "slug": "tutorial",
+        "url": "taxonomy/tag/tutorial",
+        "items": [
+          "first_2d_game_godot4_vampire_survivor",
+          "character_movement",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": []
+      },
+      "2d": {
+        "title": "2D",
+        "title_plural": "2D",
+        "search": [
+          "2d",
+          "2d",
+          "two dimensions",
+          "2 dimensions"
+        ],
+        "description": "2D assets, scenes, tutorials, and projects.",
+        "slug": "2d",
+        "url": "taxonomy/tag/2d",
+        "items": [
+          "first_2d_game_godot4_vampire_survivor"
+        ],
+        "toc": [
+          {
+            "id": "2d",
+            "text": "2D",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
       },
       "3d": {
         "title": "3D",
@@ -280,61 +406,6 @@
           }
         ]
       },
-      "input": {
-        "title": "Input",
-        "title_plural": "Inputs",
-        "search": [
-          "input",
-          "inputs",
-          "keyboard",
-          "mouse",
-          "gamepad",
-          "joystick",
-          "controller"
-        ],
-        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
-        "slug": "input",
-        "url": "taxonomy/tag/input",
-        "items": [
-          "input_cheatsheet"
-        ],
-        "toc": []
-      },
-      "design_pattern": {
-        "title": "Design Pattern",
-        "title_plural": "Design Patterns",
-        "search": [
-          "design pattern",
-          "design patterns",
-          "software design",
-          "architecture"
-        ],
-        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
-        "slug": "design_pattern",
-        "url": "taxonomy/tag/design_pattern",
-        "items": [
-          "input_cheatsheet"
-        ],
-        "toc": []
-      },
-      "tutorial": {
-        "title": "Tutorial",
-        "title_plural": "Tutorials",
-        "search": [
-          "tutorial",
-          "tutorials",
-          "guide",
-          "how-to"
-        ],
-        "description": "Tutorials that provide step-by-step instructions on how to achieve a specific goal.",
-        "slug": "tutorial",
-        "url": "taxonomy/tag/tutorial",
-        "items": [
-          "character_movement",
-          "first_3d_game_godot4_arena_fps"
-        ],
-        "toc": []
-      },
       "character_skin": {
         "title": "Character Skin",
         "title_plural": "Character Skins",
@@ -355,6 +426,31 @@
           {
             "id": "character-skin-3d",
             "text": "Character Skin 3D",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "full_game": {
+        "title": "Full Game",
+        "title_plural": "Full Games",
+        "search": [
+          "full game",
+          "full games",
+          "full game"
+        ],
+        "description": "Complete games that are playable from start to finish.",
+        "slug": "full_game",
+        "url": "taxonomy/tag/full_game",
+        "items": [
+          "first_2d_game_godot4_vampire_survivor",
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": [
+          {
+            "id": "full-games",
+            "text": "Full Games",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -413,6 +509,7 @@
         "url": "taxonomy/type/learning_resource",
         "items": [
           "input_cheatsheet",
+          "first_2d_game_godot4_vampire_survivor",
           "character_movement",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -500,9 +597,10 @@
         "url": "taxonomy/license/mit",
         "items": [
           "input_cheatsheet",
+          "first_2d_game_godot4_vampire_survivor",
           "character_movement",
-          "sophia",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "sophia"
         ],
         "toc": [
           {
@@ -529,6 +627,7 @@
         "slug": "ccby",
         "url": "taxonomy/license/ccby",
         "items": [
+          "first_2d_game_godot4_vampire_survivor",
           "character_movement",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -567,6 +666,56 @@
           }
         ]
       }
+    },
+    "game_type": {
+      "survivor": {
+        "title": "Survivor",
+        "title_plural": "Survivors",
+        "search": [
+          "survivor",
+          "survivors",
+          "roguelite",
+          "roguelike",
+          "vampire survivors"
+        ],
+        "description": "Games that are inspired by Vampire Survivors.",
+        "slug": "survivor",
+        "url": "taxonomy/game_type/survivor",
+        "items": [],
+        "toc": [
+          {
+            "id": "vampire-survivors",
+            "text": "Vampire Survivors",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "roguelite": {
+        "title": "RogueLite",
+        "title_plural": "RogueLites",
+        "search": [
+          "roguelite",
+          "roguelites",
+          "roguelite",
+          "roguelike",
+          "vampire survivors"
+        ],
+        "description": "Games that are inspired by the roguelike genre.",
+        "slug": "roguelite",
+        "url": "taxonomy/game_type/roguelite",
+        "items": [],
+        "toc": [
+          {
+            "id": "roguelike",
+            "text": "Roguelike",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      }
     }
   },
   "items": {
@@ -581,12 +730,14 @@
       ],
       "type": "learning_resource",
       "format": "web_guide",
+      "game_type": [],
       "url": "input_cheatsheet",
       "godot_version": "3",
       "license": [
         "mit"
       ],
       "description": "A quick guide to capturing and using inputs in Godot",
+      "promoBullets": [],
       "links": {},
       "sources": [],
       "search": [
@@ -635,35 +786,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 10,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 12,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 23,
-        "seconds": 56,
-        "date": "2025-04-10T16:23:56.622Z",
+        "hours": 22,
+        "minutes": 43,
+        "seconds": 16,
+        "date": "2025-05-12T20:43:16.161Z",
         "dateDMY": [
-          10,
-          4,
+          12,
+          5,
           2025
         ],
         "dateMDY": [
-          4,
-          10,
+          5,
+          12,
           2025
         ],
         "dateDDMMYYYY": [
-          "10",
-          "04",
+          "12",
+          "05",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "04",
-          "10",
+          "05",
+          "12",
           "2025"
         ]
       },
@@ -673,6 +824,175 @@
           "id": "input-cheatsheet",
           "text": "Input Cheatsheet",
           "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "first_2d_game_godot4_vampire_survivor": {
+      "slug": "first_2d_game_godot4_vampire_survivor",
+      "title": "Your first 2D game with Godot 4",
+      "label": "Make a 2D Vampire Survivor game",
+      "tags": [
+        "2d",
+        "tutorial",
+        "full_game"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "game_type": [
+        "survivor"
+      ],
+      "url": "first_2d_game_godot4_vampire_survivor",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Create a 2D vampire survivor game using Godot 4. Implement player movement, health, shooting mechanics, enemy that spawn and follow the player.",
+      "promoBullets": [
+        "Downloadable Demo"
+      ],
+      "links": {
+        "library": [
+          {
+            "label": "Learn GDScript From Zero with our interactive App",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app",
+            "category": "library"
+          }
+        ]
+      },
+      "cover": {
+        "height": 720,
+        "width": 1280,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "relPath": "first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "newSrc": "https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "originalSrc": "cover.jpg"
+      },
+      "sources": [],
+      "search": [
+        "your first 2d game with godot 4",
+        "make a 2d vampire survivor game",
+        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, enemy that spawn and follow the player.",
+        "2d",
+        "tutorial",
+        "full_game",
+        "learning_resource",
+        "survivor"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 2,
+            "label": "Get to Know Godot - GDtours",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Take the interactive tour",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot/godot_tours",
+            "number": 1
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2023,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 6,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2023-12-06T00:00:00.000Z",
+        "dateDMY": [
+          6,
+          12,
+          2023
+        ],
+        "dateMDY": [
+          12,
+          6,
+          2023
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "12",
+          "2023"
+        ],
+        "dateMMDDYYYY": [
+          "12",
+          "06",
+          "2023"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 12,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "th",
+        "hours": 22,
+        "minutes": 51,
+        "seconds": 55,
+        "date": "2025-05-12T20:51:55.745Z",
+        "dateDMY": [
+          12,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          12,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "12",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "12",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "your-first-2d-game-from-zero-in-godot-4",
+          "text": "Your First 2D GAME From Zero in Godot 4  ",
+          "depth": 1,
+          "icon": "app",
           "hasChildren": false,
           "children": []
         }
@@ -689,6 +1009,7 @@
       ],
       "type": "learning_resource",
       "format": "video",
+      "game_type": [],
       "url": "character_movement",
       "godot_version": "4",
       "license": [
@@ -696,6 +1017,7 @@
         "ccby"
       ],
       "description": "Code a third person 3D character controller",
+      "promoBullets": [],
       "links": {},
       "cover": {
         "height": 1080,
@@ -754,35 +1076,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "March",
-        "monthShort": "Mar",
-        "monthNumber": 3,
-        "dayOfMonth": 1,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "st",
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 12,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "th",
         "hours": 22,
-        "minutes": 22,
-        "seconds": 25,
-        "date": "2025-03-01T21:22:25.374Z",
+        "minutes": 43,
+        "seconds": 21,
+        "date": "2025-05-12T20:43:21.257Z",
         "dateDMY": [
-          1,
-          3,
+          12,
+          5,
           2025
         ],
         "dateMDY": [
-          3,
-          1,
+          5,
+          12,
           2025
         ],
         "dateDDMMYYYY": [
-          "01",
-          "03",
+          "12",
+          "05",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "03",
-          "01",
+          "05",
+          "12",
           "2025"
         ]
       },
@@ -805,140 +1127,20 @@
         }
       ]
     },
-    "sophia": {
-      "slug": "sophia",
-      "title": "Sophia 3D Model",
-      "label": "A 3D model of Sophia",
-      "tags": [
-        "3d_model",
-        "character_skin"
-      ],
-      "type": "asset",
-      "format": "downloadable",
-      "url": "sophia",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "A 3D model of Sophia",
-      "links": {},
-      "cover": {
-        "width": 1062,
-        "height": 1241,
-        "ratio": 0.8557614826752619,
-        "aspectRatio": "portrait",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
-        "relPath": "models/sophia/cover.png",
-        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
-        "originalSrc": "./cover.png"
-      },
-      "sources": [],
-      "search": [
-        "sophia 3d model",
-        "a 3d model of sophia",
-        "a 3d model of sophia",
-        "3d_model",
-        "character_skin",
-        "asset"
-      ],
-      "lessons": [],
-      "downloads": [
-        {
-          "label": "sophia.zip",
-          "url": "sophia.zip",
-          "category": "download"
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 10,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 23,
-        "seconds": 56,
-        "date": "2025-04-10T16:23:56.623Z",
-        "dateDMY": [
-          10,
-          4,
-          2025
-        ],
-        "dateMDY": [
-          4,
-          10,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "10",
-          "04",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "10",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 10,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 23,
-        "seconds": 56,
-        "date": "2025-04-10T16:23:56.623Z",
-        "dateDMY": [
-          10,
-          4,
-          2025
-        ],
-        "dateMDY": [
-          4,
-          10,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "10",
-          "04",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "10",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "sophia-3d-model",
-          "text": "Sophia 3D Model",
-          "depth": 1,
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "first_3d_game_godot4_arena_fps": {
       "slug": "first_3d_game_godot4_arena_fps",
       "title": "Your first 3D game with Godot 4",
       "label": "Make a 3D FPS arena survival game",
       "tags": [
-        "tutorial",
         "3d",
-        "character_controller"
+        "tutorial",
+        "full_game"
       ],
       "type": "learning_resource",
       "format": "video",
+      "game_type": [
+        "survivor"
+      ],
       "url": "first_3d_game_godot4_arena_fps",
       "godot_version": "4",
       "license": [
@@ -946,6 +1148,11 @@
         "ccby"
       ],
       "description": "Create a 3D FPS arena survival game using Godot 4. Implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting",
+        "Bonus"
+      ],
       "links": {
         "library": [
           {
@@ -987,10 +1194,11 @@
         "your first 3d game with godot 4",
         "make a 3d fps arena survival game",
         "create a 3d fps arena survival game using godot 4. implement player movement, shooting mechanics, add sound effects, design levels, and export your game to share with friends.",
-        "tutorial",
         "3d",
-        "character_controller",
-        "learning_resource"
+        "tutorial",
+        "full_game",
+        "learning_resource",
+        "survivor"
       ],
       "lessons": [
         {
@@ -1050,32 +1258,32 @@
         "month": "May",
         "monthShort": "May",
         "monthNumber": 5,
-        "dayOfMonth": 11,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
+        "dayOfMonth": 12,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
-        "hours": 21,
-        "minutes": 22,
-        "seconds": 3,
-        "date": "2025-05-11T19:22:03.913Z",
+        "hours": 23,
+        "minutes": 3,
+        "seconds": 40,
+        "date": "2025-05-12T21:03:40.641Z",
         "dateDMY": [
-          11,
+          12,
           5,
           2025
         ],
         "dateMDY": [
           5,
-          11,
+          12,
           2025
         ],
         "dateDDMMYYYY": [
-          "11",
+          "12",
           "05",
           "2025"
         ],
         "dateMMDDYYYY": [
           "05",
-          "11",
+          "12",
           "2025"
         ]
       },
@@ -1351,6 +1559,131 @@
           "text": "Bonus",
           "depth": 1,
           "icon": "bonus",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "sophia": {
+      "slug": "sophia",
+      "title": "Sophia 3D Model",
+      "label": "A 3D model of Sophia",
+      "tags": [
+        "3d_model",
+        "character_skin"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "game_type": [],
+      "url": "sophia",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "A 3D model of Sophia",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1062,
+        "height": 1241,
+        "ratio": 0.8557614826752619,
+        "aspectRatio": "portrait",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
+        "relPath": "models/sophia/cover.png",
+        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
+        "originalSrc": "./cover.png"
+      },
+      "sources": [],
+      "search": [
+        "sophia 3d model",
+        "a 3d model of sophia",
+        "a 3d model of sophia",
+        "3d_model",
+        "character_skin",
+        "asset"
+      ],
+      "lessons": [],
+      "downloads": [
+        {
+          "label": "sophia.zip",
+          "url": "sophia.zip",
+          "category": "download"
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 10,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 23,
+        "seconds": 56,
+        "date": "2025-04-10T16:23:56.623Z",
+        "dateDMY": [
+          10,
+          4,
+          2025
+        ],
+        "dateMDY": [
+          4,
+          10,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "10",
+          "04",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "10",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 12,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "th",
+        "hours": 22,
+        "minutes": 43,
+        "seconds": 30,
+        "date": "2025-05-12T20:43:30.590Z",
+        "dateDMY": [
+          12,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          12,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "12",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "12",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "sophia-3d-model",
+          "text": "Sophia 3D Model",
+          "depth": 1,
           "hasChildren": false,
           "children": []
         }
