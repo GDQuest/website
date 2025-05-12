@@ -3,9 +3,18 @@
     margin: 0;
     font-size: large;
 
-    &.-kickstarter {
-        margin-top: auto;
+    &.-gdschool {
+        margin-top: -9px;
         margin-bottom: auto;
+        max-width: 370px;
+        a{
+            display: inline-block;
+            width: 100%;
+        }
+        img{
+            width:100%;
+            max-width: 220px;
+        }
     }
 
     .image {
@@ -18,10 +27,6 @@
 
     .-youtube {
         max-width: 200px;
-    }
-
-    .-kickstarter {
-        max-width: 270px;
     }
 
     .-godot {

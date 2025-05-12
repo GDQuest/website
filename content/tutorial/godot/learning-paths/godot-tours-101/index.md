@@ -11,6 +11,7 @@ resources:
 title: 'Godot Tours: 101 - The Godot Editor'
 weight: 1
 type: video
+tutorialType: "interactive"
 videoId: L2D1kT8zOrw
 ---
 

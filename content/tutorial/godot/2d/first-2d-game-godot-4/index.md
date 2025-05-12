@@ -1,7 +1,7 @@
 ---
 author: nathan
 date: "2023-12-13"
-description: Code your first rogue-lite game with Godot 4, step-by-step, for free!
+description: "Code your first rogue-lite game with Godot 4! Take your first steps in 2D game development, with: player movement, health, shooting mechanics, and enemies that spawn and follow the player."
 difficulty: beginner
 keywords:
 - godot 4 2d course
@@ -13,11 +13,14 @@ programVersion: "4.2"
 resources:
 - name: banner
   src: first-2d-game-banner.webp
-title: Create Your First 2D Game From Zero with Godot 4
-weight: 1
+title: Create a Vampire Survivors style Roguelite in just one sitting
+weight: 2
 type: video
 videoDuration: ""
 videoId: "GwCiGixlqiU"
+featured: true
+tutorialType: "youtube"
+redirect2: https://gdquest.com/library/first_2d_game_godot4_vampire_survivor/
 ---
 
 ## Download the files to follow along

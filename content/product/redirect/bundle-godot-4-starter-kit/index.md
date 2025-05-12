@@ -17,5 +17,7 @@ price_discounted: $216
 redirect: https://school.gdquest.com/products/bundle_godot_4_starter_kit
 type: redirect
 sort: 1
+weight: 1
+featured: true
 is_bundle: true
 ---
