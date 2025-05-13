@@ -9,7 +9,7 @@ date: "2019-11-06T13:12:32+02:00"
 description: This learning path and free guide is a curated list of free resources
   to get started with game development using the Free and Open Source engine Godot
 difficulty: beginner
-featured: true
+featured: false
 menuTitle: Beginner edition
 resources:
 - name: banner

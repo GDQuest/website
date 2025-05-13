@@ -5,7 +5,7 @@
 {{ define "main" }}
 <section class="content-container padding-v-base" data-is-tabs="true">
     <div id="godot4" data-tabtitle="Godot 4">
-        <h2 class="product-section-title">Godot 4 Bundles</h2>
+        <h2 class="product-section-title">Godot 4 Study Programs</h2>
         <div class="content-grid">
             {{ range sort .Pages ".Params.sort" }}
             {{ if and (not .Params.hidden) (eq .Params.godot_version 4) (.Params.is_bundle) }}

@@ -23,7 +23,7 @@
 
   > .menu {
     display: none;
-    margin: $spacing-tiny;
+    margin: $spacing-tiny 0 $spacing-tiny $spacing-tiny;
     color: white;
   }
 
@@ -35,10 +35,7 @@
 
     user-select: none;
 
-    > a .new {
-      display: flex;
-      flex-direction: column;
-      gap: 0.2rem;
+    > .new {
       position: relative;
     }
 
@@ -47,6 +44,7 @@
       transform: translateY(-1rem);
       color: $color-accent-opt-base;
       font-size: 0.9rem;
+      inset: 0 auto 0 auto;
     }
 
     > a {
@@ -75,10 +73,13 @@
     }
   }
   .links.-social, .-login {
-    margin-left: auto;
+    margin-left: 1rem;
     margin-right: $spacing-tiny;
 
     filter: drop-shadow($shadow-tiny);
+  }
+  .mainNavItems{
+    margin-inline-end: auto;
   }
 }
 
@@ -92,7 +93,7 @@
       display: block;
       position: absolute;
       top: 0.8rem;
-      right: 1.2rem;
+      right: 0;
     }
 
     > .links {
@@ -107,6 +108,8 @@
       margin-bottom: 3rem;
       font-size: 1.2em;
 
+      gap: 2rem;
+
       > .logo {
         display: none;
       }
@@ -117,7 +120,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: 0.6rem;
-
+        gap: 1.5rem;
         > .new {
           margin-top: $spacing-nano;
         }
@@ -133,6 +136,7 @@
 
       > .links.-social {
         flex-direction: row;
+        gap: $spacing-tiny;
       }
 
       > .links.-social > a {

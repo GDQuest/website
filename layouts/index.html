@@ -14,7 +14,7 @@
                 using Free and Open Source Software.
             </p>
             <a
-                href="#free-tutorials"
+                href="#free-learning-tools"
                 class="button-link -yellow -shadow -large -tall"
                 >Get started for free</a
             >
@@ -24,7 +24,7 @@
 {{ end }} {{ define "main" }}
 <section id="free-tutorials" class="darkbg">
     <div class="content-container padding-v-base">
-        <div class="content-grid -columns3" data-font="centered">
+        <div class="content-grid -columns3 promoSocialLinks" data-font="centered">
             <div class="social-item">
                 <a href="https://www.youtube.com/c/gdquest">
                     <img
@@ -38,15 +38,15 @@
                     35+ million views
                 </div>
             </div>
-            <div class="social-item -kickstarter">
-                <a href="https://www.kickstarter.com/profile/gdquest/created">
+            <div class="social-item -gdschool">
+                <a href="https://school.gdquest.com/">
                     <img
-                        src="/img/home/logo-kickstarter-grey.png"
-                        alt="Kickstarter logo in grey"
-                        class="image -kickstarter"
+                        src="/library/gdschool_logo_light_no_shadow.svg"
+                        alt="GDSchool"
+                        class="image -gdschool"
                     />
                 </a>
-                <div class="text">5 successful Kickstarter campaigns</div>
+                <div class="text">1st Godot Gamedev Curriculum adopted in Schools and Universities</div>
             </div>
             <div class="social-item">
                 <a href="https://godotengine.org/">
@@ -65,14 +65,12 @@
 </section>
 
 <section class="content-container margin-v-base">
-    <h2 data-font="centered">Hundreds of free tutorials</h2>
+    <h2 data-font="centered">GET STARTED FAST & FREE <br>WITH OUR FLAGSHIP TUTORIALS</h2>
     <p data-font="centered">
-        Learn Godot with the largest base of free learning resources. We have
-        everything you need to get started.
+        Pick up Gamedev with the largest base of Godot learning resources.
     </p>
     <div class="content-grid">
-        {{ range first 2 (where (where .Site.Pages "Section" "tutorial")
-        ".Params.featured" true ) }}
+        {{ range first 2 (where (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) ".Params.tutorialType" "youtube") }}
         <div class="item -fill">{{ .Render "summary" }}</div>
         {{ end }}
     </div>
@@ -81,33 +79,43 @@
     </div>
 </section>
 
-<section id="free-learning-tools" class="darkbg">
+<section id="free-learning-tools" class="darkbg" style="padding-bottom: 32px">
     <div class="content-container padding-v-base">
-        <h2 data-font="centered">Free Learning Tools</h2>
+        <h2 data-font="centered">LEARN TO CODE & GET TO KNOW GODOT<br>WITH OUR FREE INTERACTIVE APPS</h2>
         <p data-font="centered">
-            We made over 100 open-source Godot demos and tools to help you learn
-            to make games faster.
+            It's never been easier to pickup GDScript and break the ice with the Godot UI!
         </p>
         <div class="content-grid">
-            {{ range first 2 (where .Site.Pages "Section" "tools") }}
+            {{ range first 2 (where (site.GetPage "tutorial/godot/learning-paths").Pages ".Params.featured" true) }}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
-        <div data-font="centered" class="margin-top-base">
-            <a href="/tools" class="button-link -textlight">View all</a>
-        </div>
+        <!--
+            <div data-font="centered" class="margin-top-base">
+                <a href="/tools" class="button-link -textlight">View all</a>
+            </div>
+        -->
     </div>
 </section>
 
 <section class="content-container margin-v-base">
-    <h2 data-font="centered">Latest news</h2>
+    <h2 data-font="centered">STUDY GAMEDEV IN GDSCHOOL</h2>
+    <p data-font="centered" style="max-width: 80%; margin-inline: auto">
+        Join thousands of learners who broke free from step-by-step tutorials to become truly independent gamedevs. 
+        Experience GDQuest's unique teaching method in a complete curriculum hosted on a learning platform dedicated to gamedev.
+    </p>
     <div class="content-grid">
-        {{ range first 2 (where .Site.RegularPages "Section" "news") }}
-        <div class="item -fill">{{ .Render "summary" }}</div>
+        {{ range first 2 (where (where .Site.RegularPages "Section" "product") ".Params.featured" true ) }}
+        <div class="item -fill noprice">{{ .Render "summary" }}</div>
         {{ end }}
     </div>
+    <!--
+        <div data-font="centered" class="margin-top-base">
+            <a href="/news" class="button-link">View all</a>
+        </div>
+    -->
     <div data-font="centered" class="margin-top-base">
-        <a href="/news" class="button-link">View all</a>
+        <a href="/product" class="button-link">See all courses</a>
     </div>
 </section>
 
@@ -115,15 +123,15 @@
     <div class="content-container">
         <hr class="margin-v-base" />
         <div class="margin-v-base">
-            <h2>Ready to get started?</h2>
+            <h2>SERIOUS ABOUT LEARNING GAMEDEV?</h2>
             <p class="subtitle">
-                Take your game creation skills to the next level for free, with
-                Godot.
+                Take your game creation skills to the next level with
+                GDquest's curriculum.
             </p>
             <a
                 href="https://school.gdquest.com/"
                 class="button-link -yellow -shadow -large -tall"
-                >Study Gamedev with GDQuest</a
+                >Join GDSchool</a
             >
         </div>
     </div>

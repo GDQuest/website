@@ -16,5 +16,7 @@ price_discounted: $154
 redirect: https://school.gdquest.com/products/bundle_learn_gamedev_godot_4
 type: redirect
 sort: 2
+weight: 2
+featured: true
 is_bundle: true
 ---

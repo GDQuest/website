@@ -3,9 +3,18 @@
     margin: 0;
     font-size: large;
 
-    &.-kickstarter {
-        margin-top: auto;
+    &.-gdschool {
+        margin-top: -9px;
         margin-bottom: auto;
+        max-width: 370px;
+        a{
+            display: inline-block;
+            width: 100%;
+        }
+        img{
+            width:100%;
+            max-width: 220px;
+        }
     }
 
     .image {
@@ -20,10 +29,6 @@
         max-width: 200px;
     }
 
-    .-kickstarter {
-        max-width: 270px;
-    }
-
     .-godot {
         max-width: 200px;
     }
@@ -32,7 +37,12 @@
 @include tablet
 {
     .social-item {
-        margin-top: $spacing-small;
-        margin-bottom: $spacing-small;
+        margin-block: 3rem;
+        &:first-child {
+            margin-block-start: $spacing-small;
+        }
+        &:last-child {
+            margin-block-end: $spacing-small;
+        }
     }
 }

@@ -7,7 +7,7 @@
             </div>
         </div>
     </div>
-    <div class="links">
+    <div class="links mainNavItems">
         {{ $currentNode := . }}
         {{ range .Site.Menus.main }}
         <a {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{ end }} href="{{ .URL }}">

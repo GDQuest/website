@@ -96,7 +96,7 @@ After this first poor tutorial series, you asked for more, and I kept going. You
 
 Our increasing revenue allowed us to become a team, create open-source demos and tools, and contribute to Godot directly.
 
-**We now have over 200,000 subscribers on YouTube, 5 successful Kickstarter campaigns, and over 100 free and open-source demos and tools on GitHub.**
+**We now have over 290,000 subscribers on YouTube, 5 successful Kickstarter campaigns, and over 100 free and open-source demos and tools on GitHub.**
 
 That's where the story is at, thanks to the community.
 
