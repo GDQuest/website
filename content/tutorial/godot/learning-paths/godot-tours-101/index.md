@@ -9,7 +9,7 @@ resources:
 - name: banner
   src: godot-tours-banner.webp
 title: 'Godot Tours: 101 - The Godot Editor'
-weight: 1
+weight: 3
 type: video
 tutorialType: "interactive"
 videoId: L2D1kT8zOrw

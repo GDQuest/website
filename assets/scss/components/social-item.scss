@@ -37,7 +37,12 @@
 @include tablet
 {
     .social-item {
-        margin-top: $spacing-small;
-        margin-bottom: $spacing-small;
+        margin-block: 3rem;
+        &:first-child {
+            margin-block-start: $spacing-small;
+        }
+        &:last-child {
+            margin-block-end: $spacing-small;
+        }
     }
 }

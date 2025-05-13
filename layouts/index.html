@@ -14,7 +14,7 @@
                 using Free and Open Source Software.
             </p>
             <a
-                href="#free-tutorials"
+                href="#free-learning-tools"
                 class="button-link -yellow -shadow -large -tall"
                 >Get started for free</a
             >
@@ -24,7 +24,7 @@
 {{ end }} {{ define "main" }}
 <section id="free-tutorials" class="darkbg">
     <div class="content-container padding-v-base">
-        <div class="content-grid -columns3" data-font="centered">
+        <div class="content-grid -columns3 promoSocialLinks" data-font="centered">
             <div class="social-item">
                 <a href="https://www.youtube.com/c/gdquest">
                     <img
@@ -86,7 +86,7 @@
             It's never been easier to pickup GDScript and break the ice with the Godot UI!
         </p>
         <div class="content-grid">
-            {{ range first 2 (where (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) ".Params.tutorialType" "interactive") }}
+            {{ range first 2 (where (site.GetPage "tutorial/godot/learning-paths").Pages ".Params.featured" true) }}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
@@ -106,7 +106,7 @@
     </p>
     <div class="content-grid">
         {{ range first 2 (where (where .Site.RegularPages "Section" "product") ".Params.featured" true ) }}
-        <div class="item -fill">{{ .Render "summary" }}</div>
+        <div class="item -fill noprice">{{ .Render "summary" }}</div>
         {{ end }}
     </div>
     <!--

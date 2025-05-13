@@ -103,7 +103,9 @@
           transform: rotate(-7deg);
         }
       }
-
+      @at-root .noprice & {
+        display:none;
+      }
     }
   }
 

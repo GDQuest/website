@@ -9,7 +9,7 @@ resources:
 - name: banner
   src: learn-gdscript-banner.png
 title: Learn GDScript From Zero
-weight: 1
+weight: 2
 type: redirect
 tutorialType: "interactive"
 redirect: https://gdquest.github.io/learn-gdscript/
