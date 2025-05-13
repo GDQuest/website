@@ -15,12 +15,12 @@ resources:
   src: first-2d-game-banner.webp
 title: Create a Vampire Survivors style Roguelite in just one sitting
 weight: 2
-type: video
+type: redirect
 videoDuration: ""
 videoId: "GwCiGixlqiU"
 featured: true
 tutorialType: "youtube"
-redirect2: https://gdquest.com/library/first_2d_game_godot4_vampire_survivor/
+redirect: https://gdquest.com/library/first_2d_game_godot4_vampire_survivor/
 ---
 
 ## Download the files to follow along
