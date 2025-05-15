@@ -978,7 +978,7 @@
         "mit",
         "ccby"
       ],
-      "description": "Create a 2D vampire survivor game using Godot 4. Implement player movement, health, shooting mechanics, enemy that spawn and follow the player.",
+      "description": "Create a 2D vampire survivor game using Godot 4. Implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
       "promoBullets": [
         "Downloadable Demo"
       ],
@@ -1005,7 +1005,7 @@
       "search": [
         "your first 2d game with godot 4",
         "make a 2d vampire survivor game",
-        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, enemy that spawn and follow the player.",
+        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
         "2d",
         "tutorial",
         "full_game",
@@ -1070,32 +1070,32 @@
         "month": "May",
         "monthShort": "May",
         "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 15,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 21,
-        "minutes": 15,
-        "seconds": 14,
-        "date": "2025-05-13T19:15:14.880Z",
+        "hours": 11,
+        "minutes": 14,
+        "seconds": 21,
+        "date": "2025-05-15T09:14:21.550Z",
         "dateDMY": [
-          13,
+          15,
           5,
           2025
         ],
         "dateMDY": [
           5,
-          13,
+          15,
           2025
         ],
         "dateDDMMYYYY": [
-          "13",
+          "15",
           "05",
           "2025"
         ],
         "dateMMDDYYYY": [
           "05",
-          "13",
+          "15",
           "2025"
         ]
       },
