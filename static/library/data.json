@@ -214,6 +214,20 @@
       }
     },
     "tag": {
+      "study_guide": {
+        "title": "Study Guide",
+        "title_plural": "Study Guides",
+        "search": [
+          "study guide",
+          "study guides",
+          "reference"
+        ],
+        "description": "Study guides that provide a summary of information or instructions.",
+        "slug": "study_guide",
+        "url": "taxonomy/tag/study_guide",
+        "items": [],
+        "toc": []
+      },
       "character_controller": {
         "title": "Character Controller",
         "title_plural": "Character Controllers",
@@ -230,20 +244,6 @@
         "items": [
           "character_movement"
         ],
-        "toc": []
-      },
-      "study_guide": {
-        "title": "Study Guide",
-        "title_plural": "Study Guides",
-        "search": [
-          "study guide",
-          "study guides",
-          "reference"
-        ],
-        "description": "Study guides that provide a summary of information or instructions.",
-        "slug": "study_guide",
-        "url": "taxonomy/tag/study_guide",
-        "items": [],
         "toc": []
       },
       "input": {
@@ -1320,7 +1320,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-2",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1336,7 +1336,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-3",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1352,7 +1352,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-4",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1368,7 +1368,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-5",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1384,7 +1384,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-6",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1400,7 +1400,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-7",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1416,7 +1416,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-8",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1432,7 +1432,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-9",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1448,7 +1448,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-10",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1472,7 +1472,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-11",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1488,7 +1488,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-12",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1504,7 +1504,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-13",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
@@ -1520,7 +1520,7 @@
               "hasChildren": true,
               "children": [
                 {
-                  "id": "checkpoint",
+                  "id": "checkpoint-14",
                   "text": "Checkpoint",
                   "depth": 3,
                   "hasChildren": false,
