@@ -214,20 +214,6 @@
       }
     },
     "tag": {
-      "study_guide": {
-        "title": "Study Guide",
-        "title_plural": "Study Guides",
-        "search": [
-          "study guide",
-          "study guides",
-          "reference"
-        ],
-        "description": "Study guides that provide a summary of information or instructions.",
-        "slug": "study_guide",
-        "url": "taxonomy/tag/study_guide",
-        "items": [],
-        "toc": []
-      },
       "character_controller": {
         "title": "Character Controller",
         "title_plural": "Character Controllers",
@@ -244,6 +230,20 @@
         "items": [
           "character_movement"
         ],
+        "toc": []
+      },
+      "study_guide": {
+        "title": "Study Guide",
+        "title_plural": "Study Guides",
+        "search": [
+          "study guide",
+          "study guides",
+          "reference"
+        ],
+        "description": "Study guides that provide a summary of information or instructions.",
+        "slug": "study_guide",
+        "url": "taxonomy/tag/study_guide",
+        "items": [],
         "toc": []
       },
       "input": {
@@ -858,7 +858,8 @@
         "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/character_movement/cover.jpg",
         "relPath": "character_movement/cover.jpg",
         "newSrc": "https://www.gdquest.com/library/character_movement/cover.jpg",
-        "originalSrc": "cover.jpg"
+        "originalSrc": "cover.jpg",
+        "extensionType": "jpg"
       },
       "sources": [],
       "search": [
@@ -999,7 +1000,8 @@
         "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
         "relPath": "first_2d_game_godot4_vampire_survivor/cover.jpg",
         "newSrc": "https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/cover.jpg",
-        "originalSrc": "cover.jpg"
+        "originalSrc": "cover.jpg",
+        "extensionType": "jpg"
       },
       "sources": [],
       "search": [
@@ -1074,10 +1076,10 @@
         "dayName": "Thursday",
         "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 11,
-        "minutes": 14,
-        "seconds": 21,
-        "date": "2025-05-15T09:14:21.550Z",
+        "hours": 16,
+        "minutes": 26,
+        "seconds": 29,
+        "date": "2025-05-15T14:26:29.916Z",
         "dateDMY": [
           15,
           5,
@@ -1187,7 +1189,8 @@
         "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/first_3d_game_godot4_arena_fps/cover.png",
         "relPath": "first_3d_game_godot4_arena_fps/cover.png",
         "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
-        "originalSrc": "cover.png"
+        "originalSrc": "cover.png",
+        "extensionType": "png"
       },
       "sources": [],
       "search": [
@@ -1258,32 +1261,32 @@
         "month": "May",
         "monthShort": "May",
         "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 15,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 14,
-        "minutes": 23,
-        "seconds": 32,
-        "date": "2025-05-13T12:23:32.833Z",
+        "hours": 18,
+        "minutes": 31,
+        "seconds": 2,
+        "date": "2025-05-15T16:31:02.597Z",
         "dateDMY": [
-          13,
+          15,
           5,
           2025
         ],
         "dateMDY": [
           5,
-          13,
+          15,
           2025
         ],
         "dateDDMMYYYY": [
-          "13",
+          "15",
           "05",
           "2025"
         ],
         "dateMMDDYYYY": [
           "05",
-          "13",
+          "15",
           "2025"
         ]
       },
@@ -1591,7 +1594,8 @@
         "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
         "relPath": "models/sophia/cover.png",
         "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
-        "originalSrc": "./cover.png"
+        "originalSrc": "./cover.png",
+        "extensionType": "png"
       },
       "sources": [],
       "search": [
