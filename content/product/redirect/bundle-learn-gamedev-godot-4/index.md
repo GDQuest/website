@@ -3,7 +3,7 @@ title: Learn Gamedev From Zero with Godot 4
 description: Learn 2D and 3D gamedev from scratch using a proven method that has helped thousands of people become game developers.
 author: nathan
 banner:
-  src: /img/product/godot/bundle-learn-gamedev-godot-4.webp
+  src: /img/product/godot/thumbnail-bundle-learn-gamedev-godot-4.webp
 date: "2023-11-27"
 godot_version: 4
 keywords:

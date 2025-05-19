@@ -3,7 +3,7 @@ title: The Great Godot 4 Starter Kit
 description: Go from Zero to Pro in 3 complete courses covering 2D & 3D gamedev and a deep dive into all the best secrets of Godot 4.
 author: nathan
 banner:
-  src: /img/product/godot/bundle-godot-4-starter-kit.webp
+  src: /img/product/godot/thumbnail-bundle-godot-4-starter-kit.webp
 date: "2023-11-27"
 godot_version: 4
 keywords:
