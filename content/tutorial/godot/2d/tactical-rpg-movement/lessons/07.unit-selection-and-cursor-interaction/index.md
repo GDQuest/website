@@ -4,7 +4,8 @@ date: "2021-01-30"
 description: We add the ability to select units with the cursor and to move to a target
   cell.
 software: godot
-title: Unit selection and cursor interaction
+title: Code unit selection and cursor interaction
+label: Unit selection and cursor interaction
 featured: true
 sort: 40
 learning_resource_type: tutorial

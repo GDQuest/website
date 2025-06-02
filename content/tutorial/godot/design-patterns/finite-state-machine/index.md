@@ -15,8 +15,8 @@ menuTitle: Finite State Machine
 software: godot
 sort: 50
 programVersion: "4.3"
-title: Finite State Machine in Godot 4
-label: Make a Finite State Machine in Godot 4
+title: Make a Finite State Machine in Godot 4
+label: Finite State Machine
 learning_resource_type: Study Guide
 weight: 2
 ---
