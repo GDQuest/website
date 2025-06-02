@@ -9,6 +9,7 @@ difficulty: intermediate
 keywords:
 - godot camera anchor
 - 2d camera
+software: godot
 title: Dynamic camera targets
 weight: 5
 ---

@@ -3,6 +3,7 @@ author: nathan
 date: "2019-04-12T16:59:56Z"
 description: Godot 3.1 brought back Visual Shaders! The real-time per-node preview
   helps to debug your shader code visually.
+software: godot
 title: 'Visual Shader: Dissolve effect'
 type: video
 videoDuration: 765

@@ -17,6 +17,7 @@ programVersion: "3.1"
 resources:
 - name: banner
   src: your-first-2d-game-banner.png
+software: godot
 title: Make your First 2D Game with Godot
 type: course
 weight: 10

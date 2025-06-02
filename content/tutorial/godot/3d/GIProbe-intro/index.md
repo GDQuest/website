@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: GIProbe Intro
 tags: []
+software: godot
 title: Global Illumination and the GIProbe in Godot
 type: video
 videoDuration: ""

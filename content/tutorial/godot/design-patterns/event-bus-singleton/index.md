@@ -9,6 +9,7 @@ keywords:
 - godot signals
 - godot global signals
 menuTitle: Event bus singleton
+software: godot
 title: The Events bus singleton
 weight: 5
 ---

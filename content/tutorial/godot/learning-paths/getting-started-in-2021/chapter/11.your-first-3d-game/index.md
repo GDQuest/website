@@ -4,6 +4,7 @@ date: "2021-04-20"
 description: ""
 menuTitle: Your first 3D game
 publishDate: "2021-04-22"
+software: godot
 title: Code your first complete 3D game with godot
 type: video
 videoDuration: 5626

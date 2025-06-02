@@ -4,6 +4,7 @@ aliases:
 author: nathan
 date: "2017-12-06T10:41:47.000Z"
 description: ""
+software: blender
 title: Add Transform Effect
 type: video
 videoid: 2Z-OQKRpPhY

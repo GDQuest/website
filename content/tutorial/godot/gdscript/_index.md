@@ -5,5 +5,6 @@ icon: gdscript
 resources:
 - name: banner
   src: banner.jpg
+software: godot
 title: GDScript
 ---

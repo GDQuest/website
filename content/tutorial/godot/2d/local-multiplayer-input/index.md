@@ -10,6 +10,7 @@ keywords:
 - local multiplayer
 - input
 - godot networking
+software: godot
 title: Local Multiplayer Input
 weight: 5
 ---

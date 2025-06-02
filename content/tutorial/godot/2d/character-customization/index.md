@@ -7,6 +7,7 @@ description: Create a menu to customize your character's look in-game.
 difficulty: beginner
 keywords:
 - customization
+software: godot
 title: Character Customization
 weight: 5
 ---

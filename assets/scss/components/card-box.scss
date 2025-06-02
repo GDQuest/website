@@ -183,6 +183,30 @@
       }
     }
   }
+
+  & .banner-image-placeholder{
+    min-height: 320px;
+    display: grid;
+    place-items: center;
+    justify-items: start;
+    align-content: center;
+    gap: 2rem;
+    color: #FFE045;
+    font-family: $font-title;
+    text-shadow: 0px 3.39px 3.39px 0px #00000040;
+    background: #303249;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    &-main{
+      font-size: 30px; 
+      font-weight: 900;
+    }
+    &-sub{
+      font-size: 20px;
+      font-weight: 500;
+      font-style: italic
+    }
+  }
 }
 
 

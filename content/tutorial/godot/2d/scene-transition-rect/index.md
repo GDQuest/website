@@ -10,6 +10,7 @@ keywords:
 - scene change
 - load scene
 - tutorial
+software: godot
 title: Scene Transitions
 weight: 5
 ---

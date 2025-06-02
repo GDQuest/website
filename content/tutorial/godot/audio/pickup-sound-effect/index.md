@@ -7,6 +7,7 @@ difficulty: beginner
 keywords:
 - godot audio
 - godot audio cut
+software: godot
 title: Cutting sound effects
 weight: 5
 ---

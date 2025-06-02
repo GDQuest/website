@@ -5,6 +5,7 @@ aliases:
 author: nathan
 date: "2017-01-20T07:54:29.000Z"
 description: Learn how to block-in a game sprite in Krita.
+software: krita
 title: How to block in a game sprite in Krita
 type: video
 videoid: qRS6EvZVJDA

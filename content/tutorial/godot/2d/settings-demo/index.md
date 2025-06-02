@@ -8,6 +8,7 @@ description: Create an interface to edit video settings at runtime.
 difficulty: beginner
 keywords:
 - settings
+software: godot
 title: Game Settings
 weight: 5
 ---

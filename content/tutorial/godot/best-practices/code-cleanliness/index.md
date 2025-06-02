@@ -10,6 +10,7 @@ keywords:
 - godot clean code
 - gdscript style
 menuTitle: Clean code
+software: godot
 title: Keeping your Godot code clean and readable
 toc: true
 weight: 5

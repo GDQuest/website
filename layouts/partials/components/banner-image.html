@@ -11,9 +11,21 @@
 {{ end }}
 
 {{ if ne $banner_src "" }}
-{{ if .is_summary }}
-<a href="{{ .context.Permalink }}"><img loading="lazy" src="{{ $banner_src }}" alt="Banner image"></a>
+    {{ if .is_summary }}
+        <a href="{{ .context.Permalink }}"><img loading="lazy" src="{{ $banner_src }}" alt="Banner image"></a>
+    {{ else }}
+        <img loading="lazy" src="{{ $banner_src }}" alt="Banner image">
+    {{ end }}
 {{ else }}
-<img loading="lazy" src="{{ $banner_src }}" alt="Banner image">
-{{ end }}
+    {{ if .is_summary }}
+        <a href="{{ .context.Permalink }}" class="banner-image-placeholder" aria-hidden="true">
+            <span class="banner-image-placeholder-main">{{ default .context.Title .context.Params.label }}</span>
+            <span class="banner-image-placeholder-sub">{{ default "Learning Resource" .context.Params.learning_resource_type }}</span>
+        </a>
+    {{ else }}
+        <div class="banner-image-placeholder" aria-hidden="true">
+            <span class="banner-image-placeholder-main">{{ default .context.Title .context.Params.label }}</span>
+            <span class="banner-image-placeholder-sub">{{ default "Learning Resource" .context.Params.learning_resource_type }}</span>
+        </div>
+    {{ end }}
 {{ end }}

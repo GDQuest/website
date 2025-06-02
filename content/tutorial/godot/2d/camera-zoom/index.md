@@ -8,6 +8,7 @@ difficulty: beginner
 keywords:
 - godot camera zoom
 - godot smooth zoom
+software: godot
 title: Zooming with the mouse wheel
 weight: 5
 ---

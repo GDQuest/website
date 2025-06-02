@@ -7,6 +7,7 @@ keywords:
 - godot design patterns
 - godot adapter pattern
 menuTitle: Adapter
+software: godot
 title: The adapter pattern
 weight: 5
 ---

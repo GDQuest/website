@@ -15,6 +15,7 @@ resources:
 - name: banner
   playlistId: PLhqJJNjsQ7KEcm-iYJ2a8UCRN62bTneKa
   src: get-started-with-godot-banner.png
+software: godot
 title: Getting started with Godot in 2021
 type: course
 weight: 1

@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: Navigation2D TileMap Pathfinding
 tags: []
+software: godot
 title: Pathfinding on a TileMap with Navigation2D
 type: video
 videoDuration: ""

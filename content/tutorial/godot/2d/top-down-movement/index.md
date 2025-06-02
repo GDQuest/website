@@ -9,6 +9,7 @@ keywords:
 - godot top down movement
 - godot player movement
 menuTitle: Top-down movement
+software: godot
 title: How to do top-down game movement in Godot
 weight: 5
 ---

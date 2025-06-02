@@ -7,6 +7,7 @@ difficulty: intermediate
 keywords:
 - godot design patterns
 menuTitle: Introduction
+software: godot
 title: Design patterns in Godot
 weight: 1
 ---

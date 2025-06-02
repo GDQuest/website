@@ -3,7 +3,10 @@ author: nathan
 date: "2021-01-30"
 description: We add the ability to select units with the cursor and to move to a target
   cell.
+software: godot
 title: Unit selection and cursor interaction
+featured: true
+sort: 40
 weight: 8
 ---
 

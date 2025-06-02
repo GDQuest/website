@@ -5,7 +5,9 @@ description: Paint and create beautiful game assets with Krita, an award-winning
 resources:
 - name: banner
   src: krita-tutorials-banner.png
+software: krita
 title: Krita tutorials
+featured: true
 weight: 99
 ---
 

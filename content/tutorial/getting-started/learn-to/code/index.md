@@ -7,7 +7,6 @@ date: "2018-04-12T09:04:58+09:00"
 description: You want to create your own games but have no programming experience?
   This guide is for you! This series will help you to get started with game code and
   design.
-featured: true
 resources:
 - name: banner
   src: learn-to-code-games-banner.png
@@ -20,8 +19,8 @@ You want to get started with game creation and programming but don't know where 
 This first part is for you if you have little to no programming experience. You're going to learn:
 
 1. That you should **learn programming foundations first**
-1. That **Programming is for everyone**. It's not just about math and it's not just for men or young people
-1. **How to get started today**
+2. That **Programming is for everyone**. It's not just about math and it's not just for men or young people
+3. **How to get started today**
 
 ## Take it one step at a time
 

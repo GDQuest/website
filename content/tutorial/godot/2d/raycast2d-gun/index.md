@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: Raycast2D Gun
 tags: []
+software: godot
 title: 'Godot Nodes 101: Raycast2D Gun Tutorial'
 type: video
 videoDuration: ""

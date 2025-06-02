@@ -6,5 +6,6 @@ icon: pcg
 resources:
 - name: banner
   src: banner.jpg
+software: godot
 title: Procedural Generation
 ---

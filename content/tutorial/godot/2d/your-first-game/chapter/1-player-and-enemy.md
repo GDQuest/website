@@ -2,6 +2,7 @@
 author: nathan
 date: "2020-06-20"
 description: Learn to code the player and enemy of our 2D game from scratch.
+software: godot
 title: Player and Enemy
 type: video
 videoid: Mc13Z2gboEk

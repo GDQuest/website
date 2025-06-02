@@ -6,6 +6,7 @@ difficulty: intermediate
 keywords: []
 menuTitle: 2.5D Tips
 tags: []
+software: godot
 title: Tips to Create a 2.5D Game in Godot
 type: video
 videoDuration: ""

@@ -3,6 +3,7 @@ author: nathan
 date: "2021-04-07"
 description: ""
 publishDate: "2021-04-08"
+software: godot
 title: Using Signals
 type: video
 videoDuration: 1066

@@ -11,6 +11,7 @@ keywords:
 - debug gdscript
 - debug godot
 menuTitle: Debugging basics
+software: godot
 title: Getting started with debugging in Godot
 weight: 3
 ---

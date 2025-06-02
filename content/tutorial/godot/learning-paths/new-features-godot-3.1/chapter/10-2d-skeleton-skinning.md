@@ -3,6 +3,7 @@ author: nathan
 date: "2019-04-16T17:00:14Z"
 description: Following on the previous tutorial, learn to add inner vertices to your
   polygons and to use Inverse Kinematics.
+software: godot
 title: 2d Skeleton Skinning
 type: video
 videoDuration: 1075

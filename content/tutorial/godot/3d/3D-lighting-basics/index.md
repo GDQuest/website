@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: 3D Lighting Basics
 tags: []
+software: godot
 title: How to light a 3d scene in Godot
 type: video
 videoDuration: ""

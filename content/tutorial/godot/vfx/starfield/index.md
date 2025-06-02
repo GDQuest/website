@@ -10,6 +10,7 @@ keywords:
 - godot background particles
 menuTitle: 2D Starfield
 tags: []
+software: godot
 title: Create an Animated Starfield in Godot
 weight: "5"
 ---

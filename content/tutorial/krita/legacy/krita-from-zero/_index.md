@@ -7,7 +7,9 @@ difficulty: beginner
 resources:
 - name: banner
   src: banner.jpg
+software: krita
 title: Learn Krita from Zero
+featured: true
 type: course
 ---
 

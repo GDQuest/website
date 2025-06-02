@@ -2,6 +2,7 @@
 author: nathan
 date: "2019-05-15T16:59:53Z"
 description: ""
+software: godot
 title: GDQuest's GDscript Code Guidelines
 type: video
 videoDuration: 534

@@ -9,6 +9,7 @@ keywords:
 - gdscript optimization tutorial
 - godot code optimizing
 - godot optimization
+software: godot
 title: Measuring code performances
 weight: 4
 ---
