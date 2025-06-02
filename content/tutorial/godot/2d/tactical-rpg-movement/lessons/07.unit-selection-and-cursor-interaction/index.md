@@ -7,6 +7,7 @@ software: godot
 title: Unit selection and cursor interaction
 featured: true
 sort: 40
+learning_resource_type: tutorial
 weight: 8
 ---
 

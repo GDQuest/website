@@ -17,6 +17,7 @@ software: godot
 title: Coding the Entity-Component pattern in Godot
 weight: 2
 featured: true
+learning_resource_type: tutorial
 sort: 30
 aliases:
 - /tutorial/godot/design-patterns/entity-component-system/
