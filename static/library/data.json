@@ -14,6 +14,7 @@
         "slug": "video",
         "url": "taxonomy/format/video",
         "items": [
+          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "laser_2d",
           "first_3d_game_godot4_arena_fps"
@@ -88,7 +89,9 @@
         "description": "Guides for web development.",
         "slug": "web_guide",
         "url": "taxonomy/format/web_guide",
-        "items": [],
+        "items": [
+          "input_cheatsheet"
+        ],
         "toc": [
           {
             "id": "web-guides",
@@ -112,7 +115,9 @@
         "description": "Downloadable content that you can download and use",
         "slug": "downloadable",
         "url": "taxonomy/format/downloadable",
-        "items": [],
+        "items": [
+          "sophia"
+        ],
         "toc": [
           {
             "id": "downloadable-content",
@@ -166,7 +171,9 @@
         "description": "Godot 3.x resources, tutorials, and assets.",
         "slug": "3",
         "url": "taxonomy/godot_version/3",
-        "items": [],
+        "items": [
+          "input_cheatsheet"
+        ],
         "toc": [
           {
             "id": "godot",
@@ -195,9 +202,11 @@
         "slug": "4",
         "url": "taxonomy/godot_version/4",
         "items": [
+          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
+          "sophia",
           "raycast_introduction"
         ],
         "toc": [
@@ -246,7 +255,9 @@
         "description": "Character controllers are scripts that handle the movement of a player character in a game.",
         "slug": "character_controller",
         "url": "taxonomy/tag/character_controller",
-        "items": [],
+        "items": [
+          "character_movement"
+        ],
         "toc": []
       },
       "study_guide": {
@@ -299,7 +310,9 @@
         "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
         "slug": "input",
         "url": "taxonomy/tag/input",
-        "items": [],
+        "items": [
+          "input_cheatsheet"
+        ],
         "toc": []
       },
       "design_pattern": {
@@ -314,7 +327,9 @@
         "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
         "slug": "design_pattern",
         "url": "taxonomy/tag/design_pattern",
-        "items": [],
+        "items": [
+          "input_cheatsheet"
+        ],
         "toc": []
       },
       "tutorial": {
@@ -330,6 +345,7 @@
         "slug": "tutorial",
         "url": "taxonomy/tag/tutorial",
         "items": [
+          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -394,6 +410,7 @@
         "slug": "3d",
         "url": "taxonomy/tag/3d",
         "items": [
+          "character_movement",
           "first_3d_game_godot4_arena_fps"
         ],
         "toc": [
@@ -420,11 +437,40 @@
         "description": "Quick reference guides that provide a summary of information or instructions.",
         "slug": "cheatsheet",
         "url": "taxonomy/tag/cheatsheet",
-        "items": [],
+        "items": [
+          "input_cheatsheet"
+        ],
         "toc": [
           {
             "id": "cheatsheets",
             "text": "Cheatsheets",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "2d_3d": {
+        "title": "2D/3D",
+        "title_plural": "2D/3D",
+        "search": [
+          "2d/3d",
+          "2d/3d",
+          "two dimensions",
+          "2 dimensions",
+          "three dimensions",
+          "3 dimensions"
+        ],
+        "description": "Assets, scenes, tutorials, and projects that can be used in both 2D and 3D games, or that cover concepts relevant to both dimensions.",
+        "slug": "2d_3d",
+        "url": "taxonomy/tag/2d_3d",
+        "items": [
+          "raycast_introduction"
+        ],
+        "toc": [
+          {
+            "id": "2d3d",
+            "text": "2D/3D",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -444,7 +490,9 @@
         "description": "3d models of characters, objects, and scenes.",
         "slug": "3d_model",
         "url": "taxonomy/tag/3d_model",
-        "items": [],
+        "items": [
+          "sophia"
+        ],
         "toc": [
           {
             "id": "3d-models",
@@ -468,7 +516,9 @@
         "description": "Rigged 3D characters with animations and textures.",
         "slug": "character_skin",
         "url": "taxonomy/tag/character_skin",
-        "items": [],
+        "items": [
+          "sophia"
+        ],
         "toc": [
           {
             "id": "character-skin-3d",
@@ -555,6 +605,8 @@
         "slug": "learning_resource",
         "url": "taxonomy/type/learning_resource",
         "items": [
+          "input_cheatsheet",
+          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -588,7 +640,9 @@
         "description": "3D or 2D assets or models for use in game development.",
         "slug": "asset",
         "url": "taxonomy/type/asset",
-        "items": [],
+        "items": [
+          "sophia"
+        ],
         "toc": [
           {
             "id": "assets-or-models",
@@ -641,9 +695,12 @@
         "slug": "mit",
         "url": "taxonomy/license/mit",
         "items": [
+          "input_cheatsheet",
+          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
+          "sophia",
           "raycast_introduction"
         ],
         "toc": [
@@ -671,6 +728,7 @@
         "slug": "ccby",
         "url": "taxonomy/license/ccby",
         "items": [
+          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -714,11 +772,11 @@
     },
     "game_type": {
       "all": {
-        "title": "All",
-        "title_plural": "All",
+        "title": "All Genres",
+        "title_plural": "All Genres",
         "search": [
-          "all",
-          "all"
+          "all genres",
+          "all genres"
         ],
         "description": "Game development topics that apply to all game genres, like common engine features, game development techniques, or programming concepts.",
         "slug": "all",
@@ -726,8 +784,8 @@
         "items": [],
         "toc": [
           {
-            "id": "all",
-            "text": "All",
+            "id": "all-game-genres",
+            "text": "All Game Genres",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -785,6 +843,252 @@
     }
   },
   "items": {
+    "input_cheatsheet": {
+      "slug": "input_cheatsheet",
+      "title": "Input Cheatsheet",
+      "label": "A quick guide to capturing and using inputs in Godot",
+      "tags": [
+        "cheatsheet",
+        "design_pattern",
+        "input"
+      ],
+      "type": "learning_resource",
+      "format": "web_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "input_cheatsheet",
+      "godot_version": "3",
+      "license": [
+        "mit"
+      ],
+      "description": "A quick guide to capturing and using inputs in Godot",
+      "promoBullets": [],
+      "links": {},
+      "sources": [],
+      "search": [
+        "input cheatsheet",
+        "a quick guide to capturing and using inputs in godot",
+        "a quick guide to capturing and using inputs in godot",
+        "cheatsheet",
+        "design_pattern",
+        "input",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "input-cheatsheet",
+          "text": "Input Cheatsheet",
+          "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "character_movement": {
+      "slug": "character_movement",
+      "title": "Character Movement in 3D",
+      "label": "Code a third person 3D character controller",
+      "tags": [
+        "tutorial",
+        "3d",
+        "character_controller"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "game_type": [
+        "all"
+      ],
+      "url": "character_movement",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Code a third person 3D character controller",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "height": 1080,
+        "width": 1920,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/character_movement/cover.jpg",
+        "relPath": "character_movement/cover.jpg",
+        "newSrc": "https://www.gdquest.com/library/character_movement/cover.jpg",
+        "originalSrc": "cover.jpg",
+        "extensionType": "jpg"
+      },
+      "sources": [],
+      "search": [
+        "character movement in 3d",
+        "code a third person 3d character controller",
+        "code a third person 3d character controller",
+        "tutorial",
+        "3d",
+        "character_controller",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "character-movement-in-3d",
+          "text": "Character movement in 3D",
+          "depth": 1,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "troubleshooting",
+              "text": "Troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
     "first_2d_game_godot4_vampire_survivor": {
       "slug": "first_2d_game_godot4_vampire_survivor",
       "title": "Your first 2D game with Godot 4",
@@ -1275,35 +1579,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 21,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "st",
-        "hours": 15,
-        "minutes": 1,
-        "seconds": 20,
-        "date": "2025-05-21T13:01:20.742Z",
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 20,
+        "seconds": 2,
+        "date": "2025-06-03T12:20:02.333Z",
         "dateDMY": [
-          21,
-          5,
+          3,
+          6,
           2025
         ],
         "dateMDY": [
-          5,
-          21,
+          6,
+          3,
           2025
         ],
         "dateDDMMYYYY": [
-          "21",
-          "05",
+          "03",
+          "06",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "05",
-          "21",
+          "06",
+          "03",
           "2025"
         ]
       },
@@ -1584,13 +1888,143 @@
         }
       ]
     },
+    "sophia": {
+      "slug": "sophia",
+      "title": "Sophia 3D Model",
+      "label": "A 3D model of Sophia",
+      "tags": [
+        "3d_model",
+        "character_skin"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "game_type": [
+        "all"
+      ],
+      "url": "sophia",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "A 3D model of Sophia",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1062,
+        "height": 1241,
+        "ratio": 0.8557614826752619,
+        "aspectRatio": "portrait",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
+        "relPath": "models/sophia/cover.png",
+        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
+        "originalSrc": "./cover.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "sophia 3d model",
+        "a 3d model of sophia",
+        "a 3d model of sophia",
+        "3d_model",
+        "character_skin",
+        "asset",
+        "all"
+      ],
+      "lessons": [],
+      "downloads": [
+        {
+          "label": "sophia.zip",
+          "url": "sophia.zip",
+          "category": "download"
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "sophia-3d-model",
+          "text": "Sophia 3D Model",
+          "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "raycast_introduction": {
       "slug": "raycast_introduction",
       "title": "Understanding raycasts in Godot",
       "label": "Learn how to use raycasts in your games",
       "tags": [
         "physics",
-        "study_guide"
+        "study_guide",
+        "2d_3d"
       ],
       "type": "learning_resource",
       "format": "study_guide",
@@ -1624,6 +2058,7 @@
         "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
         "physics",
         "study_guide",
+        "2d_3d",
         "learning_resource",
         "all"
       ],
@@ -1664,35 +2099,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 27,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
         "dayName": "Tuesday",
         "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 16,
+        "dayOrdinal": "rd",
+        "hours": 14,
         "minutes": 32,
-        "seconds": 11,
-        "date": "2025-05-27T14:32:11.575Z",
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.297Z",
         "dateDMY": [
-          27,
-          5,
+          3,
+          6,
           2025
         ],
         "dateMDY": [
-          5,
-          27,
+          6,
+          3,
           2025
         ],
         "dateDDMMYYYY": [
-          "27",
-          "05",
+          "03",
+          "06",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "05",
-          "27",
+          "06",
+          "03",
           "2025"
         ]
       },
