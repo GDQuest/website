@@ -9,6 +9,7 @@ keywords:
 - godot pcg tutorial
 - godot noise
 - godot procedural generation
+software: godot
 title: Intro to procedural noise
 weight: 5
 ---

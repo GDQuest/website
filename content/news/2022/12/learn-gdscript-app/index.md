@@ -8,6 +8,7 @@ resources:
 - name: banner
   src: banner.png
 title: Learn GDScript from zero with this Free app
+sort: 10
 weight: 5
 featured: true
 ---

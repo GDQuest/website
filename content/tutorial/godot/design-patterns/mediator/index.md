@@ -7,6 +7,7 @@ keywords:
 - godot design patterns
 - godot mediator pattern
 menuTitle: Mediator
+software: godot
 title: The mediator pattern
 weight: 5
 ---

@@ -11,6 +11,7 @@ keywords:
 - gdscript code format
 menuTitle: Code Formatter
 tags: []
+software: godot
 title: Format your Code with GDFormat
 type: video
 videoId: eWbZCQ30vFw

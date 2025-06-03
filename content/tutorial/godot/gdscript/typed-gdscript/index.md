@@ -24,6 +24,7 @@ resources:
 - name: banner
   src: img/banner.png
 tags: []
+software: godot
 title: Using Type Hints with Godot's GDScript
 ---
 

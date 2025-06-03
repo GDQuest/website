@@ -8,6 +8,7 @@ resources:
 - name: banner
   playlistId: PLhqJJNjsQ7KFN2xwmu2REVRiTgHRtTrWs
   src: banner.png
+software: godot
 title: 3D Maze Game
 type: course
 ---

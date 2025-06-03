@@ -8,6 +8,7 @@ keywords:
 - godot signal best practices
 - godot signals
 menuTitle: Signals
+software: godot
 title: Best practices with Godot signals
 weight: 5
 ---

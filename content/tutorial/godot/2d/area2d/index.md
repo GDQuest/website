@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: Area2D
 tags: []
+software: godot
 title: 'Godot Nodes 101: Area2D Beginner Tutorial'
 type: video
 videoDuration: ""

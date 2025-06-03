@@ -9,6 +9,7 @@ keywords:
 - Godot normal map
 - 2D normal map
 - 2D game lighting
+software: godot
 title: Lighting with 2D normal maps
 weight: 5
 ---

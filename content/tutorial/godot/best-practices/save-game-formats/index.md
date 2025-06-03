@@ -10,6 +10,7 @@ keywords:
 - godot save
 - godot save game
 menuTitle: Save formats
+software: godot
 title: Choosing the right save game format
 weight: 5
 ---

@@ -11,6 +11,7 @@ resources:
 - name: banner
   playlistId: PLhqJJNjsQ7KEN1pQVRD4an4Ykd1i9t3t9
   src: new-features-banner.png
+software: godot
 title: New Features in Godot 3.1
 type: course
 weight: 100

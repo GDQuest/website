@@ -14,6 +14,9 @@ menuTitle: Developer Edition
 resources:
   - name: banner
     src: banner.png
+software: godot
+featured: true
+sort: 20
 title: "Make Games with Godot: Developer Edition"
 weight: 2
 ---

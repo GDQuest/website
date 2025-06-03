@@ -3,6 +3,7 @@ author: nathan
 date: "2021-01-30"
 description: We create a scene for the game's units and use the path follow node to
   set up their movement system.
+software: godot
 title: Creating the Unit
 weight: 3
 ---

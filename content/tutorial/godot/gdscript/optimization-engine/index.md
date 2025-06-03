@@ -11,6 +11,7 @@ keywords:
 - godot code optimizing
 - godot optimization
 menuTitle: Using Godot's Speed
+software: godot
 title: Making the most of Godot's speed
 weight: 4
 ---

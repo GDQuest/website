@@ -5,6 +5,7 @@ description: This tutorial is for programming beginners. It will help you get st
   with the GDScript programming language.
 difficulty: beginner
 menuTitle: Getting Started
+software: godot
 title: Introduction to GDScript
 type: video
 videoid: UcdwP1Q2UlU

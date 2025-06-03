@@ -8,6 +8,7 @@ resources:
 - name: banner
   src: getting-started-banner.png
 title: Getting started
+featured: true
 weight: 10
 ---
 

@@ -6,6 +6,7 @@ difficulty: intermediate
 keywords: []
 menuTitle: Events Signals Pattern
 tags: []
+software: godot
 title: Smarter Godot Signals with the Event Autoload pattern
 type: video
 videoDuration: ""

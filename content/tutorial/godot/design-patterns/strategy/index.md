@@ -7,6 +7,7 @@ keywords:
 - godot design patterns
 - godot strategy pattern
 menuTitle: Strategy
+software: godot
 title: The strategy pattern
 weight: 5
 ---

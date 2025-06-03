@@ -21,6 +21,7 @@ resources:
   src: banner.png
 tags:
 - video
+software: blender
 title: Blender Power Sequencer tutorials
 type: course
 ---

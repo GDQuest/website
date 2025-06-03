@@ -7,6 +7,7 @@ description: Improve your framerate in 3D by optimizing meshes and materials
 difficulty: beginner
 keywords:
 - tutorial
+software: godot
 title: Optimizing a 3D scene
 weight: 5
 ---

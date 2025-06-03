@@ -3,6 +3,7 @@ author: nathan
 date: "2021-01-30"
 description: We code the cursor, which allows the player to navigate the grid with
   either the mouse or the keyboard.
+software: godot
 title: The player's cursor
 weight: 4
 ---

@@ -3,6 +3,7 @@ author: nathan
 date: "2020-06-22"
 description: Now the game works, let's add the score, the interface, and give the
   player the ability to pause the game.
+software: godot
 title: Menus, Pause, and Score
 type: video
 videoid: mjWwWIEyib8

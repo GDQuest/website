@@ -9,6 +9,7 @@ keywords:
 - Light Masks
 - Limited Vision
 menuTitle: Limited player vision
+software: godot
 title: Limited player vision with lights
 weight: 5
 ---

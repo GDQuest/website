@@ -4,7 +4,10 @@ description: Learn to use the Free and Open-Source Godot game engine with short 
 resources:
 - name: banner
   src: godot-tutorials-banner.png
+software: godot
 title: Godot tutorials
+featured: true
+sort: 60
 weight: 1
 ---
 

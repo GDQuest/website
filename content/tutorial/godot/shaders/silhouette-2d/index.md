@@ -10,6 +10,7 @@ keywords:
 - godot xray
 - godot see through walls
 - godot character outline
+software: godot
 title: Drawing a character's silhouette
 weight: 5
 ---

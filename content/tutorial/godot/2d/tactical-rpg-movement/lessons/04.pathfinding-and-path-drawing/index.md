@@ -3,6 +3,7 @@ author: nathan
 date: "2021-01-30"
 description: We use the AStar pathfinding algorithm to set up pathfinding on our game
   grid.
+software: godot
 title: Pathfinding and path drawing
 weight: 5
 ---

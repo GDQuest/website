@@ -8,6 +8,7 @@ difficulty: beginner
 keywords: []
 menuTitle: Camera in Editor
 tags: []
+software: godot
 title: Control the Game Camera in the Editor
 type: video
 videoDuration: ""

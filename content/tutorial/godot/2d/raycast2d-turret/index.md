@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: Raycast2D Turret
 tags: []
+software: godot
 title: 'Godot Nodes 101: Raycast2D Turret'
 type: video
 videoDuration: ""

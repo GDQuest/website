@@ -7,6 +7,7 @@ difficulty: beginner
 keywords: []
 menuTitle: PBR Material Intro
 tags: []
+software: godot
 title: Intro to the 3D PBR Material in Godot
 type: video
 videoDuration: ""

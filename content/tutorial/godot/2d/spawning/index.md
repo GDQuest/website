@@ -11,6 +11,7 @@ keywords:
 - spawn object
 - create object
 - tutorial
+software: godot
 title: Spawning
 weight: 5
 ---

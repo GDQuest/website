@@ -3,6 +3,7 @@ author: nathan
 date: "2021-01-30"
 description: We write code to draw a path from a unit to the cursor interactively,
   as in games like Fire Emblem.
+software: godot
 title: Drawing the path
 weight: 6
 ---

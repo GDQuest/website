@@ -7,6 +7,7 @@ date: "2019-12-09T14:18:14+02:00"
 description: Learn Godot with excellent, curated free resources made by the community.
   These paths will help you learn the engine step-by-step.
 icon: paths
+software: godot
 title: Godot learning paths
 type: _default
 weight: 1

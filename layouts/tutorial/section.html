@@ -11,25 +11,59 @@
         {{.Content}}
     </article>
     {{ else }}
-    <section class="content-container padding-v-base">
-        <div class="content-grid">
-            {{ $pagesCount := 3 }}
-            {{ range first 1 .Pages }}
-            <div class="item">
-                {{ .Render "summary" }}
+    <section class="content-container padding-v-base" data-is-tabs="true">
+        <!-- get all tutorials tht aren't hidden -->
+        {{ $validTutorials := where site.RegularPages .Params.hidden "!=" "true"}}
+        {{ $allTutorials := union (where $validTutorials "Section" "eq" "tutorial") (where .Pages ".Params.featured" true) }}
+        
+        <!-- extract all Godot tutorials -->
+        {{ $allGodotTutorials := where $allTutorials ".Params.software" "eq" "godot" }}
+        <!-- Godot 4 tutorials are clearly marked -->
+        {{ $godot4Tutorials := where $allGodotTutorials ".Params.programVersion" "like" "^4\\." }}
+        <!-- Godot 3 tutorials is everything else -->
+        {{ $godot3Tutorials := complement $godot4Tutorials (where $allGodotTutorials ".Params.featured" true)}}
+
+        <!-- Krita tutorial -->
+        {{ $kritaTutorials := (where (where .Pages ".Params.software" "eq" "krita") ".Params.featured" true)}}
+        
+        <!-- anything else -->
+        {{ $uncategorizedTutorials := complement $godot4Tutorials $godot3Tutorials $kritaTutorials (where .Pages ".Params.featured" true) }}
+        
+        {{ $categories := (slice
+            ( dict
+                "id" "godot4"
+                "Title" "Godot 4"
+                "Pages" $godot4Tutorials
+            )
+            ( dict
+                "id" "godot3"
+                "Title" "Godot 3"
+                "Pages" $godot3Tutorials
+            )
+            ( dict
+                "id" "other"
+                "Title" "Other"
+                "Pages" (union $uncategorizedTutorials $kritaTutorials)
+            )
+          )
+        }}
+        {{ range $categories}}
+        {{ if gt .Pages.Len 0 }}
+            <div id="{{ .id }}" data-tabtitle="{{ .Title }}">
+                <h2 class="product-section-title">{{ .Title }}</h2>
+                <div class="content-grid has-{{ .Pages.Len }}">
+                    {{ range sort .Pages ".Params.sort" }}
+                    <div class="item" data-sort="{{ .Params.sort }}">
+                        {{ .Render "summary" }}
+                    </div>
+                    {{ end }}
+                </div>
             </div>
-            {{ end }}
-            <div class="item">
-                <h2>Latest updates</h2>
-                {{ partialCached "components/last-updated-tutorial-list" . }}
-            </div>
-            {{ range last (sub $pagesCount 1) .Pages }}
-            <div class="item">
-                {{ .Render "summary" }}
-            </div>
-            {{ end }}
-        </div>
+        {{ end }}
+        {{ end }}
     </section>
     {{ end }}
 </div>
+{{ $js := resources.Get "js/tabs.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
 {{ end }}

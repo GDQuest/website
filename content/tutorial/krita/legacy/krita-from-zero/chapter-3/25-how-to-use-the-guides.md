@@ -5,6 +5,7 @@ aliases:
 author: nathan
 date: "2017-01-20T07:54:29.000Z"
 description: We're looking at how the guides work in Krita in this tutorial.
+software: krita
 title: How to use the Guides in Krita 3
 type: video
 videoid: XY2AACsodXk

@@ -15,6 +15,7 @@ playlistId: PLhqJJNjsQ7KFYRNAk9O95x8E4dJSdaheq
 resources:
 - name: banner
   src: steering-ai.png
+software: godot
 title: Intro to Steering Behaviors in Godot
 type: course
 ---

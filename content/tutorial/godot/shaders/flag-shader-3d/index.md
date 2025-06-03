@@ -12,6 +12,7 @@ programVersion: "3.2"
 tags:
 - godot
 - tutorial
+software: godot
 title: 3D flag
 weight: 5
 ---

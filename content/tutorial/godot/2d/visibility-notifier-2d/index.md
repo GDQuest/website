@@ -8,6 +8,7 @@ difficulty: beginner
 keywords: []
 menuTitle: VisibilityNotifier2D
 tags: []
+software: godot
 title: 'Godot Nodes 101: VisibilityNotifier and VisibilityEnabler 2d'
 type: video
 videoDuration: ""

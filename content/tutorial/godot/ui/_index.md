@@ -6,5 +6,6 @@ icon: ui
 resources:
 - name: banner
   src: banner.jpg
+software: godot
 title: User Interface
 ---

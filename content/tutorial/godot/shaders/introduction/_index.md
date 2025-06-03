@@ -12,6 +12,7 @@ menuTitle: Getting started
 resources:
 - name: banner
   src: banner.png
+software: godot
 title: 'Shaders: Getting Started'
 type: course
 ---

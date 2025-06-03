@@ -13,8 +13,13 @@ keywords:
 - godot programming patterns
 - godot design patterns
 menuTitle: Entity-Component Pattern
-title: Coding the Entity-Component pattern in Godot
+software: godot
+title: Code the Entity-Component pattern in Godot
+label: The Entity-Component pattern
 weight: 2
+featured: true
+learning_resource_type: tutorial
+sort: 30
 aliases:
 - /tutorial/godot/design-patterns/entity-component-system/
 ---

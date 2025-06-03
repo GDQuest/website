@@ -4,10 +4,14 @@ date: "2023-12-21"
 description: 'Godot Tours allows you to learn interactively, step-by-step, directly inside the Godot Editor. In this first completely Free Tour, we take you on a quick guided walk through the user interface and help you find your way around the editor and break the ice with Godot.'
 difficulty: beginner
 featured: true
-menuTitle: Godot Interactive Tour
+menusoftware: godot
+programVersion: "4.3"
+title: Godot Interactive Tour
 resources:
 - name: banner
   src: godot-tours-banner.webp
+software: godot
+sort: 20
 title: 'Godot Tours: 101 - The Godot Editor'
 weight: 3
 type: video

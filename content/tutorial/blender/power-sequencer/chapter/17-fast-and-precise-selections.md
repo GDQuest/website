@@ -4,6 +4,7 @@ aliases:
 author: nathan
 date: "2018-09-24T16:29:49.000Z"
 description: 'Get Power Sequencer (Free): //bit.ly/Power-Sequencer'
+software: blender
 title: 'Fast and Precise Selections: VSE (tutorial)'
 type: video
 videoid: ewwFVsNCBNg

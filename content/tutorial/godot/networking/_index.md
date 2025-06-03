@@ -6,5 +6,6 @@ icon: network
 resources:
 - name: banner
   src: banner.jpg
+software: godot
 title: Networking
 ---

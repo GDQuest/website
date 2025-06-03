@@ -9,6 +9,7 @@ keywords:
 - gradient map shader
 - godot 2d shaders
 programVersion: "3.2"
+software: godot
 title: Gradient map
 weight: 5
 ---

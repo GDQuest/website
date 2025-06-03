@@ -13,6 +13,7 @@ menuTitle: TRPG movement series
 resources:
 - name: banner
   src: tactical-rpg-result.png
+software: godot
 title: Tactical RPG Movement series
 type: course
 weight: 1

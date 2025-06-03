@@ -5,5 +5,6 @@ icon: shader
 resources:
 - name: banner
   src: banner.jpg
+software: godot
 title: Shaders
 ---

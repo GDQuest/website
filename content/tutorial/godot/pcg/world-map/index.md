@@ -14,6 +14,7 @@ menuTitle: World map
 tags:
 - godot
 - tutorial
+software: godot
 title: Heightmap-based procedural world map
 weight: 5
 ---

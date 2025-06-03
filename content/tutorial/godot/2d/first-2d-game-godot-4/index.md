@@ -13,6 +13,8 @@ programVersion: "4.2"
 resources:
 - name: banner
   src: first-2d-game-banner.webp
+software: godot
+sort: 30
 title: Create a Vampire Survivors style Roguelite in just one sitting
 weight: 2
 type: redirect

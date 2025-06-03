@@ -15,6 +15,7 @@ resources:
   src: banner.png
 tags:
 - video
+software: godot
 title: Intro to Multiplayer in Godot
 type: course
 ---

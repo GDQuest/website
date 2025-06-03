@@ -9,6 +9,7 @@ keywords:
 - godot music
 - godot audio cut
 menuTitle: Persistent BGM
+software: godot
 title: Persistent background music
 ---
 

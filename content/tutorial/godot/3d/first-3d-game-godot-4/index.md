@@ -13,6 +13,8 @@ programVersion: "4.4"
 resources:
 - name: banner
   src: cover.png
+software: godot
+sort: 40
 title: Create a 3D Survivor Arena FPS in just one sitting
 weight: 3
 type: redirect
