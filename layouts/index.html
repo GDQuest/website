@@ -86,7 +86,7 @@
             It's never been easier to pickup GDScript and break the ice with the Godot UI!
         </p>
         <div class="content-grid">
-            {{ range first 2 (where (site.GetPage "tutorial/godot/learning-paths").Pages ".Params.featured" true) }}
+            {{ range first 2 (where (where (site.GetPage "tutorial/godot/learning-paths").Pages ".Params.featured" true) ".Params.programVersion" "like" "^4\\." )}}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
