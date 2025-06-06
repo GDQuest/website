@@ -54,7 +54,7 @@
                 <a href="javascript:void(0)" class="section {{ if $isActiveSection }}-active{{ end }}">{{ .Title }}</a>
             </div>
 
-            {{ $children :=  union .Sections .RegularPages  }}
+            {{ $children :=  (where (union .Sections .RegularPages) ".Params.skipMenu" "ne" true)  }}
             {{ if $children }}
 
             <ul class="{{ if and (ne $currentPage.Type "course") (not $isActiveSection) }}-folded{{ end }}">

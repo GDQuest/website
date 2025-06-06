@@ -9,6 +9,7 @@ tags: []
 software: godot
 title: Platformer Hallucination by ChatGPT
 type: video
+skipMenu: true
 ---
 
 
