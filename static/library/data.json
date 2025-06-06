@@ -204,8 +204,8 @@
           "first_2d_game_godot4_vampire_survivor",
           "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "laser_2d",
-          "sophia"
+          "sophia",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -692,8 +692,8 @@
           "first_2d_game_godot4_vampire_survivor",
           "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "laser_2d",
-          "sophia"
+          "sophia",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -1710,6 +1710,135 @@
         }
       ]
     },
+    "sophia": {
+      "slug": "sophia",
+      "title": "Sophia 3D Model",
+      "label": "A 3D model of Sophia",
+      "tags": [
+        "3d_model",
+        "character_skin"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "game_type": [
+        "all"
+      ],
+      "url": "sophia",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "A 3D model of Sophia",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1062,
+        "height": 1241,
+        "ratio": 0.8557614826752619,
+        "aspectRatio": "portrait",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
+        "relPath": "models/sophia/cover.png",
+        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
+        "originalSrc": "./cover.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "sophia 3d model",
+        "a 3d model of sophia",
+        "a 3d model of sophia",
+        "3d_model",
+        "character_skin",
+        "asset",
+        "all"
+      ],
+      "lessons": [],
+      "downloads": [
+        {
+          "label": "sophia.zip",
+          "url": "sophia.zip",
+          "category": "download"
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "sophia-3d-model",
+          "text": "Sophia 3D Model",
+          "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "laser_2d": {
       "slug": "laser_2d",
       "title": "2D Laser in Godot 4",
@@ -1903,135 +2032,6 @@
           "text": "Bonus",
           "depth": 1,
           "icon": "bonus",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
-    "sophia": {
-      "slug": "sophia",
-      "title": "Sophia 3D Model",
-      "label": "A 3D model of Sophia",
-      "tags": [
-        "3d_model",
-        "character_skin"
-      ],
-      "type": "asset",
-      "format": "downloadable",
-      "game_type": [
-        "all"
-      ],
-      "url": "sophia",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "A 3D model of Sophia",
-      "promoBullets": [],
-      "links": {},
-      "cover": {
-        "width": 1062,
-        "height": 1241,
-        "ratio": 0.8557614826752619,
-        "aspectRatio": "portrait",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
-        "relPath": "models/sophia/cover.png",
-        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
-        "originalSrc": "./cover.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "sophia 3d model",
-        "a 3d model of sophia",
-        "a 3d model of sophia",
-        "3d_model",
-        "character_skin",
-        "asset",
-        "all"
-      ],
-      "lessons": [],
-      "downloads": [
-        {
-          "label": "sophia.zip",
-          "url": "sophia.zip",
-          "category": "download"
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
-        "dateDMY": [
-          3,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "03",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
-        "dateDMY": [
-          3,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "03",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "sophia-3d-model",
-          "text": "Sophia 3D Model",
-          "depth": 1,
           "hasChildren": false,
           "children": []
         }
