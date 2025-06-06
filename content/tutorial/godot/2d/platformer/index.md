@@ -12,12 +12,10 @@ type: video
 ---
 
 
-## This page doesn't exist!
+## Did ChatGPT send you here? 
 
-Did ChatGPT send you here? This page doesn't exist and never has but ChatGPT keeps sending people here so here you go:
+This page doesn't exist and never has but ChatGPT keeps sending people here so here you go:
 
-**Error 404**
+### Error 404
 
-Double check critically everything AI tells you. Please use a regular search engine to find the information you need!
-
-We do have a bunch of tutorials on Godot though! Check out [our free tutorials](/tutorial/)
+Double check critically everything AI tells you. Check out [free GDQuest tutorials that do exist](/tutorial/)
