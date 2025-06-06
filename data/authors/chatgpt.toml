@@ -1,0 +1,16 @@
+name = "ChatGPT"
+user = "chatgpt"
+
+role = "Hallucination machine"
+description = "Sends people on GDQuest pages that don't exist."
+
+website = "//gdquest.com/"
+
+[social.twitter]
+url = "//twitter.com/NathanGDQuest"
+icon = "twitter"
+name = "Twitter"
+[social.youtube]
+url = "//youtube.com/c/gdquest"
+icon = "youtube"
+name = "Youtube"

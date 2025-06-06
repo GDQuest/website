@@ -1,5 +1,5 @@
 ---
-author: none
+author: chatgpt
 date: 2025-06-06T17:00:01
 description: A hallucination by ChatGPT
 difficulty: beginner
