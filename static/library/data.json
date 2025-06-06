@@ -14,10 +14,9 @@
         "slug": "video",
         "url": "taxonomy/format/video",
         "items": [
-          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
-          "laser_2d",
-          "first_3d_game_godot4_arena_fps"
+          "first_3d_game_godot4_arena_fps",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -202,12 +201,11 @@
         "slug": "4",
         "url": "taxonomy/godot_version/4",
         "items": [
-          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
-          "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "sophia",
-          "raycast_introduction"
+          "raycast_introduction",
+          "laser_2d",
+          "sophia"
         ],
         "toc": [
           {
@@ -255,9 +253,7 @@
         "description": "Character controllers are scripts that handle the movement of a player character in a game.",
         "slug": "character_controller",
         "url": "taxonomy/tag/character_controller",
-        "items": [
-          "character_movement"
-        ],
+        "items": [],
         "toc": []
       },
       "study_guide": {
@@ -345,7 +341,6 @@
         "slug": "tutorial",
         "url": "taxonomy/tag/tutorial",
         "items": [
-          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -366,8 +361,8 @@
         "slug": "physics",
         "url": "taxonomy/tag/physics",
         "items": [
-          "laser_2d",
-          "raycast_introduction"
+          "raycast_introduction",
+          "laser_2d"
         ],
         "toc": []
       },
@@ -410,7 +405,6 @@
         "slug": "3d",
         "url": "taxonomy/tag/3d",
         "items": [
-          "character_movement",
           "first_3d_game_godot4_arena_fps"
         ],
         "toc": [
@@ -606,11 +600,10 @@
         "url": "taxonomy/type/learning_resource",
         "items": [
           "input_cheatsheet",
-          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
-          "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "raycast_introduction"
+          "raycast_introduction",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -696,12 +689,11 @@
         "url": "taxonomy/license/mit",
         "items": [
           "input_cheatsheet",
-          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
-          "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "sophia",
-          "raycast_introduction"
+          "raycast_introduction",
+          "laser_2d",
+          "sophia"
         ],
         "toc": [
           {
@@ -728,11 +720,10 @@
         "slug": "ccby",
         "url": "taxonomy/license/ccby",
         "items": [
-          "character_movement",
           "first_2d_game_godot4_vampire_survivor",
-          "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "raycast_introduction"
+          "raycast_introduction",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -956,139 +947,6 @@
         }
       ]
     },
-    "character_movement": {
-      "slug": "character_movement",
-      "title": "Character Movement in 3D",
-      "label": "Code a third person 3D character controller",
-      "tags": [
-        "tutorial",
-        "3d",
-        "character_controller"
-      ],
-      "type": "learning_resource",
-      "format": "video",
-      "game_type": [
-        "all"
-      ],
-      "url": "character_movement",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Code a third person 3D character controller",
-      "promoBullets": [],
-      "links": {},
-      "cover": {
-        "height": 1080,
-        "width": 1920,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/character_movement/cover.jpg",
-        "relPath": "character_movement/cover.jpg",
-        "newSrc": "https://www.gdquest.com/library/character_movement/cover.jpg",
-        "originalSrc": "cover.jpg",
-        "extensionType": "jpg"
-      },
-      "sources": [],
-      "search": [
-        "character movement in 3d",
-        "code a third person 3d character controller",
-        "code a third person 3d character controller",
-        "tutorial",
-        "3d",
-        "character_controller",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [],
-      "date_created": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
-        "dateDMY": [
-          3,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "03",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
-        "dateDMY": [
-          3,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "03",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "character-movement-in-3d",
-          "text": "Character movement in 3D",
-          "depth": 1,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "troubleshooting",
-              "text": "Troubleshooting",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
     "first_2d_game_godot4_vampire_survivor": {
       "slug": "first_2d_game_godot4_vampire_survivor",
       "title": "Your first 2D game with Godot 4",
@@ -1254,197 +1112,6 @@
           "text": "Updates / Code patches",
           "depth": 1,
           "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
-    "laser_2d": {
-      "slug": "laser_2d",
-      "title": "2D Laser in Godot 4",
-      "label": "Create a 2D laser beam with particle effects",
-      "tags": [
-        "2d",
-        "physics",
-        "vfx"
-      ],
-      "type": "learning_resource",
-      "format": "video",
-      "game_type": [
-        "all"
-      ],
-      "url": "laser_2d",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.",
-      "promoBullets": [
-        "Downloadable Demo",
-        "FAQ/Troubleshooting",
-        "Bonus"
-      ],
-      "links": {},
-      "cover": {
-        "width": 1280,
-        "height": 720,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/laser_2d/cover-laser2d.png",
-        "relPath": "laser_2d/cover-laser2d.png",
-        "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
-        "originalSrc": "cover-laser2d.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "2d laser in godot 4",
-        "create a 2d laser beam with particle effects",
-        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
-        "2d",
-        "physics",
-        "vfx",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [],
-      "date_created": {
-        "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-05-13T00:00:00.000Z",
-        "dateDMY": [
-          13,
-          5,
-          2025
-        ],
-        "dateMDY": [
-          5,
-          13,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "13",
-          "05",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "13",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 27,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 16,
-        "minutes": 32,
-        "seconds": 11,
-        "date": "2025-05-27T14:32:11.564Z",
-        "dateDMY": [
-          27,
-          5,
-          2025
-        ],
-        "dateMDY": [
-          5,
-          27,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "27",
-          "05",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "27",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "2d-laser-in-godot-4",
-          "text": "2D laser in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "improving-the-laser-visuals-with-particle-effects",
-              "text": "Improving the laser visuals with particle effects",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "keeping-the-color-consistent",
-              "text": "Keeping the color consistent",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "casting-particles-breakdown",
-                  "text": "Casting particles breakdown",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "collision-particles-breakdown",
-                  "text": "Collision particles breakdown",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "beam-particles-breakdown",
-              "text": "Beam particles breakdown",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "download-files",
-          "text": "Download files",
-          "depth": 1,
-          "icon": "download",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "bonus",
-          "text": "Bonus",
-          "depth": 1,
-          "icon": "bonus",
           "hasChildren": false,
           "children": []
         }
@@ -1888,135 +1555,6 @@
         }
       ]
     },
-    "sophia": {
-      "slug": "sophia",
-      "title": "Sophia 3D Model",
-      "label": "A 3D model of Sophia",
-      "tags": [
-        "3d_model",
-        "character_skin"
-      ],
-      "type": "asset",
-      "format": "downloadable",
-      "game_type": [
-        "all"
-      ],
-      "url": "sophia",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "A 3D model of Sophia",
-      "promoBullets": [],
-      "links": {},
-      "cover": {
-        "width": 1062,
-        "height": 1241,
-        "ratio": 0.8557614826752619,
-        "aspectRatio": "portrait",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
-        "relPath": "models/sophia/cover.png",
-        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
-        "originalSrc": "./cover.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "sophia 3d model",
-        "a 3d model of sophia",
-        "a 3d model of sophia",
-        "3d_model",
-        "character_skin",
-        "asset",
-        "all"
-      ],
-      "lessons": [],
-      "downloads": [
-        {
-          "label": "sophia.zip",
-          "url": "sophia.zip",
-          "category": "download"
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
-        "dateDMY": [
-          3,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "03",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
-        "dateDMY": [
-          3,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          3,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "03",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "sophia-3d-model",
-          "text": "Sophia 3D Model",
-          "depth": 1,
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "raycast_introduction": {
       "slug": "raycast_introduction",
       "title": "Understanding raycasts in Godot",
@@ -2169,6 +1707,333 @@
               "children": []
             }
           ]
+        }
+      ]
+    },
+    "laser_2d": {
+      "slug": "laser_2d",
+      "title": "2D Laser in Godot 4",
+      "label": "Create a 2D laser beam with particle effects",
+      "tags": [
+        "2d",
+        "physics",
+        "vfx"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "game_type": [
+        "all"
+      ],
+      "url": "laser_2d",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting",
+        "Bonus"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/laser_2d/cover-laser2d.png",
+        "relPath": "laser_2d/cover-laser2d.png",
+        "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
+        "originalSrc": "cover-laser2d.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "2d laser in godot 4",
+        "create a 2d laser beam with particle effects",
+        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
+        "2d",
+        "physics",
+        "vfx",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 13,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-05-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 6,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 9,
+        "minutes": 27,
+        "seconds": 54,
+        "date": "2025-06-06T07:27:54.332Z",
+        "dateDMY": [
+          6,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "06",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "2d-laser-in-godot-4",
+          "text": "2D laser in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "changing-the-lasers-look-and-feel-with-different-c",
+              "text": "Changing the laser's look and feel with different colors",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "keeping-the-color-consistent",
+              "text": "Keeping the color consistent",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "improving-the-laser-visuals-with-particle-effects",
+              "text": "Improving the laser visuals with particle effects",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "casting-particles-breakdown",
+                  "text": "Casting particles breakdown",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "collision-particles-breakdown",
+                  "text": "Collision particles breakdown",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "beam-particles-breakdown",
+              "text": "Beam particles breakdown",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "bonus",
+          "text": "Bonus",
+          "depth": 1,
+          "icon": "bonus",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "sophia": {
+      "slug": "sophia",
+      "title": "Sophia 3D Model",
+      "label": "A 3D model of Sophia",
+      "tags": [
+        "3d_model",
+        "character_skin"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "game_type": [
+        "all"
+      ],
+      "url": "sophia",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "A 3D model of Sophia",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1062,
+        "height": 1241,
+        "ratio": 0.8557614826752619,
+        "aspectRatio": "portrait",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
+        "relPath": "models/sophia/cover.png",
+        "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
+        "originalSrc": "./cover.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "sophia 3d model",
+        "a 3d model of sophia",
+        "a 3d model of sophia",
+        "3d_model",
+        "character_skin",
+        "asset",
+        "all"
+      ],
+      "lessons": [],
+      "downloads": [
+        {
+          "label": "sophia.zip",
+          "url": "sophia.zip",
+          "category": "download"
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 3,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 14,
+        "minutes": 32,
+        "seconds": 15,
+        "date": "2025-06-03T12:32:15.181Z",
+        "dateDMY": [
+          3,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "03",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "sophia-3d-model",
+          "text": "Sophia 3D Model",
+          "depth": 1,
+          "hasChildren": false,
+          "children": []
         }
       ]
     }
