@@ -14,7 +14,7 @@
                 using Free and Open Source Software.
             </p>
             <a
-                href="#free-learning-tools"
+                href="/start-here"
                 class="button-link -yellow -shadow -large -tall"
                 >Get started for free</a
             >
@@ -64,22 +64,7 @@
     </div>
 </section>
 
-<section class="content-container margin-v-base">
-    <h2 data-font="centered">GET STARTED FAST & FREE <br>WITH OUR FLAGSHIP TUTORIALS</h2>
-    <p data-font="centered">
-        Pick up Gamedev with the largest base of Godot learning resources.
-    </p>
-    <div class="content-grid">
-        {{ range first 2 (where (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) ".Params.tutorialType" "youtube") }}
-        <div class="item -fill">{{ .Render "summary" }}</div>
-        {{ end }}
-    </div>
-    <div data-font="centered" class="margin-top-base">
-        <a href="/tutorial" class="button-link -textlight">View all</a>
-    </div>
-</section>
-
-<section id="free-learning-tools" class="darkbg" style="padding-bottom: 32px">
+<section id="free-learning-tools" style="padding-bottom: 32px">
     <div class="content-container padding-v-base">
         <h2 data-font="centered">LEARN TO CODE & GET TO KNOW GODOT<br>WITH OUR FREE INTERACTIVE APPS</h2>
         <p data-font="centered">
@@ -90,40 +75,62 @@
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
-        <!--
-            <div data-font="centered" class="margin-top-base">
-                <a href="/tools" class="button-link -textlight">View all</a>
-            </div>
-        -->
     </div>
 </section>
 
-<section class="content-container margin-v-base">
-    <h2 data-font="centered">STUDY GAMEDEV IN GDSCHOOL</h2>
-    <p data-font="centered" style="max-width: 80%; margin-inline: auto">
-        Join thousands of learners who broke free from step-by-step tutorials to become truly independent gamedevs. 
-        Experience GDQuest's unique teaching method in a complete curriculum hosted on a learning platform dedicated to gamedev.
-    </p>
-    <div class="content-grid">
-        {{ range first 2 (where (where .Site.RegularPages "Section" "product") ".Params.featured" true ) }}
-        <div class="item -fill noprice">{{ .Render "summary" }}</div>
-        {{ end }}
-    </div>
-    <!--
-        <div data-font="centered" class="margin-top-base">
-            <a href="/news" class="button-link">View all</a>
+<section class="darkbg" style="padding-bottom: 32px">
+    <div class="content-container padding-v-base">
+        <h2 data-font="centered">GET STARTED FAST & FREE <br>WITH OUR FLAGSHIP TUTORIALS</h2>
+        <p data-font="centered">
+            Pick up Gamedev with the largest base of Godot learning resources.
+        </p>
+        <div class="content-grid">
+            {{ range first 2 (where (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) ".Params.tutorialType" "youtube") }}
+            <div class="item -fill">{{ .Render "summary" }}</div>
+            {{ end }}
         </div>
-    -->
-    <div data-font="centered" class="margin-top-base">
-        <a href="/product" class="button-link">See all courses</a>
+        <div data-font="right" class="margin-top-base">
+            <a href="/tutorial" class="seeMoreLink -textlight">See all tutorials</a>
+        </div>
     </div>
 </section>
 
-<section data-font="centered">
-    <div class="content-container">
-        <hr class="margin-v-base" />
+<section style="padding-bottom: 32px">
+    <div class="content-container padding-v-base">
+        <h2 data-font="centered">Explore GDQuest's Free and Open-Source tools</h2>
+        <p data-font="centered">We made over 100 open-source Godot demos and tools to help you learn to make games faster.</p>
+        <div class="content-grid">
+            {{ range first 2 (where .Site.Pages "Section" "tools") }}
+            <div class="item -fill">{{ .Render "summary" }}</div>
+            {{ end }}
+        </div>
+        <div data-font="right" class="margin-top-base">
+            <a href="/tools" class="seeMoreLink -textlight"
+                >See all tools</a
+            >
+        </div>
+    </div>
+</section>
+
+<section class="darkbg dots-background" style="padding-bottom: 32px">
+    <div class="content-container padding-v-base">
+        <h2 data-font="centered">SERIOUS ABOUT LEARNING GAMEDEV? <br/> FOLLOW A FULL STUDY PROGRAM IN GDSCHOOL</h2>
+        <p data-font="centered" style="max-width: 80%; margin-inline: auto">
+            Join thousands of learners who broke free from step-by-step tutorials to become truly independent gamedevs. 
+            Experience GDQuest's unique teaching method in a complete curriculum hosted on a learning platform dedicated to gamedev.
+        </p>
+        <div class="content-grid">
+            {{ range first 2 (where (where .Site.RegularPages "Section" "product") ".Params.featured" true ) }}
+            <div class="item -fill noprice">{{ .Render "summary" }}</div>
+            {{ end }}
+        </div>
+        <div data-font="right" class="margin-top-base">
+            <a href="/product" class="seeMoreLink">See all courses</a>
+        </div>
+    </div>
+    <hr class="margin-v-base" />
+    <div class="content-container" data-font="centered">
         <div class="margin-v-base">
-            <h2>SERIOUS ABOUT LEARNING GAMEDEV?</h2>
             <p class="subtitle">
                 Take your game creation skills to the next level with
                 GDquest's curriculum.

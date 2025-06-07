@@ -8,6 +8,7 @@ resources:
 software: krita
 title: Krita tutorials
 featured: true
+tutorialType: game-art
 weight: 99
 ---
 

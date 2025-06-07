@@ -118,9 +118,17 @@ name        = "Tutorials"
 url         = "/tutorial/"
 weight      = 1
 [[languages.en.menu.main]]
-name        = "GDSchool"
+name        = "Tools"
+url         = "/tools/"
+weight      = 2
+[[languages.en.menu.main]]
+name        = "products"
 url         = "/product/"
 weight      = 3
+[[languages.en.menu.main]]
+name        = "About"
+url         = "/about/"
+weight      = 6
 
 [languages.es]
 languageName = "Español"
@@ -130,9 +138,17 @@ name        = "Tutoriales"
 url         = "/tutorial/"
 weight      = 1
 [[languages.es.menu.main]]
-name        = "GDSchool"
+name        = "Software"
+url         = "/tools/"
+weight      = 2
+[[languages.es.menu.main]]
+name        = "Productos"
 url         = "/product/"
 weight      = 3
+[[languages.es.menu.main]]
+name        = "Acerca"
+url         = "/about/"
+weight      = 6
 
 [languages.fr]
 languageName = "Français"
@@ -142,9 +158,17 @@ name        = "Tutoriels"
 url         = "/tutorial/"
 weight      = 1
 [[languages.fr.menu.main]]
-name        = "GDSchool"
+name        = "Outils"
+url         = "/tools/"
+weight      = 2
+[[languages.fr.menu.main]]
+name        = "Produits"
 url         = "/product/"
 weight      = 3
+[[languages.fr.menu.main]]
+name        = "À propos"
+url         = "/about/"
+weight      = 6
 
 [languages.ja]
 languageName = "日本語"
@@ -154,6 +178,14 @@ name        = "チュートリアル"
 url         = "/tutorial/"
 weight      = 1
 [[languages.ja.menu.main]]
-name        = "GDSchool"
+name        = "ツール"
+url         = "/tools/"
+weight      = 2
+[[languages.ja.menu.main]]
+name        = "プロダクト"
 url         = "/product/"
 weight      = 3
+[[languages.ja.menu.main]]
+name        = "会社情報"
+url         = "/about/"
+weight      = 6

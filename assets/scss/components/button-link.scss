@@ -104,3 +104,32 @@
     }
   }
 }
+
+
+.seeMoreLink{
+  text-decoration: underline;
+  font-family: $font-title;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+
+  &::after{
+    content: "";
+    --un-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z'%3E%3C/path%3E%3C/svg%3E");
+    -webkit-mask: var(--un-icon) no-repeat;
+    mask: var(--un-icon) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    background-color: currentColor;
+    color: inherit;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-inline-start: 0.2em;
+  }
+}
+
+.darkbg .seeMoreLink{
+  color: white;
+}

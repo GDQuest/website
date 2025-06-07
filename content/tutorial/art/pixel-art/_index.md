@@ -8,10 +8,12 @@ keywords:
 - tutorials
 resources:
 - name: banner
-  src: banner.jpg
+  src: banner.png
 tags:
 - video
 title: Pixel Art Tutorial
+featured: true
+tutorialType: game-art
 type: course
 ---
 
