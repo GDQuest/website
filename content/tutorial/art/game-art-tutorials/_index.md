@@ -10,5 +10,7 @@ resources:
 tags:
 - video
 title: Game Art Tutorials
+featured: true
+tutorialType: game-art
 type: course
 ---

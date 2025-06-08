@@ -4,8 +4,8 @@ $icon-width: 48px;
 
 .nav-tutorial {
   min-width: 300px;
-  padding-top: $spacing-small;
-  padding-bottom: $spacing-small;
+  padding-block-start: $spacing-small;
+  padding-inline-end: $spacing-small;
 
   a {
     color: $color-default-text;

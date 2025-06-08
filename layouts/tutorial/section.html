@@ -25,25 +25,23 @@
 
         <!-- Krita tutorial -->
         {{ $kritaTutorials := (where (where .Pages ".Params.software" "eq" "krita") ".Params.featured" true)}}
+
+        <!-- game art tutorials -->
+        {{ $gameArtTutorials := union (where (union .Pages .Sections) ".Params.tutorialType" "eq" "game-art") $kritaTutorials }}
         
-        <!-- anything else -->
-        {{ $uncategorizedTutorials := complement $godot4Tutorials $godot3Tutorials $kritaTutorials (where .Pages ".Params.featured" true) }}
+        <!-- anything else - this should only be "getting started" -->
+        {{ $uncategorizedTutorials := complement $godot4Tutorials $godot3Tutorials $gameArtTutorials (where (union .Pages .Sections) ".Params.featured" true) }}
         
         {{ $categories := (slice
             ( dict
-                "id" "godot4"
-                "Title" "Godot 4"
-                "Pages" $godot4Tutorials
+                "id" "gamedev"
+                "Title" "Gamedev"
+                "Pages" (union $uncategorizedTutorials (union $godot4Tutorials $godot3Tutorials))
             )
             ( dict
-                "id" "godot3"
-                "Title" "Godot 3"
-                "Pages" $godot3Tutorials
-            )
-            ( dict
-                "id" "other"
-                "Title" "Other"
-                "Pages" (union $uncategorizedTutorials $kritaTutorials)
+                "id" "gameart"
+                "Title" "Game Art"
+                "Pages" $gameArtTutorials
             )
           )
         }}
