@@ -16,7 +16,7 @@ resources:
   src: banner.jpg
 software: godot
 featured: true
-sort: 10
+sort: 100
 title: 'Make Games with Godot: Beginner Edition'
 weight: 1
 ---

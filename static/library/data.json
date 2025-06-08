@@ -1865,7 +1865,15 @@
         "FAQ/Troubleshooting",
         "Bonus"
       ],
-      "links": {},
+      "links": {
+        "library": [
+          {
+            "label": "Understanding raycasts in Godot",
+            "url": "/library/raycast_introduction",
+            "category": "library"
+          }
+        ]
+      },
       "cover": {
         "width": 1280,
         "height": 720,
@@ -1928,32 +1936,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 6,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "dayOfMonth": 7,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 27,
-        "seconds": 54,
-        "date": "2025-06-06T07:27:54.332Z",
+        "hours": 18,
+        "minutes": 33,
+        "seconds": 37,
+        "date": "2025-06-07T16:33:37.040Z",
         "dateDMY": [
-          6,
+          7,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          6,
+          7,
           2025
         ],
         "dateDDMMYYYY": [
-          "06",
+          "07",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "06",
+          "07",
           "2025"
         ]
       },
