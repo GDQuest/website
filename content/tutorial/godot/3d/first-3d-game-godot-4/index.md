@@ -23,4 +23,6 @@ videoId: "NJJNWGD25rg"
 featured: true
 tutorialType: "youtube"
 redirect: https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/
+aliases:
+  - /library/first_3d_game_godot4_arena_fps/undefined
 ---
