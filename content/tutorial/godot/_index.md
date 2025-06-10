@@ -9,6 +9,9 @@ title: Godot tutorials
 featured: true
 sort: 60
 weight: 1
+aliases:
+  - /tutorials/godot
+  - /learn/godot
 ---
 
 Here's a large collection of free tutorials and courses for Godot, with techniques you will not find anywhere else.
