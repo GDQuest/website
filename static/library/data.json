@@ -41,8 +41,8 @@
         "slug": "study_guide",
         "url": "taxonomy/format/study_guide",
         "items": [
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
+          "pixel_art_setup_godot4",
           "raycast_introduction"
         ],
         "toc": [
@@ -204,12 +204,12 @@
         "url": "taxonomy/godot_version/4",
         "items": [
           "first_2d_game_godot4_vampire_survivor",
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
+          "pixel_art_setup_godot4",
           "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "laser_2d",
-          "sophia"
+          "sophia",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -611,8 +611,8 @@
         "items": [
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
+          "pixel_art_setup_godot4",
           "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
           "laser_2d"
@@ -702,12 +702,12 @@
         "items": [
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
+          "pixel_art_setup_godot4",
           "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "laser_2d",
-          "sophia"
+          "sophia",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -1132,184 +1132,6 @@
         }
       ]
     },
-    "pixel_art_setup_godot4": {
-      "slug": "pixel_art_setup_godot4",
-      "title": "Setting up pixel art graphics in Godot 4",
-      "label": "Configure Godot for crisp pixel art rendering",
-      "tags": [
-        "2d",
-        "study_guide"
-      ],
-      "type": "learning_resource",
-      "format": "study_guide",
-      "game_type": [
-        "all"
-      ],
-      "url": "pixel_art_setup_godot4",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "Learn how to configure Godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in Godot 4.",
-      "promoBullets": [],
-      "links": {},
-      "cover": {
-        "width": 1563,
-        "height": 879,
-        "ratio": 1.7781569965870307,
-        "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
-        "relPath": "pixel_art_setup_godot4/images/covert_pixel_art.png",
-        "newSrc": "https://www.gdquest.com/library/pixel_art_setup_godot4/images/covert_pixel_art.png",
-        "originalSrc": "images/covert_pixel_art.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "setting up pixel art graphics in godot 4",
-        "configure godot for crisp pixel art rendering",
-        "learn how to configure godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in godot 4.",
-        "2d",
-        "study_guide",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 13,
-            "label": "Side-Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Side-Scroller Character Overview",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/overview",
-            "number": 1
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 11,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-06-11T00:00:00.000Z",
-        "dateDMY": [
-          11,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          11,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "11",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "11",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 14,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 13,
-        "minutes": 7,
-        "seconds": 53,
-        "date": "2025-06-14T11:07:53.914Z",
-        "dateDMY": [
-          14,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          14,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "14",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "14",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "setting-up-pixel-art-graphics-in-godot-4",
-          "text": "Setting up pixel art graphics in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "how-to-configure-pixel-art-in-godot-4",
-              "text": "How to configure pixel art in Godot 4",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "picking-your-games-base-resolution",
-              "text": "Picking your game's base resolution",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "choosing-your-viewport-scaling-mode",
-              "text": "Choosing your viewport scaling mode",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "integer-scaling-for-pixel-art",
-              "text": "Integer scaling for pixel art",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "kinematic_jump_formulas": {
       "slug": "kinematic_jump_formulas",
       "title": "Kinematic Jump Formulas for 2D and 3D Games",
@@ -1495,6 +1317,184 @@
             {
               "id": "formula-4-horizontal-jump-speed",
               "text": "Formula 4: Horizontal jump speed",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "pixel_art_setup_godot4": {
+      "slug": "pixel_art_setup_godot4",
+      "title": "Setting up pixel art graphics in Godot 4",
+      "label": "Configure Godot for crisp pixel art rendering",
+      "tags": [
+        "2d",
+        "study_guide"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "pixel_art_setup_godot4",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "Learn how to configure Godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in Godot 4.",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1563,
+        "height": 879,
+        "ratio": 1.7781569965870307,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "relPath": "pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "newSrc": "https://www.gdquest.com/library/pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "originalSrc": "images/covert_pixel_art.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "setting up pixel art graphics in godot 4",
+        "configure godot for crisp pixel art rendering",
+        "learn how to configure godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in godot 4.",
+        "2d",
+        "study_guide",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side-Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Side-Scroller Character Overview",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/overview",
+            "number": 1
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 11,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-06-11T00:00:00.000Z",
+        "dateDMY": [
+          11,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          11,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "11",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "11",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 13,
+        "minutes": 7,
+        "seconds": 53,
+        "date": "2025-06-14T11:07:53.914Z",
+        "dateDMY": [
+          14,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "setting-up-pixel-art-graphics-in-godot-4",
+          "text": "Setting up pixel art graphics in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "how-to-configure-pixel-art-in-godot-4",
+              "text": "How to configure pixel art in Godot 4",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "picking-your-games-base-resolution",
+              "text": "Picking your game's base resolution",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "choosing-your-viewport-scaling-mode",
+              "text": "Choosing your viewport scaling mode",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "integer-scaling-for-pixel-art",
+              "text": "Integer scaling for pixel art",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -2052,36 +2052,36 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 14,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
+        "dayOfMonth": 20,
+        "dayName": "Friday",
+        "dayShort": "Fri",
         "dayOrdinal": "th",
-        "hours": 13,
-        "minutes": 7,
-        "seconds": 53,
-        "date": "2025-06-14T11:07:53.914Z",
+        "hours": 22,
+        "minutes": 18,
+        "seconds": 16,
+        "date": "2025-06-20T20:18:16.428Z",
         "dateDMY": [
-          14,
+          20,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          14,
+          20,
           2025
         ],
         "dateDDMMYYYY": [
-          "14",
+          "20",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "14",
+          "20",
           "2025"
         ]
       },
-      "discord_invite": "https://discord.gg/87NNb3Z",
+      "discord_invite": "",
       "toc": [
         {
           "id": "understanding-raycasts-in-godot",
@@ -2119,230 +2119,6 @@
               "children": []
             }
           ]
-        }
-      ]
-    },
-    "laser_2d": {
-      "slug": "laser_2d",
-      "title": "2D Laser in Godot 4",
-      "label": "Create a 2D laser beam with particle effects",
-      "tags": [
-        "2d",
-        "physics",
-        "vfx"
-      ],
-      "type": "learning_resource",
-      "format": "video",
-      "game_type": [
-        "all"
-      ],
-      "url": "laser_2d",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.",
-      "promoBullets": [
-        "Downloadable Demo",
-        "FAQ/Troubleshooting",
-        "Bonus"
-      ],
-      "links": {
-        "library": [
-          {
-            "label": "Understanding raycasts in Godot",
-            "url": "/library/raycast_introduction",
-            "category": "library"
-          }
-        ]
-      },
-      "cover": {
-        "width": 1280,
-        "height": 720,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/laser_2d/cover-laser2d.png",
-        "relPath": "laser_2d/cover-laser2d.png",
-        "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
-        "originalSrc": "cover-laser2d.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "2d laser in godot 4",
-        "create a 2d laser beam with particle effects",
-        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
-        "2d",
-        "physics",
-        "vfx",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 9,
-            "label": "Top Down Movement",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Your first raycast",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
-            "number": 14
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-05-13T00:00:00.000Z",
-        "dateDMY": [
-          13,
-          5,
-          2025
-        ],
-        "dateMDY": [
-          5,
-          13,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "13",
-          "05",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "13",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 14,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 13,
-        "minutes": 7,
-        "seconds": 52,
-        "date": "2025-06-14T11:07:52.628Z",
-        "dateDMY": [
-          14,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          14,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "14",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "14",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "id-2d-laser-in-godot-4",
-          "text": "2D laser in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "changing-the-lasers-look-and-feel-with-different-c",
-              "text": "Changing the laser's look and feel with different colors",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "keeping-the-color-consistent",
-              "text": "Keeping the color consistent",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "improving-the-laser-visuals-with-particle-effects",
-              "text": "Improving the laser visuals with particle effects",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "casting-particles-breakdown",
-                  "text": "Casting particles breakdown",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "collision-particles-breakdown",
-                  "text": "Collision particles breakdown",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "beam-particles-breakdown",
-              "text": "Beam particles breakdown",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "download-files",
-          "text": "Download files",
-          "depth": 1,
-          "icon": "download",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "bonus",
-          "text": "Bonus",
-          "depth": 1,
-          "icon": "bonus",
-          "hasChildren": false,
-          "children": []
         }
       ]
     },
@@ -2470,6 +2246,230 @@
           "id": "sophia-3d-model",
           "text": "Sophia 3D Model",
           "depth": 1,
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "laser_2d": {
+      "slug": "laser_2d",
+      "title": "2D Laser in Godot 4",
+      "label": "Create a 2D laser beam with particle effects",
+      "tags": [
+        "2d",
+        "physics",
+        "vfx"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "game_type": [
+        "all"
+      ],
+      "url": "laser_2d",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting",
+        "Bonus"
+      ],
+      "links": {
+        "library": [
+          {
+            "label": "Understanding raycasts in Godot",
+            "url": "/library/raycast_introduction",
+            "category": "library"
+          }
+        ]
+      },
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/laser_2d/cover-laser2d.png",
+        "relPath": "laser_2d/cover-laser2d.png",
+        "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
+        "originalSrc": "cover-laser2d.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "2d laser in godot 4",
+        "create a 2d laser beam with particle effects",
+        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
+        "2d",
+        "physics",
+        "vfx",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 9,
+            "label": "Top Down Movement",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Your first raycast",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
+            "number": 14
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 13,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-05-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 21,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "st",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 12,
+        "date": "2025-06-20T22:56:12.337Z",
+        "dateDMY": [
+          21,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          21,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "21",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "21",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "id-2d-laser-in-godot-4",
+          "text": "2D laser in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "changing-the-lasers-look-and-feel-with-different-c",
+              "text": "Changing the laser's look and feel with different colors",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "keeping-the-color-consistent",
+              "text": "Keeping the color consistent",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "improving-the-laser-visuals-with-particle-effects",
+              "text": "Improving the laser visuals with particle effects",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "casting-particles-breakdown",
+                  "text": "Casting particles breakdown",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "collision-particles-breakdown",
+                  "text": "Collision particles breakdown",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "beam-particles-breakdown",
+              "text": "Beam particles breakdown",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "bonus",
+          "text": "Bonus",
+          "depth": 1,
+          "icon": "bonus",
           "hasChildren": false,
           "children": []
         }
