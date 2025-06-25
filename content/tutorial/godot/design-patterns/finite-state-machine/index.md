@@ -13,7 +13,7 @@ keywords:
 - godot design patterns
 menuTitle: Finite State Machine
 software: godot
-sort: 50
+sort: 60
 programVersion: "4.3"
 title: Make a Finite State Machine in Godot 4
 label: Finite State Machine

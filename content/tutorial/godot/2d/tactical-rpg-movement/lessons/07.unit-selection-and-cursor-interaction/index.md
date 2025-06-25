@@ -6,7 +6,6 @@ description: We add the ability to select units with the cursor and to move to a
 software: godot
 title: Code unit selection and cursor interaction
 label: Unit selection and cursor interaction
-featured: true
 sort: 40
 learning_resource_type: tutorial
 weight: 8
@@ -17,8 +16,8 @@ In this lesson, we'll work on the last piece of the puzzle: coordinating interac
 Here are the interactions we want to allow:
 
 1. If the cursor hovers a cell and it contains a unit, the player can select it.
-1. When a unit is selected, pressing <kbd>Esc</kbd> deselects it.
-1. When a unit is selected and the cursor hovers a different cell, pressing <kbd>Enter</kbd> or clicking the cell issues a move command.
+2. When a unit is selected, pressing <kbd>Esc</kbd> deselects it.
+3. When a unit is selected and the cursor hovers a different cell, pressing <kbd>Enter</kbd> or clicking the cell issues a move command.
 
 Selecting a unit should also make the _UnitOverlay_ and _UnitPath_ nodes display information about where the unit can and will move.
 

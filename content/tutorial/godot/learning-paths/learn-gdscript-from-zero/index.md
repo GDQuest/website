@@ -13,6 +13,7 @@ resources:
 software: godot
 title: Learn GDScript From Zero
 weight: 2
+sort: 0
 type: redirect
 tutorialType: "interactive"
 redirect: https://gdquest.github.io/learn-gdscript/

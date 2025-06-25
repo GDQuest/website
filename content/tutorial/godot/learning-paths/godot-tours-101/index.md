@@ -11,9 +11,9 @@ resources:
 - name: banner
   src: godot-tours-banner.webp
 software: godot
-sort: 20
-title: 'Godot Tours: 101 - The Godot Editor'
-weight: 3
+sort: 10
+title: 'GDTour: Get to know the Godot Editor in this interactive tour'
+weight: 2
 type: video
 tutorialType: "interactive"
 videoId: L2D1kT8zOrw

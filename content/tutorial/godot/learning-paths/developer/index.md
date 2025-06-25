@@ -16,7 +16,7 @@ resources:
     src: banner.png
 software: godot
 featured: true
-sort: 20
+sort: 100
 title: "Make Games with Godot: Developer Edition"
 weight: 2
 ---

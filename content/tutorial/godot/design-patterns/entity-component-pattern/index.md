@@ -19,7 +19,7 @@ label: The Entity-Component pattern
 weight: 2
 featured: true
 learning_resource_type: tutorial
-sort: 30
+sort: 120
 aliases:
 - /tutorial/godot/design-patterns/entity-component-system/
 ---

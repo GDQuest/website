@@ -14,7 +14,7 @@ resources:
 - name: banner
   src: thumbnail_3d_character_controller.webp
 software: godot
-sort: 80
+sort: 50
 title: Create a 3D Character Controller in Godot 4
 weight: 1
 type: video

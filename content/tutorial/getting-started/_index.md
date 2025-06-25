@@ -7,10 +7,10 @@ description: How to learn to code? How to become a game developer? Get started w
 resources:
 - name: banner
   src: getting-started-banner.png
-title: Getting started
+title: What you need to make games
 featured: true
 weight: 10
-sort: 0
+sort: 85
 ---
 
 You're new to code and you don't know how to get started? Or perhaps you learned some programming hands-on but you feel like you don't fully understand what you're doing.

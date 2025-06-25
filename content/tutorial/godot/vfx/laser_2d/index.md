@@ -1,28 +1,28 @@
 ---
 author: nathan
 date: "2023-12-13"
-description: Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.
+description: Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.
 difficulty: beginner
 keywords:
-- godot 4 2d course
 - godot 4 beginner tutorial
 - learn godot 4
-- getting started with godot
+- laser
 - raycast
-- grappling hook
-menuTitle: Raycast Introduction
+- beam
+- particle effect
+menuTitle: 2D Laser in Godot 4
 programVersion: "4.4"
 resources:
 - name: banner
-  src: raycast_cover-md.webp
+  src: cover-laser2d-md.webp
 software: godot
-sort: 70
-title: Understand Raycasts in Godot 4
+sort: 80
+title: Create a 2D Laser in Godot 4
 weight: 2
 type: redirect
 featured: true
-tutorialType: Study Guide
-redirect: https://gdquest.com/library/raycast_introduction/
+tutorialType: "youtube"
+redirect: https://gdquest.com/library/laser_2d
 ---
 
 ## Download the files to follow along

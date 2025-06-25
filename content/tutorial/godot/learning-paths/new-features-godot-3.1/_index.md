@@ -15,6 +15,7 @@ software: godot
 title: New Features in Godot 3.1
 type: course
 weight: 100
+skipMenu: true
 ---
 
 Every Godot version brings a breadth of new features. It was especially the case for Godot 3.1.
@@ -26,4 +27,4 @@ In this series, we go through each new and updated feature one by one, so you kn
 If you're looking for more general Godot courses, we prepared completely free series for you:
 
 1. If you're fairly new to programming, check out our [getting started series for beginners](/get-started/).
-1. If you're an experienced developer, you'll certainly like our [developer's learning path to Godot](/tutorial/godot/learning-paths/developer/).
+2. If you're an experienced developer, you'll certainly like our [developer's learning path to Godot](/tutorial/godot/learning-paths/developer/).

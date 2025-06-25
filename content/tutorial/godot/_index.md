@@ -6,8 +6,7 @@ resources:
   src: godot-tutorials-banner.png
 software: godot
 title: Godot tutorials
-featured: true
-sort: 60
+sort: 200
 weight: 1
 aliases:
   - /tutorials/godot
