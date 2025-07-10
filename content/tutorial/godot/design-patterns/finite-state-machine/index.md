@@ -43,8 +43,8 @@ For example, a character in a game can be in an idle state (standing still), a r
 There are four conditions for talking about a state machine:
 
 1. There is a fixed set of states.
-1. The machine can be in one state at a time. 
-1. The machine receives events like inputs or signals. 
+1. The machine can be in one state at a time.
+1. The machine receives events like inputs or signals.
 1. The states have transitions mapped to events. When a state receives a given event, it tells the machine to transition to the corresponding state.
 
 We can naturally represent the behaviors of a game character with a little graph like this.
@@ -112,7 +112,7 @@ In its update loop, you write all the conditions for it to do all these actions,
 
 Simple enough! Now, what if you want the player to be able to glide when it's in the air? When gliding, the character falls slower and can't turn around instantly. Also, when gliding, the player can hop, canceling the glide and jumping lower than a regular jump.
 
-A typical way to differentiate this new gliding behavior is to add a boolean variable to the script. You can then check this variable in `_physics_process()` to change the character's behavior. 
+A typical way to differentiate this new gliding behavior is to add a boolean variable to the script. You can then check this variable in `_physics_process()` to change the character's behavior.
 
 This code shows the changes related to animation, which is a very easy way to demonstrate the problem.
 
@@ -238,7 +238,7 @@ If you try adding a dozen more mechanics like that, using only boolean variables
 
 That's where finite state machines come in.
 
-## Implementing a Finite State Machine with one variable 
+## Implementing a Finite State Machine with one variable
 
 The first version of the finite state machine I want to show you is the simplest one, and it works in many cases. It consists of replacing all the boolean variables you might introduce with a single variable that keeps track of the character's current state.
 
@@ -345,6 +345,14 @@ Woohoo! You now have a simple finite state machine that you can use to manage yo
 
 This is only one finite state machine implementation that gives a good idea of the basic principles behind the pattern. It's simple and works well whenever you only need to manage a few states and transitions. With some experience, you can manage complex entities with this approach.
 
+---
+
+**Ready to build a complete character?** In [module 13 of Pick up Gamedev From Zero](https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/overview), you learn how to implement a polished side-scroller character using the enum-based finite state machine approach you just learned.
+
+{{< video "videos/2d_side_scroller_demo.mp4" >}}
+
+---
+
 The main limitations of this implementation are:
 
 1. It's not very visual.
@@ -360,14 +368,14 @@ In Godot, the most popular way to implement this pattern is using nodes, which a
 
 Let's learn to code a finite state machine using nodes. In this implementation, we create a script that extends `Node` for each state the character can be in and put all the code for that state in the script.
 
-I used and taught this approach years ago when I first stared making tutorials for Godot because I found it learning-friendly. The main advantages of using nodes are that:
+I used and taught this approach years ago when I first started making tutorials for Godot because I found it learning-friendly. The main advantages of using nodes are that:
 
 - You can visualize the states in the editor without coding or using a plugin.
 - Each state lives in a separate script, keeping the code compartmentalized and short for each state.
 - You can use the node functions you're already used to when coding in Godot.
 - You can put all the data and logic in individual state scripts, unlike in the previous example where all variables live in the same script. This is great if you like encapsulation.
 
-The trade-offs are: 
+The trade-offs are:
 
 - Compared to the version without objects, you tend to end up with some duplicate code because each state now has its own logic.
 - It takes more code than having it all in one script.
@@ -379,7 +387,7 @@ Nevertheless, the node-based state machine remains one of the community's favori
 
 In the State pattern, each state is one object. So, its code is not directly part of the character's physics process loop. You need a way to track the current state and manually call its update function on the engine's processing tick.
 
-For that, we can use two base scripts: 
+For that, we can use two base scripts:
 
 1. **A State [class](https://school.gdquest.com/glossary/class_keyword).** It's a small [virtual base class](https://school.gdquest.com/glossary/virtual_class) that ensures every state has the same set of update functions available, giving all states a common interface.
 2. **A state machine class.** It tracks the current state, changes the current state, and calls the state's update functions. This way, only the current state's code runs every frame.
@@ -687,13 +695,21 @@ func physics_update(delta: float) -> void:
 			finished.emit(RUNNING)
 ```
 
-Compared to the single variable implementation, this approach adds more total code and multiple files to browse to update the character. On the other hand, it keeps the code of individual states short and compartmentalized. 
+Compared to the single variable implementation, this approach adds more total code and multiple files to browse to update the character. On the other hand, it keeps the code of individual states short and compartmentalized.
 
 The idea behind the State pattern is just that: to keep the code for each state separate, typically using objects. This way, you can add new states and behaviors to your character without changing the other states' logic; you just have to add new transitions.
 
 There are many alternative implementations for this pattern. Once you have the basic idea, it does not really matter if the objects representing the states are nodes, inner classes, or scripts that extend `RefCounted` and that you load and instantiate in your character class.
 
-If you don't particularly want to see states as nodes in the scene, I suggest trying inner classes to keep all the code in one file. It allows quick navigation, a quick overview of all your character's code structure with folding, 
+---
+
+**Want to see advanced state machines in action?** In [module 4 of Pick Up 3D Gamedev with Godot 4](https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack/module_overview), you learn how to implement complex AI finite state machines with reusable states for enemy behaviors like looking at the player, charging at them, or doing an AoE attack when in range.
+
+{{< video "videos/3d_ai_demo.mp4" >}}
+
+---
+
+If you don't particularly want to see states as nodes in the scene, I suggest trying inner classes to keep all the code in one file. It allows quick navigation, a quick overview of all your character's code structure with folding.
 
 ## When to use either implementation
 
@@ -756,9 +772,9 @@ Plugins are good for visualization, but they have a major caveat for me: To make
 
 Plus, as you can see, implementing a state machine can take as little as a couple dozen lines of code, and you can add features to it as needed.
 
-With a little bit of experience, this isn't much work, and you can tailor the pattern to your needs and preferences. 
+With a little bit of experience, this isn't much work, and you can tailor the pattern to your needs and preferences.
 
-I recommend using a state machine plugin mostly if you have teammates who need a user interface to set up and wire a state machine but are uncomfortable with code. 
+I recommend using a state machine plugin mostly if you have teammates who need a user interface to set up and wire a state machine but are uncomfortable with code.
 
 Other patterns, like behavior trees, can make more sense to use as a library or plugin because they involve much more code and can benefit from being written in a language like C++ for performance, (eg: bitbrain's [beehave](https://github.com/bitbrain/beehave) plugin). However, state machines are a simple structure.
 </details>
