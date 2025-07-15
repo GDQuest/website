@@ -1,33 +1,6 @@
 {
   "taxonomies": {
     "format": {
-      "video": {
-        "title": "Video",
-        "title_plural": "Videos",
-        "search": [
-          "video",
-          "videos",
-          "youtube",
-          "vimeo"
-        ],
-        "description": "Video tutorials, guides, and resources.",
-        "slug": "video",
-        "url": "taxonomy/format/video",
-        "items": [
-          "first_2d_game_godot4_vampire_survivor",
-          "first_3d_game_godot4_arena_fps",
-          "laser_2d"
-        ],
-        "toc": [
-          {
-            "id": "video-tutorials",
-            "text": "Video Tutorials",
-            "depth": 1,
-            "hasChildren": false,
-            "children": []
-          }
-        ]
-      },
       "study_guide": {
         "title": "Study Guide",
         "title_plural": "Study Guides",
@@ -43,12 +16,36 @@
         "items": [
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
-          "raycast_introduction"
+          "raycast_introduction",
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
             "id": "study-guides",
             "text": "Study Guides",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "interactive": {
+        "title": "Interactive",
+        "title_plural": "Interactives",
+        "search": [
+          "interactive",
+          "interactives",
+          "simulation",
+          "experiment"
+        ],
+        "description": "Interactive learning tools that allow users to explore concepts and learn through experimentation.",
+        "slug": "interactive",
+        "url": "taxonomy/format/interactive",
+        "items": [],
+        "toc": [
+          {
+            "id": "interactive-learning-tools",
+            "text": "Interactive Learning tools",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -72,31 +69,6 @@
           {
             "id": "glossary-entry",
             "text": "Glossary Entry",
-            "depth": 1,
-            "hasChildren": false,
-            "children": []
-          }
-        ]
-      },
-      "web_guide": {
-        "title": "Web Guide",
-        "title_plural": "Web Guides",
-        "search": [
-          "web guide",
-          "web guides",
-          "tutorial",
-          "guide"
-        ],
-        "description": "Guides for web development.",
-        "slug": "web_guide",
-        "url": "taxonomy/format/web_guide",
-        "items": [
-          "input_cheatsheet"
-        ],
-        "toc": [
-          {
-            "id": "web-guides",
-            "text": "Web Guides",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -129,23 +101,52 @@
           }
         ]
       },
-      "interactive": {
-        "title": "Interactive",
-        "title_plural": "Interactives",
+      "video": {
+        "title": "Video",
+        "title_plural": "Videos",
         "search": [
-          "interactive",
-          "interactives",
-          "simulation",
-          "experiment"
+          "video",
+          "videos",
+          "youtube",
+          "vimeo"
         ],
-        "description": "Interactive learning tools that allow users to explore concepts and learn through experimentation.",
-        "slug": "interactive",
-        "url": "taxonomy/format/interactive",
-        "items": [],
+        "description": "Video tutorials, guides, and resources.",
+        "slug": "video",
+        "url": "taxonomy/format/video",
+        "items": [
+          "first_2d_game_godot4_vampire_survivor",
+          "laser_2d",
+          "first_3d_game_godot4_arena_fps"
+        ],
         "toc": [
           {
-            "id": "interactive-learning-tools",
-            "text": "Interactive Learning tools",
+            "id": "video-tutorials",
+            "text": "Video Tutorials",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "web_guide": {
+        "title": "Web Guide",
+        "title_plural": "Web Guides",
+        "search": [
+          "web guide",
+          "web guides",
+          "tutorial",
+          "guide"
+        ],
+        "description": "Guides for web development.",
+        "slug": "web_guide",
+        "url": "taxonomy/format/web_guide",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": [
+          {
+            "id": "web-guides",
+            "text": "Web Guides",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -206,10 +207,11 @@
           "first_2d_game_godot4_vampire_survivor",
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
-          "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "sophia",
-          "laser_2d"
+          "laser_2d",
+          "first_3d_game_godot4_arena_fps",
+          "cheatsheet_tileset_setup",
+          "sophia"
         ],
         "toc": [
           {
@@ -244,24 +246,6 @@
       }
     },
     "tag": {
-      "character_controller": {
-        "title": "Character Controller",
-        "title_plural": "Character Controllers",
-        "search": [
-          "character controller",
-          "character controllers",
-          "movement",
-          "player",
-          "character"
-        ],
-        "description": "Character controllers are scripts that handle the movement of a player character in a game.",
-        "slug": "character_controller",
-        "url": "taxonomy/tag/character_controller",
-        "items": [
-          "kinematic_jump_formulas"
-        ],
-        "toc": []
-      },
       "study_guide": {
         "title": "Study Guide",
         "title_plural": "Study Guides",
@@ -298,40 +282,21 @@
         ],
         "toc": []
       },
-      "input": {
-        "title": "Input",
-        "title_plural": "Inputs",
+      "character_controller": {
+        "title": "Character Controller",
+        "title_plural": "Character Controllers",
         "search": [
-          "input",
-          "inputs",
-          "keyboard",
-          "mouse",
-          "gamepad",
-          "joystick",
-          "controller"
+          "character controller",
+          "character controllers",
+          "movement",
+          "player",
+          "character"
         ],
-        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
-        "slug": "input",
-        "url": "taxonomy/tag/input",
+        "description": "Character controllers are scripts that handle the movement of a player character in a game.",
+        "slug": "character_controller",
+        "url": "taxonomy/tag/character_controller",
         "items": [
-          "input_cheatsheet"
-        ],
-        "toc": []
-      },
-      "design_pattern": {
-        "title": "Design Pattern",
-        "title_plural": "Design Patterns",
-        "search": [
-          "design pattern",
-          "design patterns",
-          "software design",
-          "architecture"
-        ],
-        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
-        "slug": "design_pattern",
-        "url": "taxonomy/tag/design_pattern",
-        "items": [
-          "input_cheatsheet"
+          "kinematic_jump_formulas"
         ],
         "toc": []
       },
@@ -374,6 +339,69 @@
         ],
         "toc": []
       },
+      "design_pattern": {
+        "title": "Design Pattern",
+        "title_plural": "Design Patterns",
+        "search": [
+          "design pattern",
+          "design patterns",
+          "software design",
+          "architecture"
+        ],
+        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
+        "slug": "design_pattern",
+        "url": "taxonomy/tag/design_pattern",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
+      "input": {
+        "title": "Input",
+        "title_plural": "Inputs",
+        "search": [
+          "input",
+          "inputs",
+          "keyboard",
+          "mouse",
+          "gamepad",
+          "joystick",
+          "controller"
+        ],
+        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
+        "slug": "input",
+        "url": "taxonomy/tag/input",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
+      "3d_model": {
+        "title": "3D Model",
+        "title_plural": "3D Models",
+        "search": [
+          "3d model",
+          "3d models",
+          "character",
+          "object",
+          "model"
+        ],
+        "description": "3d models of characters, objects, and scenes.",
+        "slug": "3d_model",
+        "url": "taxonomy/tag/3d_model",
+        "items": [
+          "sophia"
+        ],
+        "toc": [
+          {
+            "id": "id-3d-models",
+            "text": "3D Models",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
       "2d": {
         "title": "2D",
         "title_plural": "2D",
@@ -389,64 +417,13 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "pixel_art_setup_godot4",
-          "laser_2d"
+          "laser_2d",
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
             "id": "id-2d",
             "text": "2D",
-            "depth": 1,
-            "hasChildren": false,
-            "children": []
-          }
-        ]
-      },
-      "3d": {
-        "title": "3D",
-        "title_plural": "3D",
-        "search": [
-          "3d",
-          "3d",
-          "three dimensions",
-          "3 dimensions"
-        ],
-        "description": "3D assets, scenes, tutorials, and projects.",
-        "slug": "3d",
-        "url": "taxonomy/tag/3d",
-        "items": [
-          "first_3d_game_godot4_arena_fps"
-        ],
-        "toc": [
-          {
-            "id": "id-3d",
-            "text": "3D",
-            "depth": 1,
-            "hasChildren": false,
-            "children": []
-          }
-        ]
-      },
-      "cheatsheet": {
-        "title": "Cheatsheet",
-        "title_plural": "Cheatsheets",
-        "search": [
-          "cheatsheet",
-          "cheatsheets",
-          "reference",
-          "quick reference",
-          "quickstart",
-          "clue card"
-        ],
-        "description": "Quick reference guides that provide a summary of information or instructions.",
-        "slug": "cheatsheet",
-        "url": "taxonomy/tag/cheatsheet",
-        "items": [
-          "input_cheatsheet"
-        ],
-        "toc": [
-          {
-            "id": "cheatsheets",
-            "text": "Cheatsheets",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -481,26 +458,28 @@
           }
         ]
       },
-      "3d_model": {
-        "title": "3D Model",
-        "title_plural": "3D Models",
+      "cheatsheet": {
+        "title": "Cheatsheet",
+        "title_plural": "Cheatsheets",
         "search": [
-          "3d model",
-          "3d models",
-          "character",
-          "object",
-          "model"
+          "cheatsheet",
+          "cheatsheets",
+          "reference",
+          "quick reference",
+          "quickstart",
+          "clue card"
         ],
-        "description": "3d models of characters, objects, and scenes.",
-        "slug": "3d_model",
-        "url": "taxonomy/tag/3d_model",
+        "description": "Quick reference guides that provide a summary of information or instructions.",
+        "slug": "cheatsheet",
+        "url": "taxonomy/tag/cheatsheet",
         "items": [
-          "sophia"
+          "input_cheatsheet",
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
-            "id": "id-3d-models",
-            "text": "3D Models",
+            "id": "cheatsheets",
+            "text": "Cheatsheets",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -527,6 +506,31 @@
           {
             "id": "character-skin-3d",
             "text": "Character Skin 3D",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "3d": {
+        "title": "3D",
+        "title_plural": "3D",
+        "search": [
+          "3d",
+          "3d",
+          "three dimensions",
+          "3 dimensions"
+        ],
+        "description": "3D assets, scenes, tutorials, and projects.",
+        "slug": "3d",
+        "url": "taxonomy/tag/3d",
+        "items": [
+          "first_3d_game_godot4_arena_fps"
+        ],
+        "toc": [
+          {
+            "id": "id-3d",
+            "text": "3D",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -560,6 +564,42 @@
       }
     },
     "type": {
+      "learning_resource": {
+        "title": "Learning Resource",
+        "title_plural": "Learning Resources",
+        "search": [
+          "learning resource",
+          "learning resources",
+          "learning",
+          "resource",
+          "tutorial",
+          "guide",
+          "manual",
+          "documentation"
+        ],
+        "description": "Learning resources that provide information, instructions, or guidance for learning a topic or skill.",
+        "slug": "learning_resource",
+        "url": "taxonomy/type/learning_resource",
+        "items": [
+          "input_cheatsheet",
+          "first_2d_game_godot4_vampire_survivor",
+          "kinematic_jump_formulas",
+          "pixel_art_setup_godot4",
+          "raycast_introduction",
+          "laser_2d",
+          "first_3d_game_godot4_arena_fps",
+          "cheatsheet_tileset_setup"
+        ],
+        "toc": [
+          {
+            "id": "learning-resources",
+            "text": "Learning Resources",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
       "shader": {
         "title": "Shader",
         "title_plural": "Shaders",
@@ -586,41 +626,6 @@
           {
             "id": "shaders",
             "text": "Shaders",
-            "depth": 1,
-            "hasChildren": false,
-            "children": []
-          }
-        ]
-      },
-      "learning_resource": {
-        "title": "Learning Resource",
-        "title_plural": "Learning Resources",
-        "search": [
-          "learning resource",
-          "learning resources",
-          "learning",
-          "resource",
-          "tutorial",
-          "guide",
-          "manual",
-          "documentation"
-        ],
-        "description": "Learning resources that provide information, instructions, or guidance for learning a topic or skill.",
-        "slug": "learning_resource",
-        "url": "taxonomy/type/learning_resource",
-        "items": [
-          "input_cheatsheet",
-          "first_2d_game_godot4_vampire_survivor",
-          "kinematic_jump_formulas",
-          "pixel_art_setup_godot4",
-          "first_3d_game_godot4_arena_fps",
-          "raycast_introduction",
-          "laser_2d"
-        ],
-        "toc": [
-          {
-            "id": "learning-resources",
-            "text": "Learning Resources",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -704,10 +709,11 @@
           "first_2d_game_godot4_vampire_survivor",
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
-          "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "sophia",
-          "laser_2d"
+          "laser_2d",
+          "first_3d_game_godot4_arena_fps",
+          "cheatsheet_tileset_setup",
+          "sophia"
         ],
         "toc": [
           {
@@ -736,9 +742,10 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "kinematic_jump_formulas",
-          "first_3d_game_godot4_arena_fps",
           "raycast_introduction",
-          "laser_2d"
+          "laser_2d",
+          "first_3d_game_godot4_arena_fps",
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
@@ -888,32 +895,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
+        "dayOfMonth": 4,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 21,
+        "minutes": 29,
+        "seconds": 16,
+        "date": "2025-06-04T19:29:16.473Z",
         "dateDMY": [
-          3,
+          4,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          3,
+          4,
           2025
         ],
         "dateDDMMYYYY": [
-          "03",
+          "04",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "03",
+          "04",
           "2025"
         ]
       },
@@ -922,32 +929,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
+        "dayOfMonth": 4,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 21,
+        "minutes": 29,
+        "seconds": 16,
+        "date": "2025-06-04T19:29:16.473Z",
         "dateDMY": [
-          3,
+          4,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          3,
+          4,
           2025
         ],
         "dateDDMMYYYY": [
-          "03",
+          "04",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "03",
+          "04",
           "2025"
         ]
       },
@@ -1000,7 +1007,7 @@
         "width": 1280,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
         "relPath": "first_2d_game_godot4_vampire_survivor/cover.jpg",
         "newSrc": "https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/cover.jpg",
         "originalSrc": "cover.jpg",
@@ -1075,32 +1082,32 @@
         "month": "May",
         "monthShort": "May",
         "monthNumber": 5,
-        "dayOfMonth": 17,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 16,
-        "minutes": 16,
-        "seconds": 34,
-        "date": "2025-05-17T14:16:34.920Z",
+        "dayOfMonth": 21,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "st",
+        "hours": 14,
+        "minutes": 26,
+        "seconds": 36,
+        "date": "2025-05-21T12:26:36.970Z",
         "dateDMY": [
-          17,
+          21,
           5,
           2025
         ],
         "dateMDY": [
           5,
-          17,
+          21,
           2025
         ],
         "dateDDMMYYYY": [
-          "17",
+          "21",
           "05",
           "2025"
         ],
         "dateMMDDYYYY": [
           "05",
-          "17",
+          "21",
           "2025"
         ]
       },
@@ -1163,7 +1170,7 @@
         "height": 783,
         "ratio": 1.7790549169859515,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
         "relPath": "kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
         "newSrc": "https://www.gdquest.com/library/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
         "originalSrc": "kinematic_jump_formulas_cover.png",
@@ -1255,32 +1262,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 16,
-        "dayName": "Monday",
-        "dayShort": "Mon",
+        "dayOfMonth": 15,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 20,
-        "minutes": 17,
-        "seconds": 57,
-        "date": "2025-06-16T18:17:57.319Z",
+        "hours": 17,
+        "minutes": 29,
+        "seconds": 42,
+        "date": "2025-06-15T15:29:42.281Z",
         "dateDMY": [
-          16,
+          15,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          16,
+          15,
           2025
         ],
         "dateDDMMYYYY": [
-          "16",
+          "15",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "16",
+          "15",
           "2025"
         ]
       },
@@ -1359,7 +1366,7 @@
         "height": 879,
         "ratio": 1.7781569965870307,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
         "relPath": "pixel_art_setup_godot4/images/covert_pixel_art.png",
         "newSrc": "https://www.gdquest.com/library/pixel_art_setup_godot4/images/covert_pixel_art.png",
         "originalSrc": "images/covert_pixel_art.png",
@@ -1437,10 +1444,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 13,
-        "minutes": 7,
-        "seconds": 53,
-        "date": "2025-06-14T11:07:53.914Z",
+        "hours": 12,
+        "minutes": 3,
+        "seconds": 41,
+        "date": "2025-06-14T10:03:41.092Z",
         "dateDMY": [
           14,
           6,
@@ -1511,6 +1518,403 @@
         }
       ]
     },
+    "raycast_introduction": {
+      "slug": "raycast_introduction",
+      "title": "Understanding raycasts in Godot",
+      "label": "Learn how to use raycasts in your games",
+      "tags": [
+        "physics",
+        "study_guide",
+        "2d_3d"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "raycast_introduction",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 719,
+        "ratio": 1.7802503477051461,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/raycast_introduction/raycast_cover.webp",
+        "relPath": "raycast_introduction/raycast_cover.webp",
+        "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
+        "originalSrc": "raycast_cover.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "understanding raycasts in godot",
+        "learn how to use raycasts in your games",
+        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+        "physics",
+        "study_guide",
+        "2d_3d",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 9,
+            "label": "Top Down Movement",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Your first raycast",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
+            "number": 14
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 13,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-05-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 21,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "st",
+        "hours": 10,
+        "minutes": 26,
+        "seconds": 46,
+        "date": "2025-06-21T08:26:46.570Z",
+        "dateDMY": [
+          21,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          21,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "21",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "21",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "understanding-raycasts-in-godot",
+          "text": "Understanding raycasts in Godot",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "what-is-a-raycast",
+              "text": "What is a raycast?",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "setting-up-raycast-nodes-in-godot",
+              "text": "Setting up raycast nodes in Godot",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "using-raycasts-in-code",
+              "text": "Using raycasts in code",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "common-use-cases",
+              "text": "Common use cases",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "laser_2d": {
+      "slug": "laser_2d",
+      "title": "2D Laser in Godot 4",
+      "label": "Create a 2D laser beam with particle effects",
+      "tags": [
+        "2d",
+        "physics",
+        "vfx"
+      ],
+      "type": "learning_resource",
+      "format": "video",
+      "game_type": [
+        "all"
+      ],
+      "url": "laser_2d",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting",
+        "Bonus"
+      ],
+      "links": {
+        "library": [
+          {
+            "label": "Understanding raycasts in Godot",
+            "url": "/library/raycast_introduction",
+            "category": "library"
+          }
+        ]
+      },
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/laser_2d/cover-laser2d.png",
+        "relPath": "laser_2d/cover-laser2d.png",
+        "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
+        "originalSrc": "cover-laser2d.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "2d laser in godot 4",
+        "create a 2d laser beam with particle effects",
+        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
+        "2d",
+        "physics",
+        "vfx",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 9,
+            "label": "Top Down Movement",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Your first raycast",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
+            "number": 14
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 13,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-05-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 21,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "st",
+        "hours": 10,
+        "minutes": 26,
+        "seconds": 46,
+        "date": "2025-06-21T08:26:46.570Z",
+        "dateDMY": [
+          21,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          21,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "21",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "21",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "id-2d-laser-in-godot-4",
+          "text": "2D laser in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "changing-the-lasers-look-and-feel-with-different-c",
+              "text": "Changing the laser's look and feel with different colors",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "keeping-the-color-consistent",
+              "text": "Keeping the color consistent",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "improving-the-laser-visuals-with-particle-effects",
+              "text": "Improving the laser visuals with particle effects",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "casting-particles-breakdown",
+                  "text": "Casting particles breakdown",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "collision-particles-breakdown",
+                  "text": "Collision particles breakdown",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "beam-particles-breakdown",
+              "text": "Beam particles breakdown",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "bonus",
+          "text": "Bonus",
+          "depth": 1,
+          "icon": "bonus",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "first_3d_game_godot4_arena_fps": {
       "slug": "first_3d_game_godot4_arena_fps",
       "title": "Your first 3D game with Godot 4",
@@ -1568,7 +1972,7 @@
         "height": 1080,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/first_3d_game_godot4_arena_fps/cover.png",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/first_3d_game_godot4_arena_fps/cover.png",
         "relPath": "first_3d_game_godot4_arena_fps/cover.png",
         "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
         "originalSrc": "cover.png",
@@ -1643,32 +2047,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 10,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 7,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 13,
-        "minutes": 59,
-        "seconds": 52,
-        "date": "2025-06-10T11:59:52.113Z",
+        "hours": 21,
+        "minutes": 26,
+        "seconds": 42,
+        "date": "2025-06-07T19:26:42.875Z",
         "dateDMY": [
-          10,
+          7,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          10,
+          7,
           2025
         ],
         "dateDDMMYYYY": [
-          "10",
+          "07",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "10",
+          "07",
           "2025"
         ]
       },
@@ -1949,176 +2353,166 @@
         }
       ]
     },
-    "raycast_introduction": {
-      "slug": "raycast_introduction",
-      "title": "Understanding raycasts in Godot",
-      "label": "Learn how to use raycasts in your games",
+    "cheatsheet_tileset_setup": {
+      "slug": "cheatsheet_tileset_setup",
+      "title": "Setting Up Tilesets: Godot 4 cheat sheet",
+      "label": "A quick reference for basic tileset operations in Godot 4",
       "tags": [
-        "physics",
-        "study_guide",
-        "2d_3d"
+        "2d",
+        "cheatsheet"
       ],
       "type": "learning_resource",
       "format": "study_guide",
       "game_type": [
         "all"
       ],
-      "url": "raycast_introduction",
+      "url": "cheatsheet_tileset_setup",
       "godot_version": "4",
       "license": [
         "mit",
         "ccby"
       ],
-      "description": "Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
-      "promoBullets": [],
+      "description": "Get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in Godot 4. Perfect to bookmark and refer to while working on your 2D games.",
+      "promoBullets": [
+        "Quick reference"
+      ],
       "links": {},
       "cover": {
         "width": 1280,
-        "height": 719,
-        "ratio": 1.7802503477051461,
+        "height": 720,
+        "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/raycast_introduction/raycast_cover.webp",
-        "relPath": "raycast_introduction/raycast_cover.webp",
-        "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
-        "originalSrc": "raycast_cover.webp",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "relPath": "cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "newSrc": "https://www.gdquest.com/library/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "originalSrc": "tileset_cheat_sheet.webp",
         "extensionType": "webp"
       },
       "sources": [],
       "search": [
-        "understanding raycasts in godot",
-        "learn how to use raycasts in your games",
-        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
-        "physics",
-        "study_guide",
-        "2d_3d",
+        "setting up tilesets: godot 4 cheat sheet",
+        "a quick reference for basic tileset operations in godot 4",
+        "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games.",
+        "2d",
+        "cheatsheet",
         "learning_resource",
         "all"
       ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 9,
-            "label": "Top Down Movement",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Your first raycast",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
-            "number": 14
-          }
-        }
-      ],
+      "lessons": [],
       "date_created": {
         "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 12,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 2,
         "minutes": 0,
         "seconds": 0,
-        "date": "2025-05-13T00:00:00.000Z",
+        "date": "2025-07-12T00:00:00.000Z",
         "dateDMY": [
-          13,
-          5,
+          12,
+          7,
           2025
         ],
         "dateMDY": [
-          5,
-          13,
+          7,
+          12,
           2025
         ],
         "dateDDMMYYYY": [
-          "13",
-          "05",
+          "12",
+          "07",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "05",
-          "13",
+          "07",
+          "12",
           "2025"
         ]
       },
       "date_modified": {
         "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 20,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 15,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
         "dayOrdinal": "th",
         "hours": 22,
-        "minutes": 18,
-        "seconds": 16,
-        "date": "2025-06-20T20:18:16.428Z",
+        "minutes": 49,
+        "seconds": 40,
+        "date": "2025-07-15T20:49:40.292Z",
         "dateDMY": [
-          20,
-          6,
+          15,
+          7,
           2025
         ],
         "dateMDY": [
-          6,
-          20,
+          7,
+          15,
           2025
         ],
         "dateDDMMYYYY": [
-          "20",
-          "06",
+          "15",
+          "07",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "06",
-          "20",
+          "07",
+          "15",
           "2025"
         ]
       },
-      "discord_invite": "",
+      "discord_invite": "https://discord.gg/87NNb3Z",
       "toc": [
         {
-          "id": "understanding-raycasts-in-godot",
-          "text": "Understanding raycasts in Godot",
+          "id": "setting-up-tilesets-godot-4-cheat-sheet",
+          "text": "Setting Up Tilesets: Godot 4 Cheat Sheet",
           "depth": 1,
           "icon": "app",
           "hasChildren": true,
           "children": [
             {
-              "id": "what-is-a-raycast",
-              "text": "What is a raycast?",
+              "id": "setting-up-a-tileset",
+              "text": "Setting up a tileset",
               "depth": 2,
               "hasChildren": false,
               "children": []
             },
             {
-              "id": "setting-up-raycast-nodes-in-godot",
-              "text": "Setting up raycast nodes in Godot",
+              "id": "physics-setup",
+              "text": "Physics setup",
               "depth": 2,
               "hasChildren": false,
               "children": []
             },
             {
-              "id": "using-raycasts-in-code",
-              "text": "Using raycasts in code",
+              "id": "collision-shapes",
+              "text": "Collision shapes",
               "depth": 2,
               "hasChildren": false,
               "children": []
             },
             {
-              "id": "common-use-cases",
-              "text": "Common use cases",
+              "id": "tips-and-troubleshooting",
+              "text": "Tips and troubleshooting",
               "depth": 2,
               "hasChildren": false,
               "children": []
             }
           ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
         }
       ]
     },
@@ -2148,7 +2542,7 @@
         "height": 1241,
         "ratio": 0.8557614826752619,
         "aspectRatio": "portrait",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/models/sophia/cover.png",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/models/sophia/cover.png",
         "relPath": "models/sophia/cover.png",
         "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
         "originalSrc": "./cover.png",
@@ -2177,32 +2571,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
+        "dayOfMonth": 4,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 21,
+        "minutes": 29,
+        "seconds": 17,
+        "date": "2025-06-04T19:29:17.513Z",
         "dateDMY": [
-          3,
+          4,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          3,
+          4,
           2025
         ],
         "dateDDMMYYYY": [
-          "03",
+          "04",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "03",
+          "04",
           "2025"
         ]
       },
@@ -2211,32 +2605,32 @@
         "month": "June",
         "monthShort": "Jun",
         "monthNumber": 6,
-        "dayOfMonth": 3,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 14,
-        "minutes": 32,
-        "seconds": 15,
-        "date": "2025-06-03T12:32:15.181Z",
+        "dayOfMonth": 4,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 21,
+        "minutes": 29,
+        "seconds": 17,
+        "date": "2025-06-04T19:29:17.513Z",
         "dateDMY": [
-          3,
+          4,
           6,
           2025
         ],
         "dateMDY": [
           6,
-          3,
+          4,
           2025
         ],
         "dateDDMMYYYY": [
-          "03",
+          "04",
           "06",
           "2025"
         ],
         "dateMMDDYYYY": [
           "06",
-          "03",
+          "04",
           "2025"
         ]
       },
@@ -2246,230 +2640,6 @@
           "id": "sophia-3d-model",
           "text": "Sophia 3D Model",
           "depth": 1,
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
-    "laser_2d": {
-      "slug": "laser_2d",
-      "title": "2D Laser in Godot 4",
-      "label": "Create a 2D laser beam with particle effects",
-      "tags": [
-        "2d",
-        "physics",
-        "vfx"
-      ],
-      "type": "learning_resource",
-      "format": "video",
-      "game_type": [
-        "all"
-      ],
-      "url": "laser_2d",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Learn how to create a dynamic 2D laser beam in Godot using raycasts, animated lines, and particle effects. Implement casting, collision, and beam particles to create a visually stunning laser effect.",
-      "promoBullets": [
-        "Downloadable Demo",
-        "FAQ/Troubleshooting",
-        "Bonus"
-      ],
-      "links": {
-        "library": [
-          {
-            "label": "Understanding raycasts in Godot",
-            "url": "/library/raycast_introduction",
-            "category": "library"
-          }
-        ]
-      },
-      "cover": {
-        "width": 1280,
-        "height": 720,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/xananax/GDQuest/godot_4_starter_kit/library/library/items/laser_2d/cover-laser2d.png",
-        "relPath": "laser_2d/cover-laser2d.png",
-        "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
-        "originalSrc": "cover-laser2d.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "2d laser in godot 4",
-        "create a 2d laser beam with particle effects",
-        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
-        "2d",
-        "physics",
-        "vfx",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 9,
-            "label": "Top Down Movement",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Your first raycast",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
-            "number": 14
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-05-13T00:00:00.000Z",
-        "dateDMY": [
-          13,
-          5,
-          2025
-        ],
-        "dateMDY": [
-          5,
-          13,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "13",
-          "05",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "13",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 21,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "st",
-        "hours": 0,
-        "minutes": 56,
-        "seconds": 12,
-        "date": "2025-06-20T22:56:12.337Z",
-        "dateDMY": [
-          21,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          21,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "21",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "21",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "id-2d-laser-in-godot-4",
-          "text": "2D laser in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "changing-the-lasers-look-and-feel-with-different-c",
-              "text": "Changing the laser's look and feel with different colors",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "keeping-the-color-consistent",
-              "text": "Keeping the color consistent",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "improving-the-laser-visuals-with-particle-effects",
-              "text": "Improving the laser visuals with particle effects",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "casting-particles-breakdown",
-                  "text": "Casting particles breakdown",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "collision-particles-breakdown",
-                  "text": "Collision particles breakdown",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "beam-particles-breakdown",
-              "text": "Beam particles breakdown",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "download-files",
-          "text": "Download files",
-          "depth": 1,
-          "icon": "download",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "bonus",
-          "text": "Bonus",
-          "depth": 1,
-          "icon": "bonus",
           "hasChildren": false,
           "children": []
         }
