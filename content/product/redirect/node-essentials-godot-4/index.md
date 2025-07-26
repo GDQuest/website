@@ -3,7 +3,7 @@ title: Node Essentials Godot 4 Edition
 description: A must-have almanac for Godot Gamedevs, this cookbook gathers the best tricks of the trade covering frequently needed game mechanics using Godot's powerful nodes.
 author: nathan
 banner:
-  src: /img/product/godot/thumbnail-node-essentials-godot-4.webp
+  src: /img/product/godot/thumbnail-node-essentials-godot-4.png
 date: "2023-11-27"
 keywords:
 - godot advanced course
