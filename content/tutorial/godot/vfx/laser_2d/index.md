@@ -20,7 +20,7 @@ sort: 80
 title: Create a 2D Laser in Godot 4
 weight: 2
 type: redirect
-featured: true
+featured: false
 tutorialType: "youtube"
 redirect: https://gdquest.com/library/laser_2d
 ---
