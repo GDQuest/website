@@ -24,19 +24,29 @@ tags:
 title: Create Professional User Interface in Godot
 ---
 
-{{% warning %}}
-This course is not available for sale anymore as it became too outdated. 
+{{% warning %}} This course is not available for sale anymore as it became too
+outdated.
 
-If you're an experienced developer, check out our cookbook [Godot Node Essentials](/product/redirect/godot-node-essentials/) instead. If you're new to game development, check out [Learn to Code From Zero with Godot](/product/redirect/learn-to-code-from-zero/).
-{{% /warning %}}
+If you're an experienced developer, check out our cookbook
+[Advanced Mechanics: Godot 4 Node Essentials](https://school.gdquest.com/products/node_essentials_godot_4)
+instead. If you're new to game development, check out [The Great Godot 4 Starter
+Kit] (https://school.gdquest.com/products/bundle_godot_4_starter_kit). {{%
+/warning %}}
 
-In this course, you will learn how to **best create User Interfaces** for your games with the open source [Godot Engine](//godotengine.org/).
+In this course, you will learn how to **best create User Interfaces** for your
+games with the open source [Godot Engine](//godotengine.org/).
 
-This series is included in our larger [Make Professional Games with Godot](/product/godot/make-pro-2d-games/) course. We made it as a standalone if you only want to learn about interface! So you only pay for the chapters you need 😄
+This series is included in our larger
+[Make Professional Games with Godot](/product/godot/make-pro-2d-games/) course.
+We made it as a standalone if you only want to learn about interface! So you
+only pay for the chapters you need 😄
 
 ![Shop menu screenshot](img/shop-menu-screenshot.png)
 
-I've been one of the biggest contributors to Gdoot's official UI tutorials, like the [Intro to Godot's UI system](//www.youtube.com/watch?v=y1E_y9AIqow). In this course, I'm bringing all my experience and research to **save you dozens of hours** learning to create UI... that works! 😄
+I've been one of the biggest contributors to Gdoot's official UI tutorials, like
+the [Intro to Godot's UI system](//www.youtube.com/watch?v=y1E_y9AIqow). In this
+course, I'm bringing all my experience and research to **save you dozens of
+hours** learning to create UI... that works! 😄
 
 {{< calltoaction url="//gumroad.com/l/oifP" text="Get the Godot UI Course!" >}}
 
@@ -44,13 +54,16 @@ I've been one of the biggest contributors to Gdoot's official UI tutorials, like
 
 1. How to create an **Inventory and Shop systems**
 1. How to **design reusable UI** components with Godot's theme system
-1. **Great programming practices** to separate the UI code from the gameplay, using the node tree, signals, and yield
+1. **Great programming practices** to separate the UI code from the gameplay,
+   using the node tree, signals, and yield
 1. How to **animate a life bar's color and fill**
 1. How to pause the game and **create a pause menu**
 
 ## Get started with our Free UI tutorials!
 
-Be sure to watch our [Free beginner Godot UI tutorials](//www.youtube.com/watch?v=y1E_y9AIqow&list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4) first if you're just getting started!
+Be sure to watch our
+[Free beginner Godot UI tutorials](//www.youtube.com/watch?v=y1E_y9AIqow&list=PLhqJJNjsQ7KGXNbfsUHJbb5-s2Tujtjt4)
+first if you're just getting started!
 
 This course will help you **go beyond** our first interface series.
 
@@ -58,7 +71,9 @@ This course will help you **go beyond** our first interface series.
 
 ## What does this course contain?
 
-On top of **5 hours of video tutorials**, we always provide the full source code for our tutorials, so you can explore and reuse it in your own games! This includes:
+On top of **5 hours of video tutorials**, we always provide the full source code
+for our tutorials, so you can explore and reuse it in your own games! This
+includes:
 
 1. The **pause menu**
 1. The **animated and hooked life bars**
