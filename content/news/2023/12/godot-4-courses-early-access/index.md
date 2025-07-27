@@ -27,7 +27,7 @@ Anyone who starts their course in Early Access can save up to 50% on the price o
 In related news, we're introducing an exciting new bundle: **[The Great Godot 4 Starter Kit](https://school.gdquest.com/products/bundle_godot_4_starter_kit)**.  
 It takes you from zero to 2D and 3D gamedev and on to Godot game mechanics pro. In short, it's a great kit if you're really serious about learning Godot.
 
-Note that if you already bought Learn to Code From Zero and Node Essentials for Godot 3, you will already get 2 out of the 3 courses in this bundle for free: [Learn 2D Gamedev From Zero](https://school.gdquest.com/products/learn_2d_gamedev_godot_4) and [Node Essentials Godot 4 Edition](https://school.gdquest.com/products/node_essentials_godot_4), respectively.
+Note that if you already bought Learn to Code From Zero and Node Essentials for Godot 3, you will already get 2 out of the 3 courses in this bundle for free: [Learn 2D Gamedev From Zero](https://school.gdquest.com/products/learn_2d_gamedev_godot_4) and [Advanced Mechanics: Godot 4 Node Essentials](https://school.gdquest.com/products/node_essentials_godot_4), respectively.
 
 In that case, we would recommend getting the [3D course](https://school.gdquest.com/products/learn_3d_gamedev_godot_4) separately instead of the bundle.
 
@@ -66,4 +66,4 @@ If you purchased Learn to Code From Zero with Godot 3 before Nov. 30, 2023, you 
 
 **I bought Godot Node Essentials in the past, will I get a free upgrade?**
 
-If you purchased Godot Node Essentials (Godot 3) before Nov. 30, 2023, you will get [Node Essentials Godot 4 Edition](https://school.gdquest.com/products/node_essentials_godot_4) for free. This will happen automatically when we port your course to the new website at the end of the year.
+If you purchased Godot Node Essentials (Godot 3) before Nov. 30, 2023, you will get [Advanced Mechanics: Godot 4 Node Essentials](https://school.gdquest.com/products/node_essentials_godot_4) for free. This will happen automatically when we port your course to the new website at the end of the year.

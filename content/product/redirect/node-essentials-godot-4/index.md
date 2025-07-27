@@ -1,5 +1,5 @@
 ---
-title: Advanced Mechanics: Godot 4 Node Essentials
+title: "Advanced Mechanics: Godot 4 Node Essentials"
 description: A must-have almanac for Godot Gamedevs, this cookbook gathers the best tricks of the trade covering frequently needed game mechanics using Godot's powerful nodes.
 author: nathan
 banner:
