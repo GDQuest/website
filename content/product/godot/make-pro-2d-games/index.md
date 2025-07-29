@@ -20,9 +20,9 @@ title: make professional 2d games with godot
 ---
 
 {{% warning %}}
-This course is not available for sale anymore as it became too outdated. 
+This course is not available for sale anymore as it became too outdated.
 
-If you're an experienced developer, check out our cookbook [Godot Node Essentials](/product/redirect/godot-node-essentials/) instead. If you're new to game development, check out [Learn to Code From Zero with Godot](/product/redirect/learn-to-code-from-zero/).
+If you're an experienced developer, check out our cookbook [Advanced Mechanics: Godot 4 Node Essentials](https://school.gdquest.com/products/node_essentials_godot_4) instead. If you're new to game development, check out [The Great Godot 4 Starter Kit](https://school.gdquest.com/products/bundle_godot_4_starter_kit).
 {{% /warning %}}
 
 ## Become a better game developer!
@@ -33,9 +33,12 @@ Unlike in many beginner courses that show how to code a specific game step-by-st
 
 ![Player GUI screenshot](content/chapter-07-ui-series-screen.png)
 
-> Purchasing the Pro course is the best investment I have made. I can't imagine how much time it saved me compared to trying to learn from ad-hoc tutorials.
+> Purchasing the Pro course is the best investment I have made. I can't imagine
+> how much time it saved me compared to trying to learn from ad-hoc tutorials.
 >
-> What I love most about it is that I feel that I am learning best practices for Godot that I can translate to different styles of games. For me, this has been the best way for me to learn Godot from scratch.
+> What I love most about it is that I feel that I am learning best practices for
+> Godot that I can translate to different styles of games. For me, this has been
+> the best way for me to learn Godot from scratch.
 >
 > – Craig Cashman
 
@@ -52,7 +55,9 @@ Unlike in many beginner courses that show how to code a specific game step-by-st
 
 ## Requirements
 
-This is _not_ a series for complete beginners: you should have at least some programming experience. Check out [our Free tutorials](//youtube.com/c/gdquest) to get started 😄
+This is _not_ a series for complete beginners: you should have at least some
+programming experience. Check out [our Free tutorials](//youtube.com/c/gdquest)
+to get started 😄
 
 You will need:
 
@@ -61,6 +66,8 @@ You will need:
 
 ## What's available?
 
-You can find the full list of of available videos on the [Godot course content page](content)
+You can find the full list of of available videos on the
+[Godot course content page](content)
 
-{{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}
+{{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games"
+text="Get the Godot Pro Course" >}}
