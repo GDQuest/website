@@ -19,23 +19,17 @@ tags:
 title: make professional 2d games with godot
 ---
 
-{{% warning %}} This course is not available for sale anymore as it became too
-outdated.
+{{% warning %}}
+This course is not available for sale anymore as it became too outdated.
 
-If you're an experienced developer, check out our cookbook
-[Advanced Mechanics: Godot 4 Node Essentials](https://school.gdquest.com/products/node_essentials_godot_4)
-instead. If you're new to game development, check out [The Great Godot 4 Starter
-Kit] (https://school.gdquest.com/products/bundle_godot_4_starter_kit). {{%
-/warning %}}
+If you're an experienced developer, check out our cookbook [Advanced Mechanics: Godot 4 Node Essentials](https://school.gdquest.com/products/node_essentials_godot_4) instead. If you're new to game development, check out [The Great Godot 4 Starter Kit](https://school.gdquest.com/products/bundle_godot_4_starter_kit).
+{{% /warning %}}
 
 ## Become a better game developer!
 
-With this course, you will learn to **create the main mechanics** and systems in
-your own games, using the Free [Godot Game Engine](//godotengine.org/).
+With this course, you will learn to **create the main mechanics** and systems in your own games, using the Free [Godot Game Engine](//godotengine.org/).
 
-Unlike in many beginner courses that show how to code a specific game
-step-by-step, this one will teach you **professional game creation techniques**
-you can apply to any type of game!
+Unlike in many beginner courses that show how to code a specific game step-by-step, this one will teach you **professional game creation techniques** you can apply to any type of game!
 
 ![Player GUI screenshot](content/chapter-07-ui-series-screen.png)
 
@@ -48,8 +42,7 @@ you can apply to any type of game!
 >
 > – Craig Cashman
 
-{{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games"
-text="Get the Godot Pro Course" >}}
+{{< calltoaction url="//gumroad.com/l/godot-tutorial-make-professional-2d-games" text="Get the Godot Pro Course" >}}
 
 ## What will I learn?
 
