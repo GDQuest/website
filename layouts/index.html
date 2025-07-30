@@ -24,7 +24,10 @@
 {{ end }} {{ define "main" }}
 <section id="free-tutorials" class="darkbg">
     <div class="content-container padding-v-base">
-        <div class="content-grid -columns3 promoSocialLinks" data-font="centered">
+        <div
+            class="content-grid -columns3 promoSocialLinks"
+            data-font="centered"
+        >
             <div class="social-item">
                 <a href="https://www.youtube.com/c/gdquest">
                     <img
@@ -34,7 +37,7 @@
                     />
                 </a>
                 <div class="text">
-                    290,000+ subscribers<br />
+                    300,000+ subscribers<br />
                     35+ million views
                 </div>
             </div>
@@ -46,7 +49,9 @@
                         class="image -gdschool"
                     />
                 </a>
-                <div class="text">Gamedev Curriculum adopted in Schools and Universities</div>
+                <div class="text">
+                    Gamedev Curriculum adopted in Schools and Universities
+                </div>
             </div>
             <div class="social-item">
                 <a href="https://godotengine.org/">
@@ -66,12 +71,17 @@
 
 <section id="free-learning-tools" style="padding-bottom: 32px">
     <div class="content-container padding-v-base">
-        <h2 data-font="centered">FASTRACK TO GODOT<br>WITH FREE INTERACTIVE APPS</h2>
+        <h2 data-font="centered">
+            FASTRACK TO GODOT<br />WITH FREE INTERACTIVE APPS
+        </h2>
         <p data-font="centered">
-            It's never been easier to pickup GDScript and break the ice with the Godot UI!
+            It's never been easier to pickup GDScript and break the ice with the
+            Godot UI!
         </p>
         <div class="content-grid">
-            {{ range first 2 (where (where (site.GetPage "tutorial/godot/learning-paths").Pages ".Params.featured" true) ".Params.programVersion" "like" "^4\\." )}}
+            {{ range first 2 (where (where (site.GetPage
+            "tutorial/godot/learning-paths").Pages ".Params.featured" true)
+            ".Params.programVersion" "like" "^4\\." )}}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
@@ -80,17 +90,23 @@
 
 <section class="darkbg" style="padding-bottom: 32px">
     <div class="content-container padding-v-base">
-        <h2 data-font="centered">MAKE 2D & 3D GAMES <br>WITH HUNDREDS OF FREE TUTORIALS</h2>
+        <h2 data-font="centered">
+            MAKE 2D & 3D GAMES <br />WITH HUNDREDS OF FREE TUTORIALS
+        </h2>
         <p data-font="centered">
             Explore a large library of free Godot learning material.
         </p>
         <div class="content-grid">
-            {{ range first 2 (where (where (where .Site.Pages "Section" "tutorial") ".Params.featured" true ) ".Params.tutorialType" "youtube") }}
+            {{ range first 2 (where (where (where .Site.Pages "Section"
+            "tutorial") ".Params.featured" true ) ".Params.tutorialType"
+            "youtube") }}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
         <div data-font="right" class="margin-top-base">
-            <a href="/tutorial" class="seeMoreLink -textlight">See all tutorials</a>
+            <a href="/tutorial" class="seeMoreLink -textlight"
+                >See all tutorials</a
+            >
         </div>
     </div>
 </section>
@@ -98,29 +114,36 @@
 <section style="padding-bottom: 32px">
     <div class="content-container padding-v-base">
         <h2 data-font="centered">Leverage Free & Open-Source tools</h2>
-        <p data-font="centered">GDQuest has open-sourced over 100 demos and tools to help you make games faster.</p>
+        <p data-font="centered">
+            GDQuest has open-sourced over 100 demos and tools to help you make
+            games faster.
+        </p>
         <div class="content-grid">
             {{ range first 2 (where .Site.Pages "Section" "tools") }}
             <div class="item -fill">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
         <div data-font="right" class="margin-top-base">
-            <a href="/tools" class="seeMoreLink -textlight"
-                >See all tools</a
-            >
+            <a href="/tools" class="seeMoreLink -textlight">See all tools</a>
         </div>
     </div>
 </section>
 
 <section class="darkbg dots-background" style="padding-bottom: 32px">
     <div class="content-container padding-v-base">
-        <h2 data-font="centered"> BREAK FREE FROM TUTORIALS <br/> TO MAKE GAMES ON YOUR OWN</h2>
+        <h2 data-font="centered">
+            BREAK FREE FROM TUTORIALS <br />
+            TO MAKE GAMES ON YOUR OWN
+        </h2>
         <p data-font="centered" style="max-width: 80%; margin-inline: auto">
-            Join thousands of motivated learners who decided to take their gamedev skills to the next level. 
-            Experience GDQuest's unique teaching method in a complete curriculum hosted on a learning platform dedicated to gamedev.
+            Join thousands of motivated learners who decided to take their
+            gamedev skills to the next level. Experience GDQuest's unique
+            teaching method in a complete curriculum hosted on a learning
+            platform dedicated to gamedev.
         </p>
         <div class="content-grid">
-            {{ range first 2 (where (where .Site.RegularPages "Section" "product") ".Params.featured" true ) }}
+            {{ range first 2 (where (where .Site.RegularPages "Section"
+            "product") ".Params.featured" true ) }}
             <div class="item -fill noprice">{{ .Render "summary" }}</div>
             {{ end }}
         </div>
@@ -131,9 +154,7 @@
     <hr class="margin-v-base" />
     <div class="content-container" data-font="centered">
         <div class="margin-v-base">
-            <p class="subtitle">
-                Serious about becoming a Game Developer?
-            </p>
+            <p class="subtitle">Serious about becoming a Game Developer?</p>
             <a
                 href="https://school.gdquest.com/"
                 class="button-link -yellow -shadow -large -tall"

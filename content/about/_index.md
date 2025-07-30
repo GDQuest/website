@@ -86,7 +86,7 @@ Yet, I got warmly welcomed in the community, met the core developers, and found 
 
 That mindset of sharing is very dear to me. I received a lot from the free software community.
 
-**Experienced mentors in the community saved me months, if not years of learning.** 
+**Experienced mentors in the community saved me months, if not years of learning.**
 
 Also, so many engineers contributed to amazing technologies I use daily at no cost.
 
@@ -96,7 +96,7 @@ After this first poor tutorial series, you asked for more, and I kept going. You
 
 Our increasing revenue allowed us to become a team, create open-source demos and tools, and contribute to Godot directly.
 
-**We now have over 290,000 subscribers on YouTube, 5 successful Kickstarter campaigns, and over 100 free and open-source demos and tools on GitHub.**
+**We now have over 300,000 subscribers on YouTube, 5 successful Kickstarter campaigns, and over 100 free and open-source demos and tools on GitHub.**
 
 That's where the story is at, thanks to the community.
 
