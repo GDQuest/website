@@ -14,10 +14,10 @@
         "slug": "study_guide",
         "url": "taxonomy/format/study_guide",
         "items": [
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
-          "raycast_introduction",
-          "cheatsheet_tileset_setup"
+          "pixel_art_setup_godot4",
+          "cheatsheet_tileset_setup",
+          "raycast_introduction"
         ],
         "toc": [
           {
@@ -69,6 +69,31 @@
           {
             "id": "glossary-entry",
             "text": "Glossary Entry",
+            "depth": 1,
+            "hasChildren": false,
+            "children": []
+          }
+        ]
+      },
+      "cheat_sheet": {
+        "title": "Cheat Sheet",
+        "title_plural": "Cheat Sheets",
+        "search": [
+          "cheat sheet",
+          "cheat sheets",
+          "cheat sheet",
+          "reference"
+        ],
+        "description": "Quick reference sheets covering different features and concepts in Godot with key information that's quick to scan and reference.",
+        "slug": "cheat_sheet",
+        "url": "taxonomy/format/cheat_sheet",
+        "items": [
+          "cheatsheet_tilemap_basics"
+        ],
+        "toc": [
+          {
+            "id": "cheat-sheets",
+            "text": "Cheat Sheets",
             "depth": 1,
             "hasChildren": false,
             "children": []
@@ -205,13 +230,14 @@
         "url": "taxonomy/godot_version/4",
         "items": [
           "first_2d_game_godot4_vampire_survivor",
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
-          "raycast_introduction",
+          "pixel_art_setup_godot4",
+          "cheatsheet_tilemap_basics",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
           "cheatsheet_tileset_setup",
-          "sophia"
+          "sophia",
+          "raycast_introduction"
         ],
         "toc": [
           {
@@ -334,8 +360,8 @@
         "url": "taxonomy/tag/physics",
         "items": [
           "kinematic_jump_formulas",
-          "raycast_introduction",
-          "laser_2d"
+          "laser_2d",
+          "raycast_introduction"
         ],
         "toc": []
       },
@@ -417,6 +443,7 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "pixel_art_setup_godot4",
+          "cheatsheet_tilemap_basics",
           "laser_2d",
           "cheatsheet_tileset_setup"
         ],
@@ -583,12 +610,13 @@
         "items": [
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
-          "raycast_introduction",
+          "pixel_art_setup_godot4",
+          "cheatsheet_tilemap_basics",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup"
+          "cheatsheet_tileset_setup",
+          "raycast_introduction"
         ],
         "toc": [
           {
@@ -707,13 +735,14 @@
         "items": [
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
-          "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
-          "raycast_introduction",
+          "pixel_art_setup_godot4",
+          "cheatsheet_tilemap_basics",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
           "cheatsheet_tileset_setup",
-          "sophia"
+          "sophia",
+          "raycast_introduction"
         ],
         "toc": [
           {
@@ -742,10 +771,11 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "kinematic_jump_formulas",
-          "raycast_introduction",
+          "cheatsheet_tilemap_basics",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup"
+          "cheatsheet_tileset_setup",
+          "raycast_introduction"
         ],
         "toc": [
           {
@@ -1139,184 +1169,6 @@
         }
       ]
     },
-    "pixel_art_setup_godot4": {
-      "slug": "pixel_art_setup_godot4",
-      "title": "Setting up pixel art graphics in Godot 4",
-      "label": "Configure Godot for crisp pixel art rendering",
-      "tags": [
-        "2d",
-        "study_guide"
-      ],
-      "type": "learning_resource",
-      "format": "study_guide",
-      "game_type": [
-        "all"
-      ],
-      "url": "pixel_art_setup_godot4",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "Learn how to configure Godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in Godot 4.",
-      "promoBullets": [],
-      "links": {},
-      "cover": {
-        "width": 1563,
-        "height": 879,
-        "ratio": 1.7781569965870307,
-        "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
-        "relPath": "pixel_art_setup_godot4/images/covert_pixel_art.png",
-        "newSrc": "https://www.gdquest.com/library/pixel_art_setup_godot4/images/covert_pixel_art.png",
-        "originalSrc": "images/covert_pixel_art.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "setting up pixel art graphics in godot 4",
-        "configure godot for crisp pixel art rendering",
-        "learn how to configure godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in godot 4.",
-        "2d",
-        "study_guide",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Side-Scroller Character: Module overview",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/overview",
-            "number": 1
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 11,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-06-11T00:00:00.000Z",
-        "dateDMY": [
-          11,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          11,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "11",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "11",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 14,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 12,
-        "minutes": 3,
-        "seconds": 41,
-        "date": "2025-06-14T10:03:41.092Z",
-        "dateDMY": [
-          14,
-          6,
-          2025
-        ],
-        "dateMDY": [
-          6,
-          14,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "14",
-          "06",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "06",
-          "14",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "setting-up-pixel-art-graphics-in-godot-4",
-          "text": "Setting up pixel art graphics in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "how-to-configure-pixel-art-in-godot-4",
-              "text": "How to configure pixel art in Godot 4",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "picking-your-games-base-resolution",
-              "text": "Picking your game's base resolution",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "choosing-your-viewport-scaling-mode",
-              "text": "Choosing your viewport scaling mode",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "integer-scaling-for-pixel-art",
-              "text": "Integer scaling for pixel art",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "kinematic_jump_formulas": {
       "slug": "kinematic_jump_formulas",
       "title": "Kinematic Jump Formulas for 2D and 3D Games",
@@ -1518,48 +1370,45 @@
         }
       ]
     },
-    "raycast_introduction": {
-      "slug": "raycast_introduction",
-      "title": "Understanding raycasts in Godot",
-      "label": "Learn how to use raycasts in your games",
+    "pixel_art_setup_godot4": {
+      "slug": "pixel_art_setup_godot4",
+      "title": "Setting up pixel art graphics in Godot 4",
+      "label": "Configure Godot for crisp pixel art rendering",
       "tags": [
-        "physics",
-        "study_guide",
-        "2d_3d"
+        "2d",
+        "study_guide"
       ],
       "type": "learning_resource",
       "format": "study_guide",
       "game_type": [
         "all"
       ],
-      "url": "raycast_introduction",
+      "url": "pixel_art_setup_godot4",
       "godot_version": "4",
       "license": [
-        "mit",
-        "ccby"
+        "mit"
       ],
-      "description": "Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+      "description": "Learn how to configure Godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in Godot 4.",
       "promoBullets": [],
       "links": {},
       "cover": {
-        "width": 1280,
-        "height": 719,
-        "ratio": 1.7802503477051461,
+        "width": 1563,
+        "height": 879,
+        "ratio": 1.7781569965870307,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/raycast_introduction/raycast_cover.webp",
-        "relPath": "raycast_introduction/raycast_cover.webp",
-        "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
-        "originalSrc": "raycast_cover.webp",
-        "extensionType": "webp"
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "relPath": "pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "newSrc": "https://www.gdquest.com/library/pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "originalSrc": "images/covert_pixel_art.png",
+        "extensionType": "png"
       },
       "sources": [],
       "search": [
-        "understanding raycasts in godot",
-        "learn how to use raycasts in your games",
-        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
-        "physics",
+        "setting up pixel art graphics in godot 4",
+        "configure godot for crisp pixel art rendering",
+        "learn how to configure godot's texture filtering, viewport scaling, and rendering settings to set up crisp pixel art with simple built-in options in godot 4.",
+        "2d",
         "study_guide",
-        "2d_3d",
         "learning_resource",
         "all"
       ],
@@ -1570,49 +1419,230 @@
             "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
           },
           "module": {
-            "number": 9,
-            "label": "Top Down Movement",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement"
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
           },
           "lesson": {
             "prefix": "l",
-            "label": "Your first raycast",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
-            "number": 14
+            "label": "Side-Scroller Character: Module overview",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/overview",
+            "number": 1
           }
         }
       ],
       "date_created": {
         "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 11,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
         "dayOrdinal": "th",
         "hours": 2,
         "minutes": 0,
         "seconds": 0,
-        "date": "2025-05-13T00:00:00.000Z",
+        "date": "2025-06-11T00:00:00.000Z",
         "dateDMY": [
-          13,
-          5,
+          11,
+          6,
           2025
         ],
         "dateMDY": [
-          5,
-          13,
+          6,
+          11,
           2025
         ],
         "dateDDMMYYYY": [
-          "13",
-          "05",
+          "11",
+          "06",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "05",
-          "13",
+          "06",
+          "11",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 12,
+        "minutes": 3,
+        "seconds": 41,
+        "date": "2025-06-14T10:03:41.092Z",
+        "dateDMY": [
+          14,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "setting-up-pixel-art-graphics-in-godot-4",
+          "text": "Setting up pixel art graphics in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "how-to-configure-pixel-art-in-godot-4",
+              "text": "How to configure pixel art in Godot 4",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "picking-your-games-base-resolution",
+              "text": "Picking your game's base resolution",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "choosing-your-viewport-scaling-mode",
+              "text": "Choosing your viewport scaling mode",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "integer-scaling-for-pixel-art",
+              "text": "Integer scaling for pixel art",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "cheatsheet_tilemap_basics": {
+      "slug": "cheatsheet_tilemap_basics",
+      "title": "Tilemap Editor Basics: Godot 4 cheat sheet",
+      "label": "Quick reference for tilemap editor tools and workflows",
+      "tags": [
+        "2d"
+      ],
+      "type": "learning_resource",
+      "format": "cheat_sheet",
+      "game_type": [
+        "all"
+      ],
+      "url": "cheatsheet_tilemap_basics",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "A condensed reference that covers the tilemap editor tools you'll use most often in Godot 4. Get quick step-by-step recaps of how to paint tiles, navigation controls, selection tools, and keyboard shortcuts you'll use most while creating 2D levels.",
+      "promoBullets": [
+        "Quick reference",
+        "Most common shortcuts",
+        "Step-by-step usage"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1917,
+        "height": 1043,
+        "ratio": 1.837967401725791,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
+        "relPath": "cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
+        "newSrc": "https://www.gdquest.com/library/cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
+        "originalSrc": "tilemap_editor_cheat_sheet.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "tilemap editor basics: godot 4 cheat sheet",
+        "quick reference for tilemap editor tools and workflows",
+        "a condensed reference that covers the tilemap editor tools you'll use most often in godot 4. get quick step-by-step recaps of how to paint tiles, navigation controls, selection tools, and keyboard shortcuts you'll use most while creating 2d levels.",
+        "2d",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 14,
+            "label": "Side Scroller Levels",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_levels"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "First Steps: Introduction to tilemaps for level creation",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_levels/tilemap_introduction",
+            "number": 3
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 18,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-07-18T00:00:00.000Z",
+        "dateDMY": [
+          18,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          18,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "18",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "18",
           "2025"
         ]
       },
@@ -1621,73 +1651,81 @@
         "month": "July",
         "monthShort": "Jul",
         "monthNumber": 7,
-        "dayOfMonth": 16,
+        "dayOfMonth": 30,
         "dayName": "Wednesday",
         "dayShort": "Wed",
         "dayOrdinal": "th",
-        "hours": 10,
-        "minutes": 24,
-        "seconds": 36,
-        "date": "2025-07-16T08:24:36.588Z",
+        "hours": 17,
+        "minutes": 53,
+        "seconds": 50,
+        "date": "2025-07-30T15:53:50.566Z",
         "dateDMY": [
-          16,
+          30,
           7,
           2025
         ],
         "dateMDY": [
           7,
-          16,
+          30,
           2025
         ],
         "dateDDMMYYYY": [
-          "16",
+          "30",
           "07",
           "2025"
         ],
         "dateMMDDYYYY": [
           "07",
-          "16",
+          "30",
           "2025"
         ]
       },
-      "discord_invite": "",
+      "discord_invite": "https://discord.gg/87NNb3Z",
       "toc": [
         {
-          "id": "understanding-raycasts-in-godot",
-          "text": "Understanding raycasts in Godot",
+          "id": "tilemap-editor-godot-4-cheat-sheet",
+          "text": "Tilemap Editor: Godot 4 Cheat Sheet",
           "depth": 1,
           "icon": "app",
           "hasChildren": true,
           "children": [
             {
-              "id": "what-is-a-raycast",
-              "text": "What is a raycast?",
+              "id": "navigation-and-interface",
+              "text": "Navigation and interface",
               "depth": 2,
               "hasChildren": false,
               "children": []
             },
             {
-              "id": "setting-up-raycast-nodes-in-godot",
-              "text": "Setting up raycast nodes in Godot",
+              "id": "painting-and-erasing-tiles",
+              "text": "Painting and erasing tiles",
               "depth": 2,
               "hasChildren": false,
               "children": []
             },
             {
-              "id": "using-raycasts-in-code",
-              "text": "Using raycasts in code",
+              "id": "selecting-and-duplicating-tiles",
+              "text": "Selecting and duplicating tiles",
               "depth": 2,
               "hasChildren": false,
               "children": []
             },
             {
-              "id": "common-use-cases",
-              "text": "Common use cases",
+              "id": "tips-and-troubleshooting",
+              "text": "Tips and troubleshooting",
               "depth": 2,
               "hasChildren": false,
               "children": []
             }
           ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
         }
       ]
     },
@@ -2374,7 +2412,9 @@
       ],
       "description": "Get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in Godot 4. Perfect to bookmark and refer to while working on your 2D games.",
       "promoBullets": [
-        "Quick reference"
+        "Quick reference",
+        "Most common shortcuts",
+        "Step-by-step usage"
       ],
       "links": {},
       "cover": {
@@ -2456,32 +2496,32 @@
         "month": "July",
         "monthShort": "Jul",
         "monthNumber": 7,
-        "dayOfMonth": 16,
+        "dayOfMonth": 30,
         "dayName": "Wednesday",
         "dayShort": "Wed",
         "dayOrdinal": "th",
-        "hours": 10,
-        "minutes": 24,
-        "seconds": 35,
-        "date": "2025-07-16T08:24:35.551Z",
+        "hours": 17,
+        "minutes": 52,
+        "seconds": 30,
+        "date": "2025-07-30T15:52:30.801Z",
         "dateDMY": [
-          16,
+          30,
           7,
           2025
         ],
         "dateMDY": [
           7,
-          16,
+          30,
           2025
         ],
         "dateDDMMYYYY": [
-          "16",
+          "30",
           "07",
           "2025"
         ],
         "dateMMDDYYYY": [
           "07",
-          "16",
+          "30",
           "2025"
         ]
       },
@@ -2660,6 +2700,179 @@
           "depth": 1,
           "hasChildren": false,
           "children": []
+        }
+      ]
+    },
+    "raycast_introduction": {
+      "slug": "raycast_introduction",
+      "title": "Understanding raycasts in Godot",
+      "label": "Learn how to use raycasts in your games",
+      "tags": [
+        "physics",
+        "study_guide",
+        "2d_3d"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "raycast_introduction",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 719,
+        "ratio": 1.7802503477051461,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/raycast_introduction/raycast_cover.webp",
+        "relPath": "raycast_introduction/raycast_cover.webp",
+        "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
+        "originalSrc": "raycast_cover.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "understanding raycasts in godot",
+        "learn how to use raycasts in your games",
+        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+        "physics",
+        "study_guide",
+        "2d_3d",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 9,
+            "label": "Top Down Movement",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Your first raycast",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
+            "number": 14
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 13,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-05-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 16,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 10,
+        "minutes": 24,
+        "seconds": 36,
+        "date": "2025-07-16T08:24:36.588Z",
+        "dateDMY": [
+          16,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          16,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "16",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "understanding-raycasts-in-godot",
+          "text": "Understanding raycasts in Godot",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "what-is-a-raycast",
+              "text": "What is a raycast?",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "setting-up-raycast-nodes-in-godot",
+              "text": "Setting up raycast nodes in Godot",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "using-raycasts-in-code",
+              "text": "Using raycasts in code",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "common-use-cases",
+              "text": "Common use cases",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
         }
       ]
     }
