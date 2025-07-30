@@ -16,8 +16,8 @@
         "items": [
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
-          "cheatsheet_tileset_setup",
-          "raycast_introduction"
+          "raycast_introduction",
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
@@ -233,11 +233,11 @@
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
           "cheatsheet_tileset_setup",
-          "sophia",
-          "raycast_introduction"
+          "sophia"
         ],
         "toc": [
           {
@@ -360,8 +360,8 @@
         "url": "taxonomy/tag/physics",
         "items": [
           "kinematic_jump_formulas",
-          "laser_2d",
-          "raycast_introduction"
+          "raycast_introduction",
+          "laser_2d"
         ],
         "toc": []
       },
@@ -613,10 +613,10 @@
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup",
-          "raycast_introduction"
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
@@ -738,11 +738,11 @@
           "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
           "cheatsheet_tileset_setup",
-          "sophia",
-          "raycast_introduction"
+          "sophia"
         ],
         "toc": [
           {
@@ -772,10 +772,10 @@
           "first_2d_game_godot4_vampire_survivor",
           "kinematic_jump_formulas",
           "cheatsheet_tilemap_basics",
+          "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup",
-          "raycast_introduction"
+          "cheatsheet_tileset_setup"
         ],
         "toc": [
           {
@@ -1655,10 +1655,10 @@
         "dayName": "Wednesday",
         "dayShort": "Wed",
         "dayOrdinal": "th",
-        "hours": 17,
-        "minutes": 53,
-        "seconds": 50,
-        "date": "2025-07-30T15:53:50.566Z",
+        "hours": 18,
+        "minutes": 39,
+        "seconds": 3,
+        "date": "2025-07-30T16:39:03.538Z",
         "dateDMY": [
           30,
           7,
@@ -1726,6 +1726,179 @@
           "icon": "patch",
           "hasChildren": false,
           "children": []
+        }
+      ]
+    },
+    "raycast_introduction": {
+      "slug": "raycast_introduction",
+      "title": "Understanding raycasts in Godot",
+      "label": "Learn how to use raycasts in your games",
+      "tags": [
+        "physics",
+        "study_guide",
+        "2d_3d"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "raycast_introduction",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+      "promoBullets": [],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 719,
+        "ratio": 1.7802503477051461,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/raycast_introduction/raycast_cover.webp",
+        "relPath": "raycast_introduction/raycast_cover.webp",
+        "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
+        "originalSrc": "raycast_cover.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "understanding raycasts in godot",
+        "learn how to use raycasts in your games",
+        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+        "physics",
+        "study_guide",
+        "2d_3d",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 9,
+            "label": "Top Down Movement",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Your first raycast",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
+            "number": 14
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 13,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-05-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          5,
+          2025
+        ],
+        "dateMDY": [
+          5,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "05",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 16,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 10,
+        "minutes": 24,
+        "seconds": 36,
+        "date": "2025-07-16T08:24:36.588Z",
+        "dateDMY": [
+          16,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          16,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "16",
+          "2025"
+        ]
+      },
+      "discord_invite": "",
+      "toc": [
+        {
+          "id": "understanding-raycasts-in-godot",
+          "text": "Understanding raycasts in Godot",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "what-is-a-raycast",
+              "text": "What is a raycast?",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "setting-up-raycast-nodes-in-godot",
+              "text": "Setting up raycast nodes in Godot",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "using-raycasts-in-code",
+              "text": "Using raycasts in code",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "common-use-cases",
+              "text": "Common use cases",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -2700,179 +2873,6 @@
           "depth": 1,
           "hasChildren": false,
           "children": []
-        }
-      ]
-    },
-    "raycast_introduction": {
-      "slug": "raycast_introduction",
-      "title": "Understanding raycasts in Godot",
-      "label": "Learn how to use raycasts in your games",
-      "tags": [
-        "physics",
-        "study_guide",
-        "2d_3d"
-      ],
-      "type": "learning_resource",
-      "format": "study_guide",
-      "game_type": [
-        "all"
-      ],
-      "url": "raycast_introduction",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Learn what raycasts are and how to use them in Godot for both 2D and 3D games. Discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
-      "promoBullets": [],
-      "links": {},
-      "cover": {
-        "width": 1280,
-        "height": 719,
-        "ratio": 1.7802503477051461,
-        "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/raycast_introduction/raycast_cover.webp",
-        "relPath": "raycast_introduction/raycast_cover.webp",
-        "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
-        "originalSrc": "raycast_cover.webp",
-        "extensionType": "webp"
-      },
-      "sources": [],
-      "search": [
-        "understanding raycasts in godot",
-        "learn how to use raycasts in your games",
-        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
-        "physics",
-        "study_guide",
-        "2d_3d",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 9,
-            "label": "Top Down Movement",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Your first raycast",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/top_down_movement/your_first_raycast",
-            "number": 14
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 13,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-05-13T00:00:00.000Z",
-        "dateDMY": [
-          13,
-          5,
-          2025
-        ],
-        "dateMDY": [
-          5,
-          13,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "13",
-          "05",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "13",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 16,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "th",
-        "hours": 10,
-        "minutes": 24,
-        "seconds": 36,
-        "date": "2025-07-16T08:24:36.588Z",
-        "dateDMY": [
-          16,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          16,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "16",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "understanding-raycasts-in-godot",
-          "text": "Understanding raycasts in Godot",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "what-is-a-raycast",
-              "text": "What is a raycast?",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "setting-up-raycast-nodes-in-godot",
-              "text": "Setting up raycast nodes in Godot",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "using-raycasts-in-code",
-              "text": "Using raycasts in code",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "common-use-cases",
-              "text": "Common use cases",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
         }
       ]
     }
