@@ -90,11 +90,11 @@
 		color: rgb(103 37 214);
 		text-transform: uppercase;
 	}
-	.sales-banner-text-asterisk{
+	.sales-banner-text-asterisk {
 		font-size: 0.8rem;
 		font-weight: 700;
 		color: rgb(103 37 214);
-		padding-top: .2rem;
+		padding-top: 0.2rem;
 	}
 	@media (min-width: 800px) {
 		.sales-banner-text-pre-order {
@@ -119,15 +119,25 @@
 		margin-top: 0.25rem;
 		color: #ffffff;
 		filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
-		text-shadow: #ff417d 3px 0px 0px, #ff417d 2.83487px 0.981584px 0px,
-			#ff417d 2.35766px 1.85511px 0px, #ff417d 1.62091px 2.52441px 0px,
-			#ff417d 0.705713px 2.91581px 0px, #ff417d -0.287171px 2.98622px 0px,
-			#ff417d -1.24844px 2.72789px 0px, #ff417d -2.07227px 2.16926px 0px,
-			#ff417d -2.66798px 1.37182px 0px, #ff417d -2.96998px 0.42336px 0px,
-			#ff417d -2.94502px -0.571704px 0px, #ff417d -2.59586px -1.50383px 0px,
-			#ff417d -1.96093px -2.27041px 0px, #ff417d -1.11013px -2.78704px 0px,
-			#ff417d -0.137119px -2.99686px 0px, #ff417d 0.850987px -2.87677px 0px,
-			#ff417d 1.74541px -2.43999px 0px, #ff417d 2.44769px -1.73459px 0px,
+		text-shadow:
+			#ff417d 3px 0px 0px,
+			#ff417d 2.83487px 0.981584px 0px,
+			#ff417d 2.35766px 1.85511px 0px,
+			#ff417d 1.62091px 2.52441px 0px,
+			#ff417d 0.705713px 2.91581px 0px,
+			#ff417d -0.287171px 2.98622px 0px,
+			#ff417d -1.24844px 2.72789px 0px,
+			#ff417d -2.07227px 2.16926px 0px,
+			#ff417d -2.66798px 1.37182px 0px,
+			#ff417d -2.96998px 0.42336px 0px,
+			#ff417d -2.94502px -0.571704px 0px,
+			#ff417d -2.59586px -1.50383px 0px,
+			#ff417d -1.96093px -2.27041px 0px,
+			#ff417d -1.11013px -2.78704px 0px,
+			#ff417d -0.137119px -2.99686px 0px,
+			#ff417d 0.850987px -2.87677px 0px,
+			#ff417d 1.74541px -2.43999px 0px,
+			#ff417d 2.44769px -1.73459px 0px,
 			#ff417d 2.88051px -0.838247px 0px;
 	}
 	@media (min-width: 1140px) {
@@ -246,8 +256,6 @@
 <!-- Sales coupon banner -->
 <div id="sales-banner" class="sales-banner">
 	<div class="sales-banner-container">
-		
-		
 		<div class="sales-banner-wrap-container">
 			<div class="sales-banner-lucy-parent-container">
 				<div class="sales-banner-lucy-container">
@@ -256,10 +264,15 @@
 			</div>
 
 			<div class="sales-banner-center-text-column">
-				<div class="sales-banner-text-godot-4">The Great Godot 4 Starter Kit</div>
-				<div class="sales-banner-text-pre-order">Save on Launch Price For a Limited Time
+				<div class="sales-banner-text-godot-4">
+					The Great Godot 4 Starter Kit
 				</div>
-				<div class="sales-banner-text-save-up-to">With Early Access Perks!</div>
+				<div class="sales-banner-text-pre-order">
+					Save on Launch Price For a Limited Time
+				</div>
+				<div class="sales-banner-text-save-up-to">
+					With Early Access Perks!
+				</div>
 			</div>
 
 			<div class="days-counter-container">
@@ -280,7 +293,7 @@
 		const timeDeltaMs = endDate.getTime() - now.getTime();
 		const remainingDays = Math.max(
 			0,
-			Math.ceil(timeDeltaMs / (1000 * 60 * 60 * 24))
+			Math.ceil(timeDeltaMs / (1000 * 60 * 60 * 24)),
 		);
 		return remainingDays;
 	}
@@ -289,8 +302,9 @@
 	function updateDate() {
 		const daysLeft = calculateTimeLeft(endDate);
 		document.getElementById("days-count").innerHTML = daysLeft;
-		document.getElementById("days-word").innerHTML =
-			daysLeft === 1 ? "day" : "days";
+		document.getElementById("days-word").innerHTML = daysLeft === 1
+			? "day"
+			: "days";
 		return daysLeft;
 	}
 	const timer = setInterval(() => {
