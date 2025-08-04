@@ -27,13 +27,9 @@
 }
 
 .card-box {
-  overflow: auto;
-  border-radius: $round-radius;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   height: 100%;
   color: $color-default-text;
-
-  overflow: hidden;
   @include bg-centered;
 
   @include tablet {
@@ -59,6 +55,13 @@
 
   &.-paddingtiny {
     padding: $spacing-tiny;
+  }
+
+  > .banner-image-link {
+    border-radius: $round-radius $round-radius 0 0;
+    overflow: hidden;
+    background: white;
+    display: block;
   }
 
   > .content {
@@ -149,7 +152,6 @@
 
   &.is_godot4 {
     position: relative;
-    overflow: visible;
     &::before {
       --f: 0.5em;
       $color: #3b9fe7;
