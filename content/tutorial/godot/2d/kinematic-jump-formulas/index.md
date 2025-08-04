@@ -17,8 +17,6 @@ sort: 80
 title: Kinematic Jump Formulas for 2D and 3D Games
 weight: 3
 type: redirect
-videoDuration: ""
-videoId: "NJJNWGD25rg"
 featured: false
 tutorialType: Study Guide
 redirect: https://www.gdquest.com/library/kinematic_jump_formulas/
