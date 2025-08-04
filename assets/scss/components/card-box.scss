@@ -30,6 +30,8 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   height: 100%;
   color: $color-default-text;
+  border-radius: $round-radius;
+
   @include bg-centered;
 
   @include tablet {
@@ -70,6 +72,8 @@
     position: relative;
     overflow: auto;
     background-color: $color-default-base;
+    border-radius: 0 0 $round-radius $round-radius;
+
     > .title {
       display: flex;
       align-items: start;
@@ -193,6 +197,7 @@
   }
 
   & .banner-image-placeholder {
+    border-radius: $round-radius $round-radius 0 0;
     min-height: 320px;
     display: grid;
     place-items: center;
