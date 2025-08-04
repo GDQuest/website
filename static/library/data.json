@@ -14,8 +14,8 @@
         "slug": "study_guide",
         "url": "taxonomy/format/study_guide",
         "items": [
-          "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
+          "kinematic_jump_formulas",
           "raycast_introduction",
           "cheatsheet_tileset_setup"
         ],
@@ -140,6 +140,7 @@
         "url": "taxonomy/format/video",
         "items": [
           "first_2d_game_godot4_vampire_survivor",
+          "character_movement_3d_platformer",
           "laser_2d",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -230,9 +231,10 @@
         "url": "taxonomy/godot_version/4",
         "items": [
           "first_2d_game_godot4_vampire_survivor",
-          "kinematic_jump_formulas",
+          "character_movement_3d_platformer",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -322,6 +324,7 @@
         "slug": "character_controller",
         "url": "taxonomy/tag/character_controller",
         "items": [
+          "character_movement_3d_platformer",
           "kinematic_jump_formulas"
         ],
         "toc": []
@@ -340,6 +343,7 @@
         "url": "taxonomy/tag/tutorial",
         "items": [
           "first_2d_game_godot4_vampire_survivor",
+          "character_movement_3d_platformer",
           "first_3d_game_godot4_arena_fps"
         ],
         "toc": []
@@ -552,6 +556,7 @@
         "slug": "3d",
         "url": "taxonomy/tag/3d",
         "items": [
+          "character_movement_3d_platformer",
           "first_3d_game_godot4_arena_fps"
         ],
         "toc": [
@@ -610,9 +615,10 @@
         "items": [
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
-          "kinematic_jump_formulas",
+          "character_movement_3d_platformer",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -735,9 +741,10 @@
         "items": [
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
-          "kinematic_jump_formulas",
+          "character_movement_3d_platformer",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -770,8 +777,9 @@
         "url": "taxonomy/license/ccby",
         "items": [
           "first_2d_game_godot4_vampire_survivor",
-          "kinematic_jump_formulas",
+          "character_movement_3d_platformer",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -1169,50 +1177,58 @@
         }
       ]
     },
-    "kinematic_jump_formulas": {
-      "slug": "kinematic_jump_formulas",
-      "title": "Kinematic Jump Formulas for 2D and 3D Games",
-      "label": "Kinematic Jump Formulas",
+    "character_movement_3d_platformer": {
+      "slug": "character_movement_3d_platformer",
+      "title": "Character Movement in 3D",
+      "label": "Code a third person 3D character controller",
       "tags": [
-        "physics",
-        "2d_3d",
+        "tutorial",
+        "3d",
         "character_controller"
       ],
       "type": "learning_resource",
-      "format": "study_guide",
+      "format": "video",
       "game_type": [
         "all"
       ],
-      "url": "kinematic_jump_formulas",
+      "url": "character_movement_3d_platformer",
       "godot_version": "4",
       "license": [
         "mit",
         "ccby"
       ],
-      "description": "Get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. You can reuse these simple formulas to precisely control jumps in any 2D or 3D game.",
+      "description": "Learn to code a 3D third-person character controller in Godot 4, complete with smooth ground movement, jump and fall, and nice controls for third-person games.",
       "promoBullets": [
-        "Ready-to-use formulas",
-        "Works in 2D and 3D"
+        "Downloadable Demo",
+        "Bonus"
       ],
-      "links": {},
+      "links": {
+        "library": [
+          {
+            "label": "Learn GDScript From Zero with our interactive App",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app",
+            "category": "library"
+          }
+        ]
+      },
       "cover": {
-        "width": 1393,
-        "height": 783,
-        "ratio": 1.7790549169859515,
+        "height": 1080,
+        "width": 1920,
+        "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
-        "relPath": "kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
-        "newSrc": "https://www.gdquest.com/library/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
-        "originalSrc": "kinematic_jump_formulas_cover.png",
-        "extensionType": "png"
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/character_movement_3d_platformer/cover.jpg",
+        "relPath": "character_movement_3d_platformer/cover.jpg",
+        "newSrc": "https://www.gdquest.com/library/character_movement_3d_platformer/cover.jpg",
+        "originalSrc": "cover.jpg",
+        "extensionType": "jpg"
       },
       "sources": [],
       "search": [
-        "kinematic jump formulas for 2d and 3d games",
-        "kinematic jump formulas",
-        "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game.",
-        "physics",
-        "2d_3d",
+        "character movement in 3d",
+        "code a third person 3d character controller",
+        "learn to code a 3d third-person character controller in godot 4, complete with smooth ground movement, jump and fall, and nice controls for third-person games.",
+        "tutorial",
+        "3d",
         "character_controller",
         "learning_resource",
         "all"
@@ -1220,140 +1236,102 @@
       "lessons": [
         {
           "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+            "label": "Learn 3D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
           },
           "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+            "number": 5,
+            "label": "turn_on_lights",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/turn_on_lights"
           },
           "lesson": {
             "prefix": "l",
-            "label": "Perfect Jumps: Implementing kinematic jumps in Godot",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/perfect_jumps",
-            "number": 6
-          }
-        },
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Controllable Jumps: Adding horizontal and vertical jump control",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/controllable_jumps",
-            "number": 7
+            "label": "Turn on the lights! Module overview",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/turn_on_lights/module_overview",
+            "number": 1
           }
         }
       ],
       "date_created": {
         "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 15,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 4,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 2,
         "minutes": 0,
         "seconds": 0,
-        "date": "2025-06-15T00:00:00.000Z",
+        "date": "2025-08-04T00:00:00.000Z",
         "dateDMY": [
-          15,
-          6,
+          4,
+          8,
           2025
         ],
         "dateMDY": [
-          6,
-          15,
+          8,
+          4,
           2025
         ],
         "dateDDMMYYYY": [
-          "15",
-          "06",
+          "04",
+          "08",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "06",
-          "15",
+          "08",
+          "04",
           "2025"
         ]
       },
       "date_modified": {
         "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 16,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 4,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
-        "hours": 10,
-        "minutes": 24,
-        "seconds": 36,
-        "date": "2025-07-16T08:24:36.586Z",
+        "hours": 18,
+        "minutes": 48,
+        "seconds": 8,
+        "date": "2025-08-04T16:48:08.599Z",
         "dateDMY": [
-          16,
-          7,
+          4,
+          8,
           2025
         ],
         "dateMDY": [
-          7,
-          16,
+          8,
+          4,
           2025
         ],
         "dateDDMMYYYY": [
-          "16",
-          "07",
+          "04",
+          "08",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "07",
-          "16",
+          "08",
+          "04",
           "2025"
         ]
       },
       "discord_invite": "https://discord.gg/87NNb3Z",
       "toc": [
         {
-          "id": "kinematic-jump-formulas-for-2d-and-3d-games",
-          "text": "Kinematic Jump Formulas for 2D and 3D Games",
+          "id": "create-a-3d-character-controller-in-godot-4",
+          "text": "Create a 3D Character Controller in Godot 4",
           "depth": 1,
           "icon": "app",
           "hasChildren": true,
           "children": [
             {
-              "id": "formula-1-initial-jump-speed",
-              "text": "Formula 1: Initial jump speed",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formula-2-jump-gravity-rising",
-              "text": "Formula 2: Jump gravity (rising)",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formula-3-fall-gravity-descending",
-              "text": "Formula 3: Fall gravity (descending)",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formula-4-horizontal-jump-speed",
-              "text": "Formula 4: Horizontal jump speed",
+              "id": "questions-and-troubleshooting",
+              "text": "Questions and troubleshooting",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -1361,10 +1339,26 @@
           ]
         },
         {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
           "id": "updates-code-patches",
           "text": "Updates / Code patches",
           "depth": 1,
           "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "bonus",
+          "text": "Bonus",
+          "depth": 1,
+          "icon": "bonus",
           "hasChildren": false,
           "children": []
         }
@@ -1713,6 +1707,207 @@
             {
               "id": "tips-and-troubleshooting",
               "text": "Tips and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "kinematic_jump_formulas": {
+      "slug": "kinematic_jump_formulas",
+      "title": "Kinematic Jump Formulas for 2D and 3D Games",
+      "label": "Kinematic Jump Formulas",
+      "tags": [
+        "physics",
+        "2d_3d",
+        "character_controller"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "kinematic_jump_formulas",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. You can reuse these simple formulas to precisely control jumps in any 2D or 3D game.",
+      "promoBullets": [
+        "Ready-to-use formulas",
+        "Works in 2D and 3D"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1393,
+        "height": 783,
+        "ratio": 1.7790549169859515,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "relPath": "kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "newSrc": "https://www.gdquest.com/library/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "originalSrc": "kinematic_jump_formulas_cover.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "kinematic jump formulas for 2d and 3d games",
+        "kinematic jump formulas",
+        "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game.",
+        "physics",
+        "2d_3d",
+        "character_controller",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Perfect Jumps: Implementing kinematic jumps in Godot",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/perfect_jumps",
+            "number": 6
+          }
+        },
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Controllable Jumps: Adding horizontal and vertical jump control",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/controllable_jumps",
+            "number": 7
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 15,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-06-15T00:00:00.000Z",
+        "dateDMY": [
+          15,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          15,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "15",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "15",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 16,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 10,
+        "minutes": 24,
+        "seconds": 36,
+        "date": "2025-07-16T08:24:36.586Z",
+        "dateDMY": [
+          16,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          16,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "16",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "kinematic-jump-formulas-for-2d-and-3d-games",
+          "text": "Kinematic Jump Formulas for 2D and 3D Games",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "formula-1-initial-jump-speed",
+              "text": "Formula 1: Initial jump speed",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formula-2-jump-gravity-rising",
+              "text": "Formula 2: Jump gravity (rising)",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formula-3-fall-gravity-descending",
+              "text": "Formula 3: Fall gravity (descending)",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formula-4-horizontal-jump-speed",
+              "text": "Formula 4: Horizontal jump speed",
               "depth": 2,
               "hasChildren": false,
               "children": []
