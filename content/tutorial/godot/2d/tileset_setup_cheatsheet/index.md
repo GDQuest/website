@@ -19,7 +19,7 @@ sort: 55
 title: Setting Up Tilesets - Godot 4 Cheat Sheet
 weight: 2
 type: redirect
-featured: true
+featured: false
 tutorialType: "youtube"
 redirect: https://gdquest.com/library/cheatsheet_tileset_setup
 ---
