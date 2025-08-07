@@ -1209,6 +1209,13 @@
             "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app",
             "category": "library"
           }
+        ],
+        "external": [
+          {
+            "label": "Download The Godot Project Files",
+            "url": "https://github.com/gdquest-demos/godot-4-3d-character-controller-tutorial/archive/refs/tags/1.0.0.zip",
+            "category": "external"
+          }
         ]
       },
       "cover": {
@@ -1236,18 +1243,18 @@
       "lessons": [
         {
           "course": {
-            "label": "Learn 3D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
           },
           "module": {
-            "number": 5,
-            "label": "turn_on_lights",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/turn_on_lights"
+            "number": 2,
+            "label": "Get to Know Godot - GDTours",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot"
           },
           "lesson": {
             "prefix": "l",
-            "label": "Turn on the lights! Module overview",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/turn_on_lights/module_overview",
+            "label": "Get to know Godot",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot/godot_tours",
             "number": 1
           }
         }
@@ -1291,32 +1298,32 @@
         "month": "August",
         "monthShort": "Aug",
         "monthNumber": 8,
-        "dayOfMonth": 4,
-        "dayName": "Monday",
-        "dayShort": "Mon",
+        "dayOfMonth": 7,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 48,
-        "seconds": 8,
-        "date": "2025-08-04T16:48:08.599Z",
+        "hours": 11,
+        "minutes": 18,
+        "seconds": 9,
+        "date": "2025-08-07T09:18:09.163Z",
         "dateDMY": [
-          4,
+          7,
           8,
           2025
         ],
         "dateMDY": [
           8,
-          4,
+          7,
           2025
         ],
         "dateDDMMYYYY": [
-          "04",
+          "07",
           "08",
           "2025"
         ],
         "dateMMDDYYYY": [
           "08",
-          "04",
+          "07",
           "2025"
         ]
       },
@@ -1642,35 +1649,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 30,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 7,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 39,
-        "seconds": 3,
-        "date": "2025-07-30T16:39:03.538Z",
+        "hours": 11,
+        "minutes": 19,
+        "seconds": 54,
+        "date": "2025-08-07T09:19:54.670Z",
         "dateDMY": [
-          30,
           7,
+          8,
           2025
         ],
         "dateMDY": [
+          8,
           7,
-          30,
           2025
         ],
         "dateDDMMYYYY": [
-          "30",
           "07",
+          "08",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "08",
           "07",
-          "30",
           "2025"
         ]
       },
@@ -2861,35 +2868,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 30,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 7,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 17,
-        "minutes": 52,
-        "seconds": 30,
-        "date": "2025-07-30T15:52:30.801Z",
+        "hours": 11,
+        "minutes": 19,
+        "seconds": 35,
+        "date": "2025-08-07T09:19:35.578Z",
         "dateDMY": [
-          30,
           7,
+          8,
           2025
         ],
         "dateMDY": [
+          8,
           7,
-          30,
           2025
         ],
         "dateDDMMYYYY": [
-          "30",
           "07",
+          "08",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "08",
           "07",
-          "30",
           "2025"
         ]
       },
