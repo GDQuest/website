@@ -16,6 +16,7 @@
         "items": [
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
+          "gdtour_get_to_know_godot_editor",
           "raycast_introduction",
           "cheatsheet_tileset_setup"
         ],
@@ -235,6 +236,7 @@
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
           "kinematic_jump_formulas",
+          "gdtour_get_to_know_godot_editor",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -344,6 +346,7 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
+          "gdtour_get_to_know_godot_editor",
           "first_3d_game_godot4_arena_fps"
         ],
         "toc": []
@@ -477,6 +480,7 @@
         "url": "taxonomy/tag/2d_3d",
         "items": [
           "kinematic_jump_formulas",
+          "gdtour_get_to_know_godot_editor",
           "raycast_introduction"
         ],
         "toc": [
@@ -619,6 +623,7 @@
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
           "kinematic_jump_formulas",
+          "gdtour_get_to_know_godot_editor",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -745,6 +750,7 @@
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
           "kinematic_jump_formulas",
+          "gdtour_get_to_know_godot_editor",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -780,6 +786,7 @@
           "character_movement_3d_platformer",
           "cheatsheet_tilemap_basics",
           "kinematic_jump_formulas",
+          "gdtour_get_to_know_godot_editor",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -1931,6 +1938,182 @@
         }
       ]
     },
+    "gdtour_get_to_know_godot_editor": {
+      "slug": "gdtour_get_to_know_godot_editor",
+      "title": "Interactive Tour: Get to Know the Godot Editor",
+      "label": "Learn the Godot Editor interactively",
+      "tags": [
+        "tutorial",
+        "2d_3d"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "gdtour_get_to_know_godot_editor",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Take an interactive guided tour directly inside the Godot editor to learn the user interface and get comfortable navigating Godot's workspace.",
+      "promoBullets": [
+        "Downloadable interactive tour",
+        "Frequent questions"
+      ],
+      "links": {},
+      "cover": {
+        "width": 960,
+        "height": 480,
+        "ratio": 2,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
+        "relPath": "gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
+        "newSrc": "https://www.gdquest.com/library/gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
+        "originalSrc": "godot-tours-banner.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "interactive tour: get to know the godot editor",
+        "learn the godot editor interactively",
+        "take an interactive guided tour directly inside the godot editor to learn the user interface and get comfortable navigating godot's workspace.",
+        "tutorial",
+        "2d_3d",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 2,
+            "label": "Get to Know Godot - GDTours",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Get to know Godot",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot/godot_tours",
+            "number": 1
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2023,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 21,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "st",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2023-12-21T00:00:00.000Z",
+        "dateDMY": [
+          21,
+          12,
+          2023
+        ],
+        "dateMDY": [
+          12,
+          21,
+          2023
+        ],
+        "dateDDMMYYYY": [
+          "21",
+          "12",
+          "2023"
+        ],
+        "dateMMDDYYYY": [
+          "12",
+          "21",
+          "2023"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 14,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 10,
+        "minutes": 8,
+        "seconds": 52,
+        "date": "2025-08-14T08:08:52.561Z",
+        "dateDMY": [
+          14,
+          8,
+          2025
+        ],
+        "dateMDY": [
+          8,
+          14,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "08",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "08",
+          "14",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "interactive-tour-get-to-know-the-godot-editor",
+          "text": "Interactive Tour: Get to Know the Godot Editor",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "how-to-use-gdtour",
+              "text": "How to use GDTour",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "questions-and-troubleshooting",
+              "text": "Questions and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "raycast_introduction": {
       "slug": "raycast_introduction",
       "title": "Understanding raycasts in Godot",
@@ -2871,32 +3054,32 @@
         "month": "August",
         "monthShort": "Aug",
         "monthNumber": 8,
-        "dayOfMonth": 7,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
+        "dayOfMonth": 11,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 11,
-        "minutes": 19,
-        "seconds": 35,
-        "date": "2025-08-07T09:19:35.578Z",
+        "minutes": 12,
+        "seconds": 3,
+        "date": "2025-08-11T09:12:03.592Z",
         "dateDMY": [
-          7,
+          11,
           8,
           2025
         ],
         "dateMDY": [
           8,
-          7,
+          11,
           2025
         ],
         "dateDDMMYYYY": [
-          "07",
+          "11",
           "08",
           "2025"
         ],
         "dateMMDDYYYY": [
           "08",
-          "07",
+          "11",
           "2025"
         ]
       },
