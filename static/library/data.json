@@ -234,8 +234,8 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
-          "gdscript_formatter",
           "kinematic_jump_formulas",
+          "gdscript_formatter",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
           "gdtour_get_to_know_godot_editor",
@@ -775,8 +775,8 @@
           "input_cheatsheet",
           "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
-          "gdscript_formatter",
           "kinematic_jump_formulas",
+          "gdscript_formatter",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
           "gdtour_get_to_know_godot_editor",
@@ -1153,35 +1153,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 21,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "st",
-        "hours": 14,
-        "minutes": 26,
-        "seconds": 36,
-        "date": "2025-05-21T12:26:36.970Z",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 22,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "nd",
+        "hours": 18,
+        "minutes": 53,
+        "seconds": 31,
+        "date": "2025-09-22T16:53:31.214Z",
         "dateDMY": [
-          21,
-          5,
+          22,
+          9,
           2025
         ],
         "dateMDY": [
-          5,
-          21,
+          9,
+          22,
           2025
         ],
         "dateDDMMYYYY": [
-          "21",
-          "05",
+          "22",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "05",
-          "21",
+          "09",
+          "22",
           "2025"
         ]
       },
@@ -1407,183 +1407,6 @@
         }
       ]
     },
-    "gdscript_formatter": {
-      "slug": "gdscript_formatter",
-      "title": "GDScript Formatter: The fast formatter for Godot 4",
-      "label": "Install and use the GDScript formatter",
-      "tags": [
-        "gdscript"
-      ],
-      "type": "asset",
-      "format": "downloadable",
-      "game_type": [
-        "all"
-      ],
-      "url": "gdscript_formatter",
-      "godot_version": "4",
-      "license": [
-        "mit"
-      ],
-      "description": "Learn how to install and use GDScript Formatter, a fast-running formatter for GDScript in Godot 4. Format and reorder your code according to the official style guide.",
-      "promoBullets": [
-        "Built in Rust",
-        "Fast: formats in milliseconds",
-        "Windows, macOS, Linux"
-      ],
-      "links": {
-        "external": [
-          {
-            "label": "GitHub Repository",
-            "url": "https://github.com/GDQuest/GDScript-formatter",
-            "category": "external"
-          }
-        ]
-      },
-      "cover": {
-        "width": 1920,
-        "height": 1080,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/gdscript_formatter/cover.png",
-        "relPath": "gdscript_formatter/cover.png",
-        "newSrc": "https://www.gdquest.com/library/gdscript_formatter/cover.png",
-        "originalSrc": "cover.png",
-        "extensionType": "png"
-      },
-      "sources": [],
-      "search": [
-        "gdscript formatter: the fast formatter for godot 4",
-        "install and use the gdscript formatter",
-        "learn how to install and use gdscript formatter, a fast-running formatter for gdscript in godot 4. format and reorder your code according to the official style guide.",
-        "gdscript",
-        "asset",
-        "all"
-      ],
-      "lessons": [],
-      "date_created": {
-        "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 19,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-09-19T00:00:00.000Z",
-        "dateDMY": [
-          19,
-          9,
-          2025
-        ],
-        "dateMDY": [
-          9,
-          19,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "19",
-          "09",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "09",
-          "19",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 20,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 11,
-        "minutes": 34,
-        "seconds": 14,
-        "date": "2025-09-20T09:34:14.165Z",
-        "dateDMY": [
-          20,
-          9,
-          2025
-        ],
-        "dateMDY": [
-          9,
-          20,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "20",
-          "09",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "09",
-          "20",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "gdscript-formatter-the-fast-formatter-for-godot-4",
-          "text": "GDScript Formatter: The fast formatter for Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "installing-the-formatter",
-              "text": "Installing the formatter",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "using-the-formatter",
-              "text": "Using the formatter",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formatting-on-single-vs-multiple-lines",
-              "text": "Formatting on single vs multiple lines",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "contributing-and-getting-help",
-              "text": "Contributing and getting help",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "code-editor-integration-upcoming",
-              "text": "Code editor integration (upcoming)",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "download-files",
-          "text": "Download files",
-          "depth": 1,
-          "icon": "download",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "kinematic_jump_formulas": {
       "slug": "kinematic_jump_formulas",
       "title": "Kinematic Jump Formulas for 2D and 3D Games",
@@ -1780,6 +1603,183 @@
           "text": "Updates / Code patches",
           "depth": 1,
           "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "gdscript_formatter": {
+      "slug": "gdscript_formatter",
+      "title": "GDScript Formatter: The fast formatter for Godot 4",
+      "label": "Install and use the GDScript formatter",
+      "tags": [
+        "gdscript"
+      ],
+      "type": "asset",
+      "format": "downloadable",
+      "game_type": [
+        "all"
+      ],
+      "url": "gdscript_formatter",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "Learn how to install and use GDScript Formatter, a fast-running formatter for GDScript in Godot 4. Format and reorder your code according to the official style guide.",
+      "promoBullets": [
+        "Built in Rust",
+        "Fast: formats in milliseconds",
+        "Windows, macOS, Linux"
+      ],
+      "links": {
+        "external": [
+          {
+            "label": "GitHub Repository",
+            "url": "https://github.com/GDQuest/GDScript-formatter",
+            "category": "external"
+          }
+        ]
+      },
+      "cover": {
+        "width": 1920,
+        "height": 1080,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/gdscript_formatter/cover.png",
+        "relPath": "gdscript_formatter/cover.png",
+        "newSrc": "https://www.gdquest.com/library/gdscript_formatter/cover.png",
+        "originalSrc": "cover.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "gdscript formatter: the fast formatter for godot 4",
+        "install and use the gdscript formatter",
+        "learn how to install and use gdscript formatter, a fast-running formatter for gdscript in godot 4. format and reorder your code according to the official style guide.",
+        "gdscript",
+        "asset",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 19,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-09-19T00:00:00.000Z",
+        "dateDMY": [
+          19,
+          9,
+          2025
+        ],
+        "dateMDY": [
+          9,
+          19,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "19",
+          "09",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "09",
+          "19",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 22,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "nd",
+        "hours": 23,
+        "minutes": 53,
+        "seconds": 22,
+        "date": "2025-09-22T21:53:22.316Z",
+        "dateDMY": [
+          22,
+          9,
+          2025
+        ],
+        "dateMDY": [
+          9,
+          22,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "22",
+          "09",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "09",
+          "22",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "gdscript-formatter-the-fast-formatter-for-godot-4",
+          "text": "GDScript Formatter: The fast formatter for Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "installing-the-formatter",
+              "text": "Installing the formatter",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "using-the-formatter",
+              "text": "Using the formatter",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formatting-on-single-vs-multiple-lines",
+              "text": "Formatting on single vs multiple lines",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "code-editor-integration",
+              "text": "Code editor integration",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "contributing-and-getting-help",
+              "text": "Contributing and getting help",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
           "hasChildren": false,
           "children": []
         }
@@ -2245,35 +2245,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.676Z",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 22,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "nd",
+        "hours": 14,
+        "minutes": 35,
+        "seconds": 37,
+        "date": "2025-09-22T12:35:37.976Z",
         "dateDMY": [
-          29,
-          8,
+          22,
+          9,
           2025
         ],
         "dateMDY": [
-          8,
-          29,
+          9,
+          22,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
-          "08",
+          "22",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "08",
-          "29",
+          "09",
+          "22",
           "2025"
         ]
       },
@@ -2846,35 +2846,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.676Z",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 22,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "nd",
+        "hours": 23,
+        "minutes": 23,
+        "seconds": 48,
+        "date": "2025-09-22T21:23:48.563Z",
         "dateDMY": [
-          29,
-          8,
+          22,
+          9,
           2025
         ],
         "dateMDY": [
-          8,
-          29,
+          9,
+          22,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
-          "08",
+          "22",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "08",
-          "29",
+          "09",
+          "22",
           "2025"
         ]
       },
