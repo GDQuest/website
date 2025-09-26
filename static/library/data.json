@@ -14,11 +14,11 @@
         "slug": "study_guide",
         "url": "taxonomy/format/study_guide",
         "items": [
-          "kinematic_jump_formulas",
           "pixel_art_setup_godot4",
+          "kinematic_jump_formulas",
           "gdtour_get_to_know_godot_editor",
-          "raycast_introduction",
-          "cheatsheet_tileset_setup"
+          "cheatsheet_tileset_setup",
+          "raycast_introduction"
         ],
         "toc": [
           {
@@ -141,8 +141,8 @@
         "slug": "video",
         "url": "taxonomy/format/video",
         "items": [
-          "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
+          "first_2d_game_godot4_vampire_survivor",
           "laser_2d",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -232,17 +232,17 @@
         "slug": "4",
         "url": "taxonomy/godot_version/4",
         "items": [
-          "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
-          "kinematic_jump_formulas",
+          "first_2d_game_godot4_vampire_survivor",
           "gdscript_formatter",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "gdtour_get_to_know_godot_editor",
+          "cheatsheet_tileset_setup",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup",
           "sophia"
         ],
         "toc": [
@@ -346,8 +346,8 @@
         "slug": "tutorial",
         "url": "taxonomy/tag/tutorial",
         "items": [
-          "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
+          "first_2d_game_godot4_vampire_survivor",
           "gdtour_get_to_know_godot_editor",
           "first_3d_game_godot4_arena_fps"
         ],
@@ -371,43 +371,6 @@
           "kinematic_jump_formulas",
           "raycast_introduction",
           "laser_2d"
-        ],
-        "toc": []
-      },
-      "design_pattern": {
-        "title": "Design Pattern",
-        "title_plural": "Design Patterns",
-        "search": [
-          "design pattern",
-          "design patterns",
-          "software design",
-          "architecture"
-        ],
-        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
-        "slug": "design_pattern",
-        "url": "taxonomy/tag/design_pattern",
-        "items": [
-          "input_cheatsheet"
-        ],
-        "toc": []
-      },
-      "input": {
-        "title": "Input",
-        "title_plural": "Inputs",
-        "search": [
-          "input",
-          "inputs",
-          "keyboard",
-          "mouse",
-          "gamepad",
-          "joystick",
-          "controller"
-        ],
-        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
-        "slug": "input",
-        "url": "taxonomy/tag/input",
-        "items": [
-          "input_cheatsheet"
         ],
         "toc": []
       },
@@ -453,8 +416,8 @@
           "first_2d_game_godot4_vampire_survivor",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
-          "laser_2d",
-          "cheatsheet_tileset_setup"
+          "cheatsheet_tileset_setup",
+          "laser_2d"
         ],
         "toc": [
           {
@@ -575,6 +538,43 @@
           }
         ]
       },
+      "design_pattern": {
+        "title": "Design Pattern",
+        "title_plural": "Design Patterns",
+        "search": [
+          "design pattern",
+          "design patterns",
+          "software design",
+          "architecture"
+        ],
+        "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
+        "slug": "design_pattern",
+        "url": "taxonomy/tag/design_pattern",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
+      "input": {
+        "title": "Input",
+        "title_plural": "Inputs",
+        "search": [
+          "input",
+          "inputs",
+          "keyboard",
+          "mouse",
+          "gamepad",
+          "joystick",
+          "controller"
+        ],
+        "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
+        "slug": "input",
+        "url": "taxonomy/tag/input",
+        "items": [
+          "input_cheatsheet"
+        ],
+        "toc": []
+      },
       "full_game": {
         "title": "Full Game",
         "title_plural": "Full Games",
@@ -645,16 +645,16 @@
         "url": "taxonomy/type/learning_resource",
         "items": [
           "input_cheatsheet",
-          "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
-          "kinematic_jump_formulas",
+          "first_2d_game_godot4_vampire_survivor",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "gdtour_get_to_know_godot_editor",
+          "cheatsheet_tileset_setup",
           "raycast_introduction",
           "laser_2d",
-          "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup"
+          "first_3d_game_godot4_arena_fps"
         ],
         "toc": [
           {
@@ -773,17 +773,17 @@
         "url": "taxonomy/license/mit",
         "items": [
           "input_cheatsheet",
-          "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
-          "kinematic_jump_formulas",
+          "first_2d_game_godot4_vampire_survivor",
           "gdscript_formatter",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "gdtour_get_to_know_godot_editor",
+          "cheatsheet_tileset_setup",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup",
           "sophia"
         ],
         "toc": [
@@ -811,15 +811,15 @@
         "slug": "ccby",
         "url": "taxonomy/license/ccby",
         "items": [
-          "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
-          "kinematic_jump_formulas",
+          "first_2d_game_godot4_vampire_survivor",
           "cheatsheet_tilemap_basics",
+          "kinematic_jump_formulas",
           "gdtour_get_to_know_godot_editor",
+          "cheatsheet_tileset_setup",
           "raycast_introduction",
           "laser_2d",
-          "first_3d_game_godot4_arena_fps",
-          "cheatsheet_tileset_setup"
+          "first_3d_game_godot4_arena_fps"
         ],
         "toc": [
           {
@@ -1043,176 +1043,6 @@
         }
       ]
     },
-    "first_2d_game_godot4_vampire_survivor": {
-      "slug": "first_2d_game_godot4_vampire_survivor",
-      "title": "Your first 2D game with Godot 4",
-      "label": "Make a 2D Vampire Survivor game",
-      "tags": [
-        "2d",
-        "tutorial",
-        "full_game"
-      ],
-      "type": "learning_resource",
-      "format": "video",
-      "game_type": [
-        "survivor"
-      ],
-      "url": "first_2d_game_godot4_vampire_survivor",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Create a 2D vampire survivor game using Godot 4. Implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
-      "promoBullets": [
-        "Downloadable Demo"
-      ],
-      "links": {
-        "library": [
-          {
-            "label": "Learn GDScript From Zero with our interactive App",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app",
-            "category": "library"
-          }
-        ]
-      },
-      "cover": {
-        "height": 720,
-        "width": 1280,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
-        "relPath": "first_2d_game_godot4_vampire_survivor/cover.jpg",
-        "newSrc": "https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/cover.jpg",
-        "originalSrc": "cover.jpg",
-        "extensionType": "jpg"
-      },
-      "sources": [],
-      "search": [
-        "your first 2d game with godot 4",
-        "make a 2d vampire survivor game",
-        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
-        "2d",
-        "tutorial",
-        "full_game",
-        "learning_resource",
-        "survivor"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 2,
-            "label": "Get to Know Godot - GDTours",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Get to know Godot",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot/godot_tours",
-            "number": 1
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2023,
-        "month": "December",
-        "monthShort": "Dec",
-        "monthNumber": 12,
-        "dayOfMonth": 6,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "th",
-        "hours": 1,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2023-12-06T00:00:00.000Z",
-        "dateDMY": [
-          6,
-          12,
-          2023
-        ],
-        "dateMDY": [
-          12,
-          6,
-          2023
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "12",
-          "2023"
-        ],
-        "dateMMDDYYYY": [
-          "12",
-          "06",
-          "2023"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 22,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "nd",
-        "hours": 18,
-        "minutes": 53,
-        "seconds": 31,
-        "date": "2025-09-22T16:53:31.214Z",
-        "dateDMY": [
-          22,
-          9,
-          2025
-        ],
-        "dateMDY": [
-          9,
-          22,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "22",
-          "09",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "09",
-          "22",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "your-first-2d-game-from-zero-in-godot-4",
-          "text": "Your First 2D GAME From Zero in Godot 4  ",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "download-files",
-          "text": "Download files",
-          "depth": 1,
-          "icon": "download",
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "character_movement_3d_platformer": {
       "slug": "character_movement_3d_platformer",
       "title": "Character Movement in 3D",
@@ -1331,35 +1161,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 55,
-        "seconds": 27,
-        "date": "2025-08-29T07:55:27.535Z",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 23,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 18,
+        "minutes": 3,
+        "seconds": 19,
+        "date": "2025-09-23T16:03:19.511Z",
         "dateDMY": [
-          29,
-          8,
+          23,
+          9,
           2025
         ],
         "dateMDY": [
-          8,
-          29,
+          9,
+          23,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
-          "08",
+          "23",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "08",
-          "29",
+          "09",
+          "23",
           "2025"
         ]
       },
@@ -1372,6 +1202,42 @@
           "icon": "app",
           "hasChildren": true,
           "children": [
+            {
+              "id": "code-checkpoints",
+              "text": "Code checkpoints",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "coding-the-camera",
+                  "text": "Coding the camera",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "coding-the-ground-movement",
+                  "text": "Coding the ground movement",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "animating-the-character-skin",
+                  "text": "Animating the character skin",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "adding-jump-and-fall",
+                  "text": "Adding jump and fall",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
             {
               "id": "questions-and-troubleshooting",
               "text": "Questions and troubleshooting",
@@ -1407,53 +1273,60 @@
         }
       ]
     },
-    "kinematic_jump_formulas": {
-      "slug": "kinematic_jump_formulas",
-      "title": "Kinematic Jump Formulas for 2D and 3D Games",
-      "label": "Kinematic Jump Formulas",
+    "first_2d_game_godot4_vampire_survivor": {
+      "slug": "first_2d_game_godot4_vampire_survivor",
+      "title": "Your first 2D game with Godot 4",
+      "label": "Make a 2D Vampire Survivor game",
       "tags": [
-        "physics",
-        "2d_3d",
-        "character_controller"
+        "2d",
+        "tutorial",
+        "full_game"
       ],
       "type": "learning_resource",
-      "format": "study_guide",
+      "format": "video",
       "game_type": [
-        "all"
+        "survivor"
       ],
-      "url": "kinematic_jump_formulas",
+      "url": "first_2d_game_godot4_vampire_survivor",
       "godot_version": "4",
       "license": [
         "mit",
         "ccby"
       ],
-      "description": "Get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. You can reuse these simple formulas to precisely control jumps in any 2D or 3D game.",
+      "description": "Create a 2D vampire survivor game using Godot 4. Implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
       "promoBullets": [
-        "Ready-to-use formulas",
-        "Works in 2D and 3D"
+        "Downloadable Demo"
       ],
-      "links": {},
+      "links": {
+        "library": [
+          {
+            "label": "Learn GDScript From Zero with our interactive App",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app",
+            "category": "library"
+          }
+        ]
+      },
       "cover": {
-        "width": 1393,
-        "height": 783,
-        "ratio": 1.7790549169859515,
+        "height": 720,
+        "width": 1280,
+        "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
-        "relPath": "kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
-        "newSrc": "https://www.gdquest.com/library/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
-        "originalSrc": "kinematic_jump_formulas_cover.png",
-        "extensionType": "png"
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "relPath": "first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "newSrc": "https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "originalSrc": "cover.jpg",
+        "extensionType": "jpg"
       },
       "sources": [],
       "search": [
-        "kinematic jump formulas for 2d and 3d games",
-        "kinematic jump formulas",
-        "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game.",
-        "physics",
-        "2d_3d",
-        "character_controller",
+        "your first 2d game with godot 4",
+        "make a 2d vampire survivor game",
+        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
+        "2d",
+        "tutorial",
+        "full_game",
         "learning_resource",
-        "all"
+        "survivor"
       ],
       "lessons": [
         {
@@ -1462,141 +1335,103 @@
             "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
           },
           "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+            "number": 2,
+            "label": "Get to Know Godot - GDTours",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot"
           },
           "lesson": {
             "prefix": "l",
-            "label": "Perfect Jumps: Implementing kinematic jumps in Godot",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/perfect_jumps",
-            "number": 6
-          }
-        },
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Controllable Jumps: Adding horizontal and vertical jump control",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/controllable_jumps",
-            "number": 7
+            "label": "Get to know Godot",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/get_to_know_godot/godot_tours",
+            "number": 1
           }
         }
       ],
       "date_created": {
-        "year": 2025,
-        "month": "June",
-        "monthShort": "Jun",
-        "monthNumber": 6,
-        "dayOfMonth": 15,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
+        "year": 2023,
+        "month": "December",
+        "monthShort": "Dec",
+        "monthNumber": 12,
+        "dayOfMonth": 6,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
         "dayOrdinal": "th",
-        "hours": 2,
+        "hours": 1,
         "minutes": 0,
         "seconds": 0,
-        "date": "2025-06-15T00:00:00.000Z",
+        "date": "2023-12-06T00:00:00.000Z",
         "dateDMY": [
-          15,
           6,
-          2025
+          12,
+          2023
         ],
         "dateMDY": [
+          12,
           6,
-          15,
-          2025
+          2023
         ],
         "dateDDMMYYYY": [
-          "15",
           "06",
-          "2025"
+          "12",
+          "2023"
         ],
         "dateMMDDYYYY": [
+          "12",
           "06",
-          "15",
-          "2025"
+          "2023"
         ]
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.677Z",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 23,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 21,
+        "minutes": 42,
+        "seconds": 57,
+        "date": "2025-09-23T19:42:57.524Z",
         "dateDMY": [
-          29,
-          8,
+          23,
+          9,
           2025
         ],
         "dateMDY": [
-          8,
-          29,
+          9,
+          23,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
-          "08",
+          "23",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "08",
-          "29",
+          "09",
+          "23",
           "2025"
         ]
       },
-      "discord_invite": "https://discord.gg/87NNb3Z",
+      "discord_invite": "",
       "toc": [
         {
-          "id": "kinematic-jump-formulas-for-2d-and-3d-games",
-          "text": "Kinematic Jump Formulas for 2D and 3D Games",
+          "id": "your-first-2d-game-from-zero-in-godot-4",
+          "text": "Your First 2D GAME From Zero in Godot 4  ",
           "depth": 1,
           "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "formula-1-initial-jump-speed",
-              "text": "Formula 1: Initial jump speed",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formula-2-jump-gravity-rising",
-              "text": "Formula 2: Jump gravity (rising)",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formula-3-fall-gravity-descending",
-              "text": "Formula 3: Fall gravity (descending)",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "formula-4-horizontal-jump-speed",
-              "text": "Formula 4: Horizontal jump speed",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
         },
         {
           "id": "updates-code-patches",
@@ -1605,6 +1440,29 @@
           "icon": "patch",
           "hasChildren": false,
           "children": []
+        },
+        {
+          "id": "bonus",
+          "text": "Bonus",
+          "depth": 1,
+          "icon": "bonus",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "complete-code",
+              "text": "Complete code",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "questions-and-troubleshooting",
+              "text": "Questions and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -1700,32 +1558,32 @@
         "month": "September",
         "monthShort": "Sep",
         "monthNumber": 9,
-        "dayOfMonth": 22,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "nd",
+        "dayOfMonth": 26,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
         "hours": 23,
-        "minutes": 53,
-        "seconds": 22,
-        "date": "2025-09-22T21:53:22.316Z",
+        "minutes": 26,
+        "seconds": 21,
+        "date": "2025-09-26T21:26:21.680Z",
         "dateDMY": [
-          22,
+          26,
           9,
           2025
         ],
         "dateMDY": [
           9,
-          22,
+          26,
           2025
         ],
         "dateDDMMYYYY": [
-          "22",
+          "26",
           "09",
           "2025"
         ],
         "dateMMDDYYYY": [
           "09",
-          "22",
+          "26",
           "2025"
         ]
       },
@@ -2144,6 +2002,207 @@
         }
       ]
     },
+    "kinematic_jump_formulas": {
+      "slug": "kinematic_jump_formulas",
+      "title": "Kinematic Jump Formulas for 2D and 3D Games",
+      "label": "Kinematic Jump Formulas",
+      "tags": [
+        "physics",
+        "2d_3d",
+        "character_controller"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "kinematic_jump_formulas",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. You can reuse these simple formulas to precisely control jumps in any 2D or 3D game.",
+      "promoBullets": [
+        "Ready-to-use formulas",
+        "Works in 2D and 3D"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1393,
+        "height": 783,
+        "ratio": 1.7790549169859515,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "relPath": "kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "newSrc": "https://www.gdquest.com/library/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "originalSrc": "kinematic_jump_formulas_cover.png",
+        "extensionType": "png"
+      },
+      "sources": [],
+      "search": [
+        "kinematic jump formulas for 2d and 3d games",
+        "kinematic jump formulas",
+        "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game.",
+        "physics",
+        "2d_3d",
+        "character_controller",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Perfect Jumps: Implementing kinematic jumps in Godot",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/perfect_jumps",
+            "number": 6
+          }
+        },
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Controllable Jumps: Adding horizontal and vertical jump control",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/controllable_jumps",
+            "number": 7
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 15,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-06-15T00:00:00.000Z",
+        "dateDMY": [
+          15,
+          6,
+          2025
+        ],
+        "dateMDY": [
+          6,
+          15,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "15",
+          "06",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "15",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 29,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 9,
+        "minutes": 55,
+        "seconds": 28,
+        "date": "2025-08-29T07:55:28.677Z",
+        "dateDMY": [
+          29,
+          8,
+          2025
+        ],
+        "dateMDY": [
+          8,
+          29,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "29",
+          "08",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "08",
+          "29",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "kinematic-jump-formulas-for-2d-and-3d-games",
+          "text": "Kinematic Jump Formulas for 2D and 3D Games",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "formula-1-initial-jump-speed",
+              "text": "Formula 1: Initial jump speed",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formula-2-jump-gravity-rising",
+              "text": "Formula 2: Jump gravity (rising)",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formula-3-fall-gravity-descending",
+              "text": "Formula 3: Fall gravity (descending)",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "formula-4-horizontal-jump-speed",
+              "text": "Formula 4: Horizontal jump speed",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "gdtour_get_to_know_godot_editor": {
       "slug": "gdtour_get_to_know_godot_editor",
       "title": "Interactive Tour: Get to Know the Godot Editor",
@@ -2248,32 +2307,32 @@
         "month": "September",
         "monthShort": "Sep",
         "monthNumber": 9,
-        "dayOfMonth": 22,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "nd",
-        "hours": 14,
-        "minutes": 35,
-        "seconds": 37,
-        "date": "2025-09-22T12:35:37.976Z",
+        "dayOfMonth": 23,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 18,
+        "minutes": 3,
+        "seconds": 20,
+        "date": "2025-09-23T16:03:20.658Z",
         "dateDMY": [
-          22,
+          23,
           9,
           2025
         ],
         "dateMDY": [
           9,
-          22,
+          23,
           2025
         ],
         "dateDDMMYYYY": [
-          "22",
+          "23",
           "09",
           "2025"
         ],
         "dateMMDDYYYY": [
           "09",
-          "22",
+          "23",
           "2025"
         ]
       },
@@ -2309,6 +2368,189 @@
           "icon": "download",
           "hasChildren": false,
           "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "cheatsheet_tileset_setup": {
+      "slug": "cheatsheet_tileset_setup",
+      "title": "Setting Up Tilesets: Godot 4 cheat sheet",
+      "label": "A quick reference for basic tileset operations in Godot 4",
+      "tags": [
+        "2d",
+        "cheatsheet"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "cheatsheet_tileset_setup",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in Godot 4. Perfect to bookmark and refer to while working on your 2D games.",
+      "promoBullets": [
+        "Quick reference",
+        "Most common shortcuts",
+        "Step-by-step usage"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "relPath": "cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "newSrc": "https://www.gdquest.com/library/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "originalSrc": "tileset_cheat_sheet.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "setting up tilesets: godot 4 cheat sheet",
+        "a quick reference for basic tileset operations in godot 4",
+        "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games.",
+        "2d",
+        "cheatsheet",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
+          },
+          "module": {
+            "number": 14,
+            "label": "Side Scroller Levels",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_levels"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Tile by Tile: Setting up a pixel art tileset",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_levels/setting_up_tilesets",
+            "number": 2
+          }
+        }
+      ],
+      "date_created": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 12,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-07-12T00:00:00.000Z",
+        "dateDMY": [
+          12,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          12,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "12",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "12",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "August",
+        "monthShort": "Aug",
+        "monthNumber": 8,
+        "dayOfMonth": 29,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 9,
+        "minutes": 55,
+        "seconds": 28,
+        "date": "2025-08-29T07:55:28.673Z",
+        "dateDMY": [
+          29,
+          8,
+          2025
+        ],
+        "dateMDY": [
+          8,
+          29,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "29",
+          "08",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "08",
+          "29",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "setting-up-tilesets-godot-4-cheat-sheet",
+          "text": "Setting Up Tilesets: Godot 4 Cheat Sheet",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "setting-up-a-tileset",
+              "text": "Setting up a tileset",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "physics-setup",
+              "text": "Physics setup",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "collision-shapes",
+              "text": "Collision shapes",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "tips-and-troubleshooting",
+              "text": "Tips and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
         },
         {
           "id": "updates-code-patches",
@@ -2849,32 +3091,32 @@
         "month": "September",
         "monthShort": "Sep",
         "monthNumber": 9,
-        "dayOfMonth": 22,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "nd",
-        "hours": 23,
-        "minutes": 23,
-        "seconds": 48,
-        "date": "2025-09-22T21:23:48.563Z",
+        "dayOfMonth": 23,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "rd",
+        "hours": 21,
+        "minutes": 42,
+        "seconds": 57,
+        "date": "2025-09-23T19:42:57.525Z",
         "dateDMY": [
-          22,
+          23,
           9,
           2025
         ],
         "dateMDY": [
           9,
-          22,
+          23,
           2025
         ],
         "dateDDMMYYYY": [
-          "22",
+          "23",
           "09",
           "2025"
         ],
         "dateMMDDYYYY": [
           "09",
-          "22",
+          "23",
           "2025"
         ]
       },
@@ -3150,189 +3392,6 @@
           "text": "Bonus",
           "depth": 1,
           "icon": "bonus",
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
-    "cheatsheet_tileset_setup": {
-      "slug": "cheatsheet_tileset_setup",
-      "title": "Setting Up Tilesets: Godot 4 cheat sheet",
-      "label": "A quick reference for basic tileset operations in Godot 4",
-      "tags": [
-        "2d",
-        "cheatsheet"
-      ],
-      "type": "learning_resource",
-      "format": "study_guide",
-      "game_type": [
-        "all"
-      ],
-      "url": "cheatsheet_tileset_setup",
-      "godot_version": "4",
-      "license": [
-        "mit",
-        "ccby"
-      ],
-      "description": "Get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in Godot 4. Perfect to bookmark and refer to while working on your 2D games.",
-      "promoBullets": [
-        "Quick reference",
-        "Most common shortcuts",
-        "Step-by-step usage"
-      ],
-      "links": {},
-      "cover": {
-        "width": 1280,
-        "height": 720,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
-        "relPath": "cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
-        "newSrc": "https://www.gdquest.com/library/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
-        "originalSrc": "tileset_cheat_sheet.webp",
-        "extensionType": "webp"
-      },
-      "sources": [],
-      "search": [
-        "setting up tilesets: godot 4 cheat sheet",
-        "a quick reference for basic tileset operations in godot 4",
-        "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games.",
-        "2d",
-        "cheatsheet",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/"
-          },
-          "module": {
-            "number": 14,
-            "label": "Side Scroller Levels",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_levels"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Tile by Tile: Setting up a pixel art tileset",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_levels/setting_up_tilesets",
-            "number": 2
-          }
-        }
-      ],
-      "date_created": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 12,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-07-12T00:00:00.000Z",
-        "dateDMY": [
-          12,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          12,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "12",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "12",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.673Z",
-        "dateDMY": [
-          29,
-          8,
-          2025
-        ],
-        "dateMDY": [
-          8,
-          29,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "29",
-          "08",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "08",
-          "29",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "setting-up-tilesets-godot-4-cheat-sheet",
-          "text": "Setting Up Tilesets: Godot 4 Cheat Sheet",
-          "depth": 1,
-          "icon": "app",
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "setting-up-a-tileset",
-              "text": "Setting up a tileset",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "physics-setup",
-              "text": "Physics setup",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "collision-shapes",
-              "text": "Collision shapes",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "tips-and-troubleshooting",
-              "text": "Tips and troubleshooting",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "Updates / Code patches",
-          "depth": 1,
-          "icon": "patch",
           "hasChildren": false,
           "children": []
         }
