@@ -15,6 +15,13 @@ title: Choosing the right save game format
 weight: 5
 ---
 
+**NEW! We released 2 new guides about saving and loading updated to Godot 4. They largely replace this now archived resource:**
+
+1. [Save and load: Godot 4 cheat sheet](/library/cheatsheet_save_systems/): Covers the different ways to save and load data in Godot 4
+1. [Saving and loading games in Godot 4 (with resources)](/library/save_game_godot4/): A guide to build your first save system in Godot 4 using resources
+
+---
+
 Frequently, we see questions come up about saving the player's game data. The questions are often about what that file should look like.
 
 There's no single answer as all situations are unique. But there are some guidelines you can follow to guide your choice better in the process.
@@ -343,4 +350,3 @@ Games with massive amounts of interconnected content, like MMOs or RTS,' do not 
 At that point, you should be looking into using a complete database system that can keep track of both data and relationships between data.
 
 This topic is beyond this guide's scope, but if you're in this situation, you can look into SQL databases. They're commonly used in large-scale video games.
-
