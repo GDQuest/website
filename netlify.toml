@@ -24,3 +24,9 @@
   to = "http://gdquest.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/schools_outreach"
+  to = "https://www.figma.com/proto/Bct0SZEhq03X1b7cve0GOc/Shareable-Schools-Deck--Working-Copy-?page-id=0%3A1&node-id=615-3820&viewport=1534%2C254%2C0.02&t=XD99GDyqmTk83hSm-1&scaling=min-zoom&content-scaling=fixed"
+  status = 302
+  force = true
