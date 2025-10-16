@@ -15,6 +15,7 @@
         "url": "taxonomy/format/study_guide",
         "items": [
           "save_game_godot4",
+          "gdscript_formatter_godot_addon",
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
           "gdtour_get_to_know_godot_editor",
@@ -238,6 +239,7 @@
           "first_2d_game_godot4_vampire_survivor",
           "save_game_godot4",
           "character_movement_3d_platformer",
+          "gdscript_formatter_godot_addon",
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
           "gdscript_formatter",
@@ -620,6 +622,7 @@
         "slug": "gdscript",
         "url": "taxonomy/tag/gdscript",
         "items": [
+          "gdscript_formatter_godot_addon",
           "gdscript_formatter"
         ],
         "toc": [
@@ -656,6 +659,7 @@
           "first_2d_game_godot4_vampire_survivor",
           "save_game_godot4",
           "character_movement_3d_platformer",
+          "gdscript_formatter_godot_addon",
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
           "cheatsheet_tilemap_basics",
@@ -786,6 +790,7 @@
           "first_2d_game_godot4_vampire_survivor",
           "save_game_godot4",
           "character_movement_3d_platformer",
+          "gdscript_formatter_godot_addon",
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
           "gdscript_formatter",
@@ -824,6 +829,7 @@
         "items": [
           "first_2d_game_godot4_vampire_survivor",
           "character_movement_3d_platformer",
+          "gdscript_formatter_godot_addon",
           "kinematic_jump_formulas",
           "cheatsheet_tilemap_basics",
           "gdtour_get_to_know_godot_editor",
@@ -977,69 +983,69 @@
       "lessons": [],
       "date_created": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.677Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.134Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.677Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.134Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -1124,35 +1130,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 29,
-        "dayName": "Monday",
-        "dayShort": "Mon",
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 14,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
         "dayOrdinal": "th",
-        "hours": 20,
-        "minutes": 43,
-        "seconds": 27,
-        "date": "2025-09-29T18:43:27.624Z",
+        "hours": 15,
+        "minutes": 24,
+        "seconds": 14,
+        "date": "2025-10-14T13:24:14.629Z",
         "dateDMY": [
-          29,
-          9,
+          14,
+          10,
           2025
         ],
         "dateMDY": [
-          9,
-          29,
+          10,
+          14,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
-          "09",
+          "14",
+          "10",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "09",
-          "29",
+          "10",
+          "14",
           "2025"
         ]
       },
@@ -1235,7 +1241,7 @@
         "width": 1280,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/first_2d_game_godot4_vampire_survivor/cover.jpg",
         "relPath": "first_2d_game_godot4_vampire_survivor/cover.jpg",
         "newSrc": "https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/cover.jpg",
         "originalSrc": "cover.jpg",
@@ -1307,35 +1313,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 23,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 14,
         "dayName": "Tuesday",
         "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 21,
-        "minutes": 42,
-        "seconds": 57,
-        "date": "2025-09-23T19:42:57.524Z",
+        "dayOrdinal": "th",
+        "hours": 15,
+        "minutes": 24,
+        "seconds": 14,
+        "date": "2025-10-14T13:24:14.629Z",
         "dateDMY": [
-          23,
-          9,
+          14,
+          10,
           2025
         ],
         "dateMDY": [
-          9,
-          23,
+          10,
+          14,
           2025
         ],
         "dateDDMMYYYY": [
-          "23",
-          "09",
+          "14",
+          "10",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "09",
-          "23",
+          "10",
+          "14",
           "2025"
         ]
       },
@@ -1419,7 +1425,7 @@
         "height": 720,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/save_game_godot4/save_game_cover.webp",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/save_game_godot4/save_game_cover.webp",
         "relPath": "save_game_godot4/save_game_cover.webp",
         "newSrc": "https://www.gdquest.com/library/save_game_godot4/save_game_cover.webp",
         "originalSrc": "save_game_cover.webp",
@@ -1475,32 +1481,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 1,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "st",
-        "hours": 18,
-        "minutes": 20,
-        "seconds": 1,
-        "date": "2025-10-01T16:20:01.027Z",
+        "dayOfMonth": 14,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 10,
+        "minutes": 42,
+        "seconds": 21,
+        "date": "2025-10-14T08:42:21.664Z",
         "dateDMY": [
-          1,
+          14,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          1,
+          14,
           2025
         ],
         "dateDDMMYYYY": [
-          "01",
+          "14",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "01",
+          "14",
           "2025"
         ]
       },
@@ -1614,7 +1620,7 @@
         "width": 1920,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/character_movement_3d_platformer/cover.jpg",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/character_movement_3d_platformer/cover.jpg",
         "relPath": "character_movement_3d_platformer/cover.jpg",
         "newSrc": "https://www.gdquest.com/library/character_movement_3d_platformer/cover.jpg",
         "originalSrc": "cover.jpg",
@@ -1689,32 +1695,32 @@
         "month": "September",
         "monthShort": "Sep",
         "monthNumber": 9,
-        "dayOfMonth": 23,
+        "dayOfMonth": 30,
         "dayName": "Tuesday",
         "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 18,
-        "minutes": 3,
-        "seconds": 19,
-        "date": "2025-09-23T16:03:19.511Z",
+        "dayOrdinal": "th",
+        "hours": 11,
+        "minutes": 21,
+        "seconds": 45,
+        "date": "2025-09-30T09:21:45.544Z",
         "dateDMY": [
-          23,
+          30,
           9,
           2025
         ],
         "dateMDY": [
           9,
-          23,
+          30,
           2025
         ],
         "dateDDMMYYYY": [
-          "23",
+          "30",
           "09",
           "2025"
         ],
         "dateMMDDYYYY": [
           "09",
-          "23",
+          "30",
           "2025"
         ]
       },
@@ -1798,6 +1804,184 @@
         }
       ]
     },
+    "gdscript_formatter_godot_addon": {
+      "slug": "gdscript_formatter_godot_addon",
+      "title": "GDScript Formatter: Godot 4 user manual",
+      "label": "GDScript Formatter addon",
+      "tags": [
+        "gdscript"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "gdscript_formatter_godot_addon",
+      "godot_version": "4",
+      "license": [
+        "mit",
+        "ccby"
+      ],
+      "description": "Complete documentation for installing and using the GDScript Formatter addon to automatically format and lint your GDScript code in Godot 4.",
+      "promoBullets": [
+        "Complete user guide",
+        "Step-by-step installation",
+        "Configuration guide"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/gdscript_formatter_godot_addon/gdscript_formatter_addon_cover.webp",
+        "relPath": "gdscript_formatter_godot_addon/gdscript_formatter_addon_cover.webp",
+        "newSrc": "https://www.gdquest.com/library/gdscript_formatter_godot_addon/gdscript_formatter_addon_cover.webp",
+        "originalSrc": "gdscript_formatter_addon_cover.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "gdscript formatter: godot 4 user manual",
+        "gdscript formatter addon",
+        "complete documentation for installing and using the gdscript formatter addon to automatically format and lint your gdscript code in godot 4.",
+        "gdscript",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 9,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-09T00:00:00.000Z",
+        "dateDMY": [
+          9,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          9,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "09",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "09",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 16,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 14,
+        "minutes": 51,
+        "seconds": 9,
+        "date": "2025-10-16T12:51:09.086Z",
+        "dateDMY": [
+          16,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          16,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "16",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "gdscript-formatter-godot-4-user-manual",
+          "text": "GDScript Formatter: Godot 4 User Manual",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "installation-and-setup",
+              "text": "Installation and setup",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "using-the-formatter",
+              "text": "Using the formatter",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "using-the-linter",
+              "text": "Using the linter",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "configuration-and-settings",
+              "text": "Configuration and settings",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "maintenance",
+              "text": "Maintenance",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "pixel_art_setup_godot4": {
       "slug": "pixel_art_setup_godot4",
       "title": "Setting up pixel art graphics in Godot 4",
@@ -1824,7 +2008,7 @@
         "height": 879,
         "ratio": 1.7781569965870307,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/pixel_art_setup_godot4/images/covert_pixel_art.png",
         "relPath": "pixel_art_setup_godot4/images/covert_pixel_art.png",
         "newSrc": "https://www.gdquest.com/library/pixel_art_setup_godot4/images/covert_pixel_art.png",
         "originalSrc": "images/covert_pixel_art.png",
@@ -1895,35 +2079,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.680Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.148Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -2007,7 +2191,7 @@
         "height": 783,
         "ratio": 1.7790549169859515,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
         "relPath": "kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
         "newSrc": "https://www.gdquest.com/library/kinematic_jump_formulas/kinematic_jump_formulas_cover.png",
         "originalSrc": "kinematic_jump_formulas_cover.png",
@@ -2096,35 +2280,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.677Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.134Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -2214,7 +2398,7 @@
         "height": 1080,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/gdscript_formatter/cover.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/gdscript_formatter/cover.png",
         "relPath": "gdscript_formatter/cover.png",
         "newSrc": "https://www.gdquest.com/library/gdscript_formatter/cover.png",
         "originalSrc": "cover.png",
@@ -2266,35 +2450,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 26,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 16,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
         "dayOrdinal": "th",
-        "hours": 23,
-        "minutes": 26,
-        "seconds": 21,
-        "date": "2025-09-26T21:26:21.680Z",
+        "hours": 17,
+        "minutes": 1,
+        "seconds": 36,
+        "date": "2025-10-16T15:01:36.079Z",
         "dateDMY": [
-          26,
-          9,
+          16,
+          10,
           2025
         ],
         "dateMDY": [
-          9,
-          26,
+          10,
+          16,
           2025
         ],
         "dateDDMMYYYY": [
-          "26",
-          "09",
+          "16",
+          "10",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "09",
-          "26",
+          "10",
+          "16",
           "2025"
         ]
       },
@@ -2384,7 +2568,7 @@
         "height": 1043,
         "ratio": 1.837967401725791,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
         "relPath": "cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
         "newSrc": "https://www.gdquest.com/library/cheatsheet_tilemap_basics/tilemap_editor_cheat_sheet.png",
         "originalSrc": "tilemap_editor_cheat_sheet.png",
@@ -2454,35 +2638,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 27,
-        "date": "2025-08-29T07:55:27.538Z",
+        "minutes": 4,
+        "seconds": 5,
+        "date": "2025-09-08T07:04:05.038Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -2565,7 +2749,7 @@
         "height": 480,
         "ratio": 2,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
         "relPath": "gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
         "newSrc": "https://www.gdquest.com/library/gdtour_get_to_know_godot_editor/godot-tours-banner.webp",
         "originalSrc": "godot-tours-banner.webp",
@@ -2639,32 +2823,32 @@
         "month": "September",
         "monthShort": "Sep",
         "monthNumber": 9,
-        "dayOfMonth": 23,
+        "dayOfMonth": 30,
         "dayName": "Tuesday",
         "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 18,
-        "minutes": 3,
-        "seconds": 20,
-        "date": "2025-09-23T16:03:20.658Z",
+        "dayOrdinal": "th",
+        "hours": 11,
+        "minutes": 21,
+        "seconds": 46,
+        "date": "2025-09-30T09:21:46.596Z",
         "dateDMY": [
-          23,
+          30,
           9,
           2025
         ],
         "dateMDY": [
           9,
-          23,
+          30,
           2025
         ],
         "dateDDMMYYYY": [
-          "23",
+          "30",
           "09",
           "2025"
         ],
         "dateMMDDYYYY": [
           "09",
-          "23",
+          "30",
           "2025"
         ]
       },
@@ -2739,7 +2923,7 @@
         "height": 719,
         "ratio": 1.7802503477051461,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/raycast_introduction/raycast_cover.webp",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/raycast_introduction/raycast_cover.webp",
         "relPath": "raycast_introduction/raycast_cover.webp",
         "newSrc": "https://www.gdquest.com/library/raycast_introduction/raycast_cover.webp",
         "originalSrc": "raycast_cover.webp",
@@ -2811,35 +2995,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.680Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.148Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -2924,7 +3108,7 @@
         "height": 720,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/laser_2d/cover-laser2d.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/laser_2d/cover-laser2d.png",
         "relPath": "laser_2d/cover-laser2d.png",
         "newSrc": "https://www.gdquest.com/library/laser_2d/cover-laser2d.png",
         "originalSrc": "cover-laser2d.png",
@@ -2996,35 +3180,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.679Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.135Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -3165,7 +3349,7 @@
         "height": 1080,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/first_3d_game_godot4_arena_fps/cover.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/first_3d_game_godot4_arena_fps/cover.png",
         "relPath": "first_3d_game_godot4_arena_fps/cover.png",
         "newSrc": "https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/cover.png",
         "originalSrc": "cover.png",
@@ -3237,35 +3421,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 23,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 14,
         "dayName": "Tuesday",
         "dayShort": "Tue",
-        "dayOrdinal": "rd",
-        "hours": 21,
-        "minutes": 42,
-        "seconds": 57,
-        "date": "2025-09-23T19:42:57.525Z",
+        "dayOrdinal": "th",
+        "hours": 15,
+        "minutes": 24,
+        "seconds": 14,
+        "date": "2025-10-14T13:24:14.629Z",
         "dateDMY": [
-          23,
-          9,
+          14,
+          10,
           2025
         ],
         "dateMDY": [
-          9,
-          23,
+          10,
+          14,
           2025
         ],
         "dateDDMMYYYY": [
-          "23",
-          "09",
+          "14",
+          "10",
           "2025"
         ],
         "dateMMDDYYYY": [
-          "09",
-          "23",
+          "10",
+          "14",
           "2025"
         ]
       },
@@ -3577,7 +3761,7 @@
         "height": 720,
         "ratio": 1.7777777777777777,
         "aspectRatio": "landscape",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
         "relPath": "cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
         "newSrc": "https://www.gdquest.com/library/cheatsheet_tileset_setup/tileset_cheat_sheet.webp",
         "originalSrc": "tileset_cheat_sheet.webp",
@@ -3648,35 +3832,35 @@
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.673Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.117Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
@@ -3755,7 +3939,7 @@
         "height": 1241,
         "ratio": 0.8557614826752619,
         "aspectRatio": "portrait",
-        "filePath": "/home/gdquest/Repositories/gdquest/library/library/items/models/sophia/cover.png",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/models/sophia/cover.png",
         "relPath": "models/sophia/cover.png",
         "newSrc": "https://www.gdquest.com/library/models/sophia/cover.png",
         "originalSrc": "./cover.png",
@@ -3781,69 +3965,69 @@
       ],
       "date_created": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.679Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.136Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
       "date_modified": {
         "year": 2025,
-        "month": "August",
-        "monthShort": "Aug",
-        "monthNumber": 8,
-        "dayOfMonth": 29,
-        "dayName": "Friday",
-        "dayShort": "Fri",
+        "month": "September",
+        "monthShort": "Sep",
+        "monthNumber": 9,
+        "dayOfMonth": 8,
+        "dayName": "Monday",
+        "dayShort": "Mon",
         "dayOrdinal": "th",
         "hours": 9,
-        "minutes": 55,
-        "seconds": 28,
-        "date": "2025-08-29T07:55:28.679Z",
+        "minutes": 4,
+        "seconds": 6,
+        "date": "2025-09-08T07:04:06.136Z",
         "dateDMY": [
-          29,
           8,
+          9,
           2025
         ],
         "dateMDY": [
+          9,
           8,
-          29,
           2025
         ],
         "dateDDMMYYYY": [
-          "29",
           "08",
+          "09",
           "2025"
         ],
         "dateMMDDYYYY": [
+          "09",
           "08",
-          "29",
           "2025"
         ]
       },
