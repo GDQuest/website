@@ -1,0 +1,14 @@
+{
+  "character_movement": true,
+  "gdscript_formatter": true,
+  "first_3d_game_godot4_arena_fps": true,
+  "pixel_art_setup_godot4": true,
+  "kinematic_jump_formulas": true,
+  "cheatsheet_save_systems": true,
+  "gdscript_formatter_godot_addon": true,
+  "save_game_godot4": true,
+  "split_screen_coop": true,
+  "juicy_attack": true,
+  "ranged_attacks": true,
+  "hitbox_hurtbox_godot4": true
+}

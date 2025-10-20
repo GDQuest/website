@@ -18,7 +18,11 @@
           "gdscript_formatter_godot_addon",
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
+          "split_screen_coop",
           "gdtour_get_to_know_godot_editor",
+          "hitbox_hurtbox_godot4",
+          "juicy_attack",
+          "ranged_attacks",
           "raycast_introduction",
           "cheatsheet_tileset_setup"
         ],
@@ -171,9 +175,7 @@
         "description": "Guides for web development.",
         "slug": "web_guide",
         "url": "taxonomy/format/web_guide",
-        "items": [
-          "input_cheatsheet"
-        ],
+        "items": [],
         "toc": [
           {
             "id": "web-guides",
@@ -204,9 +206,7 @@
         "description": "Godot 3.x resources, tutorials, and assets.",
         "slug": "3",
         "url": "taxonomy/godot_version/3",
-        "items": [
-          "input_cheatsheet"
-        ],
+        "items": [],
         "toc": [
           {
             "id": "godot",
@@ -244,7 +244,11 @@
           "kinematic_jump_formulas",
           "gdscript_formatter",
           "cheatsheet_tilemap_basics",
+          "split_screen_coop",
           "gdtour_get_to_know_godot_editor",
+          "hitbox_hurtbox_godot4",
+          "juicy_attack",
+          "ranged_attacks",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -298,6 +302,10 @@
         "items": [
           "save_game_godot4",
           "pixel_art_setup_godot4",
+          "split_screen_coop",
+          "hitbox_hurtbox_godot4",
+          "juicy_attack",
+          "ranged_attacks",
           "raycast_introduction"
         ],
         "toc": []
@@ -393,9 +401,7 @@
         "description": "Design patterns are reusable solutions to common problems in software design. They are templates that can be applied to different situations to solve problems in a consistent way.",
         "slug": "design_pattern",
         "url": "taxonomy/tag/design_pattern",
-        "items": [
-          "input_cheatsheet"
-        ],
+        "items": [],
         "toc": []
       },
       "input": {
@@ -413,9 +419,7 @@
         "description": "Input handling, keyboard, mouse, gamepad, joystick, and controller support.",
         "slug": "input",
         "url": "taxonomy/tag/input",
-        "items": [
-          "input_cheatsheet"
-        ],
+        "items": [],
         "toc": []
       },
       "3d_model": {
@@ -518,7 +522,6 @@
         "slug": "cheatsheet",
         "url": "taxonomy/tag/cheatsheet",
         "items": [
-          "input_cheatsheet",
           "cheatsheet_save_systems",
           "cheatsheet_tileset_setup"
         ],
@@ -654,7 +657,6 @@
         "slug": "learning_resource",
         "url": "taxonomy/type/learning_resource",
         "items": [
-          "input_cheatsheet",
           "cheatsheet_save_systems",
           "first_2d_game_godot4_vampire_survivor",
           "save_game_godot4",
@@ -663,7 +665,11 @@
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
           "cheatsheet_tilemap_basics",
+          "split_screen_coop",
           "gdtour_get_to_know_godot_editor",
+          "hitbox_hurtbox_godot4",
+          "juicy_attack",
+          "ranged_attacks",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -785,7 +791,6 @@
         "slug": "mit",
         "url": "taxonomy/license/mit",
         "items": [
-          "input_cheatsheet",
           "cheatsheet_save_systems",
           "first_2d_game_godot4_vampire_survivor",
           "save_game_godot4",
@@ -795,7 +800,11 @@
           "kinematic_jump_formulas",
           "gdscript_formatter",
           "cheatsheet_tilemap_basics",
+          "split_screen_coop",
           "gdtour_get_to_know_godot_editor",
+          "hitbox_hurtbox_godot4",
+          "juicy_attack",
+          "ranged_attacks",
           "raycast_introduction",
           "laser_2d",
           "first_3d_game_godot4_arena_fps",
@@ -947,119 +956,6 @@
     }
   },
   "items": {
-    "input_cheatsheet": {
-      "slug": "input_cheatsheet",
-      "title": "Input Cheatsheet",
-      "label": "A quick guide to capturing and using inputs in Godot",
-      "tags": [
-        "cheatsheet",
-        "design_pattern",
-        "input"
-      ],
-      "type": "learning_resource",
-      "format": "web_guide",
-      "game_type": [
-        "all"
-      ],
-      "url": "input_cheatsheet",
-      "godot_version": "3",
-      "license": [
-        "mit"
-      ],
-      "description": "A quick guide to capturing and using inputs in Godot",
-      "promoBullets": [],
-      "links": {},
-      "sources": [],
-      "search": [
-        "input cheatsheet",
-        "a quick guide to capturing and using inputs in godot",
-        "a quick guide to capturing and using inputs in godot",
-        "cheatsheet",
-        "design_pattern",
-        "input",
-        "learning_resource",
-        "all"
-      ],
-      "lessons": [],
-      "date_created": {
-        "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 8,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 4,
-        "seconds": 6,
-        "date": "2025-09-08T07:04:06.134Z",
-        "dateDMY": [
-          8,
-          9,
-          2025
-        ],
-        "dateMDY": [
-          9,
-          8,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "08",
-          "09",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "09",
-          "08",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "September",
-        "monthShort": "Sep",
-        "monthNumber": 9,
-        "dayOfMonth": 8,
-        "dayName": "Monday",
-        "dayShort": "Mon",
-        "dayOrdinal": "th",
-        "hours": 9,
-        "minutes": 4,
-        "seconds": 6,
-        "date": "2025-09-08T07:04:06.134Z",
-        "dateDMY": [
-          8,
-          9,
-          2025
-        ],
-        "dateMDY": [
-          9,
-          8,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "08",
-          "09",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "09",
-          "08",
-          "2025"
-        ]
-      },
-      "discord_invite": "",
-      "toc": [
-        {
-          "id": "input-cheatsheet",
-          "text": "Input Cheatsheet",
-          "depth": 1,
-          "hasChildren": false,
-          "children": []
-        }
-      ]
-    },
     "cheatsheet_save_systems": {
       "slug": "cheatsheet_save_systems",
       "title": "Save and Load: Godot 4 Cheat Sheet",
@@ -1133,32 +1029,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 14,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 15,
-        "minutes": 24,
-        "seconds": 14,
-        "date": "2025-10-14T13:24:14.629Z",
+        "hours": 16,
+        "minutes": 18,
+        "seconds": 3,
+        "date": "2025-10-19T14:18:03.226Z",
         "dateDMY": [
-          14,
+          19,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          14,
+          19,
           2025
         ],
         "dateDDMMYYYY": [
-          "14",
+          "19",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "14",
+          "19",
           "2025"
         ]
       },
@@ -1316,32 +1212,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 14,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 15,
-        "minutes": 24,
-        "seconds": 14,
-        "date": "2025-10-14T13:24:14.629Z",
+        "hours": 16,
+        "minutes": 18,
+        "seconds": 3,
+        "date": "2025-10-19T14:18:03.226Z",
         "dateDMY": [
-          14,
+          19,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          14,
+          19,
           2025
         ],
         "dateDDMMYYYY": [
-          "14",
+          "19",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "14",
+          "19",
           "2025"
         ]
       },
@@ -1481,32 +1377,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 14,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 10,
-        "minutes": 42,
-        "seconds": 21,
-        "date": "2025-10-14T08:42:21.664Z",
+        "hours": 16,
+        "minutes": 18,
+        "seconds": 4,
+        "date": "2025-10-19T14:18:04.455Z",
         "dateDMY": [
-          14,
+          19,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          14,
+          19,
           2025
         ],
         "dateDDMMYYYY": [
-          "14",
+          "19",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "14",
+          "19",
           "2025"
         ]
       },
@@ -1889,32 +1785,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 16,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 14,
-        "minutes": 51,
-        "seconds": 9,
-        "date": "2025-10-16T12:51:09.086Z",
+        "hours": 16,
+        "minutes": 18,
+        "seconds": 4,
+        "date": "2025-10-19T14:18:04.421Z",
         "dateDMY": [
-          16,
+          19,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          16,
+          19,
           2025
         ],
         "dateDDMMYYYY": [
-          "16",
+          "19",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "16",
+          "19",
           "2025"
         ]
       },
@@ -2453,32 +2349,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 16,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 17,
-        "minutes": 1,
-        "seconds": 36,
-        "date": "2025-10-16T15:01:36.079Z",
+        "hours": 16,
+        "minutes": 18,
+        "seconds": 3,
+        "date": "2025-10-19T14:18:03.226Z",
         "dateDMY": [
-          16,
+          19,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          16,
+          19,
           2025
         ],
         "dateDDMMYYYY": [
-          "16",
+          "19",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "16",
+          "19",
           "2025"
         ]
       },
@@ -2719,6 +2615,183 @@
         }
       ]
     },
+    "split_screen_coop": {
+      "slug": "split_screen_coop",
+      "title": "Split Screen Coop",
+      "label": "How to set up old-style mutiplayer split-screen in Godot 4 with a shared game world.",
+      "tags": [
+        "study_guide"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "split_screen_coop",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "Viewports are windows into your game world. How do they relate to cameras? And how do you set them up for split-screen multiplayer? This guide explains it all.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/split_screen_coop/split_screen_coop.webp",
+        "relPath": "split_screen_coop/split_screen_coop.webp",
+        "newSrc": "https://www.gdquest.com/library/split_screen_coop/split_screen_coop.webp",
+        "originalSrc": "split_screen_coop.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "split screen coop",
+        "how to set up old-style mutiplayer split-screen in godot 4 with a shared game world.",
+        "viewports are windows into your game world. how do they relate to cameras? and how do you set them up for split-screen multiplayer? this guide explains it all.",
+        "study_guide",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 7,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-07T00:00:00.000Z",
+        "dateDMY": [
+          7,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          7,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "07",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "07",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 23,
+        "minutes": 2,
+        "seconds": 3,
+        "date": "2025-10-19T21:02:03.367Z",
+        "dateDMY": [
+          19,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          19,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "19",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "19",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "a-dive-into-splitscreen-coops-with-a-shared-world",
+          "text": "A dive into split-screen co-ops with a shared world",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "set-up-splitscreen-coop",
+              "text": "Set up split-screen co-op",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "splitting-the-screen",
+                  "text": "Splitting the screen",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "mapping-player-input",
+                  "text": "Mapping player input",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "putting-everything-together-in-code",
+                  "text": "Putting everything together in code",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "questions-and-troubleshooting",
+              "text": "Questions and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
     "gdtour_get_to_know_godot_editor": {
       "slug": "gdtour_get_to_know_godot_editor",
       "title": "Interactive Tour: Get to Know the Godot Editor",
@@ -2871,6 +2944,537 @@
             {
               "id": "questions-and-troubleshooting",
               "text": "Questions and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "hitbox_hurtbox_godot4": {
+      "slug": "hitbox_hurtbox_godot4",
+      "title": "Handling attacks and damage with hit and hurt boxes",
+      "label": "How to work with hit and hurt boxes in Godot 4 to handle attacks and damage",
+      "tags": [
+        "study_guide"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "hitbox_hurtbox_godot4",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "Hit boxes are used for dealing damage to something that has one or more hurt boxes. The hit boxes represent parts of a weapon that deal damage while the hurt box represents the parts of a character that can receive damage.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/hitbox_hurtbox_godot4/hitbox_hurtbox_godot4.webp",
+        "relPath": "hitbox_hurtbox_godot4/hitbox_hurtbox_godot4.webp",
+        "newSrc": "https://www.gdquest.com/library/hitbox_hurtbox_godot4/hitbox_hurtbox_godot4.webp",
+        "originalSrc": "hitbox_hurtbox_godot4.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "handling attacks and damage with hit and hurt boxes",
+        "how to work with hit and hurt boxes in godot 4 to handle attacks and damage",
+        "hit boxes are used for dealing damage to something that has one or more hurt boxes. the hit boxes represent parts of a weapon that deal damage while the hurt box represents the parts of a character that can receive damage.",
+        "study_guide",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 3,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "rd",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-03T00:00:00.000Z",
+        "dateDMY": [
+          3,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          3,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "03",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 23,
+        "minutes": 2,
+        "seconds": 2,
+        "date": "2025-10-19T21:02:02.201Z",
+        "dateDMY": [
+          19,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          19,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "19",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "19",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "handling-attacks-and-damage-with-hit-and-hurt-boxe",
+          "text": "Handling attacks and damage with hit and hurt boxes",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "the-hit-and-hurt-box-setup",
+              "text": "The hit and hurt box setup",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "the-hit-box",
+                  "text": "The hit box",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-hurt-box",
+                  "text": "The hurt box",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "questions-and-troubleshooting",
+              "text": "Questions and troubleshooting",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "juicy_attack": {
+      "slug": "juicy_attack",
+      "title": "Juicing up your game attacks",
+      "label": "This project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
+      "tags": [
+        "study_guide"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "juicy_attack",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "Ever wanted to make attacks feel impactful and satisfying? In this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/juicy_attack/juicy_attack.webp",
+        "relPath": "juicy_attack/juicy_attack.webp",
+        "newSrc": "https://www.gdquest.com/library/juicy_attack/juicy_attack.webp",
+        "originalSrc": "juicy_attack.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "juicing up your game attacks",
+        "this project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
+        "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
+        "study_guide",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 9,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-09T00:00:00.000Z",
+        "dateDMY": [
+          9,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          9,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "09",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "09",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 23,
+        "minutes": 2,
+        "seconds": 3,
+        "date": "2025-10-19T21:02:03.357Z",
+        "dateDMY": [
+          19,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          19,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "19",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "19",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "juicing-up-your-game-attacks",
+          "text": "Juicing up your game attacks",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "animating-the-sword-attack",
+              "text": "Animating the sword attack",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "the-sword-scene",
+                  "text": "The sword scene",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-attack-animation",
+                  "text": "The attack animation",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "animating-the-enemy-reaction",
+              "text": "Animating the enemy reaction",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "layering-particle-effects",
+              "text": "Layering particle effects",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "rotating-and-swaying-the-sword",
+              "text": "Rotating and swaying the sword",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "adding-a-knockback-effect-to-the-enemy",
+                  "text": "Adding a knockback effect to the enemy",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "the-final-touch-freezing-time",
+              "text": "The final touch: freezing time",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "Download files",
+          "depth": 1,
+          "icon": "download",
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "Updates / Code patches",
+          "depth": 1,
+          "icon": "patch",
+          "hasChildren": false,
+          "children": []
+        }
+      ]
+    },
+    "ranged_attacks": {
+      "slug": "ranged_attacks",
+      "title": "Ranged attacks with and without area of effect",
+      "label": "Learn how to code a ranged attack that shoots projectiles based on mouse position, with and without area of effect (AoE) in Godot",
+      "tags": [
+        "study_guide"
+      ],
+      "type": "learning_resource",
+      "format": "study_guide",
+      "game_type": [
+        "all"
+      ],
+      "url": "ranged_attacks",
+      "godot_version": "4",
+      "license": [
+        "mit"
+      ],
+      "description": "Learn how to code a ranged attack weapon that targets based on mouse position. This guide covers creating both targetted and area of effect (AoE) attacks using Godot 4.",
+      "promoBullets": [
+        "Downloadable Demo",
+        "FAQ/Troubleshooting"
+      ],
+      "links": {},
+      "cover": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "filePath": "/home/gdquest/Repositories/dev_env/library/library/items/ranged_attacks/ranged_attacks.webp",
+        "relPath": "ranged_attacks/ranged_attacks.webp",
+        "newSrc": "https://www.gdquest.com/library/ranged_attacks/ranged_attacks.webp",
+        "originalSrc": "ranged_attacks.webp",
+        "extensionType": "webp"
+      },
+      "sources": [],
+      "search": [
+        "ranged attacks with and without area of effect",
+        "learn how to code a ranged attack that shoots projectiles based on mouse position, with and without area of effect (aoe) in godot",
+        "learn how to code a ranged attack weapon that targets based on mouse position. this guide covers creating both targetted and area of effect (aoe) attacks using godot 4.",
+        "study_guide",
+        "learning_resource",
+        "all"
+      ],
+      "lessons": [],
+      "date_created": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 13,
+        "dayName": "Monday",
+        "dayShort": "Mon",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-13T00:00:00.000Z",
+        "dateDMY": [
+          13,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          13,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "13",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "13",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 23,
+        "minutes": 2,
+        "seconds": 3,
+        "date": "2025-10-19T21:02:03.364Z",
+        "dateDMY": [
+          19,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          19,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "19",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "19",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "ranged-attacks-with-and-without-area-of-effect",
+          "text": "Ranged attacks with and without area of effect",
+          "depth": 1,
+          "icon": "app",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "ranged-attack-overview",
+              "text": "Ranged attack overview",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "the-arrow-projectile",
+              "text": "The arrow projectile",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "extending-the-arrow-for-area-of-effect",
+              "text": "Extending the arrow for area of effect",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -3424,32 +4028,32 @@
         "month": "October",
         "monthShort": "Oct",
         "monthNumber": 10,
-        "dayOfMonth": 14,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
+        "dayOfMonth": 19,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
         "dayOrdinal": "th",
-        "hours": 15,
-        "minutes": 24,
-        "seconds": 14,
-        "date": "2025-10-14T13:24:14.629Z",
+        "hours": 16,
+        "minutes": 18,
+        "seconds": 3,
+        "date": "2025-10-19T14:18:03.226Z",
         "dateDMY": [
-          14,
+          19,
           10,
           2025
         ],
         "dateMDY": [
           10,
-          14,
+          19,
           2025
         ],
         "dateDDMMYYYY": [
-          "14",
+          "19",
           "10",
           "2025"
         ],
         "dateMMDDYYYY": [
           "10",
-          "14",
+          "19",
           "2025"
         ]
       },
