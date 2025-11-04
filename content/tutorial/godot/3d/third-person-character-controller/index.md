@@ -17,7 +17,6 @@ software: godot
 sort: 50
 title: Create a 3D Character Controller in Godot 4
 weight: 1
-type: video
 videoId: JlgZtOFMdfc
 type: redirect
 redirect: https://gdquest.com/library/character_movement_3d_platformer

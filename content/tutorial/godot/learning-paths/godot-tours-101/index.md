@@ -12,7 +12,6 @@ resources:
   src: godot-tours-banner.webp
 software: godot
 sort: 10
-title: 'GDTour: Get to know the Godot Editor in this interactive tour'
 weight: 2
 type: redirect
 redirect: https://gdquest.com/library/gdtour_get_to_know_godot_editor/
