@@ -11,7 +11,6 @@ resources:
 - name: banner
   src: learn-gdscript-banner.png
 software: godot
-title: Learn GDScript From Zero
 weight: 2
 sort: 0
 type: redirect
