@@ -1,6 +1,15 @@
 {{ define "main" }}
 
 <style>
+    :root{
+        --icon-loading: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M11.9995 2C12.5518 2 12.9995 2.44772 12.9995 3V6C12.9995 6.55228 12.5518 7 11.9995 7C11.4472 7 10.9995 6.55228 10.9995 6V3C10.9995 2.44772 11.4472 2 11.9995 2ZM11.9995 17C12.5518 17 12.9995 17.4477 12.9995 18V21C12.9995 21.5523 12.5518 22 11.9995 22C11.4472 22 10.9995 21.5523 10.9995 21V18C10.9995 17.4477 11.4472 17 11.9995 17ZM20.6597 7C20.9359 7.47829 20.772 8.08988 20.2937 8.36602L17.6956 9.86602C17.2173 10.1422 16.6057 9.97829 16.3296 9.5C16.0535 9.02171 16.2173 8.41012 16.6956 8.13398L19.2937 6.63397C19.772 6.35783 20.3836 6.52171 20.6597 7ZM7.66935 14.5C7.94549 14.9783 7.78161 15.5899 7.30332 15.866L4.70525 17.366C4.22695 17.6422 3.61536 17.4783 3.33922 17C3.06308 16.5217 3.22695 15.9101 3.70525 15.634L6.30332 14.134C6.78161 13.8578 7.3932 14.0217 7.66935 14.5ZM20.6597 17C20.3836 17.4783 19.772 17.6422 19.2937 17.366L16.6956 15.866C16.2173 15.5899 16.0535 14.9783 16.3296 14.5C16.6057 14.0217 17.2173 13.8578 17.6956 14.134L20.2937 15.634C20.772 15.9101 20.9359 16.5217 20.6597 17ZM7.66935 9.5C7.3932 9.97829 6.78161 10.1422 6.30332 9.86602L3.70525 8.36602C3.22695 8.08988 3.06308 7.47829 3.33922 7C3.61536 6.52171 4.22695 6.35783 4.70525 6.63397L7.30332 8.13398C7.78161 8.41012 7.94549 9.02171 7.66935 9.5Z'%3E%3C/path%3E%3C/svg%3E");
+        --icon-checkmark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z'%3E%3C/path%3E%3C/svg%3E");
+        --icon-error: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z'%3E%3C/path%3E%3C/svg%3E");
+        --color-error: #C41D3D;
+        --color-success: #63CC5F;
+        --color-loading: #989898;
+    }
+
     .course_access_check{
         margin-block-end: 4rem;
     }
@@ -29,6 +38,28 @@
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
         transform: translateY(5px);
     }
+    .course_access_check--status_messages--message::before{
+        display: inline-block;
+        margin-inline-end: 0.3rem;
+        height: 1rem;
+        width: 1rem;
+        vertical-align: middle;
+        content: "";
+    }
+    .course_access_check--status_messages--message.loading::before{
+        background-color: var(--color-loading);
+        mask-image: var(--icon-loading);
+        animation: rotate 1s linear infinite;
+    }
+    .course_access_check--status_messages--message.success::before{
+        background-color: var(--color-success);
+        mask-image: var(--icon-checkmark);
+    }
+    .course_access_check--status_messages--message.error::before{
+        background-color: var(--color-error);
+        mask-image: var(--icon-error);
+    }
+
     .course_access_check--status_messages--message.loading {
         opacity: 1;
         transform: translateY(0);
@@ -53,6 +84,13 @@
         .course_access_check--status_messages--message.error {
         opacity: 1;
         transform: translateY(0);
+    }
+
+    .course_access_check--status_messages--message.error span, .course_access_check--status_messages--message.error a{
+        color: #C41D3D;
+    }
+    .course_access_check--status_messages--message.error a{
+        text-decoration: underline;
     }
 
     @keyframes rotate {
@@ -88,9 +126,9 @@
     const messages = (domain) =>
         [
             `<div class="course_access_check--status_messages">`,
-            `<span class="course_access_check--status_messages--message loading">⏳ Checking...</span>`,
-            `<span class="course_access_check--status_messages--message success">✅ Accessible</span>`,
-            `<span class="course_access_check--status_messages--message error">❌ There might be a problem with the domain <a href="${domain}">${domain}</a>. We might still be able to help you set up access. Contact GDQuest.</span>`,
+            `<span class="course_access_check--status_messages--message loading">Checking...</span>`,
+            `<span class="course_access_check--status_messages--message success">Accessible</span>`,
+            `<span class="course_access_check--status_messages--message error"><span>There might be a problem with the domain <a href="${domain}">${domain}</a>.</span> We might still be able to help you set up access. Contact GDQuest.</span>`,
             `</div>`,
         ].join("");
     document.querySelectorAll(".course_access_check ul li a").forEach(
