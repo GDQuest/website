@@ -1,5 +1,6 @@
 ---
 type: "course_access_check"
+date: "2025-11-05T00:00:00-06:00"
 layout: "single"
 ---
 
