@@ -1,0 +1,136 @@
+{{ define "header_content" }}
+<div class="header-background"></div>
+<div class="header-article">
+    <div class="content-grid">
+        <div class="item -span6 -justify-start">
+            {{ partial "components/tutorial-title" . }}
+        </div>
+    </div>
+</div>
+{{ end }} {{ define "main" }}
+
+<style>
+    
+    .course_access_check li{
+        margin-block-start: .6rem;
+    }
+    .course_access_check h3{
+        margin-block-end: 1rem;
+    }
+    .course_access_check h3:nth-of-type(2) {
+        margin-block-start: 4rem;
+    }
+
+    .course_access_check--status_messages {
+        display: block;
+        height: 1rem;
+        font-size: 0.9rem;
+        position: relative;
+        margin-inline-start: 1rem;
+        margin-block-start: 0.3rem;
+    }
+    .course_access_check--status_messages--message {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transform: translateY(5px);
+    }
+    .course_access_check--status_messages--message.loading {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .course_access_check--link {
+        pointer-events: none;
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+    }
+
+    .course_access_check--list_item.success
+        .course_access_check--status_messages--message.loading,
+    .course_access_check--list_item.error
+        .course_access_check--status_messages--message.loading {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    .course_access_check--list_item.success
+        .course_access_check--status_messages--message.success,
+    .course_access_check--list_item.error
+        .course_access_check--status_messages--message.error {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes bounceIn {
+        0% {
+            transform: scale(0.3);
+            opacity: 0;
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        70% {
+            transform: scale(0.9);
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+</style>
+<div class="content-container padding-v-base course_access_check">
+    {{.Content}}
+</div>
+<script>
+    const messages = (domain) =>
+        [
+            `<div class="course_access_check--status_messages">`,
+            `<span class="course_access_check--status_messages--message loading">⏳ Checking...</span>`,
+            `<span class="course_access_check--status_messages--message success">✅ Accessible</span>`,
+            `<span class="course_access_check--status_messages--message error">❌ There might be a problem with the domain <a href="${domain}">${domain}</a>. Please check if this domain is accessible from your location.</span>`,
+            `</div>`,
+        ].join("");
+    document.querySelectorAll(".course_access_check ul li a").forEach(
+        (anchor) => {
+            anchor.addEventListener("click", (event) => {
+                event.stopPropagation();
+                event.preventDefault();
+            });
+            const listItem = anchor.parentElement;
+            listItem.classList.add("course_access_check--list_item");
+            anchor.classList.add("course_access_check--link");
+            const url = new URL(anchor.getAttribute("href"));
+            listItem.innerHTML += messages(
+                url.protocol + "//" + url.hostname,
+            );
+
+            const abortController = new AbortController();
+            const timeoutId = setTimeout(
+                () => abortController.abort(),
+                10000,
+            );
+
+            fetch(anchor.getAttribute("href"), {
+                method: "HEAD",
+                mode: "no-cors",
+                signal: abortController.signal,
+            }).then(
+                // any answer at all means the domain is reachable
+                (res) => listItem.classList.add("success"),
+            ).catch(
+                (err) => listItem.classList.add("error"),
+            );
+        },
+    );
+</script>
+{{ end }}
