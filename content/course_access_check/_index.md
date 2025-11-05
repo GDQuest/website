@@ -8,7 +8,7 @@ title: "Course Access Check"
 
 # Course Access Check
 
-Here you can check if your connection can access all the resources necessary to follow GDQuest courses.
+Please verify that your connection can access all the resources necessary to follow GDQuest courses.
 
 ### Essential:
 

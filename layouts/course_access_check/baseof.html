@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    {{ partial "head" . }}
+    <body>
+        <div class="page-base">
+            <header class="header darkbg">
+                <div class="header-background"></div>
+                {{ partial "nav-main" . }}
+            </header>
+            <main class="content">
+                {{ block "main" . }} {{ end }}
+            </main>
+            {{ partialCached "footer-main" . }}
+        </div>
+        {{ partialCached "jslibs/instantpage/script-src.html" "-" }}
+    </body>
+</html>
