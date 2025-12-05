@@ -192,7 +192,7 @@ Coding is like writing in a foreign language: you've got to learn some basic voc
 I recommend to start with Python for at least 3 reasons:
 
 1. You can create **all kinds of programs** with it: automate tasks on your computer, code web applications, science applications, even games...
-1. It has a **huge active community**. Python is taught in many schools and universities so it's easy to find good learning resources for teenagers and adults alike. My friend Chris Bradiel even [teaches Python to kids](//kidscancode.org/)!
+1. It has a **huge active community**. Python is taught in many schools and universities so it's easy to find good learning resources for teenagers and adults alike. My friend Chris Bradiel even [teaches Python to kids](https://kidscancode.org/)!
 1. It is easy to approach thanks to its **simple syntax**
 
 Python looks like this:
@@ -217,7 +217,7 @@ The product is: 384
 
 > During the last Europython I've met companies who use Python in game development work. Crytek and EA (Frostbyte) use it in their assets pipeline, the build system, and automated tests.
 >
-> <footer>Emmanuel aka TouilleMan, author of the <a href="//github.com/touilleMan/godot-python">Python support in Godot</a></footer>
+> <footer>Emmanuel aka TouilleMan, author of the <a href="https://github.com/touilleMan/godot-python">Python support in Godot</a></footer>
 
 As explained earlier, we're talking about your first text-based language here. It certainly won't and shouldn't be the last you'll study. Python is a good stepping stone on your learning journey: it's a middleground between visual programming languages like Scratch and strict ones like C++.
 
@@ -241,11 +241,11 @@ I don't want to flood you with a long list of resources. Instead, here are two f
 
 ### Automate the Boring Stuff with Python
 
-Al SwiePut your new Python knowledge to good use with this [free book](//automatetheboringstuff.com/)! It is a collection of nice tricks to make your computer work for you. Need to rename many files in a complex way or automate web searches? Each of these programming drills will help you better understand your computer and the Python language by giving you new tools to save time in your future projects.
+Al SwiePut your new Python knowledge to good use with this [free book](https://automatetheboringstuff.com/)! It is a collection of nice tricks to make your computer work for you. Need to rename many files in a complex way or automate web searches? Each of these programming drills will help you better understand your computer and the Python language by giving you new tools to save time in your future projects.
 
 ![Automate the Boring Stuff with Python ebook cover](img/automate-boring-stuff-with-python-cover.png)
 
-The Python community also put up a [nice guide](//docs.python-guide.org/en/latest/intro/learning/) to help you go further with the language.
+The Python community also put up a [nice guide](https://docs.python-guide.org/intro/learning/) to help you go further with the language.
 
 ## Summary
 
@@ -259,14 +259,14 @@ That was a long article, right? If you should only remember a few key points:
 
 It is time for you to use the resources above and to start building your programming muscles! Pick one course, learn in short, focused sessions, and try to practice on your own to learn most efficiently.
 
-In the next part we'll get started with game design. You can find me [on Twitter](//twitter.com/NathanGDQuest) if you have questions!
+In the next part we'll get started with game design. You can find me [on Twitter](https://x.com/NathanGDQuest) if you have questions!
 
 
-_Big thanks to [Simon Love](//twitter.com/ProtoMill) for proofing this guide! And senior game developer [Lars Kokemohr](//www.lkokemohr.de/) for being an awesome mentor._ 😄
+_Big thanks to Simon Love for proofing this guide! And senior game developer [Lars Kokemohr](https://www.lkokemohr.de/) for being an awesome mentor._ 😄
 
 ## Your Questions
 
-Got questions about getting started with programming? [Send me a tweet](//twitter.com/NathanGDQuest)!
+Got questions about getting started with programming? [Send me a tweet](https://x.com/NathanGDQuest)!
 
 I'll add the most useful answers here. Click on questions to unfold them.
 
@@ -304,7 +304,7 @@ And some other important concepts we will look at later in this series, like the
 
 The target of this article is teenagers, adults, and people learning on their own using free resources available on the Internet.
 
-Python is not the only language you could use to get started. There are languages designed specifically to learn programming. The most popular of them today would be [Scratch](//scratch.mit.edu/), a visual programming tool to introduce kids to code.
+Python is not the only language you could use to get started. There are languages designed specifically to learn programming. The most popular of them today would be [Scratch](https://scratch.mit.edu/), a visual programming tool to introduce kids to code.
 
 ![Example of Scratch code](img/scratch-code-example.png)
 
@@ -314,7 +314,7 @@ Then there are other languages with an accessible syntax like Lua, or that offer
 
 Why Python then? First because of the quality of the free courses available out there is high overall. The community set up strong guidelines for what are good practices and what are bad practices. Thanks to this it's easy to stumble upon tutorials I would recommend. This isn't the case with JavaScript where beginners write articles without understanding the language: the quality is all over the place. Great JavaScript resources are often focused on the specifics of web development and don't translate into general software development or games as well as Python's.
 
-Then there's the fact that the [Godot game engine](//godotengine.org) is a great option to learn game development and the transition from Python to Godot's GDscript programming language will be a little easier than coming from another language. Godot pushes you to focus on the basics of object-oriented design in an intuitive way as we will see that later in this series.
+Then there's the fact that the [Godot game engine](https://godotengine.org) is a great option to learn game development and the transition from Python to Godot's GDscript programming language will be a little easier than coming from another language. Godot pushes you to focus on the basics of object-oriented design in an intuitive way as we will see that later in this series.
 
 </details>
 
