@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../web-components/components/themeToggle.client.head.ts"],
+  "sourcesContent": ["/**\n * This script should be loaded individually at the top of the page, as it _should_ block rendering until it has run.\n */\nconst theme = localStorage.getItem(\"theme\");\n\nif (\n  theme === \"dark\" ||\n  (!theme && globalThis.matchMedia(\"(prefers-color-scheme: dark)\").matches)\n) {\n  document.documentElement.classList.add(\"dark\");\n}\n/**\n We don't need to remove \"dark\" ever, since it's not added in the template at any moment\nelse {\n  document.documentElement.classList.remove(\"dark\");\n}\n*/\n"],
+  "mappings": "AAGA,IAAMA,EAAQ,aAAa,QAAQ,OAAA,GAGjCA,IAAU,QACT,CAACA,GAAS,WAAW,WAAW,8BAAA,EAAgC,UAEjE,SAAS,gBAAgB,UAAU,IAAI,MAAA",
+  "names": ["theme"]
+}

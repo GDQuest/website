@@ -10,5 +10,9 @@
   "split_screen_coop": true,
   "juicy_attack": true,
   "ranged_attacks": true,
-  "hitbox_hurtbox_godot4": true
+  "hitbox_hurtbox_godot4": true,
+  "search": true,
+  "glossary": true,
+  "learn_gdscript_from_zero": true,
+  "how_to_ask_questions": true
 }
