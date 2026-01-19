@@ -13,6 +13,7 @@ This is the complete source code for [GDQuest.com](http://gdquest.com/). The web
 - [Translating pages](#translating-pages)
 - [Licenses](#licenses)
 
+
 ## Getting started
 
 The website uses the static site engine [hugo](https://gohugo.io).
