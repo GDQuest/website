@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "slug": "kinematic_jump_formulas",
-      "title": "kinematic jump formulas for 2d and 3d games",
-      "description": "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game.",
+      "slug": "godot_4_6_workflow_changes",
+      "title": "godot 4.6: what changes for you",
+      "description": "this quick reference guide covers what actually changes in your day-to-day work with godot 4.6 and what you do differently now.",
       "entry_type": "learning_resource",
       "format": [
         "study_guide"
@@ -11,29 +11,24 @@
       "tool_version": [
         "godot_4"
       ],
-      "game_space": [
-        "2d",
-        "3d"
-      ],
+      "game_space": [],
       "game_genre": [],
       "subject_tags": [
-        "physics",
-        "character_controller"
+        "workflow"
       ],
       "search": [
-        "kinematic jump formulas for 2d and 3d games",
-        "kinematic jump formulas",
-        "physics",
-        "character controller",
-        "character controllers",
-        "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game."
+        "godot 4.6: what changes for you",
+        "godot 4.6 workflow changes",
+        "workflow",
+        "workflows",
+        "this quick reference guide covers what actually changes in your day-to-day work with godot 4.6 and what you do differently now."
       ],
       "archived": false
     },
     {
-      "slug": "hitbox_hurtbox_godot4",
-      "title": "handling mêlée attacks and damage with hitboxes and hurtboxes",
-      "description": "hitboxes are used for dealing damage to something that has one or more hurtboxes.",
+      "slug": "split_screen_coop",
+      "title": "split screen coop",
+      "description": "viewports are windows into your game world. how do they relate to cameras? and how do you set them up for split-screen multiplayer? this guide explains it all.",
       "entry_type": "learning_resource",
       "format": [
         "video_update"
@@ -47,13 +42,69 @@
       ],
       "game_genre": [],
       "subject_tags": [
-        "combat_systems"
+        "split_screen"
       ],
       "search": [
-        "handling mêlée attacks and damage with hitboxes and hurtboxes",
-        "combat system",
-        "combat systems",
-        "hitboxes are used for dealing damage to something that has one or more hurtboxes."
+        "split screen coop",
+        "how to set up old-style mutiplayer split-screen in godot 4 with a shared game world.",
+        "split screen",
+        "split screens",
+        "viewports are windows into your game world. how do they relate to cameras? and how do you set them up for split-screen multiplayer? this guide explains it all."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "save_game_godot4",
+      "title": "saving and loading games in godot 4 (with resources)",
+      "description": "learn how to save and load game data efficiently using godot 4's resource system. this guide covers creating custom save game resources, handling complex nested data, and understanding the improvements in godot 4's resource saving workflow.",
+      "entry_type": "learning_resource",
+      "format": [
+        "video_update"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "save_systems"
+      ],
+      "search": [
+        "saving and loading games in godot 4 (with resources)",
+        "learn how to save and load game data using godot's resource system",
+        "save system",
+        "save systems",
+        "learn how to save and load game data efficiently using godot 4's resource system. this guide covers creating custom save game resources, handling complex nested data, and understanding the improvements in godot 4's resource saving workflow."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "raycast_introduction",
+      "title": "understanding raycasts in godot",
+      "description": "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "physics"
+      ],
+      "search": [
+        "understanding raycasts in godot",
+        "learn how to use raycasts in your games",
+        "physics",
+        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons."
       ],
       "archived": false
     },
@@ -82,118 +133,6 @@
         "combat system",
         "combat systems",
         "learn how to code a ranged attack weapon that targets based on mouse position. this guide covers creating both targetted and area of effect (aoe) attacks using godot 4."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "how_to_ask_questions",
-      "title": "how to ask questions and get help",
-      "description": "learn the best practices to ask questions in gamedev communities to give people all the information they need to help you and maximize your chances of getting help.",
-      "entry_type": "learning_resource",
-      "format": [
-        "video"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "best_practices",
-        "communication"
-      ],
-      "search": [
-        "how to ask questions and get help",
-        "maximizing your chances of getting help",
-        "best practices",
-        "communication",
-        "learn the best practices to ask questions in gamedev communities to give people all the information they need to help you and maximize your chances of getting help."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "learn_gdscript_from_zero",
-      "title": "learn gdscript from zero",
-      "description": "try the app that converted thousands of people who thought they couldn't code. learn godot's friendly programming language in this free and open-source interactive course that runs directly in the browser! no login required.",
-      "entry_type": "learning_resource",
-      "format": [
-        "interactive"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "gdscript",
-        "workflow"
-      ],
-      "search": [
-        "learn gdscript from zero",
-        "free interactive gdscript course",
-        "gdscript",
-        "learn to code",
-        "interactive course",
-        "beginner",
-        "programming",
-        "godot",
-        "free",
-        "open source",
-        "workflow",
-        "workflows",
-        "try the app that converted thousands of people who thought they couldn't code. learn godot's friendly programming language in this free and open-source interactive course that runs directly in the browser! no login required."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "godot_4_6_workflow_changes",
-      "title": "godot 4.6: what changes for you",
-      "description": "this quick reference guide covers what actually changes in your day-to-day work with godot 4.6 and what you do differently now.",
-      "entry_type": "learning_resource",
-      "format": [
-        "study_guide"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "workflow"
-      ],
-      "search": [
-        "godot 4.6: what changes for you",
-        "godot 4.6 workflow changes",
-        "workflow",
-        "workflows",
-        "this quick reference guide covers what actually changes in your day-to-day work with godot 4.6 and what you do differently now."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "gdtour_get_to_know_godot_editor",
-      "title": "interactive tour: get to know the godot editor",
-      "description": "take an interactive guided tour directly inside the godot editor to learn the user interface and get comfortable navigating godot's workspace.",
-      "entry_type": "learning_resource",
-      "format": [
-        "interactive"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "workflow"
-      ],
-      "search": [
-        "interactive tour: get to know the godot editor",
-        "learn the godot editor interactively",
-        "workflow",
-        "workflows",
-        "take an interactive guided tour directly inside the godot editor to learn the user interface and get comfortable navigating godot's workspace."
       ],
       "archived": false
     },
@@ -253,12 +192,46 @@
       "archived": false
     },
     {
-      "slug": "cheatsheet_tileset_setup",
-      "title": "setting up tilesets: godot 4 cheat sheet",
-      "description": "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games.",
+      "slug": "learn_gdscript_from_zero",
+      "title": "learn gdscript from zero",
+      "description": "try the app that converted thousands of people who thought they couldn't code. learn godot's friendly programming language in this free and open-source interactive course that runs directly in the browser! no login required.",
       "entry_type": "learning_resource",
       "format": [
-        "cheatsheet"
+        "interactive"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "gdscript",
+        "workflow"
+      ],
+      "search": [
+        "learn gdscript from zero",
+        "free interactive gdscript course",
+        "gdscript",
+        "learn to code",
+        "interactive course",
+        "beginner",
+        "programming",
+        "godot",
+        "free",
+        "open source",
+        "workflow",
+        "workflows",
+        "try the app that converted thousands of people who thought they couldn't code. learn godot's friendly programming language in this free and open-source interactive course that runs directly in the browser! no login required."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "laser_2d",
+      "title": "2d laser in godot 4",
+      "description": "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
+      "entry_type": "learning_resource",
+      "format": [
+        "video"
       ],
       "tool_version": [
         "godot_4"
@@ -268,13 +241,176 @@
       ],
       "game_genre": [],
       "subject_tags": [
-        "tileset_tilemap"
+        "vfx",
+        "physics"
       ],
       "search": [
-        "setting up tilesets: godot 4 cheat sheet",
-        "a quick reference for basic tileset operations in godot 4",
-        "tilesets/tilemaps/terrains",
-        "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games."
+        "2d laser in godot 4",
+        "create a 2d laser beam with particle effects",
+        "vfx",
+        "physics",
+        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "kinematic_jump_formulas",
+      "title": "kinematic jump formulas for 2d and 3d games",
+      "description": "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game.",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "physics",
+        "character_controller"
+      ],
+      "search": [
+        "kinematic jump formulas for 2d and 3d games",
+        "kinematic jump formulas",
+        "physics",
+        "character controller",
+        "character controllers",
+        "get ready-to-use formulas to calculate jump physics based on height, timing, and distance instead of guessing the jump speed and gravity values. you can reuse these simple formulas to precisely control jumps in any 2d or 3d game."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "juicy_attack",
+      "title": "juicing up your game attacks",
+      "description": "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
+      "entry_type": "learning_resource",
+      "format": [
+        "video_update"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "combat_systems",
+        "vfx"
+      ],
+      "search": [
+        "juicing up your game attacks",
+        "this project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
+        "combat system",
+        "combat systems",
+        "vfx",
+        "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "how_to_ask_questions",
+      "title": "how to ask questions and get help",
+      "description": "learn the best practices to ask questions in gamedev communities to give people all the information they need to help you and maximize your chances of getting help.",
+      "entry_type": "learning_resource",
+      "format": [
+        "video"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "best_practices",
+        "communication"
+      ],
+      "search": [
+        "how to ask questions and get help",
+        "maximizing your chances of getting help",
+        "best practices",
+        "communication",
+        "learn the best practices to ask questions in gamedev communities to give people all the information they need to help you and maximize your chances of getting help."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "hitbox_hurtbox_godot4",
+      "title": "handling mêlée attacks and damage with hitboxes and hurtboxes",
+      "description": "hitboxes are used for dealing damage to something that has one or more hurtboxes.",
+      "entry_type": "learning_resource",
+      "format": [
+        "video_update"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "combat_systems"
+      ],
+      "search": [
+        "handling mêlée attacks and damage with hitboxes and hurtboxes",
+        "combat system",
+        "combat systems",
+        "hitboxes are used for dealing damage to something that has one or more hurtboxes."
+      ],
+      "archived": false
+    },
+    {
+      "slug": "glossary",
+      "title": "gdquest glossary",
+      "description": "a model to be used by all glossary entries",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "gdquest glossary",
+        "a model to be used by all glossary entries"
+      ],
+      "archived": false
+    },
+    {
+      "slug": "gdtour_get_to_know_godot_editor",
+      "title": "interactive tour: get to know the godot editor",
+      "description": "take an interactive guided tour directly inside the godot editor to learn the user interface and get comfortable navigating godot's workspace.",
+      "entry_type": "learning_resource",
+      "format": [
+        "interactive"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "workflow"
+      ],
+      "search": [
+        "interactive tour: get to know the godot editor",
+        "learn the godot editor interactively",
+        "workflow",
+        "workflows",
+        "take an interactive guided tour directly inside the godot editor to learn the user interface and get comfortable navigating godot's workspace."
       ],
       "archived": false
     },
@@ -306,31 +442,26 @@
       "archived": false
     },
     {
-      "slug": "character_movement_3d_platformer",
-      "title": "character movement in 3d",
-      "description": "learn to code a 3d third-person character controller in godot 4, complete with smooth ground movement, jump and fall, and nice controls for third-person games.",
-      "entry_type": "learning_resource",
+      "slug": "gdscript_formatter",
+      "title": "gdscript formatter: the fast formatter for godot 4",
+      "description": "learn how to install and use gdscript formatter, a fast-running formatter for gdscript in godot 4. format and reorder your code according to the official style guide.",
+      "entry_type": "tool",
       "format": [
-        "video"
+        "downloadable"
       ],
       "tool_version": [
         "godot_4"
       ],
-      "game_space": [
-        "3d"
-      ],
-      "game_genre": [
-        "platformer"
-      ],
+      "game_space": [],
+      "game_genre": [],
       "subject_tags": [
-        "character_controller"
+        "gdscript"
       ],
       "search": [
-        "character movement in 3d",
-        "code a third person 3d character controller",
-        "character controller",
-        "character controllers",
-        "learn to code a 3d third-person character controller in godot 4, complete with smooth ground movement, jump and fall, and nice controls for third-person games."
+        "gdscript formatter: the fast formatter for godot 4",
+        "install and use the gdscript formatter",
+        "gdscript",
+        "learn how to install and use gdscript formatter, a fast-running formatter for gdscript in godot 4. format and reorder your code according to the official style guide."
       ],
       "archived": false
     },
@@ -365,38 +496,9 @@
       "archived": false
     },
     {
-      "slug": "juicy_attack",
-      "title": "juicing up your game attacks",
-      "description": "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
-      "entry_type": "learning_resource",
-      "format": [
-        "video_update"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [
-        "2d"
-      ],
-      "game_genre": [],
-      "subject_tags": [
-        "combat_systems",
-        "vfx"
-      ],
-      "search": [
-        "juicing up your game attacks",
-        "this project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
-        "combat system",
-        "combat systems",
-        "vfx",
-        "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "laser_2d",
-      "title": "2d laser in godot 4",
-      "description": "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
+      "slug": "first_2d_game_godot4_vampire_survivor",
+      "title": "your first 2d game with godot 4",
+      "description": "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
       "entry_type": "learning_resource",
       "format": [
         "video"
@@ -407,41 +509,45 @@
       "game_space": [
         "2d"
       ],
-      "game_genre": [],
+      "game_genre": [
+        "roguelite",
+        "survivor"
+      ],
       "subject_tags": [
-        "vfx",
-        "physics"
+        "full_game"
       ],
       "search": [
-        "2d laser in godot 4",
-        "create a 2d laser beam with particle effects",
-        "vfx",
-        "physics",
-        "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect."
+        "your first 2d game with godot 4",
+        "make a 2d vampire survivor game",
+        "full game",
+        "full games",
+        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player."
       ],
       "archived": false
     },
     {
-      "slug": "gdscript_formatter",
-      "title": "gdscript formatter: the fast formatter for godot 4",
-      "description": "learn how to install and use gdscript formatter, a fast-running formatter for gdscript in godot 4. format and reorder your code according to the official style guide.",
-      "entry_type": "tool",
+      "slug": "cheatsheet_tileset_setup",
+      "title": "setting up tilesets: godot 4 cheat sheet",
+      "description": "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games.",
+      "entry_type": "learning_resource",
       "format": [
-        "downloadable"
+        "cheatsheet"
       ],
       "tool_version": [
         "godot_4"
       ],
-      "game_space": [],
+      "game_space": [
+        "2d"
+      ],
       "game_genre": [],
       "subject_tags": [
-        "gdscript"
+        "tileset_tilemap"
       ],
       "search": [
-        "gdscript formatter: the fast formatter for godot 4",
-        "install and use the gdscript formatter",
-        "gdscript",
-        "learn how to install and use gdscript formatter, a fast-running formatter for gdscript in godot 4. format and reorder your code according to the official style guide."
+        "setting up tilesets: godot 4 cheat sheet",
+        "a quick reference for basic tileset operations in godot 4",
+        "tilesets/tilemaps/terrains",
+        "get a condensed cheat sheet study guide covering the essential steps for creating tilesets, adding tile sources, configuring physics layers, and setting up collision shapes in godot 4. perfect to bookmark and refer to while working on your 2d games."
       ],
       "archived": false
     },
@@ -468,55 +574,6 @@
         "quick reference for tilemap editor tools and workflows",
         "tilesets/tilemaps/terrains",
         "a condensed reference that covers the tilemap editor tools you'll use most often in godot 4. get quick step-by-step recaps of how to paint tiles, navigation controls, selection tools, and keyboard shortcuts you'll use most while creating 2d levels."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "glossary",
-      "title": "gdquest glossary",
-      "description": "a model to be used by all glossary entries",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "gdquest glossary",
-        "a model to be used by all glossary entries"
-      ],
-      "archived": false
-    },
-    {
-      "slug": "raycast_introduction",
-      "title": "understanding raycasts in godot",
-      "description": "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
-      "entry_type": "learning_resource",
-      "format": [
-        "study_guide"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [
-        "2d",
-        "3d"
-      ],
-      "game_genre": [],
-      "subject_tags": [
-        "physics"
-      ],
-      "search": [
-        "understanding raycasts in godot",
-        "learn how to use raycasts in your games",
-        "physics",
-        "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons."
       ],
       "archived": false
     },
@@ -549,37 +606,9 @@
       "archived": false
     },
     {
-      "slug": "save_game_godot4",
-      "title": "saving and loading games in godot 4 (with resources)",
-      "description": "learn how to save and load game data efficiently using godot 4's resource system. this guide covers creating custom save game resources, handling complex nested data, and understanding the improvements in godot 4's resource saving workflow.",
-      "entry_type": "learning_resource",
-      "format": [
-        "video_update"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [
-        "2d",
-        "3d"
-      ],
-      "game_genre": [],
-      "subject_tags": [
-        "save_systems"
-      ],
-      "search": [
-        "saving and loading games in godot 4 (with resources)",
-        "learn how to save and load game data using godot's resource system",
-        "save system",
-        "save systems",
-        "learn how to save and load game data efficiently using godot 4's resource system. this guide covers creating custom save game resources, handling complex nested data, and understanding the improvements in godot 4's resource saving workflow."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "first_2d_game_godot4_vampire_survivor",
-      "title": "your first 2d game with godot 4",
-      "description": "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player.",
+      "slug": "character_movement_3d_platformer",
+      "title": "character movement in 3d",
+      "description": "learn to code a 3d third-person character controller in godot 4, complete with smooth ground movement, jump and fall, and nice controls for third-person games.",
       "entry_type": "learning_resource",
       "format": [
         "video"
@@ -588,55 +617,26 @@
         "godot_4"
       ],
       "game_space": [
-        "2d"
-      ],
-      "game_genre": [
-        "roguelite",
-        "survivor"
-      ],
-      "subject_tags": [
-        "full_game"
-      ],
-      "search": [
-        "your first 2d game with godot 4",
-        "make a 2d vampire survivor game",
-        "full game",
-        "full games",
-        "create a 2d vampire survivor game using godot 4. implement player movement, health, shooting mechanics, and enemies that spawn and follow the player."
-      ],
-      "archived": false
-    },
-    {
-      "slug": "split_screen_coop",
-      "title": "split screen coop",
-      "description": "viewports are windows into your game world. how do they relate to cameras? and how do you set them up for split-screen multiplayer? this guide explains it all.",
-      "entry_type": "learning_resource",
-      "format": [
-        "video_update"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [
-        "2d",
         "3d"
       ],
-      "game_genre": [],
+      "game_genre": [
+        "platformer"
+      ],
       "subject_tags": [
-        "split_screen"
+        "character_controller"
       ],
       "search": [
-        "split screen coop",
-        "how to set up old-style mutiplayer split-screen in godot 4 with a shared game world.",
-        "split screen",
-        "split screens",
-        "viewports are windows into your game world. how do they relate to cameras? and how do you set them up for split-screen multiplayer? this guide explains it all."
+        "character movement in 3d",
+        "code a third person 3d character controller",
+        "character controller",
+        "character controllers",
+        "learn to code a 3d third-person character controller in godot 4, complete with smooth ground movement, jump and fall, and nice controls for third-person games."
       ],
       "archived": false
     },
     {
-      "slug": "ternary_expression",
-      "title": "ternary expression",
+      "slug": "ai_blackboard",
+      "title": "blackboard pattern (game ai)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -651,16 +651,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "ternary expression",
-        "condition",
-        "if / else",
+        "blackboard pattern (game ai)",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "function_override",
-      "title": "overriding a function",
+      "slug": "ai_in_games",
+      "title": "ai (game ai)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -675,15 +673,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "overriding a function",
-        "oop",
+        "ai (game ai)",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "dependency_injection",
-      "title": "dependency injection",
+      "slug": "angle_radians",
+      "title": "radians (angle)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -698,17 +695,16 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "dependency injection",
-        "passing dependencies",
-        "loose coupling",
-        "inversion of control",
+        "radians (angle)",
+        "angle",
+        "degrees",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "class_inner",
-      "title": "inner classes",
+      "slug": "annotation",
+      "title": "annotation",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -723,14 +719,17 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "inner classes",
+        "annotation",
+        "@onready",
+        "@export",
+        "@abstract",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "function_keyword",
-      "title": "function",
+      "slug": "api",
+      "title": "api (application programming interface)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -745,14 +744,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "function",
+        "api (application programming interface)",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "euler_angles",
-      "title": "euler angles",
+      "slug": "architecture",
+      "title": "software architecture",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -767,18 +766,16 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "euler angles",
-        "rotation angles",
-        "yaw pitch roll",
-        "3D rotation",
-        "rotation representation",
+        "software architecture",
+        "structure",
+        "pattern",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "rigid_body",
-      "title": "rigid body",
+      "slug": "array",
+      "title": "arrays",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -793,17 +790,18 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "rigid body",
-        "physics body",
-        "dynamic body",
-        "physics simulation",
+        "arrays",
+        "List",
+        "Vector",
+        "Set",
+        "WeakSet",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "logic_programming",
-      "title": "logic programming",
+      "slug": "autoload",
+      "title": "autoload",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -818,14 +816,17 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "logic programming",
+        "autoload",
+        "singleton",
+        "global",
+        "database",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "statement",
-      "title": "statement",
+      "slug": "backend",
+      "title": "backend",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -840,14 +841,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "statement",
+        "backend",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "kill_plane",
-      "title": "kill plane",
+      "slug": "basis",
+      "title": "basis",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -862,10 +863,11 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "kill plane",
-        "death plane",
-        "kill zone",
-        "level boundary",
+        "basis",
+        "rotation",
+        "matrix",
+        "orientation",
+        "axes",
         ""
       ],
       "archived": false
@@ -893,8 +895,8 @@
       "archived": false
     },
     {
-      "slug": "game_states",
-      "title": "game states",
+      "slug": "best_code",
+      "title": "best possible code",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -909,7 +911,58 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "game states",
+        "best possible code",
+        "efficiency",
+        "efficient",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "bezier_curve",
+      "title": "bezier curve",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "bezier curve",
+        "spline",
+        "path",
+        "smooth interpolation",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "billboard",
+      "title": "billboard (3d)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "billboard (3d)",
+        "Sprite3D",
+        "Label3D",
         ""
       ],
       "archived": false
@@ -943,8 +996,8 @@
       "archived": false
     },
     {
-      "slug": "method",
-      "title": "method, member function",
+      "slug": "boilerplate",
+      "title": "boilerplate",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -959,14 +1012,16 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "method, member function",
+        "boilerplate",
+        "template",
+        "scaffolding",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "material",
-      "title": "material",
+      "slug": "boolean_expression",
+      "title": "boolean expressions",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -981,17 +1036,16 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "material",
-        "graphics",
-        "design",
-        "art",
+        "boolean expressions",
+        "true",
+        "false",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "vector",
-      "title": "vector",
+      "slug": "bound_check",
+      "title": "bound checks",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -1006,17 +1060,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "vector",
-        "direction",
-        "length",
-        "movement",
+        "bound checks",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "expression",
-      "title": "expressions",
+      "slug": "class_inner",
+      "title": "inner classes",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -1031,14 +1082,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "expressions",
+        "inner classes",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "draw_order",
-      "title": "draw order",
+      "slug": "class_keyword",
+      "title": "class",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -1053,908 +1104,7 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "draw order",
-        "graphics",
-        "rendering",
-        "passes",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "normal",
-      "title": "normal vector",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "normal vector",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "annotation",
-      "title": "annotation",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "annotation",
-        "@onready",
-        "@export",
-        "@abstract",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "frames_per_second",
-      "title": "frames per second",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "frames per second",
-        "FPS",
-        "jitter",
-        "v-sync",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "framerate_independence",
-      "title": "framerate independence",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "framerate independence",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "race_condition",
-      "title": "race condition",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "race condition",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "bezier_curve",
-      "title": "bezier curve",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "bezier curve",
-        "spline",
-        "path",
-        "smooth interpolation",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "file_format_sounds",
-      "title": "file format for sounds",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "file format for sounds",
-        "sound",
-        "mp3",
-        "wav",
-        "ogg vorbis",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "dependency",
-      "title": "dependency",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "dependency",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "code_blocks",
-      "title": "code blocks",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "code blocks",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "constructor",
-      "title": "constructor method",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "constructor method",
-        "init",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "object",
-      "title": "object",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "object",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "billboard",
-      "title": "billboard (3d)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "billboard (3d)",
-        "Sprite3D",
-        "Label3D",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "keyframe",
-      "title": "keyframe",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "keyframe",
-        "animation",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "basis",
-      "title": "basis",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "basis",
-        "rotation",
-        "matrix",
-        "orientation",
-        "axes",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "static_variable",
-      "title": "static variable",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "static variable",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "object_oriented_programming",
-      "title": "object-oriented programming",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "object-oriented programming",
-        "oop",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "viewport",
-      "title": "viewport",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "viewport",
-        "rendering",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "quaternion",
-      "title": "quaternion",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "quaternion",
-        "rotation",
-        "3D rotation",
-        "quaternions",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "sprite",
-      "title": "sprite",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "sprite",
-        "texture",
-        "animation",
-        "2d_graphics",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "implementation_details",
-      "title": "implementation details",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "level_design",
-      "title": "level design",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "sprite_sheet",
-      "title": "sprite sheet",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "sprite sheet",
-        "sprite atlas",
-        "texture atlas",
-        "animation frames",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "your_future_self",
-      "title": "your co-worker: your future self",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "your co-worker: your future self",
-        "documentation",
-        "collaboration",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "pseudo_code",
-      "title": "pseudo code",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "pseudo code",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "super_keyword",
-      "title": "super keyword",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "super keyword",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "custom_constructor",
-      "title": "custom constructors",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "custom constructors",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "inheritance",
-      "title": "inheritance",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "inheritance",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "forward_direction",
-      "title": "forward direction",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "forward direction",
-        "transforms",
-        "basis",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "parameter",
-      "title": "function parameter",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "function parameter",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "data_structure",
-      "title": "data structure",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "data structure",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "stylebox",
-      "title": "stylebox",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "stylebox",
-        "StyleBoxFlat",
-        "StyleBoxTexture",
-        "StyleBoxLine",
-        "StyleBoxEmpty",
-        "user interface",
-        "theme",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "shader",
-      "title": "shaders",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "shaders",
-        "graphics",
-        "design",
-        "art",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_init",
-      "title": "init function",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "init function",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "dictionary",
-      "title": "dictionary",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "dictionary",
-        "Object",
-        "Hashmap",
-        "Table",
-        "Map",
-        "UnorderedMap",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "polar_coordinates",
-      "title": "polar coordinates",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "polar coordinates",
-        "angle",
-        "degrees",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "raycast",
-      "title": "raycast",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "raycast",
-        "physics",
-        "collision",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "finite_state_machine",
-      "title": "finite state machine",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "finite state machine",
-        "FSM",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "early_return",
-      "title": "early returns",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "early returns",
+        "class",
         ""
       ],
       "archived": false
@@ -1982,8 +1132,8 @@
       "archived": false
     },
     {
-      "slug": "design_pattern",
-      "title": "design pattern",
+      "slug": "code_blocks",
+      "title": "code blocks",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -1998,16 +1148,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "design pattern",
-        "programming pattern",
-        "state machine",
+        "code blocks",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "function_virtual",
-      "title": "virtual function",
+      "slug": "collision",
+      "title": "collisions",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2022,7 +1170,58 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "virtual function",
+        "collisions",
+        "physics",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "collision_layers_and_masks",
+      "title": "collision layers and masks",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "collision layers and masks",
+        "physics",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "command_line",
+      "title": "command line",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "command line",
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd",
         ""
       ],
       "archived": false
@@ -2051,8 +1250,8 @@
       "archived": false
     },
     {
-      "slug": "scene_tree",
-      "title": "scene tree",
+      "slug": "constant",
+      "title": "constant",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2067,14 +1266,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "scene tree",
+        "constant",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "keyword_await",
-      "title": "await",
+      "slug": "constructor",
+      "title": "constructor method",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2089,16 +1288,15 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "await",
-        "coroutine",
-        "pause",
+        "constructor method",
+        "init",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "main_loop",
-      "title": "main loop",
+      "slug": "continuous_collision_detection",
+      "title": "continuous collision detection (ccd)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2113,14 +1311,17 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "main loop",
+        "continuous collision detection (ccd)",
+        "CCD",
+        "tunneling",
+        "fast-moving objects",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "resource",
-      "title": "resource",
+      "slug": "copy_customize_create",
+      "title": "copy, customize, create",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2135,14 +1336,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "resource",
+        "copy, customize, create",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "low_level_programming",
-      "title": "low-level programming",
+      "slug": "coupling",
+      "title": "coupling",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2157,15 +1358,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "low-level programming",
-        "memory",
+        "coupling",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "backend",
-      "title": "backend",
+      "slug": "coyote_time",
+      "title": "coyote time",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2180,14 +1380,16 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "backend",
+        "coyote time",
+        "grace period",
+        "delayed jump",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "interpolation",
-      "title": "interpolation",
+      "slug": "custom_constructor",
+      "title": "custom constructors",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2202,14 +1404,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "interpolation",
+        "custom constructors",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "modulo",
-      "title": "modulo (%) operator",
+      "slug": "data",
+      "title": "data",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2224,16 +1426,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "modulo (%) operator",
-        "division",
-        "remainder",
+        "data",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "lifecycle_term",
-      "title": "lifecycle (term)",
+      "slug": "data_structure",
+      "title": "data structure",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2248,175 +1448,7 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "lifecycle (term)",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "steering_behaviors",
-      "title": "steering behaviors",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "steering behaviors",
-        "follow",
-        "arrive",
-        "ai",
-        "steering",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "type_inference",
-      "title": "type inference",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "type inference",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_bound",
-      "title": "bound functions",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "bound functions",
-        "binding",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "fluent_interface",
-      "title": "fluent interface",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "fluent interface",
-        "method chaining",
-        "builder pattern",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "boilerplate",
-      "title": "boilerplate",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "boilerplate",
-        "template",
-        "scaffolding",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "indentation",
-      "title": "indentation",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "indentation",
-        "code",
-        "style",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "tileset",
-      "title": "tileset",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "tileset",
-        "tile set",
-        "tiles",
-        "texture atlas",
+        "data structure",
         ""
       ],
       "archived": false
@@ -2452,8 +1484,8 @@
       "archived": false
     },
     {
-      "slug": "class_keyword",
-      "title": "class",
+      "slug": "dependency",
+      "title": "dependency",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2468,14 +1500,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "class",
+        "dependency",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "interface_api",
-      "title": "interface",
+      "slug": "dependency_injection",
+      "title": "dependency injection",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2490,16 +1522,17 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "interface",
-        "oop",
-        "object-oriented programming",
+        "dependency injection",
+        "passing dependencies",
+        "loose coupling",
+        "inversion of control",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "bound_check",
-      "title": "bound checks",
+      "slug": "design_pattern",
+      "title": "design pattern",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2514,56 +1547,9 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "bound checks",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "setter_getter",
-      "title": "setters and getters",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "setters and getters",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "command_line",
-      "title": "command line",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "command line",
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd",
+        "design pattern",
+        "programming pattern",
+        "state machine",
         ""
       ],
       "archived": false
@@ -2594,8 +1580,8 @@
       "archived": false
     },
     {
-      "slug": "coyote_time",
-      "title": "coyote time",
+      "slug": "dialog_or_dialogue",
+      "title": "dialog or dialogue",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2610,16 +1596,15 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "coyote time",
-        "grace period",
-        "delayed jump",
+        "dialog or dialogue",
+        "vocabulary",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "function_signature",
-      "title": "function signature",
+      "slug": "dictionary",
+      "title": "dictionary",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2634,14 +1619,19 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "function signature",
+        "dictionary",
+        "Object",
+        "Hashmap",
+        "Table",
+        "Map",
+        "UnorderedMap",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "framework",
-      "title": "software framework",
+      "slug": "dont_repeat_yourself",
+      "title": "don't repeat yourself (dry)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2656,9 +1646,9 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "software framework",
-        "engine",
-        "game engine",
+        "don't repeat yourself (dry)",
+        "dry",
+        "principle",
         ""
       ],
       "archived": false
@@ -2689,8 +1679,8 @@
       "archived": false
     },
     {
-      "slug": "best_code",
-      "title": "best possible code",
+      "slug": "draw_order",
+      "title": "draw order",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2705,16 +1695,17 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "best possible code",
-        "efficiency",
-        "efficient",
+        "draw order",
+        "graphics",
+        "rendering",
+        "passes",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "property",
-      "title": "property, member variable",
+      "slug": "dry",
+      "title": "dry (don't repeat yourself)",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2729,14 +1720,15 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "property, member variable",
+        "dry (don't repeat yourself)",
+        "WET",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "reference_counting",
-      "title": "reference counting",
+      "slug": "duck_typing",
+      "title": "duck typing",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2751,15 +1743,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "reference counting",
-        "memory management",
+        "duck typing",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "type_coercion",
-      "title": "implicit type coercion",
+      "slug": "dynamic_static_weak_strong",
+      "title": "dynamic, static, weak, and strong languages",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2774,15 +1765,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "implicit type coercion",
-        "conversion",
+        "dynamic, static, weak, and strong languages",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "premature_optimization",
-      "title": "premature optimization",
+      "slug": "early_return",
+      "title": "early returns",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2797,59 +1787,7 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "premature optimization",
-        "early optimization",
-        "evil",
-        "future proofing",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "lifecycle_node",
-      "title": "node lifecycle",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "node lifecycle",
-        "ready",
-        "init",
-        "enter_tree",
-        "exit_tree",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "instance",
-      "title": "instance",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "instance",
-        "oop",
+        "early returns",
         ""
       ],
       "archived": false
@@ -2877,8 +1815,8 @@
       "archived": false
     },
     {
-      "slug": "string",
-      "title": "string",
+      "slug": "editor_tooling",
+      "title": "editor tooling",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2893,9 +1831,30 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "string",
-        "text",
-        "characters",
+        "editor tooling",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "encapsulation",
+      "title": "encapsulation",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "encapsulation",
+        "oop",
         ""
       ],
       "archived": false
@@ -2925,8 +1884,8 @@
       "archived": false
     },
     {
-      "slug": "continuous_collision_detection",
-      "title": "continuous collision detection (ccd)",
+      "slug": "euler_angles",
+      "title": "euler angles",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2941,10 +1900,131 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "continuous collision detection (ccd)",
-        "CCD",
-        "tunneling",
-        "fast-moving objects",
+        "euler angles",
+        "rotation angles",
+        "yaw pitch roll",
+        "3D rotation",
+        "rotation representation",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "expression",
+      "title": "expressions",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "expressions",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "field_of_view",
+      "title": "field of view",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "field of view",
+        "fov",
+        "camera",
+        "view",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "file_format_sounds",
+      "title": "file format for sounds",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "file format for sounds",
+        "sound",
+        "mp3",
+        "wav",
+        "ogg vorbis",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "finite_state_machine",
+      "title": "finite state machine",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "finite state machine",
+        "FSM",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "finite_state_machine_state",
+      "title": "state (finite state machine)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "state (finite state machine)",
+        "FSM",
+        "automata",
         ""
       ],
       "archived": false
@@ -2977,8 +2057,8 @@
       "archived": false
     },
     {
-      "slug": "type",
-      "title": "type",
+      "slug": "fluent_interface",
+      "title": "fluent interface",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -2993,14 +2073,16 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "type",
+        "fluent interface",
+        "method chaining",
+        "builder pattern",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "dynamic_static_weak_strong",
-      "title": "dynamic, static, weak, and strong languages",
+      "slug": "footgun",
+      "title": "footgun",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -3015,7 +2097,2308 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "dynamic, static, weak, and strong languages",
+        "footgun",
+        "gotcha",
+        "magic",
+        "implicit",
+        "explicit",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "format_svg",
+      "title": "svg format",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "svg format",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "forward_direction",
+      "title": "forward direction",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "forward direction",
+        "transforms",
+        "basis",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "framerate_independence",
+      "title": "framerate independence",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "framerate independence",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "frames_per_second",
+      "title": "frames per second",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "frames per second",
+        "FPS",
+        "jitter",
+        "v-sync",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "framework",
+      "title": "software framework",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "software framework",
+        "engine",
+        "game engine",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_bound",
+      "title": "bound functions",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "bound functions",
+        "binding",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_call_vs_function_reference",
+      "title": "function call vs function reference",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "function call vs function reference",
+        "bind",
+        "anonymous",
+        "connect",
+        "signals",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_init",
+      "title": "init function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "init function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_keyword",
+      "title": "function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_lambda",
+      "title": "lambda function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "lambda function",
+        "anonymous",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_override",
+      "title": "overriding a function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "overriding a function",
+        "oop",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_physics_process",
+      "title": "physics process function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "physics process function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_process",
+      "title": "process function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "process function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_pure",
+      "title": "pure functions",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "pure functions",
+        "fp",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_return",
+      "title": "return (function)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "return (function)",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_signature",
+      "title": "function signature",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "function signature",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_static",
+      "title": "static function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "static function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "function_virtual",
+      "title": "virtual function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "virtual function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "functional_programming",
+      "title": "functional programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "functional programming",
+        "fp",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "game_states",
+      "title": "game states",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "game states",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "gamejam",
+      "title": "game jam",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "game jam",
+        "gamejam",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "hexadecimal",
+      "title": "hexadecimal",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "hexadecimal",
+        "decimal",
+        "color",
+        "red",
+        "blue",
+        "green",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "implementation_details",
+      "title": "implementation details",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "indentation",
+      "title": "indentation",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "indentation",
+        "code",
+        "style",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "indirection",
+      "title": "indirection",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "indirection",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "inheritance",
+      "title": "inheritance",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "inheritance",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "instance",
+      "title": "instance",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "instance",
+        "oop",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "instruction",
+      "title": "instructions",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "instructions",
+        "opcode",
+        "assembly",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "interface_api",
+      "title": "interface",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "interface",
+        "oop",
+        "object-oriented programming",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "interface_driven_design",
+      "title": "interface driven design",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "interface driven design",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "interpolation",
+      "title": "interpolation",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "interpolation",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "juicing",
+      "title": "juicing",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "juicing",
+        "game design",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "keyframe",
+      "title": "keyframe",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "keyframe",
+        "animation",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "keyword_await",
+      "title": "await",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "await",
+        "coroutine",
+        "pause",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "kill_plane",
+      "title": "kill plane",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "kill plane",
+        "death plane",
+        "kill zone",
+        "level boundary",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "language_identifier",
+      "title": "identifier",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "identifier",
+        "gdscript",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "language_token",
+      "title": "token",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "token",
+        "gdscript",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "level_design",
+      "title": "level design",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "lifecycle_node",
+      "title": "node lifecycle",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "node lifecycle",
+        "ready",
+        "init",
+        "enter_tree",
+        "exit_tree",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "lifecycle_term",
+      "title": "lifecycle (term)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "lifecycle (term)",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "logic_programming",
+      "title": "logic programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "logic programming",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "low_level_programming",
+      "title": "low-level programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "low-level programming",
+        "memory",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "main_loop",
+      "title": "main loop",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "main loop",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "material",
+      "title": "material",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "material",
+        "graphics",
+        "design",
+        "art",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "method",
+      "title": "method, member function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "method, member function",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "modulo",
+      "title": "modulo (%) operator",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "modulo (%) operator",
+        "division",
+        "remainder",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "naming",
+      "title": "naming things",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "naming things",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "nine_slice_scaling",
+      "title": "9-slice scaling",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "9-slice scaling",
+        "nine",
+        "texture",
+        "slicing",
+        "user interface",
+        "ui",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "node",
+      "title": "node",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "node",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "normal",
+      "title": "normal vector",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "normal vector",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "object",
+      "title": "object",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "object",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "object_oriented_programming",
+      "title": "object-oriented programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "object-oriented programming",
+        "oop",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "opengl",
+      "title": "opengl",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "opengl",
+        "graphics",
+        "rendering",
+        "vulkan",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "operator",
+      "title": "operator",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "operator",
+        "math",
+        "mathematics",
+        "operations",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "paradigm_declarative",
+      "title": "declarative programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "declarative programming",
+        "SQL",
+        "prolog",
+        "paradigm",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "paradigm_imperative",
+      "title": "imperative programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "imperative programming",
+        "paradigm",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "parameter",
+      "title": "function parameter",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "function parameter",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "particle_system",
+      "title": "particle system",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "particle system",
+        "vfx",
+        "effects",
+        "fire",
+        "energy",
+        "smoke",
+        "trails",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "pathfinding",
+      "title": "pathfinding",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "pathfinding",
+        "astar",
+        "a*",
+        "djikstra",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "pattern_type_object",
+      "title": "type object",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "type object",
+        "design pattern",
+        "type object pattern",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "pebkac",
+      "title": "pebkac (user error)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "pebkac (user error)",
+        "problem exists between keyboard and chair",
+        "PEBCAK",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "polar_coordinates",
+      "title": "polar coordinates",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "polar coordinates",
+        "angle",
+        "degrees",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "pragmatic_programming",
+      "title": "pragmatic programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "pragmatic programming",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "premature_optimization",
+      "title": "premature optimization",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "premature optimization",
+        "early optimization",
+        "evil",
+        "future proofing",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "private_public_properties",
+      "title": "private/public properties",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "private/public properties",
+        "pseudoprivate",
+        "pseudo-private",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "property",
+      "title": "property, member variable",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "property, member variable",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "pseudo_code",
+      "title": "pseudo code",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "pseudo code",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "quaternion",
+      "title": "quaternion",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "quaternion",
+        "rotation",
+        "3D rotation",
+        "quaternions",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "race_condition",
+      "title": "race condition",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "race condition",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "raycast",
+      "title": "raycast",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "raycast",
+        "physics",
+        "collision",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "refactor",
+      "title": "refactoring",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "refactoring",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "reference_counting",
+      "title": "reference counting",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "reference counting",
+        "memory management",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "resource",
+      "title": "resource",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "resource",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "runtime",
+      "title": "runtime",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "runtime",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "scene",
+      "title": "scene",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "scene",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "scene_tree",
+      "title": "scene tree",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "scene tree",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "scope",
+      "title": "scope",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "scope",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "script",
+      "title": "script",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "script",
+        "code",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "serialization",
+      "title": "serialization",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "serialization",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "setter_getter",
+      "title": "setters and getters",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "setters and getters",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "shader",
+      "title": "shaders",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "shaders",
+        "graphics",
+        "design",
+        "art",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "side_effect",
+      "title": "side effect",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "side effect",
+        "functional programming",
+        "fp",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "signal",
+      "title": "signal",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "signal",
+        "event",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "singleton",
+      "title": "singleton (autoload)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "singleton (autoload)",
+        "design pattern",
+        "programming pattern",
+        "pattern",
+        "autoload",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "sprite",
+      "title": "sprite",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "sprite",
+        "texture",
+        "animation",
+        "2d_graphics",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "sprite_sheet",
+      "title": "sprite sheet",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "sprite sheet",
+        "sprite atlas",
+        "texture atlas",
+        "animation frames",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "state",
+      "title": "state",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "state",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "statement",
+      "title": "statement",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "statement",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "static_variable",
+      "title": "static variable",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "static variable",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "steering_behaviors",
+      "title": "steering behaviors",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "steering behaviors",
+        "follow",
+        "arrive",
+        "ai",
+        "steering",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "string",
+      "title": "string",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "string",
+        "text",
+        "characters",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "stylebox",
+      "title": "stylebox",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "stylebox",
+        "StyleBoxFlat",
+        "StyleBoxTexture",
+        "StyleBoxLine",
+        "StyleBoxEmpty",
+        "user interface",
+        "theme",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "super_keyword",
+      "title": "super keyword",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "super keyword",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "ternary_expression",
+      "title": "ternary expression",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "ternary expression",
+        "condition",
+        "if / else",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "test_driven_design",
+      "title": "test driven design",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "test driven design",
+        "tdd",
+        "testing",
+        "unit test",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "theme",
+      "title": "theme",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "theme",
+        "design",
+        "UI",
+        "user interface",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "tilemap",
+      "title": "tilemap",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "tilemap",
+        "tile map",
+        "grid of tiles",
+        "2D grid",
+        "tile-based level",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "tileset",
+      "title": "tileset",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "tileset",
+        "tile set",
+        "tiles",
+        "texture atlas",
         ""
       ],
       "archived": false
@@ -3050,733 +4433,6 @@
       "archived": false
     },
     {
-      "slug": "type_generic",
-      "title": "generics",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "generics",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "dry",
-      "title": "dry (don't repeat yourself)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "dry (don't repeat yourself)",
-        "WET",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "nine_slice_scaling",
-      "title": "9-slice scaling",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "9-slice scaling",
-        "nine",
-        "texture",
-        "slicing",
-        "user interface",
-        "ui",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_pure",
-      "title": "pure functions",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "pure functions",
-        "fp",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "architecture",
-      "title": "software architecture",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "software architecture",
-        "structure",
-        "pattern",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "tunneling",
-      "title": "tunneling",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "tunneling",
-        "physics",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "scene",
-      "title": "scene",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "scene",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "finite_state_machine_state",
-      "title": "state (finite state machine)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "state (finite state machine)",
-        "FSM",
-        "automata",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "kinematic_body",
-      "title": "kinematic body",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "kinematic body",
-        "physics body",
-        "character controller",
-        "player movement",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "pathfinding",
-      "title": "pathfinding",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "pathfinding",
-        "astar",
-        "a*",
-        "djikstra",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "virtual_class",
-      "title": "virtual base class",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "virtual base class",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "interface_driven_design",
-      "title": "interface driven design",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "interface driven design",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "operator",
-      "title": "operator",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "operator",
-        "math",
-        "mathematics",
-        "operations",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_static",
-      "title": "static function",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "static function",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "test_driven_design",
-      "title": "test driven design",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "test driven design",
-        "tdd",
-        "testing",
-        "unit test",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "juicing",
-      "title": "juicing",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "juicing",
-        "game design",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "scope",
-      "title": "scope",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "scope",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "angle_radians",
-      "title": "radians (angle)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "radians (angle)",
-        "angle",
-        "degrees",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "state",
-      "title": "state",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "state",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "node",
-      "title": "node",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "node",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "singleton",
-      "title": "singleton (autoload)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "singleton (autoload)",
-        "design pattern",
-        "programming pattern",
-        "pattern",
-        "autoload",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "autoload",
-      "title": "autoload",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "autoload",
-        "singleton",
-        "global",
-        "database",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "side_effect",
-      "title": "side effect",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "side effect",
-        "functional programming",
-        "fp",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "theme",
-      "title": "theme",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "theme",
-        "design",
-        "UI",
-        "user interface",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "type_casting",
-      "title": "type casting",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "type casting",
-        "conversion",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "field_of_view",
-      "title": "field of view",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "field of view",
-        "fov",
-        "camera",
-        "view",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "language_token",
-      "title": "token",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "token",
-        "gdscript",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "editor_tooling",
-      "title": "editor tooling",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "editor tooling",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "truthy_falsy",
-      "title": "truthy/falsy",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "truthy/falsy",
-        "coercion",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "velocity",
-      "title": "velocity",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "velocity",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "ai_blackboard",
-      "title": "blackboard pattern (game ai)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "blackboard pattern (game ai)",
-        ""
-      ],
-      "archived": false
-    },
-    {
       "slug": "transform",
       "title": "transform",
       "description": "",
@@ -3805,54 +4461,6 @@
       "archived": false
     },
     {
-      "slug": "tilemap",
-      "title": "tilemap",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "tilemap",
-        "tile map",
-        "grid of tiles",
-        "2D grid",
-        "tile-based level",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_return",
-      "title": "return (function)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "return (function)",
-        ""
-      ],
-      "archived": false
-    },
-    {
       "slug": "transition",
       "title": "animation transition",
       "description": "",
@@ -3875,8 +4483,8 @@
       "archived": false
     },
     {
-      "slug": "hexadecimal",
-      "title": "hexadecimal",
+      "slug": "truthy_falsy",
+      "title": "truthy/falsy",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -3891,19 +4499,15 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "hexadecimal",
-        "decimal",
-        "color",
-        "red",
-        "blue",
-        "green",
+        "truthy/falsy",
+        "coercion",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "particle_system",
-      "title": "particle system",
+      "slug": "tunneling",
+      "title": "tunneling",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -3918,723 +4522,8 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "particle system",
-        "vfx",
-        "effects",
-        "fire",
-        "energy",
-        "smoke",
-        "trails",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "runtime",
-      "title": "runtime",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "runtime",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "duck_typing",
-      "title": "duck typing",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "duck typing",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "signal",
-      "title": "signal",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "signal",
-        "event",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "indirection",
-      "title": "indirection",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "indirection",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "format_svg",
-      "title": "svg format",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "svg format",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "api",
-      "title": "api (application programming interface)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "api (application programming interface)",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "collision",
-      "title": "collisions",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "collisions",
+        "tunneling",
         "physics",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "serialization",
-      "title": "serialization",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "serialization",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "copy_customize_create",
-      "title": "copy, customize, create",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "copy, customize, create",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "pragmatic_programming",
-      "title": "pragmatic programming",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "pragmatic programming",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "instruction",
-      "title": "instructions",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "instructions",
-        "opcode",
-        "assembly",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "ai_in_games",
-      "title": "ai (game ai)",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "ai (game ai)",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "naming",
-      "title": "naming things",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "naming things",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "paradigm_declarative",
-      "title": "declarative programming",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "declarative programming",
-        "SQL",
-        "prolog",
-        "paradigm",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "collision_layers_and_masks",
-      "title": "collision layers and masks",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "collision layers and masks",
-        "physics",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "private_public_properties",
-      "title": "private/public properties",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "private/public properties",
-        "pseudoprivate",
-        "pseudo-private",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "boolean_expression",
-      "title": "boolean expressions",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "boolean expressions",
-        "true",
-        "false",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_call_vs_function_reference",
-      "title": "function call vs function reference",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "function call vs function reference",
-        "bind",
-        "anonymous",
-        "connect",
-        "signals",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "refactor",
-      "title": "refactoring",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "refactoring",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_physics_process",
-      "title": "physics process function",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "physics process function",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_lambda",
-      "title": "lambda function",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "lambda function",
-        "anonymous",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "language_identifier",
-      "title": "identifier",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "identifier",
-        "gdscript",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "footgun",
-      "title": "footgun",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "footgun",
-        "gotcha",
-        "magic",
-        "implicit",
-        "explicit",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "script",
-      "title": "script",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "script",
-        "code",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "pattern_type_object",
-      "title": "type object",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "type object",
-        "design pattern",
-        "type object pattern",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "function_process",
-      "title": "process function",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "process function",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "paradigm_imperative",
-      "title": "imperative programming",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "imperative programming",
-        "paradigm",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "constant",
-      "title": "constant",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "constant",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "coupling",
-      "title": "coupling",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "coupling",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "dialog_or_dialogue",
-      "title": "dialog or dialogue",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "dialog or dialogue",
-        "vocabulary",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "functional_programming",
-      "title": "functional programming",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "functional programming",
-        "fp",
         ""
       ],
       "archived": false
@@ -4663,8 +4552,8 @@
       "archived": false
     },
     {
-      "slug": "array",
-      "title": "arrays",
+      "slug": "type",
+      "title": "type",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -4679,18 +4568,14 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "arrays",
-        "List",
-        "Vector",
-        "Set",
-        "WeakSet",
+        "type",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "void_keyword",
-      "title": "void (function)",
+      "slug": "type_casting",
+      "title": "type casting",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -4705,7 +4590,75 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "void (function)",
+        "type casting",
+        "conversion",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "type_coercion",
+      "title": "implicit type coercion",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "implicit type coercion",
+        "conversion",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "type_generic",
+      "title": "generics",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "generics",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "type_inference",
+      "title": "type inference",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "type inference",
         ""
       ],
       "archived": false
@@ -4733,8 +4686,8 @@
       "archived": false
     },
     {
-      "slug": "dont_repeat_yourself",
-      "title": "don't repeat yourself (dry)",
+      "slug": "vector",
+      "title": "vector",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -4749,16 +4702,17 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "don't repeat yourself (dry)",
-        "dry",
-        "principle",
+        "vector",
+        "direction",
+        "length",
+        "movement",
         ""
       ],
       "archived": false
     },
     {
-      "slug": "encapsulation",
-      "title": "encapsulation",
+      "slug": "velocity",
+      "title": "velocity",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -4773,31 +4727,7 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "encapsulation",
-        "oop",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "gamejam",
-      "title": "game jam",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "game jam",
-        "gamejam",
+        "velocity",
         ""
       ],
       "archived": false
@@ -4828,8 +4758,8 @@
       "archived": false
     },
     {
-      "slug": "pebkac",
-      "title": "pebkac (user error)",
+      "slug": "viewport",
+      "title": "viewport",
       "description": "",
       "entry_type": "learning_resource",
       "format": [
@@ -4844,56 +4774,126 @@
       "game_genre": [],
       "subject_tags": [],
       "search": [
-        "pebkac (user error)",
-        "problem exists between keyboard and chair",
-        "PEBCAK",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "data",
-      "title": "data",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "data",
-        ""
-      ],
-      "archived": false
-    },
-    {
-      "slug": "opengl",
-      "title": "opengl",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "opengl",
-        "graphics",
+        "viewport",
         "rendering",
-        "vulkan",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "virtual_class",
+      "title": "virtual base class",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "virtual base class",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "void_keyword",
+      "title": "void (function)",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "void (function)",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "your_future_self",
+      "title": "your co-worker: your future self",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "your co-worker: your future self",
+        "documentation",
+        "collaboration",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "kinematic_body",
+      "title": "kinematic body",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "kinematic body",
+        "physics body",
+        "character controller",
+        "player movement",
+        ""
+      ],
+      "archived": false
+    },
+    {
+      "slug": "rigid_body",
+      "title": "rigid body",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "rigid body",
+        "physics body",
+        "dynamic body",
+        "physics simulation",
         ""
       ],
       "archived": false
@@ -4901,6 +4901,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-01-19T20:51:52.546Z"
+    "generatedAt": "2026-01-25T19:14:34.074Z"
   }
 }
