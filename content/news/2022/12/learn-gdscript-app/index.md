@@ -23,7 +23,7 @@ The app is easy to use and intuitive, making it a great resource for anyone inte
 
 You can try out the app for yourself by clicking the button below:
 
-{{< calltoaction "https://gdquest.github.io/learn-gdscript/" "Learn GDScript From Zero" >}}
+{{< calltoaction "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app#lets-get-started" "Learn GDScript From Zero" >}}
 
 We also have downloadable versions available [on itch.io](https://gdquest.itch.io/learn-godot-gdscript) for desktop users.
 
