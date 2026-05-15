@@ -409,13 +409,13 @@
           "design_patterns_intro",
           "godot_getting_started_list_beginner",
           "godot_getting_started_list_developer",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
+          "pattern_finite_state_machine",
           "pattern_event_bus_singleton",
-          "how_to_learn_to_code",
           "platformer_chatgpt",
           "save_game_formats_godot_3",
-          "pattern_finite_state_machine",
           "procedural_noise_generator_intro",
           "signals_good_practices"
         ],
@@ -640,9 +640,9 @@
           "monster_design_series_archived",
           "demo_godot_3_vfx",
           "game_art_series_archived",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
-          "how_to_learn_to_code",
           "power_sequencer_series_archived",
           "plugin_blender_power_sequencer",
           "plugin_emacs_gdscript_mode",
@@ -987,10 +987,10 @@
           "choosing_godot_programming_language_csharp_cpp_gdscript",
           "godot_getting_started_list_beginner",
           "demo_godot_4_new_features",
+          "pattern_finite_state_machine",
           "godot_is_not_rebound_unity",
           "getting_started_4_essential_godot_concepts",
           "plugin_godot_steering_ai_framework",
-          "pattern_finite_state_machine",
           "procedural_noise_generator_intro"
         ],
         "toc": [
@@ -1323,14 +1323,14 @@
           "how_to_use_debugger",
           "optimization_measure",
           "choosing_godot_programming_language_csharp_cpp_gdscript",
-          "pattern_event_bus_singleton",
           "how_to_learn_to_code",
+          "pattern_finite_state_machine",
+          "pattern_event_bus_singleton",
           "whats_wrong_with_most_godot_tutorials",
           "pattern_strategy",
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
           "typed_gdscript",
-          "pattern_finite_state_machine",
           "pattern_mediator",
           "signals_good_practices"
         ],
@@ -1920,8 +1920,8 @@
           "choosing_godot_programming_language_csharp_cpp_gdscript",
           "godot_getting_started_list_beginner",
           "godot_getting_started_list_developer",
-          "game_engine_basics",
           "how_to_learn_to_code",
+          "game_engine_basics",
           "whats_wrong_with_most_godot_tutorials",
           "getting_started_with_godot_game_engine",
           "getting_started_4_essential_godot_concepts",
@@ -2200,10 +2200,10 @@
         "items": [
           "pattern_adapter",
           "design_patterns_intro",
+          "pattern_finite_state_machine",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "pattern_strategy",
-          "pattern_finite_state_machine",
           "pattern_mediator"
         ],
         "toc": []
@@ -2516,15 +2516,16 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
           "background_music_transition",
+          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
-          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
@@ -2543,7 +2544,6 @@
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
-          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
@@ -2900,16 +2900,17 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
           "background_music_transition",
+          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
-          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
@@ -2933,7 +2934,6 @@
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
-          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
@@ -3108,16 +3108,17 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
           "background_music_transition",
+          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
-          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
@@ -3141,7 +3142,6 @@
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
-          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
@@ -3461,10 +3461,10 @@
           "demo_godot_shaders",
           "game_art_series_archived",
           "demo_godot_4_new_features",
+          "pattern_finite_state_machine",
           "user_interface_godot_3",
           "plugin_godot_steering_ai_framework",
           "plugin_krita_batch_exporter",
-          "pattern_finite_state_machine",
           "procedural_noise_generator_intro"
         ],
         "toc": [
@@ -3558,12 +3558,12 @@
           "godot_getting_started_list_beginner",
           "godot_getting_started_list_developer",
           "graphics_settings",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
           "background_music_transition",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
-          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
@@ -3840,16 +3840,17 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
+          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
           "background_music_transition",
+          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
-          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
@@ -3872,7 +3873,6 @@
           "typed_gdscript",
           "scene_transition_color_rect",
           "your_first_2d_game_godot_3",
-          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
@@ -20147,6 +20147,297 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "how_to_learn_to_code": {
+      "slug": "how_to_learn_to_code",
+      "title": "Learn to Code",
+      "label": "Learn to Code",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "gdscript",
+          "name": "gdscript"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "getting_started",
+          "name": "getting_started"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "url": "how_to_learn_to_code",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "search": [],
+      "draft": false,
+      "description": "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Learn to Code",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "cover": {
+        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
+        "projectRelativePath": "hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
+        "originalSrc": "learn-to-code-games-banner.png",
+        "extensionType": "png",
+        "webSrc": "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
+        "width": 800,
+        "height": 400,
+        "ratio": 2,
+        "aspectRatio": "landscape",
+        "srcSetArray": [
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-thumb.webp",
+            "320w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-sm.webp",
+            "640w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-md.webp",
+            "1280w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-lg.webp",
+            "1920w"
+          ]
+        ]
+      },
+      "sources": [],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 1,
+            "label": "Introduction",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Our approach to teaching code",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction/our_teaching_approach",
+            "number": 3
+          }
+        }
+      ],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2018,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 12,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2018-04-12T00:00:00.000Z",
+        "dateDMY": [
+          12,
+          4,
+          2018
+        ],
+        "dateMDY": [
+          4,
+          12,
+          2018
+        ],
+        "dateDDMMYYYY": [
+          "12",
+          "04",
+          "2018"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "12",
+          "2018"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 14,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-04-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          4,
+          2026
+        ],
+        "dateMDY": [
+          4,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "04",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "14",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "learn-to-code",
+          "text": "Learn to Code",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "take-it-one-step-at-a-time",
+              "text": "Take it one step at a time",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "what-do-you-want-to-create",
+              "text": "What do you want to create?",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "to-code-games-you-need-programming-foundations",
+              "text": "To code games, you need programming foundations",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "the-first-language-youll-learn-isnt-that-important",
+              "text": "The first language you'll learn isn't that important",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "programming-is-for-everyone",
+              "text": "Programming is for everyone",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "dont-start-with-c",
+              "text": "Don't start with C++",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "start-with-gdscript",
+              "text": "Start with GDScript",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "resources-to-get-started",
+              "text": "Resources to get started",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "summary",
+              "text": "Summary",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "your-questions",
+              "text": "Your Questions",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "choosing_a_game_engine": {
       "slug": "choosing_a_game_engine",
       "title": "Choosing the right game engine",
@@ -21013,6 +21304,300 @@
             {
               "id": "coding-the-crossfade",
               "text": "Coding the crossfade",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "pattern_finite_state_machine": {
+      "slug": "pattern_finite_state_machine",
+      "title": "Make a Finite State Machine in Godot 4",
+      "label": "Finite State Machine",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "programming_patterns",
+          "name": "programming_patterns"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "gdscript",
+          "name": "gdscript"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d_3d",
+        "name": "2d_3d"
+      },
+      "url": "pattern_finite_state_machine",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "The State pattern is an essential one for game developers. In this guide, you'll learn to create a finite state machine in Godot and when to use the pattern.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Make a Finite State Machine in Godot 4",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "State of Motion: Building a state machine",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/implementing_state_machine",
+            "number": 5
+          }
+        },
+        {
+          "course": {
+            "label": "Learn 3D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 4,
+            "label": "Patrol, Alert, Attack!",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Patrol, alert, attack! Overview",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack/module_overview",
+            "number": 1
+          }
+        }
+      ],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2024,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 31,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "st",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2024-07-31T00:00:00.000Z",
+        "dateDMY": [
+          31,
+          7,
+          2024
+        ],
+        "dateMDY": [
+          7,
+          31,
+          2024
+        ],
+        "dateDDMMYYYY": [
+          "31",
+          "07",
+          "2024"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "31",
+          "2024"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 4,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-04-04T00:00:00.000Z",
+        "dateDMY": [
+          4,
+          4,
+          2026
+        ],
+        "dateMDY": [
+          4,
+          4,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "04",
+          "04",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "04",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "make-a-finite-state-machine-in-godot-4",
+          "text": "Make a Finite State Machine in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "finite-state-machines-in-games",
+              "text": "Finite State Machines in games",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "the-problem-with-boolean-variables",
+              "text": "The problem with boolean variables",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "implementing-a-finite-state-machine-with-one-varia",
+              "text": "Implementing a Finite State Machine with one variable",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "implementing-a-finite-state-machine-with-nodes",
+              "text": "Implementing a Finite State Machine with nodes",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "the-state-class",
+                  "text": "The state class",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-finite-state-machine-class",
+                  "text": "The finite state machine class",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-player-scene",
+                  "text": "The player scene",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "implementing-the-states",
+                  "text": "Implementing the states",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "when-to-use-either-implementation",
+              "text": "When to use either implementation",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "benefits-and-drawbacks-of-using-a-state-machine",
+              "text": "Benefits and drawbacks of using a state machine",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "conclusion",
+              "text": "Conclusion",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "your-questions",
+              "text": "Your questions",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -22010,297 +22595,6 @@
             {
               "id": "normal-maps-with-tilemap-nodes",
               "text": "Normal maps with TileMap nodes",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "how_to_learn_to_code": {
-      "slug": "how_to_learn_to_code",
-      "title": "Learn to Code",
-      "label": "Learn to Code",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "gdscript",
-          "name": "gdscript"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "getting_started",
-          "name": "getting_started"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "study_guide",
-        "name": "study_guide"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "url": "how_to_learn_to_code",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "search": [],
-      "draft": false,
-      "description": "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Learn to Code",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "cover": {
-        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
-        "projectRelativePath": "hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
-        "originalSrc": "learn-to-code-games-banner.png",
-        "extensionType": "png",
-        "webSrc": "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
-        "width": 800,
-        "height": 400,
-        "ratio": 2,
-        "aspectRatio": "landscape",
-        "srcSetArray": [
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-thumb.webp",
-            "320w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-sm.webp",
-            "640w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-md.webp",
-            "1280w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-lg.webp",
-            "1920w"
-          ]
-        ]
-      },
-      "sources": [],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
-          },
-          "module": {
-            "number": 1,
-            "label": "Introduction",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Our approach to teaching code",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction/our_teaching_approach",
-            "number": 3
-          }
-        }
-      ],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2018,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 12,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2018-04-12T00:00:00.000Z",
-        "dateDMY": [
-          12,
-          4,
-          2018
-        ],
-        "dateMDY": [
-          4,
-          12,
-          2018
-        ],
-        "dateDDMMYYYY": [
-          "12",
-          "04",
-          "2018"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "12",
-          "2018"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 14,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2026-04-14T00:00:00.000Z",
-        "dateDMY": [
-          14,
-          4,
-          2026
-        ],
-        "dateMDY": [
-          4,
-          14,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "14",
-          "04",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "14",
-          "2026"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "learn-to-code",
-          "text": "Learn to Code",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "take-it-one-step-at-a-time",
-              "text": "Take it one step at a time",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "what-do-you-want-to-create",
-              "text": "What do you want to create?",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "to-code-games-you-need-programming-foundations",
-              "text": "To code games, you need programming foundations",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "the-first-language-youll-learn-isnt-that-important",
-              "text": "The first language you'll learn isn't that important",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "programming-is-for-everyone",
-              "text": "Programming is for everyone",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "dont-start-with-c",
-              "text": "Don't start with C++",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "start-with-gdscript",
-              "text": "Start with GDScript",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "resources-to-get-started",
-              "text": "Resources to get started",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "summary",
-              "text": "Summary",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "your-questions",
-              "text": "Your Questions",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -27681,300 +27975,6 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
-    "pattern_finite_state_machine": {
-      "slug": "pattern_finite_state_machine",
-      "title": "Make a Finite State Machine in Godot 4",
-      "label": "Finite State Machine",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "programming_patterns",
-          "name": "programming_patterns"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "gdscript",
-          "name": "gdscript"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "study_guide",
-        "name": "study_guide"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "2d_3d",
-        "name": "2d_3d"
-      },
-      "url": "pattern_finite_state_machine",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_4",
-        "name": "godot_4"
-      },
-      "search": [],
-      "draft": false,
-      "description": "The State pattern is an essential one for game developers. In this guide, you'll learn to create a finite state machine in Godot and when to use the pattern.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Make a Finite State Machine in Godot 4",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "sources": [],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
-          },
-          "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "State of Motion: Building a state machine",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/implementing_state_machine",
-            "number": 5
-          }
-        },
-        {
-          "course": {
-            "label": "Learn 3D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
-          },
-          "module": {
-            "number": 4,
-            "label": "Patrol, Alert, Attack!",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Patrol, alert, attack! Overview",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack/module_overview",
-            "number": 1
-          }
-        }
-      ],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2024,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 31,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "st",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2024-07-31T00:00:00.000Z",
-        "dateDMY": [
-          31,
-          7,
-          2024
-        ],
-        "dateMDY": [
-          7,
-          31,
-          2024
-        ],
-        "dateDDMMYYYY": [
-          "31",
-          "07",
-          "2024"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "31",
-          "2024"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 4,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2026-04-04T00:00:00.000Z",
-        "dateDMY": [
-          4,
-          4,
-          2026
-        ],
-        "dateMDY": [
-          4,
-          4,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "04",
-          "04",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "04",
-          "2026"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "make-a-finite-state-machine-in-godot-4",
-          "text": "Make a Finite State Machine in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "finite-state-machines-in-games",
-              "text": "Finite State Machines in games",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "the-problem-with-boolean-variables",
-              "text": "The problem with boolean variables",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "implementing-a-finite-state-machine-with-one-varia",
-              "text": "Implementing a Finite State Machine with one variable",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "implementing-a-finite-state-machine-with-nodes",
-              "text": "Implementing a Finite State Machine with nodes",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "the-state-class",
-                  "text": "The state class",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "the-finite-state-machine-class",
-                  "text": "The finite state machine class",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "the-player-scene",
-                  "text": "The player scene",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "implementing-the-states",
-                  "text": "Implementing the states",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "when-to-use-either-implementation",
-              "text": "When to use either implementation",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "benefits-and-drawbacks-of-using-a-state-machine",
-              "text": "Benefits and drawbacks of using a state machine",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "conclusion",
-              "text": "Conclusion",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "your-questions",
-              "text": "Your questions",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
     "pickup_sound_effect": {
       "slug": "pickup_sound_effect",
       "title": "Cutting sound effects",
@@ -29599,9 +29599,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.685Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.434Z",
         "dateDMY": [
           16,
           5,
@@ -29784,9 +29784,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.686Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.435Z",
         "dateDMY": [
           16,
           5,
@@ -29938,9 +29938,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.687Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.435Z",
         "dateDMY": [
           16,
           5,
@@ -30073,9 +30073,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.687Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.435Z",
         "dateDMY": [
           16,
           5,
@@ -30196,9 +30196,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.688Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.435Z",
         "dateDMY": [
           16,
           5,
@@ -30335,9 +30335,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.688Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.436Z",
         "dateDMY": [
           16,
           5,
@@ -30525,9 +30525,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.689Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.436Z",
         "dateDMY": [
           16,
           5,
@@ -30651,9 +30651,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.690Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.437Z",
         "dateDMY": [
           16,
           5,
@@ -30861,9 +30861,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.691Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.438Z",
         "dateDMY": [
           16,
           5,
@@ -30993,9 +30993,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.691Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.438Z",
         "dateDMY": [
           16,
           5,
@@ -31130,9 +31130,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.691Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.438Z",
         "dateDMY": [
           16,
           5,
@@ -31264,9 +31264,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.692Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.439Z",
         "dateDMY": [
           16,
           5,
@@ -31401,9 +31401,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.692Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.439Z",
         "dateDMY": [
           16,
           5,
@@ -31535,9 +31535,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.693Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.439Z",
         "dateDMY": [
           16,
           5,
@@ -31674,9 +31674,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.693Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.439Z",
         "dateDMY": [
           16,
           5,
@@ -31811,9 +31811,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.693Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.440Z",
         "dateDMY": [
           16,
           5,
@@ -31942,9 +31942,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.693Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.440Z",
         "dateDMY": [
           16,
           5,
@@ -32092,9 +32092,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.694Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.440Z",
         "dateDMY": [
           16,
           5,
@@ -32241,9 +32241,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.695Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.441Z",
         "dateDMY": [
           16,
           5,
@@ -32370,9 +32370,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.695Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.441Z",
         "dateDMY": [
           16,
           5,
@@ -32521,9 +32521,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.696Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.442Z",
         "dateDMY": [
           16,
           5,
@@ -32659,9 +32659,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.696Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.442Z",
         "dateDMY": [
           16,
           5,
@@ -32782,9 +32782,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.696Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.442Z",
         "dateDMY": [
           16,
           5,
@@ -32913,9 +32913,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.697Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.443Z",
         "dateDMY": [
           16,
           5,
@@ -33039,9 +33039,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.697Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.443Z",
         "dateDMY": [
           16,
           5,
@@ -33173,9 +33173,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.697Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.443Z",
         "dateDMY": [
           16,
           5,
@@ -33312,9 +33312,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.698Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.443Z",
         "dateDMY": [
           16,
           5,
@@ -33461,9 +33461,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.698Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.444Z",
         "dateDMY": [
           16,
           5,
@@ -33624,9 +33624,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.699Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.444Z",
         "dateDMY": [
           16,
           5,
@@ -33753,9 +33753,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.699Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.444Z",
         "dateDMY": [
           16,
           5,
@@ -33879,9 +33879,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.699Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.444Z",
         "dateDMY": [
           16,
           5,
@@ -34006,9 +34006,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.700Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.444Z",
         "dateDMY": [
           16,
           5,
@@ -34131,9 +34131,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.700Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.444Z",
         "dateDMY": [
           16,
           5,
@@ -34293,9 +34293,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.700Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.445Z",
         "dateDMY": [
           16,
           5,
@@ -34435,9 +34435,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.701Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.445Z",
         "dateDMY": [
           16,
           5,
@@ -34562,9 +34562,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.701Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.445Z",
         "dateDMY": [
           16,
           5,
@@ -34725,9 +34725,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.702Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.446Z",
         "dateDMY": [
           16,
           5,
@@ -34848,9 +34848,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.702Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.446Z",
         "dateDMY": [
           16,
           5,
@@ -34977,9 +34977,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.702Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.446Z",
         "dateDMY": [
           16,
           5,
@@ -35111,9 +35111,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.702Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.447Z",
         "dateDMY": [
           16,
           5,
@@ -35312,9 +35312,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.705Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.449Z",
         "dateDMY": [
           16,
           5,
@@ -35459,9 +35459,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.705Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.449Z",
         "dateDMY": [
           16,
           5,
@@ -35605,9 +35605,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.705Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.449Z",
         "dateDMY": [
           16,
           5,
@@ -35742,9 +35742,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.705Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.450Z",
         "dateDMY": [
           16,
           5,
@@ -35886,9 +35886,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.706Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.450Z",
         "dateDMY": [
           16,
           5,
@@ -36025,9 +36025,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.706Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.450Z",
         "dateDMY": [
           16,
           5,
@@ -36152,9 +36152,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.706Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.450Z",
         "dateDMY": [
           16,
           5,
@@ -36280,9 +36280,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.706Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.451Z",
         "dateDMY": [
           16,
           5,
@@ -36424,9 +36424,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.706Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.451Z",
         "dateDMY": [
           16,
           5,
@@ -36561,9 +36561,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.706Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.451Z",
         "dateDMY": [
           16,
           5,
@@ -36704,9 +36704,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.707Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.452Z",
         "dateDMY": [
           16,
           5,
@@ -36858,9 +36858,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.707Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.452Z",
         "dateDMY": [
           16,
           5,
@@ -36981,9 +36981,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.707Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.453Z",
         "dateDMY": [
           16,
           5,
@@ -37107,9 +37107,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.707Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.453Z",
         "dateDMY": [
           16,
           5,
@@ -37277,9 +37277,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.708Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.454Z",
         "dateDMY": [
           16,
           5,
@@ -37403,9 +37403,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.708Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.454Z",
         "dateDMY": [
           16,
           5,
@@ -37542,9 +37542,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.708Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.455Z",
         "dateDMY": [
           16,
           5,
@@ -37710,9 +37710,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.709Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.456Z",
         "dateDMY": [
           16,
           5,
@@ -37839,9 +37839,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.709Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.457Z",
         "dateDMY": [
           16,
           5,
@@ -37976,9 +37976,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.709Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.457Z",
         "dateDMY": [
           16,
           5,
@@ -38184,9 +38184,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.711Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.459Z",
         "dateDMY": [
           16,
           5,
@@ -38354,9 +38354,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.712Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.460Z",
         "dateDMY": [
           16,
           5,
@@ -38511,9 +38511,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.712Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.460Z",
         "dateDMY": [
           16,
           5,
@@ -38673,9 +38673,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.712Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.460Z",
         "dateDMY": [
           16,
           5,
@@ -38824,9 +38824,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.712Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.461Z",
         "dateDMY": [
           16,
           5,
@@ -38988,9 +38988,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.713Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.462Z",
         "dateDMY": [
           16,
           5,
@@ -39132,9 +39132,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.713Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.462Z",
         "dateDMY": [
           16,
           5,
@@ -39266,9 +39266,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.713Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.463Z",
         "dateDMY": [
           16,
           5,
@@ -39403,9 +39403,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.713Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.463Z",
         "dateDMY": [
           16,
           5,
@@ -39554,9 +39554,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.714Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.464Z",
         "dateDMY": [
           16,
           5,
@@ -39688,9 +39688,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.714Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.464Z",
         "dateDMY": [
           16,
           5,
@@ -39835,9 +39835,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.714Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.465Z",
         "dateDMY": [
           16,
           5,
@@ -39979,9 +39979,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.716Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.466Z",
         "dateDMY": [
           16,
           5,
@@ -40111,9 +40111,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.716Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.466Z",
         "dateDMY": [
           16,
           5,
@@ -40240,9 +40240,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.717Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.466Z",
         "dateDMY": [
           16,
           5,
@@ -40389,9 +40389,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.718Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.467Z",
         "dateDMY": [
           16,
           5,
@@ -40545,9 +40545,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.719Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.468Z",
         "dateDMY": [
           16,
           5,
@@ -40718,9 +40718,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.720Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.469Z",
         "dateDMY": [
           16,
           5,
@@ -40860,9 +40860,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.720Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.469Z",
         "dateDMY": [
           16,
           5,
@@ -40983,9 +40983,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.721Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.469Z",
         "dateDMY": [
           16,
           5,
@@ -41108,9 +41108,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.721Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.469Z",
         "dateDMY": [
           16,
           5,
@@ -41233,9 +41233,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.722Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.470Z",
         "dateDMY": [
           16,
           5,
@@ -41380,9 +41380,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.723Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.470Z",
         "dateDMY": [
           16,
           5,
@@ -41511,9 +41511,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.723Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.471Z",
         "dateDMY": [
           16,
           5,
@@ -41645,9 +41645,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.724Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.471Z",
         "dateDMY": [
           16,
           5,
@@ -41830,9 +41830,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.724Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.471Z",
         "dateDMY": [
           16,
           5,
@@ -41959,9 +41959,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.724Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.471Z",
         "dateDMY": [
           16,
           5,
@@ -42098,9 +42098,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.725Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.471Z",
         "dateDMY": [
           16,
           5,
@@ -42223,9 +42223,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.725Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.472Z",
         "dateDMY": [
           16,
           5,
@@ -42346,9 +42346,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.725Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.472Z",
         "dateDMY": [
           16,
           5,
@@ -42494,9 +42494,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.725Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.472Z",
         "dateDMY": [
           16,
           5,
@@ -42633,9 +42633,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.725Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.472Z",
         "dateDMY": [
           16,
           5,
@@ -42759,9 +42759,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.726Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.472Z",
         "dateDMY": [
           16,
           5,
@@ -42901,9 +42901,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.726Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.473Z",
         "dateDMY": [
           16,
           5,
@@ -43036,9 +43036,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.727Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.473Z",
         "dateDMY": [
           16,
           5,
@@ -43200,9 +43200,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.729Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.475Z",
         "dateDMY": [
           16,
           5,
@@ -43349,9 +43349,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.730Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.476Z",
         "dateDMY": [
           16,
           5,
@@ -43491,9 +43491,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.732Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.477Z",
         "dateDMY": [
           16,
           5,
@@ -43652,9 +43652,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.732Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.477Z",
         "dateDMY": [
           16,
           5,
@@ -43779,9 +43779,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.732Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.477Z",
         "dateDMY": [
           16,
           5,
@@ -43906,9 +43906,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.732Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.477Z",
         "dateDMY": [
           16,
           5,
@@ -44059,9 +44059,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.733Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.478Z",
         "dateDMY": [
           16,
           5,
@@ -44210,9 +44210,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.733Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.478Z",
         "dateDMY": [
           16,
           5,
@@ -44339,9 +44339,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.734Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.478Z",
         "dateDMY": [
           16,
           5,
@@ -44469,9 +44469,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.734Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.479Z",
         "dateDMY": [
           16,
           5,
@@ -44617,9 +44617,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.734Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.479Z",
         "dateDMY": [
           16,
           5,
@@ -44743,9 +44743,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.734Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.479Z",
         "dateDMY": [
           16,
           5,
@@ -44883,9 +44883,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.735Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.479Z",
         "dateDMY": [
           16,
           5,
@@ -45012,9 +45012,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.735Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.480Z",
         "dateDMY": [
           16,
           5,
@@ -45184,9 +45184,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.735Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.480Z",
         "dateDMY": [
           16,
           5,
@@ -45326,9 +45326,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.735Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.480Z",
         "dateDMY": [
           16,
           5,
@@ -45478,9 +45478,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.735Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.480Z",
         "dateDMY": [
           16,
           5,
@@ -45601,9 +45601,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.735Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.480Z",
         "dateDMY": [
           16,
           5,
@@ -45744,9 +45744,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.736Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.481Z",
         "dateDMY": [
           16,
           5,
@@ -45870,9 +45870,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.736Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.481Z",
         "dateDMY": [
           16,
           5,
@@ -46012,9 +46012,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.736Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.481Z",
         "dateDMY": [
           16,
           5,
@@ -46145,9 +46145,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.736Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.481Z",
         "dateDMY": [
           16,
           5,
@@ -46289,9 +46289,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.737Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.482Z",
         "dateDMY": [
           16,
           5,
@@ -46412,9 +46412,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.737Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.482Z",
         "dateDMY": [
           16,
           5,
@@ -46546,9 +46546,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.737Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.482Z",
         "dateDMY": [
           16,
           5,
@@ -46675,9 +46675,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.737Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.482Z",
         "dateDMY": [
           16,
           5,
@@ -46806,9 +46806,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.737Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.483Z",
         "dateDMY": [
           16,
           5,
@@ -46940,9 +46940,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.737Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.483Z",
         "dateDMY": [
           16,
           5,
@@ -47091,9 +47091,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.738Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.484Z",
         "dateDMY": [
           16,
           5,
@@ -47232,9 +47232,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.738Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.484Z",
         "dateDMY": [
           16,
           5,
@@ -47364,9 +47364,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.739Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.484Z",
         "dateDMY": [
           16,
           5,
@@ -47504,9 +47504,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.739Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.485Z",
         "dateDMY": [
           16,
           5,
@@ -47647,9 +47647,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.740Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.486Z",
         "dateDMY": [
           16,
           5,
@@ -47774,9 +47774,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.740Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.486Z",
         "dateDMY": [
           16,
           5,
@@ -47917,9 +47917,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.741Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.486Z",
         "dateDMY": [
           16,
           5,
@@ -48066,9 +48066,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.741Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.487Z",
         "dateDMY": [
           16,
           5,
@@ -48200,9 +48200,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.741Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.487Z",
         "dateDMY": [
           16,
           5,
@@ -48328,9 +48328,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.741Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.487Z",
         "dateDMY": [
           16,
           5,
@@ -48468,9 +48468,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.742Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.488Z",
         "dateDMY": [
           16,
           5,
@@ -48604,9 +48604,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.742Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.488Z",
         "dateDMY": [
           16,
           5,
@@ -48733,9 +48733,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.742Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.488Z",
         "dateDMY": [
           16,
           5,
@@ -48870,9 +48870,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.743Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.489Z",
         "dateDMY": [
           16,
           5,
@@ -49008,9 +49008,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.743Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.489Z",
         "dateDMY": [
           16,
           5,
@@ -49146,9 +49146,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.743Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.490Z",
         "dateDMY": [
           16,
           5,
@@ -49290,9 +49290,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.744Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.491Z",
         "dateDMY": [
           16,
           5,
@@ -49438,9 +49438,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.745Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.492Z",
         "dateDMY": [
           16,
           5,
@@ -49569,9 +49569,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.745Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.492Z",
         "dateDMY": [
           16,
           5,
@@ -49710,9 +49710,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.745Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.492Z",
         "dateDMY": [
           16,
           5,
@@ -49875,9 +49875,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.747Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.495Z",
         "dateDMY": [
           16,
           5,
@@ -50024,9 +50024,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.748Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.495Z",
         "dateDMY": [
           16,
           5,
@@ -50157,9 +50157,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.748Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.496Z",
         "dateDMY": [
           16,
           5,
@@ -50282,9 +50282,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.749Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.496Z",
         "dateDMY": [
           16,
           5,
@@ -50429,9 +50429,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.749Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.496Z",
         "dateDMY": [
           16,
           5,
@@ -50580,9 +50580,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.750Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.497Z",
         "dateDMY": [
           16,
           5,
@@ -50734,9 +50734,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.750Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.497Z",
         "dateDMY": [
           16,
           5,
@@ -50900,9 +50900,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.751Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.498Z",
         "dateDMY": [
           16,
           5,
@@ -51076,9 +51076,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.752Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.499Z",
         "dateDMY": [
           16,
           5,
@@ -51217,9 +51217,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.752Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.499Z",
         "dateDMY": [
           16,
           5,
@@ -51346,9 +51346,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.753Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.500Z",
         "dateDMY": [
           16,
           5,
@@ -51481,9 +51481,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.753Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.500Z",
         "dateDMY": [
           16,
           5,
@@ -51604,9 +51604,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.753Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.500Z",
         "dateDMY": [
           16,
           5,
@@ -51748,9 +51748,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.754Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.501Z",
         "dateDMY": [
           16,
           5,
@@ -51874,9 +51874,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.754Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.501Z",
         "dateDMY": [
           16,
           5,
@@ -52041,9 +52041,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.754Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.501Z",
         "dateDMY": [
           16,
           5,
@@ -52178,9 +52178,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.755Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.502Z",
         "dateDMY": [
           16,
           5,
@@ -52339,9 +52339,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.755Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.502Z",
         "dateDMY": [
           16,
           5,
@@ -52493,9 +52493,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.755Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.503Z",
         "dateDMY": [
           16,
           5,
@@ -52620,9 +52620,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.756Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.503Z",
         "dateDMY": [
           16,
           5,
@@ -52764,9 +52764,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.756Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.503Z",
         "dateDMY": [
           16,
           5,
@@ -52887,9 +52887,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.756Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.504Z",
         "dateDMY": [
           16,
           5,
@@ -53044,9 +53044,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.757Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.504Z",
         "dateDMY": [
           16,
           5,
@@ -53231,9 +53231,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.758Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.505Z",
         "dateDMY": [
           16,
           5,
@@ -53358,9 +53358,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.758Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.506Z",
         "dateDMY": [
           16,
           5,
@@ -53500,9 +53500,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.758Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.509Z",
         "dateDMY": [
           16,
           5,
@@ -53633,9 +53633,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.760Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.510Z",
         "dateDMY": [
           16,
           5,
@@ -53779,9 +53779,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.761Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.511Z",
         "dateDMY": [
           16,
           5,
@@ -53927,9 +53927,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.761Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.511Z",
         "dateDMY": [
           16,
           5,
@@ -54087,9 +54087,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.762Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.513Z",
         "dateDMY": [
           16,
           5,
@@ -54220,9 +54220,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.763Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.513Z",
         "dateDMY": [
           16,
           5,
@@ -54365,9 +54365,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.763Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.514Z",
         "dateDMY": [
           16,
           5,
@@ -54510,9 +54510,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.764Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.515Z",
         "dateDMY": [
           16,
           5,
@@ -54653,9 +54653,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.765Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.515Z",
         "dateDMY": [
           16,
           5,
@@ -54791,9 +54791,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.765Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.515Z",
         "dateDMY": [
           16,
           5,
@@ -54945,9 +54945,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.765Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.516Z",
         "dateDMY": [
           16,
           5,
@@ -55107,9 +55107,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.766Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.516Z",
         "dateDMY": [
           16,
           5,
@@ -55232,9 +55232,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.766Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.517Z",
         "dateDMY": [
           16,
           5,
@@ -55405,9 +55405,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 27,
-        "date": "2026-05-15T22:31:27.767Z",
+        "minutes": 42,
+        "seconds": 36,
+        "date": "2026-05-15T22:42:36.517Z",
         "dateDMY": [
           16,
           5,

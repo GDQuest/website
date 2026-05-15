@@ -1,6 +1,17 @@
 {
   "list": [
     {
+      "name": "SubViewport",
+      "title": "SubViewport: Render to texture for advanced visual effects",
+      "examples": [
+        "Split-screen multiplayer games",
+        "3D portals showing other areas",
+        "UI elements overlaid on 3D characters"
+      ],
+      "category": "GEN",
+      "use_when": "When you need multiple camera views, render-to-texture effects, or separate rendering contexts"
+    },
+    {
       "name": "Camera3D",
       "title": "Camera3D allows you to see in 3D space",
       "examples": [
@@ -239,17 +250,6 @@
       ],
       "category": "2D",
       "use_when": "You need to detect if and where a line intersects with physics bodies"
-    },
-    {
-      "name": "SubViewport",
-      "title": "SubViewport: Render to texture for advanced visual effects",
-      "examples": [
-        "Split-screen multiplayer games",
-        "3D portals showing other areas",
-        "UI elements overlaid on 3D characters"
-      ],
-      "category": "GEN",
-      "use_when": "When you need multiple camera views, render-to-texture effects, or separate rendering contexts"
     },
     {
       "name": "OptionButton",
