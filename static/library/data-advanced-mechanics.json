@@ -1,15 +1,17 @@
 {
   "list": [
     {
-      "name": "SubViewport",
-      "title": "SubViewport: Render to texture for advanced visual effects",
+      "name": "CharacterBody3D",
+      "title": "CharacterBody3D lets you code custom 3D movement",
       "examples": [
-        "Split-screen multiplayer games",
-        "3D portals showing other areas",
-        "UI elements overlaid on 3D characters"
+        "Creating a 3D platform character that can walk, jump, and stomp enemies",
+        "Designing a first-person controller for an FPS game",
+        "Making characters stick to and climb walls with wall jumping",
+        "Walking on rotating and moving platforms",
+        "Pushing rigid bodies with your character"
       ],
-      "category": "GEN",
-      "use_when": "When you need multiple camera views, render-to-texture effects, or separate rendering contexts"
+      "category": "3D",
+      "use_when": "You want to create a player or AI-controlled entity that interacts with the physics environment"
     },
     {
       "name": "Camera3D",
@@ -38,19 +40,6 @@
       ],
       "category": "GEN",
       "use_when": "You need animations that have a known start and end point, and you want to control the timing of the animation"
-    },
-    {
-      "name": "CharacterBody3D",
-      "title": "CharacterBody3D lets you code custom 3D movement",
-      "examples": [
-        "Creating a 3D platform character that can walk, jump, and stomp enemies",
-        "Designing a first-person controller for an FPS game",
-        "Making characters stick to and climb walls with wall jumping",
-        "Walking on rotating and moving platforms",
-        "Pushing rigid bodies with your character"
-      ],
-      "category": "3D",
-      "use_when": "You want to create a player or AI-controlled entity that interacts with the physics environment"
     },
     {
       "name": "Timer",
@@ -250,6 +239,17 @@
       ],
       "category": "2D",
       "use_when": "You need to detect if and where a line intersects with physics bodies"
+    },
+    {
+      "name": "SubViewport",
+      "title": "SubViewport: Render to texture for advanced visual effects",
+      "examples": [
+        "Split-screen multiplayer games",
+        "3D portals showing other areas",
+        "UI elements overlaid on 3D characters"
+      ],
+      "category": "GEN",
+      "use_when": "When you need multiple camera views, render-to-texture effects, or separate rendering contexts"
     },
     {
       "name": "OptionButton",
