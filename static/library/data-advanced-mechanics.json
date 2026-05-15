@@ -1,19 +1,6 @@
 {
   "list": [
     {
-      "name": "CharacterBody3D",
-      "title": "CharacterBody3D lets you code custom 3D movement",
-      "examples": [
-        "Creating a 3D platform character that can walk, jump, and stomp enemies",
-        "Designing a first-person controller for an FPS game",
-        "Making characters stick to and climb walls with wall jumping",
-        "Walking on rotating and moving platforms",
-        "Pushing rigid bodies with your character"
-      ],
-      "category": "3D",
-      "use_when": "You want to create a player or AI-controlled entity that interacts with the physics environment"
-    },
-    {
       "name": "Camera3D",
       "title": "Camera3D allows you to see in 3D space",
       "examples": [
@@ -40,6 +27,19 @@
       ],
       "category": "GEN",
       "use_when": "You need animations that have a known start and end point, and you want to control the timing of the animation"
+    },
+    {
+      "name": "CharacterBody3D",
+      "title": "CharacterBody3D lets you code custom 3D movement",
+      "examples": [
+        "Creating a 3D platform character that can walk, jump, and stomp enemies",
+        "Designing a first-person controller for an FPS game",
+        "Making characters stick to and climb walls with wall jumping",
+        "Walking on rotating and moving platforms",
+        "Pushing rigid bodies with your character"
+      ],
+      "category": "3D",
+      "use_when": "You want to create a player or AI-controlled entity that interacts with the physics environment"
     },
     {
       "name": "Timer",

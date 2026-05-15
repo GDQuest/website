@@ -1,37 +1,6 @@
 {
   "items": [
     {
-      "slug": "juicy_attack",
-      "title": "juicing up your game attacks",
-      "description": "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
-      "entry_type": "learning_resource",
-      "format": [
-        "video_update"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [
-        "2d"
-      ],
-      "game_genre": [],
-      "subject_tags": [
-        "combat_systems",
-        "vfx"
-      ],
-      "search": [
-        "juicing up your game attacks",
-        "this project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
-        "combat system",
-        "combat systems",
-        "vfx",
-        "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat."
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
       "slug": "cheatsheet_save_systems",
       "title": "save and load: godot 4 cheat sheet",
       "description": "a condensed cheat sheet to get an overview of the five main saving and loading methods in godot 4. this page compares var2str, fileaccess, resourcesaver, configfile, and json with minimal code examples and quick pros and cons of each method.",
@@ -438,6 +407,37 @@
       "isYoutubeShort": false
     },
     {
+      "slug": "juicy_attack",
+      "title": "juicing up your game attacks",
+      "description": "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
+      "entry_type": "learning_resource",
+      "format": [
+        "video_update"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "combat_systems",
+        "vfx"
+      ],
+      "search": [
+        "juicing up your game attacks",
+        "this project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
+        "combat system",
+        "combat systems",
+        "vfx",
+        "ever wanted to make attacks feel impactful and satisfying? in this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat."
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
       "slug": "laser_2d",
       "title": "2d laser in godot 4",
       "description": "learn how to create a dynamic 2d laser beam in godot using raycasts, animated lines, and particle effects. implement casting, collision, and beam particles to create a visually stunning laser effect.",
@@ -666,57 +666,6 @@
         "null instance node access errors",
         "debugging",
         "a troubleshooting guide for fixing the common 'invalid assignment of property or key with value on a base object of type null instance' error. learn how to find the cause of this error and fix node reference issues quickly."
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "demo_design_patterns",
-      "title": "godot design patterns",
-      "description": "learn design patterns adapted to the godot game engine, in gdscript.",
-      "entry_type": "asset",
-      "format": [
-        "demo"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "best_practices",
-        "gdscript"
-      ],
-      "search": [
-        "godot design patterns",
-        "best practices",
-        "gdscript",
-        "learn design patterns adapted to the godot game engine, in gdscript."
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "background_music_transition",
-      "title": "crossfade background music",
-      "description": "crossfade background music",
-      "entry_type": "learning_resource",
-      "format": [
-        "tutorial"
-      ],
-      "tool_version": [
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "audio"
-      ],
-      "search": [
-        "crossfade background music",
-        "audio"
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -1212,6 +1161,33 @@
         "full game",
         "full games",
         "top-down space mining game made with the godot game engine. control your spaceship in forays into an asteroid belt, gather iron, and bring it back to base."
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "demo_design_patterns",
+      "title": "godot design patterns",
+      "description": "learn design patterns adapted to the godot game engine, in gdscript.",
+      "entry_type": "asset",
+      "format": [
+        "demo"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "best_practices",
+        "gdscript"
+      ],
+      "search": [
+        "godot design patterns",
+        "best practices",
+        "gdscript",
+        "learn design patterns adapted to the godot game engine, in gdscript."
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -2062,6 +2038,30 @@
       "isYoutubeShort": false
     },
     {
+      "slug": "background_music_transition",
+      "title": "crossfade background music",
+      "description": "crossfade background music",
+      "entry_type": "learning_resource",
+      "format": [
+        "tutorial"
+      ],
+      "tool_version": [
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "audio"
+      ],
+      "search": [
+        "crossfade background music",
+        "audio"
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
       "slug": "local_multiplayer_input",
       "title": "local multiplayer input",
       "description": "local multiplayer input",
@@ -2082,34 +2082,6 @@
       "search": [
         "local multiplayer input",
         "multiplayer"
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "pattern_event_bus_singleton",
-      "title": "the events bus singleton",
-      "description": "event bus singleton",
-      "entry_type": "learning_resource",
-      "format": [
-        "study_guide"
-      ],
-      "tool_version": [
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "programming_patterns",
-        "gdscript"
-      ],
-      "search": [
-        "the events bus singleton",
-        "event bus singleton",
-        "programming pattern",
-        "programming patterns",
-        "gdscript"
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -2692,6 +2664,34 @@
       "isYoutubeShort": false
     },
     {
+      "slug": "pattern_event_bus_singleton",
+      "title": "the events bus singleton",
+      "description": "event bus singleton",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "programming_patterns",
+        "gdscript"
+      ],
+      "search": [
+        "the events bus singleton",
+        "event bus singleton",
+        "programming pattern",
+        "programming patterns",
+        "gdscript"
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
       "slug": "scene_transition_color_rect",
       "title": "scene transitions",
       "description": "learn how to make smooth scene transitions in godot",
@@ -3011,103 +3011,6 @@
       ],
       "archived": false,
       "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "closure",
-      "title": "closure",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "closure",
-        ""
-      ],
-      "archived": false,
-      "isGlossaryEntry": true,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "function_virtual",
-      "title": "virtual function",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "virtual function",
-        ""
-      ],
-      "archived": false,
-      "isGlossaryEntry": true,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "low_level_programming",
-      "title": "low-level programming",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "low-level programming",
-        "memory",
-        ""
-      ],
-      "archived": false,
-      "isGlossaryEntry": true,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "main_loop",
-      "title": "main loop",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "main loop",
-        ""
-      ],
-      "archived": false,
-      "isGlossaryEntry": true,
       "isYoutubeShort": false
     },
     {
@@ -3467,6 +3370,30 @@
       "subject_tags": [],
       "search": [
         "class",
+        ""
+      ],
+      "archived": false,
+      "isGlossaryEntry": true,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "closure",
+      "title": "closure",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "closure",
         ""
       ],
       "archived": false,
@@ -4825,6 +4752,30 @@
       "isYoutubeShort": false
     },
     {
+      "slug": "function_virtual",
+      "title": "virtual function",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "virtual function",
+        ""
+      ],
+      "archived": false,
+      "isGlossaryEntry": true,
+      "isYoutubeShort": false
+    },
+    {
       "slug": "functional_programming",
       "title": "functional programming",
       "description": "",
@@ -5301,6 +5252,55 @@
       "subject_tags": [],
       "search": [
         "logic programming",
+        ""
+      ],
+      "archived": false,
+      "isGlossaryEntry": true,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "low_level_programming",
+      "title": "low-level programming",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "low-level programming",
+        "memory",
+        ""
+      ],
+      "archived": false,
+      "isGlossaryEntry": true,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "main_loop",
+      "title": "main loop",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "main loop",
         ""
       ],
       "archived": false,
@@ -7672,6 +7672,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-15T23:19:08.380Z"
+    "generatedAt": "2026-05-15T23:55:58.470Z"
   }
 }

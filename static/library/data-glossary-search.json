@@ -1,35 +1,6 @@
 {
   "items": [
     {
-      "slug": "closure",
-      "terms": [
-        "closure",
-        ""
-      ]
-    },
-    {
-      "slug": "function_virtual",
-      "terms": [
-        "virtual function",
-        ""
-      ]
-    },
-    {
-      "slug": "low_level_programming",
-      "terms": [
-        "low-level programming",
-        "memory",
-        ""
-      ]
-    },
-    {
-      "slug": "main_loop",
-      "terms": [
-        "main loop",
-        ""
-      ]
-    },
-    {
       "slug": "api",
       "terms": [
         "api (application programming interface)",
@@ -151,6 +122,13 @@
       "slug": "class_keyword",
       "terms": [
         "class",
+        ""
+      ]
+    },
+    {
+      "slug": "closure",
+      "terms": [
+        "closure",
         ""
       ]
     },
@@ -605,6 +583,13 @@
       ]
     },
     {
+      "slug": "function_virtual",
+      "terms": [
+        "virtual function",
+        ""
+      ]
+    },
+    {
       "slug": "functional_programming",
       "terms": [
         "functional programming",
@@ -761,6 +746,21 @@
       "slug": "logic_programming",
       "terms": [
         "logic programming",
+        ""
+      ]
+    },
+    {
+      "slug": "low_level_programming",
+      "terms": [
+        "low-level programming",
+        "memory",
+        ""
+      ]
+    },
+    {
+      "slug": "main_loop",
+      "terms": [
+        "main loop",
         ""
       ]
     },
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-15T23:19:08.380Z"
+    "generatedAt": "2026-05-15T23:55:58.470Z"
   }
 }

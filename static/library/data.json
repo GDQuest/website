@@ -61,12 +61,12 @@
         "skip_search_results": false,
         "url": "taxonomy/format/demo",
         "items": [
-          "demo_design_patterns",
           "demo_2d_builder",
           "demo_2d_jrpg_combat",
           "demo_2d_platformer",
           "demo_2d_rhythm_game",
           "demo_2d_space_game",
+          "demo_design_patterns",
           "demo_godot_open_rpg",
           "demo_nakama_multiplayer",
           "demo_godot_4_new_features"
@@ -149,10 +149,6 @@
         "url": "taxonomy/format/glossary",
         "items": [
           "glossary",
-          "closure",
-          "function_virtual",
-          "low_level_programming",
-          "main_loop",
           "api",
           "architecture",
           "array",
@@ -167,6 +163,7 @@
           "bound_check",
           "class_inner",
           "class_keyword",
+          "closure",
           "code_blocks",
           "collision_layers_and_masks",
           "command_line",
@@ -220,6 +217,7 @@
           "function_return",
           "function_signature",
           "function_static",
+          "function_virtual",
           "functional_programming",
           "game_states",
           "gamejam",
@@ -239,6 +237,8 @@
           "lifecycle_node",
           "lifecycle_term",
           "logic_programming",
+          "low_level_programming",
+          "main_loop",
           "material",
           "method",
           "modulo",
@@ -412,9 +412,9 @@
           "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
-          "pattern_event_bus_singleton",
           "platformer_chatgpt",
           "save_game_formats_godot_3",
+          "pattern_event_bus_singleton",
           "pattern_finite_state_machine",
           "procedural_noise_generator_intro",
           "signals_good_practices"
@@ -450,7 +450,6 @@
         "skip_search_results": false,
         "url": "taxonomy/format/tutorial",
         "items": [
-          "background_music_transition",
           "optimization_engine",
           "how_to_use_debugger",
           "instancing_entities",
@@ -464,6 +463,7 @@
           "graphics_settings",
           "lighting_with_normal_maps",
           "limiting_vision_with_lights",
+          "background_music_transition",
           "local_multiplayer_input",
           "pattern_entity_component",
           "pattern_strategy",
@@ -593,8 +593,8 @@
         "skip_search_results": false,
         "url": "taxonomy/format/video_update",
         "items": [
-          "juicy_attack",
           "hitbox_hurtbox_godot4",
+          "juicy_attack",
           "ranged_attacks",
           "save_game_godot4",
           "split_screen_coop"
@@ -647,10 +647,6 @@
           "plugin_blender_power_sequencer",
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
-          "closure",
-          "function_virtual",
-          "low_level_programming",
-          "main_loop",
           "api",
           "architecture",
           "array",
@@ -665,6 +661,7 @@
           "bound_check",
           "class_inner",
           "class_keyword",
+          "closure",
           "code_blocks",
           "collision_layers_and_masks",
           "command_line",
@@ -718,6 +715,7 @@
           "function_return",
           "function_signature",
           "function_static",
+          "function_virtual",
           "functional_programming",
           "game_states",
           "gamejam",
@@ -737,6 +735,8 @@
           "lifecycle_node",
           "lifecycle_term",
           "logic_programming",
+          "low_level_programming",
+          "main_loop",
           "material",
           "method",
           "modulo",
@@ -867,7 +867,6 @@
         "skip_search_results": false,
         "url": "taxonomy/tool_version/godot_3",
         "items": [
-          "background_music_transition",
           "beginner_3d_maze_godot",
           "godot_3_multiplayer_intro",
           "optimization_code",
@@ -899,8 +898,8 @@
           "graphics_settings",
           "lighting_with_normal_maps",
           "limiting_vision_with_lights",
+          "background_music_transition",
           "local_multiplayer_input",
-          "pattern_event_bus_singleton",
           "pattern_entity_component",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
@@ -913,6 +912,7 @@
           "shader_3d_flag",
           "top_down_movement_three_ways_2d",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
@@ -959,7 +959,6 @@
         "skip_search_results": false,
         "url": "taxonomy/tool_version/godot_4",
         "items": [
-          "juicy_attack",
           "cheatsheet_save_systems",
           "character_movement_3d_platformer",
           "first_2d_game_godot4_vampire_survivor",
@@ -973,6 +972,7 @@
           "kinematic_jump_formulas",
           "cheatsheet_tileset_setup",
           "first_3d_game_godot4_arena_fps",
+          "juicy_attack",
           "laser_2d",
           "ranged_attacks",
           "save_game_godot4",
@@ -1031,6 +1031,31 @@
       }
     },
     "subject_tag": {
+      "split_screen": {
+        "title": "Split Screen",
+        "title_plural": "Split Screens",
+        "search": [
+          "split screen",
+          "split screens",
+          "split screen",
+          "multiplayer"
+        ],
+        "description": "Techniques and tricks for displaying different views of the game on the same screen",
+        "includes_tags": [
+          {
+            "category": "subject_tag",
+            "slug": "split_screen",
+            "name": "split_screen"
+          }
+        ],
+        "slug": "split_screen",
+        "skip_search_results": false,
+        "url": "taxonomy/subject_tag/split_screen",
+        "items": [
+          "split_screen_coop"
+        ],
+        "toc": []
+      },
       "3d_model": {
         "title": "3D Model",
         "title_plural": "3D Models",
@@ -1122,8 +1147,8 @@
         "items": [
           "how_to_ask_questions",
           "modular_game_architecture",
-          "demo_design_patterns",
           "how_to_practice",
+          "demo_design_patterns",
           "graphics_settings",
           "choosing_a_game_engine",
           "whats_wrong_with_most_godot_tutorials",
@@ -1222,8 +1247,8 @@
         "skip_search_results": false,
         "url": "taxonomy/subject_tag/combat_systems",
         "items": [
-          "juicy_attack",
           "hitbox_hurtbox_godot4",
+          "juicy_attack",
           "ranged_attacks",
           "demo_2d_jrpg_combat"
         ],
@@ -1315,21 +1340,21 @@
           "gdscript_formatter_godot_addon",
           "learn_gdscript_from_zero",
           "gdscript_formatter",
-          "demo_design_patterns",
           "optimization_code",
           "optimization_engine",
           "pattern_adapter",
+          "demo_design_patterns",
           "design_patterns_intro",
           "how_to_use_debugger",
           "optimization_measure",
           "choosing_godot_programming_language_csharp_cpp_gdscript",
           "how_to_learn_to_code",
-          "pattern_event_bus_singleton",
           "whats_wrong_with_most_godot_tutorials",
           "pattern_strategy",
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "pattern_finite_state_machine",
           "pattern_mediator",
           "signals_good_practices"
@@ -1408,31 +1433,6 @@
           "save_game_godot4",
           "save_load_game_data_resources",
           "save_game_formats_godot_3"
-        ],
-        "toc": []
-      },
-      "split_screen": {
-        "title": "Split Screen",
-        "title_plural": "Split Screens",
-        "search": [
-          "split screen",
-          "split screens",
-          "split screen",
-          "multiplayer"
-        ],
-        "description": "Techniques and tricks for displaying different views of the game on the same screen",
-        "includes_tags": [
-          {
-            "category": "subject_tag",
-            "slug": "split_screen",
-            "name": "split_screen"
-          }
-        ],
-        "slug": "split_screen",
-        "skip_search_results": false,
-        "url": "taxonomy/subject_tag/split_screen",
-        "items": [
-          "split_screen_coop"
         ],
         "toc": []
       },
@@ -1638,9 +1638,9 @@
         "skip_search_results": false,
         "url": "taxonomy/subject_tag/audio",
         "items": [
-          "background_music_transition",
           "demo_2d_rhythm_game",
           "background_music",
+          "background_music_transition",
           "pickup_sound_effect",
           "volume_slider"
         ],
@@ -2200,9 +2200,9 @@
         "items": [
           "pattern_adapter",
           "design_patterns_intro",
-          "pattern_event_bus_singleton",
           "pattern_entity_component",
           "pattern_strategy",
+          "pattern_event_bus_singleton",
           "pattern_finite_state_machine",
           "pattern_mediator"
         ],
@@ -2418,12 +2418,12 @@
         "skip_search_results": false,
         "url": "taxonomy/entry_type/asset",
         "items": [
-          "demo_design_patterns",
           "character_controller_3d_mannequin",
           "demo_2d_builder",
           "demo_2d_jrpg_combat",
           "demo_2d_platformer",
           "demo_2d_space_game",
+          "demo_design_patterns",
           "demo_godot_3_vfx",
           "demo_godot_open_rpg",
           "demo_godot_procedural_generation",
@@ -2464,7 +2464,6 @@
         "skip_search_results": false,
         "url": "taxonomy/entry_type/learning_resource",
         "items": [
-          "juicy_attack",
           "cheatsheet_save_systems",
           "glossary",
           "character_movement_3d_platformer",
@@ -2479,6 +2478,7 @@
           "kinematic_jump_formulas",
           "cheatsheet_tileset_setup",
           "first_3d_game_godot4_arena_fps",
+          "juicy_attack",
           "laser_2d",
           "ranged_attacks",
           "save_game_godot4",
@@ -2487,7 +2487,6 @@
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
-          "background_music_transition",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -2522,8 +2521,8 @@
           "limiting_vision_with_lights",
           "choosing_a_game_engine",
           "game_engine_basics",
+          "background_music_transition",
           "local_multiplayer_input",
-          "pattern_event_bus_singleton",
           "pattern_entity_component",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
@@ -2540,6 +2539,7 @@
           "shader_3d_flag",
           "top_down_movement_three_ways_2d",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
@@ -2551,10 +2551,6 @@
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
-          "closure",
-          "function_virtual",
-          "low_level_programming",
-          "main_loop",
           "api",
           "architecture",
           "array",
@@ -2569,6 +2565,7 @@
           "bound_check",
           "class_inner",
           "class_keyword",
+          "closure",
           "code_blocks",
           "collision_layers_and_masks",
           "command_line",
@@ -2622,6 +2619,7 @@
           "function_return",
           "function_signature",
           "function_static",
+          "function_virtual",
           "functional_programming",
           "game_states",
           "gamejam",
@@ -2641,6 +2639,8 @@
           "lifecycle_node",
           "lifecycle_term",
           "logic_programming",
+          "low_level_programming",
+          "main_loop",
           "material",
           "method",
           "modulo",
@@ -2858,8 +2858,6 @@
           "first_3d_game_godot4_arena_fps",
           "laser_2d",
           "godot_4_6_workflow_changes",
-          "demo_design_patterns",
-          "background_music_transition",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -2877,6 +2875,7 @@
           "demo_2d_platformer",
           "demo_2d_rhythm_game",
           "demo_2d_space_game",
+          "demo_design_patterns",
           "demo_godot_3_vfx",
           "demo_godot_open_rpg",
           "demo_godot_procedural_generation",
@@ -2907,8 +2906,8 @@
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
+          "background_music_transition",
           "local_multiplayer_input",
-          "pattern_event_bus_singleton",
           "pattern_entity_component",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
@@ -2930,6 +2929,7 @@
           "shader_3d_flag",
           "top_down_movement_three_ways_2d",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
@@ -3044,7 +3044,6 @@
         "skip_search_results": true,
         "url": "taxonomy/license/mit",
         "items": [
-          "juicy_attack",
           "cheatsheet_save_systems",
           "glossary",
           "character_movement_3d_platformer",
@@ -3058,6 +3057,7 @@
           "kinematic_jump_formulas",
           "cheatsheet_tileset_setup",
           "first_3d_game_godot4_arena_fps",
+          "juicy_attack",
           "laser_2d",
           "ranged_attacks",
           "save_game_godot4",
@@ -3066,8 +3066,6 @@
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
-          "demo_design_patterns",
-          "background_music_transition",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -3085,6 +3083,7 @@
           "demo_2d_platformer",
           "demo_2d_rhythm_game",
           "demo_2d_space_game",
+          "demo_design_patterns",
           "demo_godot_3_vfx",
           "demo_godot_open_rpg",
           "demo_godot_procedural_generation",
@@ -3115,8 +3114,8 @@
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
+          "background_music_transition",
           "local_multiplayer_input",
-          "pattern_event_bus_singleton",
           "pattern_entity_component",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
@@ -3138,6 +3137,7 @@
           "shader_3d_flag",
           "top_down_movement_three_ways_2d",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
@@ -3149,10 +3149,6 @@
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
-          "closure",
-          "function_virtual",
-          "low_level_programming",
-          "main_loop",
           "api",
           "architecture",
           "array",
@@ -3167,6 +3163,7 @@
           "bound_check",
           "class_inner",
           "class_keyword",
+          "closure",
           "code_blocks",
           "collision_layers_and_masks",
           "command_line",
@@ -3220,6 +3217,7 @@
           "function_return",
           "function_signature",
           "function_static",
+          "function_virtual",
           "functional_programming",
           "game_states",
           "gamejam",
@@ -3239,6 +3237,8 @@
           "lifecycle_node",
           "lifecycle_term",
           "logic_programming",
+          "low_level_programming",
+          "main_loop",
           "material",
           "method",
           "modulo",
@@ -3379,11 +3379,11 @@
         "skip_search_results": false,
         "url": "taxonomy/game_space/2d",
         "items": [
-          "juicy_attack",
           "first_2d_game_godot4_vampire_survivor",
           "pixel_art_setup_godot4",
           "cheatsheet_tilemap_basics",
           "cheatsheet_tileset_setup",
+          "juicy_attack",
           "laser_2d",
           "color_tutorials",
           "godot_3_multiplayer_intro",
@@ -3538,8 +3538,6 @@
           "modular_game_architecture",
           "godot_4_6_workflow_changes",
           "null_instance_error",
-          "demo_design_patterns",
-          "background_music_transition",
           "game_design_series_archived",
           "how_to_practice",
           "krita_from_zero",
@@ -3547,6 +3545,7 @@
           "optimization_code",
           "optimization_engine",
           "pattern_adapter",
+          "demo_design_patterns",
           "demo_godot_procedural_generation",
           "demo_nakama_multiplayer",
           "design_patterns_intro",
@@ -3562,7 +3561,7 @@
           "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
-          "pattern_event_bus_singleton",
+          "background_music_transition",
           "pattern_entity_component",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
@@ -3576,15 +3575,12 @@
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "scene_transition_color_rect",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
           "signals_good_practices",
-          "closure",
-          "function_virtual",
-          "low_level_programming",
-          "main_loop",
           "api",
           "architecture",
           "array",
@@ -3599,6 +3595,7 @@
           "bound_check",
           "class_inner",
           "class_keyword",
+          "closure",
           "code_blocks",
           "collision_layers_and_masks",
           "command_line",
@@ -3652,6 +3649,7 @@
           "function_return",
           "function_signature",
           "function_static",
+          "function_virtual",
           "functional_programming",
           "game_states",
           "gamejam",
@@ -3671,6 +3669,8 @@
           "lifecycle_node",
           "lifecycle_term",
           "logic_programming",
+          "low_level_programming",
+          "main_loop",
           "material",
           "method",
           "modulo",
@@ -3781,7 +3781,6 @@
         "skip_search_results": false,
         "url": "taxonomy/game_genre/any",
         "items": [
-          "juicy_attack",
           "cheatsheet_save_systems",
           "glossary",
           "gdscript_formatter_godot_addon",
@@ -3794,6 +3793,7 @@
           "hitbox_hurtbox_godot4",
           "kinematic_jump_formulas",
           "cheatsheet_tileset_setup",
+          "juicy_attack",
           "laser_2d",
           "ranged_attacks",
           "save_game_godot4",
@@ -3802,8 +3802,6 @@
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
-          "demo_design_patterns",
-          "background_music_transition",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -3818,6 +3816,7 @@
           "demo_2d_builder",
           "demo_2d_rhythm_game",
           "demo_2d_space_game",
+          "demo_design_patterns",
           "demo_godot_3_vfx",
           "demo_godot_procedural_generation",
           "demo_godot_shaders",
@@ -3847,8 +3846,8 @@
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
+          "background_music_transition",
           "local_multiplayer_input",
-          "pattern_event_bus_singleton",
           "pattern_entity_component",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
@@ -3870,6 +3869,7 @@
           "shader_3d_flag",
           "top_down_movement_three_ways_2d",
           "typed_gdscript",
+          "pattern_event_bus_singleton",
           "scene_transition_color_rect",
           "your_first_2d_game_godot_3",
           "pattern_finite_state_machine",
@@ -3880,10 +3880,6 @@
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
-          "closure",
-          "function_virtual",
-          "low_level_programming",
-          "main_loop",
           "api",
           "architecture",
           "array",
@@ -3898,6 +3894,7 @@
           "bound_check",
           "class_inner",
           "class_keyword",
+          "closure",
           "code_blocks",
           "collision_layers_and_masks",
           "command_line",
@@ -3951,6 +3948,7 @@
           "function_return",
           "function_signature",
           "function_static",
+          "function_virtual",
           "functional_programming",
           "game_states",
           "gamejam",
@@ -3970,6 +3968,8 @@
           "lifecycle_node",
           "lifecycle_term",
           "logic_programming",
+          "low_level_programming",
+          "main_loop",
           "material",
           "method",
           "modulo",
@@ -4214,278 +4214,6 @@
     }
   },
   "items": {
-    "juicy_attack": {
-      "slug": "juicy_attack",
-      "title": "Juicing up your game attacks",
-      "label": "This project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "combat_systems",
-          "name": "combat_systems"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "vfx",
-          "name": "vfx"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "video_update",
-        "name": "video_update"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "2d",
-        "name": "2d"
-      },
-      "url": "juicy_attack",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_4",
-        "name": "godot_4"
-      },
-      "search": [],
-      "draft": false,
-      "description": "Ever wanted to make attacks feel impactful and satisfying? In this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Juicing up your game attacks",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Downloadable Demo",
-          "title": "download files",
-          "type": "download",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "cover": {
-        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/juicy_attack/juicy_attack.webp",
-        "projectRelativePath": "juicy_attack/juicy_attack.webp",
-        "originalSrc": "juicy_attack.webp",
-        "extensionType": "webp",
-        "webSrc": "https://www.gdquest.com/library/juicy_attack/juicy_attack.webp",
-        "width": 1280,
-        "height": 720,
-        "ratio": 1.7777777777777777,
-        "aspectRatio": "landscape",
-        "srcSetArray": [
-          [
-            "https://www.gdquest.com/library/juicy_attack/juicy_attack-thumb.webp",
-            "320w"
-          ],
-          [
-            "https://www.gdquest.com/library/juicy_attack/juicy_attack-sm.webp",
-            "640w"
-          ],
-          [
-            "https://www.gdquest.com/library/juicy_attack/juicy_attack-md.webp",
-            "1280w"
-          ],
-          [
-            "https://www.gdquest.com/library/juicy_attack/juicy_attack-lg.webp",
-            "1920w"
-          ]
-        ]
-      },
-      "sources": [],
-      "lessons": [],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2025,
-        "month": "October",
-        "monthShort": "Oct",
-        "monthNumber": 10,
-        "dayOfMonth": 9,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-10-09T00:00:00.000Z",
-        "dateDMY": [
-          9,
-          10,
-          2025
-        ],
-        "dateMDY": [
-          10,
-          9,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "09",
-          "10",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "10",
-          "09",
-          "2025"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "October",
-        "monthShort": "Oct",
-        "monthNumber": 10,
-        "dayOfMonth": 9,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2025-10-09T00:00:00.000Z",
-        "dateDMY": [
-          9,
-          10,
-          2025
-        ],
-        "dateMDY": [
-          10,
-          9,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "09",
-          "10",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "10",
-          "09",
-          "2025"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "juicing-up-your-game-attacks",
-          "text": "Juicing up your game attacks",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "animating-the-sword-attack",
-              "text": "Animating the sword attack",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "the-sword-scene",
-                  "text": "The sword scene",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "the-attack-animation",
-                  "text": "The attack animation",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "animating-the-enemy-reaction",
-              "text": "Animating the enemy reaction",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "layering-particle-effects",
-              "text": "Layering particle effects",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "rotating-and-swaying-the-sword",
-              "text": "Rotating and swaying the sword",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "adding-a-knockback-effect-to-the-enemy",
-                  "text": "Adding a knockback effect to the enemy",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "the-final-touch-freezing-time",
-              "text": "The final touch: freezing time",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "download-files",
-          "text": "download files",
-          "depth": 1,
-          "icon": "download",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
     "cheatsheet_save_systems": {
       "slug": "cheatsheet_save_systems",
       "title": "Save and Load: Godot 4 Cheat Sheet",
@@ -8408,6 +8136,278 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "juicy_attack": {
+      "slug": "juicy_attack",
+      "title": "Juicing up your game attacks",
+      "label": "This project gives an example of how to improve sword attack with layered visual effects and sound to help the player feel the weight of attacks.",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "combat_systems",
+          "name": "combat_systems"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "vfx",
+          "name": "vfx"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "video_update",
+        "name": "video_update"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d",
+        "name": "2d"
+      },
+      "url": "juicy_attack",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Ever wanted to make attacks feel impactful and satisfying? In this guide, you'll learn how to enhance sword attacks with layered visual effects, sound design, and animation techniques to add weight and impact to your game's combat.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Juicing up your game attacks",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Downloadable Demo",
+          "title": "download files",
+          "type": "download",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "cover": {
+        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/juicy_attack/juicy_attack.webp",
+        "projectRelativePath": "juicy_attack/juicy_attack.webp",
+        "originalSrc": "juicy_attack.webp",
+        "extensionType": "webp",
+        "webSrc": "https://www.gdquest.com/library/juicy_attack/juicy_attack.webp",
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "aspectRatio": "landscape",
+        "srcSetArray": [
+          [
+            "https://www.gdquest.com/library/juicy_attack/juicy_attack-thumb.webp",
+            "320w"
+          ],
+          [
+            "https://www.gdquest.com/library/juicy_attack/juicy_attack-sm.webp",
+            "640w"
+          ],
+          [
+            "https://www.gdquest.com/library/juicy_attack/juicy_attack-md.webp",
+            "1280w"
+          ],
+          [
+            "https://www.gdquest.com/library/juicy_attack/juicy_attack-lg.webp",
+            "1920w"
+          ]
+        ]
+      },
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 9,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-09T00:00:00.000Z",
+        "dateDMY": [
+          9,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          9,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "09",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "09",
+          "2025"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "October",
+        "monthShort": "Oct",
+        "monthNumber": 10,
+        "dayOfMonth": 9,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2025-10-09T00:00:00.000Z",
+        "dateDMY": [
+          9,
+          10,
+          2025
+        ],
+        "dateMDY": [
+          10,
+          9,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "09",
+          "10",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "10",
+          "09",
+          "2025"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "juicing-up-your-game-attacks",
+          "text": "Juicing up your game attacks",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "animating-the-sword-attack",
+              "text": "Animating the sword attack",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "the-sword-scene",
+                  "text": "The sword scene",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-attack-animation",
+                  "text": "The attack animation",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "animating-the-enemy-reaction",
+              "text": "Animating the enemy reaction",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "layering-particle-effects",
+              "text": "Layering particle effects",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "rotating-and-swaying-the-sword",
+              "text": "Rotating and swaying the sword",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "adding-a-knockback-effect-to-the-enemy",
+                  "text": "Adding a knockback effect to the enemy",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "the-final-touch-freezing-time",
+              "text": "The final touch: freezing time",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "download-files",
+          "text": "download files",
+          "depth": 1,
+          "icon": "download",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "laser_2d": {
       "slug": "laser_2d",
       "title": "2D Laser in Godot 4",
@@ -10430,392 +10430,6 @@
             {
               "id": "questions-and-troubleshooting",
               "text": "Questions and troubleshooting",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "demo_design_patterns": {
-      "slug": "demo_design_patterns",
-      "title": "Godot Design Patterns",
-      "label": "Godot Design Patterns",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "best_practices",
-          "name": "best_practices"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "gdscript",
-          "name": "gdscript"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "asset",
-        "name": "asset"
-      },
-      "format": {
-        "category": "format",
-        "slug": "demo",
-        "name": "demo"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "url": "demo_design_patterns",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_4",
-        "name": "godot_4"
-      },
-      "search": [],
-      "draft": false,
-      "description": "Learn design patterns adapted to the Godot game engine, in GDScript.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Godot Design Patterns",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "cover": {
-        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/demo_design_patterns/design-patterns-banner.png",
-        "projectRelativePath": "hugo_articles/demo_design_patterns/design-patterns-banner.png",
-        "originalSrc": "design-patterns-banner.png",
-        "extensionType": "png",
-        "webSrc": "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner.png",
-        "width": 800,
-        "height": 400,
-        "ratio": 2,
-        "aspectRatio": "landscape",
-        "srcSetArray": [
-          [
-            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-thumb.webp",
-            "320w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-sm.webp",
-            "640w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-md.webp",
-            "1280w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-lg.webp",
-            "1920w"
-          ]
-        ]
-      },
-      "sources": [],
-      "lessons": [],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2021,
-        "month": "February",
-        "monthShort": "Feb",
-        "monthNumber": 2,
-        "dayOfMonth": 3,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "rd",
-        "hours": 1,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2021-02-03T00:00:00.000Z",
-        "dateDMY": [
-          3,
-          2,
-          2021
-        ],
-        "dateMDY": [
-          2,
-          3,
-          2021
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "02",
-          "2021"
-        ],
-        "dateMMDDYYYY": [
-          "02",
-          "03",
-          "2021"
-        ]
-      },
-      "date_modified": {
-        "year": 2021,
-        "month": "February",
-        "monthShort": "Feb",
-        "monthNumber": 2,
-        "dayOfMonth": 3,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "rd",
-        "hours": 1,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2021-02-03T00:00:00.000Z",
-        "dateDMY": [
-          3,
-          2,
-          2021
-        ],
-        "dateMDY": [
-          2,
-          3,
-          2021
-        ],
-        "dateDDMMYYYY": [
-          "03",
-          "02",
-          "2021"
-        ],
-        "dateMMDDYYYY": [
-          "02",
-          "03",
-          "2021"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "redirect_url": "https://github.com/gdquest-demos/godot-design-patterns",
-      "toc": [
-        {
-          "id": "godot-design-patterns",
-          "text": "Godot Design Patterns",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "background_music_transition": {
-      "slug": "background_music_transition",
-      "title": "Crossfade Background Music",
-      "label": "Crossfade Background Music",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "audio",
-          "name": "audio"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "tutorial",
-        "name": "tutorial"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "url": "background_music_transition",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_3",
-        "name": "godot_3"
-      },
-      "search": [],
-      "draft": false,
-      "description": "Crossfade Background Music",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Crossfade Background Music",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "sources": [],
-      "lessons": [],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2020,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 17,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2020-07-17T00:00:00.000Z",
-        "dateDMY": [
-          17,
-          7,
-          2020
-        ],
-        "dateMDY": [
-          7,
-          17,
-          2020
-        ],
-        "dateDDMMYYYY": [
-          "17",
-          "07",
-          "2020"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "17",
-          "2020"
-        ]
-      },
-      "date_modified": {
-        "year": 2020,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 17,
-        "dayName": "Friday",
-        "dayShort": "Fri",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2020-07-17T00:00:00.000Z",
-        "dateDMY": [
-          17,
-          7,
-          2020
-        ],
-        "dateMDY": [
-          7,
-          17,
-          2020
-        ],
-        "dateDDMMYYYY": [
-          "17",
-          "07",
-          "2020"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "17",
-          "2020"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "crossfade-background-music",
-          "text": "Crossfade Background Music",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "setting-up-the-scene",
-              "text": "Setting up the scene",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "coding-the-crossfade",
-              "text": "Coding the crossfade",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -14712,6 +14326,209 @@
         {
           "id": "id-2d-space-game",
           "text": "2D Space Game",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "demo_design_patterns": {
+      "slug": "demo_design_patterns",
+      "title": "Godot Design Patterns",
+      "label": "Godot Design Patterns",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "best_practices",
+          "name": "best_practices"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "gdscript",
+          "name": "gdscript"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "asset",
+        "name": "asset"
+      },
+      "format": {
+        "category": "format",
+        "slug": "demo",
+        "name": "demo"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "url": "demo_design_patterns",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Learn design patterns adapted to the Godot game engine, in GDScript.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Godot Design Patterns",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "cover": {
+        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/demo_design_patterns/design-patterns-banner.png",
+        "projectRelativePath": "hugo_articles/demo_design_patterns/design-patterns-banner.png",
+        "originalSrc": "design-patterns-banner.png",
+        "extensionType": "png",
+        "webSrc": "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner.png",
+        "width": 800,
+        "height": 400,
+        "ratio": 2,
+        "aspectRatio": "landscape",
+        "srcSetArray": [
+          [
+            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-thumb.webp",
+            "320w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-sm.webp",
+            "640w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-md.webp",
+            "1280w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/demo_design_patterns/design-patterns-banner-lg.webp",
+            "1920w"
+          ]
+        ]
+      },
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2021,
+        "month": "February",
+        "monthShort": "Feb",
+        "monthNumber": 2,
+        "dayOfMonth": 3,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "rd",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2021-02-03T00:00:00.000Z",
+        "dateDMY": [
+          3,
+          2,
+          2021
+        ],
+        "dateMDY": [
+          2,
+          3,
+          2021
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "02",
+          "2021"
+        ],
+        "dateMMDDYYYY": [
+          "02",
+          "03",
+          "2021"
+        ]
+      },
+      "date_modified": {
+        "year": 2021,
+        "month": "February",
+        "monthShort": "Feb",
+        "monthNumber": 2,
+        "dayOfMonth": 3,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "rd",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2021-02-03T00:00:00.000Z",
+        "dateDMY": [
+          3,
+          2,
+          2021
+        ],
+        "dateMDY": [
+          2,
+          3,
+          2021
+        ],
+        "dateDDMMYYYY": [
+          "03",
+          "02",
+          "2021"
+        ],
+        "dateMMDDYYYY": [
+          "02",
+          "03",
+          "2021"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "redirect_url": "https://github.com/gdquest-demos/godot-design-patterns",
+      "toc": [
+        {
+          "id": "godot-design-patterns",
+          "text": "Godot Design Patterns",
           "depth": 1,
           "icon": "app",
           "skipSideMenu": false,
@@ -21717,6 +21534,189 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "background_music_transition": {
+      "slug": "background_music_transition",
+      "title": "Crossfade Background Music",
+      "label": "Crossfade Background Music",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "audio",
+          "name": "audio"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "tutorial",
+        "name": "tutorial"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "url": "background_music_transition",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_3",
+        "name": "godot_3"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Crossfade Background Music",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Crossfade Background Music",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2020,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 17,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2020-07-17T00:00:00.000Z",
+        "dateDMY": [
+          17,
+          7,
+          2020
+        ],
+        "dateMDY": [
+          7,
+          17,
+          2020
+        ],
+        "dateDDMMYYYY": [
+          "17",
+          "07",
+          "2020"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "17",
+          "2020"
+        ]
+      },
+      "date_modified": {
+        "year": 2020,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 17,
+        "dayName": "Friday",
+        "dayShort": "Fri",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2020-07-17T00:00:00.000Z",
+        "dateDMY": [
+          17,
+          7,
+          2020
+        ],
+        "dateMDY": [
+          7,
+          17,
+          2020
+        ],
+        "dateDDMMYYYY": [
+          "17",
+          "07",
+          "2020"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "17",
+          "2020"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "crossfade-background-music",
+          "text": "Crossfade Background Music",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "setting-up-the-scene",
+              "text": "Setting up the scene",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "coding-the-crossfade",
+              "text": "Coding the crossfade",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "local_multiplayer_input": {
       "slug": "local_multiplayer_input",
       "title": "Local Multiplayer Input",
@@ -21879,194 +21879,6 @@
             {
               "id": "player-2-controls",
               "text": "Player 2 controls",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "pattern_event_bus_singleton": {
-      "slug": "pattern_event_bus_singleton",
-      "title": "The Events bus singleton",
-      "label": "Event bus singleton",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "programming_patterns",
-          "name": "programming_patterns"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "gdscript",
-          "name": "gdscript"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "study_guide",
-        "name": "study_guide"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "url": "pattern_event_bus_singleton",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_3",
-        "name": "godot_3"
-      },
-      "search": [],
-      "draft": false,
-      "description": "Event bus singleton",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "The Events bus singleton",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "sources": [],
-      "lessons": [],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2021,
-        "month": "March",
-        "monthShort": "Mar",
-        "monthNumber": 3,
-        "dayOfMonth": 30,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2021-03-30T00:00:00.000Z",
-        "dateDMY": [
-          30,
-          3,
-          2021
-        ],
-        "dateMDY": [
-          3,
-          30,
-          2021
-        ],
-        "dateDDMMYYYY": [
-          "30",
-          "03",
-          "2021"
-        ],
-        "dateMMDDYYYY": [
-          "03",
-          "30",
-          "2021"
-        ]
-      },
-      "date_modified": {
-        "year": 2021,
-        "month": "March",
-        "monthShort": "Mar",
-        "monthNumber": 3,
-        "dayOfMonth": 30,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2021-03-30T00:00:00.000Z",
-        "dateDMY": [
-          30,
-          3,
-          2021
-        ],
-        "dateMDY": [
-          3,
-          30,
-          2021
-        ],
-        "dateDDMMYYYY": [
-          "30",
-          "03",
-          "2021"
-        ],
-        "dateMMDDYYYY": [
-          "03",
-          "30",
-          "2021"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "the-events-bus-singleton",
-          "text": "The Events bus singleton",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "how-to-create-a-global-event-singleton",
-              "text": "How to create a global event singleton",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "usage-example",
-              "text": "Usage example",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -26818,6 +26630,194 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "pattern_event_bus_singleton": {
+      "slug": "pattern_event_bus_singleton",
+      "title": "The Events bus singleton",
+      "label": "Event bus singleton",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "programming_patterns",
+          "name": "programming_patterns"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "gdscript",
+          "name": "gdscript"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "url": "pattern_event_bus_singleton",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_3",
+        "name": "godot_3"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Event bus singleton",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "The Events bus singleton",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2021,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 30,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2021-03-30T00:00:00.000Z",
+        "dateDMY": [
+          30,
+          3,
+          2021
+        ],
+        "dateMDY": [
+          3,
+          30,
+          2021
+        ],
+        "dateDDMMYYYY": [
+          "30",
+          "03",
+          "2021"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "30",
+          "2021"
+        ]
+      },
+      "date_modified": {
+        "year": 2021,
+        "month": "March",
+        "monthShort": "Mar",
+        "monthNumber": 3,
+        "dayOfMonth": 30,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2021-03-30T00:00:00.000Z",
+        "dateDMY": [
+          30,
+          3,
+          2021
+        ],
+        "dateMDY": [
+          3,
+          30,
+          2021
+        ],
+        "dateDDMMYYYY": [
+          "30",
+          "03",
+          "2021"
+        ],
+        "dateMMDDYYYY": [
+          "03",
+          "30",
+          "2021"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "the-events-bus-singleton",
+          "text": "The Events bus singleton",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "how-to-create-a-global-event-singleton",
+              "text": "How to create a global event singleton",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "usage-example",
+              "text": "Usage example",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "scene_transition_color_rect": {
       "slug": "scene_transition_color_rect",
       "title": "Scene Transitions",
@@ -29518,530 +29518,6 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
-    "closure": {
-      "slug": "closure",
-      "toc": [],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [
-        {
-          "label": "function_lambda",
-          "url": "function_lambda",
-          "category": "source"
-        },
-        {
-          "label": "function_bound",
-          "url": "function_bound",
-          "category": "source"
-        },
-        {
-          "label": "scope",
-          "url": "scope",
-          "category": "source"
-        }
-      ],
-      "draft": false,
-      "title": "Closure",
-      "url": "glossary/closure",
-      "label": "Learn about Closure",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.872Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 6,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 50,
-        "seconds": 56,
-        "date": "2025-07-06T16:50:56.040Z",
-        "dateDMY": [
-          6,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          6,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "06",
-          "2025"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "function_virtual": {
-      "slug": "function_virtual",
-      "toc": [
-        {
-          "id": "virtual-functions-in-gdscript",
-          "text": "Virtual functions in GDScript",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [
-        {
-          "label": "function_override",
-          "url": "function_override",
-          "category": "source"
-        }
-      ],
-      "draft": false,
-      "title": "Virtual Function",
-      "url": "glossary/function_virtual",
-      "label": "Learn about Virtual Function",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.873Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 6,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 50,
-        "seconds": 56,
-        "date": "2025-07-06T16:50:56.043Z",
-        "dateDMY": [
-          6,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          6,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "06",
-          "2025"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "low_level_programming": {
-      "slug": "low_level_programming",
-      "toc": [],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [],
-      "draft": false,
-      "title": "Low-level programming",
-      "url": "glossary/low_level_programming",
-      "label": "Learn about Low-level programming",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [
-        "memory"
-      ],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.873Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 6,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 50,
-        "seconds": 56,
-        "date": "2025-07-06T16:50:56.056Z",
-        "dateDMY": [
-          6,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          6,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "06",
-          "2025"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "main_loop": {
-      "slug": "main_loop",
-      "toc": [],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [],
-      "draft": false,
-      "title": "Main Loop",
-      "url": "glossary/main_loop",
-      "label": "Learn about Main Loop",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.873Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 6,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 50,
-        "seconds": 56,
-        "date": "2025-07-06T16:50:56.056Z",
-        "dateDMY": [
-          6,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          6,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "06",
-          "2025"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
     "api": {
       "slug": "api",
       "toc": [
@@ -30123,9 +29599,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.873Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.023Z",
         "dateDMY": [
           16,
           5,
@@ -30308,9 +29784,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.874Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.024Z",
         "dateDMY": [
           16,
           5,
@@ -30462,9 +29938,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.874Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.024Z",
         "dateDMY": [
           16,
           5,
@@ -30597,9 +30073,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.875Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.025Z",
         "dateDMY": [
           16,
           5,
@@ -30720,9 +30196,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.875Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.025Z",
         "dateDMY": [
           16,
           5,
@@ -30859,9 +30335,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.875Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.025Z",
         "dateDMY": [
           16,
           5,
@@ -31049,9 +30525,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.876Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.026Z",
         "dateDMY": [
           16,
           5,
@@ -31175,9 +30651,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.877Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.026Z",
         "dateDMY": [
           16,
           5,
@@ -31385,9 +30861,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.877Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.027Z",
         "dateDMY": [
           16,
           5,
@@ -31517,9 +30993,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.878Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.028Z",
         "dateDMY": [
           16,
           5,
@@ -31654,9 +31130,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.878Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.028Z",
         "dateDMY": [
           16,
           5,
@@ -31788,9 +31264,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.878Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.028Z",
         "dateDMY": [
           16,
           5,
@@ -31925,9 +31401,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.879Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.029Z",
         "dateDMY": [
           16,
           5,
@@ -32059,9 +31535,148 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.879Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.029Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 6,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 50,
+        "seconds": 56,
+        "date": "2025-07-06T16:50:56.040Z",
+        "dateDMY": [
+          6,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "06",
+          "2025"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "closure": {
+      "slug": "closure",
+      "toc": [],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [
+        {
+          "label": "function_lambda",
+          "url": "function_lambda",
+          "category": "source"
+        },
+        {
+          "label": "function_bound",
+          "url": "function_bound",
+          "category": "source"
+        },
+        {
+          "label": "scope",
+          "url": "scope",
+          "category": "source"
+        }
+      ],
+      "draft": false,
+      "title": "Closure",
+      "url": "glossary/closure",
+      "label": "Learn about Closure",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.029Z",
         "dateDMY": [
           16,
           5,
@@ -32196,9 +31811,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.879Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.030Z",
         "dateDMY": [
           16,
           5,
@@ -32327,9 +31942,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.879Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.030Z",
         "dateDMY": [
           16,
           5,
@@ -32477,9 +32092,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.880Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.031Z",
         "dateDMY": [
           16,
           5,
@@ -32626,9 +32241,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.881Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.031Z",
         "dateDMY": [
           16,
           5,
@@ -32755,9 +32370,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.881Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.031Z",
         "dateDMY": [
           16,
           5,
@@ -32906,9 +32521,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.882Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.032Z",
         "dateDMY": [
           16,
           5,
@@ -33044,9 +32659,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.882Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.032Z",
         "dateDMY": [
           16,
           5,
@@ -33167,9 +32782,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.882Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.033Z",
         "dateDMY": [
           16,
           5,
@@ -33298,9 +32913,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.882Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.033Z",
         "dateDMY": [
           16,
           5,
@@ -33424,9 +33039,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.882Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.033Z",
         "dateDMY": [
           16,
           5,
@@ -33558,9 +33173,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.883Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.034Z",
         "dateDMY": [
           16,
           5,
@@ -33697,9 +33312,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.883Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.034Z",
         "dateDMY": [
           16,
           5,
@@ -33846,9 +33461,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.883Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.034Z",
         "dateDMY": [
           16,
           5,
@@ -34009,9 +33624,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.883Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.034Z",
         "dateDMY": [
           16,
           5,
@@ -34138,9 +33753,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.883Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.035Z",
         "dateDMY": [
           16,
           5,
@@ -34264,9 +33879,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.884Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.035Z",
         "dateDMY": [
           16,
           5,
@@ -34391,9 +34006,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.884Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.035Z",
         "dateDMY": [
           16,
           5,
@@ -34516,9 +34131,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.884Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.035Z",
         "dateDMY": [
           16,
           5,
@@ -34678,9 +34293,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.885Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.036Z",
         "dateDMY": [
           16,
           5,
@@ -34820,9 +34435,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.885Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.036Z",
         "dateDMY": [
           16,
           5,
@@ -34947,9 +34562,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.886Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.036Z",
         "dateDMY": [
           16,
           5,
@@ -35110,9 +34725,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.887Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.037Z",
         "dateDMY": [
           16,
           5,
@@ -35233,9 +34848,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.887Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.037Z",
         "dateDMY": [
           16,
           5,
@@ -35362,9 +34977,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.888Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.037Z",
         "dateDMY": [
           16,
           5,
@@ -35496,9 +35111,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.888Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.037Z",
         "dateDMY": [
           16,
           5,
@@ -35697,9 +35312,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.891Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.039Z",
         "dateDMY": [
           16,
           5,
@@ -35844,9 +35459,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.891Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.040Z",
         "dateDMY": [
           16,
           5,
@@ -35990,9 +35605,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.892Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.040Z",
         "dateDMY": [
           16,
           5,
@@ -36127,9 +35742,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.892Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.040Z",
         "dateDMY": [
           16,
           5,
@@ -36271,9 +35886,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.892Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.040Z",
         "dateDMY": [
           16,
           5,
@@ -36410,9 +36025,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.893Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.041Z",
         "dateDMY": [
           16,
           5,
@@ -36537,9 +36152,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.893Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.041Z",
         "dateDMY": [
           16,
           5,
@@ -36665,9 +36280,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.893Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.041Z",
         "dateDMY": [
           16,
           5,
@@ -36809,9 +36424,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.894Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.041Z",
         "dateDMY": [
           16,
           5,
@@ -36946,9 +36561,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.894Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.041Z",
         "dateDMY": [
           16,
           5,
@@ -37089,9 +36704,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.894Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.042Z",
         "dateDMY": [
           16,
           5,
@@ -37243,9 +36858,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.894Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.042Z",
         "dateDMY": [
           16,
           5,
@@ -37366,9 +36981,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.895Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.042Z",
         "dateDMY": [
           16,
           5,
@@ -37492,9 +37107,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.895Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.042Z",
         "dateDMY": [
           16,
           5,
@@ -37662,9 +37277,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.895Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.042Z",
         "dateDMY": [
           16,
           5,
@@ -37788,9 +37403,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.896Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.043Z",
         "dateDMY": [
           16,
           5,
@@ -37927,9 +37542,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.896Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.043Z",
         "dateDMY": [
           16,
           5,
@@ -38095,9 +37710,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.897Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.043Z",
         "dateDMY": [
           16,
           5,
@@ -38224,9 +37839,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.897Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.044Z",
         "dateDMY": [
           16,
           5,
@@ -38361,9 +37976,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.898Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.044Z",
         "dateDMY": [
           16,
           5,
@@ -38569,9 +38184,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.900Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.045Z",
         "dateDMY": [
           16,
           5,
@@ -38739,9 +38354,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.901Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.046Z",
         "dateDMY": [
           16,
           5,
@@ -38896,9 +38511,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.901Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.046Z",
         "dateDMY": [
           16,
           5,
@@ -39058,9 +38673,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.901Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.046Z",
         "dateDMY": [
           16,
           5,
@@ -39209,9 +38824,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.902Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.046Z",
         "dateDMY": [
           16,
           5,
@@ -39373,9 +38988,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.902Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.047Z",
         "dateDMY": [
           16,
           5,
@@ -39517,9 +39132,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.902Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.047Z",
         "dateDMY": [
           16,
           5,
@@ -39651,9 +39266,146 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.902Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.047Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 6,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 50,
+        "seconds": 56,
+        "date": "2025-07-06T16:50:56.043Z",
+        "dateDMY": [
+          6,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "06",
+          "2025"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "function_virtual": {
+      "slug": "function_virtual",
+      "toc": [
+        {
+          "id": "virtual-functions-in-gdscript",
+          "text": "Virtual functions in GDScript",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [
+        {
+          "label": "function_override",
+          "url": "function_override",
+          "category": "source"
+        }
+      ],
+      "draft": false,
+      "title": "Virtual Function",
+      "url": "glossary/function_virtual",
+      "label": "Learn about Virtual Function",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.047Z",
         "dateDMY": [
           16,
           5,
@@ -39802,9 +39554,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.903Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.048Z",
         "dateDMY": [
           16,
           5,
@@ -39936,9 +39688,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.903Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.048Z",
         "dateDMY": [
           16,
           5,
@@ -40083,9 +39835,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.904Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.048Z",
         "dateDMY": [
           16,
           5,
@@ -40227,9 +39979,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.906Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.049Z",
         "dateDMY": [
           16,
           5,
@@ -40359,9 +40111,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.906Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.049Z",
         "dateDMY": [
           16,
           5,
@@ -40488,9 +40240,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.906Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.049Z",
         "dateDMY": [
           16,
           5,
@@ -40637,9 +40389,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.907Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.050Z",
         "dateDMY": [
           16,
           5,
@@ -40793,9 +40545,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.908Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.051Z",
         "dateDMY": [
           16,
           5,
@@ -40966,9 +40718,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.909Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.051Z",
         "dateDMY": [
           16,
           5,
@@ -41108,9 +40860,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.909Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.052Z",
         "dateDMY": [
           16,
           5,
@@ -41231,9 +40983,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.910Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.052Z",
         "dateDMY": [
           16,
           5,
@@ -41356,9 +41108,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.910Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.052Z",
         "dateDMY": [
           16,
           5,
@@ -41481,9 +41233,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.911Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.052Z",
         "dateDMY": [
           16,
           5,
@@ -41628,9 +41380,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.912Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.053Z",
         "dateDMY": [
           16,
           5,
@@ -41759,9 +41511,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.913Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.053Z",
         "dateDMY": [
           16,
           5,
@@ -41893,9 +41645,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.913Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.054Z",
         "dateDMY": [
           16,
           5,
@@ -42078,9 +41830,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.914Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.054Z",
         "dateDMY": [
           16,
           5,
@@ -42207,9 +41959,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.914Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.054Z",
         "dateDMY": [
           16,
           5,
@@ -42346,9 +42098,257 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.914Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.054Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 6,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 50,
+        "seconds": 56,
+        "date": "2025-07-06T16:50:56.056Z",
+        "dateDMY": [
+          6,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "06",
+          "2025"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "low_level_programming": {
+      "slug": "low_level_programming",
+      "toc": [],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [],
+      "draft": false,
+      "title": "Low-level programming",
+      "url": "glossary/low_level_programming",
+      "label": "Learn about Low-level programming",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [
+        "memory"
+      ],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.055Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 6,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 50,
+        "seconds": 56,
+        "date": "2025-07-06T16:50:56.056Z",
+        "dateDMY": [
+          6,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "06",
+          "2025"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "main_loop": {
+      "slug": "main_loop",
+      "toc": [],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [],
+      "draft": false,
+      "title": "Main Loop",
+      "url": "glossary/main_loop",
+      "label": "Learn about Main Loop",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.055Z",
         "dateDMY": [
           16,
           5,
@@ -42494,9 +42494,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.915Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.055Z",
         "dateDMY": [
           16,
           5,
@@ -42633,9 +42633,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.915Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.055Z",
         "dateDMY": [
           16,
           5,
@@ -42759,9 +42759,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.915Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.055Z",
         "dateDMY": [
           16,
           5,
@@ -42901,9 +42901,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.916Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.056Z",
         "dateDMY": [
           16,
           5,
@@ -43036,9 +43036,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.916Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.057Z",
         "dateDMY": [
           16,
           5,
@@ -43200,9 +43200,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.918Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.059Z",
         "dateDMY": [
           16,
           5,
@@ -43349,9 +43349,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.920Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.060Z",
         "dateDMY": [
           16,
           5,
@@ -43491,9 +43491,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.921Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.062Z",
         "dateDMY": [
           16,
           5,
@@ -43652,9 +43652,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.922Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.062Z",
         "dateDMY": [
           16,
           5,
@@ -43779,9 +43779,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.922Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.062Z",
         "dateDMY": [
           16,
           5,
@@ -43906,9 +43906,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.922Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.062Z",
         "dateDMY": [
           16,
           5,
@@ -44059,9 +44059,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.923Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.063Z",
         "dateDMY": [
           16,
           5,
@@ -44210,9 +44210,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.923Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.063Z",
         "dateDMY": [
           16,
           5,
@@ -44339,9 +44339,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.923Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.064Z",
         "dateDMY": [
           16,
           5,
@@ -44469,9 +44469,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.924Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.064Z",
         "dateDMY": [
           16,
           5,
@@ -44617,9 +44617,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.924Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.064Z",
         "dateDMY": [
           16,
           5,
@@ -44743,9 +44743,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.924Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.064Z",
         "dateDMY": [
           16,
           5,
@@ -44883,9 +44883,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.925Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.065Z",
         "dateDMY": [
           16,
           5,
@@ -45012,9 +45012,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.925Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.065Z",
         "dateDMY": [
           16,
           5,
@@ -45184,9 +45184,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.925Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.065Z",
         "dateDMY": [
           16,
           5,
@@ -45326,9 +45326,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.925Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.065Z",
         "dateDMY": [
           16,
           5,
@@ -45478,9 +45478,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.926Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.066Z",
         "dateDMY": [
           16,
           5,
@@ -45601,9 +45601,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.926Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.066Z",
         "dateDMY": [
           16,
           5,
@@ -45744,9 +45744,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.926Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.066Z",
         "dateDMY": [
           16,
           5,
@@ -45870,9 +45870,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.926Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.066Z",
         "dateDMY": [
           16,
           5,
@@ -46012,9 +46012,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.927Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.067Z",
         "dateDMY": [
           16,
           5,
@@ -46145,9 +46145,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.927Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.067Z",
         "dateDMY": [
           16,
           5,
@@ -46289,9 +46289,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.927Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.067Z",
         "dateDMY": [
           16,
           5,
@@ -46412,9 +46412,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.927Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.067Z",
         "dateDMY": [
           16,
           5,
@@ -46546,9 +46546,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.928Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.068Z",
         "dateDMY": [
           16,
           5,
@@ -46675,9 +46675,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.928Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.068Z",
         "dateDMY": [
           16,
           5,
@@ -46806,9 +46806,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.928Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.068Z",
         "dateDMY": [
           16,
           5,
@@ -46940,9 +46940,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.928Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.068Z",
         "dateDMY": [
           16,
           5,
@@ -47091,9 +47091,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.929Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.069Z",
         "dateDMY": [
           16,
           5,
@@ -47232,9 +47232,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.929Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.069Z",
         "dateDMY": [
           16,
           5,
@@ -47364,9 +47364,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.930Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.070Z",
         "dateDMY": [
           16,
           5,
@@ -47504,9 +47504,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.930Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.071Z",
         "dateDMY": [
           16,
           5,
@@ -47647,9 +47647,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.931Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.072Z",
         "dateDMY": [
           16,
           5,
@@ -47774,9 +47774,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.931Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.072Z",
         "dateDMY": [
           16,
           5,
@@ -47917,9 +47917,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.932Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.073Z",
         "dateDMY": [
           16,
           5,
@@ -48066,9 +48066,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.932Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.073Z",
         "dateDMY": [
           16,
           5,
@@ -48200,9 +48200,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.932Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.074Z",
         "dateDMY": [
           16,
           5,
@@ -48328,9 +48328,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.932Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.074Z",
         "dateDMY": [
           16,
           5,
@@ -48468,9 +48468,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.933Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.074Z",
         "dateDMY": [
           16,
           5,
@@ -48604,9 +48604,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.933Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.075Z",
         "dateDMY": [
           16,
           5,
@@ -48733,9 +48733,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.933Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.075Z",
         "dateDMY": [
           16,
           5,
@@ -48870,9 +48870,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.934Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.075Z",
         "dateDMY": [
           16,
           5,
@@ -49008,9 +49008,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.934Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.075Z",
         "dateDMY": [
           16,
           5,
@@ -49146,9 +49146,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.934Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.076Z",
         "dateDMY": [
           16,
           5,
@@ -49290,9 +49290,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.935Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.077Z",
         "dateDMY": [
           16,
           5,
@@ -49438,9 +49438,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.936Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.078Z",
         "dateDMY": [
           16,
           5,
@@ -49569,9 +49569,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.936Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.078Z",
         "dateDMY": [
           16,
           5,
@@ -49710,9 +49710,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.936Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.078Z",
         "dateDMY": [
           16,
           5,
@@ -49875,9 +49875,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.938Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.081Z",
         "dateDMY": [
           16,
           5,
@@ -50024,9 +50024,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.938Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.081Z",
         "dateDMY": [
           16,
           5,
@@ -50157,9 +50157,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.938Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.081Z",
         "dateDMY": [
           16,
           5,
@@ -50282,9 +50282,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.938Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.081Z",
         "dateDMY": [
           16,
           5,
@@ -50429,9 +50429,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.939Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.082Z",
         "dateDMY": [
           16,
           5,
@@ -50580,9 +50580,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.939Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.082Z",
         "dateDMY": [
           16,
           5,
@@ -50734,9 +50734,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.939Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.083Z",
         "dateDMY": [
           16,
           5,
@@ -50900,9 +50900,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.940Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.084Z",
         "dateDMY": [
           16,
           5,
@@ -51076,9 +51076,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.941Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.084Z",
         "dateDMY": [
           16,
           5,
@@ -51217,9 +51217,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.941Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.085Z",
         "dateDMY": [
           16,
           5,
@@ -51346,9 +51346,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.941Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.085Z",
         "dateDMY": [
           16,
           5,
@@ -51481,9 +51481,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.941Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.085Z",
         "dateDMY": [
           16,
           5,
@@ -51604,9 +51604,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.941Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.085Z",
         "dateDMY": [
           16,
           5,
@@ -51748,9 +51748,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.942Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.085Z",
         "dateDMY": [
           16,
           5,
@@ -51874,9 +51874,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.942Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.086Z",
         "dateDMY": [
           16,
           5,
@@ -52041,9 +52041,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.942Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.086Z",
         "dateDMY": [
           16,
           5,
@@ -52178,9 +52178,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.942Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.086Z",
         "dateDMY": [
           16,
           5,
@@ -52339,9 +52339,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.943Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.087Z",
         "dateDMY": [
           16,
           5,
@@ -52493,9 +52493,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.943Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.087Z",
         "dateDMY": [
           16,
           5,
@@ -52620,9 +52620,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.943Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.087Z",
         "dateDMY": [
           16,
           5,
@@ -52764,9 +52764,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.943Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.087Z",
         "dateDMY": [
           16,
           5,
@@ -52887,9 +52887,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.944Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.088Z",
         "dateDMY": [
           16,
           5,
@@ -53044,9 +53044,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.944Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.088Z",
         "dateDMY": [
           16,
           5,
@@ -53231,9 +53231,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.945Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.089Z",
         "dateDMY": [
           16,
           5,
@@ -53358,9 +53358,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.945Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.089Z",
         "dateDMY": [
           16,
           5,
@@ -53500,9 +53500,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.945Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.089Z",
         "dateDMY": [
           16,
           5,
@@ -53633,9 +53633,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.947Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.091Z",
         "dateDMY": [
           16,
           5,
@@ -53779,9 +53779,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.947Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.091Z",
         "dateDMY": [
           16,
           5,
@@ -53927,9 +53927,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.947Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.092Z",
         "dateDMY": [
           16,
           5,
@@ -54087,9 +54087,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.949Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.093Z",
         "dateDMY": [
           16,
           5,
@@ -54220,9 +54220,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.949Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.093Z",
         "dateDMY": [
           16,
           5,
@@ -54365,9 +54365,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.949Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.094Z",
         "dateDMY": [
           16,
           5,
@@ -54510,9 +54510,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.950Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.095Z",
         "dateDMY": [
           16,
           5,
@@ -54653,9 +54653,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.950Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.095Z",
         "dateDMY": [
           16,
           5,
@@ -54791,9 +54791,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.951Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.095Z",
         "dateDMY": [
           16,
           5,
@@ -54945,9 +54945,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.951Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.096Z",
         "dateDMY": [
           16,
           5,
@@ -55107,9 +55107,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.952Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.096Z",
         "dateDMY": [
           16,
           5,
@@ -55232,9 +55232,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.952Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.097Z",
         "dateDMY": [
           16,
           5,
@@ -55405,9 +55405,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 1,
-        "minutes": 19,
-        "seconds": 6,
-        "date": "2026-05-15T23:19:06.954Z",
+        "minutes": 55,
+        "seconds": 57,
+        "date": "2026-05-15T23:55:57.097Z",
         "dateDMY": [
           16,
           5,
