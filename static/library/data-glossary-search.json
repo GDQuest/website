@@ -1,16 +1,9 @@
 {
   "items": [
     {
-      "slug": "refactor",
+      "slug": "interface_driven_design",
       "terms": [
-        "refactoring",
-        ""
-      ]
-    },
-    {
-      "slug": "variable",
-      "terms": [
-        "variable",
+        "interface driven design",
         ""
       ]
     },
@@ -796,13 +789,6 @@
       ]
     },
     {
-      "slug": "interface_driven_design",
-      "terms": [
-        "interface driven design",
-        ""
-      ]
-    },
-    {
       "slug": "interpolation",
       "terms": [
         "interpolation",
@@ -1147,6 +1133,13 @@
       ]
     },
     {
+      "slug": "refactor",
+      "terms": [
+        "refactoring",
+        ""
+      ]
+    },
+    {
       "slug": "reference_counting",
       "terms": [
         "reference counting",
@@ -1476,6 +1469,13 @@
       ]
     },
     {
+      "slug": "variable",
+      "terms": [
+        "variable",
+        ""
+      ]
+    },
+    {
       "slug": "vector",
       "terms": [
         "vector",
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T11:29:09.400Z"
+    "generatedAt": "2026-05-16T11:51:55.147Z"
   }
 }
