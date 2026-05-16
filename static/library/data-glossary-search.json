@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "slug": "command_line",
+      "terms": [
+        "command line",
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd",
+        ""
+      ]
+    },
+    {
+      "slug": "pathfinding",
+      "terms": [
+        "pathfinding",
+        "astar",
+        "a*",
+        "djikstra",
+        ""
+      ]
+    },
+    {
+      "slug": "rigid_body",
+      "terms": [
+        "rigid body",
+        "physics body",
+        "dynamic body",
+        "physics simulation",
+        ""
+      ]
+    },
+    {
       "slug": "api",
       "terms": [
         "api (application programming interface)",
@@ -144,18 +176,6 @@
       "terms": [
         "collision layers and masks",
         "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "command_line",
-      "terms": [
-        "command line",
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd",
         ""
       ]
     },
@@ -897,16 +917,6 @@
       ]
     },
     {
-      "slug": "pathfinding",
-      "terms": [
-        "pathfinding",
-        "astar",
-        "a*",
-        "djikstra",
-        ""
-      ]
-    },
-    {
       "slug": "pebkac",
       "terms": [
         "pebkac (user error)",
@@ -1522,16 +1532,6 @@
       ]
     },
     {
-      "slug": "rigid_body",
-      "terms": [
-        "rigid body",
-        "physics body",
-        "dynamic body",
-        "physics simulation",
-        ""
-      ]
-    },
-    {
       "slug": "scope",
       "terms": [
         "scope",
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T00:26:30.586Z"
+    "generatedAt": "2026-05-16T00:42:15.711Z"
   }
 }

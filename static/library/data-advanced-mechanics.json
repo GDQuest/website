@@ -1,20 +1,6 @@
 {
   "list": [
     {
-      "name": "Button",
-      "title": "Draws a button the player can press",
-      "seeAlso": [
-        "TouchScreenButton"
-      ],
-      "examples": [
-        "Navigating to different sub-menus from a game's main menu",
-        "Displaying items you can click and buy in a shop",
-        "Selecting a weapon or a skill by clicking on it in a shortcut bar"
-      ],
-      "category": "UI",
-      "use_when": "You need a button to start an action, make a choice, or provide information"
-    },
-    {
       "name": "Camera3D",
       "title": "Camera3D allows you to see in 3D space",
       "examples": [
@@ -104,6 +90,20 @@
       ],
       "category": "3D",
       "use_when": "You want to constrain movement or rotation of objects along a smooth curve in 3D space"
+    },
+    {
+      "name": "Button",
+      "title": "Draws a button the player can press",
+      "seeAlso": [
+        "TouchScreenButton"
+      ],
+      "examples": [
+        "Navigating to different sub-menus from a game's main menu",
+        "Displaying items you can click and buy in a shop",
+        "Selecting a weapon or a skill by clicking on it in a shortcut bar"
+      ],
+      "category": "UI",
+      "use_when": "You need a button to start an action, make a choice, or provide information"
     },
     {
       "name": "GPUParticles2D",
