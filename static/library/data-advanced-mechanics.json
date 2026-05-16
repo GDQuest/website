@@ -1,6 +1,28 @@
 {
   "list": [
     {
+      "name": "RemoteTransform2D",
+      "title": "RemoteTransform2D pushes its transform to another node",
+      "examples": [
+        "Attaching UI elements to game characters",
+        "Creating mini-maps that track player position",
+        "Synchronizing distant visual effects with gameplay objects"
+      ],
+      "category": "2D",
+      "use_when": "Two nodes need to move together but are in different parts of the scene tree"
+    },
+    {
+      "name": "RigidBody2D",
+      "title": "RigidBody2D moves with physics",
+      "examples": [
+        "Physics-based platformer character that bounces and tumbles",
+        "Explosive barrels that fly apart when hit",
+        "Collapsing tower structures like in Angry Birds"
+      ],
+      "category": "2D",
+      "use_when": "When you want realistic physics movement with forces, gravity, and collisions handled automatically. Choose over CharacterBody3D when you need physics-based interactions rather than precise manual control."
+    },
+    {
       "name": "Camera2D",
       "title": "Controls what's on-screen in a 2d scene",
       "examples": [
@@ -275,17 +297,6 @@
       "use_when": "You want to create scalable UI panels that keep clear borders and corners when resized"
     },
     {
-      "name": "RemoteTransform2D",
-      "title": "RemoteTransform2D pushes its transform to another node",
-      "examples": [
-        "Attaching UI elements to game characters",
-        "Creating mini-maps that track player position",
-        "Synchronizing distant visual effects with gameplay objects"
-      ],
-      "category": "2D",
-      "use_when": "Two nodes need to move together but are in different parts of the scene tree"
-    },
-    {
       "name": "Label3D",
       "title": "Label3D displays text in 3D space",
       "examples": [
@@ -323,17 +334,6 @@
       ],
       "category": "UI",
       "use_when": "You need players to choose one option from a predefined list of choices"
-    },
-    {
-      "name": "RigidBody2D",
-      "title": "RigidBody2D moves with physics",
-      "examples": [
-        "Physics-based platformer character that bounces and tumbles",
-        "Explosive barrels that fly apart when hit",
-        "Collapsing tower structures like in Angry Birds"
-      ],
-      "category": "2D",
-      "use_when": "When you want realistic physics movement with forces, gravity, and collisions handled automatically. Choose over CharacterBody3D when you need physics-based interactions rather than precise manual control."
     },
     {
       "name": "Light3D",

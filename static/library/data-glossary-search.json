@@ -1,10 +1,45 @@
 {
   "items": [
     {
-      "slug": "finite_state_machine",
+      "slug": "annotation",
       "terms": [
-        "finite state machine",
+        "annotation",
+        "@onready",
+        "@export",
+        "@abstract",
+        ""
+      ]
+    },
+    {
+      "slug": "boilerplate",
+      "terms": [
+        "boilerplate",
+        "template",
+        "scaffolding",
+        ""
+      ]
+    },
+    {
+      "slug": "duck_typing",
+      "terms": [
+        "duck typing",
+        ""
+      ]
+    },
+    {
+      "slug": "encapsulation",
+      "terms": [
+        "encapsulation",
+        "oop",
+        ""
+      ]
+    },
+    {
+      "slug": "finite_state_machine_state",
+      "terms": [
+        "state (finite state machine)",
         "FSM",
+        "automata",
         ""
       ]
     },
@@ -17,13 +52,23 @@
       ]
     },
     {
-      "slug": "level_design",
+      "slug": "pseudo_code",
       "terms": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
+        "pseudo code",
+        ""
+      ]
+    },
+    {
+      "slug": "resource",
+      "terms": [
+        "resource",
+        ""
+      ]
+    },
+    {
+      "slug": "void_keyword",
+      "terms": [
+        "void (function)",
         ""
       ]
     },
@@ -51,16 +96,6 @@
         "tau",
         "π",
         "τ",
-        ""
-      ]
-    },
-    {
-      "slug": "annotation",
-      "terms": [
-        "annotation",
-        "@onready",
-        "@export",
-        "@abstract",
         ""
       ]
     },
@@ -164,15 +199,6 @@
         "bitmask",
         "bitset",
         "binary",
-        ""
-      ]
-    },
-    {
-      "slug": "boilerplate",
-      "terms": [
-        "boilerplate",
-        "template",
-        "scaffolding",
         ""
       ]
     },
@@ -434,13 +460,6 @@
       ]
     },
     {
-      "slug": "duck_typing",
-      "terms": [
-        "duck typing",
-        ""
-      ]
-    },
-    {
       "slug": "dynamic_static_weak_strong",
       "terms": [
         "dynamic, static, weak, and strong languages",
@@ -465,14 +484,6 @@
       "slug": "editor_tooling",
       "terms": [
         "editor tooling",
-        ""
-      ]
-    },
-    {
-      "slug": "encapsulation",
-      "terms": [
-        "encapsulation",
-        "oop",
         ""
       ]
     },
@@ -525,11 +536,10 @@
       ]
     },
     {
-      "slug": "finite_state_machine_state",
+      "slug": "finite_state_machine",
       "terms": [
-        "state (finite state machine)",
+        "finite state machine",
         "FSM",
-        "automata",
         ""
       ]
     },
@@ -858,6 +868,17 @@
       ]
     },
     {
+      "slug": "level_design",
+      "terms": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
+        ""
+      ]
+    },
+    {
       "slug": "lifecycle_node",
       "terms": [
         "node lifecycle",
@@ -1100,13 +1121,6 @@
       ]
     },
     {
-      "slug": "pseudo_code",
-      "terms": [
-        "pseudo code",
-        ""
-      ]
-    },
-    {
       "slug": "quaternion",
       "terms": [
         "quaternion",
@@ -1144,13 +1158,6 @@
       "terms": [
         "reference counting",
         "memory management",
-        ""
-      ]
-    },
-    {
-      "slug": "resource",
-      "terms": [
-        "resource",
         ""
       ]
     },
@@ -1518,13 +1525,6 @@
       ]
     },
     {
-      "slug": "void_keyword",
-      "terms": [
-        "void (function)",
-        ""
-      ]
-    },
-    {
       "slug": "your_future_self",
       "terms": [
         "your co-worker: your future self",
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T14:59:49.727Z"
+    "generatedAt": "2026-05-16T18:33:52.484Z"
   }
 }
