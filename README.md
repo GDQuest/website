@@ -19,7 +19,7 @@ The website uses the static site engine [hugo](https://gohugo.io).
 
 To test the site locally:
 
-1. Install [hugo extended](https://github.com/gohugoio/hugo/releases). On the GitHub releases page of hugo, look for an executable named `hugo_extended_...`. This version of Hugo includes tools to process pictures and SCSS code.
+1. Install [hugo extended](https://github.com/gohugoio/hugo/releases). On the GitHub releases page of hugo, look for an executable named `hugo_extended_...`. This version of Hugo includes tools to process pictures and SCSS code. On Arch, this is the default package.
 1. Clone this repository.
 1. In your terminal, navigate to the repository's folder and run `npm install`. You need to have [node.js](https://nodejs.org/en/) installed for that.
 1. Once all node packages are installed, run `hugo server --buildDrafts`.
