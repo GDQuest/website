@@ -149,9 +149,6 @@
         "url": "taxonomy/format/glossary",
         "items": [
           "glossary",
-          "command_line",
-          "pathfinding",
-          "rigid_body",
           "api",
           "architecture",
           "array",
@@ -169,6 +166,7 @@
           "closure",
           "code_blocks",
           "collision_layers_and_masks",
+          "command_line",
           "composition",
           "constant",
           "constructor",
@@ -256,6 +254,7 @@
           "paradigm_imperative",
           "parameter",
           "particle_system",
+          "pathfinding",
           "pebkac",
           "polar_coordinates",
           "pragmatic_programming",
@@ -327,6 +326,7 @@
           "pattern_type_object",
           "angle_radians",
           "kinematic_body",
+          "rigid_body",
           "scope",
           "self",
           "viewport",
@@ -409,14 +409,14 @@
           "design_patterns_intro",
           "godot_getting_started_list_beginner",
           "godot_getting_started_list_developer",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
-          "pattern_finite_state_machine",
           "pattern_event_bus_singleton",
-          "procedural_noise_generator_intro",
+          "how_to_learn_to_code",
           "platformer_chatgpt",
           "save_game_formats_godot_3",
+          "pattern_finite_state_machine",
+          "procedural_noise_generator_intro",
           "signals_good_practices"
         ],
         "toc": [
@@ -640,16 +640,13 @@
           "monster_design_series_archived",
           "demo_godot_3_vfx",
           "game_art_series_archived",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
+          "how_to_learn_to_code",
           "power_sequencer_series_archived",
           "plugin_blender_power_sequencer",
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
-          "command_line",
-          "pathfinding",
-          "rigid_body",
           "api",
           "architecture",
           "array",
@@ -667,6 +664,7 @@
           "closure",
           "code_blocks",
           "collision_layers_and_masks",
+          "command_line",
           "composition",
           "constant",
           "constructor",
@@ -754,6 +752,7 @@
           "paradigm_imperative",
           "parameter",
           "particle_system",
+          "pathfinding",
           "pebkac",
           "polar_coordinates",
           "pragmatic_programming",
@@ -825,6 +824,7 @@
           "pattern_type_object",
           "angle_radians",
           "kinematic_body",
+          "rigid_body",
           "scope",
           "self",
           "viewport",
@@ -987,11 +987,11 @@
           "choosing_godot_programming_language_csharp_cpp_gdscript",
           "godot_getting_started_list_beginner",
           "demo_godot_4_new_features",
-          "pattern_finite_state_machine",
           "godot_is_not_rebound_unity",
           "getting_started_4_essential_godot_concepts",
-          "procedural_noise_generator_intro",
-          "plugin_godot_steering_ai_framework"
+          "plugin_godot_steering_ai_framework",
+          "pattern_finite_state_machine",
+          "procedural_noise_generator_intro"
         ],
         "toc": [
           {
@@ -1323,14 +1323,14 @@
           "how_to_use_debugger",
           "optimization_measure",
           "choosing_godot_programming_language_csharp_cpp_gdscript",
-          "how_to_learn_to_code",
-          "pattern_finite_state_machine",
           "pattern_event_bus_singleton",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "pattern_strategy",
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
           "typed_gdscript",
+          "pattern_finite_state_machine",
           "pattern_mediator",
           "signals_good_practices"
         ],
@@ -1920,8 +1920,8 @@
           "choosing_godot_programming_language_csharp_cpp_gdscript",
           "godot_getting_started_list_beginner",
           "godot_getting_started_list_developer",
-          "how_to_learn_to_code",
           "game_engine_basics",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "getting_started_with_godot_game_engine",
           "getting_started_4_essential_godot_concepts",
@@ -2172,8 +2172,8 @@
         "url": "taxonomy/subject_tag/procedural_generation",
         "items": [
           "demo_godot_procedural_generation",
-          "procedural_noise_generator_intro",
-          "procedural_2d_world_map"
+          "procedural_2d_world_map",
+          "procedural_noise_generator_intro"
         ],
         "toc": []
       },
@@ -2200,10 +2200,10 @@
         "items": [
           "pattern_adapter",
           "design_patterns_intro",
-          "pattern_finite_state_machine",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "pattern_strategy",
+          "pattern_finite_state_machine",
           "pattern_mediator"
         ],
         "toc": []
@@ -2516,22 +2516,20 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
           "background_music_transition",
-          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
           "getting_started_with_godot_game_engine",
           "getting_started_4_essential_godot_concepts",
-          "procedural_noise_generator_intro",
           "pattern_strategy",
           "platformer_chatgpt",
           "power_sequencer_series_archived",
@@ -2545,15 +2543,14 @@
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
+          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
+          "procedural_noise_generator_intro",
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
-          "command_line",
-          "pathfinding",
-          "rigid_body",
           "api",
           "architecture",
           "array",
@@ -2571,6 +2568,7 @@
           "closure",
           "code_blocks",
           "collision_layers_and_masks",
+          "command_line",
           "composition",
           "constant",
           "constructor",
@@ -2658,6 +2656,7 @@
           "paradigm_imperative",
           "parameter",
           "particle_system",
+          "pathfinding",
           "pebkac",
           "polar_coordinates",
           "pragmatic_programming",
@@ -2729,6 +2728,7 @@
           "pattern_type_object",
           "angle_radians",
           "kinematic_body",
+          "rigid_body",
           "scope",
           "self",
           "viewport",
@@ -2900,23 +2900,21 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
           "background_music_transition",
-          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
           "getting_started_with_godot_game_engine",
           "getting_started_4_essential_godot_concepts",
-          "procedural_noise_generator_intro",
           "pattern_strategy",
           "platformer_chatgpt",
           "power_sequencer_series_archived",
@@ -2935,9 +2933,11 @@
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
+          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
+          "procedural_noise_generator_intro",
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map"
@@ -3108,23 +3108,21 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
           "background_music_transition",
-          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
           "getting_started_with_godot_game_engine",
           "getting_started_4_essential_godot_concepts",
-          "procedural_noise_generator_intro",
           "pattern_strategy",
           "platformer_chatgpt",
           "power_sequencer_series_archived",
@@ -3143,15 +3141,14 @@
           "scene_transition_color_rect",
           "tactical_rpg_movement",
           "your_first_2d_game_godot_3",
+          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
+          "procedural_noise_generator_intro",
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
-          "command_line",
-          "pathfinding",
-          "rigid_body",
           "api",
           "architecture",
           "array",
@@ -3169,6 +3166,7 @@
           "closure",
           "code_blocks",
           "collision_layers_and_masks",
+          "command_line",
           "composition",
           "constant",
           "constructor",
@@ -3256,6 +3254,7 @@
           "paradigm_imperative",
           "parameter",
           "particle_system",
+          "pathfinding",
           "pebkac",
           "polar_coordinates",
           "pragmatic_programming",
@@ -3327,6 +3326,7 @@
           "pattern_type_object",
           "angle_radians",
           "kinematic_body",
+          "rigid_body",
           "scope",
           "self",
           "viewport",
@@ -3461,11 +3461,11 @@
           "demo_godot_shaders",
           "game_art_series_archived",
           "demo_godot_4_new_features",
-          "pattern_finite_state_machine",
-          "procedural_noise_generator_intro",
           "user_interface_godot_3",
           "plugin_godot_steering_ai_framework",
-          "plugin_krita_batch_exporter"
+          "plugin_krita_batch_exporter",
+          "pattern_finite_state_machine",
+          "procedural_noise_generator_intro"
         ],
         "toc": [
           {
@@ -3558,12 +3558,12 @@
           "godot_getting_started_list_beginner",
           "godot_getting_started_list_developer",
           "graphics_settings",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "game_engine_basics",
           "background_music_transition",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
@@ -3581,9 +3581,6 @@
           "volume_slider",
           "pattern_mediator",
           "signals_good_practices",
-          "command_line",
-          "pathfinding",
-          "rigid_body",
           "api",
           "architecture",
           "array",
@@ -3601,6 +3598,7 @@
           "closure",
           "code_blocks",
           "collision_layers_and_masks",
+          "command_line",
           "composition",
           "constant",
           "constructor",
@@ -3688,6 +3686,7 @@
           "paradigm_imperative",
           "parameter",
           "particle_system",
+          "pathfinding",
           "pebkac",
           "polar_coordinates",
           "pragmatic_programming",
@@ -3759,6 +3758,7 @@
           "pattern_type_object",
           "angle_radians",
           "kinematic_body",
+          "rigid_body",
           "scope",
           "self",
           "viewport",
@@ -3840,23 +3840,21 @@
           "godot_getting_started_list_developer",
           "godot_vfx_starfield",
           "graphics_settings",
-          "how_to_learn_to_code",
           "choosing_a_game_engine",
           "demo_godot_4_new_features",
           "game_engine_basics",
           "background_music_transition",
-          "pattern_finite_state_machine",
           "local_multiplayer_input",
           "pattern_event_bus_singleton",
           "pattern_entity_component",
           "limiting_vision_with_lights",
           "lighting_with_normal_maps",
+          "how_to_learn_to_code",
           "whats_wrong_with_most_godot_tutorials",
           "save_load_game_data_resources",
           "godot_is_not_rebound_unity",
           "getting_started_with_godot_game_engine",
           "getting_started_4_essential_godot_concepts",
-          "procedural_noise_generator_intro",
           "pattern_strategy",
           "platformer_chatgpt",
           "power_sequencer_series_archived",
@@ -3874,15 +3872,14 @@
           "typed_gdscript",
           "scene_transition_color_rect",
           "your_first_2d_game_godot_3",
+          "pattern_finite_state_machine",
           "pickup_sound_effect",
           "volume_slider",
           "pattern_mediator",
+          "procedural_noise_generator_intro",
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
-          "command_line",
-          "pathfinding",
-          "rigid_body",
           "api",
           "architecture",
           "array",
@@ -3900,6 +3897,7 @@
           "closure",
           "code_blocks",
           "collision_layers_and_masks",
+          "command_line",
           "composition",
           "constant",
           "constructor",
@@ -3987,6 +3985,7 @@
           "paradigm_imperative",
           "parameter",
           "particle_system",
+          "pathfinding",
           "pebkac",
           "polar_coordinates",
           "pragmatic_programming",
@@ -4058,6 +4057,7 @@
           "pattern_type_object",
           "angle_radians",
           "kinematic_body",
+          "rigid_body",
           "scope",
           "self",
           "viewport",
@@ -20147,297 +20147,6 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
-    "how_to_learn_to_code": {
-      "slug": "how_to_learn_to_code",
-      "title": "Learn to Code",
-      "label": "Learn to Code",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "gdscript",
-          "name": "gdscript"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "getting_started",
-          "name": "getting_started"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "study_guide",
-        "name": "study_guide"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "url": "how_to_learn_to_code",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "search": [],
-      "draft": false,
-      "description": "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Learn to Code",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "cover": {
-        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
-        "projectRelativePath": "hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
-        "originalSrc": "learn-to-code-games-banner.png",
-        "extensionType": "png",
-        "webSrc": "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
-        "width": 800,
-        "height": 400,
-        "ratio": 2,
-        "aspectRatio": "landscape",
-        "srcSetArray": [
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-thumb.webp",
-            "320w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-sm.webp",
-            "640w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-md.webp",
-            "1280w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-lg.webp",
-            "1920w"
-          ]
-        ]
-      },
-      "sources": [],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
-          },
-          "module": {
-            "number": 1,
-            "label": "Introduction",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Our approach to teaching code",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction/our_teaching_approach",
-            "number": 3
-          }
-        }
-      ],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2018,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 12,
-        "dayName": "Thursday",
-        "dayShort": "Thu",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2018-04-12T00:00:00.000Z",
-        "dateDMY": [
-          12,
-          4,
-          2018
-        ],
-        "dateMDY": [
-          4,
-          12,
-          2018
-        ],
-        "dateDDMMYYYY": [
-          "12",
-          "04",
-          "2018"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "12",
-          "2018"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 14,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2026-04-14T00:00:00.000Z",
-        "dateDMY": [
-          14,
-          4,
-          2026
-        ],
-        "dateMDY": [
-          4,
-          14,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "14",
-          "04",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "14",
-          "2026"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "learn-to-code",
-          "text": "Learn to Code",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "take-it-one-step-at-a-time",
-              "text": "Take it one step at a time",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "what-do-you-want-to-create",
-              "text": "What do you want to create?",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "to-code-games-you-need-programming-foundations",
-              "text": "To code games, you need programming foundations",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "the-first-language-youll-learn-isnt-that-important",
-              "text": "The first language you'll learn isn't that important",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "programming-is-for-everyone",
-              "text": "Programming is for everyone",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "dont-start-with-c",
-              "text": "Don't start with C++",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "start-with-gdscript",
-              "text": "Start with GDScript",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "resources-to-get-started",
-              "text": "Resources to get started",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "summary",
-              "text": "Summary",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "your-questions",
-              "text": "Your Questions",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
     "choosing_a_game_engine": {
       "slug": "choosing_a_game_engine",
       "title": "Choosing the right game engine",
@@ -21304,300 +21013,6 @@
             {
               "id": "coding-the-crossfade",
               "text": "Coding the crossfade",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "pattern_finite_state_machine": {
-      "slug": "pattern_finite_state_machine",
-      "title": "Make a Finite State Machine in Godot 4",
-      "label": "Finite State Machine",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "programming_patterns",
-          "name": "programming_patterns"
-        },
-        {
-          "category": "subject_tag",
-          "slug": "gdscript",
-          "name": "gdscript"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "study_guide",
-        "name": "study_guide"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "2d_3d",
-        "name": "2d_3d"
-      },
-      "url": "pattern_finite_state_machine",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_4",
-        "name": "godot_4"
-      },
-      "search": [],
-      "draft": false,
-      "description": "The State pattern is an essential one for game developers. In this guide, you'll learn to create a finite state machine in Godot and when to use the pattern.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Make a Finite State Machine in Godot 4",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "sources": [],
-      "lessons": [
-        {
-          "course": {
-            "label": "Learn 2D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
-          },
-          "module": {
-            "number": 13,
-            "label": "Side Scroller Character",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "State of Motion: Building a state machine",
-            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/implementing_state_machine",
-            "number": 5
-          }
-        },
-        {
-          "course": {
-            "label": "Learn 3D Gamedev From Zero With Godot 4",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
-          },
-          "module": {
-            "number": 4,
-            "label": "Patrol, Alert, Attack!",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack"
-          },
-          "lesson": {
-            "prefix": "l",
-            "label": "Patrol, alert, attack! Overview",
-            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack/module_overview",
-            "number": 1
-          }
-        }
-      ],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2024,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 31,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "st",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2024-07-31T00:00:00.000Z",
-        "dateDMY": [
-          31,
-          7,
-          2024
-        ],
-        "dateMDY": [
-          7,
-          31,
-          2024
-        ],
-        "dateDDMMYYYY": [
-          "31",
-          "07",
-          "2024"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "31",
-          "2024"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 4,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2026-04-04T00:00:00.000Z",
-        "dateDMY": [
-          4,
-          4,
-          2026
-        ],
-        "dateMDY": [
-          4,
-          4,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "04",
-          "04",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "04",
-          "2026"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "make-a-finite-state-machine-in-godot-4",
-          "text": "Make a Finite State Machine in Godot 4",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "finite-state-machines-in-games",
-              "text": "Finite State Machines in games",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "the-problem-with-boolean-variables",
-              "text": "The problem with boolean variables",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "implementing-a-finite-state-machine-with-one-varia",
-              "text": "Implementing a Finite State Machine with one variable",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "implementing-a-finite-state-machine-with-nodes",
-              "text": "Implementing a Finite State Machine with nodes",
-              "depth": 2,
-              "hasChildren": true,
-              "children": [
-                {
-                  "id": "the-state-class",
-                  "text": "The state class",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "the-finite-state-machine-class",
-                  "text": "The finite state machine class",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "the-player-scene",
-                  "text": "The player scene",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                },
-                {
-                  "id": "implementing-the-states",
-                  "text": "Implementing the states",
-                  "depth": 3,
-                  "hasChildren": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "when-to-use-either-implementation",
-              "text": "When to use either implementation",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "benefits-and-drawbacks-of-using-a-state-machine",
-              "text": "Benefits and drawbacks of using a state machine",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "conclusion",
-              "text": "Conclusion",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            },
-            {
-              "id": "your-questions",
-              "text": "Your questions",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -22595,6 +22010,297 @@
             {
               "id": "normal-maps-with-tilemap-nodes",
               "text": "Normal maps with TileMap nodes",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "how_to_learn_to_code": {
+      "slug": "how_to_learn_to_code",
+      "title": "Learn to Code",
+      "label": "Learn to Code",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "gdscript",
+          "name": "gdscript"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "getting_started",
+          "name": "getting_started"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "url": "how_to_learn_to_code",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "search": [],
+      "draft": false,
+      "description": "You want to create your own games but have no programming experience? This guide is for you! This series will help you to get started with game code and design.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Learn to Code",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "cover": {
+        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
+        "projectRelativePath": "hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
+        "originalSrc": "learn-to-code-games-banner.png",
+        "extensionType": "png",
+        "webSrc": "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner.png",
+        "width": 800,
+        "height": 400,
+        "ratio": 2,
+        "aspectRatio": "landscape",
+        "srcSetArray": [
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-thumb.webp",
+            "320w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-sm.webp",
+            "640w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-md.webp",
+            "1280w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/how_to_learn_to_code/learn-to-code-games-banner-lg.webp",
+            "1920w"
+          ]
+        ]
+      },
+      "sources": [],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 1,
+            "label": "Introduction",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Our approach to teaching code",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/introduction/our_teaching_approach",
+            "number": 3
+          }
+        }
+      ],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2018,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 12,
+        "dayName": "Thursday",
+        "dayShort": "Thu",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2018-04-12T00:00:00.000Z",
+        "dateDMY": [
+          12,
+          4,
+          2018
+        ],
+        "dateMDY": [
+          4,
+          12,
+          2018
+        ],
+        "dateDDMMYYYY": [
+          "12",
+          "04",
+          "2018"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "12",
+          "2018"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 14,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-04-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          4,
+          2026
+        ],
+        "dateMDY": [
+          4,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "04",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "14",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "learn-to-code",
+          "text": "Learn to Code",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "take-it-one-step-at-a-time",
+              "text": "Take it one step at a time",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "what-do-you-want-to-create",
+              "text": "What do you want to create?",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "to-code-games-you-need-programming-foundations",
+              "text": "To code games, you need programming foundations",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "the-first-language-youll-learn-isnt-that-important",
+              "text": "The first language you'll learn isn't that important",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "programming-is-for-everyone",
+              "text": "Programming is for everyone",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "dont-start-with-c",
+              "text": "Don't start with C++",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "start-with-gdscript",
+              "text": "Start with GDScript",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "resources-to-get-started",
+              "text": "Resources to get started",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "summary",
+              "text": "Summary",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "your-questions",
+              "text": "Your Questions",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -23728,211 +23434,6 @@
             {
               "id": "watch-the-video",
               "text": "Watch the video",
-              "depth": 2,
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "updates-code-patches",
-          "text": "updates / code patches",
-          "depth": 1,
-          "icon": "patch",
-          "skipSideMenu": false,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "procedural_noise_generator_intro": {
-      "slug": "procedural_noise_generator_intro",
-      "title": "Intro to procedural noise",
-      "label": "Intro to procedural noise",
-      "subject_tags": [
-        {
-          "category": "subject_tag",
-          "slug": "procedural_generation",
-          "name": "procedural_generation"
-        }
-      ],
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "study_guide",
-        "name": "study_guide"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "2d_3d",
-        "name": "2d_3d"
-      },
-      "url": "procedural_noise_generator_intro",
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "godot_4",
-        "name": "godot_4"
-      },
-      "search": [],
-      "draft": false,
-      "description": "Noise generators are the bread and butter of procedural content generation. What are they exactly? That's what we introduce in this study guide.",
-      "articleSectionNames": [
-        {
-          "name": "",
-          "title": "Intro to procedural noise",
-          "type": "main",
-          "skipFeatures": false,
-          "skipSideMenu": false
-        },
-        {
-          "name": "Update/Code Patch",
-          "title": "updates / code patches",
-          "type": "update",
-          "skipFeatures": true,
-          "skipSideMenu": false
-        }
-      ],
-      "links": {},
-      "cover": {
-        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids.png",
-        "projectRelativePath": "hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids.png",
-        "originalSrc": "blue-noise-asteroids.png",
-        "extensionType": "png",
-        "webSrc": "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids.png",
-        "width": 1277,
-        "height": 716,
-        "ratio": 1.7835195530726258,
-        "aspectRatio": "landscape",
-        "srcSetArray": [
-          [
-            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-thumb.webp",
-            "320w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-sm.webp",
-            "640w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-md.webp",
-            "1280w"
-          ],
-          [
-            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-lg.webp",
-            "1920w"
-          ]
-        ]
-      },
-      "sources": [],
-      "lessons": [],
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        },
-        "assets": {
-          "category": "license",
-          "slug": "ccby",
-          "name": "ccby"
-        }
-      },
-      "downloads": [],
-      "date_created": {
-        "year": 2021,
-        "month": "January",
-        "monthShort": "Jan",
-        "monthNumber": 1,
-        "dayOfMonth": 30,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 1,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2021-01-30T00:00:00.000Z",
-        "dateDMY": [
-          30,
-          1,
-          2021
-        ],
-        "dateMDY": [
-          1,
-          30,
-          2021
-        ],
-        "dateDDMMYYYY": [
-          "30",
-          "01",
-          "2021"
-        ],
-        "dateMMDDYYYY": [
-          "01",
-          "30",
-          "2021"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 4,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 0,
-        "date": "2026-04-04T00:00:00.000Z",
-        "dateDMY": [
-          4,
-          4,
-          2026
-        ],
-        "dateMDY": [
-          4,
-          4,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "04",
-          "04",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "04",
-          "2026"
-        ]
-      },
-      "discord_invite": "https://discord.gg/87NNb3Z",
-      "toc": [
-        {
-          "id": "intro-to-procedural-noise",
-          "text": "Intro to procedural noise",
-          "depth": 1,
-          "icon": "app",
-          "skipSideMenu": false,
-          "hasChildren": true,
-          "children": [
-            {
-              "id": "different-kinds-of-noises",
-              "text": "Different kinds of noises",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -28180,6 +27681,300 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "pattern_finite_state_machine": {
+      "slug": "pattern_finite_state_machine",
+      "title": "Make a Finite State Machine in Godot 4",
+      "label": "Finite State Machine",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "programming_patterns",
+          "name": "programming_patterns"
+        },
+        {
+          "category": "subject_tag",
+          "slug": "gdscript",
+          "name": "gdscript"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d_3d",
+        "name": "2d_3d"
+      },
+      "url": "pattern_finite_state_machine",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "The State pattern is an essential one for game developers. In this guide, you'll learn to create a finite state machine in Godot and when to use the pattern.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Make a Finite State Machine in Godot 4",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [
+        {
+          "course": {
+            "label": "Learn 2D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 13,
+            "label": "Side Scroller Character",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "State of Motion: Building a state machine",
+            "url": "https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/side_scroller_character/implementing_state_machine",
+            "number": 5
+          }
+        },
+        {
+          "course": {
+            "label": "Learn 3D Gamedev From Zero With Godot 4",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4"
+          },
+          "module": {
+            "number": 4,
+            "label": "Patrol, Alert, Attack!",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack"
+          },
+          "lesson": {
+            "prefix": "l",
+            "label": "Patrol, alert, attack! Overview",
+            "url": "https://school.gdquest.com/courses/learn_3d_gamedev_godot_4/patrol_alert_attack/module_overview",
+            "number": 1
+          }
+        }
+      ],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2024,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 31,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "st",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2024-07-31T00:00:00.000Z",
+        "dateDMY": [
+          31,
+          7,
+          2024
+        ],
+        "dateMDY": [
+          7,
+          31,
+          2024
+        ],
+        "dateDDMMYYYY": [
+          "31",
+          "07",
+          "2024"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "31",
+          "2024"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 4,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-04-04T00:00:00.000Z",
+        "dateDMY": [
+          4,
+          4,
+          2026
+        ],
+        "dateMDY": [
+          4,
+          4,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "04",
+          "04",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "04",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "make-a-finite-state-machine-in-godot-4",
+          "text": "Make a Finite State Machine in Godot 4",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "finite-state-machines-in-games",
+              "text": "Finite State Machines in games",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "the-problem-with-boolean-variables",
+              "text": "The problem with boolean variables",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "implementing-a-finite-state-machine-with-one-varia",
+              "text": "Implementing a Finite State Machine with one variable",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "implementing-a-finite-state-machine-with-nodes",
+              "text": "Implementing a Finite State Machine with nodes",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "the-state-class",
+                  "text": "The state class",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-finite-state-machine-class",
+                  "text": "The finite state machine class",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "the-player-scene",
+                  "text": "The player scene",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "implementing-the-states",
+                  "text": "Implementing the states",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "when-to-use-either-implementation",
+              "text": "When to use either implementation",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "benefits-and-drawbacks-of-using-a-state-machine",
+              "text": "Benefits and drawbacks of using a state machine",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "conclusion",
+              "text": "Conclusion",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "your-questions",
+              "text": "Your questions",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "pickup_sound_effect": {
       "slug": "pickup_sound_effect",
       "title": "Cutting sound effects",
@@ -28805,6 +28600,211 @@
             {
               "id": "advantages-and-drawbacks",
               "text": "Advantages and drawbacks",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "updates-code-patches",
+          "text": "updates / code patches",
+          "depth": 1,
+          "icon": "patch",
+          "skipSideMenu": false,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "procedural_noise_generator_intro": {
+      "slug": "procedural_noise_generator_intro",
+      "title": "Intro to procedural noise",
+      "label": "Intro to procedural noise",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "procedural_generation",
+          "name": "procedural_generation"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d_3d",
+        "name": "2d_3d"
+      },
+      "url": "procedural_noise_generator_intro",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Noise generators are the bread and butter of procedural content generation. What are they exactly? That's what we introduce in this study guide.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Intro to procedural noise",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        },
+        {
+          "name": "Update/Code Patch",
+          "title": "updates / code patches",
+          "type": "update",
+          "skipFeatures": true,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "cover": {
+        "filePath": "/home/xananax/GDQuest/dev_env/library/library/content/items/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids.png",
+        "projectRelativePath": "hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids.png",
+        "originalSrc": "blue-noise-asteroids.png",
+        "extensionType": "png",
+        "webSrc": "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids.png",
+        "width": 1277,
+        "height": 716,
+        "ratio": 1.7835195530726258,
+        "aspectRatio": "landscape",
+        "srcSetArray": [
+          [
+            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-thumb.webp",
+            "320w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-sm.webp",
+            "640w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-md.webp",
+            "1280w"
+          ],
+          [
+            "https://www.gdquest.com/library/hugo_articles/procedural_noise_generator_intro/blue-noise-asteroids-lg.webp",
+            "1920w"
+          ]
+        ]
+      },
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        },
+        "assets": {
+          "category": "license",
+          "slug": "ccby",
+          "name": "ccby"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2021,
+        "month": "January",
+        "monthShort": "Jan",
+        "monthNumber": 1,
+        "dayOfMonth": 30,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2021-01-30T00:00:00.000Z",
+        "dateDMY": [
+          30,
+          1,
+          2021
+        ],
+        "dateMDY": [
+          1,
+          30,
+          2021
+        ],
+        "dateDDMMYYYY": [
+          "30",
+          "01",
+          "2021"
+        ],
+        "dateMMDDYYYY": [
+          "01",
+          "30",
+          "2021"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 4,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-04-04T00:00:00.000Z",
+        "dateDMY": [
+          4,
+          4,
+          2026
+        ],
+        "dateMDY": [
+          4,
+          4,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "04",
+          "04",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "04",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "intro-to-procedural-noise",
+          "text": "Intro to procedural noise",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "different-kinds-of-noises",
+              "text": "Different kinds of noises",
               "depth": 2,
               "hasChildren": false,
               "children": []
@@ -29518,442 +29518,6 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
-    "command_line": {
-      "slug": "command_line",
-      "toc": [
-        {
-          "id": "basics-of-shells",
-          "text": "Basics of Shells",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [],
-      "draft": false,
-      "title": "Command Line",
-      "url": "glossary/command_line",
-      "label": "Learn about Command Line",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd"
-      ],
-      "links": {
-        "unknown": [
-          {
-            "label": "Command Line Tutorial in the official docs",
-            "url": "https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html",
-            "category": "unknown"
-          },
-          {
-            "label": "ExplainShell - a handy utility to understand shell program arguments",
-            "url": "https://explainshell.com/",
-            "category": "unknown"
-          }
-        ]
-      },
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
-        "seconds": 14,
-        "date": "2026-05-16T00:42:14.273Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 6,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 50,
-        "seconds": 56,
-        "date": "2025-07-06T16:50:56.040Z",
-        "dateDMY": [
-          6,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          6,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "06",
-          "2025"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "pathfinding": {
-      "slug": "pathfinding",
-      "toc": [
-        {
-          "id": "pathfinding-uses-in-games",
-          "text": "Pathfinding uses in games",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "pathfinding-tools-in-godot",
-          "text": "Pathfinding tools in Godot",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [
-        {
-          "label": "ai_in_games",
-          "url": "ai_in_games",
-          "category": "source"
-        }
-      ],
-      "draft": false,
-      "title": "Pathfinding",
-      "url": "glossary/pathfinding",
-      "label": "Learn about Pathfinding",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [
-        "astar",
-        "a*",
-        "djikstra"
-      ],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
-        "seconds": 14,
-        "date": "2026-05-16T00:42:14.274Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2025,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 6,
-        "dayName": "Sunday",
-        "dayShort": "Sun",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 50,
-        "seconds": 56,
-        "date": "2025-07-06T16:50:56.057Z",
-        "dateDMY": [
-          6,
-          7,
-          2025
-        ],
-        "dateMDY": [
-          7,
-          6,
-          2025
-        ],
-        "dateDDMMYYYY": [
-          "06",
-          "07",
-          "2025"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "06",
-          "2025"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "rigid_body": {
-      "slug": "rigid_body",
-      "toc": [],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [
-        {
-          "label": "kinematic_body",
-          "url": "kinematic_body",
-          "category": "source"
-        },
-        {
-          "label": "collision",
-          "url": "collision",
-          "category": "source"
-        }
-      ],
-      "draft": false,
-      "title": "Rigid Body",
-      "url": "glossary/rigid_body",
-      "label": "Learn about Rigid Body",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [
-        "physics body",
-        "dynamic body",
-        "physics simulation"
-      ],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 16,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
-        "seconds": 14,
-        "date": "2026-05-16T00:42:14.275Z",
-        "dateDMY": [
-          16,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          16,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "16",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "16",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "April",
-        "monthShort": "Apr",
-        "monthNumber": 4,
-        "dayOfMonth": 7,
-        "dayName": "Tuesday",
-        "dayShort": "Tue",
-        "dayOrdinal": "th",
-        "hours": 18,
-        "minutes": 0,
-        "seconds": 22,
-        "date": "2026-04-07T16:00:22.922Z",
-        "dateDMY": [
-          7,
-          4,
-          2026
-        ],
-        "dateMDY": [
-          4,
-          7,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "07",
-          "04",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "04",
-          "07",
-          "2026"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
     "api": {
       "slug": "api",
       "toc": [
@@ -30034,10 +29598,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.275Z",
+        "date": "2026-05-16T01:01:14.419Z",
         "dateDMY": [
           16,
           5,
@@ -30219,10 +29783,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.276Z",
+        "date": "2026-05-16T01:01:14.420Z",
         "dateDMY": [
           16,
           5,
@@ -30373,10 +29937,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.277Z",
+        "date": "2026-05-16T01:01:14.421Z",
         "dateDMY": [
           16,
           5,
@@ -30508,10 +30072,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.277Z",
+        "date": "2026-05-16T01:01:14.421Z",
         "dateDMY": [
           16,
           5,
@@ -30631,10 +30195,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.277Z",
+        "date": "2026-05-16T01:01:14.422Z",
         "dateDMY": [
           16,
           5,
@@ -30770,10 +30334,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.278Z",
+        "date": "2026-05-16T01:01:14.422Z",
         "dateDMY": [
           16,
           5,
@@ -30960,10 +30524,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.278Z",
+        "date": "2026-05-16T01:01:14.423Z",
         "dateDMY": [
           16,
           5,
@@ -31086,10 +30650,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.279Z",
+        "date": "2026-05-16T01:01:14.424Z",
         "dateDMY": [
           16,
           5,
@@ -31296,10 +30860,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.280Z",
+        "date": "2026-05-16T01:01:14.425Z",
         "dateDMY": [
           16,
           5,
@@ -31428,10 +30992,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.280Z",
+        "date": "2026-05-16T01:01:14.425Z",
         "dateDMY": [
           16,
           5,
@@ -31565,10 +31129,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.281Z",
+        "date": "2026-05-16T01:01:14.426Z",
         "dateDMY": [
           16,
           5,
@@ -31699,10 +31263,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.281Z",
+        "date": "2026-05-16T01:01:14.426Z",
         "dateDMY": [
           16,
           5,
@@ -31836,10 +31400,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.282Z",
+        "date": "2026-05-16T01:01:14.426Z",
         "dateDMY": [
           16,
           5,
@@ -31970,10 +31534,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.282Z",
+        "date": "2026-05-16T01:01:14.427Z",
         "dateDMY": [
           16,
           5,
@@ -32109,10 +31673,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.282Z",
+        "date": "2026-05-16T01:01:14.428Z",
         "dateDMY": [
           16,
           5,
@@ -32246,10 +31810,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.283Z",
+        "date": "2026-05-16T01:01:14.428Z",
         "dateDMY": [
           16,
           5,
@@ -32377,10 +31941,160 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.283Z",
+        "date": "2026-05-16T01:01:14.429Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 6,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 50,
+        "seconds": 56,
+        "date": "2025-07-06T16:50:56.040Z",
+        "dateDMY": [
+          6,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "06",
+          "2025"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "command_line": {
+      "slug": "command_line",
+      "toc": [
+        {
+          "id": "basics-of-shells",
+          "text": "Basics of Shells",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [],
+      "draft": false,
+      "title": "Command Line",
+      "url": "glossary/command_line",
+      "label": "Learn about Command Line",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd"
+      ],
+      "links": {
+        "unknown": [
+          {
+            "label": "Command Line Tutorial in the official docs",
+            "url": "https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html",
+            "category": "unknown"
+          },
+          {
+            "label": "ExplainShell - a handy utility to understand shell program arguments",
+            "url": "https://explainshell.com/",
+            "category": "unknown"
+          }
+        ]
+      },
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 3,
+        "minutes": 1,
+        "seconds": 14,
+        "date": "2026-05-16T01:01:14.430Z",
         "dateDMY": [
           16,
           5,
@@ -32526,10 +32240,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.283Z",
+        "date": "2026-05-16T01:01:14.430Z",
         "dateDMY": [
           16,
           5,
@@ -32655,10 +32369,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.284Z",
+        "date": "2026-05-16T01:01:14.431Z",
         "dateDMY": [
           16,
           5,
@@ -32806,10 +32520,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.284Z",
+        "date": "2026-05-16T01:01:14.432Z",
         "dateDMY": [
           16,
           5,
@@ -32944,10 +32658,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.285Z",
+        "date": "2026-05-16T01:01:14.432Z",
         "dateDMY": [
           16,
           5,
@@ -33067,10 +32781,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.285Z",
+        "date": "2026-05-16T01:01:14.432Z",
         "dateDMY": [
           16,
           5,
@@ -33198,10 +32912,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.285Z",
+        "date": "2026-05-16T01:01:14.433Z",
         "dateDMY": [
           16,
           5,
@@ -33324,10 +33038,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.285Z",
+        "date": "2026-05-16T01:01:14.433Z",
         "dateDMY": [
           16,
           5,
@@ -33458,10 +33172,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.286Z",
+        "date": "2026-05-16T01:01:14.433Z",
         "dateDMY": [
           16,
           5,
@@ -33597,10 +33311,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.286Z",
+        "date": "2026-05-16T01:01:14.433Z",
         "dateDMY": [
           16,
           5,
@@ -33746,10 +33460,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.286Z",
+        "date": "2026-05-16T01:01:14.434Z",
         "dateDMY": [
           16,
           5,
@@ -33909,10 +33623,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.287Z",
+        "date": "2026-05-16T01:01:14.434Z",
         "dateDMY": [
           16,
           5,
@@ -34038,10 +33752,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.287Z",
+        "date": "2026-05-16T01:01:14.434Z",
         "dateDMY": [
           16,
           5,
@@ -34164,10 +33878,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.287Z",
+        "date": "2026-05-16T01:01:14.434Z",
         "dateDMY": [
           16,
           5,
@@ -34291,10 +34005,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.287Z",
+        "date": "2026-05-16T01:01:14.435Z",
         "dateDMY": [
           16,
           5,
@@ -34416,10 +34130,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.287Z",
+        "date": "2026-05-16T01:01:14.435Z",
         "dateDMY": [
           16,
           5,
@@ -34578,10 +34292,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.288Z",
+        "date": "2026-05-16T01:01:14.435Z",
         "dateDMY": [
           16,
           5,
@@ -34720,10 +34434,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.289Z",
+        "date": "2026-05-16T01:01:14.436Z",
         "dateDMY": [
           16,
           5,
@@ -34847,10 +34561,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.289Z",
+        "date": "2026-05-16T01:01:14.436Z",
         "dateDMY": [
           16,
           5,
@@ -35010,10 +34724,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.291Z",
+        "date": "2026-05-16T01:01:14.437Z",
         "dateDMY": [
           16,
           5,
@@ -35133,10 +34847,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.292Z",
+        "date": "2026-05-16T01:01:14.437Z",
         "dateDMY": [
           16,
           5,
@@ -35262,10 +34976,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.292Z",
+        "date": "2026-05-16T01:01:14.438Z",
         "dateDMY": [
           16,
           5,
@@ -35396,10 +35110,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.293Z",
+        "date": "2026-05-16T01:01:14.438Z",
         "dateDMY": [
           16,
           5,
@@ -35597,10 +35311,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.295Z",
+        "date": "2026-05-16T01:01:14.440Z",
         "dateDMY": [
           16,
           5,
@@ -35744,10 +35458,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.296Z",
+        "date": "2026-05-16T01:01:14.441Z",
         "dateDMY": [
           16,
           5,
@@ -35890,10 +35604,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.296Z",
+        "date": "2026-05-16T01:01:14.441Z",
         "dateDMY": [
           16,
           5,
@@ -36027,10 +35741,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.296Z",
+        "date": "2026-05-16T01:01:14.441Z",
         "dateDMY": [
           16,
           5,
@@ -36171,10 +35885,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.296Z",
+        "date": "2026-05-16T01:01:14.442Z",
         "dateDMY": [
           16,
           5,
@@ -36310,10 +36024,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.297Z",
+        "date": "2026-05-16T01:01:14.442Z",
         "dateDMY": [
           16,
           5,
@@ -36437,10 +36151,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.297Z",
+        "date": "2026-05-16T01:01:14.442Z",
         "dateDMY": [
           16,
           5,
@@ -36565,10 +36279,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.297Z",
+        "date": "2026-05-16T01:01:14.442Z",
         "dateDMY": [
           16,
           5,
@@ -36709,10 +36423,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.297Z",
+        "date": "2026-05-16T01:01:14.443Z",
         "dateDMY": [
           16,
           5,
@@ -36846,10 +36560,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.297Z",
+        "date": "2026-05-16T01:01:14.443Z",
         "dateDMY": [
           16,
           5,
@@ -36989,10 +36703,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.298Z",
+        "date": "2026-05-16T01:01:14.443Z",
         "dateDMY": [
           16,
           5,
@@ -37143,10 +36857,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.298Z",
+        "date": "2026-05-16T01:01:14.443Z",
         "dateDMY": [
           16,
           5,
@@ -37266,10 +36980,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.298Z",
+        "date": "2026-05-16T01:01:14.443Z",
         "dateDMY": [
           16,
           5,
@@ -37392,10 +37106,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.299Z",
+        "date": "2026-05-16T01:01:14.444Z",
         "dateDMY": [
           16,
           5,
@@ -37562,10 +37276,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.299Z",
+        "date": "2026-05-16T01:01:14.444Z",
         "dateDMY": [
           16,
           5,
@@ -37688,10 +37402,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.299Z",
+        "date": "2026-05-16T01:01:14.444Z",
         "dateDMY": [
           16,
           5,
@@ -37827,10 +37541,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.300Z",
+        "date": "2026-05-16T01:01:14.445Z",
         "dateDMY": [
           16,
           5,
@@ -37995,10 +37709,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.300Z",
+        "date": "2026-05-16T01:01:14.445Z",
         "dateDMY": [
           16,
           5,
@@ -38124,10 +37838,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.301Z",
+        "date": "2026-05-16T01:01:14.446Z",
         "dateDMY": [
           16,
           5,
@@ -38261,10 +37975,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.301Z",
+        "date": "2026-05-16T01:01:14.447Z",
         "dateDMY": [
           16,
           5,
@@ -38469,10 +38183,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.303Z",
+        "date": "2026-05-16T01:01:14.449Z",
         "dateDMY": [
           16,
           5,
@@ -38639,10 +38353,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.303Z",
+        "date": "2026-05-16T01:01:14.450Z",
         "dateDMY": [
           16,
           5,
@@ -38796,10 +38510,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.304Z",
+        "date": "2026-05-16T01:01:14.450Z",
         "dateDMY": [
           16,
           5,
@@ -38958,10 +38672,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.304Z",
+        "date": "2026-05-16T01:01:14.450Z",
         "dateDMY": [
           16,
           5,
@@ -39109,10 +38823,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.304Z",
+        "date": "2026-05-16T01:01:14.451Z",
         "dateDMY": [
           16,
           5,
@@ -39273,10 +38987,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.305Z",
+        "date": "2026-05-16T01:01:14.451Z",
         "dateDMY": [
           16,
           5,
@@ -39417,10 +39131,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.305Z",
+        "date": "2026-05-16T01:01:14.452Z",
         "dateDMY": [
           16,
           5,
@@ -39551,10 +39265,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.305Z",
+        "date": "2026-05-16T01:01:14.452Z",
         "dateDMY": [
           16,
           5,
@@ -39688,10 +39402,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.306Z",
+        "date": "2026-05-16T01:01:14.452Z",
         "dateDMY": [
           16,
           5,
@@ -39839,10 +39553,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.306Z",
+        "date": "2026-05-16T01:01:14.452Z",
         "dateDMY": [
           16,
           5,
@@ -39973,10 +39687,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.306Z",
+        "date": "2026-05-16T01:01:14.453Z",
         "dateDMY": [
           16,
           5,
@@ -40120,10 +39834,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.307Z",
+        "date": "2026-05-16T01:01:14.453Z",
         "dateDMY": [
           16,
           5,
@@ -40264,10 +39978,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.307Z",
+        "date": "2026-05-16T01:01:14.454Z",
         "dateDMY": [
           16,
           5,
@@ -40396,10 +40110,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.307Z",
+        "date": "2026-05-16T01:01:14.454Z",
         "dateDMY": [
           16,
           5,
@@ -40525,10 +40239,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.308Z",
+        "date": "2026-05-16T01:01:14.454Z",
         "dateDMY": [
           16,
           5,
@@ -40674,10 +40388,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.309Z",
+        "date": "2026-05-16T01:01:14.455Z",
         "dateDMY": [
           16,
           5,
@@ -40830,10 +40544,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.310Z",
+        "date": "2026-05-16T01:01:14.455Z",
         "dateDMY": [
           16,
           5,
@@ -41003,10 +40717,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.310Z",
+        "date": "2026-05-16T01:01:14.456Z",
         "dateDMY": [
           16,
           5,
@@ -41145,10 +40859,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.310Z",
+        "date": "2026-05-16T01:01:14.456Z",
         "dateDMY": [
           16,
           5,
@@ -41268,10 +40982,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.310Z",
+        "date": "2026-05-16T01:01:14.456Z",
         "dateDMY": [
           16,
           5,
@@ -41393,10 +41107,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.310Z",
+        "date": "2026-05-16T01:01:14.456Z",
         "dateDMY": [
           16,
           5,
@@ -41518,10 +41232,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.312Z",
+        "date": "2026-05-16T01:01:14.457Z",
         "dateDMY": [
           16,
           5,
@@ -41665,10 +41379,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.312Z",
+        "date": "2026-05-16T01:01:14.457Z",
         "dateDMY": [
           16,
           5,
@@ -41796,10 +41510,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.312Z",
+        "date": "2026-05-16T01:01:14.458Z",
         "dateDMY": [
           16,
           5,
@@ -41930,10 +41644,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.313Z",
+        "date": "2026-05-16T01:01:14.458Z",
         "dateDMY": [
           16,
           5,
@@ -42115,10 +41829,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.313Z",
+        "date": "2026-05-16T01:01:14.459Z",
         "dateDMY": [
           16,
           5,
@@ -42244,10 +41958,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.313Z",
+        "date": "2026-05-16T01:01:14.459Z",
         "dateDMY": [
           16,
           5,
@@ -42383,10 +42097,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.313Z",
+        "date": "2026-05-16T01:01:14.459Z",
         "dateDMY": [
           16,
           5,
@@ -42508,10 +42222,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.314Z",
+        "date": "2026-05-16T01:01:14.459Z",
         "dateDMY": [
           16,
           5,
@@ -42631,10 +42345,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.314Z",
+        "date": "2026-05-16T01:01:14.459Z",
         "dateDMY": [
           16,
           5,
@@ -42779,10 +42493,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.314Z",
+        "date": "2026-05-16T01:01:14.460Z",
         "dateDMY": [
           16,
           5,
@@ -42918,10 +42632,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.314Z",
+        "date": "2026-05-16T01:01:14.460Z",
         "dateDMY": [
           16,
           5,
@@ -43044,10 +42758,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.314Z",
+        "date": "2026-05-16T01:01:14.460Z",
         "dateDMY": [
           16,
           5,
@@ -43186,10 +42900,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.315Z",
+        "date": "2026-05-16T01:01:14.460Z",
         "dateDMY": [
           16,
           5,
@@ -43321,10 +43035,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.316Z",
+        "date": "2026-05-16T01:01:14.461Z",
         "dateDMY": [
           16,
           5,
@@ -43485,10 +43199,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.318Z",
+        "date": "2026-05-16T01:01:14.463Z",
         "dateDMY": [
           16,
           5,
@@ -43634,10 +43348,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.319Z",
+        "date": "2026-05-16T01:01:14.464Z",
         "dateDMY": [
           16,
           5,
@@ -43776,10 +43490,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.320Z",
+        "date": "2026-05-16T01:01:14.465Z",
         "dateDMY": [
           16,
           5,
@@ -43937,10 +43651,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.320Z",
+        "date": "2026-05-16T01:01:14.465Z",
         "dateDMY": [
           16,
           5,
@@ -44064,10 +43778,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.321Z",
+        "date": "2026-05-16T01:01:14.466Z",
         "dateDMY": [
           16,
           5,
@@ -44191,10 +43905,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.321Z",
+        "date": "2026-05-16T01:01:14.466Z",
         "dateDMY": [
           16,
           5,
@@ -44344,10 +44058,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.321Z",
+        "date": "2026-05-16T01:01:14.466Z",
         "dateDMY": [
           16,
           5,
@@ -44495,10 +44209,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.322Z",
+        "date": "2026-05-16T01:01:14.466Z",
         "dateDMY": [
           16,
           5,
@@ -44624,10 +44338,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.322Z",
+        "date": "2026-05-16T01:01:14.467Z",
         "dateDMY": [
           16,
           5,
@@ -44754,10 +44468,158 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.322Z",
+        "date": "2026-05-16T01:01:14.467Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2025,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 6,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 50,
+        "seconds": 56,
+        "date": "2025-07-06T16:50:56.057Z",
+        "dateDMY": [
+          6,
+          7,
+          2025
+        ],
+        "dateMDY": [
+          7,
+          6,
+          2025
+        ],
+        "dateDDMMYYYY": [
+          "06",
+          "07",
+          "2025"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "06",
+          "2025"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "pathfinding": {
+      "slug": "pathfinding",
+      "toc": [
+        {
+          "id": "pathfinding-uses-in-games",
+          "text": "Pathfinding uses in games",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "pathfinding-tools-in-godot",
+          "text": "Pathfinding tools in Godot",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [
+        {
+          "label": "ai_in_games",
+          "url": "ai_in_games",
+          "category": "source"
+        }
+      ],
+      "draft": false,
+      "title": "Pathfinding",
+      "url": "glossary/pathfinding",
+      "label": "Learn about Pathfinding",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [
+        "astar",
+        "a*",
+        "djikstra"
+      ],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 3,
+        "minutes": 1,
+        "seconds": 14,
+        "date": "2026-05-16T01:01:14.467Z",
         "dateDMY": [
           16,
           5,
@@ -44880,10 +44742,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.322Z",
+        "date": "2026-05-16T01:01:14.467Z",
         "dateDMY": [
           16,
           5,
@@ -45020,10 +44882,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.322Z",
+        "date": "2026-05-16T01:01:14.467Z",
         "dateDMY": [
           16,
           5,
@@ -45149,10 +45011,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.323Z",
+        "date": "2026-05-16T01:01:14.468Z",
         "dateDMY": [
           16,
           5,
@@ -45321,10 +45183,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.323Z",
+        "date": "2026-05-16T01:01:14.468Z",
         "dateDMY": [
           16,
           5,
@@ -45463,10 +45325,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.323Z",
+        "date": "2026-05-16T01:01:14.469Z",
         "dateDMY": [
           16,
           5,
@@ -45615,10 +45477,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.323Z",
+        "date": "2026-05-16T01:01:14.469Z",
         "dateDMY": [
           16,
           5,
@@ -45738,10 +45600,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.323Z",
+        "date": "2026-05-16T01:01:14.470Z",
         "dateDMY": [
           16,
           5,
@@ -45881,10 +45743,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.324Z",
+        "date": "2026-05-16T01:01:14.470Z",
         "dateDMY": [
           16,
           5,
@@ -46007,10 +45869,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.324Z",
+        "date": "2026-05-16T01:01:14.470Z",
         "dateDMY": [
           16,
           5,
@@ -46149,10 +46011,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.324Z",
+        "date": "2026-05-16T01:01:14.470Z",
         "dateDMY": [
           16,
           5,
@@ -46282,10 +46144,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.324Z",
+        "date": "2026-05-16T01:01:14.471Z",
         "dateDMY": [
           16,
           5,
@@ -46426,10 +46288,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.325Z",
+        "date": "2026-05-16T01:01:14.471Z",
         "dateDMY": [
           16,
           5,
@@ -46549,10 +46411,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.325Z",
+        "date": "2026-05-16T01:01:14.471Z",
         "dateDMY": [
           16,
           5,
@@ -46683,10 +46545,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.325Z",
+        "date": "2026-05-16T01:01:14.472Z",
         "dateDMY": [
           16,
           5,
@@ -46812,10 +46674,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.325Z",
+        "date": "2026-05-16T01:01:14.472Z",
         "dateDMY": [
           16,
           5,
@@ -46943,10 +46805,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.325Z",
+        "date": "2026-05-16T01:01:14.472Z",
         "dateDMY": [
           16,
           5,
@@ -47077,10 +46939,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.326Z",
+        "date": "2026-05-16T01:01:14.473Z",
         "dateDMY": [
           16,
           5,
@@ -47228,10 +47090,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.327Z",
+        "date": "2026-05-16T01:01:14.474Z",
         "dateDMY": [
           16,
           5,
@@ -47369,10 +47231,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.327Z",
+        "date": "2026-05-16T01:01:14.474Z",
         "dateDMY": [
           16,
           5,
@@ -47501,10 +47363,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.328Z",
+        "date": "2026-05-16T01:01:14.475Z",
         "dateDMY": [
           16,
           5,
@@ -47641,10 +47503,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.328Z",
+        "date": "2026-05-16T01:01:14.475Z",
         "dateDMY": [
           16,
           5,
@@ -47784,10 +47646,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.329Z",
+        "date": "2026-05-16T01:01:14.476Z",
         "dateDMY": [
           16,
           5,
@@ -47911,10 +47773,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.329Z",
+        "date": "2026-05-16T01:01:14.476Z",
         "dateDMY": [
           16,
           5,
@@ -48054,10 +47916,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.329Z",
+        "date": "2026-05-16T01:01:14.477Z",
         "dateDMY": [
           16,
           5,
@@ -48203,10 +48065,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.330Z",
+        "date": "2026-05-16T01:01:14.478Z",
         "dateDMY": [
           16,
           5,
@@ -48337,10 +48199,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.330Z",
+        "date": "2026-05-16T01:01:14.478Z",
         "dateDMY": [
           16,
           5,
@@ -48465,10 +48327,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.330Z",
+        "date": "2026-05-16T01:01:14.478Z",
         "dateDMY": [
           16,
           5,
@@ -48605,10 +48467,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.331Z",
+        "date": "2026-05-16T01:01:14.479Z",
         "dateDMY": [
           16,
           5,
@@ -48741,10 +48603,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.331Z",
+        "date": "2026-05-16T01:01:14.479Z",
         "dateDMY": [
           16,
           5,
@@ -48870,10 +48732,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.332Z",
+        "date": "2026-05-16T01:01:14.480Z",
         "dateDMY": [
           16,
           5,
@@ -49007,10 +48869,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.332Z",
+        "date": "2026-05-16T01:01:14.481Z",
         "dateDMY": [
           16,
           5,
@@ -49145,10 +49007,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.332Z",
+        "date": "2026-05-16T01:01:14.481Z",
         "dateDMY": [
           16,
           5,
@@ -49283,10 +49145,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.333Z",
+        "date": "2026-05-16T01:01:14.482Z",
         "dateDMY": [
           16,
           5,
@@ -49427,10 +49289,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.334Z",
+        "date": "2026-05-16T01:01:14.483Z",
         "dateDMY": [
           16,
           5,
@@ -49575,10 +49437,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.335Z",
+        "date": "2026-05-16T01:01:14.484Z",
         "dateDMY": [
           16,
           5,
@@ -49706,10 +49568,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.335Z",
+        "date": "2026-05-16T01:01:14.484Z",
         "dateDMY": [
           16,
           5,
@@ -49847,10 +49709,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.335Z",
+        "date": "2026-05-16T01:01:14.484Z",
         "dateDMY": [
           16,
           5,
@@ -50012,10 +49874,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.339Z",
+        "date": "2026-05-16T01:01:14.486Z",
         "dateDMY": [
           16,
           5,
@@ -50161,10 +50023,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.339Z",
+        "date": "2026-05-16T01:01:14.486Z",
         "dateDMY": [
           16,
           5,
@@ -50294,10 +50156,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.340Z",
+        "date": "2026-05-16T01:01:14.487Z",
         "dateDMY": [
           16,
           5,
@@ -50419,10 +50281,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.340Z",
+        "date": "2026-05-16T01:01:14.487Z",
         "dateDMY": [
           16,
           5,
@@ -50566,10 +50428,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.340Z",
+        "date": "2026-05-16T01:01:14.487Z",
         "dateDMY": [
           16,
           5,
@@ -50717,10 +50579,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.341Z",
+        "date": "2026-05-16T01:01:14.488Z",
         "dateDMY": [
           16,
           5,
@@ -50871,10 +50733,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.342Z",
+        "date": "2026-05-16T01:01:14.488Z",
         "dateDMY": [
           16,
           5,
@@ -51037,10 +50899,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.343Z",
+        "date": "2026-05-16T01:01:14.490Z",
         "dateDMY": [
           16,
           5,
@@ -51213,10 +51075,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.344Z",
+        "date": "2026-05-16T01:01:14.490Z",
         "dateDMY": [
           16,
           5,
@@ -51354,10 +51216,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.344Z",
+        "date": "2026-05-16T01:01:14.490Z",
         "dateDMY": [
           16,
           5,
@@ -51483,10 +51345,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.345Z",
+        "date": "2026-05-16T01:01:14.491Z",
         "dateDMY": [
           16,
           5,
@@ -51618,10 +51480,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.345Z",
+        "date": "2026-05-16T01:01:14.491Z",
         "dateDMY": [
           16,
           5,
@@ -51741,10 +51603,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.346Z",
+        "date": "2026-05-16T01:01:14.491Z",
         "dateDMY": [
           16,
           5,
@@ -51885,10 +51747,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.346Z",
+        "date": "2026-05-16T01:01:14.491Z",
         "dateDMY": [
           16,
           5,
@@ -52011,10 +51873,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.346Z",
+        "date": "2026-05-16T01:01:14.492Z",
         "dateDMY": [
           16,
           5,
@@ -52178,10 +52040,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.347Z",
+        "date": "2026-05-16T01:01:14.492Z",
         "dateDMY": [
           16,
           5,
@@ -52315,10 +52177,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.348Z",
+        "date": "2026-05-16T01:01:14.492Z",
         "dateDMY": [
           16,
           5,
@@ -52476,10 +52338,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.348Z",
+        "date": "2026-05-16T01:01:14.493Z",
         "dateDMY": [
           16,
           5,
@@ -52630,10 +52492,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.349Z",
+        "date": "2026-05-16T01:01:14.493Z",
         "dateDMY": [
           16,
           5,
@@ -52757,10 +52619,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.349Z",
+        "date": "2026-05-16T01:01:14.494Z",
         "dateDMY": [
           16,
           5,
@@ -52901,10 +52763,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.350Z",
+        "date": "2026-05-16T01:01:14.494Z",
         "dateDMY": [
           16,
           5,
@@ -53024,10 +52886,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.350Z",
+        "date": "2026-05-16T01:01:14.494Z",
         "dateDMY": [
           16,
           5,
@@ -53181,10 +53043,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.351Z",
+        "date": "2026-05-16T01:01:14.494Z",
         "dateDMY": [
           16,
           5,
@@ -53368,10 +53230,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.351Z",
+        "date": "2026-05-16T01:01:14.495Z",
         "dateDMY": [
           16,
           5,
@@ -53495,10 +53357,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.352Z",
+        "date": "2026-05-16T01:01:14.495Z",
         "dateDMY": [
           16,
           5,
@@ -53637,10 +53499,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.353Z",
+        "date": "2026-05-16T01:01:14.496Z",
         "dateDMY": [
           16,
           5,
@@ -53770,10 +53632,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.354Z",
+        "date": "2026-05-16T01:01:14.497Z",
         "dateDMY": [
           16,
           5,
@@ -53916,10 +53778,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.355Z",
+        "date": "2026-05-16T01:01:14.497Z",
         "dateDMY": [
           16,
           5,
@@ -54064,10 +53926,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.356Z",
+        "date": "2026-05-16T01:01:14.498Z",
         "dateDMY": [
           16,
           5,
@@ -54224,10 +54086,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.358Z",
+        "date": "2026-05-16T01:01:14.500Z",
         "dateDMY": [
           16,
           5,
@@ -54357,10 +54219,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.358Z",
+        "date": "2026-05-16T01:01:14.500Z",
         "dateDMY": [
           16,
           5,
@@ -54502,10 +54364,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.359Z",
+        "date": "2026-05-16T01:01:14.501Z",
         "dateDMY": [
           16,
           5,
@@ -54647,10 +54509,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.360Z",
+        "date": "2026-05-16T01:01:14.502Z",
         "dateDMY": [
           16,
           5,
@@ -54790,10 +54652,148 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.361Z",
+        "date": "2026-05-16T01:01:14.503Z",
+        "dateDMY": [
+          16,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          16,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "16",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "16",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "April",
+        "monthShort": "Apr",
+        "monthNumber": 4,
+        "dayOfMonth": 7,
+        "dayName": "Tuesday",
+        "dayShort": "Tue",
+        "dayOrdinal": "th",
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 22,
+        "date": "2026-04-07T16:00:22.922Z",
+        "dateDMY": [
+          7,
+          4,
+          2026
+        ],
+        "dateMDY": [
+          4,
+          7,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "07",
+          "04",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "04",
+          "07",
+          "2026"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "rigid_body": {
+      "slug": "rigid_body",
+      "toc": [],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [
+        {
+          "label": "kinematic_body",
+          "url": "kinematic_body",
+          "category": "source"
+        },
+        {
+          "label": "collision",
+          "url": "collision",
+          "category": "source"
+        }
+      ],
+      "draft": false,
+      "title": "Rigid Body",
+      "url": "glossary/rigid_body",
+      "label": "Learn about Rigid Body",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [
+        "physics body",
+        "dynamic body",
+        "physics simulation"
+      ],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 16,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 3,
+        "minutes": 1,
+        "seconds": 14,
+        "date": "2026-05-16T01:01:14.503Z",
         "dateDMY": [
           16,
           5,
@@ -54944,10 +54944,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.362Z",
+        "date": "2026-05-16T01:01:14.504Z",
         "dateDMY": [
           16,
           5,
@@ -55106,10 +55106,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.362Z",
+        "date": "2026-05-16T01:01:14.505Z",
         "dateDMY": [
           16,
           5,
@@ -55231,10 +55231,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.363Z",
+        "date": "2026-05-16T01:01:14.505Z",
         "dateDMY": [
           16,
           5,
@@ -55404,10 +55404,10 @@
         "dayName": "Saturday",
         "dayShort": "Sat",
         "dayOrdinal": "th",
-        "hours": 2,
-        "minutes": 42,
+        "hours": 3,
+        "minutes": 1,
         "seconds": 14,
-        "date": "2026-05-16T00:42:14.363Z",
+        "date": "2026-05-16T01:01:14.506Z",
         "dateDMY": [
           16,
           5,
