@@ -1,30 +1,18 @@
 {
   "list": [
     {
-      "name": "Area2D",
-      "title": "Detects when things enter and exit it",
+      "name": "Button",
+      "title": "Draws a button the player can press",
       "seeAlso": [
-        "CharacterBody2D",
-        "RayCast2D"
+        "TouchScreenButton"
       ],
       "examples": [
-        "Attaching a hurt box to a character so it can take damage",
-        "Attracting coins to the player when in range",
-        "Opening a chest when standing next to it and pressing a button"
+        "Navigating to different sub-menus from a game's main menu",
+        "Displaying items you can click and buy in a shop",
+        "Selecting a weapon or a skill by clicking on it in a shortcut bar"
       ],
-      "category": "2D",
-      "use_when": "You want to create a perimeter that warns you when objects enter or exit it"
-    },
-    {
-      "name": "RemoteTransform3D",
-      "title": "RemoteTransform3D shares its transform with 3D nodes",
-      "examples": [
-        "Attaching a camera to game characters",
-        "Making an entity follow a path",
-        "Mounting the player on a vehicle or creature"
-      ],
-      "category": "3D",
-      "use_when": "Two 3D nodes need to move together but are in different parts of the scene tree"
+      "category": "UI",
+      "use_when": "You need a button to start an action, make a choice, or provide information"
     },
     {
       "name": "Camera3D",
@@ -116,20 +104,6 @@
       ],
       "category": "3D",
       "use_when": "You want to constrain movement or rotation of objects along a smooth curve in 3D space"
-    },
-    {
-      "name": "Button",
-      "title": "Draws a button the player can press",
-      "seeAlso": [
-        "TouchScreenButton"
-      ],
-      "examples": [
-        "Navigating to different sub-menus from a game's main menu",
-        "Displaying items you can click and buy in a shop",
-        "Selecting a weapon or a skill by clicking on it in a shortcut bar"
-      ],
-      "category": "UI",
-      "use_when": "You need a button to start an action, make a choice, or provide information"
     },
     {
       "name": "GPUParticles2D",
@@ -424,6 +398,21 @@
       "use_when": "You want to quickly create 3D levels by painting tiles on a grid"
     },
     {
+      "name": "Area2D",
+      "title": "Detects when things enter and exit it",
+      "seeAlso": [
+        "CharacterBody2D",
+        "RayCast2D"
+      ],
+      "examples": [
+        "Attaching a hurt box to a character so it can take damage",
+        "Attracting coins to the player when in range",
+        "Opening a chest when standing next to it and pressing a button"
+      ],
+      "category": "2D",
+      "use_when": "You want to create a perimeter that warns you when objects enter or exit it"
+    },
+    {
       "name": "MeshInstance3D",
       "title": "MeshInstance3D let you add 3d models to your games.",
       "examples": [
@@ -496,6 +485,17 @@
       ],
       "category": "3D",
       "use_when": "You want AI characters to find paths around obstacles and navigate complex 3D environments"
+    },
+    {
+      "name": "RemoteTransform3D",
+      "title": "RemoteTransform3D shares its transform with 3D nodes",
+      "examples": [
+        "Attaching a camera to game characters",
+        "Making an entity follow a path",
+        "Mounting the player on a vehicle or creature"
+      ],
+      "category": "3D",
+      "use_when": "Two 3D nodes need to move together but are in different parts of the scene tree"
     },
     {
       "name": "RigidBody3D",

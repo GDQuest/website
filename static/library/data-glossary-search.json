@@ -1,105 +1,6 @@
 {
   "items": [
     {
-      "slug": "bound_check",
-      "terms": [
-        "bound checks",
-        ""
-      ]
-    },
-    {
-      "slug": "delta_time",
-      "terms": [
-        "delta time",
-        "framerate",
-        "frame rate",
-        "frame",
-        "rate",
-        "time step",
-        "timestep",
-        "physics",
-        "process",
-        ""
-      ]
-    },
-    {
-      "slug": "error_programming",
-      "terms": [
-        "programming error",
-        "exception",
-        "static",
-        ""
-      ]
-    },
-    {
-      "slug": "function_keyword",
-      "terms": [
-        "function",
-        ""
-      ]
-    },
-    {
-      "slug": "indirection",
-      "terms": [
-        "indirection",
-        ""
-      ]
-    },
-    {
-      "slug": "material",
-      "terms": [
-        "material",
-        "graphics",
-        "design",
-        "art",
-        ""
-      ]
-    },
-    {
-      "slug": "pebkac",
-      "terms": [
-        "pebkac (user error)",
-        "problem exists between keyboard and chair",
-        "PEBCAK",
-        ""
-      ]
-    },
-    {
-      "slug": "serialization",
-      "terms": [
-        "serialization",
-        ""
-      ]
-    },
-    {
-      "slug": "theme",
-      "terms": [
-        "theme",
-        "design",
-        "UI",
-        "user interface",
-        ""
-      ]
-    },
-    {
-      "slug": "version_control_system",
-      "terms": [
-        "version control system (vcs)",
-        "git",
-        "vcs",
-        "version control",
-        ""
-      ]
-    },
-    {
-      "slug": "collision",
-      "terms": [
-        "collisions",
-        "physics",
-        ""
-      ]
-    },
-    {
       "slug": "api",
       "terms": [
         "api (application programming interface)",
@@ -200,6 +101,13 @@
         "boolean expressions",
         "true",
         "false",
+        ""
+      ]
+    },
+    {
+      "slug": "bound_check",
+      "terms": [
+        "bound checks",
         ""
       ]
     },
@@ -329,6 +237,21 @@
       ]
     },
     {
+      "slug": "delta_time",
+      "terms": [
+        "delta time",
+        "framerate",
+        "frame rate",
+        "frame",
+        "rate",
+        "time step",
+        "timestep",
+        "physics",
+        "process",
+        ""
+      ]
+    },
+    {
       "slug": "dependency",
       "terms": [
         "dependency",
@@ -441,6 +364,15 @@
       "terms": [
         "encapsulation",
         "oop",
+        ""
+      ]
+    },
+    {
+      "slug": "error_programming",
+      "terms": [
+        "programming error",
+        "exception",
+        "static",
         ""
       ]
     },
@@ -585,6 +517,13 @@
       ]
     },
     {
+      "slug": "function_keyword",
+      "terms": [
+        "function",
+        ""
+      ]
+    },
+    {
       "slug": "function_lambda",
       "terms": [
         "lambda function",
@@ -691,6 +630,13 @@
         "indentation",
         "code",
         "style",
+        ""
+      ]
+    },
+    {
+      "slug": "indirection",
+      "terms": [
+        "indirection",
         ""
       ]
     },
@@ -815,6 +761,16 @@
       "slug": "main_loop",
       "terms": [
         "main loop",
+        ""
+      ]
+    },
+    {
+      "slug": "material",
+      "terms": [
+        "material",
+        "graphics",
+        "design",
+        "art",
         ""
       ]
     },
@@ -951,6 +907,15 @@
       ]
     },
     {
+      "slug": "pebkac",
+      "terms": [
+        "pebkac (user error)",
+        "problem exists between keyboard and chair",
+        "PEBCAK",
+        ""
+      ]
+    },
+    {
       "slug": "polar_coordinates",
       "terms": [
         "polar coordinates",
@@ -1066,6 +1031,13 @@
       "terms": [
         "script",
         "code",
+        ""
+      ]
+    },
+    {
+      "slug": "serialization",
+      "terms": [
+        "serialization",
         ""
       ]
     },
@@ -1208,6 +1180,16 @@
       ]
     },
     {
+      "slug": "theme",
+      "terms": [
+        "theme",
+        "design",
+        "UI",
+        "user interface",
+        ""
+      ]
+    },
+    {
       "slug": "tilemap",
       "terms": [
         "tilemap",
@@ -1341,6 +1323,16 @@
       ]
     },
     {
+      "slug": "version_control_system",
+      "terms": [
+        "version control system (vcs)",
+        "git",
+        "vcs",
+        "version control",
+        ""
+      ]
+    },
+    {
       "slug": "virtual_class",
       "terms": [
         "virtual base class",
@@ -1460,6 +1452,14 @@
       ]
     },
     {
+      "slug": "collision",
+      "terms": [
+        "collisions",
+        "physics",
+        ""
+      ]
+    },
+    {
       "slug": "dependency_injection",
       "terms": [
         "dependency injection",
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T00:02:29.898Z"
+    "generatedAt": "2026-05-16T00:26:30.586Z"
   }
 }
