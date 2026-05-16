@@ -1,112 +1,53 @@
 {
   "items": [
     {
-      "slug": "backend",
+      "slug": "refactor",
       "terms": [
-        "backend",
+        "refactoring",
         ""
       ]
     },
     {
-      "slug": "class_keyword",
+      "slug": "variable",
       "terms": [
-        "class",
+        "variable",
         ""
       ]
     },
     {
-      "slug": "coyote_time",
+      "slug": "ai_blackboard",
       "terms": [
-        "coyote time",
-        "grace period",
-        "delayed jump",
+        "blackboard pattern (game ai)",
         ""
       ]
     },
     {
-      "slug": "dont_repeat_yourself",
+      "slug": "ai_in_games",
       "terms": [
-        "don't repeat yourself (dry)",
-        "dry",
-        "principle",
+        "ai (game ai)",
         ""
       ]
     },
     {
-      "slug": "file_format_sounds",
+      "slug": "angle_radians",
       "terms": [
-        "file format for sounds",
-        "sound",
-        "mp3",
-        "wav",
-        "ogg vorbis",
+        "radians (angle)",
+        "angle",
+        "degrees",
+        "pi",
+        "tau",
+        "π",
+        "τ",
         ""
       ]
     },
     {
-      "slug": "function_lambda",
+      "slug": "annotation",
       "terms": [
-        "lambda function",
-        "anonymous",
-        ""
-      ]
-    },
-    {
-      "slug": "method",
-      "terms": [
-        "method, member function",
-        ""
-      ]
-    },
-    {
-      "slug": "particle_system",
-      "terms": [
-        "particle system",
-        "vfx",
-        "effects",
-        "fire",
-        "energy",
-        "smoke",
-        "trails",
-        ""
-      ]
-    },
-    {
-      "slug": "resource",
-      "terms": [
-        "resource",
-        ""
-      ]
-    },
-    {
-      "slug": "state",
-      "terms": [
-        "state",
-        ""
-      ]
-    },
-    {
-      "slug": "super_keyword",
-      "terms": [
-        "super keyword",
-        ""
-      ]
-    },
-    {
-      "slug": "type_casting",
-      "terms": [
-        "type casting",
-        "conversion",
-        ""
-      ]
-    },
-    {
-      "slug": "implementation_details",
-      "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
+        "annotation",
+        "@onready",
+        "@export",
+        "@abstract",
         ""
       ]
     },
@@ -148,6 +89,13 @@
       ]
     },
     {
+      "slug": "backend",
+      "terms": [
+        "backend",
+        ""
+      ]
+    },
+    {
       "slug": "basis",
       "terms": [
         "basis",
@@ -159,11 +107,28 @@
       ]
     },
     {
+      "slug": "bbcode",
+      "terms": [
+        "bulletin board code (bbcode)",
+        ""
+      ]
+    },
+    {
       "slug": "best_code",
       "terms": [
         "best possible code",
         "efficiency",
         "efficient",
+        ""
+      ]
+    },
+    {
+      "slug": "bezier_curve",
+      "terms": [
+        "bezier curve",
+        "spline",
+        "path",
+        "smooth interpolation",
         ""
       ]
     },
@@ -222,6 +187,13 @@
       ]
     },
     {
+      "slug": "class_keyword",
+      "terms": [
+        "class",
+        ""
+      ]
+    },
+    {
       "slug": "closure",
       "terms": [
         "closure",
@@ -232,6 +204,14 @@
       "slug": "code_blocks",
       "terms": [
         "code blocks",
+        ""
+      ]
+    },
+    {
+      "slug": "collision",
+      "terms": [
+        "collisions",
+        "physics",
         ""
       ]
     },
@@ -303,6 +283,15 @@
       ]
     },
     {
+      "slug": "coyote_time",
+      "terms": [
+        "coyote time",
+        "grace period",
+        "delayed jump",
+        ""
+      ]
+    },
+    {
       "slug": "custom_constructor",
       "terms": [
         "custom constructors",
@@ -346,6 +335,16 @@
       ]
     },
     {
+      "slug": "dependency_injection",
+      "terms": [
+        "dependency injection",
+        "passing dependencies",
+        "loose coupling",
+        "inversion of control",
+        ""
+      ]
+    },
+    {
       "slug": "design_pattern",
       "terms": [
         "design pattern",
@@ -381,6 +380,25 @@
         "Table",
         "Map",
         "UnorderedMap",
+        ""
+      ]
+    },
+    {
+      "slug": "dont_repeat_yourself",
+      "terms": [
+        "don't repeat yourself (dry)",
+        "dry",
+        "principle",
+        ""
+      ]
+    },
+    {
+      "slug": "dot_product",
+      "terms": [
+        "dot product",
+        "vectors",
+        "math",
+        "geometry",
         ""
       ]
     },
@@ -483,6 +501,17 @@
       ]
     },
     {
+      "slug": "file_format_sounds",
+      "terms": [
+        "file format for sounds",
+        "sound",
+        "mp3",
+        "wav",
+        "ogg vorbis",
+        ""
+      ]
+    },
+    {
       "slug": "finite_state_machine",
       "terms": [
         "finite state machine",
@@ -512,6 +541,15 @@
       ]
     },
     {
+      "slug": "fluent_interface",
+      "terms": [
+        "fluent interface",
+        "method chaining",
+        "builder pattern",
+        ""
+      ]
+    },
+    {
       "slug": "footgun",
       "terms": [
         "footgun",
@@ -535,6 +573,13 @@
         "forward direction",
         "transforms",
         "basis",
+        ""
+      ]
+    },
+    {
+      "slug": "framerate_independence",
+      "terms": [
+        "framerate independence",
         ""
       ]
     },
@@ -587,6 +632,14 @@
       "slug": "function_keyword",
       "terms": [
         "function",
+        ""
+      ]
+    },
+    {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
         ""
       ]
     },
@@ -684,6 +737,16 @@
       ]
     },
     {
+      "slug": "implementation_details",
+      "terms": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
+        ""
+      ]
+    },
+    {
       "slug": "indentation",
       "terms": [
         "indentation",
@@ -733,6 +796,13 @@
       ]
     },
     {
+      "slug": "interface_driven_design",
+      "terms": [
+        "interface driven design",
+        ""
+      ]
+    },
+    {
       "slug": "interpolation",
       "terms": [
         "interpolation",
@@ -761,6 +831,24 @@
         "await",
         "coroutine",
         "pause",
+        ""
+      ]
+    },
+    {
+      "slug": "kill_plane",
+      "terms": [
+        "kill plane",
+        "death plane",
+        "kill zone",
+        "level boundary",
+        ""
+      ]
+    },
+    {
+      "slug": "language_identifier",
+      "terms": [
+        "identifier",
+        "gdscript",
         ""
       ]
     },
@@ -830,6 +918,13 @@
         "graphics",
         "design",
         "art",
+        ""
+      ]
+    },
+    {
+      "slug": "method",
+      "terms": [
+        "method, member function",
         ""
       ]
     },
@@ -936,12 +1031,34 @@
       ]
     },
     {
+      "slug": "particle_system",
+      "terms": [
+        "particle system",
+        "vfx",
+        "effects",
+        "fire",
+        "energy",
+        "smoke",
+        "trails",
+        ""
+      ]
+    },
+    {
       "slug": "pathfinding",
       "terms": [
         "pathfinding",
         "astar",
         "a*",
         "djikstra",
+        ""
+      ]
+    },
+    {
+      "slug": "pattern_type_object",
+      "terms": [
+        "type object",
+        "design pattern",
+        "type object pattern",
         ""
       ]
     },
@@ -1014,6 +1131,13 @@
       ]
     },
     {
+      "slug": "race_condition",
+      "terms": [
+        "race condition",
+        ""
+      ]
+    },
+    {
       "slug": "raycast",
       "terms": [
         "raycast",
@@ -1023,17 +1147,17 @@
       ]
     },
     {
-      "slug": "refactor",
-      "terms": [
-        "refactoring",
-        ""
-      ]
-    },
-    {
       "slug": "reference_counting",
       "terms": [
         "reference counting",
         "memory management",
+        ""
+      ]
+    },
+    {
+      "slug": "resource",
+      "terms": [
+        "resource",
         ""
       ]
     },
@@ -1055,6 +1179,13 @@
       "slug": "scene_tree",
       "terms": [
         "scene tree",
+        ""
+      ]
+    },
+    {
+      "slug": "scope",
+      "terms": [
+        "scope",
         ""
       ]
     },
@@ -1139,9 +1270,23 @@
       ]
     },
     {
+      "slug": "state",
+      "terms": [
+        "state",
+        ""
+      ]
+    },
+    {
       "slug": "statement",
       "terms": [
         "statement",
+        ""
+      ]
+    },
+    {
+      "slug": "static_variable",
+      "terms": [
+        "static variable",
         ""
       ]
     },
@@ -1175,6 +1320,13 @@
         "StyleBoxEmpty",
         "user interface",
         "theme",
+        ""
+      ]
+    },
+    {
+      "slug": "super_keyword",
+      "terms": [
+        "super keyword",
         ""
       ]
     },
@@ -1294,6 +1446,14 @@
       ]
     },
     {
+      "slug": "type_casting",
+      "terms": [
+        "type casting",
+        "conversion",
+        ""
+      ]
+    },
+    {
       "slug": "type_coercion",
       "terms": [
         "implicit type coercion",
@@ -1302,16 +1462,16 @@
       ]
     },
     {
-      "slug": "type_inference",
+      "slug": "type_generic",
       "terms": [
-        "type inference",
+        "generics",
         ""
       ]
     },
     {
-      "slug": "variable",
+      "slug": "type_inference",
       "terms": [
-        "variable",
+        "type inference",
         ""
       ]
     },
@@ -1343,6 +1503,14 @@
       ]
     },
     {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
+        ""
+      ]
+    },
+    {
       "slug": "virtual_class",
       "terms": [
         "virtual base class",
@@ -1362,152 +1530,6 @@
         "your co-worker: your future self",
         "documentation",
         "collaboration",
-        ""
-      ]
-    },
-    {
-      "slug": "ai_blackboard",
-      "terms": [
-        "blackboard pattern (game ai)",
-        ""
-      ]
-    },
-    {
-      "slug": "fluent_interface",
-      "terms": [
-        "fluent interface",
-        "method chaining",
-        "builder pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "framerate_independence",
-      "terms": [
-        "framerate independence",
-        ""
-      ]
-    },
-    {
-      "slug": "interface_driven_design",
-      "terms": [
-        "interface driven design",
-        ""
-      ]
-    },
-    {
-      "slug": "kill_plane",
-      "terms": [
-        "kill plane",
-        "death plane",
-        "kill zone",
-        "level boundary",
-        ""
-      ]
-    },
-    {
-      "slug": "language_identifier",
-      "terms": [
-        "identifier",
-        "gdscript",
-        ""
-      ]
-    },
-    {
-      "slug": "race_condition",
-      "terms": [
-        "race condition",
-        ""
-      ]
-    },
-    {
-      "slug": "static_variable",
-      "terms": [
-        "static variable",
-        ""
-      ]
-    },
-    {
-      "slug": "ai_in_games",
-      "terms": [
-        "ai (game ai)",
-        ""
-      ]
-    },
-    {
-      "slug": "annotation",
-      "terms": [
-        "annotation",
-        "@onready",
-        "@export",
-        "@abstract",
-        ""
-      ]
-    },
-    {
-      "slug": "bbcode",
-      "terms": [
-        "bulletin board code (bbcode)",
-        ""
-      ]
-    },
-    {
-      "slug": "bezier_curve",
-      "terms": [
-        "bezier curve",
-        "spline",
-        "path",
-        "smooth interpolation",
-        ""
-      ]
-    },
-    {
-      "slug": "collision",
-      "terms": [
-        "collisions",
-        "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "dependency_injection",
-      "terms": [
-        "dependency injection",
-        "passing dependencies",
-        "loose coupling",
-        "inversion of control",
-        ""
-      ]
-    },
-    {
-      "slug": "dot_product",
-      "terms": [
-        "dot product",
-        "vectors",
-        "math",
-        "geometry",
-        ""
-      ]
-    },
-    {
-      "slug": "pattern_type_object",
-      "terms": [
-        "type object",
-        "design pattern",
-        "type object pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "angle_radians",
-      "terms": [
-        "radians (angle)",
-        "angle",
-        "degrees",
-        "pi",
-        "tau",
-        "π",
-        "τ",
         ""
       ]
     },
@@ -1532,13 +1554,6 @@
       ]
     },
     {
-      "slug": "scope",
-      "terms": [
-        "scope",
-        ""
-      ]
-    },
-    {
       "slug": "self",
       "terms": [
         "self keyword",
@@ -1546,25 +1561,10 @@
         "get_node",
         ""
       ]
-    },
-    {
-      "slug": "viewport",
-      "terms": [
-        "viewport",
-        "rendering",
-        ""
-      ]
-    },
-    {
-      "slug": "type_generic",
-      "terms": [
-        "generics",
-        ""
-      ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T03:35:15.463Z"
+    "generatedAt": "2026-05-16T11:29:09.400Z"
   }
 }
