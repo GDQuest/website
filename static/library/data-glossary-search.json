@@ -1,9 +1,29 @@
 {
   "items": [
     {
-      "slug": "interface_driven_design",
+      "slug": "finite_state_machine",
       "terms": [
-        "interface driven design",
+        "finite state machine",
+        "FSM",
+        ""
+      ]
+    },
+    {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
+        ""
+      ]
+    },
+    {
+      "slug": "level_design",
+      "terms": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
         ""
       ]
     },
@@ -505,14 +525,6 @@
       ]
     },
     {
-      "slug": "finite_state_machine",
-      "terms": [
-        "finite state machine",
-        "FSM",
-        ""
-      ]
-    },
-    {
       "slug": "finite_state_machine_state",
       "terms": [
         "state (finite state machine)",
@@ -625,14 +637,6 @@
       "slug": "function_keyword",
       "terms": [
         "function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_lambda",
-      "terms": [
-        "lambda function",
-        "anonymous",
         ""
       ]
     },
@@ -789,6 +793,13 @@
       ]
     },
     {
+      "slug": "interface_driven_design",
+      "terms": [
+        "interface driven design",
+        ""
+      ]
+    },
+    {
       "slug": "interpolation",
       "terms": [
         "interpolation",
@@ -843,17 +854,6 @@
       "terms": [
         "token",
         "gdscript",
-        ""
-      ]
-    },
-    {
-      "slug": "level_design",
-      "terms": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
         ""
       ]
     },
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T11:51:55.147Z"
+    "generatedAt": "2026-05-16T14:59:49.727Z"
   }
 }
