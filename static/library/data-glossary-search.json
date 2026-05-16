@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "slug": "backend",
+      "terms": [
+        "backend",
+        ""
+      ]
+    },
+    {
+      "slug": "class_keyword",
+      "terms": [
+        "class",
+        ""
+      ]
+    },
+    {
+      "slug": "coyote_time",
+      "terms": [
+        "coyote time",
+        "grace period",
+        "delayed jump",
+        ""
+      ]
+    },
+    {
+      "slug": "dont_repeat_yourself",
+      "terms": [
+        "don't repeat yourself (dry)",
+        "dry",
+        "principle",
+        ""
+      ]
+    },
+    {
+      "slug": "file_format_sounds",
+      "terms": [
+        "file format for sounds",
+        "sound",
+        "mp3",
+        "wav",
+        "ogg vorbis",
+        ""
+      ]
+    },
+    {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
+        ""
+      ]
+    },
+    {
+      "slug": "method",
+      "terms": [
+        "method, member function",
+        ""
+      ]
+    },
+    {
+      "slug": "particle_system",
+      "terms": [
+        "particle system",
+        "vfx",
+        "effects",
+        "fire",
+        "energy",
+        "smoke",
+        "trails",
+        ""
+      ]
+    },
+    {
+      "slug": "resource",
+      "terms": [
+        "resource",
+        ""
+      ]
+    },
+    {
+      "slug": "state",
+      "terms": [
+        "state",
+        ""
+      ]
+    },
+    {
+      "slug": "super_keyword",
+      "terms": [
+        "super keyword",
+        ""
+      ]
+    },
+    {
+      "slug": "type_casting",
+      "terms": [
+        "type casting",
+        "conversion",
+        ""
+      ]
+    },
+    {
+      "slug": "implementation_details",
+      "terms": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
+        ""
+      ]
+    },
+    {
       "slug": "api",
       "terms": [
         "api (application programming interface)",
@@ -34,13 +144,6 @@
         "singleton",
         "global",
         "database",
-        ""
-      ]
-    },
-    {
-      "slug": "backend",
-      "terms": [
-        "backend",
         ""
       ]
     },
@@ -115,13 +218,6 @@
       "slug": "class_inner",
       "terms": [
         "inner classes",
-        ""
-      ]
-    },
-    {
-      "slug": "class_keyword",
-      "terms": [
-        "class",
         ""
       ]
     },
@@ -207,15 +303,6 @@
       ]
     },
     {
-      "slug": "coyote_time",
-      "terms": [
-        "coyote time",
-        "grace period",
-        "delayed jump",
-        ""
-      ]
-    },
-    {
       "slug": "custom_constructor",
       "terms": [
         "custom constructors",
@@ -294,15 +381,6 @@
         "Table",
         "Map",
         "UnorderedMap",
-        ""
-      ]
-    },
-    {
-      "slug": "dont_repeat_yourself",
-      "terms": [
-        "don't repeat yourself (dry)",
-        "dry",
-        "principle",
         ""
       ]
     },
@@ -401,17 +479,6 @@
         "fov",
         "camera",
         "view",
-        ""
-      ]
-    },
-    {
-      "slug": "file_format_sounds",
-      "terms": [
-        "file format for sounds",
-        "sound",
-        "mp3",
-        "wav",
-        "ogg vorbis",
         ""
       ]
     },
@@ -520,14 +587,6 @@
       "slug": "function_keyword",
       "terms": [
         "function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_lambda",
-      "terms": [
-        "lambda function",
-        "anonymous",
         ""
       ]
     },
@@ -775,13 +834,6 @@
       ]
     },
     {
-      "slug": "method",
-      "terms": [
-        "method, member function",
-        ""
-      ]
-    },
-    {
       "slug": "modulo",
       "terms": [
         "modulo (%) operator",
@@ -880,19 +932,6 @@
       "slug": "parameter",
       "terms": [
         "function parameter",
-        ""
-      ]
-    },
-    {
-      "slug": "particle_system",
-      "terms": [
-        "particle system",
-        "vfx",
-        "effects",
-        "fire",
-        "energy",
-        "smoke",
-        "trails",
         ""
       ]
     },
@@ -999,13 +1038,6 @@
       ]
     },
     {
-      "slug": "resource",
-      "terms": [
-        "resource",
-        ""
-      ]
-    },
-    {
       "slug": "runtime",
       "terms": [
         "runtime",
@@ -1107,13 +1139,6 @@
       ]
     },
     {
-      "slug": "state",
-      "terms": [
-        "state",
-        ""
-      ]
-    },
-    {
       "slug": "statement",
       "terms": [
         "statement",
@@ -1150,13 +1175,6 @@
         "StyleBoxEmpty",
         "user interface",
         "theme",
-        ""
-      ]
-    },
-    {
-      "slug": "super_keyword",
-      "terms": [
-        "super keyword",
         ""
       ]
     },
@@ -1272,14 +1290,6 @@
       "slug": "type",
       "terms": [
         "type",
-        ""
-      ]
-    },
-    {
-      "slug": "type_casting",
-      "terms": [
-        "type casting",
-        "conversion",
         ""
       ]
     },
@@ -1480,16 +1490,6 @@
       ]
     },
     {
-      "slug": "implementation_details",
-      "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
-        ""
-      ]
-    },
-    {
       "slug": "pattern_type_object",
       "terms": [
         "type object",
@@ -1565,6 +1565,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T01:01:16.043Z"
+    "generatedAt": "2026-05-16T03:35:15.463Z"
   }
 }
