@@ -1,6 +1,222 @@
 {
   "items": [
     {
+      "slug": "boilerplate",
+      "terms": [
+        "boilerplate",
+        "template",
+        "scaffolding",
+        ""
+      ]
+    },
+    {
+      "slug": "bound_check",
+      "terms": [
+        "bound checks",
+        ""
+      ]
+    },
+    {
+      "slug": "closure",
+      "terms": [
+        "closure",
+        ""
+      ]
+    },
+    {
+      "slug": "command_line",
+      "terms": [
+        "command line",
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd",
+        ""
+      ]
+    },
+    {
+      "slug": "constant",
+      "terms": [
+        "constant",
+        ""
+      ]
+    },
+    {
+      "slug": "delta_time",
+      "terms": [
+        "delta time",
+        "framerate",
+        "frame rate",
+        "frame",
+        "rate",
+        "time step",
+        "timestep",
+        "physics",
+        "process",
+        ""
+      ]
+    },
+    {
+      "slug": "dictionary",
+      "terms": [
+        "dictionary",
+        "Object",
+        "Hashmap",
+        "Table",
+        "Map",
+        "UnorderedMap",
+        ""
+      ]
+    },
+    {
+      "slug": "encapsulation",
+      "terms": [
+        "encapsulation",
+        "oop",
+        ""
+      ]
+    },
+    {
+      "slug": "euler_angles",
+      "terms": [
+        "euler angles",
+        "rotation angles",
+        "yaw pitch roll",
+        "3D rotation",
+        "rotation representation",
+        ""
+      ]
+    },
+    {
+      "slug": "file_format_sounds",
+      "terms": [
+        "file format for sounds",
+        "sound",
+        "mp3",
+        "wav",
+        "ogg vorbis",
+        ""
+      ]
+    },
+    {
+      "slug": "format_svg",
+      "terms": [
+        "svg format",
+        ""
+      ]
+    },
+    {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
+        ""
+      ]
+    },
+    {
+      "slug": "function_static",
+      "terms": [
+        "static function",
+        ""
+      ]
+    },
+    {
+      "slug": "keyword_await",
+      "terms": [
+        "await",
+        "coroutine",
+        "pause",
+        ""
+      ]
+    },
+    {
+      "slug": "low_level_programming",
+      "terms": [
+        "low-level programming",
+        "memory",
+        ""
+      ]
+    },
+    {
+      "slug": "naming",
+      "terms": [
+        "naming things",
+        ""
+      ]
+    },
+    {
+      "slug": "paradigm_imperative",
+      "terms": [
+        "imperative programming",
+        "paradigm",
+        ""
+      ]
+    },
+    {
+      "slug": "premature_optimization",
+      "terms": [
+        "premature optimization",
+        "early optimization",
+        "evil",
+        "future proofing",
+        ""
+      ]
+    },
+    {
+      "slug": "scene_tree",
+      "terms": [
+        "scene tree",
+        ""
+      ]
+    },
+    {
+      "slug": "sprite_sheet",
+      "terms": [
+        "sprite sheet",
+        "sprite atlas",
+        "texture atlas",
+        "animation frames",
+        ""
+      ]
+    },
+    {
+      "slug": "test_driven_design",
+      "terms": [
+        "test driven design",
+        "tdd",
+        "testing",
+        "unit test",
+        ""
+      ]
+    },
+    {
+      "slug": "tileset",
+      "terms": [
+        "tileset",
+        "tile set",
+        "tiles",
+        "texture atlas",
+        ""
+      ]
+    },
+    {
+      "slug": "tween",
+      "terms": [
+        "tween",
+        "animation",
+        ""
+      ]
+    },
+    {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
+        ""
+      ]
+    },
+    {
       "slug": "ai_blackboard",
       "terms": [
         "blackboard pattern (game ai)",
@@ -141,27 +357,11 @@
       ]
     },
     {
-      "slug": "boilerplate",
-      "terms": [
-        "boilerplate",
-        "template",
-        "scaffolding",
-        ""
-      ]
-    },
-    {
       "slug": "boolean_expression",
       "terms": [
         "boolean expressions",
         "true",
         "false",
-        ""
-      ]
-    },
-    {
-      "slug": "bound_check",
-      "terms": [
-        "bound checks",
         ""
       ]
     },
@@ -176,13 +376,6 @@
       "slug": "class_keyword",
       "terms": [
         "class",
-        ""
-      ]
-    },
-    {
-      "slug": "closure",
-      "terms": [
-        "closure",
         ""
       ]
     },
@@ -210,29 +403,10 @@
       ]
     },
     {
-      "slug": "command_line",
-      "terms": [
-        "command line",
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd",
-        ""
-      ]
-    },
-    {
       "slug": "composition",
       "terms": [
         "composition",
         "pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "constant",
-      "terms": [
-        "constant",
         ""
       ]
     },
@@ -299,21 +473,6 @@
       ]
     },
     {
-      "slug": "delta_time",
-      "terms": [
-        "delta time",
-        "framerate",
-        "frame rate",
-        "frame",
-        "rate",
-        "time step",
-        "timestep",
-        "physics",
-        "process",
-        ""
-      ]
-    },
-    {
       "slug": "dependency",
       "terms": [
         "dependency",
@@ -354,18 +513,6 @@
       "terms": [
         "dialog or dialogue",
         "vocabulary",
-        ""
-      ]
-    },
-    {
-      "slug": "dictionary",
-      "terms": [
-        "dictionary",
-        "Object",
-        "Hashmap",
-        "Table",
-        "Map",
-        "UnorderedMap",
         ""
       ]
     },
@@ -442,30 +589,11 @@
       ]
     },
     {
-      "slug": "encapsulation",
-      "terms": [
-        "encapsulation",
-        "oop",
-        ""
-      ]
-    },
-    {
       "slug": "error_programming",
       "terms": [
         "programming error",
         "exception",
         "static",
-        ""
-      ]
-    },
-    {
-      "slug": "euler_angles",
-      "terms": [
-        "euler angles",
-        "rotation angles",
-        "yaw pitch roll",
-        "3D rotation",
-        "rotation representation",
         ""
       ]
     },
@@ -483,17 +611,6 @@
         "fov",
         "camera",
         "view",
-        ""
-      ]
-    },
-    {
-      "slug": "file_format_sounds",
-      "terms": [
-        "file format for sounds",
-        "sound",
-        "mp3",
-        "wav",
-        "ogg vorbis",
         ""
       ]
     },
@@ -543,13 +660,6 @@
         "magic",
         "implicit",
         "explicit",
-        ""
-      ]
-    },
-    {
-      "slug": "format_svg",
-      "terms": [
-        "svg format",
         ""
       ]
     },
@@ -622,14 +732,6 @@
       ]
     },
     {
-      "slug": "function_lambda",
-      "terms": [
-        "lambda function",
-        "anonymous",
-        ""
-      ]
-    },
-    {
       "slug": "function_override",
       "terms": [
         "overriding a function",
@@ -670,13 +772,6 @@
       "slug": "function_signature",
       "terms": [
         "function signature",
-        ""
-      ]
-    },
-    {
-      "slug": "function_static",
-      "terms": [
-        "static function",
         ""
       ]
     },
@@ -812,15 +907,6 @@
       ]
     },
     {
-      "slug": "keyword_await",
-      "terms": [
-        "await",
-        "coroutine",
-        "pause",
-        ""
-      ]
-    },
-    {
       "slug": "kill_plane",
       "terms": [
         "kill plane",
@@ -875,14 +961,6 @@
       ]
     },
     {
-      "slug": "low_level_programming",
-      "terms": [
-        "low-level programming",
-        "memory",
-        ""
-      ]
-    },
-    {
       "slug": "main_loop",
       "terms": [
         "main loop",
@@ -912,13 +990,6 @@
         "modulo (%) operator",
         "division",
         "remainder",
-        ""
-      ]
-    },
-    {
-      "slug": "naming",
-      "terms": [
-        "naming things",
         ""
       ]
     },
@@ -984,14 +1055,6 @@
       ]
     },
     {
-      "slug": "paradigm_imperative",
-      "terms": [
-        "imperative programming",
-        "paradigm",
-        ""
-      ]
-    },
-    {
       "slug": "parameter",
       "terms": [
         "function parameter",
@@ -1052,16 +1115,6 @@
       "slug": "pragmatic_programming",
       "terms": [
         "pragmatic programming",
-        ""
-      ]
-    },
-    {
-      "slug": "premature_optimization",
-      "terms": [
-        "premature optimization",
-        "early optimization",
-        "evil",
-        "future proofing",
         ""
       ]
     },
@@ -1151,13 +1204,6 @@
       ]
     },
     {
-      "slug": "scene_tree",
-      "terms": [
-        "scene tree",
-        ""
-      ]
-    },
-    {
       "slug": "scope",
       "terms": [
         "scope",
@@ -1235,16 +1281,6 @@
       ]
     },
     {
-      "slug": "sprite_sheet",
-      "terms": [
-        "sprite sheet",
-        "sprite atlas",
-        "texture atlas",
-        "animation frames",
-        ""
-      ]
-    },
-    {
       "slug": "state",
       "terms": [
         "state",
@@ -1315,16 +1351,6 @@
       ]
     },
     {
-      "slug": "test_driven_design",
-      "terms": [
-        "test driven design",
-        "tdd",
-        "testing",
-        "unit test",
-        ""
-      ]
-    },
-    {
       "slug": "theme",
       "terms": [
         "theme",
@@ -1342,16 +1368,6 @@
         "grid of tiles",
         "2D grid",
         "tile-based level",
-        ""
-      ]
-    },
-    {
-      "slug": "tileset",
-      "terms": [
-        "tileset",
-        "tile set",
-        "tiles",
-        "texture atlas",
         ""
       ]
     },
@@ -1402,14 +1418,6 @@
       "terms": [
         "tunneling",
         "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "tween",
-      "terms": [
-        "tween",
-        "animation",
         ""
       ]
     },
@@ -1474,14 +1482,6 @@
         "git",
         "vcs",
         "version control",
-        ""
-      ]
-    },
-    {
-      "slug": "viewport",
-      "terms": [
-        "viewport",
-        "rendering",
         ""
       ]
     },
@@ -1567,6 +1567,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-06-03T18:28:04.565Z"
+    "generatedAt": "2026-06-03T22:24:25.935Z"
   }
 }
