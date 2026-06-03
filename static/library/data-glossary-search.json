@@ -1,74 +1,121 @@
 {
   "items": [
     {
-      "slug": "annotation",
+      "slug": "api",
       "terms": [
-        "annotation",
-        "@onready",
-        "@export",
-        "@abstract",
+        "api (application programming interface)",
         ""
       ]
     },
     {
-      "slug": "boilerplate",
+      "slug": "architecture",
       "terms": [
-        "boilerplate",
-        "template",
-        "scaffolding",
+        "software architecture",
+        "structure",
+        "pattern",
         ""
       ]
     },
     {
-      "slug": "duck_typing",
+      "slug": "backend",
       "terms": [
-        "duck typing",
+        "backend",
         ""
       ]
     },
     {
-      "slug": "encapsulation",
+      "slug": "basis",
       "terms": [
-        "encapsulation",
-        "oop",
+        "basis",
+        "rotation",
+        "matrix",
+        "orientation",
+        "axes",
         ""
       ]
     },
     {
-      "slug": "finite_state_machine_state",
+      "slug": "bbcode",
       "terms": [
-        "state (finite state machine)",
-        "FSM",
-        "automata",
+        "bulletin board code (bbcode)",
         ""
       ]
     },
     {
-      "slug": "function_lambda",
+      "slug": "implementation_details",
       "terms": [
-        "lambda function",
-        "anonymous",
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
         ""
       ]
     },
     {
-      "slug": "pseudo_code",
+      "slug": "keyword_await",
       "terms": [
-        "pseudo code",
+        "await",
+        "coroutine",
+        "pause",
         ""
       ]
     },
     {
-      "slug": "resource",
+      "slug": "setter_getter",
       "terms": [
-        "resource",
+        "setters and getters",
         ""
       ]
     },
     {
-      "slug": "void_keyword",
+      "slug": "steering_behaviors",
       "terms": [
-        "void (function)",
+        "steering behaviors",
+        "follow",
+        "arrive",
+        "ai",
+        "steering",
+        ""
+      ]
+    },
+    {
+      "slug": "stylebox",
+      "terms": [
+        "stylebox",
+        "StyleBoxFlat",
+        "StyleBoxTexture",
+        "StyleBoxLine",
+        "StyleBoxEmpty",
+        "user interface",
+        "theme",
+        ""
+      ]
+    },
+    {
+      "slug": "tunneling",
+      "terms": [
+        "tunneling",
+        "physics",
+        ""
+      ]
+    },
+    {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
+        ""
+      ]
+    },
+    {
+      "slug": "kinematic_body",
+      "terms": [
+        "kinematic body",
+        "physics body",
+        "character controller",
+        "player movement",
+        "CharacterBody2D",
+        "CharacterBody3D",
         ""
       ]
     },
@@ -100,18 +147,12 @@
       ]
     },
     {
-      "slug": "api",
+      "slug": "annotation",
       "terms": [
-        "api (application programming interface)",
-        ""
-      ]
-    },
-    {
-      "slug": "architecture",
-      "terms": [
-        "software architecture",
-        "structure",
-        "pattern",
+        "annotation",
+        "@onready",
+        "@export",
+        "@abstract",
         ""
       ]
     },
@@ -133,31 +174,6 @@
         "singleton",
         "global",
         "database",
-        ""
-      ]
-    },
-    {
-      "slug": "backend",
-      "terms": [
-        "backend",
-        ""
-      ]
-    },
-    {
-      "slug": "basis",
-      "terms": [
-        "basis",
-        "rotation",
-        "matrix",
-        "orientation",
-        "axes",
-        ""
-      ]
-    },
-    {
-      "slug": "bbcode",
-      "terms": [
-        "bulletin board code (bbcode)",
         ""
       ]
     },
@@ -199,6 +215,15 @@
         "bitmask",
         "bitset",
         "binary",
+        ""
+      ]
+    },
+    {
+      "slug": "boilerplate",
+      "terms": [
+        "boilerplate",
+        "template",
+        "scaffolding",
         ""
       ]
     },
@@ -460,6 +485,13 @@
       ]
     },
     {
+      "slug": "duck_typing",
+      "terms": [
+        "duck typing",
+        ""
+      ]
+    },
+    {
       "slug": "dynamic_static_weak_strong",
       "terms": [
         "dynamic, static, weak, and strong languages",
@@ -484,6 +516,14 @@
       "slug": "editor_tooling",
       "terms": [
         "editor tooling",
+        ""
+      ]
+    },
+    {
+      "slug": "encapsulation",
+      "terms": [
+        "encapsulation",
+        "oop",
         ""
       ]
     },
@@ -540,6 +580,15 @@
       "terms": [
         "finite state machine",
         "FSM",
+        ""
+      ]
+    },
+    {
+      "slug": "finite_state_machine_state",
+      "terms": [
+        "state (finite state machine)",
+        "FSM",
+        "automata",
         ""
       ]
     },
@@ -651,6 +700,14 @@
       ]
     },
     {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
+        ""
+      ]
+    },
+    {
       "slug": "function_override",
       "terms": [
         "overriding a function",
@@ -744,16 +801,6 @@
       ]
     },
     {
-      "slug": "implementation_details",
-      "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
-        ""
-      ]
-    },
-    {
       "slug": "indentation",
       "terms": [
         "indentation",
@@ -833,29 +880,12 @@
       ]
     },
     {
-      "slug": "keyword_await",
-      "terms": [
-        "await",
-        "coroutine",
-        "pause",
-        ""
-      ]
-    },
-    {
       "slug": "kill_plane",
       "terms": [
         "kill plane",
         "death plane",
         "kill zone",
         "level boundary",
-        ""
-      ]
-    },
-    {
-      "slug": "language_identifier",
-      "terms": [
-        "identifier",
-        "gdscript",
         ""
       ]
     },
@@ -1013,16 +1043,6 @@
       ]
     },
     {
-      "slug": "paradigm_declarative",
-      "terms": [
-        "declarative programming",
-        "SQL",
-        "prolog",
-        "paradigm",
-        ""
-      ]
-    },
-    {
       "slug": "paradigm_imperative",
       "terms": [
         "imperative programming",
@@ -1121,6 +1141,13 @@
       ]
     },
     {
+      "slug": "pseudo_code",
+      "terms": [
+        "pseudo code",
+        ""
+      ]
+    },
+    {
       "slug": "quaternion",
       "terms": [
         "quaternion",
@@ -1158,6 +1185,13 @@
       "terms": [
         "reference counting",
         "memory management",
+        ""
+      ]
+    },
+    {
+      "slug": "resource",
+      "terms": [
+        "resource",
         ""
       ]
     },
@@ -1201,13 +1235,6 @@
       "slug": "serialization",
       "terms": [
         "serialization",
-        ""
-      ]
-    },
-    {
-      "slug": "setter_getter",
-      "terms": [
-        "setters and getters",
         ""
       ]
     },
@@ -1291,35 +1318,11 @@
       ]
     },
     {
-      "slug": "steering_behaviors",
-      "terms": [
-        "steering behaviors",
-        "follow",
-        "arrive",
-        "ai",
-        "steering",
-        ""
-      ]
-    },
-    {
       "slug": "string",
       "terms": [
         "string",
         "text",
         "characters",
-        ""
-      ]
-    },
-    {
-      "slug": "stylebox",
-      "terms": [
-        "stylebox",
-        "StyleBoxFlat",
-        "StyleBoxTexture",
-        "StyleBoxLine",
-        "StyleBoxEmpty",
-        "user interface",
-        "theme",
         ""
       ]
     },
@@ -1423,14 +1426,6 @@
       ]
     },
     {
-      "slug": "tunneling",
-      "terms": [
-        "tunneling",
-        "physics",
-        ""
-      ]
-    },
-    {
       "slug": "tween",
       "terms": [
         "tween",
@@ -1458,13 +1453,6 @@
       "terms": [
         "implicit type coercion",
         "conversion",
-        ""
-      ]
-    },
-    {
-      "slug": "type_generic",
-      "terms": [
-        "generics",
         ""
       ]
     },
@@ -1510,17 +1498,16 @@
       ]
     },
     {
-      "slug": "viewport",
+      "slug": "virtual_class",
       "terms": [
-        "viewport",
-        "rendering",
+        "virtual base class",
         ""
       ]
     },
     {
-      "slug": "virtual_class",
+      "slug": "void_keyword",
       "terms": [
-        "virtual base class",
+        "void (function)",
         ""
       ]
     },
@@ -1530,16 +1517,6 @@
         "your co-worker: your future self",
         "documentation",
         "collaboration",
-        ""
-      ]
-    },
-    {
-      "slug": "kinematic_body",
-      "terms": [
-        "kinematic body",
-        "physics body",
-        "character controller",
-        "player movement",
         ""
       ]
     },
@@ -1561,10 +1538,35 @@
         "get_node",
         ""
       ]
+    },
+    {
+      "slug": "paradigm_declarative",
+      "terms": [
+        "declarative programming",
+        "SQL",
+        "prolog",
+        "paradigm",
+        ""
+      ]
+    },
+    {
+      "slug": "type_generic",
+      "terms": [
+        "generics",
+        ""
+      ]
+    },
+    {
+      "slug": "language_identifier",
+      "terms": [
+        "identifier",
+        "gdscript",
+        ""
+      ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-05-16T18:33:52.484Z"
+    "generatedAt": "2026-06-03T14:32:28.455Z"
   }
 }
