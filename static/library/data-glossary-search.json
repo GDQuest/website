@@ -1,125 +1,6 @@
 {
   "items": [
     {
-      "slug": "api",
-      "terms": [
-        "api (application programming interface)",
-        ""
-      ]
-    },
-    {
-      "slug": "architecture",
-      "terms": [
-        "software architecture",
-        "structure",
-        "pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "backend",
-      "terms": [
-        "backend",
-        ""
-      ]
-    },
-    {
-      "slug": "basis",
-      "terms": [
-        "basis",
-        "rotation",
-        "matrix",
-        "orientation",
-        "axes",
-        ""
-      ]
-    },
-    {
-      "slug": "bbcode",
-      "terms": [
-        "bulletin board code (bbcode)",
-        ""
-      ]
-    },
-    {
-      "slug": "implementation_details",
-      "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
-        ""
-      ]
-    },
-    {
-      "slug": "keyword_await",
-      "terms": [
-        "await",
-        "coroutine",
-        "pause",
-        ""
-      ]
-    },
-    {
-      "slug": "setter_getter",
-      "terms": [
-        "setters and getters",
-        ""
-      ]
-    },
-    {
-      "slug": "steering_behaviors",
-      "terms": [
-        "steering behaviors",
-        "follow",
-        "arrive",
-        "ai",
-        "steering",
-        ""
-      ]
-    },
-    {
-      "slug": "stylebox",
-      "terms": [
-        "stylebox",
-        "StyleBoxFlat",
-        "StyleBoxTexture",
-        "StyleBoxLine",
-        "StyleBoxEmpty",
-        "user interface",
-        "theme",
-        ""
-      ]
-    },
-    {
-      "slug": "tunneling",
-      "terms": [
-        "tunneling",
-        "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "viewport",
-      "terms": [
-        "viewport",
-        "rendering",
-        ""
-      ]
-    },
-    {
-      "slug": "kinematic_body",
-      "terms": [
-        "kinematic body",
-        "physics body",
-        "character controller",
-        "player movement",
-        "CharacterBody2D",
-        "CharacterBody3D",
-        ""
-      ]
-    },
-    {
       "slug": "ai_blackboard",
       "terms": [
         "blackboard pattern (game ai)",
@@ -157,6 +38,22 @@
       ]
     },
     {
+      "slug": "api",
+      "terms": [
+        "api (application programming interface)",
+        ""
+      ]
+    },
+    {
+      "slug": "architecture",
+      "terms": [
+        "software architecture",
+        "structure",
+        "pattern",
+        ""
+      ]
+    },
+    {
       "slug": "array",
       "terms": [
         "arrays",
@@ -174,6 +71,31 @@
         "singleton",
         "global",
         "database",
+        ""
+      ]
+    },
+    {
+      "slug": "backend",
+      "terms": [
+        "backend",
+        ""
+      ]
+    },
+    {
+      "slug": "basis",
+      "terms": [
+        "basis",
+        "rotation",
+        "matrix",
+        "orientation",
+        "axes",
+        ""
+      ]
+    },
+    {
+      "slug": "bbcode",
+      "terms": [
+        "bulletin board code (bbcode)",
         ""
       ]
     },
@@ -801,6 +723,16 @@
       ]
     },
     {
+      "slug": "implementation_details",
+      "terms": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
+        ""
+      ]
+    },
+    {
       "slug": "indentation",
       "terms": [
         "indentation",
@@ -876,6 +808,15 @@
       "terms": [
         "keyframe",
         "animation",
+        ""
+      ]
+    },
+    {
+      "slug": "keyword_await",
+      "terms": [
+        "await",
+        "coroutine",
+        "pause",
         ""
       ]
     },
@@ -1239,6 +1180,13 @@
       ]
     },
     {
+      "slug": "setter_getter",
+      "terms": [
+        "setters and getters",
+        ""
+      ]
+    },
+    {
       "slug": "shader",
       "terms": [
         "shaders",
@@ -1318,11 +1266,35 @@
       ]
     },
     {
+      "slug": "steering_behaviors",
+      "terms": [
+        "steering behaviors",
+        "follow",
+        "arrive",
+        "ai",
+        "steering",
+        ""
+      ]
+    },
+    {
       "slug": "string",
       "terms": [
         "string",
         "text",
         "characters",
+        ""
+      ]
+    },
+    {
+      "slug": "stylebox",
+      "terms": [
+        "stylebox",
+        "StyleBoxFlat",
+        "StyleBoxTexture",
+        "StyleBoxLine",
+        "StyleBoxEmpty",
+        "user interface",
+        "theme",
         ""
       ]
     },
@@ -1426,6 +1398,14 @@
       ]
     },
     {
+      "slug": "tunneling",
+      "terms": [
+        "tunneling",
+        "physics",
+        ""
+      ]
+    },
+    {
       "slug": "tween",
       "terms": [
         "tween",
@@ -1498,6 +1478,14 @@
       ]
     },
     {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
+        ""
+      ]
+    },
+    {
       "slug": "virtual_class",
       "terms": [
         "virtual base class",
@@ -1557,6 +1545,18 @@
       ]
     },
     {
+      "slug": "kinematic_body",
+      "terms": [
+        "kinematic body",
+        "physics body",
+        "character controller",
+        "player movement",
+        "CharacterBody2D",
+        "CharacterBody3D",
+        ""
+      ]
+    },
+    {
       "slug": "language_identifier",
       "terms": [
         "identifier",
@@ -1567,6 +1567,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-06-03T14:32:28.455Z"
+    "generatedAt": "2026-06-03T18:28:04.565Z"
   }
 }
