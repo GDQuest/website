@@ -1,255 +1,26 @@
 {
   "items": [
     {
-      "slug": "boilerplate",
+      "slug": "normal",
       "terms": [
-        "boilerplate",
-        "template",
-        "scaffolding",
+        "normal vector",
         ""
       ]
     },
     {
-      "slug": "bound_check",
+      "slug": "polar_coordinates",
       "terms": [
-        "bound checks",
-        ""
-      ]
-    },
-    {
-      "slug": "closure",
-      "terms": [
-        "closure",
-        ""
-      ]
-    },
-    {
-      "slug": "command_line",
-      "terms": [
-        "command line",
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd",
-        ""
-      ]
-    },
-    {
-      "slug": "constant",
-      "terms": [
-        "constant",
-        ""
-      ]
-    },
-    {
-      "slug": "delta_time",
-      "terms": [
-        "delta time",
-        "framerate",
-        "frame rate",
-        "frame",
-        "rate",
-        "time step",
-        "timestep",
-        "physics",
-        "process",
-        ""
-      ]
-    },
-    {
-      "slug": "dictionary",
-      "terms": [
-        "dictionary",
-        "Object",
-        "Hashmap",
-        "Table",
-        "Map",
-        "UnorderedMap",
-        ""
-      ]
-    },
-    {
-      "slug": "encapsulation",
-      "terms": [
-        "encapsulation",
-        "oop",
-        ""
-      ]
-    },
-    {
-      "slug": "euler_angles",
-      "terms": [
-        "euler angles",
-        "rotation angles",
-        "yaw pitch roll",
-        "3D rotation",
-        "rotation representation",
-        ""
-      ]
-    },
-    {
-      "slug": "file_format_sounds",
-      "terms": [
-        "file format for sounds",
-        "sound",
-        "mp3",
-        "wav",
-        "ogg vorbis",
-        ""
-      ]
-    },
-    {
-      "slug": "format_svg",
-      "terms": [
-        "svg format",
-        ""
-      ]
-    },
-    {
-      "slug": "function_lambda",
-      "terms": [
-        "lambda function",
-        "anonymous",
-        ""
-      ]
-    },
-    {
-      "slug": "function_static",
-      "terms": [
-        "static function",
-        ""
-      ]
-    },
-    {
-      "slug": "keyword_await",
-      "terms": [
-        "await",
-        "coroutine",
-        "pause",
-        ""
-      ]
-    },
-    {
-      "slug": "low_level_programming",
-      "terms": [
-        "low-level programming",
-        "memory",
-        ""
-      ]
-    },
-    {
-      "slug": "naming",
-      "terms": [
-        "naming things",
-        ""
-      ]
-    },
-    {
-      "slug": "paradigm_imperative",
-      "terms": [
-        "imperative programming",
-        "paradigm",
-        ""
-      ]
-    },
-    {
-      "slug": "premature_optimization",
-      "terms": [
-        "premature optimization",
-        "early optimization",
-        "evil",
-        "future proofing",
-        ""
-      ]
-    },
-    {
-      "slug": "scene_tree",
-      "terms": [
-        "scene tree",
-        ""
-      ]
-    },
-    {
-      "slug": "sprite_sheet",
-      "terms": [
-        "sprite sheet",
-        "sprite atlas",
-        "texture atlas",
-        "animation frames",
-        ""
-      ]
-    },
-    {
-      "slug": "test_driven_design",
-      "terms": [
-        "test driven design",
-        "tdd",
-        "testing",
-        "unit test",
-        ""
-      ]
-    },
-    {
-      "slug": "tileset",
-      "terms": [
-        "tileset",
-        "tile set",
-        "tiles",
-        "texture atlas",
-        ""
-      ]
-    },
-    {
-      "slug": "tween",
-      "terms": [
-        "tween",
-        "animation",
-        ""
-      ]
-    },
-    {
-      "slug": "viewport",
-      "terms": [
-        "viewport",
-        "rendering",
-        ""
-      ]
-    },
-    {
-      "slug": "ai_blackboard",
-      "terms": [
-        "blackboard pattern (game ai)",
-        ""
-      ]
-    },
-    {
-      "slug": "ai_in_games",
-      "terms": [
-        "ai (game ai)",
-        ""
-      ]
-    },
-    {
-      "slug": "angle_radians",
-      "terms": [
-        "radians (angle)",
+        "polar coordinates",
         "angle",
         "degrees",
-        "pi",
-        "tau",
-        "π",
-        "τ",
         ""
       ]
     },
     {
-      "slug": "annotation",
+      "slug": "signal",
       "terms": [
-        "annotation",
-        "@onready",
-        "@export",
-        "@abstract",
+        "signal",
+        "event",
         ""
       ]
     },
@@ -309,28 +80,11 @@
       ]
     },
     {
-      "slug": "bbcode",
-      "terms": [
-        "bulletin board code (bbcode)",
-        ""
-      ]
-    },
-    {
       "slug": "best_code",
       "terms": [
         "best possible code",
         "efficiency",
         "efficient",
-        ""
-      ]
-    },
-    {
-      "slug": "bezier_curve",
-      "terms": [
-        "bezier curve",
-        "spline",
-        "path",
-        "smooth interpolation",
         ""
       ]
     },
@@ -357,11 +111,27 @@
       ]
     },
     {
+      "slug": "boilerplate",
+      "terms": [
+        "boilerplate",
+        "template",
+        "scaffolding",
+        ""
+      ]
+    },
+    {
       "slug": "boolean_expression",
       "terms": [
         "boolean expressions",
         "true",
         "false",
+        ""
+      ]
+    },
+    {
+      "slug": "bound_check",
+      "terms": [
+        "bound checks",
         ""
       ]
     },
@@ -380,17 +150,16 @@
       ]
     },
     {
-      "slug": "code_blocks",
+      "slug": "closure",
       "terms": [
-        "code blocks",
+        "closure",
         ""
       ]
     },
     {
-      "slug": "collision",
+      "slug": "code_blocks",
       "terms": [
-        "collisions",
-        "physics",
+        "code blocks",
         ""
       ]
     },
@@ -403,10 +172,29 @@
       ]
     },
     {
+      "slug": "command_line",
+      "terms": [
+        "command line",
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd",
+        ""
+      ]
+    },
+    {
       "slug": "composition",
       "terms": [
         "composition",
         "pattern",
+        ""
+      ]
+    },
+    {
+      "slug": "constant",
+      "terms": [
+        "constant",
         ""
       ]
     },
@@ -473,19 +261,24 @@
       ]
     },
     {
-      "slug": "dependency",
+      "slug": "delta_time",
       "terms": [
-        "dependency",
+        "delta time",
+        "framerate",
+        "frame rate",
+        "frame",
+        "rate",
+        "time step",
+        "timestep",
+        "physics",
+        "process",
         ""
       ]
     },
     {
-      "slug": "dependency_injection",
+      "slug": "dependency",
       "terms": [
-        "dependency injection",
-        "passing dependencies",
-        "loose coupling",
-        "inversion of control",
+        "dependency",
         ""
       ]
     },
@@ -517,21 +310,23 @@
       ]
     },
     {
+      "slug": "dictionary",
+      "terms": [
+        "dictionary",
+        "Object",
+        "Hashmap",
+        "Table",
+        "Map",
+        "UnorderedMap",
+        ""
+      ]
+    },
+    {
       "slug": "dont_repeat_yourself",
       "terms": [
         "don't repeat yourself (dry)",
         "dry",
         "principle",
-        ""
-      ]
-    },
-    {
-      "slug": "dot_product",
-      "terms": [
-        "dot product",
-        "vectors",
-        "math",
-        "geometry",
         ""
       ]
     },
@@ -589,11 +384,30 @@
       ]
     },
     {
+      "slug": "encapsulation",
+      "terms": [
+        "encapsulation",
+        "oop",
+        ""
+      ]
+    },
+    {
       "slug": "error_programming",
       "terms": [
         "programming error",
         "exception",
         "static",
+        ""
+      ]
+    },
+    {
+      "slug": "euler_angles",
+      "terms": [
+        "euler angles",
+        "rotation angles",
+        "yaw pitch roll",
+        "3D rotation",
+        "rotation representation",
         ""
       ]
     },
@@ -611,6 +425,17 @@
         "fov",
         "camera",
         "view",
+        ""
+      ]
+    },
+    {
+      "slug": "file_format_sounds",
+      "terms": [
+        "file format for sounds",
+        "sound",
+        "mp3",
+        "wav",
+        "ogg vorbis",
         ""
       ]
     },
@@ -644,15 +469,6 @@
       ]
     },
     {
-      "slug": "fluent_interface",
-      "terms": [
-        "fluent interface",
-        "method chaining",
-        "builder pattern",
-        ""
-      ]
-    },
-    {
       "slug": "footgun",
       "terms": [
         "footgun",
@@ -664,18 +480,18 @@
       ]
     },
     {
+      "slug": "format_svg",
+      "terms": [
+        "svg format",
+        ""
+      ]
+    },
+    {
       "slug": "forward_direction",
       "terms": [
         "forward direction",
         "transforms",
         "basis",
-        ""
-      ]
-    },
-    {
-      "slug": "framerate_independence",
-      "terms": [
-        "framerate independence",
         ""
       ]
     },
@@ -732,6 +548,14 @@
       ]
     },
     {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
+        ""
+      ]
+    },
+    {
       "slug": "function_override",
       "terms": [
         "overriding a function",
@@ -776,6 +600,13 @@
       ]
     },
     {
+      "slug": "function_static",
+      "terms": [
+        "static function",
+        ""
+      ]
+    },
+    {
       "slug": "function_virtual",
       "terms": [
         "virtual function",
@@ -814,16 +645,6 @@
         "red",
         "blue",
         "green",
-        ""
-      ]
-    },
-    {
-      "slug": "implementation_details",
-      "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
         ""
       ]
     },
@@ -877,13 +698,6 @@
       ]
     },
     {
-      "slug": "interface_driven_design",
-      "terms": [
-        "interface driven design",
-        ""
-      ]
-    },
-    {
       "slug": "interpolation",
       "terms": [
         "interpolation",
@@ -907,12 +721,11 @@
       ]
     },
     {
-      "slug": "kill_plane",
+      "slug": "keyword_await",
       "terms": [
-        "kill plane",
-        "death plane",
-        "kill zone",
-        "level boundary",
+        "await",
+        "coroutine",
+        "pause",
         ""
       ]
     },
@@ -961,6 +774,14 @@
       ]
     },
     {
+      "slug": "low_level_programming",
+      "terms": [
+        "low-level programming",
+        "memory",
+        ""
+      ]
+    },
+    {
       "slug": "main_loop",
       "terms": [
         "main loop",
@@ -994,6 +815,13 @@
       ]
     },
     {
+      "slug": "naming",
+      "terms": [
+        "naming things",
+        ""
+      ]
+    },
+    {
       "slug": "nine_slice_scaling",
       "terms": [
         "9-slice scaling",
@@ -1009,13 +837,6 @@
       "slug": "node",
       "terms": [
         "node",
-        ""
-      ]
-    },
-    {
-      "slug": "normal",
-      "terms": [
-        "normal vector",
         ""
       ]
     },
@@ -1055,6 +876,14 @@
       ]
     },
     {
+      "slug": "paradigm_imperative",
+      "terms": [
+        "imperative programming",
+        "paradigm",
+        ""
+      ]
+    },
+    {
       "slug": "parameter",
       "terms": [
         "function parameter",
@@ -1085,15 +914,6 @@
       ]
     },
     {
-      "slug": "pattern_type_object",
-      "terms": [
-        "type object",
-        "design pattern",
-        "type object pattern",
-        ""
-      ]
-    },
-    {
       "slug": "pebkac",
       "terms": [
         "pebkac (user error)",
@@ -1103,18 +923,19 @@
       ]
     },
     {
-      "slug": "polar_coordinates",
+      "slug": "pragmatic_programming",
       "terms": [
-        "polar coordinates",
-        "angle",
-        "degrees",
+        "pragmatic programming",
         ""
       ]
     },
     {
-      "slug": "pragmatic_programming",
+      "slug": "premature_optimization",
       "terms": [
-        "pragmatic programming",
+        "premature optimization",
+        "early optimization",
+        "evil",
+        "future proofing",
         ""
       ]
     },
@@ -1148,13 +969,6 @@
         "rotation",
         "3D rotation",
         "quaternions",
-        ""
-      ]
-    },
-    {
-      "slug": "race_condition",
-      "terms": [
-        "race condition",
         ""
       ]
     },
@@ -1204,9 +1018,9 @@
       ]
     },
     {
-      "slug": "scope",
+      "slug": "scene_tree",
       "terms": [
-        "scope",
+        "scene tree",
         ""
       ]
     },
@@ -1252,14 +1066,6 @@
       ]
     },
     {
-      "slug": "signal",
-      "terms": [
-        "signal",
-        "event",
-        ""
-      ]
-    },
-    {
       "slug": "singleton",
       "terms": [
         "singleton (autoload)",
@@ -1281,6 +1087,16 @@
       ]
     },
     {
+      "slug": "sprite_sheet",
+      "terms": [
+        "sprite sheet",
+        "sprite atlas",
+        "texture atlas",
+        "animation frames",
+        ""
+      ]
+    },
+    {
       "slug": "state",
       "terms": [
         "state",
@@ -1291,13 +1107,6 @@
       "slug": "statement",
       "terms": [
         "statement",
-        ""
-      ]
-    },
-    {
-      "slug": "static_variable",
-      "terms": [
-        "static variable",
         ""
       ]
     },
@@ -1351,6 +1160,16 @@
       ]
     },
     {
+      "slug": "test_driven_design",
+      "terms": [
+        "test driven design",
+        "tdd",
+        "testing",
+        "unit test",
+        ""
+      ]
+    },
+    {
       "slug": "theme",
       "terms": [
         "theme",
@@ -1368,6 +1187,16 @@
         "grid of tiles",
         "2D grid",
         "tile-based level",
+        ""
+      ]
+    },
+    {
+      "slug": "tileset",
+      "terms": [
+        "tileset",
+        "tile set",
+        "tiles",
+        "texture atlas",
         ""
       ]
     },
@@ -1418,6 +1247,14 @@
       "terms": [
         "tunneling",
         "physics",
+        ""
+      ]
+    },
+    {
+      "slug": "tween",
+      "terms": [
+        "tween",
+        "animation",
         ""
       ]
     },
@@ -1509,6 +1346,166 @@
       ]
     },
     {
+      "slug": "ai_blackboard",
+      "terms": [
+        "blackboard pattern (game ai)",
+        ""
+      ]
+    },
+    {
+      "slug": "fluent_interface",
+      "terms": [
+        "fluent interface",
+        "method chaining",
+        "builder pattern",
+        ""
+      ]
+    },
+    {
+      "slug": "framerate_independence",
+      "terms": [
+        "framerate independence",
+        ""
+      ]
+    },
+    {
+      "slug": "interface_driven_design",
+      "terms": [
+        "interface driven design",
+        ""
+      ]
+    },
+    {
+      "slug": "kill_plane",
+      "terms": [
+        "kill plane",
+        "death plane",
+        "kill zone",
+        "level boundary",
+        ""
+      ]
+    },
+    {
+      "slug": "race_condition",
+      "terms": [
+        "race condition",
+        ""
+      ]
+    },
+    {
+      "slug": "static_variable",
+      "terms": [
+        "static variable",
+        ""
+      ]
+    },
+    {
+      "slug": "ai_in_games",
+      "terms": [
+        "ai (game ai)",
+        ""
+      ]
+    },
+    {
+      "slug": "annotation",
+      "terms": [
+        "annotation",
+        "@onready",
+        "@export",
+        "@abstract",
+        ""
+      ]
+    },
+    {
+      "slug": "bbcode",
+      "terms": [
+        "bulletin board code (bbcode)",
+        ""
+      ]
+    },
+    {
+      "slug": "bezier_curve",
+      "terms": [
+        "bezier curve",
+        "spline",
+        "path",
+        "smooth interpolation",
+        ""
+      ]
+    },
+    {
+      "slug": "collision",
+      "terms": [
+        "collisions",
+        "physics",
+        ""
+      ]
+    },
+    {
+      "slug": "dependency_injection",
+      "terms": [
+        "dependency injection",
+        "passing dependencies",
+        "loose coupling",
+        "inversion of control",
+        ""
+      ]
+    },
+    {
+      "slug": "dot_product",
+      "terms": [
+        "dot product",
+        "vectors",
+        "math",
+        "geometry",
+        ""
+      ]
+    },
+    {
+      "slug": "implementation_details",
+      "terms": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
+        ""
+      ]
+    },
+    {
+      "slug": "pattern_type_object",
+      "terms": [
+        "type object",
+        "design pattern",
+        "type object pattern",
+        ""
+      ]
+    },
+    {
+      "slug": "angle_radians",
+      "terms": [
+        "radians (angle)",
+        "angle",
+        "degrees",
+        "pi",
+        "tau",
+        "π",
+        "τ",
+        ""
+      ]
+    },
+    {
+      "slug": "kinematic_body",
+      "terms": [
+        "kinematic body",
+        "physics body",
+        "character controller",
+        "player movement",
+        "CharacterBody2D",
+        "CharacterBody3D",
+        ""
+      ]
+    },
+    {
       "slug": "rigid_body",
       "terms": [
         "rigid body",
@@ -1519,11 +1516,26 @@
       ]
     },
     {
+      "slug": "scope",
+      "terms": [
+        "scope",
+        ""
+      ]
+    },
+    {
       "slug": "self",
       "terms": [
         "self keyword",
         "this",
         "get_node",
+        ""
+      ]
+    },
+    {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
         ""
       ]
     },
@@ -1545,18 +1557,6 @@
       ]
     },
     {
-      "slug": "kinematic_body",
-      "terms": [
-        "kinematic body",
-        "physics body",
-        "character controller",
-        "player movement",
-        "CharacterBody2D",
-        "CharacterBody3D",
-        ""
-      ]
-    },
-    {
       "slug": "language_identifier",
       "terms": [
         "identifier",
@@ -1567,6 +1567,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-06-03T22:24:25.935Z"
+    "generatedAt": "2026-06-06T09:52:02.008Z"
   }
 }
