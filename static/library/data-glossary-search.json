@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "slug": "best_code",
+      "terms": [
+        "best possible code",
+        "efficiency",
+        "efficient",
+        ""
+      ]
+    },
+    {
+      "slug": "closure",
+      "terms": [
+        "closure",
+        ""
+      ]
+    },
+    {
+      "slug": "constructor",
+      "terms": [
+        "constructor method",
+        "init",
+        ""
+      ]
+    },
+    {
+      "slug": "continuous_collision_detection",
+      "terms": [
+        "continuous collision detection (ccd)",
+        "CCD",
+        "tunneling",
+        "fast-moving objects",
+        ""
+      ]
+    },
+    {
       "slug": "api",
       "terms": [
         "api (application programming interface)",
@@ -52,15 +86,6 @@
         "matrix",
         "orientation",
         "axes",
-        ""
-      ]
-    },
-    {
-      "slug": "best_code",
-      "terms": [
-        "best possible code",
-        "efficiency",
-        "efficient",
         ""
       ]
     },
@@ -126,13 +151,6 @@
       ]
     },
     {
-      "slug": "closure",
-      "terms": [
-        "closure",
-        ""
-      ]
-    },
-    {
       "slug": "code_blocks",
       "terms": [
         "code blocks",
@@ -175,27 +193,112 @@
       ]
     },
     {
-      "slug": "constructor",
-      "terms": [
-        "constructor method",
-        "init",
-        ""
-      ]
-    },
-    {
-      "slug": "continuous_collision_detection",
-      "terms": [
-        "continuous collision detection (ccd)",
-        "CCD",
-        "tunneling",
-        "fast-moving objects",
-        ""
-      ]
-    },
-    {
       "slug": "copy_customize_create",
       "terms": [
         "copy, customize, create",
+        ""
+      ]
+    },
+    {
+      "slug": "language_identifier",
+      "terms": [
+        "identifier",
+        "gdscript",
+        ""
+      ]
+    },
+    {
+      "slug": "type_generic",
+      "terms": [
+        "generics",
+        ""
+      ]
+    },
+    {
+      "slug": "paradigm_declarative",
+      "terms": [
+        "declarative programming",
+        "SQL",
+        "prolog",
+        "paradigm",
+        ""
+      ]
+    },
+    {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
+        ""
+      ]
+    },
+    {
+      "slug": "self",
+      "terms": [
+        "self keyword",
+        "this",
+        "get_node",
+        ""
+      ]
+    },
+    {
+      "slug": "scope",
+      "terms": [
+        "scope",
+        ""
+      ]
+    },
+    {
+      "slug": "rigid_body",
+      "terms": [
+        "rigid body",
+        "physics body",
+        "dynamic body",
+        "physics simulation",
+        ""
+      ]
+    },
+    {
+      "slug": "kinematic_body",
+      "terms": [
+        "kinematic body",
+        "physics body",
+        "character controller",
+        "player movement",
+        "CharacterBody2D",
+        "CharacterBody3D",
+        ""
+      ]
+    },
+    {
+      "slug": "angle_radians",
+      "terms": [
+        "radians (angle)",
+        "angle",
+        "degrees",
+        "pi",
+        "tau",
+        "π",
+        "τ",
+        ""
+      ]
+    },
+    {
+      "slug": "pattern_type_object",
+      "terms": [
+        "type object",
+        "design pattern",
+        "type object pattern",
+        ""
+      ]
+    },
+    {
+      "slug": "implementation_details",
+      "terms": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
         ""
       ]
     },
@@ -346,105 +449,44 @@
       ]
     },
     {
-      "slug": "language_identifier",
+      "slug": "easing",
       "terms": [
-        "identifier",
-        "gdscript",
+        "animation easing",
         ""
       ]
     },
     {
-      "slug": "type_generic",
+      "slug": "editor_tooling",
       "terms": [
-        "generics",
+        "editor tooling",
         ""
       ]
     },
     {
-      "slug": "paradigm_declarative",
+      "slug": "encapsulation",
       "terms": [
-        "declarative programming",
-        "SQL",
-        "prolog",
-        "paradigm",
+        "encapsulation",
+        "oop",
         ""
       ]
     },
     {
-      "slug": "viewport",
+      "slug": "error_programming",
       "terms": [
-        "viewport",
-        "rendering",
+        "programming error",
+        "exception",
+        "static",
         ""
       ]
     },
     {
-      "slug": "self",
+      "slug": "euler_angles",
       "terms": [
-        "self keyword",
-        "this",
-        "get_node",
-        ""
-      ]
-    },
-    {
-      "slug": "scope",
-      "terms": [
-        "scope",
-        ""
-      ]
-    },
-    {
-      "slug": "rigid_body",
-      "terms": [
-        "rigid body",
-        "physics body",
-        "dynamic body",
-        "physics simulation",
-        ""
-      ]
-    },
-    {
-      "slug": "kinematic_body",
-      "terms": [
-        "kinematic body",
-        "physics body",
-        "character controller",
-        "player movement",
-        "CharacterBody2D",
-        "CharacterBody3D",
-        ""
-      ]
-    },
-    {
-      "slug": "angle_radians",
-      "terms": [
-        "radians (angle)",
-        "angle",
-        "degrees",
-        "pi",
-        "tau",
-        "π",
-        "τ",
-        ""
-      ]
-    },
-    {
-      "slug": "pattern_type_object",
-      "terms": [
-        "type object",
-        "design pattern",
-        "type object pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "implementation_details",
-      "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
+        "euler angles",
+        "rotation angles",
+        "yaw pitch roll",
+        "3D rotation",
+        "rotation representation",
         ""
       ]
     },
@@ -514,294 +556,6 @@
       "slug": "static_variable",
       "terms": [
         "static variable",
-        ""
-      ]
-    },
-    {
-      "slug": "easing",
-      "terms": [
-        "animation easing",
-        ""
-      ]
-    },
-    {
-      "slug": "editor_tooling",
-      "terms": [
-        "editor tooling",
-        ""
-      ]
-    },
-    {
-      "slug": "encapsulation",
-      "terms": [
-        "encapsulation",
-        "oop",
-        ""
-      ]
-    },
-    {
-      "slug": "error_programming",
-      "terms": [
-        "programming error",
-        "exception",
-        "static",
-        ""
-      ]
-    },
-    {
-      "slug": "euler_angles",
-      "terms": [
-        "euler angles",
-        "rotation angles",
-        "yaw pitch roll",
-        "3D rotation",
-        "rotation representation",
-        ""
-      ]
-    },
-    {
-      "slug": "expression",
-      "terms": [
-        "expressions",
-        ""
-      ]
-    },
-    {
-      "slug": "field_of_view",
-      "terms": [
-        "field of view",
-        "fov",
-        "camera",
-        "view",
-        ""
-      ]
-    },
-    {
-      "slug": "file_format_sounds",
-      "terms": [
-        "file format for sounds",
-        "sound",
-        "mp3",
-        "wav",
-        "ogg vorbis",
-        ""
-      ]
-    },
-    {
-      "slug": "finite_state_machine",
-      "terms": [
-        "finite state machine",
-        "FSM",
-        ""
-      ]
-    },
-    {
-      "slug": "finite_state_machine_state",
-      "terms": [
-        "state (finite state machine)",
-        "FSM",
-        "automata",
-        ""
-      ]
-    },
-    {
-      "slug": "floating_point_rounding_error",
-      "terms": [
-        "floating point rounding errors",
-        "maths",
-        "rounding",
-        "float",
-        "int",
-        "number",
-        ""
-      ]
-    },
-    {
-      "slug": "footgun",
-      "terms": [
-        "footgun",
-        "gotcha",
-        "magic",
-        "implicit",
-        "explicit",
-        ""
-      ]
-    },
-    {
-      "slug": "format_svg",
-      "terms": [
-        "svg format",
-        ""
-      ]
-    },
-    {
-      "slug": "forward_direction",
-      "terms": [
-        "forward direction",
-        "transforms",
-        "basis",
-        ""
-      ]
-    },
-    {
-      "slug": "frames_per_second",
-      "terms": [
-        "frames per second",
-        "FPS",
-        "jitter",
-        "v-sync",
-        ""
-      ]
-    },
-    {
-      "slug": "framework",
-      "terms": [
-        "software framework",
-        "engine",
-        "game engine",
-        ""
-      ]
-    },
-    {
-      "slug": "function_bound",
-      "terms": [
-        "bound functions",
-        "binding",
-        ""
-      ]
-    },
-    {
-      "slug": "function_call_vs_function_reference",
-      "terms": [
-        "function call vs function reference",
-        "bind",
-        "anonymous",
-        "connect",
-        "signals",
-        ""
-      ]
-    },
-    {
-      "slug": "function_init",
-      "terms": [
-        "init function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_keyword",
-      "terms": [
-        "function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_lambda",
-      "terms": [
-        "lambda function",
-        "anonymous",
-        ""
-      ]
-    },
-    {
-      "slug": "function_override",
-      "terms": [
-        "overriding a function",
-        "oop",
-        ""
-      ]
-    },
-    {
-      "slug": "function_physics_process",
-      "terms": [
-        "physics process function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_process",
-      "terms": [
-        "process function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_pure",
-      "terms": [
-        "pure functions",
-        "fp",
-        ""
-      ]
-    },
-    {
-      "slug": "function_return",
-      "terms": [
-        "return (function)",
-        ""
-      ]
-    },
-    {
-      "slug": "function_signature",
-      "terms": [
-        "function signature",
-        ""
-      ]
-    },
-    {
-      "slug": "function_static",
-      "terms": [
-        "static function",
-        ""
-      ]
-    },
-    {
-      "slug": "function_virtual",
-      "terms": [
-        "virtual function",
-        ""
-      ]
-    },
-    {
-      "slug": "functional_programming",
-      "terms": [
-        "functional programming",
-        "fp",
-        ""
-      ]
-    },
-    {
-      "slug": "game_states",
-      "terms": [
-        "game states",
-        ""
-      ]
-    },
-    {
-      "slug": "gamejam",
-      "terms": [
-        "game jam",
-        "gamejam",
-        ""
-      ]
-    },
-    {
-      "slug": "hexadecimal",
-      "terms": [
-        "hexadecimal",
-        "decimal",
-        "color",
-        "red",
-        "blue",
-        "green",
-        ""
-      ]
-    },
-    {
-      "slug": "indentation",
-      "terms": [
-        "indentation",
-        "code",
-        "style",
         ""
       ]
     },
@@ -1039,6 +793,231 @@
       ]
     },
     {
+      "slug": "expression",
+      "terms": [
+        "expressions",
+        ""
+      ]
+    },
+    {
+      "slug": "field_of_view",
+      "terms": [
+        "field of view",
+        "fov",
+        "camera",
+        "view",
+        ""
+      ]
+    },
+    {
+      "slug": "file_format_sounds",
+      "terms": [
+        "file format for sounds",
+        "sound",
+        "mp3",
+        "wav",
+        "ogg vorbis",
+        ""
+      ]
+    },
+    {
+      "slug": "finite_state_machine",
+      "terms": [
+        "finite state machine",
+        "FSM",
+        ""
+      ]
+    },
+    {
+      "slug": "finite_state_machine_state",
+      "terms": [
+        "state (finite state machine)",
+        "FSM",
+        "automata",
+        ""
+      ]
+    },
+    {
+      "slug": "floating_point_rounding_error",
+      "terms": [
+        "floating point rounding errors",
+        "maths",
+        "rounding",
+        "float",
+        "int",
+        "number",
+        ""
+      ]
+    },
+    {
+      "slug": "footgun",
+      "terms": [
+        "footgun",
+        "gotcha",
+        "magic",
+        "implicit",
+        "explicit",
+        ""
+      ]
+    },
+    {
+      "slug": "format_svg",
+      "terms": [
+        "svg format",
+        ""
+      ]
+    },
+    {
+      "slug": "forward_direction",
+      "terms": [
+        "forward direction",
+        "transforms",
+        "basis",
+        ""
+      ]
+    },
+    {
+      "slug": "frames_per_second",
+      "terms": [
+        "frames per second",
+        "FPS",
+        "jitter",
+        "v-sync",
+        ""
+      ]
+    },
+    {
+      "slug": "framework",
+      "terms": [
+        "software framework",
+        "engine",
+        "game engine",
+        ""
+      ]
+    },
+    {
+      "slug": "function_bound",
+      "terms": [
+        "bound functions",
+        "binding",
+        ""
+      ]
+    },
+    {
+      "slug": "function_call_vs_function_reference",
+      "terms": [
+        "function call vs function reference",
+        "bind",
+        "anonymous",
+        "connect",
+        "signals",
+        ""
+      ]
+    },
+    {
+      "slug": "function_init",
+      "terms": [
+        "init function",
+        ""
+      ]
+    },
+    {
+      "slug": "function_keyword",
+      "terms": [
+        "function",
+        ""
+      ]
+    },
+    {
+      "slug": "function_lambda",
+      "terms": [
+        "lambda function",
+        "anonymous",
+        ""
+      ]
+    },
+    {
+      "slug": "function_override",
+      "terms": [
+        "overriding a function",
+        "oop",
+        ""
+      ]
+    },
+    {
+      "slug": "function_physics_process",
+      "terms": [
+        "physics process function",
+        ""
+      ]
+    },
+    {
+      "slug": "function_process",
+      "terms": [
+        "process function",
+        ""
+      ]
+    },
+    {
+      "slug": "function_pure",
+      "terms": [
+        "pure functions",
+        "fp",
+        ""
+      ]
+    },
+    {
+      "slug": "function_return",
+      "terms": [
+        "return (function)",
+        ""
+      ]
+    },
+    {
+      "slug": "function_signature",
+      "terms": [
+        "function signature",
+        ""
+      ]
+    },
+    {
+      "slug": "function_static",
+      "terms": [
+        "static function",
+        ""
+      ]
+    },
+    {
+      "slug": "function_virtual",
+      "terms": [
+        "virtual function",
+        ""
+      ]
+    },
+    {
+      "slug": "functional_programming",
+      "terms": [
+        "functional programming",
+        "fp",
+        ""
+      ]
+    },
+    {
+      "slug": "game_states",
+      "terms": [
+        "game states",
+        ""
+      ]
+    },
+    {
+      "slug": "gamejam",
+      "terms": [
+        "game jam",
+        "gamejam",
+        ""
+      ]
+    },
+    {
       "slug": "ternary_expression",
       "terms": [
         "ternary expression",
@@ -1247,6 +1226,126 @@
       "slug": "pseudo_code",
       "terms": [
         "pseudo code",
+        ""
+      ]
+    },
+    {
+      "slug": "property",
+      "terms": [
+        "property, member variable",
+        ""
+      ]
+    },
+    {
+      "slug": "private_public_properties",
+      "terms": [
+        "private/public properties",
+        "pseudoprivate",
+        "pseudo-private",
+        ""
+      ]
+    },
+    {
+      "slug": "premature_optimization",
+      "terms": [
+        "premature optimization",
+        "early optimization",
+        "evil",
+        "future proofing",
+        ""
+      ]
+    },
+    {
+      "slug": "pragmatic_programming",
+      "terms": [
+        "pragmatic programming",
+        ""
+      ]
+    },
+    {
+      "slug": "polar_coordinates",
+      "terms": [
+        "polar coordinates",
+        "angle",
+        "degrees",
+        ""
+      ]
+    },
+    {
+      "slug": "pebkac",
+      "terms": [
+        "pebkac (user error)",
+        "problem exists between keyboard and chair",
+        "PEBCAK",
+        ""
+      ]
+    },
+    {
+      "slug": "pathfinding",
+      "terms": [
+        "pathfinding",
+        "astar",
+        "a*",
+        "djikstra",
+        ""
+      ]
+    },
+    {
+      "slug": "particle_system",
+      "terms": [
+        "particle system",
+        "vfx",
+        "effects",
+        "fire",
+        "energy",
+        "smoke",
+        "trails",
+        ""
+      ]
+    },
+    {
+      "slug": "parameter",
+      "terms": [
+        "function parameter",
+        ""
+      ]
+    },
+    {
+      "slug": "paradigm_imperative",
+      "terms": [
+        "imperative programming",
+        "paradigm",
+        ""
+      ]
+    },
+    {
+      "slug": "operator",
+      "terms": [
+        "operator",
+        "math",
+        "mathematics",
+        "operations",
+        ""
+      ]
+    },
+    {
+      "slug": "hexadecimal",
+      "terms": [
+        "hexadecimal",
+        "decimal",
+        "color",
+        "red",
+        "blue",
+        "green",
+        ""
+      ]
+    },
+    {
+      "slug": "indentation",
+      "terms": [
+        "indentation",
+        "code",
+        "style",
         ""
       ]
     },
@@ -1464,109 +1563,10 @@
         "vulkan",
         ""
       ]
-    },
-    {
-      "slug": "operator",
-      "terms": [
-        "operator",
-        "math",
-        "mathematics",
-        "operations",
-        ""
-      ]
-    },
-    {
-      "slug": "paradigm_imperative",
-      "terms": [
-        "imperative programming",
-        "paradigm",
-        ""
-      ]
-    },
-    {
-      "slug": "parameter",
-      "terms": [
-        "function parameter",
-        ""
-      ]
-    },
-    {
-      "slug": "particle_system",
-      "terms": [
-        "particle system",
-        "vfx",
-        "effects",
-        "fire",
-        "energy",
-        "smoke",
-        "trails",
-        ""
-      ]
-    },
-    {
-      "slug": "pathfinding",
-      "terms": [
-        "pathfinding",
-        "astar",
-        "a*",
-        "djikstra",
-        ""
-      ]
-    },
-    {
-      "slug": "pebkac",
-      "terms": [
-        "pebkac (user error)",
-        "problem exists between keyboard and chair",
-        "PEBCAK",
-        ""
-      ]
-    },
-    {
-      "slug": "polar_coordinates",
-      "terms": [
-        "polar coordinates",
-        "angle",
-        "degrees",
-        ""
-      ]
-    },
-    {
-      "slug": "pragmatic_programming",
-      "terms": [
-        "pragmatic programming",
-        ""
-      ]
-    },
-    {
-      "slug": "premature_optimization",
-      "terms": [
-        "premature optimization",
-        "early optimization",
-        "evil",
-        "future proofing",
-        ""
-      ]
-    },
-    {
-      "slug": "private_public_properties",
-      "terms": [
-        "private/public properties",
-        "pseudoprivate",
-        "pseudo-private",
-        ""
-      ]
-    },
-    {
-      "slug": "property",
-      "terms": [
-        "property, member variable",
-        ""
-      ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-06-08T19:13:50.375Z"
+    "generatedAt": "2026-06-10T14:41:26.004Z"
   }
 }
