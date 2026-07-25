@@ -566,6 +566,64 @@
       "isYoutubeShort": false
     },
     {
+      "slug": "uvs",
+      "title": "understanding uvs in godot shaders",
+      "description": "learn what uv coordinates are in godot shaders, how to visualize pixel coordinates, what texture sampling is, and how to animate textures using uvs.",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "shaders"
+      ],
+      "search": [
+        "understanding uvs in godot shaders",
+        "shader",
+        "shaders",
+        "learn what uv coordinates are in godot shaders, how to visualize pixel coordinates, what texture sampling is, and how to animate textures using uvs."
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "compose_interesting_vfx_by_combining_shader_functions",
+      "title": "compose interesting vfx by combining shader functions",
+      "description": "some description",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "shaders"
+      ],
+      "search": [
+        "compose interesting vfx by combining shader functions",
+        "shader",
+        "shaders",
+        "some description"
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
       "slug": "raycast_introduction",
       "title": "understanding raycasts in godot",
       "description": "learn what raycasts are and how to use them in godot for both 2d and 3d games. discover how to set up raycast nodes, detect collisions, and implement common use cases like line of sight, ground detection, and instant-hit weapons.",
@@ -642,6 +700,35 @@
         "null instance node access errors",
         "debugging",
         "a troubleshooting guide for fixing the common 'invalid assignment of property or key with value on a base object of type null instance' error. learn how to find the cause of this error and fix node reference issues quickly."
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "control_shaders_with_simple_functions",
+      "title": "control shaders with simple functions",
+      "description": "some description",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_4"
+      ],
+      "game_space": [
+        "2d",
+        "3d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "shaders"
+      ],
+      "search": [
+        "control shaders with simple functions",
+        "shader",
+        "shaders",
+        "some description"
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -2987,6 +3074,30 @@
       ],
       "archived": false,
       "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "type_generic",
+      "title": "generics",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "generics",
+        ""
+      ],
+      "archived": false,
+      "isGlossaryEntry": true,
       "isYoutubeShort": false
     },
     {
@@ -7546,30 +7657,6 @@
       "isYoutubeShort": false
     },
     {
-      "slug": "type_generic",
-      "title": "generics",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "generics",
-        ""
-      ],
-      "archived": false,
-      "isGlossaryEntry": true,
-      "isYoutubeShort": false
-    },
-    {
       "slug": "language_identifier",
       "title": "identifier",
       "description": "",
@@ -7677,6 +7764,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-07-25T13:19:54.292Z"
+    "generatedAt": "2026-07-25T13:27:15.251Z"
   }
 }

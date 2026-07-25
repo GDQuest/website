@@ -208,6 +208,7 @@
         "url": "taxonomy/format/glossary",
         "items": [
           "glossary",
+          "type_generic",
           "api",
           "architecture",
           "array",
@@ -386,7 +387,6 @@
           "scope",
           "viewport",
           "paradigm_declarative",
-          "type_generic",
           "language_identifier",
           "shader",
           "texel",
@@ -444,9 +444,12 @@
           "pixel_art_setup_godot4",
           "kinematic_jump_formulas",
           "modular_game_architecture",
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
+          "control_shaders_with_simple_functions",
           "how_to_practice",
           "design_patterns_intro",
           "godot_getting_started_list_beginner",
@@ -610,6 +613,7 @@
           "plugin_blender_power_sequencer",
           "plugin_emacs_gdscript_mode",
           "tool_gdscript_docs_maker",
+          "type_generic",
           "api",
           "architecture",
           "array",
@@ -788,7 +792,6 @@
           "scope",
           "viewport",
           "paradigm_declarative",
-          "type_generic",
           "language_identifier",
           "shader",
           "texel",
@@ -926,9 +929,12 @@
           "save_game_godot4",
           "split_screen_coop",
           "modular_game_architecture",
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
+          "control_shaders_with_simple_functions",
           "demo_design_patterns",
           "demo_godot_shaders",
           "design_patterns_intro",
@@ -2047,6 +2053,9 @@
         "skip_search_results": false,
         "url": "taxonomy/subject_tag/shaders",
         "items": [
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
+          "control_shaders_with_simple_functions",
           "demo_godot_shaders",
           "godot_3_shaders_introduction",
           "procedural_2d_world_map",
@@ -2394,9 +2403,12 @@
           "save_game_godot4",
           "split_screen_coop",
           "modular_game_architecture",
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
+          "control_shaders_with_simple_functions",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -2461,6 +2473,7 @@
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
+          "type_generic",
           "api",
           "architecture",
           "array",
@@ -2639,7 +2652,6 @@
           "scope",
           "viewport",
           "paradigm_declarative",
-          "type_generic",
           "language_identifier",
           "shader",
           "texel",
@@ -2922,9 +2934,12 @@
           "save_game_godot4",
           "split_screen_coop",
           "modular_game_architecture",
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
+          "control_shaders_with_simple_functions",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -3008,6 +3023,7 @@
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
+          "type_generic",
           "api",
           "architecture",
           "array",
@@ -3186,7 +3202,6 @@
           "scope",
           "viewport",
           "paradigm_declarative",
-          "type_generic",
           "language_identifier",
           "shader",
           "texel",
@@ -3283,6 +3298,7 @@
           "volume_slider",
           "pattern_mediator",
           "signals_good_practices",
+          "type_generic",
           "api",
           "architecture",
           "array",
@@ -3461,7 +3477,6 @@
           "scope",
           "viewport",
           "paradigm_declarative",
-          "type_generic",
           "language_identifier",
           "shader",
           "texel",
@@ -3560,7 +3575,10 @@
           "ranged_attacks",
           "save_game_godot4",
           "split_screen_coop",
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
           "raycast_introduction",
+          "control_shaders_with_simple_functions",
           "demo_godot_shaders",
           "game_art_series_archived",
           "demo_godot_4_new_features",
@@ -3636,9 +3654,12 @@
           "save_game_godot4",
           "split_screen_coop",
           "modular_game_architecture",
+          "uvs",
+          "compose_interesting_vfx_by_combining_shader_functions",
           "raycast_introduction",
           "godot_4_6_workflow_changes",
           "null_instance_error",
+          "control_shaders_with_simple_functions",
           "beginner_3d_maze_godot",
           "color_tutorials",
           "game_design_series_archived",
@@ -3717,6 +3738,7 @@
           "signals_good_practices",
           "silhouette_2d",
           "shader_gradient_map",
+          "type_generic",
           "api",
           "architecture",
           "array",
@@ -3895,7 +3917,6 @@
           "scope",
           "viewport",
           "paradigm_declarative",
-          "type_generic",
           "language_identifier",
           "shader",
           "texel",
@@ -9487,6 +9508,419 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "uvs": {
+      "slug": "uvs",
+      "title": "Understanding UVs in Godot Shaders",
+      "label": "Understanding UVs in Godot Shaders",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "shaders",
+          "name": "shaders"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d_3d",
+        "name": "2d_3d"
+      },
+      "url": "uvs",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Learn what UV coordinates are in Godot shaders, how to visualize pixel coordinates, what texture sampling is, and how to animate textures using UVs.",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Understanding UVs in Godot Shaders",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2026,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-06-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          6,
+          2026
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-06-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          6,
+          2026
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "understanding-uvs-in-godot-shaders",
+          "text": "Understanding UVs in Godot Shaders",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "what-are-uvs",
+              "text": "What are UVs?",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "visualizing-the-uv",
+                  "text": "Visualizing the UV",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "texture-sampling",
+              "text": "Texture Sampling",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "movement",
+              "text": "Movement",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "repeat-modes",
+                  "text": "Repeat Modes",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "movement-animation",
+                  "text": "Movement Animation",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "compose_interesting_vfx_by_combining_shader_functions": {
+      "slug": "compose_interesting_vfx_by_combining_shader_functions",
+      "title": "Compose interesting VFX by combining shader functions",
+      "label": "Compose interesting VFX by combining shader functions",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "shaders",
+          "name": "shaders"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d_3d",
+        "name": "2d_3d"
+      },
+      "url": "compose_interesting_vfx_by_combining_shader_functions",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Some description",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Compose interesting VFX by combining shader functions",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2026,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-06-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          6,
+          2026
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-06-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          6,
+          2026
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "compose-interesting-vfx-by-combining-shader-functi",
+          "text": "Compose interesting VFX by combining shader functions",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "shaping-effects-with-math",
+              "text": "Shaping effects with Math",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "visualizing-functions-inside-a-shader",
+                  "text": "Visualizing functions inside a shader",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "visualizing-functions-in-an-external-program",
+                  "text": "Visualizing functions in an external program",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "making-a-water-shader",
+                  "text": "Making a water shader",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "function-addition",
+              "text": "Function Addition",
+              "depth": 2,
+              "hasChildren": false,
+              "children": []
+            },
+            {
+              "id": "function-multiplication",
+              "text": "Function Multiplication",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "making-a-wind-blown-flag",
+                  "text": "Making a wind blown flag",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "function-composition",
+              "text": "Function Composition",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "making-ripples-with-composition",
+                  "text": "Making ripples with composition",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "creating-retro-pixelated-rings",
+                  "text": "Creating Retro, Pixelated Rings",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "raycast_introduction": {
       "slug": "raycast_introduction",
       "title": "Understanding raycasts in Godot",
@@ -10209,6 +10643,227 @@
           "skipSideMenu": false,
           "hasChildren": false,
           "children": []
+        }
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
+    "control_shaders_with_simple_functions": {
+      "slug": "control_shaders_with_simple_functions",
+      "title": "Control shaders with simple functions",
+      "label": "Control shaders with simple functions",
+      "subject_tags": [
+        {
+          "category": "subject_tag",
+          "slug": "shaders",
+          "name": "shaders"
+        }
+      ],
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "study_guide",
+        "name": "study_guide"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "2d_3d",
+        "name": "2d_3d"
+      },
+      "url": "control_shaders_with_simple_functions",
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "godot_4",
+        "name": "godot_4"
+      },
+      "search": [],
+      "draft": false,
+      "description": "Some description",
+      "articleSectionNames": [
+        {
+          "name": "",
+          "title": "Control shaders with simple functions",
+          "type": "main",
+          "skipFeatures": false,
+          "skipSideMenu": false
+        }
+      ],
+      "links": {},
+      "sources": [],
+      "lessons": [],
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "downloads": [],
+      "date_created": {
+        "year": 2026,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-06-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          6,
+          2026
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "June",
+        "monthShort": "Jun",
+        "monthNumber": 6,
+        "dayOfMonth": 14,
+        "dayName": "Sunday",
+        "dayShort": "Sun",
+        "dayOrdinal": "th",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0,
+        "date": "2026-06-14T00:00:00.000Z",
+        "dateDMY": [
+          14,
+          6,
+          2026
+        ],
+        "dateMDY": [
+          6,
+          14,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "14",
+          "06",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "06",
+          "14",
+          "2026"
+        ]
+      },
+      "discord_invite": "https://discord.gg/87NNb3Z",
+      "toc": [
+        {
+          "id": "control-shaders-with-simple-functions",
+          "text": "Control shaders with simple functions",
+          "depth": 1,
+          "icon": "app",
+          "skipSideMenu": false,
+          "hasChildren": true,
+          "children": [
+            {
+              "id": "your-first-function",
+              "text": "Your first function",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "function-usage-in-godot-shaders",
+                  "text": "Function usage in Godot shaders",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "making-water",
+                  "text": "Making Water",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "function-transformations",
+              "text": "Function transformations",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "translation",
+                  "text": "Translation",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "scaling",
+                  "text": "Scaling",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "functions-are-everywhere",
+              "text": "Functions are everywhere",
+              "depth": 2,
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": "control-transparency-with-functions",
+                  "text": "Control transparency with functions",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "control-position-with-functions",
+                  "text": "Control position with functions",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                },
+                {
+                  "id": "bend-textures-with-functions",
+                  "text": "Bend textures with functions",
+                  "depth": 3,
+                  "hasChildren": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "archived": false,
@@ -29144,6 +29799,179 @@
       "is_youtube_short": false,
       "exclude_from_search": false
     },
+    "type_generic": {
+      "slug": "type_generic",
+      "toc": [
+        {
+          "id": "why-do-i-need-it",
+          "text": "Why do I need it?",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "limitations",
+          "text": "Limitations",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "your-own-classes",
+          "text": "Your own classes",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        },
+        {
+          "id": "other-languages-have-more-generic-types",
+          "text": "Other languages have more generic types?",
+          "depth": 2,
+          "hasChildren": false,
+          "children": []
+        }
+      ],
+      "subject_tags": [],
+      "description": "",
+      "lessons": [],
+      "sources": [
+        {
+          "label": "function_override",
+          "url": "function_override",
+          "category": "source"
+        },
+        {
+          "label": "array",
+          "url": "array",
+          "category": "source"
+        },
+        {
+          "label": "type",
+          "url": "type",
+          "category": "source"
+        },
+        {
+          "label": "bound_check",
+          "url": "bound_check",
+          "category": "source"
+        }
+      ],
+      "draft": false,
+      "title": "Generics",
+      "url": "glossary/type_generic",
+      "label": "Learn about Generics",
+      "entry_type": {
+        "category": "entry_type",
+        "slug": "learning_resource",
+        "name": "learning_resource"
+      },
+      "format": {
+        "category": "format",
+        "slug": "glossary",
+        "name": "glossary"
+      },
+      "tool_version": {
+        "category": "tool_version",
+        "slug": "general",
+        "name": "general"
+      },
+      "game_genre": [
+        {
+          "category": "game_genre",
+          "slug": "any",
+          "name": "any"
+        }
+      ],
+      "game_space": {
+        "category": "game_space",
+        "slug": "any",
+        "name": "any"
+      },
+      "license": {
+        "code": {
+          "category": "license",
+          "slug": "mit",
+          "name": "mit"
+        }
+      },
+      "search": [],
+      "links": {},
+      "date_created": {
+        "year": 2026,
+        "month": "July",
+        "monthShort": "Jul",
+        "monthNumber": 7,
+        "dayOfMonth": 25,
+        "dayName": "Saturday",
+        "dayShort": "Sat",
+        "dayOrdinal": "th",
+        "hours": 15,
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.889Z",
+        "dateDMY": [
+          25,
+          7,
+          2026
+        ],
+        "dateMDY": [
+          7,
+          25,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "25",
+          "07",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "07",
+          "25",
+          "2026"
+        ]
+      },
+      "date_modified": {
+        "year": 2026,
+        "month": "May",
+        "monthShort": "May",
+        "monthNumber": 5,
+        "dayOfMonth": 27,
+        "dayName": "Wednesday",
+        "dayShort": "Wed",
+        "dayOrdinal": "th",
+        "hours": 17,
+        "minutes": 35,
+        "seconds": 13,
+        "date": "2026-05-27T15:35:13.100Z",
+        "dateDMY": [
+          27,
+          5,
+          2026
+        ],
+        "dateMDY": [
+          5,
+          27,
+          2026
+        ],
+        "dateDDMMYYYY": [
+          "27",
+          "05",
+          "2026"
+        ],
+        "dateMMDDYYYY": [
+          "05",
+          "27",
+          "2026"
+        ]
+      },
+      "archived": false,
+      "downloads": [],
+      "discord_invite": "",
+      "articleSectionNames": [],
+      "isGlossaryEntry": true,
+      "is_youtube_short": false,
+      "exclude_from_search": false
+    },
     "api": {
       "slug": "api",
       "toc": [
@@ -29225,9 +30053,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.899Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.890Z",
         "dateDMY": [
           25,
           7,
@@ -29410,9 +30238,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.900Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.890Z",
         "dateDMY": [
           25,
           7,
@@ -29564,9 +30392,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.900Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.891Z",
         "dateDMY": [
           25,
           7,
@@ -29699,9 +30527,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.901Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.891Z",
         "dateDMY": [
           25,
           7,
@@ -29822,9 +30650,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.901Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.891Z",
         "dateDMY": [
           25,
           7,
@@ -29961,9 +30789,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.901Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.892Z",
         "dateDMY": [
           25,
           7,
@@ -30151,9 +30979,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.902Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.892Z",
         "dateDMY": [
           25,
           7,
@@ -30277,9 +31105,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.902Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.893Z",
         "dateDMY": [
           25,
           7,
@@ -30487,9 +31315,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.903Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.894Z",
         "dateDMY": [
           25,
           7,
@@ -30619,9 +31447,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.903Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.894Z",
         "dateDMY": [
           25,
           7,
@@ -30756,9 +31584,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.903Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.895Z",
         "dateDMY": [
           25,
           7,
@@ -30890,9 +31718,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.903Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.895Z",
         "dateDMY": [
           25,
           7,
@@ -31027,9 +31855,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.904Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.895Z",
         "dateDMY": [
           25,
           7,
@@ -31161,9 +31989,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.904Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.896Z",
         "dateDMY": [
           25,
           7,
@@ -31300,9 +32128,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.904Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.896Z",
         "dateDMY": [
           25,
           7,
@@ -31437,9 +32265,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.904Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.896Z",
         "dateDMY": [
           25,
           7,
@@ -31568,9 +32396,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.905Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.896Z",
         "dateDMY": [
           25,
           7,
@@ -31718,9 +32546,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.905Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.897Z",
         "dateDMY": [
           25,
           7,
@@ -31867,9 +32695,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.906Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.898Z",
         "dateDMY": [
           25,
           7,
@@ -31996,9 +32824,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.906Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.898Z",
         "dateDMY": [
           25,
           7,
@@ -32147,9 +32975,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.906Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.899Z",
         "dateDMY": [
           25,
           7,
@@ -32285,9 +33113,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.907Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.899Z",
         "dateDMY": [
           25,
           7,
@@ -32408,9 +33236,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.907Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.899Z",
         "dateDMY": [
           25,
           7,
@@ -32539,9 +33367,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.907Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.899Z",
         "dateDMY": [
           25,
           7,
@@ -32665,9 +33493,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.907Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.900Z",
         "dateDMY": [
           25,
           7,
@@ -32799,9 +33627,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.907Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.900Z",
         "dateDMY": [
           25,
           7,
@@ -32938,9 +33766,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.908Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.900Z",
         "dateDMY": [
           25,
           7,
@@ -33087,9 +33915,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.908Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.900Z",
         "dateDMY": [
           25,
           7,
@@ -33250,9 +34078,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.908Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.900Z",
         "dateDMY": [
           25,
           7,
@@ -33379,9 +34207,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.908Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.901Z",
         "dateDMY": [
           25,
           7,
@@ -33505,9 +34333,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.908Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.901Z",
         "dateDMY": [
           25,
           7,
@@ -33632,9 +34460,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.909Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.901Z",
         "dateDMY": [
           25,
           7,
@@ -33757,9 +34585,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.909Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.901Z",
         "dateDMY": [
           25,
           7,
@@ -33919,9 +34747,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.909Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.902Z",
         "dateDMY": [
           25,
           7,
@@ -34061,9 +34889,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.909Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.902Z",
         "dateDMY": [
           25,
           7,
@@ -34188,9 +35016,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.909Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.902Z",
         "dateDMY": [
           25,
           7,
@@ -34351,9 +35179,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.910Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.903Z",
         "dateDMY": [
           25,
           7,
@@ -34474,9 +35302,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.910Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.904Z",
         "dateDMY": [
           25,
           7,
@@ -34603,9 +35431,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.910Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.904Z",
         "dateDMY": [
           25,
           7,
@@ -34737,9 +35565,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.911Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.904Z",
         "dateDMY": [
           25,
           7,
@@ -34938,9 +35766,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.911Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.904Z",
         "dateDMY": [
           25,
           7,
@@ -35085,9 +35913,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.911Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.905Z",
         "dateDMY": [
           25,
           7,
@@ -35231,9 +36059,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.912Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.905Z",
         "dateDMY": [
           25,
           7,
@@ -35368,9 +36196,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.912Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.905Z",
         "dateDMY": [
           25,
           7,
@@ -35512,9 +36340,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.912Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.905Z",
         "dateDMY": [
           25,
           7,
@@ -35651,9 +36479,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.912Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.906Z",
         "dateDMY": [
           25,
           7,
@@ -35778,9 +36606,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.912Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.906Z",
         "dateDMY": [
           25,
           7,
@@ -35906,9 +36734,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.912Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.906Z",
         "dateDMY": [
           25,
           7,
@@ -36050,9 +36878,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.913Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.906Z",
         "dateDMY": [
           25,
           7,
@@ -36187,9 +37015,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.913Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.906Z",
         "dateDMY": [
           25,
           7,
@@ -36330,9 +37158,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.913Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.906Z",
         "dateDMY": [
           25,
           7,
@@ -36484,9 +37312,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.913Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.907Z",
         "dateDMY": [
           25,
           7,
@@ -36607,9 +37435,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.913Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.907Z",
         "dateDMY": [
           25,
           7,
@@ -36733,9 +37561,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.913Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.907Z",
         "dateDMY": [
           25,
           7,
@@ -36903,9 +37731,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.914Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.907Z",
         "dateDMY": [
           25,
           7,
@@ -37029,9 +37857,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.914Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.908Z",
         "dateDMY": [
           25,
           7,
@@ -37168,9 +37996,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.914Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.908Z",
         "dateDMY": [
           25,
           7,
@@ -37336,9 +38164,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.915Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.908Z",
         "dateDMY": [
           25,
           7,
@@ -37465,9 +38293,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.915Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.909Z",
         "dateDMY": [
           25,
           7,
@@ -37602,9 +38430,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.916Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.909Z",
         "dateDMY": [
           25,
           7,
@@ -37810,9 +38638,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.916Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.910Z",
         "dateDMY": [
           25,
           7,
@@ -37980,9 +38808,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.917Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.910Z",
         "dateDMY": [
           25,
           7,
@@ -38137,9 +38965,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.917Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.910Z",
         "dateDMY": [
           25,
           7,
@@ -38299,9 +39127,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.917Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.910Z",
         "dateDMY": [
           25,
           7,
@@ -38450,9 +39278,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.918Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.911Z",
         "dateDMY": [
           25,
           7,
@@ -38614,9 +39442,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.918Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.911Z",
         "dateDMY": [
           25,
           7,
@@ -38758,9 +39586,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.918Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.911Z",
         "dateDMY": [
           25,
           7,
@@ -38892,9 +39720,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.918Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.911Z",
         "dateDMY": [
           25,
           7,
@@ -39029,9 +39857,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.919Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.912Z",
         "dateDMY": [
           25,
           7,
@@ -39180,9 +40008,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.919Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.912Z",
         "dateDMY": [
           25,
           7,
@@ -39314,9 +40142,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.919Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.912Z",
         "dateDMY": [
           25,
           7,
@@ -39461,9 +40289,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.919Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.912Z",
         "dateDMY": [
           25,
           7,
@@ -39605,9 +40433,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.920Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.913Z",
         "dateDMY": [
           25,
           7,
@@ -39737,9 +40565,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.920Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.913Z",
         "dateDMY": [
           25,
           7,
@@ -39866,9 +40694,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.920Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.913Z",
         "dateDMY": [
           25,
           7,
@@ -40015,9 +40843,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.921Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.913Z",
         "dateDMY": [
           25,
           7,
@@ -40171,9 +40999,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.921Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.914Z",
         "dateDMY": [
           25,
           7,
@@ -40344,9 +41172,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.922Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.914Z",
         "dateDMY": [
           25,
           7,
@@ -40486,9 +41314,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.922Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.914Z",
         "dateDMY": [
           25,
           7,
@@ -40609,9 +41437,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.922Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.914Z",
         "dateDMY": [
           25,
           7,
@@ -40734,9 +41562,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.922Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.914Z",
         "dateDMY": [
           25,
           7,
@@ -40859,9 +41687,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.923Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.915Z",
         "dateDMY": [
           25,
           7,
@@ -41006,9 +41834,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.924Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.915Z",
         "dateDMY": [
           25,
           7,
@@ -41137,9 +41965,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.924Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.915Z",
         "dateDMY": [
           25,
           7,
@@ -41271,9 +42099,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.924Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.918Z",
         "dateDMY": [
           25,
           7,
@@ -41456,9 +42284,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.925Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.919Z",
         "dateDMY": [
           25,
           7,
@@ -41585,9 +42413,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.925Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.919Z",
         "dateDMY": [
           25,
           7,
@@ -41724,9 +42552,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.925Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.919Z",
         "dateDMY": [
           25,
           7,
@@ -41849,9 +42677,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.925Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.919Z",
         "dateDMY": [
           25,
           7,
@@ -41972,9 +42800,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.925Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.919Z",
         "dateDMY": [
           25,
           7,
@@ -42120,9 +42948,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.926Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.920Z",
         "dateDMY": [
           25,
           7,
@@ -42259,9 +43087,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.926Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.920Z",
         "dateDMY": [
           25,
           7,
@@ -42385,9 +43213,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.926Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.920Z",
         "dateDMY": [
           25,
           7,
@@ -42527,9 +43355,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.927Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.921Z",
         "dateDMY": [
           25,
           7,
@@ -42662,9 +43490,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.928Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.921Z",
         "dateDMY": [
           25,
           7,
@@ -42826,9 +43654,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.929Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.922Z",
         "dateDMY": [
           25,
           7,
@@ -42975,9 +43803,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.930Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.923Z",
         "dateDMY": [
           25,
           7,
@@ -43117,9 +43945,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.934Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.923Z",
         "dateDMY": [
           25,
           7,
@@ -43278,9 +44106,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.935Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.923Z",
         "dateDMY": [
           25,
           7,
@@ -43405,9 +44233,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.935Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.924Z",
         "dateDMY": [
           25,
           7,
@@ -43532,9 +44360,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.936Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.924Z",
         "dateDMY": [
           25,
           7,
@@ -43683,9 +44511,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.936Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.924Z",
         "dateDMY": [
           25,
           7,
@@ -43812,9 +44640,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.937Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.924Z",
         "dateDMY": [
           25,
           7,
@@ -43942,9 +44770,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.937Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.925Z",
         "dateDMY": [
           25,
           7,
@@ -44090,9 +44918,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.938Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.925Z",
         "dateDMY": [
           25,
           7,
@@ -44216,9 +45044,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.938Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.925Z",
         "dateDMY": [
           25,
           7,
@@ -44356,9 +45184,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.939Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.925Z",
         "dateDMY": [
           25,
           7,
@@ -44485,9 +45313,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.939Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.926Z",
         "dateDMY": [
           25,
           7,
@@ -44657,9 +45485,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.941Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.926Z",
         "dateDMY": [
           25,
           7,
@@ -44799,9 +45627,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.941Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.927Z",
         "dateDMY": [
           25,
           7,
@@ -44951,9 +45779,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.942Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.927Z",
         "dateDMY": [
           25,
           7,
@@ -45074,9 +45902,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.942Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.927Z",
         "dateDMY": [
           25,
           7,
@@ -45217,9 +46045,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.942Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.927Z",
         "dateDMY": [
           25,
           7,
@@ -45343,9 +46171,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.943Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.927Z",
         "dateDMY": [
           25,
           7,
@@ -45485,9 +46313,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.943Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.928Z",
         "dateDMY": [
           25,
           7,
@@ -45618,9 +46446,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.944Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.928Z",
         "dateDMY": [
           25,
           7,
@@ -45762,9 +46590,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.944Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.928Z",
         "dateDMY": [
           25,
           7,
@@ -45885,9 +46713,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.944Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.928Z",
         "dateDMY": [
           25,
           7,
@@ -46019,9 +46847,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.945Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.929Z",
         "dateDMY": [
           25,
           7,
@@ -46148,9 +46976,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.945Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.929Z",
         "dateDMY": [
           25,
           7,
@@ -46279,9 +47107,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.946Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.929Z",
         "dateDMY": [
           25,
           7,
@@ -46413,9 +47241,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.946Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.929Z",
         "dateDMY": [
           25,
           7,
@@ -46564,9 +47392,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.947Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.930Z",
         "dateDMY": [
           25,
           7,
@@ -46696,9 +47524,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.948Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.930Z",
         "dateDMY": [
           25,
           7,
@@ -46836,9 +47664,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.949Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.931Z",
         "dateDMY": [
           25,
           7,
@@ -46979,9 +47807,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.950Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.931Z",
         "dateDMY": [
           25,
           7,
@@ -47106,9 +47934,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.951Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.931Z",
         "dateDMY": [
           25,
           7,
@@ -47249,9 +48077,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.951Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.932Z",
         "dateDMY": [
           25,
           7,
@@ -47398,9 +48226,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.952Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.932Z",
         "dateDMY": [
           25,
           7,
@@ -47532,9 +48360,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.952Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.932Z",
         "dateDMY": [
           25,
           7,
@@ -47660,9 +48488,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.952Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.933Z",
         "dateDMY": [
           25,
           7,
@@ -47800,9 +48628,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.953Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.933Z",
         "dateDMY": [
           25,
           7,
@@ -47936,9 +48764,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.954Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.933Z",
         "dateDMY": [
           25,
           7,
@@ -48065,9 +48893,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.954Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.934Z",
         "dateDMY": [
           25,
           7,
@@ -48202,9 +49030,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.954Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.934Z",
         "dateDMY": [
           25,
           7,
@@ -48340,9 +49168,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.955Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.934Z",
         "dateDMY": [
           25,
           7,
@@ -48478,9 +49306,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.955Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.934Z",
         "dateDMY": [
           25,
           7,
@@ -48622,9 +49450,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.956Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.935Z",
         "dateDMY": [
           25,
           7,
@@ -48770,9 +49598,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.956Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.935Z",
         "dateDMY": [
           25,
           7,
@@ -48901,9 +49729,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.956Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.935Z",
         "dateDMY": [
           25,
           7,
@@ -49042,9 +49870,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.957Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.936Z",
         "dateDMY": [
           25,
           7,
@@ -49207,9 +50035,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.958Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.937Z",
         "dateDMY": [
           25,
           7,
@@ -49356,9 +50184,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.958Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.937Z",
         "dateDMY": [
           25,
           7,
@@ -49489,9 +50317,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.959Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.937Z",
         "dateDMY": [
           25,
           7,
@@ -49614,9 +50442,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.959Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.938Z",
         "dateDMY": [
           25,
           7,
@@ -49761,9 +50589,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.959Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.938Z",
         "dateDMY": [
           25,
           7,
@@ -49912,9 +50740,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.960Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.938Z",
         "dateDMY": [
           25,
           7,
@@ -50066,9 +50894,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.960Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.939Z",
         "dateDMY": [
           25,
           7,
@@ -50232,9 +51060,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.962Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.940Z",
         "dateDMY": [
           25,
           7,
@@ -50408,9 +51236,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.962Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.940Z",
         "dateDMY": [
           25,
           7,
@@ -50549,9 +51377,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.963Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.940Z",
         "dateDMY": [
           25,
           7,
@@ -50678,9 +51506,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.963Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.940Z",
         "dateDMY": [
           25,
           7,
@@ -50813,9 +51641,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.963Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.941Z",
         "dateDMY": [
           25,
           7,
@@ -50936,9 +51764,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.964Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.941Z",
         "dateDMY": [
           25,
           7,
@@ -51080,9 +51908,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.964Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.941Z",
         "dateDMY": [
           25,
           7,
@@ -51206,9 +52034,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.964Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.941Z",
         "dateDMY": [
           25,
           7,
@@ -51373,9 +52201,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.965Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.941Z",
         "dateDMY": [
           25,
           7,
@@ -51510,9 +52338,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.965Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.942Z",
         "dateDMY": [
           25,
           7,
@@ -51671,9 +52499,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.966Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.942Z",
         "dateDMY": [
           25,
           7,
@@ -51825,9 +52653,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.966Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.942Z",
         "dateDMY": [
           25,
           7,
@@ -51952,9 +52780,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.966Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.942Z",
         "dateDMY": [
           25,
           7,
@@ -52075,9 +52903,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.967Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.943Z",
         "dateDMY": [
           25,
           7,
@@ -52232,9 +53060,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.967Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.943Z",
         "dateDMY": [
           25,
           7,
@@ -52419,9 +53247,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.968Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.944Z",
         "dateDMY": [
           25,
           7,
@@ -52546,9 +53374,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.969Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.944Z",
         "dateDMY": [
           25,
           7,
@@ -52688,9 +53516,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.969Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.944Z",
         "dateDMY": [
           25,
           7,
@@ -52821,9 +53649,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.970Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.945Z",
         "dateDMY": [
           25,
           7,
@@ -52967,9 +53795,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.970Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.945Z",
         "dateDMY": [
           25,
           7,
@@ -53115,9 +53943,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.970Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.945Z",
         "dateDMY": [
           25,
           7,
@@ -53275,9 +54103,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.971Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.946Z",
         "dateDMY": [
           25,
           7,
@@ -53408,9 +54236,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.971Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.946Z",
         "dateDMY": [
           25,
           7,
@@ -53553,9 +54381,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.971Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.947Z",
         "dateDMY": [
           25,
           7,
@@ -53698,9 +54526,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.972Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.947Z",
         "dateDMY": [
           25,
           7,
@@ -53843,9 +54671,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.972Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.947Z",
         "dateDMY": [
           25,
           7,
@@ -53981,9 +54809,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.972Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.948Z",
         "dateDMY": [
           25,
           7,
@@ -54135,9 +54963,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.973Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.948Z",
         "dateDMY": [
           25,
           7,
@@ -54260,9 +55088,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.973Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.948Z",
         "dateDMY": [
           25,
           7,
@@ -54413,182 +55241,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.973Z",
-        "dateDMY": [
-          25,
-          7,
-          2026
-        ],
-        "dateMDY": [
-          7,
-          25,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "25",
-          "07",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "07",
-          "25",
-          "2026"
-        ]
-      },
-      "date_modified": {
-        "year": 2026,
-        "month": "May",
-        "monthShort": "May",
-        "monthNumber": 5,
-        "dayOfMonth": 27,
-        "dayName": "Wednesday",
-        "dayShort": "Wed",
-        "dayOrdinal": "th",
-        "hours": 17,
-        "minutes": 35,
+        "minutes": 27,
         "seconds": 13,
-        "date": "2026-05-27T15:35:13.100Z",
-        "dateDMY": [
-          27,
-          5,
-          2026
-        ],
-        "dateMDY": [
-          5,
-          27,
-          2026
-        ],
-        "dateDDMMYYYY": [
-          "27",
-          "05",
-          "2026"
-        ],
-        "dateMMDDYYYY": [
-          "05",
-          "27",
-          "2026"
-        ]
-      },
-      "archived": false,
-      "downloads": [],
-      "discord_invite": "",
-      "articleSectionNames": [],
-      "isGlossaryEntry": true,
-      "is_youtube_short": false,
-      "exclude_from_search": false
-    },
-    "type_generic": {
-      "slug": "type_generic",
-      "toc": [
-        {
-          "id": "why-do-i-need-it",
-          "text": "Why do I need it?",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "limitations",
-          "text": "Limitations",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "your-own-classes",
-          "text": "Your own classes",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        },
-        {
-          "id": "other-languages-have-more-generic-types",
-          "text": "Other languages have more generic types?",
-          "depth": 2,
-          "hasChildren": false,
-          "children": []
-        }
-      ],
-      "subject_tags": [],
-      "description": "",
-      "lessons": [],
-      "sources": [
-        {
-          "label": "function_override",
-          "url": "function_override",
-          "category": "source"
-        },
-        {
-          "label": "array",
-          "url": "array",
-          "category": "source"
-        },
-        {
-          "label": "type",
-          "url": "type",
-          "category": "source"
-        },
-        {
-          "label": "bound_check",
-          "url": "bound_check",
-          "category": "source"
-        }
-      ],
-      "draft": false,
-      "title": "Generics",
-      "url": "glossary/type_generic",
-      "label": "Learn about Generics",
-      "entry_type": {
-        "category": "entry_type",
-        "slug": "learning_resource",
-        "name": "learning_resource"
-      },
-      "format": {
-        "category": "format",
-        "slug": "glossary",
-        "name": "glossary"
-      },
-      "tool_version": {
-        "category": "tool_version",
-        "slug": "general",
-        "name": "general"
-      },
-      "game_genre": [
-        {
-          "category": "game_genre",
-          "slug": "any",
-          "name": "any"
-        }
-      ],
-      "game_space": {
-        "category": "game_space",
-        "slug": "any",
-        "name": "any"
-      },
-      "license": {
-        "code": {
-          "category": "license",
-          "slug": "mit",
-          "name": "mit"
-        }
-      },
-      "search": [],
-      "links": {},
-      "date_created": {
-        "year": 2026,
-        "month": "July",
-        "monthShort": "Jul",
-        "monthNumber": 7,
-        "dayOfMonth": 25,
-        "dayName": "Saturday",
-        "dayShort": "Sat",
-        "dayOrdinal": "th",
-        "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.974Z",
+        "date": "2026-07-25T13:27:13.949Z",
         "dateDMY": [
           25,
           7,
@@ -54730,9 +55385,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.974Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.949Z",
         "dateDMY": [
           25,
           7,
@@ -54876,9 +55531,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.974Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.949Z",
         "dateDMY": [
           25,
           7,
@@ -55017,9 +55672,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.975Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.950Z",
         "dateDMY": [
           25,
           7,
@@ -55179,9 +55834,9 @@
         "dayShort": "Sat",
         "dayOrdinal": "th",
         "hours": 15,
-        "minutes": 19,
-        "seconds": 52,
-        "date": "2026-07-25T13:19:52.975Z",
+        "minutes": 27,
+        "seconds": 13,
+        "date": "2026-07-25T13:27:13.950Z",
         "dateDMY": [
           25,
           7,

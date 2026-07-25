@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "slug": "type_generic",
+      "terms": [
+        "generics",
+        ""
+      ]
+    },
+    {
       "slug": "api",
       "terms": [
         "api (application programming interface)",
@@ -1531,13 +1538,6 @@
       ]
     },
     {
-      "slug": "type_generic",
-      "terms": [
-        "generics",
-        ""
-      ]
-    },
-    {
       "slug": "language_identifier",
       "terms": [
         "identifier",
@@ -1577,6 +1577,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-07-25T13:19:54.292Z"
+    "generatedAt": "2026-07-25T13:27:15.251Z"
   }
 }
