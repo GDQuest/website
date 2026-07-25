@@ -1,0 +1,1055 @@
+<!doctype html><html lang="en" data-show-theme-switcher="true"><head><title>Control shaders with simple functions | GDQuest Library</title><meta charset="UTF-8"/><link rel="stylesheet" href="/library/style.css"/><script defer data-domain="gdquest.com" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script><script >window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script><script src="/library/head.js" type="module"></script><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Control shaders with simple functions | GDQuest Library"/><meta name="twitter:title" content="Control shaders with simple functions | GDQuest Library"/><meta name="description" content="Some description"/><meta name="twitter:description" content="Some description"/><meta property="og:description" content="Some description"/><meta property="og:type" content="website"/></head><body ><header class="mainNavContainer"><nav class="mainNavWrapper"><a href="/" class="mainNavLogo gdquestLogo"><span>GDQuest</span></a><button class="mainNavButtonToggle showWhenJSLoads" hidden="hidden" data-is="toggler-button" data-body-class="mainNavOpen" data-start-expanded="false" aria-expanded="true" aria-controls="main-nav-items" aria-hidden="true"><span class="mainNavButtonToggleBurger"><span></span><span></span></span><span class="mainNavButtonToggleLabel">menu</span></button><div id="main-nav-items" class="mainNavItemsListWrapper"><div class="mainNavItemsList"><a class="mainNavItem" href="/tutorial">Tutorials</a><a class="mainNavItem" href="/tools">tools</a><a class="mainNavItem" href="/product">Products</a><a class="mainNavItem" href="/about">About</a><a class="mainNavItem is-new" href="https://school.gdquest.com">Godot 4 courses</a><div class="mainNavSecondaryItems"><a class="mainNavSecondaryItemsButton loginButton withThemeSwitcher" href="https://school.gdquest.com/auth/login"><span>login</span></a><button title="Press to toggle to dark mode" class="themeToggle mainNavSecondaryItemsButton themeToggleButton" data-is="theme-toggle"><span class="themeToggleLabel">Toggle Theme</span><span class="themeToggleIcons"><span class="themeToggleIconsIcon themeToggleIconsIconDark"><span>🌙</span></span><span class="themeToggleIconsIcon themeToggleIconsIconLight"><span>☀️</span></span></span></button></div></div></div></nav></header><div class="itemSummaryBrowserHero"><section class="itemSummaryBrowser"><div class="itemSummaryBrowserDisplay"><div class="itemSummaryBrowserDisplayLoading"></div><div class="itemSummaryCardWrapper"><article class="itemSummaryCard"><span class="itemSummaryCardBackground" aria-hidden="true"></span><h4 class="itemSummaryCardTitle"><a href="">Control shaders with simple functions</a></h4><h3 class="itemSummaryCardDate">2026/06/14</h3><div class="coverNoImage itemSummaryCardNoCover" aria-hidden="true"><span class="coverNoImageMainTitle">Control shaders with simple functions</span><span class="coverNoImageSubTitle">Study Guide</span></div><dl class="itemSummaryCardAttributes"><div><dt>Type</dt><dd>Learning Resource</dd></div><div><dt>Format</dt><dd>Study Guide</dd></div><div><dt>Version</dt><dd>Godot 4.x</dd></div><div><dt>Subject Tags</dt><dd class="itemSummaryCardAttributesTags"><ul><li><a href="/library/taxonomy/subject_tag/shaders">Shader</a></li><li><a href="/library/taxonomy/game_genre/any">Any Genre</a></li></ul></dd></div></dl><ul class="itemSummaryCardFeatures" role="list"></ul><dl class="itemSummaryCardLicenses"><div><dt class="itemSummaryCardLicensesCodeLabel license-mit">Code</dt><dd><a href="/library/taxonomy/license/mit" title="MIT" class="itemSummaryCardLicensesCodeLink">MIT</a></dd></div><div><dt class="itemSummaryCardLicensesAssetsLabel">Game Assets</dt><dd>2016-2026, GDQuest© - All rights reserved</dd></div><div><dt class="itemSummaryCardLicensesAllElseLabel">All else</dt><dd>2016-2026, GDQuest© - All rights reserved</dd></div></dl><dl class="itemSummaryCardDates"><dt>Created</dt><dl>2026/06/14</dl><dt>Updated</dt><dl>2026/06/14</dl></dl><button class="clapsButton plausible-event-clap=true" title="Clap" aria-pressed="false" aria-live="polite"><span class="clapsButtonLabel"><span class="clapsButtonLabelTitle">Clap</span></span><span class="clapsButtonBubble">+1</span><span class="clapsButtonAmount"><span class="clapsButtonAmountAbbreviated" aria-hidden="true" hidden="hidden">0</span><span class="clapsButtonAmountTotal" aria-live="polite">0</span></span></button></article></div></div></section></div><section class="contentPageGrid"><div class="tableOfContentsWrapper" id="tableOfContentsWrapper"><button class="tableOfContentsToggleButton showWhenJSLoads" aria-controls="tableOfContentsPane" data-is="toggler-button" aria-expanded="true" hidden="hidden"><span>Toggle Table of Contents</span></button><div class="tableOfContentsContainer" id="tableOfContentsContainer"><nav class="tableOfContentsPane" id="tableOfContentsPane"><ul data-is="article-toc" class="tableOfContentsMainList" role="list"><li class="tableOfContentsItemLevel1 tableOfContentsListItem hasSubheadings"><a href="#control-shaders-with-simple-functions" class="tableOfContentsAnchor tableOfContentsAnchorLinkToH1"><span class="tableOfContentsAnchorTitle hasIconBefore icon-app">Control shaders with simple functions</span></a><button aria-controls="hsub-control-shaders-with-simple-functions" data-is="toggler-button" data-start-expanded="false" aria-expanded="true" class="tableOfContentsFoldUnfoldButton showWhenJSLoads" hidden="hidden"><span class="whenNotToggled">unfold subheadings</span><span class="whenToggled">fold subheadings</span></button><div id="hsub-control-shaders-with-simple-functions" class="tableOfContentsSubheadingsContainer"><ul class="tableOfContentsSubheadingsList"><li class="tableOfContentsItemLevel2 tableOfContentsListItem"><a href="#your-first-function" class="tableOfContentsAnchor tableOfContentsAnchorLinkToH2"><span class="tableOfContentsAnchorTitle">Your first function</span></a></li><li class="tableOfContentsItemLevel2 tableOfContentsListItem"><a href="#function-transformations" class="tableOfContentsAnchor tableOfContentsAnchorLinkToH2"><span class="tableOfContentsAnchorTitle">Function transformations</span></a></li><li class="tableOfContentsItemLevel2 tableOfContentsListItem"><a href="#functions-are-everywhere" class="tableOfContentsAnchor tableOfContentsAnchorLinkToH2"><span class="tableOfContentsAnchorTitle">Functions are everywhere</span></a></li></ul></div></li><li class="tableOfContentsItemLevel1 tableOfContentsListItem"><a href="#contributeBlock" class="tableOfContentsAnchor tableOfContentsAnchorLinkToH1"><span class="tableOfContentsAnchorTitle hasIconBefore icon-github">Contribute to the Library</span></a></li></ul></nav></div></div><main class="prose hasBreadcrumbs"><h1 class="SectionTitle hasIconBefore icon-app" id="control-shaders-with-simple-functions" data-skip-side-menu="undefined" data-skip-features="undefined">Control shaders with simple functions</h1><nav aria-label="Breadcrumbs" class="breadcrumbs"><ol><li><a href="/library/">Library</a></li><li><a href="/library/taxonomy/entry_type/learning_resource">Learning Resource</a></li><li><a href="/library/taxonomy/subject_tag/shaders">Shader</a></li></ol></nav><p>Wavy water, wispy ghosts, and even fire bending animations all have something in common: they're built using mathematical functions that generate their shape, color and animations.</p><div class="grid" style="--grid-item-align:end"><figure class="figure"><div class="ShaderPreview" data-shader="shader_type canvas_item;
+
+void fragment() {
+  vec2 uv = vec2(UV.x, 1. - UV.y);
+
+  // 0.7, 0.1 and 0.2 are not random magic numbers.
+  // They result from previous movement and scaling
+  if ((uv.y - 0.7) / 0.1 &gt; sin((uv.x - TIME)/0.2)) {
+    discard;
+  }
+
+  COLOR = vec4(0.1, 0.3, 0.55, 1.0);
+}"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"></div></div><figcaption class="figureFigcaption"><span class="figureFigcaptionText">Wavy Water shader</span></figcaption></figure><figure class="figure"><div class="ShaderPreview" data-shader="void fragment() {
+  float vertical_offset = sin(TIME) * 0.2;
+  vec2 sampling_point = vec2(UV.x, UV.y + vertical_offset);
+
+  COLOR = texture(TEXTURE, sampling_point);
+
+  float pulse = sin(TIME) * 0.5 + 0.5;
+  COLOR.a = COLOR.a * pulse;
+}"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><figcaption class="figureFigcaption"><span class="figureFigcaptionText">Wispy Ghost Shader</span></figcaption></figure><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/ship_rotating_but_nice.avif" alt="Ship rotating with bending thruster fire" /><figcaption class="figureFigcaption"><span class="figureFigcaptionText">Pilot watching their back!</span></figcaption></figure></div><p>In most shaders you'll encounter, these functions and their parameters can feel arbitrary and random. In reality, shader artists don't rely on guesswork to achieve the look they envision. They follow simple techniques to visually control and adjust functions to fit their needs.</p><p>In this guide, you'll discover how to work with shader functions visually and intentionally. You'll be able to control their movement, scale and shape in order to achieve the effects <em>you want</em>.</p><p>You'll learn:</p><ul><li>Function use cases in shaders</li><li>How to visualize functions</li><li>Techniques used for translating and scaling functions</li></ul><h2 id="your-first-function">Your first function</h2><p>A function defines the relationship between two values. One of the simplest functions is the identity function, when the two values are equal: <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+<mi>x</mi>
+</mrow></math></p><p>In Maths class, you may have seen this written as <math class="math" display="inline">
+<mrow>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+<mi>x</mi>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<mi>y</mi>
+</mrow></math>. In other words, when <math class="math" display="inline"><mi>x</mi></math> is equal to 1, <math class="math" display="inline"><mi>y</mi></math> is also 1. When it is equal to 2, <math class="math" display="inline"><mi>y</mi></math> is 2, and so on. When <math class="math" display="inline"><mi>x</mi></math> grows, <math class="math" display="inline"><mi>y</mi></math> grows as well, with the same rate.</p><p>On a 2D graph, we can represent <math class="math" display="inline"><mi>x</mi></math> by a horizontal axis and <math class="math" display="inline"><mi>y</mi></math> by a vertical axis. If we execute the function for each value of <math class="math" display="inline"><mi>x</mi></math>, we obtain a diagonal line.</p><p>There are many tools that allow you to do this. One such tool is Desmos:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/desmos_x_equals_y.jpg" alt="The y = x function in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/mowxjhyjjv" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of y = x</span></a></figcaption></figure><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">What is Desmos?</dt><dd><div><p>The Desmos Graphing Calculator is a free online tool that lets you visualize mathematical functions and equations as graphs.</p><p>You can use it directly in your browser to:</p><ul><li>draw graphs of functions</li><li>move sliders to change parameters in real time</li><li>animate functions over time</li></ul><p>You can try the functions shown in this guide at <a href="https://www.desmos.com/calculator">https://www.desmos.com/calculator</a>. Add a function equation to the left side panel to see its graph. To make it interactive, write the name of a function parameter on a different row to get a slider for that value.</p></div></dd></dl><figure class="quoteBubble olddew-bubble"><blockquote class="quoteBubbleContents"><p>Careful! In Desmos, like in your Maths classes, you're probably used to y going <em>up</em>. <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+<mn>10</mn>
+</mrow></math> is higher than <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+<mn>2</mn>
+</mrow></math>.</p><p>In Godot, the convention is that <math class="math" display="inline"><mi>y</mi></math> goes <em>down</em>. So <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+<mn>10</mn>
+</mrow></math> is <em>lower</em> than <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+<mn>2</mn>
+</mrow></math>.</p><p>Just something to keep in mind when using Desmos or Godot.</p></blockquote><figcaption class="quoteBubbleAuthor"><h4 class="quoteBubbleAuthorName">OldDew</h4><h5 class="quoteBubbleAuthorTitle">Teacher at GDQuest</h5></figcaption></figure><h3 id="function-usage-in-godot-shaders">Function usage in Godot shaders</h3><p>In 2D shaders, <a href="/library/uvs">UV coordinates</a> are one of the most common values to work with.
+The UV is a <code>vec2</code> built-in variable that holds a pair of values <code>(x, y)</code> which range between <code>[0.0, 1.0]</code>. They represent the position of the current pixel.</p><p>Let's draw a blue canvas and discard all pixels for which <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>></mo>
+<mi>x</mi>
+</mrow></math>.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight">shader_type canvas_item<span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>UV<span class="token punctuation">.</span>y <span class="token operator">></span> UV<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">discard</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div><p>The line <code>COLOR = vec4(...)</code> sets the color of the pixel to blue. While <code>discard</code> makes the pixel transparent.</p><p>Remember: shaders run for every pixel individually. So let's imagine the shader receives a pixel with UV coordinates <code>(1.0, 0.0)</code>. That's the top right corner. Because <math class="math" display="inline"><mi>x</mi></math> is greater than <math class="math" display="inline"><mi>y</mi></math>, the pixel is blue.</p><p>Now let's imagine the shader receives a pixel with UV coordinates <code>(0.0, 1.0)</code>. That's the bottom left corner. Because this time, <math class="math" display="inline"><mi>y</mi></math> is greater than <math class="math" display="inline"><mi>x</mi></math>, the pixel is discarded.</p><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">How do I write shaders in Godot?</dt><dd><div><p>You can assign a shader to a CanvasItem's Material. The material property is found under <code>Inspector > CanvasItem > Material</code>.</p><p>To create one, click on the dropdown and select ShaderMaterial.</p><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/shader-material.jpg" alt="Shader Material" /><p>Next, click the shader dropdown to assign a 'New Shader...' to the material.</p><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/new-shader.jpg" alt="New Shader" /><p>The shaders in this guide will be text-based and 2D. For that, set the <em>type</em> to 'Shader', the <em>mode</em> to 'Canvas Item' and click <em>Create</em>.</p><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/shader-settings.jpg" alt="Shader Creation Settings" /></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why 'y > x' instead of 'y = x'?</dt><dd><div><p>A mathematical line has no thickness. Fragment shaders evaluate conditions for <a class="glossaryLink" href="/library/glossary/fragment">fragments</a> on a discrete grid.</p><p>Because of this, a condition like <code>y == x</code> almost never matches enough fragments to be visible.</p><p>If, instead, you discard everything above, the function shape stays clear. You can also do the same in Desmos:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/desmos_y_larger_than_x.jpg" alt="Function y > x in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/jrzbtfvzcp" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of y > x</span></a></figcaption></figure><p>Alternatively, you can add thickness to the <code>y = x</code> line by accounting for a small threshold. Here's the shader with a <code>0.02</code> line width:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight">shader_type canvas_item<span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>UV<span class="token punctuation">.</span>y <span class="token operator">&lt;</span> UV<span class="token punctuation">.</span>x <span class="token operator">-</span> <span class="token number">0.02</span> <span class="token operator">||</span> UV<span class="token punctuation">.</span>y <span class="token operator">></span> UV<span class="token punctuation">.</span>x <span class="token operator">+</span> <span class="token number">0.02</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">discard</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why isn't the whole shader blue?</dt><dd><div><p>The last instruction inside the fragment shader sets the <code>COLOR</code> to blue, so this is a fair assumption.</p><p>However, <code>discard</code> is a definitive operation. It immediately stops processing of the current fragment. The pixel is never drawn, even if you assign a color later.</p></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="info" id="undefined">UVs Recap</dt><dd><div><p>UVs are among the most important tools used by a shader artist.</p><p>If you'd like a more detailed recap of UVs check out and bookmark this free library entry: <a href="/library/uvs">Shader UVs</a></p></div></dd></dl><p>There's a noticeable difference between the Desmos graph and the shader result because of <math class="math" display="inline"><mi>y</mi></math> goes up in Desmos, but down in Godot.</p><p>Flip the <math class="math" display="inline"><mi>y</mi></math> axis to see the same function in Godot:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">vec2</span> uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">1.0</span> <span class="token operator">-</span> UV<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">></span> uv<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">discard</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div><p>With this setup, you can try out any mathematical function.</p><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">How does flipping the y axis work?</dt><dd><div><p>Remember, the <code>UV.y</code> value goes from <code>0</code> to <code>1</code>. In Godot, <code>0.0</code> is the highest value (at the top) and <code>1.0</code> is the lowest possible value (at the bottom).</p><p>So let's say a point was very close to the bottom, at <code>0.9</code>. If we calculate <code>1.0 - 0.9</code>, we get <code>0.1</code>. This puts the point at the top.</p></div></dd></dl><p>Let's turn the blue shader into water. You can add a wave with the <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+<mi>x</mi>
+<mo>)</mo>
+</mrow>
+</mrow></math> function. Here's what it looks like in Desmos:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/desmos_sin_x.jpg" alt="Function sin in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/nk5sdlohnm" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of y = sin(x)</span></a></figcaption></figure><h3 id="making-water">Making Water</h3><p>You can do the same thing in Godot with this shader:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">vec2</span> uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">1.</span> <span class="token operator">-</span> UV<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">></span> <span class="token function">sin</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>x<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">discard</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div><p>There seems to be no oscillation. But the shader is correct. The reason you don't see it is that UVs only cover a small part of the sine wave, the <code>[0.0, 1.0]</code> interval. If you zoom in to that region in Desmos, the function looks identical to the graph you see in Godot:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/desmos_sin_x_0_1.jpg" alt="Sin function ranging between 0 and 1 in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/wvmxfzlmiq" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of y = sin(x) ranging between 0 and 1</span></a></figcaption></figure><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">How do I highlight a region in Desmos?</dt><dd><div><p>Desmos draws polygons with the <code>polygon()</code> operator.</p><p>Pass in the points making up the polygon. For a square that goes from 0 to 1, write <code>polygon((0,0),(1,0),(1,1),(0,1))</code>.</p></div></dd></dl><p>For a water effect that fits this range, you'll want to shrink down and reposition the sine wave. When it comes to moving and scaling a function, there's a one size fits all technique you can use.</p><p>Let's jump in and see how it works!</p><h2 id="function-transformations">Function transformations</h2><h3 id="translation">Translation</h3><p>Let's look again at the sine function: <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+<mi>x</mi>
+<mo>)</mo>
+</mrow>
+</mrow></math>. Here, x represents the horizontal coordinate and y represents the vertical one.</p><p><em>If you subtract a value from x, the function moves horizontally.</em></p><p>You can turn that value into a variable <code>h</code> (for horizontal movement) and the function becomes:</p><math class="math isHighlighted" display="block">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mrow></math><p>Let's see that in Desmos for the sine:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_shifted_left_and_right.avif" alt="Sliding sin left and right in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/1fpddnvwup" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a sine moving horizontally</span></a></figcaption></figure><p>The same applies for vertical movement:</p><p><em>If you subtract a value from y, the function moves vertically.</em></p><p>Just as before, use a variable <code>v</code> and the function becomes:</p><math class="math isHighlighted" display="block">
+<mrow>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mrow></math><p>If you plug that into Desmos for the sine, you get a wave with controllable position:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_shifted_up_and_down.avif" alt="Sliding sin up and down in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/coenzki3v1" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a sine moving vertically</span></a></figcaption></figure><figure class="quoteBubble olddew-bubble"><blockquote class="quoteBubbleContents"><p>This technique works for any function, even one with multiple instances of <math class="math" display="inline"><mi>x</mi></math> or <math class="math" display="inline"><mi>y</mi></math>. As long as you identify and subtract the corresponding variables from them, you'll be able to move those functions just like you did with the sine.</p><p>Let's take the more complex function <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+
+<msup>
+<mi>x</mi>
+<mn>2</mn>
+</msup>
+<mo>+</mo>
+
+<mrow>
+<mn>2</mn>
+<mo>⋅</mo>
+<mi>x</mi>
+</mrow>
+</mrow>
+</mrow></math>. This creates a parabola (you don't need to understand the formula, it's just an example). To shift it vertically or horizontally, you can transform this function into:</p><math class="math" display="block">
+<mrow>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+<mo>=</mo>
+
+<mrow>
+
+<msup>
+<mrow><mo>(</mo>
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow><mo>)</mo></mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo>
+
+<mrow>
+<mn>2</mn>
+<mo>⋅</mo>
+<mrow><mo>(</mo>
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow><mo>)</mo></mrow>
+</mrow>
+</mrow>
+</mrow></math><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/parabola.avif" alt="Sliding parabola in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/e2tdzxtquk" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a parabola</span></a></figcaption></figure></blockquote><figcaption class="quoteBubbleAuthor"><h4 class="quoteBubbleAuthorName">OldDew</h4><h5 class="quoteBubbleAuthorTitle">Teacher at GDQuest</h5></figcaption></figure><p>To do the same in Godot, define two uniforms, one for <code>h</code> and one for <code>v</code> and use them in the comparison.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewControls" style="--output-width: 5ch"><div class="UniformGroup"><span class="UniformGroupTitle"><em >H</em></span><label ><span > </span><input type="range" data-uniform="h" min="-3.14" max="3.14" step="0.01" value="0"/><output >0</output></label></div><div class="UniformGroup"><span class="UniformGroupTitle"><em >V</em></span><label ><span > </span><input type="range" data-uniform="v" min="-3.14" max="3.14" step="0.01" value="0"/><output >0</output></label></div></div><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight">shader_type canvas_item<span class="token punctuation">;</span>
+
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> h <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3.14</span><span class="token punctuation">,</span> <span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">;</span>
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> v <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3.14</span><span class="token punctuation">,</span> <span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">1.</span> <span class="token operator">-</span> UV<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">-</span> v <span class="token operator">></span> <span class="token function">sin</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>x <span class="token operator">-</span> h<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">discard</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="info" id="undefined">Uniforms</dt><dd><div><p>Uniforms act like the variables you set in Desmos. They expose shader properties to the Godot Inspector. Define them in the global scope, outside any function:</p><pre><code class="language-gdshader code-highlight"><span class="token keyword">uniform</span> <span class="token keyword">vec2</span> direction <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span><span class="token number">0.0</span><span class="token punctuation">,</span> <span class="token number">0.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>Some types accept editor hints that control how the property appears in the inspector. A <code>hint_range</code> on a float produces a slider:</p><pre><code class="language-gdshader code-highlight"><span class="token keyword">uniform</span> <span class="token keyword">float</span> var1 <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token number">0.0</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">;</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/float-hint.jpg" alt="Float Hint" /><p><code>source_color</code> on a <code>vec4</code> produces a color picker:</p><pre><code class="language-gdshader code-highlight"><span class="token keyword">uniform</span> <span class="token keyword">vec4</span> color <span class="token operator">:</span> source_color <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">1.0</span><span class="token punctuation">,</span> <span class="token number">0.0</span><span class="token punctuation">,</span> <span class="token number">0.0</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/color-hint.jpg" alt="Color Hint" /></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why are slider labels capitalized?</dt><dd><div><p>When you export a uniform in Godot, it strips underscores and capitalizes every separated word in order to show a pretty label to the developer.</p><p>For example: <code>uniform float wave_count</code> reads as <code>Wave Count</code> in the Inspector.</p></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why use a graphing tool when I could directly use uniforms?</dt><dd><div><p>Working in a specialized tool eliminates shader constraints like the <code>[0.0, 1.0]</code> range. This makes it easier to focus on designing functions instead of implementation details.</p><p>Most tools also let you:</p><ul><li>visualize multiple functions at once</li><li>restrict or highlight domains (for example, showing a function when x is in the <code>[0.0, 5.0]</code> range)</li><li>export and share interactive graphs</li></ul></div></dd></dl><h3 id="scaling">Scaling</h3><p>You know how to move functions, but that still doesn't solve the main issue: no matter how much we shift the wave left and right, up and down, the sine can't fit inside the <code>[0.0, 1.0]</code> range.</p><p>That can be solved by <strong>scaling</strong> the function.</p><p><em>If you divide x or y by a value, the function scales in that direction.</em></p><p>Let's divide <math class="math" display="inline"><mi>x</mi></math> by <math class="math" display="inline">
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub></math> (horizontal scale) and <math class="math" display="inline"><mi>y</mi></math> by <math class="math" display="inline">
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub></math> (vertical scale). The general formula for a movable and scalable function becomes:</p><math class="math isHighlighted" display="block">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="info" id="undefined">This function is too big!</dt><dd><div><p>If you're not used to math notation, this can feel a little intimidating. But no worries, take your time and look at each term separately, it'll start to make sense.</p><p>We started with the terms:</p><math class="math" display="block">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+<mi>x</mi>
+<mo>)</mo>
+</mrow>
+</mrow></math><ul><li><math class="math" display="inline"><mi>x</mi></math>: horizontal position.</li><li><math class="math" display="inline"><mi>y</mi></math>: vertical position.</li><li><math class="math" display="inline"><mi>f</mi></math>: a function (in our case, the sine function).</li></ul><p>Then, we allowed for shifting each axis by introducing <math class="math" display="inline"><mi>h</mi></math> (horizontal offset) and <math class="math" display="inline"><mi>v</mi></math> (vertical offset):</p><math class="math" display="block">
+<mrow>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mrow></math><p>And now, all we've done is divide each term by some new factor.</p></div></dd></dl><p>Here's a scalable sine:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_scale.avif" alt="Sin scale in DESMOS" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/55o6awxpd1" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a scalable sine</span></a></figcaption></figure><p>Update the shader with the new formula and you end up with a flexible and adjustable wave that can now be used to create the blue water effect.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewControls" style="--output-width: 5ch"><div class="UniformGroup"><span class="UniformGroupTitle"><em >H</em></span><label ><span > </span><input type="range" data-uniform="h" min="-3.14" max="3.14" step="0.01" value="0"/><output >0</output></label></div><div class="UniformGroup"><span class="UniformGroupTitle"><em >V</em></span><label ><span > </span><input type="range" data-uniform="v" min="-3.14" max="3.14" step="0.01" value="0.7"/><output >0.7</output></label></div><div class="UniformGroup"><span class="UniformGroupTitle"><em >H S</em></span><label ><span > </span><input type="range" data-uniform="h_s" min="0.01" max="2" step="0.01" value="0.2"/><output >0.2</output></label></div><div class="UniformGroup"><span class="UniformGroupTitle"><em >V S</em></span><label ><span > </span><input type="range" data-uniform="v_s" min="0.01" max="2" step="0.01" value="0.1"/><output >0.1</output></label></div></div><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight">shader_type canvas_item<span class="token punctuation">;</span>
+
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> h <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3.14</span><span class="token punctuation">,</span> <span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">;</span>
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> v <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3.14</span><span class="token punctuation">,</span> <span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.7</span><span class="token punctuation">;</span>
+
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> h_s <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token number">0.01</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.2</span><span class="token punctuation">;</span>
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> v_s <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token number">0.01</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">1.</span> <span class="token operator">-</span> UV<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">-</span> v<span class="token punctuation">)</span> <span class="token operator">/</span> v_s <span class="token operator">></span> <span class="token function">sin</span><span class="token punctuation">(</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>x <span class="token operator">-</span> h<span class="token punctuation">)</span> <span class="token operator">/</span> h_s<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">discard</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Isn't having 4 variables for a single function too much?</dt><dd><div><p>It can be. The goal of adding parameters is not to keep every variable in the final shader. They are tools for exploring the function and finding the values you want.</p><p>Once you have a function that fits your needs, simplify the shader by keeping only the parameters that are useful in practice.</p><p>The final parameters depend on how you plan to use the shader. For example, you might be happy with a water shader that has a fixed wave shape and vertical position. In that case, only the horizontal movement is controllable. The rest of the uniforms can be reduced to constants:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewControls" style="--output-width: 5ch"><div class="UniformGroup"><span class="UniformGroupTitle"><em >H</em></span><label ><span > </span><input type="range" data-uniform="h" min="-3.14" max="3.14" step="0.01" value="0"/><output >0</output></label></div></div><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight">shader_type canvas_item<span class="token punctuation">;</span>
+
+<span class="token keyword">uniform</span> <span class="token keyword">float</span> h <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3.14</span><span class="token punctuation">,</span> <span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token number">1.</span> <span class="token operator">-</span> UV<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 0.7, 0.1 and 0.2 are not random magic numbers.</span>
+  <span class="token comment">// They result from previous movement and scaling</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">-</span> <span class="token number">0.7</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">0.1</span> <span class="token operator">></span> <span class="token function">sin</span><span class="token punctuation">(</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>x <span class="token operator">-</span> h<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">discard</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  COLOR <span class="token operator">=</span> <span class="token keyword">vec4</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">,</span> <span class="token number">0.55</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div></div></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why divide after subtracting?</dt><dd><div><p>The combined scaling and movement formula is <math class="math" display="inline">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math>.</p><p>Why not write it as <math class="math" display="inline">
+<mrow>
+
+<mrow>
+
+<mfrac>
+<mi>y</mi>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mrow>
+
+<mfrac>
+<mi>x</mi>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mrow></math>?</p><p>If you scale first, the translation values no longer match the size of the function. A small function needs smaller movement increments, while a large function needs larger ones.</p></div></dd></dl><p>And with this, you have the basic building blocks for controlling shader functions. To recap:</p><ol><li>You can translate a function by subtracting from its variables.<ul><li>Horizontal movement: <math class="math" display="inline">
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow></math></li><li>Vertical movement: <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow></math></li></ul></li><li>You can scale a function by dividing its variables.<ul><li>Horizontal scale: <math class="math" display="inline">
+<mfrac>
+<mi>x</mi>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac></math></li><li>Vertical scale: <math class="math" display="inline">
+<mfrac>
+<mi>y</mi>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac></math></li></ul></li></ol><p>Combine these techniques to get a function that can be both positioned and resized:</p><math class="math" display="block">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math><h2 id="functions-are-everywhere">Functions are everywhere</h2><p>So far, you used functions just to discard fragments. But you can affect every aspect of a shader with them. After all, a function just transforms one value into another.</p><p>Let's make a ghost! First, you need to sample its texture. This first example of the shader does nothing special: it receives each pixel from the texture and displays it as-is.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> UV<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="info" id="undefined">Texture Sampling</dt><dd><div><p>You can use shaders to generate visuals from nothing. Procedural generation is powerful. It can produce visuals at infinite resolution using math alone.</p><p>Textures are limited in resolution and variation, but they let you directly paint or bake complex, detailed images by hand that would be impractical to describe procedurally.</p><p>Texture sampling bridges the two approaches. It lets shaders combine math with pre-made textures. The texture provides the initial pixel values, and the shader can then manipulate those values using math.</p><p>Godot provides a <code>texture()</code> function that takes two arguments:</p><ul><li>a <code>sampler2D</code>, the texture being sampled</li><li>a <code>vec2</code>, the normalized coordinates from which to sample that texture</li></ul><p>It returns a <code>vec4</code> containing the RGBA color at those coordinates inside the texture.</p><p>You can plug in the <code>TEXTURE</code> and <code>UV</code> built-ins to get the default behavior for textured 2D nodes like Sprite2D and TextureRect: <code>texture(TEXTURE, UV)</code></p></div></dd></dl><p>Ghosts are transparent. You can make the ghost less opaque by multiplying its <code>COLOR</code> alpha by a value smaller than <code>1.0</code>.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> UV<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  COLOR<span class="token punctuation">.</span>a <span class="token operator">=</span> COLOR<span class="token punctuation">.</span>a <span class="token operator">*</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><h3 id="control-transparency-with-functions">Control transparency with functions</h3><p>This is the perfect moment to introduce a function! You can make the ghost change between visible and invisible over <code>TIME</code> with the sine function.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> UV<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">float</span> pulse <span class="token operator">=</span> <span class="token function">sin</span><span class="token punctuation">(</span>TIME<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  COLOR<span class="token punctuation">.</span>a <span class="token operator">=</span> COLOR<span class="token punctuation">.</span>a <span class="token operator">*</span> pulse<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="info" id="undefined">The TIME Built-in</dt><dd><div><p>The <code>TIME</code> built-in returns the time since the engine has started, in seconds.</p><p>Since <code>TIME</code> is different in every frame, you can plug it in any mathematical function to create an animation. The sine function takes a number as input and produces a value that smoothly oscillates between <math class="math" display="inline"><mrow><mo>-</mo><mn>1.0</mn></mrow></math> and <math class="math" display="inline"><mn>1.0</mn></math>. As the input increases, the output repeatedly follows the same wave pattern. Feeding <code>TIME</code> into <code>sin()</code> means the input constantly increases, so the output naturally moves back and forth over time.</p><p><code>sin(TIME)</code> is therefore just a value that continuously cycles between <code>-1.0</code> and <code>1.0</code>, making it perfect for animations like bobbing, pulsing or waving.</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_of_time.avif" alt="Sine of Time in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/2jzwmgzyiw" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos animation of the sine function over time</span></a></figcaption></figure></div></dd></dl><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why does the sine function behave this way?</dt><dd><div><p>The sine function comes from circular motion. Imagine a point rotating around a circle at constant speed. If you track the point's vertical position, it repeatedly rises and falls in a smooth pattern. The <math class="math" display="inline"><mi>sin</mi></math> computes exactly that vertical position. Similarly, the point's horizontal position is computed by the <math class="math" display="inline"><mi>cos</mi></math> function.</p><p>Passing a value like <code>TIME</code> to either of the functions makes the point continuously rotate, causing the resulting value to oscillate.</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_and_cos_formed_by_circle.avif" alt="Sine and Cosine deriving from circular motion in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/5cvizoa7bi" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Sine and Cosine deriving from circular motion</span></a></figcaption></figure></div></dd></dl><p>You probably noticed that the ghost stays hidden longer than it stays visible. This is because the sine function oscillates between <code>[-1.0, 1.0]</code>:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/sin_between_-1_1.jpg" alt="Sin between -1 and 1 in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/b7o0krubj1" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a sine between -1 and 1</span></a></figcaption></figure><p>Every time the <code>pulse</code> becomes a value smaller or equal to <code>0.0</code>, the transparency value also gets smaller or equal to <code>0.0</code>.</p><p>Negative alpha values cannot be represented. What would negative transparency even mean? Instead, the shader clamps transparency between <code>[0.0, 1.0]</code>. This explains why the ghost is invisible for so long: half of the time, the sine wave is under <code>0.0</code>.</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/sin_negative_half_of_the_time.jpg" alt="Sin negative highlight in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/zykhckk1cw" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a sine with highlighted negative regions</span></a></figcaption></figure><p>To address this, you need to change the scale and position of the sine function so that it oscillates between <code>[0.0, 1.0]</code>.</p><p>Let's use the same parametrization technique:</p><math class="math" display="block">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math><p>Previously, you used this expression to compare two values, so keeping terms on both sides made sense.
+Now, the goal is to produce a single <em>pulse</em> result that gets multiplied with the transparency.</p><p>Because of that, everything that's not the result (<math class="math" display="inline"><mi>y</mi></math>) gets moved to the other side of the equation. The subtraction of <math class="math" display="inline"><mi>v</mi></math> and the division by <math class="math" display="inline">
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub></math> both move to the right of the equal sign:</p><math class="math" display="block">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+
+<mrow>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+<mo>⋅</mo>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mrow>
+<mo>+</mo>
+<mi>v</mi>
+</mrow>
+</mrow></math><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">How did we move the terms on the left of the equation to the right?</dt><dd><div><p>Explaining equation resolution in full is beyond the scope of this article, but in short: inverting an operation means applying its opposite in reverse order.</p><p>Since <math class="math" display="inline"><mi>y</mi></math> was divided by <math class="math" display="inline">
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub></math> after subtracting <math class="math" display="inline"><mi>v</mi></math>, solving for <math class="math" display="inline"><mi>y</mi></math> means multiplying by <math class="math" display="inline">
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub></math> first, then adding <math class="math" display="inline"><mi>v</mi></math>.</p></div></dd></dl><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_between_0_1.avif" alt="Sin remapped to be between 0 and 1 in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/uzjasd4yr1" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a sine being remapped to [0, 1]</span></a></figcaption></figure><p>The result oscillates between <code>[0.0, 1.0]</code> when <math class="math" display="inline">
+<mrow>
+<mi>h</mi>
+<mo>=</mo>
+<mn>0.0</mn>
+</mrow></math>, <math class="math" display="inline">
+<mrow>
+<mi>v</mi>
+<mo>=</mo>
+<mn>0.5</mn>
+</mrow></math>, <math class="math" display="inline">
+<mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+<mo>=</mo>
+<mn>1.0</mn>
+</mrow></math> and <math class="math" display="inline">
+<mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+<mo>=</mo>
+<mn>0.5</mn>
+</mrow></math>. Substituting those values:</p><math class="math" display="block">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+
+<mrow>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mn>0.0</mn>
+</mrow>
+<mn>1.0</mn>
+</mfrac>
+<mo>)</mo>
+</mrow>
+<mo>⋅</mo>
+<mn>0.5</mn>
+</mrow>
+<mo>+</mo>
+<mn>0.5</mn>
+</mrow>
+</mrow></math><p>Subtracting 0 and dividing by 1.0 has no effect, so this simplifies to:</p><math class="math isHighlighted" display="block">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+
+<mrow>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+<mi>x</mi>
+<mo>)</mo>
+</mrow>
+<mo>⋅</mo>
+<mn>0.5</mn>
+</mrow>
+<mo>+</mo>
+<mn>0.5</mn>
+</mrow>
+</mrow></math><p>The ghost now toggles smoothly between visible and invisible:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> UV<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">float</span> pulse <span class="token operator">=</span> <span class="token function">sin</span><span class="token punctuation">(</span>TIME<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">0.5</span> <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+  COLOR<span class="token punctuation">.</span>a <span class="token operator">=</span> COLOR<span class="token punctuation">.</span>a <span class="token operator">*</span> pulse<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><h3 id="control-position-with-functions">Control position with functions</h3><p>The ghost could use a floating animation. You can create that by moving it up and down over <code>TIME</code> by some amount. Use the same formula to make an oscillating wave between <code>[-0.2, 0.2]</code>.</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/sin_between_-02_02.avif" alt="Sin mapped between -0.2 and 0.2 in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/7r6qxbduit" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Desmos graph of a sin being remapped between [-0.2, 0.2]</span></a></figcaption></figure><p>This time, you get <math class="math" display="inline">
+<mrow>
+<mi>h</mi>
+<mo>=</mo>
+<mn>0.0</mn>
+</mrow></math>, <math class="math" display="inline">
+<mrow>
+<mi>v</mi>
+<mo>=</mo>
+<mn>0.0</mn>
+</mrow></math>, <math class="math" display="inline">
+<mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+<mo>=</mo>
+<mn>1.0</mn>
+</mrow></math> and <math class="math" display="inline">
+<mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+<mo>=</mo>
+<mn>0.2</mn>
+</mrow></math>. The vertical animation offset becomes:</p><math class="math isHighlighted" display="block">
+<mrow>
+
+<msub>
+<mi>vertical</mi>
+<mi>offset</mi>
+</msub>
+<mo>=</mo>
+
+<mrow>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+<mi>TIME</mi>
+<mo>)</mo>
+</mrow>
+<mo>⋅</mo>
+<mn>0.2</mn>
+</mrow>
+</mrow></math><div class="ShaderPreview" data-shader="void fragment() {
+  float vertical_offset = sin(TIME) * 0.2;
+  vec2 sampling_point = vec2(UV.x, UV.y + vertical_offset);
+
+  COLOR = texture(TEXTURE, sampling_point);
+
+  float pulse = sin(TIME) * 0.5 + 0.5;
+  COLOR.a = COLOR.a * pulse;
+}"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">float</span> vertical_offset <span class="token operator">=</span> <span class="token function">sin</span><span class="token punctuation">(</span>TIME<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">0.2</span><span class="token punctuation">;</span>
+  <span class="token keyword">vec2</span> sampling_point <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> UV<span class="token punctuation">.</span>y <span class="token operator">+</span> vertical_offset<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> sampling_point<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// Pulsing logic</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">I tried a different texture and I'm getting weird artifacts. Why?</dt><dd><div><p>The UV coordinates are normalized, which means they range between <code>[0.0, 1.0]</code>. When you add a vertical offset to <code>UV.y</code>, some values are bound to get outside of this range. For example, adding an offset of 0.5 makes the y coordinates range between <code>[0.5, 1.5]</code>.</p><p>Sampling at the 1.5 coordinate is effectively asking the GPU to give you the color that's 150% across the texture. That's seemingly impossible, but Godot doesn't crash the shader. Instead, it takes a decision based on the texture's <em>repeat mode</em>.</p><p>The repeat mode dictates what happens when sampling a texture outside of its <code>[0.0, 1.0]</code> region. By default, a texture's repeat mode is disabled. In that case Godot clamps the coordinates to the <code>[0.0, 1.0]</code> range. Fragments with coordinates outside it sample as if they were sitting right at the edge of the texture.</p><p>The ghost sprite looks fine because the pixels at the edge are transparent. If you use a texture with opaque edges, you'll get a banding effect. See, for example, what happens with this lava texture when the UVs are shifted down by 0.5:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> shifted_uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> UV<span class="token punctuation">.</span>y <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> shifted_uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/lava.png" alt="" name="" data-filter="linear" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><p>To get rid of the lines, discard all pixels for which the coordinates land outside <code>[0.0, 1.0]</code>.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">vec2</span> uv <span class="token operator">=</span> <span class="token keyword">vec2</span><span class="token punctuation">(</span>UV<span class="token punctuation">.</span>x<span class="token punctuation">,</span> UV<span class="token punctuation">.</span>y <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+        uv<span class="token punctuation">.</span>x <span class="token operator">&lt;</span> <span class="token number">0.0</span> <span class="token operator">||</span> uv<span class="token punctuation">.</span>x <span class="token operator">></span> <span class="token number">1.0</span> <span class="token operator">||</span>
+        uv<span class="token punctuation">.</span>y <span class="token operator">&lt;</span> <span class="token number">0.0</span> <span class="token operator">||</span> uv<span class="token punctuation">.</span>y <span class="token operator">></span> <span class="token number">1.0</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">discard</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/lava.png" alt="" name="" data-filter="linear" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div></div></dd></dl><h3 id="bend-textures-with-functions">Bend textures with functions</h3><p>Up until now, all sampling positions changed uniformly accross the shader. But that doesn't have to be the case. You can use functions to make fragments behave differently depending on their position. Our ghastly friend would be spookier with a more wobbly shape.</p><p>Let's reset the shader so it simply samples the texture.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> UV<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><p>To make a wobble effect, the sampling needs position needs to oscillate left and right as it goes down the texture. You can create oscillation with the already familiar sine function and you get the vertical position by looking at <code>UV.y</code>. The only problem is that, so far, the sine appeared to go from left to right. How can you turn it on its head to make it oscillate from top to bottom?</p><figure class="quoteBubble olddew-bubble"><blockquote class="quoteBubbleContents"><p>Up until this moment, most functions were written as <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+<mi>x</mi>
+<mo>)</mo>
+</mrow>
+</mrow></math>.</p><p>That's mostly because this is the form we're used to seeing. In Maths class, for theoretical examples, there was seldom a reason to write this differently. <math class="math" display="inline"><mi>y</mi></math> is the value you need to find, <math class="math" display="inline"><mi>x</mi></math> is the value you have.</p><p>In practice, that's not always the case. Take our example: we need to find the <math class="math" display="inline"><mi>x</mi></math> position at which we sample <em>based on</em> the vertical coordinate <math class="math" display="inline"><mi>y</mi></math>. This means that, this time, the function will have the shape <math class="math" display="inline">
+<mrow>
+<mi>x</mi>
+<mo>=</mo>
+
+<mrow>
+<mi>f</mi>
+<mo>(</mo>
+<mi>y</mi>
+<mo>)</mo>
+</mrow>
+</mrow></math>.</p></blockquote><figcaption class="quoteBubbleAuthor"><h4 class="quoteBubbleAuthorName">OldDew</h4><h5 class="quoteBubbleAuthorTitle">Teacher at GDQuest</h5></figcaption></figure><p>Let's do the same to the <math class="math" display="inline"><mi>sin</mi></math> function in Desmos:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/x_is_sin_of_y.jpg" alt="Graph of x being sin of y in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/jubeule2fq" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">x = sin(y) in Desmos</span></a></figcaption></figure><p>The sine oscillates along the <math class="math" display="inline"><mi>y</mi></math> axis. That's exactly what we need! Add <code>sin(uv.y)</code> to <code>uv.x</code> to make the sampling points oscillate as they move down the texture.</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> UV<span class="token punctuation">;</span>
+
+  uv<span class="token punctuation">.</span>x <span class="token operator">+=</span> <span class="token function">sin</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><p>It might look weird right now, but it's just the classic issue again: The wave isn't yet adjusted to give a softer, more frequent oscillation.</p><p>The good news is that scaling and translating work exactly the same way. The <math class="math" display="inline"><mi>h</mi></math> and <math class="math" display="inline">
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub></math> parameters adjust the function horizontally, while <math class="math" display="inline"><mi>v</mi></math> and <math class="math" display="inline">
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub></math> adjust it vertically:</p><math class="math isHighlighted" display="block">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why does this still work?</dt><dd><div><p>Changing the orientation of a function doesn't change the axes on which it's drawn. <math class="math" display="inline"><mi>y</mi></math> still represents a vertical coordinate and <math class="math" display="inline"><mi>x</mi></math> a horizontal one.</p><p>The technical details don't matter much in this case, but with some juggling, <math class="math" display="inline">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math> can be turned into <math class="math" display="inline">
+<mrow>
+
+<mrow>
+<mi>arcsin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+</mrow></math>, with <math class="math" display="inline"><mi>arcsin</mi></math> being the inverse of the sin function. This leads to a formula with the same shape as our previous ones. You just have to flip the equality terms:</p><math class="math" display="block">
+<mrow>
+
+<mfrac>
+
+<mrow>
+<mi>y</mi>
+<mo>-</mo>
+<mi>v</mi>
+</mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>arcsin</mi>
+<mo>(</mo>
+
+<mfrac>
+
+<mrow>
+<mi>x</mi>
+<mo>-</mo>
+<mi>h</mi>
+</mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math></div></dd></dl><p>Pick <math class="math" display="inline">
+<mrow>
+<mi>h</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mrow></math>, <math class="math" display="inline">
+<mrow>
+<mi>v</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mrow></math>, <math class="math" display="inline">
+<mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+<mo>=</mo>
+<mn>0.01</mn>
+</mrow></math> and <math class="math" display="inline">
+<mrow>
+
+<msub>
+<mi>v</mi>
+<mi>s</mi>
+</msub>
+<mo>=</mo>
+<mn>0.05</mn>
+</mrow></math> and you get <math class="math" display="inline">
+<mrow>
+
+<mfrac>
+<mi>x</mi>
+<mn>0.01</mn>
+</mfrac>
+<mo>=</mo>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+<mi>y</mi>
+<mn>0.05</mn>
+</mfrac>
+<mo>)</mo>
+</mrow>
+</mrow></math>, which leads to x being:</p><math class="math" display="block">
+<mrow>
+<mi>x</mi>
+<mo>=</mo>
+
+<mrow>
+
+<mrow>
+<mi>sin</mi>
+<mo>(</mo>
+
+<mfrac>
+<mi>y</mi>
+<mn>0.5</mn>
+</mfrac>
+<mo>)</mo>
+</mrow>
+<mo>⋅</mo>
+<mn>0.01</mn>
+</mrow>
+</mrow></math><p>Let's add that value to the horizontal sampling points of our shader:</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="256" height="256"></canvas><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> UV<span class="token punctuation">;</span>
+
+  uv<span class="token punctuation">.</span>x <span class="token operator">+=</span> <span class="token function">sin</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">/</span> <span class="token number">0.05</span> <span class="token operator">-</span> TIME<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">0.01</span><span class="token punctuation">;</span>
+
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/tiny_ghost.png" alt="" name="" data-filter="nearest" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><p>Bending and morphing textures can be extremely helpful in making animations that would be hard or even impossible to create. Take for example this thruster fire. It looks nice when the ship flies straight:</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/ship_straight_line.avif" alt="Ship moving straight" /><figcaption class="figureFigcaption"><span class="figureFigcaptionText">Woosh!</span></figcaption></figure><p>But as you turn the ship, its lack of inertia makes it feel stiff.</p><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/ship_rotating.avif" alt="Ship rotating" /><figcaption class="figureFigcaption"><span class="figureFigcaptionText">The pilot fell asleep on the right thruster lever again..</span></figcaption></figure><p>You can simulate inertia by bending the flame as the ship turns. The flame curves more as it approaches its tail.</p><p>You need a function that takes the current <math class="math" display="inline"><mi>y</mi></math> coordinate as an input and outputs a horizontal displacement <math class="math" display="inline"><mi>x</mi></math> to shift the sampling point.</p><p>To achieve this, the function has to meet two requirements:</p><ol><li><strong>Anchor the base</strong>: At the top of the flame (where <math class="math" display="inline">
+<mrow>
+<mi>y</mi>
+<mo>=</mo>
+<mn>0.0</mn>
+</mrow></math>), there should be no bending (<math class="math" display="inline">
+<mrow>
+<mi>x</mi>
+<mo>=</mo>
+<mn>0.0</mn>
+</mrow></math>)</li><li><strong>Curve the tail</strong>: As we move down the texture and <math class="math" display="inline"><mi>y</mi></math> increases, the horizontal displacement <math class="math" display="inline"><mi>x</mi></math> must grow progressively faster.</li></ol><p>A simple parabola starting at the origin perfectly fits this behavior:</p><math class="math" display="block">
+<mrow>
+<mi>x</mi>
+<mo>=</mo>
+
+<msup>
+<mi>y</mi>
+<mn>2</mn>
+</msup>
+</mrow></math><p>To adjust the shape of this curve all you need to do is to change its horizontal scale. The final control formula ends up being <math class="math" display="inline">
+<mrow>
+
+<mfrac>
+<mi>x</mi>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+</mfrac>
+<mo>=</mo>
+
+<msup>
+<mi>y</mi>
+<mn>2</mn>
+</msup>
+</mrow></math>, which makes x:</p><math class="math isHighlighted" display="block">
+<mrow>
+<mi>x</mi>
+<mo>=</mo>
+
+<mrow>
+
+<msub>
+<mi>h</mi>
+<mi>s</mi>
+</msub>
+<mo>⋅</mo>
+
+<msup>
+<mi>y</mi>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow></math><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/parabola_rocket_fire_in_desmos.avif" alt="Fire bending parabola in Desmos" /><figcaption class="figureFigcaption"><a href="https://www.desmos.com/calculator/lv3rqdwbnt" class="figureFigcaptionLink" target="_blank"><span class="figureFigcaptionText">Fire bending parabola in Desmos</span></a></figcaption></figure><p>With this final shader you have officially become a fire bender!</p><div class="ShaderPreview"><canvas class="ShaderPreviewCanvas" width="300" height="300"></canvas><div class="ShaderPreviewControls" style="--output-width: 5ch"><div class="UniformGroup"><span class="UniformGroupTitle"><em >H S</em></span><label ><span > </span><input type="range" data-uniform="h_s" min="-0.5" max="0.5" step="0.01" value="0"/><output >0</output></label></div></div><div class="ShaderPreviewChildren"><pre><code class="language-gdshader code-highlight"><span class="token keyword">uniform</span> <span class="token keyword">float</span> h_s <span class="token operator">:</span> <span class="token function">hint_range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">0.5</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> UV<span class="token punctuation">;</span>
+
+  uv<span class="token punctuation">.</span>x <span class="token operator">+=</span> h_s <span class="token operator">*</span> uv<span class="token punctuation">.</span>y <span class="token operator">*</span> uv<span class="token punctuation">.</span>y<span class="token punctuation">;</span>
+
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/images/fire.svg" alt="" name="" data-filter="linear" data-repeat="disabled" class="ImageRef" hidden="hidden"/></div></div><dl class="calloutsList" data-is="collapsible-list"><dt data-open="false" class="question" id="undefined">Why does the shader move in the opposite direction?</dt><dd><div><p>It might feel strange to increase <code>uv.x</code> and to see the flame bend to the left. This is because you're not moving the image, you're moving the point at which the image is sampled.</p><p>With a positive offset you're telling the fragment to sample a <a class="glossaryLink" href="/library/glossary/texel">texel</a> that lies more towards the right. This leads to the flame looking like its being pushed left.</p></div></dd></dl><figure class="quoteBubble olddew-bubble"><blockquote class="quoteBubbleContents"><p>Take a look at the last two shaders!</p><div class="grid" style="--grid-item-align:stretch"><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> UV<span class="token punctuation">;</span>
+  uv<span class="token punctuation">.</span>x <span class="token operator">+=</span> 
+    <span class="token function">sin</span><span class="token punctuation">(</span>uv<span class="token punctuation">.</span>y <span class="token operator">/</span> <span class="token number">0.05</span> <span class="token operator">-</span> TIME<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">0.01</span><span class="token punctuation">;</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre><pre><code class="language-gdshader code-highlight"><span class="token keyword">void</span> <span class="token function">fragment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">vec2</span> uv <span class="token operator">=</span> UV<span class="token punctuation">;</span>
+  uv<span class="token punctuation">.</span>x <span class="token operator">+=</span> 
+    h_s <span class="token operator">*</span> uv<span class="token punctuation">.</span>y <span class="token operator">*</span> uv<span class="token punctuation">.</span>y<span class="token punctuation">;</span>
+  COLOR <span class="token operator">=</span> <span class="token function">texture</span><span class="token punctuation">(</span>TEXTURE<span class="token punctuation">,</span> uv<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div><p>Notice that the only thing that changed is the function itself. And what a big difference that made!</p><p>You started this guide with functions made out of seemingly magic numbers. Now, you have a systematic way to look at any visual effect and control it in your shaders.</p></blockquote><figcaption class="quoteBubbleAuthor"><h4 class="quoteBubbleAuthorName">OldDew</h4><h5 class="quoteBubbleAuthorTitle">Teacher at GDQuest</h5></figcaption></figure><figure class="figure"><img src="https://www.gdquest.com/library/control_shaders_with_simple_functions/videos/ship_rotating_but_nice.avif" alt="Ship rotating with bending thruster fire" /><figcaption class="figureFigcaption"><span class="figureFigcaptionText">Did I forget my keys? Oh! They're in my pocket.</span></figcaption></figure><dl class="calloutsList" data-is="collapsible-list"><dt data-open="true" class="info" id="undefined">How can someone remember all of this!</dt><dd><div><p>You don't need to! It's not important that you remember all of the formulas. What matters is that you start piecing together how shaders work.</p><p>You can always refer back to this article when you need to; and you can look up online how to draw different types of curves and parabolas. You can also read shader code written by others; even shaders made for other frameworks and engines than Godot; you'll find many of the concepts are similar.</p><p>By practicing writing and reading shaders, you will slowly build up the memory and intuition you need.</p></div></dd></dl></main><div class="shareWidget shareWidgetContainer"><div class="shareWidgetContent"><button class="clapsButton plausible-event-clap=true" title="Clap" aria-pressed="false" aria-live="polite"><span class="clapsButtonLabel"><span class="clapsButtonLabelTitle">Clap</span></span><span class="clapsButtonBubble">+1</span><span class="clapsButtonAmount"><span class="clapsButtonAmountAbbreviated" aria-hidden="true" hidden="hidden">0</span><span class="clapsButtonAmountTotal" aria-live="polite">0</span></span></button><span class="shareWidgetSeparator" aria-hidden="true"></span><button class="clipboardButton" data-is="clipboard-button" data-clipboard="currentURL" title="Copy url to Clipboard" aria-pressed="false" aria-live="polite"><span class="clipboardButtonLabel">Copy URL to clipboard</span><span data-is="clipboard-message" aria-hidden="true">Copied to clipboard!</span></button></div></div><div class="itemPageMeta"><section class="promoGDSchool itemPageMetaPromoGDSchoolStarterKit"><h5 class="promoGDSchoolTitle">Become an Indie Gamedev with GDQuest!<span class="promoGDSchoolTitleLogo"><span>in GDSchool</span></span></h5><div class="promoGDSchoolBody"><figure class="quoteBubble nathan-bubble"><blockquote class="quoteBubbleContents"><p>Don't stop here. Step-by-step tutorials are fun but they only take you so far.</p> <p><strong>Try one of our proven study programs to become an independent Gamedev truly capable of realizing the games you’ve always wanted to make.</strong></p></blockquote><figcaption class="quoteBubbleAuthor"><h4 class="quoteBubbleAuthorName">Nathan</h4><h5 class="quoteBubbleAuthorTitle">Founder and teacher at GDQuest</h5></figcaption></figure><ul><li><a href="http://school.gdquest.com/products/bundle_godot_4_starter_kit"><img src="/library/thumbnail-bundle-godot-4-starter-kit.webp" alt="Starter Kit" loading="lazy"/></a></li><li><a href="http://school.gdquest.com/products/bundle_learn_gamedev_godot_4"><img src="/library/thumbnail-bundle-learn-gamedev-godot-4.webp" alt="Learn Gamedev from Zero" loading="lazy"/></a></li></ul><a href="https://school.gdquest.com" class="promoGDSchoolBodyHighlightLink">Check out GDSchool</a></div></section><section class="itemDiscordInvite"><h4>You're welcome in our little community</h4><p>Get help from peers and pros on GDQuest's Discord server!</p><span>20,000 members</span><a href="https://discord.gg/87NNb3Z">Join Server</a></section></div></section><div class="contributeBlockWrapper"><section class="contributeBlock" aria-roledescription="contribution links"><h1 id="contributeBlock" class="hasIconBefore icon-github">Contribute to GDQuest's Free Library</h1><p class="contributeBlockEmphasized">There are multiple ways you can join our effort to create free and open source gamedev resources that are accessible to everyone!</p><ul role="list"><li><p>Sponsor this library by learning gamedev with us on<a href="https://school.gdquest.com" class="gdschoolLogo"><span>GDSchool</span></a></p><a href="https://school.gdquest.com" class="contributeBlockFooterLink contributeBlockFooterLinkLearnMore"><span>Learn More</span></a></li><li><p>Improve and build on assets or suggest edits on<a href="https://github.com/gdquest" class="githubLogo"><span>Github</span></a></p><a href="https://github.com/gdquest" class="contributeBlockFooterLink contributeBlockFooterLinkContribute"><span>Contribute</span></a></li><li><p>share this page and talk about GDQUest on<a class="socialLink" href="https://reddit.com"><span>Reddit</span></a><a class="socialLink" href="https://youtube.com"><span>Youtube</span></a><a class="socialLink" href="https://twitter.com"><span>Twitter</span></a>…</p><button class="contributeBlockFooterLink contributeBlockFooterLinkShare" data-is="clipboard-button" data-clipboard="currentURL" title="Copy url to Clipboard" aria-pressed="false" aria-live="polite"><span >Share</span><span data-is="clipboard-message" aria-hidden="true">Copied to clipboard!</span></button></li></ul></section></div><footer class="mainPageFooter"><ul class="mainPageFooterWrapper" role="list"><li class="mainPageFooterSocials"><a href="#" class="mainPageFooterSocialsLogo gdquestLogo" aria-hidden="true"><span>GDQuest</span></a><p class="mainPageFooterSocialsBlurb">On GDQuest, we help you become a game developer using Godot, the free and open-source game engine</p><ul class="mainPageFooterSocialsLinks"><li><a href="https://twitter.com/NathanGDQuest" class="socialLink"><span>Follow us on Twitter</span></a></li><li><a href="https://www.youtube.com/c/gdquest" class="socialLink"><span>Follow us on YouTube</span></a></li><li><a href="https://discord.gg/87NNb3Z" class="socialLink"><span>Join us on Discord</span></a></li></ul></li><li class="mainPageFooterMailingList"><h3 class="mainPageFooterMailingListTitle">Get the latest from GDQuest</h3><form action="https://api.gdquest.com/1/newsletter" method="POST" data-is="mailingListCollector"><input type="hidden" name="callback" value="https://www.gdquest.com/library"/><input type="hidden" name="json" value="false"/><label aria-hidden="true" class="super-important-woah"><span>Your Name</span><input aria-hidden="true" tabIndex="-1" type="text" name="name" autocomplete="off"/></label><fieldset class="mailingListCollectorInput"><label for="mailingListCollector-signupFooter">Enter your email</label><input type="email" placeholder="Enter your email" name="email" value="" id="mailingListCollector-signupFooter"/><button><span>Subscribe</span></button></fieldset><div aria-live="polite" class="mailingListCollectorMessage"><span class="mailingListCollectorMessageSuccess message-success" hidden="hidden" aria-hidden="true">Our records show you're already subscribed</span><span class="mailingListCollectorMessageSuccess message-success" hidden="hidden" aria-hidden="true">Ok! Please click on the confirmation link in your email</span><span class="mailingListCollectorMessageError message-error" hidden="hidden" aria-hidden="true">An error occurred; please try again later</span></div></form><p class="mainPageFooterMailingListDisclaimer">By subscribing, you agree to receive the latest announcements, releases, and promotions from GDQuest. Read our <a href="https://school.gdquest.com/about-us/privacy-policy">privacy policy</a></p></li><li class="mainPageFooterQuickLinks"><h3>Quick Links</h3><ul><li><a href="https://school.gdquest.com/courses/learn_2d_gamedev_godot_4/learn_gdscript/learn_gdscript_app">Learn to Code From Zero With Godot</a></li><li><a href="http./school.gdquest.com/products/bundle_godot_4_starter_kit">The Great Godot 4 Starter Kit</a></li><li><a href="https://school.gdquest.com/products/godot-4-early-access">See all</a></li></ul></li><li class="mainPageFooterAbout"><h3>About</h3><ul><li><a href="https://school.gdquest.com/about-us">Who are we?</a></li><li><a href="https://school.gdquest.com/about-us/terms-of-service">Terms of Service</a></li><li><a href="https://school.gdquest.com/about-us/privacy-policy">Privacy Policy</a></li><li><a href="https://school.gdquest.com/about-us/contact">Contact</a></li></ul></li><li class="mainPageFooterCopyright"><p>© 2015-present GDQuest. All Rights Reserved.</p></li></ul></footer><div class="betaMention"><button type="button"><span>Click me to hide or show this message</span></button><p><span><span>Site in </span><em>BETA!</em></span><a href="https://school.gdquest.com/about-us/contact?subject=Report%20a%20library%20bug">found a bug?</a></p></div><script src="/library/client.js" type="module"></script></body></html>
