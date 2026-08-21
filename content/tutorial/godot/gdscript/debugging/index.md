@@ -14,6 +14,8 @@ menuTitle: Debugging basics
 software: godot
 title: Getting started with debugging in Godot
 weight: 3
+type: redirect
+redirect: https://gdquest.com/library/how_to_use_debugger
 ---
 
 Is your code full of `print()` calls like this?
