@@ -238,9 +238,9 @@
       ]
     },
     {
-      "slug": "object",
+      "slug": "code_blocks",
       "terms": [
-        "object",
+        "code blocks",
         ""
       ]
     },
@@ -253,60 +253,213 @@
       ]
     },
     {
-      "slug": "code_blocks",
+      "slug": "object",
       "terms": [
-        "code blocks",
+        "object",
         ""
       ]
     },
     {
-      "slug": "billboard",
+      "slug": "scene_tree",
       "terms": [
-        "billboard (3d)",
-        "Sprite3D",
-        "Label3D",
+        "scene tree",
         ""
       ]
     },
     {
-      "slug": "keyframe",
+      "slug": "composition",
       "terms": [
-        "keyframe",
-        "animation",
+        "composition",
+        "pattern",
         ""
       ]
     },
     {
-      "slug": "basis",
+      "slug": "function_virtual",
       "terms": [
+        "virtual function",
+        ""
+      ]
+    },
+    {
+      "slug": "design_pattern",
+      "terms": [
+        "design pattern",
+        "programming pattern",
+        "state machine",
+        ""
+      ]
+    },
+    {
+      "slug": "closure",
+      "terms": [
+        "closure",
+        ""
+      ]
+    },
+    {
+      "slug": "early_return",
+      "terms": [
+        "early returns",
+        ""
+      ]
+    },
+    {
+      "slug": "finite_state_machine",
+      "terms": [
+        "finite state machine",
+        "FSM",
+        ""
+      ]
+    },
+    {
+      "slug": "raycast",
+      "terms": [
+        "raycast",
+        "physics",
+        "collision",
+        ""
+      ]
+    },
+    {
+      "slug": "polar_coordinates",
+      "terms": [
+        "polar coordinates",
+        "angle",
+        "degrees",
+        ""
+      ]
+    },
+    {
+      "slug": "dictionary",
+      "terms": [
+        "dictionary",
+        "Object",
+        "Hashmap",
+        "Table",
+        "Map",
+        "UnorderedMap",
+        ""
+      ]
+    },
+    {
+      "slug": "function_init",
+      "terms": [
+        "init function",
+        ""
+      ]
+    },
+    {
+      "slug": "shader",
+      "terms": [
+        "shaders",
+        "graphics",
+        "design",
+        "art",
+        ""
+      ]
+    },
+    {
+      "slug": "stylebox",
+      "terms": [
+        "stylebox",
+        "StyleBoxFlat",
+        "StyleBoxTexture",
+        "StyleBoxLine",
+        "StyleBoxEmpty",
+        "user interface",
+        "theme",
+        ""
+      ]
+    },
+    {
+      "slug": "data_structure",
+      "terms": [
+        "data structure",
+        ""
+      ]
+    },
+    {
+      "slug": "parameter",
+      "terms": [
+        "function parameter",
+        ""
+      ]
+    },
+    {
+      "slug": "forward_direction",
+      "terms": [
+        "forward direction",
+        "transforms",
         "basis",
-        "rotation",
-        "matrix",
-        "orientation",
-        "axes",
         ""
       ]
     },
     {
-      "slug": "static_variable",
+      "slug": "inheritance",
       "terms": [
-        "static variable",
+        "inheritance",
         ""
       ]
     },
     {
-      "slug": "object_oriented_programming",
+      "slug": "custom_constructor",
       "terms": [
-        "object-oriented programming",
-        "oop",
+        "custom constructors",
         ""
       ]
     },
     {
-      "slug": "viewport",
+      "slug": "super_keyword",
       "terms": [
-        "viewport",
-        "rendering",
+        "super keyword",
+        ""
+      ]
+    },
+    {
+      "slug": "pseudo_code",
+      "terms": [
+        "pseudo code",
+        ""
+      ]
+    },
+    {
+      "slug": "your_future_self",
+      "terms": [
+        "your co-worker: your future self",
+        "documentation",
+        "collaboration",
+        ""
+      ]
+    },
+    {
+      "slug": "sprite_sheet",
+      "terms": [
+        "sprite sheet",
+        "sprite atlas",
+        "texture atlas",
+        "animation frames",
+        ""
+      ]
+    },
+    {
+      "slug": "level_design",
+      "terms": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
+        ""
+      ]
+    },
+    {
+      "slug": "implementation_details",
+      "terms": [
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
         ""
       ]
     },
@@ -331,206 +484,25 @@
       ]
     },
     {
-      "slug": "implementation_details",
+      "slug": "viewport",
       "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
+        "viewport",
+        "rendering",
         ""
       ]
     },
     {
-      "slug": "level_design",
+      "slug": "object_oriented_programming",
       "terms": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
+        "object-oriented programming",
+        "oop",
         ""
       ]
     },
     {
-      "slug": "sprite_sheet",
+      "slug": "static_variable",
       "terms": [
-        "sprite sheet",
-        "sprite atlas",
-        "texture atlas",
-        "animation frames",
-        ""
-      ]
-    },
-    {
-      "slug": "your_future_self",
-      "terms": [
-        "your co-worker: your future self",
-        "documentation",
-        "collaboration",
-        ""
-      ]
-    },
-    {
-      "slug": "pseudo_code",
-      "terms": [
-        "pseudo code",
-        ""
-      ]
-    },
-    {
-      "slug": "super_keyword",
-      "terms": [
-        "super keyword",
-        ""
-      ]
-    },
-    {
-      "slug": "custom_constructor",
-      "terms": [
-        "custom constructors",
-        ""
-      ]
-    },
-    {
-      "slug": "inheritance",
-      "terms": [
-        "inheritance",
-        ""
-      ]
-    },
-    {
-      "slug": "forward_direction",
-      "terms": [
-        "forward direction",
-        "transforms",
-        "basis",
-        ""
-      ]
-    },
-    {
-      "slug": "parameter",
-      "terms": [
-        "function parameter",
-        ""
-      ]
-    },
-    {
-      "slug": "data_structure",
-      "terms": [
-        "data structure",
-        ""
-      ]
-    },
-    {
-      "slug": "stylebox",
-      "terms": [
-        "stylebox",
-        "StyleBoxFlat",
-        "StyleBoxTexture",
-        "StyleBoxLine",
-        "StyleBoxEmpty",
-        "user interface",
-        "theme",
-        ""
-      ]
-    },
-    {
-      "slug": "shader",
-      "terms": [
-        "shaders",
-        "graphics",
-        "design",
-        "art",
-        ""
-      ]
-    },
-    {
-      "slug": "function_init",
-      "terms": [
-        "init function",
-        ""
-      ]
-    },
-    {
-      "slug": "dictionary",
-      "terms": [
-        "dictionary",
-        "Object",
-        "Hashmap",
-        "Table",
-        "Map",
-        "UnorderedMap",
-        ""
-      ]
-    },
-    {
-      "slug": "polar_coordinates",
-      "terms": [
-        "polar coordinates",
-        "angle",
-        "degrees",
-        ""
-      ]
-    },
-    {
-      "slug": "raycast",
-      "terms": [
-        "raycast",
-        "physics",
-        "collision",
-        ""
-      ]
-    },
-    {
-      "slug": "finite_state_machine",
-      "terms": [
-        "finite state machine",
-        "FSM",
-        ""
-      ]
-    },
-    {
-      "slug": "early_return",
-      "terms": [
-        "early returns",
-        ""
-      ]
-    },
-    {
-      "slug": "closure",
-      "terms": [
-        "closure",
-        ""
-      ]
-    },
-    {
-      "slug": "design_pattern",
-      "terms": [
-        "design pattern",
-        "programming pattern",
-        "state machine",
-        ""
-      ]
-    },
-    {
-      "slug": "function_virtual",
-      "terms": [
-        "virtual function",
-        ""
-      ]
-    },
-    {
-      "slug": "composition",
-      "terms": [
-        "composition",
-        "pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "scene_tree",
-      "terms": [
-        "scene tree",
+        "static variable",
         ""
       ]
     },
@@ -751,16 +723,6 @@
       ]
     },
     {
-      "slug": "dot_product",
-      "terms": [
-        "dot product",
-        "vectors",
-        "math",
-        "geometry",
-        ""
-      ]
-    },
-    {
       "slug": "premature_optimization",
       "terms": [
         "premature optimization",
@@ -799,6 +761,16 @@
         "best possible code",
         "efficiency",
         "efficient",
+        ""
+      ]
+    },
+    {
+      "slug": "dot_product",
+      "terms": [
+        "dot product",
+        "vectors",
+        "math",
+        "geometry",
         ""
       ]
     },
@@ -1094,6 +1066,34 @@
       ]
     },
     {
+      "slug": "basis",
+      "terms": [
+        "basis",
+        "rotation",
+        "matrix",
+        "orientation",
+        "axes",
+        ""
+      ]
+    },
+    {
+      "slug": "keyframe",
+      "terms": [
+        "keyframe",
+        "animation",
+        ""
+      ]
+    },
+    {
+      "slug": "billboard",
+      "terms": [
+        "billboard (3d)",
+        "Sprite3D",
+        "Label3D",
+        ""
+      ]
+    },
+    {
       "slug": "side_effect",
       "terms": [
         "side effect",
@@ -1245,93 +1245,10 @@
       ]
     },
     {
-      "slug": "signal",
+      "slug": "collision_layers_and_masks",
       "terms": [
-        "signal",
-        "event",
-        ""
-      ]
-    },
-    {
-      "slug": "indirection",
-      "terms": [
-        "indirection",
-        ""
-      ]
-    },
-    {
-      "slug": "format_svg",
-      "terms": [
-        "svg format",
-        ""
-      ]
-    },
-    {
-      "slug": "api",
-      "terms": [
-        "api (application programming interface)",
-        ""
-      ]
-    },
-    {
-      "slug": "collision",
-      "terms": [
-        "collisions",
+        "collision layers and masks",
         "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "texel",
-      "terms": [
-        "texel",
-        "pixel",
-        "texture",
-        "graphics",
-        ""
-      ]
-    },
-    {
-      "slug": "serialization",
-      "terms": [
-        "serialization",
-        ""
-      ]
-    },
-    {
-      "slug": "copy_customize_create",
-      "terms": [
-        "copy, customize, create",
-        ""
-      ]
-    },
-    {
-      "slug": "pragmatic_programming",
-      "terms": [
-        "pragmatic programming",
-        ""
-      ]
-    },
-    {
-      "slug": "instruction",
-      "terms": [
-        "instructions",
-        "opcode",
-        "assembly",
-        ""
-      ]
-    },
-    {
-      "slug": "ai_in_games",
-      "terms": [
-        "ai (game ai)",
-        ""
-      ]
-    },
-    {
-      "slug": "naming",
-      "terms": [
-        "naming things",
         ""
       ]
     },
@@ -1346,10 +1263,93 @@
       ]
     },
     {
-      "slug": "collision_layers_and_masks",
+      "slug": "naming",
       "terms": [
-        "collision layers and masks",
+        "naming things",
+        ""
+      ]
+    },
+    {
+      "slug": "ai_in_games",
+      "terms": [
+        "ai (game ai)",
+        ""
+      ]
+    },
+    {
+      "slug": "instruction",
+      "terms": [
+        "instructions",
+        "opcode",
+        "assembly",
+        ""
+      ]
+    },
+    {
+      "slug": "pragmatic_programming",
+      "terms": [
+        "pragmatic programming",
+        ""
+      ]
+    },
+    {
+      "slug": "copy_customize_create",
+      "terms": [
+        "copy, customize, create",
+        ""
+      ]
+    },
+    {
+      "slug": "serialization",
+      "terms": [
+        "serialization",
+        ""
+      ]
+    },
+    {
+      "slug": "texel",
+      "terms": [
+        "texel",
+        "pixel",
+        "texture",
+        "graphics",
+        ""
+      ]
+    },
+    {
+      "slug": "collision",
+      "terms": [
+        "collisions",
         "physics",
+        ""
+      ]
+    },
+    {
+      "slug": "api",
+      "terms": [
+        "api (application programming interface)",
+        ""
+      ]
+    },
+    {
+      "slug": "format_svg",
+      "terms": [
+        "svg format",
+        ""
+      ]
+    },
+    {
+      "slug": "indirection",
+      "terms": [
+        "indirection",
+        ""
+      ]
+    },
+    {
+      "slug": "signal",
+      "terms": [
+        "signal",
+        "event",
         ""
       ]
     },
@@ -1563,13 +1563,6 @@
       ]
     },
     {
-      "slug": "data",
-      "terms": [
-        "data",
-        ""
-      ]
-    },
-    {
       "slug": "opengl",
       "terms": [
         "opengl",
@@ -1578,10 +1571,17 @@
         "vulkan",
         ""
       ]
+    },
+    {
+      "slug": "data",
+      "terms": [
+        "data",
+        ""
+      ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-08-21T10:24:00.280Z"
+    "generatedAt": "2026-08-23T10:13:19.047Z"
   }
 }
