@@ -115,7 +115,7 @@ languageName = "English"
 weight = 1
 [[languages.en.menu.main]]
 name        = "Tutorials"
-url         = "/tutorial/"
+url         = "/library/"
 weight      = 1
 [[languages.en.menu.main]]
 name        = "Tools"
@@ -135,7 +135,7 @@ languageName = "Español"
 weight = 2
 [[languages.es.menu.main]]
 name        = "Tutoriales"
-url         = "/tutorial/"
+url         = "/library/"
 weight      = 1
 [[languages.es.menu.main]]
 name        = "Software"
@@ -155,7 +155,7 @@ languageName = "Français"
 weight = 3
 [[languages.fr.menu.main]]
 name        = "Tutoriels"
-url         = "/tutorial/"
+url         = "/library/"
 weight      = 1
 [[languages.fr.menu.main]]
 name        = "Outils"
@@ -175,7 +175,7 @@ languageName = "日本語"
 weight = 4
 [[languages.ja.menu.main]]
 name        = "チュートリアル"
-url         = "/tutorial/"
+url         = "/library/"
 weight      = 1
 [[languages.ja.menu.main]]
 name        = "ツール"
