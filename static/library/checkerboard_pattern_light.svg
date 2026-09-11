@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2" height="2">
+    <style>
+        rect { fill: #ffffff; }
+        .other-color { fill: #cacaca; }
+    </style>
+    <rect width="2" height="2"/>
+    <rect class="other-color" width="1" height="1" />
+    <rect class="other-color" x="1" y="1" width="1" height="1" />
+</svg>
