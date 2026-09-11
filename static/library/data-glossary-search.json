@@ -210,6 +210,23 @@
       ]
     },
     {
+      "slug": "race_condition",
+      "terms": [
+        "race condition",
+        ""
+      ]
+    },
+    {
+      "slug": "bezier_curve",
+      "terms": [
+        "bezier curve",
+        "spline",
+        "path",
+        "smooth interpolation",
+        ""
+      ]
+    },
+    {
       "slug": "object",
       "terms": [
         "object",
@@ -250,28 +267,19 @@
       ]
     },
     {
-      "slug": "bezier_curve",
-      "terms": [
-        "bezier curve",
-        "spline",
-        "path",
-        "smooth interpolation",
-        ""
-      ]
-    },
-    {
-      "slug": "race_condition",
-      "terms": [
-        "race condition",
-        ""
-      ]
-    },
-    {
       "slug": "billboard",
       "terms": [
         "billboard (3d)",
         "Sprite3D",
         "Label3D",
+        ""
+      ]
+    },
+    {
+      "slug": "keyframe",
+      "terms": [
+        "keyframe",
+        "animation",
         ""
       ]
     },
@@ -287,25 +295,9 @@
       ]
     },
     {
-      "slug": "keyframe",
-      "terms": [
-        "keyframe",
-        "animation",
-        ""
-      ]
-    },
-    {
       "slug": "static_variable",
       "terms": [
         "static variable",
-        ""
-      ]
-    },
-    {
-      "slug": "object_oriented_programming",
-      "terms": [
-        "object-oriented programming",
-        "oop",
         ""
       ]
     },
@@ -338,6 +330,14 @@
       ]
     },
     {
+      "slug": "object_oriented_programming",
+      "terms": [
+        "object-oriented programming",
+        "oop",
+        ""
+      ]
+    },
+    {
       "slug": "implementation_details",
       "terms": [
         "implementation details",
@@ -348,85 +348,83 @@
       ]
     },
     {
-      "slug": "composition",
+      "slug": "level_design",
       "terms": [
-        "composition",
-        "pattern",
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
         ""
       ]
     },
     {
-      "slug": "function_virtual",
+      "slug": "sprite_sheet",
       "terms": [
-        "virtual function",
+        "sprite sheet",
+        "sprite atlas",
+        "texture atlas",
+        "animation frames",
         ""
       ]
     },
     {
-      "slug": "closure",
+      "slug": "your_future_self",
       "terms": [
-        "closure",
+        "your co-worker: your future self",
+        "documentation",
+        "collaboration",
         ""
       ]
     },
     {
-      "slug": "design_pattern",
+      "slug": "pseudo_code",
       "terms": [
-        "design pattern",
-        "programming pattern",
-        "state machine",
+        "pseudo code",
         ""
       ]
     },
     {
-      "slug": "early_return",
+      "slug": "super_keyword",
       "terms": [
-        "early returns",
+        "super keyword",
         ""
       ]
     },
     {
-      "slug": "raycast",
+      "slug": "custom_constructor",
       "terms": [
-        "raycast",
-        "physics",
-        "collision",
+        "custom constructors",
         ""
       ]
     },
     {
-      "slug": "finite_state_machine",
+      "slug": "inheritance",
       "terms": [
-        "finite state machine",
-        "FSM",
+        "inheritance",
         ""
       ]
     },
     {
-      "slug": "polar_coordinates",
+      "slug": "forward_direction",
       "terms": [
-        "polar coordinates",
-        "angle",
-        "degrees",
+        "forward direction",
+        "transforms",
+        "basis",
         ""
       ]
     },
     {
-      "slug": "function_init",
+      "slug": "parameter",
       "terms": [
-        "init function",
+        "function parameter",
         ""
       ]
     },
     {
-      "slug": "dictionary",
+      "slug": "data_structure",
       "terms": [
-        "dictionary",
-        "Object",
-        "Hashmap",
-        "Table",
-        "Map",
-        "UnorderedMap",
+        "data structure",
         ""
       ]
     },
@@ -454,83 +452,85 @@
       ]
     },
     {
-      "slug": "data_structure",
+      "slug": "function_init",
       "terms": [
-        "data structure",
+        "init function",
         ""
       ]
     },
     {
-      "slug": "parameter",
+      "slug": "dictionary",
       "terms": [
-        "function parameter",
+        "dictionary",
+        "Object",
+        "Hashmap",
+        "Table",
+        "Map",
+        "UnorderedMap",
         ""
       ]
     },
     {
-      "slug": "forward_direction",
+      "slug": "polar_coordinates",
       "terms": [
-        "forward direction",
-        "transforms",
-        "basis",
+        "polar coordinates",
+        "angle",
+        "degrees",
         ""
       ]
     },
     {
-      "slug": "inheritance",
+      "slug": "raycast",
       "terms": [
-        "inheritance",
+        "raycast",
+        "physics",
+        "collision",
         ""
       ]
     },
     {
-      "slug": "custom_constructor",
+      "slug": "finite_state_machine",
       "terms": [
-        "custom constructors",
+        "finite state machine",
+        "FSM",
         ""
       ]
     },
     {
-      "slug": "super_keyword",
+      "slug": "early_return",
       "terms": [
-        "super keyword",
+        "early returns",
         ""
       ]
     },
     {
-      "slug": "pseudo_code",
+      "slug": "closure",
       "terms": [
-        "pseudo code",
+        "closure",
         ""
       ]
     },
     {
-      "slug": "sprite_sheet",
+      "slug": "design_pattern",
       "terms": [
-        "sprite sheet",
-        "sprite atlas",
-        "texture atlas",
-        "animation frames",
+        "design pattern",
+        "programming pattern",
+        "state machine",
         ""
       ]
     },
     {
-      "slug": "your_future_self",
+      "slug": "function_virtual",
       "terms": [
-        "your co-worker: your future self",
-        "documentation",
-        "collaboration",
+        "virtual function",
         ""
       ]
     },
     {
-      "slug": "level_design",
+      "slug": "composition",
       "terms": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
+        "composition",
+        "pattern",
         ""
       ]
     },
@@ -573,50 +573,114 @@
       ]
     },
     {
-      "slug": "backend",
+      "slug": "type_coercion",
       "terms": [
-        "backend",
+        "implicit type coercion",
+        "conversion",
         ""
       ]
     },
     {
-      "slug": "interpolation",
+      "slug": "reference_counting",
       "terms": [
-        "interpolation",
+        "reference counting",
+        "memory management",
         ""
       ]
     },
     {
-      "slug": "lifecycle_term",
+      "slug": "property",
       "terms": [
-        "lifecycle (term)",
+        "property, member variable",
         ""
       ]
     },
     {
-      "slug": "modulo",
+      "slug": "best_code",
       "terms": [
-        "modulo (%) operator",
-        "division",
-        "remainder",
+        "best possible code",
+        "efficiency",
+        "efficient",
         ""
       ]
     },
     {
-      "slug": "steering_behaviors",
+      "slug": "dot_product",
       "terms": [
-        "steering behaviors",
-        "follow",
-        "arrive",
-        "ai",
-        "steering",
+        "dot product",
+        "vectors",
+        "math",
+        "geometry",
         ""
       ]
     },
     {
-      "slug": "type_inference",
+      "slug": "framework",
       "terms": [
-        "type inference",
+        "software framework",
+        "engine",
+        "game engine",
+        ""
+      ]
+    },
+    {
+      "slug": "function_signature",
+      "terms": [
+        "function signature",
+        ""
+      ]
+    },
+    {
+      "slug": "coyote_time",
+      "terms": [
+        "coyote time",
+        "grace period",
+        "delayed jump",
+        ""
+      ]
+    },
+    {
+      "slug": "deterministic_simulation",
+      "terms": [
+        "deterministic simulation",
+        "physics",
+        "determinism",
+        "consistency",
+        ""
+      ]
+    },
+    {
+      "slug": "command_line",
+      "terms": [
+        "command line",
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd",
+        ""
+      ]
+    },
+    {
+      "slug": "setter_getter",
+      "terms": [
+        "setters and getters",
+        ""
+      ]
+    },
+    {
+      "slug": "bound_check",
+      "terms": [
+        "bound checks",
+        ""
+      ]
+    },
+    {
+      "slug": "interface_api",
+      "terms": [
+        "interface",
+        "oop",
+        "object-oriented programming",
         ""
       ]
     },
@@ -688,114 +752,50 @@
       ]
     },
     {
-      "slug": "interface_api",
+      "slug": "type_inference",
       "terms": [
-        "interface",
-        "oop",
-        "object-oriented programming",
+        "type inference",
         ""
       ]
     },
     {
-      "slug": "bound_check",
+      "slug": "steering_behaviors",
       "terms": [
-        "bound checks",
+        "steering behaviors",
+        "follow",
+        "arrive",
+        "ai",
+        "steering",
         ""
       ]
     },
     {
-      "slug": "command_line",
+      "slug": "lifecycle_term",
       "terms": [
-        "command line",
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd",
+        "lifecycle (term)",
         ""
       ]
     },
     {
-      "slug": "setter_getter",
+      "slug": "modulo",
       "terms": [
-        "setters and getters",
+        "modulo (%) operator",
+        "division",
+        "remainder",
         ""
       ]
     },
     {
-      "slug": "deterministic_simulation",
+      "slug": "interpolation",
       "terms": [
-        "deterministic simulation",
-        "physics",
-        "determinism",
-        "consistency",
+        "interpolation",
         ""
       ]
     },
     {
-      "slug": "coyote_time",
+      "slug": "backend",
       "terms": [
-        "coyote time",
-        "grace period",
-        "delayed jump",
-        ""
-      ]
-    },
-    {
-      "slug": "function_signature",
-      "terms": [
-        "function signature",
-        ""
-      ]
-    },
-    {
-      "slug": "best_code",
-      "terms": [
-        "best possible code",
-        "efficiency",
-        "efficient",
-        ""
-      ]
-    },
-    {
-      "slug": "framework",
-      "terms": [
-        "software framework",
-        "engine",
-        "game engine",
-        ""
-      ]
-    },
-    {
-      "slug": "dot_product",
-      "terms": [
-        "dot product",
-        "vectors",
-        "math",
-        "geometry",
-        ""
-      ]
-    },
-    {
-      "slug": "property",
-      "terms": [
-        "property, member variable",
-        ""
-      ]
-    },
-    {
-      "slug": "reference_counting",
-      "terms": [
-        "reference counting",
-        "memory management",
-        ""
-      ]
-    },
-    {
-      "slug": "type_coercion",
-      "terms": [
-        "implicit type coercion",
-        "conversion",
+        "backend",
         ""
       ]
     },
@@ -1011,13 +1011,6 @@
       ]
     },
     {
-      "slug": "interface_driven_design",
-      "terms": [
-        "interface driven design",
-        ""
-      ]
-    },
-    {
       "slug": "node",
       "terms": [
         "node",
@@ -1083,6 +1076,13 @@
         "math",
         "mathematics",
         "operations",
+        ""
+      ]
+    },
+    {
+      "slug": "interface_driven_design",
+      "terms": [
+        "interface driven design",
         ""
       ]
     },
@@ -1195,6 +1195,63 @@
       ]
     },
     {
+      "slug": "tilemap",
+      "terms": [
+        "tilemap",
+        "tile map",
+        "grid of tiles",
+        "2D grid",
+        "tile-based level",
+        ""
+      ]
+    },
+    {
+      "slug": "function_return",
+      "terms": [
+        "return (function)",
+        ""
+      ]
+    },
+    {
+      "slug": "transition",
+      "terms": [
+        "animation transition",
+        ""
+      ]
+    },
+    {
+      "slug": "hexadecimal",
+      "terms": [
+        "hexadecimal",
+        "decimal",
+        "color",
+        "red",
+        "blue",
+        "green",
+        ""
+      ]
+    },
+    {
+      "slug": "particle_system",
+      "terms": [
+        "particle system",
+        "vfx",
+        "effects",
+        "fire",
+        "energy",
+        "smoke",
+        "trails",
+        ""
+      ]
+    },
+    {
+      "slug": "runtime",
+      "terms": [
+        "runtime",
+        ""
+      ]
+    },
+    {
       "slug": "naming",
       "terms": [
         "naming things",
@@ -1289,63 +1346,6 @@
       "slug": "duck_typing",
       "terms": [
         "duck typing",
-        ""
-      ]
-    },
-    {
-      "slug": "runtime",
-      "terms": [
-        "runtime",
-        ""
-      ]
-    },
-    {
-      "slug": "particle_system",
-      "terms": [
-        "particle system",
-        "vfx",
-        "effects",
-        "fire",
-        "energy",
-        "smoke",
-        "trails",
-        ""
-      ]
-    },
-    {
-      "slug": "hexadecimal",
-      "terms": [
-        "hexadecimal",
-        "decimal",
-        "color",
-        "red",
-        "blue",
-        "green",
-        ""
-      ]
-    },
-    {
-      "slug": "transition",
-      "terms": [
-        "animation transition",
-        ""
-      ]
-    },
-    {
-      "slug": "function_return",
-      "terms": [
-        "return (function)",
-        ""
-      ]
-    },
-    {
-      "slug": "tilemap",
-      "terms": [
-        "tilemap",
-        "tile map",
-        "grid of tiles",
-        "2D grid",
-        "tile-based level",
         ""
       ]
     },
@@ -1568,12 +1568,11 @@
       ]
     },
     {
-      "slug": "opengl",
+      "slug": "pebkac",
       "terms": [
-        "opengl",
-        "graphics",
-        "rendering",
-        "vulkan",
+        "pebkac (user error)",
+        "problem exists between keyboard and chair",
+        "PEBCAK",
         ""
       ]
     },
@@ -1585,17 +1584,18 @@
       ]
     },
     {
-      "slug": "pebkac",
+      "slug": "opengl",
       "terms": [
-        "pebkac (user error)",
-        "problem exists between keyboard and chair",
-        "PEBCAK",
+        "opengl",
+        "graphics",
+        "rendering",
+        "vulkan",
         ""
       ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-09-11T20:36:45.278Z"
+    "generatedAt": "2026-09-11T20:50:33.015Z"
   }
 }
