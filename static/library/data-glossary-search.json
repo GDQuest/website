@@ -1,96 +1,16 @@
 {
   "items": [
     {
-      "slug": "ai_in_games",
-      "terms": [
-        "ai (game ai)",
-        ""
-      ]
-    },
-    {
-      "slug": "indentation",
-      "terms": [
-        "indentation",
-        "code",
-        "style",
-        ""
-      ]
-    },
-    {
-      "slug": "instance",
-      "terms": [
-        "instance",
-        "oop",
-        ""
-      ]
-    },
-    {
-      "slug": "lifecycle_node",
-      "terms": [
-        "node lifecycle",
-        "ready",
-        "init",
-        "enter_tree",
-        "exit_tree",
-        ""
-      ]
-    },
-    {
-      "slug": "low_level_programming",
-      "terms": [
-        "low-level programming",
-        "memory",
-        ""
-      ]
-    },
-    {
-      "slug": "method",
-      "terms": [
-        "method, member function",
-        ""
-      ]
-    },
-    {
-      "slug": "nine_slice_scaling",
-      "terms": [
-        "9-slice scaling",
-        "nine",
-        "texture",
-        "slicing",
-        "user interface",
-        "ui",
-        ""
-      ]
-    },
-    {
-      "slug": "test_driven_design",
-      "terms": [
-        "test driven design",
-        "tdd",
-        "testing",
-        "unit test",
-        ""
-      ]
-    },
-    {
-      "slug": "transition",
-      "terms": [
-        "animation transition",
-        ""
-      ]
-    },
-    {
-      "slug": "tween",
-      "terms": [
-        "tween",
-        "animation",
-        ""
-      ]
-    },
-    {
       "slug": "ai_blackboard",
       "terms": [
         "blackboard pattern (game ai)",
+        ""
+      ]
+    },
+    {
+      "slug": "ai_in_games",
+      "terms": [
+        "ai (game ai)",
         ""
       ]
     },
@@ -469,16 +389,6 @@
       ]
     },
     {
-      "slug": "deterministic_simulation",
-      "terms": [
-        "deterministic simulation",
-        "physics",
-        "determinism",
-        "consistency",
-        ""
-      ]
-    },
-    {
       "slug": "shader",
       "terms": [
         "shaders",
@@ -621,6 +531,14 @@
       ]
     },
     {
+      "slug": "tween",
+      "terms": [
+        "tween",
+        "animation",
+        ""
+      ]
+    },
+    {
       "slug": "tunneling",
       "terms": [
         "tunneling",
@@ -633,6 +551,13 @@
       "terms": [
         "truthy/falsy",
         "coercion",
+        ""
+      ]
+    },
+    {
+      "slug": "transition",
+      "terms": [
+        "animation transition",
         ""
       ]
     },
@@ -691,6 +616,16 @@
         "design",
         "UI",
         "user interface",
+        ""
+      ]
+    },
+    {
+      "slug": "test_driven_design",
+      "terms": [
+        "test driven design",
+        "tdd",
+        "testing",
+        "unit test",
         ""
       ]
     },
@@ -775,32 +710,12 @@
       ]
     },
     {
-      "slug": "sprite",
+      "slug": "deterministic_simulation",
       "terms": [
-        "sprite",
-        "texture",
-        "animation",
-        "2d_graphics",
-        ""
-      ]
-    },
-    {
-      "slug": "singleton",
-      "terms": [
-        "singleton (autoload)",
-        "design pattern",
-        "programming pattern",
-        "pattern",
-        "autoload",
-        ""
-      ]
-    },
-    {
-      "slug": "side_effect",
-      "terms": [
-        "side effect",
-        "functional programming",
-        "fp",
+        "deterministic simulation",
+        "physics",
+        "determinism",
+        "consistency",
         ""
       ]
     },
@@ -1025,12 +940,32 @@
       ]
     },
     {
-      "slug": "frames_per_second",
+      "slug": "sprite",
       "terms": [
-        "frames per second",
-        "FPS",
-        "jitter",
-        "v-sync",
+        "sprite",
+        "texture",
+        "animation",
+        "2d_graphics",
+        ""
+      ]
+    },
+    {
+      "slug": "singleton",
+      "terms": [
+        "singleton (autoload)",
+        "design pattern",
+        "programming pattern",
+        "pattern",
+        "autoload",
+        ""
+      ]
+    },
+    {
+      "slug": "side_effect",
+      "terms": [
+        "side effect",
+        "functional programming",
+        "fp",
         ""
       ]
     },
@@ -1280,6 +1215,18 @@
       ]
     },
     {
+      "slug": "nine_slice_scaling",
+      "terms": [
+        "9-slice scaling",
+        "nine",
+        "texture",
+        "slicing",
+        "user interface",
+        "ui",
+        ""
+      ]
+    },
+    {
       "slug": "naming",
       "terms": [
         "naming things",
@@ -1296,19 +1243,12 @@
       ]
     },
     {
-      "slug": "material",
+      "slug": "frames_per_second",
       "terms": [
-        "material",
-        "graphics",
-        "design",
-        "art",
-        ""
-      ]
-    },
-    {
-      "slug": "main_loop",
-      "terms": [
-        "main loop",
+        "frames per second",
+        "FPS",
+        "jitter",
+        "v-sync",
         ""
       ]
     },
@@ -1466,6 +1406,15 @@
       ]
     },
     {
+      "slug": "indentation",
+      "terms": [
+        "indentation",
+        "code",
+        "style",
+        ""
+      ]
+    },
+    {
       "slug": "indirection",
       "terms": [
         "indirection",
@@ -1476,6 +1425,14 @@
       "slug": "inheritance",
       "terms": [
         "inheritance",
+        ""
+      ]
+    },
+    {
+      "slug": "instance",
+      "terms": [
+        "instance",
+        "oop",
         ""
       ]
     },
@@ -1555,13 +1512,34 @@
       ]
     },
     {
-      "slug": "level_design",
+      "slug": "method",
       "terms": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
+        "method, member function",
+        ""
+      ]
+    },
+    {
+      "slug": "material",
+      "terms": [
+        "material",
+        "graphics",
+        "design",
+        "art",
+        ""
+      ]
+    },
+    {
+      "slug": "main_loop",
+      "terms": [
+        "main loop",
+        ""
+      ]
+    },
+    {
+      "slug": "low_level_programming",
+      "terms": [
+        "low-level programming",
+        "memory",
         ""
       ]
     },
@@ -1578,10 +1556,32 @@
         "lifecycle (term)",
         ""
       ]
+    },
+    {
+      "slug": "lifecycle_node",
+      "terms": [
+        "node lifecycle",
+        "ready",
+        "init",
+        "enter_tree",
+        "exit_tree",
+        ""
+      ]
+    },
+    {
+      "slug": "level_design",
+      "terms": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
+        ""
+      ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-09-12T13:46:22.086Z"
+    "generatedAt": "2026-09-13T17:59:16.791Z"
   }
 }
