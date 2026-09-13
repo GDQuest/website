@@ -474,38 +474,6 @@
       "isYoutubeShort": false
     },
     {
-      "slug": "modular_game_architecture",
-      "title": "modular game architecture: how aaa veterans structure godot projects",
-      "description": "learn how a team of 15 to 20 developers structured their 40+ hour crpg in godot. ricard pillosu from epictellers kindly shared his insights on modular architecture and the structure they're using to build a large and complex commercial game withh godot.",
-      "entry_type": "learning_resource",
-      "format": [
-        "study_guide"
-      ],
-      "tool_version": [
-        "godot_4"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "architecture",
-        "best_practices",
-        "interview"
-      ],
-      "search": [
-        "modular game architecture: how aaa veterans structure godot projects",
-        "professional game architecture from aaa veterans",
-        "game architecture",
-        "game architectures",
-        "best practices",
-        "interview",
-        "interviews",
-        "learn how a team of 15 to 20 developers structured their 40+ hour crpg in godot. ricard pillosu from epictellers kindly shared his insights on modular architecture and the structure they're using to build a large and complex commercial game withh godot."
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
       "slug": "save_game_godot4",
       "title": "saving and loading games in godot 4 (with resources)",
       "description": "learn how to save and load game data efficiently using godot 4's resource system. this guide covers creating custom save game resources, handling complex nested data, and understanding the improvements in godot 4's resource saving workflow.",
@@ -598,9 +566,9 @@
       "isYoutubeShort": false
     },
     {
-      "slug": "shader_breakpoints",
-      "title": "debug shaders with preview breakpoints",
-      "description": "learn how to use the godot shader breakpoint feature to inspect what different variables are producing in your shader.",
+      "slug": "modular_game_architecture",
+      "title": "modular game architecture: how aaa veterans structure godot projects",
+      "description": "learn how a team of 15 to 20 developers structured their 40+ hour crpg in godot. ricard pillosu from epictellers kindly shared his insights on modular architecture and the structure they're using to build a large and complex commercial game withh godot.",
       "entry_type": "learning_resource",
       "format": [
         "study_guide"
@@ -608,19 +576,22 @@
       "tool_version": [
         "godot_4"
       ],
-      "game_space": [
-        "2d",
-        "3d"
-      ],
+      "game_space": [],
       "game_genre": [],
       "subject_tags": [
-        "shaders"
+        "architecture",
+        "best_practices",
+        "interview"
       ],
       "search": [
-        "debug shaders with preview breakpoints",
-        "shader",
-        "shaders",
-        "learn how to use the godot shader breakpoint feature to inspect what different variables are producing in your shader."
+        "modular game architecture: how aaa veterans structure godot projects",
+        "professional game architecture from aaa veterans",
+        "game architecture",
+        "game architectures",
+        "best practices",
+        "interview",
+        "interviews",
+        "learn how a team of 15 to 20 developers structured their 40+ hour crpg in godot. ricard pillosu from epictellers kindly shared his insights on modular architecture and the structure they're using to build a large and complex commercial game withh godot."
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -825,35 +796,6 @@
         "shader",
         "shaders",
         "create your first shader in godot. implement texture sampling, shift shader uv coordinates, mask regions, and use noise to generate random shapes that make up a portal."
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
-      "slug": "demo_2d_space_game",
-      "title": "2d space game demo",
-      "description": "top-down space mining game made with the godot game engine. control your spaceship in forays into an asteroid belt, gather iron, and bring it back to base.",
-      "entry_type": "asset",
-      "format": [
-        "demo"
-      ],
-      "tool_version": [
-        "godot_3"
-      ],
-      "game_space": [
-        "2d"
-      ],
-      "game_genre": [],
-      "subject_tags": [
-        "full_game"
-      ],
-      "search": [
-        "2d space game demo",
-        "2d space game",
-        "full game",
-        "full games",
-        "top-down space mining game made with the godot game engine. control your spaceship in forays into an asteroid belt, gather iron, and bring it back to base."
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -1175,6 +1117,35 @@
         "full game",
         "full games",
         "a rhythm game demo designed for the course godot 2d secrets."
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "demo_2d_space_game",
+      "title": "2d space game demo",
+      "description": "top-down space mining game made with the godot game engine. control your spaceship in forays into an asteroid belt, gather iron, and bring it back to base.",
+      "entry_type": "asset",
+      "format": [
+        "demo"
+      ],
+      "tool_version": [
+        "godot_3"
+      ],
+      "game_space": [
+        "2d"
+      ],
+      "game_genre": [],
+      "subject_tags": [
+        "full_game"
+      ],
+      "search": [
+        "2d space game demo",
+        "2d space game",
+        "full game",
+        "full games",
+        "top-down space mining game made with the godot game engine. control your spaceship in forays into an asteroid belt, gather iron, and bring it back to base."
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -2219,33 +2190,6 @@
       "isYoutubeShort": false
     },
     {
-      "slug": "optimization_code",
-      "title": "optimizing gdscript code",
-      "description": "a list of tips to write faster gdscript code in godot.",
-      "entry_type": "learning_resource",
-      "format": [
-        "study_guide"
-      ],
-      "tool_version": [
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [
-        "gdscript",
-        "performance"
-      ],
-      "search": [
-        "optimizing gdscript code",
-        "gdscript",
-        "performance",
-        "a list of tips to write faster gdscript code in godot."
-      ],
-      "archived": false,
-      "isGlossaryEntry": false,
-      "isYoutubeShort": false
-    },
-    {
       "slug": "optimization_engine",
       "title": "making the most of godot's speed",
       "description": "a list of tips to reduce the amount of manual work you do and use the speed of godot's c++.",
@@ -2268,6 +2212,33 @@
         "gdscript",
         "performance",
         "a list of tips to reduce the amount of manual work you do and use the speed of godot's c++."
+      ],
+      "archived": false,
+      "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "optimization_code",
+      "title": "optimizing gdscript code",
+      "description": "a list of tips to write faster gdscript code in godot.",
+      "entry_type": "learning_resource",
+      "format": [
+        "study_guide"
+      ],
+      "tool_version": [
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [
+        "gdscript",
+        "performance"
+      ],
+      "search": [
+        "optimizing gdscript code",
+        "gdscript",
+        "performance",
+        "a list of tips to write faster gdscript code in godot."
       ],
       "archived": false,
       "isGlossaryEntry": false,
@@ -3173,6 +3144,34 @@
       ],
       "archived": false,
       "isGlossaryEntry": false,
+      "isYoutubeShort": false
+    },
+    {
+      "slug": "level_design",
+      "title": "level design",
+      "description": "",
+      "entry_type": "learning_resource",
+      "format": [
+        "glossary"
+      ],
+      "tool_version": [
+        "krita",
+        "godot_4",
+        "godot_3"
+      ],
+      "game_space": [],
+      "game_genre": [],
+      "subject_tags": [],
+      "search": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
+        ""
+      ],
+      "archived": false,
+      "isGlossaryEntry": true,
       "isYoutubeShort": false
     },
     {
@@ -5680,34 +5679,6 @@
       "isYoutubeShort": false
     },
     {
-      "slug": "level_design",
-      "title": "level design",
-      "description": "",
-      "entry_type": "learning_resource",
-      "format": [
-        "glossary"
-      ],
-      "tool_version": [
-        "krita",
-        "godot_4",
-        "godot_3"
-      ],
-      "game_space": [],
-      "game_genre": [],
-      "subject_tags": [],
-      "search": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
-        ""
-      ],
-      "archived": false,
-      "isGlossaryEntry": true,
-      "isYoutubeShort": false
-    },
-    {
       "slug": "lifecycle_node",
       "title": "node lifecycle",
       "description": "",
@@ -7868,6 +7839,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-09-13T18:05:58.738Z"
+    "generatedAt": "2026-09-13T18:10:16.899Z"
   }
 }

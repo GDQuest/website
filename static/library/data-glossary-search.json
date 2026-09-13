@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "level_design",
+      "terms": [
+        "level design",
+        "game level",
+        "map design",
+        "environment",
+        "level designer",
+        ""
+      ]
+    },
+    {
       "slug": "ai_blackboard",
       "terms": [
         "blackboard pattern (game ai)",
@@ -839,17 +850,6 @@
       ]
     },
     {
-      "slug": "level_design",
-      "terms": [
-        "level design",
-        "game level",
-        "map design",
-        "environment",
-        "level designer",
-        ""
-      ]
-    },
-    {
       "slug": "lifecycle_node",
       "terms": [
         "node lifecycle",
@@ -1582,6 +1582,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-09-13T18:05:58.738Z"
+    "generatedAt": "2026-09-13T18:10:16.899Z"
   }
 }
