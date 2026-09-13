@@ -1,75 +1,6 @@
 {
   "items": [
     {
-      "slug": "bbcode",
-      "terms": [
-        "bulletin board code (bbcode)",
-        ""
-      ]
-    },
-    {
-      "slug": "constructor",
-      "terms": [
-        "constructor method",
-        "init",
-        ""
-      ]
-    },
-    {
-      "slug": "coupling",
-      "terms": [
-        "coupling",
-        ""
-      ]
-    },
-    {
-      "slug": "editor_tooling",
-      "terms": [
-        "editor tooling",
-        ""
-      ]
-    },
-    {
-      "slug": "game_states",
-      "terms": [
-        "game states",
-        ""
-      ]
-    },
-    {
-      "slug": "indirection",
-      "terms": [
-        "indirection",
-        ""
-      ]
-    },
-    {
-      "slug": "tunneling",
-      "terms": [
-        "tunneling",
-        "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "viewport",
-      "terms": [
-        "viewport",
-        "rendering",
-        ""
-      ]
-    },
-    {
-      "slug": "paradigm_declarative",
-      "terms": [
-        "declarative programming",
-        "SQL",
-        "prolog",
-        "paradigm",
-        ""
-      ]
-    },
-    {
       "slug": "ai_blackboard",
       "terms": [
         "blackboard pattern (game ai)",
@@ -158,6 +89,13 @@
         "matrix",
         "orientation",
         "axes",
+        ""
+      ]
+    },
+    {
+      "slug": "bbcode",
+      "terms": [
+        "bulletin board code (bbcode)",
         ""
       ]
     },
@@ -299,6 +237,14 @@
       ]
     },
     {
+      "slug": "constructor",
+      "terms": [
+        "constructor method",
+        "init",
+        ""
+      ]
+    },
+    {
       "slug": "continuous_collision_detection",
       "terms": [
         "continuous collision detection (ccd)",
@@ -312,6 +258,13 @@
       "slug": "copy_customize_create",
       "terms": [
         "copy, customize, create",
+        ""
+      ]
+    },
+    {
+      "slug": "coupling",
+      "terms": [
+        "coupling",
         ""
       ]
     },
@@ -478,6 +431,13 @@
       "slug": "easing",
       "terms": [
         "animation easing",
+        ""
+      ]
+    },
+    {
+      "slug": "editor_tooling",
+      "terms": [
+        "editor tooling",
         ""
       ]
     },
@@ -736,6 +696,13 @@
       ]
     },
     {
+      "slug": "game_states",
+      "terms": [
+        "game states",
+        ""
+      ]
+    },
+    {
       "slug": "gamejam",
       "terms": [
         "game jam",
@@ -771,6 +738,13 @@
         "indentation",
         "code",
         "style",
+        ""
+      ]
+    },
+    {
+      "slug": "indirection",
+      "terms": [
+        "indirection",
         ""
       ]
     },
@@ -1399,6 +1373,14 @@
       ]
     },
     {
+      "slug": "tunneling",
+      "terms": [
+        "tunneling",
+        "physics",
+        ""
+      ]
+    },
+    {
       "slug": "tween",
       "terms": [
         "tween",
@@ -1467,6 +1449,14 @@
         "git",
         "vcs",
         "version control",
+        ""
+      ]
+    },
+    {
+      "slug": "viewport",
+      "terms": [
+        "viewport",
+        "rendering",
         ""
       ]
     },
@@ -1551,6 +1541,16 @@
       ]
     },
     {
+      "slug": "paradigm_declarative",
+      "terms": [
+        "declarative programming",
+        "SQL",
+        "prolog",
+        "paradigm",
+        ""
+      ]
+    },
+    {
       "slug": "fragment",
       "terms": [
         "fragment",
@@ -1582,6 +1582,6 @@
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-09-13T18:01:07.827Z"
+    "generatedAt": "2026-09-13T18:05:58.738Z"
   }
 }
