@@ -6,7 +6,7 @@
         --icon-checkmark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z'%3E%3C/path%3E%3C/svg%3E");
         --icon-error: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z'%3E%3C/path%3E%3C/svg%3E");
         --color-error: #C41D3D;
-        --color-success: #63CC5F;
+        --color-success: #34AF2F;
         --color-loading: #989898;
     }
 
@@ -39,10 +39,11 @@
         transform: translateY(5px);
     }
     .course_access_check--status_messages--message::before{
+        --size: 1.4rem;
         display: inline-block;
         margin-inline-end: 0.3rem;
-        height: 1rem;
-        width: 1rem;
+        height: var(--size);
+        width: var(--size);
         vertical-align: middle;
         content: "";
     }
@@ -56,6 +57,7 @@
         mask-image: var(--icon-checkmark);
     }
     .course_access_check--status_messages--message.error::before{
+        --size: 1.6rem;
         background-color: var(--color-error);
         mask-image: var(--icon-error);
     }
@@ -86,10 +88,19 @@
         transform: translateY(0);
     }
 
-    .course_access_check--status_messages--message.error span, .course_access_check--status_messages--message.error a{
+    .course_access_check--status_messages--message.error, .course_access_check--status_messages--message.error a{
         color: #C41D3D;
     }
-    .course_access_check--status_messages--message.error a{
+    .course_access_check--status_messages--message.success, .course_access_check--status_messages--message.success a{
+        color: var(--color-success);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .course_access_check--status_messages--message.error span{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .course_access_check--status_messages--message a{
         text-decoration: underline;
     }
 
@@ -128,7 +139,7 @@
             `<div class="course_access_check--status_messages">`,
             `<span class="course_access_check--status_messages--message loading">Checking...</span>`,
             `<span class="course_access_check--status_messages--message success">Accessible</span>`,
-            `<span class="course_access_check--status_messages--message error"><span>There might be a problem with the domain <a href="${domain}">${domain}</a>.</span> We might still be able to help you set up access. Contact GDQuest.</span>`,
+            `<span class="course_access_check--status_messages--message error"><span>Not Accessible</span> - It looks like you can't access <a href="${domain}">${domain}</a>. Please make sure you've whitelisted this domain.</span>`,
             `</div>`,
         ].join("");
     document.querySelectorAll(".course_access_check ul li a").forEach(
