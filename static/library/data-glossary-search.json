@@ -159,74 +159,6 @@
       ]
     },
     {
-      "slug": "expression",
-      "terms": [
-        "expressions",
-        ""
-      ]
-    },
-    {
-      "slug": "draw_order",
-      "terms": [
-        "draw order",
-        "graphics",
-        "rendering",
-        "passes",
-        ""
-      ]
-    },
-    {
-      "slug": "normal",
-      "terms": [
-        "normal vector",
-        ""
-      ]
-    },
-    {
-      "slug": "annotation",
-      "terms": [
-        "annotation",
-        "@onready",
-        "@export",
-        "@abstract",
-        ""
-      ]
-    },
-    {
-      "slug": "frames_per_second",
-      "terms": [
-        "frames per second",
-        "FPS",
-        "jitter",
-        "v-sync",
-        ""
-      ]
-    },
-    {
-      "slug": "framerate_independence",
-      "terms": [
-        "framerate independence",
-        ""
-      ]
-    },
-    {
-      "slug": "race_condition",
-      "terms": [
-        "race condition",
-        ""
-      ]
-    },
-    {
-      "slug": "bezier_curve",
-      "terms": [
-        "bezier curve",
-        "spline",
-        "path",
-        "smooth interpolation",
-        ""
-      ]
-    },
-    {
       "slug": "object",
       "terms": [
         "object",
@@ -267,9 +199,78 @@
       ]
     },
     {
-      "slug": "closure",
+      "slug": "bezier_curve",
       "terms": [
-        "closure",
+        "bezier curve",
+        "spline",
+        "path",
+        "smooth interpolation",
+        ""
+      ]
+    },
+    {
+      "slug": "race_condition",
+      "terms": [
+        "race condition",
+        ""
+      ]
+    },
+    {
+      "slug": "framerate_independence",
+      "terms": [
+        "framerate independence",
+        ""
+      ]
+    },
+    {
+      "slug": "frames_per_second",
+      "terms": [
+        "frames per second",
+        "FPS",
+        "jitter",
+        "v-sync",
+        ""
+      ]
+    },
+    {
+      "slug": "annotation",
+      "terms": [
+        "annotation",
+        "@onready",
+        "@export",
+        "@abstract",
+        ""
+      ]
+    },
+    {
+      "slug": "normal",
+      "terms": [
+        "normal vector",
+        ""
+      ]
+    },
+    {
+      "slug": "draw_order",
+      "terms": [
+        "draw order",
+        "graphics",
+        "rendering",
+        "passes",
+        ""
+      ]
+    },
+    {
+      "slug": "expression",
+      "terms": [
+        "expressions",
+        ""
+      ]
+    },
+    {
+      "slug": "composition",
+      "terms": [
+        "composition",
+        "pattern",
         ""
       ]
     },
@@ -281,10 +282,18 @@
       ]
     },
     {
-      "slug": "composition",
+      "slug": "design_pattern",
       "terms": [
-        "composition",
-        "pattern",
+        "design pattern",
+        "programming pattern",
+        "state machine",
+        ""
+      ]
+    },
+    {
+      "slug": "closure",
+      "terms": [
+        "closure",
         ""
       ]
     },
@@ -304,32 +313,11 @@
       ]
     },
     {
-      "slug": "design_pattern",
-      "terms": [
-        "design pattern",
-        "programming pattern",
-        "state machine",
-        ""
-      ]
-    },
-    {
       "slug": "raycast",
       "terms": [
         "raycast",
         "physics",
         "collision",
-        ""
-      ]
-    },
-    {
-      "slug": "dictionary",
-      "terms": [
-        "dictionary",
-        "Object",
-        "Hashmap",
-        "Table",
-        "Map",
-        "UnorderedMap",
         ""
       ]
     },
@@ -343,15 +331,14 @@
       ]
     },
     {
-      "slug": "stylebox",
+      "slug": "dictionary",
       "terms": [
-        "stylebox",
-        "StyleBoxFlat",
-        "StyleBoxTexture",
-        "StyleBoxLine",
-        "StyleBoxEmpty",
-        "user interface",
-        "theme",
+        "dictionary",
+        "Object",
+        "Hashmap",
+        "Table",
+        "Map",
+        "UnorderedMap",
         ""
       ]
     },
@@ -373,9 +360,29 @@
       ]
     },
     {
+      "slug": "stylebox",
+      "terms": [
+        "stylebox",
+        "StyleBoxFlat",
+        "StyleBoxTexture",
+        "StyleBoxLine",
+        "StyleBoxEmpty",
+        "user interface",
+        "theme",
+        ""
+      ]
+    },
+    {
       "slug": "data_structure",
       "terms": [
         "data structure",
+        ""
+      ]
+    },
+    {
+      "slug": "parameter",
+      "terms": [
+        "function parameter",
         ""
       ]
     },
@@ -396,25 +403,9 @@
       ]
     },
     {
-      "slug": "parameter",
-      "terms": [
-        "function parameter",
-        ""
-      ]
-    },
-    {
       "slug": "custom_constructor",
       "terms": [
         "custom constructors",
-        ""
-      ]
-    },
-    {
-      "slug": "your_future_self",
-      "terms": [
-        "your co-worker: your future self",
-        "documentation",
-        "collaboration",
         ""
       ]
     },
@@ -433,12 +424,21 @@
       ]
     },
     {
-      "slug": "implementation_details",
+      "slug": "your_future_self",
       "terms": [
-        "implementation details",
-        "how to code a feature",
-        "specific code approach",
-        "algorithm choice",
+        "your co-worker: your future self",
+        "documentation",
+        "collaboration",
+        ""
+      ]
+    },
+    {
+      "slug": "sprite_sheet",
+      "terms": [
+        "sprite sheet",
+        "sprite atlas",
+        "texture atlas",
+        "animation frames",
         ""
       ]
     },
@@ -454,12 +454,12 @@
       ]
     },
     {
-      "slug": "sprite_sheet",
+      "slug": "implementation_details",
       "terms": [
-        "sprite sheet",
-        "sprite atlas",
-        "texture atlas",
-        "animation frames",
+        "implementation details",
+        "how to code a feature",
+        "specific code approach",
+        "algorithm choice",
         ""
       ]
     },
@@ -484,6 +484,41 @@
       ]
     },
     {
+      "slug": "billboard",
+      "terms": [
+        "billboard (3d)",
+        "Sprite3D",
+        "Label3D",
+        ""
+      ]
+    },
+    {
+      "slug": "keyframe",
+      "terms": [
+        "keyframe",
+        "animation",
+        ""
+      ]
+    },
+    {
+      "slug": "basis",
+      "terms": [
+        "basis",
+        "rotation",
+        "matrix",
+        "orientation",
+        "axes",
+        ""
+      ]
+    },
+    {
+      "slug": "static_variable",
+      "terms": [
+        "static variable",
+        ""
+      ]
+    },
+    {
       "slug": "viewport",
       "terms": [
         "viewport",
@@ -500,51 +535,9 @@
       ]
     },
     {
-      "slug": "static_variable",
+      "slug": "scene_tree",
       "terms": [
-        "static variable",
-        ""
-      ]
-    },
-    {
-      "slug": "basis",
-      "terms": [
-        "basis",
-        "rotation",
-        "matrix",
-        "orientation",
-        "axes",
-        ""
-      ]
-    },
-    {
-      "slug": "keyframe",
-      "terms": [
-        "keyframe",
-        "animation",
-        ""
-      ]
-    },
-    {
-      "slug": "billboard",
-      "terms": [
-        "billboard (3d)",
-        "Sprite3D",
-        "Label3D",
-        ""
-      ]
-    },
-    {
-      "slug": "resource",
-      "terms": [
-        "resource",
-        ""
-      ]
-    },
-    {
-      "slug": "main_loop",
-      "terms": [
-        "main loop",
+        "scene tree",
         ""
       ]
     },
@@ -558,9 +551,16 @@
       ]
     },
     {
-      "slug": "scene_tree",
+      "slug": "main_loop",
       "terms": [
-        "scene tree",
+        "main loop",
+        ""
+      ]
+    },
+    {
+      "slug": "resource",
+      "terms": [
+        "resource",
         ""
       ]
     },
@@ -656,6 +656,16 @@
       ]
     },
     {
+      "slug": "tileset",
+      "terms": [
+        "tileset",
+        "tile set",
+        "tiles",
+        "texture atlas",
+        ""
+      ]
+    },
+    {
       "slug": "delta_time",
       "terms": [
         "delta time",
@@ -671,19 +681,105 @@
       ]
     },
     {
-      "slug": "tileset",
+      "slug": "class_keyword",
       "terms": [
-        "tileset",
-        "tile set",
-        "tiles",
-        "texture atlas",
+        "class",
         ""
       ]
     },
     {
-      "slug": "class_keyword",
+      "slug": "type_coercion",
       "terms": [
-        "class",
+        "implicit type coercion",
+        "conversion",
+        ""
+      ]
+    },
+    {
+      "slug": "reference_counting",
+      "terms": [
+        "reference counting",
+        "memory management",
+        ""
+      ]
+    },
+    {
+      "slug": "property",
+      "terms": [
+        "property, member variable",
+        ""
+      ]
+    },
+    {
+      "slug": "best_code",
+      "terms": [
+        "best possible code",
+        "efficiency",
+        "efficient",
+        ""
+      ]
+    },
+    {
+      "slug": "dot_product",
+      "terms": [
+        "dot product",
+        "vectors",
+        "math",
+        "geometry",
+        ""
+      ]
+    },
+    {
+      "slug": "function_signature",
+      "terms": [
+        "function signature",
+        ""
+      ]
+    },
+    {
+      "slug": "framework",
+      "terms": [
+        "software framework",
+        "engine",
+        "game engine",
+        ""
+      ]
+    },
+    {
+      "slug": "coyote_time",
+      "terms": [
+        "coyote time",
+        "grace period",
+        "delayed jump",
+        ""
+      ]
+    },
+    {
+      "slug": "deterministic_simulation",
+      "terms": [
+        "deterministic simulation",
+        "physics",
+        "determinism",
+        "consistency",
+        ""
+      ]
+    },
+    {
+      "slug": "command_line",
+      "terms": [
+        "command line",
+        "cli",
+        "bash",
+        "zsh",
+        "powershell",
+        "cmd",
+        ""
+      ]
+    },
+    {
+      "slug": "setter_getter",
+      "terms": [
+        "setters and getters",
         ""
       ]
     },
@@ -704,98 +800,213 @@
       ]
     },
     {
-      "slug": "setter_getter",
+      "slug": "premature_optimization",
       "terms": [
-        "setters and getters",
+        "premature optimization",
+        "early optimization",
+        "evil",
+        "future proofing",
         ""
       ]
     },
     {
-      "slug": "command_line",
+      "slug": "lifecycle_node",
       "terms": [
-        "command line",
-        "cli",
-        "bash",
-        "zsh",
-        "powershell",
-        "cmd",
+        "node lifecycle",
+        "ready",
+        "init",
+        "enter_tree",
+        "exit_tree",
         ""
       ]
     },
     {
-      "slug": "deterministic_simulation",
+      "slug": "instance",
       "terms": [
-        "deterministic simulation",
+        "instance",
+        "oop",
+        ""
+      ]
+    },
+    {
+      "slug": "easing",
+      "terms": [
+        "animation easing",
+        ""
+      ]
+    },
+    {
+      "slug": "quality_assurance",
+      "terms": [
+        "quality assurance (qa)",
+        ""
+      ]
+    },
+    {
+      "slug": "string",
+      "terms": [
+        "string",
+        "text",
+        "characters",
+        ""
+      ]
+    },
+    {
+      "slug": "error_programming",
+      "terms": [
+        "programming error",
+        "exception",
+        "static",
+        ""
+      ]
+    },
+    {
+      "slug": "continuous_collision_detection",
+      "terms": [
+        "continuous collision detection (ccd)",
+        "CCD",
+        "tunneling",
+        "fast-moving objects",
+        ""
+      ]
+    },
+    {
+      "slug": "floating_point_rounding_error",
+      "terms": [
+        "floating point rounding errors",
+        "maths",
+        "rounding",
+        "float",
+        "int",
+        "number",
+        ""
+      ]
+    },
+    {
+      "slug": "type",
+      "terms": [
+        "type",
+        ""
+      ]
+    },
+    {
+      "slug": "dynamic_static_weak_strong",
+      "terms": [
+        "dynamic, static, weak, and strong languages",
+        ""
+      ]
+    },
+    {
+      "slug": "tonemap",
+      "terms": [
+        "tonemap",
+        "hdr",
+        "lighting",
+        "contrast",
+        "post-processing",
+        "aces",
+        "filmic",
+        "high dynamic range",
+        ""
+      ]
+    },
+    {
+      "slug": "type_generic",
+      "terms": [
+        "generics",
+        ""
+      ]
+    },
+    {
+      "slug": "dry",
+      "terms": [
+        "dry (don't repeat yourself)",
+        "WET",
+        ""
+      ]
+    },
+    {
+      "slug": "nine_slice_scaling",
+      "terms": [
+        "9-slice scaling",
+        "nine",
+        "texture",
+        "slicing",
+        "user interface",
+        "ui",
+        ""
+      ]
+    },
+    {
+      "slug": "function_pure",
+      "terms": [
+        "pure functions",
+        "fp",
+        ""
+      ]
+    },
+    {
+      "slug": "architecture",
+      "terms": [
+        "software architecture",
+        "structure",
+        "pattern",
+        ""
+      ]
+    },
+    {
+      "slug": "tunneling",
+      "terms": [
+        "tunneling",
         "physics",
-        "determinism",
-        "consistency",
         ""
       ]
     },
     {
-      "slug": "function_signature",
+      "slug": "scene",
       "terms": [
-        "function signature",
+        "scene",
         ""
       ]
     },
     {
-      "slug": "coyote_time",
+      "slug": "finite_state_machine_state",
       "terms": [
-        "coyote time",
-        "grace period",
-        "delayed jump",
+        "state (finite state machine)",
+        "FSM",
+        "automata",
         ""
       ]
     },
     {
-      "slug": "framework",
+      "slug": "kinematic_body",
       "terms": [
-        "software framework",
-        "engine",
-        "game engine",
+        "kinematic body",
+        "physics body",
+        "character controller",
+        "player movement",
+        "CharacterBody2D",
+        "CharacterBody3D",
         ""
       ]
     },
     {
-      "slug": "dot_product",
+      "slug": "pathfinding",
       "terms": [
-        "dot product",
-        "vectors",
-        "math",
-        "geometry",
+        "pathfinding",
+        "astar",
+        "a*",
+        "djikstra",
         ""
       ]
     },
     {
-      "slug": "best_code",
+      "slug": "virtual_class",
       "terms": [
-        "best possible code",
-        "efficiency",
-        "efficient",
-        ""
-      ]
-    },
-    {
-      "slug": "reference_counting",
-      "terms": [
-        "reference counting",
-        "memory management",
-        ""
-      ]
-    },
-    {
-      "slug": "property",
-      "terms": [
-        "property, member variable",
-        ""
-      ]
-    },
-    {
-      "slug": "type_coercion",
-      "terms": [
-        "implicit type coercion",
-        "conversion",
+        "abstract base class (or virtual base class)",
+        "abstract class",
+        "abstract function",
+        "abstract method",
         ""
       ]
     },
@@ -872,181 +1083,6 @@
       "slug": "interface_driven_design",
       "terms": [
         "interface driven design",
-        ""
-      ]
-    },
-    {
-      "slug": "virtual_class",
-      "terms": [
-        "abstract base class (or virtual base class)",
-        "abstract class",
-        "abstract function",
-        "abstract method",
-        ""
-      ]
-    },
-    {
-      "slug": "pathfinding",
-      "terms": [
-        "pathfinding",
-        "astar",
-        "a*",
-        "djikstra",
-        ""
-      ]
-    },
-    {
-      "slug": "kinematic_body",
-      "terms": [
-        "kinematic body",
-        "physics body",
-        "character controller",
-        "player movement",
-        "CharacterBody2D",
-        "CharacterBody3D",
-        ""
-      ]
-    },
-    {
-      "slug": "finite_state_machine_state",
-      "terms": [
-        "state (finite state machine)",
-        "FSM",
-        "automata",
-        ""
-      ]
-    },
-    {
-      "slug": "scene",
-      "terms": [
-        "scene",
-        ""
-      ]
-    },
-    {
-      "slug": "tunneling",
-      "terms": [
-        "tunneling",
-        "physics",
-        ""
-      ]
-    },
-    {
-      "slug": "architecture",
-      "terms": [
-        "software architecture",
-        "structure",
-        "pattern",
-        ""
-      ]
-    },
-    {
-      "slug": "function_pure",
-      "terms": [
-        "pure functions",
-        "fp",
-        ""
-      ]
-    },
-    {
-      "slug": "nine_slice_scaling",
-      "terms": [
-        "9-slice scaling",
-        "nine",
-        "texture",
-        "slicing",
-        "user interface",
-        "ui",
-        ""
-      ]
-    },
-    {
-      "slug": "dry",
-      "terms": [
-        "dry (don't repeat yourself)",
-        "WET",
-        ""
-      ]
-    },
-    {
-      "slug": "type_generic",
-      "terms": [
-        "generics",
-        ""
-      ]
-    },
-    {
-      "slug": "tonemap",
-      "terms": [
-        "tonemap",
-        "hdr",
-        "lighting",
-        "contrast",
-        "post-processing",
-        "aces",
-        "filmic",
-        "high dynamic range",
-        ""
-      ]
-    },
-    {
-      "slug": "dynamic_static_weak_strong",
-      "terms": [
-        "dynamic, static, weak, and strong languages",
-        ""
-      ]
-    },
-    {
-      "slug": "type",
-      "terms": [
-        "type",
-        ""
-      ]
-    },
-    {
-      "slug": "floating_point_rounding_error",
-      "terms": [
-        "floating point rounding errors",
-        "maths",
-        "rounding",
-        "float",
-        "int",
-        "number",
-        ""
-      ]
-    },
-    {
-      "slug": "continuous_collision_detection",
-      "terms": [
-        "continuous collision detection (ccd)",
-        "CCD",
-        "tunneling",
-        "fast-moving objects",
-        ""
-      ]
-    },
-    {
-      "slug": "error_programming",
-      "terms": [
-        "programming error",
-        "exception",
-        "static",
-        ""
-      ]
-    },
-    {
-      "slug": "string",
-      "terms": [
-        "string",
-        "text",
-        "characters",
-        ""
-      ]
-    },
-    {
-      "slug": "quality_assurance",
-      "terms": [
-        "quality assurance (qa)",
         ""
       ]
     },
@@ -1260,16 +1296,33 @@
       ]
     },
     {
-      "slug": "naming",
+      "slug": "texel",
       "terms": [
-        "naming things",
+        "texel",
+        "pixel",
+        "texture",
+        "graphics",
         ""
       ]
     },
     {
-      "slug": "ai_in_games",
+      "slug": "serialization",
       "terms": [
-        "ai (game ai)",
+        "serialization",
+        ""
+      ]
+    },
+    {
+      "slug": "copy_customize_create",
+      "terms": [
+        "copy, customize, create",
+        ""
+      ]
+    },
+    {
+      "slug": "pragmatic_programming",
+      "terms": [
+        "pragmatic programming",
         ""
       ]
     },
@@ -1283,33 +1336,16 @@
       ]
     },
     {
-      "slug": "pragmatic_programming",
+      "slug": "ai_in_games",
       "terms": [
-        "pragmatic programming",
+        "ai (game ai)",
         ""
       ]
     },
     {
-      "slug": "copy_customize_create",
+      "slug": "naming",
       "terms": [
-        "copy, customize, create",
-        ""
-      ]
-    },
-    {
-      "slug": "serialization",
-      "terms": [
-        "serialization",
-        ""
-      ]
-    },
-    {
-      "slug": "texel",
-      "terms": [
-        "texel",
-        "pixel",
-        "texture",
-        "graphics",
+        "naming things",
         ""
       ]
     },
@@ -1490,28 +1526,34 @@
       ]
     },
     {
-      "slug": "opengl",
+      "slug": "variable",
       "terms": [
-        "opengl",
-        "graphics",
-        "rendering",
-        "vulkan",
+        "variable",
         ""
       ]
     },
     {
-      "slug": "data",
+      "slug": "dont_repeat_yourself",
       "terms": [
-        "data",
+        "don't repeat yourself (dry)",
+        "dry",
+        "principle",
         ""
       ]
     },
     {
-      "slug": "pebkac",
+      "slug": "encapsulation",
       "terms": [
-        "pebkac (user error)",
-        "problem exists between keyboard and chair",
-        "PEBCAK",
+        "encapsulation",
+        "oop",
+        ""
+      ]
+    },
+    {
+      "slug": "gamejam",
+      "terms": [
+        "game jam",
+        "gamejam",
         ""
       ]
     },
@@ -1526,76 +1568,34 @@
       ]
     },
     {
-      "slug": "gamejam",
+      "slug": "pebkac",
       "terms": [
-        "game jam",
-        "gamejam",
+        "pebkac (user error)",
+        "problem exists between keyboard and chair",
+        "PEBCAK",
         ""
       ]
     },
     {
-      "slug": "encapsulation",
+      "slug": "data",
       "terms": [
-        "encapsulation",
-        "oop",
+        "data",
         ""
       ]
     },
     {
-      "slug": "dont_repeat_yourself",
+      "slug": "opengl",
       "terms": [
-        "don't repeat yourself (dry)",
-        "dry",
-        "principle",
-        ""
-      ]
-    },
-    {
-      "slug": "variable",
-      "terms": [
-        "variable",
-        ""
-      ]
-    },
-    {
-      "slug": "easing",
-      "terms": [
-        "animation easing",
-        ""
-      ]
-    },
-    {
-      "slug": "instance",
-      "terms": [
-        "instance",
-        "oop",
-        ""
-      ]
-    },
-    {
-      "slug": "lifecycle_node",
-      "terms": [
-        "node lifecycle",
-        "ready",
-        "init",
-        "enter_tree",
-        "exit_tree",
-        ""
-      ]
-    },
-    {
-      "slug": "premature_optimization",
-      "terms": [
-        "premature optimization",
-        "early optimization",
-        "evil",
-        "future proofing",
+        "opengl",
+        "graphics",
+        "rendering",
+        "vulkan",
         ""
       ]
     }
   ],
   "metadata": {
     "version": 1,
-    "generatedAt": "2026-10-20T10:19:00.101Z"
+    "generatedAt": "2026-10-21T09:00:53.352Z"
   }
 }

@@ -497,6 +497,18 @@
       "use_when": "You want to check for objects along a line in 3D space"
     },
     {
+      "name": "MeshInstance3D",
+      "title": "MeshInstance3D let you add 3d models to your games.",
+      "examples": [
+        "Creating a forest with hundreds of trees scattered over a landscape",
+        "Adding props and decorations to 3D levels",
+        "Creating fast-rendering flocking birds or fish",
+        "Building procedural environments with scattered rocks and vegetation"
+      ],
+      "category": "3D",
+      "use_when": "You want to display 3D models and meshes in your scene"
+    },
+    {
       "name": "CharacterBody3D",
       "title": "CharacterBody3D lets you code custom 3D movement",
       "examples": [
@@ -508,18 +520,6 @@
       ],
       "category": "3D",
       "use_when": "You want to create a player or AI-controlled entity that interacts with the physics environment"
-    },
-    {
-      "name": "MeshInstance3D",
-      "title": "MeshInstance3D let you add 3d models to your games.",
-      "examples": [
-        "Creating a forest with hundreds of trees scattered over a landscape",
-        "Adding props and decorations to 3D levels",
-        "Creating fast-rendering flocking birds or fish",
-        "Building procedural environments with scattered rocks and vegetation"
-      ],
-      "category": "3D",
-      "use_when": "You want to display 3D models and meshes in your scene"
     }
   ]
 }
